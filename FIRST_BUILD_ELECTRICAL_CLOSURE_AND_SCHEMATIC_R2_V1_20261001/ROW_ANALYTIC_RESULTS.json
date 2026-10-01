@@ -1,0 +1,218 @@
+[
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 800.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 0.05970652155605229,
+    "ideal_100uV_pass": false,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 800.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 0.011589470736491024,
+    "ideal_100uV_pass": false,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 0.0596702106137765,
+    "ideal_100uV_pass": false,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 0.011577318082769784,
+    "ideal_100uV_pass": false,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 0.059342841288537174,
+    "ideal_100uV_pass": false,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 0.011467967767999299,
+    "ideal_100uV_pass": false,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 6.171603812399428e-07,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 1.191383064601445e-09,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 5.899679509359384e-07,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 1.1112067441011674e-09,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 3.799662837702409e-07,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "V1_REJECTED",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 5.62562765219926e-10,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 800.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 2.7653602009777913e-08,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 800.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 3.0599051674876653e-12,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 2.763766774259514e-08,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 3.058142021172196e-12,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 2.7495081407594115e-08,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 800.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 3.042364667353048e-12,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 2.152337215510043e-09,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 0,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 2.381587673673216e-13,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 2.1513718210855327e-09,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-10,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 2.3805194528363137e-13,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0002,
+    "ADC_residual_V": 2.142722085598746e-09,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  },
+  {
+    "design": "R2_CANDIDATE",
+    "equal_cells_R": 8000.0,
+    "line_C_F": 1e-09,
+    "sample_time_s": 0.0003,
+    "ADC_residual_V": 2.370948413843251e-13,
+    "ideal_100uV_pass": true,
+    "model": "ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient"
+  }
+]

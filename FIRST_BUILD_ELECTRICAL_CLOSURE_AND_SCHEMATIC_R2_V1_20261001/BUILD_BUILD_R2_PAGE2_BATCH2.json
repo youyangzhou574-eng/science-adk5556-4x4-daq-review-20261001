@@ -1,0 +1,859 @@
+{
+  "started_utc": "2026-10-01T05:57:10.533765+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "\nconst plan={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": {\"uuid\": \"49bb518d907ff185\", \"index\": 2, \"name\": \"Continuous_Column_TIAs\"}, \"parts\": [{\"ref\": \"C_ADC3\", \"device\": \"GRM188R71C103KA01D\", \"device_uuid\": \"c56f334b54c04ce4bdf72e5b3aff82d2\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 1630, \"y\": 1180, \"rotation\": 0, \"subpart\": \"GRM188R71C103KA01D.1\", \"nets\": {\"1\": \"ADC_IN3\", \"2\": \"GND\"}, \"value\": \"10nF X7R\", \"role\": \"\"}, {\"ref\": \"C_TIA_OP\", \"device\": \"GRM188R71C104KA01D\", \"device_uuid\": \"582e6743b52f4d549473833313fcf026\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 280, \"y\": 1320, \"rotation\": 0, \"subpart\": \"GRM188R71C104KA01D.1\", \"nets\": {\"1\": \"V5\", \"2\": \"GND\"}, \"value\": \"100nF\", \"role\": \"\"}, {\"ref\": \"R_TIA_ISO0\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 730, \"y\": 1320, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"TIA_DRV0\", \"2\": \"TIA0\"}, \"value\": \"1k 1%\", \"role\": \"All RF/CF and ADC takeoff after 1k output isolation\"}, {\"ref\": \"D_TIA0\", \"device\": \"BAT54S,215\", \"device_uuid\": \"862039df28364e9395be8ec3e804cf6f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 1180, \"y\": 1320, \"rotation\": 0, \"subpart\": \"BAT54S,215.1\", \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"TIA_DRV0\"}, \"value\": null, \"role\": \"Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD\"}, {\"ref\": \"R_TIA_ISO1\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 1630, \"y\": 1320, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"TIA_DRV1\", \"2\": \"TIA1\"}, \"value\": \"1k 1%\", \"role\": \"All RF/CF and ADC takeoff after 1k output isolation\"}, {\"ref\": \"D_TIA1\", \"device\": \"BAT54S,215\", \"device_uuid\": \"862039df28364e9395be8ec3e804cf6f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 280, \"y\": 1460, \"rotation\": 0, \"subpart\": \"BAT54S,215.1\", \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"TIA_DRV1\"}, \"value\": null, \"role\": \"Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD\"}, {\"ref\": \"R_TIA_ISO2\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 730, \"y\": 1460, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"TIA_DRV2\", \"2\": \"TIA2\"}, \"value\": \"1k 1%\", \"role\": \"All RF/CF and ADC takeoff after 1k output isolation\"}, {\"ref\": \"D_TIA2\", \"device\": \"BAT54S,215\", \"device_uuid\": \"862039df28364e9395be8ec3e804cf6f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 1180, \"y\": 1460, \"rotation\": 0, \"subpart\": \"BAT54S,215.1\", \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"TIA_DRV2\"}, \"value\": null, \"role\": \"Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD\"}, {\"ref\": \"R_TIA_ISO3\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 1630, \"y\": 1460, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"TIA_DRV3\", \"2\": \"TIA3\"}, \"value\": \"1k 1%\", \"role\": \"All RF/CF and ADC takeoff after 1k output isolation\"}, {\"ref\": \"D_TIA3\", \"device\": \"BAT54S,215\", \"device_uuid\": \"862039df28364e9395be8ec3e804cf6f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 2, \"x\": 280, \"y\": 1600, \"rotation\": 0, \"subpart\": \"BAT54S,215.1\", \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"TIA_DRV3\"}, \"value\": null, \"role\": \"Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD\"}], \"height\": 1780, \"notes\": [\"Four continuous TIAs; Rf4.99k || Cf2.2nF from isolated TIA tap to COL\", \"OPA output -> 1k -> TIA tap; all ADC/filter/feedback takeoffs after isolation\", \"COL -> 10k -> OPA minus; internal input-clamp current bounded, fault/thermal and macro loop HOLD\"], \"first\": false, \"last\": true};\nconst result={page:plan.page,parts:[],markers:[],wires:[],nc:[],status:'STARTED'};\ntry {\n const project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong R2 context');\n await eda.dmt_EditorControl.openDocument(plan.page.uuid);\n const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();if(pg?.uuid!==plan.page.uuid)throw Error('Wrong page');\n if(plan.first){\n  const initial=await eda.sch_PrimitiveComponent.getAll();if(initial.some(c=>c.getState_ComponentType()!=='sheet'))throw Error('Expected empty new page');\n  await eda.dmt_Schematic.modifySchematicPageTitleBlock(false);\n  // DMT custom-size edits returned a known error; use the real frame's existing Border attribute.\n  // Suppress decorative frame only, while all explicit net labels, pin numbers and page headings remain.\n  for(const c of initial)if(c.getState_ComponentType()==='sheet'){\n   const attrs=await eda.sch_PrimitiveAttribute.getAll(c.getState_PrimitiveId());\n   const border=attrs.find(a=>a.getState_Key()==='Border');if(!border)throw Error('No real Border property');\n   const updated=await eda.sch_PrimitiveAttribute.modify(border.getState_PrimitiveId(),{value:'0'});if(!updated)throw Error('Border edit failed');\n  }\n  for(let i=0;i<plan.notes.length;i++)await eda.sch_PrimitiveText.create(80,55+i*23,plan.notes[i],0,null,null,12,i===0);\n  await eda.sch_PrimitiveText.create(80,25,'R2 REVIEW ONLY - '+plan.page.name+' - '+(plan.page.index+1)+'/6',0,null,null,16,true);\n }\n const existing=new Set((await eda.sch_PrimitiveComponent.getAll()).map(c=>c.getState_Designator()));\n for(const q of plan.parts){\n  if(existing.has(q.ref))throw Error('Duplicate ref '+q.ref);\n  const c=await eda.sch_PrimitiveComponent.create({libraryUuid:q.library_uuid,uuid:q.device_uuid},q.x,q.y,q.subpart,0,false,true,true);if(!c)throw Error('Create '+q.ref);\n  const m=await eda.sch_PrimitiveComponent.modify(c.getState_PrimitiveId(),{designator:q.ref,name:q.value||q.device,otherProperty:{...c.getState_OtherProperty(),'Review Status':'R2 REVIEW / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD',...(q.value?{Value:q.value}:{}),'Circuit Role':q.role}});if(!m)throw Error('Modify '+q.ref);\n  const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());\n  const actual=ps.map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),rotation:v.getState_Rotation()}));\n  if(actual.length!==Object.keys(q.nets).length||new Set(actual.map(x=>x.number)).size!==actual.length||actual.some(x=>!(x.number in q.nets)))throw Error('Real pin mismatch '+q.ref);\n  result.parts.push({ref:q.ref,id:m.getState_PrimitiveId(),association:m.getState_Component(),footprint:m.getState_Footprint(),pins:actual});\n  for(let i=0;i<ps.length;i++){\n   const pin=ps[i],a=actual[i],net=q.nets[a.number];\n   if(net===null){await pin.setState_NoConnected(true).done();result.nc.push({ref:q.ref,pin:a.number});continue;}\n   let ox=0,oy=0;\n   // Use actual inward pin direction and real net-port anchor; never infer opposite-angle semantics.\n   const length=q.ref.startsWith('U')?110:55;\n   if(a.rotation===0)ox=-length;else if(a.rotation===180)ox=length;else if(a.rotation===90)oy=-length;else if(a.rotation===270)oy=length;else throw Error('Unsupported pin angle');\n   const mark=await eda.sch_PrimitiveComponent.createNetPort('BI',net,a.x+ox,a.y+oy,ox<0?180:oy<0?90:oy>0?270:0,false);if(!mark)throw Error('Port');\n   const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(mark.getState_PrimitiveId());if(mp.length!==1)throw Error('Port anchor');\n   const mx=mp[0].getState_X(),my=mp[0].getState_Y();const line=[a.x,a.y,mx,a.y];if(my!==a.y)line.push(mx,my);\n   const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');\n   // Ports retain visible net names. Remove only duplicated automatic wire text, not pin numbers or explicit network labels.\n   for(const attr of await eda.sch_PrimitiveAttribute.getAll(w.getState_PrimitiveId())){\n    if(attr.getState_Key()==='NET'||attr.getState_Key()==='Net')await eda.sch_PrimitiveAttribute.modify(attr.getState_PrimitiveId(),{valueVisible:false,keyVisible:false});\n   }\n   result.markers.push({ref:q.ref,pin:a.number,net,id:mark.getState_PrimitiveId(),x:mx,y:my});result.wires.push({ref:q.ref,pin:a.number,net,id:w.getState_PrimitiveId(),line});\n  }\n }\n if(plan.last){result.saved=await eda.sch_Document.save();if(result.saved!==true)throw Error('Save did not return true');}\n result.status='BATCH_CREATED';return result;\n}catch(e){result.status='STOP_NATIVE_BUILD_ERROR';result.error={name:e?.name,message:e?.message,stack:e?.stack};return result;}\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"49bb518d907ff185\",\"index\":2,\"name\":\"Continuous_Column_TIAs\"},\"parts\":[{\"ref\":\"C_ADC3\",\"id\":\"e3b8b3aaa4e8bd6b\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e5f95925fa9c28bf\",\"name\":\"GRM188R71C103KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1630,\"y\":1160,\"rotation\":270},{\"number\":\"2\",\"name\":\"2\",\"x\":1630,\"y\":1200,\"rotation\":90}]},{\"ref\":\"C_TIA_OP\",\"id\":\"07705683ecf00017\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":265,\"y\":1320,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":295,\"y\":1320,\"rotation\":0}]},{\"ref\":\"R_TIA_ISO0\",\"id\":\"164ceea0c376f8f1\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":750,\"y\":1320,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":710,\"y\":1320,\"rotation\":180}]},{\"ref\":\"D_TIA0\",\"id\":\"4acb53051a5269b6\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6b7f8a0cf29ef171\",\"name\":\"BAT54S,215\"},\"footprint\":{\"uuid\":\"8ef6c020c23f0901\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\"},\"pins\":[{\"number\":\"1\",\"name\":\"A\",\"x\":1150,\"y\":1330,\"rotation\":180},{\"number\":\"3\",\"name\":\"AK\",\"x\":1210,\"y\":1320,\"rotation\":0},{\"number\":\"2\",\"name\":\"K\",\"x\":1150,\"y\":1310,\"rotation\":180}]},{\"ref\":\"R_TIA_ISO1\",\"id\":\"3f95310a7aa5988c\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1650,\"y\":1320,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1610,\"y\":1320,\"rotation\":180}]},{\"ref\":\"D_TIA1\",\"id\":\"48db88ea6b990f56\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6b7f8a0cf29ef171\",\"name\":\"BAT54S,215\"},\"footprint\":{\"uuid\":\"8ef6c020c23f0901\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\"},\"pins\":[{\"number\":\"1\",\"name\":\"A\",\"x\":250,\"y\":1470,\"rotation\":180},{\"number\":\"3\",\"name\":\"AK\",\"x\":310,\"y\":1460,\"rotation\":0},{\"number\":\"2\",\"name\":\"K\",\"x\":250,\"y\":1450,\"rotation\":180}]},{\"ref\":\"R_TIA_ISO2\",\"id\":\"6821cd6460722840\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":750,\"y\":1460,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":710,\"y\":1460,\"rotation\":180}]},{\"ref\":\"D_TIA2\",\"id\":\"947349e994d3713e\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6b7f8a0cf29ef171\",\"name\":\"BAT54S,215\"},\"footprint\":{\"uuid\":\"8ef6c020c23f0901\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\"},\"pins\":[{\"number\":\"1\",\"name\":\"A\",\"x\":1150,\"y\":1470,\"rotation\":180},{\"number\":\"3\",\"name\":\"AK\",\"x\":1210,\"y\":1460,\"rotation\":0},{\"number\":\"2\",\"name\":\"K\",\"x\":1150,\"y\":1450,\"rotation\":180}]},{\"ref\":\"R_TIA_ISO3\",\"id\":\"06013ccd18f89991\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1650,\"y\":1460,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1610,\"y\":1460,\"rotation\":180}]},{\"ref\":\"D_TIA3\",\"id\":\"b79c20cc50255c90\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6b7f8a0cf29ef171\",\"name\":\"BAT54S,215\"},\"footprint\":{\"uuid\":\"8ef6c020c23f0901\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\"},\"pins\":[{\"number\":\"1\",\"name\":\"A\",\"x\":250,\"y\":1610,\"rotation\":180},{\"number\":\"3\",\"name\":\"AK\",\"x\":310,\"y\":1600,\"rotation\":0},{\"number\":\"2\",\"name\":\"K\",\"x\":250,\"y\":1590,\"rotation\":180}]}],\"markers\":[{\"ref\":\"C_ADC3\",\"pin\":\"1\",\"net\":\"ADC_IN3\",\"id\":\"fd08273a5bd07bcb\",\"x\":1630,\"y\":1215},{\"ref\":\"C_ADC3\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"78888c89223c7f01\",\"x\":1630,\"y\":1144.9999999999998},{\"ref\":\"C_TIA_OP\",\"pin\":\"1\",\"net\":\"V5\",\"id\":\"a8aa0b4f1c595105\",\"x\":320,\"y\":1320},{\"ref\":\"C_TIA_OP\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"b923d69c30a94c34\",\"x\":240,\"y\":1320},{\"ref\":\"R_TIA_ISO0\",\"pin\":\"2\",\"net\":\"TIA0\",\"id\":\"b40bcec057e15259\",\"x\":694.9999999999999,\"y\":1320},{\"ref\":\"R_TIA_ISO0\",\"pin\":\"1\",\"net\":\"TIA_DRV0\",\"id\":\"312d2697d575925a\",\"x\":765,\"y\":1320},{\"ref\":\"D_TIA0\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"b860249216646f27\",\"x\":1205,\"y\":1330},{\"ref\":\"D_TIA0\",\"pin\":\"3\",\"net\":\"TIA_DRV0\",\"id\":\"b5d051a4db74ed05\",\"x\":1154.9999999999998,\"y\":1320.0000000000002},{\"ref\":\"D_TIA0\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"a0bdc084bb2da164\",\"x\":1205,\"y\":1310},{\"ref\":\"R_TIA_ISO1\",\"pin\":\"2\",\"net\":\"TIA1\",\"id\":\"fadf54958829a7da\",\"x\":1594.9999999999998,\"y\":1320.0000000000002},{\"ref\":\"R_TIA_ISO1\",\"pin\":\"1\",\"net\":\"TIA_DRV1\",\"id\":\"17b597e808eac851\",\"x\":1665,\"y\":1320},{\"ref\":\"D_TIA1\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"c7123d3e9d8304d5\",\"x\":305,\"y\":1470},{\"ref\":\"D_TIA1\",\"pin\":\"3\",\"net\":\"TIA_DRV1\",\"id\":\"6671e4642f739f4d\",\"x\":255,\"y\":1460},{\"ref\":\"D_TIA1\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"acef8b892c847c71\",\"x\":305,\"y\":1450},{\"ref\":\"R_TIA_ISO2\",\"pin\":\"2\",\"net\":\"TIA2\",\"id\":\"0a406b7b45edeab7\",\"x\":695,\"y\":1460},{\"ref\":\"R_TIA_ISO2\",\"pin\":\"1\",\"net\":\"TIA_DRV2\",\"id\":\"ed19a44c3079c393\",\"x\":765,\"y\":1460},{\"ref\":\"D_TIA2\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"8ce591d19ba1e8f6\",\"x\":1205,\"y\":1470},{\"ref\":\"D_TIA2\",\"pin\":\"3\",\"net\":\"TIA_DRV2\",\"id\":\"5f243ff7c6c1bad8\",\"x\":1154.9999999999998,\"y\":1460.0000000000002},{\"ref\":\"D_TIA2\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"dc85d2d7a07eb558\",\"x\":1205,\"y\":1450},{\"ref\":\"R_TIA_ISO3\",\"pin\":\"2\",\"net\":\"TIA3\",\"id\":\"c764b0d083acf63a\",\"x\":1594.9999999999998,\"y\":1460.0000000000002},{\"ref\":\"R_TIA_ISO3\",\"pin\":\"1\",\"net\":\"TIA_DRV3\",\"id\":\"04cf7d6beb82c8ad\",\"x\":1665,\"y\":1460},{\"ref\":\"D_TIA3\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"a5508a7dc8696f36\",\"x\":305,\"y\":1610},{\"ref\":\"D_TIA3\",\"pin\":\"3\",\"net\":\"TIA_DRV3\",\"id\":\"581dea32e8287d91\",\"x\":255.00000000000003,\"y\":1600},{\"ref\":\"D_TIA3\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"21528a322fda2327\",\"x\":305,\"y\":1590}],\"wires\":[{\"ref\":\"C_ADC3\",\"pin\":\"1\",\"net\":\"ADC_IN3\",\"id\":\"f221d0df842961db\",\"line\":[1630,1160,1630,1160,1630,1215]},{\"ref\":\"C_ADC3\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"f221d0df842961db\",\"line\":[1630,1200,1630,1200,1630,1144.9999999999998]},{\"ref\":\"C_TIA_OP\",\"pin\":\"1\",\"net\":\"V5\",\"id\":\"f8de04189a9fd6b5\",\"line\":[265,1320,320,1320]},{\"ref\":\"C_TIA_OP\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"f8de04189a9fd6b5\",\"line\":[295,1320,240,1320]},{\"ref\":\"R_TIA_ISO0\",\"pin\":\"2\",\"net\":\"TIA0\",\"id\":\"09d0f8f8724cc485\",\"line\":[750,1320,694.9999999999999,1320]},{\"ref\":\"R_TIA_ISO0\",\"pin\":\"1\",\"net\":\"TIA_DRV0\",\"id\":\"09d0f8f8724cc485\",\"line\":[710,1320,765,1320]},{\"ref\":\"D_TIA0\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"d6485e382a18226b\",\"line\":[1150,1330,1205,1330]},{\"ref\":\"D_TIA0\",\"pin\":\"3\",\"net\":\"TIA_DRV0\",\"id\":\"d7a9e8c28a7a4a1e\",\"line\":[1210,1320,1154.9999999999998,1320,1154.9999999999998,1320.0000000000002]},{\"ref\":\"D_TIA0\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"baf5abc6d36d6132\",\"line\":[1150,1310,1205,1310]},{\"ref\":\"R_TIA_ISO1\",\"pin\":\"2\",\"net\":\"TIA1\",\"id\":\"d2e9a6a0facfcd25\",\"line\":[1650,1320,1594.9999999999998,1320,1594.9999999999998,1320.0000000000002]},{\"ref\":\"R_TIA_ISO1\",\"pin\":\"1\",\"net\":\"TIA_DRV1\",\"id\":\"d2e9a6a0facfcd25\",\"line\":[1610,1320,1665,1320]},{\"ref\":\"D_TIA1\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"2a364aef0c6a8d32\",\"line\":[250,1470,305,1470]},{\"ref\":\"D_TIA1\",\"pin\":\"3\",\"net\":\"TIA_DRV1\",\"id\":\"83c26eff825bce47\",\"line\":[310,1460,255,1460]},{\"ref\":\"D_TIA1\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"bb48c351a9e3489b\",\"line\":[250,1450,305,1450]},{\"ref\":\"R_TIA_ISO2\",\"pin\":\"2\",\"net\":\"TIA2\",\"id\":\"fca8e07fc9e54205\",\"line\":[750,1460,695,1460]},{\"ref\":\"R_TIA_ISO2\",\"pin\":\"1\",\"net\":\"TIA_DRV2\",\"id\":\"fca8e07fc9e54205\",\"line\":[710,1460,765,1460]},{\"ref\":\"D_TIA2\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"0b28345a21275b45\",\"line\":[1150,1470,1205,1470]},{\"ref\":\"D_TIA2\",\"pin\":\"3\",\"net\":\"TIA_DRV2\",\"id\":\"a4f65810b87f4230\",\"line\":[1210,1460,1154.9999999999998,1460,1154.9999999999998,1460.0000000000002]},{\"ref\":\"D_TIA2\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"5478bf835d4f3de9\",\"line\":[1150,1450,1205,1450]},{\"ref\":\"R_TIA_ISO3\",\"pin\":\"2\",\"net\":\"TIA3\",\"id\":\"e11317f303ef0a0e\",\"line\":[1650,1460,1594.9999999999998,1460,1594.9999999999998,1460.0000000000002]},{\"ref\":\"R_TIA_ISO3\",\"pin\":\"1\",\"net\":\"TIA_DRV3\",\"id\":\"e11317f303ef0a0e\",\"line\":[1610,1460,1665,1460]},{\"ref\":\"D_TIA3\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"8b3434633856e179\",\"line\":[250,1610,305,1610]},{\"ref\":\"D_TIA3\",\"pin\":\"3\",\"net\":\"TIA_DRV3\",\"id\":\"7a31eec12ffdd8a2\",\"line\":[310,1600,255.00000000000003,1600]},{\"ref\":\"D_TIA3\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"ff67c53105ce1492\",\"line\":[250,1590,305,1590]}],\"nc\":[],\"status\":\"BATCH_CREATED\",\"saved\":true},\"logs\":[],\"durationMs\":9452}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "49bb518d907ff185",
+        "index": 2,
+        "name": "Continuous_Column_TIAs"
+      },
+      "parts": [
+        {
+          "ref": "C_ADC3",
+          "id": "e3b8b3aaa4e8bd6b",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "e5f95925fa9c28bf",
+            "name": "GRM188R71C103KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1630,
+              "y": 1160,
+              "rotation": 270
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1630,
+              "y": 1200,
+              "rotation": 90
+            }
+          ]
+        },
+        {
+          "ref": "C_TIA_OP",
+          "id": "07705683ecf00017",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 265,
+              "y": 1320,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 295,
+              "y": 1320,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO0",
+          "id": "164ceea0c376f8f1",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 750,
+              "y": 1320,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 710,
+              "y": 1320,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "D_TIA0",
+          "id": "4acb53051a5269b6",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6b7f8a0cf29ef171",
+            "name": "BAT54S,215"
+          },
+          "footprint": {
+            "uuid": "8ef6c020c23f0901",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "A",
+              "x": 1150,
+              "y": 1330,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "AK",
+              "x": 1210,
+              "y": 1320,
+              "rotation": 0
+            },
+            {
+              "number": "2",
+              "name": "K",
+              "x": 1150,
+              "y": 1310,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO1",
+          "id": "3f95310a7aa5988c",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1650,
+              "y": 1320,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1610,
+              "y": 1320,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "D_TIA1",
+          "id": "48db88ea6b990f56",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6b7f8a0cf29ef171",
+            "name": "BAT54S,215"
+          },
+          "footprint": {
+            "uuid": "8ef6c020c23f0901",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "A",
+              "x": 250,
+              "y": 1470,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "AK",
+              "x": 310,
+              "y": 1460,
+              "rotation": 0
+            },
+            {
+              "number": "2",
+              "name": "K",
+              "x": 250,
+              "y": 1450,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO2",
+          "id": "6821cd6460722840",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 750,
+              "y": 1460,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 710,
+              "y": 1460,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "D_TIA2",
+          "id": "947349e994d3713e",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6b7f8a0cf29ef171",
+            "name": "BAT54S,215"
+          },
+          "footprint": {
+            "uuid": "8ef6c020c23f0901",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "A",
+              "x": 1150,
+              "y": 1470,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "AK",
+              "x": 1210,
+              "y": 1460,
+              "rotation": 0
+            },
+            {
+              "number": "2",
+              "name": "K",
+              "x": 1150,
+              "y": 1450,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO3",
+          "id": "06013ccd18f89991",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1650,
+              "y": 1460,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1610,
+              "y": 1460,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "D_TIA3",
+          "id": "b79c20cc50255c90",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6b7f8a0cf29ef171",
+            "name": "BAT54S,215"
+          },
+          "footprint": {
+            "uuid": "8ef6c020c23f0901",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "A",
+              "x": 250,
+              "y": 1610,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "AK",
+              "x": 310,
+              "y": 1600,
+              "rotation": 0
+            },
+            {
+              "number": "2",
+              "name": "K",
+              "x": 250,
+              "y": 1590,
+              "rotation": 180
+            }
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "ref": "C_ADC3",
+          "pin": "1",
+          "net": "ADC_IN3",
+          "id": "fd08273a5bd07bcb",
+          "x": 1630,
+          "y": 1215
+        },
+        {
+          "ref": "C_ADC3",
+          "pin": "2",
+          "net": "GND",
+          "id": "78888c89223c7f01",
+          "x": 1630,
+          "y": 1144.9999999999998
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "1",
+          "net": "V5",
+          "id": "a8aa0b4f1c595105",
+          "x": 320,
+          "y": 1320
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "2",
+          "net": "GND",
+          "id": "b923d69c30a94c34",
+          "x": 240,
+          "y": 1320
+        },
+        {
+          "ref": "R_TIA_ISO0",
+          "pin": "2",
+          "net": "TIA0",
+          "id": "b40bcec057e15259",
+          "x": 694.9999999999999,
+          "y": 1320
+        },
+        {
+          "ref": "R_TIA_ISO0",
+          "pin": "1",
+          "net": "TIA_DRV0",
+          "id": "312d2697d575925a",
+          "x": 765,
+          "y": 1320
+        },
+        {
+          "ref": "D_TIA0",
+          "pin": "1",
+          "net": "GND",
+          "id": "b860249216646f27",
+          "x": 1205,
+          "y": 1330
+        },
+        {
+          "ref": "D_TIA0",
+          "pin": "3",
+          "net": "TIA_DRV0",
+          "id": "b5d051a4db74ed05",
+          "x": 1154.9999999999998,
+          "y": 1320.0000000000002
+        },
+        {
+          "ref": "D_TIA0",
+          "pin": "2",
+          "net": "V5",
+          "id": "a0bdc084bb2da164",
+          "x": 1205,
+          "y": 1310
+        },
+        {
+          "ref": "R_TIA_ISO1",
+          "pin": "2",
+          "net": "TIA1",
+          "id": "fadf54958829a7da",
+          "x": 1594.9999999999998,
+          "y": 1320.0000000000002
+        },
+        {
+          "ref": "R_TIA_ISO1",
+          "pin": "1",
+          "net": "TIA_DRV1",
+          "id": "17b597e808eac851",
+          "x": 1665,
+          "y": 1320
+        },
+        {
+          "ref": "D_TIA1",
+          "pin": "1",
+          "net": "GND",
+          "id": "c7123d3e9d8304d5",
+          "x": 305,
+          "y": 1470
+        },
+        {
+          "ref": "D_TIA1",
+          "pin": "3",
+          "net": "TIA_DRV1",
+          "id": "6671e4642f739f4d",
+          "x": 255,
+          "y": 1460
+        },
+        {
+          "ref": "D_TIA1",
+          "pin": "2",
+          "net": "V5",
+          "id": "acef8b892c847c71",
+          "x": 305,
+          "y": 1450
+        },
+        {
+          "ref": "R_TIA_ISO2",
+          "pin": "2",
+          "net": "TIA2",
+          "id": "0a406b7b45edeab7",
+          "x": 695,
+          "y": 1460
+        },
+        {
+          "ref": "R_TIA_ISO2",
+          "pin": "1",
+          "net": "TIA_DRV2",
+          "id": "ed19a44c3079c393",
+          "x": 765,
+          "y": 1460
+        },
+        {
+          "ref": "D_TIA2",
+          "pin": "1",
+          "net": "GND",
+          "id": "8ce591d19ba1e8f6",
+          "x": 1205,
+          "y": 1470
+        },
+        {
+          "ref": "D_TIA2",
+          "pin": "3",
+          "net": "TIA_DRV2",
+          "id": "5f243ff7c6c1bad8",
+          "x": 1154.9999999999998,
+          "y": 1460.0000000000002
+        },
+        {
+          "ref": "D_TIA2",
+          "pin": "2",
+          "net": "V5",
+          "id": "dc85d2d7a07eb558",
+          "x": 1205,
+          "y": 1450
+        },
+        {
+          "ref": "R_TIA_ISO3",
+          "pin": "2",
+          "net": "TIA3",
+          "id": "c764b0d083acf63a",
+          "x": 1594.9999999999998,
+          "y": 1460.0000000000002
+        },
+        {
+          "ref": "R_TIA_ISO3",
+          "pin": "1",
+          "net": "TIA_DRV3",
+          "id": "04cf7d6beb82c8ad",
+          "x": 1665,
+          "y": 1460
+        },
+        {
+          "ref": "D_TIA3",
+          "pin": "1",
+          "net": "GND",
+          "id": "a5508a7dc8696f36",
+          "x": 305,
+          "y": 1610
+        },
+        {
+          "ref": "D_TIA3",
+          "pin": "3",
+          "net": "TIA_DRV3",
+          "id": "581dea32e8287d91",
+          "x": 255.00000000000003,
+          "y": 1600
+        },
+        {
+          "ref": "D_TIA3",
+          "pin": "2",
+          "net": "V5",
+          "id": "21528a322fda2327",
+          "x": 305,
+          "y": 1590
+        }
+      ],
+      "wires": [
+        {
+          "ref": "C_ADC3",
+          "pin": "1",
+          "net": "ADC_IN3",
+          "id": "f221d0df842961db",
+          "line": [
+            1630,
+            1160,
+            1630,
+            1160,
+            1630,
+            1215
+          ]
+        },
+        {
+          "ref": "C_ADC3",
+          "pin": "2",
+          "net": "GND",
+          "id": "f221d0df842961db",
+          "line": [
+            1630,
+            1200,
+            1630,
+            1200,
+            1630,
+            1144.9999999999998
+          ]
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "1",
+          "net": "V5",
+          "id": "f8de04189a9fd6b5",
+          "line": [
+            265,
+            1320,
+            320,
+            1320
+          ]
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "2",
+          "net": "GND",
+          "id": "f8de04189a9fd6b5",
+          "line": [
+            295,
+            1320,
+            240,
+            1320
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO0",
+          "pin": "2",
+          "net": "TIA0",
+          "id": "09d0f8f8724cc485",
+          "line": [
+            750,
+            1320,
+            694.9999999999999,
+            1320
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO0",
+          "pin": "1",
+          "net": "TIA_DRV0",
+          "id": "09d0f8f8724cc485",
+          "line": [
+            710,
+            1320,
+            765,
+            1320
+          ]
+        },
+        {
+          "ref": "D_TIA0",
+          "pin": "1",
+          "net": "GND",
+          "id": "d6485e382a18226b",
+          "line": [
+            1150,
+            1330,
+            1205,
+            1330
+          ]
+        },
+        {
+          "ref": "D_TIA0",
+          "pin": "3",
+          "net": "TIA_DRV0",
+          "id": "d7a9e8c28a7a4a1e",
+          "line": [
+            1210,
+            1320,
+            1154.9999999999998,
+            1320,
+            1154.9999999999998,
+            1320.0000000000002
+          ]
+        },
+        {
+          "ref": "D_TIA0",
+          "pin": "2",
+          "net": "V5",
+          "id": "baf5abc6d36d6132",
+          "line": [
+            1150,
+            1310,
+            1205,
+            1310
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO1",
+          "pin": "2",
+          "net": "TIA1",
+          "id": "d2e9a6a0facfcd25",
+          "line": [
+            1650,
+            1320,
+            1594.9999999999998,
+            1320,
+            1594.9999999999998,
+            1320.0000000000002
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO1",
+          "pin": "1",
+          "net": "TIA_DRV1",
+          "id": "d2e9a6a0facfcd25",
+          "line": [
+            1610,
+            1320,
+            1665,
+            1320
+          ]
+        },
+        {
+          "ref": "D_TIA1",
+          "pin": "1",
+          "net": "GND",
+          "id": "2a364aef0c6a8d32",
+          "line": [
+            250,
+            1470,
+            305,
+            1470
+          ]
+        },
+        {
+          "ref": "D_TIA1",
+          "pin": "3",
+          "net": "TIA_DRV1",
+          "id": "83c26eff825bce47",
+          "line": [
+            310,
+            1460,
+            255,
+            1460
+          ]
+        },
+        {
+          "ref": "D_TIA1",
+          "pin": "2",
+          "net": "V5",
+          "id": "bb48c351a9e3489b",
+          "line": [
+            250,
+            1450,
+            305,
+            1450
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO2",
+          "pin": "2",
+          "net": "TIA2",
+          "id": "fca8e07fc9e54205",
+          "line": [
+            750,
+            1460,
+            695,
+            1460
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO2",
+          "pin": "1",
+          "net": "TIA_DRV2",
+          "id": "fca8e07fc9e54205",
+          "line": [
+            710,
+            1460,
+            765,
+            1460
+          ]
+        },
+        {
+          "ref": "D_TIA2",
+          "pin": "1",
+          "net": "GND",
+          "id": "0b28345a21275b45",
+          "line": [
+            1150,
+            1470,
+            1205,
+            1470
+          ]
+        },
+        {
+          "ref": "D_TIA2",
+          "pin": "3",
+          "net": "TIA_DRV2",
+          "id": "a4f65810b87f4230",
+          "line": [
+            1210,
+            1460,
+            1154.9999999999998,
+            1460,
+            1154.9999999999998,
+            1460.0000000000002
+          ]
+        },
+        {
+          "ref": "D_TIA2",
+          "pin": "2",
+          "net": "V5",
+          "id": "5478bf835d4f3de9",
+          "line": [
+            1150,
+            1450,
+            1205,
+            1450
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO3",
+          "pin": "2",
+          "net": "TIA3",
+          "id": "e11317f303ef0a0e",
+          "line": [
+            1650,
+            1460,
+            1594.9999999999998,
+            1460,
+            1594.9999999999998,
+            1460.0000000000002
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO3",
+          "pin": "1",
+          "net": "TIA_DRV3",
+          "id": "e11317f303ef0a0e",
+          "line": [
+            1610,
+            1460,
+            1665,
+            1460
+          ]
+        },
+        {
+          "ref": "D_TIA3",
+          "pin": "1",
+          "net": "GND",
+          "id": "8b3434633856e179",
+          "line": [
+            250,
+            1610,
+            305,
+            1610
+          ]
+        },
+        {
+          "ref": "D_TIA3",
+          "pin": "3",
+          "net": "TIA_DRV3",
+          "id": "7a31eec12ffdd8a2",
+          "line": [
+            310,
+            1600,
+            255.00000000000003,
+            1600
+          ]
+        },
+        {
+          "ref": "D_TIA3",
+          "pin": "2",
+          "net": "V5",
+          "id": "ff67c53105ce1492",
+          "line": [
+            250,
+            1590,
+            305,
+            1590
+          ]
+        }
+      ],
+      "nc": [],
+      "status": "BATCH_CREATED",
+      "saved": true
+    },
+    "logs": [],
+    "durationMs": 9452
+  }
+}

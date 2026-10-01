@@ -1,0 +1,34 @@
+[
+  {
+    "name": "SN74LVC1G17",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf",
+    "bytes": 3015318,
+    "sha256": "c76fa723fac4502423967a1aa087dd669106b52b8de620c024b26e56f5d59309",
+    "pages": 53,
+    "status": "DOWNLOADED_PRIMARY"
+  },
+  {
+    "name": "YAGEO_RC_L",
+    "url": "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf",
+    "status": "FAILED",
+    "error": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>"
+  },
+  {
+    "name": "MURATA_22u",
+    "url": "https://psearch.en.murata.com/capacitor/product/GRM32ER71E226KE15%23.pdf",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "MURATA_2u2",
+    "url": "https://psearch.en.murata.com/capacitor/product/GRM31CR71H225KA88%23.pdf",
+    "status": "FAILED",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "STM32G031",
+    "url": "https://www.st.com/resource/en/datasheet/stm32g031c8.pdf",
+    "status": "FAILED",
+    "error": "HTTP Error 567: Unknown Status"
+  }
+]

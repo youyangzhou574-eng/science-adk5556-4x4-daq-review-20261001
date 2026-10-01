@@ -1,0 +1,47 @@
+test_bad_tag_revokes_previously_valid_state (test_spi_state_machine.SpiRegression.test_bad_tag_revokes_previously_valid_state) ... ERROR
+test_duplicate_frame_rejects_recovery (test_spi_state_machine.SpiRegression.test_duplicate_frame_rejects_recovery) ... ERROR
+test_incomplete_frame_and_same_timestamp_cannot_qualify (test_spi_state_machine.SpiRegression.test_incomplete_frame_and_same_timestamp_cannot_qualify) ... ERROR
+test_incorrect_channel_or_range_tag_rejects_payload (test_spi_state_machine.SpiRegression.test_incorrect_channel_or_range_tag_rejects_payload) ... ok
+test_manual_command_frame_returns_old_channel_then_nop_returns_new (test_spi_state_machine.SpiRegression.test_manual_command_frame_returns_old_channel_then_nop_returns_new) ... ok
+test_power_fault_and_two_complete_recovery_frames (test_spi_state_machine.SpiRegression.test_power_fault_and_two_complete_recovery_frames) ... ERROR
+
+======================================================================
+ERROR: test_bad_tag_revokes_previously_valid_state (test_spi_state_machine.SpiRegression.test_bad_tag_revokes_previously_valid_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\test_spi_state_machine.py", line 42, in test_bad_tag_revokes_previously_valid_state
+    v.complete_frame(110,1,samples());v.complete_frame(120,2,samples());self.assertTrue(v.valid)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: Validity.complete_frame() takes 2 positional arguments but 4 were given
+
+======================================================================
+ERROR: test_duplicate_frame_rejects_recovery (test_spi_state_machine.SpiRegression.test_duplicate_frame_rejects_recovery)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\test_spi_state_machine.py", line 37, in test_duplicate_frame_rejects_recovery
+    self.assertFalse(v.complete_frame(110,1,samples()))
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: Validity.complete_frame() takes 2 positional arguments but 4 were given
+
+======================================================================
+ERROR: test_incomplete_frame_and_same_timestamp_cannot_qualify (test_spi_state_machine.SpiRegression.test_incomplete_frame_and_same_timestamp_cannot_qualify)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\test_spi_state_machine.py", line 29, in test_incomplete_frame_and_same_timestamp_cannot_qualify
+    with self.assertRaises(FrameFault):v.complete_frame(110,1,samples()[:-1])
+                                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Validity.complete_frame() takes 2 positional arguments but 4 were given
+
+======================================================================
+ERROR: test_power_fault_and_two_complete_recovery_frames (test_spi_state_machine.SpiRegression.test_power_fault_and_two_complete_recovery_frames)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\test_spi_state_machine.py", line 20, in test_power_fault_and_two_complete_recovery_frames
+    self.assertFalse(v.complete_frame(110,1,samples()));self.assertTrue(v.complete_frame(120,2,samples()))
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: Validity.complete_frame() takes 2 positional arguments but 4 were given
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+FAILED (errors=4)

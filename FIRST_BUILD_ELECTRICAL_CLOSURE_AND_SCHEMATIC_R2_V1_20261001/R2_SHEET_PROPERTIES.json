@@ -1,0 +1,427 @@
+{
+  "started_utc": "2026-10-01T05:52:31.990868+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const p=await eda.dmt_Project.getCurrentProjectInfo();if(p?.uuid!=='f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe')throw Error('Wrong R2');\nconst cs=await eda.sch_PrimitiveComponent.getAll();return {page:await eda.dmt_Schematic.getCurrentSchematicPageInfo(),components:cs.map(c=>({id:c.getState_PrimitiveId(),type:c.getState_ComponentType(),props:c.getState_OtherProperty()})),attributes:(await eda.sch_PrimitiveAttribute.getAll()).map(a=>({id:a.getState_PrimitiveId(),key:a.getState_Key(),value:a.getState_Value(),parent:a.getState_ParentPrimitiveId()}))};\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"name\":\"Power_Reference\",\"itemType\":\"Schematic Page\",\"uuid\":\"595d5f2f11dee03d\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"parentSchematicName\":\"Schematic1\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Power_Reference\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:48:39\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":1},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:51:00\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}},\"components\":[{\"id\":\"a58903691cbeee5a\",\"type\":\"sheet\",\"props\":{\"Company\":\"嘉立创EDA\",\"Drawed\":\"\",\"Reviewed\":\"\",\"Part Number\":\"\",\"Version\":\"V1.0\",\"Page Size\":\"A4\",\"@Project Name\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\",\"@Update Date\":\"2026-10-01\",\"@Create Date\":\"2026-10-01\",\"@Board Name\":\"Board1\",\"@Page Name\":\"Power_Reference\",\"@Create Time\":\"13:48:39\",\"@Page Count\":\"6\",\"@Page No\":\"1\",\"@Schematic Name\":\"Schematic1\",\"@Update Time\":\"13:51:00\",\"@Assembly Variant\":\"Basic\",\"Border\":\"1\",\"Title Block Position\":\"3\",\"Size\":\"A4\",\"Width\":\"1170\",\"Height\":\"825\",\"Region Start\":\"1\",\"X Region Count\":\"6\",\"Y Region Count\":\"4\",\"Blade Width\":\"10\",\"Color\":\"\",\"Title Block\":\"0\",\"Description\":\"\"}}],\"attributes\":[{\"id\":\"04cd01268e24a493\",\"key\":\"Symbol\",\"value\":\"b066fd5c5450919f\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"470c1def0ce366cd\",\"key\":\"Company\",\"value\":\"嘉立创EDA\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"f764aeb2dd8af382\",\"key\":\"Drawed\",\"value\":\"\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"42a2b95c91743afa\",\"key\":\"Reviewed\",\"value\":\"\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"d4e817db36161ae6\",\"key\":\"Part Number\",\"value\":\"\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"6a947bcd33b0ae1b\",\"key\":\"Version\",\"value\":\"V1.0\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"6a6bc980758a4977\",\"key\":\"Page Size\",\"value\":\"A4\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"69d483cdc155cdad\",\"key\":\"@Project Name\",\"value\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"778758722e17d03b\",\"key\":\"@Update Date\",\"value\":\"2026-10-01\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"c84f39050e8f9600\",\"key\":\"@Create Date\",\"value\":\"2026-10-01\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"386dac1b21faa570\",\"key\":\"Device\",\"value\":\"2a04943b39492029\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"b52b689da41bfb6c\",\"key\":\"@Board Name\",\"value\":\"Board1\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"3bb0804e0ab4d9fa\",\"key\":\"@Page Name\",\"value\":\"Power_Reference\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"6749c07b94f36751\",\"key\":\"@Create Time\",\"value\":\"13:48:39\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"894db4fff4833cc4\",\"key\":\"@Page Count\",\"value\":\"6\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"c68160d0c799da61\",\"key\":\"@Page No\",\"value\":\"1\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"b48859fedcbcf8c3\",\"key\":\"@Schematic Name\",\"value\":\"Schematic1\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"d26239ec891a6dc1\",\"key\":\"@Update Time\",\"value\":\"13:51:00\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"9e7633564a80da9e\",\"key\":\"@Assembly Variant\",\"value\":\"Basic\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"56e7821d4cde4080\",\"key\":\"Border\",\"value\":\"1\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"376c46d967fdd062\",\"key\":\"Title Block Position\",\"value\":\"3\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"227917e5e3ee971b\",\"key\":\"Size\",\"value\":\"A4\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"c677eee7c3e39f36\",\"key\":\"Width\",\"value\":\"1170\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"22486d014240543b\",\"key\":\"Height\",\"value\":\"825\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"2bc2df3b8e26ffd2\",\"key\":\"Region Start\",\"value\":\"1\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"a294cbc89481fa75\",\"key\":\"X Region Count\",\"value\":\"6\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"738c8df5e302b0d8\",\"key\":\"Y Region Count\",\"value\":\"4\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"7a742974c6254e00\",\"key\":\"Blade Width\",\"value\":\"10\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"47496ec4bae20eab\",\"key\":\"Color\",\"value\":\"\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"0d8a7f1d39c2e0c1\",\"key\":\"Title Block\",\"value\":\"0\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"591e04b8ed60d80c\",\"key\":\"Name\",\"value\":\"\",\"parent\":\"a58903691cbeee5a\"},{\"id\":\"f9cb95a7570edfcd\",\"key\":\"Description\",\"value\":\"\",\"parent\":\"a58903691cbeee5a\"}]},\"logs\":[],\"durationMs\":7}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "name": "Power_Reference",
+        "itemType": "Schematic Page",
+        "uuid": "595d5f2f11dee03d",
+        "parentSchematicUuid": "32047f874e6d71ce",
+        "parentSchematicName": "Schematic1",
+        "showTitleBlock": false,
+        "titleBlockData": {
+          "Symbol": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "Drawing-Symbol_A4"
+          },
+          "Company": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "嘉立创EDA"
+          },
+          "Drawed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Reviewed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Part Number": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Version": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "V1.0"
+          },
+          "Page Size": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "A4"
+          },
+          "@Project Name": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1"
+          },
+          "@Update Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-01"
+          },
+          "@Create Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-01"
+          },
+          "Device": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Drawing-Symbol_A4"
+          },
+          "@Board Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Board1"
+          },
+          "@Page Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Power_Reference"
+          },
+          "@Create Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "13:48:39"
+          },
+          "@Page Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 6
+          },
+          "@Page No": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1
+          },
+          "@Schematic Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Schematic1"
+          },
+          "@Update Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "13:51:00"
+          },
+          "@Assembly Variant": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Basic"
+          },
+          "Border": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "Title Block Position": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "3"
+          },
+          "Size": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "A4"
+          },
+          "Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1170
+          },
+          "Height": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 825
+          },
+          "Region Start": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "X Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 6
+          },
+          "Y Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 4
+          },
+          "Blade Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 10
+          },
+          "Color": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Title Block": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "0"
+          },
+          "Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Description": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "ID": {}
+        }
+      },
+      "components": [
+        {
+          "id": "a58903691cbeee5a",
+          "type": "sheet",
+          "props": {
+            "Company": "嘉立创EDA",
+            "Drawed": "",
+            "Reviewed": "",
+            "Part Number": "",
+            "Version": "V1.0",
+            "Page Size": "A4",
+            "@Project Name": "SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1",
+            "@Update Date": "2026-10-01",
+            "@Create Date": "2026-10-01",
+            "@Board Name": "Board1",
+            "@Page Name": "Power_Reference",
+            "@Create Time": "13:48:39",
+            "@Page Count": "6",
+            "@Page No": "1",
+            "@Schematic Name": "Schematic1",
+            "@Update Time": "13:51:00",
+            "@Assembly Variant": "Basic",
+            "Border": "1",
+            "Title Block Position": "3",
+            "Size": "A4",
+            "Width": "1170",
+            "Height": "825",
+            "Region Start": "1",
+            "X Region Count": "6",
+            "Y Region Count": "4",
+            "Blade Width": "10",
+            "Color": "",
+            "Title Block": "0",
+            "Description": ""
+          }
+        }
+      ],
+      "attributes": [
+        {
+          "id": "04cd01268e24a493",
+          "key": "Symbol",
+          "value": "b066fd5c5450919f",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "470c1def0ce366cd",
+          "key": "Company",
+          "value": "嘉立创EDA",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "f764aeb2dd8af382",
+          "key": "Drawed",
+          "value": "",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "42a2b95c91743afa",
+          "key": "Reviewed",
+          "value": "",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "d4e817db36161ae6",
+          "key": "Part Number",
+          "value": "",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "6a947bcd33b0ae1b",
+          "key": "Version",
+          "value": "V1.0",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "6a6bc980758a4977",
+          "key": "Page Size",
+          "value": "A4",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "69d483cdc155cdad",
+          "key": "@Project Name",
+          "value": "SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "778758722e17d03b",
+          "key": "@Update Date",
+          "value": "2026-10-01",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "c84f39050e8f9600",
+          "key": "@Create Date",
+          "value": "2026-10-01",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "386dac1b21faa570",
+          "key": "Device",
+          "value": "2a04943b39492029",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "b52b689da41bfb6c",
+          "key": "@Board Name",
+          "value": "Board1",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "3bb0804e0ab4d9fa",
+          "key": "@Page Name",
+          "value": "Power_Reference",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "6749c07b94f36751",
+          "key": "@Create Time",
+          "value": "13:48:39",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "894db4fff4833cc4",
+          "key": "@Page Count",
+          "value": "6",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "c68160d0c799da61",
+          "key": "@Page No",
+          "value": "1",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "b48859fedcbcf8c3",
+          "key": "@Schematic Name",
+          "value": "Schematic1",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "d26239ec891a6dc1",
+          "key": "@Update Time",
+          "value": "13:51:00",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "9e7633564a80da9e",
+          "key": "@Assembly Variant",
+          "value": "Basic",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "56e7821d4cde4080",
+          "key": "Border",
+          "value": "1",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "376c46d967fdd062",
+          "key": "Title Block Position",
+          "value": "3",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "227917e5e3ee971b",
+          "key": "Size",
+          "value": "A4",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "c677eee7c3e39f36",
+          "key": "Width",
+          "value": "1170",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "22486d014240543b",
+          "key": "Height",
+          "value": "825",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "2bc2df3b8e26ffd2",
+          "key": "Region Start",
+          "value": "1",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "a294cbc89481fa75",
+          "key": "X Region Count",
+          "value": "6",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "738c8df5e302b0d8",
+          "key": "Y Region Count",
+          "value": "4",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "7a742974c6254e00",
+          "key": "Blade Width",
+          "value": "10",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "47496ec4bae20eab",
+          "key": "Color",
+          "value": "",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "0d8a7f1d39c2e0c1",
+          "key": "Title Block",
+          "value": "0",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "591e04b8ed60d80c",
+          "key": "Name",
+          "value": "",
+          "parent": "a58903691cbeee5a"
+        },
+        {
+          "id": "f9cb95a7570edfcd",
+          "key": "Description",
+          "value": "",
+          "parent": "a58903691cbeee5a"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 7
+  }
+}

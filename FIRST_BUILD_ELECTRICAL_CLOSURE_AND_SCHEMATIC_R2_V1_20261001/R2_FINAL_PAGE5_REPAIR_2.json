@@ -1,0 +1,69 @@
+{
+  "started_utc": "2026-10-01T06:12:37.632861+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const d={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": \"cae95ff24beaad15\", \"parts\": [{\"ref\": \"U10_OUT_CAP\", \"y\": 1940, \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}}, {\"ref\": \"U10_BLEED\", \"y\": 2220, \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}}, {\"ref\": \"U11\", \"y\": 2220, \"nets\": {\"1\": \"U11_SENSE\", \"2\": \"GND\", \"3\": \"V3V3\", \"4\": \"V3V3\", \"5\": \"U11_CT\", \"6\": \"PGOOD\"}}, {\"ref\": \"U11_TOP0\", \"y\": 2220, \"nets\": {\"1\": \"V5\", \"2\": \"U11_DIV1\"}}, {\"ref\": \"U11_TOP1\", \"y\": 2500, \"nets\": {\"1\": \"U11_DIV1\", \"2\": \"U11_DIV2\"}}, {\"ref\": \"U11_TOP2\", \"y\": 2500, \"nets\": {\"1\": \"U11_DIV2\", \"2\": \"U11_DIV3\"}}, {\"ref\": \"U11_TOP3\", \"y\": 2500, \"nets\": {\"1\": \"U11_DIV3\", \"2\": \"U11_DIV4\"}}, {\"ref\": \"U11_TOP4\", \"y\": 2780, \"nets\": {\"1\": \"U11_DIV4\", \"2\": \"U11_SENSE\"}}, {\"ref\": \"U11_BOT\", \"y\": 2780, \"nets\": {\"1\": \"U11_SENSE\", \"2\": \"GND\"}}, {\"ref\": \"U11_SENSE_C\", \"y\": 2780, \"nets\": {\"1\": \"U11_SENSE\", \"2\": \"GND\"}}], \"first\": false};const r={page:d.page,parts:[],status:'STARTED'};try{const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!==d.project)throw Error('Wrong R2');await eda.dmt_EditorControl.openDocument(d.page);if(d.first){for(const w of await eda.sch_PrimitiveWire.getAll())if(!await eda.sch_PrimitiveWire.delete(w))throw Error('Delete wire');for(const c of await eda.sch_PrimitiveComponent.getAll())if(c.getState_ComponentType()==='netport')if(!await eda.sch_PrimitiveComponent.delete(c))throw Error('Delete port');}const cs=await eda.sch_PrimitiveComponent.getAll();for(const q of d.parts){const c=cs.find(v=>v.getState_Designator()===q.ref&&v.getState_ComponentType()==='part');if(!c)throw Error('Missing '+q.ref);let pins=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());if(q.ref.startsWith('C')&&pins.length===2&&Math.abs(pins[0].getState_X()-pins[1].getState_X())<1e-5){await eda.sch_PrimitiveComponent.modify(c,{rotation:90});pins=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());}let n=0;for(const pin of pins){const num=String(pin.getState_PinNumber()),net=q.nets[num];if(net===undefined)throw Error('Unexpected pin');if(net===null){await pin.setState_NoConnected(true).done();continue;}const rnd=v=>Math.round(v*1e6)/1e6,x=rnd(pin.getState_X()),y=rnd(pin.getState_Y()),a=pin.getState_Rotation(),len=/^U[0-9]+$/.test(q.ref)?110:55;let ox=0,oy=0;if(a===0)ox=len;else if(a===180)ox=-len;else oy=Math.sign(y-q.y)*len;if(!ox&&!oy)throw Error('Direction');const ex=rnd(x+ox),ey=rnd(y+oy);const m=await eda.sch_PrimitiveComponent.createNetPort('BI',net,ex,ey,ox<0?180:ox>0?0:oy>0?90:270,false);if(!m)throw Error('Port');const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());if(mp.length!==1)throw Error('Port pins');const ax=rnd(mp[0].getState_X()),ay=rnd(mp[0].getState_Y());if(Math.abs(ax-ex)>1e-5||Math.abs(ay-ey)>1e-5)throw Error('Anchor');const w=await eda.sch_PrimitiveWire.create([[x,y,ax,ay]],net);if(!w)throw Error('Wire');for(const at of await eda.sch_PrimitiveAttribute.getAll(m.getState_PrimitiveId()))if(at.getState_Key()==='Name')await eda.sch_PrimitiveAttribute.modify(at.getState_PrimitiveId(),{rotation:0,x:ex+(ox>=0?18:-18),y:ey,alignMode:ox>=0?2:8,fontSize:8});n++;}r.parts.push({ref:q.ref,connected:n});}r.status='REPAIRED';return r;}catch(e){r.status='FAILED';r.error={name:e.name,message:e.message,stack:e.stack};return r;}",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":\"cae95ff24beaad15\",\"parts\":[{\"ref\":\"U10_OUT_CAP\",\"connected\":2},{\"ref\":\"U10_BLEED\",\"connected\":2},{\"ref\":\"U11\",\"connected\":6},{\"ref\":\"U11_TOP0\",\"connected\":2},{\"ref\":\"U11_TOP1\",\"connected\":2},{\"ref\":\"U11_TOP2\",\"connected\":2},{\"ref\":\"U11_TOP3\",\"connected\":2},{\"ref\":\"U11_TOP4\",\"connected\":2},{\"ref\":\"U11_BOT\",\"connected\":2},{\"ref\":\"U11_SENSE_C\",\"connected\":2}],\"status\":\"REPAIRED\"},\"logs\":[],\"durationMs\":5484}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": "cae95ff24beaad15",
+      "parts": [
+        {
+          "ref": "U10_OUT_CAP",
+          "connected": 2
+        },
+        {
+          "ref": "U10_BLEED",
+          "connected": 2
+        },
+        {
+          "ref": "U11",
+          "connected": 6
+        },
+        {
+          "ref": "U11_TOP0",
+          "connected": 2
+        },
+        {
+          "ref": "U11_TOP1",
+          "connected": 2
+        },
+        {
+          "ref": "U11_TOP2",
+          "connected": 2
+        },
+        {
+          "ref": "U11_TOP3",
+          "connected": 2
+        },
+        {
+          "ref": "U11_TOP4",
+          "connected": 2
+        },
+        {
+          "ref": "U11_BOT",
+          "connected": 2
+        },
+        {
+          "ref": "U11_SENSE_C",
+          "connected": 2
+        }
+      ],
+      "status": "REPAIRED"
+    },
+    "logs": [],
+    "durationMs": 5484
+  }
+}

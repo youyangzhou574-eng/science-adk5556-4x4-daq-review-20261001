@@ -1,0 +1,25 @@
+{
+  "DC_row_state_solves": 176,
+  "DC_validation_patterns": 6,
+  "DC_validation_wire_vectors": 7,
+  "fixed_calibration_groups": 1,
+  "row_analytic_cases": 24,
+  "ADC_INL_vertices_endpoints": 128,
+  "fault_static_or_qualitative_cases": 33,
+  "AC_macro": 0,
+  "normal_transient_macro": 0,
+  "fault_transient_macro": 0,
+  "within_0p1_wire_G_error_max_pct": 0.05878703644595085,
+  "postcal_plus0p1_G_error_max_pct": 0.1087073109302561,
+  "postcal_plus1_G_error_max_pct": 1.0008672384301587,
+  "default_ADC_INL_R_error_max_pct": 1.6527181939656854,
+  "R2_ADC_INL_R_error_max_pct": 0.4077595780123122,
+  "R2_300us_residual_max_V": 3.0599051674876653e-12,
+  "native_proceed_gate": "ADC range0-5.12V and range readback required; known topology corrected; dynamic/thermal/capacity remain HOLD",
+  "static_curve_ADC_INL_R_error_max_pct": {
+    "R2_unipolar5p12": 0.20606774260591987,
+    "V1_default_bipolar10p24": 0.8301360306939731
+  },
+  "previous_INL_values_classification": "additional independent cross-phase blank-error drift sensitivity envelope; not fixed INL alone",
+  "ADC_STATIC_CURVE_vertices_endpoints": 64
+}

@@ -1,0 +1,14 @@
+test_old_row_compensation_reproduces_review_counterexample (test_analytical.AnalyticalRegression.test_old_row_compensation_reproduces_review_counterexample) ... ok
+test_revised_row_candidate_screens_both_load_endpoints (test_analytical.AnalyticalRegression.test_revised_row_candidate_screens_both_load_endpoints) ... ok
+test_zero_capacitive_feedthrough_current_not_used_as_fault_bound (test_analytical.AnalyticalRegression.test_zero_capacitive_feedthrough_current_not_used_as_fault_bound) ... ok
+test_bad_tag_revokes_previously_valid_state (test_spi_state_machine.SpiRegression.test_bad_tag_revokes_previously_valid_state) ... ok
+test_duplicate_frame_rejects_recovery (test_spi_state_machine.SpiRegression.test_duplicate_frame_rejects_recovery) ... ok
+test_incomplete_frame_and_same_timestamp_cannot_qualify (test_spi_state_machine.SpiRegression.test_incomplete_frame_and_same_timestamp_cannot_qualify) ... ok
+test_incorrect_channel_or_range_tag_rejects_payload (test_spi_state_machine.SpiRegression.test_incorrect_channel_or_range_tag_rejects_payload) ... ok
+test_manual_command_frame_returns_old_channel_then_nop_returns_new (test_spi_state_machine.SpiRegression.test_manual_command_frame_returns_old_channel_then_nop_returns_new) ... ok
+test_power_fault_and_two_complete_recovery_frames (test_spi_state_machine.SpiRegression.test_power_fault_and_two_complete_recovery_frames) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.911s
+
+OK

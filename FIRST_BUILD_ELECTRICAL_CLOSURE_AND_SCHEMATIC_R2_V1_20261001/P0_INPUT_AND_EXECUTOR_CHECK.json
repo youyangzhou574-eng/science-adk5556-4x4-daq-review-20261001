@@ -1,0 +1,28 @@
+{
+  "PATH": {
+    "ngspice.exe": null,
+    "LTspice.exe": null,
+    "XVIIx64.exe": null,
+    "scad3.exe": null,
+    "simetrix.exe": null,
+    "tina.exe": null
+  },
+  "standardPaths": {
+    "C:\\Program Files\\ADI\\LTspice\\LTspice.exe": false,
+    "C:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe": false,
+    "H:\\Program Files\\ADI\\LTspice\\LTspice.exe": false,
+    "H:\\Program Files\\LTC\\LTspiceXVII\\XVIIx64.exe": false,
+    "C:\\Program Files\\ngspice\\bin\\ngspice.exe": false,
+    "H:\\Program Files\\ngspice\\bin\\ngspice.exe": false,
+    "C:\\Spice64\\bin\\ngspice.exe": false
+  },
+  "checkedAt": "2026-10-01T05:10:47.901818+00:00",
+  "adaptationStopped": true,
+  "model": {
+    "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\\sources\\OPA4388_PSPICE.zip.unpacked\\OPA4388.LIB",
+    "bytes": 17385,
+    "sha256": "958ff133418bd47522015057497858263e73b9e6d75860ef9c0b6fdabed5cd0d",
+    "format": "TI OPA4388 PSpice Final1.2, unmodified; executor compatibility not proven without executor"
+  },
+  "simulationExecutorConfirmed": false
+}

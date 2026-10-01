@@ -1,0 +1,16 @@
+* Row return-ratio probe: amplifier inverting input = fb + AC test.
+* Independent sources AC0, keep real loading. L(s)=-V(fb)/V(minus) for injected series source; validate injection algebra against closed loop first.
+.LIB "OPA4388.LIB"
+V5 v5 0 5
+VCMD cmd 0 2.25
+VTEST minus fb DC 0 AC 1
+XROW cmd minus v5 0 drv OPA4388
+RISO drv row 1k
+RFB row fb 4.99k
+CHF drv fb 100p
+RLOAD row vcm 200
+VCM vcm 0 2.5
+CL row 0 1n
+.AC DEC 200 1 100MEG
+.PROBE V(fb) V(minus) V(row) V(drv)
+.END

@@ -1,0 +1,377 @@
+{
+  "started_utc": "2026-10-01T05:55:15.569936+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "\nconst plan={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": {\"uuid\": \"595d5f2f11dee03d\", \"index\": 0, \"name\": \"Power_Reference\"}, \"parts\": [{\"ref\": \"R_VCM_ISO\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 0, \"x\": 730, \"y\": 1180, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"VCM_DRV\", \"2\": \"VCM\"}, \"value\": \"1k 1%\", \"role\": \"Feedback senses VCM after isolation\"}, {\"ref\": \"R_VEX_ISO\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 0, \"x\": 1180, \"y\": 1180, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"VEXC_DRV\", \"2\": \"VEXC\"}, \"value\": \"1k 1%\", \"role\": \"Feedback senses VEXC after isolation\"}, {\"ref\": \"D_VCM\", \"device\": \"BAT54S,215\", \"device_uuid\": \"862039df28364e9395be8ec3e804cf6f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 0, \"x\": 1630, \"y\": 1180, \"rotation\": 0, \"subpart\": \"BAT54S,215.1\", \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"VCM_DRV\"}, \"value\": null, \"role\": \"Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD\"}, {\"ref\": \"D_VEX\", \"device\": \"BAT54S,215\", \"device_uuid\": \"862039df28364e9395be8ec3e804cf6f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 0, \"x\": 280, \"y\": 1320, \"rotation\": 0, \"subpart\": \"BAT54S,215.1\", \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"VEXC_DRV\"}, \"value\": null, \"role\": \"Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD\"}], \"height\": 1500, \"notes\": [\"R2 REVIEW ONLY: 4x4 / 8 leads; VCM2.5V, VEXC2.25V, E0.25V, Rf4.99k\", \"Feedback senses VCM/VEXC after 1k isolation; macro stability HOLD\", \"Reference/supply capacitance and rail qualification: see page4/6 and report\"], \"first\": false, \"last\": true};\nconst result={page:plan.page,parts:[],markers:[],wires:[],nc:[],status:'STARTED'};\ntry {\n const project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong R2 context');\n await eda.dmt_EditorControl.openDocument(plan.page.uuid);\n const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();if(pg?.uuid!==plan.page.uuid)throw Error('Wrong page');\n if(plan.first){\n  const initial=await eda.sch_PrimitiveComponent.getAll();if(initial.some(c=>c.getState_ComponentType()!=='sheet'))throw Error('Expected empty new page');\n  await eda.dmt_Schematic.modifySchematicPageTitleBlock(false);\n  // DMT custom-size edits returned a known error; use the real frame's existing Border attribute.\n  // Suppress decorative frame only, while all explicit net labels, pin numbers and page headings remain.\n  for(const c of initial)if(c.getState_ComponentType()==='sheet'){\n   const attrs=await eda.sch_PrimitiveAttribute.getAll(c.getState_PrimitiveId());\n   const border=attrs.find(a=>a.getState_Key()==='Border');if(!border)throw Error('No real Border property');\n   const updated=await eda.sch_PrimitiveAttribute.modify(border.getState_PrimitiveId(),{value:'0'});if(!updated)throw Error('Border edit failed');\n  }\n  for(let i=0;i<plan.notes.length;i++)await eda.sch_PrimitiveText.create(80,55+i*23,plan.notes[i],0,null,null,12,i===0);\n  await eda.sch_PrimitiveText.create(80,25,'R2 REVIEW ONLY - '+plan.page.name+' - '+(plan.page.index+1)+'/6',0,null,null,16,true);\n }\n const existing=new Set((await eda.sch_PrimitiveComponent.getAll()).map(c=>c.getState_Designator()));\n for(const q of plan.parts){\n  if(existing.has(q.ref))throw Error('Duplicate ref '+q.ref);\n  const c=await eda.sch_PrimitiveComponent.create({libraryUuid:q.library_uuid,uuid:q.device_uuid},q.x,q.y,q.subpart,0,false,true,true);if(!c)throw Error('Create '+q.ref);\n  const m=await eda.sch_PrimitiveComponent.modify(c.getState_PrimitiveId(),{designator:q.ref,name:q.value||q.device,otherProperty:{...c.getState_OtherProperty(),'Review Status':'R2 REVIEW / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD',...(q.value?{Value:q.value}:{}),'Circuit Role':q.role}});if(!m)throw Error('Modify '+q.ref);\n  const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());\n  const actual=ps.map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),rotation:v.getState_Rotation()}));\n  if(actual.length!==Object.keys(q.nets).length||new Set(actual.map(x=>x.number)).size!==actual.length||actual.some(x=>!(x.number in q.nets)))throw Error('Real pin mismatch '+q.ref);\n  result.parts.push({ref:q.ref,id:m.getState_PrimitiveId(),association:m.getState_Component(),footprint:m.getState_Footprint(),pins:actual});\n  for(let i=0;i<ps.length;i++){\n   const pin=ps[i],a=actual[i],net=q.nets[a.number];\n   if(net===null){await pin.setState_NoConnected(true).done();result.nc.push({ref:q.ref,pin:a.number});continue;}\n   let ox=0,oy=0;\n   // Use actual inward pin direction and real net-port anchor; never infer opposite-angle semantics.\n   const length=q.ref.startsWith('U')?110:55;\n   if(a.rotation===0)ox=-length;else if(a.rotation===180)ox=length;else if(a.rotation===90)oy=-length;else if(a.rotation===270)oy=length;else throw Error('Unsupported pin angle');\n   const mark=await eda.sch_PrimitiveComponent.createNetPort('BI',net,a.x+ox,a.y+oy,ox<0?180:oy<0?90:oy>0?270:0,false);if(!mark)throw Error('Port');\n   const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(mark.getState_PrimitiveId());if(mp.length!==1)throw Error('Port anchor');\n   const mx=mp[0].getState_X(),my=mp[0].getState_Y();const line=[a.x,a.y,mx,a.y];if(my!==a.y)line.push(mx,my);\n   const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');\n   // Ports retain visible net names. Remove only duplicated automatic wire text, not pin numbers or explicit network labels.\n   for(const attr of await eda.sch_PrimitiveAttribute.getAll(w.getState_PrimitiveId())){\n    if(attr.getState_Key()==='NET'||attr.getState_Key()==='Net')await eda.sch_PrimitiveAttribute.modify(attr.getState_PrimitiveId(),{valueVisible:false,keyVisible:false});\n   }\n   result.markers.push({ref:q.ref,pin:a.number,net,id:mark.getState_PrimitiveId(),x:mx,y:my});result.wires.push({ref:q.ref,pin:a.number,net,id:w.getState_PrimitiveId(),line});\n  }\n }\n if(plan.last){result.saved=await eda.sch_Document.save();if(result.saved!==true)throw Error('Save did not return true');}\n result.status='BATCH_CREATED';return result;\n}catch(e){result.status='STOP_NATIVE_BUILD_ERROR';result.error={name:e?.name,message:e?.message,stack:e?.stack};return result;}\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"595d5f2f11dee03d\",\"index\":0,\"name\":\"Power_Reference\"},\"parts\":[{\"ref\":\"R_VCM_ISO\",\"id\":\"5031c9c4d9e914e7\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":750,\"y\":1180,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":710,\"y\":1180,\"rotation\":180}]},{\"ref\":\"R_VEX_ISO\",\"id\":\"18d654e6a2cad439\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1200,\"y\":1180,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1160,\"y\":1180,\"rotation\":180}]},{\"ref\":\"D_VCM\",\"id\":\"9df7d3884638b889\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6b7f8a0cf29ef171\",\"name\":\"BAT54S,215\"},\"footprint\":{\"uuid\":\"8ef6c020c23f0901\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\"},\"pins\":[{\"number\":\"1\",\"name\":\"A\",\"x\":1600,\"y\":1190,\"rotation\":180},{\"number\":\"3\",\"name\":\"AK\",\"x\":1660,\"y\":1180,\"rotation\":0},{\"number\":\"2\",\"name\":\"K\",\"x\":1600,\"y\":1170,\"rotation\":180}]},{\"ref\":\"D_VEX\",\"id\":\"68507e8330a23576\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6b7f8a0cf29ef171\",\"name\":\"BAT54S,215\"},\"footprint\":{\"uuid\":\"8ef6c020c23f0901\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\"},\"pins\":[{\"number\":\"1\",\"name\":\"A\",\"x\":250,\"y\":1330,\"rotation\":180},{\"number\":\"3\",\"name\":\"AK\",\"x\":310,\"y\":1320,\"rotation\":0},{\"number\":\"2\",\"name\":\"K\",\"x\":250,\"y\":1310,\"rotation\":180}]}],\"markers\":[{\"ref\":\"R_VCM_ISO\",\"pin\":\"2\",\"net\":\"VCM\",\"id\":\"03a260d80b3d30b4\",\"x\":694.9999999999999,\"y\":1180},{\"ref\":\"R_VCM_ISO\",\"pin\":\"1\",\"net\":\"VCM_DRV\",\"id\":\"12c18f3a455a95a6\",\"x\":765,\"y\":1180},{\"ref\":\"R_VEX_ISO\",\"pin\":\"2\",\"net\":\"VEXC\",\"id\":\"cd5aa7b0142b6a44\",\"x\":1144.9999999999998,\"y\":1180.0000000000002},{\"ref\":\"R_VEX_ISO\",\"pin\":\"1\",\"net\":\"VEXC_DRV\",\"id\":\"9e33a08a9e736925\",\"x\":1215,\"y\":1180},{\"ref\":\"D_VCM\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"bf458f95d33f3c3e\",\"x\":1655,\"y\":1190},{\"ref\":\"D_VCM\",\"pin\":\"3\",\"net\":\"VCM_DRV\",\"id\":\"e92d689c2aaabdc7\",\"x\":1604.9999999999998,\"y\":1180.0000000000002},{\"ref\":\"D_VCM\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"c0700f9eb6f5b2e8\",\"x\":1655,\"y\":1170},{\"ref\":\"D_VEX\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"8026a5896396c672\",\"x\":305,\"y\":1330},{\"ref\":\"D_VEX\",\"pin\":\"3\",\"net\":\"VEXC_DRV\",\"id\":\"e0cb95885a31a827\",\"x\":255,\"y\":1320},{\"ref\":\"D_VEX\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"f32dbc1b1ad58207\",\"x\":305,\"y\":1310}],\"wires\":[{\"ref\":\"R_VCM_ISO\",\"pin\":\"2\",\"net\":\"VCM\",\"id\":\"a7511ab82cb2351e\",\"line\":[750,1180,694.9999999999999,1180]},{\"ref\":\"R_VCM_ISO\",\"pin\":\"1\",\"net\":\"VCM_DRV\",\"id\":\"a7511ab82cb2351e\",\"line\":[710,1180,765,1180]},{\"ref\":\"R_VEX_ISO\",\"pin\":\"2\",\"net\":\"VEXC\",\"id\":\"97e0d48fa2fd491e\",\"line\":[1200,1180,1144.9999999999998,1180,1144.9999999999998,1180.0000000000002]},{\"ref\":\"R_VEX_ISO\",\"pin\":\"1\",\"net\":\"VEXC_DRV\",\"id\":\"97e0d48fa2fd491e\",\"line\":[1160,1180,1215,1180]},{\"ref\":\"D_VCM\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"b0c886eea935e1e0\",\"line\":[1600,1190,1655,1190]},{\"ref\":\"D_VCM\",\"pin\":\"3\",\"net\":\"VCM_DRV\",\"id\":\"9afd247f319619e8\",\"line\":[1660,1180,1604.9999999999998,1180,1604.9999999999998,1180.0000000000002]},{\"ref\":\"D_VCM\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"cf351db1781670b1\",\"line\":[1600,1170,1655,1170]},{\"ref\":\"D_VEX\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"fa00be41a9d3d179\",\"line\":[250,1330,305,1330]},{\"ref\":\"D_VEX\",\"pin\":\"3\",\"net\":\"VEXC_DRV\",\"id\":\"443586d2f51f0902\",\"line\":[310,1320,255,1320]},{\"ref\":\"D_VEX\",\"pin\":\"2\",\"net\":\"V5\",\"id\":\"b5aba5d10e05b43e\",\"line\":[250,1310,305,1310]}],\"nc\":[],\"status\":\"BATCH_CREATED\",\"saved\":true},\"logs\":[],\"durationMs\":4825}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "595d5f2f11dee03d",
+        "index": 0,
+        "name": "Power_Reference"
+      },
+      "parts": [
+        {
+          "ref": "R_VCM_ISO",
+          "id": "5031c9c4d9e914e7",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 750,
+              "y": 1180,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 710,
+              "y": 1180,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "R_VEX_ISO",
+          "id": "18d654e6a2cad439",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1200,
+              "y": 1180,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1160,
+              "y": 1180,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "D_VCM",
+          "id": "9df7d3884638b889",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6b7f8a0cf29ef171",
+            "name": "BAT54S,215"
+          },
+          "footprint": {
+            "uuid": "8ef6c020c23f0901",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "A",
+              "x": 1600,
+              "y": 1190,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "AK",
+              "x": 1660,
+              "y": 1180,
+              "rotation": 0
+            },
+            {
+              "number": "2",
+              "name": "K",
+              "x": 1600,
+              "y": 1170,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "D_VEX",
+          "id": "68507e8330a23576",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6b7f8a0cf29ef171",
+            "name": "BAT54S,215"
+          },
+          "footprint": {
+            "uuid": "8ef6c020c23f0901",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "A",
+              "x": 250,
+              "y": 1330,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "AK",
+              "x": 310,
+              "y": 1320,
+              "rotation": 0
+            },
+            {
+              "number": "2",
+              "name": "K",
+              "x": 250,
+              "y": 1310,
+              "rotation": 180
+            }
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "ref": "R_VCM_ISO",
+          "pin": "2",
+          "net": "VCM",
+          "id": "03a260d80b3d30b4",
+          "x": 694.9999999999999,
+          "y": 1180
+        },
+        {
+          "ref": "R_VCM_ISO",
+          "pin": "1",
+          "net": "VCM_DRV",
+          "id": "12c18f3a455a95a6",
+          "x": 765,
+          "y": 1180
+        },
+        {
+          "ref": "R_VEX_ISO",
+          "pin": "2",
+          "net": "VEXC",
+          "id": "cd5aa7b0142b6a44",
+          "x": 1144.9999999999998,
+          "y": 1180.0000000000002
+        },
+        {
+          "ref": "R_VEX_ISO",
+          "pin": "1",
+          "net": "VEXC_DRV",
+          "id": "9e33a08a9e736925",
+          "x": 1215,
+          "y": 1180
+        },
+        {
+          "ref": "D_VCM",
+          "pin": "1",
+          "net": "GND",
+          "id": "bf458f95d33f3c3e",
+          "x": 1655,
+          "y": 1190
+        },
+        {
+          "ref": "D_VCM",
+          "pin": "3",
+          "net": "VCM_DRV",
+          "id": "e92d689c2aaabdc7",
+          "x": 1604.9999999999998,
+          "y": 1180.0000000000002
+        },
+        {
+          "ref": "D_VCM",
+          "pin": "2",
+          "net": "V5",
+          "id": "c0700f9eb6f5b2e8",
+          "x": 1655,
+          "y": 1170
+        },
+        {
+          "ref": "D_VEX",
+          "pin": "1",
+          "net": "GND",
+          "id": "8026a5896396c672",
+          "x": 305,
+          "y": 1330
+        },
+        {
+          "ref": "D_VEX",
+          "pin": "3",
+          "net": "VEXC_DRV",
+          "id": "e0cb95885a31a827",
+          "x": 255,
+          "y": 1320
+        },
+        {
+          "ref": "D_VEX",
+          "pin": "2",
+          "net": "V5",
+          "id": "f32dbc1b1ad58207",
+          "x": 305,
+          "y": 1310
+        }
+      ],
+      "wires": [
+        {
+          "ref": "R_VCM_ISO",
+          "pin": "2",
+          "net": "VCM",
+          "id": "a7511ab82cb2351e",
+          "line": [
+            750,
+            1180,
+            694.9999999999999,
+            1180
+          ]
+        },
+        {
+          "ref": "R_VCM_ISO",
+          "pin": "1",
+          "net": "VCM_DRV",
+          "id": "a7511ab82cb2351e",
+          "line": [
+            710,
+            1180,
+            765,
+            1180
+          ]
+        },
+        {
+          "ref": "R_VEX_ISO",
+          "pin": "2",
+          "net": "VEXC",
+          "id": "97e0d48fa2fd491e",
+          "line": [
+            1200,
+            1180,
+            1144.9999999999998,
+            1180,
+            1144.9999999999998,
+            1180.0000000000002
+          ]
+        },
+        {
+          "ref": "R_VEX_ISO",
+          "pin": "1",
+          "net": "VEXC_DRV",
+          "id": "97e0d48fa2fd491e",
+          "line": [
+            1160,
+            1180,
+            1215,
+            1180
+          ]
+        },
+        {
+          "ref": "D_VCM",
+          "pin": "1",
+          "net": "GND",
+          "id": "b0c886eea935e1e0",
+          "line": [
+            1600,
+            1190,
+            1655,
+            1190
+          ]
+        },
+        {
+          "ref": "D_VCM",
+          "pin": "3",
+          "net": "VCM_DRV",
+          "id": "9afd247f319619e8",
+          "line": [
+            1660,
+            1180,
+            1604.9999999999998,
+            1180,
+            1604.9999999999998,
+            1180.0000000000002
+          ]
+        },
+        {
+          "ref": "D_VCM",
+          "pin": "2",
+          "net": "V5",
+          "id": "cf351db1781670b1",
+          "line": [
+            1600,
+            1170,
+            1655,
+            1170
+          ]
+        },
+        {
+          "ref": "D_VEX",
+          "pin": "1",
+          "net": "GND",
+          "id": "fa00be41a9d3d179",
+          "line": [
+            250,
+            1330,
+            305,
+            1330
+          ]
+        },
+        {
+          "ref": "D_VEX",
+          "pin": "3",
+          "net": "VEXC_DRV",
+          "id": "443586d2f51f0902",
+          "line": [
+            310,
+            1320,
+            255,
+            1320
+          ]
+        },
+        {
+          "ref": "D_VEX",
+          "pin": "2",
+          "net": "V5",
+          "id": "b5aba5d10e05b43e",
+          "line": [
+            250,
+            1310,
+            305,
+            1310
+          ]
+        }
+      ],
+      "nc": [],
+      "status": "BATCH_CREATED",
+      "saved": true
+    },
+    "logs": [],
+    "durationMs": 4825
+  }
+}

@@ -1,0 +1,1603 @@
+{
+  "started_utc": "2026-10-01T05:58:05.382561+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "\nconst plan={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": {\"uuid\": \"5f9caa2aebdf4356\", \"index\": 3, \"name\": \"ADS8684_Decoupling\"}, \"parts\": [{\"ref\": \"U5\", \"device\": \"ADS8684IDBTR\", \"device_uuid\": \"c0f1d9ea14164280b284a2633ca616ba\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 350, \"y\": 260, \"rotation\": 0, \"subpart\": \"ADS8684IDBTR.1\", \"nets\": {\"1\": \"SPI_MOSI\", \"2\": \"ADC_RESET_N\", \"3\": \"GND\", \"4\": \"GND\", \"5\": \"ADC_REFIO\", \"6\": \"GND\", \"7\": \"ADC_REFCAP\", \"8\": \"GND\", \"9\": \"V5\", \"10\": \"GND\", \"11\": \"GND\", \"12\": null, \"13\": null, \"14\": null, \"15\": null, \"16\": \"ADC_IN0\", \"17\": \"GND\", \"18\": \"ADC_IN1\", \"19\": \"GND\", \"20\": \"GND\", \"21\": \"ADC_IN2\", \"22\": \"GND\", \"23\": \"ADC_IN3\", \"24\": null, \"25\": null, \"26\": null, \"27\": null, \"28\": \"GND\", \"29\": \"GND\", \"30\": \"V5\", \"31\": \"GND\", \"32\": \"GND\", \"33\": \"GND\", \"34\": \"V3V3\", \"35\": null, \"36\": \"SPI_MISO\", \"37\": \"SPI_SCLK\", \"38\": \"ADC_CS_N\"}, \"value\": null, \"role\": \"\"}, {\"ref\": \"R_CS_PU\", \"device\": \"RT0603BRD0710KL\", \"device_uuid\": \"3840b7e554aa441f90223c083eebd79a\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 280, \"y\": 620, \"rotation\": 0, \"subpart\": \"RT0603BRD0710KL.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"ADC_CS_N\"}, \"value\": \"10k 0.1%\", \"role\": \"\"}, {\"ref\": \"R_ADC_RESET_PD\", \"device\": \"0603WAF1003T5E\", \"device_uuid\": \"40ff282b3d594c33b798d1707d8406cb\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 730, \"y\": 620, \"rotation\": 0, \"subpart\": \"0603WAF1003T5E.1\", \"nets\": {\"1\": \"ADC_RESET_N\", \"2\": \"GND\"}, \"value\": \"100k 1%\", \"role\": \"\"}, {\"ref\": \"C_ADC_REFIO\", \"device\": \"GRM32ER71E226KE15L\", \"device_uuid\": \"c469f6d370424dcc93e93079d1eecf2f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 1180, \"y\": 620, \"rotation\": 0, \"subpart\": \"GRM32ER71E226KE15L.1\", \"nets\": {\"1\": \"ADC_REFIO\", \"2\": \"GND\"}, \"value\": \"22uF 25V X7R\", \"role\": \"Independent REFIO capacitor; supplemented by C_REFIO_B\"}, {\"ref\": \"C_ADC_REFCAP\", \"device\": \"GRM31CR71H225KA88L\", \"device_uuid\": \"3033986627424e38b63bde10777dccea\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 1630, \"y\": 620, \"rotation\": 0, \"subpart\": \"GRM31CR71H225KA88L.1\", \"nets\": {\"1\": \"ADC_REFCAP\", \"2\": \"GND\"}, \"value\": \"2.2uF 50V X7R\", \"role\": \"Near REFCAP HF decoupler; >=1uF effective remains HOLD\"}, {\"ref\": \"C_ADCA1\", \"device\": \"GRM188R71C104KA01D\", \"device_uuid\": \"582e6743b52f4d549473833313fcf026\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 280, \"y\": 760, \"rotation\": 0, \"subpart\": \"GRM188R71C104KA01D.1\", \"nets\": {\"1\": \"V5\", \"2\": \"GND\"}, \"value\": \"100nF\", \"role\": \"\"}, {\"ref\": \"C_ADCA2\", \"device\": \"GRM188R71C104KA01D\", \"device_uuid\": \"582e6743b52f4d549473833313fcf026\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 730, \"y\": 760, \"rotation\": 0, \"subpart\": \"GRM188R71C104KA01D.1\", \"nets\": {\"1\": \"V5\", \"2\": \"GND\"}, \"value\": \"100nF\", \"role\": \"\"}, {\"ref\": \"C_ADCD\", \"device\": \"GRM188R71C104KA01D\", \"device_uuid\": \"582e6743b52f4d549473833313fcf026\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 1180, \"y\": 760, \"rotation\": 0, \"subpart\": \"GRM188R71C104KA01D.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}, \"value\": \"100nF\", \"role\": \"\"}, {\"ref\": \"C_REFIO_B\", \"device\": \"GRM32ER71E226KE15L\", \"device_uuid\": \"c469f6d370424dcc93e93079d1eecf2f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 1630, \"y\": 760, \"rotation\": 0, \"subpart\": \"GRM32ER71E226KE15L.1\", \"nets\": {\"1\": \"ADC_REFIO\", \"2\": \"GND\"}, \"value\": \"22uF 25V X7R\", \"role\": \"REFIO combined >=10uF effective remains HOLD\"}, {\"ref\": \"C_REFCAP_BULKA\", \"device\": \"GRM32ER71E226KE15L\", \"device_uuid\": \"c469f6d370424dcc93e93079d1eecf2f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 3, \"x\": 280, \"y\": 900, \"rotation\": 0, \"subpart\": \"GRM32ER71E226KE15L.1\", \"nets\": {\"1\": \"ADC_REFCAP\", \"2\": \"GND\"}, \"value\": \"22uF 25V X7R\", \"role\": \"Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature\"}], \"height\": 1360, \"notes\": [\"Internal4.096V ADC reference; REFIO and REFCAP independently bulk bypassed\", \"AVDD pins9/30 each44uF+2.2uF nominal; DVDD pin34 44uF nominal\", \"Effective capacitance and placement must meet datasheet: REFERENCE_CAPACITANCE_HOLD\"], \"first\": true, \"last\": false};\nconst result={page:plan.page,parts:[],markers:[],wires:[],nc:[],status:'STARTED'};\ntry {\n const project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong R2 context');\n await eda.dmt_EditorControl.openDocument(plan.page.uuid);\n const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();if(pg?.uuid!==plan.page.uuid)throw Error('Wrong page');\n if(plan.first){\n  const initial=await eda.sch_PrimitiveComponent.getAll();if(initial.some(c=>c.getState_ComponentType()!=='sheet'))throw Error('Expected empty new page');\n  await eda.dmt_Schematic.modifySchematicPageTitleBlock(false);\n  // DMT custom-size edits returned a known error; use the real frame's existing Border attribute.\n  // Suppress decorative frame only, while all explicit net labels, pin numbers and page headings remain.\n  for(const c of initial)if(c.getState_ComponentType()==='sheet'){\n   const attrs=await eda.sch_PrimitiveAttribute.getAll(c.getState_PrimitiveId());\n   const border=attrs.find(a=>a.getState_Key()==='Border');if(!border)throw Error('No real Border property');\n   const updated=await eda.sch_PrimitiveAttribute.modify(border.getState_PrimitiveId(),{value:'0'});if(!updated)throw Error('Border edit failed');\n  }\n  for(let i=0;i<plan.notes.length;i++)await eda.sch_PrimitiveText.create(80,55+i*23,plan.notes[i],0,null,null,12,i===0);\n  await eda.sch_PrimitiveText.create(80,25,'R2 REVIEW ONLY - '+plan.page.name+' - '+(plan.page.index+1)+'/6',0,null,null,16,true);\n }\n const existing=new Set((await eda.sch_PrimitiveComponent.getAll()).map(c=>c.getState_Designator()));\n for(const q of plan.parts){\n  if(existing.has(q.ref))throw Error('Duplicate ref '+q.ref);\n  const c=await eda.sch_PrimitiveComponent.create({libraryUuid:q.library_uuid,uuid:q.device_uuid},q.x,q.y,q.subpart,0,false,true,true);if(!c)throw Error('Create '+q.ref);\n  const m=await eda.sch_PrimitiveComponent.modify(c.getState_PrimitiveId(),{designator:q.ref,name:q.value||q.device,otherProperty:{...c.getState_OtherProperty(),'Review Status':'R2 REVIEW / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD',...(q.value?{Value:q.value}:{}),'Circuit Role':q.role}});if(!m)throw Error('Modify '+q.ref);\n  const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());\n  const actual=ps.map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),rotation:v.getState_Rotation()}));\n  if(actual.length!==Object.keys(q.nets).length||new Set(actual.map(x=>x.number)).size!==actual.length||actual.some(x=>!(x.number in q.nets)))throw Error('Real pin mismatch '+q.ref);\n  result.parts.push({ref:q.ref,id:m.getState_PrimitiveId(),association:m.getState_Component(),footprint:m.getState_Footprint(),pins:actual});\n  for(let i=0;i<ps.length;i++){\n   const pin=ps[i],a=actual[i],net=q.nets[a.number];\n   if(net===null){await pin.setState_NoConnected(true).done();result.nc.push({ref:q.ref,pin:a.number});continue;}\n   let ox=0,oy=0;\n   // Use actual inward pin direction and real net-port anchor; never infer opposite-angle semantics.\n   const length=q.ref.startsWith('U')?110:55;\n   if(a.rotation===0)ox=-length;else if(a.rotation===180)ox=length;else if(a.rotation===90)oy=-length;else if(a.rotation===270)oy=length;else throw Error('Unsupported pin angle');\n   const mark=await eda.sch_PrimitiveComponent.createNetPort('BI',net,a.x+ox,a.y+oy,ox<0?180:oy<0?90:oy>0?270:0,false);if(!mark)throw Error('Port');\n   const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(mark.getState_PrimitiveId());if(mp.length!==1)throw Error('Port anchor');\n   const mx=mp[0].getState_X(),my=mp[0].getState_Y();const line=[a.x,a.y,mx,a.y];if(my!==a.y)line.push(mx,my);\n   const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');\n   // Ports retain visible net names. Remove only duplicated automatic wire text, not pin numbers or explicit network labels.\n   for(const attr of await eda.sch_PrimitiveAttribute.getAll(w.getState_PrimitiveId())){\n    if(attr.getState_Key()==='NET'||attr.getState_Key()==='Net')await eda.sch_PrimitiveAttribute.modify(attr.getState_PrimitiveId(),{valueVisible:false,keyVisible:false});\n   }\n   result.markers.push({ref:q.ref,pin:a.number,net,id:mark.getState_PrimitiveId(),x:mx,y:my});result.wires.push({ref:q.ref,pin:a.number,net,id:w.getState_PrimitiveId(),line});\n  }\n }\n if(plan.last){result.saved=await eda.sch_Document.save();if(result.saved!==true)throw Error('Save did not return true');}\n result.status='BATCH_CREATED';return result;\n}catch(e){result.status='STOP_NATIVE_BUILD_ERROR';result.error={name:e?.name,message:e?.message,stack:e?.stack};return result;}\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"5f9caa2aebdf4356\",\"index\":3,\"name\":\"ADS8684_Decoupling\"},\"parts\":[{\"ref\":\"U5\",\"id\":\"b6bab89fbc53b4cf\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e09e4226f0657990\",\"name\":\"ADS8684IDBTR\"},\"footprint\":{\"uuid\":\"8a281445258384ed\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL\"},\"pins\":[{\"number\":\"1\",\"name\":\"SDI\",\"x\":280,\"y\":350,\"rotation\":180},{\"number\":\"2\",\"name\":\"RST#/PD#\",\"x\":280,\"y\":340,\"rotation\":180},{\"number\":\"3\",\"name\":\"DAISY\",\"x\":280,\"y\":330,\"rotation\":180},{\"number\":\"4\",\"name\":\"REFSEL#\",\"x\":280,\"y\":320,\"rotation\":180},{\"number\":\"5\",\"name\":\"REFIO\",\"x\":280,\"y\":310,\"rotation\":180},{\"number\":\"6\",\"name\":\"REFGND\",\"x\":280,\"y\":300,\"rotation\":180},{\"number\":\"7\",\"name\":\"REFCAP\",\"x\":280,\"y\":290,\"rotation\":180},{\"number\":\"8\",\"name\":\"AGND\",\"x\":280,\"y\":280,\"rotation\":180},{\"number\":\"9\",\"name\":\"AVDD\",\"x\":280,\"y\":270,\"rotation\":180},{\"number\":\"10\",\"name\":\"AUX_IN\",\"x\":280,\"y\":260,\"rotation\":180},{\"number\":\"11\",\"name\":\"AUX_GND\",\"x\":280,\"y\":250,\"rotation\":180},{\"number\":\"12\",\"name\":\"NC\",\"x\":280,\"y\":240,\"rotation\":180},{\"number\":\"13\",\"name\":\"NC\",\"x\":280,\"y\":230,\"rotation\":180},{\"number\":\"14\",\"name\":\"NC\",\"x\":280,\"y\":220,\"rotation\":180},{\"number\":\"15\",\"name\":\"NC\",\"x\":280,\"y\":210,\"rotation\":180},{\"number\":\"16\",\"name\":\"AIN_0P\",\"x\":280,\"y\":200,\"rotation\":180},{\"number\":\"17\",\"name\":\"AIN_0GND\",\"x\":280,\"y\":190,\"rotation\":180},{\"number\":\"18\",\"name\":\"AIN_1P\",\"x\":280,\"y\":180,\"rotation\":180},{\"number\":\"19\",\"name\":\"AIN_1GND\",\"x\":280,\"y\":170,\"rotation\":180},{\"number\":\"20\",\"name\":\"AIN_2GND\",\"x\":420,\"y\":170,\"rotation\":0},{\"number\":\"21\",\"name\":\"AIN_2P\",\"x\":420,\"y\":180,\"rotation\":0},{\"number\":\"22\",\"name\":\"AIN_3GND\",\"x\":420,\"y\":190,\"rotation\":0},{\"number\":\"23\",\"name\":\"AIN_3P\",\"x\":420,\"y\":200,\"rotation\":0},{\"number\":\"24\",\"name\":\"NC\",\"x\":420,\"y\":210,\"rotation\":0},{\"number\":\"25\",\"name\":\"NC\",\"x\":420,\"y\":220,\"rotation\":0},{\"number\":\"26\",\"name\":\"NC\",\"x\":420,\"y\":230,\"rotation\":0},{\"number\":\"27\",\"name\":\"NC\",\"x\":420,\"y\":240,\"rotation\":0},{\"number\":\"28\",\"name\":\"AGND\",\"x\":420,\"y\":250,\"rotation\":0},{\"number\":\"29\",\"name\":\"AGND\",\"x\":420,\"y\":260,\"rotation\":0},{\"number\":\"30\",\"name\":\"AVDD\",\"x\":420,\"y\":270,\"rotation\":0},{\"number\":\"31\",\"name\":\"AGND\",\"x\":420,\"y\":280,\"rotation\":0},{\"number\":\"32\",\"name\":\"AGND\",\"x\":420,\"y\":290,\"rotation\":0},{\"number\":\"33\",\"name\":\"DGND\",\"x\":420,\"y\":300,\"rotation\":0},{\"number\":\"34\",\"name\":\"DVDD\",\"x\":420,\"y\":310,\"rotation\":0},{\"number\":\"35\",\"name\":\"DNC\",\"x\":420,\"y\":320,\"rotation\":0},{\"number\":\"36\",\"name\":\"SDO\",\"x\":420,\"y\":330,\"rotation\":0},{\"number\":\"37\",\"name\":\"SCLK\",\"x\":420,\"y\":340,\"rotation\":0},{\"number\":\"38\",\"name\":\"CS#\",\"x\":420,\"y\":350,\"rotation\":0}]},{\"ref\":\"R_CS_PU\",\"id\":\"aa64529e3234c33d\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":300,\"y\":620,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":260,\"y\":620,\"rotation\":180}]},{\"ref\":\"R_ADC_RESET_PD\",\"id\":\"92466511eeec4296\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"4af96e4885b44a55\",\"name\":\"0603WAF1003T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":750,\"y\":620,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":710,\"y\":620,\"rotation\":180}]},{\"ref\":\"C_ADC_REFIO\",\"id\":\"1bf743d539454689\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"a06b7f35b358beed\",\"name\":\"GRM32ER71E226KE15L\"},\"footprint\":{\"uuid\":\"79b7f68a57a08713\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C1210\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1160,\"y\":620,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1200,\"y\":620,\"rotation\":0}]},{\"ref\":\"C_ADC_REFCAP\",\"id\":\"54fd88ccc75da2ee\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3987d5dbad251af4\",\"name\":\"GRM31CR71H225KA88L\"},\"footprint\":{\"uuid\":\"b5b342032f55f019\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C1206\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1610,\"y\":620,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1650,\"y\":620,\"rotation\":0}]},{\"ref\":\"C_ADCA1\",\"id\":\"75152819ec31fd9b\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":265,\"y\":760,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":295,\"y\":760,\"rotation\":0}]},{\"ref\":\"C_ADCA2\",\"id\":\"3743f05c0eed984f\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":715,\"y\":760,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":745,\"y\":760,\"rotation\":0}]},{\"ref\":\"C_ADCD\",\"id\":\"12fd8dd337710ec7\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1165,\"y\":760,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1195,\"y\":760,\"rotation\":0}]},{\"ref\":\"C_REFIO_B\",\"id\":\"fff141a82adb50f6\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"a06b7f35b358beed\",\"name\":\"GRM32ER71E226KE15L\"},\"footprint\":{\"uuid\":\"79b7f68a57a08713\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C1210\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1610,\"y\":760,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1650,\"y\":760,\"rotation\":0}]},{\"ref\":\"C_REFCAP_BULKA\",\"id\":\"0aeaa3912fdcd57e\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"a06b7f35b358beed\",\"name\":\"GRM32ER71E226KE15L\"},\"footprint\":{\"uuid\":\"79b7f68a57a08713\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C1210\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":260,\"y\":900,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":300,\"y\":900,\"rotation\":0}]}],\"markers\":[{\"ref\":\"U5\",\"pin\":\"1\",\"net\":\"SPI_MOSI\",\"id\":\"2e4e10b516017993\",\"x\":390,\"y\":350},{\"ref\":\"U5\",\"pin\":\"2\",\"net\":\"ADC_RESET_N\",\"id\":\"fd291d734ee4b8f5\",\"x\":390,\"y\":340},{\"ref\":\"U5\",\"pin\":\"3\",\"net\":\"GND\",\"id\":\"3fcf9fb46f7be3fd\",\"x\":390,\"y\":330},{\"ref\":\"U5\",\"pin\":\"4\",\"net\":\"GND\",\"id\":\"ebe5837311cbab6b\",\"x\":390,\"y\":320},{\"ref\":\"U5\",\"pin\":\"5\",\"net\":\"ADC_REFIO\",\"id\":\"7b3398a869c9af70\",\"x\":390,\"y\":310},{\"ref\":\"U5\",\"pin\":\"6\",\"net\":\"GND\",\"id\":\"03e81dbdfcf5632a\",\"x\":390,\"y\":300},{\"ref\":\"U5\",\"pin\":\"7\",\"net\":\"ADC_REFCAP\",\"id\":\"ae2c7f3fd3d497fe\",\"x\":390,\"y\":290},{\"ref\":\"U5\",\"pin\":\"8\",\"net\":\"GND\",\"id\":\"534b64ed5dc7c084\",\"x\":390,\"y\":280},{\"ref\":\"U5\",\"pin\":\"9\",\"net\":\"V5\",\"id\":\"47a704cff5b6e50e\",\"x\":390,\"y\":270},{\"ref\":\"U5\",\"pin\":\"10\",\"net\":\"GND\",\"id\":\"502f1c0e46c7b5b2\",\"x\":390,\"y\":260},{\"ref\":\"U5\",\"pin\":\"11\",\"net\":\"GND\",\"id\":\"61193de93c2b61bc\",\"x\":390,\"y\":250},{\"ref\":\"U5\",\"pin\":\"16\",\"net\":\"ADC_IN0\",\"id\":\"76a251b3959496c4\",\"x\":390,\"y\":200},{\"ref\":\"U5\",\"pin\":\"17\",\"net\":\"GND\",\"id\":\"d547eec79531dd7c\",\"x\":390,\"y\":190},{\"ref\":\"U5\",\"pin\":\"18\",\"net\":\"ADC_IN1\",\"id\":\"238c0547b9558b5f\",\"x\":390,\"y\":180},{\"ref\":\"U5\",\"pin\":\"19\",\"net\":\"GND\",\"id\":\"22a95520995b5a28\",\"x\":390,\"y\":170},{\"ref\":\"U5\",\"pin\":\"20\",\"net\":\"GND\",\"id\":\"bb13cd138b845ee2\",\"x\":310,\"y\":170.00000000000003},{\"ref\":\"U5\",\"pin\":\"21\",\"net\":\"ADC_IN2\",\"id\":\"6aca6542eadc216c\",\"x\":310,\"y\":180.00000000000003},{\"ref\":\"U5\",\"pin\":\"22\",\"net\":\"GND\",\"id\":\"4499da0adb58372b\",\"x\":310,\"y\":190.00000000000003},{\"ref\":\"U5\",\"pin\":\"23\",\"net\":\"ADC_IN3\",\"id\":\"e42f2407a5eade08\",\"x\":310,\"y\":200.00000000000003},{\"ref\":\"U5\",\"pin\":\"28\",\"net\":\"GND\",\"id\":\"2efc7cdc22d3125c\",\"x\":309.99999999999994,\"y\":250.00000000000003},{\"ref\":\"U5\",\"pin\":\"29\",\"net\":\"GND\",\"id\":\"cfa6dc5a025ef254\",\"x\":309.99999999999994,\"y\":260.00000000000006},{\"ref\":\"U5\",\"pin\":\"30\",\"net\":\"V5\",\"id\":\"f469a709c127039d\",\"x\":309.99999999999994,\"y\":270.00000000000006},{\"ref\":\"U5\",\"pin\":\"31\",\"net\":\"GND\",\"id\":\"65645b7849bd71df\",\"x\":309.99999999999994,\"y\":280.00000000000006},{\"ref\":\"U5\",\"pin\":\"32\",\"net\":\"GND\",\"id\":\"3950b2a12bdc94d9\",\"x\":309.99999999999994,\"y\":290.00000000000006},{\"ref\":\"U5\",\"pin\":\"33\",\"net\":\"GND\",\"id\":\"b2126943b962a9bd\",\"x\":309.99999999999994,\"y\":300.00000000000006},{\"ref\":\"U5\",\"pin\":\"34\",\"net\":\"V3V3\",\"id\":\"184dd27d43e06e6e\",\"x\":309.99999999999994,\"y\":310.00000000000006},{\"ref\":\"U5\",\"pin\":\"36\",\"net\":\"SPI_MISO\",\"id\":\"f5e99449d7c5d628\",\"x\":309.99999999999994,\"y\":330.00000000000006},{\"ref\":\"U5\",\"pin\":\"37\",\"net\":\"SPI_SCLK\",\"id\":\"5fbba17d83553d0b\",\"x\":309.99999999999994,\"y\":340.00000000000006},{\"ref\":\"U5\",\"pin\":\"38\",\"net\":\"ADC_CS_N\",\"id\":\"54ed23ade22609e0\",\"x\":309.99999999999994,\"y\":350.00000000000006},{\"ref\":\"R_CS_PU\",\"pin\":\"2\",\"net\":\"ADC_CS_N\",\"id\":\"ff52f30fa28ba203\",\"x\":245.00000000000003,\"y\":620},{\"ref\":\"R_CS_PU\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"b52ba02e03c2b3cc\",\"x\":315,\"y\":620},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"60582f36dcd63ed4\",\"x\":694.9999999999999,\"y\":620.0000000000001},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"1\",\"net\":\"ADC_RESET_N\",\"id\":\"28d4c5fb50579cc3\",\"x\":765,\"y\":620},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"1\",\"net\":\"ADC_REFIO\",\"id\":\"547f3f1741ebe3ce\",\"x\":1215,\"y\":620},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"e3faf6bb195def1b\",\"x\":1145,\"y\":620.0000000000001},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"1\",\"net\":\"ADC_REFCAP\",\"id\":\"65f4d6f03040c1df\",\"x\":1665,\"y\":620},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"78b39410341de13b\",\"x\":1595,\"y\":620},{\"ref\":\"C_ADCA1\",\"pin\":\"1\",\"net\":\"V5\",\"id\":\"4e058aac1868b650\",\"x\":320,\"y\":760},{\"ref\":\"C_ADCA1\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"4e08bf4da04fcdd4\",\"x\":240.00000000000003,\"y\":760},{\"ref\":\"C_ADCA2\",\"pin\":\"1\",\"net\":\"V5\",\"id\":\"d0394107b5ddf3fa\",\"x\":770,\"y\":760},{\"ref\":\"C_ADCA2\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"4a91641ed518becf\",\"x\":689.9999999999999,\"y\":760.0000000000001},{\"ref\":\"C_ADCD\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"f1bfe86bcfe12132\",\"x\":1220,\"y\":760},{\"ref\":\"C_ADCD\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"5157f62bce68d024\",\"x\":1140,\"y\":760.0000000000001},{\"ref\":\"C_REFIO_B\",\"pin\":\"1\",\"net\":\"ADC_REFIO\",\"id\":\"5de79b8233541868\",\"x\":1665,\"y\":760},{\"ref\":\"C_REFIO_B\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"8ef37faeef607786\",\"x\":1595,\"y\":760},{\"ref\":\"C_REFCAP_BULKA\",\"pin\":\"1\",\"net\":\"ADC_REFCAP\",\"id\":\"21ce44d8bcc6d02d\",\"x\":315,\"y\":900},{\"ref\":\"C_REFCAP_BULKA\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"4b2bb240c38111fa\",\"x\":245,\"y\":900}],\"wires\":[{\"ref\":\"U5\",\"pin\":\"1\",\"net\":\"SPI_MOSI\",\"id\":\"d526683a8edc4edc\",\"line\":[280,350,390,350]},{\"ref\":\"U5\",\"pin\":\"2\",\"net\":\"ADC_RESET_N\",\"id\":\"a0af641b172e7cc3\",\"line\":[280,340,390,340]},{\"ref\":\"U5\",\"pin\":\"3\",\"net\":\"GND\",\"id\":\"3393471f8dc37050\",\"line\":[280,330,390,330]},{\"ref\":\"U5\",\"pin\":\"4\",\"net\":\"GND\",\"id\":\"f2569722a7643f75\",\"line\":[280,320,390,320]},{\"ref\":\"U5\",\"pin\":\"5\",\"net\":\"ADC_REFIO\",\"id\":\"e291d484af6e90ed\",\"line\":[280,310,390,310]},{\"ref\":\"U5\",\"pin\":\"6\",\"net\":\"GND\",\"id\":\"047446d3fe43aabe\",\"line\":[280,300,390,300]},{\"ref\":\"U5\",\"pin\":\"7\",\"net\":\"ADC_REFCAP\",\"id\":\"7cc092ad58149cf3\",\"line\":[280,290,390,290]},{\"ref\":\"U5\",\"pin\":\"8\",\"net\":\"GND\",\"id\":\"30a8fc0a93ee1c25\",\"line\":[280,280,390,280]},{\"ref\":\"U5\",\"pin\":\"9\",\"net\":\"V5\",\"id\":\"d335c7be5deb58d8\",\"line\":[280,270,390,270]},{\"ref\":\"U5\",\"pin\":\"10\",\"net\":\"GND\",\"id\":\"ddc0906ff71bf162\",\"line\":[280,260,390,260]},{\"ref\":\"U5\",\"pin\":\"11\",\"net\":\"GND\",\"id\":\"c06666dae7968d33\",\"line\":[280,250,390,250]},{\"ref\":\"U5\",\"pin\":\"16\",\"net\":\"ADC_IN0\",\"id\":\"cd6db241d04c24a4\",\"line\":[280,200,390,200]},{\"ref\":\"U5\",\"pin\":\"17\",\"net\":\"GND\",\"id\":\"215799822cfa66eb\",\"line\":[280,190,390,190]},{\"ref\":\"U5\",\"pin\":\"18\",\"net\":\"ADC_IN1\",\"id\":\"88e1fa4474b1a109\",\"line\":[280,180,390,180]},{\"ref\":\"U5\",\"pin\":\"19\",\"net\":\"GND\",\"id\":\"a4e47cde5afd9ff6\",\"line\":[280,170,390,170]},{\"ref\":\"U5\",\"pin\":\"20\",\"net\":\"GND\",\"id\":\"a4e47cde5afd9ff6\",\"line\":[420,170,310,170,310,170.00000000000003]},{\"ref\":\"U5\",\"pin\":\"21\",\"net\":\"ADC_IN2\",\"id\":\"88e1fa4474b1a109\",\"line\":[420,180,310,180,310,180.00000000000003]},{\"ref\":\"U5\",\"pin\":\"22\",\"net\":\"GND\",\"id\":\"215799822cfa66eb\",\"line\":[420,190,310,190,310,190.00000000000003]},{\"ref\":\"U5\",\"pin\":\"23\",\"net\":\"ADC_IN3\",\"id\":\"cd6db241d04c24a4\",\"line\":[420,200,310,200,310,200.00000000000003]},{\"ref\":\"U5\",\"pin\":\"28\",\"net\":\"GND\",\"id\":\"c06666dae7968d33\",\"line\":[420,250,309.99999999999994,250,309.99999999999994,250.00000000000003]},{\"ref\":\"U5\",\"pin\":\"29\",\"net\":\"GND\",\"id\":\"ddc0906ff71bf162\",\"line\":[420,260,309.99999999999994,260,309.99999999999994,260.00000000000006]},{\"ref\":\"U5\",\"pin\":\"30\",\"net\":\"V5\",\"id\":\"d335c7be5deb58d8\",\"line\":[420,270,309.99999999999994,270,309.99999999999994,270.00000000000006]},{\"ref\":\"U5\",\"pin\":\"31\",\"net\":\"GND\",\"id\":\"30a8fc0a93ee1c25\",\"line\":[420,280,309.99999999999994,280,309.99999999999994,280.00000000000006]},{\"ref\":\"U5\",\"pin\":\"32\",\"net\":\"GND\",\"id\":\"7cc092ad58149cf3\",\"line\":[420,290,309.99999999999994,290,309.99999999999994,290.00000000000006]},{\"ref\":\"U5\",\"pin\":\"33\",\"net\":\"GND\",\"id\":\"047446d3fe43aabe\",\"line\":[420,300,309.99999999999994,300,309.99999999999994,300.00000000000006]},{\"ref\":\"U5\",\"pin\":\"34\",\"net\":\"V3V3\",\"id\":\"e291d484af6e90ed\",\"line\":[420,310,309.99999999999994,310,309.99999999999994,310.00000000000006]},{\"ref\":\"U5\",\"pin\":\"36\",\"net\":\"SPI_MISO\",\"id\":\"3393471f8dc37050\",\"line\":[420,330,309.99999999999994,330,309.99999999999994,330.00000000000006]},{\"ref\":\"U5\",\"pin\":\"37\",\"net\":\"SPI_SCLK\",\"id\":\"a0af641b172e7cc3\",\"line\":[420,340,309.99999999999994,340,309.99999999999994,340.00000000000006]},{\"ref\":\"U5\",\"pin\":\"38\",\"net\":\"ADC_CS_N\",\"id\":\"d526683a8edc4edc\",\"line\":[420,350,309.99999999999994,350,309.99999999999994,350.00000000000006]},{\"ref\":\"R_CS_PU\",\"pin\":\"2\",\"net\":\"ADC_CS_N\",\"id\":\"b700010a2c1bae06\",\"line\":[300,620,245.00000000000003,620]},{\"ref\":\"R_CS_PU\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"b700010a2c1bae06\",\"line\":[260,620,315,620]},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"37a575ab2439b2e0\",\"line\":[750,620,694.9999999999999,620,694.9999999999999,620.0000000000001]},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"1\",\"net\":\"ADC_RESET_N\",\"id\":\"37a575ab2439b2e0\",\"line\":[710,620,765,620]},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"1\",\"net\":\"ADC_REFIO\",\"id\":\"9f94400017e921f7\",\"line\":[1160,620,1215,620]},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"9f94400017e921f7\",\"line\":[1200,620,1145,620,1145,620.0000000000001]},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"1\",\"net\":\"ADC_REFCAP\",\"id\":\"b3fcefeaa9e676bf\",\"line\":[1610,620,1665,620]},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"b3fcefeaa9e676bf\",\"line\":[1650,620,1595,620]},{\"ref\":\"C_ADCA1\",\"pin\":\"1\",\"net\":\"V5\",\"id\":\"3ddde74f8e55fa23\",\"line\":[265,760,320,760]},{\"ref\":\"C_ADCA1\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"3ddde74f8e55fa23\",\"line\":[295,760,240.00000000000003,760]},{\"ref\":\"C_ADCA2\",\"pin\":\"1\",\"net\":\"V5\",\"id\":\"15b29550ad289f77\",\"line\":[715,760,770,760]},{\"ref\":\"C_ADCA2\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"15b29550ad289f77\",\"line\":[745,760,689.9999999999999,760,689.9999999999999,760.0000000000001]},{\"ref\":\"C_ADCD\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"c10190929f2821f7\",\"line\":[1165,760,1220,760]},{\"ref\":\"C_ADCD\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"c10190929f2821f7\",\"line\":[1195,760,1140,760,1140,760.0000000000001]},{\"ref\":\"C_REFIO_B\",\"pin\":\"1\",\"net\":\"ADC_REFIO\",\"id\":\"ae2d58be82c4bbb0\",\"line\":[1610,760,1665,760]},{\"ref\":\"C_REFIO_B\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"ae2d58be82c4bbb0\",\"line\":[1650,760,1595,760]},{\"ref\":\"C_REFCAP_BULKA\",\"pin\":\"1\",\"net\":\"ADC_REFCAP\",\"id\":\"8143760148da7980\",\"line\":[260,900,315,900]},{\"ref\":\"C_REFCAP_BULKA\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"8143760148da7980\",\"line\":[300,900,245,900]}],\"nc\":[{\"ref\":\"U5\",\"pin\":\"12\"},{\"ref\":\"U5\",\"pin\":\"13\"},{\"ref\":\"U5\",\"pin\":\"14\"},{\"ref\":\"U5\",\"pin\":\"15\"},{\"ref\":\"U5\",\"pin\":\"24\"},{\"ref\":\"U5\",\"pin\":\"25\"},{\"ref\":\"U5\",\"pin\":\"26\"},{\"ref\":\"U5\",\"pin\":\"27\"},{\"ref\":\"U5\",\"pin\":\"35\"}],\"status\":\"BATCH_CREATED\"},\"logs\":[],\"durationMs\":11524}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "5f9caa2aebdf4356",
+        "index": 3,
+        "name": "ADS8684_Decoupling"
+      },
+      "parts": [
+        {
+          "ref": "U5",
+          "id": "b6bab89fbc53b4cf",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "e09e4226f0657990",
+            "name": "ADS8684IDBTR"
+          },
+          "footprint": {
+            "uuid": "8a281445258384ed",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "SDI",
+              "x": 280,
+              "y": 350,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "RST#/PD#",
+              "x": 280,
+              "y": 340,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "DAISY",
+              "x": 280,
+              "y": 330,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "REFSEL#",
+              "x": 280,
+              "y": 320,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "REFIO",
+              "x": 280,
+              "y": 310,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "REFGND",
+              "x": 280,
+              "y": 300,
+              "rotation": 180
+            },
+            {
+              "number": "7",
+              "name": "REFCAP",
+              "x": 280,
+              "y": 290,
+              "rotation": 180
+            },
+            {
+              "number": "8",
+              "name": "AGND",
+              "x": 280,
+              "y": 280,
+              "rotation": 180
+            },
+            {
+              "number": "9",
+              "name": "AVDD",
+              "x": 280,
+              "y": 270,
+              "rotation": 180
+            },
+            {
+              "number": "10",
+              "name": "AUX_IN",
+              "x": 280,
+              "y": 260,
+              "rotation": 180
+            },
+            {
+              "number": "11",
+              "name": "AUX_GND",
+              "x": 280,
+              "y": 250,
+              "rotation": 180
+            },
+            {
+              "number": "12",
+              "name": "NC",
+              "x": 280,
+              "y": 240,
+              "rotation": 180
+            },
+            {
+              "number": "13",
+              "name": "NC",
+              "x": 280,
+              "y": 230,
+              "rotation": 180
+            },
+            {
+              "number": "14",
+              "name": "NC",
+              "x": 280,
+              "y": 220,
+              "rotation": 180
+            },
+            {
+              "number": "15",
+              "name": "NC",
+              "x": 280,
+              "y": 210,
+              "rotation": 180
+            },
+            {
+              "number": "16",
+              "name": "AIN_0P",
+              "x": 280,
+              "y": 200,
+              "rotation": 180
+            },
+            {
+              "number": "17",
+              "name": "AIN_0GND",
+              "x": 280,
+              "y": 190,
+              "rotation": 180
+            },
+            {
+              "number": "18",
+              "name": "AIN_1P",
+              "x": 280,
+              "y": 180,
+              "rotation": 180
+            },
+            {
+              "number": "19",
+              "name": "AIN_1GND",
+              "x": 280,
+              "y": 170,
+              "rotation": 180
+            },
+            {
+              "number": "20",
+              "name": "AIN_2GND",
+              "x": 420,
+              "y": 170,
+              "rotation": 0
+            },
+            {
+              "number": "21",
+              "name": "AIN_2P",
+              "x": 420,
+              "y": 180,
+              "rotation": 0
+            },
+            {
+              "number": "22",
+              "name": "AIN_3GND",
+              "x": 420,
+              "y": 190,
+              "rotation": 0
+            },
+            {
+              "number": "23",
+              "name": "AIN_3P",
+              "x": 420,
+              "y": 200,
+              "rotation": 0
+            },
+            {
+              "number": "24",
+              "name": "NC",
+              "x": 420,
+              "y": 210,
+              "rotation": 0
+            },
+            {
+              "number": "25",
+              "name": "NC",
+              "x": 420,
+              "y": 220,
+              "rotation": 0
+            },
+            {
+              "number": "26",
+              "name": "NC",
+              "x": 420,
+              "y": 230,
+              "rotation": 0
+            },
+            {
+              "number": "27",
+              "name": "NC",
+              "x": 420,
+              "y": 240,
+              "rotation": 0
+            },
+            {
+              "number": "28",
+              "name": "AGND",
+              "x": 420,
+              "y": 250,
+              "rotation": 0
+            },
+            {
+              "number": "29",
+              "name": "AGND",
+              "x": 420,
+              "y": 260,
+              "rotation": 0
+            },
+            {
+              "number": "30",
+              "name": "AVDD",
+              "x": 420,
+              "y": 270,
+              "rotation": 0
+            },
+            {
+              "number": "31",
+              "name": "AGND",
+              "x": 420,
+              "y": 280,
+              "rotation": 0
+            },
+            {
+              "number": "32",
+              "name": "AGND",
+              "x": 420,
+              "y": 290,
+              "rotation": 0
+            },
+            {
+              "number": "33",
+              "name": "DGND",
+              "x": 420,
+              "y": 300,
+              "rotation": 0
+            },
+            {
+              "number": "34",
+              "name": "DVDD",
+              "x": 420,
+              "y": 310,
+              "rotation": 0
+            },
+            {
+              "number": "35",
+              "name": "DNC",
+              "x": 420,
+              "y": 320,
+              "rotation": 0
+            },
+            {
+              "number": "36",
+              "name": "SDO",
+              "x": 420,
+              "y": 330,
+              "rotation": 0
+            },
+            {
+              "number": "37",
+              "name": "SCLK",
+              "x": 420,
+              "y": 340,
+              "rotation": 0
+            },
+            {
+              "number": "38",
+              "name": "CS#",
+              "x": 420,
+              "y": 350,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "R_CS_PU",
+          "id": "aa64529e3234c33d",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 300,
+              "y": 620,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 260,
+              "y": 620,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "id": "92466511eeec4296",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "4af96e4885b44a55",
+            "name": "0603WAF1003T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 750,
+              "y": 620,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 710,
+              "y": 620,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "id": "1bf743d539454689",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "a06b7f35b358beed",
+            "name": "GRM32ER71E226KE15L"
+          },
+          "footprint": {
+            "uuid": "79b7f68a57a08713",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C1210"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1160,
+              "y": 620,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1200,
+              "y": 620,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "id": "54fd88ccc75da2ee",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3987d5dbad251af4",
+            "name": "GRM31CR71H225KA88L"
+          },
+          "footprint": {
+            "uuid": "b5b342032f55f019",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C1206"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1610,
+              "y": 620,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1650,
+              "y": 620,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_ADCA1",
+          "id": "75152819ec31fd9b",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 265,
+              "y": 760,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 295,
+              "y": 760,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_ADCA2",
+          "id": "3743f05c0eed984f",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 715,
+              "y": 760,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 745,
+              "y": 760,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_ADCD",
+          "id": "12fd8dd337710ec7",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1165,
+              "y": 760,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1195,
+              "y": 760,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_REFIO_B",
+          "id": "fff141a82adb50f6",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "a06b7f35b358beed",
+            "name": "GRM32ER71E226KE15L"
+          },
+          "footprint": {
+            "uuid": "79b7f68a57a08713",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C1210"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1610,
+              "y": 760,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1650,
+              "y": 760,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_REFCAP_BULKA",
+          "id": "0aeaa3912fdcd57e",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "a06b7f35b358beed",
+            "name": "GRM32ER71E226KE15L"
+          },
+          "footprint": {
+            "uuid": "79b7f68a57a08713",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C1210"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 260,
+              "y": 900,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 300,
+              "y": 900,
+              "rotation": 0
+            }
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "ref": "U5",
+          "pin": "1",
+          "net": "SPI_MOSI",
+          "id": "2e4e10b516017993",
+          "x": 390,
+          "y": 350
+        },
+        {
+          "ref": "U5",
+          "pin": "2",
+          "net": "ADC_RESET_N",
+          "id": "fd291d734ee4b8f5",
+          "x": 390,
+          "y": 340
+        },
+        {
+          "ref": "U5",
+          "pin": "3",
+          "net": "GND",
+          "id": "3fcf9fb46f7be3fd",
+          "x": 390,
+          "y": 330
+        },
+        {
+          "ref": "U5",
+          "pin": "4",
+          "net": "GND",
+          "id": "ebe5837311cbab6b",
+          "x": 390,
+          "y": 320
+        },
+        {
+          "ref": "U5",
+          "pin": "5",
+          "net": "ADC_REFIO",
+          "id": "7b3398a869c9af70",
+          "x": 390,
+          "y": 310
+        },
+        {
+          "ref": "U5",
+          "pin": "6",
+          "net": "GND",
+          "id": "03e81dbdfcf5632a",
+          "x": 390,
+          "y": 300
+        },
+        {
+          "ref": "U5",
+          "pin": "7",
+          "net": "ADC_REFCAP",
+          "id": "ae2c7f3fd3d497fe",
+          "x": 390,
+          "y": 290
+        },
+        {
+          "ref": "U5",
+          "pin": "8",
+          "net": "GND",
+          "id": "534b64ed5dc7c084",
+          "x": 390,
+          "y": 280
+        },
+        {
+          "ref": "U5",
+          "pin": "9",
+          "net": "V5",
+          "id": "47a704cff5b6e50e",
+          "x": 390,
+          "y": 270
+        },
+        {
+          "ref": "U5",
+          "pin": "10",
+          "net": "GND",
+          "id": "502f1c0e46c7b5b2",
+          "x": 390,
+          "y": 260
+        },
+        {
+          "ref": "U5",
+          "pin": "11",
+          "net": "GND",
+          "id": "61193de93c2b61bc",
+          "x": 390,
+          "y": 250
+        },
+        {
+          "ref": "U5",
+          "pin": "16",
+          "net": "ADC_IN0",
+          "id": "76a251b3959496c4",
+          "x": 390,
+          "y": 200
+        },
+        {
+          "ref": "U5",
+          "pin": "17",
+          "net": "GND",
+          "id": "d547eec79531dd7c",
+          "x": 390,
+          "y": 190
+        },
+        {
+          "ref": "U5",
+          "pin": "18",
+          "net": "ADC_IN1",
+          "id": "238c0547b9558b5f",
+          "x": 390,
+          "y": 180
+        },
+        {
+          "ref": "U5",
+          "pin": "19",
+          "net": "GND",
+          "id": "22a95520995b5a28",
+          "x": 390,
+          "y": 170
+        },
+        {
+          "ref": "U5",
+          "pin": "20",
+          "net": "GND",
+          "id": "bb13cd138b845ee2",
+          "x": 310,
+          "y": 170.00000000000003
+        },
+        {
+          "ref": "U5",
+          "pin": "21",
+          "net": "ADC_IN2",
+          "id": "6aca6542eadc216c",
+          "x": 310,
+          "y": 180.00000000000003
+        },
+        {
+          "ref": "U5",
+          "pin": "22",
+          "net": "GND",
+          "id": "4499da0adb58372b",
+          "x": 310,
+          "y": 190.00000000000003
+        },
+        {
+          "ref": "U5",
+          "pin": "23",
+          "net": "ADC_IN3",
+          "id": "e42f2407a5eade08",
+          "x": 310,
+          "y": 200.00000000000003
+        },
+        {
+          "ref": "U5",
+          "pin": "28",
+          "net": "GND",
+          "id": "2efc7cdc22d3125c",
+          "x": 309.99999999999994,
+          "y": 250.00000000000003
+        },
+        {
+          "ref": "U5",
+          "pin": "29",
+          "net": "GND",
+          "id": "cfa6dc5a025ef254",
+          "x": 309.99999999999994,
+          "y": 260.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "30",
+          "net": "V5",
+          "id": "f469a709c127039d",
+          "x": 309.99999999999994,
+          "y": 270.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "31",
+          "net": "GND",
+          "id": "65645b7849bd71df",
+          "x": 309.99999999999994,
+          "y": 280.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "32",
+          "net": "GND",
+          "id": "3950b2a12bdc94d9",
+          "x": 309.99999999999994,
+          "y": 290.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "33",
+          "net": "GND",
+          "id": "b2126943b962a9bd",
+          "x": 309.99999999999994,
+          "y": 300.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "34",
+          "net": "V3V3",
+          "id": "184dd27d43e06e6e",
+          "x": 309.99999999999994,
+          "y": 310.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "36",
+          "net": "SPI_MISO",
+          "id": "f5e99449d7c5d628",
+          "x": 309.99999999999994,
+          "y": 330.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "37",
+          "net": "SPI_SCLK",
+          "id": "5fbba17d83553d0b",
+          "x": 309.99999999999994,
+          "y": 340.00000000000006
+        },
+        {
+          "ref": "U5",
+          "pin": "38",
+          "net": "ADC_CS_N",
+          "id": "54ed23ade22609e0",
+          "x": 309.99999999999994,
+          "y": 350.00000000000006
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "2",
+          "net": "ADC_CS_N",
+          "id": "ff52f30fa28ba203",
+          "x": 245.00000000000003,
+          "y": 620
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "b52ba02e03c2b3cc",
+          "x": 315,
+          "y": 620
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "2",
+          "net": "GND",
+          "id": "60582f36dcd63ed4",
+          "x": 694.9999999999999,
+          "y": 620.0000000000001
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "1",
+          "net": "ADC_RESET_N",
+          "id": "28d4c5fb50579cc3",
+          "x": 765,
+          "y": 620
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "1",
+          "net": "ADC_REFIO",
+          "id": "547f3f1741ebe3ce",
+          "x": 1215,
+          "y": 620
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "2",
+          "net": "GND",
+          "id": "e3faf6bb195def1b",
+          "x": 1145,
+          "y": 620.0000000000001
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "1",
+          "net": "ADC_REFCAP",
+          "id": "65f4d6f03040c1df",
+          "x": 1665,
+          "y": 620
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "2",
+          "net": "GND",
+          "id": "78b39410341de13b",
+          "x": 1595,
+          "y": 620
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "1",
+          "net": "V5",
+          "id": "4e058aac1868b650",
+          "x": 320,
+          "y": 760
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "2",
+          "net": "GND",
+          "id": "4e08bf4da04fcdd4",
+          "x": 240.00000000000003,
+          "y": 760
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "1",
+          "net": "V5",
+          "id": "d0394107b5ddf3fa",
+          "x": 770,
+          "y": 760
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "2",
+          "net": "GND",
+          "id": "4a91641ed518becf",
+          "x": 689.9999999999999,
+          "y": 760.0000000000001
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "f1bfe86bcfe12132",
+          "x": 1220,
+          "y": 760
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "2",
+          "net": "GND",
+          "id": "5157f62bce68d024",
+          "x": 1140,
+          "y": 760.0000000000001
+        },
+        {
+          "ref": "C_REFIO_B",
+          "pin": "1",
+          "net": "ADC_REFIO",
+          "id": "5de79b8233541868",
+          "x": 1665,
+          "y": 760
+        },
+        {
+          "ref": "C_REFIO_B",
+          "pin": "2",
+          "net": "GND",
+          "id": "8ef37faeef607786",
+          "x": 1595,
+          "y": 760
+        },
+        {
+          "ref": "C_REFCAP_BULKA",
+          "pin": "1",
+          "net": "ADC_REFCAP",
+          "id": "21ce44d8bcc6d02d",
+          "x": 315,
+          "y": 900
+        },
+        {
+          "ref": "C_REFCAP_BULKA",
+          "pin": "2",
+          "net": "GND",
+          "id": "4b2bb240c38111fa",
+          "x": 245,
+          "y": 900
+        }
+      ],
+      "wires": [
+        {
+          "ref": "U5",
+          "pin": "1",
+          "net": "SPI_MOSI",
+          "id": "d526683a8edc4edc",
+          "line": [
+            280,
+            350,
+            390,
+            350
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "2",
+          "net": "ADC_RESET_N",
+          "id": "a0af641b172e7cc3",
+          "line": [
+            280,
+            340,
+            390,
+            340
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "3",
+          "net": "GND",
+          "id": "3393471f8dc37050",
+          "line": [
+            280,
+            330,
+            390,
+            330
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "4",
+          "net": "GND",
+          "id": "f2569722a7643f75",
+          "line": [
+            280,
+            320,
+            390,
+            320
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "5",
+          "net": "ADC_REFIO",
+          "id": "e291d484af6e90ed",
+          "line": [
+            280,
+            310,
+            390,
+            310
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "6",
+          "net": "GND",
+          "id": "047446d3fe43aabe",
+          "line": [
+            280,
+            300,
+            390,
+            300
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "7",
+          "net": "ADC_REFCAP",
+          "id": "7cc092ad58149cf3",
+          "line": [
+            280,
+            290,
+            390,
+            290
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "8",
+          "net": "GND",
+          "id": "30a8fc0a93ee1c25",
+          "line": [
+            280,
+            280,
+            390,
+            280
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "9",
+          "net": "V5",
+          "id": "d335c7be5deb58d8",
+          "line": [
+            280,
+            270,
+            390,
+            270
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "10",
+          "net": "GND",
+          "id": "ddc0906ff71bf162",
+          "line": [
+            280,
+            260,
+            390,
+            260
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "11",
+          "net": "GND",
+          "id": "c06666dae7968d33",
+          "line": [
+            280,
+            250,
+            390,
+            250
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "16",
+          "net": "ADC_IN0",
+          "id": "cd6db241d04c24a4",
+          "line": [
+            280,
+            200,
+            390,
+            200
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "17",
+          "net": "GND",
+          "id": "215799822cfa66eb",
+          "line": [
+            280,
+            190,
+            390,
+            190
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "18",
+          "net": "ADC_IN1",
+          "id": "88e1fa4474b1a109",
+          "line": [
+            280,
+            180,
+            390,
+            180
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "19",
+          "net": "GND",
+          "id": "a4e47cde5afd9ff6",
+          "line": [
+            280,
+            170,
+            390,
+            170
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "20",
+          "net": "GND",
+          "id": "a4e47cde5afd9ff6",
+          "line": [
+            420,
+            170,
+            310,
+            170,
+            310,
+            170.00000000000003
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "21",
+          "net": "ADC_IN2",
+          "id": "88e1fa4474b1a109",
+          "line": [
+            420,
+            180,
+            310,
+            180,
+            310,
+            180.00000000000003
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "22",
+          "net": "GND",
+          "id": "215799822cfa66eb",
+          "line": [
+            420,
+            190,
+            310,
+            190,
+            310,
+            190.00000000000003
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "23",
+          "net": "ADC_IN3",
+          "id": "cd6db241d04c24a4",
+          "line": [
+            420,
+            200,
+            310,
+            200,
+            310,
+            200.00000000000003
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "28",
+          "net": "GND",
+          "id": "c06666dae7968d33",
+          "line": [
+            420,
+            250,
+            309.99999999999994,
+            250,
+            309.99999999999994,
+            250.00000000000003
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "29",
+          "net": "GND",
+          "id": "ddc0906ff71bf162",
+          "line": [
+            420,
+            260,
+            309.99999999999994,
+            260,
+            309.99999999999994,
+            260.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "30",
+          "net": "V5",
+          "id": "d335c7be5deb58d8",
+          "line": [
+            420,
+            270,
+            309.99999999999994,
+            270,
+            309.99999999999994,
+            270.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "31",
+          "net": "GND",
+          "id": "30a8fc0a93ee1c25",
+          "line": [
+            420,
+            280,
+            309.99999999999994,
+            280,
+            309.99999999999994,
+            280.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "32",
+          "net": "GND",
+          "id": "7cc092ad58149cf3",
+          "line": [
+            420,
+            290,
+            309.99999999999994,
+            290,
+            309.99999999999994,
+            290.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "33",
+          "net": "GND",
+          "id": "047446d3fe43aabe",
+          "line": [
+            420,
+            300,
+            309.99999999999994,
+            300,
+            309.99999999999994,
+            300.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "34",
+          "net": "V3V3",
+          "id": "e291d484af6e90ed",
+          "line": [
+            420,
+            310,
+            309.99999999999994,
+            310,
+            309.99999999999994,
+            310.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "36",
+          "net": "SPI_MISO",
+          "id": "3393471f8dc37050",
+          "line": [
+            420,
+            330,
+            309.99999999999994,
+            330,
+            309.99999999999994,
+            330.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "37",
+          "net": "SPI_SCLK",
+          "id": "a0af641b172e7cc3",
+          "line": [
+            420,
+            340,
+            309.99999999999994,
+            340,
+            309.99999999999994,
+            340.00000000000006
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "38",
+          "net": "ADC_CS_N",
+          "id": "d526683a8edc4edc",
+          "line": [
+            420,
+            350,
+            309.99999999999994,
+            350,
+            309.99999999999994,
+            350.00000000000006
+          ]
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "2",
+          "net": "ADC_CS_N",
+          "id": "b700010a2c1bae06",
+          "line": [
+            300,
+            620,
+            245.00000000000003,
+            620
+          ]
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "b700010a2c1bae06",
+          "line": [
+            260,
+            620,
+            315,
+            620
+          ]
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "2",
+          "net": "GND",
+          "id": "37a575ab2439b2e0",
+          "line": [
+            750,
+            620,
+            694.9999999999999,
+            620,
+            694.9999999999999,
+            620.0000000000001
+          ]
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "1",
+          "net": "ADC_RESET_N",
+          "id": "37a575ab2439b2e0",
+          "line": [
+            710,
+            620,
+            765,
+            620
+          ]
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "1",
+          "net": "ADC_REFIO",
+          "id": "9f94400017e921f7",
+          "line": [
+            1160,
+            620,
+            1215,
+            620
+          ]
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "2",
+          "net": "GND",
+          "id": "9f94400017e921f7",
+          "line": [
+            1200,
+            620,
+            1145,
+            620,
+            1145,
+            620.0000000000001
+          ]
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "1",
+          "net": "ADC_REFCAP",
+          "id": "b3fcefeaa9e676bf",
+          "line": [
+            1610,
+            620,
+            1665,
+            620
+          ]
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "2",
+          "net": "GND",
+          "id": "b3fcefeaa9e676bf",
+          "line": [
+            1650,
+            620,
+            1595,
+            620
+          ]
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "1",
+          "net": "V5",
+          "id": "3ddde74f8e55fa23",
+          "line": [
+            265,
+            760,
+            320,
+            760
+          ]
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "2",
+          "net": "GND",
+          "id": "3ddde74f8e55fa23",
+          "line": [
+            295,
+            760,
+            240.00000000000003,
+            760
+          ]
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "1",
+          "net": "V5",
+          "id": "15b29550ad289f77",
+          "line": [
+            715,
+            760,
+            770,
+            760
+          ]
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "2",
+          "net": "GND",
+          "id": "15b29550ad289f77",
+          "line": [
+            745,
+            760,
+            689.9999999999999,
+            760,
+            689.9999999999999,
+            760.0000000000001
+          ]
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "c10190929f2821f7",
+          "line": [
+            1165,
+            760,
+            1220,
+            760
+          ]
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "2",
+          "net": "GND",
+          "id": "c10190929f2821f7",
+          "line": [
+            1195,
+            760,
+            1140,
+            760,
+            1140,
+            760.0000000000001
+          ]
+        },
+        {
+          "ref": "C_REFIO_B",
+          "pin": "1",
+          "net": "ADC_REFIO",
+          "id": "ae2d58be82c4bbb0",
+          "line": [
+            1610,
+            760,
+            1665,
+            760
+          ]
+        },
+        {
+          "ref": "C_REFIO_B",
+          "pin": "2",
+          "net": "GND",
+          "id": "ae2d58be82c4bbb0",
+          "line": [
+            1650,
+            760,
+            1595,
+            760
+          ]
+        },
+        {
+          "ref": "C_REFCAP_BULKA",
+          "pin": "1",
+          "net": "ADC_REFCAP",
+          "id": "8143760148da7980",
+          "line": [
+            260,
+            900,
+            315,
+            900
+          ]
+        },
+        {
+          "ref": "C_REFCAP_BULKA",
+          "pin": "2",
+          "net": "GND",
+          "id": "8143760148da7980",
+          "line": [
+            300,
+            900,
+            245,
+            900
+          ]
+        }
+      ],
+      "nc": [
+        {
+          "ref": "U5",
+          "pin": "12"
+        },
+        {
+          "ref": "U5",
+          "pin": "13"
+        },
+        {
+          "ref": "U5",
+          "pin": "14"
+        },
+        {
+          "ref": "U5",
+          "pin": "15"
+        },
+        {
+          "ref": "U5",
+          "pin": "24"
+        },
+        {
+          "ref": "U5",
+          "pin": "25"
+        },
+        {
+          "ref": "U5",
+          "pin": "26"
+        },
+        {
+          "ref": "U5",
+          "pin": "27"
+        },
+        {
+          "ref": "U5",
+          "pin": "35"
+        }
+      ],
+      "status": "BATCH_CREATED"
+    },
+    "logs": [],
+    "durationMs": 11524
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-10-01T06:18:59.548834+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "return {saved:await eda.sch_Document.save()};",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"saved\":true},\"logs\":[],\"durationMs\":952}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "saved": true
+    },
+    "logs": [],
+    "durationMs": 952
+  }
+}

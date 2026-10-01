@@ -1,0 +1,592 @@
+{
+  "started_utc": "2026-10-01T06:10:00.648459+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "\nconst plan={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": {\"uuid\": \"cae95ff24beaad15\", \"index\": 5, \"name\": \"Power_Qualification\"}, \"parts\": [{\"ref\": \"U10\", \"device\": \"LM73100RPWR\", \"device_uuid\": \"6b7ed979fbc74dc885f181285ff45636\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 1590, \"y\": 1100, \"rotation\": 0, \"subpart\": \"LM73100RPWR.1\", \"nets\": {\"1\": \"U10_EN\", \"2\": \"U10_OV\", \"3\": null, \"4\": \"U10_PGTH\", \"5\": \"V3_LDO\", \"6\": \"V3V3\", \"7\": null, \"8\": \"GND\", \"9\": \"GND\", \"10\": null}, \"value\": null, \"role\": \"Always-on reverse current blocking; PG unused because power-off low is not assured\"}, {\"ref\": \"U10_EN_R\", \"device\": \"RT0603BRD0710KL\", \"device_uuid\": \"3840b7e554aa441f90223c083eebd79a\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 350, \"y\": 1380, \"rotation\": 0, \"subpart\": \"RT0603BRD0710KL.1\", \"nets\": {\"1\": \"V3_LDO\", \"2\": \"U10_EN\"}, \"value\": \"10k 0.1%\", \"role\": \"\"}, {\"ref\": \"U10_EN_G\", \"device\": \"RT0603BRD0710KL\", \"device_uuid\": \"3840b7e554aa441f90223c083eebd79a\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 970, \"y\": 1380, \"rotation\": 0, \"subpart\": \"RT0603BRD0710KL.1\", \"nets\": {\"1\": \"U10_EN\", \"2\": \"GND\"}, \"value\": \"10k 0.1%\", \"role\": \"\"}, {\"ref\": \"U10_OV_T\", \"device\": \"RT0603BRD0710KL\", \"device_uuid\": \"3840b7e554aa441f90223c083eebd79a\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 1590, \"y\": 1380, \"rotation\": 0, \"subpart\": \"RT0603BRD0710KL.1\", \"nets\": {\"1\": \"V3_LDO\", \"2\": \"U10_OV\"}, \"value\": \"10k 0.1%\", \"role\": \"\"}, {\"ref\": \"U10_OV_B1\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 350, \"y\": 1660, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"U10_OV\", \"2\": \"U10_OV_M\"}, \"value\": \"1k 1%\", \"role\": \"\"}, {\"ref\": \"U10_OV_B2\", \"device\": \"0603WAF1001T5E\", \"device_uuid\": \"18db11499a04403ba8c98e2f7a687fbc\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 970, \"y\": 1660, \"rotation\": 0, \"subpart\": \"0603WAF1001T5E.1\", \"nets\": {\"1\": \"U10_OV_M\", \"2\": \"GND\"}, \"value\": \"1k 1%\", \"role\": \"\"}, {\"ref\": \"U10_PG_T\", \"device\": \"RT0603BRD0710KL\", \"device_uuid\": \"3840b7e554aa441f90223c083eebd79a\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 1590, \"y\": 1660, \"rotation\": 0, \"subpart\": \"RT0603BRD0710KL.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"U10_PGTH\"}, \"value\": \"10k 0.1%\", \"role\": \"\"}, {\"ref\": \"U10_PG_B\", \"device\": \"RT0603BRD0710KL\", \"device_uuid\": \"3840b7e554aa441f90223c083eebd79a\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 350, \"y\": 1940, \"rotation\": 0, \"subpart\": \"RT0603BRD0710KL.1\", \"nets\": {\"1\": \"U10_PGTH\", \"2\": \"GND\"}, \"value\": \"10k 0.1%\", \"role\": \"\"}, {\"ref\": \"U10_IN_CAP\", \"device\": \"GRM31CR71H225KA88L\", \"device_uuid\": \"3033986627424e38b63bde10777dccea\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 970, \"y\": 1940, \"rotation\": 0, \"subpart\": \"GRM31CR71H225KA88L.1\", \"nets\": {\"1\": \"V3_LDO\", \"2\": \"GND\"}, \"value\": \"2.2uF 50V X7R\", \"role\": \"Require >=1uF effective; DC-bias curve not yet verified\"}, {\"ref\": \"U10_OUT_CAP\", \"device\": \"GRM31CR71H225KA88L\", \"device_uuid\": \"3033986627424e38b63bde10777dccea\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 5, \"x\": 1590, \"y\": 1940, \"rotation\": 0, \"subpart\": \"GRM31CR71H225KA88L.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}, \"value\": \"2.2uF 50V X7R\", \"role\": \"Require >=1uF effective; DC-bias curve not yet verified\"}], \"height\": 4360, \"notes\": [\"LM73100 both supply paths; TPS389001 monitors actual V5/V3V3 rails\", \"PGOOD = both supervisor RESET outputs released; nominal thresholds4.830V/3.10385V\", \"No manufacture / procurement / bench power release. DYNAMIC and FAULT HOLD retained\"], \"first\": false, \"last\": false};\nconst result={page:plan.page,parts:[],markers:[],wires:[],nc:[],status:'STARTED'};\ntry {\n const project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong R2 context');\n await eda.dmt_EditorControl.openDocument(plan.page.uuid);\n const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();if(pg?.uuid!==plan.page.uuid)throw Error('Wrong page');\n if(plan.first){\n  const initial=await eda.sch_PrimitiveComponent.getAll();if(initial.some(c=>c.getState_ComponentType()!=='sheet'))throw Error('Expected empty new page');\n  await eda.dmt_Schematic.modifySchematicPageTitleBlock(false);\n  // DMT custom-size edits returned a known error; use the real frame's existing Border attribute.\n  // Suppress decorative frame only, while all explicit net labels, pin numbers and page headings remain.\n  for(const c of initial)if(c.getState_ComponentType()==='sheet'){\n   const attrs=await eda.sch_PrimitiveAttribute.getAll(c.getState_PrimitiveId());\n   const border=attrs.find(a=>a.getState_Key()==='Border');if(!border)throw Error('No real Border property');\n   const updated=await eda.sch_PrimitiveAttribute.modify(border.getState_PrimitiveId(),{value:'0'});if(!updated)throw Error('Border edit failed');\n  }\n  for(let i=0;i<plan.notes.length;i++)await eda.sch_PrimitiveText.create(80,55+i*23,plan.notes[i],0,null,null,12,i===0);\n  await eda.sch_PrimitiveText.create(80,25,'R2 REVIEW ONLY - '+plan.page.name+' - '+(plan.page.index+1)+'/6',0,null,null,16,true);\n }\n const existing=new Set((await eda.sch_PrimitiveComponent.getAll()).map(c=>c.getState_Designator()));\n for(const q of plan.parts){\n  if(existing.has(q.ref))throw Error('Duplicate ref '+q.ref);\n  const c=await eda.sch_PrimitiveComponent.create({libraryUuid:q.library_uuid,uuid:q.device_uuid},q.x,q.y,q.subpart,0,false,true,true);if(!c)throw Error('Create '+q.ref);\n  const m=await eda.sch_PrimitiveComponent.modify(c.getState_PrimitiveId(),{designator:q.ref,name:q.value||q.device,otherProperty:{...c.getState_OtherProperty(),'Review Status':'R2 REVIEW / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD',...(q.value?{Value:q.value}:{}),'Circuit Role':q.role}});if(!m)throw Error('Modify '+q.ref);\n  const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());\n  const actual=ps.map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),rotation:v.getState_Rotation()}));\n  if(actual.length!==Object.keys(q.nets).length||new Set(actual.map(x=>x.number)).size!==actual.length||actual.some(x=>!(x.number in q.nets)))throw Error('Real pin mismatch '+q.ref);\n  result.parts.push({ref:q.ref,id:m.getState_PrimitiveId(),association:m.getState_Component(),footprint:m.getState_Footprint(),pins:actual});\n  for(let i=0;i<ps.length;i++){\n   const pin=ps[i],a=actual[i],net=q.nets[a.number];\n   if(net===null){await pin.setState_NoConnected(true).done();result.nc.push({ref:q.ref,pin:a.number});continue;}\n   let ox=0,oy=0;\n   // Use actual inward pin direction and real net-port anchor; never infer opposite-angle semantics.\n   const length=q.ref.startsWith('U')?110:55;\n   if(a.rotation===0)ox=length;else if(a.rotation===180)ox=-length;else oy=Math.sign(a.y-q.y)*length;\n   const mark=await eda.sch_PrimitiveComponent.createNetPort('BI',net,a.x+ox,a.y+oy,ox<0?180:ox>0?0:oy>0?90:270,false);if(!mark)throw Error('Port');\n   const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(mark.getState_PrimitiveId());if(mp.length!==1)throw Error('Port anchor');\n   const rnd=v=>Math.round(v*1e6)/1e6,mx=rnd(mp[0].getState_X()),my=rnd(mp[0].getState_Y());const line=[rnd(a.x),rnd(a.y),mx,my];\n   const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');\n   // Ports retain visible net names. Remove only duplicated automatic wire text, not pin numbers or explicit network labels.\n   for(const attr of await eda.sch_PrimitiveAttribute.getAll(w.getState_PrimitiveId())){\n    if(attr.getState_Key()==='NET'||attr.getState_Key()==='Net')await eda.sch_PrimitiveAttribute.modify(attr.getState_PrimitiveId(),{valueVisible:false,keyVisible:false});\n   }\n   result.markers.push({ref:q.ref,pin:a.number,net,id:mark.getState_PrimitiveId(),x:mx,y:my});result.wires.push({ref:q.ref,pin:a.number,net,id:w.getState_PrimitiveId(),line});\n  }\n }\n if(plan.last){result.saved=await eda.sch_Document.save();if(result.saved!==true)throw Error('Save did not return true');}\n result.status='BATCH_CREATED';return result;\n}catch(e){result.status='STOP_NATIVE_BUILD_ERROR';result.error={name:e?.name,message:e?.message,stack:e?.stack};return result;}\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"cae95ff24beaad15\",\"index\":5,\"name\":\"Power_Qualification\"},\"parts\":[{\"ref\":\"U10\",\"id\":\"ca5c68ab6a4a2a9e\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"c9f6d1092d887b6f\",\"name\":\"LM73100RPWR\"},\"footprint\":{\"uuid\":\"9c03f5c4cb2f3661\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"VQFN-10_L2.0-W2.0-P0.45-TL\"},\"pins\":[{\"number\":\"1\",\"name\":\"EN/UVLO\",\"x\":1535,\"y\":1120,\"rotation\":180},{\"number\":\"2\",\"name\":\"OVLO\",\"x\":1535,\"y\":1110,\"rotation\":180},{\"number\":\"3\",\"name\":\"PG\",\"x\":1535,\"y\":1100,\"rotation\":180},{\"number\":\"4\",\"name\":\"PGTH\",\"x\":1535,\"y\":1090,\"rotation\":180},{\"number\":\"5\",\"name\":\"IN\",\"x\":1535,\"y\":1080,\"rotation\":180},{\"number\":\"6\",\"name\":\"OUT\",\"x\":1645,\"y\":1080,\"rotation\":0},{\"number\":\"7\",\"name\":\"DVDT\",\"x\":1645,\"y\":1090,\"rotation\":0},{\"number\":\"8\",\"name\":\"GND\",\"x\":1645,\"y\":1100,\"rotation\":0},{\"number\":\"9\",\"name\":\"IMON\",\"x\":1645,\"y\":1110,\"rotation\":0},{\"number\":\"10\",\"name\":\"DNC\",\"x\":1645,\"y\":1120,\"rotation\":0}]},{\"ref\":\"U10_EN_R\",\"id\":\"257fcfa905abfbca\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":1380,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":1380,\"rotation\":180}]},{\"ref\":\"U10_EN_G\",\"id\":\"95e3baedf7f025de\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":990,\"y\":1380,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":950,\"y\":1380,\"rotation\":180}]},{\"ref\":\"U10_OV_T\",\"id\":\"724d7c81f078e317\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1610,\"y\":1380,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1570,\"y\":1380,\"rotation\":180}]},{\"ref\":\"U10_OV_B1\",\"id\":\"2371ce09759a4fb8\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":1660,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":1660,\"rotation\":180}]},{\"ref\":\"U10_OV_B2\",\"id\":\"8bb15a61a44fff50\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":990,\"y\":1660,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":950,\"y\":1660,\"rotation\":180}]}],\"markers\":[{\"ref\":\"U10\",\"pin\":\"1\",\"net\":\"U10_EN\",\"id\":\"880a66a582c059ab\",\"x\":1425,\"y\":1120},{\"ref\":\"U10\",\"pin\":\"2\",\"net\":\"U10_OV\",\"id\":\"2332b8a61bcd8e0f\",\"x\":1425,\"y\":1110},{\"ref\":\"U10\",\"pin\":\"4\",\"net\":\"U10_PGTH\",\"id\":\"101ab17b303592e6\",\"x\":1425,\"y\":1090},{\"ref\":\"U10\",\"pin\":\"5\",\"net\":\"V3_LDO\",\"id\":\"4c200b0319d1c322\",\"x\":1425,\"y\":1080},{\"ref\":\"U10\",\"pin\":\"6\",\"net\":\"V3V3\",\"id\":\"805eacd665c1bdc1\",\"x\":1755,\"y\":1080},{\"ref\":\"U10\",\"pin\":\"8\",\"net\":\"GND\",\"id\":\"1d389221b9090c4e\",\"x\":1755,\"y\":1100},{\"ref\":\"U10\",\"pin\":\"9\",\"net\":\"GND\",\"id\":\"abd750bb00e403d3\",\"x\":1755,\"y\":1110},{\"ref\":\"U10_EN_R\",\"pin\":\"2\",\"net\":\"U10_EN\",\"id\":\"db04f5c15ee0600f\",\"x\":480,\"y\":1380},{\"ref\":\"U10_EN_R\",\"pin\":\"1\",\"net\":\"V3_LDO\",\"id\":\"647eda55183b54e2\",\"x\":220,\"y\":1380},{\"ref\":\"U10_EN_G\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"46b93db518a55ab6\",\"x\":1100,\"y\":1380},{\"ref\":\"U10_EN_G\",\"pin\":\"1\",\"net\":\"U10_EN\",\"id\":\"55b5988f877c26e5\",\"x\":840,\"y\":1380},{\"ref\":\"U10_OV_T\",\"pin\":\"2\",\"net\":\"U10_OV\",\"id\":\"301de6ab6e585c01\",\"x\":1720,\"y\":1380},{\"ref\":\"U10_OV_T\",\"pin\":\"1\",\"net\":\"V3_LDO\",\"id\":\"b09967ce5dfd7403\",\"x\":1460,\"y\":1380},{\"ref\":\"U10_OV_B1\",\"pin\":\"2\",\"net\":\"U10_OV_M\",\"id\":\"f8517091d661e2c9\",\"x\":480,\"y\":1660},{\"ref\":\"U10_OV_B1\",\"pin\":\"1\",\"net\":\"U10_OV\",\"id\":\"634aac8473712e91\",\"x\":220,\"y\":1660}],\"wires\":[{\"ref\":\"U10\",\"pin\":\"1\",\"net\":\"U10_EN\",\"id\":\"72b896a4fd68bee7\",\"line\":[1535,1120,1425,1120]},{\"ref\":\"U10\",\"pin\":\"2\",\"net\":\"U10_OV\",\"id\":\"55f86dbcb9ceb38a\",\"line\":[1535,1110,1425,1110]},{\"ref\":\"U10\",\"pin\":\"4\",\"net\":\"U10_PGTH\",\"id\":\"3c49968afcb60b73\",\"line\":[1535,1090,1425,1090]},{\"ref\":\"U10\",\"pin\":\"5\",\"net\":\"V3_LDO\",\"id\":\"e1a78bed9cce09f6\",\"line\":[1535,1080,1425,1080]},{\"ref\":\"U10\",\"pin\":\"6\",\"net\":\"V3V3\",\"id\":\"4468bc7563bfef45\",\"line\":[1645,1080,1755,1080]},{\"ref\":\"U10\",\"pin\":\"8\",\"net\":\"GND\",\"id\":\"e36ef9d8c8037741\",\"line\":[1645,1100,1755,1100]},{\"ref\":\"U10\",\"pin\":\"9\",\"net\":\"GND\",\"id\":\"5557fdd6cd5bb954\",\"line\":[1645,1110,1755,1110]},{\"ref\":\"U10_EN_R\",\"pin\":\"2\",\"net\":\"U10_EN\",\"id\":\"caaef891a4de38a3\",\"line\":[370,1380,480,1380]},{\"ref\":\"U10_EN_R\",\"pin\":\"1\",\"net\":\"V3_LDO\",\"id\":\"1afdfdde4bfcce40\",\"line\":[330,1380,220,1380]},{\"ref\":\"U10_EN_G\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"2fa754590eb0914d\",\"line\":[990,1380,1100,1380]},{\"ref\":\"U10_EN_G\",\"pin\":\"1\",\"net\":\"U10_EN\",\"id\":\"2c47aed191e8dd0d\",\"line\":[950,1380,840,1380]},{\"ref\":\"U10_OV_T\",\"pin\":\"2\",\"net\":\"U10_OV\",\"id\":\"31e6980322ec2ff3\",\"line\":[1610,1380,1720,1380]},{\"ref\":\"U10_OV_T\",\"pin\":\"1\",\"net\":\"V3_LDO\",\"id\":\"8a0ba14d784f374f\",\"line\":[1570,1380,1460,1380]},{\"ref\":\"U10_OV_B1\",\"pin\":\"2\",\"net\":\"U10_OV_M\",\"id\":\"e2eae6d8fe518f7f\",\"line\":[370,1660,480,1660]},{\"ref\":\"U10_OV_B1\",\"pin\":\"1\",\"net\":\"U10_OV\",\"id\":\"76b530be98e364a1\",\"line\":[330,1660,220,1660]}],\"nc\":[{\"ref\":\"U10\",\"pin\":\"3\"},{\"ref\":\"U10\",\"pin\":\"7\"},{\"ref\":\"U10\",\"pin\":\"10\"}],\"status\":\"STOP_NATIVE_BUILD_ERROR\",\"error\":{\"name\":\"Error\",\"message\":\"create failed!\",\"stack\":\"Error: create failed!\\n    at za.create (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:39:84532)\\n    at async m_.create (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:39:82446)\\n    at async eval (eval at Lu (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:44:67), <anonymous>:44:12)\\n    at async Du (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:44:7610)\\n    at async Object.run (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:44:8542)\"}},\"logs\":[],\"durationMs\":6401}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "cae95ff24beaad15",
+        "index": 5,
+        "name": "Power_Qualification"
+      },
+      "parts": [
+        {
+          "ref": "U10",
+          "id": "ca5c68ab6a4a2a9e",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "c9f6d1092d887b6f",
+            "name": "LM73100RPWR"
+          },
+          "footprint": {
+            "uuid": "9c03f5c4cb2f3661",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "VQFN-10_L2.0-W2.0-P0.45-TL"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "EN/UVLO",
+              "x": 1535,
+              "y": 1120,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "OVLO",
+              "x": 1535,
+              "y": 1110,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "PG",
+              "x": 1535,
+              "y": 1100,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "PGTH",
+              "x": 1535,
+              "y": 1090,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "IN",
+              "x": 1535,
+              "y": 1080,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "OUT",
+              "x": 1645,
+              "y": 1080,
+              "rotation": 0
+            },
+            {
+              "number": "7",
+              "name": "DVDT",
+              "x": 1645,
+              "y": 1090,
+              "rotation": 0
+            },
+            {
+              "number": "8",
+              "name": "GND",
+              "x": 1645,
+              "y": 1100,
+              "rotation": 0
+            },
+            {
+              "number": "9",
+              "name": "IMON",
+              "x": 1645,
+              "y": 1110,
+              "rotation": 0
+            },
+            {
+              "number": "10",
+              "name": "DNC",
+              "x": 1645,
+              "y": 1120,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "U10_EN_R",
+          "id": "257fcfa905abfbca",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 1380,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 1380,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "U10_EN_G",
+          "id": "95e3baedf7f025de",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 990,
+              "y": 1380,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 950,
+              "y": 1380,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "U10_OV_T",
+          "id": "724d7c81f078e317",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1610,
+              "y": 1380,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1570,
+              "y": 1380,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "U10_OV_B1",
+          "id": "2371ce09759a4fb8",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 1660,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 1660,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "U10_OV_B2",
+          "id": "8bb15a61a44fff50",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 990,
+              "y": 1660,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 950,
+              "y": 1660,
+              "rotation": 180
+            }
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "ref": "U10",
+          "pin": "1",
+          "net": "U10_EN",
+          "id": "880a66a582c059ab",
+          "x": 1425,
+          "y": 1120
+        },
+        {
+          "ref": "U10",
+          "pin": "2",
+          "net": "U10_OV",
+          "id": "2332b8a61bcd8e0f",
+          "x": 1425,
+          "y": 1110
+        },
+        {
+          "ref": "U10",
+          "pin": "4",
+          "net": "U10_PGTH",
+          "id": "101ab17b303592e6",
+          "x": 1425,
+          "y": 1090
+        },
+        {
+          "ref": "U10",
+          "pin": "5",
+          "net": "V3_LDO",
+          "id": "4c200b0319d1c322",
+          "x": 1425,
+          "y": 1080
+        },
+        {
+          "ref": "U10",
+          "pin": "6",
+          "net": "V3V3",
+          "id": "805eacd665c1bdc1",
+          "x": 1755,
+          "y": 1080
+        },
+        {
+          "ref": "U10",
+          "pin": "8",
+          "net": "GND",
+          "id": "1d389221b9090c4e",
+          "x": 1755,
+          "y": 1100
+        },
+        {
+          "ref": "U10",
+          "pin": "9",
+          "net": "GND",
+          "id": "abd750bb00e403d3",
+          "x": 1755,
+          "y": 1110
+        },
+        {
+          "ref": "U10_EN_R",
+          "pin": "2",
+          "net": "U10_EN",
+          "id": "db04f5c15ee0600f",
+          "x": 480,
+          "y": 1380
+        },
+        {
+          "ref": "U10_EN_R",
+          "pin": "1",
+          "net": "V3_LDO",
+          "id": "647eda55183b54e2",
+          "x": 220,
+          "y": 1380
+        },
+        {
+          "ref": "U10_EN_G",
+          "pin": "2",
+          "net": "GND",
+          "id": "46b93db518a55ab6",
+          "x": 1100,
+          "y": 1380
+        },
+        {
+          "ref": "U10_EN_G",
+          "pin": "1",
+          "net": "U10_EN",
+          "id": "55b5988f877c26e5",
+          "x": 840,
+          "y": 1380
+        },
+        {
+          "ref": "U10_OV_T",
+          "pin": "2",
+          "net": "U10_OV",
+          "id": "301de6ab6e585c01",
+          "x": 1720,
+          "y": 1380
+        },
+        {
+          "ref": "U10_OV_T",
+          "pin": "1",
+          "net": "V3_LDO",
+          "id": "b09967ce5dfd7403",
+          "x": 1460,
+          "y": 1380
+        },
+        {
+          "ref": "U10_OV_B1",
+          "pin": "2",
+          "net": "U10_OV_M",
+          "id": "f8517091d661e2c9",
+          "x": 480,
+          "y": 1660
+        },
+        {
+          "ref": "U10_OV_B1",
+          "pin": "1",
+          "net": "U10_OV",
+          "id": "634aac8473712e91",
+          "x": 220,
+          "y": 1660
+        }
+      ],
+      "wires": [
+        {
+          "ref": "U10",
+          "pin": "1",
+          "net": "U10_EN",
+          "id": "72b896a4fd68bee7",
+          "line": [
+            1535,
+            1120,
+            1425,
+            1120
+          ]
+        },
+        {
+          "ref": "U10",
+          "pin": "2",
+          "net": "U10_OV",
+          "id": "55f86dbcb9ceb38a",
+          "line": [
+            1535,
+            1110,
+            1425,
+            1110
+          ]
+        },
+        {
+          "ref": "U10",
+          "pin": "4",
+          "net": "U10_PGTH",
+          "id": "3c49968afcb60b73",
+          "line": [
+            1535,
+            1090,
+            1425,
+            1090
+          ]
+        },
+        {
+          "ref": "U10",
+          "pin": "5",
+          "net": "V3_LDO",
+          "id": "e1a78bed9cce09f6",
+          "line": [
+            1535,
+            1080,
+            1425,
+            1080
+          ]
+        },
+        {
+          "ref": "U10",
+          "pin": "6",
+          "net": "V3V3",
+          "id": "4468bc7563bfef45",
+          "line": [
+            1645,
+            1080,
+            1755,
+            1080
+          ]
+        },
+        {
+          "ref": "U10",
+          "pin": "8",
+          "net": "GND",
+          "id": "e36ef9d8c8037741",
+          "line": [
+            1645,
+            1100,
+            1755,
+            1100
+          ]
+        },
+        {
+          "ref": "U10",
+          "pin": "9",
+          "net": "GND",
+          "id": "5557fdd6cd5bb954",
+          "line": [
+            1645,
+            1110,
+            1755,
+            1110
+          ]
+        },
+        {
+          "ref": "U10_EN_R",
+          "pin": "2",
+          "net": "U10_EN",
+          "id": "caaef891a4de38a3",
+          "line": [
+            370,
+            1380,
+            480,
+            1380
+          ]
+        },
+        {
+          "ref": "U10_EN_R",
+          "pin": "1",
+          "net": "V3_LDO",
+          "id": "1afdfdde4bfcce40",
+          "line": [
+            330,
+            1380,
+            220,
+            1380
+          ]
+        },
+        {
+          "ref": "U10_EN_G",
+          "pin": "2",
+          "net": "GND",
+          "id": "2fa754590eb0914d",
+          "line": [
+            990,
+            1380,
+            1100,
+            1380
+          ]
+        },
+        {
+          "ref": "U10_EN_G",
+          "pin": "1",
+          "net": "U10_EN",
+          "id": "2c47aed191e8dd0d",
+          "line": [
+            950,
+            1380,
+            840,
+            1380
+          ]
+        },
+        {
+          "ref": "U10_OV_T",
+          "pin": "2",
+          "net": "U10_OV",
+          "id": "31e6980322ec2ff3",
+          "line": [
+            1610,
+            1380,
+            1720,
+            1380
+          ]
+        },
+        {
+          "ref": "U10_OV_T",
+          "pin": "1",
+          "net": "V3_LDO",
+          "id": "8a0ba14d784f374f",
+          "line": [
+            1570,
+            1380,
+            1460,
+            1380
+          ]
+        },
+        {
+          "ref": "U10_OV_B1",
+          "pin": "2",
+          "net": "U10_OV_M",
+          "id": "e2eae6d8fe518f7f",
+          "line": [
+            370,
+            1660,
+            480,
+            1660
+          ]
+        },
+        {
+          "ref": "U10_OV_B1",
+          "pin": "1",
+          "net": "U10_OV",
+          "id": "76b530be98e364a1",
+          "line": [
+            330,
+            1660,
+            220,
+            1660
+          ]
+        }
+      ],
+      "nc": [
+        {
+          "ref": "U10",
+          "pin": "3"
+        },
+        {
+          "ref": "U10",
+          "pin": "7"
+        },
+        {
+          "ref": "U10",
+          "pin": "10"
+        }
+      ],
+      "status": "STOP_NATIVE_BUILD_ERROR",
+      "error": {
+        "name": "Error",
+        "message": "create failed!",
+        "stack": "Error: create failed!\n    at za.create (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:39:84532)\n    at async m_.create (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:39:82446)\n    at async eval (eval at Lu (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:44:67), <anonymous>:44:12)\n    at async Du (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:44:7610)\n    at async Object.run (https://modules.lceda.cn/pro-api/0.3.38.25cc6d44/api.js:44:8542)"
+      }
+    },
+    "logs": [],
+    "durationMs": 6401
+  }
+}

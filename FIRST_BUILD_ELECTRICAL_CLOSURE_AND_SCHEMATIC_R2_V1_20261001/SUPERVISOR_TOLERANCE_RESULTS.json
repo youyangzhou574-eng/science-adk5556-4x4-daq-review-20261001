@@ -1,0 +1,22 @@
+[
+  {
+    "rail": "V5",
+    "nominal_fall_V": 4.83,
+    "min_fall_V": 4.769178626373627,
+    "max_fall_V": 4.891038833833835,
+    "conservative_max_release_V": 4.931389904212964,
+    "CT_F": 1e-07,
+    "nominal_release_delay_s": 0.107025,
+    "propagation_delay": "18us nominal at3.3V; no datasheet worst-case bound; hardware10ms remains HOLD"
+  },
+  {
+    "rail": "V3V3",
+    "nominal_fall_V": 3.1038499999999996,
+    "min_fall_V": 3.065203988010989,
+    "max_fall_V": 3.1426345195205205,
+    "conservative_max_release_V": 3.168561254306565,
+    "CT_F": 1e-07,
+    "nominal_release_delay_s": 0.107025,
+    "propagation_delay": "18us nominal at3.3V; no datasheet worst-case bound; hardware10ms remains HOLD"
+  }
+]

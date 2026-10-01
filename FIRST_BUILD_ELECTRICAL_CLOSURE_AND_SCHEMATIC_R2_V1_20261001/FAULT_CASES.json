@@ -1,0 +1,344 @@
+[
+  {
+    "case": 1,
+    "line": 0,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 2,
+    "line": 0,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 3,
+    "line": 0,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 4,
+    "line": 1,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 5,
+    "line": 1,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 6,
+    "line": 1,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 7,
+    "line": 2,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 8,
+    "line": 2,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 9,
+    "line": 2,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 10,
+    "line": 3,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 11,
+    "line": 3,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": null,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 12,
+    "line": 3,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 13,
+    "line": 4,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 14,
+    "line": 4,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 15,
+    "line": 4,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 16,
+    "line": 5,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 17,
+    "line": 5,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 18,
+    "line": 5,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 19,
+    "line": 6,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 20,
+    "line": 6,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 21,
+    "line": 6,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 22,
+    "line": 7,
+    "fault": "GND",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 23,
+    "line": 7,
+    "fault": "5V25",
+    "classification": "STATIC_LIMIT_BOUND_ONLY",
+    "max_output_iso_current_mA": 5.808080808080808,
+    "max_sense_injection_mA": 0.5755755755755755,
+    "iso_power_W": 0.033396464646464646,
+    "CF_edge_energy_nJ": 38.1871875,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 24,
+    "line": 7,
+    "fault": "OPEN",
+    "classification": "QUALITATIVE_OPEN",
+    "max_output_iso_current_mA": null,
+    "max_sense_injection_mA": null,
+    "iso_power_W": null,
+    "CF_edge_energy_nJ": null,
+    "60s_full_board_thermal": "HOLD",
+    "absolute_max_complete": "HOLD"
+  },
+  {
+    "case": 25,
+    "fault": "ROW_COL_SHORT",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 26,
+    "fault": "CELL_SHORT",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 27,
+    "fault": "CELL_OPEN",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 28,
+    "fault": "V5_FIRST_OFF",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 29,
+    "fault": "V3_FIRST_OFF",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 30,
+    "fault": "BOTH_OFF_EXTERNAL_DIGITAL",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 31,
+    "fault": "SLOW_RAMP",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 32,
+    "fault": "RESET",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  },
+  {
+    "case": 33,
+    "fault": "RESTORE",
+    "classification": "MODEL_REQUIRED",
+    "result": "FAULT_PROTECTION_HOLD"
+  }
+]

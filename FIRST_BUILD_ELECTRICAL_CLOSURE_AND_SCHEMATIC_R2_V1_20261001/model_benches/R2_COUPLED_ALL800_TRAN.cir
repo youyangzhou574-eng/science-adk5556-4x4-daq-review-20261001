@@ -1,0 +1,80 @@
+* R2 complete coupled 4x4 OPA4388 manufacturer-macro testbench, NOT EXECUTED
+* ADC/switch/reference/gating/clamp/rail thermal behavior are not represented by this bench.
+.LIB "OPA4388.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VCMD0 cmd0 0 PULSE(2.5 2.25 1m 10n 10n 2m 4m)
+XR0 cmd0 fb0 v5 0 drv0 OPA4388
+RISO0 drv0 row0 1k
+RFB0 row0 fb0 4.99k
+CHF0 drv0 fb0 100p
+CLROW0 row0 0 1n
+VCMD1 cmd1 0 2.5
+XR1 cmd1 fb1 v5 0 drv1 OPA4388
+RISO1 drv1 row1 1k
+RFB1 row1 fb1 4.99k
+CHF1 drv1 fb1 100p
+CLROW1 row1 0 1n
+VCMD2 cmd2 0 2.5
+XR2 cmd2 fb2 v5 0 drv2 OPA4388
+RISO2 drv2 row2 1k
+RFB2 row2 fb2 4.99k
+CHF2 drv2 fb2 100p
+CLROW2 row2 0 1n
+VCMD3 cmd3 0 2.5
+XR3 cmd3 fb3 v5 0 drv3 OPA4388
+RISO3 drv3 row3 1k
+RFB3 row3 fb3 4.99k
+CHF3 drv3 fb3 100p
+CLROW3 row3 0 1n
+XC0 vcm sense0 v5 0 tdrv0 OPA4388
+RSENSE0 col0 sense0 10k
+RTOUT0 tdrv0 tap0 1k
+RF0 tap0 col0 4.99k
+CF0 tap0 col0 2.2n
+RADC0 tap0 ain0 100
+CADC0 ain0 0 10n
+CLCOL0 col0 0 1n
+RARRAY0_0 row0 col0 800
+RARRAY1_0 row1 col0 800
+RARRAY2_0 row2 col0 800
+RARRAY3_0 row3 col0 800
+XC1 vcm sense1 v5 0 tdrv1 OPA4388
+RSENSE1 col1 sense1 10k
+RTOUT1 tdrv1 tap1 1k
+RF1 tap1 col1 4.99k
+CF1 tap1 col1 2.2n
+RADC1 tap1 ain1 100
+CADC1 ain1 0 10n
+CLCOL1 col1 0 1n
+RARRAY0_1 row0 col1 800
+RARRAY1_1 row1 col1 800
+RARRAY2_1 row2 col1 800
+RARRAY3_1 row3 col1 800
+XC2 vcm sense2 v5 0 tdrv2 OPA4388
+RSENSE2 col2 sense2 10k
+RTOUT2 tdrv2 tap2 1k
+RF2 tap2 col2 4.99k
+CF2 tap2 col2 2.2n
+RADC2 tap2 ain2 100
+CADC2 ain2 0 10n
+CLCOL2 col2 0 1n
+RARRAY0_2 row0 col2 800
+RARRAY1_2 row1 col2 800
+RARRAY2_2 row2 col2 800
+RARRAY3_2 row3 col2 800
+XC3 vcm sense3 v5 0 tdrv3 OPA4388
+RSENSE3 col3 sense3 10k
+RTOUT3 tdrv3 tap3 1k
+RF3 tap3 col3 4.99k
+CF3 tap3 col3 2.2n
+RADC3 tap3 ain3 100
+CADC3 ain3 0 10n
+CLCOL3 col3 0 1n
+RARRAY0_3 row0 col3 800
+RARRAY1_3 row1 col3 800
+RARRAY2_3 row2 col3 800
+RARRAY3_3 row3 col3 800
+.TRAN 0.1u 5m 0 0.1u
+.PROBE V(row0) V(drv0) V(tap0) V(tdrv0) V(ain0)
+.END

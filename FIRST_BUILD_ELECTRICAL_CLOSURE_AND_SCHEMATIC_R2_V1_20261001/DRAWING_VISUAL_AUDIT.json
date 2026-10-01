@@ -1,0 +1,20 @@
+{
+  "pdf_exports_used": 3,
+  "all_exports_rendered_pages": 18,
+  "all_exports_visually_inspected": true,
+  "final_file": "SCIENCE_ADK5556_4X4_R2_REVIEW.pdf",
+  "final_pages": 6,
+  "final_SHA256": "619D4F1BEAE7C9E6D5AE138878F694B486E420561876B5811DE46A4905FE40E6",
+  "observations": [
+    "All pages present; pin numbers and required net names visible",
+    "Initial export wire-centre labels collided with component text",
+    "Second export rejected: attribute font API produced 800-unit huge labels; preserved",
+    "Final export uses default attribute font and correct component rotation; body/pin collisions reduced",
+    "Remaining net labels cross net-port arrow glyphs; long page6 needs zoom; not fabrication drawing",
+    "Three-export budget exhausted; no further edit/export"
+  ],
+  "drawing_layout_PASS": false,
+  "drawing_status": "DRAWING_LAYOUT_HOLD",
+  "ERC_status": "ERC_DETAIL_HOLD: official verbose return only warn1168 count, no individual diagnostics",
+  "native_property_status": "METADATA_DETAIL_HOLD:4Value attributes blank; oldManufacturer encoding gaps"
+}

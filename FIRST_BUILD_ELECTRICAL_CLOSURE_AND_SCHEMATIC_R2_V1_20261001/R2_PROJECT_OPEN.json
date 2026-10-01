@@ -1,0 +1,36 @@
+{
+  "started_utc": "2026-10-01T05:48:37.996135+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const id='f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe';\nconst opened=await eda.dmt_Project.openProject(id);if(!opened)throw Error('R2 open failed');\nreturn {opened,project:await eda.dmt_Project.getCurrentProjectInfo(),schematics:await eda.dmt_Schematic.getAllSchematicsInfo()};\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"opened\":true,\"project\":{\"itemType\":\"Project\",\"uuid\":\"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\",\"friendlyName\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\",\"name\":\"/SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\",\"teamUuid\":\"C:\\\\Users\\\\yang\\\\Documents\\\\LCEDA-Pro\\\\projects\",\"description\":\"Independent R2 review; dynamic/fault/effective-capacity/bench holds retained\",\"data\":[]},\"schematics\":[]},\"logs\":[],\"durationMs\":613}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "opened": true,
+      "project": {
+        "itemType": "Project",
+        "uuid": "f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe",
+        "friendlyName": "SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1",
+        "name": "/SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1",
+        "teamUuid": "C:\\Users\\yang\\Documents\\LCEDA-Pro\\projects",
+        "description": "Independent R2 review; dynamic/fault/effective-capacity/bench holds retained",
+        "data": []
+      },
+      "schematics": []
+    },
+    "logs": [],
+    "durationMs": 613
+  }
+}

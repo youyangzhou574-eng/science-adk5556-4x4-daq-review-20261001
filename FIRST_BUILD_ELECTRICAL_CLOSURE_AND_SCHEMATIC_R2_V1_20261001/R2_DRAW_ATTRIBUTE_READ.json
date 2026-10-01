@@ -1,0 +1,100 @@
+{
+  "started_utc": "2026-10-01T06:15:20.694596+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "await eda.dmt_EditorControl.openDocument('5f9caa2aebdf4356');const w=(await eda.sch_PrimitiveWire.getAll())[0];const m=(await eda.sch_PrimitiveComponent.getAll()).find(c=>c.getState_ComponentType()==='netport');function s(a){return {id:a.getState_PrimitiveId(),key:a.getState_Key(),value:a.getState_Value(),x:a.getState_X(),y:a.getState_Y(),vv:a.getState_ValueVisible(),kv:a.getState_KeyVisible()};}return {wire:w.getState_PrimitiveId(),line:w.getState_Line(),wireattrs:(await eda.sch_PrimitiveAttribute.getAll(w.getState_PrimitiveId())).map(s),port:m.getState_PrimitiveId(),portattrs:(await eda.sch_PrimitiveAttribute.getAll(m.getState_PrimitiveId())).map(s)};",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"wire\":\"1190dae6d43fb8ff\",\"line\":[170,350,280,350],\"wireattrs\":[{\"id\":\"4f424f7ced579500\",\"key\":\"Relevance\",\"value\":\"[]\",\"x\":null,\"y\":0,\"vv\":null,\"kv\":null},{\"id\":\"f42117a90d2c4241\",\"key\":\"Name\",\"value\":\"SPI_MOSI\",\"x\":225,\"y\":350,\"vv\":true,\"kv\":false}],\"port\":\"38df534b401dcb90\",\"portattrs\":[{\"id\":\"5c84d49a2b8abedf\",\"key\":\"Symbol\",\"value\":\"ad62b8f1e3eed187\",\"x\":170,\"y\":380,\"vv\":false,\"kv\":false},{\"id\":\"3d727a6818b0ef3b\",\"key\":\"Name\",\"value\":\"SPI_MOSI\",\"x\":152,\"y\":350,\"vv\":false,\"kv\":false},{\"id\":\"742dca649f9a7972\",\"key\":\"Relevance\",\"value\":\"\",\"x\":70,\"y\":350,\"vv\":null,\"kv\":false},{\"id\":\"4e83bff5a5f900a5\",\"key\":\"Device\",\"value\":\"335f968d512ae127\",\"x\":null,\"y\":0,\"vv\":null,\"kv\":null},{\"id\":\"ef978d5049eaa0ea\",\"key\":\"Description\",\"value\":\"Netport-BI\",\"x\":null,\"y\":0,\"vv\":null,\"kv\":null}]},\"logs\":[],\"durationMs\":612}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "wire": "1190dae6d43fb8ff",
+      "line": [
+        170,
+        350,
+        280,
+        350
+      ],
+      "wireattrs": [
+        {
+          "id": "4f424f7ced579500",
+          "key": "Relevance",
+          "value": "[]",
+          "x": null,
+          "y": 0,
+          "vv": null,
+          "kv": null
+        },
+        {
+          "id": "f42117a90d2c4241",
+          "key": "Name",
+          "value": "SPI_MOSI",
+          "x": 225,
+          "y": 350,
+          "vv": true,
+          "kv": false
+        }
+      ],
+      "port": "38df534b401dcb90",
+      "portattrs": [
+        {
+          "id": "5c84d49a2b8abedf",
+          "key": "Symbol",
+          "value": "ad62b8f1e3eed187",
+          "x": 170,
+          "y": 380,
+          "vv": false,
+          "kv": false
+        },
+        {
+          "id": "3d727a6818b0ef3b",
+          "key": "Name",
+          "value": "SPI_MOSI",
+          "x": 152,
+          "y": 350,
+          "vv": false,
+          "kv": false
+        },
+        {
+          "id": "742dca649f9a7972",
+          "key": "Relevance",
+          "value": "",
+          "x": 70,
+          "y": 350,
+          "vv": null,
+          "kv": false
+        },
+        {
+          "id": "4e83bff5a5f900a5",
+          "key": "Device",
+          "value": "335f968d512ae127",
+          "x": null,
+          "y": 0,
+          "vv": null,
+          "kv": null
+        },
+        {
+          "id": "ef978d5049eaa0ea",
+          "key": "Description",
+          "value": "Netport-BI",
+          "x": null,
+          "y": 0,
+          "vv": null,
+          "kv": null
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 612
+  }
+}

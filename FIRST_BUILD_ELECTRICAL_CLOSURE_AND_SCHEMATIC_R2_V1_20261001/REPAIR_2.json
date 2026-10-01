@@ -1,0 +1,45 @@
+{
+  "started_utc": "2026-10-01T06:07:28.346310+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const d={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": \"595d5f2f11dee03d\", \"parts\": [{\"ref\": \"R_VCM_ISO\", \"y\": 1180, \"nets\": {\"1\": \"VCM_DRV\", \"2\": \"VCM\"}}, {\"ref\": \"R_VEX_ISO\", \"y\": 1180, \"nets\": {\"1\": \"VEXC_DRV\", \"2\": \"VEXC\"}}, {\"ref\": \"D_VCM\", \"y\": 1180, \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"VCM_DRV\"}}, {\"ref\": \"D_VEX\", \"y\": 1320, \"nets\": {\"1\": \"GND\", \"2\": \"V5\", \"3\": \"VEXC_DRV\"}}], \"first\": false};const r={page:d.page,parts:[],status:'STARTED'};try{const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!==d.project)throw Error('Wrong R2');await eda.dmt_EditorControl.openDocument(d.page);if(d.first){for(const w of await eda.sch_PrimitiveWire.getAll())if(!await eda.sch_PrimitiveWire.delete(w))throw Error('Delete wire');for(const c of await eda.sch_PrimitiveComponent.getAll())if(c.getState_ComponentType()==='netport')if(!await eda.sch_PrimitiveComponent.delete(c))throw Error('Delete port');}const cs=await eda.sch_PrimitiveComponent.getAll();for(const q of d.parts){const c=cs.find(v=>v.getState_Designator()===q.ref&&v.getState_ComponentType()==='part');if(!c)throw Error('Missing '+q.ref);let pins=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());if(q.ref.startsWith('C')&&pins.length===2&&Math.abs(pins[0].getState_X()-pins[1].getState_X())<1e-5){await eda.sch_PrimitiveComponent.modify(c,{rotation:90});pins=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());}let n=0;for(const pin of pins){const num=String(pin.getState_PinNumber()),net=q.nets[num];if(net===undefined)throw Error('Unexpected pin');if(net===null){await pin.setState_NoConnected(true).done();continue;}const rnd=v=>Math.round(v*1e6)/1e6,x=rnd(pin.getState_X()),y=rnd(pin.getState_Y()),a=pin.getState_Rotation(),len=q.ref.startsWith('U')?110:55;let ox=0,oy=0;if(a===0)ox=len;else if(a===180)ox=-len;else oy=Math.sign(y-q.y)*len;if(!ox&&!oy)throw Error('Direction');const ex=rnd(x+ox),ey=rnd(y+oy);const m=await eda.sch_PrimitiveComponent.createNetPort('BI',net,ex,ey,ox<0?180:ox>0?0:oy>0?90:270,false);if(!m)throw Error('Port');const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());if(mp.length!==1)throw Error('Port pins');const ax=rnd(mp[0].getState_X()),ay=rnd(mp[0].getState_Y());if(Math.abs(ax-ex)>1e-5||Math.abs(ay-ey)>1e-5)throw Error('Anchor');const w=await eda.sch_PrimitiveWire.create([[x,y,ax,ay]],net);if(!w)throw Error('Wire');for(const at of await eda.sch_PrimitiveAttribute.getAll(m.getState_PrimitiveId()))if(at.getState_Key()==='Name')await eda.sch_PrimitiveAttribute.modify(at.getState_PrimitiveId(),{rotation:0,x:ex+(ox>=0?18:-18),y:ey,alignMode:ox>=0?2:8,fontSize:8});n++;}r.parts.push({ref:q.ref,connected:n});}r.status='REPAIRED';return r;}catch(e){r.status='FAILED';r.error={name:e.name,message:e.message,stack:e.stack};return r;}",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":\"595d5f2f11dee03d\",\"parts\":[{\"ref\":\"R_VCM_ISO\",\"connected\":2},{\"ref\":\"R_VEX_ISO\",\"connected\":2},{\"ref\":\"D_VCM\",\"connected\":3},{\"ref\":\"D_VEX\",\"connected\":3}],\"status\":\"REPAIRED\"},\"logs\":[],\"durationMs\":2079}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": "595d5f2f11dee03d",
+      "parts": [
+        {
+          "ref": "R_VCM_ISO",
+          "connected": 2
+        },
+        {
+          "ref": "R_VEX_ISO",
+          "connected": 2
+        },
+        {
+          "ref": "D_VCM",
+          "connected": 3
+        },
+        {
+          "ref": "D_VEX",
+          "connected": 3
+        }
+      ],
+      "status": "REPAIRED"
+    },
+    "logs": [],
+    "durationMs": 2079
+  }
+}

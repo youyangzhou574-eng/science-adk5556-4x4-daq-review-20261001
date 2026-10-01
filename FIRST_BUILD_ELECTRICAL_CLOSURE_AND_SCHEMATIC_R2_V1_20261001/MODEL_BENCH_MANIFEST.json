@@ -1,0 +1,14 @@
+{
+  "model_source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\\sources\\OPA4388_PSPICE.zip.unpacked\\OPA4388.LIB",
+  "model_sha256": "958ff133418bd47522015057497858263e73b9e6d75860ef9c0b6fdabed5cd0d",
+  "new_model_packages": 0,
+  "reused_primary_model_packages": 1,
+  "SPICE_runs": 0,
+  "executor_confirmed": false,
+  "benches": [
+    "R2_COUPLED_ALL800_TRAN.cir",
+    "R2_ROW_RETURN_RATIO.cir",
+    "R2_TIA_RETURN_RATIO.cir"
+  ],
+  "model_boundaries": "README.md lists unrepresented complete-board components and required model additions"
+}

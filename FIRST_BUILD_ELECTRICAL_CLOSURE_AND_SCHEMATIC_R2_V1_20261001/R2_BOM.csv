@@ -1,0 +1,169 @@
+﻿ref,device,value,page,supplier_id,footprint,role
+J1,HDR-M_2.54_1x2P,,Power_Reference,C124375,HDR-TH_2P-P2.54-V-M-1,Regulated 5V nominal input; actual V5 must be qualified before valid data
+U6,REF3025AIDBZR,,Power_Reference,C11334,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,
+U8,TPS7A2033PDBVR,,Power_Reference,C2862740,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR,
+U3,OPA2388IDR,,Power_Reference,C1517414,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,
+RD_TOP,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,
+RD_B1,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B2,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B3,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B4,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B5,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B6,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B7,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B8,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+RD_B9,RT0603BRD0710KL,10k 0.1%,Power_Reference,C95204,R0603,9 series precision10k = nominal90k
+C_DIV,GRM188R71C104KA01D,100nF,Power_Reference,C45000,C0603,
+C_PWR,GRM31CR71H225KA88L,2.2uF 50V X7R,Power_Reference,C77095,C1206,
+C_REF,GRM188R71C104KA01D,100nF,Power_Reference,C45000,C0603,
+C_BUF,GRM188R71C104KA01D,100nF,Power_Reference,C45000,C0603,
+C_LDO_IN,GRM31CR71H225KA88L,2.2uF 50V X7R,Power_Reference,C77095,C1206,
+C_LDO_OUT,GRM31CR71H225KA88L,2.2uF 50V X7R,Power_Reference,C77095,C1206,LDO output before reverse blocker; effective >=0.47uF required
+U4,TMUX1134PWR,,Rows_8lead_Interface,C2866620,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,
+U1,OPA4388IDR,,Rows_8lead_Interface,C2058505,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,
+R_ISO0,0603WAF1001T5E,1k 1%,Rows_8lead_Interface,C21190,R0603,Output limit; full DC feedback after resistor; dynamic HOLD
+R_ROW_FB0,RT0603BRD074K99L,4.99k 0.1%,Rows_8lead_Interface,C723532,R0603,
+C_ROW_HF0,GRM1885C1H101JA01D,100pF 50V C0G,Rows_8lead_Interface,C71664,C0603,
+R_SEL_PD0,0603WAF1003T5E,100k 1%,Rows_8lead_Interface,C25803,R0603,Reset/3V3-loss default SEL low
+R_ISO1,0603WAF1001T5E,1k 1%,Rows_8lead_Interface,C21190,R0603,Output limit; full DC feedback after resistor; dynamic HOLD
+R_ROW_FB1,RT0603BRD074K99L,4.99k 0.1%,Rows_8lead_Interface,C723532,R0603,
+C_ROW_HF1,GRM1885C1H101JA01D,100pF 50V C0G,Rows_8lead_Interface,C71664,C0603,
+R_SEL_PD1,0603WAF1003T5E,100k 1%,Rows_8lead_Interface,C25803,R0603,Reset/3V3-loss default SEL low
+R_ISO2,0603WAF1001T5E,1k 1%,Rows_8lead_Interface,C21190,R0603,Output limit; full DC feedback after resistor; dynamic HOLD
+R_ROW_FB2,RT0603BRD074K99L,4.99k 0.1%,Rows_8lead_Interface,C723532,R0603,
+C_ROW_HF2,GRM1885C1H101JA01D,100pF 50V C0G,Rows_8lead_Interface,C71664,C0603,
+R_SEL_PD2,0603WAF1003T5E,100k 1%,Rows_8lead_Interface,C25803,R0603,Reset/3V3-loss default SEL low
+R_ISO3,0603WAF1001T5E,1k 1%,Rows_8lead_Interface,C21190,R0603,Output limit; full DC feedback after resistor; dynamic HOLD
+R_ROW_FB3,RT0603BRD074K99L,4.99k 0.1%,Rows_8lead_Interface,C723532,R0603,
+C_ROW_HF3,GRM1885C1H101JA01D,100pF 50V C0G,Rows_8lead_Interface,C71664,C0603,
+R_SEL_PD3,0603WAF1003T5E,100k 1%,Rows_8lead_Interface,C25803,R0603,Reset/3V3-loss default SEL low
+C_ROW_OP,GRM188R71C104KA01D,100nF,Rows_8lead_Interface,C45000,C0603,
+C_MUX,GRM188R71C104KA01D,100nF,Rows_8lead_Interface,C45000,C0603,
+J2,HDR-M_2.54_1x8P,,Rows_8lead_Interface,C124381,HDR-TH_8P-P2.54-V-M,FIXED8-wire external4x4 array; no16 sensor resistors mounted on this board
+U2,OPA4388IDR,,Continuous_Column_TIAs,C2058505,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,
+R_COL_SENSE0,RT0603BRD0710KL,10k 0.1%,Continuous_Column_TIAs,C95204,R0603,Input clamp current limiting; added pole requires macro-model verification
+RF0,RT0603BRD074K99L,4.99k 0.1%,Continuous_Column_TIAs,C723532,R0603,
+CF0,GRM1885C1H222JA01D,2.2nF C0G,Continuous_Column_TIAs,C77033,C0603,
+R_ADC0,0603WAF1000T5E,100R 1%,Continuous_Column_TIAs,C22775,R0603,
+C_ADC0,GRM188R71C103KA01D,10nF X7R,Continuous_Column_TIAs,C190784,C0603,
+R_COL_SENSE1,RT0603BRD0710KL,10k 0.1%,Continuous_Column_TIAs,C95204,R0603,Input clamp current limiting; added pole requires macro-model verification
+RF1,RT0603BRD074K99L,4.99k 0.1%,Continuous_Column_TIAs,C723532,R0603,
+CF1,GRM1885C1H222JA01D,2.2nF C0G,Continuous_Column_TIAs,C77033,C0603,
+R_ADC1,0603WAF1000T5E,100R 1%,Continuous_Column_TIAs,C22775,R0603,
+C_ADC1,GRM188R71C103KA01D,10nF X7R,Continuous_Column_TIAs,C190784,C0603,
+R_COL_SENSE2,RT0603BRD0710KL,10k 0.1%,Continuous_Column_TIAs,C95204,R0603,Input clamp current limiting; added pole requires macro-model verification
+RF2,RT0603BRD074K99L,4.99k 0.1%,Continuous_Column_TIAs,C723532,R0603,
+CF2,GRM1885C1H222JA01D,2.2nF C0G,Continuous_Column_TIAs,C77033,C0603,
+R_ADC2,0603WAF1000T5E,100R 1%,Continuous_Column_TIAs,C22775,R0603,
+C_ADC2,GRM188R71C103KA01D,10nF X7R,Continuous_Column_TIAs,C190784,C0603,
+R_COL_SENSE3,RT0603BRD0710KL,10k 0.1%,Continuous_Column_TIAs,C95204,R0603,Input clamp current limiting; added pole requires macro-model verification
+RF3,RT0603BRD074K99L,4.99k 0.1%,Continuous_Column_TIAs,C723532,R0603,
+CF3,GRM1885C1H222JA01D,2.2nF C0G,Continuous_Column_TIAs,C77033,C0603,
+R_ADC3,0603WAF1000T5E,100R 1%,Continuous_Column_TIAs,C22775,R0603,
+C_ADC3,GRM188R71C103KA01D,10nF X7R,Continuous_Column_TIAs,C190784,C0603,
+C_TIA_OP,GRM188R71C104KA01D,100nF,Continuous_Column_TIAs,C45000,C0603,
+U5,ADS8684IDBTR,,ADS8684_Decoupling,C528627,TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL,
+U7,STM32G031K8T6,,MCU_Protected_Interfaces,C432203,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,
+J3,HDR-M_2.54_1x6P,,MCU_Protected_Interfaces,C37208,HDR-TH_6P-P2.54-V-M-1,"SWD/programming;3V3 sense, no external5V"
+J4,HDR-M_2.54_1x4P,,MCU_Protected_Interfaces,C492403,HDR-TH_4P-P2.54-V-M,3V3 UART logic only; no directRS232/5V UART
+R_RST,RT0603BRD0710KL,10k 0.1%,MCU_Protected_Interfaces,C95204,R0603,
+C_RST,GRM188R71C104KA01D,100nF,MCU_Protected_Interfaces,C45000,C0603,Moved reset RC capacitor to auxiliary supply decoupling; supervisor CT supplies reset delay
+R_CS_PU,RT0603BRD0710KL,10k 0.1%,ADS8684_Decoupling,C95204,R0603,
+R_ADC_RESET_PD,0603WAF1003T5E,100k 1%,ADS8684_Decoupling,C25803,R0603,
+C_ADC_REFIO,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Independent REFIO capacitor; supplemented by C_REFIO_B
+C_ADC_REFCAP,GRM31CR71H225KA88L,2.2uF 50V X7R,ADS8684_Decoupling,C77095,C1206,Near REFCAP HF decoupler; >=1uF effective remains HOLD
+C_ADCA1,GRM188R71C104KA01D,100nF,ADS8684_Decoupling,C45000,C0603,
+C_ADCA2,GRM188R71C104KA01D,100nF,ADS8684_Decoupling,C45000,C0603,
+C_ADCD,GRM188R71C104KA01D,100nF,ADS8684_Decoupling,C45000,C0603,
+C_MCU1,GRM188R71C104KA01D,100nF,MCU_Protected_Interfaces,C45000,C0603,
+C_MCU_BULK,GRM188R61C105KA93D,1uF,MCU_Protected_Interfaces,C77404,C0603,
+R_VCM_ISO,0603WAF1001T5E,1k 1%,Power_Reference,C21190,R0603,Feedback senses VCM after isolation
+R_VEX_ISO,0603WAF1001T5E,1k 1%,Power_Reference,C21190,R0603,Feedback senses VEXC after isolation
+D_VCM,"BAT54S,215",,Power_Reference,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+D_VEX,"BAT54S,215",,Power_Reference,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+D_ROW0,"BAT54S,215",,Rows_8lead_Interface,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_TIA_ISO0,0603WAF1001T5E,1k 1%,Continuous_Column_TIAs,C21190,R0603,All RF/CF and ADC takeoff after 1k output isolation
+D_TIA0,"BAT54S,215",,Continuous_Column_TIAs,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+D_ROW1,"BAT54S,215",,Rows_8lead_Interface,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_TIA_ISO1,0603WAF1001T5E,1k 1%,Continuous_Column_TIAs,C21190,R0603,All RF/CF and ADC takeoff after 1k output isolation
+D_TIA1,"BAT54S,215",,Continuous_Column_TIAs,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+D_ROW2,"BAT54S,215",,Rows_8lead_Interface,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_TIA_ISO2,0603WAF1001T5E,1k 1%,Continuous_Column_TIAs,C21190,R0603,All RF/CF and ADC takeoff after 1k output isolation
+D_TIA2,"BAT54S,215",,Continuous_Column_TIAs,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+D_ROW3,"BAT54S,215",,Rows_8lead_Interface,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_TIA_ISO3,0603WAF1001T5E,1k 1%,Continuous_Column_TIAs,C21190,R0603,All RF/CF and ADC takeoff after 1k output isolation
+D_TIA3,"BAT54S,215",,Continuous_Column_TIAs,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+C_REFIO_B,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,REFIO combined >=10uF effective remains HOLD
+C_REFCAP_BULKA,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_REFCAP_BULKB,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_AVDD9A,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_AVDD9B,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_AVDD30A,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_AVDD30B,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_DVDD34A,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_DVDD34B,GRM32ER71E226KE15L,22uF 25V X7R,ADS8684_Decoupling,C21397,C1210,Pair 44uF nominal; >=10uF effective needs retained-bias-factor >=0.2971 after tolerance/temperature
+C_AVDD9_HF,GRM31CR71H225KA88L,2.2uF 50V X7R,ADS8684_Decoupling,C77095,C1206,Require >=1uF effective; DC-bias curve not yet verified
+C_AVDD30_HF,GRM31CR71H225KA88L,2.2uF 50V X7R,ADS8684_Decoupling,C77095,C1206,Require >=1uF effective; DC-bias curve not yet verified
+R_J3_1,RT0603BRD074K99L,4.99k 0.1%,MCU_Protected_Interfaces,C723532,R0603,External probe/programmer no board power input; current limited even on sense pins
+D_J3_1,"BAT54S,215",,MCU_Protected_Interfaces,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_J3_3,RT0603BRD074K99L,4.99k 0.1%,MCU_Protected_Interfaces,C723532,R0603,External probe/programmer no board power input; current limited even on sense pins
+D_J3_3,"BAT54S,215",,MCU_Protected_Interfaces,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_J3_4,RT0603BRD074K99L,4.99k 0.1%,MCU_Protected_Interfaces,C723532,R0603,External probe/programmer no board power input; current limited even on sense pins
+D_J3_4,"BAT54S,215",,MCU_Protected_Interfaces,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_J3_5,RT0603BRD074K99L,4.99k 0.1%,MCU_Protected_Interfaces,C723532,R0603,External probe/programmer no board power input; current limited even on sense pins
+D_J3_5,"BAT54S,215",,MCU_Protected_Interfaces,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_J4_1,RT0603BRD074K99L,4.99k 0.1%,MCU_Protected_Interfaces,C723532,R0603,External probe/programmer no board power input; current limited even on sense pins
+D_J4_1,"BAT54S,215",,MCU_Protected_Interfaces,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_J4_3,RT0603BRD074K99L,4.99k 0.1%,MCU_Protected_Interfaces,C723532,R0603,External probe/programmer no board power input; current limited even on sense pins
+D_J4_3,"BAT54S,215",,MCU_Protected_Interfaces,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+R_J4_4,RT0603BRD074K99L,4.99k 0.1%,MCU_Protected_Interfaces,C723532,R0603,External probe/programmer no board power input; current limited even on sense pins
+D_J4_4,"BAT54S,215",,MCU_Protected_Interfaces,C47546,SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD
+U9,LM73100RPWR,,Power_Qualification,C3210761,VQFN-10_L2.0-W2.0-P0.45-TL,Always-on reverse current blocking; PG unused because power-off low is not assured
+U9_EN_R,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U9_EN_G,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U9_OV_T,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U9_OV_B1,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U9_OV_B2,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U9_PG_T,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U9_PG_B,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U9_IN_CAP,GRM31CR71H225KA88L,2.2uF 50V X7R,Power_Qualification,C77095,C1206,Require >=1uF effective; DC-bias curve not yet verified
+U9_OUT_CAP,GRM31CR71H225KA88L,2.2uF 50V X7R,Power_Qualification,C77095,C1206,Require >=1uF effective; DC-bias curve not yet verified
+U9_BLEED,RC2010FK-07100RL,100R 1%,Power_Qualification,C877055,R2010,"Finite rail sink, 0.278W/0.110W worst normal, not precision shunt regulation"
+U10,LM73100RPWR,,Power_Qualification,C3210761,VQFN-10_L2.0-W2.0-P0.45-TL,Always-on reverse current blocking; PG unused because power-off low is not assured
+U10_EN_R,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U10_EN_G,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U10_OV_T,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U10_OV_B1,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U10_OV_B2,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U10_PG_T,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U10_PG_B,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U10_IN_CAP,GRM31CR71H225KA88L,2.2uF 50V X7R,Power_Qualification,C77095,C1206,Require >=1uF effective; DC-bias curve not yet verified
+U10_OUT_CAP,GRM31CR71H225KA88L,2.2uF 50V X7R,Power_Qualification,C77095,C1206,Require >=1uF effective; DC-bias curve not yet verified
+U10_BLEED,RC1206FR-07100RL,100R 1%,Power_Qualification,C137392,R1206,"Finite rail sink, 0.278W/0.110W worst normal, not precision shunt regulation"
+U11,TPS389001DSET,,Power_Qualification,C2066907,WSON-6_L1.5-W1.5-P0.50-TL,Open-drain supervisors wired AND to reset and hardware enable
+U11_TOP0,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U11_TOP1,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U11_TOP2,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U11_TOP3,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U11_TOP4,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U11_BOT,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U11_SENSE_C,GRM1885C1H102JA01D,1nF C0G,Power_Qualification,C77026,C0603,
+U11_CT_C,GRM188R71C104KA01D,100nF,Power_Qualification,C45000,C0603,
+U11_VDD_C,GRM188R71C104KA01D,100nF,Power_Qualification,C45000,C0603,
+U12,TPS389001DSET,,Power_Qualification,C2066907,WSON-6_L1.5-W1.5-P0.50-TL,Open-drain supervisors wired AND to reset and hardware enable
+U12_TOP0,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U12_TOP1,RT0603BRD074K99L,4.99k 0.1%,Power_Qualification,C723532,R0603,
+U12_TOP2,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U12_TOP3,0603WAF1001T5E,1k 1%,Power_Qualification,C21190,R0603,
+U12_BOT,RT0603BRD0710KL,10k 0.1%,Power_Qualification,C95204,R0603,
+U12_SENSE_C,GRM1885C1H102JA01D,1nF C0G,Power_Qualification,C77026,C0603,
+U12_CT_C,GRM188R71C104KA01D,100nF,Power_Qualification,C45000,C0603,
+U12_VDD_C,GRM188R71C104KA01D,100nF,Power_Qualification,C45000,C0603,
+U15,SN74LVC1G17DBVR,,Power_Qualification,C7836,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR,Schmitt reshapes supervisor open-drain edge before LVC08 inputs
+C_U15,GRM188R71C104KA01D,100nF,Power_Qualification,C45000,C0603,
+U13,SN74LVC08APWR,,Power_Qualification,C465737,TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL,
+U14,SN74LVC08APWR,,Rows_8lead_Interface,C465737,TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL,
+R_ENABLE_PD,0603WAF1003T5E,100k 1%,Power_Qualification,C25803,R0603,
+R_HW_PD,0603WAF1003T5E,100k 1%,Power_Qualification,C25803,R0603,
+C_U13,GRM188R71C104KA01D,100nF,Power_Qualification,C45000,C0603,
+C_U14,GRM188R71C104KA01D,100nF,Rows_8lead_Interface,C45000,C0603,

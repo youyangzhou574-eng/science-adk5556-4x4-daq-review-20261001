@@ -1,0 +1,67 @@
+{
+  "started_utc": "2026-10-01T05:01:00+00:00",
+  "phase": "P4",
+  "phase_started_utc": "2026-10-01T05:11:00+00:00",
+  "phase_minutes_limits": {
+    "P0": 15,
+    "P1": 60,
+    "P2": 90,
+    "P3": 60,
+    "P4": 15
+  },
+  "total_active_minutes_limit": 240,
+  "counts": {
+    "new_project": 1,
+    "sessions": 2,
+    "saves": 8,
+    "native_capture_and_audits": 4,
+    "erc": 1,
+    "pdf_export": 3,
+    "new_primary_sources": 12,
+    "new_model_packages": 0,
+    "new_function_classes": 5,
+    "new_library_identities": 9,
+    "library_search_and_readbacks": 25,
+    "DC": 200,
+    "AC_macro": 0,
+    "normal_transient_macro": 0,
+    "fault_macro": 0,
+    "analytic_selftests": 3,
+    "design_revisions": 2,
+    "DC_row_state_solves_including_failed_run": 352,
+    "SPI_test_cases": 6,
+    "macro_bench_runs": 0
+  },
+  "owned_sessions": [
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "f0a16119-644b-448f-a0fd-b91c02ff58d6"
+  ],
+  "closed_sessions": [
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "f0a16119-644b-448f-a0fd-b91c02ff58d6"
+  ],
+  "P0": "No confirmed existing SPICE executor: stop adaptation; analytical/model-ready work only",
+  "limits": {
+    "new_project": 1,
+    "sessions": 3,
+    "saves": 8,
+    "native_capture_and_audits": 4,
+    "erc": 3,
+    "pdf_export": 3,
+    "new_primary_sources": 16,
+    "new_model_packages": 4,
+    "new_function_classes": 6,
+    "new_library_identities": 12,
+    "library_search_and_readbacks": 60,
+    "DC": 256,
+    "AC_macro": 96,
+    "normal_transient_macro": 96,
+    "fault_macro": 96,
+    "design_revisions": 3
+  },
+  "P3_started_utc": "2026-10-01T05:47:57+00:00",
+  "native_actualFile_export_count": 3,
+  "DC_group_count_definition": "88 fixedcal+pattern/wire groups across2executions +16 initial INL groups +64 independentphase INL groups +32 static correlated groups =200;352KCLrow solves not256groupbudget",
+  "P3_completed_utc": "2026-10-01T06:30:47.321602+00:00",
+  "P4_started_utc": "2026-10-01T06:30:47.321602+00:00"
+}

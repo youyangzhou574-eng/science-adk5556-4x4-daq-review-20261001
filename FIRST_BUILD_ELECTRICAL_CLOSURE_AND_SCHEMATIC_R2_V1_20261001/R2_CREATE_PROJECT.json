@@ -1,0 +1,33 @@
+{
+  "started_utc": "2026-10-01T05:47:56.914323+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const uuid=await eda.dmt_Project.createProject('SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1','science-adk5556-4x4-electrical-closure-r2-v1',undefined,undefined,'Independent R2 review; dynamic/fault/effective-capacity/bench holds retained');\nif(!uuid)throw Error('Official createProject returned no UUID');\nreturn {uuid,info:await eda.dmt_Project.getProjectInfo(uuid),time:new Date().toISOString()};\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"uuid\":\"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\",\"info\":{\"itemType\":\"Project\",\"uuid\":\"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\",\"friendlyName\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\",\"teamUuid\":\"9f10cb2dacf74bd9bc0f771796227705\"},\"time\":\"2026-10-01T05:47:57.482Z\"},\"logs\":[],\"durationMs\":156}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "uuid": "f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe",
+      "info": {
+        "itemType": "Project",
+        "uuid": "f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe",
+        "friendlyName": "SCIENCE_ADK5556_4X4_FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1",
+        "teamUuid": "9f10cb2dacf74bd9bc0f771796227705"
+      },
+      "time": "2026-10-01T05:47:57.482Z"
+    },
+    "logs": [],
+    "durationMs": 156
+  }
+}

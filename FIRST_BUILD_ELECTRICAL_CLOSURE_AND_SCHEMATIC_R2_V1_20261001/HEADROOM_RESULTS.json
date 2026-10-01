@@ -1,0 +1,50 @@
+[
+  {
+    "pattern": "all800",
+    "row_output_min_V": 1.0,
+    "TIA_tap_max_V": 4.059375,
+    "TIA_preiso_max_V": 4.371875,
+    "against_4p75_rail_margin_V": 0.3781249999999998,
+    "classification": "IDEAL_DC_HEADROOM_ONLY_NOT_OUTPUT_SWING_MACRO"
+  },
+  {
+    "pattern": "all8000",
+    "row_output_min_V": 2.125,
+    "TIA_tap_max_V": 2.6559375,
+    "TIA_preiso_max_V": 2.6871875,
+    "against_4p75_rail_margin_V": 2.0628125,
+    "classification": "IDEAL_DC_HEADROOM_ONLY_NOT_OUTPUT_SWING_MACRO"
+  },
+  {
+    "pattern": "all3300",
+    "row_output_min_V": 1.946969696969697,
+    "TIA_tap_max_V": 2.878030303030303,
+    "TIA_preiso_max_V": 2.9537878787878786,
+    "against_4p75_rail_margin_V": 1.7962121212121214,
+    "classification": "IDEAL_DC_HEADROOM_ONLY_NOT_OUTPUT_SWING_MACRO"
+  },
+  {
+    "pattern": "checker",
+    "row_output_min_V": 1.5625,
+    "TIA_tap_max_V": 4.059375,
+    "TIA_preiso_max_V": 4.371875,
+    "against_4p75_rail_margin_V": 0.3781249999999998,
+    "classification": "IDEAL_DC_HEADROOM_ONLY_NOT_OUTPUT_SWING_MACRO"
+  },
+  {
+    "pattern": "high_corner",
+    "row_output_min_V": 1.0,
+    "TIA_tap_max_V": 4.059375,
+    "TIA_preiso_max_V": 4.371875,
+    "against_4p75_rail_margin_V": 0.3781249999999998,
+    "classification": "IDEAL_DC_HEADROOM_ONLY_NOT_OUTPUT_SWING_MACRO"
+  },
+  {
+    "pattern": "low_corner",
+    "row_output_min_V": 1.84375,
+    "TIA_tap_max_V": 4.059375,
+    "TIA_preiso_max_V": 4.371875,
+    "against_4p75_rail_margin_V": 0.3781249999999998,
+    "classification": "IDEAL_DC_HEADROOM_ONLY_NOT_OUTPUT_SWING_MACRO"
+  }
+]

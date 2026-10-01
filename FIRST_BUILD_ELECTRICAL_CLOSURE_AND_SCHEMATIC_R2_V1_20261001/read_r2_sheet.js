@@ -1,0 +1,2 @@
+const p=await eda.dmt_Project.getCurrentProjectInfo();if(p?.uuid!=='f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe')throw Error('Wrong R2');
+const cs=await eda.sch_PrimitiveComponent.getAll();return {page:await eda.dmt_Schematic.getCurrentSchematicPageInfo(),components:cs.map(c=>({id:c.getState_PrimitiveId(),type:c.getState_ComponentType(),props:c.getState_OtherProperty()})),attributes:(await eda.sch_PrimitiveAttribute.getAll()).map(a=>({id:a.getState_PrimitiveId(),key:a.getState_Key(),value:a.getState_Value(),parent:a.getState_ParentPrimitiveId()}))};

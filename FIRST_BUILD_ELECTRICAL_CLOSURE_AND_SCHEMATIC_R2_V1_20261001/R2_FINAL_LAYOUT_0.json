@@ -1,0 +1,28 @@
+{
+  "started_utc": "2026-10-01T06:18:31.461431+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const d={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": \"595d5f2f11dee03d\"};if((await eda.dmt_Project.getCurrentProjectInfo()).uuid!==d.project)throw Error('Wrong R2');await eda.dmt_EditorControl.openDocument(d.page);let wireLabels=0,portLabels=0;for(const w of await eda.sch_PrimitiveWire.getAll())for(const a of await eda.sch_PrimitiveAttribute.getAll(w.getState_PrimitiveId()))if(a.getState_Key()==='Name'){if(!await eda.sch_PrimitiveAttribute.modify(a.getState_PrimitiveId(),{valueVisible:false,keyVisible:false}))throw Error('Wire attr');wireLabels++;}for(const c of await eda.sch_PrimitiveComponent.getAll())if(c.getState_ComponentType()==='netport'){const pin=(await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId()))[0],rot=c.getState_Rotation();for(const a of await eda.sch_PrimitiveAttribute.getAll(c.getState_PrimitiveId()))if(a.getState_Key()==='Name'){const x=pin.getState_X(),y=pin.getState_Y();if(!await eda.sch_PrimitiveAttribute.modify(a.getState_PrimitiveId(),{valueVisible:true,keyVisible:false,fontSize:null,rotation:0,x:rot===180?x-18:x+18,y,alignMode:rot===180?8:2}))throw Error('Port attr');portLabels++;}}return {page:d.page,wireLabels,portLabels};",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":\"595d5f2f11dee03d\",\"wireLabels\":59,\"portLabels\":59},\"logs\":[],\"durationMs\":1016}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": "595d5f2f11dee03d",
+      "wireLabels": 59,
+      "portLabels": 59
+    },
+    "logs": [],
+    "durationMs": 1016
+  }
+}

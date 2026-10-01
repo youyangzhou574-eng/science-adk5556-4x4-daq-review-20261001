@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-01T06:20:28.095797+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--path",
+    "E:/open/SCIENCE_ADK5556_4X4_DAQ_REPLICA/FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1/SCIENCE_ADK5556_4X4_R2_NATIVE.eprj2",
+    "--headless",
+    "true"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"f0a16119-644b-448f-a0fd-b91c02ff58d6\",\"renderId\":17,\"path\":\"E:/open/SCIENCE_ADK5556_4X4_DAQ_REPLICA/FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1/SCIENCE_ADK5556_4X4_R2_NATIVE.eprj2\",\"headless\":true},\"logs\":[],\"durationMs\":784}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "f0a16119-644b-448f-a0fd-b91c02ff58d6",
+      "renderId": 17,
+      "path": "E:/open/SCIENCE_ADK5556_4X4_DAQ_REPLICA/FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1/SCIENCE_ADK5556_4X4_R2_NATIVE.eprj2",
+      "headless": true
+    },
+    "logs": [],
+    "durationMs": 784
+  }
+}

@@ -1,0 +1,17 @@
+* TIA return-ratio candidate; injection algebra/multi-loop stability must be validated by the executor.
+.LIB "OPA4388.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VTEST minus sense DC 0 AC 1
+XCOL vcm minus v5 0 drv OPA4388
+RISO drv tap 1k
+RSENSE col sense 10k
+RF tap col 4.99k
+CF tap col 2.2n
+RARRAY col vcm 200
+CL col 0 1n
+RADC tap ain 100
+CADC ain 0 10n
+.AC DEC 200 1 100MEG
+.PROBE V(sense) V(minus) V(tap) V(drv)
+.END

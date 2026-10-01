@@ -1,0 +1,1496 @@
+{
+  "started_utc": "2026-10-01T05:58:51.015890+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "e12c7ead-a970-4582-ba16-b7af144322b1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "\nconst plan={\"project\": \"f584056ea8f7cc74a210f932891fde19f1d1518be7e7f4466d0c7acd11c29efe\", \"page\": {\"uuid\": \"52a8a60e5711e55b\", \"index\": 4, \"name\": \"MCU_Protected_Interfaces\"}, \"parts\": [{\"ref\": \"U7\", \"device\": \"STM32G031K8T6\", \"device_uuid\": \"d6b55ece5afe47718d825be9cafc6dc2\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 350, \"y\": 260, \"rotation\": 0, \"subpart\": \"STM32G031K8T6.1\", \"nets\": {\"1\": null, \"2\": null, \"3\": null, \"4\": \"V3V3\", \"5\": \"GND\", \"6\": \"PGOOD\", \"7\": \"MCU_ROW0\", \"8\": \"MCU_ROW1\", \"9\": \"MCU_ROW2\", \"10\": \"MCU_ROW3\", \"11\": \"ADC_CS_N\", \"12\": \"SPI_SCLK\", \"13\": \"SPI_MISO\", \"14\": \"SPI_MOSI\", \"15\": \"MCU_ADC_RESET\", \"16\": \"MCU_ENABLE\", \"17\": null, \"18\": null, \"19\": \"UART_TX\", \"20\": null, \"21\": \"UART_RX\", \"22\": null, \"23\": null, \"24\": \"SWDIO\", \"25\": \"SWCLK\", \"26\": null, \"27\": null, \"28\": null, \"29\": null, \"30\": null, \"31\": null, \"32\": null}, \"value\": null, \"role\": \"\"}, {\"ref\": \"J3\", \"device\": \"HDR-M_2.54_1x6P\", \"device_uuid\": \"8713123b624d4455bcbe38688209bdf0\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 280, \"y\": 620, \"rotation\": 0, \"subpart\": \"Header-Male-2.54_1x6.1\", \"nets\": {\"1\": \"V3V3_EXT\", \"2\": \"GND\", \"3\": \"SWDIO_EXT\", \"4\": \"SWCLK_EXT\", \"5\": \"MCU_NRST_EXT\", \"6\": null}, \"value\": null, \"role\": \"SWD/programming;3V3 sense, no external5V\"}, {\"ref\": \"J4\", \"device\": \"HDR-M_2.54_1x4P\", \"device_uuid\": \"d5e86a4f70d24c6c950b9ff10d30894b\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 730, \"y\": 620, \"rotation\": 0, \"subpart\": \"PZ254V-11-04P.1\", \"nets\": {\"1\": \"V3V3_EXT\", \"2\": \"GND\", \"3\": \"UART_TX_EXT\", \"4\": \"UART_RX_EXT\"}, \"value\": null, \"role\": \"3V3 UART logic only; no directRS232/5V UART\"}, {\"ref\": \"R_RST\", \"device\": \"RT0603BRD0710KL\", \"device_uuid\": \"3840b7e554aa441f90223c083eebd79a\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 1180, \"y\": 620, \"rotation\": 0, \"subpart\": \"RT0603BRD0710KL.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"PGOOD\"}, \"value\": \"10k 0.1%\", \"role\": \"\"}, {\"ref\": \"C_RST\", \"device\": \"GRM188R71C104KA01D\", \"device_uuid\": \"582e6743b52f4d549473833313fcf026\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 1630, \"y\": 620, \"rotation\": 0, \"subpart\": \"GRM188R71C104KA01D.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}, \"value\": \"100nF\", \"role\": \"Moved reset RC capacitor to auxiliary supply decoupling; supervisor CT supplies reset delay\"}, {\"ref\": \"C_MCU1\", \"device\": \"GRM188R71C104KA01D\", \"device_uuid\": \"582e6743b52f4d549473833313fcf026\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 280, \"y\": 760, \"rotation\": 0, \"subpart\": \"GRM188R71C104KA01D.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}, \"value\": \"100nF\", \"role\": \"\"}, {\"ref\": \"C_MCU_BULK\", \"device\": \"GRM188R61C105KA93D\", \"device_uuid\": \"1db1d485da63414a91f474e833691800\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 730, \"y\": 760, \"rotation\": 0, \"subpart\": \"GRM188R61C105KA93D.1\", \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}, \"value\": \"1uF\", \"role\": \"\"}, {\"ref\": \"R_J3_1\", \"device\": \"RT0603BRD074K99L\", \"device_uuid\": \"e3fb4324469a40728b83810eaa907b40\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 1180, \"y\": 760, \"rotation\": 0, \"subpart\": \"RT0603BRD074K99L.1\", \"nets\": {\"1\": \"V3V3_EXT\", \"2\": \"V3V3\"}, \"value\": \"4.99k 0.1%\", \"role\": \"External probe/programmer no board power input; current limited even on sense pins\"}, {\"ref\": \"D_J3_1\", \"device\": \"BAT54S,215\", \"device_uuid\": \"862039df28364e9395be8ec3e804cf6f\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 1630, \"y\": 760, \"rotation\": 0, \"subpart\": \"BAT54S,215.1\", \"nets\": {\"1\": \"GND\", \"2\": \"V3V3\", \"3\": \"V3V3\"}, \"value\": null, \"role\": \"Output/connector rail clamp; leakage and Vf/thermal corners remain HOLD\"}, {\"ref\": \"R_J3_3\", \"device\": \"RT0603BRD074K99L\", \"device_uuid\": \"e3fb4324469a40728b83810eaa907b40\", \"library_uuid\": \"0819f05c4eef4c71ace90d822a990e87\", \"page\": 4, \"x\": 280, \"y\": 900, \"rotation\": 0, \"subpart\": \"RT0603BRD074K99L.1\", \"nets\": {\"1\": \"SWDIO_EXT\", \"2\": \"SWDIO\"}, \"value\": \"4.99k 0.1%\", \"role\": \"External probe/programmer no board power input; current limited even on sense pins\"}], \"height\": 1360, \"notes\": [\"GPIO PB1 pin16 = MCU_ENABLE; PGOOD resets MCU; Schmitt reshapes hardware gate edge\", \"External SWD/UART/sense lines all4.99k current limited, clamps and rail sink\", \"Offline SPI: 0-5.12V range0x06, tagged48clk frames, 40kSPS / hardware timing HOLD\"], \"first\": true, \"last\": false};\nconst result={page:plan.page,parts:[],markers:[],wires:[],nc:[],status:'STARTED'};\ntry {\n const project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong R2 context');\n await eda.dmt_EditorControl.openDocument(plan.page.uuid);\n const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();if(pg?.uuid!==plan.page.uuid)throw Error('Wrong page');\n if(plan.first){\n  const initial=await eda.sch_PrimitiveComponent.getAll();if(initial.some(c=>c.getState_ComponentType()!=='sheet'))throw Error('Expected empty new page');\n  await eda.dmt_Schematic.modifySchematicPageTitleBlock(false);\n  // DMT custom-size edits returned a known error; use the real frame's existing Border attribute.\n  // Suppress decorative frame only, while all explicit net labels, pin numbers and page headings remain.\n  for(const c of initial)if(c.getState_ComponentType()==='sheet'){\n   const attrs=await eda.sch_PrimitiveAttribute.getAll(c.getState_PrimitiveId());\n   const border=attrs.find(a=>a.getState_Key()==='Border');if(!border)throw Error('No real Border property');\n   const updated=await eda.sch_PrimitiveAttribute.modify(border.getState_PrimitiveId(),{value:'0'});if(!updated)throw Error('Border edit failed');\n  }\n  for(let i=0;i<plan.notes.length;i++)await eda.sch_PrimitiveText.create(80,55+i*23,plan.notes[i],0,null,null,12,i===0);\n  await eda.sch_PrimitiveText.create(80,25,'R2 REVIEW ONLY - '+plan.page.name+' - '+(plan.page.index+1)+'/6',0,null,null,16,true);\n }\n const existing=new Set((await eda.sch_PrimitiveComponent.getAll()).map(c=>c.getState_Designator()));\n for(const q of plan.parts){\n  if(existing.has(q.ref))throw Error('Duplicate ref '+q.ref);\n  const c=await eda.sch_PrimitiveComponent.create({libraryUuid:q.library_uuid,uuid:q.device_uuid},q.x,q.y,q.subpart,0,false,true,true);if(!c)throw Error('Create '+q.ref);\n  const m=await eda.sch_PrimitiveComponent.modify(c.getState_PrimitiveId(),{designator:q.ref,name:q.value||q.device,otherProperty:{...c.getState_OtherProperty(),'Review Status':'R2 REVIEW / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD',...(q.value?{Value:q.value}:{}),'Circuit Role':q.role}});if(!m)throw Error('Modify '+q.ref);\n  const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());\n  const actual=ps.map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),rotation:v.getState_Rotation()}));\n  if(actual.length!==Object.keys(q.nets).length||new Set(actual.map(x=>x.number)).size!==actual.length||actual.some(x=>!(x.number in q.nets)))throw Error('Real pin mismatch '+q.ref);\n  result.parts.push({ref:q.ref,id:m.getState_PrimitiveId(),association:m.getState_Component(),footprint:m.getState_Footprint(),pins:actual});\n  for(let i=0;i<ps.length;i++){\n   const pin=ps[i],a=actual[i],net=q.nets[a.number];\n   if(net===null){await pin.setState_NoConnected(true).done();result.nc.push({ref:q.ref,pin:a.number});continue;}\n   let ox=0,oy=0;\n   // Use actual inward pin direction and real net-port anchor; never infer opposite-angle semantics.\n   const length=q.ref.startsWith('U')?110:55;\n   if(a.rotation===0)ox=-length;else if(a.rotation===180)ox=length;else if(a.rotation===90)oy=-length;else if(a.rotation===270)oy=length;else throw Error('Unsupported pin angle');\n   const mark=await eda.sch_PrimitiveComponent.createNetPort('BI',net,a.x+ox,a.y+oy,ox<0?180:oy<0?90:oy>0?270:0,false);if(!mark)throw Error('Port');\n   const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(mark.getState_PrimitiveId());if(mp.length!==1)throw Error('Port anchor');\n   const mx=mp[0].getState_X(),my=mp[0].getState_Y();const line=[a.x,a.y,mx,a.y];if(my!==a.y)line.push(mx,my);\n   const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');\n   // Ports retain visible net names. Remove only duplicated automatic wire text, not pin numbers or explicit network labels.\n   for(const attr of await eda.sch_PrimitiveAttribute.getAll(w.getState_PrimitiveId())){\n    if(attr.getState_Key()==='NET'||attr.getState_Key()==='Net')await eda.sch_PrimitiveAttribute.modify(attr.getState_PrimitiveId(),{valueVisible:false,keyVisible:false});\n   }\n   result.markers.push({ref:q.ref,pin:a.number,net,id:mark.getState_PrimitiveId(),x:mx,y:my});result.wires.push({ref:q.ref,pin:a.number,net,id:w.getState_PrimitiveId(),line});\n  }\n }\n if(plan.last){result.saved=await eda.sch_Document.save();if(result.saved!==true)throw Error('Save did not return true');}\n result.status='BATCH_CREATED';return result;\n}catch(e){result.status='STOP_NATIVE_BUILD_ERROR';result.error={name:e?.name,message:e?.message,stack:e?.stack};return result;}\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"52a8a60e5711e55b\",\"index\":4,\"name\":\"MCU_Protected_Interfaces\"},\"parts\":[{\"ref\":\"U7\",\"id\":\"e54159ff5a448134\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"46f4ed815ecd8548\",\"name\":\"STM32G031K8T6\"},\"footprint\":{\"uuid\":\"e13794d22038af93\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL\"},\"pins\":[{\"number\":\"1\",\"name\":\"PB9\",\"x\":255,\"y\":335,\"rotation\":180},{\"number\":\"2\",\"name\":\"PC14-OSC32IN\",\"x\":255,\"y\":325,\"rotation\":180},{\"number\":\"3\",\"name\":\"PC15-OSC32OUT\",\"x\":255,\"y\":315,\"rotation\":180},{\"number\":\"4\",\"name\":\"VDD/VDDA\",\"x\":255,\"y\":305,\"rotation\":180},{\"number\":\"5\",\"name\":\"VSS/VSSA\",\"x\":255,\"y\":295,\"rotation\":180},{\"number\":\"6\",\"name\":\"PF2-NRST\",\"x\":255,\"y\":285,\"rotation\":180},{\"number\":\"7\",\"name\":\"PA0\",\"x\":255,\"y\":275,\"rotation\":180},{\"number\":\"8\",\"name\":\"PA1\",\"x\":255,\"y\":265,\"rotation\":180},{\"number\":\"9\",\"name\":\"PA2\",\"x\":255,\"y\":255,\"rotation\":180},{\"number\":\"10\",\"name\":\"PA3\",\"x\":255,\"y\":245,\"rotation\":180},{\"number\":\"11\",\"name\":\"PA4\",\"x\":255,\"y\":235,\"rotation\":180},{\"number\":\"12\",\"name\":\"PA5\",\"x\":255,\"y\":225,\"rotation\":180},{\"number\":\"13\",\"name\":\"PA6\",\"x\":255,\"y\":215,\"rotation\":180},{\"number\":\"14\",\"name\":\"PA7\",\"x\":255,\"y\":205,\"rotation\":180},{\"number\":\"15\",\"name\":\"PB0\",\"x\":255,\"y\":195,\"rotation\":180},{\"number\":\"16\",\"name\":\"PB1\",\"x\":255,\"y\":185,\"rotation\":180},{\"number\":\"17\",\"name\":\"PB2\",\"x\":445,\"y\":185,\"rotation\":0},{\"number\":\"18\",\"name\":\"PA8\",\"x\":445,\"y\":195,\"rotation\":0},{\"number\":\"19\",\"name\":\"PA9\",\"x\":445,\"y\":205,\"rotation\":0},{\"number\":\"20\",\"name\":\"PC6\",\"x\":445,\"y\":215,\"rotation\":0},{\"number\":\"21\",\"name\":\"PA10\",\"x\":445,\"y\":225,\"rotation\":0},{\"number\":\"22\",\"name\":\"PA11[PA9]\",\"x\":445,\"y\":235,\"rotation\":0},{\"number\":\"23\",\"name\":\"PA12[PA10]\",\"x\":445,\"y\":245,\"rotation\":0},{\"number\":\"24\",\"name\":\"PA13\",\"x\":445,\"y\":255,\"rotation\":0},{\"number\":\"25\",\"name\":\"PA14-BOOT0\",\"x\":445,\"y\":265,\"rotation\":0},{\"number\":\"26\",\"name\":\"PA15\",\"x\":445,\"y\":275,\"rotation\":0},{\"number\":\"27\",\"name\":\"PB3\",\"x\":445,\"y\":285,\"rotation\":0},{\"number\":\"28\",\"name\":\"PB4\",\"x\":445,\"y\":295,\"rotation\":0},{\"number\":\"29\",\"name\":\"PB5\",\"x\":445,\"y\":305,\"rotation\":0},{\"number\":\"30\",\"name\":\"PB6\",\"x\":445,\"y\":315,\"rotation\":0},{\"number\":\"31\",\"name\":\"PB7\",\"x\":445,\"y\":325,\"rotation\":0},{\"number\":\"32\",\"name\":\"PB8\",\"x\":445,\"y\":335,\"rotation\":0}]},{\"ref\":\"J3\",\"id\":\"51b9fb29a400b01d\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"c41725a70d53db08\",\"name\":\"HDR-M_2.54_1x6P\"},\"footprint\":{\"uuid\":\"54b100f56e34bff6\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"HDR-TH_6P-P2.54-V-M-1\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":260,\"y\":645,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":260,\"y\":635,\"rotation\":180},{\"number\":\"3\",\"name\":\"3\",\"x\":260,\"y\":625,\"rotation\":180},{\"number\":\"4\",\"name\":\"4\",\"x\":260,\"y\":615,\"rotation\":180},{\"number\":\"5\",\"name\":\"5\",\"x\":260,\"y\":605,\"rotation\":180},{\"number\":\"6\",\"name\":\"6\",\"x\":260,\"y\":595,\"rotation\":180}]},{\"ref\":\"J4\",\"id\":\"c70f8d176834c29c\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"69b7c04d3f0fa077\",\"name\":\"HDR-M_2.54_1x4P\"},\"footprint\":{\"uuid\":\"805f84989d4eb67b\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"HDR-TH_4P-P2.54-V-M\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":710,\"y\":635,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":710,\"y\":625,\"rotation\":180},{\"number\":\"3\",\"name\":\"3\",\"x\":710,\"y\":615,\"rotation\":180},{\"number\":\"4\",\"name\":\"4\",\"x\":710,\"y\":605,\"rotation\":180}]},{\"ref\":\"R_RST\",\"id\":\"fc0ccb33538faac2\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1200,\"y\":620,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1160,\"y\":620,\"rotation\":180}]},{\"ref\":\"C_RST\",\"id\":\"18870a9ff471e2d3\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1615,\"y\":620,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1645,\"y\":620,\"rotation\":0}]},{\"ref\":\"C_MCU1\",\"id\":\"41ef1469eef841a1\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":265,\"y\":760,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":295,\"y\":760,\"rotation\":0}]},{\"ref\":\"C_MCU_BULK\",\"id\":\"6b759e44d9f69b02\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"23632a4cfdbe4fec\",\"name\":\"GRM188R61C105KA93D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"pins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":710,\"y\":760,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":750,\"y\":760,\"rotation\":0}]},{\"ref\":\"R_J3_1\",\"id\":\"feecf9b90ab4fb4d\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1200,\"y\":760,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1160,\"y\":760,\"rotation\":180}]},{\"ref\":\"D_J3_1\",\"id\":\"55714f9b054b6f40\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6b7f8a0cf29ef171\",\"name\":\"BAT54S,215\"},\"footprint\":{\"uuid\":\"8ef6c020c23f0901\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR\"},\"pins\":[{\"number\":\"1\",\"name\":\"A\",\"x\":1600,\"y\":770,\"rotation\":180},{\"number\":\"3\",\"name\":\"AK\",\"x\":1660,\"y\":760,\"rotation\":0},{\"number\":\"2\",\"name\":\"K\",\"x\":1600,\"y\":750,\"rotation\":180}]},{\"ref\":\"R_J3_3\",\"id\":\"ecf1d0fd27e40623\",\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"pins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":300,\"y\":900,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":260,\"y\":900,\"rotation\":180}]}],\"markers\":[{\"ref\":\"U7\",\"pin\":\"4\",\"net\":\"V3V3\",\"id\":\"2f930a2494a7ac91\",\"x\":365,\"y\":305},{\"ref\":\"U7\",\"pin\":\"5\",\"net\":\"GND\",\"id\":\"1182c1c8238857f6\",\"x\":365,\"y\":295},{\"ref\":\"U7\",\"pin\":\"6\",\"net\":\"PGOOD\",\"id\":\"fef16a5e35982fe6\",\"x\":365,\"y\":285},{\"ref\":\"U7\",\"pin\":\"7\",\"net\":\"MCU_ROW0\",\"id\":\"cb5e8b770345035c\",\"x\":365,\"y\":275},{\"ref\":\"U7\",\"pin\":\"8\",\"net\":\"MCU_ROW1\",\"id\":\"d0723d1fef77fc0b\",\"x\":365,\"y\":265},{\"ref\":\"U7\",\"pin\":\"9\",\"net\":\"MCU_ROW2\",\"id\":\"81ed27e1d452a405\",\"x\":365,\"y\":255},{\"ref\":\"U7\",\"pin\":\"10\",\"net\":\"MCU_ROW3\",\"id\":\"8f182dd8889733f4\",\"x\":365,\"y\":245},{\"ref\":\"U7\",\"pin\":\"11\",\"net\":\"ADC_CS_N\",\"id\":\"f519d780da53c472\",\"x\":365,\"y\":235},{\"ref\":\"U7\",\"pin\":\"12\",\"net\":\"SPI_SCLK\",\"id\":\"1980f25b9cb2ab6b\",\"x\":365,\"y\":225},{\"ref\":\"U7\",\"pin\":\"13\",\"net\":\"SPI_MISO\",\"id\":\"ee1914bc25a8b831\",\"x\":365,\"y\":215},{\"ref\":\"U7\",\"pin\":\"14\",\"net\":\"SPI_MOSI\",\"id\":\"20cd7bd8ecbc9ad0\",\"x\":365,\"y\":205},{\"ref\":\"U7\",\"pin\":\"15\",\"net\":\"MCU_ADC_RESET\",\"id\":\"4c7c992dc4432494\",\"x\":365,\"y\":195},{\"ref\":\"U7\",\"pin\":\"16\",\"net\":\"MCU_ENABLE\",\"id\":\"94f7558c20fe2679\",\"x\":365,\"y\":185},{\"ref\":\"U7\",\"pin\":\"19\",\"net\":\"UART_TX\",\"id\":\"f36ac7db15d02b00\",\"x\":335,\"y\":205.00000000000003},{\"ref\":\"U7\",\"pin\":\"21\",\"net\":\"UART_RX\",\"id\":\"c50ee30d06f1bbc0\",\"x\":335,\"y\":225.00000000000003},{\"ref\":\"U7\",\"pin\":\"24\",\"net\":\"SWDIO\",\"id\":\"7283dfa121cfb661\",\"x\":334.99999999999994,\"y\":255.00000000000003},{\"ref\":\"U7\",\"pin\":\"25\",\"net\":\"SWCLK\",\"id\":\"c598b28a7038ab85\",\"x\":334.99999999999994,\"y\":265.00000000000006},{\"ref\":\"J3\",\"pin\":\"1\",\"net\":\"V3V3_EXT\",\"id\":\"54dfa73649b6b9a0\",\"x\":315,\"y\":645},{\"ref\":\"J3\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"37798abc89a01d5f\",\"x\":315,\"y\":635},{\"ref\":\"J3\",\"pin\":\"3\",\"net\":\"SWDIO_EXT\",\"id\":\"a01e9e2ceab03a1d\",\"x\":315,\"y\":625},{\"ref\":\"J3\",\"pin\":\"4\",\"net\":\"SWCLK_EXT\",\"id\":\"cdd185cfbdf2ffa1\",\"x\":315,\"y\":615},{\"ref\":\"J3\",\"pin\":\"5\",\"net\":\"MCU_NRST_EXT\",\"id\":\"85aac96a577785dd\",\"x\":315,\"y\":605},{\"ref\":\"J4\",\"pin\":\"1\",\"net\":\"V3V3_EXT\",\"id\":\"812d93e2ba441a8a\",\"x\":765,\"y\":635},{\"ref\":\"J4\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"157b43e5d626f8e5\",\"x\":765,\"y\":625},{\"ref\":\"J4\",\"pin\":\"3\",\"net\":\"UART_TX_EXT\",\"id\":\"d3f9f8f71eda4d0f\",\"x\":765,\"y\":615},{\"ref\":\"J4\",\"pin\":\"4\",\"net\":\"UART_RX_EXT\",\"id\":\"bae0d5834ac0d0c9\",\"x\":765,\"y\":605},{\"ref\":\"R_RST\",\"pin\":\"2\",\"net\":\"PGOOD\",\"id\":\"7569043d52c37f0c\",\"x\":1145,\"y\":620.0000000000001},{\"ref\":\"R_RST\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"b76ae639b000af8b\",\"x\":1215,\"y\":620},{\"ref\":\"C_RST\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"d0c8f5bb70244d43\",\"x\":1670,\"y\":620},{\"ref\":\"C_RST\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"635e33a9efa13e4d\",\"x\":1590,\"y\":620},{\"ref\":\"C_MCU1\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"2f1a24127cee9d2e\",\"x\":320,\"y\":760},{\"ref\":\"C_MCU1\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"41e4c6c03dfcf9b4\",\"x\":240.00000000000003,\"y\":760},{\"ref\":\"C_MCU_BULK\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"39ad89542b51d21a\",\"x\":765,\"y\":760},{\"ref\":\"C_MCU_BULK\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"5b3ef5b4df5464de\",\"x\":694.9999999999999,\"y\":760.0000000000001},{\"ref\":\"R_J3_1\",\"pin\":\"2\",\"net\":\"V3V3\",\"id\":\"92f63ee5bda726aa\",\"x\":1145,\"y\":760.0000000000001},{\"ref\":\"R_J3_1\",\"pin\":\"1\",\"net\":\"V3V3_EXT\",\"id\":\"1203eb95f1b80c3b\",\"x\":1215,\"y\":760},{\"ref\":\"D_J3_1\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"26b0f5d423761bef\",\"x\":1655,\"y\":770},{\"ref\":\"D_J3_1\",\"pin\":\"3\",\"net\":\"V3V3\",\"id\":\"33b5016b29b6500c\",\"x\":1605,\"y\":760},{\"ref\":\"D_J3_1\",\"pin\":\"2\",\"net\":\"V3V3\",\"id\":\"2853f7fa953f2783\",\"x\":1655,\"y\":750},{\"ref\":\"R_J3_3\",\"pin\":\"2\",\"net\":\"SWDIO\",\"id\":\"3f06ab7e2c93d2dd\",\"x\":245,\"y\":900},{\"ref\":\"R_J3_3\",\"pin\":\"1\",\"net\":\"SWDIO_EXT\",\"id\":\"3c4116b30e7d64a2\",\"x\":315,\"y\":900}],\"wires\":[{\"ref\":\"U7\",\"pin\":\"4\",\"net\":\"V3V3\",\"id\":\"7cb8d71a32f9a7d6\",\"line\":[255,305,365,305]},{\"ref\":\"U7\",\"pin\":\"5\",\"net\":\"GND\",\"id\":\"5c22bd10a53bf8f9\",\"line\":[255,295,365,295]},{\"ref\":\"U7\",\"pin\":\"6\",\"net\":\"PGOOD\",\"id\":\"19ff8a61fccb3e6e\",\"line\":[255,285,365,285]},{\"ref\":\"U7\",\"pin\":\"7\",\"net\":\"MCU_ROW0\",\"id\":\"a3e7a3e79bd48885\",\"line\":[255,275,365,275]},{\"ref\":\"U7\",\"pin\":\"8\",\"net\":\"MCU_ROW1\",\"id\":\"50a306033ead72a5\",\"line\":[255,265,365,265]},{\"ref\":\"U7\",\"pin\":\"9\",\"net\":\"MCU_ROW2\",\"id\":\"7dbdfb887ad000bd\",\"line\":[255,255,365,255]},{\"ref\":\"U7\",\"pin\":\"10\",\"net\":\"MCU_ROW3\",\"id\":\"1be51cc4f35ee8e3\",\"line\":[255,245,365,245]},{\"ref\":\"U7\",\"pin\":\"11\",\"net\":\"ADC_CS_N\",\"id\":\"1511f8bc29ae310d\",\"line\":[255,235,365,235]},{\"ref\":\"U7\",\"pin\":\"12\",\"net\":\"SPI_SCLK\",\"id\":\"4b8e7f606d3cd61b\",\"line\":[255,225,365,225]},{\"ref\":\"U7\",\"pin\":\"13\",\"net\":\"SPI_MISO\",\"id\":\"ec8834aa0472bf90\",\"line\":[255,215,365,215]},{\"ref\":\"U7\",\"pin\":\"14\",\"net\":\"SPI_MOSI\",\"id\":\"b2a90b8dc63c3e27\",\"line\":[255,205,365,205]},{\"ref\":\"U7\",\"pin\":\"15\",\"net\":\"MCU_ADC_RESET\",\"id\":\"0ed2c77970f420b4\",\"line\":[255,195,365,195]},{\"ref\":\"U7\",\"pin\":\"16\",\"net\":\"MCU_ENABLE\",\"id\":\"371593d6d5120b52\",\"line\":[255,185,365,185]},{\"ref\":\"U7\",\"pin\":\"19\",\"net\":\"UART_TX\",\"id\":\"b2a90b8dc63c3e27\",\"line\":[445,205,335,205,335,205.00000000000003]},{\"ref\":\"U7\",\"pin\":\"21\",\"net\":\"UART_RX\",\"id\":\"4b8e7f606d3cd61b\",\"line\":[445,225,335,225,335,225.00000000000003]},{\"ref\":\"U7\",\"pin\":\"24\",\"net\":\"SWDIO\",\"id\":\"7dbdfb887ad000bd\",\"line\":[445,255,334.99999999999994,255,334.99999999999994,255.00000000000003]},{\"ref\":\"U7\",\"pin\":\"25\",\"net\":\"SWCLK\",\"id\":\"50a306033ead72a5\",\"line\":[445,265,334.99999999999994,265,334.99999999999994,265.00000000000006]},{\"ref\":\"J3\",\"pin\":\"1\",\"net\":\"V3V3_EXT\",\"id\":\"e5c3691213c2b366\",\"line\":[260,645,315,645]},{\"ref\":\"J3\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"26f3aa6ae42d1261\",\"line\":[260,635,315,635]},{\"ref\":\"J3\",\"pin\":\"3\",\"net\":\"SWDIO_EXT\",\"id\":\"7f8c322e771b6a7e\",\"line\":[260,625,315,625]},{\"ref\":\"J3\",\"pin\":\"4\",\"net\":\"SWCLK_EXT\",\"id\":\"e9a684bc17cd86f0\",\"line\":[260,615,315,615]},{\"ref\":\"J3\",\"pin\":\"5\",\"net\":\"MCU_NRST_EXT\",\"id\":\"1ee314e24097307e\",\"line\":[260,605,315,605]},{\"ref\":\"J4\",\"pin\":\"1\",\"net\":\"V3V3_EXT\",\"id\":\"d1369b93a17fa952\",\"line\":[710,635,765,635]},{\"ref\":\"J4\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"5cd3a74e8a0a1213\",\"line\":[710,625,765,625]},{\"ref\":\"J4\",\"pin\":\"3\",\"net\":\"UART_TX_EXT\",\"id\":\"fcb847d310d882a5\",\"line\":[710,615,765,615]},{\"ref\":\"J4\",\"pin\":\"4\",\"net\":\"UART_RX_EXT\",\"id\":\"cd41f3e2e46a6685\",\"line\":[710,605,765,605]},{\"ref\":\"R_RST\",\"pin\":\"2\",\"net\":\"PGOOD\",\"id\":\"7faed8e36bc16255\",\"line\":[1200,620,1145,620,1145,620.0000000000001]},{\"ref\":\"R_RST\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"7faed8e36bc16255\",\"line\":[1160,620,1215,620]},{\"ref\":\"C_RST\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"aee4a8d800f3fc44\",\"line\":[1615,620,1670,620]},{\"ref\":\"C_RST\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"aee4a8d800f3fc44\",\"line\":[1645,620,1590,620]},{\"ref\":\"C_MCU1\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"ae026caca0f65fc8\",\"line\":[265,760,320,760]},{\"ref\":\"C_MCU1\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"ae026caca0f65fc8\",\"line\":[295,760,240.00000000000003,760]},{\"ref\":\"C_MCU_BULK\",\"pin\":\"1\",\"net\":\"V3V3\",\"id\":\"954aec0a133465ca\",\"line\":[710,760,765,760]},{\"ref\":\"C_MCU_BULK\",\"pin\":\"2\",\"net\":\"GND\",\"id\":\"954aec0a133465ca\",\"line\":[750,760,694.9999999999999,760,694.9999999999999,760.0000000000001]},{\"ref\":\"R_J3_1\",\"pin\":\"2\",\"net\":\"V3V3\",\"id\":\"9e6b251ba7cd6f60\",\"line\":[1200,760,1145,760,1145,760.0000000000001]},{\"ref\":\"R_J3_1\",\"pin\":\"1\",\"net\":\"V3V3_EXT\",\"id\":\"9e6b251ba7cd6f60\",\"line\":[1160,760,1215,760]},{\"ref\":\"D_J3_1\",\"pin\":\"1\",\"net\":\"GND\",\"id\":\"831b2a920c794f3e\",\"line\":[1600,770,1655,770]},{\"ref\":\"D_J3_1\",\"pin\":\"3\",\"net\":\"V3V3\",\"id\":\"3d494cfeb75d2800\",\"line\":[1660,760,1605,760]},{\"ref\":\"D_J3_1\",\"pin\":\"2\",\"net\":\"V3V3\",\"id\":\"46f270131bff4606\",\"line\":[1600,750,1655,750]},{\"ref\":\"R_J3_3\",\"pin\":\"2\",\"net\":\"SWDIO\",\"id\":\"5ba22e1b49b72dd9\",\"line\":[300,900,245,900]},{\"ref\":\"R_J3_3\",\"pin\":\"1\",\"net\":\"SWDIO_EXT\",\"id\":\"5ba22e1b49b72dd9\",\"line\":[260,900,315,900]}],\"nc\":[{\"ref\":\"U7\",\"pin\":\"1\"},{\"ref\":\"U7\",\"pin\":\"2\"},{\"ref\":\"U7\",\"pin\":\"3\"},{\"ref\":\"U7\",\"pin\":\"17\"},{\"ref\":\"U7\",\"pin\":\"18\"},{\"ref\":\"U7\",\"pin\":\"20\"},{\"ref\":\"U7\",\"pin\":\"22\"},{\"ref\":\"U7\",\"pin\":\"23\"},{\"ref\":\"U7\",\"pin\":\"26\"},{\"ref\":\"U7\",\"pin\":\"27\"},{\"ref\":\"U7\",\"pin\":\"28\"},{\"ref\":\"U7\",\"pin\":\"29\"},{\"ref\":\"U7\",\"pin\":\"30\"},{\"ref\":\"U7\",\"pin\":\"31\"},{\"ref\":\"U7\",\"pin\":\"32\"},{\"ref\":\"J3\",\"pin\":\"6\"}],\"status\":\"BATCH_CREATED\"},\"logs\":[],\"durationMs\":12671}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "52a8a60e5711e55b",
+        "index": 4,
+        "name": "MCU_Protected_Interfaces"
+      },
+      "parts": [
+        {
+          "ref": "U7",
+          "id": "e54159ff5a448134",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "46f4ed815ecd8548",
+            "name": "STM32G031K8T6"
+          },
+          "footprint": {
+            "uuid": "e13794d22038af93",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "PB9",
+              "x": 255,
+              "y": 335,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "PC14-OSC32IN",
+              "x": 255,
+              "y": 325,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "PC15-OSC32OUT",
+              "x": 255,
+              "y": 315,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "VDD/VDDA",
+              "x": 255,
+              "y": 305,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "VSS/VSSA",
+              "x": 255,
+              "y": 295,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "PF2-NRST",
+              "x": 255,
+              "y": 285,
+              "rotation": 180
+            },
+            {
+              "number": "7",
+              "name": "PA0",
+              "x": 255,
+              "y": 275,
+              "rotation": 180
+            },
+            {
+              "number": "8",
+              "name": "PA1",
+              "x": 255,
+              "y": 265,
+              "rotation": 180
+            },
+            {
+              "number": "9",
+              "name": "PA2",
+              "x": 255,
+              "y": 255,
+              "rotation": 180
+            },
+            {
+              "number": "10",
+              "name": "PA3",
+              "x": 255,
+              "y": 245,
+              "rotation": 180
+            },
+            {
+              "number": "11",
+              "name": "PA4",
+              "x": 255,
+              "y": 235,
+              "rotation": 180
+            },
+            {
+              "number": "12",
+              "name": "PA5",
+              "x": 255,
+              "y": 225,
+              "rotation": 180
+            },
+            {
+              "number": "13",
+              "name": "PA6",
+              "x": 255,
+              "y": 215,
+              "rotation": 180
+            },
+            {
+              "number": "14",
+              "name": "PA7",
+              "x": 255,
+              "y": 205,
+              "rotation": 180
+            },
+            {
+              "number": "15",
+              "name": "PB0",
+              "x": 255,
+              "y": 195,
+              "rotation": 180
+            },
+            {
+              "number": "16",
+              "name": "PB1",
+              "x": 255,
+              "y": 185,
+              "rotation": 180
+            },
+            {
+              "number": "17",
+              "name": "PB2",
+              "x": 445,
+              "y": 185,
+              "rotation": 0
+            },
+            {
+              "number": "18",
+              "name": "PA8",
+              "x": 445,
+              "y": 195,
+              "rotation": 0
+            },
+            {
+              "number": "19",
+              "name": "PA9",
+              "x": 445,
+              "y": 205,
+              "rotation": 0
+            },
+            {
+              "number": "20",
+              "name": "PC6",
+              "x": 445,
+              "y": 215,
+              "rotation": 0
+            },
+            {
+              "number": "21",
+              "name": "PA10",
+              "x": 445,
+              "y": 225,
+              "rotation": 0
+            },
+            {
+              "number": "22",
+              "name": "PA11[PA9]",
+              "x": 445,
+              "y": 235,
+              "rotation": 0
+            },
+            {
+              "number": "23",
+              "name": "PA12[PA10]",
+              "x": 445,
+              "y": 245,
+              "rotation": 0
+            },
+            {
+              "number": "24",
+              "name": "PA13",
+              "x": 445,
+              "y": 255,
+              "rotation": 0
+            },
+            {
+              "number": "25",
+              "name": "PA14-BOOT0",
+              "x": 445,
+              "y": 265,
+              "rotation": 0
+            },
+            {
+              "number": "26",
+              "name": "PA15",
+              "x": 445,
+              "y": 275,
+              "rotation": 0
+            },
+            {
+              "number": "27",
+              "name": "PB3",
+              "x": 445,
+              "y": 285,
+              "rotation": 0
+            },
+            {
+              "number": "28",
+              "name": "PB4",
+              "x": 445,
+              "y": 295,
+              "rotation": 0
+            },
+            {
+              "number": "29",
+              "name": "PB5",
+              "x": 445,
+              "y": 305,
+              "rotation": 0
+            },
+            {
+              "number": "30",
+              "name": "PB6",
+              "x": 445,
+              "y": 315,
+              "rotation": 0
+            },
+            {
+              "number": "31",
+              "name": "PB7",
+              "x": 445,
+              "y": 325,
+              "rotation": 0
+            },
+            {
+              "number": "32",
+              "name": "PB8",
+              "x": 445,
+              "y": 335,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "J3",
+          "id": "51b9fb29a400b01d",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "c41725a70d53db08",
+            "name": "HDR-M_2.54_1x6P"
+          },
+          "footprint": {
+            "uuid": "54b100f56e34bff6",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "HDR-TH_6P-P2.54-V-M-1"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 260,
+              "y": 645,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 260,
+              "y": 635,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 260,
+              "y": 625,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 260,
+              "y": 615,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "5",
+              "x": 260,
+              "y": 605,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "6",
+              "x": 260,
+              "y": 595,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "J4",
+          "id": "c70f8d176834c29c",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "69b7c04d3f0fa077",
+            "name": "HDR-M_2.54_1x4P"
+          },
+          "footprint": {
+            "uuid": "805f84989d4eb67b",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "HDR-TH_4P-P2.54-V-M"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 710,
+              "y": 635,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 710,
+              "y": 625,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 710,
+              "y": 615,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 710,
+              "y": 605,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "R_RST",
+          "id": "fc0ccb33538faac2",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1200,
+              "y": 620,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1160,
+              "y": 620,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "C_RST",
+          "id": "18870a9ff471e2d3",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1615,
+              "y": 620,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1645,
+              "y": 620,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_MCU1",
+          "id": "41ef1469eef841a1",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 265,
+              "y": 760,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 295,
+              "y": 760,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "id": "6b759e44d9f69b02",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "23632a4cfdbe4fec",
+            "name": "GRM188R61C105KA93D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 710,
+              "y": 760,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 750,
+              "y": 760,
+              "rotation": 0
+            }
+          ]
+        },
+        {
+          "ref": "R_J3_1",
+          "id": "feecf9b90ab4fb4d",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1200,
+              "y": 760,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1160,
+              "y": 760,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "D_J3_1",
+          "id": "55714f9b054b6f40",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6b7f8a0cf29ef171",
+            "name": "BAT54S,215"
+          },
+          "footprint": {
+            "uuid": "8ef6c020c23f0901",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+          },
+          "pins": [
+            {
+              "number": "1",
+              "name": "A",
+              "x": 1600,
+              "y": 770,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "AK",
+              "x": 1660,
+              "y": 760,
+              "rotation": 0
+            },
+            {
+              "number": "2",
+              "name": "K",
+              "x": 1600,
+              "y": 750,
+              "rotation": 180
+            }
+          ]
+        },
+        {
+          "ref": "R_J3_3",
+          "id": "ecf1d0fd27e40623",
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "pins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 300,
+              "y": 900,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 260,
+              "y": 900,
+              "rotation": 180
+            }
+          ]
+        }
+      ],
+      "markers": [
+        {
+          "ref": "U7",
+          "pin": "4",
+          "net": "V3V3",
+          "id": "2f930a2494a7ac91",
+          "x": 365,
+          "y": 305
+        },
+        {
+          "ref": "U7",
+          "pin": "5",
+          "net": "GND",
+          "id": "1182c1c8238857f6",
+          "x": 365,
+          "y": 295
+        },
+        {
+          "ref": "U7",
+          "pin": "6",
+          "net": "PGOOD",
+          "id": "fef16a5e35982fe6",
+          "x": 365,
+          "y": 285
+        },
+        {
+          "ref": "U7",
+          "pin": "7",
+          "net": "MCU_ROW0",
+          "id": "cb5e8b770345035c",
+          "x": 365,
+          "y": 275
+        },
+        {
+          "ref": "U7",
+          "pin": "8",
+          "net": "MCU_ROW1",
+          "id": "d0723d1fef77fc0b",
+          "x": 365,
+          "y": 265
+        },
+        {
+          "ref": "U7",
+          "pin": "9",
+          "net": "MCU_ROW2",
+          "id": "81ed27e1d452a405",
+          "x": 365,
+          "y": 255
+        },
+        {
+          "ref": "U7",
+          "pin": "10",
+          "net": "MCU_ROW3",
+          "id": "8f182dd8889733f4",
+          "x": 365,
+          "y": 245
+        },
+        {
+          "ref": "U7",
+          "pin": "11",
+          "net": "ADC_CS_N",
+          "id": "f519d780da53c472",
+          "x": 365,
+          "y": 235
+        },
+        {
+          "ref": "U7",
+          "pin": "12",
+          "net": "SPI_SCLK",
+          "id": "1980f25b9cb2ab6b",
+          "x": 365,
+          "y": 225
+        },
+        {
+          "ref": "U7",
+          "pin": "13",
+          "net": "SPI_MISO",
+          "id": "ee1914bc25a8b831",
+          "x": 365,
+          "y": 215
+        },
+        {
+          "ref": "U7",
+          "pin": "14",
+          "net": "SPI_MOSI",
+          "id": "20cd7bd8ecbc9ad0",
+          "x": 365,
+          "y": 205
+        },
+        {
+          "ref": "U7",
+          "pin": "15",
+          "net": "MCU_ADC_RESET",
+          "id": "4c7c992dc4432494",
+          "x": 365,
+          "y": 195
+        },
+        {
+          "ref": "U7",
+          "pin": "16",
+          "net": "MCU_ENABLE",
+          "id": "94f7558c20fe2679",
+          "x": 365,
+          "y": 185
+        },
+        {
+          "ref": "U7",
+          "pin": "19",
+          "net": "UART_TX",
+          "id": "f36ac7db15d02b00",
+          "x": 335,
+          "y": 205.00000000000003
+        },
+        {
+          "ref": "U7",
+          "pin": "21",
+          "net": "UART_RX",
+          "id": "c50ee30d06f1bbc0",
+          "x": 335,
+          "y": 225.00000000000003
+        },
+        {
+          "ref": "U7",
+          "pin": "24",
+          "net": "SWDIO",
+          "id": "7283dfa121cfb661",
+          "x": 334.99999999999994,
+          "y": 255.00000000000003
+        },
+        {
+          "ref": "U7",
+          "pin": "25",
+          "net": "SWCLK",
+          "id": "c598b28a7038ab85",
+          "x": 334.99999999999994,
+          "y": 265.00000000000006
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "net": "V3V3_EXT",
+          "id": "54dfa73649b6b9a0",
+          "x": 315,
+          "y": 645
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "net": "GND",
+          "id": "37798abc89a01d5f",
+          "x": 315,
+          "y": 635
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "net": "SWDIO_EXT",
+          "id": "a01e9e2ceab03a1d",
+          "x": 315,
+          "y": 625
+        },
+        {
+          "ref": "J3",
+          "pin": "4",
+          "net": "SWCLK_EXT",
+          "id": "cdd185cfbdf2ffa1",
+          "x": 315,
+          "y": 615
+        },
+        {
+          "ref": "J3",
+          "pin": "5",
+          "net": "MCU_NRST_EXT",
+          "id": "85aac96a577785dd",
+          "x": 315,
+          "y": 605
+        },
+        {
+          "ref": "J4",
+          "pin": "1",
+          "net": "V3V3_EXT",
+          "id": "812d93e2ba441a8a",
+          "x": 765,
+          "y": 635
+        },
+        {
+          "ref": "J4",
+          "pin": "2",
+          "net": "GND",
+          "id": "157b43e5d626f8e5",
+          "x": 765,
+          "y": 625
+        },
+        {
+          "ref": "J4",
+          "pin": "3",
+          "net": "UART_TX_EXT",
+          "id": "d3f9f8f71eda4d0f",
+          "x": 765,
+          "y": 615
+        },
+        {
+          "ref": "J4",
+          "pin": "4",
+          "net": "UART_RX_EXT",
+          "id": "bae0d5834ac0d0c9",
+          "x": 765,
+          "y": 605
+        },
+        {
+          "ref": "R_RST",
+          "pin": "2",
+          "net": "PGOOD",
+          "id": "7569043d52c37f0c",
+          "x": 1145,
+          "y": 620.0000000000001
+        },
+        {
+          "ref": "R_RST",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "b76ae639b000af8b",
+          "x": 1215,
+          "y": 620
+        },
+        {
+          "ref": "C_RST",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "d0c8f5bb70244d43",
+          "x": 1670,
+          "y": 620
+        },
+        {
+          "ref": "C_RST",
+          "pin": "2",
+          "net": "GND",
+          "id": "635e33a9efa13e4d",
+          "x": 1590,
+          "y": 620
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "2f1a24127cee9d2e",
+          "x": 320,
+          "y": 760
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "2",
+          "net": "GND",
+          "id": "41e4c6c03dfcf9b4",
+          "x": 240.00000000000003,
+          "y": 760
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "39ad89542b51d21a",
+          "x": 765,
+          "y": 760
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "2",
+          "net": "GND",
+          "id": "5b3ef5b4df5464de",
+          "x": 694.9999999999999,
+          "y": 760.0000000000001
+        },
+        {
+          "ref": "R_J3_1",
+          "pin": "2",
+          "net": "V3V3",
+          "id": "92f63ee5bda726aa",
+          "x": 1145,
+          "y": 760.0000000000001
+        },
+        {
+          "ref": "R_J3_1",
+          "pin": "1",
+          "net": "V3V3_EXT",
+          "id": "1203eb95f1b80c3b",
+          "x": 1215,
+          "y": 760
+        },
+        {
+          "ref": "D_J3_1",
+          "pin": "1",
+          "net": "GND",
+          "id": "26b0f5d423761bef",
+          "x": 1655,
+          "y": 770
+        },
+        {
+          "ref": "D_J3_1",
+          "pin": "3",
+          "net": "V3V3",
+          "id": "33b5016b29b6500c",
+          "x": 1605,
+          "y": 760
+        },
+        {
+          "ref": "D_J3_1",
+          "pin": "2",
+          "net": "V3V3",
+          "id": "2853f7fa953f2783",
+          "x": 1655,
+          "y": 750
+        },
+        {
+          "ref": "R_J3_3",
+          "pin": "2",
+          "net": "SWDIO",
+          "id": "3f06ab7e2c93d2dd",
+          "x": 245,
+          "y": 900
+        },
+        {
+          "ref": "R_J3_3",
+          "pin": "1",
+          "net": "SWDIO_EXT",
+          "id": "3c4116b30e7d64a2",
+          "x": 315,
+          "y": 900
+        }
+      ],
+      "wires": [
+        {
+          "ref": "U7",
+          "pin": "4",
+          "net": "V3V3",
+          "id": "7cb8d71a32f9a7d6",
+          "line": [
+            255,
+            305,
+            365,
+            305
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "5",
+          "net": "GND",
+          "id": "5c22bd10a53bf8f9",
+          "line": [
+            255,
+            295,
+            365,
+            295
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "6",
+          "net": "PGOOD",
+          "id": "19ff8a61fccb3e6e",
+          "line": [
+            255,
+            285,
+            365,
+            285
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "7",
+          "net": "MCU_ROW0",
+          "id": "a3e7a3e79bd48885",
+          "line": [
+            255,
+            275,
+            365,
+            275
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "8",
+          "net": "MCU_ROW1",
+          "id": "50a306033ead72a5",
+          "line": [
+            255,
+            265,
+            365,
+            265
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "9",
+          "net": "MCU_ROW2",
+          "id": "7dbdfb887ad000bd",
+          "line": [
+            255,
+            255,
+            365,
+            255
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "10",
+          "net": "MCU_ROW3",
+          "id": "1be51cc4f35ee8e3",
+          "line": [
+            255,
+            245,
+            365,
+            245
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "11",
+          "net": "ADC_CS_N",
+          "id": "1511f8bc29ae310d",
+          "line": [
+            255,
+            235,
+            365,
+            235
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "12",
+          "net": "SPI_SCLK",
+          "id": "4b8e7f606d3cd61b",
+          "line": [
+            255,
+            225,
+            365,
+            225
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "13",
+          "net": "SPI_MISO",
+          "id": "ec8834aa0472bf90",
+          "line": [
+            255,
+            215,
+            365,
+            215
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "14",
+          "net": "SPI_MOSI",
+          "id": "b2a90b8dc63c3e27",
+          "line": [
+            255,
+            205,
+            365,
+            205
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "15",
+          "net": "MCU_ADC_RESET",
+          "id": "0ed2c77970f420b4",
+          "line": [
+            255,
+            195,
+            365,
+            195
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "16",
+          "net": "MCU_ENABLE",
+          "id": "371593d6d5120b52",
+          "line": [
+            255,
+            185,
+            365,
+            185
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "19",
+          "net": "UART_TX",
+          "id": "b2a90b8dc63c3e27",
+          "line": [
+            445,
+            205,
+            335,
+            205,
+            335,
+            205.00000000000003
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "21",
+          "net": "UART_RX",
+          "id": "4b8e7f606d3cd61b",
+          "line": [
+            445,
+            225,
+            335,
+            225,
+            335,
+            225.00000000000003
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "24",
+          "net": "SWDIO",
+          "id": "7dbdfb887ad000bd",
+          "line": [
+            445,
+            255,
+            334.99999999999994,
+            255,
+            334.99999999999994,
+            255.00000000000003
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "25",
+          "net": "SWCLK",
+          "id": "50a306033ead72a5",
+          "line": [
+            445,
+            265,
+            334.99999999999994,
+            265,
+            334.99999999999994,
+            265.00000000000006
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "net": "V3V3_EXT",
+          "id": "e5c3691213c2b366",
+          "line": [
+            260,
+            645,
+            315,
+            645
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "net": "GND",
+          "id": "26f3aa6ae42d1261",
+          "line": [
+            260,
+            635,
+            315,
+            635
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "net": "SWDIO_EXT",
+          "id": "7f8c322e771b6a7e",
+          "line": [
+            260,
+            625,
+            315,
+            625
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "4",
+          "net": "SWCLK_EXT",
+          "id": "e9a684bc17cd86f0",
+          "line": [
+            260,
+            615,
+            315,
+            615
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "5",
+          "net": "MCU_NRST_EXT",
+          "id": "1ee314e24097307e",
+          "line": [
+            260,
+            605,
+            315,
+            605
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "1",
+          "net": "V3V3_EXT",
+          "id": "d1369b93a17fa952",
+          "line": [
+            710,
+            635,
+            765,
+            635
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "2",
+          "net": "GND",
+          "id": "5cd3a74e8a0a1213",
+          "line": [
+            710,
+            625,
+            765,
+            625
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "3",
+          "net": "UART_TX_EXT",
+          "id": "fcb847d310d882a5",
+          "line": [
+            710,
+            615,
+            765,
+            615
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "4",
+          "net": "UART_RX_EXT",
+          "id": "cd41f3e2e46a6685",
+          "line": [
+            710,
+            605,
+            765,
+            605
+          ]
+        },
+        {
+          "ref": "R_RST",
+          "pin": "2",
+          "net": "PGOOD",
+          "id": "7faed8e36bc16255",
+          "line": [
+            1200,
+            620,
+            1145,
+            620,
+            1145,
+            620.0000000000001
+          ]
+        },
+        {
+          "ref": "R_RST",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "7faed8e36bc16255",
+          "line": [
+            1160,
+            620,
+            1215,
+            620
+          ]
+        },
+        {
+          "ref": "C_RST",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "aee4a8d800f3fc44",
+          "line": [
+            1615,
+            620,
+            1670,
+            620
+          ]
+        },
+        {
+          "ref": "C_RST",
+          "pin": "2",
+          "net": "GND",
+          "id": "aee4a8d800f3fc44",
+          "line": [
+            1645,
+            620,
+            1590,
+            620
+          ]
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "ae026caca0f65fc8",
+          "line": [
+            265,
+            760,
+            320,
+            760
+          ]
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "2",
+          "net": "GND",
+          "id": "ae026caca0f65fc8",
+          "line": [
+            295,
+            760,
+            240.00000000000003,
+            760
+          ]
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "1",
+          "net": "V3V3",
+          "id": "954aec0a133465ca",
+          "line": [
+            710,
+            760,
+            765,
+            760
+          ]
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "2",
+          "net": "GND",
+          "id": "954aec0a133465ca",
+          "line": [
+            750,
+            760,
+            694.9999999999999,
+            760,
+            694.9999999999999,
+            760.0000000000001
+          ]
+        },
+        {
+          "ref": "R_J3_1",
+          "pin": "2",
+          "net": "V3V3",
+          "id": "9e6b251ba7cd6f60",
+          "line": [
+            1200,
+            760,
+            1145,
+            760,
+            1145,
+            760.0000000000001
+          ]
+        },
+        {
+          "ref": "R_J3_1",
+          "pin": "1",
+          "net": "V3V3_EXT",
+          "id": "9e6b251ba7cd6f60",
+          "line": [
+            1160,
+            760,
+            1215,
+            760
+          ]
+        },
+        {
+          "ref": "D_J3_1",
+          "pin": "1",
+          "net": "GND",
+          "id": "831b2a920c794f3e",
+          "line": [
+            1600,
+            770,
+            1655,
+            770
+          ]
+        },
+        {
+          "ref": "D_J3_1",
+          "pin": "3",
+          "net": "V3V3",
+          "id": "3d494cfeb75d2800",
+          "line": [
+            1660,
+            760,
+            1605,
+            760
+          ]
+        },
+        {
+          "ref": "D_J3_1",
+          "pin": "2",
+          "net": "V3V3",
+          "id": "46f270131bff4606",
+          "line": [
+            1600,
+            750,
+            1655,
+            750
+          ]
+        },
+        {
+          "ref": "R_J3_3",
+          "pin": "2",
+          "net": "SWDIO",
+          "id": "5ba22e1b49b72dd9",
+          "line": [
+            300,
+            900,
+            245,
+            900
+          ]
+        },
+        {
+          "ref": "R_J3_3",
+          "pin": "1",
+          "net": "SWDIO_EXT",
+          "id": "5ba22e1b49b72dd9",
+          "line": [
+            260,
+            900,
+            315,
+            900
+          ]
+        }
+      ],
+      "nc": [
+        {
+          "ref": "U7",
+          "pin": "1"
+        },
+        {
+          "ref": "U7",
+          "pin": "2"
+        },
+        {
+          "ref": "U7",
+          "pin": "3"
+        },
+        {
+          "ref": "U7",
+          "pin": "17"
+        },
+        {
+          "ref": "U7",
+          "pin": "18"
+        },
+        {
+          "ref": "U7",
+          "pin": "20"
+        },
+        {
+          "ref": "U7",
+          "pin": "22"
+        },
+        {
+          "ref": "U7",
+          "pin": "23"
+        },
+        {
+          "ref": "U7",
+          "pin": "26"
+        },
+        {
+          "ref": "U7",
+          "pin": "27"
+        },
+        {
+          "ref": "U7",
+          "pin": "28"
+        },
+        {
+          "ref": "U7",
+          "pin": "29"
+        },
+        {
+          "ref": "U7",
+          "pin": "30"
+        },
+        {
+          "ref": "U7",
+          "pin": "31"
+        },
+        {
+          "ref": "U7",
+          "pin": "32"
+        },
+        {
+          "ref": "J3",
+          "pin": "6"
+        }
+      ],
+      "status": "BATCH_CREATED"
+    },
+    "logs": [],
+    "durationMs": 12671
+  }
+}

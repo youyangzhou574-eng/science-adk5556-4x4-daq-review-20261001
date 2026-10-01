@@ -1,0 +1,642 @@
+[
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 0.0,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -1.2212453270876722e-13,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.0,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -1.4432899320127035e-13,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -0.08009611533840166,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -0.7952286282307264,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -0.08009611533842387,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -0.7952286282307486,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -0.023517368268144434,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 0.8301360306939731,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -0.023517368268144434,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.8301360306939731,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -0.10366991499067835,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 0.02075980900966279,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -0.10366991499067835,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": -0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.020759809009640584,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 0.10364126304154286,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -0.020702505003244998,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.10364126304154286,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -0.020702505003267202,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 0.023473206025714788,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -0.8146778941604538,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.023473206025714788,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": -0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -0.814677894160476,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 0.08022462896111193,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 0.8080808080806801,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.08022462896111193,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": -0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.8080808080806579,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": 2.220446049250313e-14,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": -0.000625,
+    "R_error_pct": -1.1102230246251565e-13,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 800.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": 0.0,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "V1_default_bipolar10p24",
+    "R": 8000.0,
+    "cal1_inl_V": 0.000625,
+    "cal2_inl_V": 0.000625,
+    "target_inl_V": 0.000625,
+    "same_input_blank_inl_V": 0.000625,
+    "R_error_pct": -1.2212453270876722e-13,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.0,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -1.2212453270876722e-13,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.0,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -1.1102230246251565e-13,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -0.020036064916850727,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -0.2000000000001223,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -0.020036064916850727,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -0.2000000000001001,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -0.005875196991889098,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.20606774260591987,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -0.005875196991889098,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.20606774260578664,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -0.02591479216336179,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.005184570717653436,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -0.02591479216336179,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": -0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.005184570717542414,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.0259130014165887,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -0.0051809892235299415,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.0259130014165887,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -0.005180989223518839,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.005872436854037488,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -0.20510168907271753,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.005872436854037488,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": -0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -0.20510168907270643,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.02004409701346077,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.20080321285138591,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.02004409701346077,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": -0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.2008032128512749,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": 0.0,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": -0.00015625,
+    "R_error_pct": -2.220446049250313e-14,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 800.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": 0.0,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  },
+  {
+    "range": "R2_unipolar5p12",
+    "R": 8000.0,
+    "cal1_inl_V": 0.00015625,
+    "cal2_inl_V": 0.00015625,
+    "target_inl_V": 0.00015625,
+    "same_input_blank_inl_V": 0.00015625,
+    "R_error_pct": -1.2212453270876722e-13,
+    "assumption": "fixed static INL curve; same 2.5V blank error in calibration/test; vertex envelope not a measured ADC curve"
+  }
+]

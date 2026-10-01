@@ -1,0 +1,15 @@
+{
+  "T_K": 303.15,
+  "k": 1.380649e-23,
+  "sense_R_ohm": 10000,
+  "sense_noise_nV_rtHz": 12.938991372591605,
+  "column_sense_bias_10nA_bound_uV": 100.0,
+  "R_error_from_bias_before_cal_at8000_pct": 0.06412825651302605,
+  "standard_error_bound_pct": 0.05,
+  "precision_calibration_standard_error_verified": false,
+  "integrated_frame_std": "HOLD: no full loop ENBW or ADC stochastic/driver noise model",
+  "Rf_TCR_ppm_per_C": 25,
+  "deltaT_C": 10,
+  "Rf_drift_pct": 0.025,
+  "excit_reference_change": "HOLD: E actual must be measured/fixed after calibration"
+}

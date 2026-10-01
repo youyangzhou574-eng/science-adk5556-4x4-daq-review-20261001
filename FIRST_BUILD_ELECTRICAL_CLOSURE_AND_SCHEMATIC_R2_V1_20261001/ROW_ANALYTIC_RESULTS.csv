@@ -1,0 +1,25 @@
+﻿design,equal_cells_R,line_C_F,sample_time_s,ADC_residual_V,ideal_100uV_pass,model
+V1_REJECTED,800.0,0,0.0002,0.05970652155605229,False,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,800.0,0,0.0003,0.011589470736491024,False,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,800.0,1e-10,0.0002,0.0596702106137765,False,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,800.0,1e-10,0.0003,0.011577318082769784,False,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,800.0,1e-09,0.0002,0.059342841288537174,False,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,800.0,1e-09,0.0003,0.011467967767999299,False,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,8000.0,0,0.0002,6.171603812399428e-07,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,8000.0,0,0.0003,1.191383064601445e-09,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,8000.0,1e-10,0.0002,5.899679509359384e-07,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,8000.0,1e-10,0.0003,1.1112067441011674e-09,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,8000.0,1e-09,0.0002,3.799662837702409e-07,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+V1_REJECTED,8000.0,1e-09,0.0003,5.62562765219926e-10,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,800.0,0,0.0002,2.7653602009777913e-08,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,800.0,0,0.0003,3.0599051674876653e-12,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,800.0,1e-10,0.0002,2.763766774259514e-08,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,800.0,1e-10,0.0003,3.058142021172196e-12,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,800.0,1e-09,0.0002,2.7495081407594115e-08,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,800.0,1e-09,0.0003,3.042364667353048e-12,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,8000.0,0,0.0002,2.152337215510043e-09,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,8000.0,0,0.0003,2.381587673673216e-13,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,8000.0,1e-10,0.0002,2.1513718210855327e-09,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,8000.0,1e-10,0.0003,2.3805194528363137e-13,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,8000.0,1e-09,0.0002,2.142722085598746e-09,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient
+R2_CANDIDATE,8000.0,1e-09,0.0003,2.370948413843251e-13,True,ideal amplifier exact rational row + ideal TIA + ADC RC; not macro transient

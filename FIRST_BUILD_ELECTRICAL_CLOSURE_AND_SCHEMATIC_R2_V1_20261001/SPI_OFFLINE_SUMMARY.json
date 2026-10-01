@@ -1,0 +1,38 @@
+{
+  "frames": 3,
+  "software_frame_validity": [
+    false,
+    true,
+    true
+  ],
+  "qualified_frame_sample_contract": "6 states x4channels x8tagged samples, unique monotonic frame IDs, >=10ms; bad/incomplete frame immediately revokes software validity",
+  "transfer_frames": 648,
+  "dummy_frames": 72,
+  "valid_channel_samples": 576,
+  "conversion_period_us": 25,
+  "spi_clock_Hz": 4000000,
+  "clocks_per_SPI_frame": 48,
+  "SPI_wire_time_us": 12,
+  "states_per_frame": 6,
+  "valid_samples_per_channel_state": 8,
+  "active_acquisition_us": 7200,
+  "padding_us": 2800,
+  "complete_frame_Hz": 100,
+  "initialization": {
+    "reference_wait_ms": 100,
+    "datasheet_reference_powerup_ms_at22uF": 15,
+    "reference_wait_status": "100ms engineering guard for44uF, not a proven settlement bound; HOLD",
+    "channel_range_registers": {
+      "05h": 6,
+      "06h": 6,
+      "07h": 6,
+      "08h": 6
+    },
+    "feature_register_03h": 3,
+    "readback_required": true
+  },
+  "invalidity": "PGOOD loss clears valid immediately in software model; packet tag/range exceptions must trigger abort/reinit; hardware latency unverified",
+  "recovery": "power qualified +100ms guard +register readback +two complete good frames",
+  "bit_alignment_assumption": "48 clocks, falling-edge SDO, rising-edge capture; 16 leading bits,16data,9metadata,7padding; unverified on silicon",
+  "scope": "offline logic model only; hardware SPI, ADC multiplexer settling and frame noise remain HOLD"
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "name": "LM73100",
+    "url": "https://www.ti.com/lit/ds/symlink/lm7310.pdf",
+    "bytes": 4653268,
+    "sha256": "ebb2f673f8cf94c426618d00222b697fb7d2b1c1f2f1449ad4ca11388f10333d",
+    "pages": 52,
+    "status": "DOWNLOADED_PRIMARY"
+  },
+  {
+    "name": "LM66100_REJECTED",
+    "url": "https://www.ti.com/lit/ds/symlink/lm66100.pdf",
+    "bytes": 2105188,
+    "sha256": "83c17370a97b85ecebe20605da0b955d4ff6f9a474e9692b611a6685d7ad0f00",
+    "pages": 23,
+    "status": "DOWNLOADED_PRIMARY"
+  },
+  {
+    "name": "TPS3808_REJECTED",
+    "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+    "bytes": 2046179,
+    "sha256": "74d889c0f68af88032f1633c26381817cc03e10d9fd3b4c177a044ad3ed86eed",
+    "pages": 39,
+    "status": "DOWNLOADED_PRIMARY"
+  },
+  {
+    "name": "TPS3890",
+    "url": "https://www.ti.com/lit/ds/symlink/tps3890.pdf",
+    "bytes": 1203677,
+    "sha256": "ee79599730e7606ba9718d9820b411020e3dcd9ff7d44572f8ee63fead15b9d0",
+    "pages": 27,
+    "status": "DOWNLOADED_PRIMARY"
+  },
+  {
+    "name": "SN74LVC08A",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc08a.pdf",
+    "bytes": 3451095,
+    "sha256": "e5af3b29e61782a243d18a2e0a24e0f8bbda23a4c46cdea98b01dae91a96e97d",
+    "pages": 45,
+    "status": "DOWNLOADED_PRIMARY"
+  },
+  {
+    "name": "BAT54S",
+    "url": "https://assets.nexperia.com/documents/data-sheet/BAT54S.pdf",
+    "bytes": 212253,
+    "sha256": "0baaac4f52b05b5d41932c445eb8dddc636e464b1f717d11ee41b27ba1202fe7",
+    "pages": 9,
+    "status": "DOWNLOADED_PRIMARY"
+  },
+  {
+    "name": "OPA4388",
+    "url": "https://www.ti.com/lit/ds/symlink/opa4388.pdf",
+    "bytes": 3340219,
+    "sha256": "bfaa584834295abba9cab4c66cda702ada12def5d50e49b1beb0d7444f0775e7",
+    "pages": 50,
+    "status": "DOWNLOADED_PRIMARY"
+  }
+]
