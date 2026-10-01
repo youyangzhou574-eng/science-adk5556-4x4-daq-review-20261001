@@ -1,0 +1,113 @@
+[
+  {
+    "class": "fixture",
+    "Tian": [
+      {
+        "fc_Hz": 99004.84952977231,
+        "phase_deg": -89.4212651222464,
+        "PM_deg": 90.5787348777536,
+        "direction": "falling"
+      }
+    ],
+    "Y_ports": [
+      {
+        "fc_Hz": 99004.8495379667,
+        "phase_deg": -89.42126506067588,
+        "PM_deg": 90.57873493932412,
+        "direction": "falling"
+      }
+    ],
+    "OP_difference_max_V": 0.0,
+    "PASS": true,
+    "relative_complex_error_max": 7.979896663038175e-07,
+    "fixture_relative_error_max": 1.3318626600027579e-07
+  },
+  {
+    "class": "row",
+    "Tian": [
+      {
+        "fc_Hz": 8201466.701090229,
+        "phase_deg": -80.77091782925093,
+        "PM_deg": 99.22908217074907,
+        "direction": "falling"
+      }
+    ],
+    "Y_ports": [
+      {
+        "fc_Hz": 8201466.700933834,
+        "phase_deg": -80.7709178085287,
+        "PM_deg": 99.2290821914713,
+        "direction": "falling"
+      }
+    ],
+    "OP_difference_max_V": 6.939817712048324e-06,
+    "PASS": true,
+    "relative_complex_error_max": 4.111598501498382e-05
+  },
+  {
+    "class": "tia",
+    "Tian": [
+      {
+        "fc_Hz": 6679006.533797055,
+        "phase_deg": -78.6840239311082,
+        "PM_deg": 101.3159760688918,
+        "direction": "falling"
+      }
+    ],
+    "Y_ports": [
+      {
+        "fc_Hz": 6679006.534623356,
+        "phase_deg": -78.68402395115785,
+        "PM_deg": 101.31597604884215,
+        "direction": "falling"
+      }
+    ],
+    "OP_difference_max_V": 0.00011549050890646839,
+    "PASS": false,
+    "relative_complex_error_max": 3.704780440845378e-05
+  },
+  {
+    "class": "vcm",
+    "Tian": [
+      {
+        "fc_Hz": 8199048.522138636,
+        "phase_deg": -80.76897027707592,
+        "PM_deg": 99.23102972292408,
+        "direction": "falling"
+      }
+    ],
+    "Y_ports": [
+      {
+        "fc_Hz": 8199048.531770564,
+        "phase_deg": -80.76897024625724,
+        "PM_deg": 99.23102975374276,
+        "direction": "falling"
+      }
+    ],
+    "OP_difference_max_V": 0.00011526478812529106,
+    "PASS": false,
+    "relative_complex_error_max": 0.00010923620698781515
+  },
+  {
+    "class": "vexc",
+    "Tian": [
+      {
+        "fc_Hz": 8199048.522138636,
+        "phase_deg": -80.76897027707592,
+        "PM_deg": 99.23102972292408,
+        "direction": "falling"
+      }
+    ],
+    "Y_ports": [
+      {
+        "fc_Hz": 8199048.531770301,
+        "phase_deg": -80.76897024625768,
+        "PM_deg": 99.23102975374232,
+        "direction": "falling"
+      }
+    ],
+    "OP_difference_max_V": 1.266852400760854e-06,
+    "PASS": true,
+    "relative_complex_error_max": 0.00010923620698781675
+  }
+]

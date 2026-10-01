@@ -1,0 +1,1 @@
+{"case": "part_4row_1tia_800_trap", "startedUTC": "2026-10-01T11:35:38.701975+00:00", "limitSeconds": 60.0, "status": "FORCED_STOP_NOT_NORMAL_EXIT", "ownedPID": 81064, "exitCode": 1, "reason": "Owned child reached bounded case wall limit", "wallSeconds": 60.019862700020894, "endedUTC": "2026-10-01T11:36:38.721842+00:00"}

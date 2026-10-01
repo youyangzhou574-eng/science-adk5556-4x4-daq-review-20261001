@@ -1,0 +1,27 @@
+{
+  "UTC": "2026-10-01T12:31:38.427378+00:00",
+  "models": [
+    {
+      "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "sha256": "958ff133418bd47522015057497858263e73b9e6d75860ef9c0b6fdabed5cd0d",
+      "PASS": true
+    },
+    {
+      "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "sha256": "958ff133418bd47522015057497858263e73b9e6d75860ef9c0b6fdabed5cd0d",
+      "PASS": true
+    },
+    {
+      "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\models\\OPAx388.LIB",
+      "sha256": "bb9c6c7ac80dc7ff1ac5b698c05c53f0a8d55babb1ab210150d9bd910a6bf8e4",
+      "PASS": true
+    },
+    {
+      "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\models\\OPAx388.LIB",
+      "sha256": "bb9c6c7ac80dc7ff1ac5b698c05c53f0a8d55babb1ab210150d9bd910a6bf8e4",
+      "PASS": true
+    }
+  ],
+  "executorUnchanged": true,
+  "frozenProtocolAndTestsUnchanged": true
+}

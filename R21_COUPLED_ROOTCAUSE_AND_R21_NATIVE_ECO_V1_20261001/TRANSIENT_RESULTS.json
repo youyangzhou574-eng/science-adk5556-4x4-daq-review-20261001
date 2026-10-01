@@ -1,0 +1,256 @@
+[
+  {
+    "case": "full_monolithic_short_final",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000225968,
+    "wall_s": 60.02039930014871,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_1row_1tia_800_gear",
+    "status": "LOCAL_SCREEN_PASS",
+    "method": "gear",
+    "scope": "4 macros, ideal remaining ports; Gear numerical diagnostic only; eight short-window sample edges per modeled AIN, not whole frame",
+    "last_time_s": 0.0006,
+    "points": 22657,
+    "measurements": [
+      {
+        "node": "v(ain0)",
+        "reference_V": 4.058993305959367,
+        "edge_count": 8,
+        "edge_times_us": [
+          425.0,
+          450.0,
+          475.0,
+          500.0,
+          525.0,
+          550.0,
+          575.0,
+          600.0
+        ],
+        "max_edge_residual_V": 3.042458196489406e-08,
+        "max_continuous_300_500us_residual_V": 4.5862176278888e-08,
+        "tail_span_V": 2.461056247682336e-09,
+        "PASS_screen": true
+      }
+    ]
+  },
+  {
+    "case": "part_1row_1tia_800_trap",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": null,
+    "wall_s": 60.01875320007093,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_1row_1tia_800_trap_fixed",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000143863,
+    "wall_s": 30.36582720000297,
+    "stop": "Simulation time stopped advancing for 15s"
+  },
+  {
+    "case": "part_1row_4tia_8000_gear_180",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000285408,
+    "wall_s": 180.3379486000631,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_1row_4tia_800_gear",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 9.13873e-05,
+    "wall_s": 60.191528799943626,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_1row_4tia_800_gear_180",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000287162,
+    "wall_s": 180.21416010009125,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_1row_4tia_800_klu_no_nodeset",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.0,
+    "wall_s": 30.055050099967048,
+    "stop": "Simulation time stopped advancing for 15s"
+  },
+  {
+    "case": "part_1row_4tia_800_trap",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": null,
+    "wall_s": 60.02108249999583,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_1row_4tia_800_trap_fixed",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 4.02726e-09,
+    "wall_s": 19.20827509998344,
+    "stop": "Simulation time stopped advancing for 15s"
+  },
+  {
+    "case": "part_1row_4tia_high_target_gear_180",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000314143,
+    "wall_s": 180.32905560010113,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_4row_1tia_8000_gear_180",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000291695,
+    "wall_s": 180.3012061000336,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_4row_1tia_800_gear",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000172565,
+    "wall_s": 60.2144945000764,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_4row_1tia_800_gear_180",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000375633,
+    "wall_s": 180.22660450008698,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_4row_1tia_800_klu_no_nodeset",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": null,
+    "wall_s": 180.20100610004738,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_4row_1tia_800_trap",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": null,
+    "wall_s": 60.019862700020894,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "part_4row_1tia_800_trap_fixed",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000100006,
+    "wall_s": 170.6585591000039,
+    "stop": "Simulation time stopped advancing for 15s"
+  },
+  {
+    "case": "part_4row_1tia_high_target_gear_180",
+    "status": "INCOMPLETE_NO_SETTLING_PROOF",
+    "last_progress_time_s": 0.000307363,
+    "wall_s": 180.2770330000203,
+    "stop": "Owned child reached bounded case wall limit"
+  },
+  {
+    "case": "single_tia_repeat_tight",
+    "status": "LOCAL_SCREEN_PASS",
+    "method": "trap",
+    "scope": "single ideal-VCM equivalent load",
+    "last_time_s": 0.0013,
+    "points": 17230,
+    "measurements": [
+      {
+        "node": "v(ain)",
+        "reference_V": 4.058944502798293,
+        "edge_count": 32,
+        "edge_times_us": [
+          425.0,
+          450.0,
+          475.0,
+          500.0,
+          525.0,
+          550.0,
+          575.0,
+          600.0,
+          650.0,
+          675.0,
+          700.0,
+          725.0000000000001,
+          750.0,
+          775.0,
+          800.0,
+          825.0,
+          875.0,
+          900.0,
+          925.0,
+          950.0,
+          975.0,
+          1000.0,
+          1024.9999999999998,
+          1050.0,
+          1100.0,
+          1125.0,
+          1150.0,
+          1175.0,
+          1200.0,
+          1225.0,
+          1250.0,
+          1275.0
+        ],
+        "max_edge_residual_V": 2.1600049748826677e-08,
+        "max_continuous_300_500us_residual_V": 3.295408301795533e-08,
+        "tail_span_V": 1.5943939501994464e-09,
+        "PASS_screen": true
+      }
+    ]
+  },
+  {
+    "case": "single_tia_repeat_trap",
+    "status": "LOCAL_SCREEN_PASS",
+    "method": "trap",
+    "scope": "single ideal-VCM equivalent load",
+    "last_time_s": 0.0013,
+    "points": 16828,
+    "measurements": [
+      {
+        "node": "v(ain)",
+        "reference_V": 4.058944502163167,
+        "edge_count": 32,
+        "edge_times_us": [
+          425.0,
+          450.0,
+          475.0,
+          500.0,
+          525.0,
+          550.0,
+          575.0,
+          600.0,
+          650.0,
+          675.0,
+          700.0,
+          725.0000000000001,
+          750.0,
+          775.0,
+          800.0,
+          825.0,
+          875.0,
+          900.0,
+          925.0,
+          950.0,
+          975.0,
+          1000.0,
+          1024.9999999999998,
+          1050.0,
+          1100.0,
+          1125.0,
+          1150.0,
+          1175.0,
+          1200.0,
+          1225.0,
+          1250.0,
+          1275.0
+        ],
+        "max_edge_residual_V": 2.2400008958811668e-08,
+        "max_continuous_300_500us_residual_V": 3.11289722887409e-08,
+        "tail_span_V": 1.7557724163452804e-09,
+        "PASS_screen": true
+      }
+    ]
+  }
+]

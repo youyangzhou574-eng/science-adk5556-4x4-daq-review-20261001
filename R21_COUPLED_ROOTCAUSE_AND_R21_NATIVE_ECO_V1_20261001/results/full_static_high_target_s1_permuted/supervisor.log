@@ -1,0 +1,1 @@
+{"case": "full_static_high_target_s1_permuted", "startedUTC": "2026-10-01T11:46:56.633771+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 74516, "lastProgressTime_s": 1.0, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 1.0180204999633133, "endedUTC": "2026-10-01T11:46:57.651792+00:00"}

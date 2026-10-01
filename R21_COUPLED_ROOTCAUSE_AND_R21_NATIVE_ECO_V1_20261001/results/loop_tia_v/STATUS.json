@@ -1,0 +1,10 @@
+{
+  "case": "loop_tia_v",
+  "startedUTC": "2026-10-01T11:20:49.151960+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 46872,
+  "exitCode": 0,
+  "wallSeconds": 0.4531945001799613,
+  "endedUTC": "2026-10-01T11:20:49.605161+00:00"
+}

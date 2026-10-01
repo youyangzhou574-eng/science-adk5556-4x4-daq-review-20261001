@@ -1,0 +1,15 @@
+{
+  "reviewer": "coupled_final_review",
+  "readOnly": true,
+  "importantFindings": [
+    "reset/configure rejection retained valid qualification",
+    "P0 diagnostic DC/AC executions excluded from analysis counter"
+  ],
+  "resolution": [
+    "new wrapper catches rejection and clears; existing test07 extended; RED reproduced and final32 GREEN",
+    "strict P0 count39/32 (+7) disclosed; special full transient counted20/32 and1/1; atomic multi-category budget preflight RED/GREEN; all new science blocked"
+  ],
+  "frozenBaseUnchanged": true,
+  "noAdditionalSpiceProcesses": true,
+  "nativeEntry": "HOLD"
+}

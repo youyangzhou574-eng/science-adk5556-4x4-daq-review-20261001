@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_diagnostic_also_charges_analysis_and_is_atomic (test_budget_preflight.BudgetPreflightTests.test_diagnostic_also_charges_analysis_and_is_atomic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_budget_preflight.py", line 15, in test_diagnostic_also_charges_analysis_and_is_atomic
+    with self.assertRaises(AssertionError):science.register('diag','P0','diagnostics')
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: AssertionError not raised
+
+----------------------------------------------------------------------
+Ran 1 test in 0.007s
+
+FAILED (failures=1)

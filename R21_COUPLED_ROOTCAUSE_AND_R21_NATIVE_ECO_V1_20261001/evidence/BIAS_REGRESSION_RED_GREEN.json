@@ -1,0 +1,186 @@
+{
+  "legacy_generator": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\make_coupled.py",
+  "legacy_formula_command_V": 0.25,
+  "actual_legacy_OP": {
+    "VCM": 2.48829,
+    "VEXC_command": 0.248814,
+    "VEXC": 0.245138
+  },
+  "physical_R2_divider": [
+    {
+      "ref": "RD_TOP",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 730,
+      "y": 620,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "VCM",
+        "2": "DIV_2V25"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "RD_B1",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 1180,
+      "y": 620,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_2V25",
+        "2": "DIV_SEG1"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B2",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 1630,
+      "y": 620,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG1",
+        "2": "DIV_SEG2"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B3",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 280,
+      "y": 760,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG2",
+        "2": "DIV_SEG3"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B4",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 730,
+      "y": 760,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG3",
+        "2": "DIV_SEG4"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B5",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 1180,
+      "y": 760,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG4",
+        "2": "DIV_SEG5"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B6",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 1630,
+      "y": 760,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG5",
+        "2": "DIV_SEG6"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B7",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 280,
+      "y": 900,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG6",
+        "2": "DIV_SEG7"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B8",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 730,
+      "y": 900,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG7",
+        "2": "DIV_SEG8"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B9",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 1180,
+      "y": 900,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG8",
+        "2": "GND"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    }
+  ],
+  "corrected_command_V": 2.25,
+  "red_exit_code": 1,
+  "green_exit_code": 0,
+  "old_failures_retained": true,
+  "classification": "BENCH_BIAS_IMPLEMENTATION_ERROR; does not prove intended coupled circuit stable or unstable"
+}

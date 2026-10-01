@@ -1,0 +1,12 @@
+{
+  "case": "full_static_800_s-1_fullseed",
+  "startedUTC": "2026-10-01T11:41:35.963697+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 57000,
+  "lastProgressTime_s": 1.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 1.0177395001519471,
+  "endedUTC": "2026-10-01T11:41:36.981439+00:00"
+}

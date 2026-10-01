@@ -1,0 +1,31 @@
+Port admittance fixture e
+RIN minus 0 100k
+ROUT fb 0 1k
+EGAIN z 0 minus 0 100
+RP z pole 1k
+CP pole 0 159.1549431n
+GOUT fb 0 pole 0 1m
+LDC minus fb 1e9
+VE ep 0 DC 0 AC 1
+VF fp 0 DC 0 AC 0
+CE ep minus 1u
+CFPORT fp fb 1u
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+op
+wrdata op.txt v(minus) v(fb)
+ac dec 100 1 100meg
+let yer=real(-i(VE))
+let yei=imag(-i(VE))
+let yfr=real(-i(VF))
+let yfi=imag(-i(VF))
+let er=real(v(minus))
+let ei=imag(v(minus))
+let fr=real(v(fb))
+let fi=imag(v(fb))
+wrdata ac.txt yer yei yfr yfi er ei fr fi
+quit
+.endc
+.end

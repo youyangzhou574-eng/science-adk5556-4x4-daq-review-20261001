@@ -1,0 +1,88 @@
+case,processStatus,exitCode,analysisErrors,wallSeconds,progressLast_s,OP,AC,trace,stopReason,qualifiedModelsUnchanged
+diag_fixture_y6_e,NORMAL_EXIT,0,False,0.03313310001976788,,True,True,False,,True
+diag_fixture_y6_f,NORMAL_EXIT,0,False,0.03224639990366995,,True,True,False,,True
+diag_tia_opseed,NORMAL_EXIT,0,False,0.21326989983208477,,True,False,False,,True
+diag_yport4_tia_e,NORMAL_EXIT,0,False,0.1034962001722306,,True,True,False,,True
+diag_yport4_tia_f,NORMAL_EXIT,0,False,0.10151729988865554,,True,True,False,,True
+diag_yport5_tia_e,NORMAL_EXIT,0,False,0.056972699938341975,,True,True,False,,True
+diag_yport5_tia_f,NORMAL_EXIT,0,False,0.05002250010147691,,True,True,False,,True
+full_monolithic_short_final,FORCED_STOP_NOT_NORMAL_EXIT,1,True,60.02039930014871,0.000225968,False,False,False,Owned child reached bounded case wall limit,True
+full_pz_800_s1,NORMAL_EXIT,0,True,7.026336699957028,0.0,True,False,False,,True
+full_pz_cur_800_s-1,NORMAL_EXIT,0,True,7.027885000221431,0.0,True,False,False,,True
+full_pz_cur_800_s0,NORMAL_EXIT,0,True,21.04643990006298,,False,False,False,,True
+full_pz_cur_800_s1,NORMAL_EXIT,0,True,14.04030970018357,,False,False,False,,True
+full_static_8000_s-1,NORMAL_EXIT,0,True,18.021489900071174,,False,False,False,,True
+full_static_8000_s-1_fullseed,NORMAL_EXIT,0,False,1.0154156999196857,1.0,True,True,False,,True
+full_static_8000_s0,NORMAL_EXIT,0,False,2.9947545998729765,,True,True,False,,True
+full_static_8000_s1,NORMAL_EXIT,0,False,2.95496160001494,,True,True,False,,True
+full_static_800_s-1,NORMAL_EXIT,0,True,12.50675670010969,,False,False,False,,True
+full_static_800_s-1_fullseed,NORMAL_EXIT,0,False,1.0177395001519471,1.0,True,True,False,,True
+full_static_800_s-1_klu,NORMAL_EXIT,0,True,0.07121250010095537,,False,False,False,,True
+full_static_800_s0,NORMAL_EXIT,0,True,17.392916099866852,,False,False,False,,True
+full_static_800_s0_fullseed,NORMAL_EXIT,0,True,20.049850899958983,,False,False,False,,True
+full_static_800_s0_klu,NORMAL_EXIT,0,True,0.08077839994803071,,False,False,False,,True
+full_static_800_s0_klu_fixed,NORMAL_EXIT,0,True,0.5128630001563579,,False,False,False,,True
+full_static_800_s0_permuted,NORMAL_EXIT,0,False,1.017396700102836,1.0,True,True,False,,True
+full_static_800_s1,NORMAL_EXIT,0,False,2.788124700076878,,True,True,False,,True
+full_static_800_s1_allnodes_seed,NORMAL_EXIT,0,False,1.0171129999216646,1.0,True,True,False,,True
+full_static_800_s1_seed,NORMAL_EXIT,0,False,1.015320000005886,1.0,True,True,False,,True
+full_static_800_s1_v4p75,NORMAL_EXIT,0,True,21.04675850016065,,False,False,False,,True
+full_static_800_s1_v5p25,NORMAL_EXIT,0,True,22.545080200070515,,False,False,False,,True
+full_static_high_target_s-1,NORMAL_EXIT,0,True,25.487262799870223,,False,False,False,,True
+full_static_high_target_s-1_fullseed,NORMAL_EXIT,0,False,1.018043999793008,1.0,True,True,False,,True
+full_static_high_target_s0,NORMAL_EXIT,0,True,20.944979100022465,,False,False,False,,True
+full_static_high_target_s0_fullseed,NORMAL_EXIT,0,False,1.0172482000198215,1.0,True,True,False,,True
+full_static_high_target_s1,NORMAL_EXIT,0,True,20.599098300095648,,False,False,False,,True
+full_static_high_target_s1_fullseed,NORMAL_EXIT,0,True,20.043784499866888,,False,False,False,,True
+full_static_high_target_s1_permuted,NORMAL_EXIT,0,False,1.0180204999633133,1.0,True,True,False,,True
+loop_fixture_i,NORMAL_EXIT,0,False,0.045146199874579906,,True,True,False,,True
+loop_fixture_v,NORMAL_EXIT,0,False,0.04037110018543899,,True,True,False,,True
+loop_row_i,NORMAL_EXIT,0,False,0.48344659991562366,,True,True,False,,True
+loop_row_v,NORMAL_EXIT,0,False,0.4820590000599623,,True,True,False,,True
+loop_tia_i,NORMAL_EXIT,0,False,0.4774176999926567,,True,True,False,,True
+loop_tia_v,NORMAL_EXIT,0,False,0.4531945001799613,,True,True,False,,True
+loop_vcm_i,NORMAL_EXIT,0,False,0.4749052000697702,,True,True,False,,True
+loop_vcm_v,NORMAL_EXIT,0,False,0.4879994001239538,,True,True,False,,True
+loop_vexc_i,NORMAL_EXIT,0,False,0.44898159988224506,,True,True,False,,True
+loop_vexc_v,NORMAL_EXIT,0,False,0.4608907999936491,,True,True,False,,True
+part_1row_1tia_800_gear,NORMAL_EXIT,0,False,34.93980379984714,0.000598851,True,False,True,,True
+part_1row_1tia_800_trap,FORCED_STOP_NOT_NORMAL_EXIT,1,False,60.01875320007093,,True,False,False,Owned child reached bounded case wall limit,True
+part_1row_1tia_800_trap_fixed,FORCED_STOP_NOT_NORMAL_EXIT,1,False,30.36582720000297,0.000143863,True,False,False,Simulation time stopped advancing for 15s,True
+part_1row_4tia_8000_gear_180,FORCED_STOP_NOT_NORMAL_EXIT,1,False,180.3379486000631,0.000285408,True,False,False,Owned child reached bounded case wall limit,True
+part_1row_4tia_800_gear,FORCED_STOP_NOT_NORMAL_EXIT,1,False,60.191528799943626,9.13873e-05,True,False,False,Owned child reached bounded case wall limit,True
+part_1row_4tia_800_gear_180,FORCED_STOP_NOT_NORMAL_EXIT,1,False,180.21416010009125,0.000287162,True,False,False,Owned child reached bounded case wall limit,True
+part_1row_4tia_800_klu_no_nodeset,FORCED_STOP_NOT_NORMAL_EXIT,1,False,30.055050099967048,0.0,True,False,False,Simulation time stopped advancing for 15s,True
+part_1row_4tia_800_trap,FORCED_STOP_NOT_NORMAL_EXIT,1,False,60.02108249999583,,True,False,False,Owned child reached bounded case wall limit,True
+part_1row_4tia_800_trap_fixed,FORCED_STOP_NOT_NORMAL_EXIT,1,False,19.20827509998344,4.02726e-09,True,False,False,Simulation time stopped advancing for 15s,True
+part_1row_4tia_high_target_gear_180,FORCED_STOP_NOT_NORMAL_EXIT,1,False,180.32905560010113,0.000314143,True,False,False,Owned child reached bounded case wall limit,True
+part_4row_1tia_8000_gear_180,FORCED_STOP_NOT_NORMAL_EXIT,1,False,180.3012061000336,0.000291695,True,False,False,Owned child reached bounded case wall limit,True
+part_4row_1tia_800_gear,FORCED_STOP_NOT_NORMAL_EXIT,1,False,60.2144945000764,0.000172565,True,False,False,Owned child reached bounded case wall limit,True
+part_4row_1tia_800_gear_180,FORCED_STOP_NOT_NORMAL_EXIT,1,False,180.22660450008698,0.000375633,True,False,False,Owned child reached bounded case wall limit,True
+part_4row_1tia_800_klu_no_nodeset,FORCED_STOP_NOT_NORMAL_EXIT,1,False,180.20100610004738,,False,False,False,Owned child reached bounded case wall limit,True
+part_4row_1tia_800_trap,FORCED_STOP_NOT_NORMAL_EXIT,1,False,60.019862700020894,,True,False,False,Owned child reached bounded case wall limit,True
+part_4row_1tia_800_trap_fixed,FORCED_STOP_NOT_NORMAL_EXIT,1,False,170.6585591000039,0.000100006,True,False,False,Simulation time stopped advancing for 15s,True
+part_4row_1tia_high_target_gear_180,FORCED_STOP_NOT_NORMAL_EXIT,1,False,180.2770330000203,0.000307363,True,False,False,Owned child reached bounded case wall limit,True
+single_tia_repeat_tight,NORMAL_EXIT,0,False,2.544313699938357,0.00121289,False,False,True,,True
+single_tia_repeat_trap,NORMAL_EXIT,0,False,3.049067599931732,0.00128262,False,False,True,,True
+yport2_fixture_e,NORMAL_EXIT,0,False,0.03866840014234185,,True,True,False,,True
+yport2_fixture_f,NORMAL_EXIT,0,False,0.03926960006356239,,True,True,False,,True
+yport2_row_e,NORMAL_EXIT,0,False,0.12616320000961423,,True,True,False,,True
+yport2_row_f,NORMAL_EXIT,0,False,0.12102249986492097,,True,True,False,,True
+yport2_tia_e,NORMAL_EXIT,0,False,0.13687849999405444,,True,True,False,,True
+yport2_tia_f,NORMAL_EXIT,0,False,0.1336687000002712,,True,True,False,,True
+yport2_vcm_e,NORMAL_EXIT,0,False,0.07652960019186139,,True,True,False,,True
+yport2_vcm_f,NORMAL_EXIT,0,False,0.0772108999080956,,True,True,False,,True
+yport2_vexc_e,NORMAL_EXIT,0,False,0.0791730999480933,,True,True,False,,True
+yport2_vexc_f,NORMAL_EXIT,0,False,0.07573419995605946,,True,True,False,,True
+yport3_tia_e,NORMAL_EXIT,0,False,0.124709099996835,,True,True,False,,True
+yport3_tia_f,NORMAL_EXIT,0,False,0.12260779994539917,,True,True,False,,True
+yport_fixture_e,NORMAL_EXIT,0,False,0.034953400027006865,,True,True,False,,True
+yport_fixture_f,NORMAL_EXIT,0,False,0.03994729998521507,,True,True,False,,True
+yport_row_e,NORMAL_EXIT,0,False,0.6662523001432419,,True,True,False,,True
+yport_row_f,NORMAL_EXIT,0,False,0.6682991001289338,,True,True,False,,True
+yport_tia_e,NORMAL_EXIT,0,False,0.7749656001105905,,True,True,False,,True
+yport_tia_f,NORMAL_EXIT,0,False,0.757281000027433,,True,True,False,,True
+yport_vcm_e,NORMAL_EXIT,0,False,1.0458309999667108,,True,True,False,,True
+yport_vcm_f,NORMAL_EXIT,0,False,0.9950337000191212,,True,True,False,,True
+yport_vexc_e,NORMAL_EXIT,0,False,0.9111425001174212,,True,True,False,,True
+yport_vexc_f,NORMAL_EXIT,0,False,0.8802824001759291,,True,True,False,,True

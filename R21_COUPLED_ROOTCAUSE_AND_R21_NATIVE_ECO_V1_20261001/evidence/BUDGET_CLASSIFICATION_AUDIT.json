@@ -1,0 +1,106 @@
+{
+  "UTC": "2026-10-01T12:31:38.419531+00:00",
+  "originalTaggedUsed": {
+    "P0/AC_DC_PZ": 32,
+    "P0/diagnostics": 7,
+    "P1/static_AC": 24,
+    "P1/transient": 19,
+    "P1/PZ": 4,
+    "P1/full_long": 1,
+    "P2/reset_corners": 60,
+    "P2/protocol_tests": 32,
+    "P2/sources": 4,
+    "P2/library": 0
+  },
+  "strictUsed": {
+    "P0/AC_DC_PZ": 39,
+    "P0/diagnostics": 7,
+    "P1/static_AC": 24,
+    "P1/transient": 20,
+    "P1/PZ": 4,
+    "P1/full_long": 1,
+    "P2/reset_corners": 60,
+    "P2/protocol_tests": 32,
+    "P2/sources": 4,
+    "P2/library": 0
+  },
+  "dualCharges": [
+    {
+      "name": "diag_tia_opseed",
+      "phase": "P0",
+      "originalKind": "diagnostics",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport4_tia_e",
+      "phase": "P0",
+      "originalKind": "diagnostics",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport4_tia_f",
+      "phase": "P0",
+      "originalKind": "diagnostics",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport5_tia_e",
+      "phase": "P0",
+      "originalKind": "diagnostics",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport5_tia_f",
+      "phase": "P0",
+      "originalKind": "diagnostics",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_fixture_y6_e",
+      "phase": "P0",
+      "originalKind": "diagnostics",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_fixture_y6_f",
+      "phase": "P0",
+      "originalKind": "diagnostics",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "full_monolithic_short_final",
+      "phase": "P1",
+      "originalKind": "full_long",
+      "strictCharges": [
+        "full_long",
+        "transient"
+      ]
+    }
+  ],
+  "P0Overrun": 7,
+  "cause": "diagnostic attribute incorrectly treated as disjoint analysis quota",
+  "newScienceStopped": true,
+  "fix": "analysis plus diagnostic preflight before ledger mutation and Popen",
+  "infrastructureRegression": "BUDGET_PREFLIGHT_RED.log then BUDGET_PREFLIGHT_GREEN.log; no executor launched"
+}

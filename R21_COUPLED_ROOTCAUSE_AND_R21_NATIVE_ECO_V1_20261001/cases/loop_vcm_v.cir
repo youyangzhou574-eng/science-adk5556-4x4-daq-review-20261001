@@ -1,0 +1,30 @@
+loop_vcm_v
+.include "../../models/OPAx388.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VTEST minus fb DC 0 AC 1
+ITEST 0 minus DC 0 AC 0
+VCMD cmd 0 2.5
+X1 cmd minus v5 0 drv OPAx388
+RISO drv tap 1k
+RFB tap fb 4.99k
+CHF drv fb 100p
+CL tap 0 1n
+RLOAD tap 0 1meg
+.control
+set wr_singlescale
+set wr_vecnames
+optran 0 0 0 200n 2m 0
+op
+wrdata op.txt v(minus) v(fb) v(drv)
+ac dec 100 1 100meg
+let er=real(v(minus))
+let ei=imag(v(minus))
+let fr=real(v(fb))
+let fi=imag(v(fb))
+let ir=real(-i(VTEST))
+let ii=imag(-i(VTEST))
+wrdata ac.txt er ei fr fi ir ii
+quit
+.endc
+.end

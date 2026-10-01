@@ -1,0 +1,1 @@
+{"case": "full_static_high_target_s1_fullseed", "startedUTC": "2026-10-01T11:41:36.092721+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 71284, "exitCode": 0, "analysisStatus": "ANALYSIS_ERROR", "wallSeconds": 20.043784499866888, "endedUTC": "2026-10-01T11:41:56.136505+00:00"}

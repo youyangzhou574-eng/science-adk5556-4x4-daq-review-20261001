@@ -1,0 +1,560 @@
+[
+  {
+    "case": "full_static_8000_s-1",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_8000_s-1_fullseed",
+    "state": -1,
+    "load": "8000",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015250407,
+    "VEXC_V": 2.249999779126254,
+    "drivers_V": {
+      "v(cmdrv)": 2.52500025215155,
+      "v(exdrv)": 2.249999746045438,
+      "v(drv0)": 2.500001532382929,
+      "v(drv1)": 2.500001532383207,
+      "v(drv2)": 2.50000153273235,
+      "v(drv3)": 2.500001532266827,
+      "v(tdrv0)": 2.502500435197538,
+      "v(tdrv1)": 2.502500436272923,
+      "v(tdrv2)": 2.502500435081433,
+      "v(tdrv3)": 2.50250043510933
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 3.4946034687805896,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain1)": {
+        "peak_magnitude": 3.494603469128751,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain2)": {
+        "peak_magnitude": 3.4946034687807916,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain3)": {
+        "peak_magnitude": 3.4946034687805887,
+        "peak_frequency_Hz": 24.40619068041995
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_8000_s0",
+    "state": 0,
+    "load": "8000",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015366822,
+    "VEXC_V": 2.249999779243054,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222359421,
+      "v(exdrv)": 2.249999775139053,
+      "v(drv0)": 2.125001157049684,
+      "v(drv1)": 2.50000153622361,
+      "v(drv2)": 2.500001536223606,
+      "v(drv3)": 2.50000153666115,
+      "v(tdrv0)": 2.689844016192517,
+      "v(tdrv1)": 2.689844016336837,
+      "v(tdrv2)": 2.689844016192517,
+      "v(tdrv3)": 2.689844016280684
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 3.4946034671531527,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain1)": {
+        "peak_magnitude": 3.4946034671533526,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain2)": {
+        "peak_magnitude": 3.4946034671533535,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain3)": {
+        "peak_magnitude": 3.4946034671531505,
+        "peak_frequency_Hz": 24.40619068041995
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_8000_s1",
+    "state": 1,
+    "load": "8000",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015366822,
+    "VEXC_V": 2.249999779126639,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222359421,
+      "v(exdrv)": 2.249999775139044,
+      "v(drv0)": 2.500001536339981,
+      "v(drv1)": 2.125001156933304,
+      "v(drv2)": 2.500001536223606,
+      "v(drv3)": 2.500001536777531,
+      "v(tdrv0)": 2.689844016192517,
+      "v(tdrv1)": 2.689844016336837,
+      "v(tdrv2)": 2.689844016192517,
+      "v(tdrv3)": 2.689844016280684
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 3.4946034671531527,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain1)": {
+        "peak_magnitude": 3.4946034671533526,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain2)": {
+        "peak_magnitude": 3.4946034671533535,
+        "peak_frequency_Hz": 24.40619068041995
+      },
+      "v(ain3)": {
+        "peak_magnitude": 3.4946034671531505,
+        "peak_frequency_Hz": 24.40619068041995
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_800_s-1",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_800_s-1_fullseed",
+    "state": -1,
+    "load": "800",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015366822,
+    "VEXC_V": 2.249999779242671,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000252151558,
+      "v(exdrv)": 2.249999746161822,
+      "v(drv0)": 2.500002227377637,
+      "v(drv1)": 2.500002227145162,
+      "v(drv2)": 2.500002228774439,
+      "v(drv3)": 2.500002227145162,
+      "v(tdrv0)": 2.502496267417319,
+      "v(tdrv1)": 2.502496275126516,
+      "v(tdrv2)": 2.502496267301213,
+      "v(tdrv3)": 2.502496267445493
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 25.94286993588372,
+        "peak_frequency_Hz": 16.31172909227847
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.942869938468746,
+        "peak_frequency_Hz": 16.31172909227847
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.94286993588522,
+        "peak_frequency_Hz": 16.31172909227847
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.94286993588372,
+        "peak_frequency_Hz": 16.31172909227847
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_800_s-1_klu",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_800_s0",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_800_s0_fullseed",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_800_s0_klu",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_800_s0_klu_fixed",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_800_s0_permuted",
+    "state": 0,
+    "load": "800",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015250407,
+    "VEXC_V": 2.249999779131118,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222243037,
+      "v(exdrv)": 2.249999775022906,
+      "v(drv1)": 2.500002600477872,
+      "v(drv0)": 1.000001355926879,
+      "v(drv2)": 2.500002600245118,
+      "v(drv3)": 2.500002601962559,
+      "v(tdrv0)": 4.375929728161479,
+      "v(tdrv1)": 4.375929728073035,
+      "v(tdrv2)": 4.375929728161479,
+      "v(tdrv3)": 4.375929728133263
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 25.942868917298803,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.942868917300302,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.942868917300313,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.942868917298803,
+        "peak_frequency_Hz": 16.78804018122569
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_800_s1",
+    "state": 1,
+    "load": "800",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015366822,
+    "VEXC_V": 2.249999779247535,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222243046,
+      "v(exdrv)": 2.249999775139053,
+      "v(drv0)": 2.500002600594255,
+      "v(drv1)": 1.000001356159917,
+      "v(drv2)": 2.500002600594255,
+      "v(drv3)": 2.500002602079179,
+      "v(tdrv0)": 4.375929728277862,
+      "v(tdrv1)": 4.375929728422184,
+      "v(tdrv2)": 4.375929728277863,
+      "v(tdrv3)": 4.375929728366031
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 25.942869899443416,
+        "peak_frequency_Hz": 16.31172909227847
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.942869899444915,
+        "peak_frequency_Hz": 16.31172909227847
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.942869899444915,
+        "peak_frequency_Hz": 16.31172909227847
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.942869899443416,
+        "peak_frequency_Hz": 16.31172909227847
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_800_s1_allnodes_seed",
+    "state": 1,
+    "load": "800",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015250407,
+    "VEXC_V": 2.249999779131118,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222243037,
+      "v(exdrv)": 2.249999775022906,
+      "v(drv0)": 2.500002600477872,
+      "v(drv1)": 1.000001355926879,
+      "v(drv2)": 2.500002600245118,
+      "v(drv3)": 2.500002601962559,
+      "v(tdrv0)": 4.375929728161479,
+      "v(tdrv1)": 4.375929728073035,
+      "v(tdrv2)": 4.375929728161479,
+      "v(tdrv3)": 4.375929728133263
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 25.942868917298803,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.942868917300302,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.942868917300313,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.942868917298803,
+        "peak_frequency_Hz": 16.78804018122569
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_800_s1_seed",
+    "state": 1,
+    "load": "800",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015250407,
+    "VEXC_V": 2.249999779131118,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222243037,
+      "v(exdrv)": 2.249999775022906,
+      "v(drv0)": 2.500002600477872,
+      "v(drv1)": 1.000001355926879,
+      "v(drv2)": 2.500002600245118,
+      "v(drv3)": 2.500002601962559,
+      "v(tdrv0)": 4.375929728161479,
+      "v(tdrv1)": 4.375929728073035,
+      "v(tdrv2)": 4.375929728161479,
+      "v(tdrv3)": 4.375929728133263
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 25.942868917298803,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.942868917300302,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.942868917300313,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.942868917298803,
+        "peak_frequency_Hz": 16.78804018122569
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_800_s1_v4p75",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_800_s1_v5p25",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_high_target_s-1",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_high_target_s-1_fullseed",
+    "state": -1,
+    "load": "high_target",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015250407,
+    "VEXC_V": 2.249999779126254,
+    "drivers_V": {
+      "v(cmdrv)": 2.52500025215155,
+      "v(exdrv)": 2.249999746045438,
+      "v(drv0)": 2.500002053396202,
+      "v(drv1)": 2.500002227028778,
+      "v(drv2)": 2.50000222854168,
+      "v(drv3)": 2.500002226912402,
+      "v(tdrv0)": 2.50249730904232,
+      "v(tdrv1)": 2.502496275242898,
+      "v(tdrv2)": 2.502496267417595,
+      "v(tdrv3)": 2.502496267561875
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 20.33073609591338,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.943121044891843,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.943121042308317,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.943121042306817,
+        "peak_frequency_Hz": 16.78804018122569
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_high_target_s0",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_high_target_s0_fullseed",
+    "state": 0,
+    "load": "high_target",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015366822,
+    "VEXC_V": 2.249999779246415,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222010295,
+      "v(exdrv)": 2.24999977513933,
+      "v(drv0)": 1.281251268530941,
+      "v(drv1)": 2.500002516221993,
+      "v(drv2)": 2.500002517851269,
+      "v(drv3)": 2.500002516105616,
+      "v(tdrv0)": 2.689840714038469,
+      "v(tdrv1)": 4.375929819637994,
+      "v(tdrv2)": 4.375929811812692,
+      "v(tdrv3)": 4.375929811956971
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 20.33073609591338,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.943121044891843,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.943121042308317,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.943121042306817,
+        "peak_frequency_Hz": 16.78804018122569
+      }
+    },
+    "RHP_poles_proved_absent": false
+  },
+  {
+    "case": "full_static_high_target_s1",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_high_target_s1_fullseed",
+    "status": "NUMERICAL_NO_VALID_DC_AC"
+  },
+  {
+    "case": "full_static_high_target_s1_permuted",
+    "state": 1,
+    "load": "high_target",
+    "vdd": 5,
+    "status": "FINITE_STATIC_SCREEN_ONLY",
+    "VCM_V": 2.500000015366822,
+    "VEXC_V": 2.249999779246415,
+    "drivers_V": {
+      "v(cmdrv)": 2.525000222010295,
+      "v(exdrv)": 2.24999977513933,
+      "v(drv1)": 1.281251268530941,
+      "v(drv0)": 2.500002516221993,
+      "v(drv2)": 2.500002517851269,
+      "v(drv3)": 2.500002516105616,
+      "v(tdrv0)": 2.689840714038469,
+      "v(tdrv1)": 4.375929819637994,
+      "v(tdrv2)": 4.375929811812692,
+      "v(tdrv3)": 4.375929811956971
+    },
+    "no_rail_at_valid_OP": true,
+    "AC_frequency_range_Hz": [
+      1.0,
+      100000000.0000037
+    ],
+    "AC_points": 641,
+    "AC_peaks": {
+      "v(ain0)": {
+        "peak_magnitude": 20.33073609591338,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain1)": {
+        "peak_magnitude": 25.943121044891843,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain2)": {
+        "peak_magnitude": 25.943121042308317,
+        "peak_frequency_Hz": 16.78804018122569
+      },
+      "v(ain3)": {
+        "peak_magnitude": 25.943121042306817,
+        "peak_frequency_Hz": 16.78804018122569
+      }
+    },
+    "RHP_poles_proved_absent": false
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "project": "SCIENCE_ADK5556_4X4_DAQ_REPLICA",
+  "rulingId": "13501fa6-5288-4f53-9d0b-324f0782e07b",
+  "marker": "CIRCUIT-PRO-R21-BLOCKED-ACCEPT-COUPLED-CLOSURE-20261001-04",
+  "fullTextRead": true,
+  "chars": 8095,
+  "parentUserMessage": "aa526804-90b7-4b32-9ebb-81344794c5a6",
+  "secondaryClarification": "5b013864-5519-4fe1-9cf2-e8b82c9414cf",
+  "inputCommits": [
+    "da6ca87b9f49c5af03a16c24af6186d7c5c2e0d3",
+    "c13555a330f8ad676750b8fec5d5d42bfc0b5edb"
+  ],
+  "resumeAuthorization": "Explicit second-stage user instruction in this local chat",
+  "newSubmissionMade": false
+}

@@ -1,0 +1,12 @@
+{
+  "case": "part_1row_1tia_800_gear",
+  "startedUTC": "2026-10-01T11:38:27.218671+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 12772,
+  "lastProgressTime_s": 0.000598851,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 34.93980379984714,
+  "endedUTC": "2026-10-01T11:39:02.158476+00:00"
+}

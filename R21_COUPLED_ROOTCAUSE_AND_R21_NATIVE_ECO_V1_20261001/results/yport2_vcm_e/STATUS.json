@@ -1,0 +1,10 @@
+{
+  "case": "yport2_vcm_e",
+  "startedUTC": "2026-10-01T11:24:20.810214+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 63872,
+  "exitCode": 0,
+  "wallSeconds": 0.07652960019186139,
+  "endedUTC": "2026-10-01T11:24:20.886751+00:00"
+}

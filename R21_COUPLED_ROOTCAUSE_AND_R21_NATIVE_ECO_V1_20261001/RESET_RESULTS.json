@@ -1,0 +1,12 @@
+{
+  "case_count": 60,
+  "normal_25C_leak_bound_A": 1.7570000000000003e-05,
+  "assert_max_NRST_V": 0.8144625118037552,
+  "conservative_unpaired_low_threshold_V": 0.9195,
+  "conservative_unpaired_assert_margin_V": 0.10503748819624481,
+  "release_min_margin_V": 0.7420430000000002,
+  "max_TPS_sink_required_A": 0.0004899538383838384,
+  "normal_low_high_scope": "SCOPED_25C_ANALYTIC_PASS",
+  "active_gate": "RESET_DIRECT_PATH_HOLD",
+  "reason": "BAT54S frozen datasheet only guarantees reverse current at25C; elevated temperature curve is typical. +/-fault clamp voltages, backfeed, transients and 60s thermal not validated. Do not infer whole-domain or bench release."
+}

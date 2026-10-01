@@ -1,0 +1,1 @@
+{"case": "single_tia_repeat_trap", "startedUTC": "2026-10-01T11:53:55.297376+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 29776, "lastProgressTime_s": 0.00128262, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 3.049067599931732, "endedUTC": "2026-10-01T11:53:58.346446+00:00"}

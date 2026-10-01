@@ -1,0 +1,10 @@
+{
+  "case": "full_static_800_s-1_klu",
+  "startedUTC": "2026-10-01T11:35:38.621905+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 85220,
+  "exitCode": 0,
+  "wallSeconds": 0.07121250010095537,
+  "endedUTC": "2026-10-01T11:35:38.693124+00:00"
+}

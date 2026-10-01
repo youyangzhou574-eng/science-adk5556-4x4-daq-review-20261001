@@ -1,0 +1,30 @@
+loop_row_i
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VTEST minus fb DC 0 AC 0
+ITEST 0 minus DC 0 AC 1
+VCMD cmd 0 2.25
+X1 cmd minus v5 0 drv OPA4388
+RISO drv row 1k
+RFB row fb 4.99k
+CHF drv fb 100p
+RLOAD row vcm 200
+CL row 0 1n
+.control
+set wr_singlescale
+set wr_vecnames
+optran 0 0 0 200n 2m 0
+op
+wrdata op.txt v(minus) v(fb) v(drv)
+ac dec 100 1 100meg
+let er=real(v(minus))
+let ei=imag(v(minus))
+let fr=real(v(fb))
+let fi=imag(v(fb))
+let ir=real(-i(VTEST))
+let ii=imag(-i(VTEST))
+wrdata ac.txt er ei fr fi ir ii
+quit
+.endc
+.end

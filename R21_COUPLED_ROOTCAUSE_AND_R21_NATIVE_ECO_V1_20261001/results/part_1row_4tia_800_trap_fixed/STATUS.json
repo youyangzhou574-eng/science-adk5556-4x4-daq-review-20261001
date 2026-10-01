@@ -1,0 +1,13 @@
+{
+  "case": "part_1row_4tia_800_trap_fixed",
+  "startedUTC": "2026-10-01T11:40:33.691924+00:00",
+  "limitSeconds": 180.0,
+  "status": "FORCED_STOP_NOT_NORMAL_EXIT",
+  "ownedPID": 85564,
+  "lastProgressTime_s": 4.02726e-09,
+  "reason": "Simulation time stopped advancing for 15s",
+  "exitCode": 1,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 19.20827509998344,
+  "endedUTC": "2026-10-01T11:40:52.900200+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "case": "yport2_fixture_f",
+  "startedUTC": "2026-10-01T11:24:20.679022+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 40132,
+  "exitCode": 0,
+  "wallSeconds": 0.03926960006356239,
+  "endedUTC": "2026-10-01T11:24:20.718296+00:00"
+}

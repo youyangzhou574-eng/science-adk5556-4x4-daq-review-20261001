@@ -1,0 +1,68 @@
+Title: full_static_800_s1_seed
+Date: Thu Oct  1 19:38:27  2026
+Command: ngspice-47, Build Aug 11 2026   13:55:25
+Plotname: Operating Point
+Flags: real
+No. Variables: 29
+No. Points: 1
+Variables:
+	0	v(vcm)	voltage
+	1	v(ain0)	voltage
+	2	v(ain1)	voltage
+	3	v(ain2)	voltage
+	4	v(ain3)	voltage
+	5	v(cmdrv)	voltage
+	6	v(col0)	voltage
+	7	v(col1)	voltage
+	8	v(col2)	voltage
+	9	v(col3)	voltage
+	10	v(drv0)	voltage
+	11	v(drv1)	voltage
+	12	v(drv2)	voltage
+	13	v(drv3)	voltage
+	14	v(exdrv)	voltage
+	15	v(row0)	voltage
+	16	v(row1)	voltage
+	17	v(row2)	voltage
+	18	v(row3)	voltage
+	19	v(tap0)	voltage
+	20	v(tap1)	voltage
+	21	v(tap2)	voltage
+	22	v(tap3)	voltage
+	23	v(tdrv0)	voltage
+	24	v(tdrv1)	voltage
+	25	v(tdrv2)	voltage
+	26	v(tdrv3)	voltage
+	27	v(vexc)	voltage
+	28	v(vexcmd)	voltage
+Values:
+ 0	2.500000015250407e+00
+	4.058965783109764e+00
+	4.058965783036155e+00
+	4.058965783109764e+00
+	4.058965783086281e+00
+	2.525000222243037e+00
+	2.500001257063500e+00
+	2.500001257063500e+00
+	2.500001257063500e+00
+	2.500001257063500e+00
+	2.500002600477872e+00
+	1.000001355926879e+00
+	2.500002600245118e+00
+	2.500002601962559e+00
+	2.249999775022906e+00
+	2.500001486105029e+00
+	2.250001278896562e+00
+	2.500001486076239e+00
+	2.500001486352098e+00
+	4.059371679688075e+00
+	4.059371679614458e+00
+	4.059371679688075e+00
+	4.059371679664589e+00
+	4.375929728161479e+00
+	4.375929728073035e+00
+	4.375929728161479e+00
+	4.375929728133263e+00
+	2.249999779131118e+00
+	2.249999753991658e+00
+

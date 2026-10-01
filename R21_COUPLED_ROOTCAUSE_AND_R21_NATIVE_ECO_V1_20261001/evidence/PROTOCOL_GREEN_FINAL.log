@@ -1,0 +1,37 @@
+test_adjacent_difference (test_protocol.Tests.test_adjacent_difference) ... ok
+test_bad_label (test_protocol.Tests.test_bad_label) ... ok
+test_data_expiry_despite_heartbeats (test_protocol.Tests.test_data_expiry_despite_heartbeats) ... ok
+test_duplicate (test_protocol.Tests.test_duplicate) ... ok
+test_duplicate_cannot_seed_recovery (test_protocol.Tests.test_duplicate_cannot_seed_recovery) ... ok
+test_event_counts_and_edges (test_protocol.Tests.test_event_counts_and_edges) ... ok
+test_expired_frames_cannot_replay (test_protocol.Tests.test_expired_frames_cannot_replay) ... ok
+test_gap_10_seconds (test_protocol.Tests.test_gap_10_seconds) ... ok
+test_independent_wire_vectors (test_protocol.Tests.test_independent_wire_vectors) ... ok
+test_jump (test_protocol.Tests.test_jump) ... ok
+test_late_receive (test_protocol.Tests.test_late_receive) ... ok
+test_missing_sample (test_protocol.Tests.test_missing_sample) ... ok
+test_new_epoch_keeps_receiver_clock (test_protocol.Tests.test_new_epoch_keeps_receiver_clock) ... ok
+test_no_new_data (test_protocol.Tests.test_no_new_data) ... ok
+test_nonfinite_time_rejected (test_protocol.Tests.test_nonfinite_time_rejected) ... ok
+test_old_capture (test_protocol.Tests.test_old_capture) ... ok
+test_old_epoch (test_protocol.Tests.test_old_epoch) ... ok
+test_receiver_clock_cannot_reverse (test_protocol.Tests.test_receiver_clock_cannot_reverse) ... ok
+test_recovery_requires_two (test_protocol.Tests.test_recovery_requires_two) ... ok
+test_two_consecutive (test_protocol.Tests.test_two_consecutive) ... ok
+test_wrap (test_protocol.Tests.test_wrap) ... ok
+test_01_normal_states_and_two_frames (test_progress.ProgressTests.test_01_normal_states_and_two_frames) ... ok
+test_02_frozen_progress_despite_heartbeats (test_progress.ProgressTests.test_02_frozen_progress_despite_heartbeats) ... ok
+test_03_heartbeat_missing_latency (test_progress.ProgressTests.test_03_heartbeat_missing_latency) ... ok
+test_04_fault_in_each_state_with_queue_and_tick_jitter (test_progress.ProgressTests.test_04_fault_in_each_state_with_queue_and_tick_jitter) ... ok
+test_05_timestamp_cannot_fake_state_advancement (test_progress.ProgressTests.test_05_timestamp_cannot_fake_state_advancement) ... ok
+test_06_skip_and_bad_count_rejected (test_progress.ProgressTests.test_06_skip_and_bad_count_rejected) ... ok
+test_07_wrap_and_epoch_keep_receive_clock (test_progress.ProgressTests.test_07_wrap_and_epoch_keep_receive_clock) ... ok
+test_08_timeout_replay_and_two_new_frames_recover (test_progress.ProgressTests.test_08_timeout_replay_and_two_new_frames_recover) ... ok
+test_09_pgood_and_bad_sample_immediate (test_progress.ProgressTests.test_09_pgood_and_bad_sample_immediate) ... ok
+test_10_complete_requires_observed_full_progress (test_progress.ProgressTests.test_10_complete_requires_observed_full_progress) ... ok
+test_11_invalid_future_nonfinite_progress_and_bounds (test_progress.ProgressTests.test_11_invalid_future_nonfinite_progress_and_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 0.037s
+
+OK

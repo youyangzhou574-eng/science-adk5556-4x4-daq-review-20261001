@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_07_wrap_and_epoch_keep_receive_clock (test_progress.ProgressTests.test_07_wrap_and_epoch_keep_receive_clock)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 55, in test_07_wrap_and_epoch_keep_receive_clock
+    self.assertFalse(v.data_valid)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+----------------------------------------------------------------------
+Ran 1 test in 0.003s
+
+FAILED (failures=1)

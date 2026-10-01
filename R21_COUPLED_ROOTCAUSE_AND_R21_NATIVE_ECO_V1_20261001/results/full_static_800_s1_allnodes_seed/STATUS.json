@@ -1,0 +1,12 @@
+{
+  "case": "full_static_800_s1_allnodes_seed",
+  "startedUTC": "2026-10-01T11:40:33.637312+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 17872,
+  "lastProgressTime_s": 1.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 1.0171129999216646,
+  "endedUTC": "2026-10-01T11:40:34.654426+00:00"
+}

@@ -1,0 +1,12 @@
+doAnalyses: out of memory
+
+op simulation(s) aborted
+Error: no such vector vcm
+  in term: v(vcm)
+
+doAnalyses: out of memory
+
+ac simulation(s) aborted
+Error: no such vector vcm
+  in term: v(vcm)
+

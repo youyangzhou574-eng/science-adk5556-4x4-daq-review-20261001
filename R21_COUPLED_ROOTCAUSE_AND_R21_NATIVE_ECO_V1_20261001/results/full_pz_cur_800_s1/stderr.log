@@ -1,0 +1,62 @@
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check node xex.n2991579
+
+Error: Transient op failed, timestep too small
+
+
+Error: The operating point could not be simulated successfully.
+    Any of the following steps may fail.!
+
+doAnalyses: OP:  Timestep too small; trouble with node "e.xr0.x_u40.e3#branch"
+
+
+op simulation(s) aborted
+Error: no such vector v(vcm)
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check nodes xt2.n3294626 and xr2.cl_clamp
+
+Warning: singular matrix:  check node xex.n2991579
+
+Error: Transient op failed, timestep too small
+
+
+Error: The operating point could not be simulated successfully.
+    Any of the following steps may fail.!
+
+doAnalyses: PZ:  Timestep too small; trouble with node "e.xr0.x_u40.e3#branch"
+
+
+pz simulation(s) aborted
+Warning from checkvalid: vector ain0 is not available or has zero length.
+Error during 'write': no writable vector found.
+Warning from checkvalid: vector ain0 is not available or has zero length.

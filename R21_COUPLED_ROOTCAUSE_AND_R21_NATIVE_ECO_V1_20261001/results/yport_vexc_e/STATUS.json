@@ -1,0 +1,10 @@
+{
+  "case": "yport_vexc_e",
+  "startedUTC": "2026-10-01T11:22:44.265793+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 79340,
+  "exitCode": 0,
+  "wallSeconds": 0.9111425001174212,
+  "endedUTC": "2026-10-01T11:22:45.176937+00:00"
+}

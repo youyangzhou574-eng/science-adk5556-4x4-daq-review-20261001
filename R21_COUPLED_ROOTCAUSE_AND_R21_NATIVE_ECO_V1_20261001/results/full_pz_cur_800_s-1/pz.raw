@@ -1,0 +1,68 @@
+Title: full_pz_cur_800_s-1
+Date: Thu Oct  1 19:46:56  2026
+Command: ngspice-47, Build Aug 11 2026   13:55:25
+Plotname: Operating Point
+Flags: real
+No. Variables: 29
+No. Points: 1
+Variables:
+	0	v(vcm)	voltage
+	1	v(ain0)	voltage
+	2	v(ain1)	voltage
+	3	v(ain2)	voltage
+	4	v(ain3)	voltage
+	5	v(cmdrv)	voltage
+	6	v(col0)	voltage
+	7	v(col1)	voltage
+	8	v(col2)	voltage
+	9	v(col3)	voltage
+	10	v(drv0)	voltage
+	11	v(drv1)	voltage
+	12	v(drv2)	voltage
+	13	v(drv3)	voltage
+	14	v(exdrv)	voltage
+	15	v(row0)	voltage
+	16	v(row1)	voltage
+	17	v(row2)	voltage
+	18	v(row3)	voltage
+	19	v(tap0)	voltage
+	20	v(tap1)	voltage
+	21	v(tap2)	voltage
+	22	v(tap3)	voltage
+	23	v(tdrv0)	voltage
+	24	v(tdrv1)	voltage
+	25	v(tdrv2)	voltage
+	26	v(tdrv3)	voltage
+	27	v(vexc)	voltage
+	28	v(vexcmd)	voltage
+Values:
+ 0	2.500000015366822e+00
+	2.499747348626023e+00
+	2.499747355083484e+00
+	2.499747348529392e+00
+	2.499747348649472e+00
+	2.525000252151558e+00
+	2.500001331788924e+00
+	2.500001332036307e+00
+	2.500001331788924e+00
+	2.500001331788924e+00
+	2.500002227377637e+00
+	2.500002227145162e+00
+	2.500002228774439e+00
+	2.500002227145162e+00
+	2.249999746161822e+00
+	2.500001486234996e+00
+	2.500001486206207e+00
+	2.500001486468455e+00
+	2.500001486206834e+00
+	2.499997323360885e+00
+	2.499997329818992e+00
+	2.499997323264244e+00
+	2.499997323384337e+00
+	2.502496267417319e+00
+	2.502496275126516e+00
+	2.502496267301213e+00
+	2.502496267445493e+00
+	2.249999779242671e+00
+	2.249999754096438e+00
+

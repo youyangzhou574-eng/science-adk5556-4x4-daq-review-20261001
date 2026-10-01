@@ -1,0 +1,25 @@
+Known one-pole Norton negative feedback fixture
+VTEST minus fb DC 0 AC 1
+ITEST 0 minus DC 0 AC 0
+RIN minus 0 100k
+ROUT fb 0 1k
+EGAIN z 0 minus 0 100
+RP z pole 1k
+CP pole 0 159.1549431n
+GOUT fb 0 pole 0 1m
+.control
+set wr_singlescale
+set wr_vecnames
+op
+wrdata op.txt v(minus) v(fb)
+ac dec 100 1 100meg
+let er=real(v(minus))
+let ei=imag(v(minus))
+let fr=real(v(fb))
+let fi=imag(v(fb))
+let ir=real(-i(VTEST))
+let ii=imag(-i(VTEST))
+wrdata ac.txt er ei fr fi ir ii
+quit
+.endc
+.end

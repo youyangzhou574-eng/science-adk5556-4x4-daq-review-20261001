@@ -1,0 +1,412 @@
+Warning : Nodeset on non-existent node - v(v5, ignored
+   Please check line .nodeset v(v(v5))=5
+
+Warning : Nodeset on non-existent node - v(ain, ignored
+   Please check line .nodeset v(v(ain))=4.059004743625663
+
+Warning : Nodeset on non-existent node - v(col, ignored
+   Please check line .nodeset v(v(col))=2.500001381146061
+
+Warning : Nodeset on non-existent node - v(drv, ignored
+   Please check line .nodeset v(v(drv))=4.376086446557141
+
+Warning : Nodeset on non-existent node - v(fb, ignored
+   Please check line .nodeset v(v(fb))=2.500084466623637
+
+Warning : Nodeset on non-existent node - v(minus, ignored
+   Please check line .nodeset v(v(minus))=2.500084466623637
+
+Warning : Nodeset on non-existent node - v(row, ignored
+   Please check line .nodeset v(v(row))=2.4375
+
+Warning : Nodeset on non-existent node - v(tap, ignored
+   Please check line .nodeset v(v(tap))=4.059410644017099
+
+Warning : Nodeset on non-existent node - v(vcm, ignored
+   Please check line .nodeset v(v(vcm))=2.5
+
+Warning : Nodeset on non-existent node - v(x1.cl_clamp, ignored
+   Please check line .nodeset v(v(x1.cl_clamp))=4.376085821096186
+
+Warning : Nodeset on non-existent node - v(x1.clamp, ignored
+   Please check line .nodeset v(v(x1.clamp))=4.377053998929863
+
+Warning : Nodeset on non-existent node - v(x1.claw_clamp, ignored
+   Please check line .nodeset v(v(x1.claw_clamp))=4.376085821096185
+
+Warning : Nodeset on non-existent node - v(x1.esdn, ignored
+   Please check line .nodeset v(v(x1.esdn))=2.500093531003807
+
+Warning : Nodeset on non-existent node - v(x1.esdp, ignored
+   Please check line .nodeset v(v(x1.esdp))=2.499998527989659
+
+Warning : Nodeset on non-existent node - v(x1.mid, ignored
+   Please check line .nodeset v(v(x1.mid))=0.004994998334161251
+
+Warning : Nodeset on non-existent node - v(x1.n2991553, ignored
+   Please check line .nodeset v(v(x1.n2991553))=0.004995230223560632
+
+Warning : Nodeset on non-existent node - v(x1.n2991555, ignored
+   Please check line .nodeset v(v(x1.n2991555))=2.499993857989659
+
+Warning : Nodeset on non-existent node - v(x1.n2991563, ignored
+   Please check line .nodeset v(v(x1.n2991563))=2.499994089689137
+
+Warning : Nodeset on non-existent node - v(x1.n2991573, ignored
+   Please check line .nodeset v(v(x1.n2991573))=2.499998527989659
+
+Warning : Nodeset on non-existent node - v(x1.n2991579, ignored
+   Please check line .nodeset v(v(x1.n2991579))=0.00499495477634998
+
+Warning : Nodeset on non-existent node - v(x1.n2991581, ignored
+   Please check line .nodeset v(v(x1.n2991581))=0.00500128911542827
+
+Warning : Nodeset on non-existent node - v(x1.n2991583, ignored
+   Please check line .nodeset v(v(x1.n2991583))=2.499994089689137
+
+Warning : Nodeset on non-existent node - v(x1.n2991587, ignored
+   Please check line .nodeset v(v(x1.n2991587))=2.500000424028216
+
+Warning : Nodeset on non-existent node - v(x1.n2991619, ignored
+   Please check line .nodeset v(v(x1.n2991619))=2.500093531003807
+
+Warning : Nodeset on non-existent node - v(x1.n2991623, ignored
+   Please check line .nodeset v(v(x1.n2991623))=5.099995014691678
+
+Warning : Nodeset on non-existent node - v(x1.n2991635, ignored
+   Please check line .nodeset v(v(x1.n2991635))=-0.09999999492523752
+
+Warning : Nodeset on non-existent node - v(x1.n2991643, ignored
+   Please check line .nodeset v(v(x1.n2991643))=2.500000447060052
+
+Warning : Nodeset on non-existent node - v(x1.n2991657, ignored
+   Please check line .nodeset v(v(x1.n2991657))=2.500000447083084
+
+Warning : Nodeset on non-existent node - v(x1.n2991667, ignored
+   Please check line .nodeset v(v(x1.n2991667))=-0.0043133937381441
+
+Warning : Nodeset on non-existent node - v(x1.n2991729, ignored
+   Please check line .nodeset v(v(x1.n2991729))=0.0049949983372881
+
+Warning : Nodeset on non-existent node - v(x1.n2991741, ignored
+   Please check line .nodeset v(v(x1.n2991741))=0.004994998337291227
+
+Warning : Nodeset on non-existent node - v(x1.n2991763, ignored
+   Please check line .nodeset v(v(x1.n2991763))=0.004994999222453739
+
+Warning : Nodeset on non-existent node - v(x1.n2991765, ignored
+   Please check line .nodeset v(v(x1.n2991765))=0.004994999223342031
+
+Warning : Nodeset on non-existent node - v(x1.n2991807, ignored
+   Please check line .nodeset v(v(x1.n2991807))=60.00499499833416
+
+Warning : Nodeset on non-existent node - v(x1.n2991809, ignored
+   Please check line .nodeset v(v(x1.n2991809))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991811, ignored
+   Please check line .nodeset v(v(x1.n2991811))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991831, ignored
+   Please check line .nodeset v(v(x1.n2991831))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991837, ignored
+   Please check line .nodeset v(v(x1.n2991837))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991849, ignored
+   Please check line .nodeset v(v(x1.n2991849))=-59.99500500166584
+
+Warning : Nodeset on non-existent node - v(x1.n2991901, ignored
+   Please check line .nodeset v(v(x1.n2991901))=150.0049949983342
+
+Warning : Nodeset on non-existent node - v(x1.n2991905, ignored
+   Please check line .nodeset v(v(x1.n2991905))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991907, ignored
+   Please check line .nodeset v(v(x1.n2991907))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991925, ignored
+   Please check line .nodeset v(v(x1.n2991925))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991931, ignored
+   Please check line .nodeset v(v(x1.n2991931))=0.004994998334161773
+
+Warning : Nodeset on non-existent node - v(x1.n2991943, ignored
+   Please check line .nodeset v(v(x1.n2991943))=-149.9950050016658
+
+Warning : Nodeset on non-existent node - v(x1.n2991969, ignored
+   Please check line .nodeset v(v(x1.n2991969))=4.377054003926324
+
+Warning : Nodeset on non-existent node - v(x1.n2991997, ignored
+   Please check line .nodeset v(v(x1.n2991997))=4.982531064788401
+
+Warning : Nodeset on non-existent node - v(x1.n2992001, ignored
+   Please check line .nodeset v(v(x1.n2992001))=0.01950229302938743
+
+Warning : Nodeset on non-existent node - v(x1.n2992029, ignored
+   Please check line .nodeset v(v(x1.n2992029))=0.0195022930294669
+
+Warning : Nodeset on non-existent node - v(x1.n2992033, ignored
+   Please check line .nodeset v(v(x1.n2992033))=4.982531064797515
+
+Warning : Nodeset on non-existent node - v(x1.n2992093, ignored
+   Please check line .nodeset v(v(x1.n2992093))=0.004994943223190333
+
+Warning : Nodeset on non-existent node - v(x1.n2992099, ignored
+   Please check line .nodeset v(v(x1.n2992099))=0.00499494322513228
+
+Warning : Nodeset on non-existent node - v(x1.n2992105, ignored
+   Please check line .nodeset v(v(x1.n2992105))=0.004994998334161251
+
+Warning : Nodeset on non-existent node - v(x1.n2992151, ignored
+   Please check line .nodeset v(v(x1.n2992151))=-0.5847589000386864
+
+Warning : Nodeset on non-existent node - v(x1.n2992163, ignored
+   Please check line .nodeset v(v(x1.n2992163))=4.376086446557141
+
+Warning : Nodeset on non-existent node - v(x1.n2992235, ignored
+   Please check line .nodeset v(v(x1.n2992235))=4.376086446557141
+
+Warning : Nodeset on non-existent node - v(x1.n2992267, ignored
+   Please check line .nodeset v(v(x1.n2992267))=-50.62391498493795
+
+Warning : Nodeset on non-existent node - v(x1.n2992287, ignored
+   Please check line .nodeset v(v(x1.n2992287))=59.37608490484205
+
+Warning : Nodeset on non-existent node - v(x1.n2992295, ignored
+   Please check line .nodeset v(v(x1.n2992295))=-50.62391504004892
+
+Warning : Nodeset on non-existent node - v(x1.n2992299, ignored
+   Please check line .nodeset v(v(x1.n2992299))=-50.62391498493795
+
+Warning : Nodeset on non-existent node - v(x1.n2992323, ignored
+   Please check line .nodeset v(v(x1.n2992323))=59.37608490484205
+
+Warning : Nodeset on non-existent node - v(x1.n2992331, ignored
+   Please check line .nodeset v(v(x1.n2992331))=59.37608495995108
+
+Warning : Nodeset on non-existent node - v(x1.n2992375, ignored
+   Please check line .nodeset v(v(x1.n2992375))=0.004994998334161251
+
+Warning : Nodeset on non-existent node - v(x1.n2992397, ignored
+   Please check line .nodeset v(v(x1.n2992397))=4.999995009697261
+
+Warning : Nodeset on non-existent node - v(x1.n2992413, ignored
+   Please check line .nodeset v(v(x1.n2992413))=5.07975767528156e-09
+
+Warning : Nodeset on non-existent node - v(x1.n3201092, ignored
+   Please check line .nodeset v(v(x1.n3201092))=-0.7046169505448944
+
+Warning : Nodeset on non-existent node - v(x1.n3294524, ignored
+   Please check line .nodeset v(v(x1.n3294524))=4.376084935045381
+
+Warning : Nodeset on non-existent node - v(x1.n3294618, ignored
+   Please check line .nodeset v(v(x1.n3294618))=4.376085821096186
+
+Warning : Nodeset on non-existent node - v(x1.n3294626, ignored
+   Please check line .nodeset v(v(x1.n3294626))=-0.1434834960382432
+
+Warning : Nodeset on non-existent node - v(x1.n3294630, ignored
+   Please check line .nodeset v(v(x1.n3294630))=-0.3332715239582923
+
+Warning : Nodeset on non-existent node - v(x1.n3294682, ignored
+   Please check line .nodeset v(v(x1.n3294682))=37.76630770726091
+
+Warning : Nodeset on non-existent node - v(x1.n3294772, ignored
+   Please check line .nodeset v(v(x1.n3294772))=0.005082797507494526
+
+Warning : Nodeset on non-existent node - v(x1.n3294776, ignored
+   Please check line .nodeset v(v(x1.n3294776))=0.004995247795545513
+
+Warning : Nodeset on non-existent node - v(x1.n3827259, ignored
+   Please check line .nodeset v(v(x1.n3827259))=53.66396463331403
+
+Warning : Nodeset on non-existent node - v(x1.n3828449, ignored
+   Please check line .nodeset v(v(x1.n3828449))=0.03520557491141744
+
+Warning : Nodeset on non-existent node - v(x1.n3850714, ignored
+   Please check line .nodeset v(v(x1.n3850714))=0.007069921320270135
+
+Warning : Nodeset on non-existent node - v(x1.n3850724, ignored
+   Please check line .nodeset v(v(x1.n3850724))=0.005001286886883024
+
+Warning : Nodeset on non-existent node - v(x1.n4031911, ignored
+   Please check line .nodeset v(v(x1.n4031911))=4.37705399630438
+
+Warning : Nodeset on non-existent node - v(x1.n4243633, ignored
+   Please check line .nodeset v(v(x1.n4243633))=0.002369630058891038
+
+Warning : Nodeset on non-existent node - v(x1.n4736080, ignored
+   Please check line .nodeset v(v(x1.n4736080))=8.141020300022138
+
+Warning : Nodeset on non-existent node - v(x1.n4745674, ignored
+   Please check line .nodeset v(v(x1.n4745674))=46.20161101808407
+
+Warning : Nodeset on non-existent node - v(x1.n4747399, ignored
+   Please check line .nodeset v(v(x1.n4747399))=46.20164841622896
+
+Warning : Nodeset on non-existent node - v(x1.n4749239, ignored
+   Please check line .nodeset v(v(x1.n4749239))=53.30729594660672
+
+Warning : Nodeset on non-existent node - v(x1.n4796554, ignored
+   Please check line .nodeset v(v(x1.n4796554))=53.30729642688805
+
+Warning : Nodeset on non-existent node - v(x1.n4796572, ignored
+   Please check line .nodeset v(v(x1.n4796572))=53.67711305307113
+
+Warning : Nodeset on non-existent node - v(x1.n4797748, ignored
+   Please check line .nodeset v(v(x1.n4797748))=53.67317073879012
+
+Warning : Nodeset on non-existent node - v(x1.n4797760, ignored
+   Please check line .nodeset v(v(x1.n4797760))=14.23674955283659
+
+Warning : Nodeset on non-existent node - v(x1.n4798545, ignored
+   Please check line .nodeset v(v(x1.n4798545))=53.65871057184668
+
+Warning : Nodeset on non-existent node - v(x1.n4800105, ignored
+   Please check line .nodeset v(v(x1.n4800105))=53.66774095538619
+
+Warning : Nodeset on non-existent node - v(x1.n4809008, ignored
+   Please check line .nodeset v(v(x1.n4809008))=0.005082775658812766
+
+Warning : Nodeset on non-existent node - v(x1.n4817896, ignored
+   Please check line .nodeset v(v(x1.n4817896))=0.007070220711653086
+
+Warning : Nodeset on non-existent node - v(x1.n47456861, ignored
+   Please check line .nodeset v(v(x1.n47456861))=53.67909036905313
+
+Warning : Nodeset on non-existent node - v(x1.n47492651, ignored
+   Please check line .nodeset v(v(x1.n47492651))=53.68127739557396
+
+Warning : Nodeset on non-existent node - v(x1.n47965841, ignored
+   Please check line .nodeset v(v(x1.n47965841))=53.68191586639818
+
+Warning : Nodeset on non-existent node - v(x1.n48001371, ignored
+   Please check line .nodeset v(v(x1.n48001371))=53.67677133892571
+
+Warning : Nodeset on non-existent node - v(x1.sw_ol_opa4388, ignored
+   Please check line .nodeset v(v(x1.sw_ol_opa4388))=0.004994998334161251
+
+Warning : Nodeset on non-existent node - v(x1.v11, ignored
+   Please check line .nodeset v(v(x1.v11))=0.004994943223190329
+
+Warning : Nodeset on non-existent node - v(x1.v12, ignored
+   Please check line .nodeset v(v(x1.v12))=0.004994943225132283
+
+Warning : Nodeset on non-existent node - v(x1.vcc_b, ignored
+   Please check line .nodeset v(v(x1.vcc_b))=4.999995014691678
+
+Warning : Nodeset on non-existent node - v(x1.vcc_clp, ignored
+   Please check line .nodeset v(v(x1.vcc_clp))=4.982531059819979
+
+Warning : Nodeset on non-existent node - v(x1.vclp, ignored
+   Please check line .nodeset v(v(x1.vclp))=4.376084959951077
+
+Warning : Nodeset on non-existent node - v(x1.vee_b, ignored
+   Please check line .nodeset v(v(x1.vee_b))=5.074762490972225e-09
+
+Warning : Nodeset on non-existent node - v(x1.vee_clp, ignored
+   Please check line .nodeset v(v(x1.vee_clp))=0.01950229301495961
+
+Warning : Nodeset on non-existent node - v(x1.vimon, ignored
+   Please check line .nodeset v(v(x1.vimon))=0.3215668698857863
+
+Warning : Nodeset on non-existent node - v(x1.vout_s, ignored
+   Please check line .nodeset v(v(x1.vout_s))=4.375976764202269
+
+Warning : Nodeset on non-existent node - v(x1.vsense, ignored
+   Please check line .nodeset v(v(x1.vsense))=4.37705400392632
+
+Warning : Nodeset on non-existent node - v(x1.x_u4.e1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u4.e1_int1))=-4.669999999999999e-06
+
+Warning : Nodeset on non-existent node - v(x1.x_u6.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u6.g1_int1))=2.495005425694055
+
+Warning : Nodeset on non-existent node - v(x1.x_u10.gvo+_int1, ignored
+   Please check line .nodeset v(v(x1.x_u10.gvo+_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u10.gvo-_int1, ignored
+   Please check line .nodeset v(v(x1.x_u10.gvo-_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u11.gvo+_int1, ignored
+   Please check line .nodeset v(v(x1.x_u11.gvo+_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u11.gvo-_int1, ignored
+   Please check line .nodeset v(v(x1.x_u11.gvo-_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u12.gvo+_int1, ignored
+   Please check line .nodeset v(v(x1.x_u12.gvo+_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u12.gvo-_int1, ignored
+   Please check line .nodeset v(v(x1.x_u12.gvo-_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u16.gsw+_int1, ignored
+   Please check line .nodeset v(v(x1.x_u16.gsw+_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u18.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u18.g1_int1))=1.747306418999948e-05
+
+Warning : Nodeset on non-existent node - v(x1.x_u18.g1_int2, ignored
+   Please check line .nodeset v(v(x1.x_u18.g1_int2))=0.3165718715516251
+
+Warning : Nodeset on non-existent node - v(x1.x_u19.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u19.g1_int1))=1.95022084814383e-05
+
+Warning : Nodeset on non-existent node - v(x1.x_u19.g1_int2, ignored
+   Please check line .nodeset v(v(x1.x_u19.g1_int2))=-0.3165718715516251
+
+Warning : Nodeset on non-existent node - v(x1.x_u22.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u22.g1_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u23.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u23.g1_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u26.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u26.g1_int1))=0.0003165718715516251
+
+Warning : Nodeset on non-existent node - v(x1.x_u27.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u27.g1_int1))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u30.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u30.g1_int1))=-9.308392072329003e-09
+
+Warning : Nodeset on non-existent node - v(x1.x_u31.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u31.g1_int1))=-0.002338175004642381
+
+Warning : Nodeset on non-existent node - v(x1.x_u32.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u32.g1_int1))=37.76322072157022
+
+Warning : Nodeset on non-existent node - v(x1.x_u35.g1_int1, ignored
+   Please check line .nodeset v(v(x1.x_u35.g1_int1))=-8.860508039082449e-10
+
+Warning : Nodeset on non-existent node - v(x1.x_u38.3, ignored
+   Please check line .nodeset v(v(x1.x_u38.3))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u38.5, ignored
+   Please check line .nodeset v(v(x1.x_u38.5))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u39.3, ignored
+   Please check line .nodeset v(v(x1.x_u39.3))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u39.5, ignored
+   Please check line .nodeset v(v(x1.x_u39.5))=0
+
+Warning : Nodeset on non-existent node - v(x1.x_u40.5, ignored
+   Please check line .nodeset v(v(x1.x_u40.5))=0
+
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Note: Transient op finished successfully

@@ -1,0 +1,88 @@
+test_01_normal_states_and_two_frames (test_progress.ProgressTests.test_01_normal_states_and_two_frames) ... ok
+test_02_frozen_progress_despite_heartbeats (test_progress.ProgressTests.test_02_frozen_progress_despite_heartbeats) ... FAIL
+test_03_heartbeat_missing_latency (test_progress.ProgressTests.test_03_heartbeat_missing_latency) ... FAIL
+test_04_fault_in_each_state_with_queue_and_tick_jitter (test_progress.ProgressTests.test_04_fault_in_each_state_with_queue_and_tick_jitter) ... ok
+test_05_timestamp_cannot_fake_state_advancement (test_progress.ProgressTests.test_05_timestamp_cannot_fake_state_advancement) ... FAIL
+test_06_skip_and_bad_count_rejected (test_progress.ProgressTests.test_06_skip_and_bad_count_rejected) ... FAIL
+test_07_wrap_and_epoch_keep_receive_clock (test_progress.ProgressTests.test_07_wrap_and_epoch_keep_receive_clock) ... ok
+test_08_timeout_replay_and_two_new_frames_recover (test_progress.ProgressTests.test_08_timeout_replay_and_two_new_frames_recover) ... FAIL
+test_09_pgood_and_bad_sample_immediate (test_progress.ProgressTests.test_09_pgood_and_bad_sample_immediate) ... FAIL
+test_10_complete_requires_observed_full_progress (test_progress.ProgressTests.test_10_complete_requires_observed_full_progress) ... FAIL
+test_11_invalid_future_nonfinite_progress_and_bounds (test_progress.ProgressTests.test_11_invalid_future_nonfinite_progress_and_bounds) ... FAIL
+
+======================================================================
+FAIL: test_02_frozen_progress_despite_heartbeats (test_progress.ProgressTests.test_02_frozen_progress_despite_heartbeats)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 21, in test_02_frozen_progress_despite_heartbeats
+    self.assertFalse(v.tick(122.2));self.assertFalse(v.data_valid)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_03_heartbeat_missing_latency (test_progress.ProgressTests.test_03_heartbeat_missing_latency)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 23, in test_03_heartbeat_missing_latency
+    v=self.healthy();self.assertFalse(v.tick(124.3));self.assertFalse(v.data_valid)
+                     ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_05_timestamp_cannot_fake_state_advancement (test_progress.ProgressTests.test_05_timestamp_cannot_fake_state_advancement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 39, in test_05_timestamp_cannot_fake_state_advancement
+    with self.assertRaises(FrameFault):v.heartbeat(1,120.2,2,p)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: FrameFault not raised
+
+======================================================================
+FAIL: test_06_skip_and_bad_count_rejected (test_progress.ProgressTests.test_06_skip_and_bad_count_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 43, in test_06_skip_and_bad_count_rejected
+    with self.assertRaises(FrameFault):v.heartbeat(1,121.3,2,p)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: FrameFault not raised
+
+======================================================================
+FAIL: test_08_timeout_replay_and_two_new_frames_recover (test_progress.ProgressTests.test_08_timeout_replay_and_two_new_frames_recover)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 55, in test_08_timeout_replay_and_two_new_frames_recover
+    self.repeat(v,123.1);self.assertFalse(v.data_valid)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_09_pgood_and_bad_sample_immediate (test_progress.ProgressTests.test_09_pgood_and_bad_sample_immediate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 59, in test_09_pgood_and_bad_sample_immediate
+    v=self.healthy();v.pgood(False,120);self.assertFalse(v.data_valid)
+                                        ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_10_complete_requires_observed_full_progress (test_progress.ProgressTests.test_10_complete_requires_observed_full_progress)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 65, in test_10_complete_requires_observed_full_progress
+    with self.assertRaises(FrameFault):v.complete(1,1,109.6,109.8,generate_frame(1)[1])
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: FrameFault not raised
+
+======================================================================
+FAIL: test_11_invalid_future_nonfinite_progress_and_bounds (test_progress.ProgressTests.test_11_invalid_future_nonfinite_progress_and_bounds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\test_progress.py", line 70, in test_11_invalid_future_nonfinite_progress_and_bounds
+    with self.assertRaises(FrameFault):v.heartbeat(1,121.3,2,{'frame_id':3,'state_index':0,'completion_ms':value,'sample_count':32})
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: FrameFault not raised
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.017s
+
+FAILED (failures=8)

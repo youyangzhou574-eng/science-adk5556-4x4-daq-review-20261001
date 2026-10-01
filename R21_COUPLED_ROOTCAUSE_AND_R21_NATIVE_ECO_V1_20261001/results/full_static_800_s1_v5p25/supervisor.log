@@ -1,0 +1,1 @@
+{"case": "full_static_800_s1_v5p25", "startedUTC": "2026-10-01T11:46:56.692796+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 47300, "exitCode": 0, "analysisStatus": "ANALYSIS_ERROR", "wallSeconds": 22.545080200070515, "endedUTC": "2026-10-01T11:47:19.237876+00:00"}

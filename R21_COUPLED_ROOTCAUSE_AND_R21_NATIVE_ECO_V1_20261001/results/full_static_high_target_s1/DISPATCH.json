@@ -1,0 +1,6 @@
+{
+  "supervisorPID": 81080,
+  "startedUTC": "2026-10-01T11:35:38.517149+00:00",
+  "limitSeconds": 60,
+  "netlistSHA256": "9dd45d8bd7ccbc3692134129037a1c6575c73b0f24fc24377acbfe028e8c7057"
+}

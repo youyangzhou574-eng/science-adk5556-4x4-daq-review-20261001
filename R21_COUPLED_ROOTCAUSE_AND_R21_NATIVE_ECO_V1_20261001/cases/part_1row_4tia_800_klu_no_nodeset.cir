@@ -1,0 +1,117 @@
+part_1row_4tia_800_klu_no_nodeset
+.include "../../models/OPA4388_ORIGINAL.LIB"
+.include "../../models/OPAx388.LIB"
+V5 v5 0 5
+VREF ref 0 DC 2.5 AC 1
+RCM_IN ref vcm_cmd 1k
+XCM vcm_cmd cmfb v5 0 cmdrv OPAx388
+RCMISO cmdrv vcm 1k
+RCMFB vcm cmfb 4.99k
+CCMHF cmdrv cmfb 100p
+CCML vcm 0 1n
+RUP vcm vexcmd 10k
+RDN vexcmd 0 90k
+XEX vexcmd exfb v5 0 exdrv OPAx388
+REXISO exdrv vexc 1k
+REXFB vexc exfb 4.99k
+CEXHF exdrv exfb 100p
+CEXL vexc 0 1n
+.model MUX SW(Ron=5 Roff=1e12 Vt=.5 Vh=.1)
+VSEL0 sel0 0 PULSE(0 1 100u 10n 10n 1m 10m)
+BNS0 ns0 0 V=1-V(sel0)
+SA0 vexc cmd0 sel0 0 MUX
+SB0 vcm cmd0 ns0 0 MUX
+XR0 cmd0 fb0 v5 0 drv0 OPA4388
+RISO0 drv0 row0 1k
+RFB0 row0 fb0 4.99k
+CHF0 drv0 fb0 100p
+CLROW0 row0 0 1n
+VSEL1 sel1 0 0
+BNS1 ns1 0 V=1-V(sel1)
+SA1 vexc cmd1 sel1 0 MUX
+SB1 vcm cmd1 ns1 0 MUX
+BBOUNDROW1 row1 0 V=V(cmd1)
+CLROW1 row1 0 1n
+VSEL2 sel2 0 0
+BNS2 ns2 0 V=1-V(sel2)
+SA2 vexc cmd2 sel2 0 MUX
+SB2 vcm cmd2 ns2 0 MUX
+BBOUNDROW2 row2 0 V=V(cmd2)
+CLROW2 row2 0 1n
+VSEL3 sel3 0 0
+BNS3 ns3 0 V=1-V(sel3)
+SA3 vexc cmd3 sel3 0 MUX
+SB3 vcm cmd3 ns3 0 MUX
+BBOUNDROW3 row3 0 V=V(cmd3)
+CLROW3 row3 0 1n
+XT0 vcm minus0 v5 0 tdrv0 OPA4388
+RSENSE0 col0 minus0 10k
+RTISO0 tdrv0 tap0 1k
+RF0 tap0 col0 4.99k
+CF0 tap0 col0 2.2n
+CHFT0 tdrv0 minus0 22p
+RADC0 tap0 ain0 100
+CADC0 ain0 0 10n
+RIN0 ain0 0 1meg
+CLCOL0 col0 0 1n
+RA0_0 row0 col0 800
+RA1_0 row1 col0 800
+RA2_0 row2 col0 800
+RA3_0 row3 col0 800
+XT1 vcm minus1 v5 0 tdrv1 OPA4388
+RSENSE1 col1 minus1 10k
+RTISO1 tdrv1 tap1 1k
+RF1 tap1 col1 4.99k
+CF1 tap1 col1 2.2n
+CHFT1 tdrv1 minus1 22p
+RADC1 tap1 ain1 100
+CADC1 ain1 0 10n
+RIN1 ain1 0 1meg
+CLCOL1 col1 0 1n
+RA0_1 row0 col1 800
+RA1_1 row1 col1 800
+RA2_1 row2 col1 800
+RA3_1 row3 col1 800
+XT2 vcm minus2 v5 0 tdrv2 OPA4388
+RSENSE2 col2 minus2 10k
+RTISO2 tdrv2 tap2 1k
+RF2 tap2 col2 4.99k
+CF2 tap2 col2 2.2n
+CHFT2 tdrv2 minus2 22p
+RADC2 tap2 ain2 100
+CADC2 ain2 0 10n
+RIN2 ain2 0 1meg
+CLCOL2 col2 0 1n
+RA0_2 row0 col2 800
+RA1_2 row1 col2 800
+RA2_2 row2 col2 800
+RA3_2 row3 col2 800
+XT3 vcm minus3 v5 0 tdrv3 OPA4388
+RSENSE3 col3 minus3 10k
+RTISO3 tdrv3 tap3 1k
+RF3 tap3 col3 4.99k
+CF3 tap3 col3 2.2n
+CHFT3 tdrv3 minus3 22p
+RADC3 tap3 ain3 100
+CADC3 ain3 0 10n
+RIN3 ain3 0 1meg
+CLCOL3 col3 0 1n
+RA0_3 row0 col3 800
+RA1_3 row1 col3 800
+RA2_3 row2 col3 800
+RA3_3 row3 col3 800
+.save v(vcm) v(vexc) v(vexcmd) v(cmdrv) v(exdrv) v(row0) v(row1) v(row2) v(row3) v(col0) v(col1) v(col2) v(col3) v(drv0) v(tdrv0) v(tdrv1) v(tdrv2) v(tdrv3) v(tap0) v(tap1) v(tap2) v(tap3) v(ain0) v(ain1) v(ain2) v(ain3)
+.options method=gear
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+option klu
+optran 1 1 1 200n 100u 0
+op
+wrdata op.txt v(vcm) v(vexc) v(vexcmd) v(cmdrv) v(exdrv) v(row0) v(row1) v(row2) v(row3) v(col0) v(col1) v(col2) v(col3) v(drv0) v(tdrv0) v(tdrv1) v(tdrv2) v(tdrv3) v(tap0) v(tap1) v(tap2) v(tap3) v(ain0) v(ain1) v(ain2) v(ain3)
+tran 200n 600u 0 100n
+wrdata trace.txt v(vcm) v(vexc) v(vexcmd) v(cmdrv) v(exdrv) v(row0) v(row1) v(row2) v(row3) v(col0) v(col1) v(col2) v(col3) v(drv0) v(tdrv0) v(tdrv1) v(tdrv2) v(tdrv3) v(tap0) v(tap1) v(tap2) v(tap3) v(ain0) v(ain1) v(ain2) v(ain3)
+quit
+.endc
+.end

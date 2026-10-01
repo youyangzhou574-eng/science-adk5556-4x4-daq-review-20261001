@@ -1,0 +1,18 @@
+Warning : Nodeset on non-existent node - xcm.sw_ol_opa4388, ignored
+   Please check line .nodeset v(xcm.sw_ol_opa4388)=0.00499499833416125
+
+Warning : Nodeset on non-existent node - xex.sw_ol_opa4388, ignored
+   Please check line .nodeset v(xex.sw_ol_opa4388)=0.00499499833416125
+
+doAnalyses: out of memory
+
+op simulation(s) aborted
+Error: no such vector vcm
+  in term: v(vcm)
+
+doAnalyses: out of memory
+
+ac simulation(s) aborted
+Error: no such vector vcm
+  in term: v(vcm)
+

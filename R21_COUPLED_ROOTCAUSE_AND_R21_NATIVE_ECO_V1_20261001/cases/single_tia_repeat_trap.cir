@@ -1,0 +1,25 @@
+TIA r2 step actual manufacturer model
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VROW row 0 PULSE(2.5 2.4375 100u 10n 10n 1.3m 5m)
+X1 vcm minus v5 0 drv OPA4388
+RISO drv tap 1k
+RSENSE col minus 10k
+RF tap col 4.99k
+CF tap col 2.2n
+CHF drv minus 22p
+RARRAY col row 200
+CL col 0 1n
+RADC tap ain 100
+CADC ain 0 10n
+RIN ain 0 1meg
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+tran 100n 1.3m 0 100n
+wrdata trace.txt v(row) v(col) v(tap) v(drv) v(ain)
+quit
+.endc
+.end

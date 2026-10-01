@@ -1,0 +1,113 @@
+[
+  {
+    "class": "fixture",
+    "voltage_method_crossings": [
+      {
+        "fc_Hz": 100010.00091868704,
+        "phase_deg": -88.8541786223666,
+        "PM_deg": 91.1458213776334,
+        "direction": "falling"
+      }
+    ],
+    "Tian_twoport_crossings": [
+      {
+        "fc_Hz": 99004.84953171847,
+        "phase_deg": -89.4212651222464,
+        "PM_deg": 90.5787348777536,
+        "direction": "falling"
+      }
+    ],
+    "crosscheck_PASS": true,
+    "max_abs_complex_difference": 1.0000975293089345,
+    "OP_delta_max": 0.0,
+    "fixture_Tian_relative_error_max": 7.980102144487643e-07
+  },
+  {
+    "class": "row",
+    "voltage_method_crossings": [
+      {
+        "fc_Hz": 8563677.237318965,
+        "phase_deg": -74.91199167029004,
+        "PM_deg": 105.08800832970996,
+        "direction": "falling"
+      }
+    ],
+    "Tian_twoport_crossings": [
+      {
+        "fc_Hz": 8201466.699685016,
+        "phase_deg": -80.77091782925093,
+        "PM_deg": 99.22908217074907,
+        "direction": "falling"
+      }
+    ],
+    "crosscheck_PASS": false,
+    "max_abs_complex_difference": 73.84273517893253,
+    "OP_delta_max": 0.0
+  },
+  {
+    "class": "tia",
+    "voltage_method_crossings": [
+      {
+        "fc_Hz": 9426807.619451106,
+        "phase_deg": -58.93019902973421,
+        "PM_deg": 121.06980097026579,
+        "direction": "falling"
+      }
+    ],
+    "Tian_twoport_crossings": [
+      {
+        "fc_Hz": 6679006.531931975,
+        "phase_deg": -78.6840239311082,
+        "PM_deg": 101.3159760688918,
+        "direction": "falling"
+      }
+    ],
+    "crosscheck_PASS": false,
+    "max_abs_complex_difference": 28.273494766535688,
+    "OP_delta_max": 0.0
+  },
+  {
+    "class": "vcm",
+    "voltage_method_crossings": [
+      {
+        "fc_Hz": 8561487.392954864,
+        "phase_deg": -74.91153440245529,
+        "PM_deg": 105.08846559754471,
+        "direction": "falling"
+      }
+    ],
+    "Tian_twoport_crossings": [
+      {
+        "fc_Hz": 8199048.520725594,
+        "phase_deg": -80.76897027707592,
+        "PM_deg": 99.23102972292408,
+        "direction": "falling"
+      }
+    ],
+    "crosscheck_PASS": false,
+    "max_abs_complex_difference": 514.0773267422405,
+    "OP_delta_max": 0.0
+  },
+  {
+    "class": "vexc",
+    "voltage_method_crossings": [
+      {
+        "fc_Hz": 8561487.392954864,
+        "phase_deg": -74.91153440245529,
+        "PM_deg": 105.08846559754471,
+        "direction": "falling"
+      }
+    ],
+    "Tian_twoport_crossings": [
+      {
+        "fc_Hz": 8199048.520725594,
+        "phase_deg": -80.76897027707592,
+        "PM_deg": 99.23102972292408,
+        "direction": "falling"
+      }
+    ],
+    "crosscheck_PASS": false,
+    "max_abs_complex_difference": 514.0773267422405,
+    "OP_delta_max": 0.0
+  }
+]

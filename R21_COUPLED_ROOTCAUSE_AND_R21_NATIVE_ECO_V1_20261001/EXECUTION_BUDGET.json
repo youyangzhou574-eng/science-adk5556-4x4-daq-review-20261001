@@ -1,0 +1,878 @@
+{
+  "startedUTC": "2026-10-01T11:10:00+00:00",
+  "totalMaxMinutes": 240,
+  "phase": "P4",
+  "phaseStartedUTC": "2026-10-01T12:33:13.313391+00:00",
+  "limits": {
+    "P0": {
+      "minutes": 45,
+      "AC_DC_PZ": 32,
+      "diagnostics": 8
+    },
+    "P1": {
+      "minutes": 85,
+      "transient": 32,
+      "static_AC": 24,
+      "PZ": 12,
+      "full_long": 1
+    },
+    "P2": {
+      "minutes": 35,
+      "reset_corners": 64,
+      "protocol_tests": 32,
+      "sources": 6,
+      "library": 2
+    },
+    "P3": {
+      "minutes": 60,
+      "copy": 1,
+      "session": 2,
+      "save": 5,
+      "capture_audit": 3,
+      "ERC": 2,
+      "PDF": 2
+    },
+    "P4": {
+      "minutes": 15,
+      "delivery": 1
+    }
+  },
+  "used": {
+    "P0/AC_DC_PZ": 39,
+    "P0/diagnostics": 7,
+    "P1/static_AC": 24,
+    "P1/transient": 20,
+    "P1/PZ": 4,
+    "P1/full_long": 1,
+    "P2/reset_corners": 60,
+    "P2/protocol_tests": 32,
+    "P2/sources": 4,
+    "P2/library": 0
+  },
+  "cases": [
+    {
+      "name": "loop_fixture_v",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:48.962774+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_fixture_i",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:48.986040+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_row_v",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.007532+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_row_i",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.033350+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_tia_v",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.054853+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_tia_i",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.075026+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_vcm_v",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.109983+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_vcm_i",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.138517+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_vexc_v",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.162918+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "loop_vexc_i",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:20:49.186487+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_fixture_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:43.989400+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_fixture_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.010847+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_row_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.032778+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_row_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.053727+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_tia_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.075833+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_tia_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.099795+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_vcm_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.119975+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_vcm_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.145981+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_vexc_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.172166+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport_vexc_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:22:44.194737+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_fixture_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.573916+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_fixture_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.596867+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_row_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.619187+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_row_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.643357+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_tia_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.665701+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_tia_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.688032+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_vcm_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.715420+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_vcm_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.742407+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_vexc_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.766808+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport2_vexc_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:24:20.790733+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport3_tia_e",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:26:28.212199+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "yport3_tia_f",
+      "phase": "P0",
+      "kind": "AC_DC_PZ",
+      "startedUTC": "2026-10-01T11:26:28.231283+00:00",
+      "strictCharges": [
+        "AC_DC_PZ"
+      ]
+    },
+    {
+      "name": "diag_tia_opseed",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "startedUTC": "2026-10-01T11:29:28.542812+00:00",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport4_tia_e",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "startedUTC": "2026-10-01T11:29:50.549431+00:00",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport4_tia_f",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "startedUTC": "2026-10-01T11:29:50.569361+00:00",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport5_tia_e",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "startedUTC": "2026-10-01T11:30:03.758705+00:00",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_yport5_tia_f",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "startedUTC": "2026-10-01T11:30:03.787569+00:00",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_fixture_y6_e",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "startedUTC": "2026-10-01T11:30:42.415842+00:00",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "diag_fixture_y6_f",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "startedUTC": "2026-10-01T11:30:42.435939+00:00",
+      "strictCharges": [
+        "AC_DC_PZ",
+        "diagnostics"
+      ]
+    },
+    {
+      "name": "full_static_800_s-1",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:34:30.260831+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s0",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:34:30.278293+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s1",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:34:30.293284+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_8000_s-1",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.421909+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_8000_s0",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.438336+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_8000_s1",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.454235+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_high_target_s-1",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.470026+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_high_target_s0",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.488849+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_high_target_s1",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.510230+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s-1_klu",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.532532+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s0_klu",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:35:38.553894+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "part_1row_1tia_800_trap",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:35:38.578816+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_4row_1tia_800_trap",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:35:38.601193+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_1row_4tia_800_trap",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:35:38.625060+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "full_static_800_s1_seed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:38:27.123854+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "part_1row_1tia_800_gear",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:38:27.144319+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_4row_1tia_800_gear",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:38:27.162299+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_1row_4tia_800_gear",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:38:27.183869+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "full_static_800_s0_klu_fixed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:38:27.202116+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s1_allnodes_seed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:40:33.563451+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "part_1row_1tia_800_trap_fixed",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:40:33.580431+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_4row_1tia_800_trap_fixed",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:40:33.600279+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_1row_4tia_800_trap_fixed",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:40:33.615893+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "full_pz_800_s1",
+      "phase": "P1",
+      "kind": "PZ",
+      "startedUTC": "2026-10-01T11:40:33.633392+00:00",
+      "strictCharges": [
+        "PZ"
+      ]
+    },
+    {
+      "name": "full_static_800_s-1_fullseed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:41:35.887147+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s0_fullseed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:41:35.910630+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_8000_s-1_fullseed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:41:35.936195+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_high_target_s-1_fullseed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:41:35.961320+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_high_target_s0_fullseed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:41:35.988658+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_high_target_s1_fullseed",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:41:36.013653+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s0_permuted",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:46:56.520773+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_high_target_s1_permuted",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:46:56.555482+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s1_v4p75",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:46:56.583205+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_static_800_s1_v5p25",
+      "phase": "P1",
+      "kind": "static_AC",
+      "startedUTC": "2026-10-01T11:46:56.613401+00:00",
+      "strictCharges": [
+        "static_AC"
+      ]
+    },
+    {
+      "name": "full_pz_cur_800_s-1",
+      "phase": "P1",
+      "kind": "PZ",
+      "startedUTC": "2026-10-01T11:46:56.644069+00:00",
+      "strictCharges": [
+        "PZ"
+      ]
+    },
+    {
+      "name": "full_pz_cur_800_s0",
+      "phase": "P1",
+      "kind": "PZ",
+      "startedUTC": "2026-10-01T11:46:56.670215+00:00",
+      "strictCharges": [
+        "PZ"
+      ]
+    },
+    {
+      "name": "full_pz_cur_800_s1",
+      "phase": "P1",
+      "kind": "PZ",
+      "startedUTC": "2026-10-01T11:46:56.695754+00:00",
+      "strictCharges": [
+        "PZ"
+      ]
+    },
+    {
+      "name": "part_4row_1tia_800_gear_180",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:46:56.718312+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_1row_4tia_800_gear_180",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:46:56.737011+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "single_tia_repeat_trap",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.221840+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "single_tia_repeat_tight",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.239165+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_4row_1tia_8000_gear_180",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.255164+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_4row_1tia_high_target_gear_180",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.272680+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_4row_1tia_800_klu_no_nodeset",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.298939+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_1row_4tia_8000_gear_180",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.322254+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_1row_4tia_high_target_gear_180",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.344033+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "part_1row_4tia_800_klu_no_nodeset",
+      "phase": "P1",
+      "kind": "transient",
+      "startedUTC": "2026-10-01T11:53:55.372668+00:00",
+      "strictCharges": [
+        "transient"
+      ]
+    },
+    {
+      "name": "full_monolithic_short_final",
+      "phase": "P1",
+      "kind": "full_long",
+      "startedUTC": "2026-10-01T11:53:55.398916+00:00",
+      "strictCharges": [
+        "full_long",
+        "transient"
+      ]
+    }
+  ],
+  "nativeGate": "NOT_ENTERED",
+  "phaseHistory": [
+    {
+      "phase": "P0",
+      "from": "2026-10-01T11:10:00+00:00",
+      "to": "2026-10-01T11:31:45.963029+00:00"
+    },
+    {
+      "phase": "P1",
+      "from": "2026-10-01T11:31:45.963029+00:00",
+      "to": "2026-10-01T12:01:00.446609+00:00"
+    },
+    {
+      "phase": "P2",
+      "from": "2026-10-01T12:01:00.446609+00:00",
+      "to": "2026-10-01T12:33:13.313391+00:00"
+    }
+  ],
+  "P3_skipped_reason": "Partitioned dynamic evidence and full static/pole coverage not qualified; scoped25C reset does not establish whole requested path gate",
+  "originalTaggedUsed": {
+    "P0/AC_DC_PZ": 32,
+    "P0/diagnostics": 7,
+    "P1/static_AC": 24,
+    "P1/transient": 19,
+    "P1/PZ": 4,
+    "P1/full_long": 1,
+    "P2/reset_corners": 60,
+    "P2/protocol_tests": 32,
+    "P2/sources": 4,
+    "P2/library": 0
+  },
+  "scienceStopped": true,
+  "budgetStatus": "P0_ANALYSIS_COUNT_EXCEEDED_BY_7_REQUIRES_EXPLICIT_REVIEW"
+}

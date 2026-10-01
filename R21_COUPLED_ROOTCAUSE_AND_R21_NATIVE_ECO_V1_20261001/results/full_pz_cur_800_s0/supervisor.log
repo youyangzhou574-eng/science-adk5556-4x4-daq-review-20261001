@@ -1,0 +1,1 @@
+{"case": "full_pz_cur_800_s0", "startedUTC": "2026-10-01T11:46:56.752234+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 29032, "exitCode": 0, "analysisStatus": "ANALYSIS_ERROR", "wallSeconds": 21.04643990006298, "endedUTC": "2026-10-01T11:47:17.798674+00:00"}

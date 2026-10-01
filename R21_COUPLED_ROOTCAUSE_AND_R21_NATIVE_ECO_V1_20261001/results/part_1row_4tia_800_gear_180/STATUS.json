@@ -1,0 +1,13 @@
+{
+  "case": "part_1row_4tia_800_gear_180",
+  "startedUTC": "2026-10-01T11:46:56.825648+00:00",
+  "limitSeconds": 180.0,
+  "status": "FORCED_STOP_NOT_NORMAL_EXIT",
+  "ownedPID": 10952,
+  "lastProgressTime_s": 0.000287162,
+  "reason": "Owned child reached bounded case wall limit",
+  "exitCode": 1,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 180.21416010009125,
+  "endedUTC": "2026-10-01T11:49:57.039811+00:00"
+}

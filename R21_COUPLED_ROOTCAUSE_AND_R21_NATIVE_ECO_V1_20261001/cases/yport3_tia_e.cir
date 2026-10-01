@@ -1,0 +1,41 @@
+TIA admittance DC seed e
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+X1 vcm minus v5 0 drv OPA4388
+RISO drv tap 1k
+RSENSE col fb 10k
+RF tap col 4.99k
+CF tap col 2.2n
+RARRAY col row 200
+VROW row 0 2.4375
+CL col 0 1n
+RADC tap ain 100
+CADC ain 0 10n
+RIN ain 0 1meg
+CHF drv fb 22p
+LDC minus fb 1e9
+VE ep 0 DC 0 AC 1
+VF fp 0 DC 0 AC 0
+CE ep minus 1m
+CFPORT fp fb 1m
+.nodeset v(minus)=2.5 v(fb)=2.5 v(drv)=4.372 v(tap)=4.0594 v(col)=2.5
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+op
+wrdata op.txt v(minus) v(fb) v(drv)
+ac dec 100 1 100meg
+let yer=real(-i(VE))
+let yei=imag(-i(VE))
+let yfr=real(-i(VF))
+let yfi=imag(-i(VF))
+let er=real(v(minus))
+let ei=imag(v(minus))
+let fr=real(v(fb))
+let fi=imag(v(fb))
+wrdata ac.txt yer yei yfr yfi er ei fr fi
+quit
+.endc
+.end
