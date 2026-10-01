@@ -1,0 +1,13 @@
+{
+  "pass_": true,
+  "parts": 176,
+  "connected": 514,
+  "nets": 106,
+  "NC": 36,
+  "core_fields_and_pin_coordinates_exact": true,
+  "network_members_exact": true,
+  "raw_netlist_bytes_equal": false,
+  "raw_sha_C": "6B335BC9055352FC136A18FEB45B3797B90BDE5D92ADCACD7DB9C1399BCB4F79",
+  "raw_sha_D": "E631631A29D510A974E1B1EC1EE8F10035BDF98D1B09B45D0599F6ADDCE818D8",
+  "no_byte_equality_claim": true
+}

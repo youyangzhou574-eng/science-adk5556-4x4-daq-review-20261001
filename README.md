@@ -1,3 +1,9 @@
+# Latest: 09 R2.1 native connection and cold-reopen PASS; review only
+
+[Complete receipt](R21_NATIVE_PIN_NET_CORRECTION_AND_FINAL_DRAWING_V1_20261002/COMPLETE_NATIVE_CORRECTION_RECEIPT.md) · [Readable index](R21_NATIVE_PIN_NET_CORRECTION_AND_FINAL_DRAWING_V1_20261002/README.md) · [Drawing annotation addendum](R21_NATIVE_PIN_NET_CORRECTION_AND_FINAL_DRAWING_V1_20261002/DRAWING_ANNOTATION_ADDENDUM.md). Actual 176parts /514of514 connected pins /106nets /36NC PASS before and after independent cold reopen. Six-page vector PDF is engineering readable. Legacy R2 titles/notes remain and must be read with addendum; ERC only count, no details. BENCH_NOT_RELEASED; no fabrication or power authorization. No new simulation or theoretical/tool research. The older08 failed native stays frozen as failed evidence.
+
+---
+
 # Latest: 08 engineering receipt — BLOCKED / DO NOT USE NEW NATIVE
 
 [Complete engineering receipt](R21_ENGINEERING_R21_NATIVE_AND_LIMITED_VALIDATION_V1_20261002/COMPLETE_ENGINEERING_RECEIPT.md) · [Readable file index](R21_ENGINEERING_R21_NATIVE_AND_LIMITED_VALIDATION_V1_20261002/README.md). The frozen R2 copy first passed498/498; my ECO placement and feedback-port edits introduced180 incorrect connected-pin assignments. Post-ECO334/514,99actual vs106planned nets,36NC; oversized PDF labels also fail. All new native/PDF files are failed evidence, NOT for assembly, manufacture or power. Forty ideal DC groups and32offline protocol tests are limited results; six bounded macro transients remain numerical limits. Requested next scope is only finite native connections/labels correction, no MIMO/descriptor/tool research.

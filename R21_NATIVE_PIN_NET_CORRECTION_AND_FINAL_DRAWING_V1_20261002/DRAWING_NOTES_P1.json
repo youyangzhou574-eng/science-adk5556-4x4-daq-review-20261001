@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-01T18:55:48.091966+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "0727b164-73b4-4157-ac61-3db40cde2a44",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='b771f646994e1e87ccac719bcaeddd7f79898452652eb8c78e76c7463539d085')throw Error('Wrong09');\nawait eda.dmt_EditorControl.openDocument('595d5f2f11dee03d');\nconst t=(await eda.sch_PrimitiveText.getAll()).sort((a,b)=>a.getState_Y()-b.getState_Y());if(t.length!==4)throw Error('4 notes expected');\nconst texts=['R2.1 REVIEW ONLY - Power / Reference - 1/6 (other sheet titles inherit R2 base)','4x4 / 8 leads; normal 1-7k / ~10% changes; E0.25V / Rf4.99k; BENCH_PENDING','VCM/VEXC: 1k isolation; 4.99k remote FB; 100pF local HF; names VCM_FB / VEXC_FB','R2.1 ECO on frozen R2 base; native audit only; dynamic/fault/capacitance bench pending'];\nfor(let i=0;i<t.length;i++)await eda.sch_PrimitiveText.modify(t[i],{content:texts[i]});\nreturn {saved:await eda.sch_Document.save(),texts};\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"saved\":true,\"texts\":[\"R2.1 REVIEW ONLY - Power / Reference - 1/6 (other sheet titles inherit R2 base)\",\"4x4 / 8 leads; normal 1-7k / ~10% changes; E0.25V / Rf4.99k; BENCH_PENDING\",\"VCM/VEXC: 1k isolation; 4.99k remote FB; 100pF local HF; names VCM_FB / VEXC_FB\",\"R2.1 ECO on frozen R2 base; native audit only; dynamic/fault/capacitance bench pending\"]},\"logs\":[],\"durationMs\":146}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "saved": true,
+      "texts": [
+        "R2.1 REVIEW ONLY - Power / Reference - 1/6 (other sheet titles inherit R2 base)",
+        "4x4 / 8 leads; normal 1-7k / ~10% changes; E0.25V / Rf4.99k; BENCH_PENDING",
+        "VCM/VEXC: 1k isolation; 4.99k remote FB; 100pF local HF; names VCM_FB / VEXC_FB",
+        "R2.1 ECO on frozen R2 base; native audit only; dynamic/fault/capacitance bench pending"
+      ]
+    },
+    "logs": [],
+    "durationMs": 146
+  }
+}

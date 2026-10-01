@@ -1,0 +1,35 @@
+{
+  "project_uuid": "b771f646994e1e87ccac719bcaeddd7f79898452652eb8c78e76c7463539d085",
+  "pages": [
+    {
+      "uuid": "595d5f2f11dee03d",
+      "index": 0,
+      "name": "Power_Reference"
+    },
+    {
+      "uuid": "802bf258e0d38cab",
+      "index": 1,
+      "name": "Rows_8lead_Interface"
+    },
+    {
+      "uuid": "49bb518d907ff185",
+      "index": 2,
+      "name": "Continuous_Column_TIAs"
+    },
+    {
+      "uuid": "5f9caa2aebdf4356",
+      "index": 3,
+      "name": "ADS8684_Decoupling"
+    },
+    {
+      "uuid": "52a8a60e5711e55b",
+      "index": 4,
+      "name": "MCU_Protected_Interfaces"
+    },
+    {
+      "uuid": "cae95ff24beaad15",
+      "index": 5,
+      "name": "Power_Qualification"
+    }
+  ]
+}

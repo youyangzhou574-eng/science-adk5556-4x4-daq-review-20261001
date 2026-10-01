@@ -1,0 +1,9 @@
+{
+  "pass": true,
+  "R_J3_5_MPN": "0603WAF1001T5E",
+  "R_J3_5_Value": "1k 1%",
+  "C_ADC_Value_4": "10nF X7R",
+  "C_TIA_HF_MPN_4": "GRM1885C1H220JA01D",
+  "all_176_footprint_subpart_pin_identity": true,
+  "not_full_supply_chain_release": true
+}

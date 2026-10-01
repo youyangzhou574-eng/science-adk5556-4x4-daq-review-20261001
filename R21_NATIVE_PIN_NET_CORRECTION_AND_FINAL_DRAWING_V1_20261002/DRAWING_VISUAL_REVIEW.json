@@ -1,0 +1,68 @@
+{
+  "pages": [
+    {
+      "page": 1,
+      "final_image": "PDF02_PAGE-1.png",
+      "SHA256": "8BF2A898738CEA7EA4EF53B12B5FDE2FD1C9C22544932787DCB110131C9ABC12",
+      "byte_identical_to_all_six_actually_viewed_PDF1": true,
+      "final_1_5_viewed_again": true,
+      "engineering_readable": true,
+      "giant_font": false,
+      "large_ref_value_overlap": false
+    },
+    {
+      "page": 2,
+      "final_image": "PDF02_PAGE-2.png",
+      "SHA256": "9B3E4415963FFDDAD962854033B8ABAC568604BEC51DF7DE0F7D25B4B4C29572",
+      "byte_identical_to_all_six_actually_viewed_PDF1": true,
+      "final_1_5_viewed_again": false,
+      "engineering_readable": true,
+      "giant_font": false,
+      "large_ref_value_overlap": false
+    },
+    {
+      "page": 3,
+      "final_image": "PDF02_PAGE-3.png",
+      "SHA256": "2D8A6AD99EF465B80E3E1919CA8D07958A855D133B52A366A546CC8562917D3E",
+      "byte_identical_to_all_six_actually_viewed_PDF1": true,
+      "final_1_5_viewed_again": false,
+      "engineering_readable": true,
+      "giant_font": false,
+      "large_ref_value_overlap": false
+    },
+    {
+      "page": 4,
+      "final_image": "PDF02_PAGE-4.png",
+      "SHA256": "4E6E2EA32CB0F55AA7925C8320675E4BF1D9C0BC85611D623A942F9C47A77F97",
+      "byte_identical_to_all_six_actually_viewed_PDF1": true,
+      "final_1_5_viewed_again": false,
+      "engineering_readable": true,
+      "giant_font": false,
+      "large_ref_value_overlap": false
+    },
+    {
+      "page": 5,
+      "final_image": "PDF02_PAGE-5.png",
+      "SHA256": "7AA5B4C978502BE071D1C2896B3F786583199D8E831A8D52502793AD127D2A03",
+      "byte_identical_to_all_six_actually_viewed_PDF1": true,
+      "final_1_5_viewed_again": true,
+      "engineering_readable": true,
+      "giant_font": false,
+      "large_ref_value_overlap": false
+    },
+    {
+      "page": 6,
+      "final_image": "PDF02_PAGE-6.png",
+      "SHA256": "73D7DD179D7E7B9AA97458AA5D1E8E2F6F67EF49F7015413D8641B5648C11754",
+      "byte_identical_to_all_six_actually_viewed_PDF1": true,
+      "final_1_5_viewed_again": false,
+      "engineering_readable": true,
+      "giant_font": false,
+      "large_ref_value_overlap": false
+    }
+  ],
+  "scope": "Engineering readable net-port drawing; vector PDF supports zoom; no giant fontsize8",
+  "legacy_annotation_hold": true,
+  "legacy_notes": "R2 titles and several inherited notes remain. Text.modify(content) returned saved true but actual source/PDF unchanged; 6 save predebits including first failed feedback attempt exhausted. No extra edit/export. External addendum is authoritative R2.1 annotation; do not read old 4.99k reset statement as actual value.",
+  "only_notes_attempted_no_layout_algorithm": true
+}

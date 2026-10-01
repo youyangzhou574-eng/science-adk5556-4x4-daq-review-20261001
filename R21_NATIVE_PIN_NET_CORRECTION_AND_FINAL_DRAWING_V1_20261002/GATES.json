@@ -1,0 +1,16 @@
+{
+  "PIN_NET_PASS": true,
+  "106_NETS_PASS": true,
+  "36_NC_PASS": true,
+  "176_PARTS_PASS": true,
+  "COLD_REOPEN_PASS": true,
+  "DRAWING_ENGINEERING_READABLE_PASS": true,
+  "LEGACY_ANNOTATION_HOLD": true,
+  "ERC_DETAIL_HOLD": true,
+  "BENCH_VALIDATION_PENDING": true,
+  "BENCH_NOT_RELEASED": true,
+  "FAULT_PROTECTION_HOLD": true,
+  "REFERENCE_CAPACITANCE_BENCH_HOLD": true,
+  "HARDWARE_WCET_PENDING": true,
+  "newSimulationCount": 0
+}

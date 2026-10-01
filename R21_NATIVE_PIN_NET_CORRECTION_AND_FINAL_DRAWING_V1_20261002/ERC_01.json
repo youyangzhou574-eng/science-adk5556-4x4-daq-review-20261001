@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-01T18:55:52.767946+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "0727b164-73b4-4157-ac61-3db40cde2a44",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='b771f646994e1e87ccac719bcaeddd7f79898452652eb8c78e76c7463539d085')throw Error('Wrong09');\nreturn {project:pr.uuid,warnings:await eda.sch_Drc.check(true,false,true)};\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"project\":\"b771f646994e1e87ccac719bcaeddd7f79898452652eb8c78e76c7463539d085\",\"warnings\":[{\"type\":\"warn\",\"count\":1209}]},\"logs\":[],\"durationMs\":181}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "project": "b771f646994e1e87ccac719bcaeddd7f79898452652eb8c78e76c7463539d085",
+      "warnings": [
+        {
+          "type": "warn",
+          "count": 1209
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 181
+  }
+}

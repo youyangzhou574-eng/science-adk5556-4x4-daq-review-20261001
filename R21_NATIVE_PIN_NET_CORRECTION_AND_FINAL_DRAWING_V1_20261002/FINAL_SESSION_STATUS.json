@@ -1,0 +1,8 @@
+{
+  "OPEN_A_session": "0727b164-73b4-4157-ac61-3db40cde2a44",
+  "OPEN_D_session": "13e4c1d2-3db0-402f-9bee-9e30cd30a158",
+  "both_officially_closed": true,
+  "no_solver_started": true,
+  "collector_capture_returned_ok": true,
+  "collector_audit_before_JSON_ready_failed_then_same_saved_capture_audited_no_extra_capture": true
+}

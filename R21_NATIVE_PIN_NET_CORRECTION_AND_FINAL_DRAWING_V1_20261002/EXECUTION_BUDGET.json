@@ -1,0 +1,177 @@
+{
+  "startedUTC": "2026-10-01T18:47:14.486939+00:00",
+  "totalMaxMinutes": 240,
+  "phase": "P3",
+  "phaseStartedUTC": "2026-10-01T19:04:20.240063+00:00",
+  "limits": {
+    "P0": {
+      "minutes": 60
+    },
+    "P1": {
+      "minutes": 90
+    },
+    "P2": {
+      "minutes": 30
+    },
+    "P3": {
+      "minutes": 60
+    }
+  },
+  "globalLimits": {
+    "workcopy": 1,
+    "session": 2,
+    "save": 6,
+    "captureAudit": 4,
+    "ERC": 1,
+    "PDF": 2,
+    "library": 0,
+    "sources": 0,
+    "candidate": 0,
+    "OP_AC": 0,
+    "transient": 0,
+    "PZ": 0,
+    "descriptor": 0,
+    "MIMO": 0,
+    "reset": 0,
+    "protocol": 0
+  },
+  "used": {
+    "workcopy": 1,
+    "session": 2,
+    "save": 6,
+    "captureAudit": 4,
+    "ERC": 1,
+    "PDF": 2,
+    "library": 0,
+    "sources": 0,
+    "candidate": 0,
+    "OP_AC": 0,
+    "transient": 0,
+    "PZ": 0,
+    "descriptor": 0,
+    "MIMO": 0,
+    "reset": 0,
+    "protocol": 0
+  },
+  "operations": [
+    {
+      "kind": "workcopy",
+      "label": "unique clean frozen R2 copy",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:47:14.507528+00:00"
+    },
+    {
+      "kind": "session",
+      "label": "OPEN_A",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:48:19.165010+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "AUDIT_A_CAPTURE",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:49:00.555205+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO_FEEDBACK",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:51:01.821447+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO_FEEDBACK_FIXED",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:51:44.247035+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "AUDIT_B_CAPTURE",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:51:55.241542+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO_RESET",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:52:38.469263+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO_TIA",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:52:42.132089+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "AUDIT_C_CAPTURE",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:52:50.568745+00:00"
+    },
+    {
+      "kind": "PDF",
+      "label": "PDF_01_EXPORT",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:53:49.237863+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "DRAWING_NOTES_P1",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:55:48.006596+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "DRAWING_NOTES_P5",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:55:50.275650+00:00"
+    },
+    {
+      "kind": "ERC",
+      "label": "ERC_01",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:55:52.680506+00:00"
+    },
+    {
+      "kind": "PDF",
+      "label": "PDF_02_EXPORT",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:56:28.211849+00:00"
+    },
+    {
+      "kind": "session",
+      "label": "OPEN_D_COLD",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:56:52.831763+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "AUDIT_D_COLD_CAPTURE",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:57:23.469446+00:00"
+    }
+  ],
+  "phaseHistory": [
+    {
+      "phase": "P0",
+      "startedUTC": "2026-10-01T18:47:14.486939+00:00",
+      "endedUTC": "2026-10-01T18:53:47.919475+00:00"
+    },
+    {
+      "phase": "P1",
+      "startedUTC": "2026-10-01T18:53:47.919475+00:00",
+      "endedUTC": "2026-10-01T19:04:20.229743+00:00"
+    },
+    {
+      "phase": "P2",
+      "startedUTC": "2026-10-01T19:04:20.229743+00:00",
+      "endedUTC": "2026-10-01T19:04:20.240063+00:00"
+    }
+  ],
+  "scienceStopped": true,
+  "technicalExecutionEndedUTC": "2026-10-01T18:59:29.999258+00:00",
+  "STOP": "NATIVE_OPERATIONS_COMPLETE_HARD_QUOTAS_USED_NO_MORE_EDITS",
+  "actualSaveCalls": 5,
+  "failedSavePreDebit": 1,
+  "nativeStatus": "PIN_NET_AND_COLD_PASS_ENGINEERING_READABLE_WITH_LEGACY_ANNOTATION_HOLD"
+}
