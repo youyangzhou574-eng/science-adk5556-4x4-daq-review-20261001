@@ -1,0 +1,92 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_MIMO_CERTIFICATION_AND_DYNAMIC_GATE_V1",
+  "rulingAssistantId": "c1c48dcc-32ce-414d-b185-bdd829952edd",
+  "startedUTC": "2026-10-01T15:35:37+00:00",
+  "globalMinutes": 480,
+  "phase": "P4",
+  "phaseStartedUTC": "2026-10-01T15:52:35.236020+00:00",
+  "phaseMinutes": {
+    "P0": 90,
+    "P1": 150,
+    "P2": 100,
+    "P3": 80,
+    "P4": 30
+  },
+  "unallocatedReserveMinutes": 30,
+  "limits": {
+    "actualOP_AC_PZ": 192,
+    "diagnostic": 32,
+    "normalTRAN": 64,
+    "fullLong": 1,
+    "reset": 96,
+    "protocol": 48,
+    "sources": 8,
+    "candidate": 2
+  },
+  "used": {
+    "actualOP_AC_PZ": 0,
+    "diagnostic": 17,
+    "normalTRAN": 0,
+    "fullLong": 0,
+    "reset": 0,
+    "protocol": 0,
+    "sources": 0,
+    "candidate": 0
+  },
+  "nativeLimits": {
+    "copy": 1,
+    "session": 2,
+    "save": 8,
+    "captureAudit": 4,
+    "ERC": 2,
+    "PDF": 2
+  },
+  "nativeUsed": {
+    "copy": 0,
+    "session": 0,
+    "save": 0,
+    "captureAudit": 0,
+    "ERC": 0,
+    "PDF": 0
+  },
+  "scienceStopped": true,
+  "newSPICEEnabled": false,
+  "events": [
+    {
+      "UTC": "2026-10-01T15:41:21.540659+00:00",
+      "kind": "ATOMIC_PREDEBIT_OFFLINE",
+      "diagnostic": 10,
+      "actualAnalyses": 0,
+      "cases": "6 block pencils +2 exact contract counterexamples +2 known block-realization fixtures"
+    },
+    {
+      "UTC": "2026-10-01T15:43:04.005336+00:00",
+      "kind": "ADDITIONAL_DEBIT_PRESERVED_PRECHECK_FAILURE",
+      "diagnostic": 1,
+      "actualAnalyses": 0,
+      "reason": "initial exact-frequency precheck failed before pencils; retain initial10 reservations and charge extra failed-attempt attribute, no reset"
+    },
+    {
+      "UTC": "2026-10-01T15:44:55.481996+00:00",
+      "kind": "ADDITIONAL_DEBIT_PRESERVED_INFINITE_QZ_FAILURE",
+      "diagnostic": 6,
+      "actualAnalyses": 0,
+      "reason": "previous attempt wrote3 open pencil datasets then infinite-eigenvalue matching failed; conservatively debit all6 replayed pencils, no reset"
+    },
+    {
+      "UTC": "2026-10-01T15:44:59.033368+00:00",
+      "kind": "STICKY_SCIENTIFIC_STOP",
+      "newSolversStarted": 0,
+      "reason": "REFERENCE_REALIZATION_AND_INTERNAL_CERTIFICATE_HOLD"
+    },
+    {
+      "UTC": "2026-10-01T15:52:35.236020+00:00",
+      "kind": "P4_DELIVERY_ONLY",
+      "scienceStopped": true
+    }
+  ],
+  "offlineResumeDebited": true,
+  "qzInfiniteRetryDebited": true,
+  "scienceStoppedUTC": "2026-10-01T15:44:59.033358+00:00",
+  "stopReason": "REFERENCE_REALIZATION_AND_INTERNAL_CERTIFICATE_HOLD"
+}

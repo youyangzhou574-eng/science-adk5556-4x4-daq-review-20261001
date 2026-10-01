@@ -1,0 +1,14 @@
+{
+  "MIMO_REFERENCE_QUALIFIED": "HOLD physical block realization and internal pole/zero certificate missing",
+  "GENERALIZED_NYQUIST_PASS": "HOLD actual data only finite imaginary axis, no certified real RHP contour/DC gap/high arc",
+  "FULL_NETWORK_PORT_CUT_PASS": "PARTIAL inherited VCM/VEXC/ROW0 direct; TIA loaded scope only",
+  "TIA_LOADED_DOMAIN_CONFIRMED": "PARTIAL finite-crossing domain from prior evidence, not internal stability certificate",
+  "EXACT_LOW_FREQUENCY_POINTS": "HOLD .01 exact; .1/1/10 only nearest existing samples, no interpolation",
+  "PARTITIONED_COUPLED_DYNAMIC": "NOT_ENTERED",
+  "R2_1_NATIVE_ECO": "NOT_ENTERED",
+  "BENCH": "NOT_RELEASED",
+  "NO_SYMMETRY_RECONSTRUCTION": true,
+  "actualCircuitInstabilityProven": false,
+  "actualCircuitStabilityProven": false,
+  "scienceSTOP": "REFERENCE_REALIZATION_AND_INTERNAL_CERTIFICATE_HOLD"
+}

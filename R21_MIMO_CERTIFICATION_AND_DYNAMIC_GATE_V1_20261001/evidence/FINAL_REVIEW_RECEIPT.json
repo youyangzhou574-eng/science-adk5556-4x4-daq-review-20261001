@@ -1,0 +1,12 @@
+{
+ "reviewer":"/root/certification_final_review",
+ "freshContext":true,
+ "Critical":0,
+ "Important":[{"finding":"Known block fixtures evaluated LU/logdet, not QZ; receipt scope too broad","fixed":"Receipt explicitly LU/logdet only; provenance regression RED then GREEN"}],
+ "regradedImportant":[{"originalSeverity":"Minor","finding":"Observed float difference stated0 but JSON1.5700924586837752e-16","fixed":"Analytic equality separated from observed max1.57e-16; same source regression fix pass"}],
+ "deferredMinor":[{"finding":"reference_contract.defaultZeroWindingSufficient is reference-side precheck, misses contourboundary and Gc internal mapping","restriction":"Never used as actual physical certificate; report explicitly scopes limitation; actual gates HOLD"}],
+ "reviewerTestResult":"6/6 before source fix",
+ "finalFixSuite":"7/7 after same-pass RED/GREEN provenance regression",
+ "newSPICEDuringReviewOrFix":0,
+ "scope":"One independent review, no rereview; reviewer observed file evidence, not a global proof of absence of every possible process"
+}

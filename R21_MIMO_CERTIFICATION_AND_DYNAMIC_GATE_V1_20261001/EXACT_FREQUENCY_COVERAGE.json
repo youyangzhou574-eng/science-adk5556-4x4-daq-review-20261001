@@ -1,0 +1,30 @@
+{
+  "allRequiredExact": false,
+  "points": [
+    {
+      "requiredHz": 0.01,
+      "nearestActualHz": 0.01,
+      "absoluteDifferenceHz": 0.0,
+      "exact": true
+    },
+    {
+      "requiredHz": 0.1,
+      "nearestActualHz": 0.10004663969866433,
+      "absoluteDifferenceHz": 4.663969866432194e-05,
+      "exact": false
+    },
+    {
+      "requiredHz": 1.0,
+      "nearestActualHz": 1.0009330114994361,
+      "absoluteDifferenceHz": 0.0009330114994361427,
+      "exact": false
+    },
+    {
+      "requiredHz": 10.0,
+      "nearestActualHz": 10.013998436398301,
+      "absoluteDifferenceHz": 0.01399843639830145,
+      "exact": false
+    }
+  ],
+  "interpolationUsed": false
+}

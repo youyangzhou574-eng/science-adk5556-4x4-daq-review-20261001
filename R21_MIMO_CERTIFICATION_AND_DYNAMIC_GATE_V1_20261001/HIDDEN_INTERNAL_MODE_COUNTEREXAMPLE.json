@@ -1,0 +1,43 @@
+{
+  "internallyStable": false,
+  "hiddenRHPCount": 1,
+  "portResponseCertifiesInternalStability": false,
+  "scope": "KNOWN_STATE_SPACE_REALIZATION_ONLY",
+  "poles": [
+    {
+      "real": -1.0,
+      "imag": 0.0
+    },
+    {
+      "real": 1.0,
+      "imag": 0.0
+    }
+  ],
+  "A": [
+    [
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ]
+  ],
+  "B": [
+    [
+      1.0
+    ],
+    [
+      0.0
+    ]
+  ],
+  "C": [
+    [
+      1.0,
+      0.0
+    ]
+  ],
+  "sameObservedTransfer": "1/(s+1)",
+  "maxObservedDifference": 1.5700924586837752e-16,
+  "conclusion": "port transfer alone cannot distinguish stable realization A=[-1] from A=diag(-1,+1) with hidden +1 state; illustrative only, no evidence actual OPA has hidden RHP modes"
+}

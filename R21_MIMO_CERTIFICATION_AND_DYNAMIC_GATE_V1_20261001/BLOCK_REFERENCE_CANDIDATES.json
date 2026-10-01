@@ -1,0 +1,288 @@
+{
+  "openGc": [
+    {
+      "scaleIndex": 0,
+      "fixedScale": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "powerConjugate": true,
+      "proxyTurns": -1.5461029701558764e-17,
+      "maxProxyPhaseIncrement": 0.05792933692253538,
+      "condGcMaximum": 6.662552403174008e+18,
+      "pointCount": 839,
+      "realRHPContourQualified": false,
+      "referenceInternalCertificate": false,
+      "status": "OFFLINE_CANDIDATE_ONLY"
+    },
+    {
+      "scaleIndex": 1,
+      "fixedScale": [
+        0.001,
+        0.004641588833612777,
+        0.021544346900318832,
+        0.1,
+        0.46415888336127775,
+        2.154434690031882,
+        10.0,
+        46.41588833612773,
+        215.44346900318823,
+        1000.0
+      ],
+      "powerConjugate": true,
+      "proxyTurns": 4.1965652047088066e-17,
+      "maxProxyPhaseIncrement": 0.05792933692253571,
+      "condGcMaximum": 1.0887890422071573e+23,
+      "pointCount": 839,
+      "realRHPContourQualified": false,
+      "referenceInternalCertificate": false,
+      "status": "OFFLINE_CANDIDATE_ONLY",
+      "finiteMatchedDifferenceMax": 0.0010854269225946238,
+      "fullSpectrumHoldFrequencyCount": 242,
+      "lowFrequencyComparisons": {
+        "0.01": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 5,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 0.01
+        },
+        "0.1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 4,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 0.10004663969866433
+        },
+        "1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 5,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 1.0009330114994361
+        },
+        "10": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 1,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 10.013998436398301
+        }
+      }
+    },
+    {
+      "scaleIndex": 2,
+      "fixedScale": [
+        1000.0,
+        215.44346900318845,
+        46.4158883361278,
+        10.0,
+        2.1544346900318843,
+        0.4641588833612782,
+        0.1,
+        0.021544346900318867,
+        0.004641588833612782,
+        0.001
+      ],
+      "powerConjugate": true,
+      "proxyTurns": 1.5461029701558764e-17,
+      "maxProxyPhaseIncrement": 0.05792933692253615,
+      "condGcMaximum": 3.933815703727888e+23,
+      "pointCount": 839,
+      "realRHPContourQualified": false,
+      "referenceInternalCertificate": false,
+      "status": "OFFLINE_CANDIDATE_ONLY",
+      "finiteMatchedDifferenceMax": 0.06639467488661245,
+      "fullSpectrumHoldFrequencyCount": 0,
+      "lowFrequencyComparisons": {
+        "0.01": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 6.176054057987263e-06,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 0.01
+        },
+        "0.1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 6.696953239474884e-06,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 0.10004663969866433
+        },
+        "1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 3.7455776133104034e-05,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 1.0009330114994361
+        },
+        "10": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 0.013497135648876843,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 10.013998436398301
+        }
+      }
+    }
+  ],
+  "closedGc": [
+    {
+      "scaleIndex": 0,
+      "fixedScale": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "powerConjugate": true,
+      "proxyTurns": -1.3031439319885243e-16,
+      "maxProxyPhaseIncrement": 0.056433951022756175,
+      "condGcMaximum": 6.550782984231132e+18,
+      "pointCount": 839,
+      "realRHPContourQualified": false,
+      "referenceInternalCertificate": false,
+      "status": "OFFLINE_CANDIDATE_ONLY"
+    },
+    {
+      "scaleIndex": 1,
+      "fixedScale": [
+        0.001,
+        0.004641588833612777,
+        0.021544346900318832,
+        0.1,
+        0.46415888336127775,
+        2.154434690031882,
+        10.0,
+        46.41588833612773,
+        215.44346900318823,
+        1000.0
+      ],
+      "powerConjugate": true,
+      "proxyTurns": 8.834874115176436e-18,
+      "maxProxyPhaseIncrement": 0.05643395102275658,
+      "condGcMaximum": 1.0560305548967523e+23,
+      "pointCount": 839,
+      "realRHPContourQualified": false,
+      "referenceInternalCertificate": false,
+      "status": "OFFLINE_CANDIDATE_ONLY",
+      "finiteMatchedDifferenceMax": 0.0026484276967018937,
+      "fullSpectrumHoldFrequencyCount": 252,
+      "lowFrequencyComparisons": {
+        "0.01": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 5,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 0.01
+        },
+        "0.1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 5,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 0.10004663969866433
+        },
+        "1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 4,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 1.0009330114994361
+        },
+        "10": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 1,
+          "fullFiniteQualified": false,
+          "finiteMatchedDifference": null,
+          "status": "FULL_SPECTRUM_HOLD",
+          "actualFrequencyHz": 10.013998436398301
+        }
+      }
+    },
+    {
+      "scaleIndex": 2,
+      "fixedScale": [
+        1000.0,
+        215.44346900318845,
+        46.4158883361278,
+        10.0,
+        2.1544346900318843,
+        0.4641588833612782,
+        0.1,
+        0.021544346900318867,
+        0.004641588833612782,
+        0.001
+      ],
+      "powerConjugate": true,
+      "proxyTurns": -3.754821498949985e-17,
+      "maxProxyPhaseIncrement": 0.05643395102275582,
+      "condGcMaximum": 1.211941591023573e+24,
+      "pointCount": 839,
+      "realRHPContourQualified": false,
+      "referenceInternalCertificate": false,
+      "status": "OFFLINE_CANDIDATE_ONLY",
+      "finiteMatchedDifferenceMax": 0.066393309317603,
+      "fullSpectrumHoldFrequencyCount": 0,
+      "lowFrequencyComparisons": {
+        "0.01": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 3.740257955634851e-06,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 0.01
+        },
+        "0.1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 3.89328535669651e-06,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 0.10004663969866433
+        },
+        "1": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 3.938060347056483e-05,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 1.0009330114994361
+        },
+        "10": {
+          "infiniteCountA": 0,
+          "infiniteCountB": 0,
+          "fullFiniteQualified": true,
+          "finiteMatchedDifference": 0.013496859358313296,
+          "status": "FINITE_NUMERICAL_COMPARISON_ONLY",
+          "actualFrequencyHz": 10.013998436398301
+        }
+      }
+    }
+  ]
+}

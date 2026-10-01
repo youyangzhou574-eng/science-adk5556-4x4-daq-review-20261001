@@ -1,0 +1,17 @@
+{
+  "referenceRHPPoles": 0,
+  "referenceRHPZeros": 1,
+  "internalCertificate": true,
+  "defaultZeroWindingSufficient": false,
+  "scope": "KNOWN_RATIONAL_DETERMINANT_ONLY",
+  "unknownPhysicalData": "HOLD",
+  "Gc": "(s+1)/(s+2)",
+  "G0": "(s-1)/(s+2)",
+  "R": "(s+1)/(s-1)",
+  "positiveOrientation": "imaginary axis downwards plus true RHP arc",
+  "winding": -1.000000000000001,
+  "trueContour": true,
+  "fullSystemGcRHPZeroCount": 0,
+  "detRatioRHPPoleCount": 1,
+  "conclusion": "stable Gc can have winding -1 relative to reference with RHP zero; no RHP transfer poles alone does not warrant a default N=0 criterion; not rejection of a separately qualified internally stable physical reference"
+}

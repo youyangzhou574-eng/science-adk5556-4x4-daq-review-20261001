@@ -1,0 +1,12 @@
+test_hidden_unstable_mode_is_not_port_certificate (test_certificate.Certificates.test_hidden_unstable_mode_is_not_port_certificate) ... ok
+test_incomplete_internal_reference_cannot_pass (test_certificate.Certificates.test_incomplete_internal_reference_cannot_pass) ... ok
+test_infinite_generalized_values_are_retained_and_not_finite_pass (test_certificate.Certificates.test_infinite_generalized_values_are_retained_and_not_finite_pass) ... ok
+test_nearest_frequency_is_not_exact_required_point (test_certificate.Certificates.test_nearest_frequency_is_not_exact_required_point) ... ok
+test_partition_source_and_all_rows (test_certificate.Certificates.test_partition_source_and_all_rows) ... ok
+test_reference_zero_not_same_as_no_RHP_poles (test_certificate.Certificates.test_reference_zero_not_same_as_no_RHP_poles) ... ok
+test_report_fixture_scope_and_float_evidence (test_certificate.Certificates.test_report_fixture_scope_and_float_evidence) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.624s
+
+OK

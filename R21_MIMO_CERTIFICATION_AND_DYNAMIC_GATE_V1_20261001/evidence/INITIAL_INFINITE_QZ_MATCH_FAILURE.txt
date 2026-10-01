@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_MIMO_CERTIFICATION_AND_DYNAMIC_GATE_V1\diagnose_blocks.py", line 37, in <module>
+    cost=abs(a[:,None]-c[None,:])/np.maximum(1,abs(a[:,None]));i,j=linear_sum_assignment(cost);errors.append(float(max(cost[i,j])))
+                                                                   ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+ValueError: cost matrix is infeasible

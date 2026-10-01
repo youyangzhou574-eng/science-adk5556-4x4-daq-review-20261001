@@ -1,0 +1,29 @@
+{
+  "UTC": "2026-10-01T15:44:55.486363+00:00",
+  "fixedCommit": "2e2829f17c2b07c95c5d5c953a5fc3fdfb0a3b98",
+  "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INVARIANT_MIMO_AND_NATIVE_ECO_FINALIZATION_V1\\results\\NEW_GC.npz",
+  "SHA256": "0DFB438011750AA13DB8502D7ABF01F66A99D8391ACAB52EEB1503558F3029A8",
+  "frequencyCount": 839,
+  "minHz": 0.01,
+  "maxHz": 300000000.0000176,
+  "allColumnsActual": true,
+  "matrixGroups": {
+    "REF": [
+      0,
+      1
+    ],
+    "ROW": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "TIA": [
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "interpretation": "principal block extraction is an algebraic candidate, not proof of independently realizable physical reference or internal stability"
+}

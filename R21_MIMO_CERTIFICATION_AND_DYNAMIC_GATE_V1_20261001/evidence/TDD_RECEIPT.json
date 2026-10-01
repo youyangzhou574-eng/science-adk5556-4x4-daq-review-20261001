@@ -1,0 +1,9 @@
+{
+ "baseContractTests":"4 missing-helper assertion failures observed, then4GREEN; retained-nonzero expected36 corrected35 because g00zero",
+ "exactFrequencyRegression":"missingfrequency_coverage assertion RED, then5GREEN",
+ "infiniteQZRegression":"missingspectrum_comparison assertion RED, then6GREEN",
+ "finalReportSourceRegression":"QZ/LU incorrectly present in fixture section assertion RED, then7GREEN",
+ "finalLog":"FINAL_TEST_LOG.txt",
+ "scientificDiagnosticsAfterSTOP":0,
+ "localGitWrites":0
+}
