@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-09-30T19:39:47.634850+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--path",
+    "C:/Users/yang/Documents/LCEDA-Pro/example-projects/示例工程_快速入门.eprj2",
+    "--headless",
+    "true"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"14431564-62fb-4c45-9e30-adc4717bdb9b\",\"renderId\":14,\"path\":\"C:/Users/yang/Documents/LCEDA-Pro/example-projects/示例工程_快速入门.eprj2\",\"headless\":true},\"logs\":[],\"durationMs\":784}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "14431564-62fb-4c45-9e30-adc4717bdb9b",
+      "renderId": 14,
+      "path": "C:/Users/yang/Documents/LCEDA-Pro/example-projects/示例工程_快速入门.eprj2",
+      "headless": true
+    },
+    "logs": [],
+    "durationMs": 784
+  }
+}

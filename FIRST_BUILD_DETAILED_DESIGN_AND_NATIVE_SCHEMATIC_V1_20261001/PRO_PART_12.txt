@@ -1,0 +1,299 @@
+CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01
+PART 12/13。严格只处理本项目。这是直接正文的一段，跨段截断连续拼接；前段只ACK，最后END后给完整统一裁定。禁止拿旧回复当新裁定。
+_downloaded=2,official_macromodel_execution=False,noise_verified=False,PM_GM_verified=False,settling_300us_verified=False,model_limits=['ideal infinite DC opamp gain; no saturation, finite loop gain, input bias, reference variation or clamp dynamics','one lumped resistance per electrode; no distributed resistance/capacitance/contact model','supply cases only verify ideal output-voltage headroom; no power-sequencing model','calibration uses exact mathematical standards; no standard measurement uncertainty/noise included'],result='DC_MODEL_COMPLETED / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD')
+(p/'VALIDATION_SUMMARY.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')
+(p/'VALIDATION_REPORT.md').write_text('# 验证报告\n\n标准库numpy线性DC KCL实际执行，非SPICE全宏模型。'+str(len(rows))+'组，每组4选行/16读数；8类物理自检通过。完整输入/代码/CSV及结果保留。\n\n'+json.dumps(summary['lead_results'],indent=2)+'\n\n校准固定于同线阻的全1k/全6.8k，不按邻点模式重校。零线阻精确，有限线阻的邻点误差见CSV；1Ω敏感性点不是保证的线阻规格。供电角点只计算理想静态余量，不能宣称低压运放能力已模拟。\n\n已下载厂家PSpice/TINA模型，但本机尚未找到可用且已确认兼容的SPICE执行器，不安装第三方、不延续接口排错。实际AC/正常瞬态/故障瞬态均0；PM/GM、300µs建立、噪声、热和掉电验证全部HOLD。不得以模型自检或理想RC公式替代实物。\n\n故障列表含'+str(len(fault))+'项静态/定性审查，无60s实测/热模型。保护尚缺电源排序/联锁/回灌闭合，FAULT_PROTECTION_HOLD，BENCH_NOT_RELEASED。\n',encoding='utf-8')
+print(json.dumps(summary,ensure_ascii=True))
+
+===== END validate_electrical.py =====
+
+
+===== FULL audit_actual_netlist.py | bytes 4479 | SHA256 995BC98996C7D2AAA25A4F57D17820C57E2E235F5C06AEF08695CB2414AFF8BC | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\audit_actual_netlist.py =====
+import pathlib,json,re,hashlib,sys,collections
+p=pathlib.Path(__file__).resolve().parent
+label=sys.argv[1];outname=sys.argv[2]
+raw=json.loads((p/(label+'.json')).read_text(encoding='utf-8'));assert raw['parsed']['ok'] is True
+cap=raw['parsed']['value'];plan=json.loads((p/'PLANNED_NATIVE_DESIGN.json').read_text(encoding='utf-8'));libs=json.loads((p/'ALL_LIBRARY_PARSED.json').read_text(encoding='utf-8'))
+f=cap['actualFile'];assert f and f['constructor']=='File' and f['tag']=='[object File]'
+b=bytes(f['bytes']);assert len(b)==f['size'];(p/(label+'.net')).write_bytes(b)
+try:text=b.decode('utf-8-sig');encoding='UTF-8'
+except UnicodeDecodeError:text=b.decode('gb18030');encoding='GB18030 strict'
+# Original actual bytes remain untouched. Normalize vendor CRCRLF only for parsing.
+txt=text.replace('\r\r\n','\n').replace('\r\n','\n').replace('\r','\n')
+assert txt.startswith('PROTEL NETLIST 2.0')
+pins={};nets={};blocks=[]
+for m in re.finditer(r'^\(\s*\n([^\n]+)\n([\s\S]*?)^\)\s*$',txt,re.M):
+ net=m.group(1).strip();assert net and net not in nets,'Duplicate/empty net'
+ members=[]
+ for line in m.group(2).splitlines():
+  if not line.strip():continue
+  key=line.split()[0];assert re.fullmatch(r'[A-Za-z][A-Za-z0-9_]*-[0-9]+',key),key
+  assert key not in pins,'Duplicate physical pin '+key
+  pins[key]=net;members.append(key)
+ assert members,'Empty net';nets[net]=sorted(members)
+for m in re.finditer(r'^\[\s*\n([\s\S]*?)^\]\s*$',txt,re.M):
+ lines=m.group(1).splitlines();assert lines[0]=='DESIGNATOR';ref=lines[1].strip();fi=lines.index('FOOTPRINT');fp=lines[fi+1].strip();assert fp and fp.lower()!='undefined' and not fp.startswith('AUDIT_ONLY')
+ blocks.append(dict(ref=ref,footprint=fp))
+expect={q['ref']+'-'+n:net for q in plan['parts']for n,net in q['nets'].items()if net is not None}
+nc={q['ref']+'-'+n for q in plan['parts']for n,net in q['nets'].items()if net is None}
+checks=[dict(pin=k,expected=v,actual=pins.get(k),pass_=pins.get(k)==v)for k,v in expect.items()]
+placed=[c for pg in cap['pages']for c in pg['parts']if c['type']=='part'];actualNC={c['ref']+'-'+v['number']for c in placed for v in c['pins']if v['nc']}
+refcount=collections.Counter(c['ref']for c in placed);blockcount=collections.Counter(c['ref']for c in blocks)
+identity=[]
+for q in plan['parts']:
+ cs=[c for c in placed if c['ref']==q['ref']]
+ good=len(cs)==1
+ if good:
+  c=cs[0];d=libs[q['device']]['device'];actualNumbers=[v['number']for v in c['pins']]
+  good=set(actualNumbers)==set(q['nets'])and len(actualNumbers)==len(set(actualNumbers))and c['sub']==q['subpart']and c['footprint'].get('name')==d['footprintName']
+ identity.append(dict(ref=q['ref'],actual_footprint=cs[0]['footprint']if cs else None,expected_footprint_name=libs[q['device']]['device']['footprintName'],pass_=good))
+netchecks=[dict(net=k,expected=sorted(n for n,v in expect.items()if v==k),actual=nets.get(k,[]),pass_=sorted(n for n,v in expect.items()if v==k)==nets.get(k,[]))for k in sorted(set(expect.values())|set(nets))]
+report=dict(actual_source=label,raw_sha256=hashlib.sha256(b).hexdigest().upper(),raw_bytes=len(b),parser_encoding=encoding,File_text_has_replacement_character='\ufffd'in f['text'],no_reencoding_of_actual_netlist=True,pin_checks=checks,net_members=netchecks,part_identity=identity,expected_connected_pins=len(expect),passed_connected_pins=sum(q['pass_']for q in checks),expected_NC_count=len(nc),actual_NC_count=len(actualNC),NC_exact_match=actualNC==nc,NC_in_actual_nets=sorted(nc&set(pins)),missing_pins=sorted(set(expect)-set(pins)),unexpected_pins=sorted(set(pins)-set(expect)),expected_net_count=len(set(expect.values())),actual_net_count=len(nets),expected_parts=len(plan['parts']),actual_parts=len(placed),actual_component_blocks=len(blocks),duplicates={k:v for k,v in refcount.items()if v!=1},block_duplicates={k:v for k,v in blockcount.items()if v!=1},pages=len(cap['pages']),manufacturing_release=False)
+report['pass']=all(q['pass_']for q in checks+netchecks+identity)and actualNC==nc and not report['missing_pins']and not report['unexpected_pins']and not report['NC_in_actual_nets']and set(refcount)==set(blockcount)=={q['ref']for q in plan['parts']}and not report['duplicates']and not report['block_duplicates']and len(placed)==78
+(p/outname).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({k:v for k,v in report.items()if k not in ['pin_checks','net_members','part_identity']},ensure_ascii=True))
+if not report['pass']:raise SystemExit(2)
+
+===== END audit_actual_netlist.py =====
+
+
+===== FULL prepare_native_scripts.py | bytes 4219 | SHA256 316BB4A0B2001F72A1222FF7A939C66D63C44D450670F582767153342A4E54F5 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\prepare_native_scripts.py =====
+import json,pathlib
+p=pathlib.Path(__file__).resolve().parent
+plan=json.loads((p/'PLANNED_NATIVE_DESIGN.json').read_text(encoding='utf-8'))
+pages=json.loads((p/'CREATE_FOUR_PAGES.json').read_text(encoding='utf-8'))['parsed']['value']['pages']
+(p/'NATIVE_PAGE_IDS.json').write_text(json.dumps(pages,indent=2)+'\n',encoding='utf-8')
+template='''
+const plan=PLAN;
+const result={page:plan.page,parts:[],markers:[],wires:[],nc:[],status:'STARTED'};
+try{
+const project=await eda.dmt_Project.getCurrentProjectInfo();
+if(project?.uuid!==plan.project)throw Error('Wrong independent project context');
+await eda.dmt_EditorControl.openDocument(plan.page.uuid);
+const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();
+if(pg?.uuid!==plan.page.uuid)throw Error('Wrong page');
+await eda.dmt_Schematic.modifySchematicPageTitleBlock(false);
+const initial=await eda.sch_PrimitiveComponent.getAll();if(initial.some(c=>c.getState_ComponentType()!=='sheet'))throw Error('Expected empty new page apart from official default sheet');
+for(const q of plan.parts){
+const c=await eda.sch_PrimitiveComponent.create({libraryUuid:q.library_uuid,uuid:q.device_uuid},q.x,q.y,q.subpart,0,false,true,true);
+if(!c)throw Error('Create '+q.ref);
+const m=await eda.sch_PrimitiveComponent.modify(c.getState_PrimitiveId(),{designator:q.ref,name:q.value||q.device,otherProperty:{...c.getState_OtherProperty(),'Review Status':'DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD',...(q.value?{Value:q.value}:{}),'Circuit Role':q.role}});
+if(!m)throw Error('Modify '+q.ref);
+const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(m.getState_PrimitiveId());
+const actual=ps.map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),rotation:v.getState_Rotation()}));
+if(new Set(actual.map(v=>v.number)).size!==actual.length||actual.length!==Object.keys(q.nets).length||actual.some(v=>!(v.number in q.nets)))throw Error('Actual pin identity '+q.ref);
+result.parts.push({ref:q.ref,id:m.getState_PrimitiveId(),association:m.getState_Component(),footprint:m.getState_Footprint(),pins:actual});
+for(let i=0;i<ps.length;i++){
+const pin=ps[i],a=actual[i],net=q.nets[a.number];
+if(net===null){const n=await pin.setState_NoConnected(true).done();result.nc.push({ref:q.ref,pin:a.number,actual_noConnected:n?.getState_NoConnected?.()??pin.getState_NoConnected()});continue;}
+const dx=a.x-q.x,dy=a.y-q.y;
+let ox=0,oy=0;
+// Horizontal pins in the actual symbol use inward angles0/180; vertical90/270.
+if(a.rotation===0)ox=-30;else if(a.rotation===180)ox=30;else if(a.rotation===90)oy=-30;else if(a.rotation===270)oy=30;else if(Math.abs(dx)>Math.abs(dy))ox=dx<0?-30:30;else oy=dy<0?-30:30;
+const ex=a.x+ox,ey=a.y+oy;
+const mark=await eda.sch_PrimitiveComponent.createNetPort('BI',net,ex,ey,ox<0?180:oy<0?90:oy>0?270:0,false);
+if(!mark)throw Error('Port '+q.ref+'.'+a.number);
+const mp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(mark.getState_PrimitiveId());if(mp.length!==1)throw Error('Port anchor');
+const mx=mp[0].getState_X(),my=mp[0].getState_Y();
+const line=[a.x,a.y,mx,a.y];if(my!==a.y)line.push(mx,my);
+const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire '+q.ref+'.'+a.number);
+result.markers.push({ref:q.ref,pin:a.number,net,id:mark.getState_PrimitiveId(),x:mx,y:my});result.wires.push({ref:q.ref,pin:a.number,net,id:w.getState_PrimitiveId(),line});
+}
+}
+for(let i=0;i<plan.notes.length;i++)await eda.sch_PrimitiveText.create(55,30+i*18,plan.notes[i],0,null,null,10,i===0);
+if(plan.page.index>0){result.saved=await eda.sch_Document.save();if(result.saved!==true)throw Error('Save did not return true');result.status='PAGE_CREATED_AND_SAVE_TRUE';}else result.status='PAGE_CREATED_NO_SAVE';return result;
+}catch(e){result.status='STOP_NATIVE_BUILD_ERROR';result.error={name:e?.name,message:e?.message,stack:e?.stack};return result;}
+'''
+for i,page in enumerate(pages):
+ data={'project':plan['project_uuid'],'page':page,'parts':[q for q in plan['parts']if q['page']==i],'notes':plan['notes'][i]}
+ (p/('build_page_'+str(i)+'.js')).write_text(template.replace('PLAN',json.dumps(data,ensure_ascii=False)),encoding='utf-8')
+print(json.dumps({'pages':pages,'scripts':4}))
+
+===== END prepare_native_scripts.py =====
+
+
+===== FULL prepare_repair.py | bytes 4905 | SHA256 1482E09562E547AF0E46EC6AF53C1C6940A9B860B7E27F6C86901C61C907460C | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\prepare_repair.py =====
+import json,pathlib
+p=pathlib.Path(__file__).resolve().parent;plan=json.loads((p/'PLANNED_NATIVE_DESIGN.json').read_text(encoding='utf-8'));pages=json.loads((p/'NATIVE_PAGE_IDS.json').read_text())
+template='''
+const plan=PLAN;
+const result={page:plan.page,repair:'ACTUAL_PIN_ROTATION_OUTWARD_AND_QUANTIZED_STUBS',parts:[],wires:[],ports:[]};
+const project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong project');
+await eda.dmt_EditorControl.openDocument(plan.page.uuid);if((await eda.dmt_Schematic.getCurrentSchematicPageInfo())?.uuid!==plan.page.uuid)throw Error('Wrong page');
+let cs=await eda.sch_PrimitiveComponent.getAll();
+const actualParts=cs.filter(c=>c.getState_ComponentType()==='part');
+if(actualParts.length!==plan.parts.length)throw Error('Unexpected part count');
+const ws=await eda.sch_PrimitiveWire.getAll();result.removedWires=ws.map(w=>w.getState_PrimitiveId());
+if(ws.length&&!(await eda.sch_PrimitiveWire.delete(result.removedWires)))throw Error('Delete generated wires');
+const ports=cs.filter(c=>c.getState_ComponentType()==='netport');result.removedPorts=ports.map(c=>c.getState_PrimitiveId());
+if(ports.length&&!(await eda.sch_PrimitiveComponent.delete(result.removedPorts)))throw Error('Delete generated ports');
+for(const q of plan.parts){
+ const c=actualParts.find(v=>v.getState_Designator()===q.ref);if(!c)throw Error('Missing '+q.ref);
+ let ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());
+ if(q.ref.startsWith('C')&&ps.some(v=>[90,270].includes(v.getState_Rotation()))){
+  const rotated=await eda.sch_PrimitiveComponent.modify(c,{rotation:90});if(!rotated)throw Error('Passive orientation');
+  ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());
+  (result.rotatedPassives??=[]).push(q.ref);
+ }
+ if(ps.length!==Object.keys(q.nets).length)throw Error('Pin count');
+ for(const pin of ps){const n=String(pin.getState_PinNumber()),net=q.nets[n];if(net===null){if(!pin.getState_NoConnected())throw Error('NC drift');continue;}
+ const x=pin.getState_X(),y=pin.getState_Y(),rot=pin.getState_Rotation();
+ if(![0,90,180,270].includes(rot))throw Error('Unreviewed actual pin angle '+rot);
+ const ox=rot===0?40:rot===180?-40:0,oy=ox===0?Math.sign(y-q.y)*40:0;
+ if(ox===0&&oy===0)throw Error('Undefined vertical outward coordinate');
+ const ex=x+ox,ey=y+oy;
+ const port=await eda.sch_PrimitiveComponent.createNetPort('BI',net,ex,ey,ox<0?180:ox>0?0:oy>0?90:270,false);if(!port)throw Error('Port');
+ const pp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(port.getState_PrimitiveId());if(pp.length!==1)throw Error('Port pin');
+ const ax=Math.round(pp[0].getState_X()*1e6)/1e6,ay=Math.round(pp[0].getState_Y()*1e6)/1e6;
+ if(Math.abs(ax-ex)>1e-5||Math.abs(ay-ey)>1e-5)throw Error('Actual port anchor mismatch');
+ const line=[x,y,ax,ay];const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');
+ for(const a of await eda.sch_PrimitiveAttribute.getAll(port.getState_PrimitiveId()))if(a.getState_ValueVisible())await eda.sch_PrimitiveAttribute.modify(a,{fontSize:6,rotation:0,x:ex+(ox>=0?18:-18),y:ey,alignMode:ox>=0?2:8});
+ result.wires.push({ref:q.ref,pin:n,id:w.getState_PrimitiveId(),net,line});result.ports.push({ref:q.ref,pin:n,id:port.getState_PrimitiveId(),net,x:ax,y:ay});
+ }
+ result.parts.push({ref:q.ref,id:c.getState_PrimitiveId()});
+}
+result.status='REPAIR_COMPLETED_UNSAVED';return result;
+'''
+for i,page in enumerate(pages):
+ d={'project':plan['project_uuid'],'page':page,'parts':[{'ref':q['ref'],'x':q['x'],'y':q['y'],'nets':q['nets']}for q in plan['parts']if q['page']==i]}
+ (p/('repair_page_'+str(i)+'.js')).write_text(template.replace('PLAN',json.dumps(d)),encoding='utf-8')
+(p/'NATIVE_GENERATION_CORRECTION.md').write_text('''# 生成纠正记录
+首轮使用库导出角度推断放置后的引脚方向错误。实际放置R_ISO0 pin2=(700,145),rotation0，pin1=(660,145),rotation180；首轮向内延伸导致两端导线自动归并，真实Protel2显示多个原本不同网络合并。首轮网表/PDF/API证据保留，不作为交付。
+按实际运行态角度0向右、180向左重建自有4页所有短导线/端口，并把原生端口浮点舍入到1e-6避免伪短分段；未知角度拒绝而非猜测。器件、physicalpin/net计划、NC不变。调整端口文本在图元外侧、字体6，提高图纸可读性。只删本包刚生成的导线/端口，不动旧工程/厂家库。
+另：第一版新图页空检查把官方默认sheet当电路器件拒绝，保留BUILD_PAGE_0错误并据实际sheet-only检查修正；没有重复创建电路器件。DC首次KCL测试的期望符号错误，纠正为sink=(vrow−source)/lead，模型不变，8类复核通过。这些是执行端生成/断言错误，不裁定嘉立创不兼容。
+''',encoding='utf-8')
+print('four repair scripts prepared')
+
+===== END prepare_repair.py =====
+
+
+===== FULL capture_and_export.js | bytes 1966 | SHA256 A51AB78E892FCDF9FD290517955EC584930AACFD75DBD931D4E7D7D555FF25AA | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\capture_and_export.js =====
+const ids=['9965fd7b16015eaf','1baf912db250d2de','a51b95c47c70bc0e','cd673e3782e532f6'];
+const p=await eda.dmt_Project.getCurrentProjectInfo();if(!['74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07','07975f0da1517bcd267595cda8361726b99324274473489c5a2f7c0530f33402'].includes(p?.uuid))throw Error('Wrong independent project');
+const sch=await eda.dmt_Schematic.getAllSchematicsInfo();if(sch.length!==1||sch[0].uuid!=='0ccfdd809e468881'||sch[0].parentProjectUuid!==p.uuid||sch[0].page.length!==4||sch[0].page.some(v=>!ids.includes(v.uuid)||v.parentSchematicUuid!==sch[0].uuid))throw Error('Cold reopen parent/page provenance');
+const pages=[];
+for(const id of ids){
+ await eda.dmt_EditorControl.openDocument(id);
+ const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();if(pg?.uuid!==id)throw Error('Wrong capture page');
+ const cs=await eda.sch_PrimitiveComponent.getAll(),parts=[];
+ for(const c of cs)parts.push({id:c.getState_PrimitiveId(),ref:c.getState_Designator(),type:c.getState_ComponentType(),name:c.getState_Name(),sub:c.getState_SubPartName(),association:c.getState_Component(),footprint:c.getState_Footprint(),props:c.getState_OtherProperty(),pins:(await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId())).map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),nc:v.getState_NoConnected()}))});
+ pages.push({page:pg,parts,nets:await eda.sch_Net.getAllNets(),source:await eda.sys_FileManager.getDocumentSource()});
+}
+const file=await eda.sch_ManufactureData.getNetlistFile('FIRST_BUILD_ACTUAL','Protel2');
+let actualFile=null;
+if(file){const bytes=new Uint8Array(await file.arrayBuffer());actualFile={name:file.name,size:file.size,type:file.type,constructor:file.constructor.name,tag:Object.prototype.toString.call(file),text:await file.text(),bytes:Array.from(bytes)};}
+return {project:p,pages,actualFile,netlistDefined:file!==undefined&&file!==null};
+
+===== END capture_and_export.js =====
+
+
+===== FULL finalize_package.py | bytes 8407 | SHA256 A36876085CA3A6BA8361A574E07C745F95B392F856933B79CFB522BCA3F95B51 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\finalize_package.py =====
+import pathlib,json,hashlib,datetime,collections,re
+from pypdf import PdfReader
+p=pathlib.Path(__file__).resolve().parent
+def j(n):return json.loads((p/n).read_text(encoding='utf-8-sig'))
+def sha(q):return hashlib.sha256(q.read_bytes()).hexdigest().upper()
+pre=j('REPAIRED_PRE_CLOSE_CONNECTIVITY_AUDIT.json');post=j('POST_REOPEN_CONNECTIVITY_AUDIT.json')
+assert pre['pass']and post['pass']
+canonical=dict(pin_checks_exact=pre['pin_checks']==post['pin_checks'],net_members_exact=pre['net_members']==post['net_members'],footprint_names_exact={x['ref']:x['actual_footprint']['name']for x in pre['part_identity']}=={x['ref']:x['actual_footprint']['name']for x in post['part_identity']})
+assert all(canonical.values())
+def metadata(n):
+ t=(p/n).read_bytes().decode('utf-8').replace('\r\r\n','\n').replace('\r\n','\n').replace('\r','\n')
+ records={}
+ for m in re.finditer(r'^\[\s*\n([\s\S]*?)^\]\s*$',t,re.M):
+  lines=m.group(1).splitlines();ref=lines[1].strip();ix=lines.index('*');pairs=lines[:ix]
+  if pairs and pairs[-1]=='':pairs=pairs[:-1]
+  assert len(pairs)%2==0,(ref,len(pairs))
+  records[ref]=collections.Counter(zip(pairs[::2],pairs[1::2]))
+ return records
+canonical['full_component_key_value_multisets_exact']=metadata('REPAIRED_PRE_CLOSE_CAPTURE.net')==metadata('POST_REOPEN_CAPTURE_EXPORT_ACTUAL.net')
+assert canonical['full_component_key_value_multisets_exact']
+canonical.update(raw_bytes_identical=(p/'REPAIRED_PRE_CLOSE_CAPTURE.net').read_bytes()==(p/'POST_REOPEN_CAPTURE_EXPORT_ACTUAL.net').read_bytes(),difference='component metadata field ordering changed after reopen; exact unordered key-value multisets and all physical pin/nets/footprint names equal')
+(p/'PERSISTENCE_COMPARISON.json').write_text(json.dumps(canonical,indent=2)+'\n',encoding='utf-8')
+native=pathlib.Path(r'C:\Users\yang\Documents\LCEDA-Pro\projects\SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2')
+copy=p/native.name;save=j('NATIVE_SAVE_COPY.json');assert sha(native)==sha(copy)==save['sha256']
+assert j('CLOSE_FIRST_BUILD_SESSION_ACTUAL.json')['parsed']['value']['status']=='closed'
+assert j('CLOSE_REOPEN_SESSION.json')['parsed']['value']['status']=='closed'
+pdf=p/'FIRST_BUILD_REVIEW_ONLY.pdf';reader=PdfReader(str(pdf));assert len(reader.pages)==4
+visual={'pages':4,'actual_native_export':True,'rendered_all_four_pages_and_visually_inspected':True,'readable_values_and_warning_notes':True,'issues':['some port net text collides with IC pin numbering/names and some designators','some leftmost BI port polygons meet or extend across the drawing border; no pin/net data lost in actual netlist'],'status':'DRAWING_LAYOUT_HOLD','drawing_export_budget_used':2,'drawing_export_budget_limit':2,'next_action':'separate approved layout correction with real attribute visibility/position handling and new export budget; do not exceed current budget'}
+(p/'DRAWING_VISUAL_QA.json').write_text(json.dumps(visual,indent=2)+'\n',encoding='utf-8')
+(p/'NATIVE_GENERATION_CORRECTION.md').write_text((p/'NATIVE_GENERATION_CORRECTION.md').read_text(encoding='utf-8')+'\n追加：部分10nF原生符号为垂直引脚，首个修复拒绝270°并停下，明确保留错误API证据，后按实际位置支持垂直引脚并将4个ADC滤波电容旋转90°，不改针号或网络。冷重开工程runtime UUID改变为07975f0d...33402；首次静态旧UUID守卫拒绝、零capture/修改。根据官方open绝对路径/字节hash、完整原project对象及同一schematic/4page UUID和parent链接受新运行态UUID。不是错误工程，也不是工具不兼容。\n',encoding='utf-8')
+timing=[]
+commands=[0xC000,0xC400,0xC800,0xCC00]
+for row in range(4):
+ start=row*2500
+ for state,base in [('blank',start),('active',start+1100)]:
+  timing.append({'row':row,'state':state,'CS_us':base+250,'result_channel':'previous;discard','command_hex':'C000','purpose':'select CH0 for next frame; output is discarded during settling'})
+  selected=0
+  for k in range(16):
+   nxt=(k+1)%4;timing.append({'row':row,'state':state,'CS_us':base+300+50*k,'result_channel':selected,'command_hex':f'{commands[nxt]:04X}','SPI_finish_us':base+308+50*k,'purpose':'valid planned acquisition; no actual firmware/SPI test'})
+   selected=nxt
+assert max(e['CS_us']for e in timing)<10000
+(p/'SPI_EVENT_PLAN.json').write_text(json.dumps({'source':'ADS8684 RevC8.4.1.1.1/Table6; next frame channel; full32clocks4MHz','events':timing,'hardware_verified':False,'configuration_readback_and_range_setup':'firmware pending'},indent=2)+'\n',encoding='utf-8')
+validation=j('VALIDATION_SUMMARY.json')
+summary={'project':'SCIENCE_ADK5556_4X4_DAQ_REPLICA','package':'SCIENCE_ADK5556_4X4_FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1','decision':'CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01','completed_utc':datetime.datetime.now(datetime.timezone.utc).isoformat(),'state':'NATIVE_SCHEMATIC_DELIVERED / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD / REFERENCE_CAPACITANCE_HOLD / ERC_DETAIL_HOLD / DRAWING_LAYOUT_HOLD','bench_released':False,'user_facts':['fixed4rows+4columns8electrode leads','approx1-7kohm / approx10%change; not metrologically frozen'],'native_file':save,'pdf':{'path':str(pdf),'bytes':pdf.stat().st_size,'sha256':sha(pdf),'pages':4,'status':visual['status']},'connectivity':{k:post[k]for k in ['expected_connected_pins','passed_connected_pins','expected_NC_count','actual_NC_count','actual_net_count','actual_parts','actual_component_blocks','pass']},'persisted_native_hash_unchanged_after_reopen_and_close':True,'persistence':canonical,'budgets_used':{'core_types':7,'library_identities':22,'P1_lookup_and_library_reads_conservative':54,'sources':'primary datasheets/EVM/Yageo plus2 model download locators; within20; failures/redirects retained in ledgers','model_downloads':2,'passive_protection_revision_rounds':1,'DC_groups':validation['dc_groups'],'AC_cases':0,'normal_transient_cases':0,'fault_transient_cases':0,'fault_static_qualitative_cases':24,'native_new_projects':1,'native_sessions':2,'save_invocations_returning_true':5,'complete_connection_audits':3,'native_connection_and_File_netlist_capture_versions':3,'native_DRC':1,'drawing_export_versions':2},'stage_evidence_timestamps_utc':{n:datetime.datetime.fromtimestamp((p/n).stat().st_mtime,datetime.timezone.utc).isoformat()for n in ['P1_COMPLETION.md','detailed_design.py','VALIDATION_SUMMARY.json','CREATE_FOUR_PAGES.json']},'native_sessions_closed':['14431564-62fb-4c45-9e30-adc4717bdb9b','1c6c22f6-f5bf-45b0-8cc4-1e696b6b45a7'],'actual_pending_or_timeout':False,'zero_operations':['oldmaster open/copy/write','customlibrary device/symbol/footprint create','PCB','manufacturing','procurement','Git writes','directDB/cache/profile/activation/system writes','third-party install'],'remaining':['manufacturer macro AC/normal transient and output recovery/loop PMGM','hardware single-fault/power sequence/backfeed/60sthermal and fault detection','REFIO effective capacitance >=10uF at4.096V and assembly traceability for generic headers','native10warn full descriptions/classification','IC port-label layout correction; export budget exhausted','full accuracy/noise/temperature/lead-resistance and standard bench validation; planned firmware not executed'],'pro_request':'Accept exact saved/reopened native connectivity and bounded DC findings, retain all HOLDs; give unique next package and budget for electrical protection/dynamic closure and explicit layout/DRC detail allowance. No PCB/manufacturing release.'}
+(p/'EXECUTION_SUMMARY.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+(p/'VALIDATION_REPORT.md').write_text((p/'VALIDATION_REPORT.md').read_text(encoding='utf-8')+'\n静态故障电阻界的前提是两端在0–5.25V、无电容尖峰；不是内部钳位/输出或供电时序的保证。时序规划136条（每状态1dummy+16有效，共8窗口），未运行固件。首次进入模式和寄存器配置属于startup，另需验证。\n',encoding='utf-8')
+files=[]
+for q in sorted(p.rglob('*')):
+ if q.is_file()and q.name not in ['PACKAGE_HASHES.json','PRO_FIRST_BUILD_RECEIPT.txt','PRO_DELIVERY.json']:
+  files.append({'relative_path':str(q.relative_to(p)),'bytes':q.stat().st_size,'sha256':sha(q)})
+(p/'PACKAGE_HASHES.json').write_text(json.dumps({'root':str(p),'files':files},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(json.dumps({'summary':summary,'file_count':len(files)},ensure_ascii=True))
+
+===== END finalize_package.py =====
+
+
+===== FULL build_pro_receipt.py | bytes 8137 | SHA256 33B8C47BF48C6C6B97944B873854A89464274E68A85A3E34F950EF19E44E6562 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\build_pro_receipt.py =====
+import pathlib,json,hashlib,datetime,csv
+p=pathlib.Path(__file__).resolve().parent
+def sha(f):return hashlib.sha256(f.read_bytes()).hexdigest().upper()
+with(p/'EXACT_BOM_AND_PINMAP.csv').open(encoding='utf-8-sig',newline='')as f:pinrows=list(csv.DictReader(f))
+for row in pinrows:row['remaining']='post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD'
+with(p/'EXACT_BOM_AND_PINMAP.csv').open('w',encoding='utf-8-sig',newline='')as f:w=csv.DictWriter(f,fieldnames=list(pinrows[0]));w.writeheader();w.writerows(pinrows)
+report=(p/'VALIDATION_REPORT.md').read_text(encoding='utf-8').replace('完整137个时序事件中136条实际生成规划（每状态1dummy+16有效，共8窗口=136），未运行固件。','时序规划136条（每状态1dummy+16有效，共8窗口），未运行固件。')
+(p/'VALIDATION_REPORT.md').write_text(report,encoding='utf-8')
+raw=json.loads((p/'POST_REOPEN_CAPTURE_EXPORT_ACTUAL.json').read_text(encoding='utf-8'))['parsed']['value']
+snapshot={'project':{k:raw['project'].get(k)for k in ['uuid','name','friendlyName','teamUuid']},'pages':[{'page':q['page'],'parts':[{k:c.get(k)for k in ['id','ref','name','sub','association','footprint','pins']}for c in q['parts']if c['type']=='part']}for q in raw['pages']]}
+(p/'PLACED_POST_REOPEN_INSTANCE_SNAPSHOT.json').write_text(json.dumps(snapshot,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf-8')
+summary=json.loads((p/'EXECUTION_SUMMARY.json').read_text(encoding='utf-8'))
+summary['timing_events']=136
+summary['P4_elapsed_minutes_through_final_native_close']=round((datetime.datetime.fromisoformat(summary['completed_utc'])-datetime.datetime.fromisoformat(summary['stage_evidence_timestamps_utc']['CREATE_FOUR_PAGES.json'])).total_seconds()/60,2)
+summary['limits_preserved']='No further native edits/export after two drawing versions; graphic flaws disclosed. Native connection is accepted only as logical verification; bench/manufacturing remain blocked.'
+(p/'EXECUTION_SUMMARY.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+files=[]
+for q in sorted(p.rglob('*')):
+ if q.is_file()and q.name not in ['PACKAGE_HASHES.json','PRO_FIRST_BUILD_RECEIPT.txt','PRO_DELIVERY.json','PRO_RECEIPT_PARTS.json']and not q.name.startswith('PRO_PART_'):
+  files.append({'relative_path':str(q.relative_to(p)),'bytes':q.stat().st_size,'sha256':sha(q)})
+(p/'PACKAGE_HASHES.json').write_text(json.dumps({'root':str(p),'files':files},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+intro='''CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01
+仅项目 SCIENCE_ADK5556_4X4_DAQ_REPLICA；对应你已授权并完成的 CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01，执行端用户全部普通技术连续授权及直接报告有效。不是旧Decision29/SGM调试。
+现正式提交唯一包 SCIENCE_ADK5556_4X4_FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1 的完整必要审查材料。Pro不能读取本地，下面直接正文。仅等完整多段END后统一裁定；中途仅ACK，不发布新任务。无需用户重新确认模型或重复供应电路参数。
+事实与结果：现成原生库7核心类型/22独立器件身份，120核心物理针号与厂家/封装焊盘对应；78实际器件，4页新工程，258连接针/28NC/63网。初次自动连接脚本方向错误被真实网表发现，未冒称PASS；修复后preclose和coldreopen两个实际File网表均258/258及完整网络成员/器件集合/真实封装名称PASS，5次save=true，独立close/reopen，磁盘字节hash不变。前后两份真实网表字节不同，完整组件key/value多重集合完全相同，仅字段顺序变化；不冒称字节相等。
+81实际线性DC组(324选行状态/1296读数)，8物理自检；固定校准后9阵列模式下每线0.1Ω最大误差0.0797833%，每线1Ω0.791526%超0.20%线阻分配。不是严格最坏或实物性能保证。24项静态/定性故障审查，不是24暂态运行。官方PSpice/TINA模型2包已保全但未运行；本机未确认可用模拟器，不安装第三方，不转回长API排错。AC/正常暂态/故障暂态均0，PM/GM/300µs/噪声/温度/60s热/供电时序未通过。
+保持 DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD / REFERENCE_CAPACITANCE_HOLD / ERC_DETAIL_HOLD / DRAWING_LAYOUT_HOLD / BENCH_NOT_RELEASED。native DRC实际只返回warn10 count，无正文，不称DRC clean。最终4页真实PDF已全部render看过，仍有IC网名与针号/位号重叠、左缘端口碰图框；export2/2耗尽而停止，不隐藏排版缺陷或擅增预算。图纸只供审查，不称出版/制造完成。
+本轮没有旧master打开/复制/写入、自定义库建器件、PCB、制造、采购、Git或直接系统/数据库/cache/profile/activation变更。两自有sessions均official closed，无pending/timeout。官方create在配置项目目录生成新工程，再字节原样拷贝交付目录；不改APP_PROJECT_DIR。
+希望裁定：接受已证明的原生逻辑连通性/保存持久化/有边界DC结果并维持以上HOLD；集中给唯一下一任务、输入、交付物、通过/停止门、预算。优先闭合故障/动态工程门，同时明确完整DRC正文和端口文字排版后续额度。不得把新预算伪装成PCB或制造许可；切核心系列/E/Rf等需明确裁定。
+''' 
+names=['PRO_INTEGRATED_DESIGN_GATES_FULL.txt','PLAN.md','P1_COMPLETION.md','BASELINE_AND_CHANGELOG.md','EXACT_BOM_AND_PINMAP.csv','DETAILED_CIRCUIT_AND_PROTECTION.md','ERROR_CALIBRATION_AND_TIMING.md','VALIDATION_REPORT.md','VALIDATION_SUMMARY.json','DC_CASES.csv','FAULT_CASES.json','SPI_EVENT_PLAN.json','P1_CORE_PINMAP_CHECKS.json','PLACED_POST_REOPEN_INSTANCE_SNAPSHOT.json','PLANNED_NATIVE_DESIGN.json','POST_REOPEN_CONNECTIVITY_AUDIT.json','PERSISTENCE_COMPARISON.json','REPAIRED_PRE_CLOSE_CAPTURE.net','POST_REOPEN_CAPTURE_EXPORT_ACTUAL.net','ERC_REPORT.md','DRAWING_VISUAL_QA.json','NATIVE_GENERATION_CORRECTION.md','EXECUTION_SUMMARY.json','SOURCE_ACQUISITION.json','SOURCE_RETRY.json','SUPPORT_SOURCE_ACQUISITION.json','verify_core_pinmap.py','validate_electrical.py','audit_actual_netlist.py','prepare_native_scripts.py','prepare_repair.py','capture_and_export.js','finalize_package.py','build_pro_receipt.py','PACKAGE_HASHES.json']
+body=intro+'\n本地根目录：'+str(p)+'\n'
+for name in names:
+ f=p/name;b=f.read_bytes();t=b.decode('utf-8-sig')
+ if name.endswith('.json'):t=json.dumps(json.loads(t),ensure_ascii=False,separators=(',',':'))
+ body+='\n\n===== FULL '+name+' | bytes '+str(len(b))+' | SHA256 '+sha(f)+' | '+str(f)+' =====\n'+t+'\n===== END '+name+' =====\n'
+body+='\n\n未直接粘贴二进制PDF/eprj2/elibz2/厂家PDF和原始每页大source/API/b64。完整hash清单包含它们，但不宣称Pro读取这些本地文件；审查所需真实实际pin/NC/封装/原始两份完整Protel2/全部算法和输入/表格已经上文直接正文。DC_RESULTS细节本地保留，完整求解代码、输入模式及81行CSV可复算，非以路径当结果。\nEND-OF-COMPLETE-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT\n'
+out=p/'PRO_FIRST_BUILD_RECEIPT.txt';out.write_text(body,encoding='utf-8')
+size=43000;chunks=[body[i:i+size]for i in range(0,len(body),size)];deliver=[]
+for i,ch in enumerate(chunks,1):
+ text=f'CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01\nPART {i}/{len(chunks)}。严格只处理本项目。这是直接正文的一段，跨段截断连续拼接；前段只ACK，最后END后给完整统一裁定。禁止拿旧回复当新裁定。\n'+ch
+ if i==len(chunks):text+='\nFINAL-PART-END-OF-COMPLETE-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT'
+ f=p/f'PRO_PART_{i:02}.txt';f.write_text(text,encoding='utf-8');deliver.append({'part':i,'path':str(f),'chars':len(text),'sha256':sha(f)})
+record={'marker':'CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01','full_chars':len(body),'full_sha256':sha(out),'parts':deliver,'threadId':'69dd2e6e-e580-83ea-a898-0b9abcf3c21a'}
+(p/'PRO_RECEIPT_PARTS.json').write_text(json.dumps(record,indent=2)+'\n',encoding='utf-8')
+print(json.dumps(record))
+
+===== END build_pro_receipt.py =====
+
+
+===== FULL PACKAGE_HASHES.json | bytes 29668 | SHA256 9F40A6FBC476EE3E603CDD85783BF423B250834C07D2559F37F3D9290D4B5845 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\PACKAGE_HASHES.json =====
+{"root":"E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1","files":[{"relative_path":"acquire_sources.py","bytes":2248,"sha256":"FB633083F54C8B891349C005A6267E3C2ABEEE27FA1A99229C7800665D1924F2"},{"relative_path":"acquire_support.py","bytes":1228,"sha256":"CF45C026711B17A96406423EFB8CEEB3040D4A1B82399495FF1AC9B1C06EC172"},{"relative_path":"activate_first_build.js","bytes":238,"sha256":"8F03BB89BCA4D13BE054950E0FB8B12D37A8ECB3B3CF36E68A6C9D57BBAAD4B1"},{"relative_path":"ACTIVATE_FIRST_BUILD.json","bytes":1109,"sha256":"9A9A725EAE1EBE91382CBA3C34EBA23740D72B72DE2C5DED088B9DB04F6CB738"},{"relative_path":"ACTUAL_NETLIST_METADATA_DIFF.txt","bytes":117182,"sha256":"2852633590429500C5EB7BCC9A3AE3F5170413CFA269ADF0A61D778985165FF5"},{"relative_path":"all_library\\device2.json","bytes":82100,"sha256":"B8E1843EAC02E0ECB3CEC76D199A3BB8B65AEBEB114A9811D45A09075DC1AF0B"},{"relative_path":"all_library\\ProLib_22pcs_2026-10-01.elibu","bytes":656593,"sha256":"001CAF77D88698FBB8842C9F2213A6585260C0B469B9200D3E009478BF174903"},{"relative_path":"ALL_LIBRARY.elibz2","bytes":61040,"sha256":"C591C98AF3D496AE214BDF9989AB340DC40843656ECC2FE3624E23EFA5494F8A"},{"relative_path":"ALL_LIBRARY_FILE.json","bytes":164930,"sha256":"E13C23C848F7FD13E3397120BA3D3AD228F1D36138D69CCEFB60C51C4D09825E"},{"relative_path":"ALL_LIBRARY_PARSED.json","bytes":248958,"sha256":"518B7D9E87725B07280B90D4E71756716827375DE3E8EDE2ED079BE8FA74D700"},{"relative_path":"ALL_SELECTED_DEVICES.json","bytes":43301,"sha256":"3A70316E406C254BCB2EDB54EA9F9EA0228AADFB8009F40998D93F67FB731092"},{"relative_path":"audit_actual_netlist.py","bytes":4479,"sha256":"995BC98996C7D2AAA25A4F57D17820C57E2E235F5C06AEF08695CB2414AFF8BC"},{"relative_path":"BASELINE_AND_CHANGELOG.md","bytes":1713,"sha256":"D6427F9F9D9A8BEAE139147276F97D95261FC021FA3E3E4FB40C3B6BAD543D79"},{"relative_path":"build_page_0.js","bytes":10516,"sha256":"C9E0785A9A7EE164C468C236A43460684C222042A71388A921C6F0B9BDEB7176"},{"relative_path":"BUILD_PAGE_0.json","bytes":12970,"sha256":"C7528CBC2E31A50F8D5D93A3F99A8844D03919C63999475D6FACC356D36F5249"},{"relative_path":"BUILD_PAGE_0_COMPLETED.json","bytes":71684,"sha256":"BE900C5E1C929F0EC760CDF92B87FF8686FFD947D775DB2590A2E977C6BE29C5"},{"relative_path":"build_page_1.js","bytes":11319,"sha256":"2D541676432919FAA9768AB4854685DFF44BD26196E0DAE0234618896E4541C0"},{"relative_path":"BUILD_PAGE_1.json","bytes":98681,"sha256":"B72B7BD1CF98D14AAD15F708B750B0089DF6DC194B71EAAD655E6DB6BED3DDB5"},{"relative_path":"build_page_2.js","bytes":11154,"sha256":"9CAA5D1B092815D55BB4BF48770F7E7668CEF6D49F88EE1FD7DF6A930FFB2FF2"},{"relative_path":"BUILD_PAGE_2.json","bytes":80533,"sha256":"04E878C55C06FD106DCF85156275DB3AC4AC075EBD85CEADA6FFD1F3A06E9035"},{"relative_path":"build_page_3.js","bytes":9672,"sha256":"1D0FE4FDA971AC18E0D5583BE29C811B8CB149AEE0050D67B8CEED535455E784"},{"relative_path":"BUILD_PAGE_3.json","bytes":101401,"sha256":"C207CEB4566DBE3EE1E9F6D0FB7EAC4369905D13C39D2EE4865C51ED38A1E2C5"},{"relative_path":"build_plan.py","bytes":7919,"sha256":"4EC71E0851BB2C75DEE5989AD22C85F185E28746B854DFF6385F1ED21F1C82BD"},{"relative_path":"build_pro_receipt.py","bytes":8137,"sha256":"33B8C47BF48C6C6B97944B873854A89464274E68A85A3E34F950EF19E44E6562"},{"relative_path":"capture_and_export.js","bytes":1966,"sha256":"A51AB78E892FCDF9FD290517955EC584930AACFD75DBD931D4E7D7D555FF25AA"},{"relative_path":"cli_call.py","bytes":2214,"sha256":"82F7CDEF77FCCE72AE2F00E9EFA0B3BA2C54C651D57270B6001715803B73B8EC"},{"relative_path":"CLI_HELP.json","bytes":1816,"sha256":"B6EEF074050A113A4B4BB192574F1EAA1B68B3903319325F20BC1C5645B034EC"},{"relative_path":"CLOSE_FIRST_BUILD_SESSION.json","bytes":553,"sha256":"95D86DB07071FD0159A89DB143261E9A52BABBD1FF0FD03952B67AE8E810C420"},{"relative_path":"CLOSE_FIRST_BUILD_SESSION_ACTUAL.json","bytes":651,"sha256":"3606BA538E530C602BEF1A37AF275010ABA9E3B3163232A6CDDA3FC578BB0089"},{"relative_path":"CLOSE_REOPEN_SESSION.json","bytes":651,"sha256":"C81E5CE00AF4A566E427AAF9AC65D60FC4814A14DA931B64771F80778973C382"},{"relative_path":"COLD_REOPEN_CONTEXT.json","bytes":40787,"sha256":"603084E71BDB45C7C8D6BEEE0351E6F9261C395DCD3A775E2C72DFE91E4D1570"},{"relative_path":"COLD_REOPEN_FIRST_BUILD.json","bytes":872,"sha256":"5B17B9A43C3689C8E6768426B93DDE240555A5492CD594EE859F1219211F2322"},{"relative_path":"CORE_DEVICES_SELECTED.json","bytes":17929,"sha256":"4C149DD55B448FEA46D18A74BC419AB97861B87ACB2AB588A618AED3C86BD6DB"},{"relative_path":"core_library\\device2.json","bytes":34725,"sha256":"8E6ECA92060A675AE1548002B8FFF93060929F3D352B7283EFD5B83CF43E1015"},{"relative_path":"core_library\\ProLib_7pcs_2026-10-01.elibu","bytes":456456,"sha256":"09350BA3EFEC6EB613555DEC37CA235FA9FFC285673586768F446D05C4D700E7"},{"relative_path":"CORE_LIBRARY.elibz2","bytes":44617,"sha256":"C6197DF4E59C2F9F8F27CAA7C76ED391A4670C1056FD8347DC46D86EA452E57C"},{"relative_path":"CORE_LIBRARY_FILE.json","bytes":120557,"sha256":"C61D96107D90A1DFFD56FB59CD60537976A372485DF48772700E91F1950D965F"},{"relative_path":"CORE_LIBRARY_PIN_PAD_RAW.json","bytes":153132,"sha256":"C36AF8C52F95DA0A261594D36E17D17C0F38708674AFF5832E9ABAFCDC721322"},{"relative_path":"create_first_build.js","bytes":400,"sha256":"3084908BA36742527AAF02C64B47370B816EDAB80CDE74050787CD6D6832120F"},{"relative_path":"CREATE_FIRST_BUILD.json","bytes":1609,"sha256":"160BBECFD405E39DE222D113493F2A228C0017DDDABC6228C1679A83885656C0"},{"relative_path":"CREATE_FOUR_PAGES.json","bytes":15729,"sha256":"0C5F170CBED87AD043810B8224B06EB94D3CE9D75C092AB4D978B42904CD2FC6"},{"relative_path":"create_pages.js","bytes":700,"sha256":"D7B65204322B6BC095C4ADFB056EFCF278580D94E77ECB6684EE2CFC2E4A4134"},{"relative_path":"CREATE_PROJECT_API.json","bytes":2924,"sha256":"9DFCAC193C237DB605213110D07366E1F0C0FABF7BB823869509CF6CDB937EF1"},{"relative_path":"DC_CASES.csv","bytes":13541,"sha256":"65FD625AE8C7BE2010A36F4125BEBCC2345E4A9CA840FE089A11E6E319892590"},{"relative_path":"DC_RESULTS.json","bytes":200351,"sha256":"84F33F244606B08DE0825FAED4809DE6E032E6E411076D24662989E24D1983F1"},{"relative_path":"DETAILED_CIRCUIT_AND_PROTECTION.md","bytes":3511,"sha256":"17FEEE16D70DBE14FA971FA236BE50026B5D68C61507D1765F6B160773E5285B"},{"relative_path":"detailed_design.py","bytes":8920,"sha256":"300A0E996483C967A902AD027B86FAF5734E828CEC807E57359B5507FD8C04C6"},{"relative_path":"DRAWING_VISUAL_QA.json","bytes":650,"sha256":"EC66EDB07BD6CD05222DD6137A62BEBB4973643E4FD209EDEA8E7F98744AF3C2"},{"relative_path":"DRC_REPAIRED.json","bytes":38387,"sha256":"6D1FEEC788F380BCDB397FDC3DE8D400F1243D0FDFBE217BF929F22AAB7F6A32"},{"relative_path":"EMPTY_PAGE_INSPECTION.json","bytes":977,"sha256":"DA7AED4E79CB3940539B3DF9B6FCF8323FD48846836E4D8E36F22E42EB1A787F"},{"relative_path":"ERC_REPORT.md","bytes":450,"sha256":"D7ACDE8E08EF2EAF57A606DD0065F38C149D896E43B37C229AAB5DB1515F965D"},{"relative_path":"ERROR_CALIBRATION_AND_TIMING.md","bytes":2250,"sha256":"C7C47BEA130256BE21362A66698C3A777E3CF00A1B887A98419BC1C673559549"},{"relative_path":"EXACT_BOM_AND_PINMAP.csv","bytes":89060,"sha256":"905B25011C2634F9FEF577C4EE96ABB548530395C55FB7A63D988590F0424C60"},{"relative_path":"EXECUTION_SUMMARY.json","bytes":4611,"sha256":"847FFD45DE0ABF090C62046C8014A8C1702AA78E171DFD90104C8A6C1EE8725C"},{"relative_path":"EXPORT_ALL_ARGS.json","bytes":803,"sha256":"B057A119E0FACFC0075853B719740B7E4A5703EAC35161BE323FC1C1E360B9B4"},{"relative_path":"export_core_library.js","bytes":487,"sha256":"EAB697D4AA8D13DCDCC46D867867EF356D1C02DEB1BFBCE8A327024E81BBF5E5"},{"relative_path":"export_drawing.js","bytes":768,"sha256":"C96A0B098D3455D85FDACD51C604BF408F6ED8AB9B107D6307ADF955861C7CD4"},{"relative_path":"FAULT_CASES.json","bytes":9971,"sha256":"25E30C48DBDEFAC310819E0A08E97818E2D6330F66262B6D68835452012864DD"},{"relative_path":"FINAL_PDF_PAGE-1.png","bytes":132012,"sha256":"F3FF467E3CF9C10569762E409F110CCE578986E32769D5CA2F9375006A7A9F28"},{"relative_path":"FINAL_PDF_PAGE-2.png","bytes":195744,"sha256":"53E26F5E8F49C7F91B3E6A49ED5B2B165B142071B7005BD8886B9A9F59076B19"},{"relative_path":"FINAL_PDF_PAGE-3.png","bytes":148146,"sha256":"B6CC72E5281CC02FD86562FD3E979B5E763B4C16CA71D51A2A547BFF38B3902C"},{"relative_path":"FINAL_PDF_PAGE-4.png","bytes":220891,"sha256":"963FCDE52A3DF2EE94BA68BBE9F2D77914B5CA817F6C5D0C8B683FA2217CC610"},{"relative_path":"finalize_package.py","bytes":8407,"sha256":"A36876085CA3A6BA8361A574E07C745F95B392F856933B79CFB522BCA3F95B51"},{"relative_path":"FIRST_BARE_OPEN.json","bytes":465,"sha256":"DB4C6A0E802A5D59AB99A45B6F49B47FCFE4FEE9FD2B1821AA66334A1B6EECB8"},{"relative_path":"FIRST_BUILD_CONTEXT.json","bytes":13106,"sha256":"282F03F088E45B5C66F5684E0D82199AC7502846A94223B5AE50BE9C006D1DA6"},{"relative_path":"FIRST_BUILD_REVIEW_ONLY.pdf","bytes":376380,"sha256":"0DDA69D33D7E774A6B72FEAFEEE67D6364DD5E3D17099E21474F077D84212698"},{"relative_path":"FIRST_BUILD_REVIEW_ONLY_V1.pdf","bytes":335556,"sha256":"1982E0D01EBE5DF5B3C56CE539DF0B8B4BC03AA5E9878F57EEFABA26B3E0463F"},{"relative_path":"INITIAL_SESSIONS.json","bytes":3556,"sha256":"B3D3D249D08C7F39EE04E4257EC28C890E860B5259808BBF3B6CFD289904DB03"},{"relative_path":"INVOKE_HELP.json","bytes":1019,"sha256":"96F440ADB6EA66E16DE97518CEB8F3D36852BBDBE113E47F0CE200DF6C5CFF4B"},{"relative_path":"LIB_CONNECTOR_CAP_SEARCH.json","bytes":27957,"sha256":"4A873C3CF358E09F3555B27F83580A7913AD59E0139F0894F2C6094A5E2C4E92"},{"relative_path":"LIB_CORE_SEARCH_REST.json","bytes":54816,"sha256":"79C30C0E901A968EBD5732F987D590477B42AB9E8EDA8B3987ED7C2D3FA141F5"},{"relative_path":"LIB_OPA4388_SEARCH.json","bytes":12521,"sha256":"7426F411D9BC829DC9878A37D805A36894EB04DB0865012D2FFCAC6B9F7F80E2"},{"relative_path":"LIB_PASSIVE_CANDIDATES.json","bytes":44632,"sha256":"88CB54328D83F1603012E5DBAA02CA44838ADD94A6BB860763A059A17C879486"},{"relative_path":"NATIVE_GENERATION_CORRECTION.md","bytes":1538,"sha256":"C5E897C155FAE0C86D9DD1BC48994DB183CA4DAA6961AE14EBCFD04E4B4CFA23"},{"relative_path":"NATIVE_PAGE_IDS.json","bytes":375,"sha256":"BE7F7561A2DEF3258A65B2E5A38A04178B05B39BC7AE101EEB61B5594BF6B63D"},{"relative_path":"NATIVE_SAVE_COPY.json","bytes":398,"sha256":"629EDE14F960F7556C3321C8635D2E0E197CAADE80E325FF7C3605B96CC261FD"},{"relative_path":"OPEN_HELP.json","bytes":618,"sha256":"4FACBEFA28513F1F9FF16A3D6ED3CC66761C765C6B58F0E43D949E315049B6A8"},{"relative_path":"P1_COMPLETION.md","bytes":3049,"sha256":"5CBBD2848E0155E6562CB38A46ED7A60E517D2C6A0AE9582BBDFF88BFDA9CA4F"},{"relative

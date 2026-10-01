@@ -1,0 +1,2552 @@
+=== PAGE 1 ===
+OPAx388 Precision, Zero-Drift, Zero-Crossover, True Rail-to-Rail, Input/Output 
+Operational Amplifiers
+1 Features
+• Ultra-low offset voltage: ±0.25 µV
+• Zero drift: ±0.005 µV/°C
+• Zero crossover: 140-dB CMRR true RRIO
+• Low noise: 7.0 nV√Hz at 1 kHz
+• No 1/f noise: 140 nVPP (0.1 Hz to 10 Hz)
+• Fast settling: 2 µs (1 V to 0.01%)
+• Gain bandwidth: 10 MHz
+• Single supply: 2.5 V to 5.5 V
+• Dual supply: ±1.25 V to ±2.75 V
+• True rail-to-rail input and output
+• EMI/RFI filtered inputs
+• Industry-standard packages:
+– Single in SOIC-8, SOT-23-5, and VSSOP-8
+– Dual in SOIC-8 and VSSOP-8
+– Quad in SOIC-14 and TSSOP-14
+2 Applications
+• Merchant network and server PSU
+• Notebook PC power adapter design
+• Weigh scale
+• Lab and field instrumentation
+• Battery test
+• Electronic thermometer
+• Temperature transmitter
+3 Description
+The OPAx388 (OPA388, OPA2388, and OPA4388) 
+series of precision operational amplifiers are ultra-low 
+noise, fast-settling, zero-drift, zero-crossover devices 
+that provide rail-to-rail input and output operation. 
+These features and excellent ac performance, 
+combined with only 0.25 µV of offset and 0.005 
+µV/°C of drift over temperature, makes the OPAx388 
+a great choice for driving high-precision, analog-to-
+digital converters (ADCs) or buffering the output of 
+high-resolution, digital-to-analog converters (DACs). 
+This design results in excellent performance when 
+driving analog-to-digital converters (ADCs) without 
+degradation of linearity. The OPA388 (single version) 
+is available in the VSSOP-8, SOT23-5, and SOIC-8 
+packages. The OPA2388 (dual version) is offered in 
+the VSSOP-8 and SO-8 packages. The OPA4388 
+(quad version) is offered in the TSSOP-14 and 
+SO-14 packages. All versions are specified over the 
+industrial temperature range of –40°C to +125°C.
+Device Information
+PART NUMBER PACKAGE(1) BODY SIZE (NOM)
+OPA388
+SOIC (8) 4.90 mm × 3.90 mm
+SOT-23 (5) 2.90 mm × 1.60 mm
+VSSOP (8) 3.00 mm × 3.00 mm
+OPA2388
+SOIC (8) 4.90 mm × 3.90 mm
+VSSOP (8) 3.00 mm × 3.00 mm
+OPA4388
+SOIC (14) 8.65 mm x 3.90 mm
+TSSOP (14) 5.00 mm x 4.40 mm
+(1) For all available packages, see the package option 
+addendum at the end of the data sheet.
+GND
+R2
+25 k
+RG
+R3
+25 k
++
+±
+   OPA388
+GND
+5 V
+R4
+100 k
+REF5025
+5 V
++
+±
+      OPA388 
+GND
+5 V
+R2
+10 k
+GND
+VOUT
+R4
+100 k5 V
+G = 5 + 200 N
+RG
+ 
++SENSE
+±SENSE
+Load Cell
+The OPA388 in a High-CMRR, Instrumentation 
+Amplifier Application
+-3
+-2
+-1
+0
+1
+2
+3
+2.47
+2.48
+2.49
+2.5
+2.51
+2.52
+2.53
+±100 ±80 ±60 ±40 ±20 0 20 40 60 80 100
+Non-Linearity (ppm) 
+Output Voltage (V) 
+û55SSP C001 
+RG = 1 k 
+The OPA388 Allows Precision, Low-Error 
+Measurements
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, 
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+=== PAGE 2 ===
+Table of Contents
+1 Features............................................................................1
+2 Applications.....................................................................1
+3 Description.......................................................................1
+4 Revision History.............................................................. 2
+5 Pin Configuration and Functions...................................4
+6 Specifications.................................................................. 6
+6.1 Absolute Maximum Ratings........................................ 6
+6.2 ESD Ratings............................................................... 6
+6.3 Recommended Operating Conditions.........................6
+6.4 Thermal Information: OPA388.................................... 6
+6.5 Thermal Information: OPA2388.................................. 7
+6.6 Thermal Information: OPA4388.................................. 7
+6.7 Electrical Characteristics: VS = ±1.25 V to ±2.75 
+V (VS = 2.5 to 5.5 V)..................................................... 7
+6.8 Typical Characteristics..............................................10
+7 Detailed Description......................................................18
+7.1 Overview...................................................................18
+7.2 Functional Block Diagram.........................................18
+7.3 Feature Description...................................................19
+7.4 Device Functional Modes..........................................20
+8 Application and Implementation..................................21
+8.1 Application Information............................................. 21
+8.2 Typical Applications.................................................. 21
+9 Power Supply Recommendations................................25
+10 Layout...........................................................................26
+10.1 Layout Guidelines................................................... 26
+10.2 Layout Example...................................................... 26
+11 Device and Documentation Support..........................27
+11.1 Device Support........................................................27
+11.2 Documentation Support.......................................... 27
+11.3 Related Links.......................................................... 27
+11.4 Receiving Notification of Documentation Updates.. 27
+11.5 Support Resources................................................. 27
+11.6 Trademarks............................................................. 28
+11.7 Electrostatic Discharge Caution.............................. 28
+11.8 Glossary.................................................................. 28
+12 Mechanical, Packaging, and Orderable 
+Information.................................................................... 28
+4 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision C (May 2019) to Revision D (July 2020) Page
+• Changed OPA2388 SOIC-8 (D) package from advanced information (preview) to production data (active) .... 1
+• Changed typical application schematic to show correct locations for reference designators.............................1
+• Changed Figure 8-5 to show correct locations for reference designators ....................................................... 25
+Changes from Revision B (January 2019) to Revision C (May 2019) Page
+• Changed OPA4388 from advanced information (preview) to production data (active).......................................1
+• Added VOS specifications for OPA4388.............................................................................................................7
+• Added dVOS/dT specifications for OPA4388......................................................................................................7
+• Added PSRR specifications for OPA4388.......................................................................................................... 7
+• Added IB specifications for OPA4388.................................................................................................................7
+• Added IOS specifications for OPA4388.............................................................................................................. 7
+• Added CMRR specifications for OPA4388..........................................................................................................7
+• Added AOL specifications for OPA4388............................................................................................................. 7
+Changes from Revision A (July 2018) to Revision B (January 2019) Page
+• Changed OPA388 DBV (SOT-23) package from preview to production data ....................................................1
+• Deleted redundant temperature specification in EC table.................................................................................. 7
+• Added Figure 6, Offset Voltage vs Supply Voltage: OPA4388 .........................................................................10
+• Added Figure 7, Offset Voltage Long Term Drift ..............................................................................................10
+• Changed Figure 50, OPA388 Layout Example; updated for accuracy............................................................. 26
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+2 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 3 ===
+Changes from Revision * (December 2016) to Revision A (July 2018) Page
+• Changed device status from Production Data to Production Data/Mixed Status................................................1
+• Added top navigator link for TI reference design................................................................................................1
+• Added preview notes to 5-pin SOT-23 (OPA388), 8-pin SOIC (OPA2388), 14-pin SOIC, and 14-pin TSSOP 
+(OPA4388) packages in Device Information table.............................................................................................. 1
+• Added package preview notes to Pin Configuration and Functions section.......................................................4
+• AOL test condition changed to 0.15 V from 0.1 V...............................................................................................7
+• AOL test condition changed to 0.15 V from 0.1 V...............................................................................................7
+• AOL test condition changed to 0.25 V from 0.2 V...............................................................................................7
+• AOL test condition changed to 0.3 V from 0.25 V...............................................................................................7
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 3
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 4 ===
+5 Pin Configuration and Functions
++
+±
+1OUT
+2V±
+3+IN 4 ±IN
+5 V+
+Not to scale
+Figure 5-1. OPA388 DBV Package, 5-Pin SOT-23, 
+Top View 
++
+±
+1NC 8  NC
+2±IN 7  V+
+3+IN 6  OUT
+4V± 5  NC
+Not to scale
+Figure 5-2. OPA388 D and DGK Packages, 8-Pin 
+SOIC and VSSOP, Top View 
+ 
+Pin Functions: OPA388
+PIN
+I/O DESCRIPTION
+NAME
+OPA388
+D (SOIC),
+DGK (VSSOP) DBV (SOT-23)
+–IN 2 4 I Inverting input
++IN 3 3 I Noninverting input
+NC 1, 5, 8 — — No internal connection (can be left floating)
+OUT 6 1 O Output
+V– 4 2 — Negative (lowest) power supply
+V+ 7 5 — Positive (highest) power supply
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+4 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 5 ===
+1OUT A 8  V+
+2±IN A 7  OUT B
+3+IN A 6  ±IN B
+4V± 5  +IN B
+Not to scale
+Figure 5-3. OPA2388 8-Pin SOIC (D) Package and 
+8-Pin VSSOP (DGK) Package, Top View 
+1OUT A 14  OUT D
+2±IN A 13  ±IN D
+3+IN A 12  +IN D
+4V+ 11  V ±
+5+IN B 10  +IN C
+6±IN B 9  ±IN C
+7OUT B 8  OUT C
+Not to scale
+Figure 5-4. OPA4388 14-Pin SOIC (D) and 
+TSSOP-14 (PW) Packages, Top View 
+ 
+Pin Functions: OPA2388 and OPA4388
+PIN
+I/O DESCRIPTION
+NAME
+OPA2388 OPA4388
+D (SOIC),
+DGK (VSSOP)
+D (SOIC),
+PW (TSSOP)
+–IN A 2 2 I Inverting input, channel A
+–IN B 6 6 I Inverting input, channel B
+–IN C — 9 I Inverting input, channel C
+–IN D — 13 I Inverting input, channel D
++IN A 3 3 I Noninverting input, channel A
++IN B 5 5 I Noninverting input, channel B
++IN C — 10 I Noninverting input, channel C
++IN D — 12 I Noninverting input, channel D
+OUT A 1 1 O Output, channel A
+OUT B 7 7 O Output, channel B
+OUT C — 8 O Output, channel C
+OUT D — 14 O Output, channel D
+V– 4 11 — Negative (lowest) power supply
+V+ 8 4 — Positive (highest) power supply
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 5
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 6 ===
+6 Specifications
+6.1 Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted)(1)
+MIN MAX UNIT
+Supply voltage VS = (V+) – (V–)
+Single-supply 6
+V
+Dual-supply ±3
+Signal input pins
+Voltage
+Common-mode (V–) – 0.5 (V+) + 0.5
+V
+Differential (V+) – (V–) + 0.2
+Current ±10 mA
+Output short circuit(2) Continuous Continuous
+Temperature
+Operating, TA –55 150
+°CJunction, TJ 150
+Storage, Tstg –65 150
+(1) Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress 
+ratings only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under 
+Recommended Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device 
+reliability.
+(2) Short-circuit to ground, one amplifier per package.
+6.2 ESD Ratings
+VALUE UNIT
+V(ESD) Electrostatic discharge
+Human-body model (HBM), per ANSI/ESDA/JEDEC JS-001(1) ±4000
+V
+Charged-device model (CDM), per JEDEC specification JESD22-C101(2) ±1000
+(1) JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2) JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+6.3 Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)
+MIN NOM MAX UNIT
+Supply voltage, VS = (V+) – (V–)
+Single-supply 2.5 5.5
+V
+Dual-supply ±1.25 ±2.75
+Specified temperature –40 125 °C
+6.4 Thermal Information: OPA388
+THERMAL METRIC(1)
+OPA388
+UNITD (SOIC) DBV (SOT-23) DGK (VSSOP)
+8 PINS 5 PINS 5 PINS
+RθJA Junction-to-ambient thermal resistance 116 145.7 177 °C/W
+RθJC(top) Junction-to-case (top) thermal resistance 60 94.8 69 °C/W
+RθJB Junction-to-board thermal resistance 56 43.4 100 °C/W
+ΨJT Junction-to-top characterization parameter 12.8 24.7 9.9 °C/W
+ΨJB Junction-to-board characterization parameter 55.9 43.1 98.3 °C/W
+RθJC(bot) Junction-to-case (bottom) thermal resistance N/A N/A n/a °C/W
+(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application 
+report.
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+6 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 7 ===
+6.5 Thermal Information: OPA2388
+THERMAL METRIC(1)
+OPA2388
+UNITD (SOIC) DGK (VSSOP)
+8 PINS 8 PINS
+RθJA Junction-to-ambient thermal resistance 120.0 165 °C/W
+RθJC(top) Junction-to-case (top) thermal resistance 52.3 53 °C/W
+RθJB Junction-to-board thermal resistance 65.6 87 °C/W
+ΨJT Junction-to-top characterization parameter 9.6 4.9 °C/W
+ΨJB Junction-to-board characterization parameter 64.4 85 °C/W
+RθJC(bot) Junction-to-case (bottom) thermal resistance N/A N/A °C/W
+(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application 
+report.
+6.6 Thermal Information: OPA4388
+THERMAL METRIC(1)
+OPA4388
+UNITD (SOIC) PW (TSSOP)
+14 PINS 14 PINS
+RθJA Junction-to-ambient thermal resistance 86.4 109.6 °C/W
+RθJC(top) Junction-to-case (top) thermal resistance 46.3 27.4 °C/W
+RθJB Junction-to-board thermal resistance 41.0 56.1 °C/W
+ΨJT Junction-to-top characterization parameter 11.3 1.5 °C/W
+ΨJB Junction-to-board characterization parameter 40.7 54.9 °C/W
+RθJC(bot) Junction-to-case (bottom) thermal resistance N/A N/A °C/W
+(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application 
+report.
+6.7 Electrical Characteristics: VS = ±1.25 V to ±2.75 V (VS = 2.5 to 5.5 V)
+at TA = 25°C, VCM = VOUT = VS / 2, and RLOAD = 10 kΩ connected to VS / 2 (unless otherwise noted)
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+OFFSET VOLTAGE
+VOS Input offset voltage
+OPA388, OPA2388 ±0.25 ±5
+µV
+VS = 5.5 V OPA4388 ±2.25 ±8
+TA = –40°C to +125°C OPA388, OPA2388 ±7.5
+TA = –40°C to +125°C, VS = 5.5 V OPA4388 ±10.5
+dVOS/dT Input offset voltage drift
+TA = –40°C to +125°C OPA388, OPA2388 ±0.005 ±0.05
+µV/°C
+TA = –40°C to +125°C, VS = 5.5 V OPA4388 ±0.005 ±0.05
+PSRR Power-supply rejection 
+ratio TA = –40°C to +125°C
+OPA388, OPA2388 ±0.1 ±1
+µV/V
+OPA4388 ±1.25 ±3.5
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 7
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 8 ===
+6.7 Electrical Characteristics: VS = ±1.25 V to ±2.75 V (VS = 2.5 to 5.5 V) (continued)
+at TA = 25°C, VCM = VOUT = VS / 2, and RLOAD = 10 kΩ connected to VS / 2 (unless otherwise noted)
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+INPUT BIAS CURRENT
+IB Input bias current
+RIN = 100 kΩ, OPA388, OPA2388
+±30 ±350
+pA
+TA = 0°C to +85°C ±400
+TA = –40°C to 
++125°C ±700
+RIN = 100 kΩ, OPA4388
+±30 ±500
+TA = 0°C to +85°C ±600
+TA = –40°C to 
++125°C ±800
+IOS Input offset current
+RIN = 100 kΩ, OPA388, OPA2388
+±700
+TA = 0°C to +85°C ±800
+TA = –40°C to 
++125°C ±800
+RIN = 100 kΩ, OPA4388
+±1000
+TA = 0°C to +85°C ±1100
+TA = –40°C to 
++125°C ±1100
+NOISE
+EN Input voltage noise f = 0.1 Hz to 10 Hz 0.14 µVPP
+eN
+Input voltage noise 
+density
+f = 10 Hz 7
+nV/√Hz
+f = 100 Hz 7
+f = 1 kHz 7
+f = 10 kHz 7
+IN
+Input current noise 
+density f = 1 kHz 100 fA/√Hz
+INPUT VOLTAGE
+VCM
+Common-mode voltage 
+range (V–) – 0.1 (V+) + 0.1 V
+CMRR Common-mode 
+rejection ratio
+(V–) – 0.1 V < VCM < (V+) + 0.1 V
+VS = ±1.25 
+V                OPA388, 
+OPA2388
+124 138
+dB
+VS = ±1.25 
+V              OPA4388 102 110
+VS = ±2.75 V 124 140
+(V–) < VCM < (V+) + 0.1 V,
+TA = –40°C to +125°C
+VS = ±1.25 
+V                OPA388, 
+OPA2388
+114 134
+VS = ±1.25 
+V              OPA4388 102 107
+(V–) – 0.05 V < VCM < (V+) + 0.1 V, 
+TA = –40°C to +125°C VS = ±2.75 V 124 140
+INPUT IMPEDANCE
+zid
+Differential input 
+impedance 100 || 2 MΩ || pF
+zic
+Common-mode input 
+impedance 60 || 4.5 TΩ || pF
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+8 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 9 ===
+6.7 Electrical Characteristics: VS = ±1.25 V to ±2.75 V (VS = 2.5 to 5.5 V) (continued)
+at TA = 25°C, VCM = VOUT = VS / 2, and RLOAD = 10 kΩ connected to VS / 2 (unless otherwise noted)
+PARAMETER TEST CONDITIONS MIN TYP MAX UNIT
+OPEN-LOOP GAIN
+AOL Open-loop voltage gain
+(V–) + 0.15 V < VO < (V+) – 0.15 V, RLOAD = 10 kΩ 126 148
+dB
+(V–) + 0.15 V < VO < (V+) – 0.15 V, 
+RLOAD = 10 kΩ,
+TA = –40°C to +125°C
+OPA388, OPA2388 120 126
+(V–) + 0.15 V < VO < (V+) – 0.15 V, 
+RLOAD = 10 kΩ, VS = 5.5 V
+TA = –40°C to +125°C
+OPA4388 120 126
+(V–) + 0.25 V < VO < (V+) – 0.25 V, RLOAD = 2 kΩ 126 148
+(V–) + 0.30 V < VO < (V+) – 0.30 V, 
+RLOAD = 2 kΩ OPA388, OPA2388 120 148
+(V–) + 0.30 V < VO < (V+) – 0.30 V, 
+RLOAD = 2 kΩ, VS = 5.5 V
+TA = –40°C to +125°C
+OPA4388 120 126
+FREQUENCY RESPONSE
+GBW Unity-gain bandwidth 10 MHz
+SR Slew rate G = 1, 4-V step 5 V/µs
+THD+N Total harmonic 
+distortion + noise G = 1, f = 1 kHz, VO = 1 VRMS 0.0005%
+tS Settling time
+To 0.1% VS = ±2.5 V, G = 1,
+1-V step 0.75 µs
+To 0.01% VS = ±2.5 V, G = 1,
+1-V step 2 µs
+tOR Overload recovery time VIN × G = VS 10 µs
+OUTPUT
+VO
+Voltage output swing 
+from rail
+Positive rail
+No load 1 15
+mV
+RLOAD = 10 kΩ 5 20
+RLOAD = 2 kΩ 20 50
+Negative rail
+No load 5 15
+RLOAD = 10 kΩ 10 20
+RLOAD = 2 kΩ 40 60
+TA = –40°C to +125°C, both rails, RLOAD = 10 kΩ 10 25
+ISC Short-circuit current
+VS = 5.5 V ±60 mA
+VS = 2.5 V ±30 mA
+CLOAD Capacitive load drive See Figure 6-26
+ZO
+Open-loop output 
+impedance f = 1 MHz, IO = 0 A, see Figure 6-25 100 Ω
+POWER SUPPLY
+IQ 
+Quiescent current per 
+amplifier
+VS = ±1.25 V (VS = 2.5 V)
+IO = 0 A 1.7 2.4
+mA
+TA = –40°C to 
++125°C, IO = 0 A 1.7 2.4
+VS = ±2.75 V (VS = 5.5 V)
+IO = 0 A 1.9 2.6
+TA = –40°C to 
++125°C, IO = 0 A 1.9 2.6
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 9
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 10 ===
+6.8 Typical Characteristics
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+Table 6-1. Table of Graphs
+DESCRIPTION FIGURE
+Offset Voltage Production Distribution Figure 6-1
+Offset Voltage Drift Distribution From –40°C to +125°C Figure 6-2
+Offset Voltage vs Temperature Figure 6-3
+Offset Voltage vs Common-Mode Voltage Figure 6-4
+Offset Voltage vs Power Supply: OPA388 and OPA2388 Figure 6-5
+Offset Voltage vs Power Supply: OPA4388 Figure 6-6
+Offset Voltage Long Term Drift Figure 6-7
+Open-Loop Gain and Phase vs Frequency Figure 6-8
+Closed-Loop Gain and Phase vs Frequency Figure 6-9
+Input Bias Current vs Common-Mode Voltage Figure 6-10
+Input Bias Current vs Temperature Figure 6-11
+Output Voltage Swing vs Output Current (Maximum Supply) Figure 6-12
+CMRR and PSRR vs Frequency Figure 6-13
+CMRR vs Temperature Figure 6-14
+PSRR vs Temperature Figure 6-15
+0.1-Hz to 10-Hz Noise Figure 6-16
+Input Voltage Noise Spectral Density vs Frequency Figure 6-17
+THD+N Ratio vs Frequency Figure 6-18
+THD+N vs Output Amplitude Figure 6-19
+Spectral Content Figure 6-20, Figure 6-21
+Quiescent Current vs Supply Voltage Figure 6-22
+Quiescent Current vs Temperature Figure 6-23
+Open-Loop Gain vs Temperature Figure 6-24
+Open-Loop Output Impedance vs Frequency Figure 6-25
+Small-Signal Overshoot vs Capacitive Load (10-mV Step) Figure 6-26
+No Phase Reversal Figure 6-27
+Positive Overload Recovery Figure 6-28
+Negative Overload Recovery Figure 6-29
+Small-Signal Step Response (10-mV Step) Figure 6-30, Figure 6-31
+Large-Signal Step Response (4-V Step) Figure 6-32 , Figure 6-33
+Settling Time Figure 6-34, Figure 6-35
+Short-Circuit Current vs Temperature Figure 6-36
+Maximum Output Voltage vs Frequency Figure 6-37
+EMIRR vs Frequency Figure 6-38
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+10 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 11 ===
+6.8 Typical Characteristics (continued)
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+0
+5
+10
+15
+-5
+-4
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+Amplifiers (%) 
+Input Offset Voltage (µV)  
+C002 
+Figure 6-1. Offset Voltage Production Distribution
+0
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+-0.05
+-0.04
+-0.03
+-0.02
+-0.01
+0
+0.01
+0.02
+0.03
+0.04
+0.05
+Amplifiers (%) 
+Input Offset Voltage Drift (µV/C)  C001 Figure 6-2. Offset Voltage Drift Distribution From –40°C to 
++125°C
+±5 
+±4 
+±3 
+±2 
+±1 
+0
+1
+2
+3
+4
+5
+±75 ±50 ±25 0 25 50 75 100 125 150
+Input Offset Voltage (V) 
+Temperature (C) C001 
+ 
+Figure 6-3. Offset Voltage vs Temperature
+±5 
+±4 
+±3 
+±2 
+±1 
+0
+1
+2
+3
+4
+5
+±3 ±2 ±1 0 1 2 3
+Input Offset Voltage (V) 
+Input Common-mode Voltage (V) C003 
+VCM = ±2.85 V 
+VCM = 2.85 V 
+ 
+Figure 6-4. Offset Voltage vs Common-Mode Voltage
+±5 
+±4 
+±3 
+±2 
+±1 
+0
+1
+2
+3
+4
+5
+1.0 1.2 1.4 1.6 1.8 2.0 2.2 2.4 2.6 2.8 3.0
+Input Offset Voltage (V) 
+Supply Voltage (V) C001 
+VS = ± 2.75 V VS = ± 1.25 V 
+ 
+Figure 6-5. Offset Voltage vs Supply Voltage: OPA388 and 
+OPA2388
+Supply Voltage (V)
+Input Offset Voltage (PV)
+1.2 1.4 1.6 1.8 2 2.2 2.4 2.6 2.8
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+VS = r 1.25 V VS = r 2.75 V
+C308
+ 
+Figure 6-6. Offset Voltage vs Supply Voltage: OPA4388
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 11
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 12 ===
+6.8 Typical Characteristics (continued)
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+Days
+Input Offset Voltage Delta (nV)
+0 20 40 60 80 100 120 140 160
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+C309
+3 typical units
+Figure 6-7. Offset Voltage Long Term Drift
+-45
+0
+45
+90
+135
+180
+±40
+±20
+0
+20
+40
+60
+80
+100
+120
+140
+160
+1 10 100 1k 10k 100k 1M 10M
+Open-Loop Phase (°)
+Open-Loop Gain (dB)
+Frequency (Hz) C021
+Open-Loop Phase
+Open-Loop Gain
+ 
+Figure 6-8. Open-Loop Gain and Phase vs Frequency
+-20
+0
+20
+40
+60
+100  1k  10k  100k  1M  10M
+Closed-Loop Gain (dB) 
+Frequency (Hz) 
+G = +1
+G= +10
+G= +100
+C004 
+ 
+Figure 6-9. Closed-Loop Gain and Phase vs Frequency
+±500 
+0
+500
+1000
+1500
+±3 ±2 ±1 0 1 2 3
+Input Bias Current (pA) 
+Input Common-mode Voltage (V) C001 
+ 
+Figure 6-10. Input Bias Current vs Common-Mode Voltage
+0.0
+0.3
+0.5
+0.8
+1.0
+1.3
+1.5
+±75 ±50 ±25 0 25 50 75 100 125 150
+Input Bias Current (nA) 
+Temperature (C) C001 
+ios 
+ 
+Figure 6-11. Input Bias Current vs Temperature
+-3
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+0 10 20 30 40 50 60 70 80 90 100
+Output Voltage (V) 
+Output Current (mA)    C001 
+±40°C 
+25°C 
+125°C 125°C 
+25°C 
+±40°C 
+ 
+Figure 6-12. Output Voltage Swing vs Output Current (Maximum 
+Supply)
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+12 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 13 ===
+6.8 Typical Characteristics (continued)
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+0
+20
+40
+60
+80
+100
+120
+140
+160
+1 10 100  1k  10k  100k  1M  10M
+Common-Mode Rejection Ratio (dB), 
+Power-Supply Rejection Ratio (dB) 
+Frequency (Hz) 
+CMRR
++PSRR
+±PSRR 
+C004 
+ 
+Figure 6-13. CMRR and PSRR vs Frequency
+0.001
+0.01
+0.1
+1
+10100
+120
+140
+160
+180
+±75 ±50 ±25 0 25 50 75 100 125 150
+Common-Mode Rejection Ratio (µV/V) 
+Common-Mode Rejection Ratio (dB) 
+Temperature (C) C001 
+ 
+Figure 6-14. CMRR vs Temperature
+0.001
+0.01
+0.1
+1
+10100
+120
+140
+160
+180
+±75 ±50 ±25 0 25 50 75 100 125 150
+Power-Supply Rejection Ratio (µV/V) 
+Power-Supply Rejection Ratio (dB) 
+Temperature (C) C001 
+ 
+Figure 6-15. PSRR vs Temperature
+Input Voltage Noise (50 nV/div) 
+Time (1 s/div) 
+C017 
+ 
+Figure 6-16. 0.1-Hz to 10-Hz Noise
+1
+10
+100
+1000
+1 10 100  1k  10k  100k
+Voltage Noise Spectral Density (nV/¥Hz) 
+Frequency (Hz) C002 
+ 
+Figure 6-17. Input Voltage Noise Spectral Density vs Frequency
+-120
+-100
+-80
+0.0001
+0.001
+0.01
+20 200  2k  20k
+Total Harmonic Distortion + Noise (dB) 
+Total Harmonic Distortion + Noise (%) 
+Frequency (Hz) 
+G = -1, 10k-Load 
+G = -1, 2k-Load 
+G = -1, 600-Load 
+G = +1, 10k-Load 
+G = +1, 2k-Load 
+G = +1, 600-Load 
+C004 
+ 
+Figure 6-18. THD+N Ratio vs Frequency
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 13
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 14 ===
+6.8 Typical Characteristics (continued)
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+-120
+-100
+-80
+-60
+0.0001
+0.001
+0.01
+0.1
+0.001 0.01 0.1 1
+Total Harmonic Distortion + Noise (dB) 
+Total Harmonic Distortion + Noise (%) 
+Output Amplitude (VRMS) 
+G = -1, 600-Load 
+G = -1, 2k-Load 
+G = -1, 10k-Load 
+G = +1, 600-Load 
+G = +1, 2k-Load 
+G = +1, 10k-Load 
+C004 
+ 
+Figure 6-19. THD+N vs Output Amplitude
+±180 
+±160 
+±140 
+±120 
+±100 
+±80 
+±60 
+±40 
+±20 
+0
+100  1k  10k  100k
+FFT Spectral Content (dBc) 
+Frequency (Hz) C004 
+G = +1, f = 1 kHz, VO = 4.5 VPP, RL = 10 kΩ, BW = 90 kHz
+Figure 6-20. Spectral Content (With 10-kΩ Load)
+±180 
+±160 
+±140 
+±120 
+±100 
+±80 
+±60 
+±40 
+±20 
+0
+100  1k  10k  100k
+FFT Spectral Content (dBc) 
+Frequency (Hz) C004 
+G = +1, f = 1 kHz, VO = 4.5 VPP, RL = 2 kΩ, BW = 90 kHz
+Figure 6-21. Spectral Content (With 2-kΩ Load)
+0
+0.5
+1
+1.5
+2
+2.5
+0 0.5 1 1.5 2 2.5 3
+Quiescent Current (mA) 
+Supply Voltage (V) C001 
+ 
+Figure 6-22. Quiescent Current vs Supply Voltage
+0
+0.5
+1
+1.5
+2
+2.5
+±75 ±50 ±25 0 25 50 75 100 125 150
+Quiescent Current (mA) 
+Temperature (C) C001 
+ 
+Figure 6-23. Quiescent Current vs Temperature
+0.001
+0.01
+0.1
+1
+10100
+120
+140
+160
+180
+±75 ±50 ±25 0 25 50 75 100 125 150
+DC Open-loop Gain  (µV/V) 
+DC Open-loop Gain  (dB) 
+Temperature (C) C001 
+VS = ± 2.75 V 
+VS = ± 1.1 V 
+ 
+Figure 6-24. Open-Loop Gain vs Temperature
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+14 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 15 ===
+6.8 Typical Characteristics (continued)
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+10m
+100m
+ 1
+ 10
+ 100
+ 1k
+100  1k  10k  100k  1M  10M  100M
+Open-loop Output Impedance () 
+Frequency (Hz) C003 
+ 
+Figure 6-25. Open-Loop Output Impedance vs Frequency
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+10 100 1000
+Overshoot (%) 
+Capacitive Load (pF) C004 
+G = -1 
+G = +1 
+ 
+Figure 6-26. Small-Signal Overshoot vs Capacitive Load (10-mV 
+Step)
+Voltage (1.25 V/div) 
+Time (45 ms/div) 
+C017 
+VOUT 
+VIN 
+ 
+Figure 6-27. No Phase Reversal
+Voltage (1 V/div) 
+Time (200 ns/div) 
+C017 
+VIN 
+VOUT 
+ 
+Figure 6-28. Positive Overload Recovery
+Voltage (1 V/div) 
+Time (200 ns/div) 
+C017 
+VOUT 
+VIN 
+ 
+Figure 6-29. Negative Overload Recovery
+Voltage (2.5 mV/div) 
+Time (2.5 µs/div) 
+VOUT
+VIN
+C017 
+G = +1
+Figure 6-30. Small-Signal Step Response (10-mV Step)
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 15
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 16 ===
+6.8 Typical Characteristics (continued)
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+Voltage (2.5 mV/div) 
+Time (2.5 µs/div) 
+VOUT
+VIN
+C017 
+G = –1
+Figure 6-31. Small-Signal Step Response (10-mV Step)
+Voltage (1 V/div) 
+Time (500 ns/div) 
+VOUT
+VIN
+C017 
+Falling output
+Figure 6-32. Large-Signal Step Response (4-V Step)
+Voltage (1 V/div) 
+Time (500 ns/div) 
+VOUT
+VIN
+C017 
+Rising output
+Figure 6-33. Large-Signal Step Response (4-V Step)
+Output Voltage (100 µV/div) 
+Time (500 ns/div) 
+C017 
+0.01% Settling = 100µV 
+0.01% settling = ±100 µV
+Figure 6-34. Settling Time (1-V Positive Step)
+Output Voltage (100 µV/div) 
+Time (500 ns/div) 
+C017 
+0.01% Settling = 200µV 
+0.01% settling = ±200 µV
+Figure 6-35. Settling Time (1-V Negative Step)
+0
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+±75 ±50 ±25 0 25 50 75 100 125 150
+Short-Circuit Current (mA) 
+Temperature (C) C001 
+ISC, Source 
+ISC, Sink 
+ 
+Figure 6-36. Short-Circuit Current vs Temperature
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+16 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 17 ===
+6.8 Typical Characteristics (continued)
+at TA = 25°C, VS = ±2.5 V, VCM = VS / 2, RLOAD = 10 kΩ connected to VS / 2, and CL = 100 pF (unless otherwise noted)
+0
+1
+2
+3
+4
+5
+6
+7
+100  1k  10k  100k  1M  10M
+Output Voltage (VPP) 
+Frequency (Hz) 
+C001 
+Maximum output voltage without 
+slew-rate induced distortion. 
+VS = ±2.5V 
+VS = ±0.9V 
+ 
+Figure 6-37. Maximum Output Voltage vs Frequency
+0
+20
+40
+60
+80
+100
+120
+140
+160
+ 10M  100M  1000M
+EMIRR IN+ (dB) 
+Frequency (Hz) C004 
+PRF = –10 dBm
+Figure 6-38. EMIRR vs Frequency
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 17
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 18 ===
+7 Detailed Description
+7.1 Overview
+The OPAx388 family of zero-drift amplifiers is engineered with the unique combination of a proprietary precision 
+auto-calibration technique paired with a low-noise, low-ripple, input charge pump. These amplifiers offer ultra-low 
+input offset voltage and drift and achieve excellent input and output dynamic linearity. The OPAx388 operate 
+from 2.5 V to 5.5 V, is unity-gain stable, and are designed for a wide range of general-purpose and precision 
+applications. The integrated, low-noise charge pump allows true rail-to-rail input common-mode operation 
+without distortion associated with complementary rail-to-rail input topologies (input crossover distortion). The 
+OPAx388 strengths also include 10-MHz bandwidth, 7-nV/√ Hz noise spectral density, and no 1/f noise, making 
+the OPAx388 optimal for interfacing with sensor modules and buffering high-fidelity, digital-to-analog converters 
+(DACs).
+7.2 Functional Block Diagram
++IN
+±IN
+OUT
+Copyright © 2016, Texas Instruments Incorporated
+Ripple Reduction 
+Technology
+CLK CLK
+Low-noise  
+Charge-pump
+GM1 GM2
+GM_FF
+GM3
+CCOMP
+CCOMP
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+18 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 19 ===
+7.3 Feature Description
+7.3.1 Operating Voltage
+The OPAx388 family of operational amplifiers can be used with single or dual supplies from an operating range 
+of V S = 2.5 V (±1.25 V) up to 5.5 V (±2.75 V). Supply voltages greater than 7 V can permanently damage 
+the device (see the Absolute Maximum Ratings  table). Key parameters that vary over the supply voltage or 
+temperature range are shown in the Typical Characteristics section.
+7.3.2 Input Voltage and Zero-Crossover Functionality
+The OPAx388 input common-mode voltage range extends 0.1 V beyond the supply rails. This amplifier family 
+is designed to cover the full range without the troublesome transition region found in some other rail-to-rail 
+amplifiers. Operating a complementary rail-to-rail input amplifier with signals traversing the transition region 
+results in unwanted non-linear behavior and polluted spectral content. Figure 7-1 and Figure 7-2 contrast the 
+performance of a traditional complementary rail-to-rail input stage amplifier with the performance of the zero-
+crossover OPA388. Significant harmonic content and distortion is generated during the differential pair transition 
+(such a transition does not exist in the OPA388). Crossover distortion is eliminated through the use of a single 
+differential pair coupled with an internal low-noise charge pump. The OPAx388 maintains noise, bandwidth, and 
+offset performance throughout the input common-mode range, thus reducing printed circuit board (PCB) and bill 
+of materials (BOM) complexity through the reduction of power-supply rails.
+±20 
+±15 
+±10 
+±5 
+0
+5
+10
+15
+20
+±3 ±2 ±1 0 1 2 3
+Input Offset Voltage (V) 
+Input Common-mode Voltage (V) 
+Complementary Input Stage
+OPA388 Zero-Crossover Input Stage
+C003 
+VCM = ±2.85 V 
+VCM = 2.85 V 
+Figure 7-1. Input Crossover Distortion Nonlinearity
+±140 
+±120 
+±100 
+±80 
+±60 
+±40 
+±20 
+0
+10 100  1k  10k
+FFT Spectral Content (dBV) 
+Frequency (Hz) C004 
+Traditional Rail-to-Rail 
+Input Stage OPA388 Zero-Crossover Input Stage Figure 7-2. Input Crossover Distortion Spectral 
+Content
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 19
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 20 ===
+Typically, input bias current is approximately ±30 pA. Input voltages exceeding the power supplies, however, 
+can cause excessive current to flow into or out of the input pins. Momentary voltages greater than the power 
+supply can be tolerated if the input current is limited to 10 mA. This limitation is easily accomplished with an input 
+resistor, as shown in Figure 7-3.
+IOVERLOAD
+10 mA max
+5 N
+VIN
+VOUT
++5V
+Current-limiting resistor 
+required if input voltage 
+exceeds supply rails by 
+> 0.3V.
+Copyright © 2016, Texas Instruments Incorporated
+Figure 7-3. Input Current Protection
+7.3.3 Input Differential Voltage
+The typical input bias current of the OPAx388 during normal operation is approximately 30 pA. In overdriven 
+conditions, the bias current can increase significantly. The most common cause of an overdriven condition 
+occurs when the operational amplifier is outside of the linear range of operation. When the output of the 
+operational amplifier is driven to one of the supply rails, the feedback loop requirements cannot be satisfied and 
+a differential input voltage develops across the input pins. This differential input voltage results in activation 
+of parasitic diodes inside the front-end input chopping switches that combine with 10-k Ω electromagnetic 
+interference (EMI) filter resistors to create the equivalent circuit shown in Figure 7-4. Notice that the input bias 
+current remains within specification in the linear region.
+CORE
+-In
++In
+Clamp100 /c87
+100 /c87
+Copyright © 2016, Texas Instruments Incorporated
+Figure 7-4. Equivalent Input Circuit
+7.3.4 Internal Offset Correction
+The OPA388 family of operational amplifiers uses an auto-calibration technique with a time-continuous, 200-kHz 
+operational amplifier in the signal path. This amplifier is zero-corrected every 5 µs using a proprietary technique. 
+At power-up, the amplifier requires approximately 1 ms to achieve the specified V OS accuracy. This design has 
+no aliasing or flicker noise.
+7.3.5 EMI Susceptibility and Input Filtering
+Operational amplifiers vary in susceptibility to EMI. If conducted EMI enters the operational amplifier, the dc 
+offset at the amplifier output can shift from its nominal value when EMI is present. This shift is a result of 
+signal rectification associated with the internal semiconductor junctions. Although all operational amplifier pin 
+functions can be affected by EMI, the input pins are likely to be the most susceptible. The OPAx388 operational 
+amplifier family incorporates an internal input low-pass filter that reduces the amplifier response to EMI. Both 
+common-mode and differential-mode filtering are provided by the input filter. The filter is designed for a cutoff 
+frequency of approximately 20 MHz (–3 dB), with a rolloff of 20 dB per decade.
+7.4 Device Functional Modes
+The OPA388 has a single functional mode and is operational when the power-supply voltage is greater than 
+2.5 V (±1.25 V). The maximum specified power-supply voltage for the OPAx388 is 5.5 V (±2.75 V).
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+20 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 21 ===
+8 Application and Implementation
+Note
+Information in the following applications sections is not part of the TI component specification, and 
+TI does not warrant its accuracy or completeness. TI’s customers are responsible for determining 
+suitability of components for their purposes. Customers should validate and test their design 
+implementation to confirm system functionality.
+8.1 Application Information
+The OPAx388 is a unity-gain stable, precision operational amplifier family free from unexpected output and 
+phase reversal. The use of proprietary zero-drift circuitry gives the benefit of low input offset voltage over time 
+and temperature, as well as lowering the 1/f noise component. As a result of the high PSRR, these devices 
+work well in applications that run directly from battery power without regulation. The OPAx388 family is optimized 
+for full rail-to-rail input, allowing for low-voltage, single-supply operation or split-supply use. These miniature, 
+high-precision, low-noise amplifiers offer high-impedance inputs that have a common-mode range 100 mV 
+beyond the supplies without input crossover distortion and a rail-to-rail output that swings within 5 mV of the 
+supplies under normal test conditions. The OPAx388 series of precision amplifiers is designed for upstream 
+analog signal chain applications in low or high gains, as well as downstream signal chain functions such as DAC 
+buffering.
+8.2 Typical Applications
+8.2.1 Bidirectional Current-Sensing
+This single-supply, low-side, bidirectional current-sensing solution detects load currents from –1 A to +1 A. The 
+single-ended output spans from 110 mV to 3.19 V. This design uses the OPAx388 because of its low offset 
+voltage and rail-to-rail input and output. One of the amplifiers is configured as a difference amplifier and the other 
+amplifier provides the reference voltage.
+Figure 8-1 shows the solution.
++
++
+±
+ILOAD
+VBUS
++
+VOUT
+VCC
+VCC
+VREF
++
+±
+VSHUNT
+VCC
+U1A
+U1B
+R4
+RSHUNT
+R1
+R3 RL
+R5
+R6
+R2
+Figure 8-1. Bidirectional Current-Sensing Schematic
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 21
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 22 ===
+8.2.1.1 Design Requirements
+This solution has the following requirements:
+• Supply voltage: 3.3 V
+• Input: –1 A to 1 A
+• Output: 1.65 V ±1.54 V (110 mV to 3.19 V)
+8.2.1.2 Detailed Design Procedure
+The load current, I LOAD, flows through the shunt resistor (R SHUNT) to develop the shunt voltage, V SHUNT. The 
+shunt voltage is then amplified by the difference amplifier consisting of U1A and R 1 through R4. The gain of the 
+difference amplifier is set by the ratio of R 4 to R 3. To minimize errors, set R 2 = R 4 and R 1 = R 3. The reference 
+voltage, VREF, is supplied by buffering a resistor divider using U1B. The transfer function is given by Equation 1.
+V = V Gain + VOUT SHUNT Diff_Amp REF/c180
+(1)
+where
+•
+V = I RSHUNT LOAD /c180 SHUNT
+•
+Gain =Diff_Amp
+R
+R
+4
+3
+•
+V = VREF CC /c180 R
+R R
+6
+5 6+
+There are two types of errors in this design: offset and gain. Gain errors are introduced by the tolerance of the 
+shunt resistor and the ratios of R 4 to R 3 and, similarly, R 2 to R 1. Offset errors are introduced by the voltage 
+divider (R5 and R 6) and how closely the ratio of R 4 / R 3 matches R 2 / R 1. The latter value affects the CMRR of 
+the difference amplifier, ultimately translating to an offset error.
+The value of V SHUNT is the ground potential for the system load because V SHUNT is a low-side measurement. 
+Therefore, a maximum value must be placed on V SHUNT. In this design, the maximum value for V SHUNT is set 
+to 100 mV. Equation 2 calculates the maximum value of the shunt resistor given a maximum shunt voltage of 
+100 mV and maximum load current of 1 A.
+R =SHUNT(Max) = = 100 m/c87V
+I
+SHUNT(Max)
+LOAD(Max)
+100 mV
+1 A
+(2)
+The tolerance of RSHUNT is directly proportional to cost. For this design, a shunt resistor with a tolerance of 0.5% 
+was selected. If greater accuracy is required, select a 0.1% resistor or better.
+The load current is bidirectional; therefore, the shunt voltage range is –100 mV to 100 mV. This voltage is 
+divided down by R 1 and R 2 before reaching the operational amplifier, U1A. Make sure that the voltage present 
+at the noninverting node of U1A is within the common-mode range of the device. Therefore, use an operational 
+amplifier, such as the OPA388, that has a common-mode range that extends below the negative supply voltage. 
+Finally, to minimize offset error, note that the OPA388 has a typical offset voltage of merely ±0.25 µV (±5 µV 
+maximum).
+Given a symmetric load current of –1 A to 1 A, the voltage divider resistors (R 5 and R 6) must be equal. To be 
+consistent with the shunt resistor, a tolerance of 0.5% was selected. To minimize power consumption,
+10-kΩ resistors were used.
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+22 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 23 ===
+To set the gain of the difference amplifier, the common-mode range and output swing of the OPA388 must be 
+considered. Equation 3  and Equation 4  depict the typical common-mode range and maximum output swing, 
+respectively, of the OPA388 given a 3.3-V supply.
+–100 mV < VCM < 3.4 V (3)
+100 mV < VOUT < 3.2 V (4)
+The gain of the difference amplifier can now be calculated as shown in Equation 5.
+Gain =Diff_Amp
+V
+V
+= 15.5V V
+R (I I )
+OUT_Max OUT_Min
+SHUNT MAX MIN
+/c45
+/c45/c180
+3.2 V 100 mV
+100 m
+/c45
+/c87 /c180 /c45 /c45 [1 A ( 1A)]=
+(5)
+The resistor value selected for R1 and R3 was 1 kΩ. 15.4 kΩ was selected for R2 and R4 because this number is 
+the nearest standard value. Therefore, the ideal gain of the difference amplifier is 15.4 V/V.
+The gain error of the circuit primarily depends on R 1 through R4. As a result of this dependence, 0.1% resistors 
+were selected. This configuration reduces the likelihood that the design requires a two-point calibration. A simple 
+one-point calibration, if desired, removes the offset errors introduced by the 0.5% resistors.
+8.2.1.3 Application Curve
+1.65
+/c451.0 /c450.5 0 0.5 1.0
+0
+3.30
+Input Current (A)
+Output Voltage (V)
+Figure 8-2. Bidirectional Current-Sensing Circuit Performance: Output Voltage vs Input Current
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 23
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 24 ===
+8.2.2 Single Operational Amplifier Bridge Amplifier
+Figure 8-3 shows the basic configuration for a bridge amplifier.
+VEX
+R R
+RR
+R1
+VREF
+VOUT
++5V
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-3. Single Operational Amplifier Bridge Amplifier Schematic
+8.2.3 Precision, Low-Noise, DAC Buffer
+The OPA388 can be used for a precision DAC buffer, as shown in Figure 8-4, in conjunction with the DAC8830.
+The OPA388 provides an ultra-low drift, precision output buffer for the DAC. A wide range of DAC codes can 
+be used in the linear region because the OPA388 employs zero-crossover technology. A precise reference is 
+essential for maximum accuracy because the DAC8830 is a 16-bit converter.
+OPA388
++
+± 
+DAC8830
+DGND AGND
+Serial Interface
+RFB
+INV
+VOUT
+VREFVDD
+Copyright © 2016, Texas Instruments Incorporated
+Figure 8-4. Precision DAC Buffer
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+24 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 25 ===
+8.2.4 Load Cell Measurement
+Figure 8-5 shows the OPA388 in a high-CMRR dual-op amp instrumentation amplifier with a trim resistor and 
+6-wire load cell for precision measurement. Figure 8-6 illustrates the output voltage as a function of load cell 
+resistance change, along with the nonlinearity of the system.
+GND
+R2
+25 k
+RG
+R3
+25 k
++
+±
+   OPA388
+GND
+5 V
+R4
+100 k
+REF5025
+5 V
++
+±
+      OPA388 
+GND
+5 V
+R2
+10 k
+GND
+VOUT
+R4
+100 k5 V
+G = 5 + 200 N
+RG
+ 
++SENSE
+±SENSE
+Load Cell
+Figure 8-5. Load Cell Measurement Schematic
+-3
+-2
+-1
+0
+1
+2
+3
+2.47
+2.48
+2.49
+2.5
+2.51
+2.52
+2.53
+±100 ±80 ±60 ±40 ±20 0 20 40 60 80 100
+Non-Linearity (ppm) 
+Output Voltage (V) 
+û55SSP C001 
+RG = 1 k 
+Figure 8-6. Load Cell Measurement Output
+9 Power Supply Recommendations
+The OPAx388 family of devices is specified for operation from 2.5 V to 5.5 V (±1.25 V to ±2.75 V). Parameters 
+that can exhibit significant variance with regard to operating voltage are presented in the Typical Characteristics 
+section.
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 25
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 26 ===
+10 Layout
+10.1 Layout Guidelines
+Paying attention to good layout practice is always recommended. Keep traces short and, when possible, use 
+a printed-circuit board (PCB) ground plane with surface-mount components placed as close to the device 
+pins as possible. Place a 0.1-µF capacitor closely across the supply pins. These guidelines must be applied 
+throughout the analog circuit to improve performance and provide benefits such as reducing the electromagnetic 
+interference (EMI) susceptibility.
+For lowest offset voltage and precision performance, circuit layout and mechanical conditions must be optimized. 
+Avoid temperature gradients that create thermoelectric (Seebeck) effects in the thermocouple junctions formed 
+from connecting dissimilar conductors. These thermally-generated potentials can be made to cancel by assuring 
+they are equal on both input terminals. Other layout and design considerations include:
+• Use low thermoelectric-coefficient conditions (avoid dissimilar metals).
+• Thermally isolate components from power supplies or other heat sources.
+• Shield operational amplifier and input circuitry from air currents, such as cooling fans.
+Following these guidelines reduces the likelihood of junctions being at different temperatures, which can cause 
+thermoelectric voltage drift of 0.1 µV/°C or higher, depending on materials used.
+10.2 Layout Example
++VIN
+VOUTRG
+RF
+Figure 10-1. Schematic Representation
+N/C
+±IN
++IN
+V±
+V+
+OUTPUT
+N/C
+N/C
+VS+
+GND
+Ground (GND) plane on another layer 
+VOUT
+VIN
+GND
+Run the input traces
+as far away from
+the supply lines
+as possible RF
+RG
+Place components close 
+to device and to each 
+other to reduce parasitic 
+errors  
+ 
+Use low-ESR, 
+ceramic bypass 
+capacitors
+GND
+Figure 10-2. OPA388 Layout Example
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+26 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 27 ===
+11 Device and Documentation Support
+11.1 Device Support
+11.1.1 Development Support
+11.1.1.1 TINA-TI™ Simulation Software (Free Download)
+TINA-TI™ simulation software is a simple, powerful, and easy-to-use circuit simulation program based on a 
+SPICE engine. TINA-TI simulation software is a free, fully-functional version of the TINA™ software, preloaded 
+with a library of macromodels, in addition to a range of both passive and active models. TINA-TI simulation 
+software provides all the conventional dc, transient, and frequency domain analysis of SPICE, as well as 
+additional design capabilities.
+Available as a free download from the Analog eLab Design Center, TINA-TI simulation software offers extensive 
+post-processing capability that allows users to format results in a variety of ways. Virtual instruments offer 
+the ability to select input waveforms and probe circuit nodes, voltages, and waveforms, creating a dynamic 
+quick-start tool.
+Note
+These files require that either the TINA software or TINA-TI software be installed. Download the free 
+TINA-TI simulation software from the TINA-TI™ software folder.
+11.1.1.2 TI Precision Designs
+The OPAx388 family is featured on TI Precision Designs, available online at www.ti.com/ww/en/analog/precision-
+designs/. TI Precision Designs are analog solutions created by TI’s precision analog applications experts and 
+offer the theory of operation, component selection, simulation, complete PCB schematic and layout, bill of 
+materials, and measured performance of many useful circuits.
+11.2 Documentation Support
+11.2.1 Related Documentation
+For related documentation see the following:
+• Texas Instruments, Circuit board layout techniques
+• Texas Instruments, DAC883x 16-Bit, Ultra-Low Power, Voltage-Output Digital-to-Analog Converters data 
+sheet
+11.3 Related Links
+Table 11-1 lists quick access links. Categories include technical documents, support and community resources, 
+tools and software, and quick access to sample or buy.
+Table 11-1. Related Links
+PARTS PRODUCT FOLDER SAMPLE & BUY TECHNICAL 
+DOCUMENTS
+TOOLS & 
+SOFTWARE
+SUPPORT & 
+COMMUNITY
+OPA388 Click here Click here Click here Click here Click here
+OPA2388 Click here Click here Click here Click here Click here
+OPA4388 Click here Click here Click here Click here Click here
+11.4 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on 
+Subscribe to updates  to register and receive a weekly digest of any product information that has changed. For 
+change details, review the revision history included in any revised document.
+11.5 Support Resources
+TI E2E ™ support forums  are an engineer's go-to source for fast, verified answers and design help — straight 
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+www.ti.com
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020
+Copyright © 2022 Texas Instruments Incorporated Submit Document Feedback 27
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 28 ===
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do 
+not necessarily reflect TI's views; see TI's Terms of Use.
+11.6 Trademarks
+TINA-TI™ and TI E2E™ are trademarks of Texas Instruments.
+TINA™ is a trademark of DesignSoft, Inc.
+All trademarks are the property of their respective owners.
+11.7 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled 
+with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may 
+be more susceptible to damage because very small parametric changes could cause the device not to meet its published 
+specifications.
+11.8 Glossary
+TI Glossary This glossary lists and explains terms, acronyms, and definitions.
+12 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical packaging and orderable information. This information is the most 
+current data available for the designated devices. This data is subject to change without notice and revision of 
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+OPA388, OPA2388, OPA4388
+SBOS777D – NOVEMBER 2016 – REVISED JULY 2020 www.ti.com
+28 Submit Document Feedback Copyright © 2022 Texas Instruments Incorporated
+Product Folder Links: OPA388 OPA2388 OPA4388
+=== PAGE 29 ===
+PACKAGE OPTION ADDENDUM
+www.ti.com 15-Jul-2026
+PACKAGING INFORMATION
+Orderable part number Status
+(1)
+Material type
+(2)
+Package | Pins Package qty | Carrier RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C) Part marking
+(6)
+OPA2388ID Active Production SOIC (D) | 8 75 | TUBE Yes SN Level-2-260C-1 YEAR -40 to 125 OP2388
+OPA2388ID.B Active Production SOIC (D) | 8 75 | TUBE Yes SN Level-2-260C-1 YEAR -40 to 125 OP2388
+OPA2388IDGKR Active Production VSSOP (DGK) | 8 2500 | LARGE T&R Yes NIPDAU | SN Level-2-260C-1 YEAR -40 to 125 1D36
+OPA2388IDGKR.B Active Production VSSOP (DGK) | 8 2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 1D36
+OPA2388IDGKT Active Production VSSOP (DGK) | 8 250 | SMALL T&R Yes NIPDAU | SN
+| NIPDAUAG
+Level-2-260C-1 YEAR -40 to 125 1D36
+OPA2388IDGKT.B Active Production VSSOP (DGK) | 8 250 | SMALL T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 1D36
+OPA2388IDR Active Production SOIC (D) | 8 2500 | LARGE T&R Yes SN Level-2-260C-1 YEAR -40 to 125 OP2388
+OPA2388IDR.B Active Production SOIC (D) | 8 2500 | LARGE T&R Yes SN Level-2-260C-1 YEAR -40 to 125 OP2388
+OPA388ID Active Production SOIC (D) | 8 75 | TUBE Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA388
+OPA388ID.B Active Production SOIC (D) | 8 75 | TUBE Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA388
+OPA388IDBVR Active Production SOT-23 (DBV) | 5 3000 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 14KV
+OPA388IDBVR.B Active Production SOT-23 (DBV) | 5 3000 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 14KV
+OPA388IDBVT Active Production SOT-23 (DBV) | 5 250 | SMALL T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 14KV
+OPA388IDBVT.B Active Production SOT-23 (DBV) | 5 250 | SMALL T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 14KV
+OPA388IDBVTG4 Active Production SOT-23 (DBV) | 5 250 | SMALL T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 14KV
+OPA388IDBVTG4.B Active Production SOT-23 (DBV) | 5 250 | SMALL T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 14KV
+OPA388IDGKR Active Production VSSOP (DGK) | 8 2500 | LARGE T&R Yes NIPDAUAG Level-2-260C-1 YEAR -40 to 125 14LV
+OPA388IDGKR.B Active Production VSSOP (DGK) | 8 2500 | LARGE T&R Yes NIPDAUAG Level-2-260C-1 YEAR -40 to 125 14LV
+OPA388IDGKT Active Production VSSOP (DGK) | 8 250 | SMALL T&R Yes NIPDAUAG Level-2-260C-1 YEAR -40 to 125 14LV
+OPA388IDGKT.B Active Production VSSOP (DGK) | 8 250 | SMALL T&R Yes NIPDAUAG Level-2-260C-1 YEAR -40 to 125 14LV
+OPA388IDR Active Production SOIC (D) | 8 2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA388
+OPA388IDR.B Active Production SOIC (D) | 8 2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA388
+OPA388IDRG4 Active Production SOIC (D) | 8 2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA388
+OPA388IDRG4.B Active Production SOIC (D) | 8 2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA388
+OPA4388ID Active Production SOIC (D) | 14 50 | TUBE Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+OPA4388ID.B Active Production SOIC (D) | 14 50 | TUBE Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+OPA4388IDR Active Production SOIC (D) | 14 2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+OPA4388IDR.B Active Production SOIC (D) | 14 2500 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+Addendum-Page 1
+=== PAGE 30 ===
+PACKAGE OPTION ADDENDUM
+www.ti.com 15-Jul-2026
+Orderable part number Status
+(1)
+Material type
+(2)
+Package | Pins Package qty | Carrier RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C) Part marking
+(6)
+OPA4388IPW Active Production TSSOP (PW) | 14 90 | TUBE Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+OPA4388IPW.B Active Production TSSOP (PW) | 14 90 | TUBE Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+OPA4388IPWR Active Production TSSOP (PW) | 14 2000 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+OPA4388IPWR.B Active Production TSSOP (PW) | 14 2000 | LARGE T&R Yes NIPDAU Level-2-260C-1 YEAR -40 to 125 OPA4388
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+ OTHER QUALIFIED VERSIONS OF OPA2388, OPA388 :
+• Automotive : OPA2388-Q1, OPA388-Q1
+Addendum-Page 2
+=== PAGE 31 ===
+PACKAGE OPTION ADDENDUM
+www.ti.com 15-Jul-2026
+ NOTE: Qualified Version Definitions:
+• Automotive - Q100 devices qualified for high-reliability automotive applications targeting zero defects
+Addendum-Page 3
+=== PAGE 32 ===
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 10-Aug-2026
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0B0K0WDimension designed to accommodate the component lengthDimension designed to accommodate the component thicknessOverall width of the carrier tapePitch between successive cavity centersDimension designed to accommodate the component width
+TAPE DIMENSIONSK0 P1B0WA0Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket QuadrantsSprocket HolesQ1Q1Q2Q2Q3Q3Q4Q4User Direction of Feed
+P1ReelDiameter
+ 
+*All dimensions are nominal
+Device Package
+Type
+Package
+Drawing
+Pins SPQ Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+OPA2388IDGKR VSSOP DGK 8 2500 330.0 12.4 5.3 3.4 1.4 8.0 12.0 Q1
+OPA2388IDGKR VSSOP DGK 8 2500 330.0 12.4 5.25 3.35 1.25 8.0 12.0 Q1
+OPA2388IDGKT VSSOP DGK 8 250 330.0 12.4 5.3 3.4 1.4 8.0 12.0 Q1
+OPA2388IDGKT VSSOP DGK 8 250 330.0 12.4 5.25 3.35 1.25 8.0 12.0 Q1
+OPA2388IDR SOIC D 8 2500 330.0 12.8 6.4 5.2 2.1 8.0 12.0 Q1
+OPA388IDBVR SOT-23 DBV 5 3000 180.0 8.4 3.23 3.17 1.37 4.0 8.0 Q3
+OPA388IDBVT SOT-23 DBV 5 250 180.0 8.4 3.23 3.17 1.37 4.0 8.0 Q3
+OPA388IDBVTG4 SOT-23 DBV 5 250 180.0 8.4 3.23 3.17 1.37 4.0 8.0 Q3
+OPA388IDGKR VSSOP DGK 8 2500 330.0 12.4 5.3 3.4 1.4 8.0 12.0 Q1
+OPA388IDGKT VSSOP DGK 8 250 330.0 12.4 5.3 3.4 1.4 8.0 12.0 Q1
+OPA388IDR SOIC D 8 2500 330.0 12.4 6.4 5.2 2.1 8.0 12.0 Q1
+OPA388IDRG4 SOIC D 8 2500 330.0 12.4 6.4 5.2 2.1 8.0 12.0 Q1
+OPA4388IDR SOIC D 14 2500 330.0 16.4 6.5 9.0 2.1 8.0 16.0 Q1
+OPA4388IPWR TSSOP PW 14 2000 330.0 12.4 6.9 5.6 1.6 8.0 12.0 Q1
+Pack Materials-Page 1
+=== PAGE 33 ===
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 10-Aug-2026
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W LH
+ 
+*All dimensions are nominal
+Device Package Type Package Drawing Pins SPQ Length (mm) Width (mm) Height (mm)
+OPA2388IDGKR VSSOP DGK 8 2500 353.0 353.0 32.0
+OPA2388IDGKR VSSOP DGK 8 2500 366.0 364.0 50.0
+OPA2388IDGKT VSSOP DGK 8 250 353.0 353.0 32.0
+OPA2388IDGKT VSSOP DGK 8 250 366.0 364.0 50.0
+OPA2388IDR SOIC D 8 2500 366.0 364.0 50.0
+OPA388IDBVR SOT-23 DBV 5 3000 213.0 191.0 35.0
+OPA388IDBVT SOT-23 DBV 5 250 213.0 191.0 35.0
+OPA388IDBVTG4 SOT-23 DBV 5 250 213.0 191.0 35.0
+OPA388IDGKR VSSOP DGK 8 2500 366.0 364.0 50.0
+OPA388IDGKT VSSOP DGK 8 250 366.0 364.0 50.0
+OPA388IDR SOIC D 8 2500 353.0 353.0 32.0
+OPA388IDRG4 SOIC D 8 2500 353.0 353.0 32.0
+OPA4388IDR SOIC D 14 2500 353.0 353.0 32.0
+OPA4388IPWR TSSOP PW 14 2000 353.0 353.0 32.0
+Pack Materials-Page 2
+=== PAGE 34 ===
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 10-Aug-2026
+TUBE
+ 
+ 
+L - Tube length
+T - Tube  
+height
+W - Tube  
+width
+B - Alignment groove width
+ 
+ 
+*All dimensions are nominal
+Device Package Name Package Type Pins SPQ L (mm) W (mm) T (µm) B (mm)
+OPA2388ID D SOIC 8 75 517 7.87 635 4.25
+OPA2388ID.B D SOIC 8 75 517 7.87 635 4.25
+OPA388ID D SOIC 8 75 506.6 8 3940 4.32
+OPA388ID.B D SOIC 8 75 506.6 8 3940 4.32
+OPA4388ID D SOIC 14 50 506.6 8 3940 4.32
+OPA4388ID.B D SOIC 14 50 506.6 8 3940 4.32
+OPA4388IPW PW TSSOP 14 90 530 10.2 3600 3.5
+OPA4388IPW.B PW TSSOP 14 90 530 10.2 3600 3.5
+Pack Materials-Page 3
+=== PAGE 35 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+0.22
+0.08 TYP
+0.25
+3.0
+2.6
+2X 0.95
+1.9
+1.45
+0.90
+0.15
+0.00 TYP
+5X 0.5
+0.3
+0.6
+0.3 TYP
+8
+0  TYP
+1.9
+(0.1)
+(0.15)
+4X 0 -15
+4X 4 -15
+A
+3.05
+2.75
+B1.75
+1.45
+(1.1)
+SOT-23 - 1.45 mm max heightDBV0005A
+SMALL OUTLINE TRANSISTOR
+4214839/K   08/2024
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M.
+2. This drawing is subject to change without notice.
+3. Refernce JEDEC MO-178.
+4. Body dimensions do not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.25 mm per side.
+5. Support pin may differ or may not be present.
+0.2 C A B
+1
+3
+4
+5
+2
+INDEX AREA
+PIN 1
+ NOTE 5
+GAGE PLANE
+SEATING PLANE
+0.1 C
+SCALE  4.000
+=== PAGE 36 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.07 MAX
+ARROUND
+0.07 MIN
+ARROUND
+5X (1.1)
+5X (0.6)
+(2.6)
+(1.9)
+2X (0.95)
+(R0.05) TYP
+4214839/K   08/2024
+SOT-23 - 1.45 mm max heightDBV0005A
+SMALL OUTLINE TRANSISTOR
+NOTES: (continued)
+ 
+6. Publication IPC-7351 may have alternate designs. 
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+SYMM
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE:15X
+PKG
+1
+3 4
+5
+2
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+EXPOSED METAL
+METALSOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK DETAILS
+EXPOSED METAL
+=== PAGE 37 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(2.6)
+(1.9)
+2X(0.95)
+5X (1.1)
+5X (0.6)
+(R0.05) TYP
+SOT-23 - 1.45 mm max heightDBV0005A
+SMALL OUTLINE TRANSISTOR
+4214839/K   08/2024
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+     design recommendations. 
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE:15X
+SYMM
+PKG
+1
+3 4
+5
+2
+=== PAGE 38 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+6X 0.65
+2X
+1.95
+8X 0.38
+0.25
+5.05
+4.75 TYP
+SEATING
+PLANE
+0.15
+0.05
+0.25
+GAGE PLANE
+0 -8
+1.1 MAX
+0.23
+0.13
+B 3.1
+2.9
+NOTE 4
+A
+3.1
+2.9
+NOTE 3
+0.7
+0.4
+VSSOP - 1.1 mm max heightDGK0008A
+SMALL OUTLINE PACKAGE
+4214862/A   04/2023
+1
+4
+5
+8
+0.13 C A B
+PIN 1 INDEX AREA
+SEE DETAIL  A
+0.1 C
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side. 
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.25 mm per side.
+5. Reference JEDEC registration MO-187.
+ 
+PowerPAD is a trademark of Texas Instruments.
+A  20
+DETAIL A
+TYPICAL
+SCALE  4.000
+=== PAGE 39 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MAX
+ALL AROUND
+0.05 MIN
+ALL AROUND
+8X (1.4)
+8X (0.45)
+6X (0.65)
+(4.4)
+(R0.05) TYP
+VSSOP - 1.1 mm max heightDGK0008A
+SMALL OUTLINE PACKAGE
+4214862/A   04/2023
+NOTES: (continued)
+ 
+  6. Publication IPC-7351 may have alternate designs. 
+  7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+  8. Vias are optional depending on application, refer to device data sheet. If any vias are implemented, refer to their locations shown
+      on this view. It is recommended that vias under paste be filled, plugged or tented.
+  9. Size of metal pad may vary due to creepage requirement.
+ 
+TM
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE: 15X
+SYMM
+SYMM
+1
+4
+5
+8
+SEE DETAILS
+15.000
+METALSOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+OPENING
+EXPOSED METALEXPOSED METAL
+SOLDER MASK DETAILS
+NON-SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK
+DEFINED
+=== PAGE 40 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+8X (1.4)
+8X (0.45)
+6X (0.65)
+(4.4)
+(R0.05) TYP
+VSSOP - 1.1 mm max heightDGK0008A
+SMALL OUTLINE PACKAGE
+4214862/A   04/2023
+NOTES: (continued)
+ 
+11. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+      design recommendations.   
+12. Board assembly site may have different recommendations for stencil design.
+ 
+TM
+SOLDER PASTE EXAMPLE
+ SCALE: 15X
+SYMM
+SYMM
+1
+4
+5
+8
+=== PAGE 41 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+ TYP6.2
+5.8
+1.75 MAX
+12X 1.27
+14X 0.51
+0.31
+2X
+7.62
+ TYP0.25
+0.13
+0 - 8
+0.25
+0.10
+0.25
+GAGE PLANE
+1.27
+0.40
+A
+NOTE 3
+8.75
+8.55
+B
+NOTE 4
+4.0
+3.8
+4220718/A   09/2016
+SOIC - 1.75 mm max heightD0014A
+SMALL OUTLINE INTEGRATED CIRCUIT
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm, per side. 
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.43 mm, per side.
+5. Reference JEDEC registration MS-012, variation AB.
+ 
+1 14
+0.25 C A B
+8
+7
+PIN 1 ID
+AREA
+SEATING PLANE
+0.1 C
+ SEE DETAIL A
+DETAIL A
+TYPICAL
+SCALE  1.800
+=== PAGE 42 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+(5.4)
+0.07 MAX
+ALL AROUND
+0.07 MIN
+ALL AROUND
+14X (1.55)
+14X (0.6)
+12X (1.27)
+(R0.05)
+TYP
+4220718/A   09/2016
+SOIC - 1.75 mm max heightD0014A
+SMALL OUTLINE INTEGRATED CIRCUIT
+SYMM
+SYMM
+LAND PATTERN EXAMPLE
+SCALE:8X
+1
+7 8
+14
+NOTES: (continued)
+ 
+6. Publication IPC-7351 may have alternate designs. 
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+METALSOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+SOLDER MASK DETAILS
+SOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+=== PAGE 43 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+(5.4)
+12X (1.27)
+14X (0.6)
+14X (1.55)
+4220718/A   09/2016
+SOIC - 1.75 mm max heightD0014A
+SMALL OUTLINE INTEGRATED CIRCUIT
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SYMM
+SYMM
+1
+7 8
+14
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE:8X
+=== PAGE 44 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+.228-.244  TYP
+[5.80-6.19]
+.069 MAX
+[1.75]     
+6X .050
+[1.27]
+8X .012-.020
+     [0.31-0.51]
+2X
+.150
+[3.81]
+.005-.010  TYP
+[0.13-0.25]
+0 - 8 .004-.010
+[0.11-0.25]
+.010
+[0.25].016-.050
+[0.41-1.27]
+4X (0 -15 )
+A
+.189-.197
+[4.81-5.00]
+NOTE 3
+B .150-.157
+[3.81-3.98]
+NOTE 4
+4X (0 -15 )
+(.041)
+[1.04]
+SOIC - 1.75 mm max heightD0008A
+SMALL OUTLINE INTEGRATED CIRCUIT
+4214825/C   02/2019
+NOTES: 
+ 
+1. Linear dimensions are in inches [millimeters]. Dimensions in parenthesis are for reference only. Controlling dimensions are in inches.
+    Dimensioning and tolerancing per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed .006 [0.15] per side. 
+4. This dimension does not include interlead flash.
+5. Reference JEDEC registration MS-012, variation AA.
+ 
+1 8
+.010 [0.25] C A B
+5
+4
+PIN 1 ID AREA
+SEATING PLANE
+.004 [0.1] C
+ SEE DETAIL A
+DETAIL A
+TYPICAL
+SCALE  2.800
+=== PAGE 45 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+.0028 MAX
+[0.07]
+ALL AROUND
+.0028 MIN
+[0.07]
+ALL AROUND
+ 
+(.213)
+[5.4]
+6X (.050 )
+[1.27]
+8X (.061 )
+[1.55]
+8X (.024)
+[0.6]
+(R.002 ) TYP
+[0.05]
+SOIC - 1.75 mm max heightD0008A
+SMALL OUTLINE INTEGRATED CIRCUIT
+4214825/C   02/2019
+NOTES: (continued)
+ 
+6. Publication IPC-7351 may have alternate designs. 
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+METAL SOLDER MASK
+OPENING
+NON SOLDER MASK
+DEFINED
+SOLDER MASK DETAILS
+EXPOSED
+METAL
+OPENING
+SOLDER MASK METAL UNDER
+SOLDER MASK
+SOLDER MASK
+DEFINED
+EXPOSED
+METAL
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE:8X
+SYMM
+1
+4 5
+8
+SEE
+DETAILS
+SYMM
+=== PAGE 46 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+8X (.061 )
+[1.55]
+8X (.024)
+[0.6]
+6X (.050 )
+[1.27]
+(.213)
+[5.4]
+(R.002 ) TYP
+[0.05]
+SOIC - 1.75 mm max heightD0008A
+SMALL OUTLINE INTEGRATED CIRCUIT
+4214825/C   02/2019
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON .005 INCH [0.125 MM] THICK STENCIL
+SCALE:8X
+SYMM
+SYMM
+1
+4 5
+8
+=== PAGE 47 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+12X 0.65
+2X
+3.9
+14X 0.30
+0.17
+6.6
+6.2 TYP
+1.2 MAX
+0.15
+0.05
+0.25
+GAGE PLANE
+0 -8
+4X (0 -12 )
+B 4.5
+4.3
+NOTE 4
+A
+5.1
+4.9
+NOTE 3
+0.75
+0.50
+(0.15) TYP
+TSSOP - 1.2 mm max heightPW0014A
+SMALL OUTLINE PACKAGE
+4220202/B   12/2023
+1
+7
+8
+14
+0.1 C A B
+PIN 1 INDEX AREA
+SEE DETAIL  A
+0.1 C
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side. 
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.25 mm per side.
+5. Reference JEDEC registration MO-153.
+ 
+SEATING
+PLANE
+A  20
+DETAIL A
+TYPICAL
+SCALE  2.500
+=== PAGE 48 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MAX
+ALL AROUND
+0.05 MIN
+ALL AROUND
+14X (1.5)
+14X (0.45)
+12X (0.65)
+(5.8)
+(R0.05) TYP
+TSSOP - 1.2 mm max heightPW0014A
+SMALL OUTLINE PACKAGE
+4220202/B   12/2023
+NOTES: (continued)
+ 
+6. Publication IPC-7351 may have alternate designs. 
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE: 10X
+SYMM
+SYMM
+1
+7 8
+14
+15.000
+METALSOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+OPENING
+EXPOSED METALEXPOSED METAL
+SOLDER MASK DETAILS
+NON-SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK
+DEFINED
+=== PAGE 49 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+14X (1.5)
+14X (0.45)
+12X (0.65)
+(5.8)
+(R0.05) TYP
+TSSOP - 1.2 mm max heightPW0014A
+SMALL OUTLINE PACKAGE
+4220202/B   12/2023
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE: 10X
+SYMM
+SYMM
+1
+7 8
+14
+=== PAGE 50 ===
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2026, Texas Instruments Incorporated
+Last updated 10/2025

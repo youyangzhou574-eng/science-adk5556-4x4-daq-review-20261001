@@ -1,0 +1,33 @@
+{
+  "started_utc": "2026-09-30T19:42:31.432629+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const uuid=await eda.dmt_Project.createProject('SCIENCE_ADK5556_4X4_FIRST_BUILD_V1','science-adk5556-4x4-first-build-v1',undefined,undefined,'Independent 0.8-8kohm array first-build review schematic; bench/dynamic/fault validation pending');\nif(!uuid)throw Error('Official createProject returned no uuid');\nreturn {uuid,info:await eda.dmt_Project.getProjectInfo(uuid),time:new Date().toISOString()};\n",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"uuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\",\"info\":{\"itemType\":\"Project\",\"uuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\",\"friendlyName\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_V1\",\"teamUuid\":\"9f10cb2dacf74bd9bc0f771796227705\"},\"time\":\"2026-09-30T19:42:31.999Z\"},\"logs\":[],\"durationMs\":140}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "uuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07",
+      "info": {
+        "itemType": "Project",
+        "uuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07",
+        "friendlyName": "SCIENCE_ADK5556_4X4_FIRST_BUILD_V1",
+        "teamUuid": "9f10cb2dacf74bd9bc0f771796227705"
+      },
+      "time": "2026-09-30T19:42:31.999Z"
+    },
+    "logs": [],
+    "durationMs": 140
+  }
+}

@@ -1,0 +1,385 @@
+{
+  "started_utc": "2026-09-30T19:58:22.444044+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const libraryUuid=await eda.lib_LibrariesList.getSystemLibraryUuid();\nconst results=[];\nfor(const key of __CLI__.args.keys){const items=await eda.lib_Device.search(key,libraryUuid,undefined,undefined,12,1);results.push({key,items});}\nreturn {time:new Date().toISOString(),libraryUuid,results};\n",
+    "--args",
+    "{\"keys\":[\"GRM32ER71E226KE15L\",\"CL31A226KAHNNNE\",\"HDR-M-2.54_1x8\",\"HDR-M-2.54_1x6\",\"HDR-M-2.54_1x4\",\"HDR-M-2.54_1x2\"]}",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"time\":\"2026-09-30T19:58:25.140Z\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"results\":[{\"key\":\"GRM32ER71E226KE15L\",\"items\":[{\"uuid\":\"c469f6d370424dcc93e93079d1eecf2f\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[\"电容\",\"贴片电容(MLCC)\"],\"ordinal\":0,\"name\":\"GRM32ER71E226KE15L\",\"symbolName\":\"GRM32ER71E226KE15L\",\"symbolUuid\":\"f53edac0fc574cc98c2a362fdc19c42a\",\"footprintName\":\"C1210\",\"footprintUuid\":\"d98380dbde964cff944f829800b236c1\",\"model3DName\":\"C1210_L3.2-W2.5-H2.5\",\"model3DUuid\":\"833068e7fe044595a6eec77c56179455\",\"imageUuid\":\"https://alimg.szlcsc.com/upload/public/product/middle/20251022/4E6368E0E4C2BEFA4B86DD9BC63BE38A.jpg\",\"description\":\"容值:22uF;精度:±10%;额定电压:25V;温度系数:X7R;\",\"manufacturer\":\"muRata(村田)\",\"manufacturerId\":\"GRM32ER71E226KE15L\",\"supplier\":\"LCSC\",\"supplierId\":\"C21397\",\"otherProperty\":{\"LCSC Part Name\":\"22uF ±10% 25V\",\"Supplier Part\":\"C21397\",\"Manufacturer\":\"muRata(村田)\",\"Manufacturer Part\":\"GRM32ER71E226KE15L\",\"Supplier Footprint\":\"1210\",\"JLCPCB Part Class\":\"Extended Part\",\"Datasheet\":\"https://item.szlcsc.com/datasheet/GRM32ER71E226KE15L/22114.html\",\"Supplier\":\"LCSC\",\"Add into BOM\":\"yes\",\"Convert to PCB\":\"yes\",\"Symbol\":\"f53edac0fc574cc98c2a362fdc19c42a\",\"Designator\":\"C?\",\"Footprint\":\"d98380dbde964cff944f829800b236c1\",\"3D Model\":\"833068e7fe044595a6eec77c56179455\",\"3D Model Title\":\"C1210_L3.2-W2.5-H2.5\",\"3D Model Transform\":\"125.984,98.425,0,0,0,0,0,0,0\",\"Value\":\"22uF\",\"Tolerance\":\"±10%\",\"Voltage Rating\":\"25V\",\"Temperature Coefficient\":\"X7R\",\"Name\":\"={Value}\",\"Description\":\"容值:22uF;精度:±10%;额定电压:25V;温度系数:X7R;\"}}]},{\"key\":\"CL31A226KAHNNNE\",\"items\":[{\"uuid\":\"0de9d28bbcd34ca3bf2a4d78faaa50bb\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[\"电容\",\"贴片电容(MLCC)\"],\"ordinal\":0,\"name\":\"CL31A226KAHNNNE\",\"symbolName\":\"CL31A226KAHNNNE\",\"symbolUuid\":\"d4271502b99744028366a7534683a2c7\",\"footprintName\":\"C1206\",\"footprintUuid\":\"f9883b5edc654f83a19cf28e812ef37d\",\"model3DName\":\"C1206_L3.2-W1.6-H1.3\",\"model3DUuid\":\"e4be705b945545a48e666415e3682bd8\",\"imageUuid\":\"https://alimg.szlcsc.com/upload/public/product/middle/20230217/9F081361B8B152DCB3D3CD23702A6905.jpg\",\"description\":\"容值:22uF;精度:±10%;额定电压:25V;温度系数:X5R;\",\"manufacturer\":\"SAMSUNG(三星)\",\"manufacturerId\":\"CL31A226KAHNNNE\",\"supplier\":\"LCSC\",\"supplierId\":\"C12891\",\"otherProperty\":{\"LCSC Part Name\":\"22uF ±10% 25V\",\"Supplier Part\":\"C12891\",\"Manufacturer\":\"SAMSUNG(三星)\",\"Manufacturer Part\":\"CL31A226KAHNNNE\",\"Supplier Footprint\":\"1206\",\"JLCPCB Part Class\":\"Basic Part\",\"Datasheet\":\"https://item.szlcsc.com/datasheet/CL31A226KAHNNNE/13537.html\",\"Supplier\":\"LCSC\",\"Add into BOM\":\"yes\",\"Convert to PCB\":\"yes\",\"Symbol\":\"d4271502b99744028366a7534683a2c7\",\"Designator\":\"C?\",\"Footprint\":\"f9883b5edc654f83a19cf28e812ef37d\",\"3D Model\":\"e4be705b945545a48e666415e3682bd8\",\"3D Model Title\":\"C1206_L3.2-W1.6-H1.3\",\"3D Model Transform\":\"125.984,62.992,0,0,0,0,0,0,0\",\"Value\":\"22uF\",\"Tolerance\":\"±10%\",\"Voltage Rating\":\"25V\",\"Temperature Coefficient\":\"X5R\",\"Name\":\"={Value}\",\"Description\":\"容值:22uF;精度:±10%;额定电压:25V;温度系数:X5R;\"}},{\"uuid\":\"ab61f4a9c21a45d089c261ff170931eb\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[],\"ordinal\":1,\"name\":\"CL31A226KAHNNNE-YJLTY\",\"symbolName\":\"CL31A226KAHNNNE-YJLTY\",\"symbolUuid\":\"b2f63616388d4f48a0ec1ed31c71cb00\",\"footprintName\":\"C1206\",\"footprintUuid\":\"f9883b5edc654f83a19cf28e812ef37d\",\"model3DName\":\"C1206_L3.2-W1.6-H1.3\",\"model3DUuid\":\"e4be705b945545a48e666415e3682bd8\",\"description\":\"\",\"manufacturer\":\"\",\"manufacturerId\":\"CL31A226KAHNNNE-YJLTY\",\"supplier\":\"LCSC\",\"supplierId\":\"C5156951\",\"otherProperty\":{\"LCSC Part Name\":\"CL31A226KAHNNNE-YJLTY\",\"Supplier Part\":\"C5156951\",\"Manufacturer\":\"\",\"Manufacturer Part\":\"CL31A226KAHNNNE-YJLTY\",\"Supplier Footprint\":\"1206\",\"JLCPCB Part Class\":\"Extended Part\",\"Datasheet\":\"\",\"Supplier\":\"LCSC\",\"Add into BOM\":\"yes\",\"Convert to PCB\":\"yes\",\"Symbol\":\"b2f63616388d4f48a0ec1ed31c71cb00\",\"Designator\":\"C?\",\"Footprint\":\"f9883b5edc654f83a19cf28e812ef37d\",\"3D Model\":\"e4be705b945545a48e666415e3682bd8\",\"3D Model Title\":\"C1206_L3.2-W1.6-H1.3\",\"3D Model Transform\":\"125.984,62.992,0,0,0,0,0,0,0\",\"Name\":\"={Manufacturer Part}\",\"Description\":\"\"}}]},{\"key\":\"HDR-M-2.54_1x8\",\"items\":[{\"uuid\":\"fd554b15b6eb4d6f90f5fd338a8ff700\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[\"连接器\",\"排针\"],\"ordinal\":0,\"name\":\"HDR-M_2.54_1x8P\",\"symbolName\":\"Header-Male-2.54_1x8\",\"symbolUuid\":\"508628b35a76440bbe5623097af263bd\",\"footprintName\":\"HDR-TH_8P-P2.54-V-M\",\"footprintUuid\":\"5b740a7e2a6a4f148966ac2276622783\",\"model3DName\":\"HDR-TH_8P-P2.54-V-M\",\"model3DUuid\":\"f5b96e27511e49e38545e53df2320202\",\"imageUuid\":\"\",\"description\":\"\",\"supplierId\":\"C124381\",\"otherProperty\":{\"Convert to PCB\":\"yes\",\"Add into BOM\":\"yes\",\"Designator\":\"H?\",\"Supplier Part\":\"C124381\",\"Supplier Footprint\":\"插件\",\"Symbol\":\"508628b35a76440bbe5623097af263bd\",\"Footprint\":\"5b740a7e2a6a4f148966ac2276622783\",\"3D Model\":\"f5b96e27511e49e38545e53df2320202\",\"3D Model Title\":\"HDR-TH_8P-P2.54-V-M\",\"3D Model Transform\":\"807.87244,98.425,0,0,0,0,0,0,-118.11\",\"Description\":\"\"}}]},{\"key\":\"HDR-M-2.54_1x6\",\"items\":[{\"uuid\":\"8713123b624d4455bcbe38688209bdf0\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[\"连接器\",\"排针\"],\"ordinal\":0,\"name\":\"HDR-M_2.54_1x6P\",\"symbolName\":\"Header-Male-2.54_1x6\",\"symbolUuid\":\"8f0853baf0564a33bcf4c02aff415046\",\"footprintName\":\"HDR-TH_6P-P2.54-V-M-1\",\"footprintUuid\":\"4ae36c3264894f4ba8d89c65206a7e09\",\"model3DName\":\"HDR2.54-M-LI-1X6P\",\"model3DUuid\":\"60739dffc9b04830a286435b0fefbd4a\",\"imageUuid\":\"\",\"description\":\"\",\"supplierId\":\"C37208\",\"otherProperty\":{\"Convert to PCB\":\"yes\",\"Add into BOM\":\"yes\",\"Designator\":\"H?\",\"Supplier Part\":\"C37208\",\"Supplier Footprint\":\"插件\",\"Symbol\":\"8f0853baf0564a33bcf4c02aff415046\",\"Footprint\":\"4ae36c3264894f4ba8d89c65206a7e09\",\"3D Model\":\"60739dffc9b04830a286435b0fefbd4a\",\"3D Model Title\":\"HDR2.54-M-LI-1X6P\",\"3D Model Transform\":\"599.999,100,0,0,0,0,0,0,-118.11\",\"Description\":\"\"}}]},{\"key\":\"HDR-M-2.54_1x4\",\"items\":[{\"uuid\":\"f5d6505cbb9a40a4b73f63a36ed54e05\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[],\"ordinal\":0,\"name\":\"HDR-M_2.54_1x4P_C9900236824\",\"symbolName\":\"HDR-M_2.54_1X4P\",\"symbolUuid\":\"f3bfede9da5e44b8b077e58e8965f680\",\"footprintName\":\"HDR-TH_HDR-M_2.54_1X4P\",\"footprintUuid\":\"caf0794de1ef402983d2926c2fb51c69\",\"description\":\"\",\"manufacturer\":\"\",\"manufacturerId\":\"HDR-M_2.54_1x4P\",\"supplier\":\"LCSC\",\"supplierId\":\"C9900236824\",\"otherProperty\":{\"LCSC Part Name\":\"HDR-M_2.54_1x4P\",\"Supplier Part\":\"C9900236824\",\"Manufacturer\":\"\",\"Manufacturer Part\":\"HDR-M_2.54_1x4P\",\"Supplier Footprint\":\"HDR-TH_4P-P2.54-V-M\",\"JLCPCB Part Class\":\"Extended Part\",\"Datasheet\":\"\",\"Supplier\":\"LCSC\",\"Add into BOM\":\"yes\",\"Convert to PCB\":\"yes\",\"Symbol\":\"f3bfede9da5e44b8b077e58e8965f680\",\"Designator\":\"U?\",\"Footprint\":\"caf0794de1ef402983d2926c2fb51c69\",\"Name\":\"={Manufacturer Part}\",\"Description\":\"\"}},{\"uuid\":\"d5e86a4f70d24c6c950b9ff10d30894b\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[\"连接器\",\"排针\"],\"ordinal\":1,\"name\":\"HDR-M_2.54_1x4P\",\"symbolName\":\"PZ254V-11-04P\",\"symbolUuid\":\"9ec93f639a874ee58b76ff14fa75d4ac\",\"footprintName\":\"HDR-TH_4P-P2.54-V-M\",\"footprintUuid\":\"55a1ecf332f24bc1b8208f936e198213\",\"model3DName\":\"HDR-TH_4P-P2.54-M-LI-1X4P\",\"model3DUuid\":\"112f4d05e8d64e99ab9a333894bea4f9\",\"imageUuid\":\"\",\"description\":\"\",\"supplierId\":\"C492403\",\"otherProperty\":{\"Convert to PCB\":\"yes\",\"Add into BOM\":\"yes\",\"Designator\":\"H?\",\"Supplier Part\":\"C492403\",\"Supplier Footprint\":\"插件\",\"Symbol\":\"9ec93f639a874ee58b76ff14fa75d4ac\",\"Footprint\":\"55a1ecf332f24bc1b8208f936e198213\",\"3D Model\":\"112f4d05e8d64e99ab9a333894bea4f9\",\"3D Model Title\":\"HDR-TH_4P-P2.54-M-LI-1X4P\",\"3D Model Transform\":\"399.999,104.7242,0,0,0,0,0,0,-118.11\",\"Description\":\"\"}}]},{\"key\":\"HDR-M-2.54_1x2\",\"items\":[{\"uuid\":\"eab4a8150b6d4918927e38d645cd50f2\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[\"连接器\",\"排针\"],\"ordinal\":0,\"name\":\"HDR-M_2.54_1x2P\",\"symbolName\":\"210S-1*2P L=11.6MMGold-plated black\",\"symbolUuid\":\"817a2b12f1f8444aa9dd23951b703391\",\"footprintName\":\"HDR-TH_2P-P2.54-V-M-1\",\"footprintUuid\":\"f8790065914e4d75b82d300fa5733686\",\"model3DName\":\"HDR-M-2.54_1x2\",\"model3DUuid\":\"79b2e9f2d70a4d68a1b7098f27c6d4c5\",\"imageUuid\":\"\",\"description\":\"\",\"supplierId\":\"C124375\",\"otherProperty\":{\"Convert to PCB\":\"yes\",\"Add into BOM\":\"yes\",\"Designator\":\"H?\",\"Supplier Part\":\"C124375\",\"Supplier Footprint\":\"插件\",\"Name\":\"\",\"Symbol\":\"817a2b12f1f8444aa9dd23951b703391\",\"Footprint\":\"f8790065914e4d75b82d300fa5733686\",\"3D Model\":\"79b2e9f2d70a4d68a1b7098f27c6d4c5\",\"3D Model Title\":\"HDR-M-2.54_1x2\",\"3D Model Transform\":\"200,100,0,0,0,0,0,0,-118.11\",\"Description\":\"\"}},{\"uuid\":\"740aaa91b4504921b2708454aa21de13\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"classification\":[\"连接器\",\"排针\"],\"ordinal\":1,\"name\":\"HDR-M_2.54_1x20P\",\"symbolName\":\"HDR_2.54-1x20P\",\"symbolUuid\":\"b7d2e3cb4e1c4c0c88450d6956da3e09\",\"footprintName\":\"HDR-TH_20P-P2.54-V-M-1\",\"footprintUuid\":\"cdfa6da31aa34407a8e74429fe715c9c\",\"model3DName\":\"HDR-M-2.54_1x20\",\"model3DUuid\":\"f68709be121d406db68b06f32a595389\",\"imageUuid\":\"\",\"description\":\"间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;\",\"supplierId\":\"C50981\",\"otherProperty\":{\"Convert to PCB\":\"yes\",\"Add into BOM\":\"yes\",\"Designator\":\"H?\",\"Supplier Part\":\"C50981\",\"Supplier Footprint\":\"插件\",\"Symbol\":\"b7d2e3cb4e1c4c0c88450d6956da3e09\",\"Footprint\":\"cdfa6da31aa34407a8e74429fe715c9c\",\"3D Model\":\"f68709be121d406db68b06f32a595389\",\"3D Model Title\":\"HDR-M-2.54_1x20\",\"3D Model Transform\":\"1999.996,100,0,0,0,0,0,0,-118.11\",\"Description\":\"间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;\"}}]}]},\"logs\":[],\"durationMs\":2282}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "time": "2026-09-30T19:58:25.140Z",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "results": [
+        {
+          "key": "GRM32ER71E226KE15L",
+          "items": [
+            {
+              "uuid": "c469f6d370424dcc93e93079d1eecf2f",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [
+                "电容",
+                "贴片电容(MLCC)"
+              ],
+              "ordinal": 0,
+              "name": "GRM32ER71E226KE15L",
+              "symbolName": "GRM32ER71E226KE15L",
+              "symbolUuid": "f53edac0fc574cc98c2a362fdc19c42a",
+              "footprintName": "C1210",
+              "footprintUuid": "d98380dbde964cff944f829800b236c1",
+              "model3DName": "C1210_L3.2-W2.5-H2.5",
+              "model3DUuid": "833068e7fe044595a6eec77c56179455",
+              "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251022/4E6368E0E4C2BEFA4B86DD9BC63BE38A.jpg",
+              "description": "容值:22uF;精度:±10%;额定电压:25V;温度系数:X7R;",
+              "manufacturer": "muRata(村田)",
+              "manufacturerId": "GRM32ER71E226KE15L",
+              "supplier": "LCSC",
+              "supplierId": "C21397",
+              "otherProperty": {
+                "LCSC Part Name": "22uF ±10% 25V",
+                "Supplier Part": "C21397",
+                "Manufacturer": "muRata(村田)",
+                "Manufacturer Part": "GRM32ER71E226KE15L",
+                "Supplier Footprint": "1210",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/GRM32ER71E226KE15L/22114.html",
+                "Supplier": "LCSC",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "f53edac0fc574cc98c2a362fdc19c42a",
+                "Designator": "C?",
+                "Footprint": "d98380dbde964cff944f829800b236c1",
+                "3D Model": "833068e7fe044595a6eec77c56179455",
+                "3D Model Title": "C1210_L3.2-W2.5-H2.5",
+                "3D Model Transform": "125.984,98.425,0,0,0,0,0,0,0",
+                "Value": "22uF",
+                "Tolerance": "±10%",
+                "Voltage Rating": "25V",
+                "Temperature Coefficient": "X7R",
+                "Name": "={Value}",
+                "Description": "容值:22uF;精度:±10%;额定电压:25V;温度系数:X7R;"
+              }
+            }
+          ]
+        },
+        {
+          "key": "CL31A226KAHNNNE",
+          "items": [
+            {
+              "uuid": "0de9d28bbcd34ca3bf2a4d78faaa50bb",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [
+                "电容",
+                "贴片电容(MLCC)"
+              ],
+              "ordinal": 0,
+              "name": "CL31A226KAHNNNE",
+              "symbolName": "CL31A226KAHNNNE",
+              "symbolUuid": "d4271502b99744028366a7534683a2c7",
+              "footprintName": "C1206",
+              "footprintUuid": "f9883b5edc654f83a19cf28e812ef37d",
+              "model3DName": "C1206_L3.2-W1.6-H1.3",
+              "model3DUuid": "e4be705b945545a48e666415e3682bd8",
+              "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230217/9F081361B8B152DCB3D3CD23702A6905.jpg",
+              "description": "容值:22uF;精度:±10%;额定电压:25V;温度系数:X5R;",
+              "manufacturer": "SAMSUNG(三星)",
+              "manufacturerId": "CL31A226KAHNNNE",
+              "supplier": "LCSC",
+              "supplierId": "C12891",
+              "otherProperty": {
+                "LCSC Part Name": "22uF ±10% 25V",
+                "Supplier Part": "C12891",
+                "Manufacturer": "SAMSUNG(三星)",
+                "Manufacturer Part": "CL31A226KAHNNNE",
+                "Supplier Footprint": "1206",
+                "JLCPCB Part Class": "Basic Part",
+                "Datasheet": "https://item.szlcsc.com/datasheet/CL31A226KAHNNNE/13537.html",
+                "Supplier": "LCSC",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "d4271502b99744028366a7534683a2c7",
+                "Designator": "C?",
+                "Footprint": "f9883b5edc654f83a19cf28e812ef37d",
+                "3D Model": "e4be705b945545a48e666415e3682bd8",
+                "3D Model Title": "C1206_L3.2-W1.6-H1.3",
+                "3D Model Transform": "125.984,62.992,0,0,0,0,0,0,0",
+                "Value": "22uF",
+                "Tolerance": "±10%",
+                "Voltage Rating": "25V",
+                "Temperature Coefficient": "X5R",
+                "Name": "={Value}",
+                "Description": "容值:22uF;精度:±10%;额定电压:25V;温度系数:X5R;"
+              }
+            },
+            {
+              "uuid": "ab61f4a9c21a45d089c261ff170931eb",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [],
+              "ordinal": 1,
+              "name": "CL31A226KAHNNNE-YJLTY",
+              "symbolName": "CL31A226KAHNNNE-YJLTY",
+              "symbolUuid": "b2f63616388d4f48a0ec1ed31c71cb00",
+              "footprintName": "C1206",
+              "footprintUuid": "f9883b5edc654f83a19cf28e812ef37d",
+              "model3DName": "C1206_L3.2-W1.6-H1.3",
+              "model3DUuid": "e4be705b945545a48e666415e3682bd8",
+              "description": "",
+              "manufacturer": "",
+              "manufacturerId": "CL31A226KAHNNNE-YJLTY",
+              "supplier": "LCSC",
+              "supplierId": "C5156951",
+              "otherProperty": {
+                "LCSC Part Name": "CL31A226KAHNNNE-YJLTY",
+                "Supplier Part": "C5156951",
+                "Manufacturer": "",
+                "Manufacturer Part": "CL31A226KAHNNNE-YJLTY",
+                "Supplier Footprint": "1206",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Supplier": "LCSC",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "b2f63616388d4f48a0ec1ed31c71cb00",
+                "Designator": "C?",
+                "Footprint": "f9883b5edc654f83a19cf28e812ef37d",
+                "3D Model": "e4be705b945545a48e666415e3682bd8",
+                "3D Model Title": "C1206_L3.2-W1.6-H1.3",
+                "3D Model Transform": "125.984,62.992,0,0,0,0,0,0,0",
+                "Name": "={Manufacturer Part}",
+                "Description": ""
+              }
+            }
+          ]
+        },
+        {
+          "key": "HDR-M-2.54_1x8",
+          "items": [
+            {
+              "uuid": "fd554b15b6eb4d6f90f5fd338a8ff700",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [
+                "连接器",
+                "排针"
+              ],
+              "ordinal": 0,
+              "name": "HDR-M_2.54_1x8P",
+              "symbolName": "Header-Male-2.54_1x8",
+              "symbolUuid": "508628b35a76440bbe5623097af263bd",
+              "footprintName": "HDR-TH_8P-P2.54-V-M",
+              "footprintUuid": "5b740a7e2a6a4f148966ac2276622783",
+              "model3DName": "HDR-TH_8P-P2.54-V-M",
+              "model3DUuid": "f5b96e27511e49e38545e53df2320202",
+              "imageUuid": "",
+              "description": "",
+              "supplierId": "C124381",
+              "otherProperty": {
+                "Convert to PCB": "yes",
+                "Add into BOM": "yes",
+                "Designator": "H?",
+                "Supplier Part": "C124381",
+                "Supplier Footprint": "插件",
+                "Symbol": "508628b35a76440bbe5623097af263bd",
+                "Footprint": "5b740a7e2a6a4f148966ac2276622783",
+                "3D Model": "f5b96e27511e49e38545e53df2320202",
+                "3D Model Title": "HDR-TH_8P-P2.54-V-M",
+                "3D Model Transform": "807.87244,98.425,0,0,0,0,0,0,-118.11",
+                "Description": ""
+              }
+            }
+          ]
+        },
+        {
+          "key": "HDR-M-2.54_1x6",
+          "items": [
+            {
+              "uuid": "8713123b624d4455bcbe38688209bdf0",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [
+                "连接器",
+                "排针"
+              ],
+              "ordinal": 0,
+              "name": "HDR-M_2.54_1x6P",
+              "symbolName": "Header-Male-2.54_1x6",
+              "symbolUuid": "8f0853baf0564a33bcf4c02aff415046",
+              "footprintName": "HDR-TH_6P-P2.54-V-M-1",
+              "footprintUuid": "4ae36c3264894f4ba8d89c65206a7e09",
+              "model3DName": "HDR2.54-M-LI-1X6P",
+              "model3DUuid": "60739dffc9b04830a286435b0fefbd4a",
+              "imageUuid": "",
+              "description": "",
+              "supplierId": "C37208",
+              "otherProperty": {
+                "Convert to PCB": "yes",
+                "Add into BOM": "yes",
+                "Designator": "H?",
+                "Supplier Part": "C37208",
+                "Supplier Footprint": "插件",
+                "Symbol": "8f0853baf0564a33bcf4c02aff415046",
+                "Footprint": "4ae36c3264894f4ba8d89c65206a7e09",
+                "3D Model": "60739dffc9b04830a286435b0fefbd4a",
+                "3D Model Title": "HDR2.54-M-LI-1X6P",
+                "3D Model Transform": "599.999,100,0,0,0,0,0,0,-118.11",
+                "Description": ""
+              }
+            }
+          ]
+        },
+        {
+          "key": "HDR-M-2.54_1x4",
+          "items": [
+            {
+              "uuid": "f5d6505cbb9a40a4b73f63a36ed54e05",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [],
+              "ordinal": 0,
+              "name": "HDR-M_2.54_1x4P_C9900236824",
+              "symbolName": "HDR-M_2.54_1X4P",
+              "symbolUuid": "f3bfede9da5e44b8b077e58e8965f680",
+              "footprintName": "HDR-TH_HDR-M_2.54_1X4P",
+              "footprintUuid": "caf0794de1ef402983d2926c2fb51c69",
+              "description": "",
+              "manufacturer": "",
+              "manufacturerId": "HDR-M_2.54_1x4P",
+              "supplier": "LCSC",
+              "supplierId": "C9900236824",
+              "otherProperty": {
+                "LCSC Part Name": "HDR-M_2.54_1x4P",
+                "Supplier Part": "C9900236824",
+                "Manufacturer": "",
+                "Manufacturer Part": "HDR-M_2.54_1x4P",
+                "Supplier Footprint": "HDR-TH_4P-P2.54-V-M",
+                "JLCPCB Part Class": "Extended Part",
+                "Datasheet": "",
+                "Supplier": "LCSC",
+                "Add into BOM": "yes",
+                "Convert to PCB": "yes",
+                "Symbol": "f3bfede9da5e44b8b077e58e8965f680",
+                "Designator": "U?",
+                "Footprint": "caf0794de1ef402983d2926c2fb51c69",
+                "Name": "={Manufacturer Part}",
+                "Description": ""
+              }
+            },
+            {
+              "uuid": "d5e86a4f70d24c6c950b9ff10d30894b",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [
+                "连接器",
+                "排针"
+              ],
+              "ordinal": 1,
+              "name": "HDR-M_2.54_1x4P",
+              "symbolName": "PZ254V-11-04P",
+              "symbolUuid": "9ec93f639a874ee58b76ff14fa75d4ac",
+              "footprintName": "HDR-TH_4P-P2.54-V-M",
+              "footprintUuid": "55a1ecf332f24bc1b8208f936e198213",
+              "model3DName": "HDR-TH_4P-P2.54-M-LI-1X4P",
+              "model3DUuid": "112f4d05e8d64e99ab9a333894bea4f9",
+              "imageUuid": "",
+              "description": "",
+              "supplierId": "C492403",
+              "otherProperty": {
+                "Convert to PCB": "yes",
+                "Add into BOM": "yes",
+                "Designator": "H?",
+                "Supplier Part": "C492403",
+                "Supplier Footprint": "插件",
+                "Symbol": "9ec93f639a874ee58b76ff14fa75d4ac",
+                "Footprint": "55a1ecf332f24bc1b8208f936e198213",
+                "3D Model": "112f4d05e8d64e99ab9a333894bea4f9",
+                "3D Model Title": "HDR-TH_4P-P2.54-M-LI-1X4P",
+                "3D Model Transform": "399.999,104.7242,0,0,0,0,0,0,-118.11",
+                "Description": ""
+              }
+            }
+          ]
+        },
+        {
+          "key": "HDR-M-2.54_1x2",
+          "items": [
+            {
+              "uuid": "eab4a8150b6d4918927e38d645cd50f2",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [
+                "连接器",
+                "排针"
+              ],
+              "ordinal": 0,
+              "name": "HDR-M_2.54_1x2P",
+              "symbolName": "210S-1*2P L=11.6MMGold-plated black",
+              "symbolUuid": "817a2b12f1f8444aa9dd23951b703391",
+              "footprintName": "HDR-TH_2P-P2.54-V-M-1",
+              "footprintUuid": "f8790065914e4d75b82d300fa5733686",
+              "model3DName": "HDR-M-2.54_1x2",
+              "model3DUuid": "79b2e9f2d70a4d68a1b7098f27c6d4c5",
+              "imageUuid": "",
+              "description": "",
+              "supplierId": "C124375",
+              "otherProperty": {
+                "Convert to PCB": "yes",
+                "Add into BOM": "yes",
+                "Designator": "H?",
+                "Supplier Part": "C124375",
+                "Supplier Footprint": "插件",
+                "Name": "",
+                "Symbol": "817a2b12f1f8444aa9dd23951b703391",
+                "Footprint": "f8790065914e4d75b82d300fa5733686",
+                "3D Model": "79b2e9f2d70a4d68a1b7098f27c6d4c5",
+                "3D Model Title": "HDR-M-2.54_1x2",
+                "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+                "Description": ""
+              }
+            },
+            {
+              "uuid": "740aaa91b4504921b2708454aa21de13",
+              "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+              "classification": [
+                "连接器",
+                "排针"
+              ],
+              "ordinal": 1,
+              "name": "HDR-M_2.54_1x20P",
+              "symbolName": "HDR_2.54-1x20P",
+              "symbolUuid": "b7d2e3cb4e1c4c0c88450d6956da3e09",
+              "footprintName": "HDR-TH_20P-P2.54-V-M-1",
+              "footprintUuid": "cdfa6da31aa34407a8e74429fe715c9c",
+              "model3DName": "HDR-M-2.54_1x20",
+              "model3DUuid": "f68709be121d406db68b06f32a595389",
+              "imageUuid": "",
+              "description": "间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;",
+              "supplierId": "C50981",
+              "otherProperty": {
+                "Convert to PCB": "yes",
+                "Add into BOM": "yes",
+                "Designator": "H?",
+                "Supplier Part": "C50981",
+                "Supplier Footprint": "插件",
+                "Symbol": "b7d2e3cb4e1c4c0c88450d6956da3e09",
+                "Footprint": "cdfa6da31aa34407a8e74429fe715c9c",
+                "3D Model": "f68709be121d406db68b06f32a595389",
+                "3D Model Title": "HDR-M-2.54_1x20",
+                "3D Model Transform": "1999.996,100,0,0,0,0,0,0,-118.11",
+                "Description": "间距:2.54mm;总PIN位数:20;排数:1;插针结构:-;行距:-;安装类型:直插;圆针/方针:-;额定电流:-;额定电压:-;配合针长度:-;塑高:-;触头材质:黄铜;触头镀层:-;颜色:黑色;"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 2282
+  }
+}

@@ -1,0 +1,1763 @@
+{
+  "started_utc": "2026-09-30T20:47:55.626558+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "\nconst plan={\"project\": \"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\", \"page\": {\"uuid\": \"cd673e3782e532f6\", \"name\": \"ADC_MCU_Interfaces\", \"index\": 3}, \"parts\": [{\"ref\": \"U5\", \"x\": 270, \"y\": 260, \"nets\": {\"1\": \"SPI_MOSI\", \"2\": \"ADC_RESET_N\", \"3\": \"GND\", \"4\": \"GND\", \"5\": \"ADC_REFIO\", \"6\": \"GND\", \"7\": \"ADC_REFCAP\", \"8\": \"GND\", \"9\": \"V5\", \"10\": \"GND\", \"11\": \"GND\", \"12\": null, \"13\": null, \"14\": null, \"15\": null, \"16\": \"ADC_IN0\", \"17\": \"GND\", \"18\": \"ADC_IN1\", \"19\": \"GND\", \"20\": \"GND\", \"21\": \"ADC_IN2\", \"22\": \"GND\", \"23\": \"ADC_IN3\", \"24\": null, \"25\": null, \"26\": null, \"27\": null, \"28\": \"GND\", \"29\": \"GND\", \"30\": \"V5\", \"31\": \"GND\", \"32\": \"GND\", \"33\": \"GND\", \"34\": \"V3V3\", \"35\": null, \"36\": \"SPI_MISO\", \"37\": \"SPI_SCLK\", \"38\": \"ADC_CS_N\"}}, {\"ref\": \"U7\", \"x\": 650, \"y\": 260, \"nets\": {\"1\": null, \"2\": null, \"3\": null, \"4\": \"V3V3\", \"5\": \"GND\", \"6\": \"MCU_NRST\", \"7\": \"ROW_SEL0\", \"8\": \"ROW_SEL1\", \"9\": \"ROW_SEL2\", \"10\": \"ROW_SEL3\", \"11\": \"ADC_CS_N\", \"12\": \"SPI_SCLK\", \"13\": \"SPI_MISO\", \"14\": \"SPI_MOSI\", \"15\": \"ADC_RESET_N\", \"16\": null, \"17\": null, \"18\": null, \"19\": \"UART_TX\", \"20\": null, \"21\": \"UART_RX\", \"22\": null, \"23\": null, \"24\": \"SWDIO\", \"25\": \"SWCLK\", \"26\": null, \"27\": null, \"28\": null, \"29\": null, \"30\": null, \"31\": null, \"32\": null}}, {\"ref\": \"J3\", \"x\": 100, \"y\": 620, \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\", \"3\": \"SWDIO\", \"4\": \"SWCLK\", \"5\": \"MCU_NRST\", \"6\": null}}, {\"ref\": \"J4\", \"x\": 390, \"y\": 620, \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\", \"3\": \"UART_TX\", \"4\": \"UART_RX\"}}, {\"ref\": \"R_RST\", \"x\": 930, \"y\": 125, \"nets\": {\"1\": \"V3V3\", \"2\": \"MCU_NRST\"}}, {\"ref\": \"C_RST\", \"x\": 930, \"y\": 195, \"nets\": {\"1\": \"MCU_NRST\", \"2\": \"GND\"}}, {\"ref\": \"R_CS_PU\", \"x\": 930, \"y\": 265, \"nets\": {\"1\": \"V3V3\", \"2\": \"ADC_CS_N\"}}, {\"ref\": \"R_ADC_RESET_PD\", \"x\": 930, \"y\": 335, \"nets\": {\"1\": \"ADC_RESET_N\", \"2\": \"GND\"}}, {\"ref\": \"C_ADC_REFIO\", \"x\": 680, \"y\": 545, \"nets\": {\"1\": \"ADC_REFIO\", \"2\": \"GND\"}}, {\"ref\": \"C_ADC_REFCAP\", \"x\": 930, \"y\": 545, \"nets\": {\"1\": \"ADC_REFCAP\", \"2\": \"GND\"}}, {\"ref\": \"C_ADCA1\", \"x\": 80, \"y\": 440, \"nets\": {\"1\": \"V5\", \"2\": \"GND\"}}, {\"ref\": \"C_ADCA2\", \"x\": 280, \"y\": 440, \"nets\": {\"1\": \"V5\", \"2\": \"GND\"}}, {\"ref\": \"C_ADCD\", \"x\": 480, \"y\": 440, \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}}, {\"ref\": \"C_MCU1\", \"x\": 680, \"y\": 440, \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}}, {\"ref\": \"C_MCU_BULK\", \"x\": 930, \"y\": 440, \"nets\": {\"1\": \"V3V3\", \"2\": \"GND\"}}]};\nconst result={page:plan.page,repair:'ACTUAL_PIN_ROTATION_OUTWARD_AND_QUANTIZED_STUBS',parts:[],wires:[],ports:[]};\nconst project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong project');\nawait eda.dmt_EditorControl.openDocument(plan.page.uuid);if((await eda.dmt_Schematic.getCurrentSchematicPageInfo())?.uuid!==plan.page.uuid)throw Error('Wrong page');\nlet cs=await eda.sch_PrimitiveComponent.getAll();\nconst actualParts=cs.filter(c=>c.getState_ComponentType()==='part');\nif(actualParts.length!==plan.parts.length)throw Error('Unexpected part count');\nconst ws=await eda.sch_PrimitiveWire.getAll();result.removedWires=ws.map(w=>w.getState_PrimitiveId());\nif(ws.length&&!(await eda.sch_PrimitiveWire.delete(result.removedWires)))throw Error('Delete generated wires');\nconst ports=cs.filter(c=>c.getState_ComponentType()==='netport');result.removedPorts=ports.map(c=>c.getState_PrimitiveId());\nif(ports.length&&!(await eda.sch_PrimitiveComponent.delete(result.removedPorts)))throw Error('Delete generated ports');\nfor(const q of plan.parts){\n const c=actualParts.find(v=>v.getState_Designator()===q.ref);if(!c)throw Error('Missing '+q.ref);\n const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());\n if(ps.length!==Object.keys(q.nets).length)throw Error('Pin count');\n for(const pin of ps){const n=String(pin.getState_PinNumber()),net=q.nets[n];if(net===null){if(!pin.getState_NoConnected())throw Error('NC drift');continue;}\n const x=pin.getState_X(),y=pin.getState_Y(),rot=pin.getState_Rotation();\n if(![0,90,180,270].includes(rot))throw Error('Unreviewed actual pin angle '+rot);\n const ox=rot===0?40:rot===180?-40:0,oy=ox===0?Math.sign(y-q.y)*40:0;\n if(ox===0&&oy===0)throw Error('Undefined vertical outward coordinate');\n const ex=x+ox,ey=y+oy;\n const port=await eda.sch_PrimitiveComponent.createNetPort('BI',net,ex,ey,ox<0?180:ox>0?0:oy>0?90:270,false);if(!port)throw Error('Port');\n const pp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(port.getState_PrimitiveId());if(pp.length!==1)throw Error('Port pin');\n const ax=Math.round(pp[0].getState_X()*1e6)/1e6,ay=Math.round(pp[0].getState_Y()*1e6)/1e6;\n if(Math.abs(ax-ex)>1e-5||Math.abs(ay-ey)>1e-5)throw Error('Actual port anchor mismatch');\n const line=[x,y,ax,ay];const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');\n for(const a of await eda.sch_PrimitiveAttribute.getAll(port.getState_PrimitiveId()))if(a.getState_ValueVisible())await eda.sch_PrimitiveAttribute.modify(a,{fontSize:6,rotation:0,x:ex+(ox>=0?18:-18),y:ey,alignMode:ox>=0?2:8});\n result.wires.push({ref:q.ref,pin:n,id:w.getState_PrimitiveId(),net,line});result.ports.push({ref:q.ref,pin:n,id:port.getState_PrimitiveId(),net,x:ax,y:ay});\n }\n result.parts.push({ref:q.ref,id:c.getState_PrimitiveId()});\n}\nresult.status='REPAIR_COMPLETED_UNSAVED';return result;\n",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"cd673e3782e532f6\",\"name\":\"ADC_MCU_Interfaces\",\"index\":3},\"repair\":\"ACTUAL_PIN_ROTATION_OUTWARD_AND_QUANTIZED_STUBS\",\"parts\":[{\"ref\":\"U5\",\"id\":\"c9cf3964a252619e\"},{\"ref\":\"U7\",\"id\":\"862098470a726eb5\"},{\"ref\":\"J3\",\"id\":\"95a94e8d8910935d\"},{\"ref\":\"J4\",\"id\":\"f103f22eabd9ecaf\"},{\"ref\":\"R_RST\",\"id\":\"f088e7c9978ebe87\"},{\"ref\":\"C_RST\",\"id\":\"b62003d1d9c94b4d\"},{\"ref\":\"R_CS_PU\",\"id\":\"0ac3782460b4d671\"},{\"ref\":\"R_ADC_RESET_PD\",\"id\":\"0d1a7d186f0bc987\"},{\"ref\":\"C_ADC_REFIO\",\"id\":\"b3081d3fc29dab29\"},{\"ref\":\"C_ADC_REFCAP\",\"id\":\"970c518ecebd68cc\"},{\"ref\":\"C_ADCA1\",\"id\":\"47615b253f43c2b6\"},{\"ref\":\"C_ADCA2\",\"id\":\"4438d6d59fd968bb\"},{\"ref\":\"C_ADCD\",\"id\":\"ebd1ec6641d9425d\"},{\"ref\":\"C_MCU1\",\"id\":\"3d906bcfc2db2115\"},{\"ref\":\"C_MCU_BULK\",\"id\":\"1e12076fd00770d9\"}],\"wires\":[{\"ref\":\"U5\",\"pin\":\"1\",\"id\":\"7e6bcb2116f5c803\",\"net\":\"SPI_MOSI\",\"line\":[200,350,160,350]},{\"ref\":\"U5\",\"pin\":\"2\",\"id\":\"5babcc53ba5afc26\",\"net\":\"ADC_RESET_N\",\"line\":[200,340,160,340]},{\"ref\":\"U5\",\"pin\":\"3\",\"id\":\"fc33d4961828633f\",\"net\":\"GND\",\"line\":[200,330,160,330]},{\"ref\":\"U5\",\"pin\":\"4\",\"id\":\"b65e7f7a17d03f74\",\"net\":\"GND\",\"line\":[200,320,160,320]},{\"ref\":\"U5\",\"pin\":\"5\",\"id\":\"ea458cbb7e3fe5af\",\"net\":\"ADC_REFIO\",\"line\":[200,310,160,310]},{\"ref\":\"U5\",\"pin\":\"6\",\"id\":\"7f720f9d73ee2887\",\"net\":\"GND\",\"line\":[200,300,160,300]},{\"ref\":\"U5\",\"pin\":\"7\",\"id\":\"ac20d83712140360\",\"net\":\"ADC_REFCAP\",\"line\":[200,290,160,290]},{\"ref\":\"U5\",\"pin\":\"8\",\"id\":\"97d623be66723d2f\",\"net\":\"GND\",\"line\":[200,280,160,280]},{\"ref\":\"U5\",\"pin\":\"9\",\"id\":\"2af82024ceff3426\",\"net\":\"V5\",\"line\":[200,270,160,270]},{\"ref\":\"U5\",\"pin\":\"10\",\"id\":\"ecde5e568ca79229\",\"net\":\"GND\",\"line\":[200,260,160,260]},{\"ref\":\"U5\",\"pin\":\"11\",\"id\":\"c9b9ab69ee56377e\",\"net\":\"GND\",\"line\":[200,250,160,250]},{\"ref\":\"U5\",\"pin\":\"16\",\"id\":\"4ff584f0a96cce67\",\"net\":\"ADC_IN0\",\"line\":[200,200,160,200]},{\"ref\":\"U5\",\"pin\":\"17\",\"id\":\"67b5796d7f35f926\",\"net\":\"GND\",\"line\":[200,190,160,190]},{\"ref\":\"U5\",\"pin\":\"18\",\"id\":\"fe73041feb73a378\",\"net\":\"ADC_IN1\",\"line\":[200,180,160,180]},{\"ref\":\"U5\",\"pin\":\"19\",\"id\":\"c08b5b3c0b956ed6\",\"net\":\"GND\",\"line\":[200,170,160,170]},{\"ref\":\"U5\",\"pin\":\"20\",\"id\":\"41ab7686a7dfec54\",\"net\":\"GND\",\"line\":[340,170,380,170]},{\"ref\":\"U5\",\"pin\":\"21\",\"id\":\"cb48c3fb94f2a753\",\"net\":\"ADC_IN2\",\"line\":[340,180,380,180]},{\"ref\":\"U5\",\"pin\":\"22\",\"id\":\"d5610f6c769ff480\",\"net\":\"GND\",\"line\":[340,190,380,190]},{\"ref\":\"U5\",\"pin\":\"23\",\"id\":\"2617ad038c74e72e\",\"net\":\"ADC_IN3\",\"line\":[340,200,380,200]},{\"ref\":\"U5\",\"pin\":\"28\",\"id\":\"59d0f7f7feb8f38c\",\"net\":\"GND\",\"line\":[340,250,380,250]},{\"ref\":\"U5\",\"pin\":\"29\",\"id\":\"44a1bb058d662142\",\"net\":\"GND\",\"line\":[340,260,380,260]},{\"ref\":\"U5\",\"pin\":\"30\",\"id\":\"aa86a29ea3ba2672\",\"net\":\"V5\",\"line\":[340,270,380,270]},{\"ref\":\"U5\",\"pin\":\"31\",\"id\":\"019320c3fe5c442d\",\"net\":\"GND\",\"line\":[340,280,380,280]},{\"ref\":\"U5\",\"pin\":\"32\",\"id\":\"3c0ba98bf106311c\",\"net\":\"GND\",\"line\":[340,290,380,290]},{\"ref\":\"U5\",\"pin\":\"33\",\"id\":\"c92ee1ac5edab979\",\"net\":\"GND\",\"line\":[340,300,380,300]},{\"ref\":\"U5\",\"pin\":\"34\",\"id\":\"2a2a9b8a9079fba4\",\"net\":\"V3V3\",\"line\":[340,310,380,310]},{\"ref\":\"U5\",\"pin\":\"36\",\"id\":\"f66fdd7b9d217220\",\"net\":\"SPI_MISO\",\"line\":[340,330,380,330]},{\"ref\":\"U5\",\"pin\":\"37\",\"id\":\"396571f4fd807b83\",\"net\":\"SPI_SCLK\",\"line\":[340,340,380,340]},{\"ref\":\"U5\",\"pin\":\"38\",\"id\":\"4d95c6d9e9b17d87\",\"net\":\"ADC_CS_N\",\"line\":[340,350,380,350]},{\"ref\":\"U7\",\"pin\":\"4\",\"id\":\"b0372d6cf93ec6a1\",\"net\":\"V3V3\",\"line\":[555,305,515,305]},{\"ref\":\"U7\",\"pin\":\"5\",\"id\":\"6e0e60ef58ccf171\",\"net\":\"GND\",\"line\":[555,295,515,295]},{\"ref\":\"U7\",\"pin\":\"6\",\"id\":\"5b339af2ecd89576\",\"net\":\"MCU_NRST\",\"line\":[555,285,515,285]},{\"ref\":\"U7\",\"pin\":\"7\",\"id\":\"c9b98fab8c1e29b9\",\"net\":\"ROW_SEL0\",\"line\":[555,275,515,275]},{\"ref\":\"U7\",\"pin\":\"8\",\"id\":\"41ea9382bbad7e1d\",\"net\":\"ROW_SEL1\",\"line\":[555,265,515,265]},{\"ref\":\"U7\",\"pin\":\"9\",\"id\":\"d5fd00a21b721ac4\",\"net\":\"ROW_SEL2\",\"line\":[555,255,515,255]},{\"ref\":\"U7\",\"pin\":\"10\",\"id\":\"8dc75797698c785c\",\"net\":\"ROW_SEL3\",\"line\":[555,245,515,245]},{\"ref\":\"U7\",\"pin\":\"11\",\"id\":\"10dfa15c322560d7\",\"net\":\"ADC_CS_N\",\"line\":[555,235,515,235]},{\"ref\":\"U7\",\"pin\":\"12\",\"id\":\"5c48e50c9ed9bcbc\",\"net\":\"SPI_SCLK\",\"line\":[555,225,515,225]},{\"ref\":\"U7\",\"pin\":\"13\",\"id\":\"0dfa7711d70142da\",\"net\":\"SPI_MISO\",\"line\":[555,215,515,215]},{\"ref\":\"U7\",\"pin\":\"14\",\"id\":\"caf8dd4390a1ec1f\",\"net\":\"SPI_MOSI\",\"line\":[555,205,515,205]},{\"ref\":\"U7\",\"pin\":\"15\",\"id\":\"c8881014058d1951\",\"net\":\"ADC_RESET_N\",\"line\":[555,195,515,195]},{\"ref\":\"U7\",\"pin\":\"19\",\"id\":\"4f59a33ede338abc\",\"net\":\"UART_TX\",\"line\":[745,205,785,205]},{\"ref\":\"U7\",\"pin\":\"21\",\"id\":\"4f497817b63fe725\",\"net\":\"UART_RX\",\"line\":[745,225,785,225]},{\"ref\":\"U7\",\"pin\":\"24\",\"id\":\"1cf3e28ce92a04ee\",\"net\":\"SWDIO\",\"line\":[745,255,785,255]},{\"ref\":\"U7\",\"pin\":\"25\",\"id\":\"e60f7e85b8dfa570\",\"net\":\"SWCLK\",\"line\":[745,265,785,265]},{\"ref\":\"J3\",\"pin\":\"1\",\"id\":\"3c7dfeca0711e210\",\"net\":\"V3V3\",\"line\":[80,645,40,645]},{\"ref\":\"J3\",\"pin\":\"2\",\"id\":\"de9a15437bb4b586\",\"net\":\"GND\",\"line\":[80,635,40,635]},{\"ref\":\"J3\",\"pin\":\"3\",\"id\":\"ed3a25eb5028b3e8\",\"net\":\"SWDIO\",\"line\":[80,625,40,625]},{\"ref\":\"J3\",\"pin\":\"4\",\"id\":\"d5671651b1131a06\",\"net\":\"SWCLK\",\"line\":[80,615,40,615]},{\"ref\":\"J3\",\"pin\":\"5\",\"id\":\"fa8cd67610bfe63b\",\"net\":\"MCU_NRST\",\"line\":[80,605,40,605]},{\"ref\":\"J4\",\"pin\":\"1\",\"id\":\"0d1e17f4fb5f61b1\",\"net\":\"V3V3\",\"line\":[370,635,330,635]},{\"ref\":\"J4\",\"pin\":\"2\",\"id\":\"673ca7dee7cc6831\",\"net\":\"GND\",\"line\":[370,625,330,625]},{\"ref\":\"J4\",\"pin\":\"3\",\"id\":\"e6d046261e283540\",\"net\":\"UART_TX\",\"line\":[370,615,330,615]},{\"ref\":\"J4\",\"pin\":\"4\",\"id\":\"1b17557209d562a5\",\"net\":\"UART_RX\",\"line\":[370,605,330,605]},{\"ref\":\"R_RST\",\"pin\":\"2\",\"id\":\"e06b6252830a51d8\",\"net\":\"MCU_NRST\",\"line\":[950,125,990,125]},{\"ref\":\"R_RST\",\"pin\":\"1\",\"id\":\"d00c226ea5db54bd\",\"net\":\"V3V3\",\"line\":[910,125,870,125]},{\"ref\":\"C_RST\",\"pin\":\"1\",\"id\":\"a81017d2a4b335d3\",\"net\":\"MCU_NRST\",\"line\":[915,195,875,195]},{\"ref\":\"C_RST\",\"pin\":\"2\",\"id\":\"1b9ae0b8220993ab\",\"net\":\"GND\",\"line\":[945,195,985,195]},{\"ref\":\"R_CS_PU\",\"pin\":\"2\",\"id\":\"61b03bbfdc656fc3\",\"net\":\"ADC_CS_N\",\"line\":[950,265,990,265]},{\"ref\":\"R_CS_PU\",\"pin\":\"1\",\"id\":\"d4866e8e36b76636\",\"net\":\"V3V3\",\"line\":[910,265,870,265]},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"2\",\"id\":\"8168dc6f0da1d516\",\"net\":\"GND\",\"line\":[950,335,990,335]},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"1\",\"id\":\"eed4fc0987a31f6f\",\"net\":\"ADC_RESET_N\",\"line\":[910,335,870,335]},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"1\",\"id\":\"f8a4324e1e1a9547\",\"net\":\"ADC_REFIO\",\"line\":[660,545,620,545]},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"2\",\"id\":\"1b413ca2345a39be\",\"net\":\"GND\",\"line\":[700,545,740,545]},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"1\",\"id\":\"e26cc9ad24754d32\",\"net\":\"ADC_REFCAP\",\"line\":[910,545,870,545]},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"2\",\"id\":\"b0c86bd432309443\",\"net\":\"GND\",\"line\":[950,545,990,545]},{\"ref\":\"C_ADCA1\",\"pin\":\"1\",\"id\":\"5e6d4c5cb7971bea\",\"net\":\"V5\",\"line\":[65,440,25,440]},{\"ref\":\"C_ADCA1\",\"pin\":\"2\",\"id\":\"62d66e567cc39756\",\"net\":\"GND\",\"line\":[95,440,135,440]},{\"ref\":\"C_ADCA2\",\"pin\":\"1\",\"id\":\"a83e79f846709527\",\"net\":\"V5\",\"line\":[265,440,225,440]},{\"ref\":\"C_ADCA2\",\"pin\":\"2\",\"id\":\"fb89dbce912817d4\",\"net\":\"GND\",\"line\":[295,440,335,440]},{\"ref\":\"C_ADCD\",\"pin\":\"1\",\"id\":\"417901765f6acc80\",\"net\":\"V3V3\",\"line\":[465,440,425,440]},{\"ref\":\"C_ADCD\",\"pin\":\"2\",\"id\":\"1c4ed3191ec02795\",\"net\":\"GND\",\"line\":[495,440,535,440]},{\"ref\":\"C_MCU1\",\"pin\":\"1\",\"id\":\"d225834d5a5a2bb6\",\"net\":\"V3V3\",\"line\":[665,440,625,440]},{\"ref\":\"C_MCU1\",\"pin\":\"2\",\"id\":\"f3e23b8dba82d2ce\",\"net\":\"GND\",\"line\":[695,440,735,440]},{\"ref\":\"C_MCU_BULK\",\"pin\":\"1\",\"id\":\"4c1384dcb1bdf904\",\"net\":\"V3V3\",\"line\":[910,440,870,440]},{\"ref\":\"C_MCU_BULK\",\"pin\":\"2\",\"id\":\"b74112432143f0c3\",\"net\":\"GND\",\"line\":[950,440,990,440]}],\"ports\":[{\"ref\":\"U5\",\"pin\":\"1\",\"id\":\"db598fc45b5f621f\",\"net\":\"SPI_MOSI\",\"x\":160,\"y\":350},{\"ref\":\"U5\",\"pin\":\"2\",\"id\":\"e5c7e612a520470b\",\"net\":\"ADC_RESET_N\",\"x\":160,\"y\":340},{\"ref\":\"U5\",\"pin\":\"3\",\"id\":\"0b79f19d31a084ea\",\"net\":\"GND\",\"x\":160,\"y\":330},{\"ref\":\"U5\",\"pin\":\"4\",\"id\":\"a8c81a038aff48b3\",\"net\":\"GND\",\"x\":160,\"y\":320},{\"ref\":\"U5\",\"pin\":\"5\",\"id\":\"715b467645889a41\",\"net\":\"ADC_REFIO\",\"x\":160,\"y\":310},{\"ref\":\"U5\",\"pin\":\"6\",\"id\":\"cf5c3a5c5101d642\",\"net\":\"GND\",\"x\":160,\"y\":300},{\"ref\":\"U5\",\"pin\":\"7\",\"id\":\"8d295beed404825e\",\"net\":\"ADC_REFCAP\",\"x\":160,\"y\":290},{\"ref\":\"U5\",\"pin\":\"8\",\"id\":\"d8bea26a80c5ab99\",\"net\":\"GND\",\"x\":160,\"y\":280},{\"ref\":\"U5\",\"pin\":\"9\",\"id\":\"c085f1208432b509\",\"net\":\"V5\",\"x\":160,\"y\":270},{\"ref\":\"U5\",\"pin\":\"10\",\"id\":\"7607e474397bc485\",\"net\":\"GND\",\"x\":160,\"y\":260},{\"ref\":\"U5\",\"pin\":\"11\",\"id\":\"c8a00917c7e06481\",\"net\":\"GND\",\"x\":160,\"y\":250},{\"ref\":\"U5\",\"pin\":\"16\",\"id\":\"0394b9a80c38c11d\",\"net\":\"ADC_IN0\",\"x\":160,\"y\":200},{\"ref\":\"U5\",\"pin\":\"17\",\"id\":\"84c67605717f838b\",\"net\":\"GND\",\"x\":160,\"y\":190},{\"ref\":\"U5\",\"pin\":\"18\",\"id\":\"f245ab96301ff488\",\"net\":\"ADC_IN1\",\"x\":160,\"y\":180},{\"ref\":\"U5\",\"pin\":\"19\",\"id\":\"31f0791e87f3dee5\",\"net\":\"GND\",\"x\":160,\"y\":170},{\"ref\":\"U5\",\"pin\":\"20\",\"id\":\"0bf8964903db1856\",\"net\":\"GND\",\"x\":380,\"y\":170},{\"ref\":\"U5\",\"pin\":\"21\",\"id\":\"57d9cfc420fa798e\",\"net\":\"ADC_IN2\",\"x\":380,\"y\":180},{\"ref\":\"U5\",\"pin\":\"22\",\"id\":\"5e44c030a1523acf\",\"net\":\"GND\",\"x\":380,\"y\":190},{\"ref\":\"U5\",\"pin\":\"23\",\"id\":\"a338a0cf4916a348\",\"net\":\"ADC_IN3\",\"x\":380,\"y\":200},{\"ref\":\"U5\",\"pin\":\"28\",\"id\":\"fcb0d332b620780b\",\"net\":\"GND\",\"x\":380,\"y\":250},{\"ref\":\"U5\",\"pin\":\"29\",\"id\":\"74090faec2d8152b\",\"net\":\"GND\",\"x\":380,\"y\":260},{\"ref\":\"U5\",\"pin\":\"30\",\"id\":\"a79df89e7df4b364\",\"net\":\"V5\",\"x\":380,\"y\":270},{\"ref\":\"U5\",\"pin\":\"31\",\"id\":\"2a2f56d411df1ac5\",\"net\":\"GND\",\"x\":380,\"y\":280},{\"ref\":\"U5\",\"pin\":\"32\",\"id\":\"aaccb0e95ea5af14\",\"net\":\"GND\",\"x\":380,\"y\":290},{\"ref\":\"U5\",\"pin\":\"33\",\"id\":\"65048e858946f33d\",\"net\":\"GND\",\"x\":380,\"y\":300},{\"ref\":\"U5\",\"pin\":\"34\",\"id\":\"fb85bfbfefa69dbc\",\"net\":\"V3V3\",\"x\":380,\"y\":310},{\"ref\":\"U5\",\"pin\":\"36\",\"id\":\"637d2ebd8537bc38\",\"net\":\"SPI_MISO\",\"x\":380,\"y\":330},{\"ref\":\"U5\",\"pin\":\"37\",\"id\":\"f83f2dc37d1d3e4e\",\"net\":\"SPI_SCLK\",\"x\":380,\"y\":340},{\"ref\":\"U5\",\"pin\":\"38\",\"id\":\"f48fc874cdda4951\",\"net\":\"ADC_CS_N\",\"x\":380,\"y\":350},{\"ref\":\"U7\",\"pin\":\"4\",\"id\":\"5ac860cf4ed6374b\",\"net\":\"V3V3\",\"x\":515,\"y\":305},{\"ref\":\"U7\",\"pin\":\"5\",\"id\":\"60844485e3d467b0\",\"net\":\"GND\",\"x\":515,\"y\":295},{\"ref\":\"U7\",\"pin\":\"6\",\"id\":\"a720cc3cbe37de60\",\"net\":\"MCU_NRST\",\"x\":515,\"y\":285},{\"ref\":\"U7\",\"pin\":\"7\",\"id\":\"069f783684918d13\",\"net\":\"ROW_SEL0\",\"x\":515,\"y\":275},{\"ref\":\"U7\",\"pin\":\"8\",\"id\":\"88b6e5b3eda9b3c5\",\"net\":\"ROW_SEL1\",\"x\":515,\"y\":265},{\"ref\":\"U7\",\"pin\":\"9\",\"id\":\"af816332561f0e13\",\"net\":\"ROW_SEL2\",\"x\":515,\"y\":255},{\"ref\":\"U7\",\"pin\":\"10\",\"id\":\"af1b5f64943301cf\",\"net\":\"ROW_SEL3\",\"x\":515,\"y\":245},{\"ref\":\"U7\",\"pin\":\"11\",\"id\":\"87eda42bf7658e1f\",\"net\":\"ADC_CS_N\",\"x\":515,\"y\":235},{\"ref\":\"U7\",\"pin\":\"12\",\"id\":\"3f4bd5ba47226456\",\"net\":\"SPI_SCLK\",\"x\":515,\"y\":225},{\"ref\":\"U7\",\"pin\":\"13\",\"id\":\"aa0fe2308f83f41e\",\"net\":\"SPI_MISO\",\"x\":515,\"y\":215},{\"ref\":\"U7\",\"pin\":\"14\",\"id\":\"fa7013425ad592ff\",\"net\":\"SPI_MOSI\",\"x\":515,\"y\":205},{\"ref\":\"U7\",\"pin\":\"15\",\"id\":\"3ece726718256954\",\"net\":\"ADC_RESET_N\",\"x\":515,\"y\":195},{\"ref\":\"U7\",\"pin\":\"19\",\"id\":\"c9b707fde71d4cbe\",\"net\":\"UART_TX\",\"x\":785,\"y\":205},{\"ref\":\"U7\",\"pin\":\"21\",\"id\":\"27755301e7df8b4f\",\"net\":\"UART_RX\",\"x\":785,\"y\":225},{\"ref\":\"U7\",\"pin\":\"24\",\"id\":\"dab177f02c7d9920\",\"net\":\"SWDIO\",\"x\":785,\"y\":255},{\"ref\":\"U7\",\"pin\":\"25\",\"id\":\"78bc9732003b1969\",\"net\":\"SWCLK\",\"x\":785,\"y\":265},{\"ref\":\"J3\",\"pin\":\"1\",\"id\":\"ecde16913a0ec7a0\",\"net\":\"V3V3\",\"x\":40,\"y\":645},{\"ref\":\"J3\",\"pin\":\"2\",\"id\":\"e93be53506844c4c\",\"net\":\"GND\",\"x\":40,\"y\":635},{\"ref\":\"J3\",\"pin\":\"3\",\"id\":\"75bb5019a68ea585\",\"net\":\"SWDIO\",\"x\":40,\"y\":625},{\"ref\":\"J3\",\"pin\":\"4\",\"id\":\"2fe46e10469b8adc\",\"net\":\"SWCLK\",\"x\":40,\"y\":615},{\"ref\":\"J3\",\"pin\":\"5\",\"id\":\"3668321fd1b9c2b9\",\"net\":\"MCU_NRST\",\"x\":40,\"y\":605},{\"ref\":\"J4\",\"pin\":\"1\",\"id\":\"35b987f4a419cced\",\"net\":\"V3V3\",\"x\":330,\"y\":635},{\"ref\":\"J4\",\"pin\":\"2\",\"id\":\"e43165dd38dd9a97\",\"net\":\"GND\",\"x\":330,\"y\":625},{\"ref\":\"J4\",\"pin\":\"3\",\"id\":\"7a957530fdd41e37\",\"net\":\"UART_TX\",\"x\":330,\"y\":615},{\"ref\":\"J4\",\"pin\":\"4\",\"id\":\"1c6983c83477c090\",\"net\":\"UART_RX\",\"x\":330,\"y\":605},{\"ref\":\"R_RST\",\"pin\":\"2\",\"id\":\"6eefdea75c465320\",\"net\":\"MCU_NRST\",\"x\":990,\"y\":125},{\"ref\":\"R_RST\",\"pin\":\"1\",\"id\":\"2c7ed3e65a4a1c06\",\"net\":\"V3V3\",\"x\":870,\"y\":125},{\"ref\":\"C_RST\",\"pin\":\"1\",\"id\":\"601a3bbd452eb271\",\"net\":\"MCU_NRST\",\"x\":875,\"y\":195},{\"ref\":\"C_RST\",\"pin\":\"2\",\"id\":\"40ca97ea9f7a2fce\",\"net\":\"GND\",\"x\":985,\"y\":195},{\"ref\":\"R_CS_PU\",\"pin\":\"2\",\"id\":\"7c29ad77b29f791b\",\"net\":\"ADC_CS_N\",\"x\":990,\"y\":265},{\"ref\":\"R_CS_PU\",\"pin\":\"1\",\"id\":\"fca3dd4ff8e7eb69\",\"net\":\"V3V3\",\"x\":870,\"y\":265},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"2\",\"id\":\"7574215f2354f515\",\"net\":\"GND\",\"x\":990,\"y\":335},{\"ref\":\"R_ADC_RESET_PD\",\"pin\":\"1\",\"id\":\"6a9a23701daec764\",\"net\":\"ADC_RESET_N\",\"x\":870,\"y\":335},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"1\",\"id\":\"3b1b8b5a479134c2\",\"net\":\"ADC_REFIO\",\"x\":620,\"y\":545},{\"ref\":\"C_ADC_REFIO\",\"pin\":\"2\",\"id\":\"35a09ac9bb5cfe8e\",\"net\":\"GND\",\"x\":740,\"y\":545},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"1\",\"id\":\"36aa3a2895f93a42\",\"net\":\"ADC_REFCAP\",\"x\":870,\"y\":545},{\"ref\":\"C_ADC_REFCAP\",\"pin\":\"2\",\"id\":\"aa0430df2e500f73\",\"net\":\"GND\",\"x\":990,\"y\":545},{\"ref\":\"C_ADCA1\",\"pin\":\"1\",\"id\":\"77d4d51d2c0cb8f4\",\"net\":\"V5\",\"x\":25,\"y\":440},{\"ref\":\"C_ADCA1\",\"pin\":\"2\",\"id\":\"fb2e318ec341a53c\",\"net\":\"GND\",\"x\":135,\"y\":440},{\"ref\":\"C_ADCA2\",\"pin\":\"1\",\"id\":\"39d57b9395609dd7\",\"net\":\"V5\",\"x\":225,\"y\":440},{\"ref\":\"C_ADCA2\",\"pin\":\"2\",\"id\":\"2588325ab5a6b136\",\"net\":\"GND\",\"x\":335,\"y\":440},{\"ref\":\"C_ADCD\",\"pin\":\"1\",\"id\":\"e3ae623fbfbd1a85\",\"net\":\"V3V3\",\"x\":425,\"y\":440},{\"ref\":\"C_ADCD\",\"pin\":\"2\",\"id\":\"d5996a7472e00872\",\"net\":\"GND\",\"x\":535,\"y\":440},{\"ref\":\"C_MCU1\",\"pin\":\"1\",\"id\":\"ac179de248864801\",\"net\":\"V3V3\",\"x\":625,\"y\":440},{\"ref\":\"C_MCU1\",\"pin\":\"2\",\"id\":\"e4e5fc1665b16a35\",\"net\":\"GND\",\"x\":735,\"y\":440},{\"ref\":\"C_MCU_BULK\",\"pin\":\"1\",\"id\":\"acb7b38b19952d2e\",\"net\":\"V3V3\",\"x\":870,\"y\":440},{\"ref\":\"C_MCU_BULK\",\"pin\":\"2\",\"id\":\"e83124f700975727\",\"net\":\"GND\",\"x\":990,\"y\":440}],\"removedWires\":[\"a02b3adde19e5a3b\",\"566205d64b0bf83d\",\"b3f8c56fdd3d61d7\",\"af6e54624b128491\",\"3fba7da384fcee55\",\"a047c4afd2189347\",\"315b1ca1453c7aa6\",\"611a3f8545c83f02\",\"2e182db8d62d3c1b\",\"3c96c81a35b43cb9\",\"18bfa29de1d33fdc\",\"fa06add05a3efa2a\",\"331da4ba571d7885\",\"bc5ed709c0a13675\",\"6cded0aa6e9b3e93\",\"01338b4b81e36668\",\"7e5d5a86cca51a9e\",\"c57bf5e71da25ff9\",\"ea4f6ed15b76aa87\",\"ce73a99050788383\",\"e135ad3890bc6a57\",\"33d68056951b9381\",\"02d769d1bc8e35cc\",\"eae2f836652acf17\",\"3c20603052ca2749\",\"efd2bee0ddfa9ece\",\"5f21eabecf8821cc\",\"226ef4274ed1ce5c\",\"8ed04dd0291e1410\",\"8d117a4d4d4d1930\",\"5eab4a90a6c3d09b\",\"30fe84732fcd0dec\",\"0e632a0268c9d51f\",\"9180aaeb7e6e4473\",\"909d6ca6fbee22b7\",\"6ac6b49af453db98\",\"4ab1233f2eba33a5\",\"b02a9d2b6861ee1c\",\"a515143b952138bb\",\"5c380bc411026ece\",\"f1d71cc610dbbb5e\",\"ad8400fa5f93b376\",\"315090957e50b262\",\"35f9aaa4cd8affad\",\"f457f64312ea0407\",\"43a77c50a19ad36d\",\"e77faa65bca6b1b3\",\"a439ff91bf696cad\",\"b4e63b54d9fba00b\",\"c3ceb296d89eec41\",\"af890500da3c222d\",\"73fe13f4874718e0\",\"623127b59b823637\",\"3072de65926e9479\",\"5cc36c7316d8c4a1\",\"d80be5b7bf9bcd69\",\"1b33e26081ec860a\",\"ba3887f29c62deb7\",\"b4fe2b39a6077161\",\"a397c30fd7ef971d\",\"52a0b582ced9bee9\",\"e5e6c8567f79e380\",\"fe70a54cc5ce43e6\",\"a6a1389bfaea3d97\",\"84087186e0d8c78e\"],\"removedPorts\":[\"ddd3ed8990d7ece1\",\"f403ff8513411d5a\",\"5bd9b6b17cc13852\",\"4ed5e3963e6308d2\",\"b795bcf420d80179\",\"e60119ad0512568e\",\"a10f3ba03d066df9\",\"74437e4adea0addd\",\"928f3ec93eb2ae32\",\"5eb5cdca5549e039\",\"ecd1c489fe7ab0ce\",\"173d116ce0d35217\",\"24a3b02201ddbaf3\",\"c2692a998ba06534\",\"4ce419a9ee0b2b0f\",\"0523aa47f8d84965\",\"c27290b5ebfb63ca\",\"5bab712e86075d59\",\"0f907cd420c8dfee\",\"a542e446385324fd\",\"1d04b3e329124711\",\"6eb6f44549f90a4f\",\"19ac32cfa7bfb5eb\",\"d2d982b96ec916b1\",\"8df1f5afd43cafcb\",\"cc97ba6563759a07\",\"1bbb45c09f203853\",\"d0346313df54aa67\",\"0d95eedcff7eac8b\",\"e39b359cd305d357\",\"cd30dcb122b60a26\",\"5356c0031a6adbd1\",\"82c1f63540014f2c\",\"0a47a77cd5d04b57\",\"2fe539a4c5b992f7\",\"4da3df69d83a1665\",\"d21fdabd3a59f819\",\"c6edfbc120a1c71a\",\"bae252302b8ab3b8\",\"0ef23430158d175b\",\"809e789f7404b78a\",\"99ebd473b27a7533\",\"1ec7fa89dbfeae3d\",\"90bd3c77d6204ef5\",\"4533fc1e6115adba\",\"aff0ca112d0509af\",\"7b9473ed7f021e94\",\"5fc15b5c1ad5b313\",\"26bb34ce51cb62a8\",\"27652a119dc68ae1\",\"5b091e36173bc0e3\",\"3f87bf8bf646b4e0\",\"19bc739dd2f7db4a\",\"e6b5da03a699c8f4\",\"c2a141e0a4773c95\",\"4b3800a2d7dd2c96\",\"eacf3191cc6e0034\",\"032b02c75f74e74a\",\"1c7eaf97637a1210\",\"d9949008c6ab689d\",\"ddd3b35f12c7f179\",\"e6ebe54d3404c0e9\",\"e752ca4695442c4a\",\"20b9cf2e8c45024d\",\"d4591f7bfcfc4c4c\",\"92d7ee2873c75fb0\",\"0cd7b167b0787fe8\",\"26489499207009e1\",\"2718d6f908d2feb1\",\"090219191560f1c9\",\"8c80bc708aecb13e\",\"f47dd6e0da5cb546\",\"f9d25c39801a1ce7\",\"7df40ccf8fc42e1a\",\"55bb395aaac91ee5\",\"2ce5e875394521f2\"],\"status\":\"REPAIR_COMPLETED_UNSAVED\"},\"logs\":[],\"durationMs\":15346}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "cd673e3782e532f6",
+        "name": "ADC_MCU_Interfaces",
+        "index": 3
+      },
+      "repair": "ACTUAL_PIN_ROTATION_OUTWARD_AND_QUANTIZED_STUBS",
+      "parts": [
+        {
+          "ref": "U5",
+          "id": "c9cf3964a252619e"
+        },
+        {
+          "ref": "U7",
+          "id": "862098470a726eb5"
+        },
+        {
+          "ref": "J3",
+          "id": "95a94e8d8910935d"
+        },
+        {
+          "ref": "J4",
+          "id": "f103f22eabd9ecaf"
+        },
+        {
+          "ref": "R_RST",
+          "id": "f088e7c9978ebe87"
+        },
+        {
+          "ref": "C_RST",
+          "id": "b62003d1d9c94b4d"
+        },
+        {
+          "ref": "R_CS_PU",
+          "id": "0ac3782460b4d671"
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "id": "0d1a7d186f0bc987"
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "id": "b3081d3fc29dab29"
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "id": "970c518ecebd68cc"
+        },
+        {
+          "ref": "C_ADCA1",
+          "id": "47615b253f43c2b6"
+        },
+        {
+          "ref": "C_ADCA2",
+          "id": "4438d6d59fd968bb"
+        },
+        {
+          "ref": "C_ADCD",
+          "id": "ebd1ec6641d9425d"
+        },
+        {
+          "ref": "C_MCU1",
+          "id": "3d906bcfc2db2115"
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "id": "1e12076fd00770d9"
+        }
+      ],
+      "wires": [
+        {
+          "ref": "U5",
+          "pin": "1",
+          "id": "7e6bcb2116f5c803",
+          "net": "SPI_MOSI",
+          "line": [
+            200,
+            350,
+            160,
+            350
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "2",
+          "id": "5babcc53ba5afc26",
+          "net": "ADC_RESET_N",
+          "line": [
+            200,
+            340,
+            160,
+            340
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "3",
+          "id": "fc33d4961828633f",
+          "net": "GND",
+          "line": [
+            200,
+            330,
+            160,
+            330
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "4",
+          "id": "b65e7f7a17d03f74",
+          "net": "GND",
+          "line": [
+            200,
+            320,
+            160,
+            320
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "5",
+          "id": "ea458cbb7e3fe5af",
+          "net": "ADC_REFIO",
+          "line": [
+            200,
+            310,
+            160,
+            310
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "6",
+          "id": "7f720f9d73ee2887",
+          "net": "GND",
+          "line": [
+            200,
+            300,
+            160,
+            300
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "7",
+          "id": "ac20d83712140360",
+          "net": "ADC_REFCAP",
+          "line": [
+            200,
+            290,
+            160,
+            290
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "8",
+          "id": "97d623be66723d2f",
+          "net": "GND",
+          "line": [
+            200,
+            280,
+            160,
+            280
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "9",
+          "id": "2af82024ceff3426",
+          "net": "V5",
+          "line": [
+            200,
+            270,
+            160,
+            270
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "10",
+          "id": "ecde5e568ca79229",
+          "net": "GND",
+          "line": [
+            200,
+            260,
+            160,
+            260
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "11",
+          "id": "c9b9ab69ee56377e",
+          "net": "GND",
+          "line": [
+            200,
+            250,
+            160,
+            250
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "16",
+          "id": "4ff584f0a96cce67",
+          "net": "ADC_IN0",
+          "line": [
+            200,
+            200,
+            160,
+            200
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "17",
+          "id": "67b5796d7f35f926",
+          "net": "GND",
+          "line": [
+            200,
+            190,
+            160,
+            190
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "18",
+          "id": "fe73041feb73a378",
+          "net": "ADC_IN1",
+          "line": [
+            200,
+            180,
+            160,
+            180
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "19",
+          "id": "c08b5b3c0b956ed6",
+          "net": "GND",
+          "line": [
+            200,
+            170,
+            160,
+            170
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "20",
+          "id": "41ab7686a7dfec54",
+          "net": "GND",
+          "line": [
+            340,
+            170,
+            380,
+            170
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "21",
+          "id": "cb48c3fb94f2a753",
+          "net": "ADC_IN2",
+          "line": [
+            340,
+            180,
+            380,
+            180
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "22",
+          "id": "d5610f6c769ff480",
+          "net": "GND",
+          "line": [
+            340,
+            190,
+            380,
+            190
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "23",
+          "id": "2617ad038c74e72e",
+          "net": "ADC_IN3",
+          "line": [
+            340,
+            200,
+            380,
+            200
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "28",
+          "id": "59d0f7f7feb8f38c",
+          "net": "GND",
+          "line": [
+            340,
+            250,
+            380,
+            250
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "29",
+          "id": "44a1bb058d662142",
+          "net": "GND",
+          "line": [
+            340,
+            260,
+            380,
+            260
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "30",
+          "id": "aa86a29ea3ba2672",
+          "net": "V5",
+          "line": [
+            340,
+            270,
+            380,
+            270
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "31",
+          "id": "019320c3fe5c442d",
+          "net": "GND",
+          "line": [
+            340,
+            280,
+            380,
+            280
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "32",
+          "id": "3c0ba98bf106311c",
+          "net": "GND",
+          "line": [
+            340,
+            290,
+            380,
+            290
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "33",
+          "id": "c92ee1ac5edab979",
+          "net": "GND",
+          "line": [
+            340,
+            300,
+            380,
+            300
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "34",
+          "id": "2a2a9b8a9079fba4",
+          "net": "V3V3",
+          "line": [
+            340,
+            310,
+            380,
+            310
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "36",
+          "id": "f66fdd7b9d217220",
+          "net": "SPI_MISO",
+          "line": [
+            340,
+            330,
+            380,
+            330
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "37",
+          "id": "396571f4fd807b83",
+          "net": "SPI_SCLK",
+          "line": [
+            340,
+            340,
+            380,
+            340
+          ]
+        },
+        {
+          "ref": "U5",
+          "pin": "38",
+          "id": "4d95c6d9e9b17d87",
+          "net": "ADC_CS_N",
+          "line": [
+            340,
+            350,
+            380,
+            350
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "4",
+          "id": "b0372d6cf93ec6a1",
+          "net": "V3V3",
+          "line": [
+            555,
+            305,
+            515,
+            305
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "5",
+          "id": "6e0e60ef58ccf171",
+          "net": "GND",
+          "line": [
+            555,
+            295,
+            515,
+            295
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "6",
+          "id": "5b339af2ecd89576",
+          "net": "MCU_NRST",
+          "line": [
+            555,
+            285,
+            515,
+            285
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "7",
+          "id": "c9b98fab8c1e29b9",
+          "net": "ROW_SEL0",
+          "line": [
+            555,
+            275,
+            515,
+            275
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "8",
+          "id": "41ea9382bbad7e1d",
+          "net": "ROW_SEL1",
+          "line": [
+            555,
+            265,
+            515,
+            265
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "9",
+          "id": "d5fd00a21b721ac4",
+          "net": "ROW_SEL2",
+          "line": [
+            555,
+            255,
+            515,
+            255
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "10",
+          "id": "8dc75797698c785c",
+          "net": "ROW_SEL3",
+          "line": [
+            555,
+            245,
+            515,
+            245
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "11",
+          "id": "10dfa15c322560d7",
+          "net": "ADC_CS_N",
+          "line": [
+            555,
+            235,
+            515,
+            235
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "12",
+          "id": "5c48e50c9ed9bcbc",
+          "net": "SPI_SCLK",
+          "line": [
+            555,
+            225,
+            515,
+            225
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "13",
+          "id": "0dfa7711d70142da",
+          "net": "SPI_MISO",
+          "line": [
+            555,
+            215,
+            515,
+            215
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "14",
+          "id": "caf8dd4390a1ec1f",
+          "net": "SPI_MOSI",
+          "line": [
+            555,
+            205,
+            515,
+            205
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "15",
+          "id": "c8881014058d1951",
+          "net": "ADC_RESET_N",
+          "line": [
+            555,
+            195,
+            515,
+            195
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "19",
+          "id": "4f59a33ede338abc",
+          "net": "UART_TX",
+          "line": [
+            745,
+            205,
+            785,
+            205
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "21",
+          "id": "4f497817b63fe725",
+          "net": "UART_RX",
+          "line": [
+            745,
+            225,
+            785,
+            225
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "24",
+          "id": "1cf3e28ce92a04ee",
+          "net": "SWDIO",
+          "line": [
+            745,
+            255,
+            785,
+            255
+          ]
+        },
+        {
+          "ref": "U7",
+          "pin": "25",
+          "id": "e60f7e85b8dfa570",
+          "net": "SWCLK",
+          "line": [
+            745,
+            265,
+            785,
+            265
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "id": "3c7dfeca0711e210",
+          "net": "V3V3",
+          "line": [
+            80,
+            645,
+            40,
+            645
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "id": "de9a15437bb4b586",
+          "net": "GND",
+          "line": [
+            80,
+            635,
+            40,
+            635
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "id": "ed3a25eb5028b3e8",
+          "net": "SWDIO",
+          "line": [
+            80,
+            625,
+            40,
+            625
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "4",
+          "id": "d5671651b1131a06",
+          "net": "SWCLK",
+          "line": [
+            80,
+            615,
+            40,
+            615
+          ]
+        },
+        {
+          "ref": "J3",
+          "pin": "5",
+          "id": "fa8cd67610bfe63b",
+          "net": "MCU_NRST",
+          "line": [
+            80,
+            605,
+            40,
+            605
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "1",
+          "id": "0d1e17f4fb5f61b1",
+          "net": "V3V3",
+          "line": [
+            370,
+            635,
+            330,
+            635
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "2",
+          "id": "673ca7dee7cc6831",
+          "net": "GND",
+          "line": [
+            370,
+            625,
+            330,
+            625
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "3",
+          "id": "e6d046261e283540",
+          "net": "UART_TX",
+          "line": [
+            370,
+            615,
+            330,
+            615
+          ]
+        },
+        {
+          "ref": "J4",
+          "pin": "4",
+          "id": "1b17557209d562a5",
+          "net": "UART_RX",
+          "line": [
+            370,
+            605,
+            330,
+            605
+          ]
+        },
+        {
+          "ref": "R_RST",
+          "pin": "2",
+          "id": "e06b6252830a51d8",
+          "net": "MCU_NRST",
+          "line": [
+            950,
+            125,
+            990,
+            125
+          ]
+        },
+        {
+          "ref": "R_RST",
+          "pin": "1",
+          "id": "d00c226ea5db54bd",
+          "net": "V3V3",
+          "line": [
+            910,
+            125,
+            870,
+            125
+          ]
+        },
+        {
+          "ref": "C_RST",
+          "pin": "1",
+          "id": "a81017d2a4b335d3",
+          "net": "MCU_NRST",
+          "line": [
+            915,
+            195,
+            875,
+            195
+          ]
+        },
+        {
+          "ref": "C_RST",
+          "pin": "2",
+          "id": "1b9ae0b8220993ab",
+          "net": "GND",
+          "line": [
+            945,
+            195,
+            985,
+            195
+          ]
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "2",
+          "id": "61b03bbfdc656fc3",
+          "net": "ADC_CS_N",
+          "line": [
+            950,
+            265,
+            990,
+            265
+          ]
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "1",
+          "id": "d4866e8e36b76636",
+          "net": "V3V3",
+          "line": [
+            910,
+            265,
+            870,
+            265
+          ]
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "2",
+          "id": "8168dc6f0da1d516",
+          "net": "GND",
+          "line": [
+            950,
+            335,
+            990,
+            335
+          ]
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "1",
+          "id": "eed4fc0987a31f6f",
+          "net": "ADC_RESET_N",
+          "line": [
+            910,
+            335,
+            870,
+            335
+          ]
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "1",
+          "id": "f8a4324e1e1a9547",
+          "net": "ADC_REFIO",
+          "line": [
+            660,
+            545,
+            620,
+            545
+          ]
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "2",
+          "id": "1b413ca2345a39be",
+          "net": "GND",
+          "line": [
+            700,
+            545,
+            740,
+            545
+          ]
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "1",
+          "id": "e26cc9ad24754d32",
+          "net": "ADC_REFCAP",
+          "line": [
+            910,
+            545,
+            870,
+            545
+          ]
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "2",
+          "id": "b0c86bd432309443",
+          "net": "GND",
+          "line": [
+            950,
+            545,
+            990,
+            545
+          ]
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "1",
+          "id": "5e6d4c5cb7971bea",
+          "net": "V5",
+          "line": [
+            65,
+            440,
+            25,
+            440
+          ]
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "2",
+          "id": "62d66e567cc39756",
+          "net": "GND",
+          "line": [
+            95,
+            440,
+            135,
+            440
+          ]
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "1",
+          "id": "a83e79f846709527",
+          "net": "V5",
+          "line": [
+            265,
+            440,
+            225,
+            440
+          ]
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "2",
+          "id": "fb89dbce912817d4",
+          "net": "GND",
+          "line": [
+            295,
+            440,
+            335,
+            440
+          ]
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "1",
+          "id": "417901765f6acc80",
+          "net": "V3V3",
+          "line": [
+            465,
+            440,
+            425,
+            440
+          ]
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "2",
+          "id": "1c4ed3191ec02795",
+          "net": "GND",
+          "line": [
+            495,
+            440,
+            535,
+            440
+          ]
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "1",
+          "id": "d225834d5a5a2bb6",
+          "net": "V3V3",
+          "line": [
+            665,
+            440,
+            625,
+            440
+          ]
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "2",
+          "id": "f3e23b8dba82d2ce",
+          "net": "GND",
+          "line": [
+            695,
+            440,
+            735,
+            440
+          ]
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "1",
+          "id": "4c1384dcb1bdf904",
+          "net": "V3V3",
+          "line": [
+            910,
+            440,
+            870,
+            440
+          ]
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "2",
+          "id": "b74112432143f0c3",
+          "net": "GND",
+          "line": [
+            950,
+            440,
+            990,
+            440
+          ]
+        }
+      ],
+      "ports": [
+        {
+          "ref": "U5",
+          "pin": "1",
+          "id": "db598fc45b5f621f",
+          "net": "SPI_MOSI",
+          "x": 160,
+          "y": 350
+        },
+        {
+          "ref": "U5",
+          "pin": "2",
+          "id": "e5c7e612a520470b",
+          "net": "ADC_RESET_N",
+          "x": 160,
+          "y": 340
+        },
+        {
+          "ref": "U5",
+          "pin": "3",
+          "id": "0b79f19d31a084ea",
+          "net": "GND",
+          "x": 160,
+          "y": 330
+        },
+        {
+          "ref": "U5",
+          "pin": "4",
+          "id": "a8c81a038aff48b3",
+          "net": "GND",
+          "x": 160,
+          "y": 320
+        },
+        {
+          "ref": "U5",
+          "pin": "5",
+          "id": "715b467645889a41",
+          "net": "ADC_REFIO",
+          "x": 160,
+          "y": 310
+        },
+        {
+          "ref": "U5",
+          "pin": "6",
+          "id": "cf5c3a5c5101d642",
+          "net": "GND",
+          "x": 160,
+          "y": 300
+        },
+        {
+          "ref": "U5",
+          "pin": "7",
+          "id": "8d295beed404825e",
+          "net": "ADC_REFCAP",
+          "x": 160,
+          "y": 290
+        },
+        {
+          "ref": "U5",
+          "pin": "8",
+          "id": "d8bea26a80c5ab99",
+          "net": "GND",
+          "x": 160,
+          "y": 280
+        },
+        {
+          "ref": "U5",
+          "pin": "9",
+          "id": "c085f1208432b509",
+          "net": "V5",
+          "x": 160,
+          "y": 270
+        },
+        {
+          "ref": "U5",
+          "pin": "10",
+          "id": "7607e474397bc485",
+          "net": "GND",
+          "x": 160,
+          "y": 260
+        },
+        {
+          "ref": "U5",
+          "pin": "11",
+          "id": "c8a00917c7e06481",
+          "net": "GND",
+          "x": 160,
+          "y": 250
+        },
+        {
+          "ref": "U5",
+          "pin": "16",
+          "id": "0394b9a80c38c11d",
+          "net": "ADC_IN0",
+          "x": 160,
+          "y": 200
+        },
+        {
+          "ref": "U5",
+          "pin": "17",
+          "id": "84c67605717f838b",
+          "net": "GND",
+          "x": 160,
+          "y": 190
+        },
+        {
+          "ref": "U5",
+          "pin": "18",
+          "id": "f245ab96301ff488",
+          "net": "ADC_IN1",
+          "x": 160,
+          "y": 180
+        },
+        {
+          "ref": "U5",
+          "pin": "19",
+          "id": "31f0791e87f3dee5",
+          "net": "GND",
+          "x": 160,
+          "y": 170
+        },
+        {
+          "ref": "U5",
+          "pin": "20",
+          "id": "0bf8964903db1856",
+          "net": "GND",
+          "x": 380,
+          "y": 170
+        },
+        {
+          "ref": "U5",
+          "pin": "21",
+          "id": "57d9cfc420fa798e",
+          "net": "ADC_IN2",
+          "x": 380,
+          "y": 180
+        },
+        {
+          "ref": "U5",
+          "pin": "22",
+          "id": "5e44c030a1523acf",
+          "net": "GND",
+          "x": 380,
+          "y": 190
+        },
+        {
+          "ref": "U5",
+          "pin": "23",
+          "id": "a338a0cf4916a348",
+          "net": "ADC_IN3",
+          "x": 380,
+          "y": 200
+        },
+        {
+          "ref": "U5",
+          "pin": "28",
+          "id": "fcb0d332b620780b",
+          "net": "GND",
+          "x": 380,
+          "y": 250
+        },
+        {
+          "ref": "U5",
+          "pin": "29",
+          "id": "74090faec2d8152b",
+          "net": "GND",
+          "x": 380,
+          "y": 260
+        },
+        {
+          "ref": "U5",
+          "pin": "30",
+          "id": "a79df89e7df4b364",
+          "net": "V5",
+          "x": 380,
+          "y": 270
+        },
+        {
+          "ref": "U5",
+          "pin": "31",
+          "id": "2a2f56d411df1ac5",
+          "net": "GND",
+          "x": 380,
+          "y": 280
+        },
+        {
+          "ref": "U5",
+          "pin": "32",
+          "id": "aaccb0e95ea5af14",
+          "net": "GND",
+          "x": 380,
+          "y": 290
+        },
+        {
+          "ref": "U5",
+          "pin": "33",
+          "id": "65048e858946f33d",
+          "net": "GND",
+          "x": 380,
+          "y": 300
+        },
+        {
+          "ref": "U5",
+          "pin": "34",
+          "id": "fb85bfbfefa69dbc",
+          "net": "V3V3",
+          "x": 380,
+          "y": 310
+        },
+        {
+          "ref": "U5",
+          "pin": "36",
+          "id": "637d2ebd8537bc38",
+          "net": "SPI_MISO",
+          "x": 380,
+          "y": 330
+        },
+        {
+          "ref": "U5",
+          "pin": "37",
+          "id": "f83f2dc37d1d3e4e",
+          "net": "SPI_SCLK",
+          "x": 380,
+          "y": 340
+        },
+        {
+          "ref": "U5",
+          "pin": "38",
+          "id": "f48fc874cdda4951",
+          "net": "ADC_CS_N",
+          "x": 380,
+          "y": 350
+        },
+        {
+          "ref": "U7",
+          "pin": "4",
+          "id": "5ac860cf4ed6374b",
+          "net": "V3V3",
+          "x": 515,
+          "y": 305
+        },
+        {
+          "ref": "U7",
+          "pin": "5",
+          "id": "60844485e3d467b0",
+          "net": "GND",
+          "x": 515,
+          "y": 295
+        },
+        {
+          "ref": "U7",
+          "pin": "6",
+          "id": "a720cc3cbe37de60",
+          "net": "MCU_NRST",
+          "x": 515,
+          "y": 285
+        },
+        {
+          "ref": "U7",
+          "pin": "7",
+          "id": "069f783684918d13",
+          "net": "ROW_SEL0",
+          "x": 515,
+          "y": 275
+        },
+        {
+          "ref": "U7",
+          "pin": "8",
+          "id": "88b6e5b3eda9b3c5",
+          "net": "ROW_SEL1",
+          "x": 515,
+          "y": 265
+        },
+        {
+          "ref": "U7",
+          "pin": "9",
+          "id": "af816332561f0e13",
+          "net": "ROW_SEL2",
+          "x": 515,
+          "y": 255
+        },
+        {
+          "ref": "U7",
+          "pin": "10",
+          "id": "af1b5f64943301cf",
+          "net": "ROW_SEL3",
+          "x": 515,
+          "y": 245
+        },
+        {
+          "ref": "U7",
+          "pin": "11",
+          "id": "87eda42bf7658e1f",
+          "net": "ADC_CS_N",
+          "x": 515,
+          "y": 235
+        },
+        {
+          "ref": "U7",
+          "pin": "12",
+          "id": "3f4bd5ba47226456",
+          "net": "SPI_SCLK",
+          "x": 515,
+          "y": 225
+        },
+        {
+          "ref": "U7",
+          "pin": "13",
+          "id": "aa0fe2308f83f41e",
+          "net": "SPI_MISO",
+          "x": 515,
+          "y": 215
+        },
+        {
+          "ref": "U7",
+          "pin": "14",
+          "id": "fa7013425ad592ff",
+          "net": "SPI_MOSI",
+          "x": 515,
+          "y": 205
+        },
+        {
+          "ref": "U7",
+          "pin": "15",
+          "id": "3ece726718256954",
+          "net": "ADC_RESET_N",
+          "x": 515,
+          "y": 195
+        },
+        {
+          "ref": "U7",
+          "pin": "19",
+          "id": "c9b707fde71d4cbe",
+          "net": "UART_TX",
+          "x": 785,
+          "y": 205
+        },
+        {
+          "ref": "U7",
+          "pin": "21",
+          "id": "27755301e7df8b4f",
+          "net": "UART_RX",
+          "x": 785,
+          "y": 225
+        },
+        {
+          "ref": "U7",
+          "pin": "24",
+          "id": "dab177f02c7d9920",
+          "net": "SWDIO",
+          "x": 785,
+          "y": 255
+        },
+        {
+          "ref": "U7",
+          "pin": "25",
+          "id": "78bc9732003b1969",
+          "net": "SWCLK",
+          "x": 785,
+          "y": 265
+        },
+        {
+          "ref": "J3",
+          "pin": "1",
+          "id": "ecde16913a0ec7a0",
+          "net": "V3V3",
+          "x": 40,
+          "y": 645
+        },
+        {
+          "ref": "J3",
+          "pin": "2",
+          "id": "e93be53506844c4c",
+          "net": "GND",
+          "x": 40,
+          "y": 635
+        },
+        {
+          "ref": "J3",
+          "pin": "3",
+          "id": "75bb5019a68ea585",
+          "net": "SWDIO",
+          "x": 40,
+          "y": 625
+        },
+        {
+          "ref": "J3",
+          "pin": "4",
+          "id": "2fe46e10469b8adc",
+          "net": "SWCLK",
+          "x": 40,
+          "y": 615
+        },
+        {
+          "ref": "J3",
+          "pin": "5",
+          "id": "3668321fd1b9c2b9",
+          "net": "MCU_NRST",
+          "x": 40,
+          "y": 605
+        },
+        {
+          "ref": "J4",
+          "pin": "1",
+          "id": "35b987f4a419cced",
+          "net": "V3V3",
+          "x": 330,
+          "y": 635
+        },
+        {
+          "ref": "J4",
+          "pin": "2",
+          "id": "e43165dd38dd9a97",
+          "net": "GND",
+          "x": 330,
+          "y": 625
+        },
+        {
+          "ref": "J4",
+          "pin": "3",
+          "id": "7a957530fdd41e37",
+          "net": "UART_TX",
+          "x": 330,
+          "y": 615
+        },
+        {
+          "ref": "J4",
+          "pin": "4",
+          "id": "1c6983c83477c090",
+          "net": "UART_RX",
+          "x": 330,
+          "y": 605
+        },
+        {
+          "ref": "R_RST",
+          "pin": "2",
+          "id": "6eefdea75c465320",
+          "net": "MCU_NRST",
+          "x": 990,
+          "y": 125
+        },
+        {
+          "ref": "R_RST",
+          "pin": "1",
+          "id": "2c7ed3e65a4a1c06",
+          "net": "V3V3",
+          "x": 870,
+          "y": 125
+        },
+        {
+          "ref": "C_RST",
+          "pin": "1",
+          "id": "601a3bbd452eb271",
+          "net": "MCU_NRST",
+          "x": 875,
+          "y": 195
+        },
+        {
+          "ref": "C_RST",
+          "pin": "2",
+          "id": "40ca97ea9f7a2fce",
+          "net": "GND",
+          "x": 985,
+          "y": 195
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "2",
+          "id": "7c29ad77b29f791b",
+          "net": "ADC_CS_N",
+          "x": 990,
+          "y": 265
+        },
+        {
+          "ref": "R_CS_PU",
+          "pin": "1",
+          "id": "fca3dd4ff8e7eb69",
+          "net": "V3V3",
+          "x": 870,
+          "y": 265
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "2",
+          "id": "7574215f2354f515",
+          "net": "GND",
+          "x": 990,
+          "y": 335
+        },
+        {
+          "ref": "R_ADC_RESET_PD",
+          "pin": "1",
+          "id": "6a9a23701daec764",
+          "net": "ADC_RESET_N",
+          "x": 870,
+          "y": 335
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "1",
+          "id": "3b1b8b5a479134c2",
+          "net": "ADC_REFIO",
+          "x": 620,
+          "y": 545
+        },
+        {
+          "ref": "C_ADC_REFIO",
+          "pin": "2",
+          "id": "35a09ac9bb5cfe8e",
+          "net": "GND",
+          "x": 740,
+          "y": 545
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "1",
+          "id": "36aa3a2895f93a42",
+          "net": "ADC_REFCAP",
+          "x": 870,
+          "y": 545
+        },
+        {
+          "ref": "C_ADC_REFCAP",
+          "pin": "2",
+          "id": "aa0430df2e500f73",
+          "net": "GND",
+          "x": 990,
+          "y": 545
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "1",
+          "id": "77d4d51d2c0cb8f4",
+          "net": "V5",
+          "x": 25,
+          "y": 440
+        },
+        {
+          "ref": "C_ADCA1",
+          "pin": "2",
+          "id": "fb2e318ec341a53c",
+          "net": "GND",
+          "x": 135,
+          "y": 440
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "1",
+          "id": "39d57b9395609dd7",
+          "net": "V5",
+          "x": 225,
+          "y": 440
+        },
+        {
+          "ref": "C_ADCA2",
+          "pin": "2",
+          "id": "2588325ab5a6b136",
+          "net": "GND",
+          "x": 335,
+          "y": 440
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "1",
+          "id": "e3ae623fbfbd1a85",
+          "net": "V3V3",
+          "x": 425,
+          "y": 440
+        },
+        {
+          "ref": "C_ADCD",
+          "pin": "2",
+          "id": "d5996a7472e00872",
+          "net": "GND",
+          "x": 535,
+          "y": 440
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "1",
+          "id": "ac179de248864801",
+          "net": "V3V3",
+          "x": 625,
+          "y": 440
+        },
+        {
+          "ref": "C_MCU1",
+          "pin": "2",
+          "id": "e4e5fc1665b16a35",
+          "net": "GND",
+          "x": 735,
+          "y": 440
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "1",
+          "id": "acb7b38b19952d2e",
+          "net": "V3V3",
+          "x": 870,
+          "y": 440
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "pin": "2",
+          "id": "e83124f700975727",
+          "net": "GND",
+          "x": 990,
+          "y": 440
+        }
+      ],
+      "removedWires": [
+        "a02b3adde19e5a3b",
+        "566205d64b0bf83d",
+        "b3f8c56fdd3d61d7",
+        "af6e54624b128491",
+        "3fba7da384fcee55",
+        "a047c4afd2189347",
+        "315b1ca1453c7aa6",
+        "611a3f8545c83f02",
+        "2e182db8d62d3c1b",
+        "3c96c81a35b43cb9",
+        "18bfa29de1d33fdc",
+        "fa06add05a3efa2a",
+        "331da4ba571d7885",
+        "bc5ed709c0a13675",
+        "6cded0aa6e9b3e93",
+        "01338b4b81e36668",
+        "7e5d5a86cca51a9e",
+        "c57bf5e71da25ff9",
+        "ea4f6ed15b76aa87",
+        "ce73a99050788383",
+        "e135ad3890bc6a57",
+        "33d68056951b9381",
+        "02d769d1bc8e35cc",
+        "eae2f836652acf17",
+        "3c20603052ca2749",
+        "efd2bee0ddfa9ece",
+        "5f21eabecf8821cc",
+        "226ef4274ed1ce5c",
+        "8ed04dd0291e1410",
+        "8d117a4d4d4d1930",
+        "5eab4a90a6c3d09b",
+        "30fe84732fcd0dec",
+        "0e632a0268c9d51f",
+        "9180aaeb7e6e4473",
+        "909d6ca6fbee22b7",
+        "6ac6b49af453db98",
+        "4ab1233f2eba33a5",
+        "b02a9d2b6861ee1c",
+        "a515143b952138bb",
+        "5c380bc411026ece",
+        "f1d71cc610dbbb5e",
+        "ad8400fa5f93b376",
+        "315090957e50b262",
+        "35f9aaa4cd8affad",
+        "f457f64312ea0407",
+        "43a77c50a19ad36d",
+        "e77faa65bca6b1b3",
+        "a439ff91bf696cad",
+        "b4e63b54d9fba00b",
+        "c3ceb296d89eec41",
+        "af890500da3c222d",
+        "73fe13f4874718e0",
+        "623127b59b823637",
+        "3072de65926e9479",
+        "5cc36c7316d8c4a1",
+        "d80be5b7bf9bcd69",
+        "1b33e26081ec860a",
+        "ba3887f29c62deb7",
+        "b4fe2b39a6077161",
+        "a397c30fd7ef971d",
+        "52a0b582ced9bee9",
+        "e5e6c8567f79e380",
+        "fe70a54cc5ce43e6",
+        "a6a1389bfaea3d97",
+        "84087186e0d8c78e"
+      ],
+      "removedPorts": [
+        "ddd3ed8990d7ece1",
+        "f403ff8513411d5a",
+        "5bd9b6b17cc13852",
+        "4ed5e3963e6308d2",
+        "b795bcf420d80179",
+        "e60119ad0512568e",
+        "a10f3ba03d066df9",
+        "74437e4adea0addd",
+        "928f3ec93eb2ae32",
+        "5eb5cdca5549e039",
+        "ecd1c489fe7ab0ce",
+        "173d116ce0d35217",
+        "24a3b02201ddbaf3",
+        "c2692a998ba06534",
+        "4ce419a9ee0b2b0f",
+        "0523aa47f8d84965",
+        "c27290b5ebfb63ca",
+        "5bab712e86075d59",
+        "0f907cd420c8dfee",
+        "a542e446385324fd",
+        "1d04b3e329124711",
+        "6eb6f44549f90a4f",
+        "19ac32cfa7bfb5eb",
+        "d2d982b96ec916b1",
+        "8df1f5afd43cafcb",
+        "cc97ba6563759a07",
+        "1bbb45c09f203853",
+        "d0346313df54aa67",
+        "0d95eedcff7eac8b",
+        "e39b359cd305d357",
+        "cd30dcb122b60a26",
+        "5356c0031a6adbd1",
+        "82c1f63540014f2c",
+        "0a47a77cd5d04b57",
+        "2fe539a4c5b992f7",
+        "4da3df69d83a1665",
+        "d21fdabd3a59f819",
+        "c6edfbc120a1c71a",
+        "bae252302b8ab3b8",
+        "0ef23430158d175b",
+        "809e789f7404b78a",
+        "99ebd473b27a7533",
+        "1ec7fa89dbfeae3d",
+        "90bd3c77d6204ef5",
+        "4533fc1e6115adba",
+        "aff0ca112d0509af",
+        "7b9473ed7f021e94",
+        "5fc15b5c1ad5b313",
+        "26bb34ce51cb62a8",
+        "27652a119dc68ae1",
+        "5b091e36173bc0e3",
+        "3f87bf8bf646b4e0",
+        "19bc739dd2f7db4a",
+        "e6b5da03a699c8f4",
+        "c2a141e0a4773c95",
+        "4b3800a2d7dd2c96",
+        "eacf3191cc6e0034",
+        "032b02c75f74e74a",
+        "1c7eaf97637a1210",
+        "d9949008c6ab689d",
+        "ddd3b35f12c7f179",
+        "e6ebe54d3404c0e9",
+        "e752ca4695442c4a",
+        "20b9cf2e8c45024d",
+        "d4591f7bfcfc4c4c",
+        "92d7ee2873c75fb0",
+        "0cd7b167b0787fe8",
+        "26489499207009e1",
+        "2718d6f908d2feb1",
+        "090219191560f1c9",
+        "8c80bc708aecb13e",
+        "f47dd6e0da5cb546",
+        "f9d25c39801a1ce7",
+        "7df40ccf8fc42e1a",
+        "55bb395aaac91ee5",
+        "2ce5e875394521f2"
+      ],
+      "status": "REPAIR_COMPLETED_UNSAVED"
+    },
+    "logs": [],
+    "durationMs": 15346
+  }
+}

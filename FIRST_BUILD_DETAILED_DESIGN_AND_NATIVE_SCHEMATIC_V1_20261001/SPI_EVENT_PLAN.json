@@ -1,0 +1,1223 @@
+{
+  "source": "ADS8684 RevC8.4.1.1.1/Table6; next frame channel; full32clocks4MHz",
+  "events": [
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 250,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 300,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 308,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 350,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 358,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 400,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 450,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 500,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 550,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 600,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 608,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 650,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 658,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 700,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 708,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 750,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 758,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 800,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 808,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 850,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 858,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 900,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 950,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 1000,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 1008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "blank",
+      "CS_us": 1050,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 1058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1350,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1400,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 1408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1450,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 1458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1500,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 1508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1550,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 1558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1600,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 1608,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1650,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 1658,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1700,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 1708,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1750,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 1758,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1800,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 1808,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1850,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 1858,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1900,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 1908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 1950,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 1958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 2000,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 2008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 2050,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 2058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 2100,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 2108,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 0,
+      "state": "active",
+      "CS_us": 2150,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 2158,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 2750,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 2800,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 2808,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 2850,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 2858,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 2900,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 2908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 2950,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 2958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3000,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 3008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3050,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 3058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3100,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 3108,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3150,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 3158,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3200,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 3208,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3250,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 3258,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3300,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 3308,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3350,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 3358,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3400,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 3408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3450,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 3458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3500,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 3508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "blank",
+      "CS_us": 3550,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 3558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 3850,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 3900,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 3908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 3950,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 3958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4000,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 4008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4050,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 4058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4100,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 4108,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4150,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 4158,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4200,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 4208,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4250,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 4258,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4300,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 4308,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4350,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 4358,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4400,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 4408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4450,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 4458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4500,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 4508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4550,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 4558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4600,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 4608,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 1,
+      "state": "active",
+      "CS_us": 4650,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 4658,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5250,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5300,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 5308,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5350,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 5358,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5400,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 5408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5450,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 5458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5500,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 5508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5550,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 5558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5600,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 5608,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5650,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 5658,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5700,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 5708,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5750,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 5758,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5800,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 5808,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5850,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 5858,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5900,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 5908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 5950,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 5958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 6000,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 6008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "blank",
+      "CS_us": 6050,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 6058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6350,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6400,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 6408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6450,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 6458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6500,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 6508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6550,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 6558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6600,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 6608,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6650,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 6658,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6700,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 6708,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6750,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 6758,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6800,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 6808,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6850,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 6858,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6900,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 6908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 6950,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 6958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 7000,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 7008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 7050,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 7058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 7100,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 7108,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 2,
+      "state": "active",
+      "CS_us": 7150,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 7158,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 7750,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 7800,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 7808,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 7850,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 7858,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 7900,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 7908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 7950,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 7958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8000,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 8008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8050,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 8058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8100,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 8108,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8150,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 8158,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8200,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 8208,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8250,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 8258,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8300,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 8308,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8350,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 8358,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8400,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 8408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8450,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 8458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8500,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 8508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "blank",
+      "CS_us": 8550,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 8558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 8850,
+      "result_channel": "previous;discard",
+      "command_hex": "C000",
+      "purpose": "select CH0 for next frame; output is discarded during settling"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 8900,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 8908,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 8950,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 8958,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9000,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 9008,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9050,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 9058,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9100,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 9108,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9150,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 9158,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9200,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 9208,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9250,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 9258,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9300,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 9308,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9350,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 9358,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9400,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 9408,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9450,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 9458,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9500,
+      "result_channel": 0,
+      "command_hex": "C400",
+      "SPI_finish_us": 9508,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9550,
+      "result_channel": 1,
+      "command_hex": "C800",
+      "SPI_finish_us": 9558,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9600,
+      "result_channel": 2,
+      "command_hex": "CC00",
+      "SPI_finish_us": 9608,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    },
+    {
+      "row": 3,
+      "state": "active",
+      "CS_us": 9650,
+      "result_channel": 3,
+      "command_hex": "C000",
+      "SPI_finish_us": 9658,
+      "purpose": "valid planned acquisition; no actual firmware/SPI test"
+    }
+  ],
+  "hardware_verified": false,
+  "configuration_readback_and_range_setup": "firmware pending"
+}

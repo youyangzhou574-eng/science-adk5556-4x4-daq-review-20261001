@@ -1,0 +1,102 @@
+[
+  {
+    "file": "OPAx388.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/opa4388.pdf",
+    "time_utc": "2026-09-30T19:36:10.483748+00:00",
+    "final_url": "https://www.ti.com/lit/ds/symlink/opa4388.pdf",
+    "content_type": "application/pdf",
+    "ok": true,
+    "bytes": 3340219,
+    "sha256": "BFAA584834295ABBA9CAB4C66CDA702ADA12DEF5D50E49B1BEB0D7444F0775E7",
+    "pages": 50
+  },
+  {
+    "file": "TMUX1134.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tmux1134.pdf",
+    "time_utc": "2026-09-30T19:36:10.484454+00:00",
+    "final_url": "https://www.ti.com/lit/ds/symlink/tmux1134.pdf",
+    "content_type": "application/pdf",
+    "ok": true,
+    "bytes": 1496626,
+    "sha256": "08082D5484460C9279B3778018F981C369CECF14031ADB5FC2649B77E221A966",
+    "pages": 42
+  },
+  {
+    "file": "ADS8684.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/ads8684.pdf",
+    "time_utc": "2026-09-30T19:36:10.484770+00:00",
+    "final_url": "https://www.ti.com/lit/ds/symlink/ads8684.pdf",
+    "content_type": "application/pdf",
+    "ok": true,
+    "bytes": 2506949,
+    "sha256": "C776E2307A48D547C394E1B778DCEC2433B8C485A88CD6796DA963BD2514EB6A",
+    "pages": 68
+  },
+  {
+    "file": "REF3025.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/ref3025.pdf",
+    "time_utc": "2026-09-30T19:36:10.485124+00:00",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "file": "TPS7A20.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+    "time_utc": "2026-09-30T19:36:11.298449+00:00",
+    "final_url": "https://www.ti.com/lit/ds/symlink/tps7a20.pdf",
+    "content_type": "application/pdf",
+    "ok": true,
+    "bytes": 8989493,
+    "sha256": "663A9FF5BCA608643E711652CBA00E7B8BF955C0993A9B86FA108D24D58B8DDC",
+    "pages": 63
+  },
+  {
+    "file": "STM32G031.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/stm32g031k8.pdf",
+    "time_utc": "2026-09-30T19:36:18.609017+00:00",
+    "ok": false,
+    "error": "HTTP Error 567: Unknown Status"
+  },
+  {
+    "file": "OPA4388_PSPICE.zip",
+    "url": "https://www.ti.com/lit/zip/SBOMAZ6",
+    "time_utc": "2026-09-30T19:36:18.841363+00:00",
+    "final_url": "https://www.ti.com/lit/mo/sbomaz6b/sbomaz6b.zip?ts=1790774220265",
+    "content_type": "application/zip",
+    "ok": true,
+    "bytes": 30414,
+    "sha256": "9AE00398DB58DEF77EC7C9B8F3B77C3D682FE9044E402F8D566DC3EC3D4C7F9C",
+    "members": [
+      "OPA4388.LIB",
+      "OPA4388.LIBsig",
+      "OPA4388.OLB",
+      "OPA4388_Test_Circuit-PSpiceFiles/",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.mrk",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.prb",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain.sim",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.mrk",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.prb",
+      "OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS.sim",
+      "OPA4388_Test_Circuit.DSN",
+      "OPA4388_Test_Circuit.OPJ"
+    ]
+  },
+  {
+    "file": "OPA4388_TINA.zip",
+    "url": "https://www.ti.com/lit/zip/SBOMAZ7",
+    "time_utc": "2026-09-30T19:36:28.873993+00:00",
+    "final_url": "https://www.ti.com/lit/mo/sbomaz7a/sbomaz7a.zip?ts=1790796991086",
+    "content_type": "application/zip",
+    "ok": true,
+    "bytes": 10987,
+    "sha256": "FB8EED60C4768AFD6BFB3ED8D571F234570735664FE9E679AE9AB79B7F24E7AD",
+    "members": [
+      "OPA4388.LIB",
+      "OPA4388.TLD",
+      "OPA4388.TSM"
+    ]
+  }
+]

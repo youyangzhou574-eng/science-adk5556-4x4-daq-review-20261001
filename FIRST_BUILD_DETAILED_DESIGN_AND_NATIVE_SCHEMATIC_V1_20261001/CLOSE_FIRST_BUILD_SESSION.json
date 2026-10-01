@@ -1,0 +1,21 @@
+{
+  "started_utc": "2026-09-30T20:51:50.283995+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "close",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--destroy",
+    "true"
+  ],
+  "returncode": 2,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"UNKNOWN_COMMAND\",\"message\":\"Unknown command: close\"}}\n",
+  "stderr": "UNKNOWN_COMMAND: Unknown command: close\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "UNKNOWN_COMMAND",
+      "message": "Unknown command: close"
+    }
+  }
+}

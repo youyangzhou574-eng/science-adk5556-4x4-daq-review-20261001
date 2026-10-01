@@ -1,0 +1,236 @@
+CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01
+PART 3/13。严格只处理本项目。这是直接正文的一段，跨段截断连续拼接；前段只ACK，最后END后给完整统一裁定。禁止拿旧回复当新裁定。
+e-reference-cap/assembly/bench HOLD
+U5,ADS8684IDBTR,ADS8684IDBTR,C528627,c0f1d9ea14164280b284a2633ca616ba,d76e106744fa4c049efce33ba6eeb97f,da57944aead44f87be451dd4b20db0fb,TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL,35,DNC,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U5,ADS8684IDBTR,ADS8684IDBTR,C528627,c0f1d9ea14164280b284a2633ca616ba,d76e106744fa4c049efce33ba6eeb97f,da57944aead44f87be451dd4b20db0fb,TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL,36,SDO,SPI_MISO,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U5,ADS8684IDBTR,ADS8684IDBTR,C528627,c0f1d9ea14164280b284a2633ca616ba,d76e106744fa4c049efce33ba6eeb97f,da57944aead44f87be451dd4b20db0fb,TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL,37,SCLK,SPI_SCLK,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U5,ADS8684IDBTR,ADS8684IDBTR,C528627,c0f1d9ea14164280b284a2633ca616ba,d76e106744fa4c049efce33ba6eeb97f,da57944aead44f87be451dd4b20db0fb,TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL,38,CS#,ADC_CS_N,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,1,PB9,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,2,PC14-OSC32IN,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,3,PC15-OSC32OUT,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,4,VDD/VDDA,V3V3,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,5,VSS/VSSA,GND,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,6,PF2-NRST,MCU_NRST,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,7,PA0,ROW_SEL0,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,8,PA1,ROW_SEL1,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,9,PA2,ROW_SEL2,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,10,PA3,ROW_SEL3,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,11,PA4,ADC_CS_N,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,12,PA5,SPI_SCLK,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,13,PA6,SPI_MISO,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,14,PA7,SPI_MOSI,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,15,PB0,ADC_RESET_N,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,16,PB1,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,17,PB2,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,18,PA8,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,19,PA9,UART_TX,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,20,PC6,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,21,PA10,UART_RX,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,22,PA11[PA9],NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,23,PA12[PA10],NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,24,PA13,SWDIO,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,25,PA14-BOOT0,SWCLK,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,26,PA15,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,27,PB3,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,28,PB4,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,29,PB5,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,30,PB6,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,31,PB7,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U7,STM32G031K8T6,STM32G031K8T6,C432203,d6b55ece5afe47718d825be9cafc6dc2,bb4899e518bb4e08b9c95764d03859e6,73c6961ceb5549f299e29c425151b180,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,32,PB8,NC,ADC_MCU_Interfaces,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J3,HDR-M_2.54_1x6P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C37208,8713123b624d4455bcbe38688209bdf0,8f0853baf0564a33bcf4c02aff415046,4ae36c3264894f4ba8d89c65206a7e09,HDR-TH_6P-P2.54-V-M-1,1,1,V3V3,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J3,HDR-M_2.54_1x6P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C37208,8713123b624d4455bcbe38688209bdf0,8f0853baf0564a33bcf4c02aff415046,4ae36c3264894f4ba8d89c65206a7e09,HDR-TH_6P-P2.54-V-M-1,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J3,HDR-M_2.54_1x6P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C37208,8713123b624d4455bcbe38688209bdf0,8f0853baf0564a33bcf4c02aff415046,4ae36c3264894f4ba8d89c65206a7e09,HDR-TH_6P-P2.54-V-M-1,3,3,SWDIO,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J3,HDR-M_2.54_1x6P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C37208,8713123b624d4455bcbe38688209bdf0,8f0853baf0564a33bcf4c02aff415046,4ae36c3264894f4ba8d89c65206a7e09,HDR-TH_6P-P2.54-V-M-1,4,4,SWCLK,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J3,HDR-M_2.54_1x6P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C37208,8713123b624d4455bcbe38688209bdf0,8f0853baf0564a33bcf4c02aff415046,4ae36c3264894f4ba8d89c65206a7e09,HDR-TH_6P-P2.54-V-M-1,5,5,MCU_NRST,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J3,HDR-M_2.54_1x6P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C37208,8713123b624d4455bcbe38688209bdf0,8f0853baf0564a33bcf4c02aff415046,4ae36c3264894f4ba8d89c65206a7e09,HDR-TH_6P-P2.54-V-M-1,6,6,NC,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J4,HDR-M_2.54_1x4P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C492403,d5e86a4f70d24c6c950b9ff10d30894b,9ec93f639a874ee58b76ff14fa75d4ac,55a1ecf332f24bc1b8208f936e198213,HDR-TH_4P-P2.54-V-M,1,1,V3V3,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J4,HDR-M_2.54_1x4P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C492403,d5e86a4f70d24c6c950b9ff10d30894b,9ec93f639a874ee58b76ff14fa75d4ac,55a1ecf332f24bc1b8208f936e198213,HDR-TH_4P-P2.54-V-M,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J4,HDR-M_2.54_1x4P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C492403,d5e86a4f70d24c6c950b9ff10d30894b,9ec93f639a874ee58b76ff14fa75d4ac,55a1ecf332f24bc1b8208f936e198213,HDR-TH_4P-P2.54-V-M,3,3,UART_TX,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J4,HDR-M_2.54_1x4P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C492403,d5e86a4f70d24c6c950b9ff10d30894b,9ec93f639a874ee58b76ff14fa75d4ac,55a1ecf332f24bc1b8208f936e198213,HDR-TH_4P-P2.54-V-M,4,4,UART_RX,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+R_RST,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,V3V3,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+R_RST,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,MCU_NRST,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_RST,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,MCU_NRST,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_RST,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+R_CS_PU,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,V3V3,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+R_CS_PU,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,ADC_CS_N,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+R_ADC_RESET_PD,100k 1%,0603WAF1003T5E,C25803,40ff282b3d594c33b798d1707d8406cb,6d3562bdc96243ae97feaf073d2c8f4e,50b4943912284dab97752312e589e9e2,R0603,1,1,ADC_RESET_N,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+R_ADC_RESET_PD,100k 1%,0603WAF1003T5E,C25803,40ff282b3d594c33b798d1707d8406cb,6d3562bdc96243ae97feaf073d2c8f4e,50b4943912284dab97752312e589e9e2,R0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADC_REFIO,22uF 25V X7R,GRM32ER71E226KE15L,C21397,c469f6d370424dcc93e93079d1eecf2f,f53edac0fc574cc98c2a362fdc19c42a,d98380dbde964cff944f829800b236c1,C1210,1,1,ADC_REFIO,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADC_REFIO,22uF 25V X7R,GRM32ER71E226KE15L,C21397,c469f6d370424dcc93e93079d1eecf2f,f53edac0fc574cc98c2a362fdc19c42a,d98380dbde964cff944f829800b236c1,C1210,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADC_REFCAP,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,1,1,ADC_REFCAP,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADC_REFCAP,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADCA1,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V5,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADCA1,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADCA2,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V5,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADCA2,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADCD,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V3V3,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_ADCD,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_MCU1,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V3V3,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_MCU1,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_MCU_BULK,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V3V3,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_MCU_BULK,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,ADC_MCU_Interfaces,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+
+===== END EXACT_BOM_AND_PINMAP.csv =====
+
+
+===== FULL DETAILED_CIRCUIT_AND_PROTECTION.md | bytes 3511 | SHA256 17FEEE16D70DBE14FA971FA236BE50026B5D68C61507D1765F6B160773E5285B | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\DETAILED_CIRCUIT_AND_PROTECTION.md =====
+# 详细电路及保护
+## 正常工作
+J1输入稳压5V/GND；U8产生3.3V，EN接5V，NC悬空。U6产生REF_2V5，U3A单位增益产生VCM。VCM经10k/90k分压，U3B缓冲产生VEXC=2.25V。分压滤波100nF，启动必须等待参考及缓冲稳定，不能套用正常300µs建立时间。
+四个ROW_SEL各100k下拉；U4的SxB=VCM、SxA=VEXC，Dx送各行跟随器正输入。U1各输出经1k至板端ROW，10k从板端ROW送负输入，1nF从输出送负输入。全低为电气空白，单高为对应选行。不得两行同时选中并把数据解释为单点。
+U2四个TIA正输入VCM；板端COL经10k接负输入，输出经4.99k||2.2nF反馈至板端COL。传感器电流主要流经Rf/Cf，不流经10k感测电阻；输入偏置/保护电流会在该电阻产生压降，动态增加极点，尚未验证。
+J2 pin1–4=ROW0–3，pin5–8=COL0–3。外部16电阻位于传感阵列，不在板上伪造16个传感器元件。外线压降在板外，板端反馈不消除它。
+各TIA输出经100Ω至ADS8684 AINxP，10nF从ADC输入到GND。所有AINxGND、AGND、DGND归GND，35DNC严格NC；DAISY/REFSEL低，内部4.096V参考，REFIO22µF、REFCAP1µF。输入范围固件设置0–5.12V。
+STM32 SPI1使用PA5/6/7，PA4软件CS，PB0复位ADC，PA0–3行选择；PA9/10 UART，PA13/14 SWD。PA14复位默认BOOT0功能/option bytes需按ST配置确认，禁止依赖浮动引脚进入启动模式。使用内部时钟，无未验证晶振。VDD、VDDA同一3.3V管脚4，VSS/VSSA pin5。SWD/UART接口仅3.3V逻辑。
+## 正常静态余量
+选行最大吸收4×0.25/800=1.25mA。1k±1%输出隔离，最坏输出约2.25−1.25mA×1010=0.9875V，理想DC有输出余量；实际输出摆幅/温度和共同封装限制另验证。TIA差值范围0.1559375–1.559375V，理想输出2.6559375–4.059375V。
+## 故障定义和HOLD
+一次单故障：任一ROW/COL对GND或5.25V硬短路、ROW–COL短路/单元短路、单元或电极线开路、MCU复位HiZ、3.3V先失/5V先失/慢启动。源阻抗不以虚构电阻减轻故障。
+1k行电阻最坏分支电流上界5.25/990=5.303mA，耗散≤27.84mW；这是电阻静态边界，不证明运放多通道60s热安全。OPA单通道对地短路资料不能扩展为同封装多路/电源短路保证。
+10k感测电阻限制输入钳位电流粗界5.25/9990=0.526mA；不证明掉电内部保护、供电轨反灌和全板无损。Rf故障电流粗界5.25/4985.01=1.053mA，耗散≤5.53mW。Cf短路瞬态不可由DC电阻界覆盖。
+MCU复位/3.3V先失时下拉使MUX命令返回VCM，但没有硬件故障断开或电源良好联锁。5V失电时外部强制5V仍可能回灌；LDO反向电流、ADC DVDD与AVDD排序、输入绝对最大和多路热安全未闭合。故障硬件覆盖不足明确FAULT_PROTECTION_HOLD，不宣称60s无损，不允许上电。
+固件规划：缺数据/饱和/零或负差值/非法通道/电源状态无效立即丢弃，最迟下一10ms帧标记故障；恢复先校验供电、参考、ADC寄存器并连续2完整有效帧。仅固件规划无固件实测，无电源监控硬件，故障检测本身仍HOLD。外部强制5V可能损伤传感材料，本板保护不保证材料安全。
+## 验收待办
+正常AC/瞬态需厂家模型及实测覆盖行/4TIA/VCM/VEXC与耦合阵列、全部交越；PM nominal≥60°/corners≥45°且GM≥10dB。60s单故障温升/绝对最大、掉电回灌、短路移除恢复均需闭合后另申请bench门。无PCB/制造/采购。
+
+===== END DETAILED_CIRCUIT_AND_PROTECTION.md =====
+
+
+===== FULL ERROR_CALIBRATION_AND_TIMING.md | bytes 2250 | SHA256 C7C47BEA130256BE21362A66698C3A777E3CF00A1B887A98419BC1C673559549 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\ERROR_CALIBRATION_AND_TIMING.md =====
+# 误差、校准和时序
+每点邻近电气空白D=activeADC−blankADC，以两个已测标准电阻1k/6.8k建立D=a/R+b，Rhat=a/(D−b)，禁止两点R线性插值。标准不确定度目标≤0.05%；25°C校准、20–30°C复查，其他真实电阻0.8/1.5/3.3/4.7/7/8k与邻点改变；目标校准后≤1%读数、1000连续帧标准差≤0.2%，非压力精度、非1000帧平均后的假通过。
+分配conductance误差：增益0.15%、零点/偏置/漏电0.10%、线阻/保护/邻点0.20%、动态0.15%、ADC0.30%，合计0.90%；反算R界0.009/(1−0.009)=0.9082%。这些是预算，不是验证结果。有限线阻造成邻点依赖不能仅用逐点校准消除。首版线阻上限由本包敏感性结果约束，不能把1Ω例子默认当通过范围。
+0–5.12V的16bit LSB=78.125µV。两次读数最坏INL差4LSB，量化差1LSB，总390.625µV；在R=8k、S=155.9375mV时conductance约0.250501%，尚在0.30%分配内，其余参考温漂/采集误差需另计。噪声、相关性及4次平均的收益未证明，不保证重复标准差。
+每个正常切换后ADC输入剩余≤100µV，blank/active合并≤200µV，最小信号约0.1283%；300µs是待验证目标，不能因理想RC时间常数推断运放稳定。
+时序规划每行2500µs：blank300µs；blank采集800µs；active300µs；active采集800µs；控制/额外dummy300µs。总10000µs。每个800µs窗口16个50µs采样slot，4通道各4次。SPI4MHz×32clocks=8µs，ADC转换在CS下降沿采样，当前通道由前帧命令选择（ADS8684 RevC p38–39），SDO是该当前转换结果，不能按本帧SDI通道编号贴标签。
+实际规划在每个300µs建立区末端发送MAN_CH0完整32clock帧，弃其当前结果，下一窗口首slot转CH0，命令CH1；随后CH1/2/3循环。切换后首dummy采样必须弃掉并留足300µs至首有效CS边沿。首次进入MAN模式、复位、寄存器操作和范围更改的额外帧独立startup，不占稳态有效数据；读回ADC通道/范围/状态，正确对齐是固件验收项，未执行真实SPI。
+基线与active采样差值方差Var(D)=Var(A)+Var(B)−2Cov(A,B)，不能假定不相关。ADC/线阻DC分析不验证SPI硬件、PM/GM、300µs建立或噪声。
+
+===== END ERROR_CALIBRATION_AND_TIMING.md =====
+
+
+===== FULL VALIDATION_REPORT.md | bytes 1518 | SHA256 BDF360EACCC395EDD859EA3DDB98810B33797AAE9AB7327EBE99C565861B7139 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\VALIDATION_REPORT.md =====
+# 验证报告
+
+标准库numpy线性DC KCL实际执行，非SPICE全宏模型。81组，每组4选行/16读数；8类物理自检通过。完整输入/代码/CSV及结果保留。
+
+{
+  "0.0": {
+    "max_R_error_pct": 1.2212453270876722e-13,
+    "within_wire_alloc_all": true
+  },
+  "0.1": {
+    "max_R_error_pct": 0.07978330426516855,
+    "within_wire_alloc_all": true
+  },
+  "1.0": {
+    "max_R_error_pct": 0.7915255333855065,
+    "within_wire_alloc_all": false
+  }
+}
+
+校准固定于同线阻的全1k/全6.8k，不按邻点模式重校。零线阻精确，有限线阻的邻点误差见CSV；1Ω敏感性点不是保证的线阻规格。供电角点只计算理想静态余量，不能宣称低压运放能力已模拟。
+
+已下载厂家PSpice/TINA模型，但本机尚未找到可用且已确认兼容的SPICE执行器，不安装第三方、不延续接口排错。实际AC/正常瞬态/故障瞬态均0；PM/GM、300µs建立、噪声、热和掉电验证全部HOLD。不得以模型自检或理想RC公式替代实物。
+
+故障列表含24项静态/定性审查，无60s实测/热模型。保护尚缺电源排序/联锁/回灌闭合，FAULT_PROTECTION_HOLD，BENCH_NOT_RELEASED。
+
+静态故障电阻界的前提是两端在0–5.25V、无电容尖峰；不是内部钳位/输出或供电时序的保证。时序规划136条（每状态1dummy+16有效，共8窗口），未运行固件。详见SPI_EVENT_PLAN.json，首次进入模式和寄存器配置属于startup，另需验证。
+
+===== END VALIDATION_REPORT.md =====
+
+
+===== FULL VALIDATION_SUMMARY.json | bytes 2119 | SHA256 4F01F45963FC413737BE4152D04152EE4EE270413118248268810F59051F94E4 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\VALIDATION_SUMMARY.json =====
+{"dc_groups":81,"dc_selected_row_states":324,"dc_cell_readouts":1296,"patterns":["all_low","all_high","all_mid","checker","all_1500","all_4700","all_7000","high_corner_low_neighbors","low_corner_high_neighbors"],"selfchecks":[{"name":"zero_leads_exact_selected_cell_current","status":"PASS"},{"name":"row_sink_total","status":"PASS"},{"name":"ideal_row_output_headroom","status":"PASS"},{"name":"finite_leads_reduce_signal","status":"PASS"},{"name":"finite_lead_kcl_residual","status":"PASS"},{"name":"neighbor_independent_zero_lead","status":"PASS"},{"name":"finite_leads_neighbor_dependence","status":"PASS"},{"name":"conductance_two_point_ideal","status":"PASS"}],"lead_results":{"0.0":{"max_R_error_pct":1.2212453270876722e-13,"within_wire_alloc_all":true},"0.1":{"max_R_error_pct":0.07978330426516855,"within_wire_alloc_all":true},"1.0":{"max_R_error_pct":0.7915255333855065,"within_wire_alloc_all":false}},"fault_static_cases":24,"AC_cases":0,"transient_cases":0,"official_macromodels_downloaded":2,"official_macromodel_execution":false,"noise_verified":false,"PM_GM_verified":false,"settling_300us_verified":false,"model_limits":["ideal infinite DC opamp gain; no saturation, finite loop gain, input bias, reference variation or clamp dynamics","one lumped resistance per electrode; no distributed resistance/capacitance/contact model","supply cases only verify ideal output-voltage headroom; no power-sequencing model","calibration uses exact mathematical standards; no standard measurement uncertainty/noise included"],"result":"DC_MODEL_COMPLETED / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD"}
+===== END VALIDATION_SUMMARY.json =====
+
+
+===== FULL DC_CASES.csv | bytes 13541 | SHA256 65FD625AE8C7BE2010A36F4125BEBCC2345E4A9CA840FE089A11E6E319892590 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\DC_CASES.csv =====
+case_id,pattern,lead_each_ohm,avdd,calibration,max_abs_R_error_pct,min_tia_output_V,max_tia_output_V,min_row_drive_V,max_row_drive_V,ideal_rail_headroom_only,wire_allocation_0_2pct
+1,all_low,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.0,4.059375,4.059375,1.0,2.5,True,True
+2,all_high,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,2.6559375,2.125,2.5,True,True
+3,all_mid,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,4.440892098500626e-14,2.878030303030303,2.878030303030303,1.946969696969697,2.5,True,True
+4,checker,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.5625,2.5,True,True
+5,all_1500,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,1.1102230246251565e-14,3.3316666666666666,3.3316666666666666,1.5833333333333335,2.5,True,True
+6,all_4700,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,5.551115123125783e-14,2.7654255319148935,2.7654255319148935,2.0372340425531914,2.5,True,True
+7,all_7000,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,9.992007221626409e-14,2.6782142857142857,2.6782142857142857,2.107142857142857,2.5,True,True
+8,high_corner_low_neighbors,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.0,2.5,True,True
+9,low_corner_high_neighbors,0.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.84375,2.5,True,True
+10,all_low,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.0,4.059375,4.059375,1.0,2.5,True,True
+11,all_high,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,2.6559375,2.125,2.5,True,True
+12,all_mid,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,4.440892098500626e-14,2.878030303030303,2.878030303030303,1.946969696969697,2.5,True,True
+13,checker,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.5625,2.5,True,True
+14,all_1500,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,1.1102230246251565e-14,3.3316666666666666,3.3316666666666666,1.5833333333333335,2.5,True,True
+15,all_4700,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,5.551115123125783e-14,2.7654255319148935,2.7654255319148935,2.0372340425531914,2.5,True,True
+16,all_7000,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,9.992007221626409e-14,2.6782142857142857,2.6782142857142857,2.107142857142857,2.5,True,True
+17,high_corner_low_neighbors,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.0,2.5,True,True
+18,low_corner_high_neighbors,0.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.84375,2.5,True,True
+19,all_low,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.0,4.059375,4.059375,1.0,2.5,True,True
+20,all_high,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,2.6559375,2.125,2.5,True,True
+21,all_mid,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,4.440892098500626e-14,2.878030303030303,2.878030303030303,1.946969696969697,2.5,True,True
+22,checker,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.5625,2.5,True,True
+23,all_1500,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,1.1102230246251565e-14,3.3316666666666666,3.3316666666666666,1.5833333333333335,2.5,True,True
+24,all_4700,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,5.551115123125783e-14,2.7654255319148935,2.7654255319148935,2.0372340425531914,2.5,True,True
+25,all_7000,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,9.992007221626409e-14,2.6782142857142857,2.6782142857142857,2.107142857142857,2.5,True,True
+26,high_corner_low_neighbors,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.0,2.5,True,True
+27,low_corner_high_neighbors,0.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,1.2212453270876722e-13,2.6559375,4.059375,1.84375,2.5,True,True
+28,all_low,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.017632537911560497,4.057817182817159,4.05781718281717,1.0007807035543206,2.500156015898148,True,True
+29,all_high,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.012353231845496637,2.6559219078092164,2.6559219078092164,2.125007811953169,2.500001562265653,True,True
+30,all_mid,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.02868356680884032,2.877938681531745,2.877938681531748,1.9470156028620464,2.5000091793982233,True,True
+31,checker,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.05738540807875836,2.655851799043848,4.058517797677952,1.562767851715407,2.5000788411933015,True,True
+32,all_1500,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.020768920290170634,3.331223347547969,3.331223347547975,1.583555472627343,2.5000444089110005,True,True
+33,all_4700,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.0194422209480849,2.7653803607896563,2.7653803607896585,2.0372566745329777,2.5000045257796804,True,True
+34,all_7000,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.002016616924138681,2.678193920694781,2.678193920694781,2.107153060408236,2.5000020404665184,True,True
+35,high_corner_low_neighbors,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.07978330426516855,2.655816952163752,4.057992279636298,1.0007807079366768,2.5001560202805044,True,True
+36,low_corner_high_neighbors,0.1,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.04981729455596495,2.655904372512995,4.058868352659703,1.8438562197987625,2.500005076353072,True,True
+37,all_low,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.017632537911560497,4.057817182817159,4.05781718281717,1.0007807035543206,2.500156015898148,True,True
+38,all_high,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.012353231845496637,2.6559219078092164,2.6559219078092164,2.125007811953169,2.500001562265653,True,True
+39,all_mid,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.02868356680884032,2.877938681531745,2.877938681531748,1.9470156028620464,2.5000091793982233,True,True
+40,checker,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.05738540807875836,2.655851799043848,4.058517797677952,1.562767851715407,2.5000788411933015,True,True
+41,all_1500,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.020768920290170634,3.331223347547969,3.331223347547975,1.583555472627343,2.5000444089110005,True,True
+42,all_4700,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.0194422209480849,2.7653803607896563,2.7653803607896585,2.0372566745329777,2.5000045257796804,True,True
+43,all_7000,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.002016616924138681,2.678193920694781,2.678193920694781,2.107153060408236,2.5000020404665184,True,True
+44,high_corner_low_neighbors,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.07978330426516855,2.655816952163752,4.057992279636298,1.0007807079366768,2.5001560202805044,True,True
+45,low_corner_high_neighbors,0.1,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.04981729455596495,2.655904372512995,4.058868352659703,1.8438562197987625,2.500005076353072,True,True
+46,all_low,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.017632537911560497,4.057817182817159,4.05781718281717,1.0007807035543206,2.500156015898148,True,True
+47,all_high,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.012353231845496637,2.6559219078092164,2.6559219078092164,2.125007811953169,2.500001562265653,True,True
+48,all_mid,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.02868356680884032,2.877938681531745,2.877938681531748,1.9470156028620464,2.5000091793982233,True,True
+49,checker,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.05738540807875836,2.655851799043848,4.058517797677952,1.562767851715407,2.5000788411933015,True,True
+50,all_1500,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.020768920290170634,3.331223347547969,3.331223347547975,1.583555472627343,2.5000444089110005,True,True
+51,all_4700,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.0194422209480849,2.7653803607896563,2.7653803607896585,2.0372566745329777,2.5000045257796804,True,True
+52,all_7000,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.002016616924138681,2.678193920694781,2.678193920694781,2.107153060408236,2.5000020404665184,True,True
+53,high_corner_low_neighbors,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.07978330426516855,2.655816952163752,4.057992279636298,1.0007807079366768,2.5001560202805044,True,True
+54,low_corner_high_neighbors,0.1,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.04981729455596495,2.655904372512995,4.058868352659703,1.8438562197987625,2.500005076353072,True,True
+55,all_low,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.1750291715298502,4.043935643564358,4.043935643564369,1.007758238510417,2.5015393330377798,True,True
+56,all_high,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.12355848434850714,2.6557817182817183,2.6557817182817196,2.1250780703554315,2.5000156015898143,True,True
+57,all_mid,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.28547617781075063,2.8771160822249082,2.877116082224911,1.9474280561321733,2.5000914943888324,True,False
+58,checker,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.5767892159280086,2.6550862702105325,4.050843615418526,1.5651680335202625,2.5007825934803725,True,False
+59,all_1500,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.20631398653260247,3.327254641909812,3.3272546419098297,1.5855472938653403,2.500440910886617,True,False
+60,all_4700,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.19378636611896427,2.764974511469834,2.7649745114698376,2.037460119986823,2.500045154000428,True,True
+61,all_7000,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.020149103365185717,2.678010844748857,2.6780108447488598,2.1072448163997612,2.500020373224433,True,True
+62,high_corner_low_neighbors,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.7915255333855065,2.6547589573149364,4.0456570520975195,1.0077586659845763,2.5015397605119394,True,False
+63,low_corner_high_neighbors,1.0,4.75,same_lead_all1k_all6k8_fixed_for_all_patterns,0.4949880804250295,2.655607053584895,4.05432194571152,1.8448094877041687,2.5000506045350694,True,False
+64,all_low,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.1750291715298502,4.043935643564358,4.043935643564369,1.007758238510417,2.5015393330377798,True,True
+65,all_high,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.12355848434850714,2.6557817182817183,2.6557817182817196,2.1250780703554315,2.5000156015898143,True,True
+66,all_mid,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.28547617781075063,2.8771160822249082,2.877116082224911,1.9474280561321733,2.5000914943888324,True,False
+67,checker,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.5767892159280086,2.6550862702105325,4.050843615418526,1.5651680335202625,2.5007825934803725,True,False
+68,all_1500,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.20631398653260247,3.327254641909812,3.3272546419098297,1.5855472938653403,2.500440910886617,True,False
+69,all_4700,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.19378636611896427,2.764974511469834,2.7649745114698376,2.037460119986823,2.500045154000428,True,True
+70,all_7000,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.020149103365185717,2.678010844748857,2.6780108447488598,2.1072448163997612,2.500020373224433,True,True
+71,high_corner_low_neighbors,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.7915255333855065,2.6547589573149364,4.0456570520975195,1.0077586659845763,2.5015397605119394,True,False
+72,low_corner_high_neighbors,1.0,5.0,same_lead_all1k_all6k8_fixed_for_all_patterns,0.4949880804250295,2.655607053584895,4.05432194571152,1.8448094877041687,2.5000506045350694,True,False
+73,all_low,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.1750291715298502,4.043935643564358,4.043935643564369,1.007758238510417,2.5015393330377798,True,True
+74,all_high,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.12355848434850714,2.6557817182817183,2.6557817182817196,2.1250780703554315,2.5000156015898143,True,True
+75,all_mid,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.28547617781075063,2.8771160822249082,2.877116082224911,1.9474280561321733,2.5000914943888324,True,False
+76,checker,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.5767892159280086,2.6550862702105325,4.050843615418526,1.5651680335202625,2.5007825934803725,True,False
+77,all_1500,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.20631398653260247,3.327254641909812,3.3272546419098297,1.5855472938653403,2.500440910886617,True,False
+78,all_4700,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.19378636611896427,2.764974511469834,2.7649745114698376,2.037460119986823,2.500045154000428,True,True
+79,all_7000,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.020149103365185717,2.678010844748857,2.6780108447488598,2.1072448163997612,2.500020373224433,True,True
+80,high_corner_low_neighbors,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.7915255333855065,2.6547589573149364,4.0456570520975195,1.0077586659845763,2.5015397605119394,True,False
+81,low_corner_high_neighbors,1.0,5.25,same_lead_all1k_all6k8_fixed_for_all_patterns,0.4949880804250295,2.655607053584895,4.05432194571152,1.8448094877041687,2.5000506045350694,True,False
+
+===== END DC_CASES.csv =====
+
+
+===== FULL FAULT_CASES.json | bytes 9971 | SHA256 25E30C48DBDEFAC310819E0A08E97818E2D6330F66262B6D68835452012864DD | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\FAULT_CASES.json =====
+[{"case_id":1,"type":"row_gnd","index":0,"analysis":"static resistor bound or qualitative open/reset/power disposition; not transient/thermal simulation","row_resistor_limit_mA":5.303030303030304,"input_sense_resistor_limit_mA":null,"absolute_max_full_board_verified":false,"sixty_second_thermal_verified":false,"result":"FAULT_PROTECTION_HOLD"},{"case_id":2,"type":"row_gnd","index":1,"analysis":"static resistor bound or qualitative open/reset/power disposition; not transient/thermal simulation","row_resistor_limit_mA":5.303030303030304,"input_sense_resistor_limit_mA":null,"absolute_max_full_board_verified":false,"sixty_second_thermal_verified":false,"result":"FAULT_PROTECTION_HOLD"},{"case_id":3,"type":"row_gnd","index":2,"analysis":"static resistor bound

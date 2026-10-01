@@ -1,0 +1,98 @@
+{
+  "project": "SCIENCE_ADK5556_4X4_DAQ_REPLICA",
+  "package": "SCIENCE_ADK5556_4X4_FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1",
+  "decision": "CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01",
+  "completed_utc": "2026-09-30T21:00:35.690603+00:00",
+  "state": "NATIVE_SCHEMATIC_DELIVERED / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD / REFERENCE_CAPACITANCE_HOLD / ERC_DETAIL_HOLD / DRAWING_LAYOUT_HOLD",
+  "bench_released": false,
+  "user_facts": [
+    "fixed4rows+4columns8electrode leads",
+    "approx1-7kohm / approx10%change; not metrologically frozen"
+  ],
+  "native_file": {
+    "native_path": "C:\\Users\\yang\\Documents\\LCEDA-Pro\\projects\\SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2",
+    "package_copy": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\\SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2",
+    "bytes": 1486848,
+    "sha256": "ED24205910B4CF5C52942DEDDFAA6F2146752A135204309E15A99A1E24C82D81",
+    "copy_exact": true
+  },
+  "pdf": {
+    "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\\FIRST_BUILD_REVIEW_ONLY.pdf",
+    "bytes": 376380,
+    "sha256": "0DDA69D33D7E774A6B72FEAFEEE67D6364DD5E3D17099E21474F077D84212698",
+    "pages": 4,
+    "status": "DRAWING_LAYOUT_HOLD"
+  },
+  "connectivity": {
+    "expected_connected_pins": 258,
+    "passed_connected_pins": 258,
+    "expected_NC_count": 28,
+    "actual_NC_count": 28,
+    "actual_net_count": 63,
+    "actual_parts": 78,
+    "actual_component_blocks": 78,
+    "pass": true
+  },
+  "persisted_native_hash_unchanged_after_reopen_and_close": true,
+  "persistence": {
+    "pin_checks_exact": true,
+    "net_members_exact": true,
+    "footprint_names_exact": true,
+    "full_component_key_value_multisets_exact": true,
+    "raw_bytes_identical": false,
+    "difference": "component metadata field ordering changed after reopen; exact unordered key-value multisets and all physical pin/nets/footprint names equal"
+  },
+  "budgets_used": {
+    "core_types": 7,
+    "library_identities": 22,
+    "P1_lookup_and_library_reads_conservative": 54,
+    "sources": "primary datasheets/EVM/Yageo plus2 model download locators; within20; failures/redirects retained in ledgers",
+    "model_downloads": 2,
+    "passive_protection_revision_rounds": 1,
+    "DC_groups": 81,
+    "AC_cases": 0,
+    "normal_transient_cases": 0,
+    "fault_transient_cases": 0,
+    "fault_static_qualitative_cases": 24,
+    "native_new_projects": 1,
+    "native_sessions": 2,
+    "save_invocations_returning_true": 5,
+    "complete_connection_audits": 3,
+    "native_connection_and_File_netlist_capture_versions": 3,
+    "native_DRC": 1,
+    "drawing_export_versions": 2
+  },
+  "stage_evidence_timestamps_utc": {
+    "P1_COMPLETION.md": "2026-09-30T20:14:08.724726+00:00",
+    "detailed_design.py": "2026-09-30T20:30:45.921213+00:00",
+    "VALIDATION_SUMMARY.json": "2026-09-30T20:32:40.181560+00:00",
+    "CREATE_FOUR_PAGES.json": "2026-09-30T20:33:26.306304+00:00"
+  },
+  "native_sessions_closed": [
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "1c6c22f6-f5bf-45b0-8cc4-1e696b6b45a7"
+  ],
+  "actual_pending_or_timeout": false,
+  "zero_operations": [
+    "oldmaster open/copy/write",
+    "customlibrary device/symbol/footprint create",
+    "PCB",
+    "manufacturing",
+    "procurement",
+    "Git writes",
+    "directDB/cache/profile/activation/system writes",
+    "third-party install"
+  ],
+  "remaining": [
+    "manufacturer macro AC/normal transient and output recovery/loop PMGM",
+    "hardware single-fault/power sequence/backfeed/60sthermal and fault detection",
+    "REFIO effective capacitance >=10uF at4.096V and assembly traceability for generic headers",
+    "native10warn full descriptions/classification",
+    "IC port-label layout correction; export budget exhausted",
+    "full accuracy/noise/temperature/lead-resistance and standard bench validation; planned firmware not executed"
+  ],
+  "pro_request": "Accept exact saved/reopened native connectivity and bounded DC findings, retain all HOLDs; give unique next package and budget for electrical protection/dynamic closure and explicit layout/DRC detail allowance. No PCB/manufacturing release.",
+  "timing_events": 136,
+  "P4_elapsed_minutes_through_final_native_close": 27.16,
+  "limits_preserved": "No further native edits/export after two drawing versions; graphic flaws disclosed. Native connection is accepted only as logical verification; bench/manufacturing remain blocked."
+}

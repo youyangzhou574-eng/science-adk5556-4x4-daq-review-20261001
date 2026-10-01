@@ -1,0 +1,463 @@
+CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01
+PART 1/13。严格只处理本项目。这是直接正文的一段，跨段截断连续拼接；前段只ACK，最后END后给完整统一裁定。禁止拿旧回复当新裁定。
+CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01
+仅项目 SCIENCE_ADK5556_4X4_DAQ_REPLICA；对应你已授权并完成的 CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01，执行端用户全部普通技术连续授权及直接报告有效。不是旧Decision29/SGM调试。
+现正式提交唯一包 SCIENCE_ADK5556_4X4_FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1 的完整必要审查材料。Pro不能读取本地，下面直接正文。仅等完整多段END后统一裁定；中途仅ACK，不发布新任务。无需用户重新确认模型或重复供应电路参数。
+事实与结果：现成原生库7核心类型/22独立器件身份，120核心物理针号与厂家/封装焊盘对应；78实际器件，4页新工程，258连接针/28NC/63网。初次自动连接脚本方向错误被真实网表发现，未冒称PASS；修复后preclose和coldreopen两个实际File网表均258/258及完整网络成员/器件集合/真实封装名称PASS，5次save=true，独立close/reopen，磁盘字节hash不变。前后两份真实网表字节不同，完整组件key/value多重集合完全相同，仅字段顺序变化；不冒称字节相等。
+81实际线性DC组(324选行状态/1296读数)，8物理自检；固定校准后9阵列模式下每线0.1Ω最大误差0.0797833%，每线1Ω0.791526%超0.20%线阻分配。不是严格最坏或实物性能保证。24项静态/定性故障审查，不是24暂态运行。官方PSpice/TINA模型2包已保全但未运行；本机未确认可用模拟器，不安装第三方，不转回长API排错。AC/正常暂态/故障暂态均0，PM/GM/300µs/噪声/温度/60s热/供电时序未通过。
+保持 DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD / REFERENCE_CAPACITANCE_HOLD / ERC_DETAIL_HOLD / DRAWING_LAYOUT_HOLD / BENCH_NOT_RELEASED。native DRC实际只返回warn10 count，无正文，不称DRC clean。最终4页真实PDF已全部render看过，仍有IC网名与针号/位号重叠、左缘端口碰图框；export2/2耗尽而停止，不隐藏排版缺陷或擅增预算。图纸只供审查，不称出版/制造完成。
+本轮没有旧master打开/复制/写入、自定义库建器件、PCB、制造、采购、Git或直接系统/数据库/cache/profile/activation变更。两自有sessions均official closed，无pending/timeout。官方create在配置项目目录生成新工程，再字节原样拷贝交付目录；不改APP_PROJECT_DIR。
+希望裁定：接受已证明的原生逻辑连通性/保存持久化/有边界DC结果并维持以上HOLD；集中给唯一下一任务、输入、交付物、通过/停止门、预算。优先闭合故障/动态工程门，同时明确完整DRC正文和端口文字排版后续额度。不得把新预算伪装成PCB或制造许可；切核心系列/E/Rf等需明确裁定。
+
+本地根目录：E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1
+
+
+===== FULL PRO_INTEGRATED_DESIGN_GATES_FULL.txt | bytes 19932 | SHA256 E7B531D5B05A191BBB86BAF1F552C49A16BAEDADFA274DFD70F88F9626449E82 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\PRO_INTEGRATED_DESIGN_GATES_FULL.txt =====
+# CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01
+
+**项目：SCIENCE_ADK5556_4X4_DAQ_REPLICA**
+
+**裁定：维持首版技术基线，正式授权一个包含“器件核验—详细设计—电气验证—独立原理图交付”的完整任务。阶段内满足下述条件即可继续，不必逐项重新请示。允许先交付明确标注动态或故障验证缺口的原理图，但不允许将其宣称为性能通过、可投板或可制造。**
+
+原 Decision29 的库查询、EDA、SPICE 零预算仅适用于已经结束的输入整理包；**本裁定为新包单独授予以下预算，不追溯改变旧包状态。** 不再向用户索要已经委托设计端确定的供电、激励、反馈参数和帧率，不恢复旧 SGM 符号/API 排错。
+
+---
+
+## 一、唯一下一包与冻结输入
+
+### 唯一下一包
+
+`SCIENCE_ADK5556_4X4_FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1`
+
+**目标交付：一份实体器件及引脚经过核验、连接完整、经过保存重开审计的新原生原理图，以及配套的误差、时序、稳定性和故障验证报告。**
+
+用户确认事实仅为：**固定 4 行＋4 列共 8 根电极线；单元电阻约 1–7 kΩ；变化约 10%。** 不将其改写为已实测的精确范围，也不把 10% 变化理解为 10% 允许测量误差。
+
+下表是设计端确定的首版基线：
+
+| 项目 | 本包基线 |
+|---|---|
+| 架构 | 4 路受控行驱动＋4 列持续闭环 TIA；ADC 在 TIA 输出侧复用 |
+| 设计电阻范围 | 0.8–8 kΩ |
+| 模拟电源 | 5 V；工作时相关器件电源引脚应满足各自推荐范围，ADC AVDD 须为 4.75–5.25 V |
+| 数字电源 | 3.3 V |
+| 共同电位／选中行 | 2.500 V／2.250 V；未选行目标均为 2.500 V |
+| 激励幅度 | 0.250 V |
+| TIA 反馈 | 4.99 kΩ，0.1%，≤25 ppm/°C；并联 2.2 nF C0G/NP0 初值 |
+| 行驱动补偿初值 | 10 Ω 输出隔离＋10 kΩ 板端直流反馈＋1 nF 高频反馈 |
+| ADC 输入网络初值 | 每通道 100 Ω／10 nF |
+| ADC 配置目标 | ADS8684，内部参考，0–5.12 V 输入范围 |
+| 采集目标 | 100 完整帧/s；每帧 16 个有效电阻结果；采集窗口内总转换速率 20 kSPS，SPI 初值 4 MHz |
+| 每行初始时序 | 300 µs 基线建立＋800 µs 基线采集＋300 µs 激励建立＋800 µs 有效采集＋300 µs 余量 |
+| 台架验证条件 | 室温先明确为 **20–30°C**；板外连接≤30 cm；每根线附加对地电容按 0–1 nF 验证 |
+| 性能目标 | 板端标准电阻阵列，校准后平均读数误差≤1%；固定电阻帧间标准差≤0.2% |
+
+**5 V 输入通路若增加保护器件，必须计入压降，不能仅凭连接器处为 4.75 V 就认定 ADC 电源合格。** ADS8684 推荐 AVDD 下限为 4.75 V。:chatgpt-content-reference{index="0"}
+
+初选器件保持你列出的七种型号：OPA4388IDR、OPA2388IDR、TMUX1134PWR、ADS8684IDBTR、REF3025AIDBZR、STM32G031K8T6、TPS7A2033PDBVR。它们是**待完成库身份及具体连接核验的初选**，不是已经绑定好的 BOM。
+
+旧 master、旧模型、旧 256 组结果仅作参考，**不打开旧工程来改造或复制，不继承其网络数量，不操作旧会话。**
+
+---
+
+## 二、实施前必须落实的技术澄清
+
+### 1. 保护和补偿允许增加、调整，不必为每个阻容重新请示
+
+本包允许在同一架构内增加限流、钳位、掉电隔离、复位默认态和电源监控电路。允许根据计算或模型结果调整：
+
+- 行输出隔离和双反馈阻容；
+- TIA 的 \(C_f\)；
+- ADC 输入 RC、参考去耦、上拉下拉；
+- 满足 100 帧/s 的时序细节。
+
+每项调整必须保留“原值—新值—原因—验证结果”。**不能为保持我给出的初值而保留已发现的不稳定或不安全电路。**
+
+更换核心放大器/ADC系列、改变 0.25 V 激励、4.99 kΩ 主增益、单档量程或 100 帧/s 目标，则提交一次集中变更说明，不自行降低目标。
+
+### 2. TMUX1134 没有可直接使用的总 EN
+
+TMUX1134 是四路独立 SPDT；不能把 TMUX1133 的 EN 功能画到 TMUX1134 上。其 fail-safe logic 针对控制输入，**不能等同于全部模拟端掉电保护**。:chatgpt-content-reference{index="1"}
+
+因此详细设计必须解决：MCU 复位、GPIO 高阻、3.3 V 消失时，行选择如何可靠回到无激励状态；需要独立激励禁止门时，允许增加。
+
+### 3. 10 Ω 行输出电阻不是短路保护
+
+OPAx388 数据表的连续输出短路条款有“对地短路、每封装一个放大器”的限定，不能扩展为四通道同时过载、对 5 V 短路或整个阵列故障均安全。:chatgpt-content-reference{index="2"}
+
+**正常整行约 1.25 mA 的负载计算，不是短路电流上限。** 保护必须另算，不能只依赖典型短路电流或 MCU 之后再停采样。
+
+### 4. ADS8684 的具体引脚必须按原厂图交叉核对
+
+本次核对发现：Rev. C 第 5 页部分 AIN2/AIN3 的描述文字与引脚名称、封装图存在正负端表述不一致。第 4 页封装图显示：
+
+- AIN2：**21 为信号端，20 为对应地端**；
+- AIN3：**23 为信号端，22 为对应地端**。
+
+执行端须在针脚证据表中保留这一差异，并与原厂参考原理图交叉核实，不能机械复制描述文字。各 AIN_nGND 接模拟地，不接 2.5 V 共同电位；35 脚 DNC 保持不连接。:chatgpt-content-reference{index="3"}
+
+内部参考模式保持 REFSEL 为低；REFIO、REFCAP 分别按手册去耦，核有效电容，**不要与外部 2.5 V 基准相连**。:chatgpt-content-reference{index="4"}
+
+---
+
+## 三、阶段安排与继续条件
+
+| 阶段 | 工作及产出 | 进入下一阶段的条件 |
+|---|---|---|
+| **P1：资料与实体核验** | 原厂针脚、封装、电气限制；原生库器件、符号、焊盘编号核对；模型可用性检查 | 拟放置的核心器件型号、功能脚与封装对应关系明确 |
+| **P2：完整详细设计** | 电源、参考、行驱动、四列 TIA、ADC、MCU、连接器、下载接口及保护；冻结本版计划 pin-net 表 | 正常工作点无已知额定冲突；功能连接完整；保护已设计或明确标出未闭合项 |
+| **P3：计算与模型验证** | 实际阻值域的静态误差、校准、时序、环路、暂态及故障分析 | 分项记录 PASS／FAIL／未验证；模型缺失不伪造 PASS |
+| **P4：新原生原理图与审计** | 独立新工程、完整原理图、保存→正常关闭→重新打开、真实连通性审计 | 核对新设计自己的全部物理引脚和连接；交付可编辑工程及图纸 |
+
+**P3 缺少可靠模型时可以进入 P4，但图纸必须标注 `DYNAMIC_VALIDATION_HOLD`；保护未闭合则另标 `FAULT_PROTECTION_HOLD`。** 这允许设计成果形成可审阅的图，不代表允许上电试验或投板。
+
+已知错误的引脚或连接不能因加一个 HOLD 标签而保留为正式连接。资料冲突未消除的器件不允许“猜着放”。
+
+原生库中找不到核心型号时，每个缺口最多提出两个有完整原厂资料的候选，集中回传；不得换不明别名，不进入自定义四子符号修复。
+
+---
+
+## 四、B 项裁定：故障集合和验收边界
+
+### 故障集合接受，并补充电极线断开
+
+本版按**一次一个故障**审查：
+
+| 故障类别 | 覆盖对象 |
+|---|---|
+| 电极对电源短接 | 任一行或列对 GND、对本板 5 V；最高按 5.25 V |
+| 行列短接 | 任意行与任意列直接短接，包括单元短路 |
+| 开路 | 任一传感单元开路；任一外接电极线断开 |
+| 控制异常 | MCU 在基线、激励、转换期间复位或输出变高阻 |
+| 电源异常 | 3.3 V 先掉电、5 V 先掉电、重新上电及缓慢电源变化 |
+
+短路激励应说明故障源阻抗及位置，不能用未披露的大串阻把“硬短路”变成轻载。两故障同时发生、外部超过 5.25 V、电网浪涌和系统级 ESD 认证不纳入这次首版验收范围。
+
+### 故障验收要求
+
+**故障期间不要求维持测量精度，但必须满足电气安全和数据有效性要求。**
+
+1. **采集板无损伤目标。** 后续台架故障持续 60 s，并检查稳态热负荷；本包先完成对应设计分析。各引脚电压、电流、器件功耗不得越过绝对最大值；持续故障应依靠有依据的限流、隔离或安全耗散设计，不能将绝对最大额定当正常工作值。
+
+2. **限流不能等待软件。** 软件用于停读、停激励和报告故障；若在检测前就可能损伤器件，必须由硬件处理。对仅有典型短路电流、没有相应保证或模型覆盖的情况，记录故障验证缺口。
+
+3. **数据不得冒充正常。** 本版要求故障出现后不迟于下一完整帧，即 **10 ms 内**，将受影响数据或整帧标记为无效，并禁止继续将异常值反算为正常电阻。电源监控已报告异常时，不等待下一扫描帧。
+
+4. **允许安全状态不是 2.5 V。** 有电且控制正常时优先全行回共同电位；掉电或外部强迫电压时，允许断开、限流或高阻安全状态。不能强求掉电运放继续维持虚地。
+
+5. **恢复不得立即报有效。** 故障移除后，经过电源/参考建立、ADC 配置确认和至少两个完整有效帧，再恢复输出；不要求故障中不断测量。
+
+允许增加必要保护，但其漏电、串阻、寄生电容及正常误差要回到 P3 核算。**不能以牺牲正常 0.8–8 kΩ 精度为代价，未经说明换取故障通过。**
+
+上述无损伤对象首先是采集板。外部强加 5 V 对传感材料本身的影响，不能在缺少材料安全资料时保证。
+
+---
+
+## 五、C 项裁定：准确度、校准和动态判据
+
+### 1. 先统一“1%”的验收含义
+
+本版暂定：
+
+\[
+\left|\frac{\overline{\hat R}_{ij}-R_{\mathrm{std},ij}}
+{R_{\mathrm{std},ij}}\right|\le1\%
+\]
+
+这是固定标准电阻条件下的**校准后平均读数误差**。
+
+另行要求：
+
+\[
+\frac{\sigma(\hat R_{ij})}{R_{\mathrm{std},ij}}\le0.2\%
+\]
+
+后续台架每个检查点记录至少 **1000 个连续完整帧**。1000 帧用于验收统计，不把在线采集改成 1000 帧平均。上述两个目标**不等于每一帧必然落在 ±1% 内**，也不等于压力准确度。
+
+### 2. 给出可执行的初始误差分配
+
+统一换算到校准后电导估计的相对误差，先采用以下**设计分配上限，不是已取得的性能**：
+
+| 分项 | 相对电导误差预算 |
+|---|---:|
+| 全链路增益校准残余，含标准、Rf、激励、ADC 增益及工作温区漂移 | 0.15% |
+| 基线作差后的零点漂移、偏置、漏电等残余 | 0.10% |
+| 板端线阻、保护网络和邻居耦合 | 0.20% |
+| 模拟建立及采集残余 | 0.15% |
+| ADC 非线性、量化及数字确定性残余 | 0.30% |
+| **保守合计** | **0.90%** |
+
+若总电导相对误差界为 \(\beta=0.009\)，倒数反算的电阻误差界为：
+
+\[
+\frac{\beta}{1-\beta}=0.9082\%<1\%
+\]
+
+留有一定余量。**同一误差不重复计入；确定性界不使用无依据的均方根合成。** 分项可在同一包内重新分配，但不得突破总目标，且必须说明依据。
+
+ADC 项不能只看理想 LSB：ADS8684 的 INL 保证范围为 ±2 LSB。基线与激励两个工作点作差时，应考虑两个点的非线性残余，而不是自动抵消。:chatgpt-content-reference{index="5"}
+
+### 3. 校准方式确定为“相邻基线＋逐点两点电导校准”
+
+首版采用：
+
+\[
+D_{ij}=C_{\mathrm{active},ij}-C_{\mathrm{baseline},ij}
+\]
+
+随后用已知标准阵列，拟合每个位置的：
+
+\[
+D_{ij}=a_{ij}\frac{1}{R_{ij}}+b_{ij},
+\qquad
+\hat R_{ij}=\frac{a_{ij}}{D_{ij}-b_{ij}}
+\]
+
+初始校准点采用 **1.00 kΩ 和 6.80 kΩ**，使用其经过核对的实际值；标准值不确定度目标≤0.05%。校准在 25°C 附近完成，20–30°C 检查时不靠每个温度重新校准掩盖漂移。
+
+独立检查点包含 **0.8、1.5、3.3、4.7、7、8 kΩ**，并加入邻居阻值改变的组合。标准单元值不得通过固定八线阵列的任意两端口万用表读数直接认定。
+
+基线与有效读数的噪声按：
+
+\[
+\operatorname{Var}(D)=
+\operatorname{Var}(C_a)+\operatorname{Var}(C_b)
+-2\operatorname{Cov}(C_a,C_b)
+\]
+
+处理。四次平均是否达到独立白噪声收益须有依据。校准常数不能依赖未知邻居真实阻值，也不能通过逐个验证图案重新标定来隐藏串扰。
+
+### 4. 环路与建立判据
+
+以下为本项目选定的工程门槛：
+
+| 项目 | 验收判据 |
+|---|---|
+| 环路裕度 | 标称目标相位裕度≥60°；全部必需模型角点不得低于45°，增益裕度≥10 dB |
+| 45°–60°角点 | 必须同时通过完整耦合网络暂态、建立和无持续振铃检查，并单独列出；不是只凭一个 PM 数字通过 |
+| TIA 与行驱动 | 分别检查；断环须保留工作点和实际负载，多个交越不能只挑有利交越 |
+| 参考/激励缓冲 | 含实际分压、滤波、电容和同时切行负载检查 |
+| 正常暂态 | 无持续振荡、无正常范围内削顶；建立时间从实际切换事件计时 |
+| 300 µs 建立 | 基线与激励采样窗口中，模拟链每个状态相对其稳态值的残余，初始要求≤100 µV，折算到 ADC 输入端 |
+| ADC RC | 连同 TIA 输出负载检查；100 Ω／10 nF 不是单凭 RC 时间常数就通过 |
+
+在 8 kΩ 时，理想差分信号为：
+
+\[
+S_{\min}=\frac{4990\times0.25}{8000}
+=155.9375\ \mathrm{mV}
+\]
+
+两状态各≤100 µV，保守差分残余≤200 µV，相当于约 **0.1283%** 的信号误差，落在上述 0.15% 动态分配内。最终仍用完整误差表达式复核。
+
+**300 µs 不包含上电、参考首次充电或严重过载恢复。** 这些必须另设数据无效窗口。
+
+### 5. 时序必须落实到 ADC 的真实帧
+
+20 kSPS 对应 50 µs 转换周期；本版按完整 32 时钟传输规划，4 MHz 下占 8 µs。ADS8684 的通道选择影响后续采集，必须给出每次命令、实际转换通道、返回数据和基线/激励标签的对应表，不能同名即视为同一次转换。:chatgpt-content-reference{index="6"}
+
+允许在原 300 µs 余量内插入必要的无效转换或重新对齐；不足时可在同包内优化时序或提高采集窗口内转换速率，并重算误差。**不得把转换数不足的帧仍标为“16 点、100 帧/s”。**
+
+### 6. 必需验证角点
+
+正常范围至少覆盖：全低阻、全高阻、中间阻值；高阻目标配低阻邻居及相反组合；棋盘分布、同行/同列多点变化；4.75/5.25 V 电源端点；0/1 nF 电容端点以及不对称线电容。
+
+外接线阻尚未知，本包按 **0、0.1、1 Ω/根** 做敏感性检查，并给出满足目标的允许上限。**1 Ω 是检查点，不是保证精度的线阻规格；30 cm 长度也不能直接换算成零接触电阻。**
+
+真实材料的横向导电、非欧姆行为及自热仍在后续传感器验收范围，不阻止标准电阻阵列电路设计。
+
+---
+
+## 六、模型和仿真权限
+
+**正式允许本包使用已有仿真器，下载原厂模型，建立正常、动态与故障模型并运行。禁止新增第三方软件安装。**
+
+TI 官方提供 OPA4388 的 PSpice 和 TINA-TI 模型资源；执行端应先尝试正式模型，不将“目前未下载”直接写成“厂家无模型”。:chatgpt-content-reference{index="7"}
+
+模型使用有三条硬限制：
+
+**模型适配不等于修改器件性能。** 可做引脚映射、语法兼容和外部测试平台封装，保留原始模型及差异；不得删除保护或关键行为后仍称原厂完整模型。
+
+**模型未覆盖的能力不得宣称通过。** 理想运放、单极近似和数字 mock 可以分别检查推导或状态机，但不能替代宏模型环路验证、真实 ADC 暂态或硬件故障测试。
+
+**温度、过载及掉电不是模型默认具备。** `.TEMP` 能运行不代表模型真实覆盖温漂；模型未包含的供电时序、注入电流和热效应须使用数据表界限补充，剩余缺口明确 HOLD。
+
+---
+
+## 七、阶段预算
+
+以下为**本包总预算上限，不是必须全部消耗的次数**。普通读回、放置、连线、保存属于阶段工作，不再按每个 getter 拆包。
+
+| 阶段 | 主动工作时间上限 | 操作预算 |
+|---|---:|---|
+| P1 资料/实体核验 | 45 min | 核心器件7种；新增保护/控制功能位≤4，每个缺口候选≤2；主要原厂资料≤20份；模型下载≤6个；原生库独立身份≤24个，搜索/读回/库文件读取合计≤80次 |
+| P2 详细连接/误差/保护设计 | 45 min | 初版设计1套；有依据的局部阻容/保护修订≤2轮；不另开架构分支 |
+| P3 验证 | 90 min | 正常DC≤256组；环路AC分析≤96个工况；正常暂态≤96个工况；故障分析/暂态≤96个工况 |
+| P4 原理图/审计/交付 | 60 min | 独立新工程1个，图页≤4；新会话≤3，含重开；保存≤6；完整连接审计≤3；原理图ERC/DRC≤3；图纸导出≤2版；审计用原生网表/连接读出≤3版 |
+
+合计主动工作上限 **240 min**。P3 每个工况须列入 case 清单；供电、电容、温度或补偿变化均算独立工况，不把大扫描隐藏成“一次仿真”。可以提前完成。
+
+原生操作优先使用可用的官方常规流程，**不强制 headless、CLI 或自定义脚本**。CLI 单次 invoke 仍≤60000 ms；若出现执行状态不明，停止相关原生操作、保全已有结果并回报，不自动关闭、杀进程或新开就绪诊断。已完成的离线设计成果照常交付。
+
+PCB、制造、采购、Git 写入、第三方安装、裸修改厂商库、DB/cache/profile/activation及系统设置操作，全部仍为 **0**。
+
+---
+
+## 八、交付物与最终状态
+
+只提交本包的新成果，不重传旧百万字符 capture 或旧 256 组 CSV。
+
+| 交付物 | 必须包含 |
+|---|---|
+| `BASELINE_AND_CHANGELOG.md` | 用户事实、设计假设、冻结值及全部获准局部修改 |
+| `EXACT_BOM_AND_PINMAP.csv` | 完整型号、库身份、原厂物理针号、符号针号、封装焊盘、来源及未决项 |
+| `DETAILED_CIRCUIT_AND_PROTECTION.md` | 完整连接、启动/复位默认态、故障电流路径、保护依据 |
+| `ERROR_CALIBRATION_AND_TIMING.md` | 误差预算、校准方法、100帧/s事件表、ADC命令—结果对应 |
+| `VALIDATION_REPORT.md`及case结果 | 模型来源、实际运行工况、裕度/建立/故障结果，PASS/FAIL/未验证分列 |
+| 新原生工程＋原理图PDF | 可编辑、完整标注；缺失验证在图纸显著位置注明 |
+| `POST_REOPEN_CONNECTIVITY_AUDIT.json` | 保存重开后的全部物理引脚、网络、NC、四行四列映射及跨页连接核对 |
+| `EXECUTION_SUMMARY.json` | 实耗预算、最终状态、剩余风险及必要文件hash |
+
+**连接审计以这次新设计的计划 pin-net 表为基准，不要求沿用旧工程的157/32/30/33数量。** 原生网表、实际图页连接和设计意图必须一致，电源脚、DNC/NC、连接器顺序和MCU复位态不能漏查。
+
+最终允许的结论是：
+
+- **设计/模型及原理图审计完成：** `FIRST_BUILD_DESIGN_AND_NATIVE_SCHEMATIC_COMPLETE / BENCH_VALIDATION_PENDING`。
+- **原理图已形成、模型或故障验证仍缺：** `NATIVE_SCHEMATIC_DELIVERED / DYNAMIC_VALIDATION_HOLD`，或 `FAULT_PROTECTION_HOLD`，附准确缺口。
+- **核心身份或连接无法确认：** 交付已完成设计与集中阻断说明，不生成伪完整原理图。
+
+**在完整交付、出现必须改变核心基线的阻断、或达到预算上限时回传一次。阶段内通过即继续，不再为已经授权的普通设计步骤反复等待裁定。此次任务的重点是把这套0.8–8 kΩ采集电路真正落成可审查的详细原理图，并把尚未验证的部分准确标出来。**
+
+===== END PRO_INTEGRATED_DESIGN_GATES_FULL.txt =====
+
+
+===== FULL PLAN.md | bytes 2312 | SHA256 730D734510C3BACF80533FE1933167B3904EC995AB60A0D3AC9AC4FE1BCBF525 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\PLAN.md =====
+# Integrated first-build execution plan
+
+Authority: CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01, assistant 606337cf-a962-4858-8f0f-5949d48b7022; existing user continuous ordinary technical authorization. Started 2026-09-30 19:31 UTC approximately; actual stage timestamps recorded separately.
+
+1. P1 (45 min): acquire 7 exact core manufacturer datasheets, retain raw sources and models; verify actual native library devices, symbols and pad numbering. Protection/control functions <=4, manufacturer sources<=20, model downloads<=6, native independent identities<=24, combined lookup/read<=80. No substitution by guessing.
+2. P2 (45 min): complete one coherent pin-net plan, power/reference/TIA/row control/MCU/interfaces; analyze protection and document all original-to-revised values. <=2 local correction rounds. Core architecture/gain/excitation/rate changes require concentrated technical review.
+3. P3 (90 min): list each actual case, run available models; DC<=256, AC<=96, normal transient<=96, fault<=96. Distinguish unavailable simulations from analytic checks and hardware acceptance pending. No third-party installation.
+4. P4 (60 min): one new official project, <=4 pages, <=3 sessions including reopen, <=6 saves, <=3 complete connectivity audits, <=3 ERC/DRC runs, <=2 plot exports, <=3 native connection/netlist captures. Model gaps may be explicitly marked HOLD; unknown physical identities may not be guessed. Native execution-state uncertainty stops only related native operations.
+
+Total active<=240 min, no required exhaustion. No old project open/copy/modify, no old sessions, PCB/Git/manufacturing/procurement/system/DB/cache/profile changes 0. CLI invoke<=60000 ms. New file outputs only this package; official project storage within existing configured allowed project directory if native create requires it, record actual path and deliver preserved export to package. No cleanup deletion.
+
+Required new outputs: BASELINE_AND_CHANGELOG.md, EXACT_BOM_AND_PINMAP.csv, DETAILED_CIRCUIT_AND_PROTECTION.md, ERROR_CALIBRATION_AND_TIMING.md, VALIDATION_REPORT.md plus cases, editable native project plus PDF, POST_REOPEN_CONNECTIVITY_AUDIT.json, EXECUTION_SUMMARY.json. If a prerequisite cannot be met, deliver exact evidence and completed work, not a falsely complete schematic.
+
+===== END PLAN.md =====
+
+
+===== FULL P1_COMPLETION.md | bytes 3049 | SHA256 5CBBD2848E0155E6562CB38A46ED7A60E517D2C6A0AE9582BBDFF88BFDA9CA4F | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\P1_COMPLETION.md =====
+# P1 evidence gate
+
+Completed around 2026-09-30 20:12 UTC, within the 45-minute active stage budget from approximately 19:31 UTC. Seven exact core manufacturer identities found in the real native library; alternate makers/suffixed names excluded. Seven corresponding package pad sets and 120 unique physical pin/function entries checked. Separate seven-core and 22-identity official library exports preserved; no direct vendor library patches or PCB operations.
+
+ADS8684 Rev C p5 has incorrect prose polarities for pins20/21 and22/23. The p4 package figure, native symbol numbers, and TI EVM guide SBAU245A Figure36 (PDF page27, printed p39) agree: 20=AIN2 ground,21=AIN2 signal;22=AIN3 ground,23=AIN3 signal. EVM page27 rendered and inspected. This guide file emitted damaged cross-reference warnings for other objects, but the corroborating schematic page visibly rendered; no claim to complete inspection of every guide page. Its ADS8688 implementation corroborates only the shared physical channels0–3, not an ADS8684 BOM substitution.
+
+OPAx388 p5 package diagrams also rendered and inspected. OPA2388 native name OUA at pin1 is a display typo; manufacturer function OUTA and physical pad1 agree. REF30 latest datasheet maps1=IN/2=OUT/3=GND; TPS7A20 DBV1=IN/2=GND/3=EN/4=NC/5=OUT. STM32G031K8T6 LQFP32 checked against official DS12992 Rev4 web PDF p33 Figure7; ST local downloads returned HTTP567, so no local full datasheet hash is claimed.
+
+OPA4388 original PSpice and TINA models downloaded and retained with hashes. No standalone installed SPICE engine has been located in PATH or the inspected standard program folders. Native simulator API is an event interface; its ability to execute these vendor macros has not been established. Consequently macro-model AC/transient results are not available yet; cannot claim dynamic PASS. No install attempted.
+
+RF4990 exact Yageo manufacturer spec confirms0.1%,25ppm/°C,0.1W. Selected caps and resistors retain exact native identities. Missing single90k divider resistor replaced in the upcoming plan by nine same10k precision resistors in series: nominal90k, unchanged divider ratio; log as local passive arrangement revision, not core excitation change. Reference22uF part selected as Murata25V1210; effective capacitance over bias/tolerance remains pending manufacturer curve verification. Generic headers have exact native supplier identity, numbered pad correspondence, and standard form but no claimed unique manufacturer ordering proof; list in assembly HOLD ledger.
+
+Queries/readbacks are counted from native logs:25 device search keys, two official aggregate library exports covering7 then22 identities. Conservative identity read budget counted as25+7+22=54 of80,22 investigated identities of24. Two models of6; sources examined within20. One standard vendor read-only host session was created; same session then used official createProject/openProject for one independent blank project. No old project copy/open/modify. StageP4 owns that creation/session budget, not a second circuit.
+
+===== END P1_COMPLETION.md =====
+
+
+===== FULL BASELINE_AND_CHANGELOG.md | bytes 1713 | SHA256 D6427F9F9D9A8BEAE139147276F97D95261FC021FA3E3E4FB40C3B6BAD543D79 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\BASELINE_AND_CHANGELOG.md =====
+# 首版基线与修订
+项目 SCIENCE_ADK5556_4X4_DAQ_REPLICA。依据 CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01。
+用户事实：固定4行+4列8根电极线，单元约1–7kΩ、变化约10%；尚非逐点实测范围。设计范围0.8–8kΩ，100整帧/s，20–30°C，外线≤30cm/每线0–1nF是首版试验边界。
+5V必须在ADS8684 AVDD处满足4.75–5.25V，数字3.3V。VCM=2.5V，选行=2.25V，E=0.25V。4列持续TIA，Rf=4.99kΩ，Cf=2.2nF。原论文与旧master只读参考，本包独立创建，无旧工程复制。
+核心器件均采用现成嘉立创原生库且保持真实物理针号/封装：OPA4388IDR×2，OPA2388IDR，TMUX1134PWR，ADS8684IDBTR，REF3025AIDBZR，STM32G031K8T6，TPS7A2033PDBVR。
+局部修订一轮：行输出10Ω改1kΩ，反馈仍从板端ROW取样；每列运放负输入前加10kΩ感测电阻，Rf/Cf仍接板端COL；90kΩ分压下臂用9只精密10kΩ串联。激励、Rf、架构和核心系列未变。新增两项电阻改变动态，必须保留验证HOLD。
+ADS8684 AIN2=21/AIN2GND=20，AIN3=23/AIN3GND=22：以封装图及官方EVM图为准，保留原说明表文字矛盾。OPA2388库pin1 OUA仅库标签笔误，物理功能OUTA。TMUX1134没有EN，低SEL选B(VCM)，高SEL选A(VEXC)。REFSEL低使用ADC内部4.096V，不将REF3025输出接ADC参考。
+参考去耦REFIO22µF/REFCAP1µF分开；22µF的4.096V偏压有效容量尚未厂家曲线证明≥10µF。不得把额定22µF等同有效值。
+当前设计标签：DYNAMIC_VALIDATION_HOLD、FAULT_PROTECTION_HOLD、REFERENCE_CAPACITANCE_HOLD、BENCH_NOT_RELEASED。HOLD不掩盖已知错误引脚；完成真实连通性后仍不释放上电/PCB/制造。
+
+===== END BASELINE_AND_CHANGELOG.md =====
+
+
+===== FULL EXACT_BOM_AND_PINMAP.csv | bytes 89060 | SHA256 905B25011C2634F9FEF577C4EE96ABB548530395C55FB7A63D988590F0424C60 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\EXACT_BOM_AND_PINMAP.csv =====
+ref,value,manufacturer_part,supplier_id,device_uuid,symbol_uuid,footprint_uuid,footprint_name,physical_pin,symbol_function,net,page,identity,remaining
+J1,HDR-M_2.54_1x2P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C124375,eab4a8150b6d4918927e38d645cd50f2,817a2b12f1f8444aa9dd23951b703391,f8790065914e4d75b82d300fa5733686,HDR-TH_2P-P2.54-V-M-1,1,1,V5,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+J1,HDR-M_2.54_1x2P,NATIVE_GENERIC_HEADER_TRACEABILITY_HOLD,C124375,eab4a8150b6d4918927e38d645cd50f2,817a2b12f1f8444aa9dd23951b703391,f8790065914e4d75b82d300fa5733686,HDR-TH_2P-P2.54-V-M-1,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U6,REF3025AIDBZR,REF3025AIDBZR,C11334,c1515ed107424767bc02b28b8d8d0af3,cf4e42aa41474b458ec5e2bef12568d1,078e43bc93394f49815211c4fd533d19,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,1,IN,V5,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U6,REF3025AIDBZR,REF3025AIDBZR,C11334,c1515ed107424767bc02b28b8d8d0af3,cf4e42aa41474b458ec5e2bef12568d1,078e43bc93394f49815211c4fd533d19,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,2,OUT,REF_2V5,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U6,REF3025AIDBZR,REF3025AIDBZR,C11334,c1515ed107424767bc02b28b8d8d0af3,cf4e42aa41474b458ec5e2bef12568d1,078e43bc93394f49815211c4fd533d19,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,3,GND,GND,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U8,TPS7A2033PDBVR,TPS7A2033PDBVR,C2862740,0c5fbed5e8f949389b6c8e79e5f5b882,a5ab4a439229488fabf6995dda7023f0,c65512e222f74539b9aedd26f1ca303e,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR,1,IN,V5,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U8,TPS7A2033PDBVR,TPS7A2033PDBVR,C2862740,0c5fbed5e8f949389b6c8e79e5f5b882,a5ab4a439229488fabf6995dda7023f0,c65512e222f74539b9aedd26f1ca303e,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR,2,GND,GND,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U8,TPS7A2033PDBVR,TPS7A2033PDBVR,C2862740,0c5fbed5e8f949389b6c8e79e5f5b882,a5ab4a439229488fabf6995dda7023f0,c65512e222f74539b9aedd26f1ca303e,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR,3,EN,V5,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U8,TPS7A2033PDBVR,TPS7A2033PDBVR,C2862740,0c5fbed5e8f949389b6c8e79e5f5b882,a5ab4a439229488fabf6995dda7023f0,c65512e222f74539b9aedd26f1ca303e,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR,4,NC,NC,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U8,TPS7A2033PDBVR,TPS7A2033PDBVR,C2862740,0c5fbed5e8f949389b6c8e79e5f5b882,a5ab4a439229488fabf6995dda7023f0,c65512e222f74539b9aedd26f1ca303e,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR,5,OUT,V3V3,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,1,OUA,VCM,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,2,-INA,VCM,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,3,+INA,REF_2V5,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,4,V-,GND,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,5,+INB,DIV_2V25,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,6,-INB,VEXC,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,7,OUTB,VEXC,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U3,OPA2388IDR,OPA2388IDR,C1517414,7df89d44c07f4c8b9c50b01e0bde0bc0,e5eb073ccb1642e7be95bf473d81ec0c,f7d15c2fdb6442c7924d73bb1cadcb47,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,8,V+,V5,Power_Reference,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_TOP,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,VCM,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_TOP,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_2V25,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B1,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_2V25,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B1,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG1,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B2,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG1,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B2,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG2,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B3,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG2,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B3,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG3,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B4,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG3,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B4,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG4,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B5,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG4,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B5,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG5,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B6,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG5,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B6,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG6,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B7,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG6,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B7,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG7,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B8,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG7,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B8,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,DIV_SEG8,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B9,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,1,1,DIV_SEG8,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+RD_B9,10k 0.1%,RT0603BRD0710KL,C95204,3840b7e554aa441f90223c083eebd79a,f17789ddcff54c04bdd7627904b2daa3,50b4943912284dab97752312e589e9e2,R0603,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_DIV,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,DIV_2V25,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_DIV,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_PWR,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V5,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_PWR,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_REF,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V5,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_REF,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_BUF,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V5,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_BUF,100nF,GRM188R71C104KA01D,C45000,582e6743b52f4d549473833313fcf026,f98c2fa47ec3458fae0ce79d3e8d724d,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_LDO_IN,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V5,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_LDO_IN,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_LDO_OUT,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,1,1,V3V3,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+C_LDO_OUT,1uF,GRM188R61C105KA93D,C77404,1db1d485da63414a91f474e833691800,e91ef48ca1d74a7ba77ff3d274b7f568,76d6c29a47804db487f8a92b2621751b,C0603,2,2,GND,Power_Reference,NATIVE_SYMBOL_PAD_NUMERIC_CORRESPONDENCE,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,1,SEL1,ROW_SEL0,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,2,S1A,VEXC,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,3,D1,ROW_CMD0,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,4,S1B,VCM,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,5,VSS,GND,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,6,GND,GND,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,7,S2B,VCM,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,8,D2,ROW_CMD1,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,9,S2A,VEXC,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,10,SEL2,ROW_SEL1,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,11,SEL3,ROW_SEL2,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,12,S3A,VEXC,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,13,D3,ROW_CMD2,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,14,S3B,VCM,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,15,N.C.,NC,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,16,VDD,V5,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,17,S4B,VCM,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,18,D4,ROW_CMD3,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,19,S4A,VEXC,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U4,TMUX1134PWR,TMUX1134PWR,C2866620,26d9cc32fa66420c979bb852b983c1db,9b27f84173444bd5a1b82a9a7918fdae,08f0e45068c44ec591768da0e3519843,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,20,SEL4,ROW_SEL3,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,4,V+,V5,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,11,V-,GND,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,1,OUTA,ROW_DRV0,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,2,INA-,ROW_FB0,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,3,INA+,ROW_CMD0,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,7,OUTB,ROW_DRV1,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,6,INB-,ROW_FB1,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b466582333f85c29b1950,f609b494ea6f4602bab158ee34499b40,f1b3106e9d564687958e1016421ed2c5,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,5,INB+,ROW_CMD1,Row_Drive_Interface,CORE_MANUFACTURER_PINMAP_VERIFIED,post-reopen pin/net PASS; dynamic/fault/effective-reference-cap/assembly/bench HOLD
+U1,OPA4388IDR,OPA4388IDR,C2058505,a3e0a2b8649b46658

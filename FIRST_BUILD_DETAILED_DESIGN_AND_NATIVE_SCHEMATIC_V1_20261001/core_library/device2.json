@@ -1,0 +1,834 @@
+{
+  "devices": {
+    "a3e0a2b8649b466582333f85c29b1950": {
+      "uuid": "a3e0a2b8649b466582333f85c29b1950",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "LCSC Part Name": "OPAx388精密、零漂移、零交叉、真正的轨至轨输入/输出运算放大器",
+        "Supplier Part": "C2058505",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "OPA4388IDR",
+        "Supplier Footprint": "SOIC-14",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/opa4388.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f609b494ea6f4602bab158ee34499b40",
+        "Designator": "U?",
+        "Footprint": "f1b3106e9d564687958e1016421ed2c5",
+        "3D Model": "8dbf5b715d42428c85558507ae5a252b",
+        "3D Model Title": "SOIC-14_L8.6-W3.9-H1.8-LS6.0-P1.27",
+        "3D Model Transform": "338.583,236.22,0,0,0,0,0,0.001,0",
+        "Number of Channels": "四路",
+        "Single Supply": "2.5V~5.5V",
+        "Dual Supply": "1.25V~2.75V；-2.75V~-1.25V",
+        "Vos - Input Offset Voltage": "2.25uV",
+        "Input Offset Voltage Drift(Vos TC)": "5nV/℃",
+        "Gain Bandwidth Product": "10MHz",
+        "Rail to Rail": "轨到轨输入,轨到轨输出",
+        "Slew Rate": "5V/us",
+        "Common Mode Rejection Ratio(CMRR)": "140dB",
+        "Input Voltage Noise Density": "7nV/√Hz@1kHz",
+        "Ib - Input Bias Current": "30pA",
+        "Quiescent Current(Iq)": "1.9mA",
+        "Output Current": "60mA",
+        "Input Offset Current(Ios)": "500pA",
+        "Operating Temperature": "-40℃~+125℃",
+        "Features": "EMI滤波/RF抑制；零漂移/自动稳零；反相位输入保护",
+        "Name": "={Manufacturer Part}",
+        "Description": "放大器数:四路;输入失调电压(Vos):2.25uV;增益带宽积(GBW):10MHz;轨到轨:轨到轨输入,轨到轨输出;压摆率(SR):5V/us;输入偏置电流(Ib):30pA;"
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230404/EFCC181C4478EA615A7A2FAD09FE452A.jpg"
+      ],
+      "ticket": 569,
+      "updateTime": 1658434988000,
+      "createTime": 1648006807000,
+      "title": "opa4388idr",
+      "description": "放大器数:四路;输入失调电压(Vos):2.25uV;增益带宽积(GBW):10MHz;轨到轨:轨到轨输入,轨到轨输出;压摆率(SR):5V/us;输入偏置电流(Ib):30pA;",
+      "display_title": "OPA4388IDR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"运算放大器/比较器\",\"精密运放\"]",
+      "symbol_type": 2
+    },
+    "7df89d44c07f4c8b9c50b01e0bde0bc0": {
+      "uuid": "7df89d44c07f4c8b9c50b01e0bde0bc0",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "LCSC Part Name": "OPAx388精密、零漂移、零交叉、真正的轨至轨输入/输出运算放大器",
+        "Supplier Part": "C1517414",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "OPA2388IDR",
+        "Supplier Footprint": "SOIC-8",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/opa4388.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "e5eb073ccb1642e7be95bf473d81ec0c",
+        "Designator": "U?",
+        "Footprint": "f7d15c2fdb6442c7924d73bb1cadcb47",
+        "3D Model": "7abc64c95a1a4a04a4ef38f9097c870b",
+        "3D Model Title": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+        "3D Model Transform": "192.913,236.22,0,0,0,0,0,0,0",
+        "Number of Channels": "双路",
+        "Single Supply": "2.5V~5.5V",
+        "Dual Supply": "1.25V~2.75V；-2.75V~-1.25V",
+        "Vos - Input Offset Voltage": "250nV",
+        "Input Offset Voltage Drift(Vos TC)": "5nV/℃",
+        "Gain Bandwidth Product": "10MHz",
+        "Rail to Rail": "轨到轨输入,轨到轨输出",
+        "Slew Rate": "5V/us",
+        "Common Mode Rejection Ratio(CMRR)": "140dB",
+        "Input Voltage Noise Density": "7nV/√Hz@1kHz",
+        "Ib - Input Bias Current": "30pA",
+        "Quiescent Current(Iq)": "1.9mA",
+        "Output Current": "60mA",
+        "Input Offset Current(Ios)": "700pA",
+        "Operating Temperature": "-40℃~+125℃",
+        "Features": "EMI滤波/RF抑制；零漂移/自动稳零；反相位输入保护",
+        "Name": "={Manufacturer Part}",
+        "Description": "放大器数:双路;输入失调电压(Vos):250nV;增益带宽积(GBW):10MHz;轨到轨:轨到轨输入,轨到轨输出;压摆率(SR):5V/us;输入偏置电流(Ib):30pA;"
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230104/8BB7CC7026A2E3C15128898375218585.jpg"
+      ],
+      "ticket": 677,
+      "updateTime": 1658432580000,
+      "createTime": 1620749767000,
+      "title": "opa2388idr",
+      "description": "放大器数:双路;输入失调电压(Vos):250nV;增益带宽积(GBW):10MHz;轨到轨:轨到轨输入,轨到轨输出;压摆率(SR):5V/us;输入偏置电流(Ib):30pA;",
+      "display_title": "OPA2388IDR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"运算放大器/比较器\",\"精密运放\"]",
+      "symbol_type": 2
+    },
+    "26d9cc32fa66420c979bb852b983c1db": {
+      "uuid": "26d9cc32fa66420c979bb852b983c1db",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "LCSC Part Name": "TMUX113x 5V、低泄漏电流、2:1（SPDT)、3通道或4通道精密开关",
+        "Supplier Part": "C2866620",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "TMUX1134PWR",
+        "Supplier Footprint": "TSSOP-20",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/tmux1134.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "9b27f84173444bd5a1b82a9a7918fdae",
+        "Designator": "U?",
+        "Footprint": "08f0e45068c44ec591768da0e3519843",
+        "3D Model": "c491f68934b34c649df5890a1d97cd0f",
+        "3D Model Title": "TSSOP-20_L6.5-W4.4-H1.0-LS6.4-P0.65",
+        "3D Model Transform": "251.969,255.906,0,90,0,0,0.0005,0,0",
+        "Switch Circuit": "2:1",
+        "Number of Channels": "4",
+        "Ron": "2Ω",
+        "Voltage - Supply": "1.08V~5.5V；-2.75V~2.75V",
+        "Con": "20pF",
+        "Turn-on time": "22ns",
+        "Turn-off time": "22ns",
+        "Bandwidth": "220MHz",
+        "Operating Temperature": "-40℃~+125℃",
+        "Propagation Delay (tpd)": "-",
+        "Features": "双向模拟通道；故障保护；无毛刺切换",
+        "Charge Injection": "-1pC",
+        "Name": "={Manufacturer Part}",
+        "Description": "开关电路:2:1;通道数:4;导通电阻(Ron):2Ω;"
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230105/5AF63870DB69901B0BD50FD8F056330F.jpg"
+      ],
+      "ticket": 667,
+      "updateTime": 1658434193000,
+      "createTime": 1638970116000,
+      "title": "tmux1134pwr",
+      "description": "开关电路:2:1;通道数:4;导通电阻(Ron):2Ω;",
+      "display_title": "TMUX1134PWR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"通信接口芯片\",\"模拟开关/多路复用器\"]",
+      "symbol_type": 2
+    },
+    "c0f1d9ea14164280b284a2633ca616ba": {
+      "uuid": "c0f1d9ea14164280b284a2633ca616ba",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "LCSC Part Name": "具有双极性输入范围的单电源、16bit 、500 kSPS、4通道和8通道SAR（SAR）ADC",
+        "Supplier Part": "C528627",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "ADS8684IDBTR",
+        "Supplier Footprint": "TSSOP-38-4.4mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/ads8684.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d76e106744fa4c049efce33ba6eeb97f",
+        "Designator": "U?",
+        "Footprint": "da57944aead44f87be451dd4b20db0fb",
+        "3D Model": "6fc8ae0b31e54feeb05b0ccf963847a5",
+        "3D Model Title": "TSSOP-38_L9.7-W4.4-H1.0-LS6.4-P0.50",
+        "3D Model Transform": "381.889,251.968,0,0,0,0,0,0,0",
+        "Resolution (Bits)": "16",
+        "Sampling Rate": "500kHz",
+        "number of channels": "4",
+        "Voltage - Supply": "4.75V~5.25V",
+        "Interface": "SPI",
+        "differential input": "否",
+        "Integral non - linearity": "0.75LSB",
+        "Operating Temperature": "-40℃~+125℃",
+        "Signal-to-Noise Ratio": "92dB",
+        "Clock/Oscillator": "-",
+        "Clock Frequency": "17MHz",
+        "Voltage Reference": "内置",
+        "Programmable Gain": "支持",
+        "ADC architecture": "SAR",
+        "Quiescent Current (Iq)": "3uA",
+        "Features": "多路复用器；双极性输入",
+        "Name": "={Manufacturer Part}",
+        "Description": "分辨率(位):16;采样率:500kHz;工作电压:4.75V~5.25V;接口类型:SPI;"
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230104/469305350204E955897E6FD8B594C2BE.jpg"
+      ],
+      "ticket": 339,
+      "updateTime": 1649759467000,
+      "createTime": 1620753414000,
+      "title": "ads8684idbtr",
+      "description": "分辨率(位):16;采样率:500kHz;工作电压:4.75V~5.25V;接口类型:SPI;",
+      "display_title": "ADS8684IDBTR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"ADC/DAC/数据转换\",\"模数转换芯片ADC\"]",
+      "symbol_type": 2
+    },
+    "c1515ed107424767bc02b28b8d8d0af3": {
+      "uuid": "c1515ed107424767bc02b28b8d8d0af3",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "LCSC Part Name": "2.55V~5.5V 串联 50uA 75ppm/℃",
+        "Supplier Part": "C11334",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "REF3025AIDBZR",
+        "Supplier Footprint": "SOT-23",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/lit/ds/symlink/ref30.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "cf4e42aa41474b458ec5e2bef12568d1",
+        "Designator": "U?",
+        "Footprint": "078e43bc93394f49815211c4fd533d19",
+        "3D Model": "89cb27a44ab2466697082bb9fd73a7d0",
+        "3D Model Title": "SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95",
+        "3D Model Transform": "114.173,110.236,0,90,0,0,0,0,0",
+        "Output Type": "固定",
+        "Voltage - Supply": "2.55V~5.5V",
+        "Output Voltage": "2.5V",
+        "Output Current": "25mA",
+        "Tolerance": "±0.2%",
+        "Temperature Coefficient": "75ppm/℃",
+        "Reference Type": "串联",
+        "Quiescent Current": "50uA",
+        "Minimum Cathode Current for Regulation": "-",
+        "Noise - 1/10Hz to 10Hz": "28uVp-p",
+        "Noise - 10Hz to 10kHz": "80uVrms",
+        "Operating Temperature": "-40℃~+125℃",
+        "Features": "-",
+        "Name": "={Manufacturer Part}",
+        "Description": "输出类型:固定;工作电压:2.55V~5.5V;输出电压:2.5V;输出电流:25mA;精度:±0.2%;"
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221228/5A8770EB7D6F6B370DEE39A9755FCD03.jpg"
+      ],
+      "ticket": 532,
+      "updateTime": 1658348574000,
+      "createTime": 1620752691000,
+      "title": "ref3025aidbzr",
+      "description": "输出类型:固定;工作电压:2.55V~5.5V;输出电压:2.5V;输出电流:25mA;精度:±0.2%;",
+      "display_title": "REF3025AIDBZR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"电源管理\",\"电压基准芯片\"]",
+      "symbol_type": 2
+    },
+    "d6b55ece5afe47718d825be9cafc6dc2": {
+      "uuid": "d6b55ece5afe47718d825be9cafc6dc2",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "LCSC Part Name": "主流Arm Cortex-M0+ MCU，具有64 KB Flash存储器、8 KB RAM、64 MHz CPU、2x USART、定时器、ADC和通信接口，1.7-3.6V",
+        "Supplier Part": "C432203",
+        "Manufacturer": "ST(意法半导体)",
+        "Manufacturer Part": "STM32G031K8T6",
+        "Supplier Footprint": "LQFP-32(7x7)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/STM32G031K8T6/428991.html",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "bb4899e518bb4e08b9c95764d03859e6",
+        "Designator": "U?",
+        "Footprint": "73c6961ceb5549f299e29c425151b180",
+        "3D Model": "9b055eb510f041fea358114a6302af34",
+        "3D Model Title": "LQFP-32_L7.0-W7.0-H1.4-LS9.0-P0.80",
+        "3D Model Transform": "354.331,354.331,0,0,0,0,0,0,0",
+        "CPU Core": "ARM Cortex-M0+",
+        "CPU Maximum Speed": "64MHz",
+        "Core Size": "32 Bit",
+        "Program Storage Size": "64KB",
+        "Program Memory Type": "FLASH",
+        "RAM Size": "8KB",
+        "EEPROM": "-",
+        "Number of I/O": "30",
+        "ADC (Bit)": "12bit",
+        "Oscillator Type": "内置+外置",
+        "Voltage - Supply": "1.7V~3.6V",
+        "Operating Temperature": "-40℃~+85℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "CPU内核:ARM Cortex-M0+;CPU最大主频:64MHz;CPU位数:32 Bit;"
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230103/FC61F4707A2A4C13C8E0FA87E5289617.jpg"
+      ],
+      "ticket": 381,
+      "updateTime": 1655497346000,
+      "createTime": 1620752450000,
+      "title": "stm32g031k8t6",
+      "description": "CPU内核:ARM Cortex-M0+;CPU最大主频:64MHz;CPU位数:32 Bit;",
+      "display_title": "STM32G031K8T6",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"单片机/微控制器\",\"单片机(MCU/MPU/SOC)\"]",
+      "symbol_type": 2
+    },
+    "0c5fbed5e8f949389b6c8e79e5f5b882": {
+      "uuid": "0c5fbed5e8f949389b6c8e79e5f5b882",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "attributes": {
+        "LCSC Part Name": "3.3V 300mA 6V",
+        "Supplier Part": "C2862740",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "TPS7A2033PDBVR",
+        "Supplier Footprint": "SOT-23-5",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/tps7a20.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "a5ab4a439229488fabf6995dda7023f0",
+        "Designator": "U?",
+        "Footprint": "c65512e222f74539b9aedd26f1ca303e",
+        "3D Model": "7ba65df16e7b4570af156e925f9c37fe",
+        "3D Model Title": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+        "3D Model Transform": "114.173,114.173,0,90,0,0,0,0,0",
+        "Output Configuration": "正极",
+        "Voltage - Supply": "6V",
+        "Output Voltage": "3.3V",
+        "Output Current": "300mA",
+        "Power Supply Rejection Ratio (PSRR)": "65dB@(100kHz)",
+        "Voltage Dropout": "140mV@(300mA)",
+        "standby current": "8.5uA",
+        "Noise": "10uVrms",
+        "Features": "使能控制；内置软启动；过流保护；短路保护；输出放电；热关断；输入欠压保护",
+        "Operating Temperature": "-40℃~+125℃@(Tj)",
+        "Output Type": "固定",
+        "Number of Outputs": "1",
+        "Name": "={Manufacturer Part}",
+        "Description": "输出极性:正极;工作电压:6V;输出电压:3.3V;输出电流:300mA;电源纹波抑制比(PSRR):65dB@(100kHz);输出类型:固定;"
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20230106/EC3EB36C83FF054FAD22BDA5F945A401.jpg"
+      ],
+      "ticket": 740,
+      "updateTime": 1656777605000,
+      "createTime": 1646727608000,
+      "title": "tps7a2033pdbvr",
+      "description": "输出极性:正极;工作电压:6V;输出电压:3.3V;输出电流:300mA;电源纹波抑制比(PSRR):65dB@(100kHz);输出类型:固定;",
+      "display_title": "TPS7A2033PDBVR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"电源管理\",\"线性稳压器(LDO)\"]",
+      "symbol_type": 2
+    }
+  },
+  "symbols": {
+    "f609b494ea6f4602bab158ee34499b40": {
+      "uuid": "f609b494ea6f4602bab158ee34499b40",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 2,
+      "updateTime": 1680571506000,
+      "createTime": 1648005904000,
+      "title": "opa4388idr",
+      "description": "",
+      "display_title": "OPA4388IDR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "",
+        "nickname": "",
+        "username": ""
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"运算放大器/比较器\",\"精密运放\"]",
+      "docType": 2
+    },
+    "e5eb073ccb1642e7be95bf473d81ec0c": {
+      "uuid": "e5eb073ccb1642e7be95bf473d81ec0c",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 2,
+      "updateTime": 1672844114000,
+      "createTime": 1620741637000,
+      "title": "opa2388idr",
+      "description": "",
+      "display_title": "OPA2388IDR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "",
+        "nickname": "",
+        "username": ""
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"运算放大器/比较器\",\"精密运放\"]",
+      "docType": 2
+    },
+    "9b27f84173444bd5a1b82a9a7918fdae": {
+      "uuid": "9b27f84173444bd5a1b82a9a7918fdae",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 7,
+      "updateTime": 1735290313000,
+      "createTime": 1634205003000,
+      "title": "tmux1134pwr",
+      "description": "",
+      "display_title": "TMUX1134PWR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "",
+        "nickname": "",
+        "username": ""
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"通信接口芯片\",\"模拟开关/多路复用器\"]",
+      "docType": 2
+    },
+    "d76e106744fa4c049efce33ba6eeb97f": {
+      "uuid": "d76e106744fa4c049efce33ba6eeb97f",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 2,
+      "updateTime": 1695779748000,
+      "createTime": 1620740760000,
+      "title": "ads8684idbtr",
+      "description": "",
+      "display_title": "ADS8684IDBTR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "",
+        "nickname": "",
+        "username": ""
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"ADC/DAC/数据转换\",\"模数转换芯片ADC\"]",
+      "docType": 2
+    },
+    "cf4e42aa41474b458ec5e2bef12568d1": {
+      "uuid": "cf4e42aa41474b458ec5e2bef12568d1",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 4,
+      "updateTime": 1743097568000,
+      "createTime": 1620739659000,
+      "title": "ref3025aidbzr",
+      "description": "2.5 V, 50 ppm  degC, 50 uA Series (Bandgap) Voltage Reference, -40 to 125 degC, 3-pin SOT-23 (DBZ), Green (RoHS  no SbBr)",
+      "display_title": "REF3025AIDBZR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "",
+        "nickname": "",
+        "username": ""
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"电源管理\",\"电压基准芯片\"]",
+      "docType": 2
+    },
+    "bb4899e518bb4e08b9c95764d03859e6": {
+      "uuid": "bb4899e518bb4e08b9c95764d03859e6",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 5,
+      "updateTime": 1736419841000,
+      "createTime": 1620740555000,
+      "title": "stm32g031k8t6",
+      "description": "",
+      "display_title": "STM32G031K8T6",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "",
+        "nickname": "",
+        "username": ""
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"单片机/微控制器\",\"单片机(MCU/MPU/SOC)\"]",
+      "docType": 2
+    },
+    "a5ab4a439229488fabf6995dda7023f0": {
+      "uuid": "a5ab4a439229488fabf6995dda7023f0",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 2,
+      "updateTime": 1724122528000,
+      "createTime": 1646726405000,
+      "title": "tps7a2033pdbvr",
+      "description": "",
+      "display_title": "TPS7A2033PDBVR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "",
+        "nickname": "",
+        "username": ""
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"电源管理\",\"线性稳压器(LDO)\"]",
+      "docType": 2
+    }
+  },
+  "footprints": {
+    "f1b3106e9d564687958e1016421ed2c5": {
+      "uuid": "f1b3106e9d564687958e1016421ed2c5",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 6,
+      "updateTime": 1773646043000,
+      "createTime": 1620741498000,
+      "title": "soic-14_l8.7-w3.9-p1.27-ls6.0-bl",
+      "description": "SOIC-14;SOP-14;-;SO-14;SOIC-14-150mil;SOIC-14Narrow;SOIC-8;SOIC-10;14-SOIC;SOIC-14-N;SOIC;SOIC-16;SOIC-14L;SOIC-14-NB;SOIC-14NB;SOIC-14 NB;SOIC-14-Narrow;TSSOP-14;SOP-14--300mil;---;SOIC-14_150mil;SOP-14-150mil;SO14;SOIC|14;SOP-14_3.9x8.65x1.27P;SOP-14_150mil;SOIC-14_39MM;SOIC14_39MM;SOP-14(3.9x8.65x1.27);SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL;SOIC-14_L8.65-W3.9-LS6.0-BL;SOIC-14_L8.6-W3.9-P1.27-LS6.0-BL;SOP-14_L8.7-W3.9-P1.27-LS6.0-BL;SOP14;SO-14_3.9MM;sop-14s;LC-SOIC-14_150MIL;DSOP14;SOIC14-1P27-6X8P6MM;SOP14-150MIL;SOIC14;SOIC-14_150MIL;SO-14P;SO-14PJ;SOP-14_L8.8-W3.9-P1.27-LS6.0-BL;SOIC(D)-14;SOP-14-150MIL;SOP14(150mil);SOP-14_L8.8-W3.9-P1.27-LS6.0;SOP-14_150MIL;SOP-14_L8.6-W3.9-P1.27-LS6.0;SOP-14L",
+      "display_title": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"SOIC-14\"]",
+      "docType": 4
+    },
+    "f7d15c2fdb6442c7924d73bb1cadcb47": {
+      "uuid": "f7d15c2fdb6442c7924d73bb1cadcb47",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 5,
+      "updateTime": 1766470620000,
+      "createTime": 1620741518000,
+      "title": "soic-8_l5.0-w4.0-p1.27-ls6.0-bl",
+      "description": "SOIC-8;SOP-8;PG-DSO-8-16;-;SO-8;SOIJ-8;SOIC-8-EP;SOIC-8-150mil;TDSO-8;PG-TDSO-8;SOIC-8-N;SOIC-8N;DSO-8-60;SOIC-8NB;VSOIC-8_NB;VSOIC-8-NB;SOIC-8-Narrow;TSSOP-8;MSOP-8;DFN-8(2x2);SOP-8-150mil;SOP-8-J;SOIC-8_150mil;SOP;SOP-8L;SOIC-8L;SO-8-150mil;SOIC8;SSOP-8;NSOIC-8;SOP-8_150mil;SO-8_3.9mm;SOIC8_39MM;SOP-8_150MIL;SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL;MLP-8(3x3);PG-DSO-8;SOIC-16;SOT-96-1;SOP8",
+      "display_title": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"SOIC-8\"]",
+      "docType": 4
+    },
+    "08f0e45068c44ec591768da0e3519843": {
+      "uuid": "08f0e45068c44ec591768da0e3519843",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 3,
+      "updateTime": 1652421601000,
+      "createTime": 1620741499000,
+      "title": "tssop-20_l6.5-w4.4-p0.65-ls6.4-bl",
+      "description": ";SSOP-20-4.4mm;TSSOP-20;SSOP-20;-;TSSOPB-20;TSSOP-14;TSSOP-20(4.4x6.4);QFN-20(3.5x4.5);SOIC-20;SOT360;TSSOP-20WB;TSSOP20;SSOP-B20;TSSOP-20-44mm;TSSOP-20_4.4x6.5x0.65P;LGA20;TSSOP-20(4.4x6.5x0.65);TSSOP-20(4.4x6.5);TSSOP-20L;TSSOP-20(6.5x4.4x0.65mm);ETSSOP-20(6.5x4.4x0.65mm);TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL;TSSOP-20EP(6.5x4.4x0.65mm);ETSSOP-20(6.5x4.4x0.65);TSS0P-20_L6.5-W4.4-P0.65-LS6.4;SOIC(D);TSSOP-20_L6.5-W4.4-P0.65-LS6.4;RT18FX;TTSOP20;TSSOP-20_6.5-W4.4-P0.65-LS6.4-BL;TSSOP_20;ICS_TSSOP20_P0.65;TSSOP-20(SLG);LC-SSOP-20_208MIL;TSSOP-20 6.5x6.5;SOP20;STC-IAP15W1K29S/TSSOP20/贴片IC;TSSOP(PW);TSSOP20-0.65;TSSOP20-640X645;N76E003;TSS0P20;tssop20;TSOP-20;TSSOP20P-0_65-4_4x6_5-H1_2;SOP-20;SMD-20P;TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL_1;ETSSOP-20(7.8x4.4x0.65mm);TSSOP-20_L6.5-W4.4-P0.65;TSSOP-20 6.5x4.4;TSOP-20D;TSSOP-20-0.65;TSSOP-20-B;TSSOP-20_L6.5-W4.4-P0.65-LS6.5;TSSOP-20-175mil;TSS0P-20;SOT-360-1;TSSOP20 20-pin package pinout (top view);stp;TSSOP-20(6.5x4.4);TSSOP;TSSOP20(6.5mmx4.4mm);TSSOP20B;TSS0P20B;20TSSOP;TSSOP20 / 6.5*6.4*1.0mm;ESOP8/5*6*1.8mm",
+      "display_title": "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"TSSOP-20\"]",
+      "docType": 4
+    },
+    "da57944aead44f87be451dd4b20db0fb": {
+      "uuid": "da57944aead44f87be451dd4b20db0fb",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 4,
+      "updateTime": 1730189485000,
+      "createTime": 1620740470000,
+      "title": "tssop-38_l9.7-w4.4-p0.50-ls6.4-bl",
+      "description": ";TSSOP-38-4.4mm;PG-TSSOP-38-9;TSSOP-38-0.5mm;TSSOP-38;PG-TSSOP-38;-;TFSOP-38;TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL;TSSOP38;TSSOP38L;SSOP38;TSSOP-38-4;TSSOP-38-9;TSSOP-38-8",
+      "display_title": "TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"TSSOP-38\"]",
+      "docType": 4
+    },
+    "078e43bc93394f49815211c4fd533d19": {
+      "uuid": "078e43bc93394f49815211c4fd533d19",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 5,
+      "updateTime": 1787562862000,
+      "createTime": 1620741500000,
+      "title": "sot-23-3_l2.9-w1.6-p1.90-ls2.8-br",
+      "description": "CPH-3;SOT-23;SOT-23A-3;SOT-23-3;SOT-23-3L;SSOP-3;-;SOT-23(TO-236);TSOT-23-3;TSOT-3L;SOT-346T;SOT-346;SC-59;AO3402L;SOT-23N;SOT-23F;TSOT-23-3L;SOT-323-4;SOT-23(SOT-23-3);SUPERSOT-3;SOT-23L;SOT23-3;SC-59-3;S-MiNi;SOT-23-3S;SOT-23A;SOT-23W;SC-61;SC-96;SOT-23S;SOT-23-3_L2.9-W1.6-P0.95-BL;TSOT-23;SOT-23LC;SOT-23-3_L2.9-W1.6-P0.95-LS2.8;SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BL;SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR;SOT-23-3_L2.9-W1.6-P0.95-LS2.8-BR;SOT-23-3_L2.9-W1.6-P1.90-LS2.8;2300-SOT23;SOT-23-3_L2.9-W1.60-P1.90-LS2.8;SOT-23-3_L2.9-W1.5-P1.90-LS2.80-BL;SOT-23-3_L2.9-W1.5-P1.90-LS2.8;SOT-23-3_L2.8-W1.5-P1.90-LS2.8-BL;SOT-23-5L;SOT23-3_L2.9-W1.6-P19.0-LS2.8;SGM2021-3.3V;SOT-23-3_L2.9-W1.6-P1.90-LS2.80-BL;SOT95P245X110-3N;CE6232A33MSOT23-3;SOT23;SOT-23(SMALL);SOT-23-3_L3.0-W1.7-P0.95-LS2.8-BL;sot23;BAT54CLT1G;HAL493C;SOT-23-W1.6;SOT23-3-W1.6;SOT23-3L;TSOT-3;SOT-23-3(TO-236-3);TSMT-3;SOT-23-3 1.6;TL431_C181103;TO-236;TO-236-3;TSM;SOT23-W1.3;SOt23-3;SOT-23-3_L;SOT-23-3-W1.6;TO-236-3(SOT-23-3);SOT-25;SOT-23-3_W1.6",
+      "display_title": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"SOT-23-3\"]",
+      "docType": 4
+    },
+    "73c6961ceb5549f299e29c425151b180": {
+      "uuid": "73c6961ceb5549f299e29c425151b180",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 3,
+      "updateTime": 1652420753000,
+      "createTime": 1620741508000,
+      "title": "lqfp-32_l7.0-w7.0-p0.80-ls9.0-bl",
+      "description": ";LQFP-32;LQFP-32(7x7);QFP-32(7x7);-;TQFP-32(7x7);LQFP-32_7x7x08P;LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL;PLQP0032GB-A;LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL;LQFP-32_L7.0-W7.0-P0.80-LS9.0;TQFP-32_L5.0-W5.0-P0.50-LS7.0-BL;LQFP-32-BL(7x7);LQFP32;LQFP-32_7x7mm_P0.8mm;P-LQFP32-7X7-0.80;TQFP-32L;LQFP-44(10x10);LQFP-32(5x5);VFQFPN-32(5x5);QFN-32(5x5);LQFP-32_L7.0-W7.0-P0.80-LS9.0-;QFP-32;LFQFP-32;LQFP-32_7x7;VQFP-32_0.80mm;LQFP-32_7X7;LQFP32_7X7;LQFP;lqfp32;SOT-358-3;LQFP32-7X7;LQFP-32L;LQFP32_7Z7;LQFP-32_7X7mm",
+      "display_title": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"LQFP-32\"]",
+      "docType": 4
+    },
+    "c65512e222f74539b9aedd26f1ca303e": {
+      "uuid": "c65512e222f74539b9aedd26f1ca303e",
+      "path": "0819f05c4eef4c71ace90d822a990e87",
+      "ticket": 4,
+      "updateTime": 1730945509000,
+      "createTime": 1634176803000,
+      "title": "sot-23-5_l2.9-w1.6-p0.95-ls2.8-br",
+      "description": ";SOT-23-5;SOT-25;SOT-23;SOT-23A-5;TSOT-23-5;-;SOT-25-5;SOT-5;SC-74A,SOT-753;SC-74A(SOT-753);SOT-23-THIN;TSOT-5;PG-SOT23-5-1;SOT23-5;SOT95-5N;SOT-23-5L;SC-70-5;SOT-223-4;SOT-23-Thin-5;SOT-23-5-THIN;SOT-3-5;SOT-23(DBV);SOT-23-5_L2.9-W1.6-P0.95-LS2.8;SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR;SOT-753;SOIC (D);SOT-23-5(MTP5);sot-25;SOT23-5B;SOT23-25;SOT-25A;SSOP-5;SOT23-5N;SOT23-5L;SOT-23-5(DBV);SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL;SC-74A;SMD-22P;SC-88A;SOT-23(TO-236);SOT-23-6;SOT-235",
+      "display_title": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "creator": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "modifier": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "owner": {
+        "uuid": "0819f05c4eef4c71ace90d822a990e87",
+        "nickname": "LCSC",
+        "username": "LCSC"
+      },
+      "custom_tags": "[\"SOT-23-5\"]",
+      "docType": 4
+    }
+  },
+  "panelLibs": {}
+}

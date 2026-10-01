@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-09-30T19:36:54.698929+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--help"
+  ],
+  "returncode": 0,
+  "stdout": "\r\ninvoke\n\nInvoke a registered function by extension id + name (source runs on the editor command space; omit extUuid to run with independent script permission)\n\nUsage:\n  lceda-pro invoke --session <undefined> [--code <undefined>] [--fn <undefined>] [--args <undefined>] [--ext-uuid <undefined>] [--timeout <undefined>]\n\nOptions:\n  --session  Session id (string, or positive integer)\n  --code  Source snippet (string; async function body), reads args via __CLI__.args\n  --fn  Function name (default: run)\n  --args  Call arguments as JSON text, exposed to the source as __CLI__.args\n  --ext-uuid  Extension id (optional; omit to run with independent script permission)\n  --timeout  Invocation budget in ms (integer, 1-60000; default 60000)\n\nGlobal flags: see \"lceda-pro --help\"\n",
+  "stderr": "",
+  "parsed": null
+}

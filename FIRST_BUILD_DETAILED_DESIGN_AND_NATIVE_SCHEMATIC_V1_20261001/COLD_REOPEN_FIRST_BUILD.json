@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-09-30T20:52:52.022072+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--path",
+    "C:/Users/yang/Documents/LCEDA-Pro/projects/SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2",
+    "--headless",
+    "true"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"1c6c22f6-f5bf-45b0-8cc4-1e696b6b45a7\",\"renderId\":15,\"path\":\"C:/Users/yang/Documents/LCEDA-Pro/projects/SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2\",\"headless\":true},\"logs\":[],\"durationMs\":477}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "1c6c22f6-f5bf-45b0-8cc4-1e696b6b45a7",
+      "renderId": 15,
+      "path": "C:/Users/yang/Documents/LCEDA-Pro/projects/SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2",
+      "headless": true
+    },
+    "logs": [],
+    "durationMs": 477
+  }
+}

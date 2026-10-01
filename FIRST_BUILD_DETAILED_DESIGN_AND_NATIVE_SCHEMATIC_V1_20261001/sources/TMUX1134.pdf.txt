@@ -1,0 +1,2585 @@
+=== PAGE 1 ===
+TMUX113x 5V, Low-Leakage-Current, 2:1 (SPDT), 3 or 4-Channel Precision Switches
+1 Features
+• Single supply range: 1.08V to 5.5V
+• Dual supply range: ±2.75V
+• Low leakage current: 3pA
+• Low charge injection: -1pC
+• Low on-resistance: 2Ω
+• -40°C to +125°C operating temperature
+• 1.8V logic compatible
+• Fail-safe logic
+• Rail to rail operation
+• Bidirectional signal path
+• Break-before-make switching
+• ESD protection HBM: 2000V
+2 Applications
+• Field transmitters
+• Programmable logic controllers (PLC)
+• Factory automation and control
+• Ultrasound scanners
+• Patient monitoring and diagnostics
+• Electrocardiogram (ECG)
+• Data acquisition systems (DAQ)
+• ATE test equipment
+• Battery test equipment
+• Instrumentation: lab, analytical, and portable
+• Smart meters: water and gas
+• Optical networking
+• Optical test equipmentt
+• Portable POS
+• Remote radio units
+• Active antenna system (mMIMIO)
+3 Description
+The TMUX113x devices are precision complementary 
+metal-oxide semiconductor (CMOS) switches with 
+multiple channels. The TMUX1133 is a 2:1, single-
+pole double-throw (SPDT), configuration with three 
+independently controlled channels and an EN pin 
+to enable or disable all three switches. The 
+TMUX1134 contains four independently controlled 
+SPDT switches. Wide operating supply of 1.08V to 
+5.5V, or ±2.75V dual supply, allows for use in a 
+broad array of applications from medical equipment to 
+industrial systems. The device supports bidirectional 
+analog and digital signals on the source (Sx) and 
+drain (Dx) pins ranging from V SS to V DD. For single 
+supply applications VSS must be connected to GND.
+All logic inputs have 1.8V logic compatible thresholds, 
+allowing for both TTL and CMOS logic compatibility 
+when operating in the valid supply voltage range. Fail-
+Safe Logic circuitry allows voltages on the control pins 
+to be applied before the supply pin, protecting the 
+device from potential damage.
+The TMUX113x devices are part of the precision 
+switches and multiplexers family. These devices have 
+very low on and off leakage currents and low charge 
+injection, allowing them to be used in high precision 
+measurement applications. A low supply current of
+8nA enables use in portable applications.
+Device Information
+PART NUMBER CHANNEL 
+COUNT(1) PACKAGE(2)
+TMUX1133 3-Channel PW (TSSOP, 16)
+TMUX1134 4-Channel PW (TSSOP, 20)
+(1) See Device Comparison
+(2) For more information see Section 12
+TMUX1134
+S1A D1 S1B
+S2A
+S2B
+S3A
+S3B
+S4A
+S4B
+D2 
+D3 
+D4 
+SEL1
+SEL2
+SEL3
+SEL4
+TMUX1133
+S1A D1 S1B
+S2A
+S2B
+S3A
+S3B
+D2 
+D3 
+SEL1
+SEL2
+SEL3
+EN
+ALL SWITCHES SHOWN FOR LOGIC 0 INPUT
+TMUX113x Block Diagrams
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, 
+intellectual property matters and other important disclaimers. PRODUCTION DATA.
+=== PAGE 2 ===
+Table of Contents
+1 Features............................................................................1
+2 Applications.....................................................................1
+3 Description.......................................................................1
+4 Device Comparison Table...............................................2
+5 Pin Configuration and Functions...................................3
+6 Specifications.................................................................. 5
+6.1 Absolute Maximum Ratings........................................ 5
+6.2 ESD Ratings............................................................... 5
+6.3 Recommended Operating Conditions.........................5
+6.4 Thermal Information....................................................6
+6.5 Electrical Characteristics (VDD = 5V ±10 %)............... 6
+6.6 Electrical Characteristics (VDD = 3.3V ±10 %)............ 8
+6.7 Electrical Characteristics (VDD = 2.5V ±10 %), 
+(VSS = –2.5V ±10 %)..................................................... 9
+6.8 Electrical Characteristics (VDD = 1.8V ±10 %).......... 11
+6.9 Electrical Characteristics (VDD = 1.2V ±10 %).......... 12
+6.10 Typical Characteristics............................................14
+7 Parameter Measurement Information..........................17
+7.1 On-Resistance.......................................................... 17
+7.2 Off-Leakage Current................................................. 17
+7.3 On-Leakage Current................................................. 18
+7.4 Transition Time......................................................... 18
+7.5 Break-Before-Make...................................................19
+7.6 tON(EN) and tOFF(EN) .................................................. 19
+7.7 Charge Injection........................................................20
+7.8 Off Isolation...............................................................20
+7.9 Crosstalk...................................................................21
+7.10 Bandwidth............................................................... 22
+8 Detailed Description......................................................23
+8.1 Overview...................................................................23
+8.2 Functional Block Diagram.........................................23
+8.3 Feature Description...................................................23
+8.4 Device Functional Modes..........................................25
+8.5 Truth Tables.............................................................. 25
+9 Application and Implementation..................................26
+9.1 Application Information............................................. 26
+9.2 Typical Application.................................................... 26
+9.3 Power Supply Recommendations.............................28
+9.4 Layout....................................................................... 28
+10 Device and Documentation Support..........................30
+10.1 Documentation Support.......................................... 30
+10.2 Receiving Notification of Documentation Updates..30
+10.3 Support Resources................................................. 30
+10.4 Trademarks.............................................................30
+10.5 Electrostatic Discharge Caution..............................30
+10.6 Glossary..................................................................30
+11 Revision History.......................................................... 30
+12 Mechanical, Packaging, and Orderable 
+Information.................................................................... 31
+4 Device Comparison Table
+PRODUCT DESCRIPTION
+TMUX1133 2:1 (SPDT), 3-Channel Switch
+TMUX1134 2:1 (SPDT), 4-Channel Switch
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+2 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 3 ===
+5 Pin Configuration and Functions
+1S2B 16  V DD
+2S2A 15  D2
+3S3B 14  D1
+4D3 13  S1B
+5S3A 12  S1A
+6 11  SEL1
+7VSS 10  SEL2
+8GND 9  SEL3
+Not to scale
+Figure 5-1. TMUX1133: PW Package, 16-Pin TSSOP (Top View) 
+Table 5-1. Pin Functions TMUX1133 
+PIN
+TYPE(1) DESCRIPTION(2)
+NAME NO.
+S2B 1 I/O Source pin 2B. Can be an input or output.
+S2A 2 I/O Source pin 2A. Can be an input or output.
+S3B 3 I/O Source pin 3B. Can be an input or output.
+D3 4 I/O Drain pin 3. Can be an input or output.
+S3A 5 I/O Source pin 3A. Can be an input or output.
+EN 6 I Active low logic enable. When this pin is high, all switches are turned off. When this pin is low, the SELx 
+inputs determine switch connection as listed in Table 8-1.
+VSS 7 P
+Negative power supply. This pin is the most negative power-supply potential. For reliable operation, 
+connect a decoupling capacitor ranging from 0.1µF to 10µF between VSS and GND. VSS must be 
+connected to ground for single supply voltage applications.
+GND 8 P Ground (0V) reference
+SEL3 9 I Logic control select pin 3. Controls switch 3 connection as listed in Table 8-1.
+SEL2 10 I Logic control select pin 2. Controls switch 2connection as listed in Table 8-1.
+SEL1 11 I Logic control select pin 1. Controls switch 1 connection as listed in Table 8-1.
+S1A 12 I/O Source pin 1A. Can be an input or output.
+S1B 13 I/O Source pin 1B. Can be an input or output.
+D1 14 I/O Drain pin 1. Can be an input or output.
+D2 15 I/O Drain pin 2. Can be an input or output.
+VDD 16 P Positive power supply. This pin is the most positive power-supply potential. For reliable operation, 
+connect a decoupling capacitor ranging from 0.1µF to 10µF between VDD and GND.
+(1) I = input, O = output, I/O = input and output, P = power
+(2) Refer to Section 8.4 for what to do with unused pins
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 3
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 4 ===
+1SEL1 20  SEL4
+2S1A 19  S4A
+3D1 18  D4
+4S1B 17  S4B
+5VSS 16  V DD
+6GND 15  N.C.
+7S2B 14  S3B
+8D2 13  D3
+9S2A 12  S3A
+10SEL2 11  SEL3
+Not to scale
+Figure 5-2. TMUX1134: PW Package, 20-Pin TSSOP (Top View) 
+Table 5-2. Pin Functions TMUX1134 
+PIN
+TYPE(1) DESCRIPTION(2)
+NAME NO.
+SEL1 1 I Logic control select pin 1. Controls switch 1 connection as listed in Table 8-2.
+S1A 2 I/O Source pin 1A. Can be an input or output.
+D1 3 I/O Drain pin 1. Can be an input or output.
+S1B 4 I/O Source pin 1B. Can be an input or output.
+VSS 5 P
+Negative power supply. This pin is the most negative power-supply potential. For reliable operation, 
+connect a decoupling capacitor ranging from 0.1µF to 10µF between VSS and GND. VSS must be 
+connected to ground for single supply voltage applications.
+GND 6 P .Ground (0V) reference.
+S2B 7 I/O Source pin 2B. Can be an input or output.
+D2 8 I/O Drain pin 2. Can be an input or output.
+S2A 9 I/O Source pin 2A. Can be an input or output.
+SEL2 10 I Logic control select pin 2. Controls switch 2 connection as listed in Table 8-2.
+SEL3 11 I Logic control select pin 3. Controls switch 3 connection as listed in Table 8-2.
+S3A 12 I/O Source pin 3A. Can be an input or output.
+D3 13 I/O Drain pin 3. Can be an input or output.
+S3B 14 I/O Source pin 3B. Can be an input or output.
+N.C. 15 Not Connected Not Connected. Can be shorted to GND or left floating.
+VDD 16 P Positive power supply. This pin is the most positive power-supply potential. For reliable operation, 
+connect a decoupling capacitor ranging from 0.1µF to 10µF between VDD and GND.
+S4B 17 I/O Source pin 4B. Can be an input or output.
+D4 18 I/O Drain pin 4. Can be an input or output.
+S4A 19 I/O Source pin 4A. Can be an input or output.
+SEL4 20 I Logic control select pin 4. Controls switch 4 connection as listed in Table 8-2.
+(1) I = input, O = output, I/O = input and output, P = power
+(2) Refer to Section 8.4 for what to do with unused pins
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+4 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 5 ===
+6 Specifications
+6.1 Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted)(1) (2) (3)
+MIN MAX UNIT
+VDD–VSS
+Supply voltage
+–0.5 6 V
+VDD –0.5 6 V
+VSS –3.0 0.3 V
+VSEL or VEN Logic control input pin voltage (EN, SELx) –0.5 6 V
+ISEL or IEN Logic control input pin current (EN, SELx) –30 30 mA
+VS or VD Source or drain voltage (SxA, SxB, Dx) –0.5 VDD + 0.5 V
+IS or ID (CONT) Source or drain continuous current (SxA, SxB, Dx) IDC ± 10 %(4) IDC ± 10 %(4) mA
+IS or ID (PEAK)
+Source and drain peak current: (1 ms period max, 10% duty cycle 
+maximum) (Sx, SxA, SxB, D, DA, DB) Ipeak ± 10 %(4) Ipeak ± 10 %(4) mA
+Tstg Storage temperature –65 150 °C
+Ptot Total power dissipation(5) (6) 500 mW
+TJ Junction temperature 150 °C
+(1) Stresses beyond those listed under Absolute Maximum Rating may cause permanent damage to the device. These are stress 
+ratings only, which do not imply functional operation of the device at these or any other conditions beyond those indicated 
+under Recommended Operating Condition. Exposure to absolute-maximum-rated conditions for extended periods may affect device 
+reliability.
+(2) The algebraic convention, whereby the most negative value is a minimum and the most positive value is a maximum.
+(3) All voltages are with respect to ground, unless otherwise specified.
+(4) Refer to Recommended Operating Conditions for IDC and IPeak ratings.
+(5) For TSSOP(16)(PW) package: Ptot derates  linearly above TA=89°C by 8.29mW/°C
+(6) For TSSOP(20)(PW) package: Ptot derates  linearly above TA=98°C by 9.78mW/°C
+6.2 ESD Ratings
+VALUE UNIT
+V(ESD) Electrostatic discharge
+Human body model (HBM), per ANSI/ESDA/JEDEC JS-001, all pins(1) ±2000
+VCharged device model (CDM), per JEDEC specification JESD22-C101 
+or ANSI/ESDA/JEDEC JS-002, all pins(2) ±750
+(1) JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2) JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+6.3 Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)
+MIN NOM MAX UNIT
+VDD Positive power supply voltage (single) 1.08 5.5 V
+VSS Negative power supply voltage (dual) –2.75 0 V
+VDD - VSS Supply rail voltage difference 1.08 5.5 V
+VS or VD Signal path input/output voltage (source or drain pin) (SxA, SxB, Dx) VSS VDD V
+VSEL or VEN Logic control input pin voltage (EN, SELx) 0 5.5 V
+TA Ambient temperature –40 125 °C
+IDC Continuous current through switch
+Tj = 25°C 150 mA
+Tj = 85°C 120 mA
+Tj = 125°C 60 mA
+Tj = 130°C 50 mA
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 5
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 6 ===
+6.3 Recommended Operating Conditions (continued)
+over operating free-air temperature range (unless otherwise noted)
+MIN NOM MAX UNIT
+Ipeak
+Peak current through switch(1 ms period max, 10% 
+duty cycle maximum)
+Tj = 25°C 300 mA
+Tj = 85°C 300 mA
+Tj = 125°C 180 mA
+Tj = 130°C 160 mA
+6.4 Thermal Information
+THERMAL METRIC(1)
+TMUX1133 TMUX1134
+UNITPW (TSSOP) PW (TSSOP)
+16 PINS 16 PINS
+RθJA Junction-to-ambient thermal resistance 120.6 102.2 °C/W
+RθJC(top) Junction-to-case (top) thermal resistance 51.0 43.1 °C/W
+RθJB Junction-to-board thermal resistance 66.8 53.6 °C/W
+ΨJT Junction-to-top characterization parameter 8.7 6.6 °C/W
+ΨJB Junction-to-board characterization parameter 66.2 53.1 °C/W
+RθJC(bot) Junction-to-case (bottom) thermal resistance N/A N/A °C/W
+(1) For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application 
+report.
+6.5 Electrical Characteristics (VDD = 5V ±10 %)
+At TA = 25°C, VDD = 5V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+ANALOG SWITCH
+RON On-resistance
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C  2 4 Ω
+–40°C to +85°C   4.5 Ω
+–40°C to +125°C   4.9 Ω
+ΔRON
+On-resistance matching between 
+channels
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C  0.18 Ω
+–40°C to +85°C  0.4 Ω
+–40°C to +125°C  0.5 Ω
+RON 
+FLAT
+On-resistance flatness
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C  0.85 Ω
+–40°C to +85°C  1.6 Ω
+–40°C to +125°C  1.6 Ω
+IS(OFF) Source off leakage current(1)
+VDD = 5V
+Switch Off
+VD = 4.5V / 1.5V
+VS = 1.5V / 4.5V
+Refer to Section 7.2
+25°C –0.08 ±0.003 0.08 nA
+–40°C to +85°C –0.3 0.3 nA
+–40°C to +125°C –0.9 0.9 nA
+ID(OFF) Drain off leakage current(1)
+VDD = 5V
+Switch Off
+VD = 4.5V / 1.5V
+VS = 1.5V / 4.5V
+Refer to Section 7.2
+25°C –0.1 ±0.003 0.1 nA
+–40°C to +85°C –0.35 0.35 nA
+–40°C to +125°C –2 2 nA
+ID(ON)
+IS(ON)
+Channel on leakage current
+VDD = 5V
+Switch On
+VD = VS = 4.5V / 1.5V
+Refer to Section 7.3
+25°C –0.1 ±0.003 0.1 nA
+–40°C to +85°C –0.35 0.35 nA
+–40°C to +125°C –2 2 nA
+LOGIC INPUTS ( EN, SELx)
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+6 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 7 ===
+6.5 Electrical Characteristics (VDD = 5V ±10 %) (continued)
+At TA = 25°C, VDD = 5V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+VIH Input logic high 
+–40°C to +125°C
+1.49  5.5 V
+VIL Input logic low 0  0.87 V
+IIH
+IIL
+Input leakage current 25°C  ±0.005  µA
+IIH
+IIL
+Input leakage current –40°C to +125°C   ±0.05 µA
+CIN Logic input capacitance
+25°C  1 pF
+–40°C to +125°C  2 pF
+POWER SUPPLY
+IDD VDD supply current Logic inputs = 0V or 5.5V
+25°C  0.008  µA
+–40°C to +125°C   1 µA
+DYNAMIC CHARACTERISTICS
+tTRAN Transition time between channels
+VS = 3V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.4
+25°C  12  ns
+–40°C to +85°C   18 ns
+–40°C to +125°C   19 ns
+tOPEN 
+(BBM)
+Break before make time
+VS = 3V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.5
+25°C  8  ns
+–40°C to +85°C 1   ns
+–40°C to +125°C 1   ns
+tON(EN)
+Enable turn-on time
+(TMUX1133 Only)
+VS = 3V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  12  ns
+–40°C to +85°C   21 ns
+–40°C to +125°C   22 ns
+tOFF(EN)
+Enable turn-off time
+(TMUX1133 Only)
+VS = 3V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  6  ns
+–40°C to +85°C  11 ns
+–40°C to +125°C  12 ns
+QC Charge Injection
+VS = 1V
+RS = 0Ω, CL = 1nF
+Refer to Section 7.7
+25°C –1 pC
+OISO Off Isolation
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.8
+25°C  –65  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.8
+25°C  –45  dB
+XTALK Crosstalk
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.9
+25°C  –100  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.9
+25°C  –90  dB
+BW Bandwidth RL = 50Ω, CL = 5pF
+Refer to Section 7.10 25°C  220  MHz
+CSOFF Source off capacitance f = 1MHz 25°C  6  pF
+CDOFF Drain off capacitance f = 1MHz 25°C  17  pF
+CSON
+CDON
+On capacitance f = 1MHz 25°C  20  pF
+(1) When VS is 4.5V, VD is 1.5V or when VS is 1.5V, VD is 4.5V.
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 7
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 8 ===
+6.6 Electrical Characteristics (VDD = 3.3V ±10 %)
+At TA = 25°C, VDD = 3.3V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+ANALOG SWITCH
+RON On-resistance
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 3.7 8.8 Ω
+–40°C to +85°C 9.5 Ω
+–40°C to +125°C 9.8 Ω
+ΔRON
+On-resistance matching between 
+channels
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 0.13 Ω
+–40°C to +85°C 0.4 Ω
+–40°C to +125°C 0.5 Ω
+RON 
+FLAT
+On-resistance flatness
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 1.9 Ω
+–40°C to +85°C 2 Ω
+–40°C to +125°C 2.2 Ω
+IS(OFF) Source off leakage current(1)
+VDD = 3.3V
+Switch Off
+VD = 3V / 1V
+VS = 1V / 3V
+Refer to Section 7.2
+25°C –0.05 ±0.001 0.05 nA
+–40°C to +85°C –0.1 0.1 nA
+–40°C to +125°C –0.7 0.7 nA
+ID(OFF)
+Drain off leakage current(1)
+(TMUX1133 Only)
+VDD = 3.3V
+Switch Off
+VD = 3V / 1V
+VS = 1V / 3V
+Refer to Section 7.2
+25°C –0.1 ±0.005 0.1 nA
+–40°C to +85°C –0.35 0.35 nA
+–40°C to +125°C –2 2 nA
+ID(ON)
+IS(ON)
+Channel on leakage current
+VDD = 3.3V
+Switch On
+VD = VS = 3V / 1V
+Refer to Section 7.3
+25°C –0.1 ±0.005 0.1 nA
+–40°C to +85°C –0.35 0.35 nA
+–40°C to +125°C –2 2 nA
+LOGIC INPUTS ( EN, SELx)
+VIH Input logic high 
+–40°C to +125°C
+1.35 5.5 V
+VIL Input logic low 0 0.8 V
+IIH
+IIL
+Input leakage current 25°C  ±0.005  µA
+IIH
+IIL
+Input leakage current –40°C to +125°C   ±0.05 µA
+CIN Logic input capacitance
+25°C  1 pF
+–40°C to +125°C  2 pF
+POWER SUPPLY
+IDD VDD supply current Logic inputs = 0V or 5.5V
+25°C 0.006 µA
+–40°C to +125°C 1 µA
+DYNAMIC CHARACTERISTICS
+tTRAN Transition time between channels
+VS = 2V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.4
+25°C  14 ns
+–40°C to +85°C   22 ns
+–40°C to +125°C   22 ns
+tOPEN 
+(BBM)
+Break before make time
+VS = 2V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.5
+25°C  9 ns
+–40°C to +85°C 1  ns
+–40°C to +125°C 1  ns
+tON(EN)
+Enable turn-on time
+(TMUX1133 Only)
+VS = 2V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  15 ns
+–40°C to +85°C   22 ns
+–40°C to +125°C   23 ns
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+8 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 9 ===
+6.6 Electrical Characteristics (VDD = 3.3V ±10 %) (continued)
+At TA = 25°C, VDD = 3.3V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+tOFF(EN)
+Enable turn-off time
+(TMUX1133 Only)
+VS = 2V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  8 ns
+–40°C to +85°C   13 ns
+–40°C to +125°C   14 ns
+QC Charge Injection
+VS = 1V
+RS = 0Ω, CL = 1nF
+Refer to Section 7.7
+25°C  –1  pC
+OISO Off Isolation
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.8
+25°C  –65  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.8
+25°C  –45  dB
+XTALK Crosstalk
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.9
+25°C  –100  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.9
+25°C  –90  dB
+BW Bandwidth RL = 50Ω, CL = 5pF
+Refer to Section 7.10 25°C  220  MHz
+CSOFF Source off capacitance f = 1MHz 25°C  6  pF
+CDOFF Drain off capacitance f = 1MHz 25°C  17  pF
+CSON
+CDON
+On capacitance f = 1MHz 25°C  20  pF
+(1) When VS is 3V, VD is 1V or when VS is 1V, VD is 3V.
+6.7 Electrical Characteristics (VDD = 2.5V ±10 %), (VSS = –2.5V ±10 %)
+At TA = 25°C, VDD = +2.5V, VSS = –2.5V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+ANALOG SWITCH
+RON On-resistance
+VS = VSS to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 2 4 Ω
+–40°C to +85°C  4.5 Ω
+–40°C to +125°C  4.9 Ω
+ΔRON
+On-resistance matching between 
+channels
+VS = VSS to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 0.18 Ω
+–40°C to +85°C 0.4 Ω
+–40°C to +125°C 0.5 Ω
+RON 
+FLAT
+On-resistance flatness
+VS = VSS to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 0.85 Ω
+–40°C to +85°C 1.6 Ω
+–40°C to +125°C 1.6 Ω
+IS(OFF) Source off leakage current(1)
+VDD = +2.5V, VSS = –2.5V
+Switch Off
+VD = +2V / –1V
+VS = –1V / +2V
+Refer to Section 7.2
+25°C –0.08 ±0.005 0.08 nA
+–40°C to +85°C –0.3 0.3 nA
+–40°C to +125°C –0.9 0.9 nA
+ID(OFF) Drain off leakage current(1)
+VDD = +2.5V, VSS = –2.5V
+Switch Off
+VD = +2V / –1V
+VS = –1V / +2V
+Refer to Section 7.2
+25°C –0.1 ±0.01 0.1 nA
+–40°C to +85°C –0.35 0.35 nA
+–40°C to +125°C –2 2 nA
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 9
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 10 ===
+6.7 Electrical Characteristics (VDD = 2.5V ±10 %), (VSS = –2.5V ±10 %) (continued)
+At TA = 25°C, VDD = +2.5V, VSS = –2.5V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+ID(ON)
+IS(ON)
+Channel on leakage current
+VDD = +2.5V, VSS = –2.5V
+Switch On
+VD = VS = +2V / –1V
+Refer to Section 7.3
+25°C –0.1 ±0.01 0.1 nA
+–40°C to +85°C –0.35 0.35 nA
+–40°C to +125°C –2 2 nA
+LOGIC INPUTS ( EN, SELx)
+VIH Input logic high
+–40°C to +125°C
+1.2 2.75 V
+VIL Input logic low 0 0.73 V
+IIH
+IIL
+Input leakage current 25°C  ±0.005  µA
+IIH
+IIL
+Input leakage current –40°C to +125°C   ±0.05 µA
+CIN Logic input capacitance
+25°C  1 pF
+–40°C to +125°C  2 pF
+POWER SUPPLY
+IDD VDD supply current Logic inputs = 0V or 2.75V
+25°C 0.008  µA
+–40°C to +125°C  1 µA
+ISS VSS supply current Logic inputs = 0V or 2.75V
+25°C 0.008  µA
+–40°C to +125°C  1 µA
+DYNAMIC CHARACTERISTICS
+tTRAN Transition time between channels
+VS = 1.5V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.4
+25°C  12  ns
+–40°C to +85°C   20 ns
+–40°C to +125°C   21 ns
+tOPEN 
+(BBM)
+Break before make time
+VS = 1.5V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.5
+25°C  8  ns
+–40°C to +85°C 1   ns
+–40°C to +125°C 1   ns
+tON(EN)
+Enable turn-on time
+(TMUX1133 Only)
+VS = 1.5V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  12  ns
+–40°C to +85°C   21 ns
+–40°C to +125°C   22 ns
+tOFF(EN)
+Enable turn-off time
+(TMUX1133 Only)
+VS = 1.5V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  6  ns
+–40°C to +85°C  14 ns
+–40°C to +125°C  15 ns
+QC Charge Injection
+VS = –1V
+RS = 0Ω, CL = 1nF
+Refer to Section 7.7
+25°C –1 pC
+OISO Off Isolation
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.8
+25°C  –65  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.8
+25°C  –45  dB
+XTALK Crosstalk
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.9
+25°C  –100  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.9
+25°C  –90  dB
+BW Bandwidth RL = 50Ω, CL = 5pF
+Refer to Section 7.10 25°C  220  MHz
+CSOFF Source off capacitance f = 1MHz 25°C  6  pF
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+10 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 11 ===
+6.7 Electrical Characteristics (VDD = 2.5V ±10 %), (VSS = –2.5V ±10 %) (continued)
+At TA = 25°C, VDD = +2.5V, VSS = –2.5V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+CDOFF Drain off capacitance f = 1MHz 25°C  17  pF
+CSON
+CDON
+On capacitance f = 1MHz 25°C  20  pF
+(1) When VS is positive, VD is negative or when VS is negative, VD is positive.
+6.8 Electrical Characteristics (VDD = 1.8V ±10 %)
+At TA = 25°C, VDD = 1.8V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+ANALOG SWITCH
+RON On-resistance
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 40 Ω
+–40°C to +85°C 80 Ω
+–40°C to +125°C 80 Ω
+ΔRON
+On-resistance matching between 
+channels
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 0.4 Ω
+–40°C to +85°C 1.5 Ω
+–40°C to +125°C 1.5 Ω
+IS(OFF) Source off leakage current(1)
+VDD = 1.98V
+Switch Off
+VD = 1.62V / 1V
+VS = 1V / 1.62V
+Refer to Section 7.2
+25°C –0.05 ±0.003 0.05 nA
+–40°C to +85°C –0.1 0.1 nA
+–40°C to +125°C –0.5 0.5 nA
+ID(OFF) Drain off leakage current(1)
+VDD = 1.98V
+Switch Off
+VD = 1.62V / 1V
+VS = 1V / 1.62V
+Refer to Section 7.2
+25°C –0.1 ±0.005 0.1 nA
+–40°C to +85°C –0.5 0.5 nA
+–40°C to +125°C –2 2 nA
+ID(ON)
+IS(ON)
+Channel on leakage current
+VDD = 1.98V
+Switch On
+VD = VS = 1.62V / 1V
+Refer to Section 7.3
+25°C –0.1 ±0.005 0.1 nA
+–40°C to +85°C –0.5 0.5 nA
+–40°C to +125°C –2 2 nA
+LOGIC INPUTS ( EN, SELx)
+VIH Input logic high
+–40°C to +125°C
+1.07 5.5 V
+VIL Input logic low 0 0.68 V
+IIH
+IIL
+Input leakage current 25°C  ±0.005  µA
+IIH
+IIL
+Input leakage current –40°C to +125°C   ±0.05 µA
+CIN Logic input capacitance
+25°C  1 pF
+–40°C to +125°C  2 pF
+POWER SUPPLY
+IDD VDD supply current Logic inputs = 0V or 5.5V
+25°C 0.001  µA
+–40°C to +125°C  0.85 µA
+DYNAMIC CHARACTERISTICS
+tTRAN Transition time between channels
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.4
+25°C  28 ns
+–40°C to +85°C  48 ns
+–40°C to +125°C   48 ns
+tOPEN 
+(BBM)
+Break before make time
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.5
+25°C  16 ns
+–40°C to +85°C 1   ns
+–40°C to +125°C 1   ns
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 11
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 12 ===
+6.8 Electrical Characteristics (VDD = 1.8V ±10 %) (continued)
+At TA = 25°C, VDD = 1.8V (unless otherwise noted).
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+tON(EN)
+Enable turn-on time
+(TMUX1133 Only)
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  28  ns
+–40°C to +85°C  48 ns
+–40°C to +125°C   48 ns
+tOFF(EN)
+Enable turn-off time
+(TMUX1133 Only)
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  16 ns
+–40°C to +85°C  27 ns
+–40°C to +125°C   27 ns
+QC Charge Injection
+VS = 1V
+RS = 0Ω, CL = 1nF
+Refer to Section 7.7
+25°C  –1  pC
+OISO Off Isolation
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.8
+25°C  –65  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.8
+25°C  –45  dB
+XTALK Crosstalk
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.9
+25°C  –100  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.9
+25°C  –90  dB
+BW Bandwidth RL = 50Ω, CL = 5pF
+Refer to Section 7.10 25°C  220  MHz
+CSOFF Source off capacitance f = 1MHz 25°C  6  pF
+CDOFF Drain off capacitance f = 1MHz 25°C  17  pF
+CSON
+CDON
+On capacitance f = 1MHz 25°C  20  pF
+(1) When VS is 1.62V, VD is 1V or when VS is 1V, VD is 1.62V.
+6.9 Electrical Characteristics (VDD = 1.2V ±10 %)
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+ANALOG SWITCH
+RON On-resistance
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 70 Ω
+–40°C to +85°C 105 Ω
+–40°C to +125°C 105 Ω
+ΔRON
+On-resistance matching between 
+channels
+VS = 0V to VDD
+ISD = 10mA
+Refer to Section 7.1
+25°C 0.4 Ω
+–40°C to +85°C 1.5 Ω
+–40°C to +125°C 1.5 Ω
+IS(OFF) Source off leakage current(1)
+VDD = 1.32V
+Switch Off
+VD = 1V / 0.8V
+VS = 0.8V / 1V
+Refer to Section 7.2
+25°C –0.05 ±0.003 0.05 nA
+–40°C to +85°C –0.1 0.1 nA
+–40°C to +125°C –0.5 0.5 nA
+ID(OFF) Drain off leakage current(1)
+VDD = 1.32V
+Switch Off
+VD = 1V / 0.8V
+VS = 0.8V / 1V
+Refer to Section 7.2
+25°C –0.1 ±0.005 0.1 nA
+–40°C to +85°C –0.5 0.5 nA
+–40°C to +125°C –2 2 nA
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+12 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 13 ===
+6.9 Electrical Characteristics (VDD = 1.2V ±10 %) (continued)
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+ID(ON)
+IS(ON)
+Channel on leakage current
+VDD = 1.32V
+Switch On
+VD = VS = 1V / 0.8V
+Refer to Section 7.3
+25°C –0.1 ±0.005 0.1 nA
+–40°C to +85°C –0.5 0.5 nA
+–40°C to +125°C –2 2 nA
+LOGIC INPUTS ( EN, SELx)
+VIH Input logic high 
+–40°C to +125°C
+0.96 5.5 V
+VIL Input logic low 0 0.36 V
+IIH
+IIL
+Input leakage current 25°C ±0.005  µA
+IIH
+IIL
+Input leakage current –40°C to +125°C  ±0.05 µA
+CIN Logic input capacitance
+25°C  1  pF
+–40°C to +125°C   2 pF
+POWER SUPPLY
+IDD VDD supply current Logic inputs = 0V or 5.5V
+25°C 0.001  µA
+–40°C to +125°C  0.7 µA
+DYNAMIC CHARACTERISTICS
+tTRAN Transition time between channels
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.4
+25°C  55 ns
+–40°C to +85°C  201 ns
+–40°C to +125°C   201 ns
+tOPEN 
+(BBM)
+Break before make time
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.5
+25°C  28 ns
+–40°C to +85°C 1   ns
+–40°C to +125°C 1   ns
+tON(EN)
+Enable turn-on time
+(TMUX1133 Only)
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C 60  ns
+–40°C to +85°C  201 ns
+–40°C to +125°C   201 ns
+tOFF(EN)
+Enable turn-off time
+(TMUX1133 Only)
+VS = 1V
+RL = 200Ω, CL = 15pF
+Refer to Section 7.6
+25°C  45  ns
+–40°C to +85°C  150 ns
+–40°C to +125°C   150 ns
+QC Charge Injection
+VS = 1V
+RS = 0Ω, CL = 1nF
+Refer to Section 7.7
+25°C  –1  pC
+OISO Off Isolation
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.8
+25°C  –65  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.8
+25°C  –45  dB
+XTALK Crosstalk
+RL = 50Ω, CL = 5pF
+f = 1MHz
+Refer to Section 7.9
+25°C  –100  dB
+RL = 50Ω, CL = 5pF
+f = 10MHz
+Refer to Section 7.9
+25°C  –90  dB
+BW Bandwidth RL = 50Ω, CL = 5pF
+Refer to Section 7.10 25°C  220  MHz
+CSOFF Source off capacitance f = 1MHz 25°C  6  pF
+CDOFF Drain off capacitance f = 1MHz 25°C  17  pF
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 13
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 14 ===
+6.9 Electrical Characteristics (VDD = 1.2V ±10 %) (continued)
+PARAMETER TEST CONDITIONS TA MIN TYP MAX UNIT
+CSON
+CDON
+On capacitance f = 1MHz 25°C  20  pF
+(1) When VS is 1V, VD is 0.8V or when VS is 0.8V, VD is 1V.
+6.10 Typical Characteristics
+at TA = 25°C, VDD = 5V (unless otherwise noted)
+VS or VD - Source or Drain Voltage (V)
+On Resistance (:)
+0 1 2 3 4 5 5.5
+0
+1
+2
+3
+4
+5
+6
+VDD = 5.5 V
+VDD = 4.5 V
+VDD = 3.63 V
+VDD = 3 V
+D001
+TA = 25°C
+Figure 6-1. On-Resistance vs Source or Drain Voltage
+VS or VD - Source or Drain Voltage (V)
+On Resistance (:)
+0 1 2 3 4 5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+5
+TA = 25qC
+TA = 125qCTA = 85qC
+TA = -40qC
+D002
+VDD = 5V
+Figure 6-2. On-Resistance vs Temperature
+VS or VD - Source or Drain Voltage (V)
+On Resistance (:)
+-3 -2 -1 0 1 2 3
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+VDD = 2.25V
+ VSS = -2.25V
+VDD = 2.5V
+ VSS = -2.5V
+VDD = 2.75V
+ VSS = -2.75V
+D003
+VDD = ±2.5V
+Figure 6-3. On-Resistance vs Temperature
+VS or VD - Source or Drain Voltage (V)
+On Resistance (:)
+0 0.5 1 1.5 2 2.5 3 3.5
+0
+1
+2
+3
+4
+5
+6
+7
+8
+TA = 25qC
+TA = 125qCTA = 85qC
+TA = -40qC
+D004
+VDD = 3.3V
+Figure 6-4. On-Resistance vs Temperature
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+14 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 15 ===
+6.10 Typical Characteristics (continued)
+at TA = 25°C, VDD = 5V (unless otherwise noted)
+VS or VD - Source or Drain Voltage (V)
+On Resistance (:)
+0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 1.8 2
+0
+10
+20
+30
+40
+50
+60
+70
+80
+VDD = 1.62 V
+VDD = 1.98 V
+VDD = 1.08 V
+VDD = 1.32 V
+D005
+TA = 25°C
+Figure 6-5. On-Resistance vs Source or Drain Voltage
+VS or VD - Source or Drain Voltage (V)
+On-Leakage (pA)
+0 0.5 1 1.5 2 2.5 3 3.5 4
+-40
+-30
+-20
+-10
+0
+10
+20
+30
+40
+VDD = 3.63 VVDD = 1.98 VVDD = 1.32 V
+D006
+TA = 25°C
+Figure 6-6. On-Leakage vs Source or Drain Voltage
+VS or VD - Source or Drain Voltage (V)
+On-Leakage (pA)
+-3 -2 -1 0 1 2 3 4 5
+-100
+-80
+-60
+-40
+-20
+0
+20
+40
+60
+80
+100
+VDD = 5V
+ VSS = 0V
+VDD = 2.5V
+ VSS = -2.5V
+D007
+VDD = 5V
+Figure 6-7. On-Leakage vs Source or Drain Voltage
+Temperature (qC)
+Leakage Current (nA)
+-40 -20 0 20 40 60 80 100 120
+-3
+-2
+-1
+0
+1
+2
+3
+IS(ON)
+IS(OFF)
+D008
+VDD = 3.3V
+Figure 6-8. Leakage Current vs Temperature
+Temperature (qC)
+Leakage Current (nA)
+-40 -20 0 20 40 60 80 100 120
+-3
+-2
+-1
+0
+1
+2
+3
+IS(ON)
+IS(OFF)
+D009
+VDD = 5V
+Figure 6-9. Leakage Current vs Temperature
+Temperature (qC)
+Supply Current (PA)
+-40 -20 0 20 40 60 80 100 120 140
+-0.1
+0
+0.1
+0.2
+0.3
+0.4
+0.5
+0.6
+VDD = 5 V
+VDD = 3.3 V
+VDD = 1.8 V
+VDD = 1.2 V
+D010
+VSEL = VDD
+Figure 6-10. Supply Current vs Temperature
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 15
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 16 ===
+6.10 Typical Characteristics (continued)
+at TA = 25°C, VDD = 5V (unless otherwise noted)
+Logic Voltage (V)
+Supply Current (PA)
+0 0.5 1 1.5 2 2.5 3 3.5 4 4.5 5
+0
+200
+400
+600
+800
+1000
+1200
+1400
+1600
+D011
+VDD = 5 V
+VDD = 3.3 V
+VDD = ±2.5 V
+VDD = 1.8 V
+TA = 25°C
+Figure 6-11. Supply Current vs Logic Voltage
+Source Voltage (V)
+Charge Injection (pC)
+-3 -2 -1 0 1 2 3 4 5
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+VDD = 5 V
+VSS = 0 V
+VDD = 3.3 V
+VSS = 0 V
+VDD = +2.5 V
+VSS = -2.5 V
+D012
+TA = -40°C to 125°C
+Figure 6-12. Charge Injection vs Source Voltage
+Source Voltage (V)
+Charge Injection (pC)
+0 0.25 0.5 0.75 1 1.25 1.5 1.75 2
+-10
+-8
+-6
+-4
+-2
+0
+2
+4
+6
+8
+10
+VDD = 1.8 V
+VDD = 1.2V
+D013
+TA = -40°C to 125°C
+Figure 6-13. Charge Injection vs Source Voltage
+Frequency (Hz)
+Magnitude (dB)
+-130
+-120
+-110
+-100
+-90
+-80
+-70
+-60
+-50
+-40
+-30
+-20
+-10
+0
+10
+100k 1M 10M 100M
+Off-Isolation
+Crosstalk
+D014
+TA = -40°C to +125°C
+Figure 6-14. Xtalk and Off-Isolation vs Frequency
+Frequency (Hz)
+Gain (dB)
+-6
+-5
+-4
+-3
+-2
+-1
+0
+1M 10M 100M1M 10M 100M
+D015
+TA = -40°C to +125°C
+Figure 6-15. On Response vs Frequency
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+16 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 17 ===
+7 Parameter Measurement Information
+7.1 On-Resistance
+The on-resistance of a device is the ohmic resistance between the source (Sx) and drain (Dx) pins of the 
+device. The on-resistance varies with input voltage and supply voltage. The symbol R ON is used to denote 
+on-resistance. The measurement setup used to measure R ON is shown in Figure 7-1. Voltage (V) and current 
+(ISD) are measured using this setup, and RON is computed with RON = V / ISD:
+V
+D
+VS
+ISD
+Sx
+Figure 7-1. On-Resistance Measurement Setup
+7.2 Off-Leakage Current
+There are two types of leakage currents associated with a switch during the off state:
+1. Source off-leakage current
+2. Drain off-leakage current
+Source leakage current is defined as the leakage current flowing into or out of the source pin when the switch is 
+off. This current is denoted by the symbol IS(OFF).
+Drain leakage current is defined as the leakage current flowing into or out of the drain pin when the switch is off. 
+This current is denoted by the symbol ID(OFF).
+The setup used to measure both off-leakage currents is shown in Figure 7-2.
+S1A
+GND
+D1
+VD
+ID (OFF)
+A
+VS
+S1B
+S4A
+D4
+VD
+ID (OFF)
+A
+VS
+S4B
+S1A
+S1B
+GND
+VS
+D1
+VD
+A
+Is (OFF)
+VD
+S4A
+S4BVS
+D4
+VD
+A
+Is (OFF)
+VD
+VDD VSS
+0.1F 0.1F
+VDD VSS
+0.1F 0.1F
+Figure 7-2. Off-Leakage Measurement Setup
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 17
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 18 ===
+7.3 On-Leakage Current
+Source on-leakage current is defined as the leakage current flowing into or out of the source pin when the switch 
+is on. This current is denoted by the symbol IS(ON).
+Drain on-leakage current is defined as the leakage current flowing into or out of the drain pin when the switch is 
+on. This current is denoted by the symbol ID(ON).
+Either the source pin or drain pin is left floating during the measurement. Figure 7-3 shows the circuit used for 
+measuring the on-leakage current, denoted by IS(ON) or ID(ON).
+S1A
+GND
+D1
+VD
+ID (ON)
+AS1B
+S4A
+D4
+VD
+ID (ON)
+AS4B
+N.C.
+N.C.
+N.C.
+N.C.
+S1A
+GND
+D1
+S1B
+S4A
+D4
+S4B
+N.C.
+N.C.
+N.C.
+N.C.
+VS
+IS (ON)
+A
+VS
+IS (ON)
+A
+VDD VSS
+0.1F 0.1F
+VDD VSS
+0.1F 0.1F
+Figure 7-3. On-Leakage Measurement Setup
+7.4 Transition Time
+Transition time is defined as the time taken by the output of the device to rise or fall 10% after the address signal 
+has risen or fallen past the logic threshold. The 10% transition measurement is utilized to provide the timing of 
+the device. System level timing can then account for the time constant added from the load resistance and load 
+capacitance. Figure 7-4 shows the setup used to measure transition time, denoted by the symbol tTRANSITION.
+VIH
+VIL
+tTRANSITION
+10%
+90%
+OUTPUT
+0 V
+Logic 
+Control 
+(VSEL)
+VDD
+tTRANSITION
+VSEL
+0 V
+tr < 5ns tf < 5ns
+GND
+VS OUTPUT
+RL CL
+S1A
+D1
+SELx
+S1B
+VS OUTPUT
+RL CL
+S4A
+D4
+S4B
+VDD VSS
+0.1F 0.1F
+Figure 7-4. Transition-Time Measurement Setup
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+18 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 19 ===
+7.5 Break-Before-Make
+Break-before-make delay is a safety feature that prevents two inputs from connecting when the device is 
+switching. The output first breaks from the on-state switch before making the connection with the next on-state 
+switch. The time delay between the break and the make is known as break-before-make delay. Figure 7-5 shows 
+the setup used to measure break-before-make delay, denoted by the symbol tOPEN(BBM).
+VDD
+0 V
+tBBM 1
+90%
+Output
+0 V
+tOPEN (BBM) = min ( tBBM 1, tBBM 2)
+tBBM 2
+VSEL tr < 5ns tf < 5ns
+GND
+VS OUTPUT
+RL CL
+S1A
+D1
+S1B
+VS OUTPUT
+RL CL
+S4A
+D4
+S4B
+VSEL
+SELx
+VDD VSS
+0.1F 0.1F
+Figure 7-5. Break-Before-Make Delay Measurement Setup
+7.6 tON(EN) and tOFF(EN)
+Turn-on time is defined as the time taken by the output of the device to rise to 10% after the enable has risen 
+past the logic threshold. The 10% measurement is utilized to provide the timing of the device. System level 
+timing can then account for the time constant added from the load resistance and load capacitance. Figure 7-6 
+shows the setup used to measure turn-on time, denoted by the symbol tON(EN).
+Turn-off time is defined as the time taken by the output of the device to fall to 90% after the enable has fallen 
+past the logic threshold. The 90% measurement is utilized to provide the timing of the device. System level 
+timing can then account for the time constant added from the load resistance and load capacitance. Figure 7-6 
+shows the setup used to measure turn-off time, denoted by the symbol tOFF(EN).
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 19
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 20 ===
+GND
+VDD
+0 V
+Enable          
+Control 
+(VEN)
+VIL
+VIH
+tON (EN) tOFF (EN)
+90%
+OUTPUT
+0 V
+tr < 5nstf < 5ns
+90%
+VS OUTPUT
+RL CL
+S1A
+D1
+S1B
+VS OUTPUT
+RL CL
+S4A
+D4
+S4B
+VEN
+EN
+VDD VSS
+0.1F 0.1F
+Figure 7-6. Turn-On and Turn-Off Time Measurement Setup
+7.7 Charge Injection
+The TMUX1133 has a transmission-gate topology. Any mismatch in capacitance between the NMOS and PMOS 
+transistors results in a charge injected into the drain or source during the falling or rising edge of the gate signal. 
+The amount of charge injected into the source or drain of the device is known as charge injection, and is denoted 
+by the symbol QC. Figure 7-7 shows the setup used to measure charge injection from source (Sx) to drain (D).
+VOUT
+Output
+VS
+0 V
+VDD
+QC = CL × VOUT
+VEN GND
+OUTPUT
+CL
+D1 VOUTVEN
+VS
+S1A
+S1B
+OUTPUT
+CL
+D4 VOUT
+VS
+S4A
+S4B
+EN
+VDD VSS
+0.1F 0.1F
+Figure 7-7. Charge-Injection Measurement Setup
+7.8 Off Isolation
+Off isolation is defined as the ratio of the signal at the drain pin (D) of the device when a signal is applied to 
+the source pin (Sx) of an off-channel. Figure 7-8 shows the setup used to measure, and the equation used to 
+calculate off isolation.
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+20 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 21 ===
+GND
+NETWORK
+ANALYZER
+VOUT
+S
+D
+50
+VSIG
+RL
+50
+VS
+VDD
+0.1µF
+SxA / SxB / Dx
+RL
+50
+VSS
+0.1µF
+Figure 7-8. Off Isolation Measurement Setup
+OUT
+S
+VOff Isolation 20 Log V
+§ ·   ¨ ¸ 
+© ¹ 
+(1)
+7.9 Crosstalk
+Crosstalk is defined as the ratio of the signal at the drain pin (D) of a different channel, when a signal is applied 
+at the source pin (Sx) of an on-channel. Figure 7-9 shows the setup used to measure, and the equation used to 
+calculate crosstalk.
+NETWORK
+ANALYZER
+GND
+S1A
+VSIG = 200 mVpp
+VBIAS = VDD / 2
+50
+VOUT
+RL
+D1
+50
+S4A
+50
+RL
+D4
+VS
+SxA / SxB / Dx
+50
+RL
+50
+RL
+VDD
+0.1µF
+VSS
+0.1µF
+Figure 7-9. Crosstalk Measurement Setup
+OUT
+S
+VChannel-to-Channel Crosstalk 20 Log V
+§ ·   ¨ ¸ 
+© ¹ 
+(2)
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 21
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 22 ===
+7.10 Bandwidth
+Bandwidth is defined as the range of frequencies that are attenuated by less than 3dB when the input is applied 
+to the source pin (Sx) of an on-channel, and the output is measured at the drain pin (D) of the device. Figure 
+7-10 shows the setup used to measure bandwidth.
+GND
+NETWORK
+ANALYZER
+VOUT
+S
+D
+50
+VSIG
+RL
+50
+VS
+SxA / SxB / Dx
+RL
+50
+VDD
+0.1µF
+VSS
+0.1µF
+Figure 7-10. Bandwidth Measurement Setup
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+22 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 23 ===
+8 Detailed Description
+8.1 Overview
+The TMUX1133 contains three independently controlled single-pole double-throw (SPDT) switches and has 
+an active low EN pin to enable or disable all three switches simultaneously. The TMUX1134 contains four 
+independently controlled SPDT switches.
+8.2 Functional Block Diagram
+TMUX1134
+S1A D1 S1B
+S2A
+S2B
+S3A
+S3B
+S4A
+S4B
+D2 
+D3 
+D4 
+SEL1
+SEL2
+SEL3
+SEL4
+TMUX1133
+S1A D1 S1B
+S2A
+S2B
+S3A
+S3B
+D2 
+D3 
+SEL1
+SEL2
+SEL3
+EN
+ALL SWITCHES SHOWN FOR LOGIC 0 INPUT
+8.3 Feature Description
+8.3.1 Bidirectional Operation
+The TMUX113x devices conduct equally well from source (Sx) to drain (Dx) or from drain (Dx) to source (Sx). 
+Each channel has very similar characteristics in both directions and supports both analog and digital signals.
+8.3.2 Rail to Rail Operation
+The valid signal path input/output voltage for TMUX113x ranges from V SS to VDD. For single supply applications 
+VSS can be connected to GND.
+8.3.3 1.8V Logic Compatible Inputs
+The TMUX113x devices have 1.8V logic compatible control for all logic control inputs. The logic input thresholds 
+scale with supply but still provide 1.8V logic control when operating at 5.5V supply voltage. 1.8V logic level 
+inputs allows the TMUX113x devices to interface with processors that have lower logic I/O rails and eliminates 
+the need for an external translator, which saves both space and BOM cost. The current consumption of the 
+TMUX113x devices increase when using 1.8V logic with higher supply voltage as shown in Figure 6-11. For 
+more information on 1.8V logic implementations refer to Simplifying Design with 1.8V logic Muxes and Switches
+8.3.4 Fail-Safe Logic
+The TMUX113x devices support Fail-Safe Logic on the control input pins (SELx and EN) allowing for operation 
+up to 5.5V, regardless of the state of the supply pins. This feature allows voltages on the control pins to be 
+applied before the supply pins, protecting the device from potential damage. Fail-Safe Logic minimizes system 
+complexity by removing the need for power supply sequencing on the logic control pins. For example, the 
+Fail-Safe Logic feature allows the select pins of the TMUX113x devices to be ramped to 5.5V while V DD = 0V. 
+Additionally, the feature enables operation of the TMUX113x devices with V DD = 1.2V while allowing the select 
+pins to interface with a logic level of another device up to 5.5V.
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 23
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 24 ===
+8.3.5 Ultra-low Leakage Current
+The TMUX1133 and TMUX1134 provide extremely low on-leakage and off-leakage currents. The TMUX113x 
+devices are capable of switching signals from high source-impedance inputs into a high input-impedance op amp 
+with minimal offset error because of the ultra-low leakage currents. Figure 8-1 shows typical leakage currents of 
+the TMUX113x devices versus input voltage.
+VS or VD - Source or Drain Voltage (V)
+On-Leakage (pA)
+0 0.5 1 1.5 2 2.5 3 3.5 4
+-40
+-30
+-20
+-10
+0
+10
+20
+30
+40
+VDD = 3.63 VVDD = 1.98 VVDD = 1.32 V
+D006
+Figure 8-1. Leakage Current vs Input Voltage
+8.3.6 Ultra-Low Charge Injection
+The TMUX113x devices have a transmission gate topology, as shown in Figure 8-2. Any mismatch in the stray 
+capacitance associated with the NMOS and PMOS causes an output level change whenever the switch is 
+opened or closed.
+The TMUX113x devices have special charge-injection cancellation circuitry that reduces the source-to-drain 
+charge injection to -1pC at VS = 1V as shown in Figure 8-3.
+S D
+CGDP
+CGDNCGSN
+CGSP
+OFF ON
+OFF ON
+Figure 8-2. Transmission Gate Topology
+Source Voltage (V)
+Charge Injection (pC)
+-3 -2 -1 0 1 2 3 4 5
+-20
+-15
+-10
+-5
+0
+5
+10
+15
+20
+VDD = 5 V
+VSS = 0 V
+VDD = 3.3 V
+VSS = 0 V
+VDD = +2.5 V
+VSS = -2.5 V
+D012
+Figure 8-3. Charge Injection vs Source Voltage
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+24 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 25 ===
+8.4 Device Functional Modes
+The select (SELx) pins are logic pins that control the connection between the source (SxA and SxB) and drain 
+(Dx) pins of the TMUX113x devices. When a source pin is not selected that pin is in an open state (HI-Z). When 
+a source pin is selected the switch conducts to drain. The logic control pins can be as high as 5.5V.
+When the EN pin of the TMUX1133 is pulled low the SELx logic control inputs determine which source input is 
+selected. When the EN pin is pulled high, all of the switches are in an open state regardless of the state of the 
+SELx logic control inputs. The TMUX1134 SELx logic control inputs determine which source pin is connected to 
+the drain pin for each channel.
+The TMUX113x devices can be operated without any external components except for the supply decoupling 
+capacitors. Unused logic control pins must be tied to GND or V DD so that the device does not consume 
+additional current as highlighted in Implications of Slow or Floating CMOS Inputs . Unused signal path inputs 
+(SxA, SxB, or Dx) should be connected to GND.
+8.5 Truth Tables
+Table 8-1 and Table 8-2 lists the truth tables for the TMUX1133 and TMUX1134 respectively.
+Table 8-1. TMUX1133 Truth Table
+EN SEL1(1) SEL2 SEL3 Selected Source Pins Connected To Drain 
+Pins
+0 0 X X S1A to D1
+0 1 X X S1B to D1
+0 X 0 X S2A to D2
+0 X 1 X S2B to D2
+0 X X 0 S3A to D3
+0 X X 1 S3B to D3
+1 X X X Hi-Z (OFF)
+Table 8-2. TMUX1134 Truth Table
+SEL1 SEL2 SEL3 SEL4 Selected Source Pins Connected To Drain 
+Pins
+0 X X X S1B to D1
+1 X X X S1A to D1
+X 0 X X S2B to D2
+X 1 X X S2A to D2
+X X 0 X S3B to D3
+X X 1 X S3A to D3
+X X X 0 S4B to D4
+X X X 1 S4A to D4
+(1) X denotes do not care.
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 25
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 26 ===
+9 Application and Implementation
+Note
+Information in the following applications sections is not part of the TI component specification, 
+and TI does not warrant its accuracy or completeness. TI’s customers are responsible for 
+determining suitability of components for their purposes, as well as validating and testing their design 
+implementation to confirm system functionality.
+9.1 Application Information
+The TMUX11xx family offers ultra-low input/output leakage currents and low charge injection. These devices 
+operate up to 5.5V, and offer true rail-to-rail input and output switching of both analog and digital signals. The 
+TMUX113x devices have low on-capacitance which allows faster settling time when switching between inputs in 
+the time domain. These features make the TMUX11xx devices a family of precision, high-performance switches 
+and multiplexers for low-voltage applications.
+9.2 Typical Application
+Figure 9-1 shows an example circuit where the TMUX1133 or TMUX1134 can be used to minimize board space 
+by integrating various applications into a multi-channel 2:1 (SPDT) switch. The application uses a 3-channel, or 
+4-channel SPDT switch to optimize the tradeoffs of system flexibility and board space.
+System
+S1A
+D1 
+S1B
+SEL1 Op Amp
+-
++
+ Precision 
+ADC
+VSS
+0.1µF
+Voltage Input 
+Calibration Path 
+S2A
+D2 
+S2B
+SEL2 Op Amp
+-
++
+ Precision 
+ADC
+Voltage Input 
+Current Input 
+ Precision 
+DAC
+S4A
+D4 
+S4B
+SEL4
+Voltage Input 
+Voltage Ouput
+250 
+ Precision 
+ADC
+ Precision 
+DAC
+Analog Input / Output
+0 V-5 V
+0 V-5 V
+4-20 mA
+0 V-5 V
+0 V-5 V
+VDD
+0.1µF
+RPD
+10 k
+To µC
+RPD
+10 k
+To µC
+RPD
+10 k
+To µC
+Figure 9-1. Multi-channel 2:1, Switching Applications
+9.2.1 Design Requirements
+For this design example, use the parameters listed in Table 9-1.
+Table 9-1. Design Parameters
+PARAMETERS VALUES
+Supply (VDD) 5V
+Input / Output Voltage range 0V to 5V
+Input / Output Current range 4mA to 20mA
+Control logic thresholds 1.8V compatible
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+26 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 27 ===
+9.2.2 Detailed Design Procedure
+The TMUX113x devices can be operated without any external components except for the supply decoupling 
+capacitors, however pull-down or pull-up resistors are recommended on the logic control inputs so that each 
+channel is in a known state. All inputs passing through the switch must fall within the recommend operating 
+conditions, including signal range and continuous current. For this design with a single supply of 5V the signal 
+range can be 0V to 5V, and the maximum continuous current can be 30mA.
+Industrial applications such as in factory automation and control; test and measurement benefit from using a 
+multi-channel 2:1 switch, because it allows additional flexibility in the design.
+A single 2:1 switch has numerous applications such as:
+1. Switching between an analog signal path and a calibration path so that the system is calibrated across the 
+life of a product or after installation.
+2. Configuring a single channel to accept either a voltage or current input through software - allowing for 
+system flexibility across applications where the end users input signals may differ.
+3. Allowing a single channel to be configured as either an analog input or analog output. Providing additional 
+control to a system while minimizing the number of physical connectors
+Figure 9-1  shows how to configure a multi-channel analog switch to address these design implementations 
+for additional control and flexibility in the system. The on-resistance of the TMUX113x devices is very low, 
+2Ω typical, and has a maximum on-leakage current of 2nA which allows the devices to be used in precision 
+measurement applications. A system with a 4mA to 20mA signal can achieve >20bits of precision due to the 
+extremely low leakage current of the TMUX113x devices.
+9.2.3 Application Curve
+The TMUX113x devices are capable of switching signals with minimal distortion because of the ultra-low leakage 
+currents and low on-resistance. Figure 9-2 shows how the leakage current of the TMUX113x varies with different 
+input voltages.
+VS or VD - Source or Drain Voltage (V)
+On-Leakage (pA)
+-3 -2 -1 0 1 2 3 4 5
+-100
+-80
+-60
+-40
+-20
+0
+20
+40
+60
+80
+100
+VDD = 5V
+ VSS = 0V
+VDD = 2.5V
+ VSS = -2.5V
+D007
+TA = 25°C
+Figure 9-2. On-Leakage vs Source or Drain Voltage
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 27
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 28 ===
+9.3 Power Supply Recommendations
+The TMUX113x devices operate across a wide supply range of 1.08V to 5.5V single supply, or ±2.75V for dual 
+supply applications. For single supply voltage applications V SS must be connected to GND. Do not exceed the 
+absolute maximum ratings because stresses beyond the listed ratings can cause permanent damage to the 
+devices.
+Power-supply bypassing improves noise margin and prevents switching noise propagation from the V DD and VSS 
+supplies to other components. Good power-supply decoupling is important to achieve optimum performance. For 
+improved supply noise immunity, use a supply decoupling capacitor ranging from 0.1 μF to 10 μF from VDD and 
+VSS to ground. Place the bypass capacitors as close to the power supply pins of the device as possible using 
+low-impedance connections. TI recommends using multi-layer ceramic chip capacitors (MLCCs) that offer low 
+equivalent series resistance (ESR) and inductance (ESL) characteristics for power-supply decoupling purposes. 
+For very sensitive systems, or for systems in harsh noise environments, avoiding the use of vias for connecting 
+the capacitors to the device pins may offer superior noise immunity. The use of multiple vias in parallel lowers 
+the overall inductance and is beneficial for connections to ground planes.
+9.4 Layout
+9.4.1 Layout Guidelines
+When a PCB trace turns a corner at a 90° angle, a reflection can occur. A reflection occurs primarily because of 
+the change of width of the trace. At the apex of the turn, the trace width increases to 1.414 times the width. This 
+increase upsets the transmission-line characteristics, especially the distributed capacitance and self–inductance 
+of the trace which results in the reflection. Not all PCB traces can be straight and therefore some traces must 
+turn corners. Figure 9-3  shows progressively better techniques of rounding corners. Only the last example 
+(BEST) maintains constant trace width and minimizes reflections.
+WORST BETTER BEST
+1W min.
+W
+2W
+Figure 9-3. Trace Example
+Route high-speed signals using a minimum of vias and corners which reduces signal reflections and impedance 
+changes. When a via must be used, increase the clearance size around it to minimize its capacitance. 
+Each via introduces discontinuities in the signal’s transmission line and increases the chance of picking up 
+interference from the other layers of the board. Be careful when designing test points, through-hole pins are not 
+recommended at high frequencies.
+Figure 9-4 and Figure 9-5 shows examples of a PCB layout with the TMUX1133 and TMUX1134 respectively. 
+Some key considerations are:
+• Decouple the VDD and VSS pins with a 0.1µF capacitor, placed as close to the pin as possible. Ensure that the 
+capacitor voltage rating is sufficient for the supply voltage.
+• Keep the input lines as short as possible.
+• Use a solid ground plane to help reduce electromagnetic interference (EMI) noise pickup.
+• Do not run sensitive analog traces in parallel with digital traces. Avoid crossing digital and analog traces if 
+possible, and only make perpendicular crossings when necessary.
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+28 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 29 ===
+9.4.2 Layout Example
+Figure 9-4 shows an example board layout for the TMUX1133.
+CWide (low inductance) 
+trace for power
+VSS
+GND
+SEL2
+SEL3
+S2B
+S2A
+S3B
+D3
+S3A
+EN
+VDD
+D2
+D1
+S1B
+S1A
+SEL1
+TMUX1133
+Via to GND plane
+C
+Wide (low inductance) 
+trace for power
+Figure 9-4. TMUX1133 Layout Example
+Figure 9-5 shows an example board layout for the TMUX1134.
+C
+Wide (low inductance) 
+trace for power
+S2B
+D2
+S3B
+D3
+SEL1
+S1A
+D1
+S1B
+VSS
+GND
+SEL4
+S4A
+D4
+S4B
+VDD
+N.C.
+SEL2
+TMUX1134
+C
+SEL3
+Wide (low inductance) 
+trace for power
+S2A S3A
+Via to GND plane
+Figure 9-5. TMUX1134 Layout Example
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 29
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 30 ===
+10 Device and Documentation Support
+10.1 Documentation Support
+10.1.1 Related Documentation
+For related documentation, see the following:
+• Texas Instruments, Ultrasonic Gas Meter Front-End With MSP430™ Reference Design.
+• Texas Instruments, True Differential, 4 x 2 MUX, Analog Front End, Simultaneous-Sampling ADC Circuit.
+• Texas Instruments, Improve Stability Issues with Low CON Multiplexers.
+• Texas Instruments, Simplifying Design with 1.8V logic Muxes and Switches.
+• Texas Instruments, Eliminate Power Sequencing with Powered-off Protection Signal Switches.
+• Texas Instruments, System-Level Protection for High-Voltage Analog Multiplexers.
+• Texas Instruments, QFN/SON PCB Attachment.
+• Texas Instruments, Quad Flatpack No-Lead Logic Packages.
+10.2 Receiving Notification of Documentation Updates
+To receive notification of documentation updates, navigate to the device product folder on ti.com. Click on 
+Notifications to register and receive a weekly digest of any product information that has changed. For change 
+details, review the revision history included in any revised document.
+10.3 Support Resources
+TI E2E ™ support forums  are an engineer's go-to source for fast, verified answers and design help — straight 
+from the experts. Search existing answers or ask your own question to get the quick design help you need.
+Linked content is provided "AS IS" by the respective contributors. They do not constitute TI specifications and do 
+not necessarily reflect TI's views; see TI's Terms of Use.
+10.4 Trademarks
+TI E2E™ is a trademark of Texas Instruments.
+All trademarks are the property of their respective owners.
+10.5 Electrostatic Discharge Caution
+This integrated circuit can be damaged by ESD. Texas Instruments recommends that all integrated circuits be handled 
+with appropriate precautions. Failure to observe proper handling and installation procedures can cause damage.
+ESD damage can range from subtle performance degradation to complete device failure. Precision integrated circuits may 
+be more susceptible to damage because very small parametric changes could cause the device not to meet its published 
+specifications.
+10.6 Glossary
+TI Glossary This glossary lists and explains terms, acronyms, and definitions.
+11 Revision History
+NOTE: Page numbers for previous revisions may differ from page numbers in the current version.
+Changes from Revision A (August 2019) to Revision B (January 2024) Page
+• Edited Functional Block Diagram images to show logic state............................................................................ 1
+• Updated Is or Id (Continuous Current) values....................................................................................................5
+• Added Ipeak values to recommended operating conditions table......................................................................5
+Changes from Revision * (June 2019) to Revision A (August 2019) Page
+• Changed the device From: Advanced Information To: Production data ............................................................ 1
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+ www.ti.com
+30 Submit Document Feedback Copyright © 2024 Texas Instruments Incorporated
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 31 ===
+12 Mechanical, Packaging, and Orderable Information
+The following pages include mechanical, packaging, and orderable information. This information is the most 
+current data available for the designated devices. This data is subject to change without notice and revision of 
+this document. For browser-based versions of this data sheet, refer to the left-hand navigation.
+www.ti.com
+TMUX1133, TMUX1134
+SCDS412B – JUNE 2019 – REVISED JANUARY 2024
+Copyright © 2024 Texas Instruments Incorporated Submit Document Feedback 31
+Product Folder Links: TMUX1133 TMUX1134
+=== PAGE 32 ===
+PACKAGE OPTION ADDENDUM
+www.ti.com 9-Nov-2025
+PACKAGING INFORMATION
+Orderable part number Status
+(1)
+Material type
+(2)
+Package | Pins Package qty | Carrier RoHS
+(3)
+Lead finish/
+Ball material
+(4)
+MSL rating/
+Peak reflow
+(5)
+Op temp (°C) Part marking
+(6)
+TMUX1133PWR Active Production TSSOP (PW) | 16 2000 | LARGE T&R Yes NIPDAU | SN Level-1-260C-UNLIM -40 to 125 TM1133
+TMUX1133PWR.A Active Production TSSOP (PW) | 16 2000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 125 TM1133
+TMUX1133PWRG4 Active Production TSSOP (PW) | 16 2000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 125 TM1133
+TMUX1133PWRG4.A Active Production TSSOP (PW) | 16 2000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 125 TM1133
+TMUX1134PWR Active Production TSSOP (PW) | 20 2000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 125 TM1134
+TMUX1134PWR.A Active Production TSSOP (PW) | 20 2000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 125 TM1134
+TMUX1134PWRG4 Active Production TSSOP (PW) | 20 2000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 125 TM1134
+TMUX1134PWRG4.A Active Production TSSOP (PW) | 20 2000 | LARGE T&R Yes NIPDAU Level-1-260C-UNLIM -40 to 125 TM1134
+ 
+(1) Status:  For more details on status, see our product life cycle.
+ 
+(2) Material type:  When designated, preproduction parts are prototypes/experimental devices, and are not yet approved or released for full production. Testing and final process, including without limitation quality assurance,
+reliability performance testing, and/or process qualification, may not yet be complete, and this item is subject to further changes or possible discontinuation. If available for ordering, purchases will be subject to an additional
+waiver at checkout, and are intended for early internal evaluation purposes only. These items are sold without warranties of any kind.
+ 
+(3) RoHS values:  Yes, No, RoHS Exempt. See the TI RoHS Statement for additional information and value definition.
+ 
+(4) Lead finish/Ball material:  Parts may have multiple material finish options. Finish options are separated by a vertical ruled line. Lead finish/Ball material values may wrap to two lines if the finish value exceeds the maximum
+column width.
+ 
+(5) MSL rating/Peak reflow:  The moisture sensitivity level ratings and peak solder (reflow) temperatures. In the event that a part has multiple moisture sensitivity ratings, only the lowest level per JEDEC standards is shown.
+Refer to the shipping label for the actual reflow temperature that will be used to mount the part to the printed circuit board.
+ 
+(6) Part marking:  There may be an additional marking, which relates to the logo, the lot trace code information, or the environmental category of the part.
+ 
+Multiple part markings will be inside parentheses. Only one part marking contained in parentheses and separated by a "~" will appear on a part. If a line is indented then it is a continuation of the previous line and the two
+combined represent the entire part marking for that device.
+ 
+Important Information and Disclaimer:The information provided on this page represents TI's knowledge and belief as of the date that it is provided. TI bases its knowledge and belief on information provided by third parties, and
+makes no representation or warranty as to the accuracy of such information. Efforts are underway to better integrate information from third parties. TI has taken and continues to take reasonable steps to provide representative
+and accurate information but may not have conducted destructive testing or chemical analysis on incoming materials and chemicals. TI and TI suppliers consider certain information to be proprietary, and thus CAS numbers
+and other limited information may not be available for release.
+Addendum-Page 1
+=== PAGE 33 ===
+PACKAGE OPTION ADDENDUM
+www.ti.com 9-Nov-2025
+ 
+In no event shall TI's liability arising out of such information exceed the total purchase price of the TI part(s) at issue in this document sold by TI to Customer on an annual basis.
+ 
+Addendum-Page 2
+=== PAGE 34 ===
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 10-Oct-2025
+TAPE AND REEL INFORMATION
+Reel Width (W1)
+REEL DIMENSIONS
+A0B0K0WDimension designed to accommodate the component lengthDimension designed to accommodate the component thicknessOverall width of the carrier tapePitch between successive cavity centersDimension designed to accommodate the component width
+TAPE DIMENSIONSK0 P1B0WA0Cavity
+QUADRANT ASSIGNMENTS FOR PIN 1 ORIENTATION IN TAPE
+Pocket QuadrantsSprocket HolesQ1Q1Q2Q2Q3Q3Q4Q4User Direction of Feed
+P1ReelDiameter
+ 
+*All dimensions are nominal
+Device Package
+Type
+Package
+Drawing
+Pins SPQ Reel
+Diameter
+(mm)
+Reel
+Width
+W1 (mm)
+A0
+(mm)
+B0
+(mm)
+K0
+(mm)
+P1
+(mm)
+W
+(mm)
+Pin1
+Quadrant
+TMUX1133PWR TSSOP PW 16 2000 330.0 12.4 6.9 5.6 1.6 8.0 12.0 Q1
+TMUX1133PWRG4 TSSOP PW 16 2000 330.0 12.4 6.9 5.6 1.6 8.0 12.0 Q1
+TMUX1134PWR TSSOP PW 20 2000 330.0 16.4 6.95 7.0 1.4 8.0 16.0 Q1
+TMUX1134PWRG4 TSSOP PW 20 2000 330.0 16.4 6.95 7.0 1.4 8.0 16.0 Q1
+Pack Materials-Page 1
+=== PAGE 35 ===
+PACKAGE MATERIALS INFORMATION
+  
+www.ti.com 10-Oct-2025
+TAPE AND REEL BOX DIMENSIONS
+Width (mm)
+W LH
+ 
+*All dimensions are nominal
+Device Package Type Package Drawing Pins SPQ Length (mm) Width (mm) Height (mm)
+TMUX1133PWR TSSOP PW 16 2000 356.0 356.0 35.0
+TMUX1133PWRG4 TSSOP PW 16 2000 353.0 353.0 32.0
+TMUX1134PWR TSSOP PW 20 2000 353.0 353.0 32.0
+TMUX1134PWRG4 TSSOP PW 20 2000 353.0 353.0 32.0
+Pack Materials-Page 2
+=== PAGE 36 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+14X 0.65
+2X
+4.55
+16X 0.30
+0.17
+6.6
+6.2 TYP
+1.2 MAX
+0.15
+0.05
+0.25
+GAGE PLANE
+0 -8
+4X (0 -12 )
+B 4.5
+4.3
+NOTE 4
+A
+5.1
+4.9
+NOTE 3
+0.75
+0.50
+(0.15) TYP
+TSSOP - 1.2 mm max heightPW0016A
+SMALL OUTLINE PACKAGE
+4220204/B   12/2023
+1
+8
+9
+16
+0.1 C A B
+PIN 1 INDEX AREA
+SEE DETAIL  A
+0.1 C
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side. 
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.25 mm per side.
+5. Reference JEDEC registration MO-153.
+ 
+SEATING
+PLANE
+A  20
+DETAIL A
+TYPICAL
+SCALE  2.500
+=== PAGE 37 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MAX
+ALL AROUND
+0.05 MIN
+ALL AROUND
+16X (1.5)
+16X (0.45)
+14X (0.65)
+(5.8)
+(R0.05) TYP
+TSSOP - 1.2 mm max heightPW0016A
+SMALL OUTLINE PACKAGE
+4220204/B   12/2023
+NOTES: (continued)
+ 
+6. Publication IPC-7351 may have alternate designs. 
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE: 10X
+SYMM
+SYMM
+1
+8 9
+16
+15.000
+METALSOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+OPENING
+EXPOSED METALEXPOSED METAL
+SOLDER MASK DETAILS
+NON-SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK
+DEFINED
+=== PAGE 38 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+16X (1.5)
+16X (0.45)
+14X (0.65)
+(5.8)
+(R0.05) TYP
+TSSOP - 1.2 mm max heightPW0016A
+SMALL OUTLINE PACKAGE
+4220204/B   12/2023
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE: 10X
+SYMM
+SYMM
+1
+8 9
+16
+=== PAGE 39 ===
+www.ti.com
+PACKAGE OUTLINE
+C
+18X 0.65
+2X
+5.85
+20X 0.30
+0.19
+ TYP6.6
+6.2
+1.2 MAX
+0.15
+0.05
+0.25
+GAGE PLANE
+-80
+B
+NOTE 4
+4.5
+4.3
+A
+NOTE 3
+6.6
+6.4
+0.75
+0.50
+(0.15) TYP
+TSSOP - 1.2 mm max heightPW0020A
+SMALL OUTLINE PACKAGE
+4220206/A   02/2017
+1
+10
+11
+20
+0.1 C A B
+PIN 1 INDEX AREA
+SEE DETAIL  A
+0.1 C
+NOTES: 
+ 
+1. All linear dimensions are in millimeters. Any dimensions in parenthesis are for reference only. Dimensioning and tolerancing
+    per ASME Y14.5M. 
+2. This drawing is subject to change without notice. 
+3. This dimension does not include mold flash, protrusions, or gate burrs. Mold flash, protrusions, or gate burrs shall not
+    exceed 0.15 mm per side. 
+4. This dimension does not include interlead flash. Interlead flash shall not exceed 0.25 mm per side.
+5. Reference JEDEC registration MO-153.
+ 
+SEATING
+PLANE
+A  20
+DETAIL A
+TYPICAL
+SCALE  2.500
+=== PAGE 40 ===
+www.ti.com
+EXAMPLE BOARD LAYOUT
+0.05 MAX
+ALL AROUND
+0.05 MIN
+ALL AROUND
+20X (1.5)
+20X (0.45)
+18X (0.65)
+(5.8)
+(R0.05) TYP
+TSSOP - 1.2 mm max heightPW0020A
+SMALL OUTLINE PACKAGE
+4220206/A   02/2017
+NOTES: (continued)
+ 
+6. Publication IPC-7351 may have alternate designs. 
+7. Solder mask tolerances between and around signal pads can vary based on board fabrication site.
+ 
+LAND PATTERN EXAMPLE
+EXPOSED METAL SHOWN
+SCALE: 10X
+SYMM
+SYMM
+1
+10 11
+20
+15.000
+METALSOLDER MASK
+OPENING
+METAL UNDER
+SOLDER MASK
+SOLDER MASK
+OPENING
+EXPOSED METALEXPOSED METAL
+SOLDER MASK DETAILS
+NON-SOLDER MASK
+DEFINED
+(PREFERRED)
+SOLDER MASK
+DEFINED
+=== PAGE 41 ===
+www.ti.com
+EXAMPLE STENCIL DESIGN
+20X (1.5)
+20X (0.45)
+18X (0.65)
+(5.8)
+(R0.05) TYP
+TSSOP - 1.2 mm max heightPW0020A
+SMALL OUTLINE PACKAGE
+4220206/A   02/2017
+NOTES: (continued)
+ 
+8. Laser cutting apertures with trapezoidal walls and rounded corners may offer better paste release. IPC-7525 may have alternate
+    design recommendations.   
+9. Board assembly site may have different recommendations for stencil design.
+ 
+SOLDER PASTE EXAMPLE
+BASED ON 0.125 mm THICK STENCIL
+SCALE: 10X
+SYMM
+SYMM
+1
+10 11
+20
+=== PAGE 42 ===
+IMPORTANT NOTICE AND DISCLAIMER
+TI PROVIDES TECHNICAL AND RELIABILITY DATA (INCLUDING DATASHEETS), DESIGN RESOURCES (INCLUDING REFERENCE 
+DESIGNS), APPLICATION OR OTHER DESIGN ADVICE, WEB TOOLS, SAFETY INFORMATION, AND OTHER RESOURCES “AS IS” 
+AND WITH ALL FAULTS, AND DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING WITHOUT LIMITATION ANY 
+IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT OF THIRD 
+PARTY INTELLECTUAL PROPERTY RIGHTS.
+These resources are intended for skilled developers designing with TI products. You are solely responsible for (1) selecting the appropriate 
+TI products for your application, (2) designing, validating and testing your application, and (3) ensuring your application meets applicable 
+standards, and any other safety, security, regulatory or other requirements.
+These resources are subject to change without notice. TI grants you permission to use these resources only for development of an 
+application that uses the TI products described in the resource. Other reproduction and display of these resources is prohibited. No license 
+is granted to any other TI intellectual property right or to any third party intellectual property right. TI disclaims responsibility for, and you fully 
+indemnify TI and its representatives against any claims, damages, costs, losses, and liabilities arising out of your use of these resources.
+TI’s products are provided subject to TI’s Terms of Sale, TI’s General Quality Guidelines, or other applicable terms available either on 
+ti.com or provided in conjunction with such TI products. TI’s provision of these resources does not expand or otherwise alter TI’s applicable 
+warranties or warranty disclaimers for TI products. Unless TI explicitly designates a product as custom or customer-specified, TI products 
+are standard, catalog, general purpose devices.
+TI objects to and rejects any additional or different terms you may propose.
+IMPORTANT NOTICE
+Copyright © 2025, Texas Instruments Incorporated
+Last updated 10/2025

@@ -1,0 +1,30 @@
+{
+  "started_utc": "2026-09-30T19:43:11.994912+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const uuid=__CLI__.args.uuid;\nif(uuid!=='74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07')throw Error('Unexpected target uuid');\nreturn {uuid,opened:await eda.dmt_Project.openProject(uuid),time:new Date().toISOString()};\n",
+    "--args",
+    "{\"uuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\"}",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"uuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\",\"opened\":true,\"time\":\"2026-09-30T19:43:13.051Z\"},\"logs\":[],\"durationMs\":630}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "uuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07",
+      "opened": true,
+      "time": "2026-09-30T19:43:13.051Z"
+    },
+    "logs": [],
+    "durationMs": 630
+  }
+}

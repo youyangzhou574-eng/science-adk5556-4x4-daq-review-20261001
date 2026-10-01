@@ -1,0 +1,297 @@
+{
+  "started_utc": "2026-09-30T20:33:23.064188+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const p=await eda.dmt_Project.getCurrentProjectInfo();\nif(p?.uuid!=='74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07')throw Error('Wrong independent project');\nconst names=['Power_Reference','Row_Drive_Interface','Column_TIA','ADC_MCU_Interfaces'];\nconst ids=['9965fd7b16015eaf'];\nfor(let i=1;i<4;i++){const id=await eda.dmt_Schematic.createSchematicPage('0ccfdd809e468881');if(!id)throw Error('Create page '+i);ids.push(id);}\nfor(let i=0;i<4;i++)if(!(await eda.dmt_Schematic.modifySchematicPageName(ids[i],names[i])))throw Error('Page rename '+i);\nreturn {project:p,pages:ids.map((uuid,i)=>({uuid,name:names[i],index:i})),schematics:await eda.dmt_Schematic.getAllSchematicsInfo()};\n",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"project\":{\"itemType\":\"Project\",\"uuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\",\"friendlyName\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_V1\",\"name\":\"/SCIENCE_ADK5556_4X4_FIRST_BUILD_V1\",\"teamUuid\":\"C:\\\\Users\\\\yang\\\\Documents\\\\LCEDA-Pro\\\\projects\",\"description\":\"Independent 0.8-8kohm array first-build review schematic; bench/dynamic/fault validation pending\",\"data\":[{\"itemType\":\"Board\",\"name\":\"Board1\",\"schematic\":{\"itemType\":\"Schematic\",\"uuid\":\"0ccfdd809e468881\",\"name\":\"Schematic1\",\"page\":[{\"itemType\":\"Schematic Page\",\"uuid\":\"9965fd7b16015eaf\",\"name\":\"P1\",\"parentSchematicUuid\":\"0ccfdd809e468881\",\"showTitleBlock\":true,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_V1\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"P1\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"03:43:13\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":1},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":1},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"03:43:14\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}}],\"parentProjectUuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\",\"parentBoardName\":\"Board1\"},\"pcb\":{\"itemType\":\"PCB\",\"name\":\"PCB1\",\"uuid\":\"b2ebcbd16da43f5f\",\"parentBoardName\":\"Board1\",\"parentProjectUuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\"},\"parentProjectUuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\"},{\"itemType\":\"Panel\",\"uuid\":\"b4f36b6717557cb0\",\"name\":\"Panel1\",\"parentProjectUuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\"}]},\"pages\":[{\"uuid\":\"9965fd7b16015eaf\",\"name\":\"Power_Reference\",\"index\":0},{\"uuid\":\"1baf912db250d2de\",\"name\":\"Row_Drive_Interface\",\"index\":1},{\"uuid\":\"a51b95c47c70bc0e\",\"name\":\"Column_TIA\",\"index\":2},{\"uuid\":\"cd673e3782e532f6\",\"name\":\"ADC_MCU_Interfaces\",\"index\":3}],\"schematics\":[{\"itemType\":\"Schematic\",\"uuid\":\"0ccfdd809e468881\",\"page\":[{\"itemType\":\"Schematic Page\",\"uuid\":\"9965fd7b16015eaf\",\"name\":\"Power_Reference\",\"parentSchematicUuid\":\"0ccfdd809e468881\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"1baf912db250d2de\",\"name\":\"P2\",\"parentSchematicUuid\":\"0ccfdd809e468881\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"a51b95c47c70bc0e\",\"name\":\"P3\",\"parentSchematicUuid\":\"0ccfdd809e468881\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"cd673e3782e532f6\",\"name\":\"P4\",\"parentSchematicUuid\":\"0ccfdd809e468881\",\"showTitleBlock\":true,\"titleBlockData\":{}}],\"parentProjectUuid\":\"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\",\"parentBoardName\":\"Board1\",\"name\":\"Schematic1\"}]},\"logs\":[],\"durationMs\":2750}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "project": {
+        "itemType": "Project",
+        "uuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07",
+        "friendlyName": "SCIENCE_ADK5556_4X4_FIRST_BUILD_V1",
+        "name": "/SCIENCE_ADK5556_4X4_FIRST_BUILD_V1",
+        "teamUuid": "C:\\Users\\yang\\Documents\\LCEDA-Pro\\projects",
+        "description": "Independent 0.8-8kohm array first-build review schematic; bench/dynamic/fault validation pending",
+        "data": [
+          {
+            "itemType": "Board",
+            "name": "Board1",
+            "schematic": {
+              "itemType": "Schematic",
+              "uuid": "0ccfdd809e468881",
+              "name": "Schematic1",
+              "page": [
+                {
+                  "itemType": "Schematic Page",
+                  "uuid": "9965fd7b16015eaf",
+                  "name": "P1",
+                  "parentSchematicUuid": "0ccfdd809e468881",
+                  "showTitleBlock": true,
+                  "titleBlockData": {
+                    "Symbol": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "Company": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "嘉立创EDA"
+                    },
+                    "Drawed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Reviewed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Part Number": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Version": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "V1.0"
+                    },
+                    "Page Size": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "A4"
+                    },
+                    "@Project Name": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "SCIENCE_ADK5556_4X4_FIRST_BUILD_V1"
+                    },
+                    "@Update Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "@Create Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "Device": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "@Board Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Board1"
+                    },
+                    "@Page Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "P1"
+                    },
+                    "@Create Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "03:43:13"
+                    },
+                    "@Page Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1
+                    },
+                    "@Page No": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1
+                    },
+                    "@Schematic Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Schematic1"
+                    },
+                    "@Update Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "03:43:14"
+                    },
+                    "@Assembly Variant": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Basic"
+                    },
+                    "Border": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "Title Block Position": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "3"
+                    },
+                    "Size": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "A4"
+                    },
+                    "Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1170
+                    },
+                    "Height": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 825
+                    },
+                    "Region Start": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "X Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "Y Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "Blade Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 10
+                    },
+                    "Color": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Title Block": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Description": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "ID": {}
+                  }
+                }
+              ],
+              "parentProjectUuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07",
+              "parentBoardName": "Board1"
+            },
+            "pcb": {
+              "itemType": "PCB",
+              "name": "PCB1",
+              "uuid": "b2ebcbd16da43f5f",
+              "parentBoardName": "Board1",
+              "parentProjectUuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07"
+            },
+            "parentProjectUuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07"
+          },
+          {
+            "itemType": "Panel",
+            "uuid": "b4f36b6717557cb0",
+            "name": "Panel1",
+            "parentProjectUuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07"
+          }
+        ]
+      },
+      "pages": [
+        {
+          "uuid": "9965fd7b16015eaf",
+          "name": "Power_Reference",
+          "index": 0
+        },
+        {
+          "uuid": "1baf912db250d2de",
+          "name": "Row_Drive_Interface",
+          "index": 1
+        },
+        {
+          "uuid": "a51b95c47c70bc0e",
+          "name": "Column_TIA",
+          "index": 2
+        },
+        {
+          "uuid": "cd673e3782e532f6",
+          "name": "ADC_MCU_Interfaces",
+          "index": 3
+        }
+      ],
+      "schematics": [
+        {
+          "itemType": "Schematic",
+          "uuid": "0ccfdd809e468881",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "9965fd7b16015eaf",
+              "name": "Power_Reference",
+              "parentSchematicUuid": "0ccfdd809e468881",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "1baf912db250d2de",
+              "name": "P2",
+              "parentSchematicUuid": "0ccfdd809e468881",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "a51b95c47c70bc0e",
+              "name": "P3",
+              "parentSchematicUuid": "0ccfdd809e468881",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "cd673e3782e532f6",
+              "name": "P4",
+              "parentSchematicUuid": "0ccfdd809e468881",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            }
+          ],
+          "parentProjectUuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07",
+          "parentBoardName": "Board1",
+          "name": "Schematic1"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 2750
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-09-30T19:39:00.035183+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--help"
+  ],
+  "returncode": 0,
+  "stdout": "\r\nopen\n\nOpen a project and return its session id (visible editor window; --headless for a hidden render)\n\nUsage:\n  lceda-pro open --path <undefined> [--headless <boolean>]\n\nOptions:\n  --path  Project file path (.eprj/.eprj2/.eprj3/.elib)\n  --headless  Open without a visible window (hidden render); default opens a GUI window (default: false)\n\nGlobal flags: see \"lceda-pro --help\"\n",
+  "stderr": "",
+  "parsed": null
+}

@@ -1,0 +1,1495 @@
+{
+  "project_uuid": "74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07",
+  "schematic_uuid": "0ccfdd809e468881",
+  "initial_page_uuid": "9965fd7b16015eaf",
+  "page_names": [
+    "Power_Reference",
+    "Row_Drive_Interface",
+    "Column_TIA",
+    "ADC_MCU_Interfaces"
+  ],
+  "parts": [
+    {
+      "ref": "J1",
+      "device": "HDR-M_2.54_1x2P",
+      "device_uuid": "eab4a8150b6d4918927e38d645cd50f2",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 120,
+      "y": 150,
+      "rotation": 0,
+      "subpart": "210S-1*2P L=11.6MMGold-plated black.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": null,
+      "role": "Regulated5V input; verify ADC pins4.75-5.25V; no reverse-polarity certification"
+    },
+    {
+      "ref": "U6",
+      "device": "REF3025AIDBZR",
+      "device_uuid": "c1515ed107424767bc02b28b8d8d0af3",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 330,
+      "y": 150,
+      "rotation": 0,
+      "subpart": "REF3025AIDBZR.1",
+      "nets": {
+        "1": "V5",
+        "2": "REF_2V5",
+        "3": "GND"
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "U8",
+      "device": "TPS7A2033PDBVR",
+      "device_uuid": "0c5fbed5e8f949389b6c8e79e5f5b882",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 770,
+      "y": 150,
+      "rotation": 0,
+      "subpart": "TPS7A2033PDBVR.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND",
+        "3": "V5",
+        "4": null,
+        "5": "V3V3"
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "U3",
+      "device": "OPA2388IDR",
+      "device_uuid": "7df89d44c07f4c8b9c50b01e0bde0bc0",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 300,
+      "y": 340,
+      "rotation": 0,
+      "subpart": "OPA2388IDR.1",
+      "nets": {
+        "1": "VCM",
+        "2": "VCM",
+        "3": "REF_2V5",
+        "4": "GND",
+        "5": "DIV_2V25",
+        "6": "VEXC",
+        "7": "VEXC",
+        "8": "V5"
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "RD_TOP",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 100,
+      "y": 510,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "VCM",
+        "2": "DIV_2V25"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "RD_B1",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 320,
+      "y": 480,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_2V25",
+        "2": "DIV_SEG1"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B2",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 520,
+      "y": 480,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG1",
+        "2": "DIV_SEG2"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B3",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 720,
+      "y": 480,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG2",
+        "2": "DIV_SEG3"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B4",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 920,
+      "y": 480,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG3",
+        "2": "DIV_SEG4"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B5",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 320,
+      "y": 555,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG4",
+        "2": "DIV_SEG5"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B6",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 520,
+      "y": 555,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG5",
+        "2": "DIV_SEG6"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B7",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 720,
+      "y": 555,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG6",
+        "2": "DIV_SEG7"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B8",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 920,
+      "y": 555,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG7",
+        "2": "DIV_SEG8"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "RD_B9",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 320,
+      "y": 630,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "DIV_SEG8",
+        "2": "GND"
+      },
+      "value": "10k 0.1%",
+      "role": "9 series precision10k = nominal90k"
+    },
+    {
+      "ref": "C_DIV",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 100,
+      "y": 620,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "DIV_2V25",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_PWR",
+      "device": "GRM188R61C105KA93D",
+      "device_uuid": "1db1d485da63414a91f474e833691800",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 120,
+      "y": 260,
+      "rotation": 0,
+      "subpart": "GRM188R61C105KA93D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "1uF",
+      "role": ""
+    },
+    {
+      "ref": "C_REF",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 480,
+      "y": 150,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_BUF",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 520,
+      "y": 340,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_LDO_IN",
+      "device": "GRM188R61C105KA93D",
+      "device_uuid": "1db1d485da63414a91f474e833691800",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 690,
+      "y": 265,
+      "rotation": 0,
+      "subpart": "GRM188R61C105KA93D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "1uF",
+      "role": ""
+    },
+    {
+      "ref": "C_LDO_OUT",
+      "device": "GRM188R61C105KA93D",
+      "device_uuid": "1db1d485da63414a91f474e833691800",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 0,
+      "x": 950,
+      "y": 265,
+      "rotation": 0,
+      "subpart": "GRM188R61C105KA93D.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "value": "1uF",
+      "role": ""
+    },
+    {
+      "ref": "U4",
+      "device": "TMUX1134PWR",
+      "device_uuid": "26d9cc32fa66420c979bb852b983c1db",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 180,
+      "y": 250,
+      "rotation": 0,
+      "subpart": "TMUX1134PWR.1",
+      "nets": {
+        "1": "ROW_SEL0",
+        "2": "VEXC",
+        "3": "ROW_CMD0",
+        "4": "VCM",
+        "5": "GND",
+        "6": "GND",
+        "7": "VCM",
+        "8": "ROW_CMD1",
+        "9": "VEXC",
+        "10": "ROW_SEL1",
+        "11": "ROW_SEL2",
+        "12": "VEXC",
+        "13": "ROW_CMD2",
+        "14": "VCM",
+        "15": null,
+        "16": "V5",
+        "17": "VCM",
+        "18": "ROW_CMD3",
+        "19": "VEXC",
+        "20": "ROW_SEL3"
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "U1",
+      "device": "OPA4388IDR",
+      "device_uuid": "a3e0a2b8649b466582333f85c29b1950",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 450,
+      "y": 250,
+      "rotation": 0,
+      "subpart": "OPA4388IDR.1",
+      "nets": {
+        "4": "V5",
+        "11": "GND",
+        "1": "ROW_DRV0",
+        "2": "ROW_FB0",
+        "3": "ROW_CMD0",
+        "7": "ROW_DRV1",
+        "6": "ROW_FB1",
+        "5": "ROW_CMD1",
+        "8": "ROW_DRV2",
+        "9": "ROW_FB2",
+        "10": "ROW_CMD2",
+        "14": "ROW_DRV3",
+        "13": "ROW_FB3",
+        "12": "ROW_CMD3"
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "R_ISO0",
+      "device": "0603WAF1001T5E",
+      "device_uuid": "18db11499a04403ba8c98e2f7a687fbc",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 145,
+      "rotation": 0,
+      "subpart": "0603WAF1001T5E.1",
+      "nets": {
+        "1": "ROW_DRV0",
+        "2": "ROW0"
+      },
+      "value": "1k 1%",
+      "role": "Output limit; full DC feedback after resistor; dynamic HOLD"
+    },
+    {
+      "ref": "R_ROW_FB0",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 145,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "ROW0",
+        "2": "ROW_FB0"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ROW_HF0",
+      "device": "GRM1885C1H102JA01D",
+      "device_uuid": "230833b8d5c34ef6ad479034195157e9",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 200,
+      "rotation": 0,
+      "subpart": "GRM1885C1H102JA01D.1",
+      "nets": {
+        "1": "ROW_DRV0",
+        "2": "ROW_FB0"
+      },
+      "value": "1nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_SEL_PD0",
+      "device": "0603WAF1003T5E",
+      "device_uuid": "40ff282b3d594c33b798d1707d8406cb",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 200,
+      "rotation": 0,
+      "subpart": "0603WAF1003T5E.1",
+      "nets": {
+        "1": "ROW_SEL0",
+        "2": "GND"
+      },
+      "value": "100k 1%",
+      "role": "Reset/3V3-loss default SEL low"
+    },
+    {
+      "ref": "R_ISO1",
+      "device": "0603WAF1001T5E",
+      "device_uuid": "18db11499a04403ba8c98e2f7a687fbc",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 270,
+      "rotation": 0,
+      "subpart": "0603WAF1001T5E.1",
+      "nets": {
+        "1": "ROW_DRV1",
+        "2": "ROW1"
+      },
+      "value": "1k 1%",
+      "role": "Output limit; full DC feedback after resistor; dynamic HOLD"
+    },
+    {
+      "ref": "R_ROW_FB1",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 270,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "ROW1",
+        "2": "ROW_FB1"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ROW_HF1",
+      "device": "GRM1885C1H102JA01D",
+      "device_uuid": "230833b8d5c34ef6ad479034195157e9",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 325,
+      "rotation": 0,
+      "subpart": "GRM1885C1H102JA01D.1",
+      "nets": {
+        "1": "ROW_DRV1",
+        "2": "ROW_FB1"
+      },
+      "value": "1nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_SEL_PD1",
+      "device": "0603WAF1003T5E",
+      "device_uuid": "40ff282b3d594c33b798d1707d8406cb",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 325,
+      "rotation": 0,
+      "subpart": "0603WAF1003T5E.1",
+      "nets": {
+        "1": "ROW_SEL1",
+        "2": "GND"
+      },
+      "value": "100k 1%",
+      "role": "Reset/3V3-loss default SEL low"
+    },
+    {
+      "ref": "R_ISO2",
+      "device": "0603WAF1001T5E",
+      "device_uuid": "18db11499a04403ba8c98e2f7a687fbc",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 395,
+      "rotation": 0,
+      "subpart": "0603WAF1001T5E.1",
+      "nets": {
+        "1": "ROW_DRV2",
+        "2": "ROW2"
+      },
+      "value": "1k 1%",
+      "role": "Output limit; full DC feedback after resistor; dynamic HOLD"
+    },
+    {
+      "ref": "R_ROW_FB2",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 395,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "ROW2",
+        "2": "ROW_FB2"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ROW_HF2",
+      "device": "GRM1885C1H102JA01D",
+      "device_uuid": "230833b8d5c34ef6ad479034195157e9",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 450,
+      "rotation": 0,
+      "subpart": "GRM1885C1H102JA01D.1",
+      "nets": {
+        "1": "ROW_DRV2",
+        "2": "ROW_FB2"
+      },
+      "value": "1nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_SEL_PD2",
+      "device": "0603WAF1003T5E",
+      "device_uuid": "40ff282b3d594c33b798d1707d8406cb",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 450,
+      "rotation": 0,
+      "subpart": "0603WAF1003T5E.1",
+      "nets": {
+        "1": "ROW_SEL2",
+        "2": "GND"
+      },
+      "value": "100k 1%",
+      "role": "Reset/3V3-loss default SEL low"
+    },
+    {
+      "ref": "R_ISO3",
+      "device": "0603WAF1001T5E",
+      "device_uuid": "18db11499a04403ba8c98e2f7a687fbc",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 520,
+      "rotation": 0,
+      "subpart": "0603WAF1001T5E.1",
+      "nets": {
+        "1": "ROW_DRV3",
+        "2": "ROW3"
+      },
+      "value": "1k 1%",
+      "role": "Output limit; full DC feedback after resistor; dynamic HOLD"
+    },
+    {
+      "ref": "R_ROW_FB3",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 520,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "ROW3",
+        "2": "ROW_FB3"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ROW_HF3",
+      "device": "GRM1885C1H102JA01D",
+      "device_uuid": "230833b8d5c34ef6ad479034195157e9",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 680,
+      "y": 575,
+      "rotation": 0,
+      "subpart": "GRM1885C1H102JA01D.1",
+      "nets": {
+        "1": "ROW_DRV3",
+        "2": "ROW_FB3"
+      },
+      "value": "1nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_SEL_PD3",
+      "device": "0603WAF1003T5E",
+      "device_uuid": "40ff282b3d594c33b798d1707d8406cb",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 900,
+      "y": 575,
+      "rotation": 0,
+      "subpart": "0603WAF1003T5E.1",
+      "nets": {
+        "1": "ROW_SEL3",
+        "2": "GND"
+      },
+      "value": "100k 1%",
+      "role": "Reset/3V3-loss default SEL low"
+    },
+    {
+      "ref": "C_ROW_OP",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 180,
+      "y": 480,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_MUX",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 450,
+      "y": 480,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "J2",
+      "device": "HDR-M_2.54_1x8P",
+      "device_uuid": "fd554b15b6eb4d6f90f5fd338a8ff700",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 1,
+      "x": 200,
+      "y": 635,
+      "rotation": 0,
+      "subpart": "Header-Male-2.54_1x8.1",
+      "nets": {
+        "1": "ROW0",
+        "2": "ROW1",
+        "3": "ROW2",
+        "4": "ROW3",
+        "5": "COL0",
+        "6": "COL1",
+        "7": "COL2",
+        "8": "COL3"
+      },
+      "value": null,
+      "role": "FIXED8-wire external4x4 array; no16 sensor resistors mounted on this board"
+    },
+    {
+      "ref": "U2",
+      "device": "OPA4388IDR",
+      "device_uuid": "a3e0a2b8649b466582333f85c29b1950",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 220,
+      "y": 260,
+      "rotation": 0,
+      "subpart": "OPA4388IDR.1",
+      "nets": {
+        "4": "V5",
+        "11": "GND",
+        "1": "TIA0",
+        "2": "COL_SENSE0",
+        "3": "VCM",
+        "7": "TIA1",
+        "6": "COL_SENSE1",
+        "5": "VCM",
+        "8": "TIA2",
+        "9": "COL_SENSE2",
+        "10": "VCM",
+        "14": "TIA3",
+        "13": "COL_SENSE3",
+        "12": "VCM"
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "R_COL_SENSE0",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 470,
+      "y": 150,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "COL0",
+        "2": "COL_SENSE0"
+      },
+      "value": "10k 0.1%",
+      "role": "Input clamp current limiting; added pole requires macro-model verification"
+    },
+    {
+      "ref": "RF0",
+      "device": "RT0603BRD074K99L",
+      "device_uuid": "e3fb4324469a40728b83810eaa907b40",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 150,
+      "rotation": 0,
+      "subpart": "RT0603BRD074K99L.1",
+      "nets": {
+        "1": "TIA0",
+        "2": "COL0"
+      },
+      "value": "4.99k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "CF0",
+      "device": "GRM1885C1H222JA01D",
+      "device_uuid": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 150,
+      "rotation": 0,
+      "subpart": "GRM1885C1H222JA01D.1",
+      "nets": {
+        "1": "TIA0",
+        "2": "COL0"
+      },
+      "value": "2.2nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_ADC0",
+      "device": "0603WAF1000T5E",
+      "device_uuid": "5303080f43d74b41ae76fc5142aa97e5",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 205,
+      "rotation": 0,
+      "subpart": "0603WAF1000T5E.1",
+      "nets": {
+        "1": "TIA0",
+        "2": "ADC_IN0"
+      },
+      "value": "100R 1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ADC0",
+      "device": "GRM188R71C103KA01D",
+      "device_uuid": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 205,
+      "rotation": 0,
+      "subpart": "GRM188R71C103KA01D.1",
+      "nets": {
+        "1": "ADC_IN0",
+        "2": "GND"
+      },
+      "value": "10nF X7R",
+      "role": ""
+    },
+    {
+      "ref": "R_COL_SENSE1",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 470,
+      "y": 275,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "COL1",
+        "2": "COL_SENSE1"
+      },
+      "value": "10k 0.1%",
+      "role": "Input clamp current limiting; added pole requires macro-model verification"
+    },
+    {
+      "ref": "RF1",
+      "device": "RT0603BRD074K99L",
+      "device_uuid": "e3fb4324469a40728b83810eaa907b40",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 275,
+      "rotation": 0,
+      "subpart": "RT0603BRD074K99L.1",
+      "nets": {
+        "1": "TIA1",
+        "2": "COL1"
+      },
+      "value": "4.99k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "CF1",
+      "device": "GRM1885C1H222JA01D",
+      "device_uuid": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 275,
+      "rotation": 0,
+      "subpart": "GRM1885C1H222JA01D.1",
+      "nets": {
+        "1": "TIA1",
+        "2": "COL1"
+      },
+      "value": "2.2nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_ADC1",
+      "device": "0603WAF1000T5E",
+      "device_uuid": "5303080f43d74b41ae76fc5142aa97e5",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 330,
+      "rotation": 0,
+      "subpart": "0603WAF1000T5E.1",
+      "nets": {
+        "1": "TIA1",
+        "2": "ADC_IN1"
+      },
+      "value": "100R 1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ADC1",
+      "device": "GRM188R71C103KA01D",
+      "device_uuid": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 330,
+      "rotation": 0,
+      "subpart": "GRM188R71C103KA01D.1",
+      "nets": {
+        "1": "ADC_IN1",
+        "2": "GND"
+      },
+      "value": "10nF X7R",
+      "role": ""
+    },
+    {
+      "ref": "R_COL_SENSE2",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 470,
+      "y": 400,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "COL2",
+        "2": "COL_SENSE2"
+      },
+      "value": "10k 0.1%",
+      "role": "Input clamp current limiting; added pole requires macro-model verification"
+    },
+    {
+      "ref": "RF2",
+      "device": "RT0603BRD074K99L",
+      "device_uuid": "e3fb4324469a40728b83810eaa907b40",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 400,
+      "rotation": 0,
+      "subpart": "RT0603BRD074K99L.1",
+      "nets": {
+        "1": "TIA2",
+        "2": "COL2"
+      },
+      "value": "4.99k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "CF2",
+      "device": "GRM1885C1H222JA01D",
+      "device_uuid": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 400,
+      "rotation": 0,
+      "subpart": "GRM1885C1H222JA01D.1",
+      "nets": {
+        "1": "TIA2",
+        "2": "COL2"
+      },
+      "value": "2.2nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_ADC2",
+      "device": "0603WAF1000T5E",
+      "device_uuid": "5303080f43d74b41ae76fc5142aa97e5",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 455,
+      "rotation": 0,
+      "subpart": "0603WAF1000T5E.1",
+      "nets": {
+        "1": "TIA2",
+        "2": "ADC_IN2"
+      },
+      "value": "100R 1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ADC2",
+      "device": "GRM188R71C103KA01D",
+      "device_uuid": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 455,
+      "rotation": 0,
+      "subpart": "GRM188R71C103KA01D.1",
+      "nets": {
+        "1": "ADC_IN2",
+        "2": "GND"
+      },
+      "value": "10nF X7R",
+      "role": ""
+    },
+    {
+      "ref": "R_COL_SENSE3",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 470,
+      "y": 525,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "COL3",
+        "2": "COL_SENSE3"
+      },
+      "value": "10k 0.1%",
+      "role": "Input clamp current limiting; added pole requires macro-model verification"
+    },
+    {
+      "ref": "RF3",
+      "device": "RT0603BRD074K99L",
+      "device_uuid": "e3fb4324469a40728b83810eaa907b40",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 525,
+      "rotation": 0,
+      "subpart": "RT0603BRD074K99L.1",
+      "nets": {
+        "1": "TIA3",
+        "2": "COL3"
+      },
+      "value": "4.99k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "CF3",
+      "device": "GRM1885C1H222JA01D",
+      "device_uuid": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 525,
+      "rotation": 0,
+      "subpart": "GRM1885C1H222JA01D.1",
+      "nets": {
+        "1": "TIA3",
+        "2": "COL3"
+      },
+      "value": "2.2nF C0G",
+      "role": ""
+    },
+    {
+      "ref": "R_ADC3",
+      "device": "0603WAF1000T5E",
+      "device_uuid": "5303080f43d74b41ae76fc5142aa97e5",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 730,
+      "y": 580,
+      "rotation": 0,
+      "subpart": "0603WAF1000T5E.1",
+      "nets": {
+        "1": "TIA3",
+        "2": "ADC_IN3"
+      },
+      "value": "100R 1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ADC3",
+      "device": "GRM188R71C103KA01D",
+      "device_uuid": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 970,
+      "y": 580,
+      "rotation": 0,
+      "subpart": "GRM188R71C103KA01D.1",
+      "nets": {
+        "1": "ADC_IN3",
+        "2": "GND"
+      },
+      "value": "10nF X7R",
+      "role": ""
+    },
+    {
+      "ref": "C_TIA_OP",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 2,
+      "x": 220,
+      "y": 480,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "U5",
+      "device": "ADS8684IDBTR",
+      "device_uuid": "c0f1d9ea14164280b284a2633ca616ba",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 270,
+      "y": 260,
+      "rotation": 0,
+      "subpart": "ADS8684IDBTR.1",
+      "nets": {
+        "1": "SPI_MOSI",
+        "2": "ADC_RESET_N",
+        "3": "GND",
+        "4": "GND",
+        "5": "ADC_REFIO",
+        "6": "GND",
+        "7": "ADC_REFCAP",
+        "8": "GND",
+        "9": "V5",
+        "10": "GND",
+        "11": "GND",
+        "12": null,
+        "13": null,
+        "14": null,
+        "15": null,
+        "16": "ADC_IN0",
+        "17": "GND",
+        "18": "ADC_IN1",
+        "19": "GND",
+        "20": "GND",
+        "21": "ADC_IN2",
+        "22": "GND",
+        "23": "ADC_IN3",
+        "24": null,
+        "25": null,
+        "26": null,
+        "27": null,
+        "28": "GND",
+        "29": "GND",
+        "30": "V5",
+        "31": "GND",
+        "32": "GND",
+        "33": "GND",
+        "34": "V3V3",
+        "35": null,
+        "36": "SPI_MISO",
+        "37": "SPI_SCLK",
+        "38": "ADC_CS_N"
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "U7",
+      "device": "STM32G031K8T6",
+      "device_uuid": "d6b55ece5afe47718d825be9cafc6dc2",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 650,
+      "y": 260,
+      "rotation": 0,
+      "subpart": "STM32G031K8T6.1",
+      "nets": {
+        "1": null,
+        "2": null,
+        "3": null,
+        "4": "V3V3",
+        "5": "GND",
+        "6": "MCU_NRST",
+        "7": "ROW_SEL0",
+        "8": "ROW_SEL1",
+        "9": "ROW_SEL2",
+        "10": "ROW_SEL3",
+        "11": "ADC_CS_N",
+        "12": "SPI_SCLK",
+        "13": "SPI_MISO",
+        "14": "SPI_MOSI",
+        "15": "ADC_RESET_N",
+        "16": null,
+        "17": null,
+        "18": null,
+        "19": "UART_TX",
+        "20": null,
+        "21": "UART_RX",
+        "22": null,
+        "23": null,
+        "24": "SWDIO",
+        "25": "SWCLK",
+        "26": null,
+        "27": null,
+        "28": null,
+        "29": null,
+        "30": null,
+        "31": null,
+        "32": null
+      },
+      "value": null,
+      "role": ""
+    },
+    {
+      "ref": "J3",
+      "device": "HDR-M_2.54_1x6P",
+      "device_uuid": "8713123b624d4455bcbe38688209bdf0",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 100,
+      "y": 620,
+      "rotation": 0,
+      "subpart": "Header-Male-2.54_1x6.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND",
+        "3": "SWDIO",
+        "4": "SWCLK",
+        "5": "MCU_NRST",
+        "6": null
+      },
+      "value": null,
+      "role": "SWD/programming;3V3 sense, no external5V"
+    },
+    {
+      "ref": "J4",
+      "device": "HDR-M_2.54_1x4P",
+      "device_uuid": "d5e86a4f70d24c6c950b9ff10d30894b",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 390,
+      "y": 620,
+      "rotation": 0,
+      "subpart": "PZ254V-11-04P.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND",
+        "3": "UART_TX",
+        "4": "UART_RX"
+      },
+      "value": null,
+      "role": "3V3 UART logic only; no directRS232/5V UART"
+    },
+    {
+      "ref": "R_RST",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 930,
+      "y": 125,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "MCU_NRST"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "C_RST",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 930,
+      "y": 195,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "MCU_NRST",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "R_CS_PU",
+      "device": "RT0603BRD0710KL",
+      "device_uuid": "3840b7e554aa441f90223c083eebd79a",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 930,
+      "y": 265,
+      "rotation": 0,
+      "subpart": "RT0603BRD0710KL.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "ADC_CS_N"
+      },
+      "value": "10k 0.1%",
+      "role": ""
+    },
+    {
+      "ref": "R_ADC_RESET_PD",
+      "device": "0603WAF1003T5E",
+      "device_uuid": "40ff282b3d594c33b798d1707d8406cb",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 930,
+      "y": 335,
+      "rotation": 0,
+      "subpart": "0603WAF1003T5E.1",
+      "nets": {
+        "1": "ADC_RESET_N",
+        "2": "GND"
+      },
+      "value": "100k 1%",
+      "role": ""
+    },
+    {
+      "ref": "C_ADC_REFIO",
+      "device": "GRM32ER71E226KE15L",
+      "device_uuid": "c469f6d370424dcc93e93079d1eecf2f",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 680,
+      "y": 545,
+      "rotation": 0,
+      "subpart": "GRM32ER71E226KE15L.1",
+      "nets": {
+        "1": "ADC_REFIO",
+        "2": "GND"
+      },
+      "value": "22uF 25V X7R",
+      "role": "Effective>=10uF pending bias curve; hold"
+    },
+    {
+      "ref": "C_ADC_REFCAP",
+      "device": "GRM188R61C105KA93D",
+      "device_uuid": "1db1d485da63414a91f474e833691800",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 930,
+      "y": 545,
+      "rotation": 0,
+      "subpart": "GRM188R61C105KA93D.1",
+      "nets": {
+        "1": "ADC_REFCAP",
+        "2": "GND"
+      },
+      "value": "1uF",
+      "role": ""
+    },
+    {
+      "ref": "C_ADCA1",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 80,
+      "y": 440,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_ADCA2",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 280,
+      "y": 440,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V5",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_ADCD",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 480,
+      "y": 440,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_MCU1",
+      "device": "GRM188R71C104KA01D",
+      "device_uuid": "582e6743b52f4d549473833313fcf026",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 680,
+      "y": 440,
+      "rotation": 0,
+      "subpart": "GRM188R71C104KA01D.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "value": "100nF",
+      "role": ""
+    },
+    {
+      "ref": "C_MCU_BULK",
+      "device": "GRM188R61C105KA93D",
+      "device_uuid": "1db1d485da63414a91f474e833691800",
+      "library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+      "page": 3,
+      "x": 930,
+      "y": 440,
+      "rotation": 0,
+      "subpart": "GRM188R61C105KA93D.1",
+      "nets": {
+        "1": "V3V3",
+        "2": "GND"
+      },
+      "value": "1uF",
+      "role": ""
+    }
+  ],
+  "notes": [
+    [
+      "Independent first-build0.8-8kohm, 0.25V excitation; regulated5V/3V3",
+      "VCM=2.5V; VEXC=2.25V. Divider bottom9x10k=90k",
+      "DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD / BENCH_NOT_RELEASED",
+      "NoPCB/manufacturing release. Effective reference capacitance pending"
+    ],
+    [
+      "TMUX1134:SEL0 ->B=VCM (idle);SEL1 ->A=VEXC (active)",
+      "Row ISO changed10R ->1k. Feedback senses board ROW after resistor",
+      "J2:1..4 ROW0..3;5..8 COL0..3; external fixed8-electrode array",
+      "GPIO reset/HiZ SEL pulldowns; fault safe-state/10ms detection not bench verified"
+    ],
+    [
+      "Four TIA feedback loops always closed; VCM to all noninverting inputs",
+      "10k sense resistors added at opamp input; sensor current flows throughRF/CF",
+      "External lead/contact resistance is not canceled by board-end feedback",
+      "DYNAMIC_VALIDATION_HOLD: no vendor macro simulation executed"
+    ],
+    [
+      "ADS8684 internal4.096V reference; REFSEL/DAISY low;35DNC strictly NC",
+      "AIN0/1=16/18;AIN2/3=21/23. AllAIN_GND toGND, notVCM",
+      "100fps target;20kSPS total;4MHz SPI; pipelined channel labels must be checked",
+      "FAULT_PROTECTION_HOLD: supply collapse/backfeed/recovery not closed"
+    ]
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "pages": 4,
+  "actual_native_export": true,
+  "rendered_all_four_pages_and_visually_inspected": true,
+  "readable_values_and_warning_notes": true,
+  "issues": [
+    "some port net text collides with IC pin numbering/names and some designators",
+    "some leftmost BI port polygons meet or extend across the drawing border; no pin/net data lost in actual netlist"
+  ],
+  "status": "DRAWING_LAYOUT_HOLD",
+  "drawing_export_budget_used": 2,
+  "drawing_export_budget_limit": 2,
+  "next_action": "separate approved layout correction with real attribute visibility/position handling and new export budget; do not exceed current budget"
+}

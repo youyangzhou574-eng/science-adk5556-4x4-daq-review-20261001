@@ -1,0 +1,1294 @@
+{
+  "started_utc": "2026-09-30T20:47:13.363062+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "\nconst plan={\"project\": \"74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07\", \"page\": {\"uuid\": \"a51b95c47c70bc0e\", \"name\": \"Column_TIA\", \"index\": 2}, \"parts\": [{\"ref\": \"U2\", \"x\": 220, \"y\": 260, \"nets\": {\"4\": \"V5\", \"11\": \"GND\", \"1\": \"TIA0\", \"2\": \"COL_SENSE0\", \"3\": \"VCM\", \"7\": \"TIA1\", \"6\": \"COL_SENSE1\", \"5\": \"VCM\", \"8\": \"TIA2\", \"9\": \"COL_SENSE2\", \"10\": \"VCM\", \"14\": \"TIA3\", \"13\": \"COL_SENSE3\", \"12\": \"VCM\"}}, {\"ref\": \"R_COL_SENSE0\", \"x\": 470, \"y\": 150, \"nets\": {\"1\": \"COL0\", \"2\": \"COL_SENSE0\"}}, {\"ref\": \"RF0\", \"x\": 730, \"y\": 150, \"nets\": {\"1\": \"TIA0\", \"2\": \"COL0\"}}, {\"ref\": \"CF0\", \"x\": 970, \"y\": 150, \"nets\": {\"1\": \"TIA0\", \"2\": \"COL0\"}}, {\"ref\": \"R_ADC0\", \"x\": 730, \"y\": 205, \"nets\": {\"1\": \"TIA0\", \"2\": \"ADC_IN0\"}}, {\"ref\": \"C_ADC0\", \"x\": 970, \"y\": 205, \"nets\": {\"1\": \"ADC_IN0\", \"2\": \"GND\"}}, {\"ref\": \"R_COL_SENSE1\", \"x\": 470, \"y\": 275, \"nets\": {\"1\": \"COL1\", \"2\": \"COL_SENSE1\"}}, {\"ref\": \"RF1\", \"x\": 730, \"y\": 275, \"nets\": {\"1\": \"TIA1\", \"2\": \"COL1\"}}, {\"ref\": \"CF1\", \"x\": 970, \"y\": 275, \"nets\": {\"1\": \"TIA1\", \"2\": \"COL1\"}}, {\"ref\": \"R_ADC1\", \"x\": 730, \"y\": 330, \"nets\": {\"1\": \"TIA1\", \"2\": \"ADC_IN1\"}}, {\"ref\": \"C_ADC1\", \"x\": 970, \"y\": 330, \"nets\": {\"1\": \"ADC_IN1\", \"2\": \"GND\"}}, {\"ref\": \"R_COL_SENSE2\", \"x\": 470, \"y\": 400, \"nets\": {\"1\": \"COL2\", \"2\": \"COL_SENSE2\"}}, {\"ref\": \"RF2\", \"x\": 730, \"y\": 400, \"nets\": {\"1\": \"TIA2\", \"2\": \"COL2\"}}, {\"ref\": \"CF2\", \"x\": 970, \"y\": 400, \"nets\": {\"1\": \"TIA2\", \"2\": \"COL2\"}}, {\"ref\": \"R_ADC2\", \"x\": 730, \"y\": 455, \"nets\": {\"1\": \"TIA2\", \"2\": \"ADC_IN2\"}}, {\"ref\": \"C_ADC2\", \"x\": 970, \"y\": 455, \"nets\": {\"1\": \"ADC_IN2\", \"2\": \"GND\"}}, {\"ref\": \"R_COL_SENSE3\", \"x\": 470, \"y\": 525, \"nets\": {\"1\": \"COL3\", \"2\": \"COL_SENSE3\"}}, {\"ref\": \"RF3\", \"x\": 730, \"y\": 525, \"nets\": {\"1\": \"TIA3\", \"2\": \"COL3\"}}, {\"ref\": \"CF3\", \"x\": 970, \"y\": 525, \"nets\": {\"1\": \"TIA3\", \"2\": \"COL3\"}}, {\"ref\": \"R_ADC3\", \"x\": 730, \"y\": 580, \"nets\": {\"1\": \"TIA3\", \"2\": \"ADC_IN3\"}}, {\"ref\": \"C_ADC3\", \"x\": 970, \"y\": 580, \"nets\": {\"1\": \"ADC_IN3\", \"2\": \"GND\"}}, {\"ref\": \"C_TIA_OP\", \"x\": 220, \"y\": 480, \"nets\": {\"1\": \"V5\", \"2\": \"GND\"}}]};\nconst result={page:plan.page,repair:'ACTUAL_PIN_ROTATION_OUTWARD_AND_QUANTIZED_STUBS',parts:[],wires:[],ports:[]};\nconst project=await eda.dmt_Project.getCurrentProjectInfo();if(project?.uuid!==plan.project)throw Error('Wrong project');\nawait eda.dmt_EditorControl.openDocument(plan.page.uuid);if((await eda.dmt_Schematic.getCurrentSchematicPageInfo())?.uuid!==plan.page.uuid)throw Error('Wrong page');\nlet cs=await eda.sch_PrimitiveComponent.getAll();\nconst actualParts=cs.filter(c=>c.getState_ComponentType()==='part');\nif(actualParts.length!==plan.parts.length)throw Error('Unexpected part count');\nconst ws=await eda.sch_PrimitiveWire.getAll();result.removedWires=ws.map(w=>w.getState_PrimitiveId());\nif(ws.length&&!(await eda.sch_PrimitiveWire.delete(result.removedWires)))throw Error('Delete generated wires');\nconst ports=cs.filter(c=>c.getState_ComponentType()==='netport');result.removedPorts=ports.map(c=>c.getState_PrimitiveId());\nif(ports.length&&!(await eda.sch_PrimitiveComponent.delete(result.removedPorts)))throw Error('Delete generated ports');\nfor(const q of plan.parts){\n const c=actualParts.find(v=>v.getState_Designator()===q.ref);if(!c)throw Error('Missing '+q.ref);\n const ps=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());\n if(ps.length!==Object.keys(q.nets).length)throw Error('Pin count');\n for(const pin of ps){const n=String(pin.getState_PinNumber()),net=q.nets[n];if(net===null){if(!pin.getState_NoConnected())throw Error('NC drift');continue;}\n const x=pin.getState_X(),y=pin.getState_Y(),rot=pin.getState_Rotation();\n if(![0,90,180,270].includes(rot))throw Error('Unreviewed actual pin angle '+rot);\n const ox=rot===0?40:rot===180?-40:0,oy=ox===0?Math.sign(y-q.y)*40:0;\n if(ox===0&&oy===0)throw Error('Undefined vertical outward coordinate');\n const ex=x+ox,ey=y+oy;\n const port=await eda.sch_PrimitiveComponent.createNetPort('BI',net,ex,ey,ox<0?180:ox>0?0:oy>0?90:270,false);if(!port)throw Error('Port');\n const pp=await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(port.getState_PrimitiveId());if(pp.length!==1)throw Error('Port pin');\n const ax=Math.round(pp[0].getState_X()*1e6)/1e6,ay=Math.round(pp[0].getState_Y()*1e6)/1e6;\n if(Math.abs(ax-ex)>1e-5||Math.abs(ay-ey)>1e-5)throw Error('Actual port anchor mismatch');\n const line=[x,y,ax,ay];const w=await eda.sch_PrimitiveWire.create([line],net);if(!w)throw Error('Wire');\n for(const a of await eda.sch_PrimitiveAttribute.getAll(port.getState_PrimitiveId()))if(a.getState_ValueVisible())await eda.sch_PrimitiveAttribute.modify(a,{fontSize:6,rotation:0,x:ex+(ox>=0?18:-18),y:ey,alignMode:ox>=0?2:8});\n result.wires.push({ref:q.ref,pin:n,id:w.getState_PrimitiveId(),net,line});result.ports.push({ref:q.ref,pin:n,id:port.getState_PrimitiveId(),net,x:ax,y:ay});\n }\n result.parts.push({ref:q.ref,id:c.getState_PrimitiveId()});\n}\nresult.status='REPAIR_COMPLETED_UNSAVED';return result;\n",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"a51b95c47c70bc0e\",\"name\":\"Column_TIA\",\"index\":2},\"repair\":\"ACTUAL_PIN_ROTATION_OUTWARD_AND_QUANTIZED_STUBS\",\"parts\":[{\"ref\":\"U2\",\"id\":\"2e339a053345a8ad\"},{\"ref\":\"R_COL_SENSE0\",\"id\":\"6a4574284cff4561\"},{\"ref\":\"RF0\",\"id\":\"99d3dfbeb0c03ca0\"},{\"ref\":\"CF0\",\"id\":\"979f0436d822bda9\"},{\"ref\":\"R_ADC0\",\"id\":\"006228349d973c88\"},{\"ref\":\"C_ADC0\",\"id\":\"ab62b4c91a129fc5\"},{\"ref\":\"R_COL_SENSE1\",\"id\":\"5777bc8a5cc99d86\"},{\"ref\":\"RF1\",\"id\":\"0d5b4d8d35a27521\"},{\"ref\":\"CF1\",\"id\":\"8c79b79dcb462e21\"},{\"ref\":\"R_ADC1\",\"id\":\"adf7e566d36f51cb\"},{\"ref\":\"C_ADC1\",\"id\":\"0c2abda5988b5efe\"},{\"ref\":\"R_COL_SENSE2\",\"id\":\"016a0bd58e7e8936\"},{\"ref\":\"RF2\",\"id\":\"561ed9cb71619a2d\"},{\"ref\":\"CF2\",\"id\":\"55deb565e78c6114\"},{\"ref\":\"R_ADC2\",\"id\":\"89ac283b3fe3b8c9\"},{\"ref\":\"C_ADC2\",\"id\":\"04a68588c7ac97b9\"},{\"ref\":\"R_COL_SENSE3\",\"id\":\"96beb8e9c71f9245\"},{\"ref\":\"RF3\",\"id\":\"6bccb0bdeb2d5996\"},{\"ref\":\"CF3\",\"id\":\"b088955acbc2a943\"},{\"ref\":\"R_ADC3\",\"id\":\"c6657ca7c561f90a\"},{\"ref\":\"C_ADC3\",\"id\":\"bc8ff3300252bb3f\"},{\"ref\":\"C_TIA_OP\",\"id\":\"9c38cd12999ffbbd\"}],\"wires\":[{\"ref\":\"U2\",\"pin\":\"14\",\"id\":\"0bf8dd35ccc518db\",\"net\":\"TIA3\",\"line\":[265,290,305,290]},{\"ref\":\"U2\",\"pin\":\"13\",\"id\":\"a4703f95e1342ed9\",\"net\":\"COL_SENSE3\",\"line\":[265,280,305,280]},{\"ref\":\"U2\",\"pin\":\"12\",\"id\":\"a6c93b531d062a0a\",\"net\":\"VCM\",\"line\":[265,270,305,270]},{\"ref\":\"U2\",\"pin\":\"11\",\"id\":\"8d6f4d9593ee2502\",\"net\":\"GND\",\"line\":[265,260,305,260]},{\"ref\":\"U2\",\"pin\":\"10\",\"id\":\"f4103d5975bcaf0b\",\"net\":\"VCM\",\"line\":[265,250,305,250]},{\"ref\":\"U2\",\"pin\":\"9\",\"id\":\"7c1686c72958c7ad\",\"net\":\"COL_SENSE2\",\"line\":[265,240,305,240]},{\"ref\":\"U2\",\"pin\":\"8\",\"id\":\"96f9aba3c4bad236\",\"net\":\"TIA2\",\"line\":[265,230,305,230]},{\"ref\":\"U2\",\"pin\":\"7\",\"id\":\"45dbcbe30796aef9\",\"net\":\"TIA1\",\"line\":[175,230,135,230]},{\"ref\":\"U2\",\"pin\":\"6\",\"id\":\"e9d112fc1c8a80da\",\"net\":\"COL_SENSE1\",\"line\":[175,240,135,240]},{\"ref\":\"U2\",\"pin\":\"5\",\"id\":\"94ee9d5b99120842\",\"net\":\"VCM\",\"line\":[175,250,135,250]},{\"ref\":\"U2\",\"pin\":\"4\",\"id\":\"8f0782d44f20fab5\",\"net\":\"V5\",\"line\":[175,260,135,260]},{\"ref\":\"U2\",\"pin\":\"3\",\"id\":\"eb983ce931b04fd2\",\"net\":\"VCM\",\"line\":[175,270,135,270]},{\"ref\":\"U2\",\"pin\":\"2\",\"id\":\"ef1f2047fe4aa986\",\"net\":\"COL_SENSE0\",\"line\":[175,280,135,280]},{\"ref\":\"U2\",\"pin\":\"1\",\"id\":\"e266c909d6bfe558\",\"net\":\"TIA0\",\"line\":[175,290,135,290]},{\"ref\":\"R_COL_SENSE0\",\"pin\":\"2\",\"id\":\"8403a803236d4c1c\",\"net\":\"COL_SENSE0\",\"line\":[490,150,530,150]},{\"ref\":\"R_COL_SENSE0\",\"pin\":\"1\",\"id\":\"292efb9c482c00da\",\"net\":\"COL0\",\"line\":[450,150,410,150]},{\"ref\":\"RF0\",\"pin\":\"2\",\"id\":\"aeb868b006f67744\",\"net\":\"COL0\",\"line\":[750,150,790,150]},{\"ref\":\"RF0\",\"pin\":\"1\",\"id\":\"0d74132fbc022247\",\"net\":\"TIA0\",\"line\":[710,150,670,150]},{\"ref\":\"CF0\",\"pin\":\"1\",\"id\":\"b6b3a764d105cc90\",\"net\":\"TIA0\",\"line\":[950,150,910,150]},{\"ref\":\"CF0\",\"pin\":\"2\",\"id\":\"d1f57fae59c19aae\",\"net\":\"COL0\",\"line\":[990,150,1030,150]},{\"ref\":\"R_ADC0\",\"pin\":\"2\",\"id\":\"7933ab29158ba972\",\"net\":\"ADC_IN0\",\"line\":[750,205,790,205]},{\"ref\":\"R_ADC0\",\"pin\":\"1\",\"id\":\"445857b4a2025ba7\",\"net\":\"TIA0\",\"line\":[710,205,670,205]},{\"ref\":\"C_ADC0\",\"pin\":\"1\",\"id\":\"922be508f38fc358\",\"net\":\"ADC_IN0\",\"line\":[970,185,970,145]},{\"ref\":\"C_ADC0\",\"pin\":\"2\",\"id\":\"6149404ce280ed26\",\"net\":\"GND\",\"line\":[970,225,970,265]},{\"ref\":\"R_COL_SENSE1\",\"pin\":\"2\",\"id\":\"c9777551f8009eb2\",\"net\":\"COL_SENSE1\",\"line\":[490,275,530,275]},{\"ref\":\"R_COL_SENSE1\",\"pin\":\"1\",\"id\":\"44eb2b99f0799969\",\"net\":\"COL1\",\"line\":[450,275,410,275]},{\"ref\":\"RF1\",\"pin\":\"2\",\"id\":\"c7404498dc26c845\",\"net\":\"COL1\",\"line\":[750,275,790,275]},{\"ref\":\"RF1\",\"pin\":\"1\",\"id\":\"f3d92408dd37eb62\",\"net\":\"TIA1\",\"line\":[710,275,670,275]},{\"ref\":\"CF1\",\"pin\":\"1\",\"id\":\"6becc45b7f743bfb\",\"net\":\"TIA1\",\"line\":[950,275,910,275]},{\"ref\":\"CF1\",\"pin\":\"2\",\"id\":\"45f5ec646e3a68bb\",\"net\":\"COL1\",\"line\":[990,275,1030,275]},{\"ref\":\"R_ADC1\",\"pin\":\"2\",\"id\":\"904a54e4b2082432\",\"net\":\"ADC_IN1\",\"line\":[750,330,790,330]},{\"ref\":\"R_ADC1\",\"pin\":\"1\",\"id\":\"c016c565318a092a\",\"net\":\"TIA1\",\"line\":[710,330,670,330]},{\"ref\":\"C_ADC1\",\"pin\":\"1\",\"id\":\"6fd2d79ce6916d45\",\"net\":\"ADC_IN1\",\"line\":[970,310,970,270]},{\"ref\":\"C_ADC1\",\"pin\":\"2\",\"id\":\"2ec045eef8d7a126\",\"net\":\"GND\",\"line\":[970,350,970,390]},{\"ref\":\"R_COL_SENSE2\",\"pin\":\"2\",\"id\":\"6fe16c95ffc12812\",\"net\":\"COL_SENSE2\",\"line\":[490,400,530,400]},{\"ref\":\"R_COL_SENSE2\",\"pin\":\"1\",\"id\":\"bf3c1a83c6836378\",\"net\":\"COL2\",\"line\":[450,400,410,400]},{\"ref\":\"RF2\",\"pin\":\"2\",\"id\":\"b6f515e84acbf7a7\",\"net\":\"COL2\",\"line\":[750,400,790,400]},{\"ref\":\"RF2\",\"pin\":\"1\",\"id\":\"2da0aa2c2af46805\",\"net\":\"TIA2\",\"line\":[710,400,670,400]},{\"ref\":\"CF2\",\"pin\":\"1\",\"id\":\"bc2ccf018f4180ac\",\"net\":\"TIA2\",\"line\":[950,400,910,400]},{\"ref\":\"CF2\",\"pin\":\"2\",\"id\":\"f94abcce64678782\",\"net\":\"COL2\",\"line\":[990,400,1030,400]},{\"ref\":\"R_ADC2\",\"pin\":\"2\",\"id\":\"991b1bf69bf06ff3\",\"net\":\"ADC_IN2\",\"line\":[750,455,790,455]},{\"ref\":\"R_ADC2\",\"pin\":\"1\",\"id\":\"f4613739431b072f\",\"net\":\"TIA2\",\"line\":[710,455,670,455]},{\"ref\":\"C_ADC2\",\"pin\":\"1\",\"id\":\"4ffb74f954f46753\",\"net\":\"ADC_IN2\",\"line\":[970,435,970,395]},{\"ref\":\"C_ADC2\",\"pin\":\"2\",\"id\":\"987677fda69fc79c\",\"net\":\"GND\",\"line\":[970,475,970,515]},{\"ref\":\"R_COL_SENSE3\",\"pin\":\"2\",\"id\":\"050229c7ed7810dd\",\"net\":\"COL_SENSE3\",\"line\":[490,525,530,525]},{\"ref\":\"R_COL_SENSE3\",\"pin\":\"1\",\"id\":\"e87a828dc3015a28\",\"net\":\"COL3\",\"line\":[450,525,410,525]},{\"ref\":\"RF3\",\"pin\":\"2\",\"id\":\"e3831304ada6546e\",\"net\":\"COL3\",\"line\":[750,525,790,525]},{\"ref\":\"RF3\",\"pin\":\"1\",\"id\":\"9b675613f25e25d9\",\"net\":\"TIA3\",\"line\":[710,525,670,525]},{\"ref\":\"CF3\",\"pin\":\"1\",\"id\":\"cb123eea4abcefc2\",\"net\":\"TIA3\",\"line\":[950,525,910,525]},{\"ref\":\"CF3\",\"pin\":\"2\",\"id\":\"5511fa61907bdd23\",\"net\":\"COL3\",\"line\":[990,525,1030,525]},{\"ref\":\"R_ADC3\",\"pin\":\"2\",\"id\":\"efc5f342d490fba5\",\"net\":\"ADC_IN3\",\"line\":[750,580,790,580]},{\"ref\":\"R_ADC3\",\"pin\":\"1\",\"id\":\"c39cb007bc81992c\",\"net\":\"TIA3\",\"line\":[710,580,670,580]},{\"ref\":\"C_ADC3\",\"pin\":\"1\",\"id\":\"49eccae3e9dd6b88\",\"net\":\"ADC_IN3\",\"line\":[970,560,970,520]},{\"ref\":\"C_ADC3\",\"pin\":\"2\",\"id\":\"6f1def2b704c54a3\",\"net\":\"GND\",\"line\":[970,600,970,640]},{\"ref\":\"C_TIA_OP\",\"pin\":\"1\",\"id\":\"a2ea5c4e79dceb0b\",\"net\":\"V5\",\"line\":[205,480,165,480]},{\"ref\":\"C_TIA_OP\",\"pin\":\"2\",\"id\":\"8dddfc3919432ebe\",\"net\":\"GND\",\"line\":[235,480,275,480]}],\"ports\":[{\"ref\":\"U2\",\"pin\":\"14\",\"id\":\"f2eebb917c9a06f3\",\"net\":\"TIA3\",\"x\":305,\"y\":290},{\"ref\":\"U2\",\"pin\":\"13\",\"id\":\"d4a17a7647b131a7\",\"net\":\"COL_SENSE3\",\"x\":305,\"y\":280},{\"ref\":\"U2\",\"pin\":\"12\",\"id\":\"fb2f7b8b5ebddf9d\",\"net\":\"VCM\",\"x\":305,\"y\":270},{\"ref\":\"U2\",\"pin\":\"11\",\"id\":\"3f0601a654d51810\",\"net\":\"GND\",\"x\":305,\"y\":260},{\"ref\":\"U2\",\"pin\":\"10\",\"id\":\"e9321f0f38d60e1b\",\"net\":\"VCM\",\"x\":305,\"y\":250},{\"ref\":\"U2\",\"pin\":\"9\",\"id\":\"1a175cfd25fa6d8c\",\"net\":\"COL_SENSE2\",\"x\":305,\"y\":240},{\"ref\":\"U2\",\"pin\":\"8\",\"id\":\"36247594b43b70e9\",\"net\":\"TIA2\",\"x\":305,\"y\":230},{\"ref\":\"U2\",\"pin\":\"7\",\"id\":\"4596cdae5cddc1a0\",\"net\":\"TIA1\",\"x\":135,\"y\":230},{\"ref\":\"U2\",\"pin\":\"6\",\"id\":\"81dc76e9c26512c6\",\"net\":\"COL_SENSE1\",\"x\":135,\"y\":240},{\"ref\":\"U2\",\"pin\":\"5\",\"id\":\"fe85ba9653b6a8d8\",\"net\":\"VCM\",\"x\":135,\"y\":250},{\"ref\":\"U2\",\"pin\":\"4\",\"id\":\"dd5bbc26a878821e\",\"net\":\"V5\",\"x\":135,\"y\":260},{\"ref\":\"U2\",\"pin\":\"3\",\"id\":\"5133382e61f32f77\",\"net\":\"VCM\",\"x\":135,\"y\":270},{\"ref\":\"U2\",\"pin\":\"2\",\"id\":\"d96f9b803c0aabe6\",\"net\":\"COL_SENSE0\",\"x\":135,\"y\":280},{\"ref\":\"U2\",\"pin\":\"1\",\"id\":\"1e2695415134ff8d\",\"net\":\"TIA0\",\"x\":135,\"y\":290},{\"ref\":\"R_COL_SENSE0\",\"pin\":\"2\",\"id\":\"173ad8b4736fb5c5\",\"net\":\"COL_SENSE0\",\"x\":530,\"y\":150},{\"ref\":\"R_COL_SENSE0\",\"pin\":\"1\",\"id\":\"5caed1621d36b4d2\",\"net\":\"COL0\",\"x\":410,\"y\":150},{\"ref\":\"RF0\",\"pin\":\"2\",\"id\":\"a599d6f156761266\",\"net\":\"COL0\",\"x\":790,\"y\":150},{\"ref\":\"RF0\",\"pin\":\"1\",\"id\":\"25c0d25812da23a7\",\"net\":\"TIA0\",\"x\":670,\"y\":150},{\"ref\":\"CF0\",\"pin\":\"1\",\"id\":\"ffb37aedaa9e4d08\",\"net\":\"TIA0\",\"x\":910,\"y\":150},{\"ref\":\"CF0\",\"pin\":\"2\",\"id\":\"b3e49bb16c0f6797\",\"net\":\"COL0\",\"x\":1030,\"y\":150},{\"ref\":\"R_ADC0\",\"pin\":\"2\",\"id\":\"b7ec6253b37e5b81\",\"net\":\"ADC_IN0\",\"x\":790,\"y\":205},{\"ref\":\"R_ADC0\",\"pin\":\"1\",\"id\":\"f9cd23cf64a41e8f\",\"net\":\"TIA0\",\"x\":670,\"y\":205},{\"ref\":\"C_ADC0\",\"pin\":\"1\",\"id\":\"7a4a7f07dc29fc19\",\"net\":\"ADC_IN0\",\"x\":970,\"y\":145},{\"ref\":\"C_ADC0\",\"pin\":\"2\",\"id\":\"93e4c34f8811e4a7\",\"net\":\"GND\",\"x\":970,\"y\":265},{\"ref\":\"R_COL_SENSE1\",\"pin\":\"2\",\"id\":\"cfac65fa172e1f6e\",\"net\":\"COL_SENSE1\",\"x\":530,\"y\":275},{\"ref\":\"R_COL_SENSE1\",\"pin\":\"1\",\"id\":\"88a6f68f9f516532\",\"net\":\"COL1\",\"x\":410,\"y\":275},{\"ref\":\"RF1\",\"pin\":\"2\",\"id\":\"6dc87f818ecc3b88\",\"net\":\"COL1\",\"x\":790,\"y\":275},{\"ref\":\"RF1\",\"pin\":\"1\",\"id\":\"d460f9ba042b548a\",\"net\":\"TIA1\",\"x\":670,\"y\":275},{\"ref\":\"CF1\",\"pin\":\"1\",\"id\":\"05d59f4a6d708a11\",\"net\":\"TIA1\",\"x\":910,\"y\":275},{\"ref\":\"CF1\",\"pin\":\"2\",\"id\":\"f8f59629844b352f\",\"net\":\"COL1\",\"x\":1030,\"y\":275},{\"ref\":\"R_ADC1\",\"pin\":\"2\",\"id\":\"db2abf3ad86af9ea\",\"net\":\"ADC_IN1\",\"x\":790,\"y\":330},{\"ref\":\"R_ADC1\",\"pin\":\"1\",\"id\":\"6b082dc922b386d3\",\"net\":\"TIA1\",\"x\":670,\"y\":330},{\"ref\":\"C_ADC1\",\"pin\":\"1\",\"id\":\"4cb1eb3c5c325f43\",\"net\":\"ADC_IN1\",\"x\":970,\"y\":270},{\"ref\":\"C_ADC1\",\"pin\":\"2\",\"id\":\"95373ebb6749a290\",\"net\":\"GND\",\"x\":970,\"y\":390},{\"ref\":\"R_COL_SENSE2\",\"pin\":\"2\",\"id\":\"c239d81facf71191\",\"net\":\"COL_SENSE2\",\"x\":530,\"y\":400},{\"ref\":\"R_COL_SENSE2\",\"pin\":\"1\",\"id\":\"20e882f12c8d246f\",\"net\":\"COL2\",\"x\":410,\"y\":400},{\"ref\":\"RF2\",\"pin\":\"2\",\"id\":\"45f2f7b3a76d836f\",\"net\":\"COL2\",\"x\":790,\"y\":400},{\"ref\":\"RF2\",\"pin\":\"1\",\"id\":\"ae358d1c8f374bb4\",\"net\":\"TIA2\",\"x\":670,\"y\":400},{\"ref\":\"CF2\",\"pin\":\"1\",\"id\":\"1a6098c2ebc13628\",\"net\":\"TIA2\",\"x\":910,\"y\":400},{\"ref\":\"CF2\",\"pin\":\"2\",\"id\":\"2dbacba85dbde55f\",\"net\":\"COL2\",\"x\":1030,\"y\":400},{\"ref\":\"R_ADC2\",\"pin\":\"2\",\"id\":\"6457f9e30c368f5a\",\"net\":\"ADC_IN2\",\"x\":790,\"y\":455},{\"ref\":\"R_ADC2\",\"pin\":\"1\",\"id\":\"ef82f3ecfcb9fe4c\",\"net\":\"TIA2\",\"x\":670,\"y\":455},{\"ref\":\"C_ADC2\",\"pin\":\"1\",\"id\":\"ae4680a1dd727b65\",\"net\":\"ADC_IN2\",\"x\":970,\"y\":395},{\"ref\":\"C_ADC2\",\"pin\":\"2\",\"id\":\"6b570367d47d35b8\",\"net\":\"GND\",\"x\":970,\"y\":515},{\"ref\":\"R_COL_SENSE3\",\"pin\":\"2\",\"id\":\"a4b904ae0569a154\",\"net\":\"COL_SENSE3\",\"x\":530,\"y\":525},{\"ref\":\"R_COL_SENSE3\",\"pin\":\"1\",\"id\":\"8414f376efa6717c\",\"net\":\"COL3\",\"x\":410,\"y\":525},{\"ref\":\"RF3\",\"pin\":\"2\",\"id\":\"3ff542bbb8b946c1\",\"net\":\"COL3\",\"x\":790,\"y\":525},{\"ref\":\"RF3\",\"pin\":\"1\",\"id\":\"e66a1b1a0eefe394\",\"net\":\"TIA3\",\"x\":670,\"y\":525},{\"ref\":\"CF3\",\"pin\":\"1\",\"id\":\"5264deac0f139a16\",\"net\":\"TIA3\",\"x\":910,\"y\":525},{\"ref\":\"CF3\",\"pin\":\"2\",\"id\":\"eec4f5ef24b178c7\",\"net\":\"COL3\",\"x\":1030,\"y\":525},{\"ref\":\"R_ADC3\",\"pin\":\"2\",\"id\":\"ee21c48db3aef267\",\"net\":\"ADC_IN3\",\"x\":790,\"y\":580},{\"ref\":\"R_ADC3\",\"pin\":\"1\",\"id\":\"884c25c15131490c\",\"net\":\"TIA3\",\"x\":670,\"y\":580},{\"ref\":\"C_ADC3\",\"pin\":\"1\",\"id\":\"5933563cc089e144\",\"net\":\"ADC_IN3\",\"x\":970,\"y\":520},{\"ref\":\"C_ADC3\",\"pin\":\"2\",\"id\":\"db7b9817bf5f9759\",\"net\":\"GND\",\"x\":970,\"y\":640},{\"ref\":\"C_TIA_OP\",\"pin\":\"1\",\"id\":\"c0daa0f6b5a08bb1\",\"net\":\"V5\",\"x\":165,\"y\":480},{\"ref\":\"C_TIA_OP\",\"pin\":\"2\",\"id\":\"b1a22def160d3a7f\",\"net\":\"GND\",\"x\":275,\"y\":480}],\"removedWires\":[\"5b731de5ac32c8ae\",\"6b8db87af6d08903\",\"1fce0dbbb7fa63f4\",\"791aa6daa1b43aae\",\"808e0d99bc85f9df\",\"6615a45d9f87da7a\",\"4aad49b66f9209aa\",\"faefcc4b0fefe36a\",\"4df8bc0ce00c926d\",\"cf7f1e2c0a712036\",\"e5885a0debed45fb\",\"cd7d8f7c5be1e384\",\"004ab804290deaa5\",\"903ef6d814dc1d62\",\"955ec8c237e19c3f\",\"5ea3b6ffd6132031\",\"de11460b3c50dd7d\",\"2172db26dd706e53\",\"72f9014a23bc8101\",\"619a80de44041e23\",\"37240d6243222ffe\",\"e5c74f345348f7e7\"],\"removedPorts\":[\"1edc6c176517ea39\",\"f14ef22761888c8c\",\"acb6365f3371fba7\",\"8e0028a65ba20be8\",\"90ee9ed6c8d2ea41\",\"72d100a37efcde2b\",\"be30ae198a63ccf6\",\"18a68e9f3f835eb3\",\"8186902b49bfac41\",\"cbe11fda8b1fc4e7\",\"0813d2c12534238d\",\"cbdffdbefe6ba625\",\"78764ba982a6de72\",\"faa5aa6876049dd6\",\"bd57597f8280d4a9\",\"1f71fa60c5144ac6\",\"c473ecd2fe523452\",\"3c16d1a88bc5f1e3\",\"b0c419753601d798\",\"0c69e1fa78de2688\",\"71c1f8fdeca07f4f\",\"52099da61318e780\"],\"status\":\"REPAIR_COMPLETED_UNSAVED\"},\"logs\":[],\"durationMs\":10073}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "a51b95c47c70bc0e",
+        "name": "Column_TIA",
+        "index": 2
+      },
+      "repair": "ACTUAL_PIN_ROTATION_OUTWARD_AND_QUANTIZED_STUBS",
+      "parts": [
+        {
+          "ref": "U2",
+          "id": "2e339a053345a8ad"
+        },
+        {
+          "ref": "R_COL_SENSE0",
+          "id": "6a4574284cff4561"
+        },
+        {
+          "ref": "RF0",
+          "id": "99d3dfbeb0c03ca0"
+        },
+        {
+          "ref": "CF0",
+          "id": "979f0436d822bda9"
+        },
+        {
+          "ref": "R_ADC0",
+          "id": "006228349d973c88"
+        },
+        {
+          "ref": "C_ADC0",
+          "id": "ab62b4c91a129fc5"
+        },
+        {
+          "ref": "R_COL_SENSE1",
+          "id": "5777bc8a5cc99d86"
+        },
+        {
+          "ref": "RF1",
+          "id": "0d5b4d8d35a27521"
+        },
+        {
+          "ref": "CF1",
+          "id": "8c79b79dcb462e21"
+        },
+        {
+          "ref": "R_ADC1",
+          "id": "adf7e566d36f51cb"
+        },
+        {
+          "ref": "C_ADC1",
+          "id": "0c2abda5988b5efe"
+        },
+        {
+          "ref": "R_COL_SENSE2",
+          "id": "016a0bd58e7e8936"
+        },
+        {
+          "ref": "RF2",
+          "id": "561ed9cb71619a2d"
+        },
+        {
+          "ref": "CF2",
+          "id": "55deb565e78c6114"
+        },
+        {
+          "ref": "R_ADC2",
+          "id": "89ac283b3fe3b8c9"
+        },
+        {
+          "ref": "C_ADC2",
+          "id": "04a68588c7ac97b9"
+        },
+        {
+          "ref": "R_COL_SENSE3",
+          "id": "96beb8e9c71f9245"
+        },
+        {
+          "ref": "RF3",
+          "id": "6bccb0bdeb2d5996"
+        },
+        {
+          "ref": "CF3",
+          "id": "b088955acbc2a943"
+        },
+        {
+          "ref": "R_ADC3",
+          "id": "c6657ca7c561f90a"
+        },
+        {
+          "ref": "C_ADC3",
+          "id": "bc8ff3300252bb3f"
+        },
+        {
+          "ref": "C_TIA_OP",
+          "id": "9c38cd12999ffbbd"
+        }
+      ],
+      "wires": [
+        {
+          "ref": "U2",
+          "pin": "14",
+          "id": "0bf8dd35ccc518db",
+          "net": "TIA3",
+          "line": [
+            265,
+            290,
+            305,
+            290
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "13",
+          "id": "a4703f95e1342ed9",
+          "net": "COL_SENSE3",
+          "line": [
+            265,
+            280,
+            305,
+            280
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "12",
+          "id": "a6c93b531d062a0a",
+          "net": "VCM",
+          "line": [
+            265,
+            270,
+            305,
+            270
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "11",
+          "id": "8d6f4d9593ee2502",
+          "net": "GND",
+          "line": [
+            265,
+            260,
+            305,
+            260
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "10",
+          "id": "f4103d5975bcaf0b",
+          "net": "VCM",
+          "line": [
+            265,
+            250,
+            305,
+            250
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "9",
+          "id": "7c1686c72958c7ad",
+          "net": "COL_SENSE2",
+          "line": [
+            265,
+            240,
+            305,
+            240
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "8",
+          "id": "96f9aba3c4bad236",
+          "net": "TIA2",
+          "line": [
+            265,
+            230,
+            305,
+            230
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "7",
+          "id": "45dbcbe30796aef9",
+          "net": "TIA1",
+          "line": [
+            175,
+            230,
+            135,
+            230
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "id": "e9d112fc1c8a80da",
+          "net": "COL_SENSE1",
+          "line": [
+            175,
+            240,
+            135,
+            240
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "id": "94ee9d5b99120842",
+          "net": "VCM",
+          "line": [
+            175,
+            250,
+            135,
+            250
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "id": "8f0782d44f20fab5",
+          "net": "V5",
+          "line": [
+            175,
+            260,
+            135,
+            260
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "id": "eb983ce931b04fd2",
+          "net": "VCM",
+          "line": [
+            175,
+            270,
+            135,
+            270
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "id": "ef1f2047fe4aa986",
+          "net": "COL_SENSE0",
+          "line": [
+            175,
+            280,
+            135,
+            280
+          ]
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "id": "e266c909d6bfe558",
+          "net": "TIA0",
+          "line": [
+            175,
+            290,
+            135,
+            290
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE0",
+          "pin": "2",
+          "id": "8403a803236d4c1c",
+          "net": "COL_SENSE0",
+          "line": [
+            490,
+            150,
+            530,
+            150
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE0",
+          "pin": "1",
+          "id": "292efb9c482c00da",
+          "net": "COL0",
+          "line": [
+            450,
+            150,
+            410,
+            150
+          ]
+        },
+        {
+          "ref": "RF0",
+          "pin": "2",
+          "id": "aeb868b006f67744",
+          "net": "COL0",
+          "line": [
+            750,
+            150,
+            790,
+            150
+          ]
+        },
+        {
+          "ref": "RF0",
+          "pin": "1",
+          "id": "0d74132fbc022247",
+          "net": "TIA0",
+          "line": [
+            710,
+            150,
+            670,
+            150
+          ]
+        },
+        {
+          "ref": "CF0",
+          "pin": "1",
+          "id": "b6b3a764d105cc90",
+          "net": "TIA0",
+          "line": [
+            950,
+            150,
+            910,
+            150
+          ]
+        },
+        {
+          "ref": "CF0",
+          "pin": "2",
+          "id": "d1f57fae59c19aae",
+          "net": "COL0",
+          "line": [
+            990,
+            150,
+            1030,
+            150
+          ]
+        },
+        {
+          "ref": "R_ADC0",
+          "pin": "2",
+          "id": "7933ab29158ba972",
+          "net": "ADC_IN0",
+          "line": [
+            750,
+            205,
+            790,
+            205
+          ]
+        },
+        {
+          "ref": "R_ADC0",
+          "pin": "1",
+          "id": "445857b4a2025ba7",
+          "net": "TIA0",
+          "line": [
+            710,
+            205,
+            670,
+            205
+          ]
+        },
+        {
+          "ref": "C_ADC0",
+          "pin": "1",
+          "id": "922be508f38fc358",
+          "net": "ADC_IN0",
+          "line": [
+            970,
+            185,
+            970,
+            145
+          ]
+        },
+        {
+          "ref": "C_ADC0",
+          "pin": "2",
+          "id": "6149404ce280ed26",
+          "net": "GND",
+          "line": [
+            970,
+            225,
+            970,
+            265
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE1",
+          "pin": "2",
+          "id": "c9777551f8009eb2",
+          "net": "COL_SENSE1",
+          "line": [
+            490,
+            275,
+            530,
+            275
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE1",
+          "pin": "1",
+          "id": "44eb2b99f0799969",
+          "net": "COL1",
+          "line": [
+            450,
+            275,
+            410,
+            275
+          ]
+        },
+        {
+          "ref": "RF1",
+          "pin": "2",
+          "id": "c7404498dc26c845",
+          "net": "COL1",
+          "line": [
+            750,
+            275,
+            790,
+            275
+          ]
+        },
+        {
+          "ref": "RF1",
+          "pin": "1",
+          "id": "f3d92408dd37eb62",
+          "net": "TIA1",
+          "line": [
+            710,
+            275,
+            670,
+            275
+          ]
+        },
+        {
+          "ref": "CF1",
+          "pin": "1",
+          "id": "6becc45b7f743bfb",
+          "net": "TIA1",
+          "line": [
+            950,
+            275,
+            910,
+            275
+          ]
+        },
+        {
+          "ref": "CF1",
+          "pin": "2",
+          "id": "45f5ec646e3a68bb",
+          "net": "COL1",
+          "line": [
+            990,
+            275,
+            1030,
+            275
+          ]
+        },
+        {
+          "ref": "R_ADC1",
+          "pin": "2",
+          "id": "904a54e4b2082432",
+          "net": "ADC_IN1",
+          "line": [
+            750,
+            330,
+            790,
+            330
+          ]
+        },
+        {
+          "ref": "R_ADC1",
+          "pin": "1",
+          "id": "c016c565318a092a",
+          "net": "TIA1",
+          "line": [
+            710,
+            330,
+            670,
+            330
+          ]
+        },
+        {
+          "ref": "C_ADC1",
+          "pin": "1",
+          "id": "6fd2d79ce6916d45",
+          "net": "ADC_IN1",
+          "line": [
+            970,
+            310,
+            970,
+            270
+          ]
+        },
+        {
+          "ref": "C_ADC1",
+          "pin": "2",
+          "id": "2ec045eef8d7a126",
+          "net": "GND",
+          "line": [
+            970,
+            350,
+            970,
+            390
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE2",
+          "pin": "2",
+          "id": "6fe16c95ffc12812",
+          "net": "COL_SENSE2",
+          "line": [
+            490,
+            400,
+            530,
+            400
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE2",
+          "pin": "1",
+          "id": "bf3c1a83c6836378",
+          "net": "COL2",
+          "line": [
+            450,
+            400,
+            410,
+            400
+          ]
+        },
+        {
+          "ref": "RF2",
+          "pin": "2",
+          "id": "b6f515e84acbf7a7",
+          "net": "COL2",
+          "line": [
+            750,
+            400,
+            790,
+            400
+          ]
+        },
+        {
+          "ref": "RF2",
+          "pin": "1",
+          "id": "2da0aa2c2af46805",
+          "net": "TIA2",
+          "line": [
+            710,
+            400,
+            670,
+            400
+          ]
+        },
+        {
+          "ref": "CF2",
+          "pin": "1",
+          "id": "bc2ccf018f4180ac",
+          "net": "TIA2",
+          "line": [
+            950,
+            400,
+            910,
+            400
+          ]
+        },
+        {
+          "ref": "CF2",
+          "pin": "2",
+          "id": "f94abcce64678782",
+          "net": "COL2",
+          "line": [
+            990,
+            400,
+            1030,
+            400
+          ]
+        },
+        {
+          "ref": "R_ADC2",
+          "pin": "2",
+          "id": "991b1bf69bf06ff3",
+          "net": "ADC_IN2",
+          "line": [
+            750,
+            455,
+            790,
+            455
+          ]
+        },
+        {
+          "ref": "R_ADC2",
+          "pin": "1",
+          "id": "f4613739431b072f",
+          "net": "TIA2",
+          "line": [
+            710,
+            455,
+            670,
+            455
+          ]
+        },
+        {
+          "ref": "C_ADC2",
+          "pin": "1",
+          "id": "4ffb74f954f46753",
+          "net": "ADC_IN2",
+          "line": [
+            970,
+            435,
+            970,
+            395
+          ]
+        },
+        {
+          "ref": "C_ADC2",
+          "pin": "2",
+          "id": "987677fda69fc79c",
+          "net": "GND",
+          "line": [
+            970,
+            475,
+            970,
+            515
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE3",
+          "pin": "2",
+          "id": "050229c7ed7810dd",
+          "net": "COL_SENSE3",
+          "line": [
+            490,
+            525,
+            530,
+            525
+          ]
+        },
+        {
+          "ref": "R_COL_SENSE3",
+          "pin": "1",
+          "id": "e87a828dc3015a28",
+          "net": "COL3",
+          "line": [
+            450,
+            525,
+            410,
+            525
+          ]
+        },
+        {
+          "ref": "RF3",
+          "pin": "2",
+          "id": "e3831304ada6546e",
+          "net": "COL3",
+          "line": [
+            750,
+            525,
+            790,
+            525
+          ]
+        },
+        {
+          "ref": "RF3",
+          "pin": "1",
+          "id": "9b675613f25e25d9",
+          "net": "TIA3",
+          "line": [
+            710,
+            525,
+            670,
+            525
+          ]
+        },
+        {
+          "ref": "CF3",
+          "pin": "1",
+          "id": "cb123eea4abcefc2",
+          "net": "TIA3",
+          "line": [
+            950,
+            525,
+            910,
+            525
+          ]
+        },
+        {
+          "ref": "CF3",
+          "pin": "2",
+          "id": "5511fa61907bdd23",
+          "net": "COL3",
+          "line": [
+            990,
+            525,
+            1030,
+            525
+          ]
+        },
+        {
+          "ref": "R_ADC3",
+          "pin": "2",
+          "id": "efc5f342d490fba5",
+          "net": "ADC_IN3",
+          "line": [
+            750,
+            580,
+            790,
+            580
+          ]
+        },
+        {
+          "ref": "R_ADC3",
+          "pin": "1",
+          "id": "c39cb007bc81992c",
+          "net": "TIA3",
+          "line": [
+            710,
+            580,
+            670,
+            580
+          ]
+        },
+        {
+          "ref": "C_ADC3",
+          "pin": "1",
+          "id": "49eccae3e9dd6b88",
+          "net": "ADC_IN3",
+          "line": [
+            970,
+            560,
+            970,
+            520
+          ]
+        },
+        {
+          "ref": "C_ADC3",
+          "pin": "2",
+          "id": "6f1def2b704c54a3",
+          "net": "GND",
+          "line": [
+            970,
+            600,
+            970,
+            640
+          ]
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "1",
+          "id": "a2ea5c4e79dceb0b",
+          "net": "V5",
+          "line": [
+            205,
+            480,
+            165,
+            480
+          ]
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "2",
+          "id": "8dddfc3919432ebe",
+          "net": "GND",
+          "line": [
+            235,
+            480,
+            275,
+            480
+          ]
+        }
+      ],
+      "ports": [
+        {
+          "ref": "U2",
+          "pin": "14",
+          "id": "f2eebb917c9a06f3",
+          "net": "TIA3",
+          "x": 305,
+          "y": 290
+        },
+        {
+          "ref": "U2",
+          "pin": "13",
+          "id": "d4a17a7647b131a7",
+          "net": "COL_SENSE3",
+          "x": 305,
+          "y": 280
+        },
+        {
+          "ref": "U2",
+          "pin": "12",
+          "id": "fb2f7b8b5ebddf9d",
+          "net": "VCM",
+          "x": 305,
+          "y": 270
+        },
+        {
+          "ref": "U2",
+          "pin": "11",
+          "id": "3f0601a654d51810",
+          "net": "GND",
+          "x": 305,
+          "y": 260
+        },
+        {
+          "ref": "U2",
+          "pin": "10",
+          "id": "e9321f0f38d60e1b",
+          "net": "VCM",
+          "x": 305,
+          "y": 250
+        },
+        {
+          "ref": "U2",
+          "pin": "9",
+          "id": "1a175cfd25fa6d8c",
+          "net": "COL_SENSE2",
+          "x": 305,
+          "y": 240
+        },
+        {
+          "ref": "U2",
+          "pin": "8",
+          "id": "36247594b43b70e9",
+          "net": "TIA2",
+          "x": 305,
+          "y": 230
+        },
+        {
+          "ref": "U2",
+          "pin": "7",
+          "id": "4596cdae5cddc1a0",
+          "net": "TIA1",
+          "x": 135,
+          "y": 230
+        },
+        {
+          "ref": "U2",
+          "pin": "6",
+          "id": "81dc76e9c26512c6",
+          "net": "COL_SENSE1",
+          "x": 135,
+          "y": 240
+        },
+        {
+          "ref": "U2",
+          "pin": "5",
+          "id": "fe85ba9653b6a8d8",
+          "net": "VCM",
+          "x": 135,
+          "y": 250
+        },
+        {
+          "ref": "U2",
+          "pin": "4",
+          "id": "dd5bbc26a878821e",
+          "net": "V5",
+          "x": 135,
+          "y": 260
+        },
+        {
+          "ref": "U2",
+          "pin": "3",
+          "id": "5133382e61f32f77",
+          "net": "VCM",
+          "x": 135,
+          "y": 270
+        },
+        {
+          "ref": "U2",
+          "pin": "2",
+          "id": "d96f9b803c0aabe6",
+          "net": "COL_SENSE0",
+          "x": 135,
+          "y": 280
+        },
+        {
+          "ref": "U2",
+          "pin": "1",
+          "id": "1e2695415134ff8d",
+          "net": "TIA0",
+          "x": 135,
+          "y": 290
+        },
+        {
+          "ref": "R_COL_SENSE0",
+          "pin": "2",
+          "id": "173ad8b4736fb5c5",
+          "net": "COL_SENSE0",
+          "x": 530,
+          "y": 150
+        },
+        {
+          "ref": "R_COL_SENSE0",
+          "pin": "1",
+          "id": "5caed1621d36b4d2",
+          "net": "COL0",
+          "x": 410,
+          "y": 150
+        },
+        {
+          "ref": "RF0",
+          "pin": "2",
+          "id": "a599d6f156761266",
+          "net": "COL0",
+          "x": 790,
+          "y": 150
+        },
+        {
+          "ref": "RF0",
+          "pin": "1",
+          "id": "25c0d25812da23a7",
+          "net": "TIA0",
+          "x": 670,
+          "y": 150
+        },
+        {
+          "ref": "CF0",
+          "pin": "1",
+          "id": "ffb37aedaa9e4d08",
+          "net": "TIA0",
+          "x": 910,
+          "y": 150
+        },
+        {
+          "ref": "CF0",
+          "pin": "2",
+          "id": "b3e49bb16c0f6797",
+          "net": "COL0",
+          "x": 1030,
+          "y": 150
+        },
+        {
+          "ref": "R_ADC0",
+          "pin": "2",
+          "id": "b7ec6253b37e5b81",
+          "net": "ADC_IN0",
+          "x": 790,
+          "y": 205
+        },
+        {
+          "ref": "R_ADC0",
+          "pin": "1",
+          "id": "f9cd23cf64a41e8f",
+          "net": "TIA0",
+          "x": 670,
+          "y": 205
+        },
+        {
+          "ref": "C_ADC0",
+          "pin": "1",
+          "id": "7a4a7f07dc29fc19",
+          "net": "ADC_IN0",
+          "x": 970,
+          "y": 145
+        },
+        {
+          "ref": "C_ADC0",
+          "pin": "2",
+          "id": "93e4c34f8811e4a7",
+          "net": "GND",
+          "x": 970,
+          "y": 265
+        },
+        {
+          "ref": "R_COL_SENSE1",
+          "pin": "2",
+          "id": "cfac65fa172e1f6e",
+          "net": "COL_SENSE1",
+          "x": 530,
+          "y": 275
+        },
+        {
+          "ref": "R_COL_SENSE1",
+          "pin": "1",
+          "id": "88a6f68f9f516532",
+          "net": "COL1",
+          "x": 410,
+          "y": 275
+        },
+        {
+          "ref": "RF1",
+          "pin": "2",
+          "id": "6dc87f818ecc3b88",
+          "net": "COL1",
+          "x": 790,
+          "y": 275
+        },
+        {
+          "ref": "RF1",
+          "pin": "1",
+          "id": "d460f9ba042b548a",
+          "net": "TIA1",
+          "x": 670,
+          "y": 275
+        },
+        {
+          "ref": "CF1",
+          "pin": "1",
+          "id": "05d59f4a6d708a11",
+          "net": "TIA1",
+          "x": 910,
+          "y": 275
+        },
+        {
+          "ref": "CF1",
+          "pin": "2",
+          "id": "f8f59629844b352f",
+          "net": "COL1",
+          "x": 1030,
+          "y": 275
+        },
+        {
+          "ref": "R_ADC1",
+          "pin": "2",
+          "id": "db2abf3ad86af9ea",
+          "net": "ADC_IN1",
+          "x": 790,
+          "y": 330
+        },
+        {
+          "ref": "R_ADC1",
+          "pin": "1",
+          "id": "6b082dc922b386d3",
+          "net": "TIA1",
+          "x": 670,
+          "y": 330
+        },
+        {
+          "ref": "C_ADC1",
+          "pin": "1",
+          "id": "4cb1eb3c5c325f43",
+          "net": "ADC_IN1",
+          "x": 970,
+          "y": 270
+        },
+        {
+          "ref": "C_ADC1",
+          "pin": "2",
+          "id": "95373ebb6749a290",
+          "net": "GND",
+          "x": 970,
+          "y": 390
+        },
+        {
+          "ref": "R_COL_SENSE2",
+          "pin": "2",
+          "id": "c239d81facf71191",
+          "net": "COL_SENSE2",
+          "x": 530,
+          "y": 400
+        },
+        {
+          "ref": "R_COL_SENSE2",
+          "pin": "1",
+          "id": "20e882f12c8d246f",
+          "net": "COL2",
+          "x": 410,
+          "y": 400
+        },
+        {
+          "ref": "RF2",
+          "pin": "2",
+          "id": "45f2f7b3a76d836f",
+          "net": "COL2",
+          "x": 790,
+          "y": 400
+        },
+        {
+          "ref": "RF2",
+          "pin": "1",
+          "id": "ae358d1c8f374bb4",
+          "net": "TIA2",
+          "x": 670,
+          "y": 400
+        },
+        {
+          "ref": "CF2",
+          "pin": "1",
+          "id": "1a6098c2ebc13628",
+          "net": "TIA2",
+          "x": 910,
+          "y": 400
+        },
+        {
+          "ref": "CF2",
+          "pin": "2",
+          "id": "2dbacba85dbde55f",
+          "net": "COL2",
+          "x": 1030,
+          "y": 400
+        },
+        {
+          "ref": "R_ADC2",
+          "pin": "2",
+          "id": "6457f9e30c368f5a",
+          "net": "ADC_IN2",
+          "x": 790,
+          "y": 455
+        },
+        {
+          "ref": "R_ADC2",
+          "pin": "1",
+          "id": "ef82f3ecfcb9fe4c",
+          "net": "TIA2",
+          "x": 670,
+          "y": 455
+        },
+        {
+          "ref": "C_ADC2",
+          "pin": "1",
+          "id": "ae4680a1dd727b65",
+          "net": "ADC_IN2",
+          "x": 970,
+          "y": 395
+        },
+        {
+          "ref": "C_ADC2",
+          "pin": "2",
+          "id": "6b570367d47d35b8",
+          "net": "GND",
+          "x": 970,
+          "y": 515
+        },
+        {
+          "ref": "R_COL_SENSE3",
+          "pin": "2",
+          "id": "a4b904ae0569a154",
+          "net": "COL_SENSE3",
+          "x": 530,
+          "y": 525
+        },
+        {
+          "ref": "R_COL_SENSE3",
+          "pin": "1",
+          "id": "8414f376efa6717c",
+          "net": "COL3",
+          "x": 410,
+          "y": 525
+        },
+        {
+          "ref": "RF3",
+          "pin": "2",
+          "id": "3ff542bbb8b946c1",
+          "net": "COL3",
+          "x": 790,
+          "y": 525
+        },
+        {
+          "ref": "RF3",
+          "pin": "1",
+          "id": "e66a1b1a0eefe394",
+          "net": "TIA3",
+          "x": 670,
+          "y": 525
+        },
+        {
+          "ref": "CF3",
+          "pin": "1",
+          "id": "5264deac0f139a16",
+          "net": "TIA3",
+          "x": 910,
+          "y": 525
+        },
+        {
+          "ref": "CF3",
+          "pin": "2",
+          "id": "eec4f5ef24b178c7",
+          "net": "COL3",
+          "x": 1030,
+          "y": 525
+        },
+        {
+          "ref": "R_ADC3",
+          "pin": "2",
+          "id": "ee21c48db3aef267",
+          "net": "ADC_IN3",
+          "x": 790,
+          "y": 580
+        },
+        {
+          "ref": "R_ADC3",
+          "pin": "1",
+          "id": "884c25c15131490c",
+          "net": "TIA3",
+          "x": 670,
+          "y": 580
+        },
+        {
+          "ref": "C_ADC3",
+          "pin": "1",
+          "id": "5933563cc089e144",
+          "net": "ADC_IN3",
+          "x": 970,
+          "y": 520
+        },
+        {
+          "ref": "C_ADC3",
+          "pin": "2",
+          "id": "db7b9817bf5f9759",
+          "net": "GND",
+          "x": 970,
+          "y": 640
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "1",
+          "id": "c0daa0f6b5a08bb1",
+          "net": "V5",
+          "x": 165,
+          "y": 480
+        },
+        {
+          "ref": "C_TIA_OP",
+          "pin": "2",
+          "id": "b1a22def160d3a7f",
+          "net": "GND",
+          "x": 275,
+          "y": 480
+        }
+      ],
+      "removedWires": [
+        "5b731de5ac32c8ae",
+        "6b8db87af6d08903",
+        "1fce0dbbb7fa63f4",
+        "791aa6daa1b43aae",
+        "808e0d99bc85f9df",
+        "6615a45d9f87da7a",
+        "4aad49b66f9209aa",
+        "faefcc4b0fefe36a",
+        "4df8bc0ce00c926d",
+        "cf7f1e2c0a712036",
+        "e5885a0debed45fb",
+        "cd7d8f7c5be1e384",
+        "004ab804290deaa5",
+        "903ef6d814dc1d62",
+        "955ec8c237e19c3f",
+        "5ea3b6ffd6132031",
+        "de11460b3c50dd7d",
+        "2172db26dd706e53",
+        "72f9014a23bc8101",
+        "619a80de44041e23",
+        "37240d6243222ffe",
+        "e5c74f345348f7e7"
+      ],
+      "removedPorts": [
+        "1edc6c176517ea39",
+        "f14ef22761888c8c",
+        "acb6365f3371fba7",
+        "8e0028a65ba20be8",
+        "90ee9ed6c8d2ea41",
+        "72d100a37efcde2b",
+        "be30ae198a63ccf6",
+        "18a68e9f3f835eb3",
+        "8186902b49bfac41",
+        "cbe11fda8b1fc4e7",
+        "0813d2c12534238d",
+        "cbdffdbefe6ba625",
+        "78764ba982a6de72",
+        "faa5aa6876049dd6",
+        "bd57597f8280d4a9",
+        "1f71fa60c5144ac6",
+        "c473ecd2fe523452",
+        "3c16d1a88bc5f1e3",
+        "b0c419753601d798",
+        "0c69e1fa78de2688",
+        "71c1f8fdeca07f4f",
+        "52099da61318e780"
+      ],
+      "status": "REPAIR_COMPLETED_UNSAVED"
+    },
+    "logs": [],
+    "durationMs": 10073
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "started_utc": "2026-09-30T19:36:10.883722+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "session",
+    "list"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":[{\"sessionId\":\"140fc12a-8144-4f1c-8b50-3794ed79b32c\",\"renderId\":1,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"cc9f2225-19d4-4d58-9e7d-42874a9bdbbb\",\"renderId\":2,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"db863975-00b8-4487-a04e-f3e7cabf0631\",\"renderId\":3,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"04ad8edf-f3cd-4c39-9a2c-3c8a673a3e70\",\"renderId\":4,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"10514bf6-464d-48ef-9128-58af8118e198\",\"renderId\":6,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"6a2c4185-9c30-4cdb-a695-c61b9b2fd825\",\"renderId\":7,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"9e744baf-1e44-4ea7-a88c-898d8aef4f23\",\"renderId\":8,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"d2558677-dc63-4b0c-8c2c-718ffca0eba7\",\"renderId\":9,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"efca5b91-bf74-4fc6-8f42-6934b059d9ec\",\"renderId\":10,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"982e2425-f886-495a-86d4-99f429ffd1de\",\"renderId\":11,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"24f6a88c-2092-456b-8362-e782ed54241a\",\"renderId\":12,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"6d624aea-433d-4b72-9304-e19c67f73ac6\",\"renderId\":13,\"status\":\"closed\",\"headless\":true}],\"logs\":[],\"durationMs\":0}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": [
+      {
+        "sessionId": "140fc12a-8144-4f1c-8b50-3794ed79b32c",
+        "renderId": 1,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "cc9f2225-19d4-4d58-9e7d-42874a9bdbbb",
+        "renderId": 2,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "db863975-00b8-4487-a04e-f3e7cabf0631",
+        "renderId": 3,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "04ad8edf-f3cd-4c39-9a2c-3c8a673a3e70",
+        "renderId": 4,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "10514bf6-464d-48ef-9128-58af8118e198",
+        "renderId": 6,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "6a2c4185-9c30-4cdb-a695-c61b9b2fd825",
+        "renderId": 7,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "9e744baf-1e44-4ea7-a88c-898d8aef4f23",
+        "renderId": 8,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "d2558677-dc63-4b0c-8c2c-718ffca0eba7",
+        "renderId": 9,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "efca5b91-bf74-4fc6-8f42-6934b059d9ec",
+        "renderId": 10,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "982e2425-f886-495a-86d4-99f429ffd1de",
+        "renderId": 11,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "24f6a88c-2092-456b-8362-e782ed54241a",
+        "renderId": 12,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "6d624aea-433d-4b72-9304-e19c67f73ac6",
+        "renderId": 13,
+        "status": "closed",
+        "headless": true
+      }
+    ],
+    "logs": [],
+    "durationMs": 0
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "started_utc": "2026-09-30T19:36:55.267703+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "DMT_Project",
+    "--method-name",
+    "createProject"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"创建工程\",\"params\":[{\"name\":\"projectFriendlyName\",\"type\":\"string\",\"description\":\"工程友好名称\",\"required\":true},{\"name\":\"projectName\",\"type\":\"string\",\"description\":\"工程名称，不可重复，仅支持字母 `a-zA-Z`、数字 `0-9`、中划线 `-`，如若不指定，则根据工程友好名称自动生成\",\"required\":false},{\"name\":\"teamUuid\",\"type\":\"string\",\"description\":\"团队 UUID，如若不指定，则默认为个人；在不存在个人工程的环境下必须指定团队 UUID\",\"required\":false},{\"name\":\"folderUuid\",\"type\":\"string\",\"description\":\"文件夹 UUID，如若不指定，则为根文件夹\",\"required\":false},{\"name\":\"description\",\"type\":\"string\",\"description\":\"工程描述\",\"required\":false},{\"name\":\"collaborationMode\",\"type\":\"EDMT_ProjectCollaborationMode\",\"description\":\"工程协作模式，如若团队权限无需工程设置协作模式，则该参数将被忽略\",\"required\":false}],\"returns\":{\"type\":\"string | null\"}},\"logs\":[],\"durationMs\":93}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "创建工程",
+      "params": [
+        {
+          "name": "projectFriendlyName",
+          "type": "string",
+          "description": "工程友好名称",
+          "required": true
+        },
+        {
+          "name": "projectName",
+          "type": "string",
+          "description": "工程名称，不可重复，仅支持字母 `a-zA-Z`、数字 `0-9`、中划线 `-`，如若不指定，则根据工程友好名称自动生成",
+          "required": false
+        },
+        {
+          "name": "teamUuid",
+          "type": "string",
+          "description": "团队 UUID，如若不指定，则默认为个人；在不存在个人工程的环境下必须指定团队 UUID",
+          "required": false
+        },
+        {
+          "name": "folderUuid",
+          "type": "string",
+          "description": "文件夹 UUID，如若不指定，则为根文件夹",
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "description": "工程描述",
+          "required": false
+        },
+        {
+          "name": "collaborationMode",
+          "type": "EDMT_ProjectCollaborationMode",
+          "description": "工程协作模式，如若团队权限无需工程设置协作模式，则该参数将被忽略",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "string | null"
+      }
+    },
+    "logs": [],
+    "durationMs": 93
+  }
+}

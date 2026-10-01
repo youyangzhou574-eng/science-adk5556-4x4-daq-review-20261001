@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-09-30T20:53:38.217334+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "1c6c22f6-f5bf-45b0-8cc4-1e696b6b45a7",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const ids=['9965fd7b16015eaf','1baf912db250d2de','a51b95c47c70bc0e','cd673e3782e532f6'];\nconst p=await eda.dmt_Project.getCurrentProjectInfo();if(p?.uuid!=='74e664f7c1193aad2a35d2db078a1f226377acc149fbbc11d8b1a9f9638bea07')throw Error('Wrong independent project');\nconst pages=[];\nfor(const id of ids){\n await eda.dmt_EditorControl.openDocument(id);\n const pg=await eda.dmt_Schematic.getCurrentSchematicPageInfo();if(pg?.uuid!==id)throw Error('Wrong capture page');\n const cs=await eda.sch_PrimitiveComponent.getAll(),parts=[];\n for(const c of cs)parts.push({id:c.getState_PrimitiveId(),ref:c.getState_Designator(),type:c.getState_ComponentType(),name:c.getState_Name(),sub:c.getState_SubPartName(),association:c.getState_Component(),footprint:c.getState_Footprint(),props:c.getState_OtherProperty(),pins:(await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId())).map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),x:v.getState_X(),y:v.getState_Y(),nc:v.getState_NoConnected()}))});\n pages.push({page:pg,parts,nets:await eda.sch_Net.getAllNets(),source:await eda.sys_FileManager.getDocumentSource()});\n}\nconst file=await eda.sch_ManufactureData.getNetlistFile('FIRST_BUILD_ACTUAL','Protel2');\nlet actualFile=null;\nif(file){const bytes=new Uint8Array(await file.arrayBuffer());actualFile={name:file.name,size:file.size,type:file.type,constructor:file.constructor.name,tag:Object.prototype.toString.call(file),text:await file.text(),bytes:Array.from(bytes)};}\nreturn {project:p,pages,actualFile,netlistDefined:file!==undefined&&file!==null};\n",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 1,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"EXECUTION_ERROR\",\"message\":\"Wrong independent project\"}}\n",
+  "stderr": "EXECUTION_ERROR: Wrong independent project\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "EXECUTION_ERROR",
+      "message": "Wrong independent project"
+    }
+  }
+}

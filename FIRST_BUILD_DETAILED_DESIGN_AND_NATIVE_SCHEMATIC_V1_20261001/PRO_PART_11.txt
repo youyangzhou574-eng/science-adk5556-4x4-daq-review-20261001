@@ -1,0 +1,1467 @@
+CIRCUIT-FIRST-BUILD-INTEGRATED-SCHEMATIC-HOLD-RECEIPT-20261001-01
+PART 11/13。严格只处理本项目。这是直接正文的一段，跨段截断连续拼接；前段只ACK，最后END后给完整统一裁定。禁止拿旧回复当新裁定。
+OR
+J3
+FOOTPRINT
+HDR-TH_6P-P2.54-V-M-1
+PARTTYPE
+HDR-M_2.54_1x6P
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR-M_2.54_1x6P
+PCB Layer
+Default
+Symbol
+Header-Male-2.54_1x6
+Designator
+J3
+Unique ID
+gge66
+Name
+HDR-M_2.54_1x6P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+C37208
+Supplier Footprint
+插件
+Description
+
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+SWD/programming;3V3 sense, no external5V
+3D Model Title
+HDR2.54-M-LI-1X6P
+
+*
+]
+[
+DESIGNATOR
+J4
+FOOTPRINT
+HDR-TH_4P-P2.54-V-M
+PARTTYPE
+HDR-M_2.54_1x4P
+DESCRIPTION
+
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+HDR-M_2.54_1x4P
+PCB Layer
+Default
+Symbol
+PZ254V-11-04P
+Designator
+J4
+Unique ID
+gge67
+Name
+HDR-M_2.54_1x4P
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+
+Manufacturer Part
+
+Supplier
+
+Supplier Part
+C492403
+Supplier Footprint
+插件
+Description
+
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+3V3 UART logic only; no directRS232/5V UART
+3D Model Title
+HDR-TH_4P-P2.54-M-LI-1X4P
+
+*
+]
+[
+DESIGNATOR
+R_RST
+FOOTPRINT
+R0603
+PARTTYPE
+RT0603BRD0710KL
+DESCRIPTION
+电阻类型:薄膜电阻;阻值:10kΩ;精度:±0.1%;功率:100mW;工作电压:75V;温度系数:±25ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+RT0603BRD0710KL
+PCB Layer
+Default
+Symbol
+RT0603BRD0710KL
+Designator
+R_RST
+Unique ID
+gge68
+Name
+10k 0.1%
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+RT0603BRD0710KL
+Supplier
+LCSC
+Supplier Part
+C95204
+LCSC Part Name
+薄膜电阻 10kΩ ±0.1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/RT0603BRD0710KL/96405.html
+Type
+薄膜电阻
+Value
+10k 0.1%
+Tolerance
+±0.1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±25ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:薄膜电阻;阻值:10kΩ;精度:±0.1%;功率:100mW;工作电压:75V;温度系数:±25ppm/℃;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+C_RST
+FOOTPRINT
+C0603
+PARTTYPE
+GRM188R71C104KA01D
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM188R71C104KA01D
+PCB Layer
+Default
+Symbol
+GRM188R71C104KA01D
+Designator
+C_RST
+Unique ID
+gge69
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM188R71C104KA01D
+Supplier
+LCSC
+Supplier Part
+C45000
+LCSC Part Name
+100nF ±10% 16V
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20161108/1478586365848.pdf
+Value
+100nF
+Tolerance
+±10%
+Voltage Rated
+16V
+Temperature Coefficient
+X7R
+Description
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+R_CS_PU
+FOOTPRINT
+R0603
+PARTTYPE
+RT0603BRD0710KL
+DESCRIPTION
+电阻类型:薄膜电阻;阻值:10kΩ;精度:±0.1%;功率:100mW;工作电压:75V;温度系数:±25ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+RT0603BRD0710KL
+PCB Layer
+Default
+Symbol
+RT0603BRD0710KL
+Designator
+R_CS_PU
+Unique ID
+gge70
+Name
+10k 0.1%
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+YAGEO(国巨)
+Manufacturer Part
+RT0603BRD0710KL
+Supplier
+LCSC
+Supplier Part
+C95204
+LCSC Part Name
+薄膜电阻 10kΩ ±0.1% 100mW
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/RT0603BRD0710KL/96405.html
+Type
+薄膜电阻
+Value
+10k 0.1%
+Tolerance
+±0.1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±25ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:薄膜电阻;阻值:10kΩ;精度:±0.1%;功率:100mW;工作电压:75V;温度系数:±25ppm/℃;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+R_ADC_RESET_PD
+FOOTPRINT
+R0603
+PARTTYPE
+0603WAF1003T5E
+DESCRIPTION
+电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+0603WAF1003T5E
+PCB Layer
+Default
+Symbol
+0603WAF1003T5E
+Designator
+R_ADC_RESET_PD
+Unique ID
+gge71
+Name
+100k 1%
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+UNI-ROYAL(厚声)
+Manufacturer Part
+0603WAF1003T5E
+Supplier
+LCSC
+Supplier Part
+C25803
+LCSC Part Name
+厚膜电阻 100kΩ ±1%
+Supplier Footprint
+0603
+JLCPCB Part Class
+Basic Part
+Datasheet
+https://item.szlcsc.com/datasheet/0603WAF1003T5E/26546.html
+Type
+厚膜电阻
+Value
+100k 1%
+Tolerance
+±1%
+Power(Watts)
+100mW
+Voltage-Supply(Max)
+75V
+Temperature Coefficient
+±100ppm/℃
+Operating Temperature
+-55℃~+155℃
+Description
+电阻类型:厚膜电阻;阻值:100kΩ;精度:±1%;功率:100mW;工作电压:75V;温度系数:±100ppm/℃;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+R0603
+
+*
+]
+[
+DESIGNATOR
+C_ADC_REFIO
+FOOTPRINT
+C1210
+PARTTYPE
+GRM32ER71E226KE15L
+DESCRIPTION
+容值:22uF;精度:±10%;额定电压:25V;温度系数:X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM32ER71E226KE15L
+PCB Layer
+Default
+Symbol
+GRM32ER71E226KE15L
+Designator
+C_ADC_REFIO
+Unique ID
+gge72
+Name
+22uF 25V X7R
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM32ER71E226KE15L
+Supplier
+LCSC
+Supplier Part
+C21397
+LCSC Part Name
+22uF ±10% 25V
+Supplier Footprint
+1210
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/GRM32ER71E226KE15L/22114.html
+Value
+22uF 25V X7R
+Tolerance
+±10%
+Voltage Rating
+25V
+Temperature Coefficient
+X7R
+Description
+容值:22uF;精度:±10%;额定电压:25V;温度系数:X7R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+Effective>=10uF pending bias curve; hold
+3D Model Title
+C1210_L3.2-W2.5-H2.5
+
+*
+]
+[
+DESIGNATOR
+C_ADC_REFCAP
+FOOTPRINT
+C0603
+PARTTYPE
+GRM188R61C105KA93D
+DESCRIPTION
+容值:1uF;精度:±10%;额定电压:16V;温度系数:X5R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM188R61C105KA93D
+PCB Layer
+Default
+Symbol
+GRM188R61C105KA93D
+Designator
+C_ADC_REFCAP
+Unique ID
+gge73
+Name
+1uF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM188R61C105KA93D
+Supplier
+LCSC
+Supplier Part
+C77404
+LCSC Part Name
+1uF ±10% 16V 停产
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/GRM188R61C105KA93D/78532.html
+Value
+1uF
+Tolerance
+±10%
+Voltage Rating
+16V
+Temperature Coefficient
+X5R
+Description
+容值:1uF;精度:±10%;额定电压:16V;温度系数:X5R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+C_ADCA1
+FOOTPRINT
+C0603
+PARTTYPE
+GRM188R71C104KA01D
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM188R71C104KA01D
+PCB Layer
+Default
+Symbol
+GRM188R71C104KA01D
+Designator
+C_ADCA1
+Unique ID
+gge74
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM188R71C104KA01D
+Supplier
+LCSC
+Supplier Part
+C45000
+LCSC Part Name
+100nF ±10% 16V
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20161108/1478586365848.pdf
+Value
+100nF
+Tolerance
+±10%
+Voltage Rated
+16V
+Temperature Coefficient
+X7R
+Description
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+C_ADCA2
+FOOTPRINT
+C0603
+PARTTYPE
+GRM188R71C104KA01D
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM188R71C104KA01D
+PCB Layer
+Default
+Symbol
+GRM188R71C104KA01D
+Designator
+C_ADCA2
+Unique ID
+gge75
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM188R71C104KA01D
+Supplier
+LCSC
+Supplier Part
+C45000
+LCSC Part Name
+100nF ±10% 16V
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20161108/1478586365848.pdf
+Value
+100nF
+Tolerance
+±10%
+Voltage Rated
+16V
+Temperature Coefficient
+X7R
+Description
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+C_ADCD
+FOOTPRINT
+C0603
+PARTTYPE
+GRM188R71C104KA01D
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM188R71C104KA01D
+PCB Layer
+Default
+Symbol
+GRM188R71C104KA01D
+Designator
+C_ADCD
+Unique ID
+gge76
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM188R71C104KA01D
+Supplier
+LCSC
+Supplier Part
+C45000
+LCSC Part Name
+100nF ±10% 16V
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20161108/1478586365848.pdf
+Value
+100nF
+Tolerance
+±10%
+Voltage Rated
+16V
+Temperature Coefficient
+X7R
+Description
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+C_MCU1
+FOOTPRINT
+C0603
+PARTTYPE
+GRM188R71C104KA01D
+DESCRIPTION
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM188R71C104KA01D
+PCB Layer
+Default
+Symbol
+GRM188R71C104KA01D
+Designator
+C_MCU1
+Unique ID
+gge77
+Name
+100nF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM188R71C104KA01D
+Supplier
+LCSC
+Supplier Part
+C45000
+LCSC Part Name
+100nF ±10% 16V
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://atta.szlcsc.com/upload/public/pdf/source/20161108/1478586365848.pdf
+Value
+100nF
+Tolerance
+±10%
+Voltage Rated
+16V
+Temperature Coefficient
+X7R
+Description
+容值:100nF;精度:±10%;额定电压:16V;材质(温度系数):X7R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+[
+DESIGNATOR
+C_MCU_BULK
+FOOTPRINT
+C0603
+PARTTYPE
+GRM188R61C105KA93D
+DESCRIPTION
+容值:1uF;精度:±10%;额定电压:16V;温度系数:X5R;
+Component Kind
+Standard
+Add into BOM
+yes
+Convert to PCB
+yes
+Device
+GRM188R61C105KA93D
+PCB Layer
+Default
+Symbol
+GRM188R61C105KA93D
+Designator
+C_MCU_BULK
+Unique ID
+gge78
+Name
+1uF
+Reuse Block
+
+Group ID
+
+Channel ID
+
+Manufacturer
+muRata(村田)
+Manufacturer Part
+GRM188R61C105KA93D
+Supplier
+LCSC
+Supplier Part
+C77404
+LCSC Part Name
+1uF ±10% 16V 停产
+Supplier Footprint
+0603
+JLCPCB Part Class
+Extended Part
+Datasheet
+https://item.szlcsc.com/datasheet/GRM188R61C105KA93D/78532.html
+Value
+1uF
+Tolerance
+±10%
+Voltage Rating
+16V
+Temperature Coefficient
+X5R
+Description
+容值:1uF;精度:±10%;额定电压:16V;温度系数:X5R;
+Review Status
+DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD
+Circuit Role
+
+3D Model Title
+C0603_L1.6-W0.8-H0.8
+
+*
+]
+(
+V5 
+J1-1 HDR-M_2.54_1x2P-1 Passive 
+U6-1 REF3025AIDBZR-IN Passive 
+U8-1 TPS7A2033PDBVR-IN Passive 
+U8-3 TPS7A2033PDBVR-EN Passive 
+U3-8 OPA2388IDR-V+ Passive 
+C_PWR-1 GRM188R61C105KA93D-1 Passive 
+C_REF-1 GRM188R71C104KA01D-1 Input   
+C_BUF-1 GRM188R71C104KA01D-1 Input   
+C_LDO_IN-1 GRM188R61C105KA93D-1 Passive 
+U4-16 TMUX1134PWR-VDD Passive 
+U1-4 OPA4388IDR-V+ Passive 
+C_ROW_OP-1 GRM188R71C104KA01D-1 Input   
+C_MUX-1 GRM188R71C104KA01D-1 Input   
+U2-4 OPA4388IDR-V+ Passive 
+C_TIA_OP-1 GRM188R71C104KA01D-1 Input   
+U5-9 ADS8684IDBTR-AVDD Passive 
+U5-30 ADS8684IDBTR-AVDD Passive 
+C_ADCA1-1 GRM188R71C104KA01D-1 Input   
+C_ADCA2-1 GRM188R71C104KA01D-1 Input   
+)
+(
+GND 
+J1-2 HDR-M_2.54_1x2P-2 Passive 
+U6-3 REF3025AIDBZR-GND Passive 
+U8-2 TPS7A2033PDBVR-GND Passive 
+U3-4 OPA2388IDR-V- Passive 
+RD_B9-2 RT0603BRD0710KL-2 Input   
+C_DIV-2 GRM188R71C104KA01D-2 Input   
+C_PWR-2 GRM188R61C105KA93D-2 Passive 
+C_REF-2 GRM188R71C104KA01D-2 Input   
+C_BUF-2 GRM188R71C104KA01D-2 Input   
+C_LDO_IN-2 GRM188R61C105KA93D-2 Passive 
+C_LDO_OUT-2 GRM188R61C105KA93D-2 Passive 
+U4-5 TMUX1134PWR-VSS Passive 
+U4-6 TMUX1134PWR-GND Passive 
+U1-11 OPA4388IDR-V- Passive 
+R_SEL_PD0-2 0603WAF1003T5E-2 Input   
+R_SEL_PD1-2 0603WAF1003T5E-2 Input   
+R_SEL_PD2-2 0603WAF1003T5E-2 Input   
+R_SEL_PD3-2 0603WAF1003T5E-2 Input   
+C_ROW_OP-2 GRM188R71C104KA01D-2 Input   
+C_MUX-2 GRM188R71C104KA01D-2 Input   
+U2-11 OPA4388IDR-V- Passive 
+C_ADC0-2 GRM188R71C103KA01D-2 Passive 
+C_ADC1-2 GRM188R71C103KA01D-2 Passive 
+C_ADC2-2 GRM188R71C103KA01D-2 Passive 
+C_ADC3-2 GRM188R71C103KA01D-2 Passive 
+C_TIA_OP-2 GRM188R71C104KA01D-2 Input   
+U5-3 ADS8684IDBTR-DAISY Passive 
+U5-4 ADS8684IDBTR-REFSEL# Passive 
+U5-6 ADS8684IDBTR-REFGND Passive 
+U5-8 ADS8684IDBTR-AGND Passive 
+U5-10 ADS8684IDBTR-AUX_IN Passive 
+U5-11 ADS8684IDBTR-AUX_GND Passive 
+U5-17 ADS8684IDBTR-AIN_0GND Passive 
+U5-19 ADS8684IDBTR-AIN_1GND Passive 
+U5-20 ADS8684IDBTR-AIN_2GND Passive 
+U5-22 ADS8684IDBTR-AIN_3GND Passive 
+U5-28 ADS8684IDBTR-AGND Passive 
+U5-29 ADS8684IDBTR-AGND Passive 
+U5-31 ADS8684IDBTR-AGND Passive 
+U5-32 ADS8684IDBTR-AGND Passive 
+U5-33 ADS8684IDBTR-DGND Passive 
+U7-5 STM32G031K8T6-VSS/VSSA Passive 
+J3-2 HDR-M_2.54_1x6P-2 Input   
+J4-2 HDR-M_2.54_1x4P-2 Passive 
+C_RST-2 GRM188R71C104KA01D-2 Input   
+R_ADC_RESET_PD-2 0603WAF1003T5E-2 Input   
+C_ADC_REFIO-2 GRM32ER71E226KE15L-2 Passive 
+C_ADC_REFCAP-2 GRM188R61C105KA93D-2 Passive 
+C_ADCA1-2 GRM188R71C104KA01D-2 Input   
+C_ADCA2-2 GRM188R71C104KA01D-2 Input   
+C_ADCD-2 GRM188R71C104KA01D-2 Input   
+C_MCU1-2 GRM188R71C104KA01D-2 Input   
+C_MCU_BULK-2 GRM188R61C105KA93D-2 Passive 
+)
+(
+REF_2V5 
+U6-2 REF3025AIDBZR-OUT Passive 
+U3-3 OPA2388IDR-+INA Passive 
+)
+(
+V3V3 
+U8-5 TPS7A2033PDBVR-OUT Passive 
+C_LDO_OUT-1 GRM188R61C105KA93D-1 Passive 
+U5-34 ADS8684IDBTR-DVDD Passive 
+U7-4 STM32G031K8T6-VDD/VDDA Passive 
+J3-1 HDR-M_2.54_1x6P-1 Input   
+J4-1 HDR-M_2.54_1x4P-1 Passive 
+R_RST-1 RT0603BRD0710KL-1 Input   
+R_CS_PU-1 RT0603BRD0710KL-1 Input   
+C_ADCD-1 GRM188R71C104KA01D-1 Input   
+C_MCU1-1 GRM188R71C104KA01D-1 Input   
+C_MCU_BULK-1 GRM188R61C105KA93D-1 Passive 
+)
+(
+VCM 
+U3-1 OPA2388IDR-OUA Passive 
+U3-2 OPA2388IDR--INA Passive 
+RD_TOP-1 RT0603BRD0710KL-1 Input   
+U4-4 TMUX1134PWR-S1B Passive 
+U4-7 TMUX1134PWR-S2B Passive 
+U4-14 TMUX1134PWR-S3B Passive 
+U4-17 TMUX1134PWR-S4B Passive 
+U2-12 OPA4388IDR-IND+ Passive 
+U2-10 OPA4388IDR-INC+ Passive 
+U2-5 OPA4388IDR-INB+ Passive 
+U2-3 OPA4388IDR-INA+ Passive 
+)
+(
+DIV_2V25 
+U3-5 OPA2388IDR-+INB Passive 
+RD_TOP-2 RT0603BRD0710KL-2 Input   
+RD_B1-1 RT0603BRD0710KL-1 Input   
+C_DIV-1 GRM188R71C104KA01D-1 Input   
+)
+(
+VEXC 
+U3-6 OPA2388IDR--INB Passive 
+U3-7 OPA2388IDR-OUTB Passive 
+U4-2 TMUX1134PWR-S1A Passive 
+U4-9 TMUX1134PWR-S2A Passive 
+U4-12 TMUX1134PWR-S3A Passive 
+U4-19 TMUX1134PWR-S4A Passive 
+)
+(
+DIV_SEG1 
+RD_B1-2 RT0603BRD0710KL-2 Input   
+RD_B2-1 RT0603BRD0710KL-1 Input   
+)
+(
+DIV_SEG2 
+RD_B2-2 RT0603BRD0710KL-2 Input   
+RD_B3-1 RT0603BRD0710KL-1 Input   
+)
+(
+DIV_SEG3 
+RD_B3-2 RT0603BRD0710KL-2 Input   
+RD_B4-1 RT0603BRD0710KL-1 Input   
+)
+(
+DIV_SEG4 
+RD_B4-2 RT0603BRD0710KL-2 Input   
+RD_B5-1 RT0603BRD0710KL-1 Input   
+)
+(
+DIV_SEG5 
+RD_B5-2 RT0603BRD0710KL-2 Input   
+RD_B6-1 RT0603BRD0710KL-1 Input   
+)
+(
+DIV_SEG6 
+RD_B6-2 RT0603BRD0710KL-2 Input   
+RD_B7-1 RT0603BRD0710KL-1 Input   
+)
+(
+DIV_SEG7 
+RD_B7-2 RT0603BRD0710KL-2 Input   
+RD_B8-1 RT0603BRD0710KL-1 Input   
+)
+(
+DIV_SEG8 
+RD_B8-2 RT0603BRD0710KL-2 Input   
+RD_B9-1 RT0603BRD0710KL-1 Input   
+)
+(
+ROW_SEL0 
+U4-1 TMUX1134PWR-SEL1 Passive 
+R_SEL_PD0-1 0603WAF1003T5E-1 Input   
+U7-7 STM32G031K8T6-PA0 Passive 
+)
+(
+ROW_CMD0 
+U4-3 TMUX1134PWR-D1 Passive 
+U1-3 OPA4388IDR-INA+ Passive 
+)
+(
+ROW_CMD1 
+U4-8 TMUX1134PWR-D2 Passive 
+U1-5 OPA4388IDR-INB+ Passive 
+)
+(
+ROW_SEL1 
+U4-10 TMUX1134PWR-SEL2 Passive 
+R_SEL_PD1-1 0603WAF1003T5E-1 Input   
+U7-8 STM32G031K8T6-PA1 Passive 
+)
+(
+ROW_SEL2 
+U4-11 TMUX1134PWR-SEL3 Passive 
+R_SEL_PD2-1 0603WAF1003T5E-1 Input   
+U7-9 STM32G031K8T6-PA2 Passive 
+)
+(
+ROW_CMD2 
+U4-13 TMUX1134PWR-D3 Passive 
+U1-10 OPA4388IDR-INC+ Passive 
+)
+(
+ROW_CMD3 
+U4-18 TMUX1134PWR-D4 Passive 
+U1-12 OPA4388IDR-IND+ Passive 
+)
+(
+ROW_SEL3 
+U4-20 TMUX1134PWR-SEL4 Passive 
+R_SEL_PD3-1 0603WAF1003T5E-1 Input   
+U7-10 STM32G031K8T6-PA3 Passive 
+)
+(
+ROW_DRV3 
+U1-14 OPA4388IDR-OUTD Passive 
+R_ISO3-1 0603WAF1001T5E-1 Input   
+C_ROW_HF3-1 GRM1885C1H102JA01D-1 Passive 
+)
+(
+ROW_FB3 
+U1-13 OPA4388IDR-IND- Passive 
+R_ROW_FB3-2 RT0603BRD0710KL-2 Input   
+C_ROW_HF3-2 GRM1885C1H102JA01D-2 Passive 
+)
+(
+ROW_FB2 
+U1-9 OPA4388IDR-INC- Passive 
+R_ROW_FB2-2 RT0603BRD0710KL-2 Input   
+C_ROW_HF2-2 GRM1885C1H102JA01D-2 Passive 
+)
+(
+ROW_DRV2 
+U1-8 OPA4388IDR-OUTC Passive 
+R_ISO2-1 0603WAF1001T5E-1 Input   
+C_ROW_HF2-1 GRM1885C1H102JA01D-1 Passive 
+)
+(
+ROW_DRV1 
+U1-7 OPA4388IDR-OUTB Passive 
+R_ISO1-1 0603WAF1001T5E-1 Input   
+C_ROW_HF1-1 GRM1885C1H102JA01D-1 Passive 
+)
+(
+ROW_FB1 
+U1-6 OPA4388IDR-INB- Passive 
+R_ROW_FB1-2 RT0603BRD0710KL-2 Input   
+C_ROW_HF1-2 GRM1885C1H102JA01D-2 Passive 
+)
+(
+ROW_FB0 
+U1-2 OPA4388IDR-INA- Passive 
+R_ROW_FB0-2 RT0603BRD0710KL-2 Input   
+C_ROW_HF0-2 GRM1885C1H102JA01D-2 Passive 
+)
+(
+ROW_DRV0 
+U1-1 OPA4388IDR-OUTA Passive 
+R_ISO0-1 0603WAF1001T5E-1 Input   
+C_ROW_HF0-1 GRM1885C1H102JA01D-1 Passive 
+)
+(
+ROW0 
+R_ISO0-2 0603WAF1001T5E-2 Input   
+R_ROW_FB0-1 RT0603BRD0710KL-1 Input   
+J2-1 HDR-M_2.54_1x8P-1 Passive 
+)
+(
+ROW1 
+R_ISO1-2 0603WAF1001T5E-2 Input   
+R_ROW_FB1-1 RT0603BRD0710KL-1 Input   
+J2-2 HDR-M_2.54_1x8P-2 Passive 
+)
+(
+ROW2 
+R_ISO2-2 0603WAF1001T5E-2 Input   
+R_ROW_FB2-1 RT0603BRD0710KL-1 Input   
+J2-3 HDR-M_2.54_1x8P-3 Passive 
+)
+(
+ROW3 
+R_ISO3-2 0603WAF1001T5E-2 Input   
+R_ROW_FB3-1 RT0603BRD0710KL-1 Input   
+J2-4 HDR-M_2.54_1x8P-4 Passive 
+)
+(
+COL0 
+J2-5 HDR-M_2.54_1x8P-5 Passive 
+R_COL_SENSE0-1 RT0603BRD0710KL-1 Input   
+RF0-2 RT0603BRD074K99L-2 Passive 
+CF0-2 GRM1885C1H222JA01D-2 Passive 
+)
+(
+COL1 
+J2-6 HDR-M_2.54_1x8P-6 Passive 
+R_COL_SENSE1-1 RT0603BRD0710KL-1 Input   
+RF1-2 RT0603BRD074K99L-2 Passive 
+CF1-2 GRM1885C1H222JA01D-2 Passive 
+)
+(
+COL2 
+J2-7 HDR-M_2.54_1x8P-7 Passive 
+R_COL_SENSE2-1 RT0603BRD0710KL-1 Input   
+RF2-2 RT0603BRD074K99L-2 Passive 
+CF2-2 GRM1885C1H222JA01D-2 Passive 
+)
+(
+COL3 
+J2-8 HDR-M_2.54_1x8P-8 Passive 
+R_COL_SENSE3-1 RT0603BRD0710KL-1 Input   
+RF3-2 RT0603BRD074K99L-2 Passive 
+CF3-2 GRM1885C1H222JA01D-2 Passive 
+)
+(
+TIA3 
+U2-14 OPA4388IDR-OUTD Passive 
+RF3-1 RT0603BRD074K99L-1 Passive 
+CF3-1 GRM1885C1H222JA01D-1 Passive 
+R_ADC3-1 0603WAF1000T5E-1 Input   
+)
+(
+COL_SENSE3 
+U2-13 OPA4388IDR-IND- Passive 
+R_COL_SENSE3-2 RT0603BRD0710KL-2 Input   
+)
+(
+COL_SENSE2 
+U2-9 OPA4388IDR-INC- Passive 
+R_COL_SENSE2-2 RT0603BRD0710KL-2 Input   
+)
+(
+TIA2 
+U2-8 OPA4388IDR-OUTC Passive 
+RF2-1 RT0603BRD074K99L-1 Passive 
+CF2-1 GRM1885C1H222JA01D-1 Passive 
+R_ADC2-1 0603WAF1000T5E-1 Input   
+)
+(
+TIA1 
+U2-7 OPA4388IDR-OUTB Passive 
+RF1-1 RT0603BRD074K99L-1 Passive 
+CF1-1 GRM1885C1H222JA01D-1 Passive 
+R_ADC1-1 0603WAF1000T5E-1 Input   
+)
+(
+COL_SENSE1 
+U2-6 OPA4388IDR-INB- Passive 
+R_COL_SENSE1-2 RT0603BRD0710KL-2 Input   
+)
+(
+COL_SENSE0 
+U2-2 OPA4388IDR-INA- Passive 
+R_COL_SENSE0-2 RT0603BRD0710KL-2 Input   
+)
+(
+TIA0 
+U2-1 OPA4388IDR-OUTA Passive 
+RF0-1 RT0603BRD074K99L-1 Passive 
+CF0-1 GRM1885C1H222JA01D-1 Passive 
+R_ADC0-1 0603WAF1000T5E-1 Input   
+)
+(
+ADC_IN0 
+R_ADC0-2 0603WAF1000T5E-2 Input   
+C_ADC0-1 GRM188R71C103KA01D-1 Passive 
+U5-16 ADS8684IDBTR-AIN_0P Passive 
+)
+(
+ADC_IN1 
+R_ADC1-2 0603WAF1000T5E-2 Input   
+C_ADC1-1 GRM188R71C103KA01D-1 Passive 
+U5-18 ADS8684IDBTR-AIN_1P Passive 
+)
+(
+ADC_IN2 
+R_ADC2-2 0603WAF1000T5E-2 Input   
+C_ADC2-1 GRM188R71C103KA01D-1 Passive 
+U5-21 ADS8684IDBTR-AIN_2P Passive 
+)
+(
+ADC_IN3 
+R_ADC3-2 0603WAF1000T5E-2 Input   
+C_ADC3-1 GRM188R71C103KA01D-1 Passive 
+U5-23 ADS8684IDBTR-AIN_3P Passive 
+)
+(
+SPI_MOSI 
+U5-1 ADS8684IDBTR-SDI Passive 
+U7-14 STM32G031K8T6-PA7 Passive 
+)
+(
+ADC_RESET_N 
+U5-2 ADS8684IDBTR-RST#/PD# Passive 
+U7-15 STM32G031K8T6-PB0 Passive 
+R_ADC_RESET_PD-1 0603WAF1003T5E-1 Input   
+)
+(
+ADC_REFIO 
+U5-5 ADS8684IDBTR-REFIO Passive 
+C_ADC_REFIO-1 GRM32ER71E226KE15L-1 Passive 
+)
+(
+ADC_REFCAP 
+U5-7 ADS8684IDBTR-REFCAP Passive 
+C_ADC_REFCAP-1 GRM188R61C105KA93D-1 Passive 
+)
+(
+SPI_MISO 
+U5-36 ADS8684IDBTR-SDO Passive 
+U7-13 STM32G031K8T6-PA6 Passive 
+)
+(
+SPI_SCLK 
+U5-37 ADS8684IDBTR-SCLK Passive 
+U7-12 STM32G031K8T6-PA5 Passive 
+)
+(
+ADC_CS_N 
+U5-38 ADS8684IDBTR-CS# Passive 
+U7-11 STM32G031K8T6-PA4 Passive 
+R_CS_PU-2 RT0603BRD0710KL-2 Input   
+)
+(
+MCU_NRST 
+U7-6 STM32G031K8T6-PF2-NRST Passive 
+J3-5 HDR-M_2.54_1x6P-5 Input   
+R_RST-2 RT0603BRD0710KL-2 Input   
+C_RST-1 GRM188R71C104KA01D-1 Input   
+)
+(
+UART_TX 
+U7-19 STM32G031K8T6-PA9 Passive 
+J4-3 HDR-M_2.54_1x4P-3 Passive 
+)
+(
+UART_RX 
+U7-21 STM32G031K8T6-PA10 Passive 
+J4-4 HDR-M_2.54_1x4P-4 Passive 
+)
+(
+SWDIO 
+U7-24 STM32G031K8T6-PA13 Passive 
+J3-3 HDR-M_2.54_1x6P-3 Input   
+)
+(
+SWCLK 
+U7-25 STM32G031K8T6-PA14-BOOT0 Passive 
+J3-4 HDR-M_2.54_1x6P-4 Input   
+)
+
+===== END POST_REOPEN_CAPTURE_EXPORT_ACTUAL.net =====
+
+
+===== FULL ERC_REPORT.md | bytes 450 | SHA256 D7ACDE8E08EF2EAF57A606DD0065F38C149D896E43B37C229AAB5DB1515F965D | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\ERC_REPORT.md =====
+# Native DRC
+
+Actual sch_Drc.check(true,true,true) returned [{type:warn,count:10}]. No fatal/error categories were returned; only counts were exposed, so no DRC-clean claim and no invented warning descriptions. ERC_DETAIL_HOLD pending full warning classification. Exact original JSON is DRC_REPAIRED.json. Connectivity is independently audited against actual File-derived Protel2, not inferred from DRC. No PCB DRC or manufacturing qualification.
+
+===== END ERC_REPORT.md =====
+
+
+===== FULL DRAWING_VISUAL_QA.json | bytes 650 | SHA256 EC66EDB07BD6CD05222DD6137A62BEBB4973643E4FD209EDEA8E7F98744AF3C2 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\DRAWING_VISUAL_QA.json =====
+{"pages":4,"actual_native_export":true,"rendered_all_four_pages_and_visually_inspected":true,"readable_values_and_warning_notes":true,"issues":["some port net text collides with IC pin numbering/names and some designators","some leftmost BI port polygons meet or extend across the drawing border; no pin/net data lost in actual netlist"],"status":"DRAWING_LAYOUT_HOLD","drawing_export_budget_used":2,"drawing_export_budget_limit":2,"next_action":"separate approved layout correction with real attribute visibility/position handling and new export budget; do not exceed current budget"}
+===== END DRAWING_VISUAL_QA.json =====
+
+
+===== FULL NATIVE_GENERATION_CORRECTION.md | bytes 1538 | SHA256 C5E897C155FAE0C86D9DD1BC48994DB183CA4DAA6961AE14EBCFD04E4B4CFA23 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\NATIVE_GENERATION_CORRECTION.md =====
+# 生成纠正记录
+首轮使用库导出角度推断放置后的引脚方向错误。实际放置R_ISO0 pin2=(700,145),rotation0，pin1=(660,145),rotation180；首轮向内延伸导致两端导线自动归并，真实Protel2显示多个原本不同网络合并。首轮网表/PDF/API证据保留，不作为交付。
+按实际运行态角度0向右、180向左重建自有4页所有短导线/端口，并把原生端口浮点舍入到1e-6避免伪短分段；未知角度拒绝而非猜测。器件、physicalpin/net计划、NC不变。调整端口文本在图元外侧、字体6，提高图纸可读性。只删本包刚生成的导线/端口，不动旧工程/厂家库。
+另：第一版新图页空检查把官方默认sheet当电路器件拒绝，保留BUILD_PAGE_0错误并据实际sheet-only检查修正；没有重复创建电路器件。DC首次KCL测试的期望符号错误，纠正为sink=(vrow−source)/lead，模型不变，8类复核通过。这些是执行端生成/断言错误，不裁定嘉立创不兼容。
+
+追加：部分10nF原生符号为垂直引脚，首个修复拒绝270°并停下，明确保留错误API证据，后按实际位置支持垂直引脚并将4个ADC滤波电容旋转90°，不改针号或网络。冷重开工程runtime UUID改变为07975f0d...33402；首次静态旧UUID守卫拒绝、零capture/修改。根据官方open绝对路径/字节hash、完整原project对象及同一schematic/4page UUID和parent链接受新运行态UUID。不是错误工程，也不是工具不兼容。
+
+===== END NATIVE_GENERATION_CORRECTION.md =====
+
+
+===== FULL EXECUTION_SUMMARY.json | bytes 4611 | SHA256 847FFD45DE0ABF090C62046C8014A8C1702AA78E171DFD90104C8A6C1EE8725C | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\EXECUTION_SUMMARY.json =====
+{"project":"SCIENCE_ADK5556_4X4_DAQ_REPLICA","package":"SCIENCE_ADK5556_4X4_FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1","decision":"CIRCUIT-PRO-FIRST-BUILD-INTEGRATED-DESIGN-GATES-20261001-01","completed_utc":"2026-09-30T21:00:35.690603+00:00","state":"NATIVE_SCHEMATIC_DELIVERED / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD / REFERENCE_CAPACITANCE_HOLD / ERC_DETAIL_HOLD / DRAWING_LAYOUT_HOLD","bench_released":false,"user_facts":["fixed4rows+4columns8electrode leads","approx1-7kohm / approx10%change; not metrologically frozen"],"native_file":{"native_path":"C:\\Users\\yang\\Documents\\LCEDA-Pro\\projects\\SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2","package_copy":"E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\\SCIENCE_ADK5556_4X4_FIRST_BUILD_V1.eprj2","bytes":1486848,"sha256":"ED24205910B4CF5C52942DEDDFAA6F2146752A135204309E15A99A1E24C82D81","copy_exact":true},"pdf":{"path":"E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\\FIRST_BUILD_REVIEW_ONLY.pdf","bytes":376380,"sha256":"0DDA69D33D7E774A6B72FEAFEEE67D6364DD5E3D17099E21474F077D84212698","pages":4,"status":"DRAWING_LAYOUT_HOLD"},"connectivity":{"expected_connected_pins":258,"passed_connected_pins":258,"expected_NC_count":28,"actual_NC_count":28,"actual_net_count":63,"actual_parts":78,"actual_component_blocks":78,"pass":true},"persisted_native_hash_unchanged_after_reopen_and_close":true,"persistence":{"pin_checks_exact":true,"net_members_exact":true,"footprint_names_exact":true,"full_component_key_value_multisets_exact":true,"raw_bytes_identical":false,"difference":"component metadata field ordering changed after reopen; exact unordered key-value multisets and all physical pin/nets/footprint names equal"},"budgets_used":{"core_types":7,"library_identities":22,"P1_lookup_and_library_reads_conservative":54,"sources":"primary datasheets/EVM/Yageo plus2 model download locators; within20; failures/redirects retained in ledgers","model_downloads":2,"passive_protection_revision_rounds":1,"DC_groups":81,"AC_cases":0,"normal_transient_cases":0,"fault_transient_cases":0,"fault_static_qualitative_cases":24,"native_new_projects":1,"native_sessions":2,"save_invocations_returning_true":5,"complete_connection_audits":3,"native_connection_and_File_netlist_capture_versions":3,"native_DRC":1,"drawing_export_versions":2},"stage_evidence_timestamps_utc":{"P1_COMPLETION.md":"2026-09-30T20:14:08.724726+00:00","detailed_design.py":"2026-09-30T20:30:45.921213+00:00","VALIDATION_SUMMARY.json":"2026-09-30T20:32:40.181560+00:00","CREATE_FOUR_PAGES.json":"2026-09-30T20:33:26.306304+00:00"},"native_sessions_closed":["14431564-62fb-4c45-9e30-adc4717bdb9b","1c6c22f6-f5bf-45b0-8cc4-1e696b6b45a7"],"actual_pending_or_timeout":false,"zero_operations":["oldmaster open/copy/write","customlibrary device/symbol/footprint create","PCB","manufacturing","procurement","Git writes","directDB/cache/profile/activation/system writes","third-party install"],"remaining":["manufacturer macro AC/normal transient and output recovery/loop PMGM","hardware single-fault/power sequence/backfeed/60sthermal and fault detection","REFIO effective capacitance >=10uF at4.096V and assembly traceability for generic headers","native10warn full descriptions/classification","IC port-label layout correction; export budget exhausted","full accuracy/noise/temperature/lead-resistance and standard bench validation; planned firmware not executed"],"pro_request":"Accept exact saved/reopened native connectivity and bounded DC findings, retain all HOLDs; give unique next package and budget for electrical protection/dynamic closure and explicit layout/DRC detail allowance. No PCB/manufacturing release.","timing_events":136,"P4_elapsed_minutes_through_final_native_close":27.16,"limits_preserved":"No further native edits/export after two drawing versions; graphic flaws disclosed. Native connection is accepted only as logical verification; bench/manufacturing remain blocked."}
+===== END EXECUTION_SUMMARY.json =====
+
+
+===== FULL SOURCE_ACQUISITION.json | bytes 3631 | SHA256 68DBAFD69359E8B46AD397BB6120AD1D35B5DCEFE2A6A91EC74321E9FD8BDA2F | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\SOURCE_ACQUISITION.json =====
+[{"file":"OPAx388.pdf","url":"https://www.ti.com/lit/ds/symlink/opa4388.pdf","time_utc":"2026-09-30T19:36:10.483748+00:00","final_url":"https://www.ti.com/lit/ds/symlink/opa4388.pdf","content_type":"application/pdf","ok":true,"bytes":3340219,"sha256":"BFAA584834295ABBA9CAB4C66CDA702ADA12DEF5D50E49B1BEB0D7444F0775E7","pages":50},{"file":"TMUX1134.pdf","url":"https://www.ti.com/lit/ds/symlink/tmux1134.pdf","time_utc":"2026-09-30T19:36:10.484454+00:00","final_url":"https://www.ti.com/lit/ds/symlink/tmux1134.pdf","content_type":"application/pdf","ok":true,"bytes":1496626,"sha256":"08082D5484460C9279B3778018F981C369CECF14031ADB5FC2649B77E221A966","pages":42},{"file":"ADS8684.pdf","url":"https://www.ti.com/lit/ds/symlink/ads8684.pdf","time_utc":"2026-09-30T19:36:10.484770+00:00","final_url":"https://www.ti.com/lit/ds/symlink/ads8684.pdf","content_type":"application/pdf","ok":true,"bytes":2506949,"sha256":"C776E2307A48D547C394E1B778DCEC2433B8C485A88CD6796DA963BD2514EB6A","pages":68},{"file":"REF3025.pdf","url":"https://www.ti.com/lit/ds/symlink/ref3025.pdf","time_utc":"2026-09-30T19:36:10.485124+00:00","ok":false,"error":"HTTP Error 404: Not Found"},{"file":"TPS7A20.pdf","url":"https://www.ti.com/lit/ds/symlink/tps7a20.pdf","time_utc":"2026-09-30T19:36:11.298449+00:00","final_url":"https://www.ti.com/lit/ds/symlink/tps7a20.pdf","content_type":"application/pdf","ok":true,"bytes":8989493,"sha256":"663A9FF5BCA608643E711652CBA00E7B8BF955C0993A9B86FA108D24D58B8DDC","pages":63},{"file":"STM32G031.pdf","url":"https://www.st.com/resource/en/datasheet/stm32g031k8.pdf","time_utc":"2026-09-30T19:36:18.609017+00:00","ok":false,"error":"HTTP Error 567: Unknown Status"},{"file":"OPA4388_PSPICE.zip","url":"https://www.ti.com/lit/zip/SBOMAZ6","time_utc":"2026-09-30T19:36:18.841363+00:00","final_url":"https://www.ti.com/lit/mo/sbomaz6b/sbomaz6b.zip?ts=1790774220265","content_type":"application/zip","ok":true,"bytes":30414,"sha256":"9AE00398DB58DEF77EC7C9B8F3B77C3D682FE9044E402F8D566DC3EC3D4C7F9C","members":["OPA4388.LIB","OPA4388.LIBsig","OPA4388.OLB","OPA4388_Test_Circuit-PSpiceFiles/","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.mrk","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.prb","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain.sim","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.mrk","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.prb","OPA4388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS.sim","OPA4388_Test_Circuit.DSN","OPA4388_Test_Circuit.OPJ"]},{"file":"OPA4388_TINA.zip","url":"https://www.ti.com/lit/zip/SBOMAZ7","time_utc":"2026-09-30T19:36:28.873993+00:00","final_url":"https://www.ti.com/lit/mo/sbomaz7a/sbomaz7a.zip?ts=1790796991086","content_type":"application/zip","ok":true,"bytes":10987,"sha256":"FB8EED60C4768AFD6BFB3ED8D571F234570735664FE9E679AE9AB79B7F24E7AD","members":["OPA4388.LIB","OPA4388.TLD","OPA4388.TSM"]}]
+===== END SOURCE_ACQUISITION.json =====
+
+
+===== FULL SOURCE_RETRY.json | bytes 466 | SHA256 0D0203629807E3011C11D02C3AFDC87202D8750607E806E73314CD4D21D3B07C | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\SOURCE_RETRY.json =====
+[{"name":"REF30.pdf","url":"https://www.ti.com/lit/ds/symlink/ref30.pdf","final_url":"https://www.ti.com/lit/ds/symlink/ref30.pdf","ok":true,"bytes":1631403,"pages":37,"sha256":"59DAF1014ACC7DDF5E5B92CF43EFDB5F671C9D6BE33505E4165E091872EB9238"},{"name":"STM32G031.pdf","url":"https://www.st.com/resource/en/datasheet/stm32g031j6.pdf","ok":false,"error":"HTTP Error 567: Unknown Status"}]
+===== END SOURCE_RETRY.json =====
+
+
+===== FULL SUPPORT_SOURCE_ACQUISITION.json | bytes 721 | SHA256 4E47C95AB2FF441D004BCDD80373C8F63B7D1096A607AC334733E24A6B5724E7 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\SUPPORT_SOURCE_ACQUISITION.json =====
+[{"name":"ADS86xx_EVM.pdf","url":"https://www.ti.com/lit/ug/sbau245a/sbau245a.pdf","ok":false,"error":"HTTP Error 404: Not Found"},{"name":"RF4990_MANUFACTURER.pdf","url":"https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD074K99L","final_url":"https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD074K99L","ok":true,"bytes":55934,"pages":1,"sha256":"005fe939225cedc0f6960c2269d427f19b411a5738d5b97c5b6a92b60a90a186"},{"name":"STM32G031_CN.pdf","url":"https://www.st.com.cn/resource/en/datasheet/stm32g031k8.pdf","ok":false,"error":"HTTP Error 567: Unknown Status"}]
+===== END SUPPORT_SOURCE_ACQUISITION.json =====
+
+
+===== FULL verify_core_pinmap.py | bytes 3973 | SHA256 8C4A8404FEE93742DD7650BB9C654D82F21D14A768C2D5D7D32E12C114D7CBCD | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\verify_core_pinmap.py =====
+import pathlib,json,csv,collections
+p=pathlib.Path(__file__).resolve().parent
+raw=json.loads((p/'CORE_LIBRARY_PIN_PAD_RAW.json').read_text(encoding='utf-8'))
+expected={
+ 'OPA4388IDR':{1:'OUTA',2:'INA-',3:'INA+',4:'V+',5:'INB+',6:'INB-',7:'OUTB',8:'OUTC',9:'INC-',10:'INC+',11:'V-',12:'IND+',13:'IND-',14:'OUTD'},
+ 'OPA2388IDR':{1:'OUTA',2:'INA-',3:'INA+',4:'V-',5:'INB+',6:'INB-',7:'OUTB',8:'V+'},
+ 'TMUX1134PWR':{1:'SEL1',2:'S1A',3:'D1',4:'S1B',5:'VSS',6:'GND',7:'S2B',8:'D2',9:'S2A',10:'SEL2',11:'SEL3',12:'S3A',13:'D3',14:'S3B',15:'NC',16:'VDD',17:'S4B',18:'D4',19:'S4A',20:'SEL4'},
+ 'ADS8684IDBTR':{1:'SDI',2:'RST/PD',3:'DAISY',4:'REFSEL',5:'REFIO',6:'REFGND',7:'REFCAP',8:'AGND',9:'AVDD',10:'AUX_IN',11:'AUX_GND',12:'NC',13:'NC',14:'NC',15:'NC',16:'AIN_0P',17:'AIN_0GND',18:'AIN_1P',19:'AIN_1GND',20:'AIN_2GND',21:'AIN_2P',22:'AIN_3GND',23:'AIN_3P',24:'NC',25:'NC',26:'NC',27:'NC',28:'AGND',29:'AGND',30:'AVDD',31:'AGND',32:'AGND',33:'DGND',34:'DVDD',35:'DNC',36:'SDO',37:'SCLK',38:'CS'},
+ 'REF3025AIDBZR':{1:'IN',2:'OUT',3:'GND'},
+ 'STM32G031K8T6':{1:'PB9',2:'PC14-OSC32IN',3:'PC15-OSC32OUT',4:'VDD/VDDA',5:'VSS/VSSA',6:'PF2-NRST',7:'PA0',8:'PA1',9:'PA2',10:'PA3',11:'PA4',12:'PA5',13:'PA6',14:'PA7',15:'PB0',16:'PB1',17:'PB2',18:'PA8',19:'PA9',20:'PC6',21:'PA10',22:'PA11[PA9]',23:'PA12[PA10]',24:'PA13',25:'PA14-BOOT0',26:'PA15',27:'PB3',28:'PB4',29:'PB5',30:'PB6',31:'PB7',32:'PB8'},
+ 'TPS7A2033PDBVR':{1:'IN',2:'GND',3:'EN',4:'NC',5:'OUT'}}
+sources={'OPA4388IDR':'OPAx388.pdf p5 Figure5-4/table','OPA2388IDR':'OPAx388.pdf p5 Figure5-3/table','TMUX1134PWR':'TMUX1134.pdf p4 Figure5-2/table5-2, p21 truth table','ADS8684IDBTR':'ADS8684.pdf p4 package diagram plus p5 pin names; p5 AIN2/3 prose polarity conflict retained; official EVM cross-check still pending','REF3025AIDBZR':'REF30.pdf p3 Figure5-1/table5-1','STM32G031K8T6':'ST DS12992 Rev4 p33 Figure7 LQFP32, official web PDF read; local PDF download failed','TPS7A2033PDBVR':'TPS7A20.pdf p4 DBV pin table'}
+def norm(s):
+ s=s.replace('#','').replace('.','')
+ if s=='OUA':s='OUTA'
+ for ch in 'ABCD':
+  if s==('-IN'+ch):s='IN'+ch+'-'
+  if s==('+IN'+ch):s='IN'+ch+'+'
+ return s
+rows=[];checks=[]
+for name,dev in raw.items():
+ nums=[int(x['number']) for x in dev['pins']];pads=[int(x['body']['num']) for x in dev['pad_records']]
+ assert len(nums)==len(set(nums)),'duplicate physical pin '+name
+ assert len(pads)==len(set(pads)),'duplicate footprint pad '+name
+ assert set(nums)==set(pads)==set(expected[name]),'missing pin/pad '+name
+ for pin in dev['pins']:
+  n=int(pin['number']);assert norm(pin['name'])==norm(expected[name][n]),(name,n,pin['name'],expected[name][n])
+  rows.append({'manufacturer_part':name,'library_device_uuid':dev['device']['uuid'],'supplier_id':dev['device']['supplierId'],'symbol_uuid':dev['device']['symbolUuid'],'footprint_uuid':dev['device']['footprintUuid'],'footprint_name':dev['device']['footprintName'],'physical_pin':n,'datasheet_function':expected[name][n],'symbol_pin_number':pin['number'],'symbol_pin_name':pin['name'],'symbol_subpart':pin['part'],'footprint_pad_number':n,'source':sources[name],'status':'NUMERIC_AND_FUNCTION_CORRESPONDENCE_PASS','remaining':'ADS8684 official EVM corroboration pending; actual placed-instance and post-reopen net audit pending' if name=='ADS8684IDBTR' else 'actual placed-instance and post-reopen net audit pending'})
+ checks.append({'part':name,'pins':len(nums),'pads':len(pads),'status':'PASS'})
+with (p/'EXACT_BOM_AND_PINMAP.csv').open('w',encoding='utf-8-sig',newline='') as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+(p/'P1_CORE_PINMAP_CHECKS.json').write_bytes((json.dumps({'checks':checks,'physical_pins_total':len(rows),'manufacturer_electrical_limits_and_geometry_full_qualification':'NOT_CLAIMED','package_pin_diagrams_reviewed':['ADS8684 p4','OPAx388 p5'],'ADC_documentation_conflict_recorded':True},indent=2)+'\n').encode('utf-8'))
+print(json.dumps({'checks':checks,'pins_total':len(rows)}))
+
+===== END verify_core_pinmap.py =====
+
+
+===== FULL validate_electrical.py | bytes 6678 | SHA256 B25E55A51BAF02451AA47BF0241896E83736BA1CF54BD2E69600856ACFFD3685 | E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\validate_electrical.py =====
+import numpy as np,json,pathlib,csv
+p=pathlib.Path(__file__).resolve().parent
+E=.25;VCM=2.5;RF=4990.
+def solve(R,lead=0.,row=0):
+ R=np.asarray(R,dtype=float);assert R.shape==(4,4) and np.all(R>0)
+ lead=np.broadcast_to(np.asarray(lead,dtype=float),(8,)).copy();assert np.all(lead>=0)
+ src=np.full(8,VCM);src[row]-=E
+ A=np.zeros((8,8));b=np.zeros(8)
+ for i in range(4):
+  for j in range(4):
+   g=1/R[i,j];a=i;c=4+j;A[a,a]+=g;A[c,c]+=g;A[a,c]-=g;A[c,a]-=g
+ fixed=np.where(lead==0)[0];free=np.where(lead>0)[0]
+ v=src.copy()
+ if len(free):
+  for k in free:A[k,k]+=1/lead[k];b[k]+=src[k]/lead[k]
+  v[free]=np.linalg.solve(A[np.ix_(free,free)],b[free]-A[np.ix_(free,fixed)]@v[fixed])
+ sensor=(v[4:][None,:]-v[:4,None])/R
+ # positive: each column supplies current to lower selected row.
+ col=sensor.sum(axis=0);sink=sensor.sum(axis=1)
+ return dict(v=v,signal=RF*col,output=VCM+RF*col,row_preiso=src[:4]-1000*sink,row_sink=sink,kcl_sensor=sensor)
+checks=[]
+def check(name,cond):
+ assert cond,name;checks.append(dict(name=name,status='PASS'))
+R=np.full((4,4),800.)
+z=solve(R,0,2);check('zero_leads_exact_selected_cell_current',np.allclose(z['signal'],RF*E/800,atol=1e-12))
+check('row_sink_total',abs(z['row_sink'][2]-.00125)<1e-14)
+check('ideal_row_output_headroom',abs(z['row_preiso'][2]-1)<1e-12)
+a=solve(R,1,2);check('finite_leads_reduce_signal',np.all(a['signal']<z['signal']))
+check('finite_lead_kcl_residual',np.max(np.abs(a['kcl_sensor'].sum(axis=1)-(a['v'][:4]-np.array([2.5,2.5,2.25,2.5]))))<1e-12)
+high=R.copy();high[2,1]=8000;zero=solve(high,0,2);check('neighbor_independent_zero_lead',abs(zero['signal'][1]-RF*E/8000)<1e-12)
+check('finite_leads_neighbor_dependence',abs(solve(high,1,2)['signal'][1]-solve(np.full((4,4),8000.),1,2)['signal'][1])>1e-7)
+def cal(lead):
+ s1=np.array([solve(np.full((4,4),1000.),lead,i)['signal']for i in range(4)])
+ s2=np.array([solve(np.full((4,4),6800.),lead,i)['signal']for i in range(4)])
+ a=(s1-s2)/(1/1000-1/6800);b=s1-a/1000
+ return a,b
+ca,cb=cal(0);check('conductance_two_point_ideal',np.allclose(ca,RF*E)and np.allclose(cb,0,atol=1e-12))
+patterns={'all_low':np.full((4,4),800.),'all_high':np.full((4,4),8000.),'all_mid':np.full((4,4),3300.),'checker':np.where((np.indices((4,4)).sum(axis=0)%2),800.,8000.)}
+for val in(1500.,4700.,7000.):patterns['all_'+str(int(val))]=np.full((4,4),val)
+for name,base,target in[('high_corner_low_neighbors',800.,8000.),('low_corner_high_neighbors',8000.,800.)]:
+ r=np.full((4,4),base);r[0,0]=target;patterns[name]=r
+rows=[];details=[]
+for lead in(0.,.1,1.):
+ ca,cb=cal(lead)
+ for supply in(4.75,5.,5.25):
+  for name,R in patterns.items():
+   sig=np.array([solve(R,lead,i)['signal']for i in range(4)]);rh=ca/(sig-cb);err=rh/R-1
+   normal=[solve(R,lead,i)for i in range(4)]
+   out=np.concatenate([v['output']for v in normal]);drive=np.concatenate([v['row_preiso']for v in normal])
+   row=dict(case_id=len(rows)+1,pattern=name,lead_each_ohm=lead,avdd=supply,calibration='same_lead_all1k_all6k8_fixed_for_all_patterns',max_abs_R_error_pct=float(np.max(np.abs(err))*100),min_tia_output_V=float(out.min()),max_tia_output_V=float(out.max()),min_row_drive_V=float(drive.min()),max_row_drive_V=float(drive.max()),ideal_rail_headroom_only=bool(out.max()<supply and drive.min()>0),wire_allocation_0_2pct=bool(np.max(np.abs(err))<=.002))
+   rows.append(row);details.append(dict(**row,R=R.tolist(),D=sig.tolist(),Rhat=rh.tolist(),Rerr=err.tolist()))
+with(p/'DC_CASES.csv').open('w',encoding='utf-8-sig',newline='')as f:w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+(p/'DC_RESULTS.json').write_text(json.dumps(details,indent=2)+'\n',encoding='utf-8')
+fault=[]
+for typ in('row_gnd','row_5V25','col_gnd','col_5V25','row_col_short','unit_short','unit_open','electrode_open','MCU_HiZ','digital_first_loss','analog_first_loss','slow_start'):
+ for index in (range(4) if typ.startswith(('row_','col_'))and typ!='row_col_short' else [0]):
+  fault.append(dict(case_id=len(fault)+1,type=typ,index=index,analysis='static resistor bound or qualitative open/reset/power disposition; not transient/thermal simulation',row_resistor_limit_mA=5.25/990*1000 if typ.startswith('row_')else None,input_sense_resistor_limit_mA=5.25/9990*1000 if typ.startswith('col_')else None,absolute_max_full_board_verified=False,sixty_second_thermal_verified=False,result='FAULT_PROTECTION_HOLD'))
+(p/'FAULT_CASES.json').write_text(json.dumps(fault,indent=2)+'\n',encoding='utf-8')
+summary=dict(dc_groups=len(rows),dc_selected_row_states=len(rows)*4,dc_cell_readouts=len(rows)*16,patterns=list(patterns),selfchecks=checks,lead_results={str(l):dict(max_R_error_pct=max(r['max_abs_R_error_pct']for r in rows if r['lead_each_ohm']==l),within_wire_alloc_all=all(r['wire_allocation_0_2pct']for r in rows if r['lead_each_ohm']==l))for l in(0.,.1,1.)},fault_static_cases=len(fault),AC_cases=0,transient_cases=0,official_macromodels

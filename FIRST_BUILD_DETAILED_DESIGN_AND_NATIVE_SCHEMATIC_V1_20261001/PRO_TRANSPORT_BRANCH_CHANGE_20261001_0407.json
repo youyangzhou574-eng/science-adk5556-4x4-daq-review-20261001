@@ -1,0 +1,60 @@
+{
+  "observedAt": "2026-10-01T04:07:47.507Z",
+  "threadId": "69dd2e6e-e580-83ea-a898-0b9abcf3c21a",
+  "status": {
+    "type": "systemError"
+  },
+  "latestTurn": {
+    "id": "b976900a-31c5-48ce-9661-b7c6dcf511a5",
+    "status": "completed",
+    "error": null,
+    "startedAt": 1790827390.770784,
+    "completedAt": 1790827403.090134,
+    "durationMs": null,
+    "items": [
+      {
+        "type": "userMessage",
+        "id": "b976900a-31c5-48ce-9661-b7c6dcf511a5",
+        "content": [
+          {
+            "type": "text",
+            "text": "还在吗对话"
+          }
+        ]
+      },
+      {
+        "type": "agentMessage",
+        "id": "4797e50c-6792-4407-a5d0-d79b7b29ef16",
+        "text": "在，当前这个对话还正常。\n\n你刚才的 **13 段回执目前我收到 1–3/13**，还在等 **PART 4/13 到 13/13**。按你之前的要求，中间我只 ACK，等最后的 **END** 后再做一次完整统一裁定。"
+      }
+    ]
+  },
+  "visibleTurnIds": [
+    "b976900a-31c5-48ce-9661-b7c6dcf511a5",
+    "5d9bdf17-5e1c-4743-933f-2d8a31ba2aaa",
+    "52275fca-73e2-46ce-bda6-5147df413501",
+    "8da7856e-242c-4916-b53b-989773c7e87f",
+    "cf4f4e00-8e16-4e4c-9eb7-d3c902239992",
+    "4c678379-e591-4a06-9900-1eff70d0a9d6"
+  ],
+  "visibleAcknowledgedParts": [
+    1,
+    2,
+    3
+  ],
+  "previouslyDeliveredParts": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "missingFromCurrentRead": [
+    "90b5ba4b-0686-4e18-83a6-298e0ca88c8f",
+    "2f2814b9-51f9-41c1-814d-4b633e198b90",
+    "a01d9afc-7ad1-4b2b-a6f9-c81d9bdfacab"
+  ],
+  "interpretation": "Current readable history differs from previously confirmed history. Branch change is inferred, not proven. Preserve original successful-delivery records. No resend and no PART6 transmission under the current non-duplication instruction.",
+  "communicationState": "CURRENT_HISTORY_RECEIPT_RANGE_MISMATCH_1_TO_3_AFTER_NEW_REPLY",
+  "notified": true
+}

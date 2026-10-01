@@ -1,0 +1,17 @@
+[
+  {
+    "name": "REF30.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/ref30.pdf",
+    "final_url": "https://www.ti.com/lit/ds/symlink/ref30.pdf",
+    "ok": true,
+    "bytes": 1631403,
+    "pages": 37,
+    "sha256": "59DAF1014ACC7DDF5E5B92CF43EFDB5F671C9D6BE33505E4165E091872EB9238"
+  },
+  {
+    "name": "STM32G031.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/stm32g031j6.pdf",
+    "ok": false,
+    "error": "HTTP Error 567: Unknown Status"
+  }
+]

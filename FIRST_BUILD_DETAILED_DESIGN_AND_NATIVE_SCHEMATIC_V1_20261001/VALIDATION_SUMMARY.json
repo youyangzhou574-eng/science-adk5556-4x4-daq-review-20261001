@@ -1,0 +1,79 @@
+{
+  "dc_groups": 81,
+  "dc_selected_row_states": 324,
+  "dc_cell_readouts": 1296,
+  "patterns": [
+    "all_low",
+    "all_high",
+    "all_mid",
+    "checker",
+    "all_1500",
+    "all_4700",
+    "all_7000",
+    "high_corner_low_neighbors",
+    "low_corner_high_neighbors"
+  ],
+  "selfchecks": [
+    {
+      "name": "zero_leads_exact_selected_cell_current",
+      "status": "PASS"
+    },
+    {
+      "name": "row_sink_total",
+      "status": "PASS"
+    },
+    {
+      "name": "ideal_row_output_headroom",
+      "status": "PASS"
+    },
+    {
+      "name": "finite_leads_reduce_signal",
+      "status": "PASS"
+    },
+    {
+      "name": "finite_lead_kcl_residual",
+      "status": "PASS"
+    },
+    {
+      "name": "neighbor_independent_zero_lead",
+      "status": "PASS"
+    },
+    {
+      "name": "finite_leads_neighbor_dependence",
+      "status": "PASS"
+    },
+    {
+      "name": "conductance_two_point_ideal",
+      "status": "PASS"
+    }
+  ],
+  "lead_results": {
+    "0.0": {
+      "max_R_error_pct": 1.2212453270876722e-13,
+      "within_wire_alloc_all": true
+    },
+    "0.1": {
+      "max_R_error_pct": 0.07978330426516855,
+      "within_wire_alloc_all": true
+    },
+    "1.0": {
+      "max_R_error_pct": 0.7915255333855065,
+      "within_wire_alloc_all": false
+    }
+  },
+  "fault_static_cases": 24,
+  "AC_cases": 0,
+  "transient_cases": 0,
+  "official_macromodels_downloaded": 2,
+  "official_macromodel_execution": false,
+  "noise_verified": false,
+  "PM_GM_verified": false,
+  "settling_300us_verified": false,
+  "model_limits": [
+    "ideal infinite DC opamp gain; no saturation, finite loop gain, input bias, reference variation or clamp dynamics",
+    "one lumped resistance per electrode; no distributed resistance/capacitance/contact model",
+    "supply cases only verify ideal output-voltage headroom; no power-sequencing model",
+    "calibration uses exact mathematical standards; no standard measurement uncertainty/noise included"
+  ],
+  "result": "DC_MODEL_COMPLETED / DYNAMIC_VALIDATION_HOLD / FAULT_PROTECTION_HOLD"
+}

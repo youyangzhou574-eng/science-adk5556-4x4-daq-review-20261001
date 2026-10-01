@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "part": "OPA4388IDR",
+      "pins": 14,
+      "pads": 14,
+      "status": "PASS"
+    },
+    {
+      "part": "OPA2388IDR",
+      "pins": 8,
+      "pads": 8,
+      "status": "PASS"
+    },
+    {
+      "part": "TMUX1134PWR",
+      "pins": 20,
+      "pads": 20,
+      "status": "PASS"
+    },
+    {
+      "part": "ADS8684IDBTR",
+      "pins": 38,
+      "pads": 38,
+      "status": "PASS"
+    },
+    {
+      "part": "REF3025AIDBZR",
+      "pins": 3,
+      "pads": 3,
+      "status": "PASS"
+    },
+    {
+      "part": "STM32G031K8T6",
+      "pins": 32,
+      "pads": 32,
+      "status": "PASS"
+    },
+    {
+      "part": "TPS7A2033PDBVR",
+      "pins": 5,
+      "pads": 5,
+      "status": "PASS"
+    }
+  ],
+  "physical_pins_total": 120,
+  "manufacturer_electrical_limits_and_geometry_full_qualification": "NOT_CLAIMED",
+  "package_pin_diagrams_reviewed": [
+    "ADS8684 p4",
+    "OPAx388 p5"
+  ],
+  "ADC_documentation_conflict_recorded": true
+}

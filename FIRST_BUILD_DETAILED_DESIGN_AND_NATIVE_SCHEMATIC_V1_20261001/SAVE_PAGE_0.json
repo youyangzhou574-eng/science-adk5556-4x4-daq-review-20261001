@@ -1,0 +1,197 @@
+{
+  "started_utc": "2026-09-30T20:36:20.687919+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "14431564-62fb-4c45-9e30-adc4717bdb9b",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const saved=await eda.sch_Document.save(); return {saved,page:await eda.dmt_Schematic.getCurrentSchematicPageInfo()};",
+    "--timeout",
+    "60000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"saved\":true,\"page\":{\"name\":\"Power_Reference\",\"itemType\":\"Schematic Page\",\"uuid\":\"9965fd7b16015eaf\",\"parentSchematicUuid\":\"0ccfdd809e468881\",\"parentSchematicName\":\"Schematic1\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_FIRST_BUILD_V1\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Power_Reference\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"03:43:13\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":1},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"04:33:25\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}}},\"logs\":[],\"durationMs\":30}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "saved": true,
+      "page": {
+        "name": "Power_Reference",
+        "itemType": "Schematic Page",
+        "uuid": "9965fd7b16015eaf",
+        "parentSchematicUuid": "0ccfdd809e468881",
+        "parentSchematicName": "Schematic1",
+        "showTitleBlock": false,
+        "titleBlockData": {
+          "Symbol": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "Drawing-Symbol_A4"
+          },
+          "Company": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "嘉立创EDA"
+          },
+          "Drawed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Reviewed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Part Number": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Version": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "V1.0"
+          },
+          "Page Size": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "A4"
+          },
+          "@Project Name": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "SCIENCE_ADK5556_4X4_FIRST_BUILD_V1"
+          },
+          "@Update Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-01"
+          },
+          "@Create Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-01"
+          },
+          "Device": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Drawing-Symbol_A4"
+          },
+          "@Board Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Board1"
+          },
+          "@Page Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Power_Reference"
+          },
+          "@Create Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "03:43:13"
+          },
+          "@Page Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 4
+          },
+          "@Page No": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1
+          },
+          "@Schematic Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Schematic1"
+          },
+          "@Update Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "04:33:25"
+          },
+          "@Assembly Variant": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Basic"
+          },
+          "Border": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "Title Block Position": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "3"
+          },
+          "Size": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "A4"
+          },
+          "Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1170
+          },
+          "Height": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 825
+          },
+          "Region Start": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "X Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 6
+          },
+          "Y Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 4
+          },
+          "Blade Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 10
+          },
+          "Color": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Title Block": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "0"
+          },
+          "Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Description": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "ID": {}
+        }
+      }
+    },
+    "logs": [],
+    "durationMs": 30
+  }
+}

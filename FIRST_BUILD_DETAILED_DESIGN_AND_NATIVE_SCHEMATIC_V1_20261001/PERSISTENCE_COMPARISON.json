@@ -1,0 +1,8 @@
+{
+  "pin_checks_exact": true,
+  "net_members_exact": true,
+  "footprint_names_exact": true,
+  "full_component_key_value_multisets_exact": true,
+  "raw_bytes_identical": false,
+  "difference": "component metadata field ordering changed after reopen; exact unordered key-value multisets and all physical pin/nets/footprint names equal"
+}

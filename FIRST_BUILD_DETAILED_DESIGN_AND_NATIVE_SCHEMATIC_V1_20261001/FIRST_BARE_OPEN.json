@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-09-30T19:37:31.709973+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--headless",
+    "true"
+  ],
+  "returncode": 1,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"INVALID_ARGS\",\"message\":\"path is required\"}}\n",
+  "stderr": "INVALID_ARGS: path is required\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "INVALID_ARGS",
+      "message": "path is required"
+    }
+  }
+}

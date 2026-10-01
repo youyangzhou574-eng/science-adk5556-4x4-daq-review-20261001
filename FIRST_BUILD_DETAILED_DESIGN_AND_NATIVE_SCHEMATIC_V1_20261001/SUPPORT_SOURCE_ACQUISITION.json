@@ -1,0 +1,23 @@
+[
+  {
+    "name": "ADS86xx_EVM.pdf",
+    "url": "https://www.ti.com/lit/ug/sbau245a/sbau245a.pdf",
+    "ok": false,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "RF4990_MANUFACTURER.pdf",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD074K99L",
+    "final_url": "https://yageogroup.com/component-documentation/download/specsheet/RT0603BRD074K99L",
+    "ok": true,
+    "bytes": 55934,
+    "pages": 1,
+    "sha256": "005fe939225cedc0f6960c2269d427f19b411a5738d5b97c5b6a92b60a90a186"
+  },
+  {
+    "name": "STM32G031_CN.pdf",
+    "url": "https://www.st.com.cn/resource/en/datasheet/stm32g031k8.pdf",
+    "ok": false,
+    "error": "HTTP Error 567: Unknown Status"
+  }
+]

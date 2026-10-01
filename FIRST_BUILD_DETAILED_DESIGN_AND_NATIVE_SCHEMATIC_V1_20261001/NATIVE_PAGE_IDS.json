@@ -1,0 +1,22 @@
+[
+  {
+    "uuid": "9965fd7b16015eaf",
+    "name": "Power_Reference",
+    "index": 0
+  },
+  {
+    "uuid": "1baf912db250d2de",
+    "name": "Row_Drive_Interface",
+    "index": 1
+  },
+  {
+    "uuid": "a51b95c47c70bc0e",
+    "name": "Column_TIA",
+    "index": 2
+  },
+  {
+    "uuid": "cd673e3782e532f6",
+    "name": "ADC_MCU_Interfaces",
+    "index": 3
+  }
+]
