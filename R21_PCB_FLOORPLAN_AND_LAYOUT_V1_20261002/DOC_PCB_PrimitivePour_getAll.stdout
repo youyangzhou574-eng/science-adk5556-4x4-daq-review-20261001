@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"获取所有覆铜边框图元","params":[{"name":"net","type":"string","description":"网络名称","required":false},{"name":"layer","type":"TPCB_LayersOfCopper","description":"层","required":false},{"name":"primitiveLock","type":"boolean","description":"是否锁定","required":false}],"returns":{"type":"Array<IPCB_PrimitivePour>"}},"logs":[],"durationMs":158}

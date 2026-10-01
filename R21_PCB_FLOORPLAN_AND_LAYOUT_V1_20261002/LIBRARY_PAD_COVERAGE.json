@@ -1,0 +1,1593 @@
+{
+  "parts": 176,
+  "connected": 514,
+  "nc": 36,
+  "pass": true,
+  "audit": [
+    {
+      "ref": "CF0",
+      "device": "GRM1885C1H222JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "CF1",
+      "device": "GRM1885C1H222JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "CF2",
+      "device": "GRM1885C1H222JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "CF3",
+      "device": "GRM1885C1H222JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADC0",
+      "device": "GRM188R71C103KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADC1",
+      "device": "GRM188R71C103KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADC2",
+      "device": "GRM188R71C103KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADC3",
+      "device": "GRM188R71C103KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADCA1",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADCA2",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADCD",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADC_REFCAP",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ADC_REFIO",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_AVDD30A",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_AVDD30B",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_AVDD30_HF",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_AVDD9A",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_AVDD9B",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_AVDD9_HF",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_BUF",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_DIV",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_DVDD34A",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_DVDD34B",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_LDO_IN",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_LDO_OUT",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_MCU1",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_MCU_BULK",
+      "device": "GRM188R61C105KA93D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_MUX",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_PWR",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_REF",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_REFCAP_BULKA",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_REFCAP_BULKB",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_REFIO_B",
+      "device": "GRM32ER71E226KE15L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ROW_HF0",
+      "device": "GRM1885C1H101JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ROW_HF1",
+      "device": "GRM1885C1H101JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ROW_HF2",
+      "device": "GRM1885C1H101JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ROW_HF3",
+      "device": "GRM1885C1H101JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_ROW_OP",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_RST",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_TIA_HF0",
+      "device": "GRM1885C1H220JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_TIA_HF1",
+      "device": "GRM1885C1H220JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_TIA_HF2",
+      "device": "GRM1885C1H220JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_TIA_HF3",
+      "device": "GRM1885C1H220JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_TIA_OP",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_U13",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_U14",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_U15",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_VCM_HF",
+      "device": "GRM1885C1H101JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "C_VEX_HF",
+      "device": "GRM1885C1H101JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "D_J3_1",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_J3_3",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_J3_4",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_J3_5",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_J4_1",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_J4_3",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_J4_4",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_ROW0",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_ROW1",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_ROW2",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_ROW3",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_TIA0",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_TIA1",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_TIA2",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_TIA3",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_VCM",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "D_VEX",
+      "device": "BAT54S,215",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "J1",
+      "device": "HDR-M_2.54_1x2P",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "J2",
+      "device": "HDR-M_2.54_1x8P",
+      "schematicPins": 8,
+      "libraryPadNumbers": 8,
+      "missing": [],
+      "extras": [],
+      "padCount": 8
+    },
+    {
+      "ref": "J3",
+      "device": "HDR-M_2.54_1x6P",
+      "schematicPins": 6,
+      "libraryPadNumbers": 6,
+      "missing": [],
+      "extras": [],
+      "padCount": 6
+    },
+    {
+      "ref": "J4",
+      "device": "HDR-M_2.54_1x4P",
+      "schematicPins": 4,
+      "libraryPadNumbers": 4,
+      "missing": [],
+      "extras": [],
+      "padCount": 4
+    },
+    {
+      "ref": "RD_B1",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B2",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B3",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B4",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B5",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B6",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B7",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B8",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_B9",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RD_TOP",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RF0",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RF1",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RF2",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "RF3",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ADC0",
+      "device": "0603WAF1000T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ADC1",
+      "device": "0603WAF1000T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ADC2",
+      "device": "0603WAF1000T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ADC3",
+      "device": "0603WAF1000T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ADC_RESET_PD",
+      "device": "0603WAF1003T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_COL_SENSE0",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_COL_SENSE1",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_COL_SENSE2",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_COL_SENSE3",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_CS_PU",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ENABLE_PD",
+      "device": "0603WAF1003T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_HW_PD",
+      "device": "0603WAF1003T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ISO0",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ISO1",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ISO2",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ISO3",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_J3_1",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_J3_3",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_J3_4",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_J3_5",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_J4_1",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_J4_3",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_J4_4",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ROW_FB0",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ROW_FB1",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ROW_FB2",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_ROW_FB3",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_RST",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_SEL_PD0",
+      "device": "0603WAF1003T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_SEL_PD1",
+      "device": "0603WAF1003T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_SEL_PD2",
+      "device": "0603WAF1003T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_SEL_PD3",
+      "device": "0603WAF1003T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_TIA_ISO0",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_TIA_ISO1",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_TIA_ISO2",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_TIA_ISO3",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_VCM_FB",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_VCM_ISO",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_VEX_FB",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "R_VEX_ISO",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U1",
+      "device": "OPA4388IDR",
+      "schematicPins": 14,
+      "libraryPadNumbers": 14,
+      "missing": [],
+      "extras": [],
+      "padCount": 14
+    },
+    {
+      "ref": "U10",
+      "device": "LM73100RPWR",
+      "schematicPins": 10,
+      "libraryPadNumbers": 10,
+      "missing": [],
+      "extras": [],
+      "padCount": 10
+    },
+    {
+      "ref": "U10_BLEED",
+      "device": "RC1206FR-07100RL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_EN_G",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_EN_R",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_IN_CAP",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_OUT_CAP",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_OV_B1",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_OV_B2",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_OV_T",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_PG_B",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U10_PG_T",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11",
+      "device": "TPS389001DSET",
+      "schematicPins": 6,
+      "libraryPadNumbers": 6,
+      "missing": [],
+      "extras": [],
+      "padCount": 6
+    },
+    {
+      "ref": "U11_BOT",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_CT_C",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_SENSE_C",
+      "device": "GRM1885C1H102JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_TOP0",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_TOP1",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_TOP2",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_TOP3",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_TOP4",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U11_VDD_C",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12",
+      "device": "TPS389001DSET",
+      "schematicPins": 6,
+      "libraryPadNumbers": 6,
+      "missing": [],
+      "extras": [],
+      "padCount": 6
+    },
+    {
+      "ref": "U12_BOT",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12_CT_C",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12_SENSE_C",
+      "device": "GRM1885C1H102JA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12_TOP0",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12_TOP1",
+      "device": "RT0603BRD074K99L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12_TOP2",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12_TOP3",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U12_VDD_C",
+      "device": "GRM188R71C104KA01D",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U13",
+      "device": "SN74LVC08APWR",
+      "schematicPins": 14,
+      "libraryPadNumbers": 14,
+      "missing": [],
+      "extras": [],
+      "padCount": 14
+    },
+    {
+      "ref": "U14",
+      "device": "SN74LVC08APWR",
+      "schematicPins": 14,
+      "libraryPadNumbers": 14,
+      "missing": [],
+      "extras": [],
+      "padCount": 14
+    },
+    {
+      "ref": "U15",
+      "device": "SN74LVC1G17DBVR",
+      "schematicPins": 5,
+      "libraryPadNumbers": 5,
+      "missing": [],
+      "extras": [],
+      "padCount": 5
+    },
+    {
+      "ref": "U2",
+      "device": "OPA4388IDR",
+      "schematicPins": 14,
+      "libraryPadNumbers": 14,
+      "missing": [],
+      "extras": [],
+      "padCount": 14
+    },
+    {
+      "ref": "U3",
+      "device": "OPA2388IDR",
+      "schematicPins": 8,
+      "libraryPadNumbers": 8,
+      "missing": [],
+      "extras": [],
+      "padCount": 8
+    },
+    {
+      "ref": "U4",
+      "device": "TMUX1134PWR",
+      "schematicPins": 20,
+      "libraryPadNumbers": 20,
+      "missing": [],
+      "extras": [],
+      "padCount": 20
+    },
+    {
+      "ref": "U5",
+      "device": "ADS8684IDBTR",
+      "schematicPins": 38,
+      "libraryPadNumbers": 38,
+      "missing": [],
+      "extras": [],
+      "padCount": 38
+    },
+    {
+      "ref": "U6",
+      "device": "REF3025AIDBZR",
+      "schematicPins": 3,
+      "libraryPadNumbers": 3,
+      "missing": [],
+      "extras": [],
+      "padCount": 3
+    },
+    {
+      "ref": "U7",
+      "device": "STM32G031K8T6",
+      "schematicPins": 32,
+      "libraryPadNumbers": 32,
+      "missing": [],
+      "extras": [],
+      "padCount": 32
+    },
+    {
+      "ref": "U8",
+      "device": "TPS7A2033PDBVR",
+      "schematicPins": 5,
+      "libraryPadNumbers": 5,
+      "missing": [],
+      "extras": [],
+      "padCount": 5
+    },
+    {
+      "ref": "U9",
+      "device": "LM73100RPWR",
+      "schematicPins": 10,
+      "libraryPadNumbers": 10,
+      "missing": [],
+      "extras": [],
+      "padCount": 10
+    },
+    {
+      "ref": "U9_BLEED",
+      "device": "RC2010FK-07100RL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_EN_G",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_EN_R",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_IN_CAP",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_OUT_CAP",
+      "device": "GRM31CR71H225KA88L",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_OV_B1",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_OV_B2",
+      "device": "0603WAF1001T5E",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_OV_T",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_PG_B",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    },
+    {
+      "ref": "U9_PG_T",
+      "device": "RT0603BRD0710KL",
+      "schematicPins": 2,
+      "libraryPadNumbers": 2,
+      "missing": [],
+      "extras": [],
+      "padCount": 2
+    }
+  ],
+  "note": "Library pad-number coverage prerequisite; actual native pads and manufacturer mapping still require audit. No footprint substitution."
+}

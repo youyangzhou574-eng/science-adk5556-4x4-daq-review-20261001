@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-01T20:50:22.707282+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_Drc",
+    "--method-name",
+    "overwriteNetRules"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"覆写网络规则\",\"remarks\":\"将会覆写当前 PCB 的所有网络规则，请注意数据丢失风险\",\"params\":[{\"name\":\"netRules\",\"type\":\"Array<any>\",\"description\":\"网络规则\",\"required\":true}],\"returns\":{\"type\":\"boolean\"}},\"logs\":[],\"durationMs\":162}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "覆写网络规则",
+      "remarks": "将会覆写当前 PCB 的所有网络规则，请注意数据丢失风险",
+      "params": [
+        {
+          "name": "netRules",
+          "type": "Array<any>",
+          "description": "网络规则",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean"
+      }
+    },
+    "logs": [],
+    "durationMs": 162
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "started_utc": "2026-10-01T20:45:42.813476+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_PrimitivePour",
+    "--method-name",
+    "create"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"创建覆铜边框\",\"params\":[{\"name\":\"net\",\"type\":\"string\",\"description\":\"网络名称\",\"required\":true},{\"name\":\"layer\",\"type\":\"TPCB_LayersOfCopper\",\"description\":\"层\",\"required\":true},{\"name\":\"complexPolygon\",\"type\":\"IPCB_Polygon\",\"description\":\"复杂多边形对象\",\"required\":true},{\"name\":\"pourFillMethod\",\"type\":\"EPCB_PrimitivePourFillMethod\",\"description\":\"覆铜填充方法\",\"required\":false},{\"name\":\"preserveSilos\",\"type\":\"boolean\",\"description\":\"是否保留孤岛\",\"required\":false},{\"name\":\"pourName\",\"type\":\"string\",\"description\":\"覆铜名称\",\"required\":false},{\"name\":\"pourPriority\",\"type\":\"number\",\"description\":\"覆铜优先级\",\"required\":false},{\"name\":\"lineWidth\",\"type\":\"number\",\"description\":\"线宽\",\"required\":false},{\"name\":\"primitiveLock\",\"type\":\"boolean\",\"description\":\"是否锁定\",\"required\":false}],\"returns\":{\"type\":\"IPCB_PrimitivePour | null\"}},\"logs\":[],\"durationMs\":149}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "创建覆铜边框",
+      "params": [
+        {
+          "name": "net",
+          "type": "string",
+          "description": "网络名称",
+          "required": true
+        },
+        {
+          "name": "layer",
+          "type": "TPCB_LayersOfCopper",
+          "description": "层",
+          "required": true
+        },
+        {
+          "name": "complexPolygon",
+          "type": "IPCB_Polygon",
+          "description": "复杂多边形对象",
+          "required": true
+        },
+        {
+          "name": "pourFillMethod",
+          "type": "EPCB_PrimitivePourFillMethod",
+          "description": "覆铜填充方法",
+          "required": false
+        },
+        {
+          "name": "preserveSilos",
+          "type": "boolean",
+          "description": "是否保留孤岛",
+          "required": false
+        },
+        {
+          "name": "pourName",
+          "type": "string",
+          "description": "覆铜名称",
+          "required": false
+        },
+        {
+          "name": "pourPriority",
+          "type": "number",
+          "description": "覆铜优先级",
+          "required": false
+        },
+        {
+          "name": "lineWidth",
+          "type": "number",
+          "description": "线宽",
+          "required": false
+        },
+        {
+          "name": "primitiveLock",
+          "type": "boolean",
+          "description": "是否锁定",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "IPCB_PrimitivePour | null"
+      }
+    },
+    "logs": [],
+    "durationMs": 149
+  }
+}

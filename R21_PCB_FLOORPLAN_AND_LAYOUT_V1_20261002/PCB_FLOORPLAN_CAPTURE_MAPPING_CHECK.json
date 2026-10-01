@@ -1,0 +1,11 @@
+{
+  "parts": 176,
+  "connectedChecked": 514,
+  "connectedPass": 514,
+  "ncChecked": 36,
+  "ncPass": 36,
+  "actualNonEmptyNets": 107,
+  "physicalPads": 550,
+  "errors": [],
+  "pass": true
+}

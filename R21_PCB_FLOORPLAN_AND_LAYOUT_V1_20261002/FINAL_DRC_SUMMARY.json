@@ -1,0 +1,9 @@
+{
+  "Clearance Error": 0,
+  "Connection Error": 452,
+  "Netlist Error": 1,
+  "detailedRows": 453,
+  "lineCount": 93,
+  "groundPourBoundaryCount": 1,
+  "status": "NOT_DRC_CLEAN_NOT_FULLY_ROUTED"
+}

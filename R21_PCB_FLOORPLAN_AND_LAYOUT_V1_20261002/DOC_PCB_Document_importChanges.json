@@ -1,0 +1,34 @@
+{
+  "started_utc": "2026-10-01T20:33:23.544634+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_Document",
+    "--method-name",
+    "importChanges"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"从原理图导入变更\",\"params\":[{\"name\":\"uuid\",\"type\":\"string\",\"description\":\"原理图 UUID，默认为关联在同一个 Board 下的原理图\",\"required\":false}],\"returns\":{\"type\":\"boolean\"}},\"logs\":[],\"durationMs\":195}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "从原理图导入变更",
+      "params": [
+        {
+          "name": "uuid",
+          "type": "string",
+          "description": "原理图 UUID，默认为关联在同一个 Board 下的原理图",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "boolean"
+      }
+    },
+    "logs": [],
+    "durationMs": 195
+  }
+}

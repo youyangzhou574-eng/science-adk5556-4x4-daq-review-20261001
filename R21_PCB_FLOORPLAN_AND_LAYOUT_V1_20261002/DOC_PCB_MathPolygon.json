@@ -1,0 +1,55 @@
+{
+  "started_utc": "2026-10-01T20:41:02.735667+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_MathPolygon"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"PCB & 封装 / 多边形数学类\",\"methods\":[{\"name\":\"createPolygon\",\"comment\":\"创建单多边形\"},{\"name\":\"createComplexPolygon\",\"comment\":\"创建复杂多边形\"},{\"name\":\"splitPolygon\",\"comment\":\"拆分单多边形\"},{\"name\":\"discretize\",\"comment\":\"将单多边形离散化为点数据\"},{\"name\":\"calculateWidth\",\"comment\":\"计算复杂多边形 BBox 宽度\"},{\"name\":\"calculateHeight\",\"comment\":\"计算复杂多边形 BBox 高度\"},{\"name\":\"calculateBBoxHeight\"},{\"name\":\"convertImageToComplexPolygon\",\"comment\":\"将图像转换为复杂多边形对象\"}],\"callPath\":\"pcb_MathPolygon\"},\"logs\":[],\"durationMs\":167}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "PCB & 封装 / 多边形数学类",
+      "methods": [
+        {
+          "name": "createPolygon",
+          "comment": "创建单多边形"
+        },
+        {
+          "name": "createComplexPolygon",
+          "comment": "创建复杂多边形"
+        },
+        {
+          "name": "splitPolygon",
+          "comment": "拆分单多边形"
+        },
+        {
+          "name": "discretize",
+          "comment": "将单多边形离散化为点数据"
+        },
+        {
+          "name": "calculateWidth",
+          "comment": "计算复杂多边形 BBox 宽度"
+        },
+        {
+          "name": "calculateHeight",
+          "comment": "计算复杂多边形 BBox 高度"
+        },
+        {
+          "name": "calculateBBoxHeight"
+        },
+        {
+          "name": "convertImageToComplexPolygon",
+          "comment": "将图像转换为复杂多边形对象"
+        }
+      ],
+      "callPath": "pcb_MathPolygon"
+    },
+    "logs": [],
+    "durationMs": 167
+  }
+}

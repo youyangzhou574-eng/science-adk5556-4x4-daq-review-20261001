@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"获取器件关联的所有焊盘","params":[{"name":"primitiveId","type":"string","description":"器件图元 ID","required":true}],"returns":{"type":"Array<IPCB_PrimitiveComponentPad> | null"}},"logs":[],"durationMs":161}

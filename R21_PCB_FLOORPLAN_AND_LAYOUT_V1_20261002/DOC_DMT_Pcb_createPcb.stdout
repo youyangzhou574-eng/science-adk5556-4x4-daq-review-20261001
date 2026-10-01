@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"创建 PCB","params":[{"name":"boardName","type":"string","description":"所属板子名称，如若不指定则为游离 PCB","required":false}],"returns":{"type":"string | null"}},"logs":[],"durationMs":180}

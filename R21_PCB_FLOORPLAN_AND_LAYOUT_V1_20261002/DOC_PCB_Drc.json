@@ -1,0 +1,205 @@
+{
+  "started_utc": "2026-10-01T20:32:07.005891+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_Drc"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"PCB & 封装 / 设计规则检查（DRC）类\",\"remarks\":\"检查、设定 DRC 规则\",\"methods\":[{\"name\":\"check\",\"comment\":\"检查 DRC\"},{\"name\":\"getRealTimeDrcStatus\",\"comment\":\"获取实时 DRC 检查状态\"},{\"name\":\"startRealTimeDrc\",\"comment\":\"开始实时 DRC 检查\"},{\"name\":\"stopRealTimeDrc\",\"comment\":\"停止实时 DRC 检查\"},{\"name\":\"getCurrentRuleConfigurationName\",\"comment\":\"获取当前设计规则配置名称\"},{\"name\":\"getCurrentRuleConfiguration\",\"comment\":\"获取当前设计规则配置\"},{\"name\":\"getRuleConfiguration\",\"comment\":\"获取指定设计规则配置\"},{\"name\":\"getAllRuleConfigurations\",\"comment\":\"获取所有设计规则配置\"},{\"name\":\"saveRuleConfiguration\",\"comment\":\"保存设计规则配置\"},{\"name\":\"renameRuleConfiguration\",\"comment\":\"重命名设计规则配置\"},{\"name\":\"deleteRuleConfiguration\",\"comment\":\"删除设计规则配置\"},{\"name\":\"getDefaultRuleConfigurationName\",\"comment\":\"获取新建 PCB 默认设计规则配置的名称\"},{\"name\":\"setAsDefaultRuleConfiguration\",\"comment\":\"设置为新建 PCB 默认设计规则配置\"},{\"name\":\"overwriteCurrentRuleConfiguration\",\"comment\":\"覆写当前设计规则配置\"},{\"name\":\"getNetRules\",\"comment\":\"获取网络规则\"},{\"name\":\"overwriteNetRules\",\"comment\":\"覆写网络规则\"},{\"name\":\"getNetByNetRules\",\"comment\":\"获取网络-网络规则\"},{\"name\":\"overwriteNetByNetRules\",\"comment\":\"覆写网络-网络规则\"},{\"name\":\"getRegionRules\",\"comment\":\"获取区域规则\"},{\"name\":\"overwriteRegionRules\",\"comment\":\"覆写区域规则\"},{\"name\":\"createNetClass\",\"comment\":\"创建网络类\"},{\"name\":\"deleteNetClass\",\"comment\":\"删除网络类\"},{\"name\":\"modifyNetClassName\",\"comment\":\"修改网络类的名称\"},{\"name\":\"addNetToNetClass\",\"comment\":\"将网络添加到网络类\"},{\"name\":\"removeNetFromNetClass\",\"comment\":\"从网络类中移除网络\"},{\"name\":\"getAllNetClasses\",\"comment\":\"获取所有网络类的详细属性\"},{\"name\":\"createDifferentialPair\",\"comment\":\"创建差分对\"},{\"name\":\"deleteDifferentialPair\",\"comment\":\"删除差分对\"},{\"name\":\"modifyDifferentialPairName\",\"comment\":\"修改差分对的名称\"},{\"name\":\"modifyDifferentialPairPositiveNet\",\"comment\":\"修改差分对正网络\"},{\"name\":\"modifyDifferentialPairNegativeNet\",\"comment\":\"修改差分对负网络\"},{\"name\":\"getAllDifferentialPairs\",\"comment\":\"获取所有差分对的详细属性\"},{\"name\":\"createEqualLengthNetGroup\",\"comment\":\"创建等长网络组\"},{\"name\":\"deleteEqualLengthNetGroup\",\"comment\":\"删除等长网络组\"},{\"name\":\"modifyEqualLengthNetGroupName\",\"comment\":\"修改等长网络组的名称\"},{\"name\":\"addNetToEqualLengthNetGroup\",\"comment\":\"将网络添加到等长网络组\"},{\"name\":\"removeNetFromEqualLengthNetGroup\",\"comment\":\"从等长网络组中移除网络\"},{\"name\":\"getAllEqualLengthNetGroups\",\"comment\":\"获取所有等长网络组的详细属性\"},{\"name\":\"createPadPairGroup\",\"comment\":\"创建焊盘对组\"},{\"name\":\"deletePadPairGroup\",\"comment\":\"删除焊盘对组\"},{\"name\":\"modifyPadPairGroupName\",\"comment\":\"修改焊盘对组的名称\"},{\"name\":\"addPadPairToPadPairGroup\",\"comment\":\"将焊盘对添加到焊盘对组\"},{\"name\":\"removePadPairFromPadPairGroup\",\"comment\":\"从焊盘对组中移除焊盘对\"},{\"name\":\"getAllPadPairGroups\",\"comment\":\"获取所有焊盘对组的详细属性\"},{\"name\":\"getPadPairGroupMinWireLength\",\"comment\":\"获取焊盘对组最短导线长度\"}],\"callPath\":\"pcb_Drc\"},\"logs\":[],\"durationMs\":187}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "PCB & 封装 / 设计规则检查（DRC）类",
+      "remarks": "检查、设定 DRC 规则",
+      "methods": [
+        {
+          "name": "check",
+          "comment": "检查 DRC"
+        },
+        {
+          "name": "getRealTimeDrcStatus",
+          "comment": "获取实时 DRC 检查状态"
+        },
+        {
+          "name": "startRealTimeDrc",
+          "comment": "开始实时 DRC 检查"
+        },
+        {
+          "name": "stopRealTimeDrc",
+          "comment": "停止实时 DRC 检查"
+        },
+        {
+          "name": "getCurrentRuleConfigurationName",
+          "comment": "获取当前设计规则配置名称"
+        },
+        {
+          "name": "getCurrentRuleConfiguration",
+          "comment": "获取当前设计规则配置"
+        },
+        {
+          "name": "getRuleConfiguration",
+          "comment": "获取指定设计规则配置"
+        },
+        {
+          "name": "getAllRuleConfigurations",
+          "comment": "获取所有设计规则配置"
+        },
+        {
+          "name": "saveRuleConfiguration",
+          "comment": "保存设计规则配置"
+        },
+        {
+          "name": "renameRuleConfiguration",
+          "comment": "重命名设计规则配置"
+        },
+        {
+          "name": "deleteRuleConfiguration",
+          "comment": "删除设计规则配置"
+        },
+        {
+          "name": "getDefaultRuleConfigurationName",
+          "comment": "获取新建 PCB 默认设计规则配置的名称"
+        },
+        {
+          "name": "setAsDefaultRuleConfiguration",
+          "comment": "设置为新建 PCB 默认设计规则配置"
+        },
+        {
+          "name": "overwriteCurrentRuleConfiguration",
+          "comment": "覆写当前设计规则配置"
+        },
+        {
+          "name": "getNetRules",
+          "comment": "获取网络规则"
+        },
+        {
+          "name": "overwriteNetRules",
+          "comment": "覆写网络规则"
+        },
+        {
+          "name": "getNetByNetRules",
+          "comment": "获取网络-网络规则"
+        },
+        {
+          "name": "overwriteNetByNetRules",
+          "comment": "覆写网络-网络规则"
+        },
+        {
+          "name": "getRegionRules",
+          "comment": "获取区域规则"
+        },
+        {
+          "name": "overwriteRegionRules",
+          "comment": "覆写区域规则"
+        },
+        {
+          "name": "createNetClass",
+          "comment": "创建网络类"
+        },
+        {
+          "name": "deleteNetClass",
+          "comment": "删除网络类"
+        },
+        {
+          "name": "modifyNetClassName",
+          "comment": "修改网络类的名称"
+        },
+        {
+          "name": "addNetToNetClass",
+          "comment": "将网络添加到网络类"
+        },
+        {
+          "name": "removeNetFromNetClass",
+          "comment": "从网络类中移除网络"
+        },
+        {
+          "name": "getAllNetClasses",
+          "comment": "获取所有网络类的详细属性"
+        },
+        {
+          "name": "createDifferentialPair",
+          "comment": "创建差分对"
+        },
+        {
+          "name": "deleteDifferentialPair",
+          "comment": "删除差分对"
+        },
+        {
+          "name": "modifyDifferentialPairName",
+          "comment": "修改差分对的名称"
+        },
+        {
+          "name": "modifyDifferentialPairPositiveNet",
+          "comment": "修改差分对正网络"
+        },
+        {
+          "name": "modifyDifferentialPairNegativeNet",
+          "comment": "修改差分对负网络"
+        },
+        {
+          "name": "getAllDifferentialPairs",
+          "comment": "获取所有差分对的详细属性"
+        },
+        {
+          "name": "createEqualLengthNetGroup",
+          "comment": "创建等长网络组"
+        },
+        {
+          "name": "deleteEqualLengthNetGroup",
+          "comment": "删除等长网络组"
+        },
+        {
+          "name": "modifyEqualLengthNetGroupName",
+          "comment": "修改等长网络组的名称"
+        },
+        {
+          "name": "addNetToEqualLengthNetGroup",
+          "comment": "将网络添加到等长网络组"
+        },
+        {
+          "name": "removeNetFromEqualLengthNetGroup",
+          "comment": "从等长网络组中移除网络"
+        },
+        {
+          "name": "getAllEqualLengthNetGroups",
+          "comment": "获取所有等长网络组的详细属性"
+        },
+        {
+          "name": "createPadPairGroup",
+          "comment": "创建焊盘对组"
+        },
+        {
+          "name": "deletePadPairGroup",
+          "comment": "删除焊盘对组"
+        },
+        {
+          "name": "modifyPadPairGroupName",
+          "comment": "修改焊盘对组的名称"
+        },
+        {
+          "name": "addPadPairToPadPairGroup",
+          "comment": "将焊盘对添加到焊盘对组"
+        },
+        {
+          "name": "removePadPairFromPadPairGroup",
+          "comment": "从焊盘对组中移除焊盘对"
+        },
+        {
+          "name": "getAllPadPairGroups",
+          "comment": "获取所有焊盘对组的详细属性"
+        },
+        {
+          "name": "getPadPairGroupMinWireLength",
+          "comment": "获取焊盘对组最短导线长度"
+        }
+      ],
+      "callPath": "pcb_Drc"
+    },
+    "logs": [],
+    "durationMs": 187
+  }
+}

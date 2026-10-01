@@ -1,0 +1,47 @@
+{
+  "started_utc": "2026-10-01T21:02:48.900787+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "SYS_Tool",
+    "--method-name",
+    "pcbComparison"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"PCB 对比\",\"remarks\":\"ADD since EDA v3.2.205 / EDA v4.1.62\",\"params\":[{\"name\":\"pcb1\",\"type\":\"string | { projectUuid: string; pcbUuid: string }\",\"description\":\"PCB 1，可以为：①当前工程内的 PCB 的 UUID；②其它工程的工程 UUID 和 PCB UUID；③PCB 文件数据\",\"required\":true},{\"name\":\"pcb2\",\"type\":\"string | { projectUuid: string; pcbUuid: string }\",\"description\":\"PCB 2，可以为：①当前工程内的 PCB 的 UUID；②其它工程的工程 UUID 和 PCB UUID；③PCB 文件数据\",\"required\":true},{\"name\":\"options\",\"type\":\"{ valUnit?: \\\"mil\\\" | \\\"mm\\\" | \\\"inch\\\" | \\\"cm\\\"; deviation?: number; comparisonSize?: number }\",\"description\":\"对比参数\",\"required\":false}],\"returns\":{\"type\":\"ISYS_PcbComparisonResponse\"}},\"logs\":[],\"durationMs\":112}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "PCB 对比",
+      "remarks": "ADD since EDA v3.2.205 / EDA v4.1.62",
+      "params": [
+        {
+          "name": "pcb1",
+          "type": "string | { projectUuid: string; pcbUuid: string }",
+          "description": "PCB 1，可以为：①当前工程内的 PCB 的 UUID；②其它工程的工程 UUID 和 PCB UUID；③PCB 文件数据",
+          "required": true
+        },
+        {
+          "name": "pcb2",
+          "type": "string | { projectUuid: string; pcbUuid: string }",
+          "description": "PCB 2，可以为：①当前工程内的 PCB 的 UUID；②其它工程的工程 UUID 和 PCB UUID；③PCB 文件数据",
+          "required": true
+        },
+        {
+          "name": "options",
+          "type": "{ valUnit?: \"mil\" | \"mm\" | \"inch\" | \"cm\"; deviation?: number; comparisonSize?: number }",
+          "description": "对比参数",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "ISYS_PcbComparisonResponse"
+      }
+    },
+    "logs": [],
+    "durationMs": 112
+  }
+}

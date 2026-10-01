@@ -1,0 +1,1293 @@
+{
+  "started_utc": "2026-10-01T21:06:18.029574+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "334d3d64-891d-433e-8b7a-42f1a70b8ac5",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='e58f223d256cd14d13a6fb04a0e150585301864f01c50827f9241f5945cf2801')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('595d5f2f11dee03d');\nconst file=await eda.sch_ManufactureData.getNetlistFile('ACCEPTED_SCHEMATIC_JLC_NETLIST','JLCEDA');if(!file)throw Error('No actual File');const text=await file.text();await eda.dmt_EditorControl.openDocument('268e6597399ebcce');\nconst updated=await eda.pcb_Net.setNetlist('JLCEDA',text);if(!updated)throw Error('Native netlist not updated');\nreturn {updated,saved:await eda.pcb_Document.save(),parts:(await eda.pcb_PrimitiveComponent.getAll()).length,comparison:await eda.sys_Tool.netlistComparison('32047f874e6d71ce','268e6597399ebcce')};\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"updated\":true,\"saved\":true,\"parts\":176,\"comparison\":[{\"type\":\"NET\",\"object\":\"'ADC_CS_N'\",\"net1\":[\"R_CS_PU.2\",\"U5.38\",\"U7.11\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ADC_IN0'\",\"net1\":[\"C_ADC0.1\",\"R_ADC0.2\",\"U5.16\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ADC_IN1'\",\"net1\":[\"C_ADC1.1\",\"R_ADC1.2\",\"U5.18\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ADC_IN2'\",\"net1\":[\"C_ADC2.1\",\"R_ADC2.2\",\"U5.21\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ADC_IN3'\",\"net1\":[\"C_ADC3.1\",\"R_ADC3.2\",\"U5.23\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ADC_REFCAP'\",\"net1\":[\"C_ADC_REFCAP.1\",\"C_REFCAP_BULKA.1\",\"C_REFCAP_BULKB.1\",\"U5.7\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ADC_REFIO'\",\"net1\":[\"C_ADC_REFIO.1\",\"C_REFIO_B.1\",\"U5.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ADC_RESET_N'\",\"net1\":[\"R_ADC_RESET_PD.1\",\"U5.2\",\"U13.6\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'COL_SENSE0'\",\"net1\":[\"C_TIA_HF0.2\",\"R_COL_SENSE0.2\",\"U2.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'COL_SENSE1'\",\"net1\":[\"C_TIA_HF1.2\",\"R_COL_SENSE1.2\",\"U2.6\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'COL_SENSE2'\",\"net1\":[\"C_TIA_HF2.2\",\"R_COL_SENSE2.2\",\"U2.9\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'COL_SENSE3'\",\"net1\":[\"C_TIA_HF3.2\",\"R_COL_SENSE3.2\",\"U2.13\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_2V25'\",\"net1\":[\"C_DIV.1\",\"RD_B1.1\",\"RD_TOP.2\",\"U3.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG1'\",\"net1\":[\"RD_B1.2\",\"RD_B2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG2'\",\"net1\":[\"RD_B2.2\",\"RD_B3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG3'\",\"net1\":[\"RD_B3.2\",\"RD_B4.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG4'\",\"net1\":[\"RD_B4.2\",\"RD_B5.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG5'\",\"net1\":[\"RD_B5.2\",\"RD_B6.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG6'\",\"net1\":[\"RD_B6.2\",\"RD_B7.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG7'\",\"net1\":[\"RD_B7.2\",\"RD_B8.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'DIV_SEG8'\",\"net1\":[\"RD_B8.2\",\"RD_B9.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'HW_ENABLE'\",\"net1\":[\"R_HW_PD.1\",\"U13.3\",\"U14.1\",\"U14.4\",\"U14.9\",\"U14.12\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'MCU_ADC_RESET'\",\"net1\":[\"U7.15\",\"U13.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'MCU_ENABLE'\",\"net1\":[\"R_ENABLE_PD.1\",\"U7.16\",\"U13.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'MCU_NRST_EXT'\",\"net1\":[\"J3.5\",\"R_J3_5.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'MCU_ROW0'\",\"net1\":[\"U7.7\",\"U14.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'MCU_ROW1'\",\"net1\":[\"U7.8\",\"U14.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'MCU_ROW2'\",\"net1\":[\"U7.9\",\"U14.10\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'MCU_ROW3'\",\"net1\":[\"U7.10\",\"U14.13\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'PG_OK_FAST'\",\"net1\":[\"U13.1\",\"U13.4\",\"U15.4\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'REF_2V5'\",\"net1\":[\"U3.3\",\"U6.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_CMD0'\",\"net1\":[\"U1.3\",\"U4.3\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_CMD1'\",\"net1\":[\"U1.5\",\"U4.8\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_CMD2'\",\"net1\":[\"U1.10\",\"U4.13\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_CMD3'\",\"net1\":[\"U1.12\",\"U4.18\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_DRV0'\",\"net1\":[\"C_ROW_HF0.1\",\"D_ROW0.3\",\"R_ISO0.1\",\"U1.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_DRV1'\",\"net1\":[\"C_ROW_HF1.1\",\"D_ROW1.3\",\"R_ISO1.1\",\"U1.7\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_DRV2'\",\"net1\":[\"C_ROW_HF2.1\",\"D_ROW2.3\",\"R_ISO2.1\",\"U1.8\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_DRV3'\",\"net1\":[\"C_ROW_HF3.1\",\"D_ROW3.3\",\"R_ISO3.1\",\"U1.14\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_FB0'\",\"net1\":[\"C_ROW_HF0.2\",\"R_ROW_FB0.2\",\"U1.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_FB1'\",\"net1\":[\"C_ROW_HF1.2\",\"R_ROW_FB1.2\",\"U1.6\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_FB2'\",\"net1\":[\"C_ROW_HF2.2\",\"R_ROW_FB2.2\",\"U1.9\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_FB3'\",\"net1\":[\"C_ROW_HF3.2\",\"R_ROW_FB3.2\",\"U1.13\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_SEL0'\",\"net1\":[\"R_SEL_PD0.1\",\"U4.1\",\"U14.3\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_SEL1'\",\"net1\":[\"R_SEL_PD1.1\",\"U4.10\",\"U14.6\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_SEL2'\",\"net1\":[\"R_SEL_PD2.1\",\"U4.11\",\"U14.8\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'ROW_SEL3'\",\"net1\":[\"R_SEL_PD3.1\",\"U4.20\",\"U14.11\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'SPI_MISO'\",\"net1\":[\"U5.36\",\"U7.13\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'SPI_MOSI'\",\"net1\":[\"U5.1\",\"U7.14\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'SPI_SCLK'\",\"net1\":[\"U5.37\",\"U7.12\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'SWCLK_EXT'\",\"net1\":[\"J3.4\",\"R_J3_4.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'SWDIO_EXT'\",\"net1\":[\"J3.3\",\"R_J3_3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'TIA_DRV0'\",\"net1\":[\"C_TIA_HF0.1\",\"D_TIA0.3\",\"R_TIA_ISO0.1\",\"U2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'TIA_DRV1'\",\"net1\":[\"C_TIA_HF1.1\",\"D_TIA1.3\",\"R_TIA_ISO1.1\",\"U2.7\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'TIA_DRV2'\",\"net1\":[\"C_TIA_HF2.1\",\"D_TIA2.3\",\"R_TIA_ISO2.1\",\"U2.8\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'TIA_DRV3'\",\"net1\":[\"C_TIA_HF3.1\",\"D_TIA3.3\",\"R_TIA_ISO3.1\",\"U2.14\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U9_EN'\",\"net1\":[\"U9_EN_G.1\",\"U9_EN_R.2\",\"U9.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U9_OV'\",\"net1\":[\"U9_OV_B1.1\",\"U9_OV_T.2\",\"U9.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U9_OV_M'\",\"net1\":[\"U9_OV_B1.2\",\"U9_OV_B2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U9_PGTH'\",\"net1\":[\"U9_PG_B.1\",\"U9_PG_T.2\",\"U9.4\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U10_EN'\",\"net1\":[\"U10_EN_G.1\",\"U10_EN_R.2\",\"U10.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U10_OV'\",\"net1\":[\"U10_OV_B1.1\",\"U10_OV_T.2\",\"U10.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U10_OV_M'\",\"net1\":[\"U10_OV_B1.2\",\"U10_OV_B2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U10_PGTH'\",\"net1\":[\"U10_PG_B.1\",\"U10_PG_T.2\",\"U10.4\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U11_CT'\",\"net1\":[\"U11_CT_C.1\",\"U11.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U11_DIV1'\",\"net1\":[\"U11_TOP0.2\",\"U11_TOP1.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U11_DIV2'\",\"net1\":[\"U11_TOP1.2\",\"U11_TOP2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U11_DIV3'\",\"net1\":[\"U11_TOP2.2\",\"U11_TOP3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U11_DIV4'\",\"net1\":[\"U11_TOP3.2\",\"U11_TOP4.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U11_SENSE'\",\"net1\":[\"U11_BOT.1\",\"U11_SENSE_C.1\",\"U11_TOP4.2\",\"U11.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U12_CT'\",\"net1\":[\"U12_CT_C.1\",\"U12.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U12_DIV1'\",\"net1\":[\"U12_TOP0.2\",\"U12_TOP1.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U12_DIV2'\",\"net1\":[\"U12_TOP1.2\",\"U12_TOP2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U12_DIV3'\",\"net1\":[\"U12_TOP2.2\",\"U12_TOP3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'U12_SENSE'\",\"net1\":[\"U12_BOT.1\",\"U12_SENSE_C.1\",\"U12_TOP3.2\",\"U12.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'UART_RX'\",\"net1\":[\"D_J4_4.3\",\"R_J4_4.2\",\"U7.21\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'UART_RX_EXT'\",\"net1\":[\"J4.4\",\"R_J4_4.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'UART_TX'\",\"net1\":[\"D_J4_3.3\",\"R_J4_3.2\",\"U7.19\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'UART_TX_EXT'\",\"net1\":[\"J4.3\",\"R_J4_3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'V3V3_EXT_SWD'\",\"net1\":[\"J3.1\",\"R_J3_1.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'V3V3_EXT_UART'\",\"net1\":[\"J4.1\",\"R_J4_1.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'V3_LDO'\",\"net1\":[\"C_LDO_OUT.1\",\"U8.5\",\"U10_EN_R.1\",\"U10_IN_CAP.1\",\"U10_OV_T.1\",\"U10.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'V5_IN'\",\"net1\":[\"J1.1\",\"U9_EN_R.1\",\"U9_IN_CAP.1\",\"U9_OV_T.1\",\"U9.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'VCM_DRV'\",\"net1\":[\"C_VCM_HF.1\",\"D_VCM.3\",\"R_VCM_ISO.1\",\"U3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'VCM_FB'\",\"net1\":[\"C_VCM_HF.2\",\"R_VCM_FB.2\",\"U3.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'VEXC_DRV'\",\"net1\":[\"C_VEX_HF.1\",\"D_VEX.3\",\"R_VEX_ISO.1\",\"U3.7\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"'VEXC_FB'\",\"net1\":[\"C_VEX_HF.2\",\"R_VEX_FB.2\",\"U3.6\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"COL0\",\"net1\":[\"CF0.2\",\"J2.5\",\"R_COL_SENSE0.1\",\"RF0.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"COL1\",\"net1\":[\"CF1.2\",\"J2.6\",\"R_COL_SENSE1.1\",\"RF1.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"COL2\",\"net1\":[\"CF2.2\",\"J2.7\",\"R_COL_SENSE2.1\",\"RF2.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"COL3\",\"net1\":[\"CF3.2\",\"J2.8\",\"R_COL_SENSE3.1\",\"RF3.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"GND\",\"net1\":[\"C_ADC0.2\",\"C_ADC1.2\",\"C_ADC2.2\",\"C_ADC3.2\",\"C_ADC_REFCAP.2\",\"C_ADC_REFIO.2\",\"C_ADCA1.2\",\"C_ADCA2.2\",\"C_ADCD.2\",\"C_AVDD9_HF.2\",\"C_AVDD9A.2\",\"C_AVDD9B.2\",\"C_AVDD30_HF.2\",\"C_AVDD30A.2\",\"C_AVDD30B.2\",\"C_BUF.2\",\"C_DIV.2\",\"C_DVDD34A.2\",\"C_DVDD34B.2\",\"C_LDO_IN.2\",\"C_LDO_OUT.2\",\"C_MCU1.2\",\"C_MCU_BULK.2\",\"C_MUX.2\",\"C_PWR.2\",\"C_REF.2\",\"C_REFCAP_BULKA.2\",\"C_REFCAP_BULKB.2\",\"C_REFIO_B.2\",\"C_ROW_OP.2\",\"C_RST.2\",\"C_TIA_OP.2\",\"C_U13.2\",\"C_U14.2\",\"C_U15.2\",\"D_J3_1.1\",\"D_J3_3.1\",\"D_J3_4.1\",\"D_J3_5.1\",\"D_J4_1.1\",\"D_J4_3.1\",\"D_J4_4.1\",\"D_ROW0.1\",\"D_ROW1.1\",\"D_ROW2.1\",\"D_ROW3.1\",\"D_TIA0.1\",\"D_TIA1.1\",\"D_TIA2.1\",\"D_TIA3.1\",\"D_VCM.1\",\"D_VEX.1\",\"J1.2\",\"J3.2\",\"J4.2\",\"R_ADC_RESET_PD.2\",\"R_ENABLE_PD.2\",\"R_HW_PD.2\",\"R_SEL_PD0.2\",\"R_SEL_PD1.2\",\"R_SEL_PD2.2\",\"R_SEL_PD3.2\",\"RD_B9.2\",\"U1.11\",\"U2.11\",\"U3.4\",\"U4.5\",\"U4.6\",\"U5.3\",\"U5.4\",\"U5.6\",\"U5.8\",\"U5.10\",\"U5.11\",\"U5.17\",\"U5.19\",\"U5.20\",\"U5.22\",\"U5.28\",\"U5.29\",\"U5.31\",\"U5.32\",\"U5.33\",\"U6.3\",\"U7.5\",\"U8.2\",\"U9_BLEED.2\",\"U9_EN_G.2\",\"U9_IN_CAP.2\",\"U9_OUT_CAP.2\",\"U9_OV_B2.2\",\"U9_PG_B.2\",\"U9.8\",\"U9.9\",\"U10_BLEED.2\",\"U10_EN_G.2\",\"U10_IN_CAP.2\",\"U10_OUT_CAP.2\",\"U10_OV_B2.2\",\"U10_PG_B.2\",\"U10.8\",\"U10.9\",\"U11_BOT.2\",\"U11_CT_C.2\",\"U11_SENSE_C.2\",\"U11_VDD_C.2\",\"U11.2\",\"U12_BOT.2\",\"U12_CT_C.2\",\"U12_SENSE_C.2\",\"U12_VDD_C.2\",\"U12.2\",\"U13.7\",\"U13.9\",\"U13.10\",\"U13.12\",\"U13.13\",\"U14.7\",\"U15.3\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"PGOOD\",\"net1\":[\"D_J3_5.3\",\"R_J3_5.2\",\"R_RST.2\",\"U7.6\",\"U11.6\",\"U12.6\",\"U15.2\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"ROW0\",\"net1\":[\"J2.1\",\"R_ISO0.2\",\"R_ROW_FB0.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"ROW1\",\"net1\":[\"J2.2\",\"R_ISO1.2\",\"R_ROW_FB1.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"ROW2\",\"net1\":[\"J2.3\",\"R_ISO2.2\",\"R_ROW_FB2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"ROW3\",\"net1\":[\"J2.4\",\"R_ISO3.2\",\"R_ROW_FB3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"SWCLK\",\"net1\":[\"D_J3_4.3\",\"R_J3_4.2\",\"U7.25\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"SWDIO\",\"net1\":[\"D_J3_3.3\",\"R_J3_3.2\",\"U7.24\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"TIA0\",\"net1\":[\"CF0.1\",\"R_ADC0.1\",\"R_TIA_ISO0.2\",\"RF0.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"TIA1\",\"net1\":[\"CF1.1\",\"R_ADC1.1\",\"R_TIA_ISO1.2\",\"RF1.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"TIA2\",\"net1\":[\"CF2.1\",\"R_ADC2.1\",\"R_TIA_ISO2.2\",\"RF2.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"TIA3\",\"net1\":[\"CF3.1\",\"R_ADC3.1\",\"R_TIA_ISO3.2\",\"RF3.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"V3V3\",\"net1\":[\"C_ADCD.1\",\"C_DVDD34A.1\",\"C_DVDD34B.1\",\"C_MCU1.1\",\"C_MCU_BULK.1\",\"C_RST.1\",\"C_U13.1\",\"C_U14.1\",\"C_U15.1\",\"D_J3_1.2\",\"D_J3_1.3\",\"D_J3_3.2\",\"D_J3_4.2\",\"D_J3_5.2\",\"D_J4_1.2\",\"D_J4_1.3\",\"D_J4_3.2\",\"D_J4_4.2\",\"R_CS_PU.1\",\"R_J3_1.2\",\"R_J4_1.2\",\"R_RST.1\",\"U5.34\",\"U7.4\",\"U10_BLEED.1\",\"U10_OUT_CAP.1\",\"U10_PG_T.1\",\"U10.6\",\"U11_VDD_C.1\",\"U11.3\",\"U11.4\",\"U12_TOP0.1\",\"U12_VDD_C.1\",\"U12.3\",\"U12.4\",\"U13.14\",\"U14.14\",\"U15.5\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"V5\",\"net1\":[\"C_ADCA1.1\",\"C_ADCA2.1\",\"C_AVDD9_HF.1\",\"C_AVDD9A.1\",\"C_AVDD9B.1\",\"C_AVDD30_HF.1\",\"C_AVDD30A.1\",\"C_AVDD30B.1\",\"C_BUF.1\",\"C_LDO_IN.1\",\"C_MUX.1\",\"C_PWR.1\",\"C_REF.1\",\"C_ROW_OP.1\",\"C_TIA_OP.1\",\"D_ROW0.2\",\"D_ROW1.2\",\"D_ROW2.2\",\"D_ROW3.2\",\"D_TIA0.2\",\"D_TIA1.2\",\"D_TIA2.2\",\"D_TIA3.2\",\"D_VCM.2\",\"D_VEX.2\",\"U1.4\",\"U2.4\",\"U3.8\",\"U4.16\",\"U5.9\",\"U5.30\",\"U6.1\",\"U8.1\",\"U8.3\",\"U9_BLEED.1\",\"U9_OUT_CAP.1\",\"U9_PG_T.1\",\"U9.6\",\"U11_TOP0.1\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"VCM\",\"net1\":[\"R_VCM_FB.1\",\"R_VCM_ISO.2\",\"RD_TOP.1\",\"U2.3\",\"U2.5\",\"U2.10\",\"U2.12\",\"U4.4\",\"U4.7\",\"U4.14\",\"U4.17\"],\"net2\":[]},{\"type\":\"NET\",\"object\":\"VEXC\",\"net1\":[\"R_VEX_FB.1\",\"R_VEX_ISO.2\",\"U4.2\",\"U4.9\",\"U4.12\",\"U4.19\"],\"net2\":[]}]},\"logs\":[],\"durationMs\":4036}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "updated": true,
+      "saved": true,
+      "parts": 176,
+      "comparison": [
+        {
+          "type": "NET",
+          "object": "'ADC_CS_N'",
+          "net1": [
+            "R_CS_PU.2",
+            "U5.38",
+            "U7.11"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ADC_IN0'",
+          "net1": [
+            "C_ADC0.1",
+            "R_ADC0.2",
+            "U5.16"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ADC_IN1'",
+          "net1": [
+            "C_ADC1.1",
+            "R_ADC1.2",
+            "U5.18"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ADC_IN2'",
+          "net1": [
+            "C_ADC2.1",
+            "R_ADC2.2",
+            "U5.21"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ADC_IN3'",
+          "net1": [
+            "C_ADC3.1",
+            "R_ADC3.2",
+            "U5.23"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ADC_REFCAP'",
+          "net1": [
+            "C_ADC_REFCAP.1",
+            "C_REFCAP_BULKA.1",
+            "C_REFCAP_BULKB.1",
+            "U5.7"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ADC_REFIO'",
+          "net1": [
+            "C_ADC_REFIO.1",
+            "C_REFIO_B.1",
+            "U5.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ADC_RESET_N'",
+          "net1": [
+            "R_ADC_RESET_PD.1",
+            "U5.2",
+            "U13.6"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'COL_SENSE0'",
+          "net1": [
+            "C_TIA_HF0.2",
+            "R_COL_SENSE0.2",
+            "U2.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'COL_SENSE1'",
+          "net1": [
+            "C_TIA_HF1.2",
+            "R_COL_SENSE1.2",
+            "U2.6"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'COL_SENSE2'",
+          "net1": [
+            "C_TIA_HF2.2",
+            "R_COL_SENSE2.2",
+            "U2.9"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'COL_SENSE3'",
+          "net1": [
+            "C_TIA_HF3.2",
+            "R_COL_SENSE3.2",
+            "U2.13"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_2V25'",
+          "net1": [
+            "C_DIV.1",
+            "RD_B1.1",
+            "RD_TOP.2",
+            "U3.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG1'",
+          "net1": [
+            "RD_B1.2",
+            "RD_B2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG2'",
+          "net1": [
+            "RD_B2.2",
+            "RD_B3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG3'",
+          "net1": [
+            "RD_B3.2",
+            "RD_B4.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG4'",
+          "net1": [
+            "RD_B4.2",
+            "RD_B5.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG5'",
+          "net1": [
+            "RD_B5.2",
+            "RD_B6.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG6'",
+          "net1": [
+            "RD_B6.2",
+            "RD_B7.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG7'",
+          "net1": [
+            "RD_B7.2",
+            "RD_B8.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'DIV_SEG8'",
+          "net1": [
+            "RD_B8.2",
+            "RD_B9.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'HW_ENABLE'",
+          "net1": [
+            "R_HW_PD.1",
+            "U13.3",
+            "U14.1",
+            "U14.4",
+            "U14.9",
+            "U14.12"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'MCU_ADC_RESET'",
+          "net1": [
+            "U7.15",
+            "U13.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'MCU_ENABLE'",
+          "net1": [
+            "R_ENABLE_PD.1",
+            "U7.16",
+            "U13.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'MCU_NRST_EXT'",
+          "net1": [
+            "J3.5",
+            "R_J3_5.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'MCU_ROW0'",
+          "net1": [
+            "U7.7",
+            "U14.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'MCU_ROW1'",
+          "net1": [
+            "U7.8",
+            "U14.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'MCU_ROW2'",
+          "net1": [
+            "U7.9",
+            "U14.10"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'MCU_ROW3'",
+          "net1": [
+            "U7.10",
+            "U14.13"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'PG_OK_FAST'",
+          "net1": [
+            "U13.1",
+            "U13.4",
+            "U15.4"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'REF_2V5'",
+          "net1": [
+            "U3.3",
+            "U6.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_CMD0'",
+          "net1": [
+            "U1.3",
+            "U4.3"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_CMD1'",
+          "net1": [
+            "U1.5",
+            "U4.8"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_CMD2'",
+          "net1": [
+            "U1.10",
+            "U4.13"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_CMD3'",
+          "net1": [
+            "U1.12",
+            "U4.18"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_DRV0'",
+          "net1": [
+            "C_ROW_HF0.1",
+            "D_ROW0.3",
+            "R_ISO0.1",
+            "U1.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_DRV1'",
+          "net1": [
+            "C_ROW_HF1.1",
+            "D_ROW1.3",
+            "R_ISO1.1",
+            "U1.7"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_DRV2'",
+          "net1": [
+            "C_ROW_HF2.1",
+            "D_ROW2.3",
+            "R_ISO2.1",
+            "U1.8"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_DRV3'",
+          "net1": [
+            "C_ROW_HF3.1",
+            "D_ROW3.3",
+            "R_ISO3.1",
+            "U1.14"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_FB0'",
+          "net1": [
+            "C_ROW_HF0.2",
+            "R_ROW_FB0.2",
+            "U1.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_FB1'",
+          "net1": [
+            "C_ROW_HF1.2",
+            "R_ROW_FB1.2",
+            "U1.6"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_FB2'",
+          "net1": [
+            "C_ROW_HF2.2",
+            "R_ROW_FB2.2",
+            "U1.9"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_FB3'",
+          "net1": [
+            "C_ROW_HF3.2",
+            "R_ROW_FB3.2",
+            "U1.13"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_SEL0'",
+          "net1": [
+            "R_SEL_PD0.1",
+            "U4.1",
+            "U14.3"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_SEL1'",
+          "net1": [
+            "R_SEL_PD1.1",
+            "U4.10",
+            "U14.6"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_SEL2'",
+          "net1": [
+            "R_SEL_PD2.1",
+            "U4.11",
+            "U14.8"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'ROW_SEL3'",
+          "net1": [
+            "R_SEL_PD3.1",
+            "U4.20",
+            "U14.11"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'SPI_MISO'",
+          "net1": [
+            "U5.36",
+            "U7.13"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'SPI_MOSI'",
+          "net1": [
+            "U5.1",
+            "U7.14"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'SPI_SCLK'",
+          "net1": [
+            "U5.37",
+            "U7.12"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'SWCLK_EXT'",
+          "net1": [
+            "J3.4",
+            "R_J3_4.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'SWDIO_EXT'",
+          "net1": [
+            "J3.3",
+            "R_J3_3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'TIA_DRV0'",
+          "net1": [
+            "C_TIA_HF0.1",
+            "D_TIA0.3",
+            "R_TIA_ISO0.1",
+            "U2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'TIA_DRV1'",
+          "net1": [
+            "C_TIA_HF1.1",
+            "D_TIA1.3",
+            "R_TIA_ISO1.1",
+            "U2.7"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'TIA_DRV2'",
+          "net1": [
+            "C_TIA_HF2.1",
+            "D_TIA2.3",
+            "R_TIA_ISO2.1",
+            "U2.8"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'TIA_DRV3'",
+          "net1": [
+            "C_TIA_HF3.1",
+            "D_TIA3.3",
+            "R_TIA_ISO3.1",
+            "U2.14"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U9_EN'",
+          "net1": [
+            "U9_EN_G.1",
+            "U9_EN_R.2",
+            "U9.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U9_OV'",
+          "net1": [
+            "U9_OV_B1.1",
+            "U9_OV_T.2",
+            "U9.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U9_OV_M'",
+          "net1": [
+            "U9_OV_B1.2",
+            "U9_OV_B2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U9_PGTH'",
+          "net1": [
+            "U9_PG_B.1",
+            "U9_PG_T.2",
+            "U9.4"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U10_EN'",
+          "net1": [
+            "U10_EN_G.1",
+            "U10_EN_R.2",
+            "U10.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U10_OV'",
+          "net1": [
+            "U10_OV_B1.1",
+            "U10_OV_T.2",
+            "U10.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U10_OV_M'",
+          "net1": [
+            "U10_OV_B1.2",
+            "U10_OV_B2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U10_PGTH'",
+          "net1": [
+            "U10_PG_B.1",
+            "U10_PG_T.2",
+            "U10.4"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U11_CT'",
+          "net1": [
+            "U11_CT_C.1",
+            "U11.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U11_DIV1'",
+          "net1": [
+            "U11_TOP0.2",
+            "U11_TOP1.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U11_DIV2'",
+          "net1": [
+            "U11_TOP1.2",
+            "U11_TOP2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U11_DIV3'",
+          "net1": [
+            "U11_TOP2.2",
+            "U11_TOP3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U11_DIV4'",
+          "net1": [
+            "U11_TOP3.2",
+            "U11_TOP4.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U11_SENSE'",
+          "net1": [
+            "U11_BOT.1",
+            "U11_SENSE_C.1",
+            "U11_TOP4.2",
+            "U11.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U12_CT'",
+          "net1": [
+            "U12_CT_C.1",
+            "U12.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U12_DIV1'",
+          "net1": [
+            "U12_TOP0.2",
+            "U12_TOP1.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U12_DIV2'",
+          "net1": [
+            "U12_TOP1.2",
+            "U12_TOP2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U12_DIV3'",
+          "net1": [
+            "U12_TOP2.2",
+            "U12_TOP3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'U12_SENSE'",
+          "net1": [
+            "U12_BOT.1",
+            "U12_SENSE_C.1",
+            "U12_TOP3.2",
+            "U12.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'UART_RX'",
+          "net1": [
+            "D_J4_4.3",
+            "R_J4_4.2",
+            "U7.21"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'UART_RX_EXT'",
+          "net1": [
+            "J4.4",
+            "R_J4_4.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'UART_TX'",
+          "net1": [
+            "D_J4_3.3",
+            "R_J4_3.2",
+            "U7.19"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'UART_TX_EXT'",
+          "net1": [
+            "J4.3",
+            "R_J4_3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'V3V3_EXT_SWD'",
+          "net1": [
+            "J3.1",
+            "R_J3_1.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'V3V3_EXT_UART'",
+          "net1": [
+            "J4.1",
+            "R_J4_1.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'V3_LDO'",
+          "net1": [
+            "C_LDO_OUT.1",
+            "U8.5",
+            "U10_EN_R.1",
+            "U10_IN_CAP.1",
+            "U10_OV_T.1",
+            "U10.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'V5_IN'",
+          "net1": [
+            "J1.1",
+            "U9_EN_R.1",
+            "U9_IN_CAP.1",
+            "U9_OV_T.1",
+            "U9.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'VCM_DRV'",
+          "net1": [
+            "C_VCM_HF.1",
+            "D_VCM.3",
+            "R_VCM_ISO.1",
+            "U3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'VCM_FB'",
+          "net1": [
+            "C_VCM_HF.2",
+            "R_VCM_FB.2",
+            "U3.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'VEXC_DRV'",
+          "net1": [
+            "C_VEX_HF.1",
+            "D_VEX.3",
+            "R_VEX_ISO.1",
+            "U3.7"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "'VEXC_FB'",
+          "net1": [
+            "C_VEX_HF.2",
+            "R_VEX_FB.2",
+            "U3.6"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "COL0",
+          "net1": [
+            "CF0.2",
+            "J2.5",
+            "R_COL_SENSE0.1",
+            "RF0.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "COL1",
+          "net1": [
+            "CF1.2",
+            "J2.6",
+            "R_COL_SENSE1.1",
+            "RF1.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "COL2",
+          "net1": [
+            "CF2.2",
+            "J2.7",
+            "R_COL_SENSE2.1",
+            "RF2.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "COL3",
+          "net1": [
+            "CF3.2",
+            "J2.8",
+            "R_COL_SENSE3.1",
+            "RF3.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "GND",
+          "net1": [
+            "C_ADC0.2",
+            "C_ADC1.2",
+            "C_ADC2.2",
+            "C_ADC3.2",
+            "C_ADC_REFCAP.2",
+            "C_ADC_REFIO.2",
+            "C_ADCA1.2",
+            "C_ADCA2.2",
+            "C_ADCD.2",
+            "C_AVDD9_HF.2",
+            "C_AVDD9A.2",
+            "C_AVDD9B.2",
+            "C_AVDD30_HF.2",
+            "C_AVDD30A.2",
+            "C_AVDD30B.2",
+            "C_BUF.2",
+            "C_DIV.2",
+            "C_DVDD34A.2",
+            "C_DVDD34B.2",
+            "C_LDO_IN.2",
+            "C_LDO_OUT.2",
+            "C_MCU1.2",
+            "C_MCU_BULK.2",
+            "C_MUX.2",
+            "C_PWR.2",
+            "C_REF.2",
+            "C_REFCAP_BULKA.2",
+            "C_REFCAP_BULKB.2",
+            "C_REFIO_B.2",
+            "C_ROW_OP.2",
+            "C_RST.2",
+            "C_TIA_OP.2",
+            "C_U13.2",
+            "C_U14.2",
+            "C_U15.2",
+            "D_J3_1.1",
+            "D_J3_3.1",
+            "D_J3_4.1",
+            "D_J3_5.1",
+            "D_J4_1.1",
+            "D_J4_3.1",
+            "D_J4_4.1",
+            "D_ROW0.1",
+            "D_ROW1.1",
+            "D_ROW2.1",
+            "D_ROW3.1",
+            "D_TIA0.1",
+            "D_TIA1.1",
+            "D_TIA2.1",
+            "D_TIA3.1",
+            "D_VCM.1",
+            "D_VEX.1",
+            "J1.2",
+            "J3.2",
+            "J4.2",
+            "R_ADC_RESET_PD.2",
+            "R_ENABLE_PD.2",
+            "R_HW_PD.2",
+            "R_SEL_PD0.2",
+            "R_SEL_PD1.2",
+            "R_SEL_PD2.2",
+            "R_SEL_PD3.2",
+            "RD_B9.2",
+            "U1.11",
+            "U2.11",
+            "U3.4",
+            "U4.5",
+            "U4.6",
+            "U5.3",
+            "U5.4",
+            "U5.6",
+            "U5.8",
+            "U5.10",
+            "U5.11",
+            "U5.17",
+            "U5.19",
+            "U5.20",
+            "U5.22",
+            "U5.28",
+            "U5.29",
+            "U5.31",
+            "U5.32",
+            "U5.33",
+            "U6.3",
+            "U7.5",
+            "U8.2",
+            "U9_BLEED.2",
+            "U9_EN_G.2",
+            "U9_IN_CAP.2",
+            "U9_OUT_CAP.2",
+            "U9_OV_B2.2",
+            "U9_PG_B.2",
+            "U9.8",
+            "U9.9",
+            "U10_BLEED.2",
+            "U10_EN_G.2",
+            "U10_IN_CAP.2",
+            "U10_OUT_CAP.2",
+            "U10_OV_B2.2",
+            "U10_PG_B.2",
+            "U10.8",
+            "U10.9",
+            "U11_BOT.2",
+            "U11_CT_C.2",
+            "U11_SENSE_C.2",
+            "U11_VDD_C.2",
+            "U11.2",
+            "U12_BOT.2",
+            "U12_CT_C.2",
+            "U12_SENSE_C.2",
+            "U12_VDD_C.2",
+            "U12.2",
+            "U13.7",
+            "U13.9",
+            "U13.10",
+            "U13.12",
+            "U13.13",
+            "U14.7",
+            "U15.3"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "PGOOD",
+          "net1": [
+            "D_J3_5.3",
+            "R_J3_5.2",
+            "R_RST.2",
+            "U7.6",
+            "U11.6",
+            "U12.6",
+            "U15.2"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "ROW0",
+          "net1": [
+            "J2.1",
+            "R_ISO0.2",
+            "R_ROW_FB0.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "ROW1",
+          "net1": [
+            "J2.2",
+            "R_ISO1.2",
+            "R_ROW_FB1.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "ROW2",
+          "net1": [
+            "J2.3",
+            "R_ISO2.2",
+            "R_ROW_FB2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "ROW3",
+          "net1": [
+            "J2.4",
+            "R_ISO3.2",
+            "R_ROW_FB3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "SWCLK",
+          "net1": [
+            "D_J3_4.3",
+            "R_J3_4.2",
+            "U7.25"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "SWDIO",
+          "net1": [
+            "D_J3_3.3",
+            "R_J3_3.2",
+            "U7.24"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "TIA0",
+          "net1": [
+            "CF0.1",
+            "R_ADC0.1",
+            "R_TIA_ISO0.2",
+            "RF0.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "TIA1",
+          "net1": [
+            "CF1.1",
+            "R_ADC1.1",
+            "R_TIA_ISO1.2",
+            "RF1.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "TIA2",
+          "net1": [
+            "CF2.1",
+            "R_ADC2.1",
+            "R_TIA_ISO2.2",
+            "RF2.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "TIA3",
+          "net1": [
+            "CF3.1",
+            "R_ADC3.1",
+            "R_TIA_ISO3.2",
+            "RF3.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "V3V3",
+          "net1": [
+            "C_ADCD.1",
+            "C_DVDD34A.1",
+            "C_DVDD34B.1",
+            "C_MCU1.1",
+            "C_MCU_BULK.1",
+            "C_RST.1",
+            "C_U13.1",
+            "C_U14.1",
+            "C_U15.1",
+            "D_J3_1.2",
+            "D_J3_1.3",
+            "D_J3_3.2",
+            "D_J3_4.2",
+            "D_J3_5.2",
+            "D_J4_1.2",
+            "D_J4_1.3",
+            "D_J4_3.2",
+            "D_J4_4.2",
+            "R_CS_PU.1",
+            "R_J3_1.2",
+            "R_J4_1.2",
+            "R_RST.1",
+            "U5.34",
+            "U7.4",
+            "U10_BLEED.1",
+            "U10_OUT_CAP.1",
+            "U10_PG_T.1",
+            "U10.6",
+            "U11_VDD_C.1",
+            "U11.3",
+            "U11.4",
+            "U12_TOP0.1",
+            "U12_VDD_C.1",
+            "U12.3",
+            "U12.4",
+            "U13.14",
+            "U14.14",
+            "U15.5"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "V5",
+          "net1": [
+            "C_ADCA1.1",
+            "C_ADCA2.1",
+            "C_AVDD9_HF.1",
+            "C_AVDD9A.1",
+            "C_AVDD9B.1",
+            "C_AVDD30_HF.1",
+            "C_AVDD30A.1",
+            "C_AVDD30B.1",
+            "C_BUF.1",
+            "C_LDO_IN.1",
+            "C_MUX.1",
+            "C_PWR.1",
+            "C_REF.1",
+            "C_ROW_OP.1",
+            "C_TIA_OP.1",
+            "D_ROW0.2",
+            "D_ROW1.2",
+            "D_ROW2.2",
+            "D_ROW3.2",
+            "D_TIA0.2",
+            "D_TIA1.2",
+            "D_TIA2.2",
+            "D_TIA3.2",
+            "D_VCM.2",
+            "D_VEX.2",
+            "U1.4",
+            "U2.4",
+            "U3.8",
+            "U4.16",
+            "U5.9",
+            "U5.30",
+            "U6.1",
+            "U8.1",
+            "U8.3",
+            "U9_BLEED.1",
+            "U9_OUT_CAP.1",
+            "U9_PG_T.1",
+            "U9.6",
+            "U11_TOP0.1"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "VCM",
+          "net1": [
+            "R_VCM_FB.1",
+            "R_VCM_ISO.2",
+            "RD_TOP.1",
+            "U2.3",
+            "U2.5",
+            "U2.10",
+            "U2.12",
+            "U4.4",
+            "U4.7",
+            "U4.14",
+            "U4.17"
+          ],
+          "net2": []
+        },
+        {
+          "type": "NET",
+          "object": "VEXC",
+          "net1": [
+            "R_VEX_FB.1",
+            "R_VEX_ISO.2",
+            "U4.2",
+            "U4.9",
+            "U4.12",
+            "U4.19"
+          ],
+          "net2": []
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 4036
+  }
+}

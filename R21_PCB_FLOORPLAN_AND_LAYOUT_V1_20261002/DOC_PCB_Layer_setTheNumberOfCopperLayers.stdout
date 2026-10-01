@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"设置铜箔层数","remarks":"新建的 PCB 文档默认拥有两层铜箔层","params":[{"name":"numberOfLayers","type":"2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24 | 26 | 28 | 30 | 32","description":"层数","required":true}],"returns":{"type":"boolean"}},"logs":[],"durationMs":173}

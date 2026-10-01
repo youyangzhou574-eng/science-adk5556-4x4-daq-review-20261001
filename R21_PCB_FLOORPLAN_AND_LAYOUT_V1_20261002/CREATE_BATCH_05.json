@@ -1,0 +1,309 @@
+{
+  "started_utc": "2026-10-01T20:39:47.276067+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "2a28c8a7-7c09-4246-9d7e-266084f169e7",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const plan=[{\"ref\":\"R_J3_1\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"V3V3_EXT_SWD\",\"2\":\"V3V3\"},\"nc\":[],\"initialX\":1400,\"initialY\":1720},{\"ref\":\"R_J3_3\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"SWDIO_EXT\",\"2\":\"SWDIO\"},\"nc\":[],\"initialX\":1650,\"initialY\":1720},{\"ref\":\"R_J3_4\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"SWCLK_EXT\",\"2\":\"SWCLK\"},\"nc\":[],\"initialX\":1900,\"initialY\":1720},{\"ref\":\"R_J3_5\",\"device\":\"0603WAF1001T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"18db11499a04403ba8c98e2f7a687fbc\"},\"footprint\":\"R0603\",\"value\":\"1k 1%\",\"nets\":{\"1\":\"MCU_NRST_EXT\",\"2\":\"PGOOD\"},\"nc\":[],\"initialX\":2150,\"initialY\":1720},{\"ref\":\"R_J4_1\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"V3V3_EXT_UART\",\"2\":\"V3V3\"},\"nc\":[],\"initialX\":2400,\"initialY\":1720},{\"ref\":\"R_J4_3\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"UART_TX_EXT\",\"2\":\"UART_TX\"},\"nc\":[],\"initialX\":2650,\"initialY\":1720},{\"ref\":\"R_J4_4\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"UART_RX_EXT\",\"2\":\"UART_RX\"},\"nc\":[],\"initialX\":2900,\"initialY\":1720},{\"ref\":\"R_ROW_FB0\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"ROW0\",\"2\":\"ROW_FB0\"},\"nc\":[],\"initialX\":3150,\"initialY\":1720},{\"ref\":\"R_ROW_FB1\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"ROW1\",\"2\":\"ROW_FB1\"},\"nc\":[],\"initialX\":3400,\"initialY\":1720},{\"ref\":\"R_ROW_FB2\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"ROW2\",\"2\":\"ROW_FB2\"},\"nc\":[],\"initialX\":3650,\"initialY\":1720},{\"ref\":\"R_ROW_FB3\",\"device\":\"RT0603BRD074K99L\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e3fb4324469a40728b83810eaa907b40\"},\"footprint\":\"R0603\",\"value\":\"4.99k 0.1%\",\"nets\":{\"1\":\"ROW3\",\"2\":\"ROW_FB3\"},\"nc\":[],\"initialX\":3900,\"initialY\":1720},{\"ref\":\"R_RST\",\"device\":\"RT0603BRD0710KL\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3840b7e554aa441f90223c083eebd79a\"},\"footprint\":\"R0603\",\"value\":\"10k 0.1%\",\"nets\":{\"1\":\"V3V3\",\"2\":\"PGOOD\"},\"nc\":[],\"initialX\":4150,\"initialY\":1720},{\"ref\":\"R_SEL_PD0\",\"device\":\"0603WAF1003T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"40ff282b3d594c33b798d1707d8406cb\"},\"footprint\":\"R0603\",\"value\":\"100k 1%\",\"nets\":{\"1\":\"ROW_SEL0\",\"2\":\"GND\"},\"nc\":[],\"initialX\":400,\"initialY\":1940},{\"ref\":\"R_SEL_PD1\",\"device\":\"0603WAF1003T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"40ff282b3d594c33b798d1707d8406cb\"},\"footprint\":\"R0603\",\"value\":\"100k 1%\",\"nets\":{\"1\":\"ROW_SEL1\",\"2\":\"GND\"},\"nc\":[],\"initialX\":650,\"initialY\":1940},{\"ref\":\"R_SEL_PD2\",\"device\":\"0603WAF1003T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"40ff282b3d594c33b798d1707d8406cb\"},\"footprint\":\"R0603\",\"value\":\"100k 1%\",\"nets\":{\"1\":\"ROW_SEL2\",\"2\":\"GND\"},\"nc\":[],\"initialX\":900,\"initialY\":1940},{\"ref\":\"R_SEL_PD3\",\"device\":\"0603WAF1003T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"40ff282b3d594c33b798d1707d8406cb\"},\"footprint\":\"R0603\",\"value\":\"100k 1%\",\"nets\":{\"1\":\"ROW_SEL3\",\"2\":\"GND\"},\"nc\":[],\"initialX\":1150,\"initialY\":1940},{\"ref\":\"R_TIA_ISO0\",\"device\":\"0603WAF1001T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"18db11499a04403ba8c98e2f7a687fbc\"},\"footprint\":\"R0603\",\"value\":\"1k 1%\",\"nets\":{\"1\":\"TIA_DRV0\",\"2\":\"TIA0\"},\"nc\":[],\"initialX\":1400,\"initialY\":1940},{\"ref\":\"R_TIA_ISO1\",\"device\":\"0603WAF1001T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"18db11499a04403ba8c98e2f7a687fbc\"},\"footprint\":\"R0603\",\"value\":\"1k 1%\",\"nets\":{\"1\":\"TIA_DRV1\",\"2\":\"TIA1\"},\"nc\":[],\"initialX\":1650,\"initialY\":1940},{\"ref\":\"R_TIA_ISO2\",\"device\":\"0603WAF1001T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"18db11499a04403ba8c98e2f7a687fbc\"},\"footprint\":\"R0603\",\"value\":\"1k 1%\",\"nets\":{\"1\":\"TIA_DRV2\",\"2\":\"TIA2\"},\"nc\":[],\"initialX\":1900,\"initialY\":1940},{\"ref\":\"R_TIA_ISO3\",\"device\":\"0603WAF1001T5E\",\"deviceItem\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"18db11499a04403ba8c98e2f7a687fbc\"},\"footprint\":\"R0603\",\"value\":\"1k 1%\",\"nets\":{\"1\":\"TIA_DRV3\",\"2\":\"TIA3\"},\"nc\":[],\"initialX\":2150,\"initialY\":1940}];\nconst pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!==\"e58f223d256cd14d13a6fb04a0e150585301864f01c50827f9241f5945cf2801\")throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');\nconst refs=new Set((await eda.pcb_PrimitiveComponent.getAll()).map(c=>c.getState_Designator()));for(const p of plan)if(refs.has(p.ref))throw Error('Duplicate '+p.ref);\nconst out=[];for(const p of plan){const c=await eda.pcb_PrimitiveComponent.create(p.deviceItem,1,p.initialX,p.initialY,0,false);if(!c)throw Error('Create '+p.ref);\nawait eda.pcb_PrimitiveComponent.modify(c,{designator:p.ref,name:p.value||p.device});\nconst pads=await eda.pcb_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());const actual=new Set(pads.map(v=>String(v.getState_PadNumber())));const expected=new Set([...Object.keys(p.nets),...p.nc]);if(actual.size!==expected.size||[...expected].some(n=>!actual.has(n)))throw Error('Actual pads '+p.ref);\nfor(const pad of pads){const n=String(pad.getState_PadNumber());await pad.setState_Net(p.nets[n]||'').done();}\nout.push({ref:p.ref,id:c.getState_PrimitiveId(),pads:(await eda.pcb_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId())).map(v=>({n:String(v.getState_PadNumber()),net:v.getState_Net()}))});}\nreturn {out,saved:await eda.pcb_Document.save(),actualPartCount:(await eda.pcb_PrimitiveComponent.getAll()).length};",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"out\":[{\"ref\":\"R_J3_1\",\"id\":\"1f22dcb6a1fc7006\",\"pads\":[{\"n\":\"2\",\"net\":\"V3V3\"},{\"n\":\"1\",\"net\":\"V3V3_EXT_SWD\"}]},{\"ref\":\"R_J3_3\",\"id\":\"1600eb5cb681e0bc\",\"pads\":[{\"n\":\"2\",\"net\":\"SWDIO\"},{\"n\":\"1\",\"net\":\"SWDIO_EXT\"}]},{\"ref\":\"R_J3_4\",\"id\":\"19b558cbd893d282\",\"pads\":[{\"n\":\"2\",\"net\":\"SWCLK\"},{\"n\":\"1\",\"net\":\"SWCLK_EXT\"}]},{\"ref\":\"R_J3_5\",\"id\":\"e51b84dd03e89195\",\"pads\":[{\"n\":\"2\",\"net\":\"PGOOD\"},{\"n\":\"1\",\"net\":\"MCU_NRST_EXT\"}]},{\"ref\":\"R_J4_1\",\"id\":\"898ed600f194d46a\",\"pads\":[{\"n\":\"2\",\"net\":\"V3V3\"},{\"n\":\"1\",\"net\":\"V3V3_EXT_UART\"}]},{\"ref\":\"R_J4_3\",\"id\":\"59159ece15f7e2fb\",\"pads\":[{\"n\":\"2\",\"net\":\"UART_TX\"},{\"n\":\"1\",\"net\":\"UART_TX_EXT\"}]},{\"ref\":\"R_J4_4\",\"id\":\"60005e8c75da3486\",\"pads\":[{\"n\":\"2\",\"net\":\"UART_RX\"},{\"n\":\"1\",\"net\":\"UART_RX_EXT\"}]},{\"ref\":\"R_ROW_FB0\",\"id\":\"7d2bb375846ffd13\",\"pads\":[{\"n\":\"2\",\"net\":\"ROW_FB0\"},{\"n\":\"1\",\"net\":\"ROW0\"}]},{\"ref\":\"R_ROW_FB1\",\"id\":\"30665631da7006b1\",\"pads\":[{\"n\":\"2\",\"net\":\"ROW_FB1\"},{\"n\":\"1\",\"net\":\"ROW1\"}]},{\"ref\":\"R_ROW_FB2\",\"id\":\"13a5bd738e350505\",\"pads\":[{\"n\":\"2\",\"net\":\"ROW_FB2\"},{\"n\":\"1\",\"net\":\"ROW2\"}]},{\"ref\":\"R_ROW_FB3\",\"id\":\"a830c472662109a8\",\"pads\":[{\"n\":\"2\",\"net\":\"ROW_FB3\"},{\"n\":\"1\",\"net\":\"ROW3\"}]},{\"ref\":\"R_RST\",\"id\":\"6e0f6a189674255e\",\"pads\":[{\"n\":\"2\",\"net\":\"PGOOD\"},{\"n\":\"1\",\"net\":\"V3V3\"}]},{\"ref\":\"R_SEL_PD0\",\"id\":\"9d021efbd23122c8\",\"pads\":[{\"n\":\"2\",\"net\":\"GND\"},{\"n\":\"1\",\"net\":\"ROW_SEL0\"}]},{\"ref\":\"R_SEL_PD1\",\"id\":\"79da07f12a1cfd28\",\"pads\":[{\"n\":\"2\",\"net\":\"GND\"},{\"n\":\"1\",\"net\":\"ROW_SEL1\"}]},{\"ref\":\"R_SEL_PD2\",\"id\":\"3c78178745fb2b79\",\"pads\":[{\"n\":\"2\",\"net\":\"GND\"},{\"n\":\"1\",\"net\":\"ROW_SEL2\"}]},{\"ref\":\"R_SEL_PD3\",\"id\":\"b9fe5a4aa897c07f\",\"pads\":[{\"n\":\"2\",\"net\":\"GND\"},{\"n\":\"1\",\"net\":\"ROW_SEL3\"}]},{\"ref\":\"R_TIA_ISO0\",\"id\":\"015115bd1f552458\",\"pads\":[{\"n\":\"2\",\"net\":\"TIA0\"},{\"n\":\"1\",\"net\":\"TIA_DRV0\"}]},{\"ref\":\"R_TIA_ISO1\",\"id\":\"97bc1122ba9d3cb9\",\"pads\":[{\"n\":\"2\",\"net\":\"TIA1\"},{\"n\":\"1\",\"net\":\"TIA_DRV1\"}]},{\"ref\":\"R_TIA_ISO2\",\"id\":\"ac8688aa411b5504\",\"pads\":[{\"n\":\"2\",\"net\":\"TIA2\"},{\"n\":\"1\",\"net\":\"TIA_DRV2\"}]},{\"ref\":\"R_TIA_ISO3\",\"id\":\"5ce51fc761c38e5e\",\"pads\":[{\"n\":\"2\",\"net\":\"TIA3\"},{\"n\":\"1\",\"net\":\"TIA_DRV3\"}]}],\"saved\":true,\"actualPartCount\":120},\"logs\":[],\"durationMs\":6058}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "out": [
+        {
+          "ref": "R_J3_1",
+          "id": "1f22dcb6a1fc7006",
+          "pads": [
+            {
+              "n": "2",
+              "net": "V3V3"
+            },
+            {
+              "n": "1",
+              "net": "V3V3_EXT_SWD"
+            }
+          ]
+        },
+        {
+          "ref": "R_J3_3",
+          "id": "1600eb5cb681e0bc",
+          "pads": [
+            {
+              "n": "2",
+              "net": "SWDIO"
+            },
+            {
+              "n": "1",
+              "net": "SWDIO_EXT"
+            }
+          ]
+        },
+        {
+          "ref": "R_J3_4",
+          "id": "19b558cbd893d282",
+          "pads": [
+            {
+              "n": "2",
+              "net": "SWCLK"
+            },
+            {
+              "n": "1",
+              "net": "SWCLK_EXT"
+            }
+          ]
+        },
+        {
+          "ref": "R_J3_5",
+          "id": "e51b84dd03e89195",
+          "pads": [
+            {
+              "n": "2",
+              "net": "PGOOD"
+            },
+            {
+              "n": "1",
+              "net": "MCU_NRST_EXT"
+            }
+          ]
+        },
+        {
+          "ref": "R_J4_1",
+          "id": "898ed600f194d46a",
+          "pads": [
+            {
+              "n": "2",
+              "net": "V3V3"
+            },
+            {
+              "n": "1",
+              "net": "V3V3_EXT_UART"
+            }
+          ]
+        },
+        {
+          "ref": "R_J4_3",
+          "id": "59159ece15f7e2fb",
+          "pads": [
+            {
+              "n": "2",
+              "net": "UART_TX"
+            },
+            {
+              "n": "1",
+              "net": "UART_TX_EXT"
+            }
+          ]
+        },
+        {
+          "ref": "R_J4_4",
+          "id": "60005e8c75da3486",
+          "pads": [
+            {
+              "n": "2",
+              "net": "UART_RX"
+            },
+            {
+              "n": "1",
+              "net": "UART_RX_EXT"
+            }
+          ]
+        },
+        {
+          "ref": "R_ROW_FB0",
+          "id": "7d2bb375846ffd13",
+          "pads": [
+            {
+              "n": "2",
+              "net": "ROW_FB0"
+            },
+            {
+              "n": "1",
+              "net": "ROW0"
+            }
+          ]
+        },
+        {
+          "ref": "R_ROW_FB1",
+          "id": "30665631da7006b1",
+          "pads": [
+            {
+              "n": "2",
+              "net": "ROW_FB1"
+            },
+            {
+              "n": "1",
+              "net": "ROW1"
+            }
+          ]
+        },
+        {
+          "ref": "R_ROW_FB2",
+          "id": "13a5bd738e350505",
+          "pads": [
+            {
+              "n": "2",
+              "net": "ROW_FB2"
+            },
+            {
+              "n": "1",
+              "net": "ROW2"
+            }
+          ]
+        },
+        {
+          "ref": "R_ROW_FB3",
+          "id": "a830c472662109a8",
+          "pads": [
+            {
+              "n": "2",
+              "net": "ROW_FB3"
+            },
+            {
+              "n": "1",
+              "net": "ROW3"
+            }
+          ]
+        },
+        {
+          "ref": "R_RST",
+          "id": "6e0f6a189674255e",
+          "pads": [
+            {
+              "n": "2",
+              "net": "PGOOD"
+            },
+            {
+              "n": "1",
+              "net": "V3V3"
+            }
+          ]
+        },
+        {
+          "ref": "R_SEL_PD0",
+          "id": "9d021efbd23122c8",
+          "pads": [
+            {
+              "n": "2",
+              "net": "GND"
+            },
+            {
+              "n": "1",
+              "net": "ROW_SEL0"
+            }
+          ]
+        },
+        {
+          "ref": "R_SEL_PD1",
+          "id": "79da07f12a1cfd28",
+          "pads": [
+            {
+              "n": "2",
+              "net": "GND"
+            },
+            {
+              "n": "1",
+              "net": "ROW_SEL1"
+            }
+          ]
+        },
+        {
+          "ref": "R_SEL_PD2",
+          "id": "3c78178745fb2b79",
+          "pads": [
+            {
+              "n": "2",
+              "net": "GND"
+            },
+            {
+              "n": "1",
+              "net": "ROW_SEL2"
+            }
+          ]
+        },
+        {
+          "ref": "R_SEL_PD3",
+          "id": "b9fe5a4aa897c07f",
+          "pads": [
+            {
+              "n": "2",
+              "net": "GND"
+            },
+            {
+              "n": "1",
+              "net": "ROW_SEL3"
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO0",
+          "id": "015115bd1f552458",
+          "pads": [
+            {
+              "n": "2",
+              "net": "TIA0"
+            },
+            {
+              "n": "1",
+              "net": "TIA_DRV0"
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO1",
+          "id": "97bc1122ba9d3cb9",
+          "pads": [
+            {
+              "n": "2",
+              "net": "TIA1"
+            },
+            {
+              "n": "1",
+              "net": "TIA_DRV1"
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO2",
+          "id": "ac8688aa411b5504",
+          "pads": [
+            {
+              "n": "2",
+              "net": "TIA2"
+            },
+            {
+              "n": "1",
+              "net": "TIA_DRV2"
+            }
+          ]
+        },
+        {
+          "ref": "R_TIA_ISO3",
+          "id": "5ce51fc761c38e5e",
+          "pads": [
+            {
+              "n": "2",
+              "net": "TIA3"
+            },
+            {
+              "n": "1",
+              "net": "TIA_DRV3"
+            }
+          ]
+        }
+      ],
+      "saved": true,
+      "actualPartCount": 120
+    },
+    "logs": [],
+    "durationMs": 6058
+  }
+}

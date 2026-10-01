@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"创建单多边形","params":[{"name":"polygon","type":"TPCB_PolygonSourceArray","description":"单多边形数据","required":true}],"returns":{"type":"IPCB_Polygon | null"}},"logs":[],"durationMs":140}

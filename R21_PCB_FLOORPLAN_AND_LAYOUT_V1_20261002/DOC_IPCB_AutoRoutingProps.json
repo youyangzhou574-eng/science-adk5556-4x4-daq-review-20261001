@@ -1,0 +1,60 @@
+{
+  "started_utc": "2026-10-01T20:41:03.697355+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "IPCB_AutoRoutingProps"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"name\":\"IPCB_AutoRoutingProps\",\"comment\":\"自动布线入参\",\"fields\":[{\"name\":\"RoutingNets\",\"type\":\"\\\"selected\\\" | \\\"selectedComponents\\\" | Array<string>\",\"comment\":\"布线网络\",\"required\":false},{\"name\":\"cornerStyle\",\"type\":\"EPCB_AutoRoutingCornerStyle\",\"comment\":\"布线拐角风格\",\"required\":false},{\"name\":\"existingPrimitiveMode\",\"type\":\"EPCB_AutoRoutingExistingPrimitiveMode\",\"comment\":\"已有导线/过孔的处理方式\",\"required\":false},{\"name\":\"optimization\",\"type\":\"EPCB_AutoRoutingOptimization\",\"comment\":\"效果优先级\",\"required\":false},{\"name\":\"layers\",\"type\":\"Array<TPCB_LayersOfCopper>\",\"comment\":\"布线图层\",\"required\":false},{\"name\":\"ignoreNets\",\"type\":\"Array<string>\",\"comment\":\"忽略网络\",\"required\":false}]},\"logs\":[],\"durationMs\":189}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "name": "IPCB_AutoRoutingProps",
+      "comment": "自动布线入参",
+      "fields": [
+        {
+          "name": "RoutingNets",
+          "type": "\"selected\" | \"selectedComponents\" | Array<string>",
+          "comment": "布线网络",
+          "required": false
+        },
+        {
+          "name": "cornerStyle",
+          "type": "EPCB_AutoRoutingCornerStyle",
+          "comment": "布线拐角风格",
+          "required": false
+        },
+        {
+          "name": "existingPrimitiveMode",
+          "type": "EPCB_AutoRoutingExistingPrimitiveMode",
+          "comment": "已有导线/过孔的处理方式",
+          "required": false
+        },
+        {
+          "name": "optimization",
+          "type": "EPCB_AutoRoutingOptimization",
+          "comment": "效果优先级",
+          "required": false
+        },
+        {
+          "name": "layers",
+          "type": "Array<TPCB_LayersOfCopper>",
+          "comment": "布线图层",
+          "required": false
+        },
+        {
+          "name": "ignoreNets",
+          "type": "Array<string>",
+          "comment": "忽略网络",
+          "required": false
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 189
+  }
+}

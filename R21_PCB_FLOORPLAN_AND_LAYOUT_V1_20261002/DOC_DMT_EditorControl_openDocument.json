@@ -1,0 +1,38 @@
+{
+  "started_utc": "2026-10-01T20:33:24.580995+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "DMT_EditorControl",
+    "--method-name",
+    "openDocument"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"打开文档\",\"params\":[{\"name\":\"documentUuid\",\"type\":\"string\",\"required\":true},{\"name\":\"splitScreenId\",\"type\":\"string\",\"required\":false}],\"returns\":{\"type\":\"string | null\"}},\"logs\":[],\"durationMs\":167}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "打开文档",
+      "params": [
+        {
+          "name": "documentUuid",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "splitScreenId",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "string | null"
+      }
+    },
+    "logs": [],
+    "durationMs": 167
+  }
+}

@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"name":"EPCB_AutoRoutingOptimization","comment":"自动布线效果优先级","values":[{"value":1,"description":"优先布通率（尽可能完成所有网络）"},{"value":0,"description":"优先布线速度"}]},"logs":[],"durationMs":165}

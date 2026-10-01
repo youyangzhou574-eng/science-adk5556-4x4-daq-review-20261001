@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-01T20:50:55.870092+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "2a28c8a7-7c09-4246-9d7e-266084f169e7",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='e58f223d256cd14d13a6fb04a0e150585301864f01c50827f9241f5945cf2801')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');\nconst nets=['VCM_DRV','VCM_FB','VEXC_DRV','VEXC_FB'];for(let i=0;i<4;i++)nets.push('ROW_DRV'+i,'ROW_FB'+i,'COL_SENSE'+i,'TIA_DRV'+i);\nconst result=await eda.pcb_Document.autoRouting({RoutingNets:nets,layers:[1],existingPrimitiveMode:'keep',optimization:1});\nreturn {requestedNets:nets,result,lines:(await eda.pcb_PrimitiveLine.getAll()).length,polylines:(await eda.pcb_PrimitivePolyline.getAll()).length,saved:await eda.pcb_Document.save()};\n",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 3,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"REQUEST_TIMEOUT\",\"message\":\"invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)\"}}\n",
+  "stderr": "REQUEST_TIMEOUT: invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "REQUEST_TIMEOUT",
+      "message": "invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)"
+    }
+  }
+}

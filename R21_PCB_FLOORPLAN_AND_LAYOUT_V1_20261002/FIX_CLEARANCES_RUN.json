@@ -1,0 +1,56 @@
+{
+  "started_utc": "2026-10-01T21:02:34.954004+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "90c2ee56-bdcf-4437-9d3c-c17c0613f0d7",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const fixes=[{\"id\":\"9c7ebc905856db6c\",\"property\":{\"startX\":883.1,\"startY\":1778.9,\"endX\":772.8,\"endY\":1889.2},\"net\":\"TIA_DRV0\",\"staticMinMil\":6.86413959755239,\"nativeOldMin\":\"5.9mil\",\"required\":\"6mil\",\"neighborOverlapPreservedBy6milWidth\":true},{\"id\":\"36f8940900bfbb59\",\"property\":{\"startX\":843.7,\"startY\":519.1,\"endX\":733.5,\"endY\":629.3},\"net\":\"ROW_DRV0\",\"staticMinMil\":6.864139597552303,\"nativeOldMin\":\"5.9mil\",\"required\":\"6mil\",\"neighborOverlapPreservedBy6milWidth\":true}];await eda.dmt_EditorControl.openDocument(\"268e6597399ebcce\");for(const f of fixes){const r=await eda.pcb_PrimitiveLine.modify(f.id,f.property);if(!r)throw Error(\"Correction \"+f.id);}return {fixes,saved:await eda.pcb_Document.save()};",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"fixes\":[{\"id\":\"9c7ebc905856db6c\",\"property\":{\"startX\":883.1,\"startY\":1778.9,\"endX\":772.8,\"endY\":1889.2},\"net\":\"TIA_DRV0\",\"staticMinMil\":6.86413959755239,\"nativeOldMin\":\"5.9mil\",\"required\":\"6mil\",\"neighborOverlapPreservedBy6milWidth\":true},{\"id\":\"36f8940900bfbb59\",\"property\":{\"startX\":843.7,\"startY\":519.1,\"endX\":733.5,\"endY\":629.3},\"net\":\"ROW_DRV0\",\"staticMinMil\":6.864139597552303,\"nativeOldMin\":\"5.9mil\",\"required\":\"6mil\",\"neighborOverlapPreservedBy6milWidth\":true}],\"saved\":true},\"logs\":[],\"durationMs\":166}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "fixes": [
+        {
+          "id": "9c7ebc905856db6c",
+          "property": {
+            "startX": 883.1,
+            "startY": 1778.9,
+            "endX": 772.8,
+            "endY": 1889.2
+          },
+          "net": "TIA_DRV0",
+          "staticMinMil": 6.86413959755239,
+          "nativeOldMin": "5.9mil",
+          "required": "6mil",
+          "neighborOverlapPreservedBy6milWidth": true
+        },
+        {
+          "id": "36f8940900bfbb59",
+          "property": {
+            "startX": 843.7,
+            "startY": 519.1,
+            "endX": 733.5,
+            "endY": 629.3
+          },
+          "net": "ROW_DRV0",
+          "staticMinMil": 6.864139597552303,
+          "nativeOldMin": "5.9mil",
+          "required": "6mil",
+          "neighborOverlapPreservedBy6milWidth": true
+        }
+      ],
+      "saved": true
+    },
+    "logs": [],
+    "durationMs": 166
+  }
+}

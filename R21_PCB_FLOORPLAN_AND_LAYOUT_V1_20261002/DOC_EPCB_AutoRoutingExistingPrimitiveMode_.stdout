@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"name":"EPCB_AutoRoutingExistingPrimitiveMode","comment":"自动布线对已有导线/过孔的处理方式","values":[{"value":"keep","description":"保留已有导线和过孔（在其基础上继续布线）"},{"value":"remove","description":"移除已有导线和过孔（推倒重布）"}]},"logs":[],"durationMs":183}

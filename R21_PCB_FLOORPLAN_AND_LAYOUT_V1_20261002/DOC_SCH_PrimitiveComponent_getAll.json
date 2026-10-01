@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-10-01T20:45:48.184094+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "SCH_PrimitiveComponent",
+    "--method-name",
+    "getAll"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"获取所有器件\",\"params\":[{\"name\":\"componentType\",\"type\":\"ESCH_PrimitiveComponentType\",\"description\":\"器件类型\",\"required\":false},{\"name\":\"allSchematicPages\",\"type\":\"boolean\",\"description\":\"是否获取所有原理图图页的器件\",\"required\":false}],\"returns\":{\"type\":\"Array<ISCH_PrimitiveComponent>\"}},\"logs\":[],\"durationMs\":168}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "获取所有器件",
+      "params": [
+        {
+          "name": "componentType",
+          "type": "ESCH_PrimitiveComponentType",
+          "description": "器件类型",
+          "required": false
+        },
+        {
+          "name": "allSchematicPages",
+          "type": "boolean",
+          "description": "是否获取所有原理图图页的器件",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "Array<ISCH_PrimitiveComponent>"
+      }
+    },
+    "logs": [],
+    "durationMs": 168
+  }
+}

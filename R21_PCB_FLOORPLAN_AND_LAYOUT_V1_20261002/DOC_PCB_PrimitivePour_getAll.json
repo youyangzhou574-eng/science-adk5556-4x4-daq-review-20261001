@@ -1,0 +1,46 @@
+{
+  "started_utc": "2026-10-01T20:45:43.671478+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_PrimitivePour",
+    "--method-name",
+    "getAll"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"获取所有覆铜边框图元\",\"params\":[{\"name\":\"net\",\"type\":\"string\",\"description\":\"网络名称\",\"required\":false},{\"name\":\"layer\",\"type\":\"TPCB_LayersOfCopper\",\"description\":\"层\",\"required\":false},{\"name\":\"primitiveLock\",\"type\":\"boolean\",\"description\":\"是否锁定\",\"required\":false}],\"returns\":{\"type\":\"Array<IPCB_PrimitivePour>\"}},\"logs\":[],\"durationMs\":158}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "获取所有覆铜边框图元",
+      "params": [
+        {
+          "name": "net",
+          "type": "string",
+          "description": "网络名称",
+          "required": false
+        },
+        {
+          "name": "layer",
+          "type": "TPCB_LayersOfCopper",
+          "description": "层",
+          "required": false
+        },
+        {
+          "name": "primitiveLock",
+          "type": "boolean",
+          "description": "是否锁定",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "Array<IPCB_PrimitivePour>"
+      }
+    },
+    "logs": [],
+    "durationMs": 158
+  }
+}

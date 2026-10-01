@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"设置属性状态：网络","remarks":"本接口仅在 PCB 编辑器可用，空字符串与 `undefined` 均被视为空网络","params":[{"name":"net","type":"string","description":"网络名称","required":false}],"returns":{"type":"IPCB_PrimitivePad"}},"logs":[],"durationMs":141}

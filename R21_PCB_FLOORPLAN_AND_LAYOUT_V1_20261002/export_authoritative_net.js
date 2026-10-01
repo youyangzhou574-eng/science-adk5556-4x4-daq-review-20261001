@@ -1,0 +1,2 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='e58f223d256cd14d13a6fb04a0e150585301864f01c50827f9241f5945cf2801')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('595d5f2f11dee03d');
+const file=await eda.sch_ManufactureData.getNetlistFile('ACCEPTED_SCHEMATIC_JLC_NETLIST','JLCEDA');if(!file)throw Error('No actual File');return {name:file.name,bytes:file.size,text:await file.text()};

@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-01T20:52:41.460683+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "2a28c8a7-7c09-4246-9d7e-266084f169e7",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "return {pcb:await eda.dmt_Pcb.getCurrentPcbInfo(),parts:(await eda.pcb_PrimitiveComponent.getAll()).length,lines:(await eda.pcb_PrimitiveLine.getAll()).length,polylines:(await eda.pcb_PrimitivePolyline.getAll()).length};",
+    "--timeout",
+    "10000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"pcb\":{\"itemType\":\"PCB\",\"uuid\":\"268e6597399ebcce\",\"name\":\"PCB1\",\"parentProjectUuid\":\"e58f223d256cd14d13a6fb04a0e150585301864f01c50827f9241f5945cf2801\",\"parentBoardName\":\"Board1\"},\"parts\":176,\"lines\":0,\"polylines\":1},\"logs\":[],\"durationMs\":19}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "pcb": {
+        "itemType": "PCB",
+        "uuid": "268e6597399ebcce",
+        "name": "PCB1",
+        "parentProjectUuid": "e58f223d256cd14d13a6fb04a0e150585301864f01c50827f9241f5945cf2801",
+        "parentBoardName": "Board1"
+      },
+      "parts": 176,
+      "lines": 0,
+      "polylines": 1
+    },
+    "logs": [],
+    "durationMs": 19
+  }
+}

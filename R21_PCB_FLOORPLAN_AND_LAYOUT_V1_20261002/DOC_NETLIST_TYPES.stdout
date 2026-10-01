@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"name":"ESYS_NetlistType","comment":"网表类型","values":[{"value":"Allegro","description":"Allegro"},{"value":"PADS","description":"PADS"},{"value":"Protel2","description":"Protel 2"},{"value":"JLCEDA","description":"嘉立创 EDA 专业版"},{"value":"EasyEDA","description":"EasyEDA Pro Edition"},{"value":"DISA","description":"数字化工业软件联盟"},{"value":"DSNET","description":"数字化工业软件联盟仿真"}]},"logs":[],"durationMs":118}

@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-01T21:04:07.751642+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "90c2ee56-bdcf-4437-9d3c-c17c0613f0d7",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "await eda.dmt_EditorControl.openDocument(\"595d5f2f11dee03d\");const sch=await eda.sch_Netlist.getNetlist();await eda.dmt_EditorControl.openDocument(\"268e6597399ebcce\");return {sch,pcb:await eda.pcb_Net.getNetlist()};",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 3,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"REQUEST_TIMEOUT\",\"message\":\"invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)\"}}\n",
+  "stderr": "REQUEST_TIMEOUT: invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "REQUEST_TIMEOUT",
+      "message": "invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)"
+    }
+  }
+}

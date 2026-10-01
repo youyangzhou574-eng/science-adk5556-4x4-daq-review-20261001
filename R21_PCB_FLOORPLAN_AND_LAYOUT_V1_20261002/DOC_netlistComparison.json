@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-10-01T21:02:48.218318+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "SYS_Tool",
+    "--method-name",
+    "netlistComparison"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"网表对比\",\"params\":[{\"name\":\"netlist1\",\"type\":\"string | { projectUuid: string; documentUuid: string }\",\"description\":\"网表 1，可以为：①当前工程内的原理图、PCB 的 UUID；②其它工程的工程 UUID 和原理图、PCB UUID；③原理图、PCB 文件数据\",\"required\":true},{\"name\":\"netlist2\",\"type\":\"string | { projectUuid: string; documentUuid: string }\",\"description\":\"网表 2，可以为：①当前工程内的原理图、PCB 的 UUID；②其它工程的工程 UUID 和原理图、PCB UUID；③原理图、PCB 文件数据\",\"required\":true}],\"returns\":{\"type\":\"Array<{ type: \\\"Net\\\" | \\\"Component\\\"; object: string; netlist1Name: Array<string>; netlist2Name: Array<string> }>\"}},\"logs\":[],\"durationMs\":112}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "网表对比",
+      "params": [
+        {
+          "name": "netlist1",
+          "type": "string | { projectUuid: string; documentUuid: string }",
+          "description": "网表 1，可以为：①当前工程内的原理图、PCB 的 UUID；②其它工程的工程 UUID 和原理图、PCB UUID；③原理图、PCB 文件数据",
+          "required": true
+        },
+        {
+          "name": "netlist2",
+          "type": "string | { projectUuid: string; documentUuid: string }",
+          "description": "网表 2，可以为：①当前工程内的原理图、PCB 的 UUID；②其它工程的工程 UUID 和原理图、PCB UUID；③原理图、PCB 文件数据",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "Array<{ type: \"Net\" | \"Component\"; object: string; netlist1Name: Array<string>; netlist2Name: Array<string> }>"
+      }
+    },
+    "logs": [],
+    "durationMs": 112
+  }
+}

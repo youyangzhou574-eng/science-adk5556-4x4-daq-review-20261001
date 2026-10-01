@@ -1,0 +1,54 @@
+{
+  "started_utc": "2026-10-01T20:52:40.562226+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "session",
+    "list"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":[{\"sessionId\":\"a329d737-9586-42ac-96b4-499531e8b1ca\",\"renderId\":1,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"0727b164-73b4-4157-ac61-3db40cde2a44\",\"renderId\":2,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"13e4c1d2-3db0-402f-9bee-9e30cd30a158\",\"renderId\":3,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"d0b1b000-2114-491a-98af-9ffe4a377097\",\"renderId\":4,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"aa4e43f6-d45b-46f7-b8c4-86a4c744b31d\",\"renderId\":5,\"status\":\"closed\",\"headless\":true},{\"sessionId\":\"2a28c8a7-7c09-4246-9d7e-266084f169e7\",\"renderId\":6,\"status\":\"alive\",\"headless\":true}],\"logs\":[],\"durationMs\":0}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": [
+      {
+        "sessionId": "a329d737-9586-42ac-96b4-499531e8b1ca",
+        "renderId": 1,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "0727b164-73b4-4157-ac61-3db40cde2a44",
+        "renderId": 2,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "13e4c1d2-3db0-402f-9bee-9e30cd30a158",
+        "renderId": 3,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "d0b1b000-2114-491a-98af-9ffe4a377097",
+        "renderId": 4,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "aa4e43f6-d45b-46f7-b8c4-86a4c744b31d",
+        "renderId": 5,
+        "status": "closed",
+        "headless": true
+      },
+      {
+        "sessionId": "2a28c8a7-7c09-4246-9d7e-266084f169e7",
+        "renderId": 6,
+        "status": "alive",
+        "headless": true
+      }
+    ],
+    "logs": [],
+    "durationMs": 0
+  }
+}

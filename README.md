@@ -1,3 +1,9 @@
+# Latest: R2.1 PCB floorplan and local routing — BLOCKED review
+
+[Complete receipt](R21_PCB_FLOORPLAN_AND_LAYOUT_V1_20261002/COMPLETE_PCB_RECEIPT.md) · [Index and actual rendered layout](R21_PCB_FLOORPLAN_AND_LAYOUT_V1_20261002/README.md) · [Native DRC details](R21_PCB_FLOORPLAN_AND_LAYOUT_V1_20261002/FINAL_DRC_DETAILS.csv). User authorized a four-layer lab review PCB. 176 parts and 550 actual pads: 514 assigned connections,107 assigned nets,36 NC match accepted schematic; cold capture passes. Provisional100×90mm floorplan,93 local L1 segments,one L2GND boundary. **Full routing incomplete;452 native connection errors and1 native netlist error remain. No manufacture, procurement or bench release.**
+
+---
+
 # Latest: 11 schematic accepted; first-powerup bench input preparation
 
 [Complete receipt](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/COMPLETE_BENCH_PREP_RECEIPT.md) · [Index](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/README.md) · [Accepted frozen baseline](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/ACCEPTED_SCHEMATIC_BASELINE.md) · [Phase1 release inputs](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/PHASE1_RELEASE_CHECKLIST.md). Electrical baseline176parts/514pins/107nets/36NC accepted. No further EDA/native edit, simulation, PCB, purchase, manufacture or real bench. Six bench documents and57-case/46-node CSV prepared. Physical sample/instruments/operator and numeric current/stop limits unknown; BENCH_NOT_RELEASED. Old figure annotations are document-only holds; compulsory companions remain.

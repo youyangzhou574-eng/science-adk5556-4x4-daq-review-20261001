@@ -1,0 +1,6 @@
+{
+  "source": "direct user message in local chat 01a0ecae-ab07-7010-aae5-f49da19c75dc",
+  "exactUserText": "用户新增要求：下次向网页端报告时，请同时申请更多的工作预算，包括适合当前项目的执行时间、计算或试验次数及自主推进范围，说明所需额度与用途，以减少反复请示。明确注明这是用户提出的要求。此次只在下一次正常报告中申请，不单独追加一次报告；获批前仍遵守当前预算和停止条件。",
+  "thisPackageApprovalSource": "PRO_PCB_RULING_FULL.md + USER_PCB_AUTHORIZATION.json",
+  "nextRequestApproved": false
+}

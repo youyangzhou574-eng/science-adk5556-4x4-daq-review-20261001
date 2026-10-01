@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"打开文档","params":[{"name":"documentUuid","type":"string","required":true},{"name":"splitScreenId","type":"string","required":false}],"returns":{"type":"string | null"}},"logs":[],"durationMs":167}

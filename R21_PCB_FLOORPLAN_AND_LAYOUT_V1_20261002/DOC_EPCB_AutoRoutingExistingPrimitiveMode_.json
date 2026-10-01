@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-01T20:50:24.734866+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "EPCB_AutoRoutingExistingPrimitiveMode"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"name\":\"EPCB_AutoRoutingExistingPrimitiveMode\",\"comment\":\"自动布线对已有导线/过孔的处理方式\",\"values\":[{\"value\":\"keep\",\"description\":\"保留已有导线和过孔（在其基础上继续布线）\"},{\"value\":\"remove\",\"description\":\"移除已有导线和过孔（推倒重布）\"}]},\"logs\":[],\"durationMs\":183}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "name": "EPCB_AutoRoutingExistingPrimitiveMode",
+      "comment": "自动布线对已有导线/过孔的处理方式",
+      "values": [
+        {
+          "value": "keep",
+          "description": "保留已有导线和过孔（在其基础上继续布线）"
+        },
+        {
+          "value": "remove",
+          "description": "移除已有导线和过孔（推倒重布）"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 183
+  }
+}

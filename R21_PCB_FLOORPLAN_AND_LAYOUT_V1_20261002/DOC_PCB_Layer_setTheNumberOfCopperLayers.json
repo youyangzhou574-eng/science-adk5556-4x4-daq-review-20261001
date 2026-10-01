@@ -1,0 +1,35 @@
+{
+  "started_utc": "2026-10-01T20:33:27.307417+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_Layer",
+    "--method-name",
+    "setTheNumberOfCopperLayers"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"设置铜箔层数\",\"remarks\":\"新建的 PCB 文档默认拥有两层铜箔层\",\"params\":[{\"name\":\"numberOfLayers\",\"type\":\"2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24 | 26 | 28 | 30 | 32\",\"description\":\"层数\",\"required\":true}],\"returns\":{\"type\":\"boolean\"}},\"logs\":[],\"durationMs\":173}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "设置铜箔层数",
+      "remarks": "新建的 PCB 文档默认拥有两层铜箔层",
+      "params": [
+        {
+          "name": "numberOfLayers",
+          "type": "2 | 4 | 6 | 8 | 10 | 12 | 14 | 16 | 18 | 20 | 22 | 24 | 26 | 28 | 30 | 32",
+          "description": "层数",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "boolean"
+      }
+    },
+    "logs": [],
+    "durationMs": 173
+  }
+}

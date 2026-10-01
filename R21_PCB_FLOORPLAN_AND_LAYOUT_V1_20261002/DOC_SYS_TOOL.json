@@ -1,0 +1,36 @@
+{
+  "started_utc": "2026-10-01T21:02:35.756853+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "SYS_Tool"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"系统 / 工具类\",\"methods\":[{\"name\":\"netlistComparison\",\"comment\":\"网表对比\"},{\"name\":\"schematicComparison\",\"comment\":\"原理图对比\"},{\"name\":\"pcbComparison\",\"comment\":\"PCB 对比\"}],\"callPath\":\"sys_Tool\"},\"logs\":[],\"durationMs\":104}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "系统 / 工具类",
+      "methods": [
+        {
+          "name": "netlistComparison",
+          "comment": "网表对比"
+        },
+        {
+          "name": "schematicComparison",
+          "comment": "原理图对比"
+        },
+        {
+          "name": "pcbComparison",
+          "comment": "PCB 对比"
+        }
+      ],
+      "callPath": "sys_Tool"
+    },
+    "logs": [],
+    "durationMs": 104
+  }
+}

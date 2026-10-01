@@ -1,0 +1,20 @@
+{
+  "started_utc": "2026-10-01T20:35:28.997893+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "external",
+    "--session",
+    "2a28c8a7-7c09-4246-9d7e-266084f169e7"
+  ],
+  "returncode": 3,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"BRIDGE_NOT_READY\",\"message\":\"_EXTAPI_CLI_COMMAND_SPACE_.help is not available in this render\"}}\n",
+  "stderr": "BRIDGE_NOT_READY: _EXTAPI_CLI_COMMAND_SPACE_.help is not available in this render\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "BRIDGE_NOT_READY",
+      "message": "_EXTAPI_CLI_COMMAND_SPACE_.help is not available in this render"
+    }
+  }
+}

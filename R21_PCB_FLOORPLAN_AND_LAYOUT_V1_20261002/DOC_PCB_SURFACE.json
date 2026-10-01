@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-01T20:31:17.678948+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--search",
+    "pcb"
+  ],
+  "returncode": 0,
+  "stdout": "\r\nNo matches.\n",
+  "stderr": "",
+  "parsed": null
+}

@@ -1,0 +1,32 @@
+{
+  "started_utc": "2026-10-01T20:50:23.726883+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "EPCB_AutoRoutingOptimization"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"name\":\"EPCB_AutoRoutingOptimization\",\"comment\":\"自动布线效果优先级\",\"values\":[{\"value\":1,\"description\":\"优先布通率（尽可能完成所有网络）\"},{\"value\":0,\"description\":\"优先布线速度\"}]},\"logs\":[],\"durationMs\":165}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "name": "EPCB_AutoRoutingOptimization",
+      "comment": "自动布线效果优先级",
+      "values": [
+        {
+          "value": 1,
+          "description": "优先布通率（尽可能完成所有网络）"
+        },
+        {
+          "value": 0,
+          "description": "优先布线速度"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 165
+  }
+}

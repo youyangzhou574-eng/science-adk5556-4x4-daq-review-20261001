@@ -1,0 +1,48 @@
+{
+  "started_utc": "2026-10-01T20:32:06.049970+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_PrimitivePad"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"PCB & 封装 / 焊盘图元类\",\"methods\":[{\"name\":\"create\",\"comment\":\"创建焊盘\"},{\"name\":\"delete\",\"comment\":\"删除焊盘\"},{\"name\":\"modify\",\"comment\":\"修改焊盘\"},{\"name\":\"get\",\"comment\":\"获取焊盘\"},{\"name\":\"getAllPrimitiveId\",\"comment\":\"获取所有焊盘的图元 ID\"},{\"name\":\"getAll\",\"comment\":\"获取所有焊盘\"}],\"callPath\":\"pcb_PrimitivePad\"},\"logs\":[],\"durationMs\":167}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "PCB & 封装 / 焊盘图元类",
+      "methods": [
+        {
+          "name": "create",
+          "comment": "创建焊盘"
+        },
+        {
+          "name": "delete",
+          "comment": "删除焊盘"
+        },
+        {
+          "name": "modify",
+          "comment": "修改焊盘"
+        },
+        {
+          "name": "get",
+          "comment": "获取焊盘"
+        },
+        {
+          "name": "getAllPrimitiveId",
+          "comment": "获取所有焊盘的图元 ID"
+        },
+        {
+          "name": "getAll",
+          "comment": "获取所有焊盘"
+        }
+      ],
+      "callPath": "pcb_PrimitivePad"
+    },
+    "logs": [],
+    "durationMs": 167
+  }
+}

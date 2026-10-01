@@ -1,0 +1,2 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='e58f223d256cd14d13a6fb04a0e150585301864f01c50827f9241f5945cf2801')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');
+return {result:await eda.pcb_Drc.check(true,false,true),source:await eda.sys_FileManager.getDocumentSource(),lineCount:(await eda.pcb_PrimitiveLine.getAll()).length,pourCount:(await eda.pcb_PrimitivePour.getAll()).length};

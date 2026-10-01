@@ -1,0 +1,11 @@
+# PCB design rules and floorplan
+
+100×90 mm provisional rectangle lab board, no confirmed enclosure, mounting holes or production dimensions. Four active copper layers: 1 top /15 inner1/L2 ground /16 inner2/L3 power/slow digital /2 bottom. Physical dielectric/copper/finished-thickness stackup is not approved and was not invented.
+
+J2 left eight lines; U1 ROW upper left; U2 TIA lower left; U3/U6 references middle upper; U5 ADC rotates180° toward analog input side; U7 MCU right; J3/J4 board-right; U9/U8/U10 input/protection at bottom, separated from sensitive nodes. C0G compensation/feedback and ADC input filters assigned by actual pin neighborhoods. ADC reference bulk groups remain a floorplan candidate; final short actual routes/return paths are not all complete.
+
+176 manually assigned functional placements with conservative native-pad envelopes+0.35mm separation; no EDA autoLayout. Native DRC detects zero clearance errors after two 5.9mil segments moved0.6mil in x/y. 6mil local tracks; inherited native DRC6mil clearance. Existing via defaults0.305mm drill/0.610mm land are only inherited settings; no vias were placed and no finished DFM rule approval is claimed.
+
+L2 full-board inset GND pour **boundary** exists. No ordinary signals routed on L2. Do not call it a filled/stitched/continuous copper plane certificate: fill and all ground connection evidence are missing. 93 L1 line segments, 46 initially planned short local paths,16/24 localnet groups connected by the bounded local pass; remaining connections need routing. Native DRC452 Connection Error entries are not452 distinct nets or completed-frame failures.
+
+The preserved accepted schematic has no electrical changes. The PCB uses exact existing global devices resolved into project-local library names and actual pad numbering. Global-vs-local UUID comparison was an initial audit error, saved separately; it is not evidence of 176 real footprint substitutions. Native compiler netlist comparison still returns107 net1 members with net2 empty, despite actual native550 pads with514 assignednets/36NC. UniqueIDs copied176/176 and official explicitJLC setNetlist returnedtrue, but comparison did not change. No claim of successful native netlist import.

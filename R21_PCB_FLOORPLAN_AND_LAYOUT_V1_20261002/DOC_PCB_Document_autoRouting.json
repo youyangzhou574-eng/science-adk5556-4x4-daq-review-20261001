@@ -1,0 +1,36 @@
+{
+  "started_utc": "2026-10-01T20:35:50.753234+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_Document",
+    "--method-name",
+    "autoRouting"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"自动布线\",\"remarks\":\"如不传入任何参数，将对所有未布线的网络进行自动布线\",\"params\":[{\"name\":\"props\",\"type\":\"IPCB_AutoRoutingProps\",\"description\":\"自动布线参数\",\"required\":false}],\"returns\":{\"type\":\"IPCB_AutoRoutingResult\"},\"example\":\"```javascript\\n// 对所有未布线的网络进行自动布线\\nconst result = await eda.pcb_Document.autoRouting();\\nconsole.log(`布线完成：${result.routedNets}/${result.totalNets}`);\\n\\n// 指定网络进行自动布线，并忽略部分网络\\nconst result = await eda.pcb_Document.autoRouting({\\n    nets: ['VCC', 'GND', 'SDA', 'SCL'],\\n    ignoreNets: ['NC'],\\n    cornerStyle: EPCB_AutoRoutingCornerStyle.DEGREE_45,\\n    optimization: EPCB_AutoRoutingOptimization.COMPLETION,\\n});\\n```\"},\"logs\":[],\"durationMs\":170}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "自动布线",
+      "remarks": "如不传入任何参数，将对所有未布线的网络进行自动布线",
+      "params": [
+        {
+          "name": "props",
+          "type": "IPCB_AutoRoutingProps",
+          "description": "自动布线参数",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "IPCB_AutoRoutingResult"
+      },
+      "example": "```javascript\n// 对所有未布线的网络进行自动布线\nconst result = await eda.pcb_Document.autoRouting();\nconsole.log(`布线完成：${result.routedNets}/${result.totalNets}`);\n\n// 指定网络进行自动布线，并忽略部分网络\nconst result = await eda.pcb_Document.autoRouting({\n    nets: ['VCC', 'GND', 'SDA', 'SCL'],\n    ignoreNets: ['NC'],\n    cornerStyle: EPCB_AutoRoutingCornerStyle.DEGREE_45,\n    optimization: EPCB_AutoRoutingOptimization.COMPLETION,\n});\n```"
+    },
+    "logs": [],
+    "durationMs": 170
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "started_utc": "2026-10-01T20:45:46.340267+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_ManufactureData",
+    "--method-name",
+    "getPdfFile"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"获取 PDF 文件\",\"remarks\":\"可以使用 {@link SYS_FileSystem.saveFile} 接口将文件导出到本地文件系统\\n\\n`outputMethod`、`contentConfig`、`watermark`、`graphPageConfig` 参数暂不可用，等待后期规划\",\"params\":[{\"name\":\"fileName\",\"type\":\"string\",\"description\":\"文件名\",\"required\":false},{\"name\":\"outputMethod\",\"type\":\"EPCB_PdfOutputMethod\",\"description\":\"输出方式\",\"required\":false},{\"name\":\"contentConfig\",\"type\":\"{ displayAttributesAsMenu: boolean; showOutlineOnly: boolean }\",\"description\":\"内容配置\",\"required\":false},{\"name\":\"watermark\",\"type\":\"{ show?: boolean; content?: string; styleConfig?: { color: string; transparency: \\\"Opaque\\\" | \\\"75%\\\" | \\\"50%\\\" | \\\"25%\\\"; font: string; fontSize: string; style: { blood: boolean; italic: boolean; underline: boolean }; slope: 0 | 45 | 90; denseness: \\\"Single\\\" | \\\"Sparse\\\" | \\\"Std\\\" | \\\"Dense\\\" } }\",\"description\":\"水印\",\"required\":false},{\"name\":\"graphPageConfig\",\"type\":\"Array<any>\",\"description\":\"图页配置\",\"required\":false}],\"returns\":{\"type\":\"null\"},\"example\":\"```javascript\\n// 导出多页 PDF（包含所有图层）\\nconst pdfFile = await eda.pcb_ManufactureData.getPdfFile(\\n    'PCB_Documentation',\\n    EPCB_PdfOutputMethod.MULTI_PAGE_PDF\\n);\\nif (pdfFile) {\\n    await eda.sys_FileSystem.saveFile(pdfFile);\\n}\\n```\"},\"logs\":[],\"durationMs\":169}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "获取 PDF 文件",
+      "remarks": "可以使用 {@link SYS_FileSystem.saveFile} 接口将文件导出到本地文件系统\n\n`outputMethod`、`contentConfig`、`watermark`、`graphPageConfig` 参数暂不可用，等待后期规划",
+      "params": [
+        {
+          "name": "fileName",
+          "type": "string",
+          "description": "文件名",
+          "required": false
+        },
+        {
+          "name": "outputMethod",
+          "type": "EPCB_PdfOutputMethod",
+          "description": "输出方式",
+          "required": false
+        },
+        {
+          "name": "contentConfig",
+          "type": "{ displayAttributesAsMenu: boolean; showOutlineOnly: boolean }",
+          "description": "内容配置",
+          "required": false
+        },
+        {
+          "name": "watermark",
+          "type": "{ show?: boolean; content?: string; styleConfig?: { color: string; transparency: \"Opaque\" | \"75%\" | \"50%\" | \"25%\"; font: string; fontSize: string; style: { blood: boolean; italic: boolean; underline: boolean }; slope: 0 | 45 | 90; denseness: \"Single\" | \"Sparse\" | \"Std\" | \"Dense\" } }",
+          "description": "水印",
+          "required": false
+        },
+        {
+          "name": "graphPageConfig",
+          "type": "Array<any>",
+          "description": "图页配置",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "null"
+      },
+      "example": "```javascript\n// 导出多页 PDF（包含所有图层）\nconst pdfFile = await eda.pcb_ManufactureData.getPdfFile(\n    'PCB_Documentation',\n    EPCB_PdfOutputMethod.MULTI_PAGE_PDF\n);\nif (pdfFile) {\n    await eda.sys_FileSystem.saveFile(pdfFile);\n}\n```"
+    },
+    "logs": [],
+    "durationMs": 169
+  }
+}

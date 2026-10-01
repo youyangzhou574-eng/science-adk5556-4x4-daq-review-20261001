@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-10-01T20:35:48.937434+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_PrimitivePad",
+    "--method-name",
+    "modify"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"修改焊盘\",\"params\":[{\"name\":\"primitiveId\",\"type\":\"string | IPCB_PrimitivePad\",\"description\":\"图元 ID\",\"required\":true},{\"name\":\"property\",\"type\":\"{ layer?: TPCB_LayersOfPad; padNumber?: string; x?: number; y?: number; rotation?: number; pad?: TPCB_PrimitivePadShape; net?: string; hole?: TPCB_PrimitivePadHole | null; holeOffsetX?: number; holeOffsetY?: number; holeRotation?: number; metallization?: boolean; specialPad?: TPCB_PrimitiveSpecialPadShape; solderMaskAndPasteMaskExpansion?: IPCB_PrimitiveSolderMaskAndPasteMaskExpansion | null; heatWelding?: IPCB_PrimitivePadHeatWelding | null; primitiveLock?: boolean }\",\"description\":\"修改参数\",\"required\":true}],\"returns\":{\"type\":\"IPCB_PrimitivePad | null\"}},\"logs\":[],\"durationMs\":160}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "修改焊盘",
+      "params": [
+        {
+          "name": "primitiveId",
+          "type": "string | IPCB_PrimitivePad",
+          "description": "图元 ID",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "{ layer?: TPCB_LayersOfPad; padNumber?: string; x?: number; y?: number; rotation?: number; pad?: TPCB_PrimitivePadShape; net?: string; hole?: TPCB_PrimitivePadHole | null; holeOffsetX?: number; holeOffsetY?: number; holeRotation?: number; metallization?: boolean; specialPad?: TPCB_PrimitiveSpecialPadShape; solderMaskAndPasteMaskExpansion?: IPCB_PrimitiveSolderMaskAndPasteMaskExpansion | null; heatWelding?: IPCB_PrimitivePadHeatWelding | null; primitiveLock?: boolean }",
+          "description": "修改参数",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "IPCB_PrimitivePad | null"
+      }
+    },
+    "logs": [],
+    "durationMs": 160
+  }
+}

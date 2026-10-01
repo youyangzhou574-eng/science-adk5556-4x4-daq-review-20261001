@@ -1,0 +1,28 @@
+{
+  "allNonDOCHEADRecordsEqual": true,
+  "recordTypes": {
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 11,
+    "ACTIVE_LAYER": 1,
+    "NET": 108,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 108,
+    "PRIMITIVE": 50,
+    "SILK_OPTS": 2,
+    "D3_ATTRIBUTE": 1,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "LINE": 93,
+    "POLY": 1,
+    "POUR": 1,
+    "COMPONENT": 176,
+    "ATTR": 529,
+    "PAD_NET": 550
+  },
+  "allPartsAndPadsEqual": true,
+  "rawSourceBytesEqual": false,
+  "scope": "offline document evidence only; no EDA call; corrects PAD/POLYLINE omission in historical helper",
+  "historicalHelperRetained": true
+}

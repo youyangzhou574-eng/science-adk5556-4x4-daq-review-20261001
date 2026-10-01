@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"PCB & 封装 / 折线图元类","methods":[{"name":"create","comment":"创建折线"},{"name":"delete","comment":"删除折线"},{"name":"modify","comment":"修改折线"},{"name":"get","comment":"获取折线"},{"name":"getAllPrimitiveId","comment":"获取所有折线的图元 ID"},{"name":"getAll","comment":"获取所有折线"}],"callPath":"pcb_PrimitivePolyline"},"logs":[],"durationMs":186}

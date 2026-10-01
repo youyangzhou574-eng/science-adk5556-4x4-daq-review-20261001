@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-10-01T20:33:22.597265+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "DMT_Board",
+    "--method-name",
+    "createBoard"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"创建板子\",\"params\":[{\"name\":\"schematicUuid\",\"type\":\"string\",\"description\":\"关联原理图 UUID\",\"required\":false},{\"name\":\"pcbUuid\",\"type\":\"string\",\"description\":\"关联 PCB UUID\",\"required\":false}],\"returns\":{\"type\":\"string | null\"}},\"logs\":[],\"durationMs\":162}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "创建板子",
+      "params": [
+        {
+          "name": "schematicUuid",
+          "type": "string",
+          "description": "关联原理图 UUID",
+          "required": false
+        },
+        {
+          "name": "pcbUuid",
+          "type": "string",
+          "description": "关联 PCB UUID",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "string | null"
+      }
+    },
+    "logs": [],
+    "durationMs": 162
+  }
+}

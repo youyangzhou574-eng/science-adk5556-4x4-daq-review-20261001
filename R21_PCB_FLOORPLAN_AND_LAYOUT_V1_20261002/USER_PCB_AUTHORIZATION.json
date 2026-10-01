@@ -1,0 +1,10 @@
+{
+  "userAuthorization": "允许：按常规矩形4层实验室验证板，尺寸随布局确定，机械要求未定；不采购、不制造、不上电",
+  "authorizedUTC": "2026-10-01T20:33:05.090155+00:00",
+  "pcbDesign": true,
+  "actualBench": false,
+  "procurement": false,
+  "manufacture": false,
+  "localGitWrites": false,
+  "mechanicalStatus": "LAB_REVIEW_RECTANGLE_NO_CONFIRMED_ENCLOSURE_OR_MOUNTING_HOLES"
+}

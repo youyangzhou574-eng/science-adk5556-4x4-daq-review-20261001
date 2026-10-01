@@ -1,0 +1,64 @@
+{
+  "started_utc": "2026-10-01T20:35:47.075840+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_PrimitiveComponent",
+    "--method-name",
+    "create"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"创建器件\",\"params\":[{\"name\":\"component\",\"type\":\"{ libraryUuid: string; uuid: string } | ILIB_DeviceItem | ILIB_DeviceSearchItem | { libraryType: \\\"4\\\"; libraryUuid: string; uuid: string } | ILIB_FootprintItem | ILIB_FootprintSearchItem\",\"description\":\"关联库器件\",\"required\":true},{\"name\":\"layer\",\"type\":\"TPCB_LayersOfComponent\",\"description\":\"层\",\"required\":true},{\"name\":\"x\",\"type\":\"number\",\"description\":\"坐标 X\",\"required\":true},{\"name\":\"y\",\"type\":\"number\",\"description\":\"坐标 Y\",\"required\":true},{\"name\":\"rotation\",\"type\":\"number\",\"description\":\"旋转角度\",\"required\":false},{\"name\":\"primitiveLock\",\"type\":\"boolean\",\"description\":\"是否锁定\",\"required\":false}],\"returns\":{\"type\":\"IPCB_PrimitiveComponent | null\"}},\"logs\":[],\"durationMs\":172}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "创建器件",
+      "params": [
+        {
+          "name": "component",
+          "type": "{ libraryUuid: string; uuid: string } | ILIB_DeviceItem | ILIB_DeviceSearchItem | { libraryType: \"4\"; libraryUuid: string; uuid: string } | ILIB_FootprintItem | ILIB_FootprintSearchItem",
+          "description": "关联库器件",
+          "required": true
+        },
+        {
+          "name": "layer",
+          "type": "TPCB_LayersOfComponent",
+          "description": "层",
+          "required": true
+        },
+        {
+          "name": "x",
+          "type": "number",
+          "description": "坐标 X",
+          "required": true
+        },
+        {
+          "name": "y",
+          "type": "number",
+          "description": "坐标 Y",
+          "required": true
+        },
+        {
+          "name": "rotation",
+          "type": "number",
+          "description": "旋转角度",
+          "required": false
+        },
+        {
+          "name": "primitiveLock",
+          "type": "boolean",
+          "description": "是否锁定",
+          "required": false
+        }
+      ],
+      "returns": {
+        "type": "IPCB_PrimitiveComponent | null"
+      }
+    },
+    "logs": [],
+    "durationMs": 172
+  }
+}

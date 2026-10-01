@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"获取所有覆铜边框的图元 ID","params":[{"name":"net","type":"string","description":"网络名称","required":false},{"name":"layer","type":"TPCB_LayersOfCopper","description":"层","required":false},{"name":"primitiveLock","type":"boolean","description":"是否锁定","required":false}],"returns":{"type":"Array<string>"}},"logs":[],"durationMs":147}

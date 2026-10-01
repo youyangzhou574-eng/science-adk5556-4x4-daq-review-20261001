@@ -1,0 +1,23 @@
+
+doc.api
+
+Query the eda namespace (static editor API) progressively (surface / class / method)
+
+Lists the classes on its own; --class-name narrows it to one class, --method-name to a single method.
+
+Usage:
+  lceda-pro doc api [--class-name <undefined>] [--method-name <undefined>]
+
+Options:
+  --class-name  Class / group name under the eda namespace
+  --method-name  Method / interface name
+
+Examples:
+  # list every class
+  lceda-pro doc api
+  # list one class's methods
+  lceda-pro doc api --class-name DMT_Board
+  # show one method in detail
+  lceda-pro doc api --class-name DMT_Board --method-name createBoard
+
+Global flags: see "lceda-pro --help"

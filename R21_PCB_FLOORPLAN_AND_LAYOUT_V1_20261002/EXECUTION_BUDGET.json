@@ -1,0 +1,878 @@
+{
+  "startedUTC": "2026-10-01T20:33:05.090155+00:00",
+  "totalMaxMinutes": 360,
+  "phasesMinutes": {
+    "mappingRules": 60,
+    "floorplan": 90,
+    "routing": 120,
+    "auditDRC": 60,
+    "delivery": 30
+  },
+  "counts": {
+    "workcopy": 1,
+    "session": 6,
+    "invoke": 34,
+    "successfulSaveCalls": 16,
+    "doc": 54,
+    "functions": 1,
+    "open": 4,
+    "nativeFile": 1,
+    "PCB_DRC": 3,
+    "simulation": 0,
+    "manufacture": 0,
+    "procurement": 0,
+    "actualBench": 0,
+    "localGitWrites": 0,
+    "createdHeadlessSessions": 4,
+    "officialCommandRecords": 99
+  },
+  "prohibited": [
+    "schematicElectricalChange",
+    "simulation",
+    "actualBench",
+    "procurement",
+    "manufacture",
+    "localGitWrites",
+    "systemChanges"
+  ],
+  "operations": [
+    {
+      "label": "CLOSE_DEFAULT_NETLIST_SESSION",
+      "kind": "session",
+      "startUTC": "2026-10-01T21:05:32.026550+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CLOSE_PCB_FINAL_COLD",
+      "kind": "session",
+      "startUTC": "2026-10-01T21:09:57.350730+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CLOSE_PCB_FINAL_WARM",
+      "kind": "session",
+      "startUTC": "2026-10-01T21:09:19.159853+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CLOSE_ROUTE_SESSION",
+      "kind": "session",
+      "startUTC": "2026-10-01T20:53:47.012180+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_00_RUN",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:38:28.033232+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_01",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:38:52.743722+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_02",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:39:01.481701+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_03",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:39:07.762920+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_04",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:39:39.138226+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_05",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:39:47.276067+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_06",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:39:54.412388+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_07",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:40:36.862624+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_BATCH_08",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:40:49.968736+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "CREATE_J1",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:36:41.188870+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_API_CLASSES",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:31:46.835247+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_API_HELP",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:31:28.441840+00:00",
+      "ok": false,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_DMT_Board",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:01.041670+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_DMT_Board_createBoard",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:33:22.597265+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_DMT_EditorControl",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:02.036818+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_DMT_EditorControl_openDocument",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:33:24.580995+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_DMT_Pcb",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:00.031957+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_DMT_Pcb_createPcb",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:33:21.561427+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_EPCB_AutoRoutingExistingPrimitiveMode_",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:50:24.734866+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_EPCB_AutoRoutingOptimization_",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:50:23.726883+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_EPCB_LayerId",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:34:12.444094+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_IPCB_AutoRoutingProps",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:41:03.697355+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_IPCB_PrimitiveComponent",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:34:09.637601+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_IPCB_PrimitiveComponentPad",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:34:10.544426+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_IPCB_PrimitivePad",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:41:01.787603+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_IPCB_PrimitivePad_setState_Net",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:35:48.079467+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_NETLIST_TYPES",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:04:06.986912+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_netlistComparison",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:02:48.218318+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Document",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:02.998565+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Document_autoRouting",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:35:50.753234+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Document_importChanges",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:33:23.544634+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Drc",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:07.005891+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Drc_check",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:47.278791+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Drc_getNetRules",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:50:21.679315+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Drc_overwriteNetRules",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:50:22.707282+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Layer",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:04.949058+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Layer_setTheNumberOfCopperLayers",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:33:27.307417+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_LINE_MODIFY",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:59:08.215344+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_ManufactureData",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:07.977350+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_ManufactureData_getPdfFile",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:46.340267+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_MathPolygon",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:41:02.735667+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_MathPolygon_createPolygon",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:40.985433+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_NET",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:03:25.889974+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Net_getNetlist",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:03:42.374494+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_Net_setNetlist",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:03:43.018038+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitiveComponent",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:03.958025+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitiveComponent_create",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:35:47.075840+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitiveComponent_getAllPinsByPrimitiveId",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:33:26.399479+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitiveComponent_modify",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:33:25.481585+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitiveLine_create",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:41.917119+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitivePad",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:32:06.049970+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitivePad_modify",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:35:48.937434+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitivePolyline",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:34:11.506562+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitivePolyline_create",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:35:49.813947+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitivePour_create",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:42.813476+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitivePour_getAll",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:43.671478+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitivePour_getAllPrimitiveId",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:44.557565+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_PrimitiveVia_create",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:45.447489+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_PCB_SURFACE",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:31:17.678948+00:00",
+      "ok": false,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_pcbComparison",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:02:48.900787+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_SCH_Netlist_getNetlist",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:03:43.629922+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_SCH_PrimitiveComponent_getAll",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:45:48.184094+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "DOC_SYS_TOOL",
+      "kind": "doc",
+      "startUTC": "2026-10-01T21:02:35.756853+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "EXPORT_AUTHORITATIVE_NET",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:05:48.124250+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "EXTERNAL_INDEX",
+      "kind": "doc",
+      "startUTC": "2026-10-01T20:35:28.997893+00:00",
+      "ok": false,
+      "error": {
+        "code": "BRIDGE_NOT_READY",
+        "message": "_EXTAPI_CLI_COMMAND_SPACE_.help is not available in this render"
+      },
+      "timeout": false
+    },
+    {
+      "label": "FIX_CLEARANCES_RUN",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:02:34.954004+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "FUNCTION_INDEX",
+      "kind": "functions",
+      "startUTC": "2026-10-01T20:35:29.888571+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "IMPORT_PCB",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:34:40.009251+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "LINK_SCHEMATIC",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:58:25.321037+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "NATIVE_NETLIST_BEFORE_READ",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:04:07.751642+00:00",
+      "ok": false,
+      "error": {
+        "code": "REQUEST_TIMEOUT",
+        "message": "invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)"
+      },
+      "timeout": false
+    },
+    {
+      "label": "NATIVE_NETLIST_COMPARE",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:03:06.357437+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "OPEN_PCB",
+      "kind": "open",
+      "startUTC": "2026-10-01T20:33:05.223311+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "OPEN_PCB_COLD",
+      "kind": "open",
+      "startUTC": "2026-10-01T20:53:48.133025+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "OPEN_PCB_FINAL_COLD",
+      "kind": "open",
+      "startUTC": "2026-10-01T21:09:19.960262+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "OPEN_PCB_RESUME",
+      "kind": "open",
+      "startUTC": "2026-10-01T21:05:32.655741+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "OUTLINE_SAVE",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:48:20.892582+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_AFTER_IMPORT",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:35:28.192318+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_CONTEXT",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:33:55.863363+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_DRC_01",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:56:39.097547+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_DRC_02",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:01:08.052421+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_DRC_03_FINAL",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:08:33.835912+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_FINAL_COLD_CAPTURE",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:09:53.670844+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_FINAL_WARM_CAPTURE",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:08:38.616565+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_FLOORPLAN_CAPTURE",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:48:41.218728+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_NATIVE_FILE",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:08:39.547959+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_NET_TABLE_READ",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:03:26.627225+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_PAD_AUDIT_01",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:41:28.848721+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PCB_POST_NET_CAPTURE",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:06:36.360266+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "PLACE_FLOORPLAN",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:47:46.647910+00:00",
+      "ok": false,
+      "error": {
+        "code": "EXECUTION_ERROR",
+        "message": "错误：无法创建直线图元，可能是传入的参数不正确。"
+      },
+      "timeout": false
+    },
+    {
+      "label": "ROUTE_CRITICAL",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:50:55.870092+00:00",
+      "ok": false,
+      "error": {
+        "code": "REQUEST_TIMEOUT",
+        "message": "invoke timed out after 49750ms (budget 50000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)"
+      },
+      "timeout": false
+    },
+    {
+      "label": "ROUTE_LOCAL",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:55:09.714864+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "ROUTE_STATE_READ",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T20:52:41.460683+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "SESSION_AFTER_ROUTE",
+      "kind": "session",
+      "startUTC": "2026-10-01T20:52:40.562226+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "SET_AUTHORITATIVE_NET",
+      "kind": "invoke",
+      "startUTC": "2026-10-01T21:06:18.029574+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    },
+    {
+      "label": "FINAL_ALL_SESSIONS",
+      "kind": "session",
+      "startUTC": "2026-10-01T21:14:48.591730+00:00",
+      "ok": true,
+      "error": null,
+      "timeout": false
+    }
+  ],
+  "status": "BLOCKED_REVIEW_DELIVERABLES_PREPARED",
+  "implementationCapsNote": "Pro specified phase time only; actual PCB operation counts will be logged, no invented approved operation quota.",
+  "stoppedUTC": "2026-10-01T21:12:42.262536+00:00",
+  "elapsedMinutes": 39.61953968333333,
+  "stopReason": "NATIVE_NETLIST_COMPARE_107_EMPTY_PCB_MEMBERS_AND_FULL_ROUTE_NOT_COMPLETE",
+  "timeNotRolledOver": true,
+  "nonCommandAttempts": [
+    {
+      "label": "CREATE_BATCH_00_PRELAUNCH",
+      "kind": "prelaunch",
+      "error": "WinError 206 command length",
+      "childProcessesStarted": 0,
+      "timestampExact": "NOT_RECORDED",
+      "source": "retained failure receipt and empty CREATE_BATCH_00 stdout/stderr"
+    },
+    {
+      "label": "CLEARANCE_STATIC_ASSERTION",
+      "kind": "offline helper attempt",
+      "error": "wrong vertical-segment assumption; assertion before mutation",
+      "EDAProcessesStarted": 0,
+      "timestampExact": "NOT_RECORDED",
+      "source": "retained failure receipt"
+    },
+    {
+      "label": "FIX_CLEARANCE_MISSING_CODE_FILE",
+      "kind": "prelaunch",
+      "error": "missing code file before CLI child launch",
+      "childProcessesStarted": 0,
+      "timestampExact": "NOT_RECORDED",
+      "source": "session summary; not reconstructing absent exact traceback"
+    }
+  ],
+  "finalDocumentSnapshotUTC": "2026-10-01T21:22:22.641747+00:00",
+  "snapshotScope": "Native stop time retained; final native list + read-only review/document pass included. Publication lifecycle recorded separately in delivery directory."
+}
