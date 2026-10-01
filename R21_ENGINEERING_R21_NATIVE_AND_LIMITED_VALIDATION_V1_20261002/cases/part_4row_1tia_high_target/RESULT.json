@@ -1,0 +1,13 @@
+{
+  "case": "part_4row_1tia_high_target",
+  "PID": 61560,
+  "executable": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+  "startedUnix": 1790876905.3566391,
+  "wallSeconds": 180.14469861984253,
+  "returncode": 1,
+  "forcedStop": "WALL_LIMIT_180s",
+  "status": "MACROMODEL_NUMERICAL_LIMIT",
+  "optran": 0,
+  "lastIntegrationTime_s": null,
+  "opText": " vcm                    v(vcm)                 v(vexc)                v(vexcmd)              v(cmdrv)               v(exdrv)               v(row0)                v(row1)                v(row2)                v(row3)                v(col0)                v(col1)                v(col2)                v(col3)                v(drv0)                v(drv1)                v(drv2)                v(drv3)                v(tdrv0)               v(tap0)                v(ain0)               \n 2.500000014901161e+00  2.500000014901161e+00  2.249999778777005e+00  2.249999753677333e+00  2.525000161844108e+00  2.249999745812661e+00  2.500001485968482e+00  2.500001485752707e+00  2.500001485776497e+00  2.500001485757721e+00  2.500001331333290e+00  2.500000014901161e+00  2.500000014901161e+00  2.500000014901161e+00  2.500006990977685e+00  2.500007163650750e+00  2.500007163795341e+00  2.500007163678923e+00  2.502497310234317e+00  2.499998191285873e+00  2.499748216464226e+00 \n"
+}

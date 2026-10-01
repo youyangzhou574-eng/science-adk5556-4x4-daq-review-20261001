@@ -1,0 +1,99 @@
+[
+  {
+    "newRef": "R_VCM_FB",
+    "page": 0,
+    "x": 280,
+    "y": 1460,
+    "collisions": []
+  },
+  {
+    "newRef": "C_VCM_HF",
+    "page": 0,
+    "x": 730,
+    "y": 1460,
+    "collisions": []
+  },
+  {
+    "newRef": "R_VEX_FB",
+    "page": 0,
+    "x": 1180,
+    "y": 1460,
+    "collisions": []
+  },
+  {
+    "newRef": "C_VEX_HF",
+    "page": 0,
+    "x": 1630,
+    "y": 1460,
+    "collisions": []
+  },
+  {
+    "newRef": "C_TIA_HF0",
+    "page": 2,
+    "x": 280,
+    "y": 1320,
+    "collisions": [
+      {
+        "ref": "C_TIA_OP",
+        "x": 280,
+        "y": 1320,
+        "nets": {
+          "1": "V5",
+          "2": "GND"
+        }
+      }
+    ]
+  },
+  {
+    "newRef": "C_TIA_HF1",
+    "page": 2,
+    "x": 730,
+    "y": 1320,
+    "collisions": [
+      {
+        "ref": "R_TIA_ISO0",
+        "x": 730,
+        "y": 1320,
+        "nets": {
+          "1": "TIA_DRV0",
+          "2": "TIA0"
+        }
+      }
+    ]
+  },
+  {
+    "newRef": "C_TIA_HF2",
+    "page": 2,
+    "x": 1180,
+    "y": 1320,
+    "collisions": [
+      {
+        "ref": "D_TIA0",
+        "x": 1180,
+        "y": 1320,
+        "nets": {
+          "1": "GND",
+          "2": "V5",
+          "3": "TIA_DRV0"
+        }
+      }
+    ]
+  },
+  {
+    "newRef": "C_TIA_HF3",
+    "page": 2,
+    "x": 1630,
+    "y": 1320,
+    "collisions": [
+      {
+        "ref": "R_TIA_ISO1",
+        "x": 1630,
+        "y": 1320,
+        "nets": {
+          "1": "TIA_DRV1",
+          "2": "TIA1"
+        }
+      }
+    ]
+  }
+]

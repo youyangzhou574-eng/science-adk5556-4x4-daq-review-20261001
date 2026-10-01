@@ -1,0 +1,7 @@
+{
+  "failure": "flat runtime wire line was incorrectly iterated as list of lines",
+  "evidence": "ECO_WIRE_SHAPE.json",
+  "failureBeforeFirstMutation": true,
+  "failedAttemptSavePredebitRetained": 1,
+  "noToolUpgradeOrScientificResearch": true
+}

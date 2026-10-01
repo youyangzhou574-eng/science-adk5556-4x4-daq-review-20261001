@@ -1,0 +1,1 @@
+const lib=await eda.lib_LibrariesList.getSystemLibraryUuid();return {libraryUuid:lib,items:await eda.lib_Device.search('GRM1885C1H220JA01D',lib,undefined,undefined,12,1)};

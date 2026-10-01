@@ -1,0 +1,294 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_ENGINEERING_R21_NATIVE_AND_LIMITED_VALIDATION_V1",
+  "rulingAssistantId": "92351b17-2d28-4158-9959-c3d1ed8ea841",
+  "startedUTC": "2026-10-01T17:33:18.856513+00:00",
+  "totalMaxMinutes": 480,
+  "phase": "P3",
+  "phaseStartedUTC": "2026-10-01T18:15:11.119454+00:00",
+  "limits": {
+    "P0": {
+      "minutes": 40
+    },
+    "P1": {
+      "minutes": 120
+    },
+    "P2": {
+      "minutes": 240
+    },
+    "P3": {
+      "minutes": 80
+    }
+  },
+  "globalLimits": {
+    "OP_AC": 32,
+    "transient": 12,
+    "offline": 48,
+    "reset": 32,
+    "protocol": 48,
+    "sources": 8,
+    "candidate": 2,
+    "library": 4,
+    "copy": 1,
+    "session": 2,
+    "save": 8,
+    "captureAudit": 4,
+    "ERC_DRC": 2,
+    "PDF": 2,
+    "full_long": 0,
+    "PZ": 0,
+    "MIMO": 0,
+    "descriptor": 0
+  },
+  "used": {
+    "offline": 41,
+    "protocol": 32,
+    "OP_AC": 6,
+    "transient": 6,
+    "copy": 1,
+    "session": 1,
+    "captureAudit": 3,
+    "library": 1,
+    "save": 7,
+    "PDF": 1
+  },
+  "operations": [
+    {
+      "kind": "offline",
+      "label": "10 matrices x 4 selected rows ideal DC",
+      "count": 40,
+      "preDebitedUTC": "2026-10-01T17:40:52.108617+00:00"
+    },
+    {
+      "kind": "protocol",
+      "label": "final existing protocol regression",
+      "count": 32,
+      "preDebitedUTC": "2026-10-01T17:42:08.181731+00:00"
+    },
+    {
+      "kind": "OP_AC",
+      "label": "part_4row_1tia_800 OP",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:42:24.985595+00:00"
+    },
+    {
+      "kind": "transient",
+      "label": "part_4row_1tia_800 short TRAN",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:42:24.994183+00:00"
+    },
+    {
+      "kind": "OP_AC",
+      "label": "part_4row_1tia_8000 OP",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:45:25.151168+00:00"
+    },
+    {
+      "kind": "transient",
+      "label": "part_4row_1tia_8000 short TRAN",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:45:25.164022+00:00"
+    },
+    {
+      "kind": "OP_AC",
+      "label": "part_4row_1tia_high_target OP",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:48:25.345893+00:00"
+    },
+    {
+      "kind": "transient",
+      "label": "part_4row_1tia_high_target short TRAN",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:48:25.355621+00:00"
+    },
+    {
+      "kind": "OP_AC",
+      "label": "part_1row_4tia_800 OP",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:51:25.510739+00:00"
+    },
+    {
+      "kind": "transient",
+      "label": "part_1row_4tia_800 short TRAN",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:51:25.521002+00:00"
+    },
+    {
+      "kind": "copy",
+      "label": "one new R2 engineering workcopy",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:51:58.638441+00:00"
+    },
+    {
+      "kind": "session",
+      "label": "open new workcopy own session",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:51:58.654298+00:00"
+    },
+    {
+      "kind": "OP_AC",
+      "label": "part_1row_4tia_8000 OP",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:54:25.676937+00:00"
+    },
+    {
+      "kind": "transient",
+      "label": "part_1row_4tia_8000 short TRAN",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:54:25.687682+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "new copy baseline actual File / all six pages",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:56:04.537923+00:00"
+    },
+    {
+      "kind": "library",
+      "label": "one new22p C0G native identity search/verification",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:57:16.460963+00:00"
+    },
+    {
+      "kind": "OP_AC",
+      "label": "part_1row_4tia_high_target OP",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:57:25.865515+00:00"
+    },
+    {
+      "kind": "transient",
+      "label": "part_1row_4tia_high_target short TRAN",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T17:57:25.875267+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO page0 plus required save",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:01:40.007771+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "corrected ECO page0 required save",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:02:40.917468+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO page1 and save",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:03:27.050847+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO page2 and save",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:03:30.207011+00:00"
+    },
+    {
+      "kind": "offline",
+      "label": "one bounded interpretation of six unfinished solver logs",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:04:32.171905+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO page3 and save",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:05:00.404518+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO page4 and save",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:05:02.626579+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ECO page5 and save",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:05:06.102080+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "post ECO full actual File / all physical pins and NC",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:05:46.263375+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "post-STOP read-only export of failed existing state for complete evidence",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:09:46.121300+00:00",
+      "postStopEvidenceOnly": true
+    },
+    {
+      "kind": "PDF",
+      "label": "post-STOP read-only export of failed existing state for complete evidence",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T18:09:46.121318+00:00",
+      "postStopEvidenceOnly": true
+    }
+  ],
+  "phaseHistory": [
+    {
+      "phase": "P0",
+      "startedUTC": "2026-10-01T17:33:18.856513+00:00",
+      "endedUTC": "2026-10-01T17:42:08.171890+00:00"
+    },
+    {
+      "phase": "P1",
+      "startedUTC": "2026-10-01T17:42:08.171890+00:00",
+      "endedUTC": "2026-10-01T17:51:58.629250+00:00"
+    },
+    {
+      "phase": "P2",
+      "startedUTC": "2026-10-01T17:51:58.629250+00:00",
+      "endedUTC": "2026-10-01T18:09:08.746264+00:00",
+      "result": "ACTUAL_PIN_NET_ERROR"
+    }
+  ],
+  "scienceStopped": true,
+  "forbidden": [
+    "actualbench",
+    "PCB",
+    "manufacturing",
+    "procurement",
+    "localGit",
+    "systemWrites",
+    "install",
+    "newExecutor"
+  ],
+  "engineeringGate": [
+    "normal1to7k clipping",
+    "guardband harmful power/current",
+    "completed transient growth or normal300us failure",
+    "100fps arithmetic impossible",
+    "reset normal VOL failure",
+    "actual pin-net error",
+    "architecture change",
+    "time/count exhaustion"
+  ],
+  "stopReason": "ACTUAL_PIN_NET_ERROR_AFTER_MINIMAL_ECO",
+  "stopUTC": "2026-10-01T18:09:08.746264+00:00",
+  "postStopAllowedOnly": [
+    "read-only frozen/source diagnosis",
+    "capture existing failed File/PDF for receipt",
+    "close owned session",
+    "report/publication"
+  ],
+  "P1ActualProcessWindowUTC": [
+    "2026-10-01T17:42:24.995182+00:00",
+    "2026-10-01T18:00:26.039269+00:00"
+  ],
+  "actualSaveCallsExecuted": 6,
+  "saveFailedPredebitKept": 1,
+  "actualConnectedPinAuditsExecuted": 2,
+  "postStopFileExportGroups": 1,
+  "actualSessionsOpened": 1,
+  "actualSessionsClosed": 1,
+  "noOwnedSolverLive": true,
+  "protocolActualTests": 32,
+  "temporaryCollectorWaitExceeded58s": true,
+  "collectorWaitResolution": "targeted stop of verified own Python83312; read-only existing session/context, no repeat open, no app kill",
+  "stagnationControlDeviation": "configured30s vs ruling15s; stderr-only failed to monitor actual stdout progress; no further scientific runs"
+}

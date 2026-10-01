@@ -1,0 +1,16 @@
+test_01_normal_states_and_two_frames (test_progress.ProgressTests.test_01_normal_states_and_two_frames) ... ok
+test_02_frozen_progress_despite_heartbeats (test_progress.ProgressTests.test_02_frozen_progress_despite_heartbeats) ... ok
+test_03_heartbeat_missing_latency (test_progress.ProgressTests.test_03_heartbeat_missing_latency) ... ok
+test_04_fault_in_each_state_with_queue_and_tick_jitter (test_progress.ProgressTests.test_04_fault_in_each_state_with_queue_and_tick_jitter) ... ok
+test_05_timestamp_cannot_fake_state_advancement (test_progress.ProgressTests.test_05_timestamp_cannot_fake_state_advancement) ... ok
+test_06_skip_and_bad_count_rejected (test_progress.ProgressTests.test_06_skip_and_bad_count_rejected) ... ok
+test_07_wrap_and_epoch_keep_receive_clock (test_progress.ProgressTests.test_07_wrap_and_epoch_keep_receive_clock) ... ok
+test_08_timeout_replay_and_two_new_frames_recover (test_progress.ProgressTests.test_08_timeout_replay_and_two_new_frames_recover) ... ok
+test_09_pgood_and_bad_sample_immediate (test_progress.ProgressTests.test_09_pgood_and_bad_sample_immediate) ... ok
+test_10_complete_requires_observed_full_progress (test_progress.ProgressTests.test_10_complete_requires_observed_full_progress) ... ok
+test_11_invalid_future_nonfinite_progress_and_bounds (test_progress.ProgressTests.test_11_invalid_future_nonfinite_progress_and_bounds) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.027s
+
+OK

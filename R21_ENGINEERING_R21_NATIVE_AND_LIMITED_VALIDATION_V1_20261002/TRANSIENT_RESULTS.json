@@ -1,0 +1,80 @@
+[
+  {
+    "case": "part_4row_1tia_800",
+    "PID": 63388,
+    "executable": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "startedUnix": 1790876544.9951823,
+    "wallSeconds": 180.14461374282837,
+    "returncode": 1,
+    "forcedStop": "WALL_LIMIT_180s",
+    "status": "MACROMODEL_NUMERICAL_LIMIT",
+    "optran": 0,
+    "lastIntegrationTime_s": null,
+    "opText": " vcm                    v(vcm)                 v(vexc)                v(vexcmd)              v(cmdrv)               v(exdrv)               v(row0)                v(row1)                v(row2)                v(row3)                v(col0)                v(col1)                v(col2)                v(col3)                v(drv0)                v(drv1)                v(drv2)                v(drv3)                v(tdrv0)               v(tap0)                v(ain0)               \n 2.500000015017577e+00  2.500000015017577e+00  2.249999778893421e+00  2.249999753782107e+00  2.525000161844117e+00  2.249999745929045e+00  2.500001486104362e+00  2.500001485866585e+00  2.500001485890375e+00  2.500001485871599e+00  2.500001331438302e+00  2.500000015017577e+00  2.500000015017577e+00  2.500000015017577e+00  2.500007165191871e+00  2.500007163767133e+00  2.500007163911725e+00  2.500007163795307e+00  2.502496266747192e+00  2.499997322744612e+00  2.499747348009811e+00 \n"
+  },
+  {
+    "case": "part_4row_1tia_8000",
+    "PID": 42256,
+    "executable": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "startedUnix": 1790876725.1651857,
+    "wallSeconds": 180.1682939529419,
+    "returncode": 1,
+    "forcedStop": "WALL_LIMIT_180s",
+    "status": "MACROMODEL_NUMERICAL_LIMIT",
+    "optran": 0,
+    "lastIntegrationTime_s": null,
+    "opText": " vcm                    v(vcm)                 v(vexc)                v(vexcmd)              v(cmdrv)               v(exdrv)               v(row0)                v(row1)                v(row2)                v(row3)                v(col0)                v(col1)                v(col2)                v(col3)                v(drv0)                v(drv1)                v(drv2)                v(drv3)                v(tdrv0)               v(tap0)                v(ain0)               \n 2.500000014901161e+00  2.500000014901161e+00  2.249999778777005e+00  2.249999753677333e+00  2.525000161844108e+00  2.249999745812661e+00  2.500001485839607e+00  2.500001485727293e+00  2.500001485606813e+00  2.500001485599813e+00  2.500001331292853e+00  2.500000014901161e+00  2.500000014901161e+00  2.500000014901161e+00  2.500002025931834e+00  2.500002025787514e+00  2.500002025582650e+00  2.500002025582412e+00  2.502500434760218e+00  2.500000792014999e+00  2.499750816933306e+00 \n"
+  },
+  {
+    "case": "part_4row_1tia_high_target",
+    "PID": 61560,
+    "executable": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "startedUnix": 1790876905.3566391,
+    "wallSeconds": 180.14469861984253,
+    "returncode": 1,
+    "forcedStop": "WALL_LIMIT_180s",
+    "status": "MACROMODEL_NUMERICAL_LIMIT",
+    "optran": 0,
+    "lastIntegrationTime_s": null,
+    "opText": " vcm                    v(vcm)                 v(vexc)                v(vexcmd)              v(cmdrv)               v(exdrv)               v(row0)                v(row1)                v(row2)                v(row3)                v(col0)                v(col1)                v(col2)                v(col3)                v(drv0)                v(drv1)                v(drv2)                v(drv3)                v(tdrv0)               v(tap0)                v(ain0)               \n 2.500000014901161e+00  2.500000014901161e+00  2.249999778777005e+00  2.249999753677333e+00  2.525000161844108e+00  2.249999745812661e+00  2.500001485968482e+00  2.500001485752707e+00  2.500001485776497e+00  2.500001485757721e+00  2.500001331333290e+00  2.500000014901161e+00  2.500000014901161e+00  2.500000014901161e+00  2.500006990977685e+00  2.500007163650750e+00  2.500007163795341e+00  2.500007163678923e+00  2.502497310234317e+00  2.499998191285873e+00  2.499748216464226e+00 \n"
+  },
+  {
+    "case": "part_1row_4tia_800",
+    "PID": 65652,
+    "executable": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "startedUnix": 1790877085.5218987,
+    "wallSeconds": 180.1440098285675,
+    "returncode": 1,
+    "forcedStop": "WALL_LIMIT_180s",
+    "status": "MACROMODEL_NUMERICAL_LIMIT",
+    "optran": 0,
+    "lastIntegrationTime_s": null,
+    "opText": " vcm                    v(vcm)                 v(vexc)                v(vexcmd)              v(cmdrv)               v(exdrv)               v(row0)                v(row1)                v(row2)                v(row3)                v(col0)                v(col1)                v(col2)                v(col3)                v(drv0)                v(tdrv0)               v(tdrv1)               v(tdrv2)               v(tdrv3)               v(tap0)                v(tap1)                v(tap2)                v(tap3)                v(ain0)                v(ain1)                v(ain2)                v(ain3)               \n 2.500000015366822e+00  2.500000015366822e+00  2.249999781570997e+00  2.249999756113672e+00  2.525000161727767e+00  2.249999748489227e+00  2.500001486239845e+00  2.500000015365572e+00  2.500000015365572e+00  2.500000015365572e+00  2.500001331784607e+00  2.500001331788817e+00  2.500001331788817e+00  2.500001332039838e+00  2.500002227377638e+00  2.502529335577872e+00  2.502529335605809e+00  2.502529335517364e+00  2.502529343403688e+00  2.500024848032416e+00  2.500024848056372e+00  2.500024847982754e+00  2.500024854588900e+00  2.499774870545362e+00  2.499774870569315e+00  2.499774870495704e+00  2.499774877101190e+00 \n"
+  },
+  {
+    "case": "part_1row_4tia_8000",
+    "PID": 70580,
+    "executable": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "startedUnix": 1790877265.6886725,
+    "wallSeconds": 180.16582202911377,
+    "returncode": 1,
+    "forcedStop": "WALL_LIMIT_180s",
+    "status": "MACROMODEL_NUMERICAL_LIMIT",
+    "optran": 0,
+    "lastIntegrationTime_s": null,
+    "opText": " vcm                    v(vcm)                 v(vexc)                v(vexcmd)              v(cmdrv)               v(exdrv)               v(row0)                v(row1)                v(row2)                v(row3)                v(col0)                v(col1)                v(col2)                v(col3)                v(drv0)                v(tdrv0)               v(tdrv1)               v(tdrv2)               v(tdrv3)               v(tap0)                v(tap1)                v(tap2)                v(tap3)                v(ain0)                v(ain1)                v(ain2)                v(ain3)               \n 2.500000015250407e+00  2.500000015250407e+00  2.249999781454580e+00  2.249999756008898e+00  2.525000161495008e+00  2.249999748372843e+00  2.500001486021310e+00  2.500000015249157e+00  2.500000015249157e+00  2.500000015249157e+00  2.500001331658958e+00  2.500001331630286e+00  2.500001331688494e+00  2.500001331892221e+00  2.500001532383162e+00  2.502503741978916e+00  2.502503741890512e+00  2.502503742034555e+00  2.502503742937918e+00  2.500003544878437e+00  2.500003544800070e+00  2.500003544929676e+00  2.500003545715584e+00  2.499753569521485e+00  2.499753569443126e+00  2.499753569572719e+00  2.499753570358548e+00 \n"
+  },
+  {
+    "case": "part_1row_4tia_high_target",
+    "PID": 52804,
+    "executable": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "startedUnix": 1790877445.8763516,
+    "wallSeconds": 180.16291761398315,
+    "returncode": 1,
+    "forcedStop": "WALL_LIMIT_180s",
+    "status": "MACROMODEL_NUMERICAL_LIMIT",
+    "optran": 0,
+    "lastIntegrationTime_s": null,
+    "opText": " vcm                    v(vcm)                 v(vexc)                v(vexcmd)              v(cmdrv)               v(exdrv)               v(row0)                v(row1)                v(row2)                v(row3)                v(col0)                v(col1)                v(col2)                v(col3)                v(drv0)                v(tdrv0)               v(tdrv1)               v(tdrv2)               v(tdrv3)               v(tap0)                v(tap1)                v(tap2)                v(tap3)                v(ain0)                v(ain1)                v(ain2)                v(ain3)               \n 2.500000015250407e+00  2.500000015250407e+00  2.249999781454580e+00  2.249999756008898e+00  2.525000161495008e+00  2.249999748372843e+00  2.500001486102649e+00  2.500000015249157e+00  2.500000015249157e+00  2.500000015249157e+00  2.500001331669182e+00  2.500001331682050e+00  2.500001331674774e+00  2.500001331922157e+00  2.500002053396440e+00  2.502530377203110e+00  2.502529335838852e+00  2.502529335633746e+00  2.502529343403688e+00  2.500025715022177e+00  2.500024848232538e+00  2.500024848060602e+00  2.500024854569269e+00  2.499775737448432e+00  2.499774870745464e+00  2.499774870573545e+00  2.499774877081562e+00 \n"
+  }
+]

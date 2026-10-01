@@ -1,0 +1,9 @@
+{
+  "operation": "NATIVE_OPEN_01",
+  "status": "CLI_OUTPUT_PIPE_INHERITED_AFTER_CLI_TIMEOUT; SESSION_CREATED_ALIVE; CONTEXT_READ_PENDING",
+  "observedUTC": "2026-10-01T17:55:19.578631+00:00",
+  "sessionId": "a329d737-9586-42ac-96b4-499531e8b1ca",
+  "source": "SESSION_STATUS.json",
+  "noRepeatedOpen": true,
+  "noApplicationKill": true
+}

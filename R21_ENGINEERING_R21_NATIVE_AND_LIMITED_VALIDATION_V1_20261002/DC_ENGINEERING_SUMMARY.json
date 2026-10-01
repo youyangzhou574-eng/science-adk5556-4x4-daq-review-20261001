@@ -1,0 +1,32 @@
+{
+  "scope": "40 ideal selected-row DC groups / 160 cell outputs; exact virtual grounds, no line R/opamp offsets/clamp leakage/ADC INL; not new SPICE",
+  "max_TIA_driver_V": 4.37593396910309,
+  "min_ROW_driver_V": 1.0,
+  "ADC_min_V": 2.6556719328067193,
+  "ADC_max_V": 4.058969103089691,
+  "max_sensor_uA": 312.5,
+  "delta10pct": [
+    {
+      "R_ohm": 1000,
+      "delta10pct_V": -0.1133977511339781,
+      "delta10pct_codes": -1451.4912145149196,
+      "scope": "ideal signal size only; 7000->7700 is guardband"
+    },
+    {
+      "R_ohm": 3300,
+      "delta10pct_V": -0.034362954889084474,
+      "delta10pct_codes": -439.84582258028126,
+      "scope": "ideal signal size only; 7000->7700 is guardband"
+    },
+    {
+      "R_ohm": 7000,
+      "delta10pct_V": -0.016199678733425316,
+      "delta10pct_codes": -207.35588778784404,
+      "scope": "ideal signal size only; 7000->7700 is guardband"
+    }
+  ],
+  "normal_clipping": false,
+  "guardband_current_power": "ideal sensor max78.125uW at800; no fault/thermal certification",
+  "bleed5p25_99ohm_W": 0.2784090909090909,
+  "acceptance": "native entry screening only; goals mean<=1%, frame repeatability<=0.2% BENCH_PENDING"
+}

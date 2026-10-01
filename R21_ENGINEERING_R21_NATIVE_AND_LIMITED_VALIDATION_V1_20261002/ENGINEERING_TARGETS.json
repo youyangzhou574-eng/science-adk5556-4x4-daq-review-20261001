@@ -1,0 +1,16 @@
+{
+  "normalOhm": [
+    1000,
+    7000
+  ],
+  "guardbandOhm": [
+    800,
+    8000
+  ],
+  "changeTargetFraction": 0.1,
+  "precisionMeanGoalFraction": 0.01,
+  "frameRepeatabilityGoalFraction": 0.002,
+  "actualBench": "NOT_EXECUTED",
+  "nativeEntry": "40 ideal DC groups no ordinary clipping; macro numeric limits explicitly nonblocking per08",
+  "oldScientificHolds": "retained historical; not reused native hard gates"
+}

@@ -1,0 +1,428 @@
+[
+  {
+    "side": "baseline",
+    "firstPortNameAttrs": [
+      [
+        {
+          "type": "ATTR",
+          "ticket": 33,
+          "id": "591e04b8ed60d80c"
+        },
+        {
+          "x": null,
+          "y": null,
+          "rotation": null,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "",
+          "keyVisible": null,
+          "valueVisible": null,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "a58903691cbeee5a",
+          "zIndex": 32
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 47,
+          "id": "559632b5e36ad748"
+        },
+        {
+          "x": 270,
+          "y": -595,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "HDR-M_2.54_1x2P",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "4bca25034cc82d71",
+          "zIndex": 12
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 68,
+          "id": "5c90f2e628829382"
+        },
+        {
+          "x": 320,
+          "y": -230,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "REF3025AIDBZR",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "fca6b0f84d5aa3d2",
+          "zIndex": 12
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 105,
+          "id": "50a44d16f129585c"
+        },
+        {
+          "x": 945,
+          "y": -230,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "TPS7A2033PDBVR",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "5e7dc2c4c06e4436",
+          "zIndex": 15
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 142,
+          "id": "04177aefdbfc7423"
+        },
+        {
+          "x": 1555,
+          "y": -225,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "OPA2388IDR",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "552423625fcd3537",
+          "zIndex": 18
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 182,
+          "id": "d97f78af70d35d01"
+        },
+        {
+          "x": 720,
+          "y": -605,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "10k 0.1%",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "cceb3c887d4b7cc6",
+          "zIndex": 11
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 213,
+          "id": "614e1cf02a5b85c7"
+        },
+        {
+          "x": 1170,
+          "y": -605,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "10k 0.1%",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "602bed3d60b2a4c7",
+          "zIndex": 11
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 244,
+          "id": "ed7bf1964060c58d"
+        },
+        {
+          "x": 1620,
+          "y": -605,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "10k 0.1%",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "b009ad764fab491f",
+          "zIndex": 11
+        }
+      ]
+    ]
+  },
+  {
+    "side": "postECO",
+    "firstPortNameAttrs": [
+      [
+        {
+          "type": "ATTR",
+          "ticket": 33,
+          "id": "591e04b8ed60d80c"
+        },
+        {
+          "x": null,
+          "y": null,
+          "rotation": null,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "",
+          "keyVisible": null,
+          "valueVisible": null,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "a58903691cbeee5a",
+          "zIndex": 32
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 47,
+          "id": "559632b5e36ad748"
+        },
+        {
+          "x": 270,
+          "y": -595,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "HDR-M_2.54_1x2P",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "4bca25034cc82d71",
+          "zIndex": 12
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 68,
+          "id": "5c90f2e628829382"
+        },
+        {
+          "x": 320,
+          "y": -230,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "REF3025AIDBZR",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "fca6b0f84d5aa3d2",
+          "zIndex": 12
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 105,
+          "id": "50a44d16f129585c"
+        },
+        {
+          "x": 945,
+          "y": -230,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "TPS7A2033PDBVR",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "5e7dc2c4c06e4436",
+          "zIndex": 15
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 142,
+          "id": "04177aefdbfc7423"
+        },
+        {
+          "x": 1555,
+          "y": -225,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "OPA2388IDR",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "552423625fcd3537",
+          "zIndex": 18
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 182,
+          "id": "d97f78af70d35d01"
+        },
+        {
+          "x": 720,
+          "y": -605,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "10k 0.1%",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "cceb3c887d4b7cc6",
+          "zIndex": 11
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 213,
+          "id": "614e1cf02a5b85c7"
+        },
+        {
+          "x": 1170,
+          "y": -605,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "10k 0.1%",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "602bed3d60b2a4c7",
+          "zIndex": 11
+        }
+      ],
+      [
+        {
+          "type": "ATTR",
+          "ticket": 244,
+          "id": "ed7bf1964060c58d"
+        },
+        {
+          "x": 1620,
+          "y": -605,
+          "rotation": 0,
+          "color": null,
+          "fontFamily": null,
+          "fontSize": null,
+          "fontWeight": null,
+          "italic": null,
+          "underline": null,
+          "align": null,
+          "value": "10k 0.1%",
+          "keyVisible": null,
+          "valueVisible": true,
+          "key": "Name",
+          "fillColor": null,
+          "parentId": "b009ad764fab491f",
+          "zIndex": 11
+        }
+      ]
+    ]
+  }
+]

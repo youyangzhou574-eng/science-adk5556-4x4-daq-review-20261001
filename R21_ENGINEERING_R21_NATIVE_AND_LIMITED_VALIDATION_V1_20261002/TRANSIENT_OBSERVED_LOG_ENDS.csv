@@ -1,0 +1,7 @@
+case,processId,wallSeconds,actualLastReportedTime_s,reportedTimeSource,originalSupervisorTimeField,status,opFileExists,completedTrace,residual300usPass
+part_1row_4tia_800,65652,180.1440098285675,0.000199747,stdout.log,null: supervisor monitored stderr only,MACROMODEL_NUMERICAL_LIMIT,True,False,NOT_ESTABLISHED
+part_1row_4tia_8000,70580,180.16582202911377,0.000166493,stdout.log,null: supervisor monitored stderr only,MACROMODEL_NUMERICAL_LIMIT,True,False,NOT_ESTABLISHED
+part_1row_4tia_high_target,52804,180.16291761398315,0.000174339,stdout.log,null: supervisor monitored stderr only,MACROMODEL_NUMERICAL_LIMIT,True,False,NOT_ESTABLISHED
+part_4row_1tia_800,63388,180.14461374282837,0.000190117,stdout.log,null: supervisor monitored stderr only,MACROMODEL_NUMERICAL_LIMIT,True,False,NOT_ESTABLISHED
+part_4row_1tia_8000,42256,180.1682939529419,0.000277467,stdout.log,null: supervisor monitored stderr only,MACROMODEL_NUMERICAL_LIMIT,True,False,NOT_ESTABLISHED
+part_4row_1tia_high_target,61560,180.14469861984253,0.00019595,stdout.log,null: supervisor monitored stderr only,MACROMODEL_NUMERICAL_LIMIT,True,False,NOT_ESTABLISHED

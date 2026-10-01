@@ -1,0 +1,13 @@
+{
+  "engineeringSTOP": "ACTUAL_PIN_NET_ERROR",
+  "baselineCopy": "PASS498/498,104nets,36NC,168parts",
+  "postECO": "FAIL334/514,99actualvs106expectednets,36NC,176parts",
+  "ordinaryDC": "IDEAL_SCREENING_PASS40groups",
+  "macroDynamic": "MACROMODEL_NUMERICAL_LIMIT6/6,complete0",
+  "protocol": "OFFLINE32PASS_HARDWARE_PENDING",
+  "nativeCandidate": "BLOCKED_NOT_FOR_USE",
+  "coldReopen": "NOT_ATTEMPTED_AFTER_STOP",
+  "bench": "NOT_RELEASED",
+  "manufacturing": "NOT_RELEASED",
+  "historicTheoreticalHolds": "historical retained; not new engineering gates"
+}

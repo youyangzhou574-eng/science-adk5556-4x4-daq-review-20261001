@@ -1,0 +1,1 @@
+return {page:await eda.dmt_Schematic.getCurrentSchematicPageInfo(),wires:(await eda.sch_PrimitiveWire.getAll()).slice(0,3).map(w=>({id:w.getState_PrimitiveId(),line:w.getState_Line(),net:w.getState_Net()}))};

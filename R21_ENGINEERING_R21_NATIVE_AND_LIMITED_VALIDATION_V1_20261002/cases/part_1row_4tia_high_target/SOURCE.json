@@ -1,0 +1,10 @@
+{
+  "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\cases\\part_1row_4tia_high_target_gear_180.cir",
+  "sourceSHA": "eb61b1edb4bf85ffaedf6a2b5dedfe0ab8a82fc336f8f6ad4aa7f7152d158408",
+  "changes": [
+    "switch100us to3us",
+    "remove optran initialization",
+    "end353us,step100ns"
+  ],
+  "no_model_edits": true
+}

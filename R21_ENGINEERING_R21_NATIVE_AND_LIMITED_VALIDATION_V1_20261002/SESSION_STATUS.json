@@ -1,0 +1,13 @@
+{
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "session",
+    "list"
+  ],
+  "status": "NORMAL_EXIT",
+  "returncode": 0,
+  "wallSeconds": 0.687781810760498,
+  "stdout": "\n{\"ok\":true,\"value\":[{\"sessionId\":\"a329d737-9586-42ac-96b4-499531e8b1ca\",\"renderId\":1,\"status\":\"alive\",\"headless\":true}],\"logs\":[],\"durationMs\":0}\n",
+  "stderr": "",
+  "onlyOwnCLIStopped": false
+}

@@ -1,0 +1,228 @@
+{
+  "started_utc": "2026-10-01T18:02:11.956627+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "a329d737-9586-42ac-96b4-499531e8b1ca",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "return {page:await eda.dmt_Schematic.getCurrentSchematicPageInfo(),wires:(await eda.sch_PrimitiveWire.getAll()).slice(0,3).map(w=>({id:w.getState_PrimitiveId(),line:w.getState_Line(),net:w.getState_Net()}))};",
+    "--timeout",
+    "50000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"name\":\"Power_Reference\",\"itemType\":\"Schematic Page\",\"uuid\":\"595d5f2f11dee03d\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"parentSchematicName\":\"Schematic1\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_R21_ENGINEERING_WORK\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Power_Reference\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:48:39\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":1},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"14:19:00\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}},\"wires\":[{\"id\":\"c1577db5bb3db467\",\"line\":[205,625,260,625],\"net\":\"V5_IN\"},{\"id\":\"69a64ae03a1dd47b\",\"line\":[205,615,260,615],\"net\":\"GND\"},{\"id\":\"ea9565647c577548\",\"line\":[190,270,300,270],\"net\":\"V5\"}]},\"logs\":[],\"durationMs\":8}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "name": "Power_Reference",
+        "itemType": "Schematic Page",
+        "uuid": "595d5f2f11dee03d",
+        "parentSchematicUuid": "32047f874e6d71ce",
+        "parentSchematicName": "Schematic1",
+        "showTitleBlock": false,
+        "titleBlockData": {
+          "Symbol": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "Drawing-Symbol_A4"
+          },
+          "Company": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "嘉立创EDA"
+          },
+          "Drawed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Reviewed": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Part Number": {
+            "showTitle": false,
+            "showValue": true,
+            "value": ""
+          },
+          "Version": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "V1.0"
+          },
+          "Page Size": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "A4"
+          },
+          "@Project Name": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "SCIENCE_ADK5556_4X4_R21_ENGINEERING_WORK"
+          },
+          "@Update Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-01"
+          },
+          "@Create Date": {
+            "showTitle": false,
+            "showValue": false,
+            "value": "2026-10-01"
+          },
+          "Device": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Drawing-Symbol_A4"
+          },
+          "@Board Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Board1"
+          },
+          "@Page Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Power_Reference"
+          },
+          "@Create Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "13:48:39"
+          },
+          "@Page Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 6
+          },
+          "@Page No": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1
+          },
+          "@Schematic Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Schematic1"
+          },
+          "@Update Time": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "14:19:00"
+          },
+          "@Assembly Variant": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "Basic"
+          },
+          "Border": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "0"
+          },
+          "Title Block Position": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "3"
+          },
+          "Size": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "A4"
+          },
+          "Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 1170
+          },
+          "Height": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 825
+          },
+          "Region Start": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "1"
+          },
+          "X Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 6
+          },
+          "Y Region Count": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 4
+          },
+          "Blade Width": {
+            "showTitle": null,
+            "showValue": null,
+            "value": 10
+          },
+          "Color": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Title Block": {
+            "showTitle": null,
+            "showValue": null,
+            "value": "0"
+          },
+          "Name": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "Description": {
+            "showTitle": null,
+            "showValue": null,
+            "value": ""
+          },
+          "ID": {}
+        }
+      },
+      "wires": [
+        {
+          "id": "c1577db5bb3db467",
+          "line": [
+            205,
+            625,
+            260,
+            625
+          ],
+          "net": "V5_IN"
+        },
+        {
+          "id": "69a64ae03a1dd47b",
+          "line": [
+            205,
+            615,
+            260,
+            615
+          ],
+          "net": "GND"
+        },
+        {
+          "id": "ea9565647c577548",
+          "line": [
+            190,
+            270,
+            300,
+            270
+          ],
+          "net": "V5"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 8
+  }
+}

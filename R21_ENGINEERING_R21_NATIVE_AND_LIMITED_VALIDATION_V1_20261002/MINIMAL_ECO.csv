@@ -1,0 +1,7 @@
+item,before,after,detail
+U3 pin2,VCM,VCM_FB,add R_VCM_FB4.99k VCM->VCM_FB; C_VCM_HF100p VCM_DRV->VCM_FB
+U3 pin6,VEXC,VEXC_FB,add R_VEX_FB4.99k VEXC->VEXC_FB; C_VEX_HF100p VEXC_DRV->VEXC_FB
+R_J3_5,4.99k 0.1%,1k 1%,same MCU_NRST_EXT->PGOOD pins; real1k library identity
+C_ADC0..3,missing native Value,10nF X7R,physical MPN unchanged
+C_TIA_HF0..3,absent,22pF C0G,TIA_DRVn->COL_SENSEn
+titles/ports,old R2 goal / label in arrow,R2.1 1–7k target / external text,no net changes beyond explicit ECO

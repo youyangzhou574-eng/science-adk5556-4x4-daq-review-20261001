@@ -1,0 +1,83 @@
+{
+  "sixActualProcesses": [
+    {
+      "case": "part_1row_4tia_800",
+      "processId": 65652,
+      "wallSeconds": 180.1440098285675,
+      "actualLastReportedTime_s": 0.000199747,
+      "reportedTimeSource": "stdout.log",
+      "originalSupervisorTimeField": "null: supervisor monitored stderr only",
+      "status": "MACROMODEL_NUMERICAL_LIMIT",
+      "opFileExists": true,
+      "completedTrace": false,
+      "residual300usPass": "NOT_ESTABLISHED"
+    },
+    {
+      "case": "part_1row_4tia_8000",
+      "processId": 70580,
+      "wallSeconds": 180.16582202911377,
+      "actualLastReportedTime_s": 0.000166493,
+      "reportedTimeSource": "stdout.log",
+      "originalSupervisorTimeField": "null: supervisor monitored stderr only",
+      "status": "MACROMODEL_NUMERICAL_LIMIT",
+      "opFileExists": true,
+      "completedTrace": false,
+      "residual300usPass": "NOT_ESTABLISHED"
+    },
+    {
+      "case": "part_1row_4tia_high_target",
+      "processId": 52804,
+      "wallSeconds": 180.16291761398315,
+      "actualLastReportedTime_s": 0.000174339,
+      "reportedTimeSource": "stdout.log",
+      "originalSupervisorTimeField": "null: supervisor monitored stderr only",
+      "status": "MACROMODEL_NUMERICAL_LIMIT",
+      "opFileExists": true,
+      "completedTrace": false,
+      "residual300usPass": "NOT_ESTABLISHED"
+    },
+    {
+      "case": "part_4row_1tia_800",
+      "processId": 63388,
+      "wallSeconds": 180.14461374282837,
+      "actualLastReportedTime_s": 0.000190117,
+      "reportedTimeSource": "stdout.log",
+      "originalSupervisorTimeField": "null: supervisor monitored stderr only",
+      "status": "MACROMODEL_NUMERICAL_LIMIT",
+      "opFileExists": true,
+      "completedTrace": false,
+      "residual300usPass": "NOT_ESTABLISHED"
+    },
+    {
+      "case": "part_4row_1tia_8000",
+      "processId": 42256,
+      "wallSeconds": 180.1682939529419,
+      "actualLastReportedTime_s": 0.000277467,
+      "reportedTimeSource": "stdout.log",
+      "originalSupervisorTimeField": "null: supervisor monitored stderr only",
+      "status": "MACROMODEL_NUMERICAL_LIMIT",
+      "opFileExists": true,
+      "completedTrace": false,
+      "residual300usPass": "NOT_ESTABLISHED"
+    },
+    {
+      "case": "part_4row_1tia_high_target",
+      "processId": 61560,
+      "wallSeconds": 180.14469861984253,
+      "actualLastReportedTime_s": 0.00019595,
+      "reportedTimeSource": "stdout.log",
+      "originalSupervisorTimeField": "null: supervisor monitored stderr only",
+      "status": "MACROMODEL_NUMERICAL_LIMIT",
+      "opFileExists": true,
+      "completedTrace": false,
+      "residual300usPass": "NOT_ESTABLISHED"
+    }
+  ],
+  "noCompletedTrace": true,
+  "noPhysicalInstabilityClaim": true,
+  "allHighTargetCasesGuardband": "8000 target /800 neighbors; not normal1-7k",
+  "nativeBlockedByNumericalLimit": false,
+  "noNewProofTools": true,
+  "stagnationCheckNotEffective": "progress printed stdout, recorded stderr-only null; all180s wall stops still enforced",
+  "noAdditionalSimulationsOrMacroEdits": true
+}

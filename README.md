@@ -1,3 +1,9 @@
+# Latest: 08 engineering receipt — BLOCKED / DO NOT USE NEW NATIVE
+
+[Complete engineering receipt](R21_ENGINEERING_R21_NATIVE_AND_LIMITED_VALIDATION_V1_20261002/COMPLETE_ENGINEERING_RECEIPT.md) · [Readable file index](R21_ENGINEERING_R21_NATIVE_AND_LIMITED_VALIDATION_V1_20261002/README.md). The frozen R2 copy first passed498/498; my ECO placement and feedback-port edits introduced180 incorrect connected-pin assignments. Post-ECO334/514,99actual vs106planned nets,36NC; oversized PDF labels also fail. All new native/PDF files are failed evidence, NOT for assembly, manufacture or power. Forty ideal DC groups and32offline protocol tests are limited results; six bounded macro transients remain numerical limits. Requested next scope is only finite native connections/labels correction, no MIMO/descriptor/tool research.
+
+---
+
 # SCIENCE_ADK5556 4×4 DAQ 专用公开审查仓库
 
 

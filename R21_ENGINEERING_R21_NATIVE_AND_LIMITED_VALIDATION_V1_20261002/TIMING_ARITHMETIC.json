@@ -1,0 +1,19 @@
+{
+  "states": 8,
+  "state_us": 1200,
+  "settling_us": 300,
+  "transfersPerState": 36,
+  "dummyPerState": 4,
+  "validPerState": 32,
+  "clockPerTransfer": 48,
+  "assumedSPI_Hz": 2000000,
+  "frame_us": 10000,
+  "clocksPerFrame": 13824,
+  "SPI_us": 6912.0,
+  "settlingTotal_us": 2400,
+  "processingBudget_us": 400,
+  "stateSPI_us": 864.0,
+  "stateSlack_us": 36.0,
+  "status": "ARITHMETIC_FEASIBLE_ONLY_HARDWARE_WCET_PENDING",
+  "noTimingCertificate": true
+}

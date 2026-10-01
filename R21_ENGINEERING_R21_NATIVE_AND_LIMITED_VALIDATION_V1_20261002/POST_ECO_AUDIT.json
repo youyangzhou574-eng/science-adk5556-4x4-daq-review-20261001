@@ -1,0 +1,6745 @@
+{
+  "actual_source": "NATIVE_POST_ECO_CAPTURE_02",
+  "raw_sha256": "212D2A597CD263267FDC451D254C692777981A1700A40D04257E35CADB4D2B44",
+  "raw_bytes": 217658,
+  "parser_encoding": "UTF-8",
+  "File_text_has_replacement_character": false,
+  "no_reencoding_of_actual_netlist": true,
+  "pin_checks": [
+    {
+      "pin": "J1-1",
+      "expected": "V5_IN",
+      "actual": "V5_IN",
+      "pass_": true
+    },
+    {
+      "pin": "J1-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U6-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U6-2",
+      "expected": "REF_2V5",
+      "actual": "REF_2V5",
+      "pass_": true
+    },
+    {
+      "pin": "U6-3",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U8-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U8-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U8-3",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U8-5",
+      "expected": "V3_LDO",
+      "actual": "V3_LDO",
+      "pass_": true
+    },
+    {
+      "pin": "U3-1",
+      "expected": "VCM_DRV",
+      "actual": "VCM_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "U3-2",
+      "expected": "VCM_FB",
+      "actual": "VCM",
+      "pass_": false
+    },
+    {
+      "pin": "U3-3",
+      "expected": "REF_2V5",
+      "actual": "REF_2V5",
+      "pass_": true
+    },
+    {
+      "pin": "U3-4",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U3-5",
+      "expected": "DIV_2V25",
+      "actual": "DIV_2V25",
+      "pass_": true
+    },
+    {
+      "pin": "U3-6",
+      "expected": "VEXC_FB",
+      "actual": "VEXC",
+      "pass_": false
+    },
+    {
+      "pin": "U3-7",
+      "expected": "VEXC_DRV",
+      "actual": "VEXC_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "U3-8",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "RD_TOP-1",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "RD_TOP-2",
+      "expected": "DIV_2V25",
+      "actual": "DIV_2V25",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B1-1",
+      "expected": "DIV_2V25",
+      "actual": "DIV_2V25",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B1-2",
+      "expected": "DIV_SEG1",
+      "actual": "DIV_SEG1",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B2-1",
+      "expected": "DIV_SEG1",
+      "actual": "DIV_SEG1",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B2-2",
+      "expected": "DIV_SEG2",
+      "actual": "DIV_SEG2",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B3-1",
+      "expected": "DIV_SEG2",
+      "actual": "DIV_SEG2",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B3-2",
+      "expected": "DIV_SEG3",
+      "actual": "DIV_SEG3",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B4-1",
+      "expected": "DIV_SEG3",
+      "actual": "DIV_SEG3",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B4-2",
+      "expected": "DIV_SEG4",
+      "actual": "DIV_SEG4",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B5-1",
+      "expected": "DIV_SEG4",
+      "actual": "DIV_SEG4",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B5-2",
+      "expected": "DIV_SEG5",
+      "actual": "DIV_SEG5",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B6-1",
+      "expected": "DIV_SEG5",
+      "actual": "DIV_SEG5",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B6-2",
+      "expected": "DIV_SEG6",
+      "actual": "DIV_SEG6",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B7-1",
+      "expected": "DIV_SEG6",
+      "actual": "DIV_SEG6",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B7-2",
+      "expected": "DIV_SEG7",
+      "actual": "DIV_SEG7",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B8-1",
+      "expected": "DIV_SEG7",
+      "actual": "DIV_SEG7",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B8-2",
+      "expected": "DIV_SEG8",
+      "actual": "DIV_SEG8",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B9-1",
+      "expected": "DIV_SEG8",
+      "actual": "DIV_SEG8",
+      "pass_": true
+    },
+    {
+      "pin": "RD_B9-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_DIV-1",
+      "expected": "DIV_2V25",
+      "actual": "DIV_2V25",
+      "pass_": true
+    },
+    {
+      "pin": "C_DIV-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_PWR-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_PWR-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_REF-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_REF-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_BUF-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_BUF-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_LDO_IN-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_LDO_IN-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_LDO_OUT-1",
+      "expected": "V3_LDO",
+      "actual": "V3_LDO",
+      "pass_": true
+    },
+    {
+      "pin": "C_LDO_OUT-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U4-1",
+      "expected": "ROW_SEL0",
+      "actual": "ROW_SEL0",
+      "pass_": true
+    },
+    {
+      "pin": "U4-2",
+      "expected": "VEXC",
+      "actual": "VEXC",
+      "pass_": true
+    },
+    {
+      "pin": "U4-3",
+      "expected": "ROW_CMD0",
+      "actual": "ROW_CMD0",
+      "pass_": true
+    },
+    {
+      "pin": "U4-4",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "U4-5",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U4-6",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U4-7",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "U4-8",
+      "expected": "ROW_CMD1",
+      "actual": "ROW_CMD1",
+      "pass_": true
+    },
+    {
+      "pin": "U4-9",
+      "expected": "VEXC",
+      "actual": "VEXC",
+      "pass_": true
+    },
+    {
+      "pin": "U4-10",
+      "expected": "ROW_SEL1",
+      "actual": "ROW_SEL1",
+      "pass_": true
+    },
+    {
+      "pin": "U4-11",
+      "expected": "ROW_SEL2",
+      "actual": "ROW_SEL2",
+      "pass_": true
+    },
+    {
+      "pin": "U4-12",
+      "expected": "VEXC",
+      "actual": "VEXC",
+      "pass_": true
+    },
+    {
+      "pin": "U4-13",
+      "expected": "ROW_CMD2",
+      "actual": "ROW_CMD2",
+      "pass_": true
+    },
+    {
+      "pin": "U4-14",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "U4-16",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U4-17",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "U4-18",
+      "expected": "ROW_CMD3",
+      "actual": "ROW_CMD3",
+      "pass_": true
+    },
+    {
+      "pin": "U4-19",
+      "expected": "VEXC",
+      "actual": "VEXC",
+      "pass_": true
+    },
+    {
+      "pin": "U4-20",
+      "expected": "ROW_SEL3",
+      "actual": "ROW_SEL3",
+      "pass_": true
+    },
+    {
+      "pin": "U1-4",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U1-11",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U1-1",
+      "expected": "ROW_DRV0",
+      "actual": "ROW_DRV0",
+      "pass_": true
+    },
+    {
+      "pin": "U1-2",
+      "expected": "ROW_FB0",
+      "actual": "ROW_FB0",
+      "pass_": true
+    },
+    {
+      "pin": "U1-3",
+      "expected": "ROW_CMD0",
+      "actual": "ROW_CMD0",
+      "pass_": true
+    },
+    {
+      "pin": "U1-7",
+      "expected": "ROW_DRV1",
+      "actual": "ROW_DRV1",
+      "pass_": true
+    },
+    {
+      "pin": "U1-6",
+      "expected": "ROW_FB1",
+      "actual": "ROW_FB1",
+      "pass_": true
+    },
+    {
+      "pin": "U1-5",
+      "expected": "ROW_CMD1",
+      "actual": "ROW_CMD1",
+      "pass_": true
+    },
+    {
+      "pin": "U1-8",
+      "expected": "ROW_DRV2",
+      "actual": "ROW_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "U1-9",
+      "expected": "ROW_FB2",
+      "actual": "ROW_FB2",
+      "pass_": true
+    },
+    {
+      "pin": "U1-10",
+      "expected": "ROW_CMD2",
+      "actual": "ROW_CMD2",
+      "pass_": true
+    },
+    {
+      "pin": "U1-14",
+      "expected": "ROW_DRV3",
+      "actual": "ROW_DRV3",
+      "pass_": true
+    },
+    {
+      "pin": "U1-13",
+      "expected": "ROW_FB3",
+      "actual": "ROW_FB3",
+      "pass_": true
+    },
+    {
+      "pin": "U1-12",
+      "expected": "ROW_CMD3",
+      "actual": "ROW_CMD3",
+      "pass_": true
+    },
+    {
+      "pin": "R_ISO0-1",
+      "expected": "ROW_DRV0",
+      "actual": "ROW_DRV0",
+      "pass_": true
+    },
+    {
+      "pin": "R_ISO0-2",
+      "expected": "ROW0",
+      "actual": "ROW0",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB0-1",
+      "expected": "ROW0",
+      "actual": "ROW0",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB0-2",
+      "expected": "ROW_FB0",
+      "actual": "ROW_FB0",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF0-1",
+      "expected": "ROW_DRV0",
+      "actual": "ROW_DRV0",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF0-2",
+      "expected": "ROW_FB0",
+      "actual": "ROW_FB0",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD0-1",
+      "expected": "ROW_SEL0",
+      "actual": "ROW_SEL0",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD0-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_ISO1-1",
+      "expected": "ROW_DRV1",
+      "actual": "ROW_DRV1",
+      "pass_": true
+    },
+    {
+      "pin": "R_ISO1-2",
+      "expected": "ROW1",
+      "actual": "ROW1",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB1-1",
+      "expected": "ROW1",
+      "actual": "ROW1",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB1-2",
+      "expected": "ROW_FB1",
+      "actual": "ROW_FB1",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF1-1",
+      "expected": "ROW_DRV1",
+      "actual": "ROW_DRV1",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF1-2",
+      "expected": "ROW_FB1",
+      "actual": "ROW_FB1",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD1-1",
+      "expected": "ROW_SEL1",
+      "actual": "ROW_SEL1",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD1-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_ISO2-1",
+      "expected": "ROW_DRV2",
+      "actual": "ROW_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "R_ISO2-2",
+      "expected": "ROW2",
+      "actual": "ROW2",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB2-1",
+      "expected": "ROW2",
+      "actual": "ROW2",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB2-2",
+      "expected": "ROW_FB2",
+      "actual": "ROW_FB2",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF2-1",
+      "expected": "ROW_DRV2",
+      "actual": "ROW_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF2-2",
+      "expected": "ROW_FB2",
+      "actual": "ROW_FB2",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD2-1",
+      "expected": "ROW_SEL2",
+      "actual": "ROW_SEL2",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD2-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_ISO3-1",
+      "expected": "ROW_DRV3",
+      "actual": "ROW_DRV3",
+      "pass_": true
+    },
+    {
+      "pin": "R_ISO3-2",
+      "expected": "ROW3",
+      "actual": "ROW3",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB3-1",
+      "expected": "ROW3",
+      "actual": "ROW3",
+      "pass_": true
+    },
+    {
+      "pin": "R_ROW_FB3-2",
+      "expected": "ROW_FB3",
+      "actual": "ROW_FB3",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF3-1",
+      "expected": "ROW_DRV3",
+      "actual": "ROW_DRV3",
+      "pass_": true
+    },
+    {
+      "pin": "C_ROW_HF3-2",
+      "expected": "ROW_FB3",
+      "actual": "ROW_FB3",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD3-1",
+      "expected": "ROW_SEL3",
+      "actual": "ROW_SEL3",
+      "pass_": true
+    },
+    {
+      "pin": "R_SEL_PD3-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_ROW_OP-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_ROW_OP-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_MUX-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_MUX-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "J2-1",
+      "expected": "ROW0",
+      "actual": "ROW0",
+      "pass_": true
+    },
+    {
+      "pin": "J2-2",
+      "expected": "ROW1",
+      "actual": "ROW1",
+      "pass_": true
+    },
+    {
+      "pin": "J2-3",
+      "expected": "ROW2",
+      "actual": "ROW2",
+      "pass_": true
+    },
+    {
+      "pin": "J2-4",
+      "expected": "ROW3",
+      "actual": "ROW3",
+      "pass_": true
+    },
+    {
+      "pin": "J2-5",
+      "expected": "COL0",
+      "actual": "COL0",
+      "pass_": true
+    },
+    {
+      "pin": "J2-6",
+      "expected": "COL1",
+      "actual": "COL1",
+      "pass_": true
+    },
+    {
+      "pin": "J2-7",
+      "expected": "COL2",
+      "actual": "COL2",
+      "pass_": true
+    },
+    {
+      "pin": "J2-8",
+      "expected": "COL3",
+      "actual": "COL3",
+      "pass_": true
+    },
+    {
+      "pin": "U2-4",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U2-11",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U2-1",
+      "expected": "TIA_DRV0",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U2-2",
+      "expected": "COL_SENSE0",
+      "actual": "COL_SENSE0",
+      "pass_": true
+    },
+    {
+      "pin": "U2-3",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "U2-7",
+      "expected": "TIA_DRV1",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U2-6",
+      "expected": "COL_SENSE1",
+      "actual": "COL_SENSE1",
+      "pass_": true
+    },
+    {
+      "pin": "U2-5",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "U2-8",
+      "expected": "TIA_DRV2",
+      "actual": "TIA_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "U2-9",
+      "expected": "COL_SENSE2",
+      "actual": "COL_SENSE2",
+      "pass_": true
+    },
+    {
+      "pin": "U2-10",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "U2-14",
+      "expected": "TIA_DRV3",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U2-13",
+      "expected": "COL_SENSE3",
+      "actual": "COL_SENSE3",
+      "pass_": true
+    },
+    {
+      "pin": "U2-12",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "R_COL_SENSE0-1",
+      "expected": "COL0",
+      "actual": "COL0",
+      "pass_": true
+    },
+    {
+      "pin": "R_COL_SENSE0-2",
+      "expected": "COL_SENSE0",
+      "actual": "COL_SENSE0",
+      "pass_": true
+    },
+    {
+      "pin": "RF0-1",
+      "expected": "TIA0",
+      "actual": "COL_SENSE1",
+      "pass_": false
+    },
+    {
+      "pin": "RF0-2",
+      "expected": "COL0",
+      "actual": "COL0",
+      "pass_": true
+    },
+    {
+      "pin": "CF0-1",
+      "expected": "TIA0",
+      "actual": "COL_SENSE1",
+      "pass_": false
+    },
+    {
+      "pin": "CF0-2",
+      "expected": "COL0",
+      "actual": "COL0",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC0-1",
+      "expected": "TIA0",
+      "actual": "COL_SENSE1",
+      "pass_": false
+    },
+    {
+      "pin": "R_ADC0-2",
+      "expected": "ADC_IN0",
+      "actual": "ADC_IN0",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC0-1",
+      "expected": "ADC_IN0",
+      "actual": "ADC_IN0",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC0-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_COL_SENSE1-1",
+      "expected": "COL1",
+      "actual": "COL1",
+      "pass_": true
+    },
+    {
+      "pin": "R_COL_SENSE1-2",
+      "expected": "COL_SENSE1",
+      "actual": "COL_SENSE1",
+      "pass_": true
+    },
+    {
+      "pin": "RF1-1",
+      "expected": "TIA1",
+      "actual": "COL_SENSE3",
+      "pass_": false
+    },
+    {
+      "pin": "RF1-2",
+      "expected": "COL1",
+      "actual": "COL1",
+      "pass_": true
+    },
+    {
+      "pin": "CF1-1",
+      "expected": "TIA1",
+      "actual": "COL_SENSE3",
+      "pass_": false
+    },
+    {
+      "pin": "CF1-2",
+      "expected": "COL1",
+      "actual": "COL1",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC1-1",
+      "expected": "TIA1",
+      "actual": "COL_SENSE3",
+      "pass_": false
+    },
+    {
+      "pin": "R_ADC1-2",
+      "expected": "ADC_IN1",
+      "actual": "ADC_IN1",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC1-1",
+      "expected": "ADC_IN1",
+      "actual": "ADC_IN1",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC1-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_COL_SENSE2-1",
+      "expected": "COL2",
+      "actual": "COL2",
+      "pass_": true
+    },
+    {
+      "pin": "R_COL_SENSE2-2",
+      "expected": "COL_SENSE2",
+      "actual": "COL_SENSE2",
+      "pass_": true
+    },
+    {
+      "pin": "RF2-1",
+      "expected": "TIA2",
+      "actual": "TIA2",
+      "pass_": true
+    },
+    {
+      "pin": "RF2-2",
+      "expected": "COL2",
+      "actual": "COL2",
+      "pass_": true
+    },
+    {
+      "pin": "CF2-1",
+      "expected": "TIA2",
+      "actual": "TIA2",
+      "pass_": true
+    },
+    {
+      "pin": "CF2-2",
+      "expected": "COL2",
+      "actual": "COL2",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC2-1",
+      "expected": "TIA2",
+      "actual": "TIA2",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC2-2",
+      "expected": "ADC_IN2",
+      "actual": "ADC_IN2",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC2-1",
+      "expected": "ADC_IN2",
+      "actual": "ADC_IN2",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC2-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_COL_SENSE3-1",
+      "expected": "COL3",
+      "actual": "COL3",
+      "pass_": true
+    },
+    {
+      "pin": "R_COL_SENSE3-2",
+      "expected": "COL_SENSE3",
+      "actual": "COL_SENSE3",
+      "pass_": true
+    },
+    {
+      "pin": "RF3-1",
+      "expected": "TIA3",
+      "actual": "TIA3",
+      "pass_": true
+    },
+    {
+      "pin": "RF3-2",
+      "expected": "COL3",
+      "actual": "COL3",
+      "pass_": true
+    },
+    {
+      "pin": "CF3-1",
+      "expected": "TIA3",
+      "actual": "TIA3",
+      "pass_": true
+    },
+    {
+      "pin": "CF3-2",
+      "expected": "COL3",
+      "actual": "COL3",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC3-1",
+      "expected": "TIA3",
+      "actual": "TIA3",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC3-2",
+      "expected": "ADC_IN3",
+      "actual": "ADC_IN3",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC3-1",
+      "expected": "ADC_IN3",
+      "actual": "ADC_IN3",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC3-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_TIA_OP-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_TIA_OP-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-1",
+      "expected": "SPI_MOSI",
+      "actual": "SPI_MOSI",
+      "pass_": true
+    },
+    {
+      "pin": "U5-2",
+      "expected": "ADC_RESET_N",
+      "actual": "ADC_RESET_N",
+      "pass_": true
+    },
+    {
+      "pin": "U5-3",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-4",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-5",
+      "expected": "ADC_REFIO",
+      "actual": "ADC_REFIO",
+      "pass_": true
+    },
+    {
+      "pin": "U5-6",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-7",
+      "expected": "ADC_REFCAP",
+      "actual": "ADC_REFCAP",
+      "pass_": true
+    },
+    {
+      "pin": "U5-8",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-9",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U5-10",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-11",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-16",
+      "expected": "ADC_IN0",
+      "actual": "ADC_IN0",
+      "pass_": true
+    },
+    {
+      "pin": "U5-17",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-18",
+      "expected": "ADC_IN1",
+      "actual": "ADC_IN1",
+      "pass_": true
+    },
+    {
+      "pin": "U5-19",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-20",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-21",
+      "expected": "ADC_IN2",
+      "actual": "ADC_IN2",
+      "pass_": true
+    },
+    {
+      "pin": "U5-22",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-23",
+      "expected": "ADC_IN3",
+      "actual": "ADC_IN3",
+      "pass_": true
+    },
+    {
+      "pin": "U5-28",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-29",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-30",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U5-31",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-32",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-33",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U5-34",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U5-36",
+      "expected": "SPI_MISO",
+      "actual": "SPI_MISO",
+      "pass_": true
+    },
+    {
+      "pin": "U5-37",
+      "expected": "SPI_SCLK",
+      "actual": "SPI_SCLK",
+      "pass_": true
+    },
+    {
+      "pin": "U5-38",
+      "expected": "ADC_CS_N",
+      "actual": "ADC_CS_N",
+      "pass_": true
+    },
+    {
+      "pin": "U7-4",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U7-5",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U7-6",
+      "expected": "PGOOD",
+      "actual": "PGOOD",
+      "pass_": true
+    },
+    {
+      "pin": "U7-7",
+      "expected": "MCU_ROW0",
+      "actual": "MCU_ROW0",
+      "pass_": true
+    },
+    {
+      "pin": "U7-8",
+      "expected": "MCU_ROW1",
+      "actual": "MCU_ROW1",
+      "pass_": true
+    },
+    {
+      "pin": "U7-9",
+      "expected": "MCU_ROW2",
+      "actual": "MCU_ROW2",
+      "pass_": true
+    },
+    {
+      "pin": "U7-10",
+      "expected": "MCU_ROW3",
+      "actual": "MCU_ROW3",
+      "pass_": true
+    },
+    {
+      "pin": "U7-11",
+      "expected": "ADC_CS_N",
+      "actual": "ADC_CS_N",
+      "pass_": true
+    },
+    {
+      "pin": "U7-12",
+      "expected": "SPI_SCLK",
+      "actual": "SPI_SCLK",
+      "pass_": true
+    },
+    {
+      "pin": "U7-13",
+      "expected": "SPI_MISO",
+      "actual": "SPI_MISO",
+      "pass_": true
+    },
+    {
+      "pin": "U7-14",
+      "expected": "SPI_MOSI",
+      "actual": "SPI_MOSI",
+      "pass_": true
+    },
+    {
+      "pin": "U7-15",
+      "expected": "MCU_ADC_RESET",
+      "actual": "MCU_ADC_RESET",
+      "pass_": true
+    },
+    {
+      "pin": "U7-16",
+      "expected": "MCU_ENABLE",
+      "actual": "MCU_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "U7-19",
+      "expected": "UART_TX",
+      "actual": "UART_TX",
+      "pass_": true
+    },
+    {
+      "pin": "U7-21",
+      "expected": "UART_RX",
+      "actual": "UART_RX",
+      "pass_": true
+    },
+    {
+      "pin": "U7-24",
+      "expected": "SWDIO",
+      "actual": "SWDIO",
+      "pass_": true
+    },
+    {
+      "pin": "U7-25",
+      "expected": "SWCLK",
+      "actual": "SWCLK",
+      "pass_": true
+    },
+    {
+      "pin": "J3-1",
+      "expected": "V3V3_EXT",
+      "actual": "V3V3_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "J3-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "J3-3",
+      "expected": "SWDIO_EXT",
+      "actual": "SWDIO_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "J3-4",
+      "expected": "SWCLK_EXT",
+      "actual": "SWCLK_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "J3-5",
+      "expected": "MCU_NRST_EXT",
+      "actual": "MCU_NRST_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "J4-1",
+      "expected": "V3V3_EXT",
+      "actual": "V3V3_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "J4-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "J4-3",
+      "expected": "UART_TX_EXT",
+      "actual": "UART_TX_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "J4-4",
+      "expected": "UART_RX_EXT",
+      "actual": "UART_RX_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_RST-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "R_RST-2",
+      "expected": "PGOOD",
+      "actual": "PGOOD",
+      "pass_": true
+    },
+    {
+      "pin": "C_RST-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_RST-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_CS_PU-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "R_CS_PU-2",
+      "expected": "ADC_CS_N",
+      "actual": "ADC_CS_N",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC_RESET_PD-1",
+      "expected": "ADC_RESET_N",
+      "actual": "ADC_RESET_N",
+      "pass_": true
+    },
+    {
+      "pin": "R_ADC_RESET_PD-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_ADC_REFIO-1",
+      "expected": "ADC_REFIO",
+      "actual": "ADC_REFIO",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC_REFIO-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_ADC_REFCAP-1",
+      "expected": "ADC_REFCAP",
+      "actual": "ADC_REFCAP",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADC_REFCAP-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_ADCA1-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_ADCA1-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_ADCA2-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_ADCA2-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_ADCD-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_ADCD-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_MCU1-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_MCU1-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_MCU_BULK-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_MCU_BULK-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_VCM_ISO-1",
+      "expected": "VCM_DRV",
+      "actual": "VCM_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "R_VCM_ISO-2",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "R_VEX_ISO-1",
+      "expected": "VEXC_DRV",
+      "actual": "VEXC_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "R_VEX_ISO-2",
+      "expected": "VEXC",
+      "actual": "VEXC",
+      "pass_": true
+    },
+    {
+      "pin": "D_VCM-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_VCM-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_VCM-3",
+      "expected": "VCM_DRV",
+      "actual": "VCM_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "D_VEX-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_VEX-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_VEX-3",
+      "expected": "VEXC_DRV",
+      "actual": "VEXC_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "D_ROW0-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW0-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW0-3",
+      "expected": "ROW_DRV0",
+      "actual": "ROW_DRV0",
+      "pass_": true
+    },
+    {
+      "pin": "R_TIA_ISO0-1",
+      "expected": "TIA_DRV0",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "R_TIA_ISO0-2",
+      "expected": "TIA0",
+      "actual": "COL_SENSE1",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA0-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA0-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA0-3",
+      "expected": "TIA_DRV0",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW1-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW1-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW1-3",
+      "expected": "ROW_DRV1",
+      "actual": "ROW_DRV1",
+      "pass_": true
+    },
+    {
+      "pin": "R_TIA_ISO1-1",
+      "expected": "TIA_DRV1",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "R_TIA_ISO1-2",
+      "expected": "TIA1",
+      "actual": "COL_SENSE3",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA1-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA1-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA1-3",
+      "expected": "TIA_DRV1",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW2-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW2-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW2-3",
+      "expected": "ROW_DRV2",
+      "actual": "ROW_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "R_TIA_ISO2-1",
+      "expected": "TIA_DRV2",
+      "actual": "TIA_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "R_TIA_ISO2-2",
+      "expected": "TIA2",
+      "actual": "TIA2",
+      "pass_": true
+    },
+    {
+      "pin": "D_TIA2-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA2-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA2-3",
+      "expected": "TIA_DRV2",
+      "actual": "TIA_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "D_ROW3-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW3-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_ROW3-3",
+      "expected": "ROW_DRV3",
+      "actual": "ROW_DRV3",
+      "pass_": true
+    },
+    {
+      "pin": "R_TIA_ISO3-1",
+      "expected": "TIA_DRV3",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "R_TIA_ISO3-2",
+      "expected": "TIA3",
+      "actual": "TIA3",
+      "pass_": true
+    },
+    {
+      "pin": "D_TIA3-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA3-2",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "D_TIA3-3",
+      "expected": "TIA_DRV3",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_REFIO_B-1",
+      "expected": "ADC_REFIO",
+      "actual": "ADC_REFIO",
+      "pass_": true
+    },
+    {
+      "pin": "C_REFIO_B-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_REFCAP_BULKA-1",
+      "expected": "ADC_REFCAP",
+      "actual": "ADC_REFCAP",
+      "pass_": true
+    },
+    {
+      "pin": "C_REFCAP_BULKA-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_REFCAP_BULKB-1",
+      "expected": "ADC_REFCAP",
+      "actual": "ADC_REFCAP",
+      "pass_": true
+    },
+    {
+      "pin": "C_REFCAP_BULKB-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD9A-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD9A-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD9B-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD9B-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD30A-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD30A-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD30B-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD30B-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_DVDD34A-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_DVDD34A-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_DVDD34B-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_DVDD34B-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD9_HF-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD9_HF-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD30_HF-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_AVDD30_HF-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_J3_1-1",
+      "expected": "V3V3_EXT",
+      "actual": "V3V3_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_J3_1-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_1-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_J3_1-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_1-3",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "R_J3_3-1",
+      "expected": "SWDIO_EXT",
+      "actual": "SWDIO_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_J3_3-2",
+      "expected": "SWDIO",
+      "actual": "SWDIO",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_3-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_J3_3-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_3-3",
+      "expected": "SWDIO",
+      "actual": "SWDIO",
+      "pass_": true
+    },
+    {
+      "pin": "R_J3_4-1",
+      "expected": "SWCLK_EXT",
+      "actual": "SWCLK_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_J3_4-2",
+      "expected": "SWCLK",
+      "actual": "SWCLK",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_4-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_J3_4-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_4-3",
+      "expected": "SWCLK",
+      "actual": "SWCLK",
+      "pass_": true
+    },
+    {
+      "pin": "R_J3_5-1",
+      "expected": "MCU_NRST_EXT",
+      "actual": "MCU_NRST_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_J3_5-2",
+      "expected": "PGOOD",
+      "actual": "PGOOD",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_5-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_J3_5-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J3_5-3",
+      "expected": "PGOOD",
+      "actual": "PGOOD",
+      "pass_": true
+    },
+    {
+      "pin": "R_J4_1-1",
+      "expected": "V3V3_EXT",
+      "actual": "V3V3_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_J4_1-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J4_1-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_J4_1-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J4_1-3",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "R_J4_3-1",
+      "expected": "UART_TX_EXT",
+      "actual": "UART_TX_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_J4_3-2",
+      "expected": "UART_TX",
+      "actual": "UART_TX",
+      "pass_": true
+    },
+    {
+      "pin": "D_J4_3-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_J4_3-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J4_3-3",
+      "expected": "UART_TX",
+      "actual": "UART_TX",
+      "pass_": true
+    },
+    {
+      "pin": "R_J4_4-1",
+      "expected": "UART_RX_EXT",
+      "actual": "UART_RX_EXT",
+      "pass_": true
+    },
+    {
+      "pin": "R_J4_4-2",
+      "expected": "UART_RX",
+      "actual": "UART_RX",
+      "pass_": true
+    },
+    {
+      "pin": "D_J4_4-1",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "D_J4_4-2",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "D_J4_4-3",
+      "expected": "UART_RX",
+      "actual": "UART_RX",
+      "pass_": true
+    },
+    {
+      "pin": "U9-1",
+      "expected": "U9_EN",
+      "actual": "U9_EN",
+      "pass_": true
+    },
+    {
+      "pin": "U9-2",
+      "expected": "U9_OV",
+      "actual": "U9_OV",
+      "pass_": true
+    },
+    {
+      "pin": "U9-4",
+      "expected": "U9_PGTH",
+      "actual": "U9_PGTH",
+      "pass_": true
+    },
+    {
+      "pin": "U9-5",
+      "expected": "V5_IN",
+      "actual": "V5_IN",
+      "pass_": true
+    },
+    {
+      "pin": "U9-6",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U9-8",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U9-9",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U9_EN_R-1",
+      "expected": "V5_IN",
+      "actual": "V5_IN",
+      "pass_": true
+    },
+    {
+      "pin": "U9_EN_R-2",
+      "expected": "U9_EN",
+      "actual": "U9_EN",
+      "pass_": true
+    },
+    {
+      "pin": "U9_EN_G-1",
+      "expected": "U9_EN",
+      "actual": "U9_EN",
+      "pass_": true
+    },
+    {
+      "pin": "U9_EN_G-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U9_OV_T-1",
+      "expected": "V5_IN",
+      "actual": "V5_IN",
+      "pass_": true
+    },
+    {
+      "pin": "U9_OV_T-2",
+      "expected": "U9_OV",
+      "actual": "U9_OV",
+      "pass_": true
+    },
+    {
+      "pin": "U9_OV_B1-1",
+      "expected": "U9_OV",
+      "actual": "U9_OV",
+      "pass_": true
+    },
+    {
+      "pin": "U9_OV_B1-2",
+      "expected": "U9_OV_M",
+      "actual": "U9_OV_M",
+      "pass_": true
+    },
+    {
+      "pin": "U9_OV_B2-1",
+      "expected": "U9_OV_M",
+      "actual": "U9_OV_M",
+      "pass_": true
+    },
+    {
+      "pin": "U9_OV_B2-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U9_PG_T-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U9_PG_T-2",
+      "expected": "U9_PGTH",
+      "actual": "U9_PGTH",
+      "pass_": true
+    },
+    {
+      "pin": "U9_PG_B-1",
+      "expected": "U9_PGTH",
+      "actual": "U9_PGTH",
+      "pass_": true
+    },
+    {
+      "pin": "U9_PG_B-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U9_IN_CAP-1",
+      "expected": "V5_IN",
+      "actual": "V5_IN",
+      "pass_": true
+    },
+    {
+      "pin": "U9_IN_CAP-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U9_OUT_CAP-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U9_OUT_CAP-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U9_BLEED-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U9_BLEED-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10-1",
+      "expected": "U10_EN",
+      "actual": "U10_EN",
+      "pass_": true
+    },
+    {
+      "pin": "U10-2",
+      "expected": "U10_OV",
+      "actual": "U10_OV",
+      "pass_": true
+    },
+    {
+      "pin": "U10-4",
+      "expected": "U10_PGTH",
+      "actual": "U10_PGTH",
+      "pass_": true
+    },
+    {
+      "pin": "U10-5",
+      "expected": "V3_LDO",
+      "actual": "V3_LDO",
+      "pass_": true
+    },
+    {
+      "pin": "U10-6",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U10-8",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10-9",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10_EN_R-1",
+      "expected": "V3_LDO",
+      "actual": "V3_LDO",
+      "pass_": true
+    },
+    {
+      "pin": "U10_EN_R-2",
+      "expected": "U10_EN",
+      "actual": "U10_EN",
+      "pass_": true
+    },
+    {
+      "pin": "U10_EN_G-1",
+      "expected": "U10_EN",
+      "actual": "U10_EN",
+      "pass_": true
+    },
+    {
+      "pin": "U10_EN_G-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10_OV_T-1",
+      "expected": "V3_LDO",
+      "actual": "V3_LDO",
+      "pass_": true
+    },
+    {
+      "pin": "U10_OV_T-2",
+      "expected": "U10_OV",
+      "actual": "U10_OV",
+      "pass_": true
+    },
+    {
+      "pin": "U10_OV_B1-1",
+      "expected": "U10_OV",
+      "actual": "U10_OV",
+      "pass_": true
+    },
+    {
+      "pin": "U10_OV_B1-2",
+      "expected": "U10_OV_M",
+      "actual": "U10_OV_M",
+      "pass_": true
+    },
+    {
+      "pin": "U10_OV_B2-1",
+      "expected": "U10_OV_M",
+      "actual": "U10_OV_M",
+      "pass_": true
+    },
+    {
+      "pin": "U10_OV_B2-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10_PG_T-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U10_PG_T-2",
+      "expected": "U10_PGTH",
+      "actual": "U10_PGTH",
+      "pass_": true
+    },
+    {
+      "pin": "U10_PG_B-1",
+      "expected": "U10_PGTH",
+      "actual": "U10_PGTH",
+      "pass_": true
+    },
+    {
+      "pin": "U10_PG_B-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10_IN_CAP-1",
+      "expected": "V3_LDO",
+      "actual": "V3_LDO",
+      "pass_": true
+    },
+    {
+      "pin": "U10_IN_CAP-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10_OUT_CAP-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U10_OUT_CAP-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U10_BLEED-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U10_BLEED-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U11-1",
+      "expected": "U11_SENSE",
+      "actual": "U11_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U11-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U11-3",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U11-4",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U11-5",
+      "expected": "U11_CT",
+      "actual": "U11_CT",
+      "pass_": true
+    },
+    {
+      "pin": "U11-6",
+      "expected": "PGOOD",
+      "actual": "PGOOD",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP0-1",
+      "expected": "V5",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "U11_TOP0-2",
+      "expected": "U11_DIV1",
+      "actual": "U11_DIV1",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP1-1",
+      "expected": "U11_DIV1",
+      "actual": "U11_DIV1",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP1-2",
+      "expected": "U11_DIV2",
+      "actual": "U11_DIV2",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP2-1",
+      "expected": "U11_DIV2",
+      "actual": "U11_DIV2",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP2-2",
+      "expected": "U11_DIV3",
+      "actual": "U11_DIV3",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP3-1",
+      "expected": "U11_DIV3",
+      "actual": "U11_DIV3",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP3-2",
+      "expected": "U11_DIV4",
+      "actual": "U11_DIV4",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP4-1",
+      "expected": "U11_DIV4",
+      "actual": "U11_DIV4",
+      "pass_": true
+    },
+    {
+      "pin": "U11_TOP4-2",
+      "expected": "U11_SENSE",
+      "actual": "U11_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U11_BOT-1",
+      "expected": "U11_SENSE",
+      "actual": "U11_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U11_BOT-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U11_SENSE_C-1",
+      "expected": "U11_SENSE",
+      "actual": "U11_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U11_SENSE_C-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U11_CT_C-1",
+      "expected": "U11_CT",
+      "actual": "U11_CT",
+      "pass_": true
+    },
+    {
+      "pin": "U11_CT_C-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U11_VDD_C-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U11_VDD_C-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U12-1",
+      "expected": "U12_SENSE",
+      "actual": "U12_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U12-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U12-3",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U12-4",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U12-5",
+      "expected": "U12_CT",
+      "actual": "U12_CT",
+      "pass_": true
+    },
+    {
+      "pin": "U12-6",
+      "expected": "PGOOD",
+      "actual": "PGOOD",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP0-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP0-2",
+      "expected": "U12_DIV1",
+      "actual": "U12_DIV1",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP1-1",
+      "expected": "U12_DIV1",
+      "actual": "U12_DIV1",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP1-2",
+      "expected": "U12_DIV2",
+      "actual": "U12_DIV2",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP2-1",
+      "expected": "U12_DIV2",
+      "actual": "U12_DIV2",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP2-2",
+      "expected": "U12_DIV3",
+      "actual": "U12_DIV3",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP3-1",
+      "expected": "U12_DIV3",
+      "actual": "U12_DIV3",
+      "pass_": true
+    },
+    {
+      "pin": "U12_TOP3-2",
+      "expected": "U12_SENSE",
+      "actual": "U12_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U12_BOT-1",
+      "expected": "U12_SENSE",
+      "actual": "U12_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U12_BOT-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U12_SENSE_C-1",
+      "expected": "U12_SENSE",
+      "actual": "U12_SENSE",
+      "pass_": true
+    },
+    {
+      "pin": "U12_SENSE_C-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U12_CT_C-1",
+      "expected": "U12_CT",
+      "actual": "U12_CT",
+      "pass_": true
+    },
+    {
+      "pin": "U12_CT_C-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U12_VDD_C-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U12_VDD_C-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U15-2",
+      "expected": "PGOOD",
+      "actual": "PGOOD",
+      "pass_": true
+    },
+    {
+      "pin": "U15-3",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U15-4",
+      "expected": "PG_OK_FAST",
+      "actual": "PG_OK_FAST",
+      "pass_": true
+    },
+    {
+      "pin": "U15-5",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_U15-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_U15-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U13-1",
+      "expected": "PG_OK_FAST",
+      "actual": "PG_OK_FAST",
+      "pass_": true
+    },
+    {
+      "pin": "U13-2",
+      "expected": "MCU_ENABLE",
+      "actual": "MCU_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "U13-3",
+      "expected": "HW_ENABLE",
+      "actual": "HW_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "U13-4",
+      "expected": "PG_OK_FAST",
+      "actual": "PG_OK_FAST",
+      "pass_": true
+    },
+    {
+      "pin": "U13-5",
+      "expected": "MCU_ADC_RESET",
+      "actual": "MCU_ADC_RESET",
+      "pass_": true
+    },
+    {
+      "pin": "U13-6",
+      "expected": "ADC_RESET_N",
+      "actual": "ADC_RESET_N",
+      "pass_": true
+    },
+    {
+      "pin": "U13-7",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U13-9",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U13-10",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U13-12",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U13-13",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U13-14",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "U14-1",
+      "expected": "HW_ENABLE",
+      "actual": "HW_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "U14-2",
+      "expected": "MCU_ROW0",
+      "actual": "MCU_ROW0",
+      "pass_": true
+    },
+    {
+      "pin": "U14-3",
+      "expected": "ROW_SEL0",
+      "actual": "ROW_SEL0",
+      "pass_": true
+    },
+    {
+      "pin": "U14-4",
+      "expected": "HW_ENABLE",
+      "actual": "HW_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "U14-5",
+      "expected": "MCU_ROW1",
+      "actual": "MCU_ROW1",
+      "pass_": true
+    },
+    {
+      "pin": "U14-6",
+      "expected": "ROW_SEL1",
+      "actual": "ROW_SEL1",
+      "pass_": true
+    },
+    {
+      "pin": "U14-7",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "U14-8",
+      "expected": "ROW_SEL2",
+      "actual": "ROW_SEL2",
+      "pass_": true
+    },
+    {
+      "pin": "U14-9",
+      "expected": "HW_ENABLE",
+      "actual": "HW_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "U14-10",
+      "expected": "MCU_ROW2",
+      "actual": "MCU_ROW2",
+      "pass_": true
+    },
+    {
+      "pin": "U14-11",
+      "expected": "ROW_SEL3",
+      "actual": "ROW_SEL3",
+      "pass_": true
+    },
+    {
+      "pin": "U14-12",
+      "expected": "HW_ENABLE",
+      "actual": "HW_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "U14-13",
+      "expected": "MCU_ROW3",
+      "actual": "MCU_ROW3",
+      "pass_": true
+    },
+    {
+      "pin": "U14-14",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "R_ENABLE_PD-1",
+      "expected": "MCU_ENABLE",
+      "actual": "MCU_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "R_ENABLE_PD-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_HW_PD-1",
+      "expected": "HW_ENABLE",
+      "actual": "HW_ENABLE",
+      "pass_": true
+    },
+    {
+      "pin": "R_HW_PD-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_U13-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_U13-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "C_U14-1",
+      "expected": "V3V3",
+      "actual": "V3V3",
+      "pass_": true
+    },
+    {
+      "pin": "C_U14-2",
+      "expected": "GND",
+      "actual": "COL_SENSE0",
+      "pass_": false
+    },
+    {
+      "pin": "R_VCM_FB-1",
+      "expected": "VCM",
+      "actual": "VCM",
+      "pass_": true
+    },
+    {
+      "pin": "R_VCM_FB-2",
+      "expected": "VCM_FB",
+      "actual": "VCM_FB",
+      "pass_": true
+    },
+    {
+      "pin": "C_VCM_HF-1",
+      "expected": "VCM_DRV",
+      "actual": "VCM_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "C_VCM_HF-2",
+      "expected": "VCM_FB",
+      "actual": "VCM_FB",
+      "pass_": true
+    },
+    {
+      "pin": "R_VEX_FB-1",
+      "expected": "VEXC",
+      "actual": "VEXC",
+      "pass_": true
+    },
+    {
+      "pin": "R_VEX_FB-2",
+      "expected": "VEXC_FB",
+      "actual": "VEXC_FB",
+      "pass_": true
+    },
+    {
+      "pin": "C_VEX_HF-1",
+      "expected": "VEXC_DRV",
+      "actual": "VEXC_DRV",
+      "pass_": true
+    },
+    {
+      "pin": "C_VEX_HF-2",
+      "expected": "VEXC_FB",
+      "actual": "VEXC_FB",
+      "pass_": true
+    },
+    {
+      "pin": "C_TIA_HF0-1",
+      "expected": "TIA_DRV0",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_TIA_HF0-2",
+      "expected": "COL_SENSE0",
+      "actual": "COL_SENSE0",
+      "pass_": true
+    },
+    {
+      "pin": "C_TIA_HF1-1",
+      "expected": "TIA_DRV1",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_TIA_HF1-2",
+      "expected": "COL_SENSE1",
+      "actual": "COL_SENSE1",
+      "pass_": true
+    },
+    {
+      "pin": "C_TIA_HF2-1",
+      "expected": "TIA_DRV2",
+      "actual": "TIA_DRV2",
+      "pass_": true
+    },
+    {
+      "pin": "C_TIA_HF2-2",
+      "expected": "COL_SENSE2",
+      "actual": "COL_SENSE2",
+      "pass_": true
+    },
+    {
+      "pin": "C_TIA_HF3-1",
+      "expected": "TIA_DRV3",
+      "actual": "COL_SENSE2",
+      "pass_": false
+    },
+    {
+      "pin": "C_TIA_HF3-2",
+      "expected": "COL_SENSE3",
+      "actual": "COL_SENSE3",
+      "pass_": true
+    }
+  ],
+  "net_members": [
+    {
+      "net": "ADC_CS_N",
+      "expected": [
+        "R_CS_PU-2",
+        "U5-38",
+        "U7-11"
+      ],
+      "actual": [
+        "R_CS_PU-2",
+        "U5-38",
+        "U7-11"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ADC_IN0",
+      "expected": [
+        "C_ADC0-1",
+        "R_ADC0-2",
+        "U5-16"
+      ],
+      "actual": [
+        "C_ADC0-1",
+        "R_ADC0-2",
+        "U5-16"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ADC_IN1",
+      "expected": [
+        "C_ADC1-1",
+        "R_ADC1-2",
+        "U5-18"
+      ],
+      "actual": [
+        "C_ADC1-1",
+        "R_ADC1-2",
+        "U5-18"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ADC_IN2",
+      "expected": [
+        "C_ADC2-1",
+        "R_ADC2-2",
+        "U5-21"
+      ],
+      "actual": [
+        "C_ADC2-1",
+        "R_ADC2-2",
+        "U5-21"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ADC_IN3",
+      "expected": [
+        "C_ADC3-1",
+        "R_ADC3-2",
+        "U5-23"
+      ],
+      "actual": [
+        "C_ADC3-1",
+        "R_ADC3-2",
+        "U5-23"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ADC_REFCAP",
+      "expected": [
+        "C_ADC_REFCAP-1",
+        "C_REFCAP_BULKA-1",
+        "C_REFCAP_BULKB-1",
+        "U5-7"
+      ],
+      "actual": [
+        "C_ADC_REFCAP-1",
+        "C_REFCAP_BULKA-1",
+        "C_REFCAP_BULKB-1",
+        "U5-7"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ADC_REFIO",
+      "expected": [
+        "C_ADC_REFIO-1",
+        "C_REFIO_B-1",
+        "U5-5"
+      ],
+      "actual": [
+        "C_ADC_REFIO-1",
+        "C_REFIO_B-1",
+        "U5-5"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ADC_RESET_N",
+      "expected": [
+        "R_ADC_RESET_PD-1",
+        "U13-6",
+        "U5-2"
+      ],
+      "actual": [
+        "R_ADC_RESET_PD-1",
+        "U13-6",
+        "U5-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "COL0",
+      "expected": [
+        "CF0-2",
+        "J2-5",
+        "RF0-2",
+        "R_COL_SENSE0-1"
+      ],
+      "actual": [
+        "CF0-2",
+        "J2-5",
+        "RF0-2",
+        "R_COL_SENSE0-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "COL1",
+      "expected": [
+        "CF1-2",
+        "J2-6",
+        "RF1-2",
+        "R_COL_SENSE1-1"
+      ],
+      "actual": [
+        "CF1-2",
+        "J2-6",
+        "RF1-2",
+        "R_COL_SENSE1-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "COL2",
+      "expected": [
+        "CF2-2",
+        "J2-7",
+        "RF2-2",
+        "R_COL_SENSE2-1"
+      ],
+      "actual": [
+        "CF2-2",
+        "J2-7",
+        "RF2-2",
+        "R_COL_SENSE2-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "COL3",
+      "expected": [
+        "CF3-2",
+        "J2-8",
+        "RF3-2",
+        "R_COL_SENSE3-1"
+      ],
+      "actual": [
+        "CF3-2",
+        "J2-8",
+        "RF3-2",
+        "R_COL_SENSE3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "COL_SENSE0",
+      "expected": [
+        "C_TIA_HF0-2",
+        "R_COL_SENSE0-2",
+        "U2-2"
+      ],
+      "actual": [
+        "C_ADC0-2",
+        "C_ADC1-2",
+        "C_ADC2-2",
+        "C_ADC3-2",
+        "C_ADCA1-2",
+        "C_ADCA2-2",
+        "C_ADCD-2",
+        "C_ADC_REFCAP-2",
+        "C_ADC_REFIO-2",
+        "C_AVDD30A-2",
+        "C_AVDD30B-2",
+        "C_AVDD30_HF-2",
+        "C_AVDD9A-2",
+        "C_AVDD9B-2",
+        "C_AVDD9_HF-2",
+        "C_BUF-2",
+        "C_DIV-2",
+        "C_DVDD34A-2",
+        "C_DVDD34B-2",
+        "C_LDO_IN-2",
+        "C_LDO_OUT-2",
+        "C_MCU1-2",
+        "C_MCU_BULK-2",
+        "C_MUX-2",
+        "C_PWR-2",
+        "C_REF-2",
+        "C_REFCAP_BULKA-2",
+        "C_REFCAP_BULKB-2",
+        "C_REFIO_B-2",
+        "C_ROW_OP-2",
+        "C_RST-2",
+        "C_TIA_HF0-2",
+        "C_TIA_OP-2",
+        "C_U13-2",
+        "C_U14-2",
+        "C_U15-2",
+        "D_J3_1-1",
+        "D_J3_3-1",
+        "D_J3_4-1",
+        "D_J3_5-1",
+        "D_J4_1-1",
+        "D_J4_3-1",
+        "D_J4_4-1",
+        "D_ROW0-1",
+        "D_ROW1-1",
+        "D_ROW2-1",
+        "D_ROW3-1",
+        "D_TIA0-1",
+        "D_TIA1-1",
+        "D_TIA2-1",
+        "D_TIA3-1",
+        "D_VCM-1",
+        "D_VEX-1",
+        "J1-2",
+        "J3-2",
+        "J4-2",
+        "RD_B9-2",
+        "R_ADC_RESET_PD-2",
+        "R_COL_SENSE0-2",
+        "R_ENABLE_PD-2",
+        "R_HW_PD-2",
+        "R_SEL_PD0-2",
+        "R_SEL_PD1-2",
+        "R_SEL_PD2-2",
+        "R_SEL_PD3-2",
+        "U1-11",
+        "U10-8",
+        "U10-9",
+        "U10_BLEED-2",
+        "U10_EN_G-2",
+        "U10_IN_CAP-2",
+        "U10_OUT_CAP-2",
+        "U10_OV_B2-2",
+        "U10_PG_B-2",
+        "U11-2",
+        "U11_BOT-2",
+        "U11_CT_C-2",
+        "U11_SENSE_C-2",
+        "U11_VDD_C-2",
+        "U12-2",
+        "U12_BOT-2",
+        "U12_CT_C-2",
+        "U12_SENSE_C-2",
+        "U12_VDD_C-2",
+        "U13-10",
+        "U13-12",
+        "U13-13",
+        "U13-7",
+        "U13-9",
+        "U14-7",
+        "U15-3",
+        "U2-11",
+        "U2-2",
+        "U3-4",
+        "U4-5",
+        "U4-6",
+        "U5-10",
+        "U5-11",
+        "U5-17",
+        "U5-19",
+        "U5-20",
+        "U5-22",
+        "U5-28",
+        "U5-29",
+        "U5-3",
+        "U5-31",
+        "U5-32",
+        "U5-33",
+        "U5-4",
+        "U5-6",
+        "U5-8",
+        "U6-3",
+        "U7-5",
+        "U8-2",
+        "U9-8",
+        "U9-9",
+        "U9_BLEED-2",
+        "U9_EN_G-2",
+        "U9_IN_CAP-2",
+        "U9_OUT_CAP-2",
+        "U9_OV_B2-2",
+        "U9_PG_B-2"
+      ],
+      "pass_": false
+    },
+    {
+      "net": "COL_SENSE1",
+      "expected": [
+        "C_TIA_HF1-2",
+        "R_COL_SENSE1-2",
+        "U2-6"
+      ],
+      "actual": [
+        "CF0-1",
+        "C_TIA_HF1-2",
+        "RF0-1",
+        "R_ADC0-1",
+        "R_COL_SENSE1-2",
+        "R_TIA_ISO0-2",
+        "U2-6"
+      ],
+      "pass_": false
+    },
+    {
+      "net": "COL_SENSE2",
+      "expected": [
+        "C_TIA_HF2-2",
+        "R_COL_SENSE2-2",
+        "U2-9"
+      ],
+      "actual": [
+        "C_ADCA1-1",
+        "C_ADCA2-1",
+        "C_AVDD30A-1",
+        "C_AVDD30B-1",
+        "C_AVDD30_HF-1",
+        "C_AVDD9A-1",
+        "C_AVDD9B-1",
+        "C_AVDD9_HF-1",
+        "C_BUF-1",
+        "C_LDO_IN-1",
+        "C_MUX-1",
+        "C_PWR-1",
+        "C_REF-1",
+        "C_ROW_OP-1",
+        "C_TIA_HF0-1",
+        "C_TIA_HF1-1",
+        "C_TIA_HF2-2",
+        "C_TIA_HF3-1",
+        "C_TIA_OP-1",
+        "D_ROW0-2",
+        "D_ROW1-2",
+        "D_ROW2-2",
+        "D_ROW3-2",
+        "D_TIA0-2",
+        "D_TIA0-3",
+        "D_TIA1-2",
+        "D_TIA1-3",
+        "D_TIA2-2",
+        "D_TIA3-2",
+        "D_TIA3-3",
+        "D_VCM-2",
+        "D_VEX-2",
+        "R_COL_SENSE2-2",
+        "R_TIA_ISO0-1",
+        "R_TIA_ISO1-1",
+        "R_TIA_ISO3-1",
+        "U1-4",
+        "U11_TOP0-1",
+        "U2-1",
+        "U2-14",
+        "U2-4",
+        "U2-7",
+        "U2-9",
+        "U3-8",
+        "U4-16",
+        "U5-30",
+        "U5-9",
+        "U6-1",
+        "U8-1",
+        "U8-3",
+        "U9-6",
+        "U9_BLEED-1",
+        "U9_OUT_CAP-1",
+        "U9_PG_T-1"
+      ],
+      "pass_": false
+    },
+    {
+      "net": "COL_SENSE3",
+      "expected": [
+        "C_TIA_HF3-2",
+        "R_COL_SENSE3-2",
+        "U2-13"
+      ],
+      "actual": [
+        "CF1-1",
+        "C_TIA_HF3-2",
+        "RF1-1",
+        "R_ADC1-1",
+        "R_COL_SENSE3-2",
+        "R_TIA_ISO1-2",
+        "U2-13"
+      ],
+      "pass_": false
+    },
+    {
+      "net": "DIV_2V25",
+      "expected": [
+        "C_DIV-1",
+        "RD_B1-1",
+        "RD_TOP-2",
+        "U3-5"
+      ],
+      "actual": [
+        "C_DIV-1",
+        "RD_B1-1",
+        "RD_TOP-2",
+        "U3-5"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG1",
+      "expected": [
+        "RD_B1-2",
+        "RD_B2-1"
+      ],
+      "actual": [
+        "RD_B1-2",
+        "RD_B2-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG2",
+      "expected": [
+        "RD_B2-2",
+        "RD_B3-1"
+      ],
+      "actual": [
+        "RD_B2-2",
+        "RD_B3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG3",
+      "expected": [
+        "RD_B3-2",
+        "RD_B4-1"
+      ],
+      "actual": [
+        "RD_B3-2",
+        "RD_B4-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG4",
+      "expected": [
+        "RD_B4-2",
+        "RD_B5-1"
+      ],
+      "actual": [
+        "RD_B4-2",
+        "RD_B5-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG5",
+      "expected": [
+        "RD_B5-2",
+        "RD_B6-1"
+      ],
+      "actual": [
+        "RD_B5-2",
+        "RD_B6-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG6",
+      "expected": [
+        "RD_B6-2",
+        "RD_B7-1"
+      ],
+      "actual": [
+        "RD_B6-2",
+        "RD_B7-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG7",
+      "expected": [
+        "RD_B7-2",
+        "RD_B8-1"
+      ],
+      "actual": [
+        "RD_B7-2",
+        "RD_B8-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "DIV_SEG8",
+      "expected": [
+        "RD_B8-2",
+        "RD_B9-1"
+      ],
+      "actual": [
+        "RD_B8-2",
+        "RD_B9-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "GND",
+      "expected": [
+        "C_ADC0-2",
+        "C_ADC1-2",
+        "C_ADC2-2",
+        "C_ADC3-2",
+        "C_ADCA1-2",
+        "C_ADCA2-2",
+        "C_ADCD-2",
+        "C_ADC_REFCAP-2",
+        "C_ADC_REFIO-2",
+        "C_AVDD30A-2",
+        "C_AVDD30B-2",
+        "C_AVDD30_HF-2",
+        "C_AVDD9A-2",
+        "C_AVDD9B-2",
+        "C_AVDD9_HF-2",
+        "C_BUF-2",
+        "C_DIV-2",
+        "C_DVDD34A-2",
+        "C_DVDD34B-2",
+        "C_LDO_IN-2",
+        "C_LDO_OUT-2",
+        "C_MCU1-2",
+        "C_MCU_BULK-2",
+        "C_MUX-2",
+        "C_PWR-2",
+        "C_REF-2",
+        "C_REFCAP_BULKA-2",
+        "C_REFCAP_BULKB-2",
+        "C_REFIO_B-2",
+        "C_ROW_OP-2",
+        "C_RST-2",
+        "C_TIA_OP-2",
+        "C_U13-2",
+        "C_U14-2",
+        "C_U15-2",
+        "D_J3_1-1",
+        "D_J3_3-1",
+        "D_J3_4-1",
+        "D_J3_5-1",
+        "D_J4_1-1",
+        "D_J4_3-1",
+        "D_J4_4-1",
+        "D_ROW0-1",
+        "D_ROW1-1",
+        "D_ROW2-1",
+        "D_ROW3-1",
+        "D_TIA0-1",
+        "D_TIA1-1",
+        "D_TIA2-1",
+        "D_TIA3-1",
+        "D_VCM-1",
+        "D_VEX-1",
+        "J1-2",
+        "J3-2",
+        "J4-2",
+        "RD_B9-2",
+        "R_ADC_RESET_PD-2",
+        "R_ENABLE_PD-2",
+        "R_HW_PD-2",
+        "R_SEL_PD0-2",
+        "R_SEL_PD1-2",
+        "R_SEL_PD2-2",
+        "R_SEL_PD3-2",
+        "U1-11",
+        "U10-8",
+        "U10-9",
+        "U10_BLEED-2",
+        "U10_EN_G-2",
+        "U10_IN_CAP-2",
+        "U10_OUT_CAP-2",
+        "U10_OV_B2-2",
+        "U10_PG_B-2",
+        "U11-2",
+        "U11_BOT-2",
+        "U11_CT_C-2",
+        "U11_SENSE_C-2",
+        "U11_VDD_C-2",
+        "U12-2",
+        "U12_BOT-2",
+        "U12_CT_C-2",
+        "U12_SENSE_C-2",
+        "U12_VDD_C-2",
+        "U13-10",
+        "U13-12",
+        "U13-13",
+        "U13-7",
+        "U13-9",
+        "U14-7",
+        "U15-3",
+        "U2-11",
+        "U3-4",
+        "U4-5",
+        "U4-6",
+        "U5-10",
+        "U5-11",
+        "U5-17",
+        "U5-19",
+        "U5-20",
+        "U5-22",
+        "U5-28",
+        "U5-29",
+        "U5-3",
+        "U5-31",
+        "U5-32",
+        "U5-33",
+        "U5-4",
+        "U5-6",
+        "U5-8",
+        "U6-3",
+        "U7-5",
+        "U8-2",
+        "U9-8",
+        "U9-9",
+        "U9_BLEED-2",
+        "U9_EN_G-2",
+        "U9_IN_CAP-2",
+        "U9_OUT_CAP-2",
+        "U9_OV_B2-2",
+        "U9_PG_B-2"
+      ],
+      "actual": [],
+      "pass_": false
+    },
+    {
+      "net": "HW_ENABLE",
+      "expected": [
+        "R_HW_PD-1",
+        "U13-3",
+        "U14-1",
+        "U14-12",
+        "U14-4",
+        "U14-9"
+      ],
+      "actual": [
+        "R_HW_PD-1",
+        "U13-3",
+        "U14-1",
+        "U14-12",
+        "U14-4",
+        "U14-9"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "MCU_ADC_RESET",
+      "expected": [
+        "U13-5",
+        "U7-15"
+      ],
+      "actual": [
+        "U13-5",
+        "U7-15"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "MCU_ENABLE",
+      "expected": [
+        "R_ENABLE_PD-1",
+        "U13-2",
+        "U7-16"
+      ],
+      "actual": [
+        "R_ENABLE_PD-1",
+        "U13-2",
+        "U7-16"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "MCU_NRST_EXT",
+      "expected": [
+        "J3-5",
+        "R_J3_5-1"
+      ],
+      "actual": [
+        "J3-5",
+        "R_J3_5-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "MCU_ROW0",
+      "expected": [
+        "U14-2",
+        "U7-7"
+      ],
+      "actual": [
+        "U14-2",
+        "U7-7"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "MCU_ROW1",
+      "expected": [
+        "U14-5",
+        "U7-8"
+      ],
+      "actual": [
+        "U14-5",
+        "U7-8"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "MCU_ROW2",
+      "expected": [
+        "U14-10",
+        "U7-9"
+      ],
+      "actual": [
+        "U14-10",
+        "U7-9"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "MCU_ROW3",
+      "expected": [
+        "U14-13",
+        "U7-10"
+      ],
+      "actual": [
+        "U14-13",
+        "U7-10"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "PGOOD",
+      "expected": [
+        "D_J3_5-3",
+        "R_J3_5-2",
+        "R_RST-2",
+        "U11-6",
+        "U12-6",
+        "U15-2",
+        "U7-6"
+      ],
+      "actual": [
+        "D_J3_5-3",
+        "R_J3_5-2",
+        "R_RST-2",
+        "U11-6",
+        "U12-6",
+        "U15-2",
+        "U7-6"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "PG_OK_FAST",
+      "expected": [
+        "U13-1",
+        "U13-4",
+        "U15-4"
+      ],
+      "actual": [
+        "U13-1",
+        "U13-4",
+        "U15-4"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "REF_2V5",
+      "expected": [
+        "U3-3",
+        "U6-2"
+      ],
+      "actual": [
+        "U3-3",
+        "U6-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW0",
+      "expected": [
+        "J2-1",
+        "R_ISO0-2",
+        "R_ROW_FB0-1"
+      ],
+      "actual": [
+        "J2-1",
+        "R_ISO0-2",
+        "R_ROW_FB0-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW1",
+      "expected": [
+        "J2-2",
+        "R_ISO1-2",
+        "R_ROW_FB1-1"
+      ],
+      "actual": [
+        "J2-2",
+        "R_ISO1-2",
+        "R_ROW_FB1-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW2",
+      "expected": [
+        "J2-3",
+        "R_ISO2-2",
+        "R_ROW_FB2-1"
+      ],
+      "actual": [
+        "J2-3",
+        "R_ISO2-2",
+        "R_ROW_FB2-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW3",
+      "expected": [
+        "J2-4",
+        "R_ISO3-2",
+        "R_ROW_FB3-1"
+      ],
+      "actual": [
+        "J2-4",
+        "R_ISO3-2",
+        "R_ROW_FB3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_CMD0",
+      "expected": [
+        "U1-3",
+        "U4-3"
+      ],
+      "actual": [
+        "U1-3",
+        "U4-3"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_CMD1",
+      "expected": [
+        "U1-5",
+        "U4-8"
+      ],
+      "actual": [
+        "U1-5",
+        "U4-8"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_CMD2",
+      "expected": [
+        "U1-10",
+        "U4-13"
+      ],
+      "actual": [
+        "U1-10",
+        "U4-13"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_CMD3",
+      "expected": [
+        "U1-12",
+        "U4-18"
+      ],
+      "actual": [
+        "U1-12",
+        "U4-18"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_DRV0",
+      "expected": [
+        "C_ROW_HF0-1",
+        "D_ROW0-3",
+        "R_ISO0-1",
+        "U1-1"
+      ],
+      "actual": [
+        "C_ROW_HF0-1",
+        "D_ROW0-3",
+        "R_ISO0-1",
+        "U1-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_DRV1",
+      "expected": [
+        "C_ROW_HF1-1",
+        "D_ROW1-3",
+        "R_ISO1-1",
+        "U1-7"
+      ],
+      "actual": [
+        "C_ROW_HF1-1",
+        "D_ROW1-3",
+        "R_ISO1-1",
+        "U1-7"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_DRV2",
+      "expected": [
+        "C_ROW_HF2-1",
+        "D_ROW2-3",
+        "R_ISO2-1",
+        "U1-8"
+      ],
+      "actual": [
+        "C_ROW_HF2-1",
+        "D_ROW2-3",
+        "R_ISO2-1",
+        "U1-8"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_DRV3",
+      "expected": [
+        "C_ROW_HF3-1",
+        "D_ROW3-3",
+        "R_ISO3-1",
+        "U1-14"
+      ],
+      "actual": [
+        "C_ROW_HF3-1",
+        "D_ROW3-3",
+        "R_ISO3-1",
+        "U1-14"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_FB0",
+      "expected": [
+        "C_ROW_HF0-2",
+        "R_ROW_FB0-2",
+        "U1-2"
+      ],
+      "actual": [
+        "C_ROW_HF0-2",
+        "R_ROW_FB0-2",
+        "U1-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_FB1",
+      "expected": [
+        "C_ROW_HF1-2",
+        "R_ROW_FB1-2",
+        "U1-6"
+      ],
+      "actual": [
+        "C_ROW_HF1-2",
+        "R_ROW_FB1-2",
+        "U1-6"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_FB2",
+      "expected": [
+        "C_ROW_HF2-2",
+        "R_ROW_FB2-2",
+        "U1-9"
+      ],
+      "actual": [
+        "C_ROW_HF2-2",
+        "R_ROW_FB2-2",
+        "U1-9"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_FB3",
+      "expected": [
+        "C_ROW_HF3-2",
+        "R_ROW_FB3-2",
+        "U1-13"
+      ],
+      "actual": [
+        "C_ROW_HF3-2",
+        "R_ROW_FB3-2",
+        "U1-13"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_SEL0",
+      "expected": [
+        "R_SEL_PD0-1",
+        "U14-3",
+        "U4-1"
+      ],
+      "actual": [
+        "R_SEL_PD0-1",
+        "U14-3",
+        "U4-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_SEL1",
+      "expected": [
+        "R_SEL_PD1-1",
+        "U14-6",
+        "U4-10"
+      ],
+      "actual": [
+        "R_SEL_PD1-1",
+        "U14-6",
+        "U4-10"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_SEL2",
+      "expected": [
+        "R_SEL_PD2-1",
+        "U14-8",
+        "U4-11"
+      ],
+      "actual": [
+        "R_SEL_PD2-1",
+        "U14-8",
+        "U4-11"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "ROW_SEL3",
+      "expected": [
+        "R_SEL_PD3-1",
+        "U14-11",
+        "U4-20"
+      ],
+      "actual": [
+        "R_SEL_PD3-1",
+        "U14-11",
+        "U4-20"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "SPI_MISO",
+      "expected": [
+        "U5-36",
+        "U7-13"
+      ],
+      "actual": [
+        "U5-36",
+        "U7-13"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "SPI_MOSI",
+      "expected": [
+        "U5-1",
+        "U7-14"
+      ],
+      "actual": [
+        "U5-1",
+        "U7-14"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "SPI_SCLK",
+      "expected": [
+        "U5-37",
+        "U7-12"
+      ],
+      "actual": [
+        "U5-37",
+        "U7-12"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "SWCLK",
+      "expected": [
+        "D_J3_4-3",
+        "R_J3_4-2",
+        "U7-25"
+      ],
+      "actual": [
+        "D_J3_4-3",
+        "R_J3_4-2",
+        "U7-25"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "SWCLK_EXT",
+      "expected": [
+        "J3-4",
+        "R_J3_4-1"
+      ],
+      "actual": [
+        "J3-4",
+        "R_J3_4-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "SWDIO",
+      "expected": [
+        "D_J3_3-3",
+        "R_J3_3-2",
+        "U7-24"
+      ],
+      "actual": [
+        "D_J3_3-3",
+        "R_J3_3-2",
+        "U7-24"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "SWDIO_EXT",
+      "expected": [
+        "J3-3",
+        "R_J3_3-1"
+      ],
+      "actual": [
+        "J3-3",
+        "R_J3_3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "TIA0",
+      "expected": [
+        "CF0-1",
+        "RF0-1",
+        "R_ADC0-1",
+        "R_TIA_ISO0-2"
+      ],
+      "actual": [],
+      "pass_": false
+    },
+    {
+      "net": "TIA1",
+      "expected": [
+        "CF1-1",
+        "RF1-1",
+        "R_ADC1-1",
+        "R_TIA_ISO1-2"
+      ],
+      "actual": [],
+      "pass_": false
+    },
+    {
+      "net": "TIA2",
+      "expected": [
+        "CF2-1",
+        "RF2-1",
+        "R_ADC2-1",
+        "R_TIA_ISO2-2"
+      ],
+      "actual": [
+        "CF2-1",
+        "RF2-1",
+        "R_ADC2-1",
+        "R_TIA_ISO2-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "TIA3",
+      "expected": [
+        "CF3-1",
+        "RF3-1",
+        "R_ADC3-1",
+        "R_TIA_ISO3-2"
+      ],
+      "actual": [
+        "CF3-1",
+        "RF3-1",
+        "R_ADC3-1",
+        "R_TIA_ISO3-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "TIA_DRV0",
+      "expected": [
+        "C_TIA_HF0-1",
+        "D_TIA0-3",
+        "R_TIA_ISO0-1",
+        "U2-1"
+      ],
+      "actual": [],
+      "pass_": false
+    },
+    {
+      "net": "TIA_DRV1",
+      "expected": [
+        "C_TIA_HF1-1",
+        "D_TIA1-3",
+        "R_TIA_ISO1-1",
+        "U2-7"
+      ],
+      "actual": [],
+      "pass_": false
+    },
+    {
+      "net": "TIA_DRV2",
+      "expected": [
+        "C_TIA_HF2-1",
+        "D_TIA2-3",
+        "R_TIA_ISO2-1",
+        "U2-8"
+      ],
+      "actual": [
+        "C_TIA_HF2-1",
+        "D_TIA2-3",
+        "R_TIA_ISO2-1",
+        "U2-8"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "TIA_DRV3",
+      "expected": [
+        "C_TIA_HF3-1",
+        "D_TIA3-3",
+        "R_TIA_ISO3-1",
+        "U2-14"
+      ],
+      "actual": [],
+      "pass_": false
+    },
+    {
+      "net": "U10_EN",
+      "expected": [
+        "U10-1",
+        "U10_EN_G-1",
+        "U10_EN_R-2"
+      ],
+      "actual": [
+        "U10-1",
+        "U10_EN_G-1",
+        "U10_EN_R-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U10_OV",
+      "expected": [
+        "U10-2",
+        "U10_OV_B1-1",
+        "U10_OV_T-2"
+      ],
+      "actual": [
+        "U10-2",
+        "U10_OV_B1-1",
+        "U10_OV_T-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U10_OV_M",
+      "expected": [
+        "U10_OV_B1-2",
+        "U10_OV_B2-1"
+      ],
+      "actual": [
+        "U10_OV_B1-2",
+        "U10_OV_B2-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U10_PGTH",
+      "expected": [
+        "U10-4",
+        "U10_PG_B-1",
+        "U10_PG_T-2"
+      ],
+      "actual": [
+        "U10-4",
+        "U10_PG_B-1",
+        "U10_PG_T-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U11_CT",
+      "expected": [
+        "U11-5",
+        "U11_CT_C-1"
+      ],
+      "actual": [
+        "U11-5",
+        "U11_CT_C-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U11_DIV1",
+      "expected": [
+        "U11_TOP0-2",
+        "U11_TOP1-1"
+      ],
+      "actual": [
+        "U11_TOP0-2",
+        "U11_TOP1-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U11_DIV2",
+      "expected": [
+        "U11_TOP1-2",
+        "U11_TOP2-1"
+      ],
+      "actual": [
+        "U11_TOP1-2",
+        "U11_TOP2-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U11_DIV3",
+      "expected": [
+        "U11_TOP2-2",
+        "U11_TOP3-1"
+      ],
+      "actual": [
+        "U11_TOP2-2",
+        "U11_TOP3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U11_DIV4",
+      "expected": [
+        "U11_TOP3-2",
+        "U11_TOP4-1"
+      ],
+      "actual": [
+        "U11_TOP3-2",
+        "U11_TOP4-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U11_SENSE",
+      "expected": [
+        "U11-1",
+        "U11_BOT-1",
+        "U11_SENSE_C-1",
+        "U11_TOP4-2"
+      ],
+      "actual": [
+        "U11-1",
+        "U11_BOT-1",
+        "U11_SENSE_C-1",
+        "U11_TOP4-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U12_CT",
+      "expected": [
+        "U12-5",
+        "U12_CT_C-1"
+      ],
+      "actual": [
+        "U12-5",
+        "U12_CT_C-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U12_DIV1",
+      "expected": [
+        "U12_TOP0-2",
+        "U12_TOP1-1"
+      ],
+      "actual": [
+        "U12_TOP0-2",
+        "U12_TOP1-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U12_DIV2",
+      "expected": [
+        "U12_TOP1-2",
+        "U12_TOP2-1"
+      ],
+      "actual": [
+        "U12_TOP1-2",
+        "U12_TOP2-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U12_DIV3",
+      "expected": [
+        "U12_TOP2-2",
+        "U12_TOP3-1"
+      ],
+      "actual": [
+        "U12_TOP2-2",
+        "U12_TOP3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U12_SENSE",
+      "expected": [
+        "U12-1",
+        "U12_BOT-1",
+        "U12_SENSE_C-1",
+        "U12_TOP3-2"
+      ],
+      "actual": [
+        "U12-1",
+        "U12_BOT-1",
+        "U12_SENSE_C-1",
+        "U12_TOP3-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U9_EN",
+      "expected": [
+        "U9-1",
+        "U9_EN_G-1",
+        "U9_EN_R-2"
+      ],
+      "actual": [
+        "U9-1",
+        "U9_EN_G-1",
+        "U9_EN_R-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U9_OV",
+      "expected": [
+        "U9-2",
+        "U9_OV_B1-1",
+        "U9_OV_T-2"
+      ],
+      "actual": [
+        "U9-2",
+        "U9_OV_B1-1",
+        "U9_OV_T-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U9_OV_M",
+      "expected": [
+        "U9_OV_B1-2",
+        "U9_OV_B2-1"
+      ],
+      "actual": [
+        "U9_OV_B1-2",
+        "U9_OV_B2-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "U9_PGTH",
+      "expected": [
+        "U9-4",
+        "U9_PG_B-1",
+        "U9_PG_T-2"
+      ],
+      "actual": [
+        "U9-4",
+        "U9_PG_B-1",
+        "U9_PG_T-2"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "UART_RX",
+      "expected": [
+        "D_J4_4-3",
+        "R_J4_4-2",
+        "U7-21"
+      ],
+      "actual": [
+        "D_J4_4-3",
+        "R_J4_4-2",
+        "U7-21"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "UART_RX_EXT",
+      "expected": [
+        "J4-4",
+        "R_J4_4-1"
+      ],
+      "actual": [
+        "J4-4",
+        "R_J4_4-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "UART_TX",
+      "expected": [
+        "D_J4_3-3",
+        "R_J4_3-2",
+        "U7-19"
+      ],
+      "actual": [
+        "D_J4_3-3",
+        "R_J4_3-2",
+        "U7-19"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "UART_TX_EXT",
+      "expected": [
+        "J4-3",
+        "R_J4_3-1"
+      ],
+      "actual": [
+        "J4-3",
+        "R_J4_3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "V3V3",
+      "expected": [
+        "C_ADCD-1",
+        "C_DVDD34A-1",
+        "C_DVDD34B-1",
+        "C_MCU1-1",
+        "C_MCU_BULK-1",
+        "C_RST-1",
+        "C_U13-1",
+        "C_U14-1",
+        "C_U15-1",
+        "D_J3_1-2",
+        "D_J3_1-3",
+        "D_J3_3-2",
+        "D_J3_4-2",
+        "D_J3_5-2",
+        "D_J4_1-2",
+        "D_J4_1-3",
+        "D_J4_3-2",
+        "D_J4_4-2",
+        "R_CS_PU-1",
+        "R_J3_1-2",
+        "R_J4_1-2",
+        "R_RST-1",
+        "U10-6",
+        "U10_BLEED-1",
+        "U10_OUT_CAP-1",
+        "U10_PG_T-1",
+        "U11-3",
+        "U11-4",
+        "U11_VDD_C-1",
+        "U12-3",
+        "U12-4",
+        "U12_TOP0-1",
+        "U12_VDD_C-1",
+        "U13-14",
+        "U14-14",
+        "U15-5",
+        "U5-34",
+        "U7-4"
+      ],
+      "actual": [
+        "C_ADCD-1",
+        "C_DVDD34A-1",
+        "C_DVDD34B-1",
+        "C_MCU1-1",
+        "C_MCU_BULK-1",
+        "C_RST-1",
+        "C_U13-1",
+        "C_U14-1",
+        "C_U15-1",
+        "D_J3_1-2",
+        "D_J3_1-3",
+        "D_J3_3-2",
+        "D_J3_4-2",
+        "D_J3_5-2",
+        "D_J4_1-2",
+        "D_J4_1-3",
+        "D_J4_3-2",
+        "D_J4_4-2",
+        "R_CS_PU-1",
+        "R_J3_1-2",
+        "R_J4_1-2",
+        "R_RST-1",
+        "U10-6",
+        "U10_BLEED-1",
+        "U10_OUT_CAP-1",
+        "U10_PG_T-1",
+        "U11-3",
+        "U11-4",
+        "U11_VDD_C-1",
+        "U12-3",
+        "U12-4",
+        "U12_TOP0-1",
+        "U12_VDD_C-1",
+        "U13-14",
+        "U14-14",
+        "U15-5",
+        "U5-34",
+        "U7-4"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "V3V3_EXT",
+      "expected": [
+        "J3-1",
+        "J4-1",
+        "R_J3_1-1",
+        "R_J4_1-1"
+      ],
+      "actual": [
+        "J3-1",
+        "J4-1",
+        "R_J3_1-1",
+        "R_J4_1-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "V3_LDO",
+      "expected": [
+        "C_LDO_OUT-1",
+        "U10-5",
+        "U10_EN_R-1",
+        "U10_IN_CAP-1",
+        "U10_OV_T-1",
+        "U8-5"
+      ],
+      "actual": [
+        "C_LDO_OUT-1",
+        "U10-5",
+        "U10_EN_R-1",
+        "U10_IN_CAP-1",
+        "U10_OV_T-1",
+        "U8-5"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "V5",
+      "expected": [
+        "C_ADCA1-1",
+        "C_ADCA2-1",
+        "C_AVDD30A-1",
+        "C_AVDD30B-1",
+        "C_AVDD30_HF-1",
+        "C_AVDD9A-1",
+        "C_AVDD9B-1",
+        "C_AVDD9_HF-1",
+        "C_BUF-1",
+        "C_LDO_IN-1",
+        "C_MUX-1",
+        "C_PWR-1",
+        "C_REF-1",
+        "C_ROW_OP-1",
+        "C_TIA_OP-1",
+        "D_ROW0-2",
+        "D_ROW1-2",
+        "D_ROW2-2",
+        "D_ROW3-2",
+        "D_TIA0-2",
+        "D_TIA1-2",
+        "D_TIA2-2",
+        "D_TIA3-2",
+        "D_VCM-2",
+        "D_VEX-2",
+        "U1-4",
+        "U11_TOP0-1",
+        "U2-4",
+        "U3-8",
+        "U4-16",
+        "U5-30",
+        "U5-9",
+        "U6-1",
+        "U8-1",
+        "U8-3",
+        "U9-6",
+        "U9_BLEED-1",
+        "U9_OUT_CAP-1",
+        "U9_PG_T-1"
+      ],
+      "actual": [],
+      "pass_": false
+    },
+    {
+      "net": "V5_IN",
+      "expected": [
+        "J1-1",
+        "U9-5",
+        "U9_EN_R-1",
+        "U9_IN_CAP-1",
+        "U9_OV_T-1"
+      ],
+      "actual": [
+        "J1-1",
+        "U9-5",
+        "U9_EN_R-1",
+        "U9_IN_CAP-1",
+        "U9_OV_T-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "VCM",
+      "expected": [
+        "RD_TOP-1",
+        "R_VCM_FB-1",
+        "R_VCM_ISO-2",
+        "U2-10",
+        "U2-12",
+        "U2-3",
+        "U2-5",
+        "U4-14",
+        "U4-17",
+        "U4-4",
+        "U4-7"
+      ],
+      "actual": [
+        "RD_TOP-1",
+        "R_VCM_FB-1",
+        "R_VCM_ISO-2",
+        "U2-10",
+        "U2-12",
+        "U2-3",
+        "U2-5",
+        "U3-2",
+        "U4-14",
+        "U4-17",
+        "U4-4",
+        "U4-7"
+      ],
+      "pass_": false
+    },
+    {
+      "net": "VCM_DRV",
+      "expected": [
+        "C_VCM_HF-1",
+        "D_VCM-3",
+        "R_VCM_ISO-1",
+        "U3-1"
+      ],
+      "actual": [
+        "C_VCM_HF-1",
+        "D_VCM-3",
+        "R_VCM_ISO-1",
+        "U3-1"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "VCM_FB",
+      "expected": [
+        "C_VCM_HF-2",
+        "R_VCM_FB-2",
+        "U3-2"
+      ],
+      "actual": [
+        "C_VCM_HF-2",
+        "R_VCM_FB-2"
+      ],
+      "pass_": false
+    },
+    {
+      "net": "VEXC",
+      "expected": [
+        "R_VEX_FB-1",
+        "R_VEX_ISO-2",
+        "U4-12",
+        "U4-19",
+        "U4-2",
+        "U4-9"
+      ],
+      "actual": [
+        "R_VEX_FB-1",
+        "R_VEX_ISO-2",
+        "U3-6",
+        "U4-12",
+        "U4-19",
+        "U4-2",
+        "U4-9"
+      ],
+      "pass_": false
+    },
+    {
+      "net": "VEXC_DRV",
+      "expected": [
+        "C_VEX_HF-1",
+        "D_VEX-3",
+        "R_VEX_ISO-1",
+        "U3-7"
+      ],
+      "actual": [
+        "C_VEX_HF-1",
+        "D_VEX-3",
+        "R_VEX_ISO-1",
+        "U3-7"
+      ],
+      "pass_": true
+    },
+    {
+      "net": "VEXC_FB",
+      "expected": [
+        "C_VEX_HF-2",
+        "R_VEX_FB-2",
+        "U3-6"
+      ],
+      "actual": [
+        "C_VEX_HF-2",
+        "R_VEX_FB-2"
+      ],
+      "pass_": false
+    }
+  ],
+  "part_identity": [
+    {
+      "ref": "J1",
+      "actual_footprint": {
+        "uuid": "389528125cb39182",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_2P-P2.54-V-M-1"
+      },
+      "expected_footprint_name": "HDR-TH_2P-P2.54-V-M-1",
+      "pass_": true
+    },
+    {
+      "ref": "U6",
+      "actual_footprint": {
+        "uuid": "86c2210f191537f2",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "pass_": true
+    },
+    {
+      "ref": "U8",
+      "actual_footprint": {
+        "uuid": "2578b68e24d8fda8",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
+      },
+      "expected_footprint_name": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "pass_": true
+    },
+    {
+      "ref": "U3",
+      "actual_footprint": {
+        "uuid": "30a78edf30be82ba",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL"
+      },
+      "expected_footprint_name": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+      "pass_": true
+    },
+    {
+      "ref": "RD_TOP",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B4",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B5",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B6",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B7",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B8",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RD_B9",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_DIV",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_PWR",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "C_REF",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_BUF",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_LDO_IN",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "C_LDO_OUT",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "U4",
+      "actual_footprint": {
+        "uuid": "d995893935488a99",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL"
+      },
+      "expected_footprint_name": "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+      "pass_": true
+    },
+    {
+      "ref": "U1",
+      "actual_footprint": {
+        "uuid": "b6beb3a5f30c65ef",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+      },
+      "expected_footprint_name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+      "pass_": true
+    },
+    {
+      "ref": "R_ISO0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ROW_FB0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ROW_HF0",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_SEL_PD0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ISO1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ROW_FB1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ROW_HF1",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_SEL_PD1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ISO2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ROW_FB2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ROW_HF2",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_SEL_PD2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ISO3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ROW_FB3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ROW_HF3",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_SEL_PD3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ROW_OP",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_MUX",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "J2",
+      "actual_footprint": {
+        "uuid": "87b2e6ab0bf2243f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_8P-P2.54-V-M"
+      },
+      "expected_footprint_name": "HDR-TH_8P-P2.54-V-M",
+      "pass_": true
+    },
+    {
+      "ref": "U2",
+      "actual_footprint": {
+        "uuid": "b6beb3a5f30c65ef",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+      },
+      "expected_footprint_name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+      "pass_": true
+    },
+    {
+      "ref": "R_COL_SENSE0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RF0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "CF0",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ADC0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADC0",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_COL_SENSE1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RF1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "CF1",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ADC1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADC1",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_COL_SENSE2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RF2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "CF2",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ADC2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADC2",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_COL_SENSE3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "RF3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "CF3",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ADC3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADC3",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_TIA_OP",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U5",
+      "actual_footprint": {
+        "uuid": "8a281445258384ed",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL"
+      },
+      "expected_footprint_name": "TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL",
+      "pass_": true
+    },
+    {
+      "ref": "U7",
+      "actual_footprint": {
+        "uuid": "e13794d22038af93",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL"
+      },
+      "expected_footprint_name": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+      "pass_": true
+    },
+    {
+      "ref": "J3",
+      "actual_footprint": {
+        "uuid": "54b100f56e34bff6",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_6P-P2.54-V-M-1"
+      },
+      "expected_footprint_name": "HDR-TH_6P-P2.54-V-M-1",
+      "pass_": true
+    },
+    {
+      "ref": "J4",
+      "actual_footprint": {
+        "uuid": "805f84989d4eb67b",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "HDR-TH_4P-P2.54-V-M"
+      },
+      "expected_footprint_name": "HDR-TH_4P-P2.54-V-M",
+      "pass_": true
+    },
+    {
+      "ref": "R_RST",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_RST",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_CS_PU",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_ADC_RESET_PD",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADC_REFIO",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADC_REFCAP",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADCA1",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADCA2",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_ADCD",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_MCU1",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_MCU_BULK",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_VCM_ISO",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_VEX_ISO",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_VCM",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "D_VEX",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "D_ROW0",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_TIA_ISO0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_TIA0",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "D_ROW1",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_TIA_ISO1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_TIA1",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "D_ROW2",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_TIA_ISO2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_TIA2",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "D_ROW3",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_TIA_ISO3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_TIA3",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "C_REFIO_B",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_REFCAP_BULKA",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_REFCAP_BULKB",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_AVDD9A",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_AVDD9B",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_AVDD30A",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_AVDD30B",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_DVDD34A",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_DVDD34B",
+      "actual_footprint": {
+        "uuid": "79b7f68a57a08713",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1210"
+      },
+      "expected_footprint_name": "C1210",
+      "pass_": true
+    },
+    {
+      "ref": "C_AVDD9_HF",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "C_AVDD30_HF",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "R_J3_1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_J3_1",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_J3_3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_J3_3",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_J3_4",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_J3_4",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_J3_5",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_J3_5",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_J4_1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_J4_1",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_J4_3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_J4_3",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "R_J4_4",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "D_J4_4",
+      "actual_footprint": {
+        "uuid": "8ef6c020c23f0901",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR"
+      },
+      "expected_footprint_name": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+      "pass_": true
+    },
+    {
+      "ref": "U9",
+      "actual_footprint": {
+        "uuid": "9c03f5c4cb2f3661",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "VQFN-10_L2.0-W2.0-P0.45-TL"
+      },
+      "expected_footprint_name": "VQFN-10_L2.0-W2.0-P0.45-TL",
+      "pass_": true
+    },
+    {
+      "ref": "U9_EN_R",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U9_EN_G",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U9_OV_T",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U9_OV_B1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U9_OV_B2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U9_PG_T",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U9_PG_B",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U9_IN_CAP",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "U9_OUT_CAP",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "U9_BLEED",
+      "actual_footprint": {
+        "uuid": "8f6590523b82983d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R2010"
+      },
+      "expected_footprint_name": "R2010",
+      "pass_": true
+    },
+    {
+      "ref": "U10",
+      "actual_footprint": {
+        "uuid": "9c03f5c4cb2f3661",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "VQFN-10_L2.0-W2.0-P0.45-TL"
+      },
+      "expected_footprint_name": "VQFN-10_L2.0-W2.0-P0.45-TL",
+      "pass_": true
+    },
+    {
+      "ref": "U10_EN_R",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U10_EN_G",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U10_OV_T",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U10_OV_B1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U10_OV_B2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U10_PG_T",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U10_PG_B",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U10_IN_CAP",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "U10_OUT_CAP",
+      "actual_footprint": {
+        "uuid": "b5b342032f55f019",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C1206"
+      },
+      "expected_footprint_name": "C1206",
+      "pass_": true
+    },
+    {
+      "ref": "U10_BLEED",
+      "actual_footprint": {
+        "uuid": "fcf73cc6c69536a8",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R1206"
+      },
+      "expected_footprint_name": "R1206",
+      "pass_": true
+    },
+    {
+      "ref": "U11",
+      "actual_footprint": {
+        "uuid": "6e95b9266e8dd13f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "WSON-6_L1.5-W1.5-P0.50-TL"
+      },
+      "expected_footprint_name": "WSON-6_L1.5-W1.5-P0.50-TL",
+      "pass_": true
+    },
+    {
+      "ref": "U11_TOP0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_TOP1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_TOP2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_TOP3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_TOP4",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_BOT",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_SENSE_C",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_CT_C",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U11_VDD_C",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12",
+      "actual_footprint": {
+        "uuid": "6e95b9266e8dd13f",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "WSON-6_L1.5-W1.5-P0.50-TL"
+      },
+      "expected_footprint_name": "WSON-6_L1.5-W1.5-P0.50-TL",
+      "pass_": true
+    },
+    {
+      "ref": "U12_TOP0",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12_TOP1",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12_TOP2",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12_TOP3",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12_BOT",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12_SENSE_C",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12_CT_C",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U12_VDD_C",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U15",
+      "actual_footprint": {
+        "uuid": "18b8d917d8ac632d",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+      },
+      "expected_footprint_name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+      "pass_": true
+    },
+    {
+      "ref": "C_U15",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "U13",
+      "actual_footprint": {
+        "uuid": "8d653659d6851f0a",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+      },
+      "expected_footprint_name": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL",
+      "pass_": true
+    },
+    {
+      "ref": "U14",
+      "actual_footprint": {
+        "uuid": "8d653659d6851f0a",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL"
+      },
+      "expected_footprint_name": "TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL",
+      "pass_": true
+    },
+    {
+      "ref": "R_ENABLE_PD",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_HW_PD",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_U13",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_U14",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_VCM_FB",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_VCM_HF",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "R_VEX_FB",
+      "actual_footprint": {
+        "uuid": "3e3bff9cd60aaa06",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "R0603"
+      },
+      "expected_footprint_name": "R0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_VEX_HF",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_TIA_HF0",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_TIA_HF1",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_TIA_HF2",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    },
+    {
+      "ref": "C_TIA_HF3",
+      "actual_footprint": {
+        "uuid": "e1806bcee69fe169",
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "name": "C0603"
+      },
+      "expected_footprint_name": "C0603",
+      "pass_": true
+    }
+  ],
+  "expected_connected_pins": 514,
+  "passed_connected_pins": 334,
+  "expected_NC_count": 36,
+  "actual_NC_count": 36,
+  "NC_exact_match": true,
+  "NC_in_actual_nets": [],
+  "missing_pins": [],
+  "unexpected_pins": [],
+  "expected_net_count": 106,
+  "actual_net_count": 99,
+  "expected_parts": 176,
+  "actual_parts": 176,
+  "actual_component_blocks": 176,
+  "duplicates": {},
+  "block_duplicates": {},
+  "pages": 6,
+  "manufacturing_release": false,
+  "pass": false
+}

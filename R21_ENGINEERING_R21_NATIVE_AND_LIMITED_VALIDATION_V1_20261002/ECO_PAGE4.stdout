@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"page":{"uuid":"52a8a60e5711e55b","index":4,"name":"MCU_Protected_Interfaces"},"changes":[{"ref":"R_J3_5","action":"physical device4k99->1k","association":{"libraryUuid":"0819f05c4eef4c71ace90d822a990e87","uuid":"3c64e07783d6269c","name":"0603WAF1001T5E"},"footprint":{"uuid":"3e3bff9cd60aaa06","libraryUuid":"0819f05c4eef4c71ace90d822a990e87","name":"R0603"}}],"layout":{"ports":69,"wires":69,"notes":4},"saved":true},"logs":[],"durationMs":2398}
