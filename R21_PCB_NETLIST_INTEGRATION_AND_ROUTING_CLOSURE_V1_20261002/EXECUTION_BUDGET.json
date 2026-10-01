@@ -1,0 +1,140 @@
+{
+  "startedUTC": "2026-10-01T21:32:23.604897+00:00",
+  "approvedMinutes": 360,
+  "phasesMinutes": {
+    "nativeIntegration": 60,
+    "criticalAnalogRouting": 120,
+    "ordinaryRouting": 90,
+    "drcColdDelivery": 90
+  },
+  "caps": {
+    "createdSessions": 3,
+    "saveAttempts": 12,
+    "captureAudit": 4,
+    "DRC": 4
+  },
+  "used": {
+    "copy": 1,
+    "createdSessions": 2,
+    "saveAttempts": 1,
+    "captureAudit": 3,
+    "DRC": 2
+  },
+  "rulingAssistant": "e13aa5ff-3062-4aa7-859d-fd57ecbf7cd4",
+  "rulingParent": "230dd058-72ff-48be-ae8c-aa1fcdef32f9",
+  "status": "BLOCKED_P1_NO_MORE_NATIVE_OR_ROUTING",
+  "prohibited": [
+    "schematicElectricalChange",
+    "wholeBoardAutoroute",
+    "APIorSDKResearch",
+    "simulation",
+    "Gerber",
+    "procurement",
+    "manufacture",
+    "actualBench",
+    "localGit",
+    "systemChanges"
+  ],
+  "operations": [
+    {
+      "label": "CLOSE_CLOSURE_FINAL",
+      "kind": "session",
+      "ok": true,
+      "startUTC": "2026-10-01T21:36:41.461067+00:00",
+      "error": null
+    },
+    {
+      "label": "CLOSE_UI_DRC_SESSION",
+      "kind": "session",
+      "ok": true,
+      "startUTC": "2026-10-01T21:35:40.643284+00:00",
+      "error": null
+    },
+    {
+      "label": "CLOSURE_CAPTURE_A",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:34:25.500818+00:00",
+      "error": null
+    },
+    {
+      "label": "CLOSURE_CAPTURE_B",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:34:54.174193+00:00",
+      "error": null
+    },
+    {
+      "label": "CLOSURE_CAPTURE_C_COLD",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:36:19.506861+00:00",
+      "error": null
+    },
+    {
+      "label": "CLOSURE_CONTEXT",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:32:40.036587+00:00",
+      "error": null
+    },
+    {
+      "label": "CLOSURE_DRC_B",
+      "kind": "invoke",
+      "ok": false,
+      "startUTC": "2026-10-01T21:34:55.331771+00:00",
+      "error": {
+        "code": "REQUEST_TIMEOUT",
+        "message": "invoke timed out after 29750ms (budget 30000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)"
+      }
+    },
+    {
+      "label": "CLOSURE_DRC_C_HEADLESS",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:36:23.382008+00:00",
+      "error": null
+    },
+    {
+      "label": "NATIVE_EXPLICIT_DOCUMENT_COMPARISON",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:33:40.304792+00:00",
+      "error": null
+    },
+    {
+      "label": "OPEN_CLOSURE",
+      "kind": "open",
+      "ok": true,
+      "startUTC": "2026-10-01T21:32:23.957455+00:00",
+      "error": null
+    },
+    {
+      "label": "OPEN_CLOSURE_COLD",
+      "kind": "open",
+      "ok": true,
+      "startUTC": "2026-10-01T21:36:00.223729+00:00",
+      "error": null
+    },
+    {
+      "label": "PCB_EXPLICIT_JLC_NETLIST",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:32:59.984397+00:00",
+      "error": null
+    },
+    {
+      "label": "SYNC_SCHEMATIC_ONCE",
+      "kind": "invoke",
+      "ok": true,
+      "startUTC": "2026-10-01T21:34:27.015832+00:00",
+      "error": null
+    }
+  ],
+  "stop": "NATIVE_NETLIST_ERROR_PERSISTS_AFTER_SINGLE_DOCUMENTED_SYNC",
+  "stoppedUTC": "2026-10-01T21:38:41.772835+00:00",
+  "elapsedMinutes": 6.302798966666667,
+  "actualSavedTrue": 1,
+  "stage2RoutingActions": 0,
+  "remainingQuotaIsNotContinuationPermission": true
+}

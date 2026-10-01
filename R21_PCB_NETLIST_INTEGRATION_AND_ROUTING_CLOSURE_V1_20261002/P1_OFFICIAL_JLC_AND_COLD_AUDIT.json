@@ -1,0 +1,13 @@
+{
+  "officialPCB_JLCComponents": 176,
+  "actualPhysicalPads": 550,
+  "assignedConnections": 514,
+  "nonemptyNets": 107,
+  "NC": 36,
+  "all550OfficialJLCAndActualPadStatesMatchAccepted": true,
+  "warmBeforeAfterColdPartsEqual": true,
+  "allNonDOCHEADMultisetEqual": true,
+  "rawBytesEqual": false,
+  "nativeNetlistErrorGatePassed": false,
+  "scope": "assigned net membership only; not copper continuity or native compiler acceptance"
+}

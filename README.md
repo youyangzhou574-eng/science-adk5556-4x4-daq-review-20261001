@@ -1,3 +1,9 @@
+# Latest: PCB integration gate remains blocked; concrete editor sync handoff
+
+[Complete receipt](R21_PCB_NETLIST_INTEGRATION_AND_ROUTING_CLOSURE_V1_20261002/COMPLETE_ROUTING_CLOSURE_RECEIPT.md) · [Editor action](R21_PCB_NETLIST_INTEGRATION_AND_ROUTING_CLOSURE_V1_20261002/EDITOR_SYNC_HANDOFF.md) · [Index](R21_PCB_NETLIST_INTEGRATION_AND_ROUTING_CLOSURE_V1_20261002/README.md). Explicit official JLCEDA export matches all550 pad assignments, but one normal sync did not clear native netlist error. No additional routing, no API research or manufacture/powerup.
+
+---
+
 # Latest: R2.1 PCB floorplan and local routing — BLOCKED review
 
 [Complete receipt](R21_PCB_FLOORPLAN_AND_LAYOUT_V1_20261002/COMPLETE_PCB_RECEIPT.md) · [Index and actual rendered layout](R21_PCB_FLOORPLAN_AND_LAYOUT_V1_20261002/README.md) · [Native DRC details](R21_PCB_FLOORPLAN_AND_LAYOUT_V1_20261002/FINAL_DRC_DETAILS.csv). User authorized a four-layer lab review PCB. 176 parts and 550 actual pads: 514 assigned connections,107 assigned nets,36 NC match accepted schematic; cold capture passes. Provisional100×90mm floorplan,93 local L1 segments,one L2GND boundary. **Full routing incomplete;452 native connection errors and1 native netlist error remain. No manufacture, procurement or bench release.**

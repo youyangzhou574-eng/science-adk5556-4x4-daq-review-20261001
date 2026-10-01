@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-01T21:33:40.304792+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "56eb306f-ac4d-4d92-b5d1-da80c8a077ae",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "return await eda.sys_Tool.netlistComparison({projectUuid:\"5f0f08e3dad93b0ffb535434698fc451f7da98d60fe108ce8d4eba66eeaf3ee3\",documentUuid:\"32047f874e6d71ce\"},{projectUuid:\"5f0f08e3dad93b0ffb535434698fc451f7da98d60fe108ce8d4eba66eeaf3ee3\",documentUuid:\"268e6597399ebcce\"});",
+    "--timeout",
+    "10000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":null,\"logs\":[],\"durationMs\":2}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": null,
+    "logs": [],
+    "durationMs": 2
+  }
+}

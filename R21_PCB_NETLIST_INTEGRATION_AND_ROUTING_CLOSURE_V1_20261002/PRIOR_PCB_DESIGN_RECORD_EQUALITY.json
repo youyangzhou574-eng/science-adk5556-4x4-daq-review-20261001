@@ -1,0 +1,7 @@
+{
+  "allNonDOCHEADPCBRecordsEqualPriorNativeCapturedDesign": true,
+  "priorSourceSHA256": "54DC579E217538C8FC6F52E20C3A6906461AD34C4AE7D356D8E6EEA8A2FD835E",
+  "newColdSourceSHA256": "BAA247976B112957B1CC5F3087F1A6F630A5467F0519EB96911D769CBF490F2D",
+  "scope": "PCB design source record multiset only; not whole project internals or bytes equivalent",
+  "priorActualNativeFixedCommit": "dfd80b342744aa21625fdf693dc1b1f81333ba56"
+}

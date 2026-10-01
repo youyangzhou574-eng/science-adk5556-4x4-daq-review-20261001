@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"projectUuid":"5f0f08e3dad93b0ffb535434698fc451f7da98d60fe108ce8d4eba66eeaf3ee3","boards":[{"name":"Board1","pcb":{"itemType":"PCB","name":"PCB1","uuid":"268e6597399ebcce","parentBoardName":"Board1","parentProjectUuid":"5f0f08e3dad93b0ffb535434698fc451f7da98d60fe108ce8d4eba66eeaf3ee3"},"schematic":"32047f874e6d71ce"},{"name":"Panel1"}]},"logs":[],"durationMs":3}

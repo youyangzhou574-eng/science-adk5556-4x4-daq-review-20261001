@@ -1,0 +1,12 @@
+{
+  "nativeNetlistErrorZero": false,
+  "actual550PadMappingUnchanged": true,
+  "officialPCB_JLCMatchesAccepted": true,
+  "remainingConnectionErrorsDescriptionOnlySameNetDisconnected": true,
+  "allCopperConnectionsCertified": false,
+  "fullRoutingComplete": false,
+  "DRCClean": false,
+  "manufactureReleased": false,
+  "benchReleased": false,
+  "stop": "NATIVE_NETLIST_ERROR_PERSISTS_AFTER_SINGLE_DOCUMENTED_SYNC"
+}

@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-01T21:34:55.331771+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "56eb306f-ac4d-4d92-b5d1-da80c8a077ae",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "return {result:await eda.pcb_Drc.check(true,true,true)};",
+    "--timeout",
+    "30000"
+  ],
+  "returncode": 3,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"REQUEST_TIMEOUT\",\"message\":\"invoke timed out after 29750ms (budget 30000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)\"}}\n",
+  "stderr": "REQUEST_TIMEOUT: invoke timed out after 29750ms (budget 30000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "REQUEST_TIMEOUT",
+      "message": "invoke timed out after 29750ms (budget 30000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)"
+    }
+  }
+}

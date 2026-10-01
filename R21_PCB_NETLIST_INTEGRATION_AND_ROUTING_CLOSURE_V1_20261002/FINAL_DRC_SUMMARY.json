@@ -1,0 +1,6 @@
+{
+  "Connection Error": 452,
+  "Netlist Error": 1,
+  "Clearance Error": 0,
+  "connectionDescription": "Same-net object disconnected, consistent with unfinished copper/ratsnest; cannot prove final connectivity"
+}
