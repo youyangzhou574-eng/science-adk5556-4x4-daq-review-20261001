@@ -1,3 +1,9 @@
+# Latest: actual GUI synchronization resolved; routing remains incomplete
+
+[Complete receipt](R21_PCB_IMPORT_DIFF_RESOLUTION_V1_20261002/COMPLETE_IMPORT_DIFF_RECEIPT.md) · [Actual697 diff](R21_PCB_IMPORT_DIFF_RESOLUTION_V1_20261002/IMPORT_CHANGE_DIFF_WEB.csv) · [All550 pin comparison](R21_PCB_IMPORT_DIFF_RESOLUTION_V1_20261002/BEFORE_AFTER_NETLIST_COMPARE.csv) · [Index](R21_PCB_IMPORT_DIFF_RESOLUTION_V1_20261002/README.md). One reviewed property sync, warm/cold NetlistError0;452 connection entries still need routing. Review only; no manufacture/powerup.
+
+---
+
 # Latest: PCB integration gate remains blocked; concrete editor sync handoff
 
 [Complete receipt](R21_PCB_NETLIST_INTEGRATION_AND_ROUTING_CLOSURE_V1_20261002/COMPLETE_ROUTING_CLOSURE_RECEIPT.md) · [Editor action](R21_PCB_NETLIST_INTEGRATION_AND_ROUTING_CLOSURE_V1_20261002/EDITOR_SYNC_HANDOFF.md) · [Index](R21_PCB_NETLIST_INTEGRATION_AND_ROUTING_CLOSURE_V1_20261002/README.md). Explicit official JLCEDA export matches all550 pad assignments, but one normal sync did not clear native netlist error. No additional routing, no API research or manufacture/powerup.

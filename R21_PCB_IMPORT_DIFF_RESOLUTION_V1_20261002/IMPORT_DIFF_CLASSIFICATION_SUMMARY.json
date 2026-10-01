@@ -1,0 +1,29 @@
+{
+  "UTC": "2026-10-01T22:56:02.4350760Z",
+  "RawRows": 873,
+  "ComponentGroupRows": 176,
+  "Changes": 697,
+  "Actions": [
+    {
+      "Name": "新增属性",
+      "Count": 367
+    },
+    {
+      "Name": "修改属性",
+      "Count": 330
+    }
+  ],
+  "Classifications": [
+    {
+      "Name": "ACCEPTABLE_PROPERTY_SYNC",
+      "Count": 665
+    },
+    {
+      "Name": "HISTORICAL_LIBRARY_METADATA_RESIDUE_SOURCE_SYNC",
+      "Count": 32
+    }
+  ],
+  "SourceMismatch": 0,
+  "NonPropertyActions": 0,
+  "Decision": "Only decide one sync after SourceMismatch and NonPropertyActions both zero; no pin/net/footprint/component change listed. ADC library description losses are metadata only; retain original evidence; no manufacturing release."
+}

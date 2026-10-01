@@ -1,0 +1,10 @@
+{
+  "IMPORT_DIFF_CLASSIFIED": "PASS 697 property changes; 0 net/pin/footprint/component actions",
+  "SCHEMATIC_PCB_ALL_PIN_MAPPING": "PASS 550/550 before/warm/cold",
+  "NETLIST_ERROR": "PASS 0 after sync and GUI cold reopen",
+  "ROUTING_CLOSURE": "HOLD 452 ConnectionError entries remain",
+  "DRC_CLEAN": false,
+  "BENCH_NOT_RELEASED": true,
+  "MANUFACTURING_RELEASED": false,
+  "NEXT_PACKAGE_NOT_STARTED": true
+}

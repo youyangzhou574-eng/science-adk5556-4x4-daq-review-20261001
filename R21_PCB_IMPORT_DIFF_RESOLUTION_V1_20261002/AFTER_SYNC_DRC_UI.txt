@@ -1,0 +1,1234 @@
+Window: "SCIENCE_ADK5556_4X4_R21_IMPORT_DIFF_WORK | 嘉立创EDA(专业版) - V4.1.60", App: lceda-pro.exe.
+	0 窗口 SCIENCE_ADK5556_4X4_R21_IMPORT_DIFF_WORK | 嘉立创EDA(专业版) - V4.1.60 Secondary Actions: Raise
+		1 窗格 (disabled)
+		2 区域 SCIENCE_ADK5556_4X4_R21_IMPORT_DIFF_WORK | 嘉立创EDA(专业版) - V4.1.60
+			3 区域
+				4 区域
+					5 区域
+						6 区域
+							7 区域
+								8 区域
+									10 文档 SCIENCE_ADK5556_4X4_R21_IMPORT_DIFF_WORK | 嘉立创EDA(专业版) - V4.1.60 Value: https://client/editor?cll=warn#id=5827a3d169425f46310e5f4f300236b9f3d494cbb5aaa818b7049db98e409a15,tab=*268e6597399ebcce@5827a3d169425f46310e5f4f300236b9f3d494cbb5aaa818b7049db98e409a15 ID: RootWebArea
+										11 图形 ID: svg-work-space
+										12 图像 ID: canvas-work-space
+										13 组 ID: top-wrap
+											14 链接 Value: https://client/editor?cll=warn# ID: modelogo
+												15 图形 ID: logo-svg
+											975 组 Description: 文件
+												976 文本 文件
+												2707 文本 (F)
+											2118 组 Description: 编辑
+												2119 文本 编辑
+												2708 文本 (E)
+											978 组 Description: 视图
+												979 文本 视图
+												2709 文本 (V)
+											2122 组 Description: 放置
+												2123 文本 放置
+												2710 文本 (P)
+											2125 组 Description: 设计
+												2126 文本 设计
+												2711 文本 (D)
+											2128 组 Description: 布线
+												2129 文本 布线
+												2712 文本 (U)
+											2131 组 Description: 布局
+												2132 文本 布局
+												2713 文本 (O)
+											981 组 Description: 工具
+												982 文本 工具
+												2714 文本 (T)
+											2135 组 Description: 导出
+												2136 文本 导出
+												2715 文本 (R)
+											984 组 Description: 高级
+												985 文本 高级
+												2716 文本 (A)
+											2717 组
+												2718 组 Description: 更多
+											18 组
+											19 文本 V4.1.60 | 半离线
+											20 按钮  Description: 设置
+											21 按钮  Description: 最小化
+											22 按钮  Description: 最大化/还原
+											23 按钮  Description: 关闭
+										24 组 ID: toolbar-bottom
+											2141 组 Description: 板
+											2142 组
+											2143 组 Description: 打开工程(Ctrl+O)
+											2144 组 Description: 保存(Ctrl+Shift+S)
+											2145 组 Description: 保存全部(Ctrl+S)
+											2146 组 Description: 备份
+											2147 组 Description: 撤销(Ctrl+Z)
+											2148 组 Description: 重做(Ctrl+Y)
+											2149 组
+												2150 文本 常用
+											2151 组 Description: 阵列对象
+											2152 组 Description: 查找(Ctrl+F)
+											2153 组 Description: 2D预览
+											2154 组 Description: 3D预览
+											2155 组 Description: 适应框选
+											2156 组 Description: 翻转板子
+											2157 组 切换亮度 Description: 切换亮度
+												2158 文本 正常亮度
+											2159 组 单位 Description: 单位
+												2160 文本 mil
+											2161 组 Description: 网格类型
+											2162 组 Description: 焊盘(Alt+P)
+											2163 组 Description: 过孔
+											2164 组 Description: 板框
+											2165 组
+											2166 组 Description: 铺铜
+											2167 组
+											2168 组 Description: 填充区域
+											2169 组
+											2170 组 Description: 挖槽区域
+											2171 组
+											2172 组 Description: 禁止区域
+											2173 组
+											2174 组 Description: 折线(Alt+L)
+											2175 组
+											2176 组 Description: 文本
+											2177 组 Description: 长度(Alt+N)
+											2178 组
+											2179 组 Description: 从原理图导入变更(Alt+I)
+											2180 组 Description: 检查DRC
+											2181 组 Description: 单路布线
+											2182 组 Description: 拉伸导线(Shift+W)
+											2719 组
+												2720 组 Description: 更多
+										33 组 ID: tab-container-leftPanelTab
+											34 组
+												35 组 Description: 自动收起：关闭
+												36 组 ID: leftPanelTab
+													37 组 所有工程 Description: 所有工程
+														38 文本 所
+														39 文本 有
+														40 文本 工
+														41 文本 程
+													1247 组 工程设计 Description: 工程设计
+														1248 文本 工
+														1249 文本 程
+														1250 文本 设
+														1251 文本 计
+													42 组 常用库 Description: 常用库
+														43 文本 常
+														44 文本 用
+														45 文本 库
+										1252 组 ID: projectDesign
+											1253 组 ID: tab-container-leftProjectDesignTab
+												1254 组 Description: 图页
+													1255 文本 图页
+												2185 组 Description: 网络
+													2186 文本 网络
+												2187 组 Description: 元件
+													2188 文本 元件
+												2189 组 Description: 对象
+													2190 文本 对象
+											1283 组 Description: 搜索
+											1284 组 Description: 过滤
+											1285 编辑 (settable, string)
+											1286 列表 ID: treeMyProject
+												1287 列表项目 mainSCIENCE_ADK5556_4X4_R21_IMPORT_DIFF_WORK
+													1288 组 Description: SCIENCE_ADK5556_4X4_R21_IMPORT_DIFF_WORK
+														1289 组
+														1290 文本 main
+														1291 文本 SCIENCE_ADK5556_4X4_R21_IMPORT_DIFF_WORK
+												1292 列表项目 Board1
+													1293 组 Description: 板: Board1
+														1294 组
+														1295 文本 Board1
+												1296 列表项目 Schematic1
+													1297 组 Description: 原理图: Schematic1
+														1298 组
+														1299 文本 Schematic1
+												1300 列表项目 PCB1
+													1301 组 Description: PCB: PCB1
+														1302 文本 PCB1
+												1303 列表项目 Panel1
+													1304 组 Description: 面板: Panel1
+														1305 文本 Panel1
+												1306 列表项目
+										53 组 ID: tab-container-editor-window-main
+											54 组 Description: 开始页
+												55 文本 开始页
+											1998 组 Description: PCB1
+												1999 文本 PCB1
+										2191 组 ID: top_tab_tips_268e6597399ebcce@5827a3d169425f46310e5f4f300236b9f3d494cbb5aaa818b7049db98e409a15
+										1307 图像 ID: rulerh_268e6597399ebcce@5827a3d169425f46310e5f4f300236b9f3d494cbb5aaa818b7049db98e409a15
+										1308 图像 ID: rulerv_268e6597399ebcce@5827a3d169425f46310e5f4f300236b9f3d494cbb5aaa818b7049db98e409a15
+										2115 文档 EasyEDA PCB Value: https://client/editor?entry=pcb ID: RootWebArea
+											2116 图像 ID: canvas
+										2192 组 ID: pcbLayersBar2adfc5e27a19b391
+											2193 组
+											2194 组
+											2195 文本 顶层
+											2196 文本 内层1
+											2197 文本 内层2
+											2198 文本 底层
+											2199 文本 顶层丝印层
+											2200 文本 底层丝印层
+											2201 文本 顶层阻焊层
+											2202 文本 底层阻焊层
+											2203 文本 顶层锡膏层
+											2204 文本 底层锡膏层
+											2205 文本 顶层装配层
+											2206 文本 底层装配层
+											2207 文本 板框层
+											2208 文本 多层
+											2209 文本 文档层
+											2210 文本 机械层
+											2211 文本 元件外形层
+											2212 文本 元件标识层
+											2213 文本 引脚焊接层
+											2214 文本 引脚悬空层
+											2215 文本 3D外壳边框层
+											2216 文本 3D顶层
+											2217 文本 3D底层
+											2218 文本 钻孔图层
+											2219 文本 飞线层
+										1309 组
+											1310 文本 X:
+											2470 文本 -1910
+											1311 文本 
+											1312 文本 Y:
+											2471 文本 4100
+											1313 文本 
+											1314 文本 dX:
+											2472 文本 -1910
+											1315 文本 
+											1316 文本 dY:
+											2473 文本 4100
+											1317 文本 
+											1318 组 Description: 缩放比例: 98%
+												2224 组
+													2225 编辑 (settable, string) Value: 98%
+													2226 组
+											1319 组 Description: 网格尺寸: 5.0mil
+												2227 组
+													2228 编辑 (settable, string) Value: 5.0
+													2229 组
+											2230 组
+												2231 文本 mil
+											1320 组 Description: 网格类型
+										210 组 ID: tab-container-right-panel-tab-container
+											211 组
+												212 组 Description: 自动收起：关闭
+												213 组 ID: right-panel-tab-container
+													2232 组 图层 Description: 图层
+														2233 文本 图
+														2234 文本 层
+													2235 组 过滤 Description: 过滤
+														2236 文本 过
+														2237 文本 滤
+													2238 组 显示 Description: 显示
+														2239 文本 显
+														2240 文本 示
+													1257 组 属性 Description: 属性
+														1258 文本 属
+														1259 文本 性
+										2241 组 ID: multi-layer
+											2242 组
+												2243 文本 常用(默认)
+											2244 组
+												2245 文本 重置
+											2246 列表
+												2247 列表项目 全部
+												2248 列表项目 铜箔层
+												2249 列表项目 非铜层
+											2250 组
+											2251 文本 全部
+											2252 组
+											2253 组
+											2254 组
+											2255 文本 顶面
+											2256 组
+											2257 组
+											2258 组
+											2259 组
+												2260 文本 1
+												2261 文本 
+												2262 文本 顶层
+											2263 组
+											2264 组
+											2265 组
+											2266 组
+												2267 文本 3
+												2268 文本 
+												2269 文本 顶层丝印层
+											2270 组
+											2271 组
+											2272 组
+											2273 组
+												2274 文本 5
+												2275 文本 
+												2276 文本 顶层阻焊层
+											2277 组
+											2278 组
+											2279 组
+											2280 组
+												2281 文本 7
+												2282 文本 
+												2283 文本 顶层锡膏层
+											2284 组
+											2285 组
+											2286 组
+											2287 组
+												2288 文本 9
+												2289 文本 
+												2290 文本 顶层装配层
+											2291 组
+											2292 组
+											2293 组
+											2294 文本 底面
+											2295 组
+											2296 组
+											2297 组
+											2298 组
+												2299 文本 2
+												2300 文本 
+												2301 文本 底层
+											2302 组
+											2303 组
+											2304 组
+											2305 组
+												2306 文本 4
+												2307 文本 
+												2308 文本 底层丝印层
+											2309 组
+											2310 组
+											2311 组
+											2312 组
+												2313 文本 6
+												2314 文本 
+												2315 文本 底层阻焊层
+											2316 组
+											2317 组
+											2318 组
+											2319 组
+												2320 文本 8
+												2321 文本 
+												2322 文本 底层锡膏层
+											2323 组
+											2324 组
+											2325 组
+											2326 组
+												2327 文本 10
+												2328 文本 
+												2329 文本 底层装配层
+											2330 组
+											2331 组
+											2332 组
+											2333 文本 内层
+											2334 组
+											2335 组
+											2336 组
+											2337 组
+												2338 文本 15
+												2339 文本 
+												2340 文本 内层1
+											2341 组
+											2342 组
+											2343 组
+											2344 组
+												2345 文本 16
+												2346 文本 
+												2347 文本 内层2
+											2348 组
+											2349 组
+										215 组 ID: tab-container-bottom-bar-container
+											216 组
+												217 组 Description: 自动收起：关闭
+												218 组 ID: bottom-bar-container
+													219 组 Description: 库
+														220 文本 库
+													221 组 Description: 日志
+														222 文本 日志
+													2350 组 Description: 器件标准化
+														2351 文本 器件标准化
+													1276 组 Description: DRC
+														1277 文本 DRC
+													2352 组 Description: 查找结果
+														2353 文本 查找结果
+													1278 组 Description: 属性清单
+														1279 文本 属性清单
+										2670 组 ID: drcPrimaryLog
+											2671 按钮 检查DRC ID: checkDRC
+											2672 按钮 清除错误 ID: clearErrors
+											2673 组 ID: treeMyDesignDRC-content
+												2674 列表
+													2721 组
+														2722 组
+														2723 组
+														2724 文本 全部 (452)
+													2725 组
+														2726 组
+														2727 组
+														2728 文本 连接性错误 (452)
+													2729 组
+														2730 组
+														2731 文本 GND (119)
+													2732 组
+														2733 组
+														2734 文本 TIA0 (2)
+													2735 组
+														2736 组
+														2737 文本 TIA1 (2)
+													2738 组
+														2739 组
+														2740 文本 TIA2 (2)
+													2741 组
+														2742 组
+														2743 文本 TIA3 (2)
+													2744 组
+														2745 组
+														2746 文本 V5_IN (5)
+													2747 组
+														2748 组
+														2749 文本 COL0 (4)
+													2750 组
+														2751 组
+														2752 文本 COL1 (4)
+													2753 组
+														2754 组
+														2755 文本 COL2 (4)
+													2756 组
+														2757 组
+														2758 文本 COL3 (4)
+													2759 组
+														2760 组
+														2761 文本 ADC_IN0 (3)
+													2762 组
+														2763 组
+														2764 文本 ADC_IN1 (3)
+													2765 组
+														2766 组
+														2767 文本 ADC_IN2 (3)
+													2768 组
+														2769 组
+														2770 文本 ADC_IN3 (3)
+													2771 组
+														2772 组
+														2773 文本 V5 (39)
+													2774 组
+														2775 组
+														2776 文本 V3V3 (38)
+													2777 组
+														2778 组
+														2779 文本 ADC_REFCAP (4)
+													2780 组
+														2781 组
+														2782 文本 ADC_REFIO (3)
+													2783 组
+														2784 组
+														2785 文本 DIV_2V25 (4)
+													2786 组
+														2787 组
+														2788 文本 V3_LDO (6)
+													2789 组
+														2790 组
+														2791 文本 ROW_DRV1 (4)
+													2792 组
+														2793 组
+														2794 文本 ROW_DRV2 (4)
+													2795 组
+														2796 组
+														2797 文本 TIA_DRV1 (4)
+													2798 组
+														2799 组
+														2800 文本 TIA_DRV2 (4)
+													2801 组
+														2802 组
+														2803 文本 SWDIO (3)
+													2804 组
+														2805 组
+														2806 文本 SWCLK (3)
+													2807 组
+														2808 组
+														2809 文本 PGOOD (7)
+													2810 组
+														2811 组
+														2812 文本 UART_TX (3)
+													2813 组
+														2814 组
+														2815 文本 UART_RX (3)
+													2816 组
+														2817 组
+														2818 文本 ROW0 (3)
+													2819 组
+														2820 组
+														2821 文本 ROW1 (3)
+													2822 组
+														2823 组
+														2824 文本 ROW2 (3)
+													2825 组
+														2826 组
+														2827 文本 ROW3 (3)
+													2828 组
+														2829 组
+														2830 文本 MCU_NRST_EXT (2)
+													2831 组
+														2832 组
+														2833 文本 SWCLK_EXT (2)
+													2834 组
+														2835 组
+														2836 文本 SWDIO_EXT (2)
+											2678 组 ID: drcTable
+												2837 表格
+													2838 行
+														2839 列标题 序号 Description: 序号
+														2840 列标题 显示 Description: 显示
+														2841 列标题 错误类型 Description: 错误类型
+															2842 组 Description: 升序
+															2843 组 Description: 降序
+														2844 列标题 错误对象 Description: 错误对象
+															2845 组 Description: 升序
+															2846 组 Description: 降序
+														2847 列标题 规则名称 Description: 规则名称
+															2848 组 Description: 升序
+															2849 组 Description: 降序
+														2850 列标题 对象 1 Description: 对象 1
+															2851 组 Description: 升序
+															2852 组 Description: 降序
+														2853 列标题 对象 2 Description: 对象 2
+															2854 组 Description: 升序
+															2855 组 Description: 降序
+														2856 列标题 图层 Description: 图层
+															2857 组 Description: 升序
+															2858 组 Description: 降序
+														2859 列标题 解释 Description: 解释
+															2860 组 Description: 升序
+															2861 组 Description: 降序
+												2862 表格
+													2863 行
+														2864 项 1
+														2865 项
+														2866 项 连接性错误
+														2867 项 贴片焊盘
+														2868 项 Common
+															2869 组 Description: Common
+														2870 项 贴片焊盘 (U9_OV_M): U9_OV_B2_1
+														2871 项 -
+														2872 项 -
+														2873 项 对象 1与其他相同网络的对象断开了连接
+													2874 行
+														2875 项 2
+														2876 项
+														2877 项 连接性错误
+														2878 项 贴片焊盘
+														2879 项 Common
+															2880 组 Description: Common
+														2881 项 贴片焊盘 (U9_OV_M): U9_OV_B1_2
+														2882 项 -
+														2883 项 -
+														2884 项 对象 1与其他相同网络的对象断开了连接
+													2885 行
+														2886 项 3
+														2887 项
+														2888 项 连接性错误
+														2889 项 贴片焊盘
+														2890 项 Common
+															2891 组 Description: Common
+														2892 项 贴片焊盘 (U9_OV): U9_OV_B1_1
+														2893 项 -
+														2894 项 -
+														2895 项 对象 1与其他相同网络的对象断开了连接
+													2896 行
+														2897 项 4
+														2898 项
+														2899 项 连接性错误
+														2900 项 贴片焊盘
+														2901 项 Common
+															2902 组 Description: Common
+														2903 项 贴片焊盘 (U9_OV): U9_OV_T_2
+														2904 项 -
+														2905 项 -
+														2906 项 对象 1与其他相同网络的对象断开了连接
+													2907 行
+														2908 项 5
+														2909 项
+														2910 项 连接性错误
+														2911 项 贴片焊盘
+														2912 项 Common
+															2913 组 Description: Common
+														2914 项 贴片焊盘 (U9_OV): U9_2
+														2915 项 -
+														2916 项 -
+														2917 项 对象 1与其他相同网络的对象断开了连接
+													2918 行
+														2919 项 6
+														2920 项
+														2921 项 连接性错误
+														2922 项 贴片焊盘
+														2923 项 Common
+															2924 组 Description: Common
+														2925 项 贴片焊盘 (U9_PGTH): e165e5
+														2926 项 -
+														2927 项 -
+														2928 项 对象 1与其他相同网络的对象断开了连接
+													2929 行
+														2930 项 7
+														2931 项
+														2932 项 连接性错误
+														2933 项 贴片焊盘
+														2934 项 Common
+															2935 组 Description: Common
+														2936 项 贴片焊盘 (U9_PGTH): U9_PG_B_1
+														2937 项 -
+														2938 项 -
+														2939 项 对象 1与其他相同网络的对象断开了连接
+													2940 行
+														2941 项 8
+														2942 项
+														2943 项 连接性错误
+														2944 项 贴片焊盘
+														2945 项 Common
+															2946 组 Description: Common
+														2947 项 贴片焊盘 (U9_PGTH): U9_PG_T_2
+														2948 项 -
+														2949 项 -
+														2950 项 对象 1与其他相同网络的对象断开了连接
+													2951 行
+														2952 项 9
+														2953 项
+														2954 项 连接性错误
+														2955 项 贴片焊盘
+														2956 项 Common
+															2957 组 Description: Common
+														2958 项 贴片焊盘 (U9_EN): e165e4
+														2959 项 -
+														2960 项 -
+														2961 项 对象 1与其他相同网络的对象断开了连接
+													2962 行
+														2963 项 10
+														2964 项
+														2965 项 连接性错误
+														2966 项 贴片焊盘
+														2967 项 Common
+															2968 组 Description: Common
+														2969 项 贴片焊盘 (U9_EN): U9_EN_R_2
+														2970 项 -
+														2971 项 -
+														2972 项 对象 1与其他相同网络的对象断开了连接
+													2973 行
+														2974 项 11
+														2975 项
+														2976 项 连接性错误
+														2977 项 贴片焊盘
+														2978 项 Common
+															2979 组 Description: Common
+														2980 项 贴片焊盘 (U9_EN): U9_EN_G_1
+														2981 项 -
+														2982 项 -
+														2983 项 对象 1与其他相同网络的对象断开了连接
+													2984 行
+														2985 项 12
+														2986 项
+														2987 项 连接性错误
+														2988 项 贴片焊盘
+														2989 项 Common
+															2990 组 Description: Common
+														2991 项 贴片焊盘 (SPI_SCLK): U5_37
+														2992 项 -
+														2993 项 -
+														2994 项 对象 1与其他相同网络的对象断开了连接
+													2995 行
+														2996 项 13
+														2997 项
+														2998 项 连接性错误
+														2999 项 贴片焊盘
+														3000 项 Common
+															3001 组 Description: Common
+														3002 项 贴片焊盘 (SPI_SCLK): U7_12
+														3003 项 -
+														3004 项 -
+														3005 项 对象 1与其他相同网络的对象断开了连接
+													3006 行
+														3007 项 14
+														3008 项
+														3009 项 连接性错误
+														3010 项 贴片焊盘
+														3011 项 Common
+															3012 组 Description: Common
+														3013 项 贴片焊盘 (SPI_MISO): U5_36
+														3014 项 -
+														3015 项 -
+														3016 项 对象 1与其他相同网络的对象断开了连接
+													3017 行
+														3018 项 15
+														3019 项
+														3020 项 连接性错误
+														3021 项 贴片焊盘
+														3022 项 Common
+															3023 组 Description: Common
+														3024 项 贴片焊盘 (SPI_MISO): U7_13
+														3025 项 -
+														3026 项 -
+														3027 项 对象 1与其他相同网络的对象断开了连接
+													3028 行
+														3029 项 16
+														3030 项
+														3031 项 连接性错误
+														3032 项 贴片焊盘
+														3033 项 Common
+															3034 组 Description: Common
+														3035 项 贴片焊盘 (SPI_MOSI): U5_1
+														3036 项 -
+														3037 项 -
+														3038 项 对象 1与其他相同网络的对象断开了连接
+													3039 行
+														3040 项 17
+														3041 项
+														3042 项 连接性错误
+														3043 项 贴片焊盘
+														3044 项 Common
+															3045 组 Description: Common
+														3046 项 贴片焊盘 (SPI_MOSI): U7_14
+														3047 项 -
+														3048 项 -
+														3049 项 对象 1与其他相同网络的对象断开了连接
+													3050 行
+														3051 项 18
+														3052 项
+														3053 项 连接性错误
+														3054 项 贴片焊盘
+														3055 项 Common
+															3056 组 Description: Common
+														3057 项 贴片焊盘 (REF_2V5): U3_3
+														3058 项 -
+														3059 项 -
+														3060 项 对象 1与其他相同网络的对象断开了连接
+													3061 行
+														3062 项 19
+														3063 项
+														3064 项 连接性错误
+														3065 项 贴片焊盘
+														3066 项 Common
+															3067 组 Description: Common
+														3068 项 贴片焊盘 (REF_2V5): U6_2
+														3069 项 -
+														3070 项 -
+														3071 项 对象 1与其他相同网络的对象断开了连接
+													3072 行
+														3073 项 20
+														3074 项
+														3075 项 连接性错误
+														3076 项 贴片焊盘
+														3077 项 Common
+															3078 组 Description: Common
+														3079 项 贴片焊盘 (MCU_ROW3): U14_13
+														3080 项 -
+														3081 项 -
+														3082 项 对象 1与其他相同网络的对象断开了连接
+													3083 行
+														3084 项 21
+														3085 项
+														3086 项 连接性错误
+														3087 项 贴片焊盘
+														3088 项 Common
+															3089 组 Description: Common
+														3090 项 贴片焊盘 (MCU_ROW3): U7_10
+														3091 项 -
+														3092 项 -
+														3093 项 对象 1与其他相同网络的对象断开了连接
+													3094 行
+														3095 项 22
+														3096 项
+														3097 项 连接性错误
+														3098 项 贴片焊盘
+														3099 项 Common
+															3100 组 Description: Common
+														3101 项 贴片焊盘 (MCU_ROW2): U14_10
+														3102 项 -
+														3103 项 -
+														3104 项 对象 1与其他相同网络的对象断开了连接
+													3105 行
+														3106 项 23
+														3107 项
+														3108 项 连接性错误
+														3109 项 贴片焊盘
+														3110 项 Common
+															3111 组 Description: Common
+														3112 项 贴片焊盘 (MCU_ROW2): U7_9
+														3113 项 -
+														3114 项 -
+														3115 项 对象 1与其他相同网络的对象断开了连接
+													3116 行
+														3117 项 24
+														3118 项
+														3119 项 连接性错误
+														3120 项 贴片焊盘
+														3121 项 Common
+															3122 组 Description: Common
+														3123 项 贴片焊盘 (MCU_ROW1): U14_5
+														3124 项 -
+														3125 项 -
+														3126 项 对象 1与其他相同网络的对象断开了连接
+													3127 行
+														3128 项 25
+														3129 项
+														3130 项 连接性错误
+														3131 项 贴片焊盘
+														3132 项 Common
+															3133 组 Description: Common
+														3134 项 贴片焊盘 (MCU_ROW1): U7_8
+														3135 项 -
+														3136 项 -
+														3137 项 对象 1与其他相同网络的对象断开了连接
+													3138 行
+														3139 项 26
+														3140 项
+														3141 项 连接性错误
+														3142 项 贴片焊盘
+														3143 项 Common
+															3144 组 Description: Common
+														3145 项 贴片焊盘 (MCU_ROW0): U14_2
+														3146 项 -
+														3147 项 -
+														3148 项 对象 1与其他相同网络的对象断开了连接
+													3149 行
+														3150 项 27
+														3151 项
+														3152 项 连接性错误
+														3153 项 贴片焊盘
+														3154 项 Common
+															3155 组 Description: Common
+														3156 项 贴片焊盘 (MCU_ROW0): U7_7
+														3157 项 -
+														3158 项 -
+														3159 项 对象 1与其他相同网络的对象断开了连接
+													3160 行
+														3161 项 28
+														3162 项
+														3163 项 连接性错误
+														3164 项 贴片焊盘
+														3165 项 Common
+															3166 组 Description: Common
+														3167 项 贴片焊盘 (MCU_ADC_RESET): U13_5
+														3168 项 -
+														3169 项 -
+														3170 项 对象 1与其他相同网络的对象断开了连接
+													3171 行
+														3172 项 29
+														3173 项
+														3174 项 连接性错误
+														3175 项 贴片焊盘
+														3176 项 Common
+															3177 组 Description: Common
+														3178 项 贴片焊盘 (MCU_ADC_RESET): U7_15
+														3179 项 -
+														3180 项 -
+														3181 项 对象 1与其他相同网络的对象断开了连接
+													3182 行
+														3183 项 30
+														3184 项
+														3185 项 连接性错误
+														3186 项 贴片焊盘
+														3187 项 Common
+															3188 组 Description: Common
+														3189 项 贴片焊盘 (PG_OK_FAST): U13_1
+														3190 项 -
+														3191 项 -
+														3192 项 对象 1与其他相同网络的对象断开了连接
+													3193 行
+														3194 项 31
+														3195 项
+														3196 项 连接性错误
+														3197 项 贴片焊盘
+														3198 项 Common
+															3199 组 Description: Common
+														3200 项 贴片焊盘 (PG_OK_FAST): U13_4
+														3201 项 -
+														3202 项 -
+														3203 项 对象 1与其他相同网络的对象断开了连接
+													3204 行
+														3205 项 32
+														3206 项
+														3207 项 连接性错误
+														3208 项 贴片焊盘
+														3209 项 Common
+															3210 组 Description: Common
+														3211 项 贴片焊盘 (PG_OK_FAST): U15_4
+														3212 项 -
+														3213 项 -
+														3214 项 对象 1与其他相同网络的对象断开了连接
+													3215 行
+														3216 项 33
+														3217 项
+														3218 项 连接性错误
+														3219 项 贴片焊盘
+														3220 项 Common
+															3221 组 Description: Common
+														3222 项 贴片焊盘 (U12_DIV3): U12_TOP2_2
+														3223 项 -
+														3224 项 -
+														3225 项 对象 1与其他相同网络的对象断开了连接
+													3226 行
+														3227 项 34
+														3228 项
+														3229 项 连接性错误
+														3230 项 贴片焊盘
+														3231 项 Common
+															3232 组 Description: Common
+														3233 项 贴片焊盘 (U12_DIV3): U12_TOP3_1
+														3234 项 -
+														3235 项 -
+														3236 项 对象 1与其他相同网络的对象断开了连接
+													3237 行
+														3238 项 35
+														3239 项
+														3240 项 连接性错误
+														3241 项 贴片焊盘
+														3242 项 Common
+															3243 组 Description: Common
+														3244 项 贴片焊盘 (U12_DIV2): U12_TOP2_1
+														3245 项 -
+														3246 项 -
+														3247 项 对象 1与其他相同网络的对象断开了连接
+													3248 行
+														3249 项 36
+														3250 项
+														3251 项 连接性错误
+														3252 项 贴片焊盘
+														3253 项 Common
+															3254 组 Description: Common
+														3255 项 贴片焊盘 (U12_DIV2): U12_TOP1_2
+														3256 项 -
+														3257 项 -
+														3258 项 对象 1与其他相同网络的对象断开了连接
+													3259 行
+														3260 项 37
+														3261 项
+														3262 项 连接性错误
+														3263 项 贴片焊盘
+														3264 项 Common
+															3265 组 Description: Common
+														3266 项 贴片焊盘 (U12_DIV1): U12_TOP1_1
+														3267 项 -
+														3268 项 -
+														3269 项 对象 1与其他相同网络的对象断开了连接
+													3270 行
+														3271 项 38
+														3272 项
+														3273 项 连接性错误
+														3274 项 贴片焊盘
+														3275 项 Common
+															3276 组 Description: Common
+														3277 项 贴片焊盘 (U12_DIV1): U12_TOP0_2
+														3278 项 -
+														3279 项 -
+														3280 项 对象 1与其他相同网络的对象断开了连接
+													3281 行
+														3282 项 39
+														3283 项
+														3284 项 连接性错误
+														3285 项 贴片焊盘
+														3286 项 Common
+															3287 组 Description: Common
+														3288 项 贴片焊盘 (U12_CT): U12_CT_C_1
+														3289 项 -
+														3290 项 -
+														3291 项 对象 1与其他相同网络的对象断开了连接
+													3292 行
+														3293 项 40
+														3294 项
+														3295 项 连接性错误
+														3296 项 贴片焊盘
+														3297 项 Common
+															3298 组 Description: Common
+														3299 项 贴片焊盘 (U12_CT): U12_5
+														3300 项 -
+														3301 项 -
+														3302 项 对象 1与其他相同网络的对象断开了连接
+													3303 行
+														3304 项 41
+														3305 项
+														3306 项 连接性错误
+														3307 项 贴片焊盘
+														3308 项 Common
+															3309 组 Description: Common
+														3310 项 贴片焊盘 (U12_SENSE): U12_SENSE_C_1
+														3311 项 -
+														3312 项 -
+														3313 项 对象 1与其他相同网络的对象断开了连接
+													3314 行
+														3315 项 42
+														3316 项
+														3317 项 连接性错误
+														3318 项 贴片焊盘
+														3319 项 Common
+															3320 组 Description: Common
+														3321 项 贴片焊盘 (U12_SENSE): U12_BOT_1
+														3322 项 -
+														3323 项 -
+														3324 项 对象 1与其他相同网络的对象断开了连接
+													3325 行
+														3326 项 43
+														3327 项
+														3328 项 连接性错误
+														3329 项 贴片焊盘
+														3330 项 Common
+															3331 组 Description: Common
+														3332 项 贴片焊盘 (U12_SENSE): U12_1
+														3333 项 -
+														3334 项 -
+														3335 项 对象 1与其他相同网络的对象断开了连接
+													3336 行
+														3337 项 44
+														3338 项
+														3339 项 连接性错误
+														3340 项 贴片焊盘
+														3341 项 Common
+															3342 组 Description: Common
+														3343 项 贴片焊盘 (U12_SENSE): U12_TOP3_2
+														3344 项 -
+														3345 项 -
+														3346 项 对象 1与其他相同网络的对象断开了连接
+													3347 行
+														3348 项 45
+														3349 项
+														3350 项 连接性错误
+														3351 项 贴片焊盘
+														3352 项 Common
+															3353 组 Description: Common
+														3354 项 贴片焊盘 (U11_DIV4): U11_TOP4_1
+														3355 项 -
+														3356 项 -
+														3357 项 对象 1与其他相同网络的对象断开了连接
+													3358 行
+														3359 项 46
+														3360 项
+														3361 项 连接性错误
+														3362 项 贴片焊盘
+														3363 项 Common
+															3364 组 Description: Common
+														3365 项 贴片焊盘 (U11_DIV4): U11_TOP3_2
+														3366 项 -
+														3367 项 -
+														3368 项 对象 1与其他相同网络的对象断开了连接
+													3369 行
+														3370 项 47
+														3371 项
+														3372 项 连接性错误
+														3373 项 贴片焊盘
+														3374 项 Common
+															3375 组 Description: Common
+														3376 项 贴片焊盘 (U11_DIV3): U11_TOP2_2
+														3377 项 -
+														3378 项 -
+														3379 项 对象 1与其他相同网络的对象断开了连接
+													3380 行
+														3381 项 48
+														3382 项
+														3383 项 连接性错误
+														3384 项 贴片焊盘
+														3385 项 Common
+															3386 组 Description: Common
+														3387 项 贴片焊盘 (U11_DIV3): U11_TOP3_1
+														3388 项 -
+														3389 项 -
+														3390 项 对象 1与其他相同网络的对象断开了连接
+													3391 行
+														3392 项 49
+														3393 项
+														3394 项 连接性错误
+														3395 项 贴片焊盘
+														3396 项 Common
+															3397 组 Description: Common
+														3398 项 贴片焊盘 (U11_DIV2): U11_TOP2_1
+														3399 项 -
+														3400 项 -
+														3401 项 对象 1与其他相同网络的对象断开了连接
+													3402 行
+														3403 项 50
+														3404 项
+														3405 项 连接性错误
+														3406 项 贴片焊盘
+														3407 项 Common
+															3408 组 Description: Common
+														3409 项 贴片焊盘 (U11_DIV2): U11_TOP1_2
+														3410 项 -
+														3411 项 -
+														3412 项 对象 1与其他相同网络的对象断开了连接
+												3413 列表
+													3414 列表项目
+														3415 图形
+													3416 列表项目 1
+													3417 列表项目
+														3418 图形
+													3419 列表项目 总计 452 条 | 10 页
+													3420 列表项目 50 条/页
+														3421 组
+															3422 文本 50 条/页
+										810 组 ID: gerberExportGuideDialog
+										811 组 ID: sch-place-float-toolbar
+											812 文本 浮动工具
+											813 组 Description: 收起
+											814 组 Description: 关闭
+											815 组 Description: VCC
+											816 组 Description: +5V
+											817 组 Description: 地
+											818 组 Description: 保护地
+											819 组 Description: 模拟地
+											820 组 Description: 输入
+											821 组 Description: 输出
+											822 组 Description: 双向
+											823 组 Description: 输入
+											824 组 Description: 输出
+											825 组 Description: 双向
+											826 组 Description: 网络标签
+											827 组 Description: 短接标识
+											828 组 Description: 非连接标识
+											829 组 Description: 差分对标识
+											830 组 Description: 测试点
+										831 组 ID: view-float-toolbar-3d
+											832 文本 浮动工具
+											833 组 Description: 收起
+											834 组 Description: 关闭
+											835 组 Description: 正常视图
+											836 组 Description: 轮廓视图
+											837 组 Description: Gerber视图
+											838 组 Description: 顶面
+											839 组 Description: 底面
+											840 组 Description: 左面
+											841 组 Description: 右面
+											842 组 Description: 前面
+											843 组 Description: 后面
+											844 组 Description: 爆炸
+											845 组 Description: 适应全部
+											846 组 Description: 导入更新
+											847 组 Description: 刷新
+										848 组 ID: table-setting-float-toolbar
+											849 文本 表格设置
+											850 组 Description: 关闭
+											851 组
+												852 组 Description: 上方添加行
+											853 组
+												854 组 Description: 下方添加行
+											855 组
+												856 组 Description: 左侧添加列
+											857 组
+												858 组 Description: 右侧添加列
+											859 组
+												860 组 Description: 删除行
+											861 组
+												862 组 Description: 删除列
+											863 组
+												864 组 Description: 合并单元格
+											865 组
+												866 组 Description: 拆分单元格
+											867 组
+												868 组 Description: 边框
+												869 组 Description: 全边框
+												870 组 Description: 外边框
+												871 组 Description: 内边框
+												872 组 Description: 无边框
+												873 组 Description: 左边框
+												874 组 Description: 右边框
+												875 组 Description: 上边框
+												876 组 Description: 下边框
+												877 文本 边框颜色
+												878 编辑
+												879 文本 #A00000
+												880 组 Description: 恢复默认
+												881 组
+											882 组
+												883 组 Description: 顶部对齐
+												884 组 Description: 顶部对齐
+												885 组 Description: 上下居中
+												886 组 Description: 底部对齐
+												887 组
+											888 组
+												889 组 Description: 左对齐
+												890 组 Description: 左对齐
+												891 组 Description: 左右居中
+												892 组 Description: 右对齐
+												893 组
+										894 组 ID: edit-sch-symbol-float-toolbar
+											895 文本 符号编辑
+											896 组 Description: 关闭
+											897 组
+												898 组 Description: 单引脚
+												899 组
+													900 组 Description: 单引脚
+													901 文本 单引脚
+												902 组
+													903 组 Description: 条形多引脚
+													904 文本 条形多引脚
+												905 组
+													906 组 Description: 矩形多引脚
+													907 文本 矩形多引脚
+												908 组
+											909 组
+												910 组 Description: 折线
+											911 组
+												912 组 Description: 圆弧
+											913 组
+												914 组 Description: 贝塞尔曲线
+											915 组
+												916 组 Description: 圆形
+											917 组
+												918 组 Description: 椭圆
+											919 组
+												920 组 Description: 矩形
+											921 组
+												922 组 Description: 文本
+											923 组
+												924 组 Description: 图片...
+											925 组
+												926 组 Description: 左对齐
+												927 组
+													928 组 Description: 左对齐
+													929 文本 左对齐
+												930 组
+													931 组 Description: 右对齐
+													932 文本 右对齐
+												933 组
+													934 组 Description: 顶部对齐
+													935 文本 顶部对齐
+												936 组
+													937 组 Description: 底部对齐
+													938 文本 底部对齐
+												939 组
+													940 组 Description: 左右居中
+													941 文本 左右居中
+												942 组
+													943 组 Description: 上下居中
+													944 文本 上下居中
+												945 组
+											946 组
+												947 组 Description: 对齐网格
+											948 组
+												949 组 Description: 水平等距分布
+												950 组
+													951 组 Description: 水平等距分布
+													952 文本 水平等距分布
+												953 组
+													954 组 Description: 垂直等距分布
+													955 文本 垂直等距分布
+												956 组
+											957 组
+												958 组 Description: 左向旋转
+												959 组
+													960 组 Description: 左向旋转
+													961 文本 左向旋转
+												962 组
+													963 组 Description: 右向旋转
+													964 文本 右向旋转
+												965 组
+											966 组
+												967 组 Description: 移到顶层
+												968 组
+													969 组 Description: 移到顶层
+													970 文本 移到顶层
+												971 组
+													972 组 Description: 移到底层
+													973 文本 移到底层
+												974 组
+										2468 组
+										2469 组
+								9 区域
+
+Document text: ```
+￼
+```

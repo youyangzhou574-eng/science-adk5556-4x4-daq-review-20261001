@@ -1,0 +1,29 @@
+{
+  "utc": "2026-10-01T23:08:53.874073+00:00",
+  "components": 176,
+  "pads": 550,
+  "assigned": 514,
+  "NC": 36,
+  "nets": 107,
+  "fullPinMappingSchematicBeforeWarmCold": "PASS",
+  "componentPositionsRotationsPadShapesNetAssignmentsDeviceFootprintMPNUnchanged": "PASS with four header MPN absence representations None->empty; no physical MPN change",
+  "93LinesOutlinePourPadNetRulesUnchanged": "PASS actual cold saved workfile versus prior capture",
+  "exportedEpro2CRC": "PASS",
+  "exportedEpro2ColdReopen": "NOT separately done; GUI and headless cold reopened the delivered eprj2 workfile. epru has historical/tombstone records and is retained opaque; no parser/API research.",
+  "warmGUI_DRC": {
+    "total": 452,
+    "ConnectionError": 452,
+    "NetlistError": 0
+  },
+  "coldGUI_DRC": {
+    "total": 452,
+    "ConnectionError": 452,
+    "NetlistError": 0
+  },
+  "routingComplete": false,
+  "DRCclean": false,
+  "nativeBytes": 738605,
+  "nativeSHA256": "293992CCEBB5C2D2268FEE3CC896618D16F8A5818AAD0EF5DFF79FC9DDA68CEE",
+  "onlyOneApply": true,
+  "manufacturePowerupReleased": false
+}
