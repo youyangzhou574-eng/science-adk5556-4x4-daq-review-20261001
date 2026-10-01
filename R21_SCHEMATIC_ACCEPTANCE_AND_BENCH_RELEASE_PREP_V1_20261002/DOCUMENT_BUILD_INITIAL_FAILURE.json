@@ -1,0 +1,1 @@
+{"operation":"static bench document builder first attempt","error":"KeyError net: frozen CSV header has UTF8 BOM","resolution":"Read existing CSV with utf-8-sig; no source rewrite, no EDA or scientific computation. Preserve original package startUTC on rerun.","scienceOperations":0}

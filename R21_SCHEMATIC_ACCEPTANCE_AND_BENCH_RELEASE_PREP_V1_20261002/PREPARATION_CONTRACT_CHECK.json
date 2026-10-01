@@ -1,0 +1,13 @@
+{
+  "matrixRows": 57,
+  "nodeRows": 46,
+  "caseIDsUnique": true,
+  "no_arrayNotZeroOhm": true,
+  "calibrationPointNotIndependentValidation": true,
+  "allRowsUnexecuted": true,
+  "noInventedPhase1Thresholds": true,
+  "all13BaselineSHAsUnchanged": true,
+  "benchOperations": 0,
+  "newScientificTests": 0,
+  "staticContractChecksOnly": true
+}

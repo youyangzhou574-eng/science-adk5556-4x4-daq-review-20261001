@@ -1,0 +1,70 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1",
+  "startedUTC": "2026-10-01T20:07:00.143200+00:00",
+  "approvedMinutes": 240,
+  "phases": {
+    "P0_baseline": 45,
+    "P1_contract": 75,
+    "P2_release_checklist": 60,
+    "P3_delivery": 60
+  },
+  "phase": "P3_delivery",
+  "phaseStartedUTC": "2026-10-01T20:13:21.870817+00:00",
+  "phaseHistory": [
+    {
+      "phase": "P0_baseline",
+      "startedUTC": "2026-10-01T20:07:00.143200+00:00",
+      "endedUTC": "2026-10-01T20:07:41.999171+00:00"
+    },
+    {
+      "phase": "P1_contract",
+      "startedUTC": "2026-10-01T20:07:41.999182+00:00",
+      "endedUTC": "2026-10-01T20:13:21.852208+00:00"
+    },
+    {
+      "phase": "P2_release_checklist",
+      "startedUTC": "2026-10-01T20:13:21.852208+00:00",
+      "endedUTC": "2026-10-01T20:13:21.870817+00:00"
+    }
+  ],
+  "limits": {
+    "EDA_edit": 0,
+    "native_copy": 0,
+    "session": 0,
+    "save": 0,
+    "capture": 0,
+    "PDF": 0,
+    "ERC": 0,
+    "simulation": 0,
+    "MIMO": 0,
+    "descriptor": 0,
+    "new_protocol": 0,
+    "PCB": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "actual_bench": 0
+  },
+  "used": {
+    "EDA_edit": 0,
+    "native_copy": 0,
+    "session": 0,
+    "save": 0,
+    "capture": 0,
+    "PDF": 0,
+    "ERC": 0,
+    "simulation": 0,
+    "MIMO": 0,
+    "descriptor": 0,
+    "new_protocol": 0,
+    "PCB": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "actual_bench": 0
+  },
+  "scope": "read-only existing circuit evidence; static documents/CSV only",
+  "noUnusedPriorBudgetInherited": true,
+  "benchReleased": false,
+  "overallHandlingStartedUTC": "2026-10-01T19:56:21.050+00:00",
+  "clockNote": "First builder start retained; conservative overall handling includes triggering heartbeat/ruling read before document builder.",
+  "scienceAndNativeOperationsComplete": true
+}

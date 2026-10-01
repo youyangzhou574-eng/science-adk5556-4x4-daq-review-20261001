@@ -1,0 +1,259 @@
+{
+  "V5_IN": [
+    "J1-1",
+    "U9-5",
+    "U9_EN_R-1",
+    "U9_IN_CAP-1",
+    "U9_OV_T-1"
+  ],
+  "V5": [
+    "C_ADCA1-1",
+    "C_ADCA2-1",
+    "C_AVDD30A-1",
+    "C_AVDD30B-1",
+    "C_AVDD30_HF-1",
+    "C_AVDD9A-1",
+    "C_AVDD9B-1",
+    "C_AVDD9_HF-1",
+    "C_BUF-1",
+    "C_LDO_IN-1",
+    "C_MUX-1",
+    "C_PWR-1",
+    "C_REF-1",
+    "C_ROW_OP-1",
+    "C_TIA_OP-1",
+    "D_ROW0-2",
+    "D_ROW1-2",
+    "D_ROW2-2",
+    "D_ROW3-2",
+    "D_TIA0-2",
+    "D_TIA1-2",
+    "D_TIA2-2",
+    "D_TIA3-2",
+    "D_VCM-2",
+    "D_VEX-2",
+    "U1-4",
+    "U11_TOP0-1",
+    "U2-4",
+    "U3-8",
+    "U4-16",
+    "U5-30",
+    "U5-9",
+    "U6-1",
+    "U8-1",
+    "U8-3",
+    "U9-6",
+    "U9_BLEED-1",
+    "U9_OUT_CAP-1",
+    "U9_PG_T-1"
+  ],
+  "V3V3": [
+    "C_ADCD-1",
+    "C_DVDD34A-1",
+    "C_DVDD34B-1",
+    "C_MCU1-1",
+    "C_MCU_BULK-1",
+    "C_RST-1",
+    "C_U13-1",
+    "C_U14-1",
+    "C_U15-1",
+    "D_J3_1-2",
+    "D_J3_1-3",
+    "D_J3_3-2",
+    "D_J3_4-2",
+    "D_J3_5-2",
+    "D_J4_1-2",
+    "D_J4_1-3",
+    "D_J4_3-2",
+    "D_J4_4-2",
+    "R_CS_PU-1",
+    "R_J3_1-2",
+    "R_J4_1-2",
+    "R_RST-1",
+    "U10-6",
+    "U10_BLEED-1",
+    "U10_OUT_CAP-1",
+    "U10_PG_T-1",
+    "U11-3",
+    "U11-4",
+    "U11_VDD_C-1",
+    "U12-3",
+    "U12-4",
+    "U12_TOP0-1",
+    "U12_VDD_C-1",
+    "U13-14",
+    "U14-14",
+    "U15-5",
+    "U5-34",
+    "U7-4"
+  ],
+  "REF_2V5": [
+    "U3-3",
+    "U6-2"
+  ],
+  "VCM": [
+    "RD_TOP-1",
+    "R_VCM_FB-1",
+    "R_VCM_ISO-2",
+    "U2-10",
+    "U2-12",
+    "U2-3",
+    "U2-5",
+    "U4-14",
+    "U4-17",
+    "U4-4",
+    "U4-7"
+  ],
+  "VEXC": [
+    "R_VEX_FB-1",
+    "R_VEX_ISO-2",
+    "U4-12",
+    "U4-19",
+    "U4-2",
+    "U4-9"
+  ],
+  "PGOOD": [
+    "D_J3_5-3",
+    "R_J3_5-2",
+    "R_RST-2",
+    "U11-6",
+    "U12-6",
+    "U15-2",
+    "U7-6"
+  ],
+  "MCU_NRST_EXT": [
+    "J3-5",
+    "R_J3_5-1"
+  ],
+  "ADC_REFIO": [
+    "C_ADC_REFIO-1",
+    "C_REFIO_B-1",
+    "U5-5"
+  ],
+  "ADC_REFCAP": [
+    "C_ADC_REFCAP-1",
+    "C_REFCAP_BULKA-1",
+    "C_REFCAP_BULKB-1",
+    "U5-7"
+  ],
+  "V3V3_EXT_SWD": [
+    "J3-1",
+    "R_J3_1-1"
+  ],
+  "V3V3_EXT_UART": [
+    "J4-1",
+    "R_J4_1-1"
+  ],
+  "ROW0": [
+    "J2-1",
+    "R_ISO0-2",
+    "R_ROW_FB0-1"
+  ],
+  "ROW1": [
+    "J2-2",
+    "R_ISO1-2",
+    "R_ROW_FB1-1"
+  ],
+  "ROW2": [
+    "J2-3",
+    "R_ISO2-2",
+    "R_ROW_FB2-1"
+  ],
+  "ROW3": [
+    "J2-4",
+    "R_ISO3-2",
+    "R_ROW_FB3-1"
+  ],
+  "COL0": [
+    "CF0-2",
+    "J2-5",
+    "RF0-2",
+    "R_COL_SENSE0-1"
+  ],
+  "COL1": [
+    "CF1-2",
+    "J2-6",
+    "RF1-2",
+    "R_COL_SENSE1-1"
+  ],
+  "COL2": [
+    "CF2-2",
+    "J2-7",
+    "RF2-2",
+    "R_COL_SENSE2-1"
+  ],
+  "COL3": [
+    "CF3-2",
+    "J2-8",
+    "RF3-2",
+    "R_COL_SENSE3-1"
+  ],
+  "TIA0": [
+    "CF0-1",
+    "RF0-1",
+    "R_ADC0-1",
+    "R_TIA_ISO0-2"
+  ],
+  "TIA1": [
+    "CF1-1",
+    "RF1-1",
+    "R_ADC1-1",
+    "R_TIA_ISO1-2"
+  ],
+  "TIA2": [
+    "CF2-1",
+    "RF2-1",
+    "R_ADC2-1",
+    "R_TIA_ISO2-2"
+  ],
+  "TIA3": [
+    "CF3-1",
+    "RF3-1",
+    "R_ADC3-1",
+    "R_TIA_ISO3-2"
+  ],
+  "TIA_DRV0": [
+    "C_TIA_HF0-1",
+    "D_TIA0-3",
+    "R_TIA_ISO0-1",
+    "U2-1"
+  ],
+  "TIA_DRV1": [
+    "C_TIA_HF1-1",
+    "D_TIA1-3",
+    "R_TIA_ISO1-1",
+    "U2-7"
+  ],
+  "TIA_DRV2": [
+    "C_TIA_HF2-1",
+    "D_TIA2-3",
+    "R_TIA_ISO2-1",
+    "U2-8"
+  ],
+  "TIA_DRV3": [
+    "C_TIA_HF3-1",
+    "D_TIA3-3",
+    "R_TIA_ISO3-1",
+    "U2-14"
+  ],
+  "ADC_IN0": [
+    "C_ADC0-1",
+    "R_ADC0-2",
+    "U5-16"
+  ],
+  "ADC_IN1": [
+    "C_ADC1-1",
+    "R_ADC1-2",
+    "U5-18"
+  ],
+  "ADC_IN2": [
+    "C_ADC2-1",
+    "R_ADC2-2",
+    "U5-21"
+  ],
+  "ADC_IN3": [
+    "C_ADC3-1",
+    "R_ADC3-2",
+    "U5-23"
+  ]
+}

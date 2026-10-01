@@ -1,0 +1,10 @@
+{
+  "beforeTimingWordingBad": true,
+  "afterTimingExplicit300Plus900": true,
+  "receiptExplicit300Plus900": true,
+  "fixedBaselineURLsPresent": true,
+  "links": 13,
+  "frozenSourcesEdited": false,
+  "extraScientificTests": 0,
+  "secondReview": false
+}

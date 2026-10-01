@@ -1,0 +1,26 @@
+{
+  "engine": "bundled @oai/artifact-tool",
+  "outputFormat": "requested CSV only; no extra XLSX",
+  "recalculated": true,
+  "scientificTests": 0,
+  "checks": [
+    {
+      "name": "BENCH_TEST_MATRIX.csv",
+      "rows": 57,
+      "columns": 25,
+      "allTypedValuesExact": true,
+      "staticInputContract": true,
+      "measurements": 0,
+      "inspect": "{\"kind\":\"table\",\"sheet\":\"TestMatrix\",\"address\":\"A1:H4\",\"rows\":4,\"cols\":8,\"values\":[[\"case_id\",\"phase\",\"pattern\",\"role\",\"R0C0_ohm\",\"R0C1_ohm\",\"R0C2_ohm\",\"R0C3_ohm\"],[\"P01\",\"Phase1\",\"no_array\",\"no_resistors_attached\",null,null,null,null],[\"C01\",\"Phase3\",\"all_1000\",\"calibration_low\",1000,1000,1000,1000],[\"C02\",\"Phase3\",\"all_6800\",\"calibration_high\",6800,6800,6800,6800]]}"
+    },
+    {
+      "name": "EXPECTED_NODE_RANGES.csv",
+      "rows": 46,
+      "columns": 11,
+      "allTypedValuesExact": true,
+      "staticInputContract": true,
+      "measurements": 0,
+      "inspect": "{\"kind\":\"table\",\"sheet\":\"NodeExpectations\",\"address\":\"A1:H4\",\"rows\":4,\"cols\":8,\"values\":[[\"node\",\"state\",\"nominal_V\",\"reference_lower_V\",\"reference_upper_V\",\"unit\",\"probe_member\",\"acceptance_threshold_status\"],[\"V5_IN\",\"no_array_expected\",5,null,null,\"V\",\"J1-1\",\"PENDING_PHASE1_RELEASE\"],[\"V5\",\"no_array_expected\",5,null,null,\"V\",\"U9-6\",\"PENDING_PHASE1_RELEASE\"],[\"V3V3\",\"no_array_expected\",3.3,null,null,\"V\",\"U10-6\",\"PENDING_PHASE1_RELEASE\"]]}"
+    }
+  ]
+}

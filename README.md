@@ -1,3 +1,9 @@
+# Latest: 11 schematic accepted; first-powerup bench input preparation
+
+[Complete receipt](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/COMPLETE_BENCH_PREP_RECEIPT.md) · [Index](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/README.md) · [Accepted frozen baseline](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/ACCEPTED_SCHEMATIC_BASELINE.md) · [Phase1 release inputs](R21_SCHEMATIC_ACCEPTANCE_AND_BENCH_RELEASE_PREP_V1_20261002/PHASE1_RELEASE_CHECKLIST.md). Electrical baseline176parts/514pins/107nets/36NC accepted. No further EDA/native edit, simulation, PCB, purchase, manufacture or real bench. Six bench documents and57-case/46-node CSV prepared. Physical sample/instruments/operator and numeric current/stop limits unknown; BENCH_NOT_RELEASED. Old figure annotations are document-only holds; compulsory companions remain.
+
+---
+
 # Latest: 10 independent SWD/UART sense nets and cold-reopen PASS; review only
 
 [Complete receipt](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/COMPLETE_FINAL_INTERFACE_RECEIPT.md) · [Index](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/README.md) · [Required interface drawing companion](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/INTERFACE_TOPOLOGY_COMPANION.md) · [Annotation addendum](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/DRAWING_ANNOTATION_ADDENDUM.md). Actual176parts/514of514/107nets/36NC PASS; exactly four external-side pins split, others unchanged. Final PDF page5 omits four new net labels and inherited R2 notes remain: read the companion and actual pin CSV. Core design reviewed by Pro; real dynamic/accuracy/WCET/fault not validated. BENCH_NOT_RELEASED; no manufacture/power authorization.

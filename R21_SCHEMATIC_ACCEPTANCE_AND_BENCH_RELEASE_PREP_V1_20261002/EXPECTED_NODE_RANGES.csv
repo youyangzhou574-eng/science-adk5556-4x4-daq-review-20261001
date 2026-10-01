@@ -1,0 +1,47 @@
+node,state,nominal_V,reference_lower_V,reference_upper_V,unit,probe_member,acceptance_threshold_status,hard_off_threshold_status,source,scope
+V5_IN,no_array_expected,5,,,V,J1-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,11_PRO /actualnet,nominal target only; supply tolerances/stop windows require release
+V5,no_array_expected,5,,,V,U9-6,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,11_PRO /actualnet,nominal target only; supply tolerances/stop windows require release
+V3V3,no_array_expected,3.3,,,V,U10-6,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,11_PRO /actualnet,nominal target only; supply tolerances/stop windows require release
+REF_2V5,no_array_expected,2.5,,,V,U6-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,11_PRO /actualnet,nominal target only; supply tolerances/stop windows require release
+VCM,no_array_expected,2.5,,,V,R_VCM_ISO-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,11_PRO /actualnet,nominal target only; supply tolerances/stop windows require release
+VEXC,no_array_expected,2.25,,,V,R_VEX_ISO-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,11_PRO /actualnet,nominal target only; supply tolerances/stop windows require release
+ADC_REFIO,ADC_enabled_internal_ref,4.096,,,V,U5-5,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,existing ADS8684 Section8.3.9,only enabled internal reference; reset/powerdown state must be specified; effective MLCC pending
+ADC_REFCAP,ADC_enabled_internal_ref,4.096,,,V,U5-7,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,existing ADS8684 Section8.3.9,only enabled internal reference; reset/powerdown state must be specified; effective MLCC pending
+ROW0,blank,2.5,,,V,R_ISO0-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,no physical settling guarantee
+ROW0,selected,2.25,,,V,R_ISO0-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VEXC,ROW driver differs with sum row load; not same as sensor-side output
+TIA0,blank/no_array,2.5,,,V,R_TIA_ISO0-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,offset/leakage/startup not validated; high impedance probes
+TIA0,all1000_selected,3.7475,,,V,R_TIA_ISO0-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN0,all1000_selected,3.747125287471253,,,V,C_ADC0-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA0,all3300_selected,2.878030303030303,,,V,R_TIA_ISO0-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN0,all3300_selected,2.8777425287774254,,,V,C_ADC0-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA0,all7000_selected,2.6782142857142857,,,V,R_TIA_ISO0-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN0,all7000_selected,2.677946491065179,,,V,C_ADC0-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+ROW1,blank,2.5,,,V,R_ISO1-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,no physical settling guarantee
+ROW1,selected,2.25,,,V,R_ISO1-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VEXC,ROW driver differs with sum row load; not same as sensor-side output
+TIA1,blank/no_array,2.5,,,V,R_TIA_ISO1-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,offset/leakage/startup not validated; high impedance probes
+TIA1,all1000_selected,3.7475,,,V,R_TIA_ISO1-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN1,all1000_selected,3.747125287471253,,,V,C_ADC1-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA1,all3300_selected,2.878030303030303,,,V,R_TIA_ISO1-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN1,all3300_selected,2.8777425287774254,,,V,C_ADC1-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA1,all7000_selected,2.6782142857142857,,,V,R_TIA_ISO1-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN1,all7000_selected,2.677946491065179,,,V,C_ADC1-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+ROW2,blank,2.5,,,V,R_ISO2-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,no physical settling guarantee
+ROW2,selected,2.25,,,V,R_ISO2-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VEXC,ROW driver differs with sum row load; not same as sensor-side output
+TIA2,blank/no_array,2.5,,,V,R_TIA_ISO2-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,offset/leakage/startup not validated; high impedance probes
+TIA2,all1000_selected,3.7475,,,V,R_TIA_ISO2-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN2,all1000_selected,3.747125287471253,,,V,C_ADC2-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA2,all3300_selected,2.878030303030303,,,V,R_TIA_ISO2-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN2,all3300_selected,2.8777425287774254,,,V,C_ADC2-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA2,all7000_selected,2.6782142857142857,,,V,R_TIA_ISO2-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN2,all7000_selected,2.677946491065179,,,V,C_ADC2-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+ROW3,blank,2.5,,,V,R_ISO3-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,no physical settling guarantee
+ROW3,selected,2.25,,,V,R_ISO3-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VEXC,ROW driver differs with sum row load; not same as sensor-side output
+TIA3,blank/no_array,2.5,,,V,R_TIA_ISO3-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,frozen nominal VCM,offset/leakage/startup not validated; high impedance probes
+TIA3,all1000_selected,3.7475,,,V,R_TIA_ISO3-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN3,all1000_selected,3.747125287471253,,,V,C_ADC3-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA3,all3300_selected,2.878030303030303,,,V,R_TIA_ISO3-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN3,all3300_selected,2.8777425287774254,,,V,C_ADC3-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+TIA3,all7000_selected,2.6782142857142857,,,V,R_TIA_ISO3-2,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted old ideal value only; not range/tolerance/stop criterion
+ADC_IN3,all7000_selected,2.677946491065179,,,V,C_ADC3-1,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,old08 DC40 row0col0,quoted ideal; ADC INL/reference/leakage not validated
+PGOOD/MCU_NRST,reset_release,3.3,,,V,U7-6,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,11_PRO /actualnet,OD node may validly remain low during startup/undervoltage; timing window pending
+MCU_NRST_EXT,external_reset_low,,,0.4,V,J3-5,PENDING_PHASE1_RELEASE,PENDING_PHASE1_RELEASE,09_addendum normal OD/OC VOL<=0.4,"existing normal reset input contract, not Phase1 power threshold; no push-pull or fault injection"
