@@ -1,0 +1,10 @@
+{
+  "cases": [
+    "tian_blank_p6",
+    "tian_blank_p16",
+    "tian_blank_warm_p6",
+    "tian_blank_warm_p16"
+  ],
+  "status": "FAILED not PASS",
+  "reason": "Full-network TIA0 true OP/AC qualification failed both default and one defined optran initialization; no further blind retry. Remaining full-column fallback proceeds on distinct mandatory measurements; TIA qualification remains HOLD."
+}

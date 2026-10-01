@@ -1,0 +1,12 @@
+{
+  "case": "open_blank_p18",
+  "startedUTC": "2026-10-01T14:55:22.082952+00:00",
+  "limitSeconds": 90.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 72680,
+  "lastProgressTime_s": 0.01,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 3.533521099947393,
+  "endedUTC": "2026-10-01T14:55:25.616476+00:00"
+}

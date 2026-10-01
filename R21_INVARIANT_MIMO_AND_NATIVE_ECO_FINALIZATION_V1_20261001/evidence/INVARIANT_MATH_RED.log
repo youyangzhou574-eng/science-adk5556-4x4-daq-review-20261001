@@ -1,0 +1,17 @@
+E
+======================================================================
+ERROR: test_invariant_math (unittest.loader._FailedTest.test_invariant_math)
+----------------------------------------------------------------------
+ImportError: Failed to import test module: test_invariant_math
+Traceback (most recent call last):
+  File "C:\Users\yang\AppData\Local\Programs\Python\Python313\Lib\unittest\loader.py", line 137, in loadTestsFromName
+    module = __import__(module_name)
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_INVARIANT_MIMO_AND_NATIVE_ECO_FINALIZATION_V1\test_invariant_math.py", line 2, in <module>
+    from invariant_math import power_coordinates,characteristic_matrix,closed_contour_winding
+ModuleNotFoundError: No module named 'invariant_math'
+
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

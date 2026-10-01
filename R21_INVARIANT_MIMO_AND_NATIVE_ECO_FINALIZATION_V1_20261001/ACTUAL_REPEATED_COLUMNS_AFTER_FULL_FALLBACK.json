@@ -1,0 +1,26 @@
+[
+  {
+    "column": 3,
+    "maxComplexColumnNormRelativeError": 0.08830265954292228,
+    "absoluteErrorBelow1e_12Norm": 0.0,
+    "PASS": false
+  },
+  {
+    "column": 7,
+    "maxComplexColumnNormRelativeError": 1.0803083298760137e-14,
+    "absoluteErrorBelow1e_12Norm": 0.0,
+    "PASS": true
+  },
+  {
+    "column": 13,
+    "maxComplexColumnNormRelativeError": 0.08799426919515513,
+    "absoluteErrorBelow1e_12Norm": 0.0,
+    "PASS": false
+  },
+  {
+    "column": 17,
+    "maxComplexColumnNormRelativeError": 1.138866396057472e-14,
+    "absoluteErrorBelow1e_12Norm": 0.0,
+    "PASS": true
+  }
+]

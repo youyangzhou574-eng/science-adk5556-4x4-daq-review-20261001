@@ -1,0 +1,173 @@
+{
+  "results": [
+    {
+      "topology": "openGc",
+      "fixedScale": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "finiteAxisProxyTurns": 2.2487301721874515e-16,
+      "maxPhaseIncrementRad": 0.1262691817911912,
+      "lowFrequencyHz": 0.01,
+      "highFrequencyHz": 300000000.0000176,
+      "lowEndpointPhaseRealImag": [
+        0.9980076736286545,
+        -0.06309265708717497
+      ],
+      "highEndpointPhaseRealImag": [
+        0.9999999999999997,
+        -1.4121501873482536e-08
+      ],
+      "fullRHPCertificate": false
+    },
+    {
+      "topology": "openGc",
+      "fixedScale": [
+        0.001,
+        0.004641588833612777,
+        0.021544346900318832,
+        0.1,
+        0.46415888336127775,
+        2.154434690031882,
+        10.0,
+        46.41588833612773,
+        215.44346900318823,
+        1000.0
+      ],
+      "finiteAxisProxyTurns": 9.281479071866689e-17,
+      "maxPhaseIncrementRad": 0.1262691817911914,
+      "lowFrequencyHz": 0.01,
+      "highFrequencyHz": 300000000.0000176,
+      "lowEndpointPhaseRealImag": [
+        0.9980076736286536,
+        -0.06309265708717501
+      ],
+      "highEndpointPhaseRealImag": [
+        1.0,
+        -1.4121502063755573e-08
+      ],
+      "fullRHPCertificate": false
+    },
+    {
+      "topology": "openGc",
+      "fixedScale": [
+        1000.0,
+        215.44346900318845,
+        46.4158883361278,
+        10.0,
+        2.1544346900318843,
+        0.4641588833612782,
+        0.1,
+        0.021544346900318867,
+        0.004641588833612782,
+        0.001
+      ],
+      "finiteAxisProxyTurns": 1.507424955878527e-16,
+      "maxPhaseIncrementRad": 0.1262691817911912,
+      "lowFrequencyHz": 0.01,
+      "highFrequencyHz": 300000000.0000176,
+      "lowEndpointPhaseRealImag": [
+        0.9980076736286552,
+        -0.06309265708717503
+      ],
+      "highEndpointPhaseRealImag": [
+        0.9999999999999998,
+        -1.4121501683209498e-08
+      ],
+      "fullRHPCertificate": false
+    },
+    {
+      "topology": "closedGc",
+      "fixedScale": [
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "finiteAxisProxyTurns": 3.791241770388391e-16,
+      "maxPhaseIncrementRad": 0.12287994247701868,
+      "lowFrequencyHz": 0.01,
+      "highFrequencyHz": 300000000.0000176,
+      "lowEndpointPhaseRealImag": [
+        0.9981131586275686,
+        -0.06140132388228942
+      ],
+      "highEndpointPhaseRealImag": [
+        1.0,
+        -1.412150177856994e-08
+      ],
+      "fullRHPCertificate": false
+    },
+    {
+      "topology": "closedGc",
+      "fixedScale": [
+        0.001,
+        0.004641588833612777,
+        0.021544346900318832,
+        0.1,
+        0.46415888336127775,
+        2.154434690031882,
+        10.0,
+        46.41588833612773,
+        215.44346900318823,
+        1000.0
+      ],
+      "finiteAxisProxyTurns": -3.302374410175662e-16,
+      "maxPhaseIncrementRad": 0.12287994247701883,
+      "lowFrequencyHz": 0.01,
+      "highFrequencyHz": 300000000.0000176,
+      "lowEndpointPhaseRealImag": [
+        0.9981131586275702,
+        -0.0614013238822896
+      ],
+      "highEndpointPhaseRealImag": [
+        1.0,
+        -1.4121501493160388e-08
+      ],
+      "fullRHPCertificate": false
+    },
+    {
+      "topology": "closedGc",
+      "fixedScale": [
+        1000.0,
+        215.44346900318845,
+        46.4158883361278,
+        10.0,
+        2.1544346900318843,
+        0.4641588833612782,
+        0.1,
+        0.021544346900318867,
+        0.004641588833612782,
+        0.001
+      ],
+      "finiteAxisProxyTurns": 2.709792571507952e-16,
+      "maxPhaseIncrementRad": 0.1228799424770188,
+      "lowFrequencyHz": 0.01,
+      "highFrequencyHz": 300000000.0000176,
+      "lowEndpointPhaseRealImag": [
+        0.9981131586275689,
+        -0.061401323882289506
+      ],
+      "highEndpointPhaseRealImag": [
+        1.0000000000000004,
+        -1.4121501683433423e-08
+      ],
+      "fullRHPCertificate": false
+    }
+  ],
+  "definition": "descend measured positive imaginary axis; join +0.01Hz to conjugate negative0.01Hz; ascend negative data; join high endpoints. Unknown low gap and RHP semicircle are not measured. No reference/internal RHP pole certificate. Proxy0 is NOT MIMO generalized Nyquist PASS."
+}

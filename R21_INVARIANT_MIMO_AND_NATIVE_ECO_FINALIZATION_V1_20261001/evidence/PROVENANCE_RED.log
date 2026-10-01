@@ -1,0 +1,14 @@
+E
+======================================================================
+ERROR: test_tia_loaded_scope_not_direct_series_shunt_pass (test_provenance.ProvenanceTests.test_tia_loaded_scope_not_direct_series_shunt_pass)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_INVARIANT_MIMO_AND_NATIVE_ECO_FINALIZATION_V1\test_provenance.py", line 6, in test_tia_loaded_scope_not_direct_series_shunt_pass
+    self.assertEqual(t['measurementMethod'],'LOADED_TWO_PORT_VOLTAGE_COLUMNS')
+                     ~^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'measurementMethod'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+FAILED (errors=1)

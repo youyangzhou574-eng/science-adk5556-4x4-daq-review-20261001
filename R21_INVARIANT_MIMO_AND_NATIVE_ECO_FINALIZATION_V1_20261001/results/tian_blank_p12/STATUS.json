@@ -1,0 +1,12 @@
+{
+  "case": "tian_blank_p12",
+  "startedUTC": "2026-10-01T14:48:29.417621+00:00",
+  "limitSeconds": 90.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 22532,
+  "lastProgressTime_s": 0.01,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 3.521542100002989,
+  "endedUTC": "2026-10-01T14:48:32.939164+00:00"
+}

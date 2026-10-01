@@ -1,0 +1,10 @@
+{
+  "UTC": "2026-10-01T15:09:45.255322+00:00",
+  "reviewer": "invariant_final_review",
+  "critical": 0,
+  "important": 1,
+  "fixed": "TIA loaded2port crosscheck artifact now names scope/source/method and direct series-shunt qualification false; test RED/GREEN",
+  "minorDisposition": "scope clarified in complete receipt; stale plan status updated as routine ledger; finite-axis proxy now reproducible in determinant_proxy.py/CSV/summary, reexecution counted; no any-transient0 claim",
+  "diagnosticReconciliationAfterReview": "Reviewer snapshot6; added precheck and initial standalone proxy previously not classified (2), plus auditable proxy reexecution1 =9; all retained, no new SPICE after STOP",
+  "noReReview": true
+}

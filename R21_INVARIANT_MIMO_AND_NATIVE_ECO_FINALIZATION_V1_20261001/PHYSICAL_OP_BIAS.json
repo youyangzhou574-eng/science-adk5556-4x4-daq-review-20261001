@@ -1,0 +1,338 @@
+[
+  {
+    "case": "open_blank_p0",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p0",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p1",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p1",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p2",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p2",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p2",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p3",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p2",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p4",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p2",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p5",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p6",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p6",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p6",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p7",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p6",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p8",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p6",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p9",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p10",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p10",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p11",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p11",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p12",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p12",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p12",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p13",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p12",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p14",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p12",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p15",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p16",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p16",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p16",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p17",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p16",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p18",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p16",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "open_blank_p19",
+    "maxPhysicalBiasDifferenceV": 1.0125067895216944e-08
+  },
+  {
+    "case": "closed_blank_p0",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p0",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p1",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p1",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p2",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p2",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p2",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p3",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p3",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p2",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p4",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p2",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p5",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p6",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p6",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p6",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p7",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p7",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p6",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p8",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p6",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p9",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p10",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p10",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p11",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p11",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p12",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p12",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p12",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p13",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p13",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p12",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p14",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p12",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p15",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p16",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p16",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p16",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p17",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p17",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p16",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p18",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p16",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  },
+  {
+    "case": "closed_blank_p19",
+    "maxPhysicalBiasDifferenceV": 7.215454012055034e-09
+  }
+]

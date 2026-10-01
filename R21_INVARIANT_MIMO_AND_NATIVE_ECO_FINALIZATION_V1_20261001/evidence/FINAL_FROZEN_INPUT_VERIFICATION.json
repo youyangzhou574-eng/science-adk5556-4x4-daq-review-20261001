@@ -1,0 +1,15 @@
+{
+  "UTC": "2026-10-01T15:16:41.870156+00:00",
+  "models": {
+    "OPA4388_ORIGINAL.LIB": "958ff133418bd47522015057497858263e73b9e6d75860ef9c0b6fdabed5cd0d",
+    "OPAx388.LIB": "bb9c6c7ac80dc7ff1ac5b698c05c53f0a8d55babb1ab210150d9bd910a6bf8e4"
+  },
+  "executor_SHA256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "counters": [
+    "104 directives",
+    "52 terminal cases",
+    "9 diagnostics incl5offline"
+  ],
+  "noNewNormalSwitchingTransient": true,
+  "oldNativeNotOpenedOrModified": true
+}

@@ -1,0 +1,63 @@
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check node xex.n2991579
+
+Error: Transient op failed, timestep too small
+
+
+Error: The operating point could not be simulated successfully.
+    Any of the following steps may fail.!
+
+doAnalyses: OP:  Timestep too small; trouble with node "e.xt3.x_u40.e3#branch"
+
+
+op simulation(s) aborted
+Warning from checkvalid: vector a.xcm.x_u18.ag1#branch_1_0 is not available or has zero length.
+Error during 'write': no writable vector found.
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check nodes xex.n3294626 and xt2.cl_clamp
+
+Warning: singular matrix:  check node xex.n2991579
+
+Error: Transient op failed, timestep too small
+
+
+Error: The operating point could not be simulated successfully.
+    Any of the following steps may fail.!
+
+doAnalyses: AC:  Timestep too small; frequency = 0: trouble with node "e.xt3.x_u40.e3#branch"
+
+
+ac simulation(s) aborted
+Warning from checkvalid: vector vt6#branch is not available or has zero length.
+Error: RHS "-i(vt6)" invalid
+Error: no such vector ip6

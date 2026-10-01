@@ -1,0 +1,40 @@
+{"case": "open_blank_p2", "supervisorPID": 31600, "limitSeconds": 90}
+{"case": "open_blank_p6", "supervisorPID": 55128, "limitSeconds": 90}
+{"remaining": 24}
+{"case": "open_blank_p10", "supervisorPID": 80664, "limitSeconds": 90}
+{"case": "open_blank_p11", "supervisorPID": 70288, "limitSeconds": 90}
+{"remaining": 22}
+{"case": "open_blank_p12", "supervisorPID": 56840, "limitSeconds": 90}
+{"case": "open_blank_p16", "supervisorPID": 52800, "limitSeconds": 90}
+{"remaining": 20}
+{"case": "closed_blank_p0", "supervisorPID": 71140, "limitSeconds": 90}
+{"case": "closed_blank_p1", "supervisorPID": 53160, "limitSeconds": 90}
+{"remaining": 18}
+{"case": "closed_blank_p2", "supervisorPID": 79012, "limitSeconds": 90}
+{"case": "closed_blank_p6", "supervisorPID": 57020, "limitSeconds": 90}
+{"remaining": 16}
+{"case": "closed_blank_p10", "supervisorPID": 42540, "limitSeconds": 90}
+{"case": "closed_blank_p11", "supervisorPID": 80572, "limitSeconds": 90}
+{"remaining": 14}
+{"case": "closed_blank_p12", "supervisorPID": 13836, "limitSeconds": 90}
+{"case": "closed_blank_p16", "supervisorPID": 36344, "limitSeconds": 90}
+{"remaining": 12}
+{"case": "closed_blank_p3", "supervisorPID": 84004, "limitSeconds": 90}
+{"case": "closed_blank_p7", "supervisorPID": 67380, "limitSeconds": 90}
+{"remaining": 10}
+{"case": "closed_blank_p13", "supervisorPID": 33304, "limitSeconds": 90}
+{"case": "closed_blank_p17", "supervisorPID": 29024, "limitSeconds": 90}
+{"remaining": 8}
+{"case": "tian_blank_p0", "supervisorPID": 50748, "limitSeconds": 90}
+{"case": "tian_blank_p10", "supervisorPID": 63892, "limitSeconds": 90}
+{"remaining": 6}
+{"case": "tian_blank_p1", "supervisorPID": 59852, "limitSeconds": 90}
+{"case": "tian_blank_p11", "supervisorPID": 81776, "limitSeconds": 90}
+{"remaining": 4}
+{"case": "tian_blank_p2", "supervisorPID": 82708, "limitSeconds": 90}
+{"case": "tian_blank_p12", "supervisorPID": 85688, "limitSeconds": 90}
+{"remaining": 2}
+{"case": "tian_blank_p6", "supervisorPID": 68320, "limitSeconds": 90}
+{"case": "tian_blank_p16", "supervisorPID": 18356, "limitSeconds": 90}
+{"remaining": 0}
+{"wallSeconds": 48.46390090021305, "registeredCases": 28}

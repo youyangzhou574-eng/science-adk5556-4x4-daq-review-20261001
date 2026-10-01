@@ -1,0 +1,13 @@
+{
+  "INVARIANT_MIMO_METHOD_QUALIFIED": "HOLD low-frequency generalized eigen trajectories numerically scale-sensitive; G0 not qualified",
+  "FULL_NETWORK_PORT_CUT_QUALIFIED": "PARTIAL: direct series/shunt crosscheck VCM/VEXC/ROW0 PASS; TIA series/shunt failed, independent loaded2port crosscheck PASS not mislabeled identical topology",
+  "MIMO_GENERALIZED_NYQUIST_PASS": "HOLD: finite imaginary-axis determinant proxy0 invariant, missing reference RHP pole/zero/internal certificate and full contour/low-gap qualification",
+  "PARTITIONED_COUPLED_DYNAMIC_PASS": "HOLD new transient0",
+  "RESET_DIRECT_PATH_25C_DESIGN_PASS": "accepted historical scoped PASS",
+  "FAULT_LATENCY_LOGIC_CONTRACT_PASS": "accepted historical offline PASS",
+  "native": "NOT_ENTERED",
+  "bench": "NOT_RELEASED",
+  "CURRENT_D_NORMALIZATION": "REVIEW_ONLY sigma.20 no longer hard gate",
+  "LOW_FREQUENCY_NUMERICAL_HOLD": true,
+  "POST_STOP_DIAGNOSTIC_EVIDENCE_ONLY": "previous8 preserved at frozen d152e092 commit, no new solve after this stop"
+}

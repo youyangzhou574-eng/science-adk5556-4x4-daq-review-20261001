@@ -1,0 +1,32 @@
+{"case": "open_blank_p3", "supervisorPID": 57924, "limitSeconds": 90}
+{"case": "open_blank_p4", "supervisorPID": 70840, "limitSeconds": 90}
+{"remaining": 16}
+{"case": "open_blank_p5", "supervisorPID": 79584, "limitSeconds": 90}
+{"case": "open_blank_p7", "supervisorPID": 53824, "limitSeconds": 90}
+{"remaining": 14}
+{"case": "open_blank_p8", "supervisorPID": 76208, "limitSeconds": 90}
+{"case": "open_blank_p9", "supervisorPID": 80408, "limitSeconds": 90}
+{"remaining": 12}
+{"case": "open_blank_p13", "supervisorPID": 68360, "limitSeconds": 90}
+{"case": "open_blank_p14", "supervisorPID": 84960, "limitSeconds": 90}
+{"remaining": 10}
+{"case": "open_blank_p15", "supervisorPID": 82652, "limitSeconds": 90}
+{"case": "open_blank_p17", "supervisorPID": 60792, "limitSeconds": 90}
+{"remaining": 8}
+{"case": "open_blank_p18", "supervisorPID": 36656, "limitSeconds": 90}
+{"case": "open_blank_p19", "supervisorPID": 34852, "limitSeconds": 90}
+{"remaining": 6}
+{"case": "closed_blank_p4", "supervisorPID": 81464, "limitSeconds": 90}
+{"case": "closed_blank_p5", "supervisorPID": 56728, "limitSeconds": 90}
+{"remaining": 4}
+{"case": "closed_blank_p8", "supervisorPID": 78992, "limitSeconds": 90}
+{"case": "closed_blank_p9", "supervisorPID": 63084, "limitSeconds": 90}
+{"remaining": 2}
+{"case": "closed_blank_p14", "supervisorPID": 30916, "limitSeconds": 90}
+{"case": "closed_blank_p15", "supervisorPID": 75204, "limitSeconds": 90}
+{"remaining": 0}
+{"case": "closed_blank_p18", "supervisorPID": 61136, "limitSeconds": 90}
+{"case": "closed_blank_p19", "supervisorPID": 24880, "limitSeconds": 90}
+{"remaining": -2}
+All50 actual measurements terminal, four audited failed TIA cases remain HOLD
+{"wallSeconds": 30.33743610000238, "registeredCases": 50}

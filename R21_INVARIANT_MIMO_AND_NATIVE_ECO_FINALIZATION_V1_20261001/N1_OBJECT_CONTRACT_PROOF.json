@@ -1,0 +1,22 @@
+{
+  "proof": [
+    {
+      "name": "knownStableLocal",
+      "couplingRatioEquals1MaxError": 1.2526825344837246e-16,
+      "TianRatioNotCouplingRminus1": true,
+      "closedCharacteristicZero_rad_s": -101,
+      "referenceQualificationRequired": true,
+      "literalN1FcPMContractNotSatisfiedByCouplingR": true
+    },
+    {
+      "name": "knownRHPClosedLocal",
+      "couplingRatioEquals1MaxError": 1.1102230246251565e-16,
+      "TianRatioNotCouplingRminus1": true,
+      "closedCharacteristicZero_rad_s": 1,
+      "referenceQualificationRequired": true,
+      "literalN1FcPMContractNotSatisfiedByCouplingR": true
+    }
+  ],
+  "notFixtureMisclassification": "No stable/unstable verdict given without G0 qualification; coupling ratio alone cancels local characteristic zeros. Analytic3 multiloop fixture classification passed.",
+  "decision": "Physical scalar Tian reduction and coupling invariant are distinct objects; specification must accept this separation and require independent G0 reference certificate before native gate."
+}

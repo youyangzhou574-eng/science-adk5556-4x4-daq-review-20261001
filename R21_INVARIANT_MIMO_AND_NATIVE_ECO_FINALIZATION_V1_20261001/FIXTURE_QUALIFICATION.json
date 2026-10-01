@@ -1,0 +1,235 @@
+{
+  "UTC": "2026-10-01T14:42:14.053904+00:00",
+  "fixtures": [
+    {
+      "fixture": "nonnormal2_stable",
+      "A": [
+        [
+          -1.0,
+          1000.0
+        ],
+        [
+          -0.002,
+          -3.0
+        ]
+      ],
+      "independentStateSpaceEigenvalues": [
+        [
+          -2.0,
+          1.0
+        ],
+        [
+          -2.0,
+          -1.0
+        ]
+      ],
+      "referenceLocalPoles": [
+        -1.0,
+        -3.0
+      ],
+      "RHPTruth": 0,
+      "noncommutatorNorm": 2000.000000004,
+      "fixedScaleResults": [
+        {
+          "fixedPowerConjugateScale": [
+            1.0,
+            1.0
+          ],
+          "winding": 0,
+          "rawTurns": -2.7728505566816526e-17,
+          "maxPhaseIncrementRad": 0.03342742262137731,
+          "minLogAbsDetRatio": -0.062337296877892356,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        },
+        {
+          "fixedPowerConjugateScale": [
+            0.001,
+            1000.0
+          ],
+          "winding": 0,
+          "rawTurns": 2.163874068335488e-17,
+          "maxPhaseIncrementRad": 0.0334274226213773,
+          "minLogAbsDetRatio": -0.06233729687789413,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        },
+        {
+          "fixedPowerConjugateScale": [
+            1000.0,
+            0.001
+          ],
+          "winding": 0,
+          "rawTurns": -1.1988167289291126e-16,
+          "maxPhaseIncrementRad": 0.033427422621377316,
+          "minLogAbsDetRatio": -0.062337296877892356,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        }
+      ],
+      "scope": "analytic state-space pencil fixture only; not SPICE or full physical network reference qualification"
+    },
+    {
+      "fixture": "nonnormal2_RHP",
+      "A": [
+        [
+          -1.0,
+          4.0
+        ],
+        [
+          2.0,
+          -1.0
+        ]
+      ],
+      "independentStateSpaceEigenvalues": [
+        [
+          1.8284271247461903,
+          0.0
+        ],
+        [
+          -3.82842712474619,
+          0.0
+        ]
+      ],
+      "referenceLocalPoles": [
+        -1.0,
+        -1.0
+      ],
+      "RHPTruth": 1,
+      "noncommutatorNorm": 0.0,
+      "fixedScaleResults": [
+        {
+          "fixedPowerConjugateScale": [
+            1.0,
+            1.0
+          ],
+          "winding": 1,
+          "rawTurns": 0.9999999999999999,
+          "maxPhaseIncrementRad": 0.1434386443224473,
+          "minLogAbsDetRatio": 0.0,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        },
+        {
+          "fixedPowerConjugateScale": [
+            0.001,
+            1000.0
+          ],
+          "winding": 1,
+          "rawTurns": 0.9999999999999986,
+          "maxPhaseIncrementRad": 0.1434386443224473,
+          "minLogAbsDetRatio": 0.0,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        },
+        {
+          "fixedPowerConjugateScale": [
+            1000.0,
+            0.001
+          ],
+          "winding": 1,
+          "rawTurns": 0.9999999999999981,
+          "maxPhaseIncrementRad": 0.1434386443224473,
+          "minLogAbsDetRatio": 0.0,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        }
+      ],
+      "scope": "analytic state-space pencil fixture only; not SPICE or full physical network reference qualification"
+    },
+    {
+      "fixture": "asymmetric3_stable",
+      "A": [
+        [
+          -1.0,
+          40.0,
+          -8.0
+        ],
+        [
+          0.0,
+          -3.0,
+          12.0
+        ],
+        [
+          0.0,
+          0.0,
+          -7.0
+        ]
+      ],
+      "independentStateSpaceEigenvalues": [
+        [
+          -1.0,
+          0.0
+        ],
+        [
+          -3.0,
+          0.0
+        ],
+        [
+          -7.0,
+          0.0
+        ]
+      ],
+      "referenceLocalPoles": [
+        -1.0,
+        -3.0,
+        -7.0
+      ],
+      "RHPTruth": 0,
+      "noncommutatorNorm": 104.919016388832,
+      "fixedScaleResults": [
+        {
+          "fixedPowerConjugateScale": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "winding": 0,
+          "rawTurns": 0.0,
+          "maxPhaseIncrementRad": 9.865497871464395e-17,
+          "minLogAbsDetRatio": 0.0,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        },
+        {
+          "fixedPowerConjugateScale": [
+            0.001,
+            1.0,
+            1000.0
+          ],
+          "winding": 0,
+          "rawTurns": 0.0,
+          "maxPhaseIncrementRad": 9.865497871464395e-17,
+          "minLogAbsDetRatio": 0.0,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        },
+        {
+          "fixedPowerConjugateScale": [
+            1000.0,
+            1.0,
+            0.001
+          ],
+          "winding": 0,
+          "rawTurns": 9.808680662333686e-34,
+          "maxPhaseIncrementRad": 9.865497871464395e-17,
+          "minLogAbsDetRatio": 0.0,
+          "pointCount": 4507,
+          "contourClosed": true,
+          "RHPReferenceZeros": 0
+        }
+      ],
+      "scope": "analytic state-space pencil fixture only; not SPICE or full physical network reference qualification"
+    }
+  ],
+  "fixtureClassificationPASS": true,
+  "fixedActualScale": "Sv=I,Si=I frozen before actual-network computation"
+}

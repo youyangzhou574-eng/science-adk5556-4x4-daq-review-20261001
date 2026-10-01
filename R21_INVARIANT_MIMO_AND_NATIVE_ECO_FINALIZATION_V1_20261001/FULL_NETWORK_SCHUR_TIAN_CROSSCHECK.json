@@ -1,0 +1,110 @@
+[
+  {
+    "target": 0,
+    "direct": [
+      {
+        "Hz": 7971845.465283164,
+        "PMdegree": 93.91704363679284
+      }
+    ],
+    "matrixSchur": [
+      {
+        "Hz": 7971845.465371825,
+        "PMdegree": 93.91704363746088
+      }
+    ],
+    "schurResidualMax": 8.562490948553799e-16,
+    "status": "DIRECT_TIAN_SCHUR_CROSSCHECK_PASS",
+    "fcRelativeDifference": 1.1121763231228123e-11,
+    "PMDifferenceDegree": 6.68038069306931e-10,
+    "PASS": true,
+    "measurementMethod": "SERIES_VOLTAGE_AND_SHUNT_CURRENT",
+    "sourceCases": [
+      "tian_blank_p0",
+      "tian_blank_p10"
+    ],
+    "directSeriesShuntQualified": true,
+    "PASSscope": "DIRECT_TIAN_VS_SCHUR_LIMITED_CROSSOVER"
+  },
+  {
+    "target": 1,
+    "direct": [
+      {
+        "Hz": 6044041.378414465,
+        "PMdegree": 90.05891191145943
+      }
+    ],
+    "matrixSchur": [
+      {
+        "Hz": 6044041.377598007,
+        "PMdegree": 90.05891191335017
+      }
+    ],
+    "schurResidualMax": 6.292344910777393e-16,
+    "status": "DIRECT_TIAN_SCHUR_CROSSCHECK_PASS",
+    "fcRelativeDifference": 1.350847642756311e-10,
+    "PMDifferenceDegree": 1.8907400090029114e-09,
+    "PASS": true,
+    "measurementMethod": "SERIES_VOLTAGE_AND_SHUNT_CURRENT",
+    "sourceCases": [
+      "tian_blank_p1",
+      "tian_blank_p11"
+    ],
+    "directSeriesShuntQualified": true,
+    "PASSscope": "DIRECT_TIAN_VS_SCHUR_LIMITED_CROSSOVER"
+  },
+  {
+    "target": 2,
+    "direct": [
+      {
+        "Hz": 5526656.543213123,
+        "PMdegree": 98.65680778838264
+      }
+    ],
+    "matrixSchur": [
+      {
+        "Hz": 5526656.542921569,
+        "PMdegree": 98.65680780087945
+      }
+    ],
+    "schurResidualMax": 4.350753021406351e-16,
+    "status": "DIRECT_TIAN_SCHUR_CROSSCHECK_PASS",
+    "fcRelativeDifference": 5.275418419690113e-11,
+    "PMDifferenceDegree": 1.2496812473727914e-08,
+    "PASS": true,
+    "measurementMethod": "SERIES_VOLTAGE_AND_SHUNT_CURRENT",
+    "sourceCases": [
+      "tian_blank_p2",
+      "tian_blank_p12"
+    ],
+    "directSeriesShuntQualified": true,
+    "PASSscope": "DIRECT_TIAN_VS_SCHUR_LIMITED_CROSSOVER"
+  },
+  {
+    "target": 6,
+    "direct": [
+      {
+        "Hz": 6665673.393326983,
+        "PMdegree": 101.31519823853269
+      }
+    ],
+    "matrixSchur": [
+      {
+        "Hz": 6665673.39331275,
+        "PMdegree": 101.31519823990695
+      }
+    ],
+    "schurResidualMax": 5.752864499811599e-16,
+    "status": "LOADED_2PORT_SCHUR_CROSSCHECK_PASS_DIRECT_TIAN_HOLD",
+    "fcRelativeDifference": 2.1351888617167913e-12,
+    "PMDifferenceDegree": 1.3742607052336098e-09,
+    "PASS": true,
+    "measurementMethod": "LOADED_TWO_PORT_VOLTAGE_COLUMNS",
+    "sourceCases": [
+      "tian_TIA0_loaded_p0",
+      "tian_TIA0_loaded_p1"
+    ],
+    "directSeriesShuntQualified": false,
+    "PASSscope": "LOADED_2PORT_VS_SCHUR_ONLY"
+  }
+]

@@ -1,0 +1,1692 @@
+{
+  "cases": [
+    {
+      "name": "open_blank_p0",
+      "topology": "open",
+      "stimulus": 0,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p1",
+      "topology": "open",
+      "stimulus": 1,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p2",
+      "topology": "open",
+      "stimulus": 2,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p6",
+      "topology": "open",
+      "stimulus": 6,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p10",
+      "topology": "open",
+      "stimulus": 10,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p11",
+      "topology": "open",
+      "stimulus": 11,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p12",
+      "topology": "open",
+      "stimulus": 12,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p16",
+      "topology": "open",
+      "stimulus": 16,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p0",
+      "topology": "closed",
+      "stimulus": 0,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p1",
+      "topology": "closed",
+      "stimulus": 1,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p2",
+      "topology": "closed",
+      "stimulus": 2,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p6",
+      "topology": "closed",
+      "stimulus": 6,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p10",
+      "topology": "closed",
+      "stimulus": 10,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p11",
+      "topology": "closed",
+      "stimulus": 11,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p12",
+      "topology": "closed",
+      "stimulus": 12,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p16",
+      "topology": "closed",
+      "stimulus": 16,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p3",
+      "topology": "closed",
+      "stimulus": 3,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p7",
+      "topology": "closed",
+      "stimulus": 7,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p13",
+      "topology": "closed",
+      "stimulus": 13,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p17",
+      "topology": "closed",
+      "stimulus": 17,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p0",
+      "topology": "tian",
+      "stimulus": 0,
+      "activeCuts": [
+        0
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p10",
+      "topology": "tian",
+      "stimulus": 10,
+      "activeCuts": [
+        0
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p1",
+      "topology": "tian",
+      "stimulus": 1,
+      "activeCuts": [
+        1
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p11",
+      "topology": "tian",
+      "stimulus": 11,
+      "activeCuts": [
+        1
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p2",
+      "topology": "tian",
+      "stimulus": 2,
+      "activeCuts": [
+        2
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p12",
+      "topology": "tian",
+      "stimulus": 12,
+      "activeCuts": [
+        2
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p6",
+      "topology": "tian",
+      "stimulus": 6,
+      "activeCuts": [
+        6
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p16",
+      "topology": "tian",
+      "stimulus": 16,
+      "activeCuts": [
+        6
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p3",
+      "topology": "open",
+      "stimulus": 3,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p4",
+      "topology": "open",
+      "stimulus": 4,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p5",
+      "topology": "open",
+      "stimulus": 5,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p7",
+      "topology": "open",
+      "stimulus": 7,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p8",
+      "topology": "open",
+      "stimulus": 8,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p9",
+      "topology": "open",
+      "stimulus": 9,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p13",
+      "topology": "open",
+      "stimulus": 13,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p14",
+      "topology": "open",
+      "stimulus": 14,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p15",
+      "topology": "open",
+      "stimulus": 15,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p17",
+      "topology": "open",
+      "stimulus": 17,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p18",
+      "topology": "open",
+      "stimulus": 18,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "open_blank_p19",
+      "topology": "open",
+      "stimulus": 19,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p4",
+      "topology": "closed",
+      "stimulus": 4,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p5",
+      "topology": "closed",
+      "stimulus": 5,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p8",
+      "topology": "closed",
+      "stimulus": 8,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p9",
+      "topology": "closed",
+      "stimulus": 9,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p14",
+      "topology": "closed",
+      "stimulus": 14,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p15",
+      "topology": "closed",
+      "stimulus": 15,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p18",
+      "topology": "closed",
+      "stimulus": 18,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    },
+    {
+      "name": "closed_blank_p19",
+      "topology": "closed",
+      "stimulus": 19,
+      "purpose": "MANDATORY_FULL_COLUMN_FALLBACK_AFTER_ROW_DUPLICATE_FAIL",
+      "diagnosticAttribute": false
+    }
+  ],
+  "representatives": [
+    0,
+    1,
+    2,
+    6,
+    10,
+    11,
+    12,
+    16
+  ],
+  "mapping": {
+    "0": {
+      "representative": 0,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "1": {
+      "representative": 1,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "2": {
+      "representative": 2,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "3": {
+      "representative": 2,
+      "permutation": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "4": {
+      "representative": 2,
+      "permutation": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        13,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "5": {
+      "representative": 2,
+      "permutation": [
+        0,
+        1,
+        5,
+        3,
+        4,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        13,
+        14,
+        12,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "6": {
+      "representative": 6,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "7": {
+      "representative": 6,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        16,
+        18,
+        19
+      ]
+    },
+    "8": {
+      "representative": 6,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        7,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        17,
+        16,
+        19
+      ]
+    },
+    "9": {
+      "representative": 6,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        7,
+        8,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        17,
+        18,
+        16
+      ]
+    },
+    "10": {
+      "representative": 10,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "11": {
+      "representative": 11,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "12": {
+      "representative": 12,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "13": {
+      "representative": 12,
+      "permutation": [
+        0,
+        1,
+        3,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        13,
+        12,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "14": {
+      "representative": 12,
+      "permutation": [
+        0,
+        1,
+        4,
+        3,
+        2,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        14,
+        13,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "15": {
+      "representative": 12,
+      "permutation": [
+        0,
+        1,
+        5,
+        3,
+        4,
+        2,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        15,
+        13,
+        14,
+        12,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "16": {
+      "representative": 16,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    },
+    "17": {
+      "representative": 16,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        6,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        17,
+        16,
+        18,
+        19
+      ]
+    },
+    "18": {
+      "representative": 16,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        7,
+        6,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        18,
+        17,
+        16,
+        19
+      ]
+    },
+    "19": {
+      "representative": 16,
+      "permutation": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        7,
+        8,
+        6,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        19,
+        17,
+        18,
+        16
+      ]
+    }
+  },
+  "symmetryProof": [
+    {
+      "group": "row",
+      "swap": [
+        0,
+        1
+      ],
+      "graphAutomorphism": true
+    },
+    {
+      "group": "row",
+      "swap": [
+        0,
+        2
+      ],
+      "graphAutomorphism": true
+    },
+    {
+      "group": "row",
+      "swap": [
+        0,
+        3
+      ],
+      "graphAutomorphism": true
+    },
+    {
+      "group": "tia",
+      "swap": [
+        0,
+        1
+      ],
+      "graphAutomorphism": true
+    },
+    {
+      "group": "tia",
+      "swap": [
+        0,
+        2
+      ],
+      "graphAutomorphism": true
+    },
+    {
+      "group": "tia",
+      "swap": [
+        0,
+        3
+      ],
+      "graphAutomorphism": true
+    }
+  ],
+  "OPsource": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_MIMO_STABILITY_AND_NATIVE_ECO_CLOSURE_V1\\results\\opwarm_800_blank\\op.raw",
+  "fixedPhysicalCut": "all external feedback stays f; only macro minus input terminal moved to e; 1k outputISO not cut",
+  "analysisChargesPerCase": 2,
+  "actualWaveform": false,
+  "diagnosticClassification": "Primary mandatory AC qualification, not numerical solver diagnostic variation; all 56 analysis directives charged; offline numerical replay separately diagnostic2/24",
+  "symmetryFallbackRequired": true,
+  "original28CasesFrozen": [
+    {
+      "name": "open_blank_p0",
+      "topology": "open",
+      "stimulus": 0,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p1",
+      "topology": "open",
+      "stimulus": 1,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p2",
+      "topology": "open",
+      "stimulus": 2,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p6",
+      "topology": "open",
+      "stimulus": 6,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p10",
+      "topology": "open",
+      "stimulus": 10,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p11",
+      "topology": "open",
+      "stimulus": 11,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p12",
+      "topology": "open",
+      "stimulus": 12,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "open_blank_p16",
+      "topology": "open",
+      "stimulus": 16,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p0",
+      "topology": "closed",
+      "stimulus": 0,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p1",
+      "topology": "closed",
+      "stimulus": 1,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p2",
+      "topology": "closed",
+      "stimulus": 2,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p6",
+      "topology": "closed",
+      "stimulus": 6,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p10",
+      "topology": "closed",
+      "stimulus": 10,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p11",
+      "topology": "closed",
+      "stimulus": 11,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p12",
+      "topology": "closed",
+      "stimulus": 12,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p16",
+      "topology": "closed",
+      "stimulus": 16,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p3",
+      "topology": "closed",
+      "stimulus": 3,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p7",
+      "topology": "closed",
+      "stimulus": 7,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p13",
+      "topology": "closed",
+      "stimulus": 13,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "closed_blank_p17",
+      "topology": "closed",
+      "stimulus": 17,
+      "activeCuts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p0",
+      "topology": "tian",
+      "stimulus": 0,
+      "activeCuts": [
+        0
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p10",
+      "topology": "tian",
+      "stimulus": 10,
+      "activeCuts": [
+        0
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p1",
+      "topology": "tian",
+      "stimulus": 1,
+      "activeCuts": [
+        1
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p11",
+      "topology": "tian",
+      "stimulus": 11,
+      "activeCuts": [
+        1
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p2",
+      "topology": "tian",
+      "stimulus": 2,
+      "activeCuts": [
+        2
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p12",
+      "topology": "tian",
+      "stimulus": 12,
+      "activeCuts": [
+        2
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p6",
+      "topology": "tian",
+      "stimulus": 6,
+      "activeCuts": [
+        6
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    },
+    {
+      "name": "tian_blank_p16",
+      "topology": "tian",
+      "stimulus": 16,
+      "activeCuts": [
+        6
+      ],
+      "purpose": "PRIMARY_PORT_CUT_AND_LOW_FREQUENCY_QUALIFICATION",
+      "diagnosticAttribute": false,
+      "fixedScale": "Sv=I/Si=I"
+    }
+  ],
+  "fullActualColumns": true,
+  "fallbackReason": "ROW0/ROW1 voltage/current true duplicates differ8.8percent; mandated abandon symmetry and measure all20 columns in both topologies"
+}

@@ -1,0 +1,20 @@
+{
+  "UTC": "2026-10-01T15:16:41.863858+00:00",
+  "plots": [
+    {
+      "file": "plots/FINITE_AXIS_PROXY_NOT_CERTIFICATE.png",
+      "SHA256": "B817004818C99AD6E24FA02049718113A587B084143B2A0856258CDB350F5D7D",
+      "visualQA": "All axes/legend readable; TIA directTian HOLD and finite-axis noncertificate scopes explicit"
+    },
+    {
+      "file": "plots/GC_CONDITION_ALL_FREQUENCIES.png",
+      "SHA256": "748E67A11694C8A70EA9DD77CB9D2F58A2599ACF27F71604E046306BA287DAF0",
+      "visualQA": "All axes/legend readable; TIA directTian HOLD and finite-axis noncertificate scopes explicit"
+    },
+    {
+      "file": "plots/SCALAR_CROSSCHECK_SCOPES.png",
+      "SHA256": "F625CC93E0A163E0CBE0E2E47E02B6C8E3C60A6EF65619795EAA75AC9FFABE1A",
+      "visualQA": "All axes/legend readable; TIA directTian HOLD and finite-axis noncertificate scopes explicit"
+    }
+  ]
+}

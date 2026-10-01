@@ -1,0 +1,1 @@
+{"case": "closed_blank_p16", "startedUTC": "2026-10-01T14:48:19.059499+00:00", "limitSeconds": 90.0, "status": "NORMAL_EXIT", "ownedPID": 85880, "lastProgressTime_s": 0.01, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 1.018596800044179, "endedUTC": "2026-10-01T14:48:20.078097+00:00"}

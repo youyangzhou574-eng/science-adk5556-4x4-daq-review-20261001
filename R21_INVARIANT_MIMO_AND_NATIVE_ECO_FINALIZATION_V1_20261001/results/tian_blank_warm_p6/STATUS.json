@@ -1,0 +1,11 @@
+{
+  "case": "tian_blank_warm_p6",
+  "startedUTC": "2026-10-01T14:50:26.915195+00:00",
+  "limitSeconds": 90.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 36284,
+  "exitCode": 0,
+  "analysisStatus": "ANALYSIS_ERROR",
+  "wallSeconds": 21.547452800208703,
+  "endedUTC": "2026-10-01T14:50:48.462651+00:00"
+}

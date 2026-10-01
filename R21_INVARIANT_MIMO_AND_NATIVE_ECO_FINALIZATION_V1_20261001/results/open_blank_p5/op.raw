@@ -1,0 +1,3558 @@
+Title: open_blank_p5
+Date: Thu Oct  1 22:55:06  2026
+Command: ngspice-47, Build Aug 11 2026   13:55:25
+Plotname: Operating Point
+Flags: real
+No. Variables: 1774
+No. Points: 1
+Variables:
+	0	v(v5)	voltage
+	1	i(a.xcm.x_u18.ag1)	current
+	2	i(a.xcm.x_u19.ag1)	current
+	3	i(a.xex.x_u18.ag1)	current
+	4	i(a.xex.x_u19.ag1)	current
+	5	i(a.xr0.x_u18.ag1)	current
+	6	i(a.xr0.x_u19.ag1)	current
+	7	i(a.xr1.x_u18.ag1)	current
+	8	i(a.xr1.x_u19.ag1)	current
+	9	i(a.xr2.x_u18.ag1)	current
+	10	i(a.xr2.x_u19.ag1)	current
+	11	i(a.xr3.x_u18.ag1)	current
+	12	i(a.xr3.x_u19.ag1)	current
+	13	i(a.xt0.x_u18.ag1)	current
+	14	i(a.xt0.x_u19.ag1)	current
+	15	i(a.xt1.x_u18.ag1)	current
+	16	i(a.xt1.x_u19.ag1)	current
+	17	i(a.xt2.x_u18.ag1)	current
+	18	i(a.xt2.x_u19.ag1)	current
+	19	i(a.xt3.x_u18.ag1)	current
+	20	i(a.xt3.x_u19.ag1)	current
+	21	v(ain0)	voltage
+	22	v(ain1)	voltage
+	23	v(ain2)	voltage
+	24	v(ain3)	voltage
+	25	i(b.xcm.x_u4.be1)	current
+	26	i(b.xcm.x_u6.bg1)	current
+	27	i(b.xcm.x_u10.bgvo+)	current
+	28	i(b.xcm.x_u10.bgvo-)	current
+	29	i(b.xcm.x_u11.bgvo+)	current
+	30	i(b.xcm.x_u11.bgvo-)	current
+	31	i(b.xcm.x_u12.bgvo+)	current
+	32	i(b.xcm.x_u12.bgvo-)	current
+	33	i(b.xcm.x_u16.bgsw+)	current
+	34	i(b.xcm.x_u18.bg1)	current
+	35	i(b.xcm.x_u19.bg1)	current
+	36	i(b.xcm.x_u22.bg1)	current
+	37	i(b.xcm.x_u23.bg1)	current
+	38	i(b.xcm.x_u26.bg1)	current
+	39	i(b.xcm.x_u27.bg1)	current
+	40	i(b.xcm.x_u30.bg1)	current
+	41	i(b.xcm.x_u31.bg1)	current
+	42	i(b.xcm.x_u32.bg1)	current
+	43	i(b.xcm.x_u35.bg1)	current
+	44	i(b.xex.x_u4.be1)	current
+	45	i(b.xex.x_u6.bg1)	current
+	46	i(b.xex.x_u10.bgvo+)	current
+	47	i(b.xex.x_u10.bgvo-)	current
+	48	i(b.xex.x_u11.bgvo+)	current
+	49	i(b.xex.x_u11.bgvo-)	current
+	50	i(b.xex.x_u12.bgvo+)	current
+	51	i(b.xex.x_u12.bgvo-)	current
+	52	i(b.xex.x_u16.bgsw+)	current
+	53	i(b.xex.x_u18.bg1)	current
+	54	i(b.xex.x_u19.bg1)	current
+	55	i(b.xex.x_u22.bg1)	current
+	56	i(b.xex.x_u23.bg1)	current
+	57	i(b.xex.x_u26.bg1)	current
+	58	i(b.xex.x_u27.bg1)	current
+	59	i(b.xex.x_u30.bg1)	current
+	60	i(b.xex.x_u31.bg1)	current
+	61	i(b.xex.x_u32.bg1)	current
+	62	i(b.xex.x_u35.bg1)	current
+	63	i(b.xr0.x_u4.be1)	current
+	64	i(b.xr0.x_u6.bg1)	current
+	65	i(b.xr0.x_u10.bgvo+)	current
+	66	i(b.xr0.x_u10.bgvo-)	current
+	67	i(b.xr0.x_u11.bgvo+)	current
+	68	i(b.xr0.x_u11.bgvo-)	current
+	69	i(b.xr0.x_u12.bgvo+)	current
+	70	i(b.xr0.x_u12.bgvo-)	current
+	71	i(b.xr0.x_u16.bgsw+)	current
+	72	i(b.xr0.x_u18.bg1)	current
+	73	i(b.xr0.x_u19.bg1)	current
+	74	i(b.xr0.x_u22.bg1)	current
+	75	i(b.xr0.x_u23.bg1)	current
+	76	i(b.xr0.x_u26.bg1)	current
+	77	i(b.xr0.x_u27.bg1)	current
+	78	i(b.xr0.x_u30.bg1)	current
+	79	i(b.xr0.x_u31.bg1)	current
+	80	i(b.xr0.x_u32.bg1)	current
+	81	i(b.xr0.x_u35.bg1)	current
+	82	i(b.xr1.x_u4.be1)	current
+	83	i(b.xr1.x_u6.bg1)	current
+	84	i(b.xr1.x_u10.bgvo+)	current
+	85	i(b.xr1.x_u10.bgvo-)	current
+	86	i(b.xr1.x_u11.bgvo+)	current
+	87	i(b.xr1.x_u11.bgvo-)	current
+	88	i(b.xr1.x_u12.bgvo+)	current
+	89	i(b.xr1.x_u12.bgvo-)	current
+	90	i(b.xr1.x_u16.bgsw+)	current
+	91	i(b.xr1.x_u18.bg1)	current
+	92	i(b.xr1.x_u19.bg1)	current
+	93	i(b.xr1.x_u22.bg1)	current
+	94	i(b.xr1.x_u23.bg1)	current
+	95	i(b.xr1.x_u26.bg1)	current
+	96	i(b.xr1.x_u27.bg1)	current
+	97	i(b.xr1.x_u30.bg1)	current
+	98	i(b.xr1.x_u31.bg1)	current
+	99	i(b.xr1.x_u32.bg1)	current
+	100	i(b.xr1.x_u35.bg1)	current
+	101	i(b.xr2.x_u4.be1)	current
+	102	i(b.xr2.x_u6.bg1)	current
+	103	i(b.xr2.x_u10.bgvo+)	current
+	104	i(b.xr2.x_u10.bgvo-)	current
+	105	i(b.xr2.x_u11.bgvo+)	current
+	106	i(b.xr2.x_u11.bgvo-)	current
+	107	i(b.xr2.x_u12.bgvo+)	current
+	108	i(b.xr2.x_u12.bgvo-)	current
+	109	i(b.xr2.x_u16.bgsw+)	current
+	110	i(b.xr2.x_u18.bg1)	current
+	111	i(b.xr2.x_u19.bg1)	current
+	112	i(b.xr2.x_u22.bg1)	current
+	113	i(b.xr2.x_u23.bg1)	current
+	114	i(b.xr2.x_u26.bg1)	current
+	115	i(b.xr2.x_u27.bg1)	current
+	116	i(b.xr2.x_u30.bg1)	current
+	117	i(b.xr2.x_u31.bg1)	current
+	118	i(b.xr2.x_u32.bg1)	current
+	119	i(b.xr2.x_u35.bg1)	current
+	120	i(b.xr3.x_u4.be1)	current
+	121	i(b.xr3.x_u6.bg1)	current
+	122	i(b.xr3.x_u10.bgvo+)	current
+	123	i(b.xr3.x_u10.bgvo-)	current
+	124	i(b.xr3.x_u11.bgvo+)	current
+	125	i(b.xr3.x_u11.bgvo-)	current
+	126	i(b.xr3.x_u12.bgvo+)	current
+	127	i(b.xr3.x_u12.bgvo-)	current
+	128	i(b.xr3.x_u16.bgsw+)	current
+	129	i(b.xr3.x_u18.bg1)	current
+	130	i(b.xr3.x_u19.bg1)	current
+	131	i(b.xr3.x_u22.bg1)	current
+	132	i(b.xr3.x_u23.bg1)	current
+	133	i(b.xr3.x_u26.bg1)	current
+	134	i(b.xr3.x_u27.bg1)	current
+	135	i(b.xr3.x_u30.bg1)	current
+	136	i(b.xr3.x_u31.bg1)	current
+	137	i(b.xr3.x_u32.bg1)	current
+	138	i(b.xr3.x_u35.bg1)	current
+	139	i(b.xt0.x_u4.be1)	current
+	140	i(b.xt0.x_u6.bg1)	current
+	141	i(b.xt0.x_u10.bgvo+)	current
+	142	i(b.xt0.x_u10.bgvo-)	current
+	143	i(b.xt0.x_u11.bgvo+)	current
+	144	i(b.xt0.x_u11.bgvo-)	current
+	145	i(b.xt0.x_u12.bgvo+)	current
+	146	i(b.xt0.x_u12.bgvo-)	current
+	147	i(b.xt0.x_u16.bgsw+)	current
+	148	i(b.xt0.x_u18.bg1)	current
+	149	i(b.xt0.x_u19.bg1)	current
+	150	i(b.xt0.x_u22.bg1)	current
+	151	i(b.xt0.x_u23.bg1)	current
+	152	i(b.xt0.x_u26.bg1)	current
+	153	i(b.xt0.x_u27.bg1)	current
+	154	i(b.xt0.x_u30.bg1)	current
+	155	i(b.xt0.x_u31.bg1)	current
+	156	i(b.xt0.x_u32.bg1)	current
+	157	i(b.xt0.x_u35.bg1)	current
+	158	i(b.xt1.x_u4.be1)	current
+	159	i(b.xt1.x_u6.bg1)	current
+	160	i(b.xt1.x_u10.bgvo+)	current
+	161	i(b.xt1.x_u10.bgvo-)	current
+	162	i(b.xt1.x_u11.bgvo+)	current
+	163	i(b.xt1.x_u11.bgvo-)	current
+	164	i(b.xt1.x_u12.bgvo+)	current
+	165	i(b.xt1.x_u12.bgvo-)	current
+	166	i(b.xt1.x_u16.bgsw+)	current
+	167	i(b.xt1.x_u18.bg1)	current
+	168	i(b.xt1.x_u19.bg1)	current
+	169	i(b.xt1.x_u22.bg1)	current
+	170	i(b.xt1.x_u23.bg1)	current
+	171	i(b.xt1.x_u26.bg1)	current
+	172	i(b.xt1.x_u27.bg1)	current
+	173	i(b.xt1.x_u30.bg1)	current
+	174	i(b.xt1.x_u31.bg1)	current
+	175	i(b.xt1.x_u32.bg1)	current
+	176	i(b.xt1.x_u35.bg1)	current
+	177	i(b.xt2.x_u4.be1)	current
+	178	i(b.xt2.x_u6.bg1)	current
+	179	i(b.xt2.x_u10.bgvo+)	current
+	180	i(b.xt2.x_u10.bgvo-)	current
+	181	i(b.xt2.x_u11.bgvo+)	current
+	182	i(b.xt2.x_u11.bgvo-)	current
+	183	i(b.xt2.x_u12.bgvo+)	current
+	184	i(b.xt2.x_u12.bgvo-)	current
+	185	i(b.xt2.x_u16.bgsw+)	current
+	186	i(b.xt2.x_u18.bg1)	current
+	187	i(b.xt2.x_u19.bg1)	current
+	188	i(b.xt2.x_u22.bg1)	current
+	189	i(b.xt2.x_u23.bg1)	current
+	190	i(b.xt2.x_u26.bg1)	current
+	191	i(b.xt2.x_u27.bg1)	current
+	192	i(b.xt2.x_u30.bg1)	current
+	193	i(b.xt2.x_u31.bg1)	current
+	194	i(b.xt2.x_u32.bg1)	current
+	195	i(b.xt2.x_u35.bg1)	current
+	196	i(b.xt3.x_u4.be1)	current
+	197	i(b.xt3.x_u6.bg1)	current
+	198	i(b.xt3.x_u10.bgvo+)	current
+	199	i(b.xt3.x_u10.bgvo-)	current
+	200	i(b.xt3.x_u11.bgvo+)	current
+	201	i(b.xt3.x_u11.bgvo-)	current
+	202	i(b.xt3.x_u12.bgvo+)	current
+	203	i(b.xt3.x_u12.bgvo-)	current
+	204	i(b.xt3.x_u16.bgsw+)	current
+	205	i(b.xt3.x_u18.bg1)	current
+	206	i(b.xt3.x_u19.bg1)	current
+	207	i(b.xt3.x_u22.bg1)	current
+	208	i(b.xt3.x_u23.bg1)	current
+	209	i(b.xt3.x_u26.bg1)	current
+	210	i(b.xt3.x_u27.bg1)	current
+	211	i(b.xt3.x_u30.bg1)	current
+	212	i(b.xt3.x_u31.bg1)	current
+	213	i(b.xt3.x_u32.bg1)	current
+	214	i(b.xt3.x_u35.bg1)	current
+	215	i(bns0)	current
+	216	i(bns1)	current
+	217	i(bns2)	current
+	218	i(bns3)	current
+	219	v(cmd0)	voltage
+	220	v(cmd1)	voltage
+	221	v(cmd2)	voltage
+	222	v(cmd3)	voltage
+	223	v(cmdrv)	voltage
+	224	v(cmfb)	voltage
+	225	v(col0)	voltage
+	226	v(col1)	voltage
+	227	v(col2)	voltage
+	228	v(col3)	voltage
+	229	v(drv0)	voltage
+	230	v(drv1)	voltage
+	231	v(drv2)	voltage
+	232	v(drv3)	voltage
+	233	i(e.xcm.e_e1)	current
+	234	i(e.xcm.e_e3)	current
+	235	i(e.xcm.e_e4)	current
+	236	i(e.xcm.x_u4.e1)	current
+	237	i(e.xcm.x_u38.e1)	current
+	238	i(e.xcm.x_u39.e1)	current
+	239	i(e.xcm.x_u40.e3)	current
+	240	i(e.xex.e_e1)	current
+	241	i(e.xex.e_e3)	current
+	242	i(e.xex.e_e4)	current
+	243	i(e.xex.x_u4.e1)	current
+	244	i(e.xex.x_u38.e1)	current
+	245	i(e.xex.x_u39.e1)	current
+	246	i(e.xex.x_u40.e3)	current
+	247	i(e.xr0.e_e1)	current
+	248	i(e.xr0.e_e3)	current
+	249	i(e.xr0.e_e4)	current
+	250	i(e.xr0.x_u4.e1)	current
+	251	i(e.xr0.x_u38.e1)	current
+	252	i(e.xr0.x_u39.e1)	current
+	253	i(e.xr0.x_u40.e3)	current
+	254	i(e.xr1.e_e1)	current
+	255	i(e.xr1.e_e3)	current
+	256	i(e.xr1.e_e4)	current
+	257	i(e.xr1.x_u4.e1)	current
+	258	i(e.xr1.x_u38.e1)	current
+	259	i(e.xr1.x_u39.e1)	current
+	260	i(e.xr1.x_u40.e3)	current
+	261	i(e.xr2.e_e1)	current
+	262	i(e.xr2.e_e3)	current
+	263	i(e.xr2.e_e4)	current
+	264	i(e.xr2.x_u4.e1)	current
+	265	i(e.xr2.x_u38.e1)	current
+	266	i(e.xr2.x_u39.e1)	current
+	267	i(e.xr2.x_u40.e3)	current
+	268	i(e.xr3.e_e1)	current
+	269	i(e.xr3.e_e3)	current
+	270	i(e.xr3.e_e4)	current
+	271	i(e.xr3.x_u4.e1)	current
+	272	i(e.xr3.x_u38.e1)	current
+	273	i(e.xr3.x_u39.e1)	current
+	274	i(e.xr3.x_u40.e3)	current
+	275	i(e.xt0.e_e1)	current
+	276	i(e.xt0.e_e3)	current
+	277	i(e.xt0.e_e4)	current
+	278	i(e.xt0.x_u4.e1)	current
+	279	i(e.xt0.x_u38.e1)	current
+	280	i(e.xt0.x_u39.e1)	current
+	281	i(e.xt0.x_u40.e3)	current
+	282	i(e.xt1.e_e1)	current
+	283	i(e.xt1.e_e3)	current
+	284	i(e.xt1.e_e4)	current
+	285	i(e.xt1.x_u4.e1)	current
+	286	i(e.xt1.x_u38.e1)	current
+	287	i(e.xt1.x_u39.e1)	current
+	288	i(e.xt1.x_u40.e3)	current
+	289	i(e.xt2.e_e1)	current
+	290	i(e.xt2.e_e3)	current
+	291	i(e.xt2.e_e4)	current
+	292	i(e.xt2.x_u4.e1)	current
+	293	i(e.xt2.x_u38.e1)	current
+	294	i(e.xt2.x_u39.e1)	current
+	295	i(e.xt2.x_u40.e3)	current
+	296	i(e.xt3.e_e1)	current
+	297	i(e.xt3.e_e3)	current
+	298	i(e.xt3.e_e4)	current
+	299	i(e.xt3.x_u4.e1)	current
+	300	i(e.xt3.x_u38.e1)	current
+	301	i(e.xt3.x_u39.e1)	current
+	302	i(e.xt3.x_u40.e3)	current
+	303	v(e0)	voltage
+	304	v(e1)	voltage
+	305	v(e2)	voltage
+	306	v(e3)	voltage
+	307	v(e4)	voltage
+	308	v(e5)	voltage
+	309	v(e6)	voltage
+	310	v(e7)	voltage
+	311	v(e8)	voltage
+	312	v(e9)	voltage
+	313	v(exdrv)	voltage
+	314	v(exfb)	voltage
+	315	v(fb0)	voltage
+	316	v(fb1)	voltage
+	317	v(fb2)	voltage
+	318	v(fb3)	voltage
+	319	i(h.xcm.x_h1.h_h1)	current
+	320	i(h.xcm.x_h2.h_h2)	current
+	321	i(h.xcm.x_h3.h_h3)	current
+	322	i(h.xex.x_h1.h_h1)	current
+	323	i(h.xex.x_h2.h_h2)	current
+	324	i(h.xex.x_h3.h_h3)	current
+	325	i(h.xr0.x_h1.h_h1)	current
+	326	i(h.xr0.x_h2.h_h2)	current
+	327	i(h.xr0.x_h3.h_h3)	current
+	328	i(h.xr1.x_h1.h_h1)	current
+	329	i(h.xr1.x_h2.h_h2)	current
+	330	i(h.xr1.x_h3.h_h3)	current
+	331	i(h.xr2.x_h1.h_h1)	current
+	332	i(h.xr2.x_h2.h_h2)	current
+	333	i(h.xr2.x_h3.h_h3)	current
+	334	i(h.xr3.x_h1.h_h1)	current
+	335	i(h.xr3.x_h2.h_h2)	current
+	336	i(h.xr3.x_h3.h_h3)	current
+	337	i(h.xt0.x_h1.h_h1)	current
+	338	i(h.xt0.x_h2.h_h2)	current
+	339	i(h.xt0.x_h3.h_h3)	current
+	340	i(h.xt1.x_h1.h_h1)	current
+	341	i(h.xt1.x_h2.h_h2)	current
+	342	i(h.xt1.x_h3.h_h3)	current
+	343	i(h.xt2.x_h1.h_h1)	current
+	344	i(h.xt2.x_h2.h_h2)	current
+	345	i(h.xt2.x_h3.h_h3)	current
+	346	i(h.xt3.x_h1.h_h1)	current
+	347	i(h.xt3.x_h2.h_h2)	current
+	348	i(h.xt3.x_h3.h_h3)	current
+	349	i(ldc0)	current
+	350	i(ldc1)	current
+	351	i(ldc2)	current
+	352	i(ldc3)	current
+	353	i(ldc4)	current
+	354	i(ldc5)	current
+	355	i(ldc6)	current
+	356	i(ldc7)	current
+	357	i(ldc8)	current
+	358	i(ldc9)	current
+	359	v(minus0)	voltage
+	360	v(minus1)	voltage
+	361	v(minus2)	voltage
+	362	v(minus3)	voltage
+	363	v(ns0)	voltage
+	364	v(ns1)	voltage
+	365	v(ns2)	voltage
+	366	v(ns3)	voltage
+	367	v(ref)	voltage
+	368	v(row0)	voltage
+	369	v(row1)	voltage
+	370	v(row2)	voltage
+	371	v(row3)	voltage
+	372	v(sel0)	voltage
+	373	v(sel1)	voltage
+	374	v(sel2)	voltage
+	375	v(sel3)	voltage
+	376	v(src0)	voltage
+	377	v(src1)	voltage
+	378	v(src2)	voltage
+	379	v(src3)	voltage
+	380	v(src4)	voltage
+	381	v(src5)	voltage
+	382	v(src6)	voltage
+	383	v(src7)	voltage
+	384	v(src8)	voltage
+	385	v(src9)	voltage
+	386	v(src10)	voltage
+	387	v(src11)	voltage
+	388	v(src12)	voltage
+	389	v(src13)	voltage
+	390	v(src14)	voltage
+	391	v(src15)	voltage
+	392	v(src16)	voltage
+	393	v(src17)	voltage
+	394	v(src18)	voltage
+	395	v(src19)	voltage
+	396	v(tap0)	voltage
+	397	v(tap1)	voltage
+	398	v(tap2)	voltage
+	399	v(tap3)	voltage
+	400	v(tdrv0)	voltage
+	401	v(tdrv1)	voltage
+	402	v(tdrv2)	voltage
+	403	v(tdrv3)	voltage
+	404	i(v.xcm.v_v_grn)	current
+	405	i(v.xcm.v_v_grp)	current
+	406	i(v.xcm.v_v_iscn)	current
+	407	i(v.xcm.v_v_iscp)	current
+	408	i(v.xcm.v_v_orn)	current
+	409	i(v.xcm.v_v_orp)	current
+	410	i(v.xcm.v_vcm_max)	current
+	411	i(v.xcm.v_vcm_min)	current
+	412	i(v.xcm.x_h1.vh_h1)	current
+	413	i(v.xcm.x_h2.vh_h2)	current
+	414	i(v.xcm.x_h3.vh_h3)	current
+	415	i(v.xex.v_v_grn)	current
+	416	i(v.xex.v_v_grp)	current
+	417	i(v.xex.v_v_iscn)	current
+	418	i(v.xex.v_v_iscp)	current
+	419	i(v.xex.v_v_orn)	current
+	420	i(v.xex.v_v_orp)	current
+	421	i(v.xex.v_vcm_max)	current
+	422	i(v.xex.v_vcm_min)	current
+	423	i(v.xex.x_h1.vh_h1)	current
+	424	i(v.xex.x_h2.vh_h2)	current
+	425	i(v.xex.x_h3.vh_h3)	current
+	426	i(v.xr0.v_v_grn)	current
+	427	i(v.xr0.v_v_grp)	current
+	428	i(v.xr0.v_v_iscn)	current
+	429	i(v.xr0.v_v_iscp)	current
+	430	i(v.xr0.v_v_orn)	current
+	431	i(v.xr0.v_v_orp)	current
+	432	i(v.xr0.v_vcm_max)	current
+	433	i(v.xr0.v_vcm_min)	current
+	434	i(v.xr0.x_h1.vh_h1)	current
+	435	i(v.xr0.x_h2.vh_h2)	current
+	436	i(v.xr0.x_h3.vh_h3)	current
+	437	i(v.xr1.v_v_grn)	current
+	438	i(v.xr1.v_v_grp)	current
+	439	i(v.xr1.v_v_iscn)	current
+	440	i(v.xr1.v_v_iscp)	current
+	441	i(v.xr1.v_v_orn)	current
+	442	i(v.xr1.v_v_orp)	current
+	443	i(v.xr1.v_vcm_max)	current
+	444	i(v.xr1.v_vcm_min)	current
+	445	i(v.xr1.x_h1.vh_h1)	current
+	446	i(v.xr1.x_h2.vh_h2)	current
+	447	i(v.xr1.x_h3.vh_h3)	current
+	448	i(v.xr2.v_v_grn)	current
+	449	i(v.xr2.v_v_grp)	current
+	450	i(v.xr2.v_v_iscn)	current
+	451	i(v.xr2.v_v_iscp)	current
+	452	i(v.xr2.v_v_orn)	current
+	453	i(v.xr2.v_v_orp)	current
+	454	i(v.xr2.v_vcm_max)	current
+	455	i(v.xr2.v_vcm_min)	current
+	456	i(v.xr2.x_h1.vh_h1)	current
+	457	i(v.xr2.x_h2.vh_h2)	current
+	458	i(v.xr2.x_h3.vh_h3)	current
+	459	i(v.xr3.v_v_grn)	current
+	460	i(v.xr3.v_v_grp)	current
+	461	i(v.xr3.v_v_iscn)	current
+	462	i(v.xr3.v_v_iscp)	current
+	463	i(v.xr3.v_v_orn)	current
+	464	i(v.xr3.v_v_orp)	current
+	465	i(v.xr3.v_vcm_max)	current
+	466	i(v.xr3.v_vcm_min)	current
+	467	i(v.xr3.x_h1.vh_h1)	current
+	468	i(v.xr3.x_h2.vh_h2)	current
+	469	i(v.xr3.x_h3.vh_h3)	current
+	470	i(v.xt0.v_v_grn)	current
+	471	i(v.xt0.v_v_grp)	current
+	472	i(v.xt0.v_v_iscn)	current
+	473	i(v.xt0.v_v_iscp)	current
+	474	i(v.xt0.v_v_orn)	current
+	475	i(v.xt0.v_v_orp)	current
+	476	i(v.xt0.v_vcm_max)	current
+	477	i(v.xt0.v_vcm_min)	current
+	478	i(v.xt0.x_h1.vh_h1)	current
+	479	i(v.xt0.x_h2.vh_h2)	current
+	480	i(v.xt0.x_h3.vh_h3)	current
+	481	i(v.xt1.v_v_grn)	current
+	482	i(v.xt1.v_v_grp)	current
+	483	i(v.xt1.v_v_iscn)	current
+	484	i(v.xt1.v_v_iscp)	current
+	485	i(v.xt1.v_v_orn)	current
+	486	i(v.xt1.v_v_orp)	current
+	487	i(v.xt1.v_vcm_max)	current
+	488	i(v.xt1.v_vcm_min)	current
+	489	i(v.xt1.x_h1.vh_h1)	current
+	490	i(v.xt1.x_h2.vh_h2)	current
+	491	i(v.xt1.x_h3.vh_h3)	current
+	492	i(v.xt2.v_v_grn)	current
+	493	i(v.xt2.v_v_grp)	current
+	494	i(v.xt2.v_v_iscn)	current
+	495	i(v.xt2.v_v_iscp)	current
+	496	i(v.xt2.v_v_orn)	current
+	497	i(v.xt2.v_v_orp)	current
+	498	i(v.xt2.v_vcm_max)	current
+	499	i(v.xt2.v_vcm_min)	current
+	500	i(v.xt2.x_h1.vh_h1)	current
+	501	i(v.xt2.x_h2.vh_h2)	current
+	502	i(v.xt2.x_h3.vh_h3)	current
+	503	i(v.xt3.v_v_grn)	current
+	504	i(v.xt3.v_v_grp)	current
+	505	i(v.xt3.v_v_iscn)	current
+	506	i(v.xt3.v_v_iscp)	current
+	507	i(v.xt3.v_v_orn)	current
+	508	i(v.xt3.v_v_orp)	current
+	509	i(v.xt3.v_vcm_max)	current
+	510	i(v.xt3.v_vcm_min)	current
+	511	i(v.xt3.x_h1.vh_h1)	current
+	512	i(v.xt3.x_h2.vh_h2)	current
+	513	i(v.xt3.x_h3.vh_h3)	current
+	514	i(v5)	current
+	515	v(vcm)	voltage
+	516	v(vcm_cmd)	voltage
+	517	v(vexc)	voltage
+	518	v(vexcmd)	voltage
+	519	i(vp0)	current
+	520	i(vp1)	current
+	521	i(vp2)	current
+	522	i(vp3)	current
+	523	i(vp4)	current
+	524	i(vp5)	current
+	525	i(vp6)	current
+	526	i(vp7)	current
+	527	i(vp8)	current
+	528	i(vp9)	current
+	529	i(vp10)	current
+	530	i(vp11)	current
+	531	i(vp12)	current
+	532	i(vp13)	current
+	533	i(vp14)	current
+	534	i(vp15)	current
+	535	i(vp16)	current
+	536	i(vp17)	current
+	537	i(vp18)	current
+	538	i(vp19)	current
+	539	i(vref)	current
+	540	i(vsel0)	current
+	541	i(vsel1)	current
+	542	i(vsel2)	current
+	543	i(vsel3)	current
+	544	v(xcm.cl_clamp)	voltage
+	545	v(xcm.clamp)	voltage
+	546	v(xcm.claw_clamp)	voltage
+	547	v(xcm.esdn)	voltage
+	548	v(xcm.esdp)	voltage
+	549	v(xcm.mid)	voltage
+	550	v(xcm.n2991553)	voltage
+	551	v(xcm.n2991555)	voltage
+	552	v(xcm.n2991563)	voltage
+	553	v(xcm.n2991573)	voltage
+	554	v(xcm.n2991579)	voltage
+	555	v(xcm.n2991581)	voltage
+	556	v(xcm.n2991583)	voltage
+	557	v(xcm.n2991587)	voltage
+	558	v(xcm.n2991619)	voltage
+	559	v(xcm.n2991623)	voltage
+	560	v(xcm.n2991635)	voltage
+	561	v(xcm.n2991643)	voltage
+	562	v(xcm.n2991657)	voltage
+	563	v(xcm.n2991667)	voltage
+	564	v(xcm.n2991729)	voltage
+	565	v(xcm.n2991741)	voltage
+	566	v(xcm.n2991763)	voltage
+	567	v(xcm.n2991765)	voltage
+	568	v(xcm.n2991807)	voltage
+	569	v(xcm.n2991809)	voltage
+	570	v(xcm.n2991811)	voltage
+	571	v(xcm.n2991831)	voltage
+	572	v(xcm.n2991837)	voltage
+	573	v(xcm.n2991849)	voltage
+	574	v(xcm.n2991901)	voltage
+	575	v(xcm.n2991905)	voltage
+	576	v(xcm.n2991907)	voltage
+	577	v(xcm.n2991925)	voltage
+	578	v(xcm.n2991931)	voltage
+	579	v(xcm.n2991943)	voltage
+	580	v(xcm.n2991969)	voltage
+	581	v(xcm.n2991997)	voltage
+	582	v(xcm.n2992001)	voltage
+	583	v(xcm.n2992029)	voltage
+	584	v(xcm.n2992033)	voltage
+	585	v(xcm.n2992093)	voltage
+	586	v(xcm.n2992099)	voltage
+	587	v(xcm.n2992105)	voltage
+	588	v(xcm.n2992151)	voltage
+	589	v(xcm.n2992163)	voltage
+	590	v(xcm.n2992235)	voltage
+	591	v(xcm.n2992267)	voltage
+	592	v(xcm.n2992287)	voltage
+	593	v(xcm.n2992295)	voltage
+	594	v(xcm.n2992299)	voltage
+	595	v(xcm.n2992323)	voltage
+	596	v(xcm.n2992331)	voltage
+	597	v(xcm.n2992375)	voltage
+	598	v(xcm.n2992397)	voltage
+	599	v(xcm.n2992413)	voltage
+	600	v(xcm.n3201092)	voltage
+	601	v(xcm.n3294524)	voltage
+	602	v(xcm.n3294618)	voltage
+	603	v(xcm.n3294626)	voltage
+	604	v(xcm.n3294630)	voltage
+	605	v(xcm.n3294682)	voltage
+	606	v(xcm.n3294772)	voltage
+	607	v(xcm.n3294776)	voltage
+	608	v(xcm.n3827259)	voltage
+	609	v(xcm.n3828449)	voltage
+	610	v(xcm.n3850714)	voltage
+	611	v(xcm.n3850724)	voltage
+	612	v(xcm.n4031911)	voltage
+	613	v(xcm.n4243633)	voltage
+	614	v(xcm.n4736080)	voltage
+	615	v(xcm.n4745674)	voltage
+	616	v(xcm.n4747399)	voltage
+	617	v(xcm.n4749239)	voltage
+	618	v(xcm.n4796554)	voltage
+	619	v(xcm.n4796572)	voltage
+	620	v(xcm.n4797748)	voltage
+	621	v(xcm.n4797760)	voltage
+	622	v(xcm.n4798545)	voltage
+	623	v(xcm.n4800105)	voltage
+	624	v(xcm.n4809008)	voltage
+	625	v(xcm.n4817896)	voltage
+	626	v(xcm.n47456861)	voltage
+	627	v(xcm.n47492651)	voltage
+	628	v(xcm.n47965841)	voltage
+	629	v(xcm.n48001371)	voltage
+	630	v(xcm.sw_ol_opax388)	voltage
+	631	v(xcm.v11)	voltage
+	632	v(xcm.v12)	voltage
+	633	v(xcm.vcc_b)	voltage
+	634	v(xcm.vcc_clp)	voltage
+	635	v(xcm.vclp)	voltage
+	636	v(xcm.vee_b)	voltage
+	637	v(xcm.vee_clp)	voltage
+	638	v(xcm.vimon)	voltage
+	639	v(xcm.vout_s)	voltage
+	640	v(xcm.vsense)	voltage
+	641	v(xcm.x_u4.e1_int1)	voltage
+	642	v(xcm.x_u6.g1_int1)	voltage
+	643	v(xcm.x_u10.gvo+_int1)	voltage
+	644	v(xcm.x_u10.gvo-_int1)	voltage
+	645	v(xcm.x_u11.gvo+_int1)	voltage
+	646	v(xcm.x_u11.gvo-_int1)	voltage
+	647	v(xcm.x_u12.gvo+_int1)	voltage
+	648	v(xcm.x_u12.gvo-_int1)	voltage
+	649	v(xcm.x_u16.gsw+_int1)	voltage
+	650	v(xcm.x_u18.g1_int1)	voltage
+	651	v(xcm.x_u18.g1_int2)	voltage
+	652	v(xcm.x_u19.g1_int1)	voltage
+	653	v(xcm.x_u19.g1_int2)	voltage
+	654	v(xcm.x_u22.g1_int1)	voltage
+	655	v(xcm.x_u23.g1_int1)	voltage
+	656	v(xcm.x_u26.g1_int1)	voltage
+	657	v(xcm.x_u27.g1_int1)	voltage
+	658	v(xcm.x_u30.g1_int1)	voltage
+	659	v(xcm.x_u31.g1_int1)	voltage
+	660	v(xcm.x_u32.g1_int1)	voltage
+	661	v(xcm.x_u35.g1_int1)	voltage
+	662	v(xcm.x_u38.3)	voltage
+	663	v(xcm.x_u38.5)	voltage
+	664	v(xcm.x_u39.3)	voltage
+	665	v(xcm.x_u39.5)	voltage
+	666	v(xcm.x_u40.5)	voltage
+	667	v(xex.cl_clamp)	voltage
+	668	v(xex.clamp)	voltage
+	669	v(xex.claw_clamp)	voltage
+	670	v(xex.esdn)	voltage
+	671	v(xex.esdp)	voltage
+	672	v(xex.mid)	voltage
+	673	v(xex.n2991553)	voltage
+	674	v(xex.n2991555)	voltage
+	675	v(xex.n2991563)	voltage
+	676	v(xex.n2991573)	voltage
+	677	v(xex.n2991579)	voltage
+	678	v(xex.n2991581)	voltage
+	679	v(xex.n2991583)	voltage
+	680	v(xex.n2991587)	voltage
+	681	v(xex.n2991619)	voltage
+	682	v(xex.n2991623)	voltage
+	683	v(xex.n2991635)	voltage
+	684	v(xex.n2991643)	voltage
+	685	v(xex.n2991657)	voltage
+	686	v(xex.n2991667)	voltage
+	687	v(xex.n2991729)	voltage
+	688	v(xex.n2991741)	voltage
+	689	v(xex.n2991763)	voltage
+	690	v(xex.n2991765)	voltage
+	691	v(xex.n2991807)	voltage
+	692	v(xex.n2991809)	voltage
+	693	v(xex.n2991811)	voltage
+	694	v(xex.n2991831)	voltage
+	695	v(xex.n2991837)	voltage
+	696	v(xex.n2991849)	voltage
+	697	v(xex.n2991901)	voltage
+	698	v(xex.n2991905)	voltage
+	699	v(xex.n2991907)	voltage
+	700	v(xex.n2991925)	voltage
+	701	v(xex.n2991931)	voltage
+	702	v(xex.n2991943)	voltage
+	703	v(xex.n2991969)	voltage
+	704	v(xex.n2991997)	voltage
+	705	v(xex.n2992001)	voltage
+	706	v(xex.n2992029)	voltage
+	707	v(xex.n2992033)	voltage
+	708	v(xex.n2992093)	voltage
+	709	v(xex.n2992099)	voltage
+	710	v(xex.n2992105)	voltage
+	711	v(xex.n2992151)	voltage
+	712	v(xex.n2992163)	voltage
+	713	v(xex.n2992235)	voltage
+	714	v(xex.n2992267)	voltage
+	715	v(xex.n2992287)	voltage
+	716	v(xex.n2992295)	voltage
+	717	v(xex.n2992299)	voltage
+	718	v(xex.n2992323)	voltage
+	719	v(xex.n2992331)	voltage
+	720	v(xex.n2992375)	voltage
+	721	v(xex.n2992397)	voltage
+	722	v(xex.n2992413)	voltage
+	723	v(xex.n3201092)	voltage
+	724	v(xex.n3294524)	voltage
+	725	v(xex.n3294618)	voltage
+	726	v(xex.n3294626)	voltage
+	727	v(xex.n3294630)	voltage
+	728	v(xex.n3294682)	voltage
+	729	v(xex.n3294772)	voltage
+	730	v(xex.n3294776)	voltage
+	731	v(xex.n3827259)	voltage
+	732	v(xex.n3828449)	voltage
+	733	v(xex.n3850714)	voltage
+	734	v(xex.n3850724)	voltage
+	735	v(xex.n4031911)	voltage
+	736	v(xex.n4243633)	voltage
+	737	v(xex.n4736080)	voltage
+	738	v(xex.n4745674)	voltage
+	739	v(xex.n4747399)	voltage
+	740	v(xex.n4749239)	voltage
+	741	v(xex.n4796554)	voltage
+	742	v(xex.n4796572)	voltage
+	743	v(xex.n4797748)	voltage
+	744	v(xex.n4797760)	voltage
+	745	v(xex.n4798545)	voltage
+	746	v(xex.n4800105)	voltage
+	747	v(xex.n4809008)	voltage
+	748	v(xex.n4817896)	voltage
+	749	v(xex.n47456861)	voltage
+	750	v(xex.n47492651)	voltage
+	751	v(xex.n47965841)	voltage
+	752	v(xex.n48001371)	voltage
+	753	v(xex.sw_ol_opax388)	voltage
+	754	v(xex.v11)	voltage
+	755	v(xex.v12)	voltage
+	756	v(xex.vcc_b)	voltage
+	757	v(xex.vcc_clp)	voltage
+	758	v(xex.vclp)	voltage
+	759	v(xex.vee_b)	voltage
+	760	v(xex.vee_clp)	voltage
+	761	v(xex.vimon)	voltage
+	762	v(xex.vout_s)	voltage
+	763	v(xex.vsense)	voltage
+	764	v(xex.x_u4.e1_int1)	voltage
+	765	v(xex.x_u6.g1_int1)	voltage
+	766	v(xex.x_u10.gvo+_int1)	voltage
+	767	v(xex.x_u10.gvo-_int1)	voltage
+	768	v(xex.x_u11.gvo+_int1)	voltage
+	769	v(xex.x_u11.gvo-_int1)	voltage
+	770	v(xex.x_u12.gvo+_int1)	voltage
+	771	v(xex.x_u12.gvo-_int1)	voltage
+	772	v(xex.x_u16.gsw+_int1)	voltage
+	773	v(xex.x_u18.g1_int1)	voltage
+	774	v(xex.x_u18.g1_int2)	voltage
+	775	v(xex.x_u19.g1_int1)	voltage
+	776	v(xex.x_u19.g1_int2)	voltage
+	777	v(xex.x_u22.g1_int1)	voltage
+	778	v(xex.x_u23.g1_int1)	voltage
+	779	v(xex.x_u26.g1_int1)	voltage
+	780	v(xex.x_u27.g1_int1)	voltage
+	781	v(xex.x_u30.g1_int1)	voltage
+	782	v(xex.x_u31.g1_int1)	voltage
+	783	v(xex.x_u32.g1_int1)	voltage
+	784	v(xex.x_u35.g1_int1)	voltage
+	785	v(xex.x_u38.3)	voltage
+	786	v(xex.x_u38.5)	voltage
+	787	v(xex.x_u39.3)	voltage
+	788	v(xex.x_u39.5)	voltage
+	789	v(xex.x_u40.5)	voltage
+	790	v(xr0.cl_clamp)	voltage
+	791	v(xr0.clamp)	voltage
+	792	v(xr0.claw_clamp)	voltage
+	793	v(xr0.esdn)	voltage
+	794	v(xr0.esdp)	voltage
+	795	v(xr0.mid)	voltage
+	796	v(xr0.n2991553)	voltage
+	797	v(xr0.n2991555)	voltage
+	798	v(xr0.n2991563)	voltage
+	799	v(xr0.n2991573)	voltage
+	800	v(xr0.n2991579)	voltage
+	801	v(xr0.n2991581)	voltage
+	802	v(xr0.n2991583)	voltage
+	803	v(xr0.n2991587)	voltage
+	804	v(xr0.n2991619)	voltage
+	805	v(xr0.n2991623)	voltage
+	806	v(xr0.n2991635)	voltage
+	807	v(xr0.n2991643)	voltage
+	808	v(xr0.n2991657)	voltage
+	809	v(xr0.n2991667)	voltage
+	810	v(xr0.n2991729)	voltage
+	811	v(xr0.n2991741)	voltage
+	812	v(xr0.n2991763)	voltage
+	813	v(xr0.n2991765)	voltage
+	814	v(xr0.n2991807)	voltage
+	815	v(xr0.n2991809)	voltage
+	816	v(xr0.n2991811)	voltage
+	817	v(xr0.n2991831)	voltage
+	818	v(xr0.n2991837)	voltage
+	819	v(xr0.n2991849)	voltage
+	820	v(xr0.n2991901)	voltage
+	821	v(xr0.n2991905)	voltage
+	822	v(xr0.n2991907)	voltage
+	823	v(xr0.n2991925)	voltage
+	824	v(xr0.n2991931)	voltage
+	825	v(xr0.n2991943)	voltage
+	826	v(xr0.n2991969)	voltage
+	827	v(xr0.n2991997)	voltage
+	828	v(xr0.n2992001)	voltage
+	829	v(xr0.n2992029)	voltage
+	830	v(xr0.n2992033)	voltage
+	831	v(xr0.n2992093)	voltage
+	832	v(xr0.n2992099)	voltage
+	833	v(xr0.n2992105)	voltage
+	834	v(xr0.n2992151)	voltage
+	835	v(xr0.n2992163)	voltage
+	836	v(xr0.n2992235)	voltage
+	837	v(xr0.n2992267)	voltage
+	838	v(xr0.n2992287)	voltage
+	839	v(xr0.n2992295)	voltage
+	840	v(xr0.n2992299)	voltage
+	841	v(xr0.n2992323)	voltage
+	842	v(xr0.n2992331)	voltage
+	843	v(xr0.n2992375)	voltage
+	844	v(xr0.n2992397)	voltage
+	845	v(xr0.n2992413)	voltage
+	846	v(xr0.n3201092)	voltage
+	847	v(xr0.n3294524)	voltage
+	848	v(xr0.n3294618)	voltage
+	849	v(xr0.n3294626)	voltage
+	850	v(xr0.n3294630)	voltage
+	851	v(xr0.n3294682)	voltage
+	852	v(xr0.n3294772)	voltage
+	853	v(xr0.n3294776)	voltage
+	854	v(xr0.n3827259)	voltage
+	855	v(xr0.n3828449)	voltage
+	856	v(xr0.n3850714)	voltage
+	857	v(xr0.n3850724)	voltage
+	858	v(xr0.n4031911)	voltage
+	859	v(xr0.n4243633)	voltage
+	860	v(xr0.n4736080)	voltage
+	861	v(xr0.n4745674)	voltage
+	862	v(xr0.n4747399)	voltage
+	863	v(xr0.n4749239)	voltage
+	864	v(xr0.n4796554)	voltage
+	865	v(xr0.n4796572)	voltage
+	866	v(xr0.n4797748)	voltage
+	867	v(xr0.n4797760)	voltage
+	868	v(xr0.n4798545)	voltage
+	869	v(xr0.n4800105)	voltage
+	870	v(xr0.n4809008)	voltage
+	871	v(xr0.n4817896)	voltage
+	872	v(xr0.n47456861)	voltage
+	873	v(xr0.n47492651)	voltage
+	874	v(xr0.n47965841)	voltage
+	875	v(xr0.n48001371)	voltage
+	876	v(xr0.sw_ol_opa4388)	voltage
+	877	v(xr0.v11)	voltage
+	878	v(xr0.v12)	voltage
+	879	v(xr0.vcc_b)	voltage
+	880	v(xr0.vcc_clp)	voltage
+	881	v(xr0.vclp)	voltage
+	882	v(xr0.vee_b)	voltage
+	883	v(xr0.vee_clp)	voltage
+	884	v(xr0.vimon)	voltage
+	885	v(xr0.vout_s)	voltage
+	886	v(xr0.vsense)	voltage
+	887	v(xr0.x_u4.e1_int1)	voltage
+	888	v(xr0.x_u6.g1_int1)	voltage
+	889	v(xr0.x_u10.gvo+_int1)	voltage
+	890	v(xr0.x_u10.gvo-_int1)	voltage
+	891	v(xr0.x_u11.gvo+_int1)	voltage
+	892	v(xr0.x_u11.gvo-_int1)	voltage
+	893	v(xr0.x_u12.gvo+_int1)	voltage
+	894	v(xr0.x_u12.gvo-_int1)	voltage
+	895	v(xr0.x_u16.gsw+_int1)	voltage
+	896	v(xr0.x_u18.g1_int1)	voltage
+	897	v(xr0.x_u18.g1_int2)	voltage
+	898	v(xr0.x_u19.g1_int1)	voltage
+	899	v(xr0.x_u19.g1_int2)	voltage
+	900	v(xr0.x_u22.g1_int1)	voltage
+	901	v(xr0.x_u23.g1_int1)	voltage
+	902	v(xr0.x_u26.g1_int1)	voltage
+	903	v(xr0.x_u27.g1_int1)	voltage
+	904	v(xr0.x_u30.g1_int1)	voltage
+	905	v(xr0.x_u31.g1_int1)	voltage
+	906	v(xr0.x_u32.g1_int1)	voltage
+	907	v(xr0.x_u35.g1_int1)	voltage
+	908	v(xr0.x_u38.3)	voltage
+	909	v(xr0.x_u38.5)	voltage
+	910	v(xr0.x_u39.3)	voltage
+	911	v(xr0.x_u39.5)	voltage
+	912	v(xr0.x_u40.5)	voltage
+	913	v(xr1.cl_clamp)	voltage
+	914	v(xr1.clamp)	voltage
+	915	v(xr1.claw_clamp)	voltage
+	916	v(xr1.esdn)	voltage
+	917	v(xr1.esdp)	voltage
+	918	v(xr1.mid)	voltage
+	919	v(xr1.n2991553)	voltage
+	920	v(xr1.n2991555)	voltage
+	921	v(xr1.n2991563)	voltage
+	922	v(xr1.n2991573)	voltage
+	923	v(xr1.n2991579)	voltage
+	924	v(xr1.n2991581)	voltage
+	925	v(xr1.n2991583)	voltage
+	926	v(xr1.n2991587)	voltage
+	927	v(xr1.n2991619)	voltage
+	928	v(xr1.n2991623)	voltage
+	929	v(xr1.n2991635)	voltage
+	930	v(xr1.n2991643)	voltage
+	931	v(xr1.n2991657)	voltage
+	932	v(xr1.n2991667)	voltage
+	933	v(xr1.n2991729)	voltage
+	934	v(xr1.n2991741)	voltage
+	935	v(xr1.n2991763)	voltage
+	936	v(xr1.n2991765)	voltage
+	937	v(xr1.n2991807)	voltage
+	938	v(xr1.n2991809)	voltage
+	939	v(xr1.n2991811)	voltage
+	940	v(xr1.n2991831)	voltage
+	941	v(xr1.n2991837)	voltage
+	942	v(xr1.n2991849)	voltage
+	943	v(xr1.n2991901)	voltage
+	944	v(xr1.n2991905)	voltage
+	945	v(xr1.n2991907)	voltage
+	946	v(xr1.n2991925)	voltage
+	947	v(xr1.n2991931)	voltage
+	948	v(xr1.n2991943)	voltage
+	949	v(xr1.n2991969)	voltage
+	950	v(xr1.n2991997)	voltage
+	951	v(xr1.n2992001)	voltage
+	952	v(xr1.n2992029)	voltage
+	953	v(xr1.n2992033)	voltage
+	954	v(xr1.n2992093)	voltage
+	955	v(xr1.n2992099)	voltage
+	956	v(xr1.n2992105)	voltage
+	957	v(xr1.n2992151)	voltage
+	958	v(xr1.n2992163)	voltage
+	959	v(xr1.n2992235)	voltage
+	960	v(xr1.n2992267)	voltage
+	961	v(xr1.n2992287)	voltage
+	962	v(xr1.n2992295)	voltage
+	963	v(xr1.n2992299)	voltage
+	964	v(xr1.n2992323)	voltage
+	965	v(xr1.n2992331)	voltage
+	966	v(xr1.n2992375)	voltage
+	967	v(xr1.n2992397)	voltage
+	968	v(xr1.n2992413)	voltage
+	969	v(xr1.n3201092)	voltage
+	970	v(xr1.n3294524)	voltage
+	971	v(xr1.n3294618)	voltage
+	972	v(xr1.n3294626)	voltage
+	973	v(xr1.n3294630)	voltage
+	974	v(xr1.n3294682)	voltage
+	975	v(xr1.n3294772)	voltage
+	976	v(xr1.n3294776)	voltage
+	977	v(xr1.n3827259)	voltage
+	978	v(xr1.n3828449)	voltage
+	979	v(xr1.n3850714)	voltage
+	980	v(xr1.n3850724)	voltage
+	981	v(xr1.n4031911)	voltage
+	982	v(xr1.n4243633)	voltage
+	983	v(xr1.n4736080)	voltage
+	984	v(xr1.n4745674)	voltage
+	985	v(xr1.n4747399)	voltage
+	986	v(xr1.n4749239)	voltage
+	987	v(xr1.n4796554)	voltage
+	988	v(xr1.n4796572)	voltage
+	989	v(xr1.n4797748)	voltage
+	990	v(xr1.n4797760)	voltage
+	991	v(xr1.n4798545)	voltage
+	992	v(xr1.n4800105)	voltage
+	993	v(xr1.n4809008)	voltage
+	994	v(xr1.n4817896)	voltage
+	995	v(xr1.n47456861)	voltage
+	996	v(xr1.n47492651)	voltage
+	997	v(xr1.n47965841)	voltage
+	998	v(xr1.n48001371)	voltage
+	999	v(xr1.sw_ol_opa4388)	voltage
+	1000	v(xr1.v11)	voltage
+	1001	v(xr1.v12)	voltage
+	1002	v(xr1.vcc_b)	voltage
+	1003	v(xr1.vcc_clp)	voltage
+	1004	v(xr1.vclp)	voltage
+	1005	v(xr1.vee_b)	voltage
+	1006	v(xr1.vee_clp)	voltage
+	1007	v(xr1.vimon)	voltage
+	1008	v(xr1.vout_s)	voltage
+	1009	v(xr1.vsense)	voltage
+	1010	v(xr1.x_u4.e1_int1)	voltage
+	1011	v(xr1.x_u6.g1_int1)	voltage
+	1012	v(xr1.x_u10.gvo+_int1)	voltage
+	1013	v(xr1.x_u10.gvo-_int1)	voltage
+	1014	v(xr1.x_u11.gvo+_int1)	voltage
+	1015	v(xr1.x_u11.gvo-_int1)	voltage
+	1016	v(xr1.x_u12.gvo+_int1)	voltage
+	1017	v(xr1.x_u12.gvo-_int1)	voltage
+	1018	v(xr1.x_u16.gsw+_int1)	voltage
+	1019	v(xr1.x_u18.g1_int1)	voltage
+	1020	v(xr1.x_u18.g1_int2)	voltage
+	1021	v(xr1.x_u19.g1_int1)	voltage
+	1022	v(xr1.x_u19.g1_int2)	voltage
+	1023	v(xr1.x_u22.g1_int1)	voltage
+	1024	v(xr1.x_u23.g1_int1)	voltage
+	1025	v(xr1.x_u26.g1_int1)	voltage
+	1026	v(xr1.x_u27.g1_int1)	voltage
+	1027	v(xr1.x_u30.g1_int1)	voltage
+	1028	v(xr1.x_u31.g1_int1)	voltage
+	1029	v(xr1.x_u32.g1_int1)	voltage
+	1030	v(xr1.x_u35.g1_int1)	voltage
+	1031	v(xr1.x_u38.3)	voltage
+	1032	v(xr1.x_u38.5)	voltage
+	1033	v(xr1.x_u39.3)	voltage
+	1034	v(xr1.x_u39.5)	voltage
+	1035	v(xr1.x_u40.5)	voltage
+	1036	v(xr2.cl_clamp)	voltage
+	1037	v(xr2.clamp)	voltage
+	1038	v(xr2.claw_clamp)	voltage
+	1039	v(xr2.esdn)	voltage
+	1040	v(xr2.esdp)	voltage
+	1041	v(xr2.mid)	voltage
+	1042	v(xr2.n2991553)	voltage
+	1043	v(xr2.n2991555)	voltage
+	1044	v(xr2.n2991563)	voltage
+	1045	v(xr2.n2991573)	voltage
+	1046	v(xr2.n2991579)	voltage
+	1047	v(xr2.n2991581)	voltage
+	1048	v(xr2.n2991583)	voltage
+	1049	v(xr2.n2991587)	voltage
+	1050	v(xr2.n2991619)	voltage
+	1051	v(xr2.n2991623)	voltage
+	1052	v(xr2.n2991635)	voltage
+	1053	v(xr2.n2991643)	voltage
+	1054	v(xr2.n2991657)	voltage
+	1055	v(xr2.n2991667)	voltage
+	1056	v(xr2.n2991729)	voltage
+	1057	v(xr2.n2991741)	voltage
+	1058	v(xr2.n2991763)	voltage
+	1059	v(xr2.n2991765)	voltage
+	1060	v(xr2.n2991807)	voltage
+	1061	v(xr2.n2991809)	voltage
+	1062	v(xr2.n2991811)	voltage
+	1063	v(xr2.n2991831)	voltage
+	1064	v(xr2.n2991837)	voltage
+	1065	v(xr2.n2991849)	voltage
+	1066	v(xr2.n2991901)	voltage
+	1067	v(xr2.n2991905)	voltage
+	1068	v(xr2.n2991907)	voltage
+	1069	v(xr2.n2991925)	voltage
+	1070	v(xr2.n2991931)	voltage
+	1071	v(xr2.n2991943)	voltage
+	1072	v(xr2.n2991969)	voltage
+	1073	v(xr2.n2991997)	voltage
+	1074	v(xr2.n2992001)	voltage
+	1075	v(xr2.n2992029)	voltage
+	1076	v(xr2.n2992033)	voltage
+	1077	v(xr2.n2992093)	voltage
+	1078	v(xr2.n2992099)	voltage
+	1079	v(xr2.n2992105)	voltage
+	1080	v(xr2.n2992151)	voltage
+	1081	v(xr2.n2992163)	voltage
+	1082	v(xr2.n2992235)	voltage
+	1083	v(xr2.n2992267)	voltage
+	1084	v(xr2.n2992287)	voltage
+	1085	v(xr2.n2992295)	voltage
+	1086	v(xr2.n2992299)	voltage
+	1087	v(xr2.n2992323)	voltage
+	1088	v(xr2.n2992331)	voltage
+	1089	v(xr2.n2992375)	voltage
+	1090	v(xr2.n2992397)	voltage
+	1091	v(xr2.n2992413)	voltage
+	1092	v(xr2.n3201092)	voltage
+	1093	v(xr2.n3294524)	voltage
+	1094	v(xr2.n3294618)	voltage
+	1095	v(xr2.n3294626)	voltage
+	1096	v(xr2.n3294630)	voltage
+	1097	v(xr2.n3294682)	voltage
+	1098	v(xr2.n3294772)	voltage
+	1099	v(xr2.n3294776)	voltage
+	1100	v(xr2.n3827259)	voltage
+	1101	v(xr2.n3828449)	voltage
+	1102	v(xr2.n3850714)	voltage
+	1103	v(xr2.n3850724)	voltage
+	1104	v(xr2.n4031911)	voltage
+	1105	v(xr2.n4243633)	voltage
+	1106	v(xr2.n4736080)	voltage
+	1107	v(xr2.n4745674)	voltage
+	1108	v(xr2.n4747399)	voltage
+	1109	v(xr2.n4749239)	voltage
+	1110	v(xr2.n4796554)	voltage
+	1111	v(xr2.n4796572)	voltage
+	1112	v(xr2.n4797748)	voltage
+	1113	v(xr2.n4797760)	voltage
+	1114	v(xr2.n4798545)	voltage
+	1115	v(xr2.n4800105)	voltage
+	1116	v(xr2.n4809008)	voltage
+	1117	v(xr2.n4817896)	voltage
+	1118	v(xr2.n47456861)	voltage
+	1119	v(xr2.n47492651)	voltage
+	1120	v(xr2.n47965841)	voltage
+	1121	v(xr2.n48001371)	voltage
+	1122	v(xr2.sw_ol_opa4388)	voltage
+	1123	v(xr2.v11)	voltage
+	1124	v(xr2.v12)	voltage
+	1125	v(xr2.vcc_b)	voltage
+	1126	v(xr2.vcc_clp)	voltage
+	1127	v(xr2.vclp)	voltage
+	1128	v(xr2.vee_b)	voltage
+	1129	v(xr2.vee_clp)	voltage
+	1130	v(xr2.vimon)	voltage
+	1131	v(xr2.vout_s)	voltage
+	1132	v(xr2.vsense)	voltage
+	1133	v(xr2.x_u4.e1_int1)	voltage
+	1134	v(xr2.x_u6.g1_int1)	voltage
+	1135	v(xr2.x_u10.gvo+_int1)	voltage
+	1136	v(xr2.x_u10.gvo-_int1)	voltage
+	1137	v(xr2.x_u11.gvo+_int1)	voltage
+	1138	v(xr2.x_u11.gvo-_int1)	voltage
+	1139	v(xr2.x_u12.gvo+_int1)	voltage
+	1140	v(xr2.x_u12.gvo-_int1)	voltage
+	1141	v(xr2.x_u16.gsw+_int1)	voltage
+	1142	v(xr2.x_u18.g1_int1)	voltage
+	1143	v(xr2.x_u18.g1_int2)	voltage
+	1144	v(xr2.x_u19.g1_int1)	voltage
+	1145	v(xr2.x_u19.g1_int2)	voltage
+	1146	v(xr2.x_u22.g1_int1)	voltage
+	1147	v(xr2.x_u23.g1_int1)	voltage
+	1148	v(xr2.x_u26.g1_int1)	voltage
+	1149	v(xr2.x_u27.g1_int1)	voltage
+	1150	v(xr2.x_u30.g1_int1)	voltage
+	1151	v(xr2.x_u31.g1_int1)	voltage
+	1152	v(xr2.x_u32.g1_int1)	voltage
+	1153	v(xr2.x_u35.g1_int1)	voltage
+	1154	v(xr2.x_u38.3)	voltage
+	1155	v(xr2.x_u38.5)	voltage
+	1156	v(xr2.x_u39.3)	voltage
+	1157	v(xr2.x_u39.5)	voltage
+	1158	v(xr2.x_u40.5)	voltage
+	1159	v(xr3.cl_clamp)	voltage
+	1160	v(xr3.clamp)	voltage
+	1161	v(xr3.claw_clamp)	voltage
+	1162	v(xr3.esdn)	voltage
+	1163	v(xr3.esdp)	voltage
+	1164	v(xr3.mid)	voltage
+	1165	v(xr3.n2991553)	voltage
+	1166	v(xr3.n2991555)	voltage
+	1167	v(xr3.n2991563)	voltage
+	1168	v(xr3.n2991573)	voltage
+	1169	v(xr3.n2991579)	voltage
+	1170	v(xr3.n2991581)	voltage
+	1171	v(xr3.n2991583)	voltage
+	1172	v(xr3.n2991587)	voltage
+	1173	v(xr3.n2991619)	voltage
+	1174	v(xr3.n2991623)	voltage
+	1175	v(xr3.n2991635)	voltage
+	1176	v(xr3.n2991643)	voltage
+	1177	v(xr3.n2991657)	voltage
+	1178	v(xr3.n2991667)	voltage
+	1179	v(xr3.n2991729)	voltage
+	1180	v(xr3.n2991741)	voltage
+	1181	v(xr3.n2991763)	voltage
+	1182	v(xr3.n2991765)	voltage
+	1183	v(xr3.n2991807)	voltage
+	1184	v(xr3.n2991809)	voltage
+	1185	v(xr3.n2991811)	voltage
+	1186	v(xr3.n2991831)	voltage
+	1187	v(xr3.n2991837)	voltage
+	1188	v(xr3.n2991849)	voltage
+	1189	v(xr3.n2991901)	voltage
+	1190	v(xr3.n2991905)	voltage
+	1191	v(xr3.n2991907)	voltage
+	1192	v(xr3.n2991925)	voltage
+	1193	v(xr3.n2991931)	voltage
+	1194	v(xr3.n2991943)	voltage
+	1195	v(xr3.n2991969)	voltage
+	1196	v(xr3.n2991997)	voltage
+	1197	v(xr3.n2992001)	voltage
+	1198	v(xr3.n2992029)	voltage
+	1199	v(xr3.n2992033)	voltage
+	1200	v(xr3.n2992093)	voltage
+	1201	v(xr3.n2992099)	voltage
+	1202	v(xr3.n2992105)	voltage
+	1203	v(xr3.n2992151)	voltage
+	1204	v(xr3.n2992163)	voltage
+	1205	v(xr3.n2992235)	voltage
+	1206	v(xr3.n2992267)	voltage
+	1207	v(xr3.n2992287)	voltage
+	1208	v(xr3.n2992295)	voltage
+	1209	v(xr3.n2992299)	voltage
+	1210	v(xr3.n2992323)	voltage
+	1211	v(xr3.n2992331)	voltage
+	1212	v(xr3.n2992375)	voltage
+	1213	v(xr3.n2992397)	voltage
+	1214	v(xr3.n2992413)	voltage
+	1215	v(xr3.n3201092)	voltage
+	1216	v(xr3.n3294524)	voltage
+	1217	v(xr3.n3294618)	voltage
+	1218	v(xr3.n3294626)	voltage
+	1219	v(xr3.n3294630)	voltage
+	1220	v(xr3.n3294682)	voltage
+	1221	v(xr3.n3294772)	voltage
+	1222	v(xr3.n3294776)	voltage
+	1223	v(xr3.n3827259)	voltage
+	1224	v(xr3.n3828449)	voltage
+	1225	v(xr3.n3850714)	voltage
+	1226	v(xr3.n3850724)	voltage
+	1227	v(xr3.n4031911)	voltage
+	1228	v(xr3.n4243633)	voltage
+	1229	v(xr3.n4736080)	voltage
+	1230	v(xr3.n4745674)	voltage
+	1231	v(xr3.n4747399)	voltage
+	1232	v(xr3.n4749239)	voltage
+	1233	v(xr3.n4796554)	voltage
+	1234	v(xr3.n4796572)	voltage
+	1235	v(xr3.n4797748)	voltage
+	1236	v(xr3.n4797760)	voltage
+	1237	v(xr3.n4798545)	voltage
+	1238	v(xr3.n4800105)	voltage
+	1239	v(xr3.n4809008)	voltage
+	1240	v(xr3.n4817896)	voltage
+	1241	v(xr3.n47456861)	voltage
+	1242	v(xr3.n47492651)	voltage
+	1243	v(xr3.n47965841)	voltage
+	1244	v(xr3.n48001371)	voltage
+	1245	v(xr3.sw_ol_opa4388)	voltage
+	1246	v(xr3.v11)	voltage
+	1247	v(xr3.v12)	voltage
+	1248	v(xr3.vcc_b)	voltage
+	1249	v(xr3.vcc_clp)	voltage
+	1250	v(xr3.vclp)	voltage
+	1251	v(xr3.vee_b)	voltage
+	1252	v(xr3.vee_clp)	voltage
+	1253	v(xr3.vimon)	voltage
+	1254	v(xr3.vout_s)	voltage
+	1255	v(xr3.vsense)	voltage
+	1256	v(xr3.x_u4.e1_int1)	voltage
+	1257	v(xr3.x_u6.g1_int1)	voltage
+	1258	v(xr3.x_u10.gvo+_int1)	voltage
+	1259	v(xr3.x_u10.gvo-_int1)	voltage
+	1260	v(xr3.x_u11.gvo+_int1)	voltage
+	1261	v(xr3.x_u11.gvo-_int1)	voltage
+	1262	v(xr3.x_u12.gvo+_int1)	voltage
+	1263	v(xr3.x_u12.gvo-_int1)	voltage
+	1264	v(xr3.x_u16.gsw+_int1)	voltage
+	1265	v(xr3.x_u18.g1_int1)	voltage
+	1266	v(xr3.x_u18.g1_int2)	voltage
+	1267	v(xr3.x_u19.g1_int1)	voltage
+	1268	v(xr3.x_u19.g1_int2)	voltage
+	1269	v(xr3.x_u22.g1_int1)	voltage
+	1270	v(xr3.x_u23.g1_int1)	voltage
+	1271	v(xr3.x_u26.g1_int1)	voltage
+	1272	v(xr3.x_u27.g1_int1)	voltage
+	1273	v(xr3.x_u30.g1_int1)	voltage
+	1274	v(xr3.x_u31.g1_int1)	voltage
+	1275	v(xr3.x_u32.g1_int1)	voltage
+	1276	v(xr3.x_u35.g1_int1)	voltage
+	1277	v(xr3.x_u38.3)	voltage
+	1278	v(xr3.x_u38.5)	voltage
+	1279	v(xr3.x_u39.3)	voltage
+	1280	v(xr3.x_u39.5)	voltage
+	1281	v(xr3.x_u40.5)	voltage
+	1282	v(xt0.cl_clamp)	voltage
+	1283	v(xt0.clamp)	voltage
+	1284	v(xt0.claw_clamp)	voltage
+	1285	v(xt0.esdn)	voltage
+	1286	v(xt0.esdp)	voltage
+	1287	v(xt0.mid)	voltage
+	1288	v(xt0.n2991553)	voltage
+	1289	v(xt0.n2991555)	voltage
+	1290	v(xt0.n2991563)	voltage
+	1291	v(xt0.n2991573)	voltage
+	1292	v(xt0.n2991579)	voltage
+	1293	v(xt0.n2991581)	voltage
+	1294	v(xt0.n2991583)	voltage
+	1295	v(xt0.n2991587)	voltage
+	1296	v(xt0.n2991619)	voltage
+	1297	v(xt0.n2991623)	voltage
+	1298	v(xt0.n2991635)	voltage
+	1299	v(xt0.n2991643)	voltage
+	1300	v(xt0.n2991657)	voltage
+	1301	v(xt0.n2991667)	voltage
+	1302	v(xt0.n2991729)	voltage
+	1303	v(xt0.n2991741)	voltage
+	1304	v(xt0.n2991763)	voltage
+	1305	v(xt0.n2991765)	voltage
+	1306	v(xt0.n2991807)	voltage
+	1307	v(xt0.n2991809)	voltage
+	1308	v(xt0.n2991811)	voltage
+	1309	v(xt0.n2991831)	voltage
+	1310	v(xt0.n2991837)	voltage
+	1311	v(xt0.n2991849)	voltage
+	1312	v(xt0.n2991901)	voltage
+	1313	v(xt0.n2991905)	voltage
+	1314	v(xt0.n2991907)	voltage
+	1315	v(xt0.n2991925)	voltage
+	1316	v(xt0.n2991931)	voltage
+	1317	v(xt0.n2991943)	voltage
+	1318	v(xt0.n2991969)	voltage
+	1319	v(xt0.n2991997)	voltage
+	1320	v(xt0.n2992001)	voltage
+	1321	v(xt0.n2992029)	voltage
+	1322	v(xt0.n2992033)	voltage
+	1323	v(xt0.n2992093)	voltage
+	1324	v(xt0.n2992099)	voltage
+	1325	v(xt0.n2992105)	voltage
+	1326	v(xt0.n2992151)	voltage
+	1327	v(xt0.n2992163)	voltage
+	1328	v(xt0.n2992235)	voltage
+	1329	v(xt0.n2992267)	voltage
+	1330	v(xt0.n2992287)	voltage
+	1331	v(xt0.n2992295)	voltage
+	1332	v(xt0.n2992299)	voltage
+	1333	v(xt0.n2992323)	voltage
+	1334	v(xt0.n2992331)	voltage
+	1335	v(xt0.n2992375)	voltage
+	1336	v(xt0.n2992397)	voltage
+	1337	v(xt0.n2992413)	voltage
+	1338	v(xt0.n3201092)	voltage
+	1339	v(xt0.n3294524)	voltage
+	1340	v(xt0.n3294618)	voltage
+	1341	v(xt0.n3294626)	voltage
+	1342	v(xt0.n3294630)	voltage
+	1343	v(xt0.n3294682)	voltage
+	1344	v(xt0.n3294772)	voltage
+	1345	v(xt0.n3294776)	voltage
+	1346	v(xt0.n3827259)	voltage
+	1347	v(xt0.n3828449)	voltage
+	1348	v(xt0.n3850714)	voltage
+	1349	v(xt0.n3850724)	voltage
+	1350	v(xt0.n4031911)	voltage
+	1351	v(xt0.n4243633)	voltage
+	1352	v(xt0.n4736080)	voltage
+	1353	v(xt0.n4745674)	voltage
+	1354	v(xt0.n4747399)	voltage
+	1355	v(xt0.n4749239)	voltage
+	1356	v(xt0.n4796554)	voltage
+	1357	v(xt0.n4796572)	voltage
+	1358	v(xt0.n4797748)	voltage
+	1359	v(xt0.n4797760)	voltage
+	1360	v(xt0.n4798545)	voltage
+	1361	v(xt0.n4800105)	voltage
+	1362	v(xt0.n4809008)	voltage
+	1363	v(xt0.n4817896)	voltage
+	1364	v(xt0.n47456861)	voltage
+	1365	v(xt0.n47492651)	voltage
+	1366	v(xt0.n47965841)	voltage
+	1367	v(xt0.n48001371)	voltage
+	1368	v(xt0.sw_ol_opa4388)	voltage
+	1369	v(xt0.v11)	voltage
+	1370	v(xt0.v12)	voltage
+	1371	v(xt0.vcc_b)	voltage
+	1372	v(xt0.vcc_clp)	voltage
+	1373	v(xt0.vclp)	voltage
+	1374	v(xt0.vee_b)	voltage
+	1375	v(xt0.vee_clp)	voltage
+	1376	v(xt0.vimon)	voltage
+	1377	v(xt0.vout_s)	voltage
+	1378	v(xt0.vsense)	voltage
+	1379	v(xt0.x_u4.e1_int1)	voltage
+	1380	v(xt0.x_u6.g1_int1)	voltage
+	1381	v(xt0.x_u10.gvo+_int1)	voltage
+	1382	v(xt0.x_u10.gvo-_int1)	voltage
+	1383	v(xt0.x_u11.gvo+_int1)	voltage
+	1384	v(xt0.x_u11.gvo-_int1)	voltage
+	1385	v(xt0.x_u12.gvo+_int1)	voltage
+	1386	v(xt0.x_u12.gvo-_int1)	voltage
+	1387	v(xt0.x_u16.gsw+_int1)	voltage
+	1388	v(xt0.x_u18.g1_int1)	voltage
+	1389	v(xt0.x_u18.g1_int2)	voltage
+	1390	v(xt0.x_u19.g1_int1)	voltage
+	1391	v(xt0.x_u19.g1_int2)	voltage
+	1392	v(xt0.x_u22.g1_int1)	voltage
+	1393	v(xt0.x_u23.g1_int1)	voltage
+	1394	v(xt0.x_u26.g1_int1)	voltage
+	1395	v(xt0.x_u27.g1_int1)	voltage
+	1396	v(xt0.x_u30.g1_int1)	voltage
+	1397	v(xt0.x_u31.g1_int1)	voltage
+	1398	v(xt0.x_u32.g1_int1)	voltage
+	1399	v(xt0.x_u35.g1_int1)	voltage
+	1400	v(xt0.x_u38.3)	voltage
+	1401	v(xt0.x_u38.5)	voltage
+	1402	v(xt0.x_u39.3)	voltage
+	1403	v(xt0.x_u39.5)	voltage
+	1404	v(xt0.x_u40.5)	voltage
+	1405	v(xt1.cl_clamp)	voltage
+	1406	v(xt1.clamp)	voltage
+	1407	v(xt1.claw_clamp)	voltage
+	1408	v(xt1.esdn)	voltage
+	1409	v(xt1.esdp)	voltage
+	1410	v(xt1.mid)	voltage
+	1411	v(xt1.n2991553)	voltage
+	1412	v(xt1.n2991555)	voltage
+	1413	v(xt1.n2991563)	voltage
+	1414	v(xt1.n2991573)	voltage
+	1415	v(xt1.n2991579)	voltage
+	1416	v(xt1.n2991581)	voltage
+	1417	v(xt1.n2991583)	voltage
+	1418	v(xt1.n2991587)	voltage
+	1419	v(xt1.n2991619)	voltage
+	1420	v(xt1.n2991623)	voltage
+	1421	v(xt1.n2991635)	voltage
+	1422	v(xt1.n2991643)	voltage
+	1423	v(xt1.n2991657)	voltage
+	1424	v(xt1.n2991667)	voltage
+	1425	v(xt1.n2991729)	voltage
+	1426	v(xt1.n2991741)	voltage
+	1427	v(xt1.n2991763)	voltage
+	1428	v(xt1.n2991765)	voltage
+	1429	v(xt1.n2991807)	voltage
+	1430	v(xt1.n2991809)	voltage
+	1431	v(xt1.n2991811)	voltage
+	1432	v(xt1.n2991831)	voltage
+	1433	v(xt1.n2991837)	voltage
+	1434	v(xt1.n2991849)	voltage
+	1435	v(xt1.n2991901)	voltage
+	1436	v(xt1.n2991905)	voltage
+	1437	v(xt1.n2991907)	voltage
+	1438	v(xt1.n2991925)	voltage
+	1439	v(xt1.n2991931)	voltage
+	1440	v(xt1.n2991943)	voltage
+	1441	v(xt1.n2991969)	voltage
+	1442	v(xt1.n2991997)	voltage
+	1443	v(xt1.n2992001)	voltage
+	1444	v(xt1.n2992029)	voltage
+	1445	v(xt1.n2992033)	voltage
+	1446	v(xt1.n2992093)	voltage
+	1447	v(xt1.n2992099)	voltage
+	1448	v(xt1.n2992105)	voltage
+	1449	v(xt1.n2992151)	voltage
+	1450	v(xt1.n2992163)	voltage
+	1451	v(xt1.n2992235)	voltage
+	1452	v(xt1.n2992267)	voltage
+	1453	v(xt1.n2992287)	voltage
+	1454	v(xt1.n2992295)	voltage
+	1455	v(xt1.n2992299)	voltage
+	1456	v(xt1.n2992323)	voltage
+	1457	v(xt1.n2992331)	voltage
+	1458	v(xt1.n2992375)	voltage
+	1459	v(xt1.n2992397)	voltage
+	1460	v(xt1.n2992413)	voltage
+	1461	v(xt1.n3201092)	voltage
+	1462	v(xt1.n3294524)	voltage
+	1463	v(xt1.n3294618)	voltage
+	1464	v(xt1.n3294626)	voltage
+	1465	v(xt1.n3294630)	voltage
+	1466	v(xt1.n3294682)	voltage
+	1467	v(xt1.n3294772)	voltage
+	1468	v(xt1.n3294776)	voltage
+	1469	v(xt1.n3827259)	voltage
+	1470	v(xt1.n3828449)	voltage
+	1471	v(xt1.n3850714)	voltage
+	1472	v(xt1.n3850724)	voltage
+	1473	v(xt1.n4031911)	voltage
+	1474	v(xt1.n4243633)	voltage
+	1475	v(xt1.n4736080)	voltage
+	1476	v(xt1.n4745674)	voltage
+	1477	v(xt1.n4747399)	voltage
+	1478	v(xt1.n4749239)	voltage
+	1479	v(xt1.n4796554)	voltage
+	1480	v(xt1.n4796572)	voltage
+	1481	v(xt1.n4797748)	voltage
+	1482	v(xt1.n4797760)	voltage
+	1483	v(xt1.n4798545)	voltage
+	1484	v(xt1.n4800105)	voltage
+	1485	v(xt1.n4809008)	voltage
+	1486	v(xt1.n4817896)	voltage
+	1487	v(xt1.n47456861)	voltage
+	1488	v(xt1.n47492651)	voltage
+	1489	v(xt1.n47965841)	voltage
+	1490	v(xt1.n48001371)	voltage
+	1491	v(xt1.sw_ol_opa4388)	voltage
+	1492	v(xt1.v11)	voltage
+	1493	v(xt1.v12)	voltage
+	1494	v(xt1.vcc_b)	voltage
+	1495	v(xt1.vcc_clp)	voltage
+	1496	v(xt1.vclp)	voltage
+	1497	v(xt1.vee_b)	voltage
+	1498	v(xt1.vee_clp)	voltage
+	1499	v(xt1.vimon)	voltage
+	1500	v(xt1.vout_s)	voltage
+	1501	v(xt1.vsense)	voltage
+	1502	v(xt1.x_u4.e1_int1)	voltage
+	1503	v(xt1.x_u6.g1_int1)	voltage
+	1504	v(xt1.x_u10.gvo+_int1)	voltage
+	1505	v(xt1.x_u10.gvo-_int1)	voltage
+	1506	v(xt1.x_u11.gvo+_int1)	voltage
+	1507	v(xt1.x_u11.gvo-_int1)	voltage
+	1508	v(xt1.x_u12.gvo+_int1)	voltage
+	1509	v(xt1.x_u12.gvo-_int1)	voltage
+	1510	v(xt1.x_u16.gsw+_int1)	voltage
+	1511	v(xt1.x_u18.g1_int1)	voltage
+	1512	v(xt1.x_u18.g1_int2)	voltage
+	1513	v(xt1.x_u19.g1_int1)	voltage
+	1514	v(xt1.x_u19.g1_int2)	voltage
+	1515	v(xt1.x_u22.g1_int1)	voltage
+	1516	v(xt1.x_u23.g1_int1)	voltage
+	1517	v(xt1.x_u26.g1_int1)	voltage
+	1518	v(xt1.x_u27.g1_int1)	voltage
+	1519	v(xt1.x_u30.g1_int1)	voltage
+	1520	v(xt1.x_u31.g1_int1)	voltage
+	1521	v(xt1.x_u32.g1_int1)	voltage
+	1522	v(xt1.x_u35.g1_int1)	voltage
+	1523	v(xt1.x_u38.3)	voltage
+	1524	v(xt1.x_u38.5)	voltage
+	1525	v(xt1.x_u39.3)	voltage
+	1526	v(xt1.x_u39.5)	voltage
+	1527	v(xt1.x_u40.5)	voltage
+	1528	v(xt2.cl_clamp)	voltage
+	1529	v(xt2.clamp)	voltage
+	1530	v(xt2.claw_clamp)	voltage
+	1531	v(xt2.esdn)	voltage
+	1532	v(xt2.esdp)	voltage
+	1533	v(xt2.mid)	voltage
+	1534	v(xt2.n2991553)	voltage
+	1535	v(xt2.n2991555)	voltage
+	1536	v(xt2.n2991563)	voltage
+	1537	v(xt2.n2991573)	voltage
+	1538	v(xt2.n2991579)	voltage
+	1539	v(xt2.n2991581)	voltage
+	1540	v(xt2.n2991583)	voltage
+	1541	v(xt2.n2991587)	voltage
+	1542	v(xt2.n2991619)	voltage
+	1543	v(xt2.n2991623)	voltage
+	1544	v(xt2.n2991635)	voltage
+	1545	v(xt2.n2991643)	voltage
+	1546	v(xt2.n2991657)	voltage
+	1547	v(xt2.n2991667)	voltage
+	1548	v(xt2.n2991729)	voltage
+	1549	v(xt2.n2991741)	voltage
+	1550	v(xt2.n2991763)	voltage
+	1551	v(xt2.n2991765)	voltage
+	1552	v(xt2.n2991807)	voltage
+	1553	v(xt2.n2991809)	voltage
+	1554	v(xt2.n2991811)	voltage
+	1555	v(xt2.n2991831)	voltage
+	1556	v(xt2.n2991837)	voltage
+	1557	v(xt2.n2991849)	voltage
+	1558	v(xt2.n2991901)	voltage
+	1559	v(xt2.n2991905)	voltage
+	1560	v(xt2.n2991907)	voltage
+	1561	v(xt2.n2991925)	voltage
+	1562	v(xt2.n2991931)	voltage
+	1563	v(xt2.n2991943)	voltage
+	1564	v(xt2.n2991969)	voltage
+	1565	v(xt2.n2991997)	voltage
+	1566	v(xt2.n2992001)	voltage
+	1567	v(xt2.n2992029)	voltage
+	1568	v(xt2.n2992033)	voltage
+	1569	v(xt2.n2992093)	voltage
+	1570	v(xt2.n2992099)	voltage
+	1571	v(xt2.n2992105)	voltage
+	1572	v(xt2.n2992151)	voltage
+	1573	v(xt2.n2992163)	voltage
+	1574	v(xt2.n2992235)	voltage
+	1575	v(xt2.n2992267)	voltage
+	1576	v(xt2.n2992287)	voltage
+	1577	v(xt2.n2992295)	voltage
+	1578	v(xt2.n2992299)	voltage
+	1579	v(xt2.n2992323)	voltage
+	1580	v(xt2.n2992331)	voltage
+	1581	v(xt2.n2992375)	voltage
+	1582	v(xt2.n2992397)	voltage
+	1583	v(xt2.n2992413)	voltage
+	1584	v(xt2.n3201092)	voltage
+	1585	v(xt2.n3294524)	voltage
+	1586	v(xt2.n3294618)	voltage
+	1587	v(xt2.n3294626)	voltage
+	1588	v(xt2.n3294630)	voltage
+	1589	v(xt2.n3294682)	voltage
+	1590	v(xt2.n3294772)	voltage
+	1591	v(xt2.n3294776)	voltage
+	1592	v(xt2.n3827259)	voltage
+	1593	v(xt2.n3828449)	voltage
+	1594	v(xt2.n3850714)	voltage
+	1595	v(xt2.n3850724)	voltage
+	1596	v(xt2.n4031911)	voltage
+	1597	v(xt2.n4243633)	voltage
+	1598	v(xt2.n4736080)	voltage
+	1599	v(xt2.n4745674)	voltage
+	1600	v(xt2.n4747399)	voltage
+	1601	v(xt2.n4749239)	voltage
+	1602	v(xt2.n4796554)	voltage
+	1603	v(xt2.n4796572)	voltage
+	1604	v(xt2.n4797748)	voltage
+	1605	v(xt2.n4797760)	voltage
+	1606	v(xt2.n4798545)	voltage
+	1607	v(xt2.n4800105)	voltage
+	1608	v(xt2.n4809008)	voltage
+	1609	v(xt2.n4817896)	voltage
+	1610	v(xt2.n47456861)	voltage
+	1611	v(xt2.n47492651)	voltage
+	1612	v(xt2.n47965841)	voltage
+	1613	v(xt2.n48001371)	voltage
+	1614	v(xt2.sw_ol_opa4388)	voltage
+	1615	v(xt2.v11)	voltage
+	1616	v(xt2.v12)	voltage
+	1617	v(xt2.vcc_b)	voltage
+	1618	v(xt2.vcc_clp)	voltage
+	1619	v(xt2.vclp)	voltage
+	1620	v(xt2.vee_b)	voltage
+	1621	v(xt2.vee_clp)	voltage
+	1622	v(xt2.vimon)	voltage
+	1623	v(xt2.vout_s)	voltage
+	1624	v(xt2.vsense)	voltage
+	1625	v(xt2.x_u4.e1_int1)	voltage
+	1626	v(xt2.x_u6.g1_int1)	voltage
+	1627	v(xt2.x_u10.gvo+_int1)	voltage
+	1628	v(xt2.x_u10.gvo-_int1)	voltage
+	1629	v(xt2.x_u11.gvo+_int1)	voltage
+	1630	v(xt2.x_u11.gvo-_int1)	voltage
+	1631	v(xt2.x_u12.gvo+_int1)	voltage
+	1632	v(xt2.x_u12.gvo-_int1)	voltage
+	1633	v(xt2.x_u16.gsw+_int1)	voltage
+	1634	v(xt2.x_u18.g1_int1)	voltage
+	1635	v(xt2.x_u18.g1_int2)	voltage
+	1636	v(xt2.x_u19.g1_int1)	voltage
+	1637	v(xt2.x_u19.g1_int2)	voltage
+	1638	v(xt2.x_u22.g1_int1)	voltage
+	1639	v(xt2.x_u23.g1_int1)	voltage
+	1640	v(xt2.x_u26.g1_int1)	voltage
+	1641	v(xt2.x_u27.g1_int1)	voltage
+	1642	v(xt2.x_u30.g1_int1)	voltage
+	1643	v(xt2.x_u31.g1_int1)	voltage
+	1644	v(xt2.x_u32.g1_int1)	voltage
+	1645	v(xt2.x_u35.g1_int1)	voltage
+	1646	v(xt2.x_u38.3)	voltage
+	1647	v(xt2.x_u38.5)	voltage
+	1648	v(xt2.x_u39.3)	voltage
+	1649	v(xt2.x_u39.5)	voltage
+	1650	v(xt2.x_u40.5)	voltage
+	1651	v(xt3.cl_clamp)	voltage
+	1652	v(xt3.clamp)	voltage
+	1653	v(xt3.claw_clamp)	voltage
+	1654	v(xt3.esdn)	voltage
+	1655	v(xt3.esdp)	voltage
+	1656	v(xt3.mid)	voltage
+	1657	v(xt3.n2991553)	voltage
+	1658	v(xt3.n2991555)	voltage
+	1659	v(xt3.n2991563)	voltage
+	1660	v(xt3.n2991573)	voltage
+	1661	v(xt3.n2991579)	voltage
+	1662	v(xt3.n2991581)	voltage
+	1663	v(xt3.n2991583)	voltage
+	1664	v(xt3.n2991587)	voltage
+	1665	v(xt3.n2991619)	voltage
+	1666	v(xt3.n2991623)	voltage
+	1667	v(xt3.n2991635)	voltage
+	1668	v(xt3.n2991643)	voltage
+	1669	v(xt3.n2991657)	voltage
+	1670	v(xt3.n2991667)	voltage
+	1671	v(xt3.n2991729)	voltage
+	1672	v(xt3.n2991741)	voltage
+	1673	v(xt3.n2991763)	voltage
+	1674	v(xt3.n2991765)	voltage
+	1675	v(xt3.n2991807)	voltage
+	1676	v(xt3.n2991809)	voltage
+	1677	v(xt3.n2991811)	voltage
+	1678	v(xt3.n2991831)	voltage
+	1679	v(xt3.n2991837)	voltage
+	1680	v(xt3.n2991849)	voltage
+	1681	v(xt3.n2991901)	voltage
+	1682	v(xt3.n2991905)	voltage
+	1683	v(xt3.n2991907)	voltage
+	1684	v(xt3.n2991925)	voltage
+	1685	v(xt3.n2991931)	voltage
+	1686	v(xt3.n2991943)	voltage
+	1687	v(xt3.n2991969)	voltage
+	1688	v(xt3.n2991997)	voltage
+	1689	v(xt3.n2992001)	voltage
+	1690	v(xt3.n2992029)	voltage
+	1691	v(xt3.n2992033)	voltage
+	1692	v(xt3.n2992093)	voltage
+	1693	v(xt3.n2992099)	voltage
+	1694	v(xt3.n2992105)	voltage
+	1695	v(xt3.n2992151)	voltage
+	1696	v(xt3.n2992163)	voltage
+	1697	v(xt3.n2992235)	voltage
+	1698	v(xt3.n2992267)	voltage
+	1699	v(xt3.n2992287)	voltage
+	1700	v(xt3.n2992295)	voltage
+	1701	v(xt3.n2992299)	voltage
+	1702	v(xt3.n2992323)	voltage
+	1703	v(xt3.n2992331)	voltage
+	1704	v(xt3.n2992375)	voltage
+	1705	v(xt3.n2992397)	voltage
+	1706	v(xt3.n2992413)	voltage
+	1707	v(xt3.n3201092)	voltage
+	1708	v(xt3.n3294524)	voltage
+	1709	v(xt3.n3294618)	voltage
+	1710	v(xt3.n3294626)	voltage
+	1711	v(xt3.n3294630)	voltage
+	1712	v(xt3.n3294682)	voltage
+	1713	v(xt3.n3294772)	voltage
+	1714	v(xt3.n3294776)	voltage
+	1715	v(xt3.n3827259)	voltage
+	1716	v(xt3.n3828449)	voltage
+	1717	v(xt3.n3850714)	voltage
+	1718	v(xt3.n3850724)	voltage
+	1719	v(xt3.n4031911)	voltage
+	1720	v(xt3.n4243633)	voltage
+	1721	v(xt3.n4736080)	voltage
+	1722	v(xt3.n4745674)	voltage
+	1723	v(xt3.n4747399)	voltage
+	1724	v(xt3.n4749239)	voltage
+	1725	v(xt3.n4796554)	voltage
+	1726	v(xt3.n4796572)	voltage
+	1727	v(xt3.n4797748)	voltage
+	1728	v(xt3.n4797760)	voltage
+	1729	v(xt3.n4798545)	voltage
+	1730	v(xt3.n4800105)	voltage
+	1731	v(xt3.n4809008)	voltage
+	1732	v(xt3.n4817896)	voltage
+	1733	v(xt3.n47456861)	voltage
+	1734	v(xt3.n47492651)	voltage
+	1735	v(xt3.n47965841)	voltage
+	1736	v(xt3.n48001371)	voltage
+	1737	v(xt3.sw_ol_opa4388)	voltage
+	1738	v(xt3.v11)	voltage
+	1739	v(xt3.v12)	voltage
+	1740	v(xt3.vcc_b)	voltage
+	1741	v(xt3.vcc_clp)	voltage
+	1742	v(xt3.vclp)	voltage
+	1743	v(xt3.vee_b)	voltage
+	1744	v(xt3.vee_clp)	voltage
+	1745	v(xt3.vimon)	voltage
+	1746	v(xt3.vout_s)	voltage
+	1747	v(xt3.vsense)	voltage
+	1748	v(xt3.x_u4.e1_int1)	voltage
+	1749	v(xt3.x_u6.g1_int1)	voltage
+	1750	v(xt3.x_u10.gvo+_int1)	voltage
+	1751	v(xt3.x_u10.gvo-_int1)	voltage
+	1752	v(xt3.x_u11.gvo+_int1)	voltage
+	1753	v(xt3.x_u11.gvo-_int1)	voltage
+	1754	v(xt3.x_u12.gvo+_int1)	voltage
+	1755	v(xt3.x_u12.gvo-_int1)	voltage
+	1756	v(xt3.x_u16.gsw+_int1)	voltage
+	1757	v(xt3.x_u18.g1_int1)	voltage
+	1758	v(xt3.x_u18.g1_int2)	voltage
+	1759	v(xt3.x_u19.g1_int1)	voltage
+	1760	v(xt3.x_u19.g1_int2)	voltage
+	1761	v(xt3.x_u22.g1_int1)	voltage
+	1762	v(xt3.x_u23.g1_int1)	voltage
+	1763	v(xt3.x_u26.g1_int1)	voltage
+	1764	v(xt3.x_u27.g1_int1)	voltage
+	1765	v(xt3.x_u30.g1_int1)	voltage
+	1766	v(xt3.x_u31.g1_int1)	voltage
+	1767	v(xt3.x_u32.g1_int1)	voltage
+	1768	v(xt3.x_u35.g1_int1)	voltage
+	1769	v(xt3.x_u38.3)	voltage
+	1770	v(xt3.x_u38.5)	voltage
+	1771	v(xt3.x_u39.3)	voltage
+	1772	v(xt3.x_u39.5)	voltage
+	1773	v(xt3.x_u40.5)	voltage
+Values:
+ 0	5.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.499747346425521e+00
+	2.499747346499705e+00
+	2.499747346499132e+00
+	2.499747346499706e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.500000014517460e+00
+	2.500000014516344e+00
+	2.500000014516338e+00
+	2.500000014517460e+00
+	2.525000251336878e+00
+	2.500000168417024e+00
+	2.500001331091950e+00
+	2.500001331095587e+00
+	2.500001331091950e+00
+	2.500001331095587e+00
+	2.500002228192509e+00
+	2.500002226823644e+00
+	2.500002226679567e+00
+	2.500002228397284e+00
+	-9.496033697653587e-11
+	-2.500229158720937e-14
+	9.714451465470120e-17
+	-1.899214292777618e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.018992164838560e-11
+	-6.526882774940873e-12
+	2.499999516124423e-13
+	4.857225732735060e-17
+	5.320554931652888e-14
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.994679455586499e-11
+	-5.684058074393407e-11
+	-4.926298383983468e-18
+	4.510281037539698e-17
+	5.911677869803615e-14
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.000988854315390e-11
+	1.640087428876026e-10
+	-1.456851432029854e-18
+	7.285838599102590e-17
+	-1.899214292777618e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.020883817155763e-11
+	-6.883687663403510e-11
+	-1.456851432029854e-18
+	7.979727989493313e-17
+	-1.899209098187803e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.026568130567309e-11
+	-1.864158847872926e-10
+	-4.926298383175675e-18
+	5.551115123125783e-17
+	5.911677397607562e-14
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.000988868238494e-11
+	-1.204914776106560e-11
+	-2.495989209885467e-15
+	6.591949208711867e-17
+	-1.899209250185342e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.018385541508906e-11
+	1.181986335928786e-11
+	-2.499458656837420e-15
+	2.775557561562891e-17
+	-1.899209250185342e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.018385541508906e-11
+	-2.451123897848382e-10
+	-2.499458656837420e-15
+	4.510281037539698e-17
+	-1.899209250185342e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.018385541508906e-11
+	1.181986346601401e-11
+	-2.495989209885467e-15
+	2.775557561562891e-17
+	-1.899209250185342e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.018385541508906e-11
+	2.500000168417024e+00
+	2.249999940575809e+00
+	2.500001639545923e+00
+	2.500001639312162e+00
+	2.500001639283688e+00
+	2.500001639559846e+00
+	2.500001639366185e+00
+	2.500001639369797e+00
+	2.500001639366185e+00
+	2.500001639369797e+00
+	2.249999747791208e+00
+	2.249999940575809e+00
+	2.500001639545923e+00
+	2.500001639312162e+00
+	2.500001639283688e+00
+	2.500001639559846e+00
+	-2.499736528882579e-14
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-1.456851431222060e-18
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.469446951953614e-18
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-1.456851432029854e-18
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-4.926298383983468e-18
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-1.456851431222060e-18
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-2.499458656837420e-15
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-2.498001805406602e-15
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-2.499458656837420e-15
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-2.498001805406602e-15
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.080913302255794e-11
+	3.197442310920451e-11
+	3.086597644141875e-11
+	3.086597644141875e-11
+	3.083755473198835e-11
+	3.086597644141875e-11
+	3.086597644141875e-11
+	3.086597644141875e-11
+	3.086597644141875e-11
+	3.086597644141875e-11
+	2.500001639366185e+00
+	2.500001639369797e+00
+	2.500001639366185e+00
+	2.500001639369797e+00
+	1.000000000000000e+00
+	1.000000000000000e+00
+	1.000000000000000e+00
+	1.000000000000000e+00
+	2.500000000000000e+00
+	2.500001485762107e+00
+	2.500001485528334e+00
+	2.500001485499858e+00
+	2.500001485776030e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.499997321160164e+00
+	2.499997321234354e+00
+	2.499997321233782e+00
+	2.499997321234355e+00
+	2.502496264913045e+00
+	2.502496265001448e+00
+	2.502496265001489e+00
+	2.502496265001449e+00
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	6.591949208711867e-17
+	-2.599998749999399e-12
+	2.599996250000648e-12
+	2.500023676854863e-05
+	-5.511000011892975e-08
+	5.511000722435710e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	4.857225732735060e-17
+	-2.599998749999399e-12
+	2.599996250000648e-12
+	-3.419770592028781e-11
+	-5.511005918279466e-08
+	5.510994105506484e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	5.479456135788069e-18
+	-2.599998749999399e-12
+	2.599996250000648e-12
+	7.424304109861224e-10
+	-5.511000011892975e-08
+	5.511000011892975e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	7.285838599102590e-17
+	-2.599998749999400e-12
+	2.599996250000648e-12
+	7.412953188806188e-10
+	-5.511000011892975e-08
+	5.511000011892975e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	7.979727989493313e-17
+	-2.599998749999400e-12
+	2.599996250000648e-12
+	7.411797183772525e-10
+	-5.510999923075133e-08
+	5.511000100710817e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	5.551115123125783e-17
+	-2.599998749999399e-12
+	2.599996250000648e-12
+	7.426212632408700e-10
+	-5.510999478985923e-08
+	5.511000544800027e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	6.591949208711867e-17
+	-2.599998749999398e-12
+	2.599996250000649e-12
+	2.498943762865491e-06
+	-5.510999345759160e-08
+	5.511000678026790e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	4.510281037539698e-17
+	-2.599998749999399e-12
+	2.599996250000649e-12
+	2.498943777078653e-06
+	-5.511000011892975e-08
+	5.511000011892975e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	4.510281037539698e-17
+	-2.599998749999398e-12
+	2.599996250000649e-12
+	2.498943777692247e-06
+	-5.510999567803765e-08
+	5.511000455982185e-08
+	1.500000000000000e-10
+	-1.500000000000000e-10
+	6.000000000000000e-11
+	-6.000000000000000e-11
+	0.000000000000000e+00
+	4.510281037539698e-17
+	-2.599998749999399e-12
+	2.599996250000649e-12
+	2.498943777078761e-06
+	-5.511000011892975e-08
+	5.511000011892975e-08
+	-1.903499913081995e-02
+	2.500000014668331e+00
+	2.499999969831408e+00
+	2.249999780988914e+00
+	2.249999755485033e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	-3.016859158322394e-11
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.525003255365914e+00
+	2.525008798693307e+00
+	2.525003255365914e+00
+	2.500000168417333e+00
+	2.499999969831107e+00
+	2.499998749999496e+00
+	2.499998749999618e+00
+	2.499999669629107e+00
+	2.499999669439307e+00
+	2.499999969831107e+00
+	2.499998499872028e+00
+	2.499999000056633e+00
+	2.499999669439307e+00
+	2.500000169623912e+00
+	2.500000168417333e+00
+	5.099997499998895e+00
+	-9.999750000115196e-02
+	2.500000169623912e+00
+	2.500000169623912e+00
+	2.499998849565801e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	6.249999874999950e+01
+	2.499998749999640e+00
+	2.499998749999640e+00
+	2.499998749999640e+00
+	2.499998749999640e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999640e+00
+	2.499998749999640e+00
+	2.499998749999640e+00
+	2.499998749999640e+00
+	-1.475000012500005e+02
+	2.525008798753015e+00
+	4.984888921404545e+00
+	2.308224805894613e-02
+	2.308224805894613e-02
+	4.984888921404545e+00
+	2.499998694889489e+00
+	2.499998694889496e+00
+	2.499998749999496e+00
+	2.524998986768045e+00
+	2.525000251336878e+00
+	2.525000251336878e+00
+	-5.247499668952407e+01
+	5.752500320025592e+01
+	-5.247499674463408e+01
+	-5.247499668952407e+01
+	5.752500320025592e+01
+	5.752500325536592e+01
+	2.499998749999496e+00
+	4.999997497498896e+00
+	2.502498844290287e-06
+	3.213268123986860e+00
+	2.525003255366151e+00
+	2.525003255365914e+00
+	3.213268082888963e+00
+	2.839650832850622e+00
+	3.212519408167736e+00
+	2.499998750042422e+00
+	2.499998749999618e+00
+	3.213128742932776e+00
+	2.500568797955478e+00
+	2.500252249870213e+00
+	2.499999000028001e+00
+	2.525008798753015e+00
+	2.094999361549382e+00
+	2.546540297025630e+00
+	3.213268123986857e+00
+	3.213268123986857e+00
+	3.213268123986857e+00
+	3.213268123986857e+00
+	3.213268123986869e+00
+	3.213215720094871e+00
+	2.689176800112965e+00
+	3.213199998927275e+00
+	3.213199998927274e+00
+	2.499998750042550e+00
+	2.500252278900462e+00
+	3.213268123986857e+00
+	3.213268123986857e+00
+	3.213268123986869e+00
+	3.213199998927274e+00
+	2.499998749999496e+00
+	2.499998694889489e+00
+	2.499998694889496e+00
+	4.999997499998895e+00
+	4.984888918919655e+00
+	2.525003255365924e+00
+	2.499998848042786e-06
+	2.308225053586262e-02
+	2.524998986768045e+00
+	2.525000251336878e+00
+	2.525008798753015e+00
+	-3.002020000000000e-07
+	1.419624416243437e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.510857871222698e-05
+	2.500023676854868e-02
+	2.307974805955227e-05
+	-2.500023676854868e-02
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.500023676854863e-05
+	0.000000000000000e+00
+	1.206579866401547e-13
+	2.501006024502317e-08
+	7.125599449773290e-01
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.249988153710066e+00
+	2.249932727427222e+00
+	2.249988153710066e+00
+	2.249999940576129e+00
+	2.249999755484747e+00
+	2.499998749999496e+00
+	2.499998724998850e+00
+	2.249999455282746e+00
+	2.249999430335305e+00
+	2.249999755484747e+00
+	2.499998499872028e+00
+	2.499999000056634e+00
+	2.249999430335305e+00
+	2.249999930519910e+00
+	2.249999940576129e+00
+	5.099997499998895e+00
+	-9.999750000115196e-02
+	2.249999930520040e+00
+	2.249999930520040e+00
+	2.499997754473666e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	6.249999874999950e+01
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	-1.475000012500005e+02
+	2.249932727480425e+00
+	4.985064250353647e+00
+	2.344125049612404e-02
+	2.344125049612404e-02
+	4.985064250353647e+00
+	2.499998694889555e+00
+	2.499998694889437e+00
+	2.499998749999496e+00
+	2.499998715801790e+00
+	2.249999747791208e+00
+	2.249999747791208e+00
+	-5.275001179117999e+01
+	5.724998809860001e+01
+	-5.275001184628993e+01
+	-5.275001179117999e+01
+	5.724998809860001e+01
+	5.724998815371007e+01
+	2.499998749999496e+00
+	4.999997497498896e+00
+	2.502498844298777e-06
+	-2.528717779715977e-01
+	2.249988153710024e+00
+	2.249988153710066e+00
+	-2.528716193538356e-01
+	1.189108022394214e+00
+	-2.499908727609181e-01
+	2.499989952534968e+00
+	2.499998724997977e+00
+	-2.523338353513629e-01
+	2.497798644016003e+00
+	2.500252249870214e+00
+	2.499999000028001e+00
+	2.249932727480425e+00
+	2.094999361549383e+00
+	2.034647416165260e+00
+	-2.528717779715981e-01
+	-2.528717779715981e-01
+	-2.528717779715980e-01
+	-2.528717779715980e-01
+	-2.528717779715989e-01
+	-2.526695246082920e-01
+	1.769864108461354e+00
+	-2.526088485992988e-01
+	-2.526088485992997e-01
+	2.499989952842043e+00
+	2.500252278900462e+00
+	-2.528717779715981e-01
+	-2.528717779715980e-01
+	-2.528717779715989e-01
+	-2.526088485992997e-01
+	2.499998749999496e+00
+	2.499998694889555e+00
+	2.499998694889437e+00
+	4.999997499998895e+00
+	4.985064247868581e+00
+	2.249988153710071e+00
+	2.499998848051276e-06
+	2.344125297268153e-02
+	2.499998715801790e+00
+	2.249999747791208e+00
+	2.249932727480425e+00
+	-3.002020000000000e-07
+	-2.499988194795866e-01
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.493324976312959e-05
+	-3.419770600032734e-08
+	2.343875049672168e-05
+	3.419770600032734e-08
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	3.419770586501891e-11
+	-1.005608926208171e-12
+	-2.500661332449639e-07
+	-2.750132479367039e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.500002228408593e+00
+	2.500002229120582e+00
+	2.500002228408593e+00
+	2.500001639546232e+00
+	2.500000014517161e+00
+	2.499998749999496e+00
+	2.499998749999622e+00
+	2.499995344517161e+00
+	2.499995344576404e+00
+	2.500000014517161e+00
+	2.499995602981784e+00
+	2.500001897971614e+00
+	2.499995344576404e+00
+	2.500001639566234e+00
+	2.500001639546232e+00
+	5.099997499998895e+00
+	-9.999750000115196e-02
+	2.500001639566379e+00
+	2.500001639566379e+00
+	2.499998750013348e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	6.249999874999950e+01
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	-1.475000012500005e+02
+	2.500002229179699e+00
+	4.985064244974330e+00
+	2.344123921560427e-02
+	2.344123921560427e-02
+	4.985064244974330e+00
+	2.499998694889495e+00
+	2.499998694889495e+00
+	2.499998749999496e+00
+	2.499999492429906e+00
+	2.500002228192509e+00
+	2.500002228192509e+00
+	-5.249999771648140e+01
+	5.750000217329860e+01
+	-5.249999777159140e+01
+	-5.249999771648140e+01
+	5.750000217329860e+01
+	5.750000222840860e+01
+	2.499998749999496e+00
+	4.999997497498896e+00
+	2.502498844298773e-06
+	2.500050056446670e+00
+	2.500002228408551e+00
+	2.500002228408593e+00
+	2.500050056443715e+00
+	2.500023181641008e+00
+	2.500050002686748e+00
+	2.499998750043994e+00
+	2.499998749999622e+00
+	2.500050046420805e+00
+	2.499998791003830e+00
+	2.501037249469892e+00
+	2.500001897469577e+00
+	2.500002229179699e+00
+	1.186000734139104e+00
+	2.500005224454251e+00
+	2.500050056446668e+00
+	2.500050056446668e+00
+	2.500050056446668e+00
+	2.500050056446668e+00
+	2.500050056446676e+00
+	2.500050052677192e+00
+	2.500012357836857e+00
+	2.500050051546349e+00
+	2.500050051546347e+00
+	2.499998750044028e+00
+	2.501037415115775e+00
+	2.500050056446668e+00
+	2.500050056446668e+00
+	2.500050056446676e+00
+	2.500050051546347e+00
+	2.499998749999496e+00
+	2.499998694889495e+00
+	2.499998694889495e+00
+	4.999997499998895e+00
+	4.985064242489265e+00
+	2.500002228408597e+00
+	2.499998848051272e-06
+	2.344124169216177e-02
+	2.499999492429907e+00
+	2.500002228192509e+00
+	2.500002229179699e+00
+	-4.669999999999999e-06
+	2.889566738772942e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.493325514244615e-05
+	7.424304113712310e-07
+	2.343873921620191e-05
+	-7.424304113712310e-07
+	0.000000000000000e+00
+	0.000000000000000e+00
+	7.424304109861224e-10
+	0.000000000000000e+00
+	2.014664476912564e-15
+	3.479549981477703e-12
+	5.125541747474927e-05
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.500002227039580e+00
+	2.500002227607183e+00
+	2.500002226895252e+00
+	2.500001639312471e+00
+	2.500000014516043e+00
+	2.499998749999496e+00
+	2.499998749999622e+00
+	2.499995344516043e+00
+	2.499995344326248e+00
+	2.500000014516043e+00
+	2.499995602981784e+00
+	2.500001897971614e+00
+	2.499995344326247e+00
+	2.500001639316077e+00
+	2.500001639312471e+00
+	5.099997499998896e+00
+	-9.999750000115196e-02
+	2.500001639316077e+00
+	2.500001639316077e+00
+	2.499998750013342e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	6.249999874999950e+01
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999640e+00
+	2.499998749999640e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	-1.475000012500005e+02
+	2.500002227666300e+00
+	4.985064244982193e+00
+	2.344123923209148e-02
+	2.344123923209148e-02
+	4.985064244982193e+00
+	2.499998694889495e+00
+	2.499998694889495e+00
+	2.499998749999496e+00
+	2.499999491294814e+00
+	2.500002226823644e+00
+	2.500002226823644e+00
+	-5.249999771785041e+01
+	5.750000217192959e+01
+	-5.249999777296041e+01
+	-5.249999771785041e+01
+	5.750000217192959e+01
+	5.750000222703959e+01
+	2.499998749999496e+00
+	4.999997497498897e+00
+	2.502498844298776e-06
+	2.500050021522072e+00
+	2.500002226895488e+00
+	2.500002227039580e+00
+	2.500050021519119e+00
+	2.500023165010246e+00
+	2.500049967798986e+00
+	2.499998750043994e+00
+	2.499998749999622e+00
+	2.500050011503032e+00
+	2.499998790975918e+00
+	2.501037249469892e+00
+	2.500001897469577e+00
+	2.500002227666300e+00
+	1.186000734139104e+00
+	2.500005221637946e+00
+	2.500050021522070e+00
+	2.500050021522070e+00
+	2.500050021522069e+00
+	2.500050021522069e+00
+	2.500050021522078e+00
+	2.500050017755160e+00
+	2.500012348573923e+00
+	2.500050016625085e+00
+	2.500050016625085e+00
+	2.499998750044028e+00
+	2.501037415115775e+00
+	2.500050021522070e+00
+	2.500050021522069e+00
+	2.500050021522078e+00
+	2.500050016625085e+00
+	2.499998749999496e+00
+	2.499998694889495e+00
+	2.499998694889495e+00
+	4.999997499998896e+00
+	4.985064242497128e+00
+	2.500002227039587e+00
+	2.499998848051275e-06
+	2.344124170864898e-02
+	2.499999491294814e+00
+	2.500002226823644e+00
+	2.500002227666300e+00
+	-4.669999999999999e-06
+	2.889316581544676e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.493325513458393e-05
+	7.412953189067650e-07
+	2.343873923268912e-05
+	-7.412953189067650e-07
+	-1.443289932012704e-13
+	0.000000000000000e+00
+	7.412953189657456e-10
+	0.000000000000000e+00
+	3.606598526773030e-16
+	3.477995669243228e-12
+	5.122052743899985e-05
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.500002226895488e+00
+	2.500002227607183e+00
+	2.500002226895488e+00
+	2.500001639283996e+00
+	2.500000014516036e+00
+	2.499998749999496e+00
+	2.499998749999622e+00
+	2.499995344516036e+00
+	2.499995344326242e+00
+	2.500000014516036e+00
+	2.499995602981784e+00
+	2.500001897971614e+00
+	2.499995344326242e+00
+	2.500001639316072e+00
+	2.500001639283996e+00
+	5.099997499998896e+00
+	-9.999750000115196e-02
+	2.500001639316072e+00
+	2.500001639316072e+00
+	2.499998750013342e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	6.249999874999950e+01
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	-1.475000012500005e+02
+	2.500002227666300e+00
+	4.985064244982994e+00
+	2.344123923377058e-02
+	2.344123923377058e-02
+	4.985064244982994e+00
+	2.499998694889495e+00
+	2.499998694889496e+00
+	2.499998749999496e+00
+	2.499999491179214e+00
+	2.500002226679567e+00
+	2.500002226679567e+00
+	-5.249999771799450e+01
+	5.750000217178550e+01
+	-5.249999777310450e+01
+	-5.249999771799450e+01
+	5.750000217178550e+01
+	5.750000222689550e+01
+	2.499998749999496e+00
+	4.999997497498897e+00
+	2.502498844298772e-06
+	2.500050017796782e+00
+	2.500002226895488e+00
+	2.500002226895488e+00
+	2.500050017793829e+00
+	2.500023163236299e+00
+	2.500049964077789e+00
+	2.499998750043994e+00
+	2.499998749999622e+00
+	2.500050007778472e+00
+	2.499998790972941e+00
+	2.501037249469892e+00
+	2.500001897469577e+00
+	2.500002227666300e+00
+	1.186000734139104e+00
+	2.500005221637946e+00
+	2.500050017796779e+00
+	2.500050017796779e+00
+	2.500050017796779e+00
+	2.500050017796779e+00
+	2.500050017796789e+00
+	2.500050014030144e+00
+	2.500012347585876e+00
+	2.500050012900152e+00
+	2.500050012900152e+00
+	2.499998750044028e+00
+	2.501037415115775e+00
+	2.500050017796779e+00
+	2.500050017796779e+00
+	2.500050017796789e+00
+	2.500050012900152e+00
+	2.499998749999496e+00
+	2.499998694889495e+00
+	2.499998694889496e+00
+	4.999997499998896e+00
+	4.985064242497929e+00
+	2.500002226895496e+00
+	2.499998848051272e-06
+	2.344124171032808e-02
+	2.499999491179214e+00
+	2.500002226679567e+00
+	2.500002227666300e+00
+	-4.669999999999999e-06
+	2.889316576215606e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.493325513378322e-05
+	7.411797184886382e-07
+	2.343873923436821e-05
+	-7.411797184886382e-07
+	0.000000000000000e+00
+	0.000000000000000e+00
+	7.411797187280300e-10
+	0.000000000000000e+00
+	3.207503707081116e-15
+	3.477995669243228e-12
+	5.121680624142755e-05
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.500002228613392e+00
+	2.500002229469828e+00
+	2.500002228613392e+00
+	2.500001639560155e+00
+	2.500000014517161e+00
+	2.499998749999496e+00
+	2.499998749999623e+00
+	2.499995344517161e+00
+	2.499995344576404e+00
+	2.500000014517161e+00
+	2.499995602981785e+00
+	2.500001897971615e+00
+	2.499995344576404e+00
+	2.500001639566234e+00
+	2.500001639560155e+00
+	5.099997499998896e+00
+	-9.999750000115196e-02
+	2.500001639566379e+00
+	2.500001639566379e+00
+	2.499998750013350e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999496e+00
+	2.499998749999496e+00
+	6.249999874999950e+01
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-1.475000012500005e+02
+	2.500002229528945e+00
+	4.985064244973009e+00
+	2.344123921283216e-02
+	2.344123921283216e-02
+	4.985064244973009e+00
+	2.499998694889491e+00
+	2.499998694889502e+00
+	2.499998749999496e+00
+	2.499999492620760e+00
+	2.500002228397284e+00
+	2.500002228397284e+00
+	-5.249999771627660e+01
+	5.750000217350340e+01
+	-5.249999777138660e+01
+	-5.249999771627660e+01
+	5.750000217350340e+01
+	5.750000222861340e+01
+	2.499998749999496e+00
+	4.999997497498897e+00
+	2.502498844298773e-06
+	2.500050061918192e+00
+	2.500002228757720e+00
+	2.500002228613392e+00
+	2.500050061915236e+00
+	2.500023184246495e+00
+	2.500050008152812e+00
+	2.499998750043995e+00
+	2.499998749999623e+00
+	2.500050051891258e+00
+	2.499998791008203e+00
+	2.501037249469893e+00
+	2.500001897469577e+00
+	2.500002229528945e+00
+	1.186000734139104e+00
+	2.500005225104167e+00
+	2.500050061918190e+00
+	2.500050061918190e+00
+	2.500050061918190e+00
+	2.500050061918190e+00
+	2.500050061918198e+00
+	2.500050058148311e+00
+	2.500012359288051e+00
+	2.500050057017346e+00
+	2.500050057017346e+00
+	2.499998750044142e+00
+	2.501037415115775e+00
+	2.500050061918190e+00
+	2.500050061918190e+00
+	2.500050061918198e+00
+	2.500050057017346e+00
+	2.499998749999496e+00
+	2.499998694889491e+00
+	2.499998694889502e+00
+	4.999997499998896e+00
+	4.985064242487944e+00
+	2.500002228613397e+00
+	2.499998848051272e-06
+	2.344124168938965e-02
+	2.499999492620760e+00
+	2.500002228397284e+00
+	2.500002229528945e+00
+	-4.669999999999999e-06
+	2.889566737884763e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.493325514376809e-05
+	7.426212631500562e-07
+	2.343873921342979e-05
+	-7.426212631500562e-07
+	0.000000000000000e+00
+	0.000000000000000e+00
+	7.426212635282259e-10
+	0.000000000000000e+00
+	6.223862571153038e-16
+	3.479883048385091e-12
+	5.126088399265427e-05
+	1.443289932012704e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.502496565114058e+00
+	2.502497118664905e+00
+	2.502496565114298e+00
+	2.500001639366494e+00
+	2.500000014668029e+00
+	2.499998749999497e+00
+	2.499998749999623e+00
+	2.499995344668029e+00
+	2.499995344478235e+00
+	2.500000014668029e+00
+	2.499995602981786e+00
+	2.500001897971615e+00
+	2.499995344478235e+00
+	2.500001639468065e+00
+	2.500001639366494e+00
+	5.099997499998895e+00
+	-9.999750000115196e-02
+	2.500001639468209e+00
+	2.500001639468209e+00
+	2.499998759946208e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	6.249999874999950e+01
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	-1.475000012500005e+02
+	2.502497118724082e+00
+	4.985046919555776e+00
+	2.340499407058996e-02
+	2.340499407058996e-02
+	4.985046919555776e+00
+	2.499998694889490e+00
+	2.499998694889503e+00
+	2.499998749999497e+00
+	2.502497693762362e+00
+	2.502496264913045e+00
+	2.502496264913044e+00
+	-5.249750337977593e+01
+	5.750249651000407e+01
+	-5.249750343488594e+01
+	-5.249750337977593e+01
+	5.750249651000407e+01
+	5.750249656511406e+01
+	2.499998749999497e+00
+	4.999997497498896e+00
+	2.502498844297918e-06
+	2.571277751221383e+00
+	2.502496564969688e+00
+	2.502496565114058e+00
+	2.571277747114356e+00
+	2.533941131533728e+00
+	2.571202929902938e+00
+	2.499998750044001e+00
+	2.499998749999623e+00
+	2.571263822483260e+00
+	2.500055716484296e+00
+	2.501037249469893e+00
+	2.500001897469578e+00
+	2.502497118724082e+00
+	1.186000734139105e+00
+	2.504647999052541e+00
+	2.571277751221380e+00
+	2.571277751221380e+00
+	2.571277751221380e+00
+	2.571277751221380e+00
+	2.571277751221388e+00
+	2.571272514354058e+00
+	2.518903841059010e+00
+	2.571270943293860e+00
+	2.571270943293860e+00
+	2.499998750044028e+00
+	2.501037415115775e+00
+	2.571277751221380e+00
+	2.571277751221380e+00
+	2.571277751221388e+00
+	2.571270943293860e+00
+	2.499998749999497e+00
+	2.499998694889490e+00
+	2.499998694889503e+00
+	4.999997499998895e+00
+	4.985046917070727e+00
+	2.502496565114065e+00
+	2.499998848050417e-06
+	2.340499654718371e-02
+	2.502497693762362e+00
+	2.502496264913045e+00
+	2.502497118724082e+00
+	-4.669999999999999e-06
+	2.889468567968123e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.495058056099978e-05
+	2.498943762865302e-03
+	2.340249407118846e-05
+	-2.498943762865302e-03
+	0.000000000000000e+00
+	1.443289932012704e-13
+	2.498943762865684e-06
+	0.000000000000000e+00
+	1.017155110139001e-14
+	2.498514506399374e-09
+	7.120810599917604e-02
+	-1.443289932012704e-13
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.502496565202468e+00
+	2.502497118897736e+00
+	2.502496565202468e+00
+	2.500001639370106e+00
+	2.500000014668029e+00
+	2.499998749999497e+00
+	2.499998749999623e+00
+	2.499995344668029e+00
+	2.499995344478235e+00
+	2.500000014668029e+00
+	2.499995602981786e+00
+	2.500001897971615e+00
+	2.499995344478235e+00
+	2.500001639468065e+00
+	2.500001639370106e+00
+	5.099997499998896e+00
+	-9.999750000115196e-02
+	2.500001639468209e+00
+	2.500001639468209e+00
+	2.499998759945634e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	6.249999874999950e+01
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-1.475000012500005e+02
+	2.502497118956912e+00
+	4.985046919555678e+00
+	2.340499407038399e-02
+	2.340499407038399e-02
+	4.985046919555678e+00
+	2.499998694889497e+00
+	2.499998694889497e+00
+	2.499998749999497e+00
+	2.502497693776576e+00
+	2.502496265001448e+00
+	2.502496265001448e+00
+	-5.249750337968753e+01
+	5.750249651009247e+01
+	-5.249750343479753e+01
+	-5.249750337968753e+01
+	5.750249651009247e+01
+	5.750249656520247e+01
+	2.499998749999497e+00
+	4.999997497498897e+00
+	2.502498844297918e-06
+	2.571277752618367e+00
+	2.502496565202467e+00
+	2.502496565202468e+00
+	2.571277748511340e+00
+	2.533941132198959e+00
+	2.571202931298103e+00
+	2.499998750044001e+00
+	2.499998749999623e+00
+	2.571263823879971e+00
+	2.500055716485413e+00
+	2.501037249469893e+00
+	2.500001897469578e+00
+	2.502497118956912e+00
+	1.186000734139105e+00
+	2.504647999485818e+00
+	2.571277752618364e+00
+	2.571277752618363e+00
+	2.571277752618363e+00
+	2.571277752618363e+00
+	2.571277752618372e+00
+	2.571272515750940e+00
+	2.518903841429527e+00
+	2.571270944690711e+00
+	2.571270944690711e+00
+	2.499998750044028e+00
+	2.501037415115775e+00
+	2.571277752618364e+00
+	2.571277752618363e+00
+	2.571277752618372e+00
+	2.571270944690711e+00
+	2.499998749999497e+00
+	2.499998694889497e+00
+	2.499998694889497e+00
+	4.999997499998896e+00
+	4.985046917070630e+00
+	2.502496565202470e+00
+	2.499998848050417e-06
+	2.340499654697773e-02
+	2.502497693776576e+00
+	2.502496265001448e+00
+	2.502497118956912e+00
+	-4.669999999999999e-06
+	2.889468567968123e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.495058056109848e-05
+	2.498943777078821e-03
+	2.340249407098248e-05
+	-2.498943777078821e-03
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.498943777078707e-06
+	0.000000000000000e+00
+	9.810294937517838e-15
+	2.498370066383870e-09
+	7.120810739479566e-02
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.502496565202509e+00
+	2.502497118897736e+00
+	2.502496565202509e+00
+	2.500001639366494e+00
+	2.500000014668029e+00
+	2.499998749999497e+00
+	2.499998749999623e+00
+	2.499995344668029e+00
+	2.499995344478235e+00
+	2.500000014668029e+00
+	2.499995602981786e+00
+	2.500001897971615e+00
+	2.499995344478235e+00
+	2.500001639468065e+00
+	2.500001639366494e+00
+	5.099997499998895e+00
+	-9.999750000115196e-02
+	2.500001639468209e+00
+	2.500001639468209e+00
+	2.499998759945634e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	6.249999874999950e+01
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-1.475000012500005e+02
+	2.502497118956912e+00
+	4.985046919555673e+00
+	2.340499407037510e-02
+	2.340499407037510e-02
+	4.985046919555673e+00
+	2.499998694889492e+00
+	2.499998694889501e+00
+	2.499998749999497e+00
+	2.502497693777189e+00
+	2.502496265001489e+00
+	2.502496265001489e+00
+	-5.249750337968748e+01
+	5.750249651009252e+01
+	-5.249750343479749e+01
+	-5.249750337968748e+01
+	5.750249651009252e+01
+	5.750249656520251e+01
+	2.499998749999497e+00
+	4.999997497498896e+00
+	2.502498844297921e-06
+	2.571277752501952e+00
+	2.502496565202467e+00
+	2.502496565202509e+00
+	2.571277748394925e+00
+	2.533941132143523e+00
+	2.571202931182142e+00
+	2.499998750044001e+00
+	2.499998749999623e+00
+	2.571263823763580e+00
+	2.500055716485320e+00
+	2.501037249469893e+00
+	2.500001897469578e+00
+	2.502497118956912e+00
+	1.186000734139105e+00
+	2.504647999485818e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501957e+00
+	2.571272515634534e+00
+	2.518903841398651e+00
+	2.571270944574308e+00
+	2.571270944574308e+00
+	2.499998750044028e+00
+	2.501037415115775e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501957e+00
+	2.571270944574308e+00
+	2.499998749999497e+00
+	2.499998694889492e+00
+	2.499998694889501e+00
+	4.999997499998895e+00
+	4.985046917070624e+00
+	2.502496565202513e+00
+	2.499998848050420e-06
+	2.340499654696884e-02
+	2.502497693777189e+00
+	2.502496265001489e+00
+	2.502497118956912e+00
+	-4.669999999999999e-06
+	2.889468567968123e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.495058056110274e-05
+	2.498943777692109e-03
+	2.340249407097359e-05
+	-2.498943777692109e-03
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.498943777692365e-06
+	0.000000000000000e+00
+	1.017155110139001e-14
+	2.498370066383870e-09
+	7.120810727838034e-02
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.502496565202468e+00
+	2.502497118897736e+00
+	2.502496565202468e+00
+	2.500001639370106e+00
+	2.500000014668029e+00
+	2.499998749999497e+00
+	2.499998749999623e+00
+	2.499995344668029e+00
+	2.499995344478235e+00
+	2.500000014668029e+00
+	2.499995602981786e+00
+	2.500001897971615e+00
+	2.499995344478235e+00
+	2.500001639468065e+00
+	2.500001639370106e+00
+	5.099997499998896e+00
+	-9.999750000115196e-02
+	2.500001639468065e+00
+	2.500001639468065e+00
+	2.499998759945634e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	2.499998749999497e+00
+	6.249999874999950e+01
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-5.750000125000050e+01
+	1.524999987499995e+02
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	2.499998749999641e+00
+	-1.475000012500005e+02
+	2.502497118956912e+00
+	4.985046919555678e+00
+	2.340499407038399e-02
+	2.340499407038399e-02
+	4.985046919555678e+00
+	2.499998694889497e+00
+	2.499998694889497e+00
+	2.499998749999497e+00
+	2.502497693776576e+00
+	2.502496265001449e+00
+	2.502496265001449e+00
+	-5.249750337968753e+01
+	5.750249651009247e+01
+	-5.249750343479753e+01
+	-5.249750337968753e+01
+	5.750249651009247e+01
+	5.750249656520247e+01
+	2.499998749999497e+00
+	4.999997497498897e+00
+	2.502498844297918e-06
+	2.571277752501952e+00
+	2.502496565202467e+00
+	2.502496565202468e+00
+	2.571277748394925e+00
+	2.533941132143523e+00
+	2.571202931181688e+00
+	2.499998750044001e+00
+	2.499998749999623e+00
+	2.571263823763579e+00
+	2.500055716485320e+00
+	2.501037249469893e+00
+	2.500001897469578e+00
+	2.502497118956912e+00
+	1.186000734139105e+00
+	2.504647999485818e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501957e+00
+	2.571272515634534e+00
+	2.518903841398651e+00
+	2.571270944574308e+00
+	2.571270944574307e+00
+	2.499998750044028e+00
+	2.501037415115775e+00
+	2.571277752501949e+00
+	2.571277752501949e+00
+	2.571277752501957e+00
+	2.571270944574307e+00
+	2.499998749999497e+00
+	2.499998694889497e+00
+	2.499998694889497e+00
+	4.999997499998896e+00
+	4.985046917070630e+00
+	2.502496565202470e+00
+	2.499998848050417e-06
+	2.340499654697773e-02
+	2.502497693776576e+00
+	2.502496265001449e+00
+	2.502497118956912e+00
+	-4.669999999999999e-06
+	2.889468567968123e-06
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	1.495058056109848e-05
+	2.498943777078821e-03
+	2.340249407098248e-05
+	-2.498943777078821e-03
+	0.000000000000000e+00
+	0.000000000000000e+00
+	2.498943777078707e-06
+	0.000000000000000e+00
+	9.795875048623781e-15
+	2.498370066383870e-09
+	7.120810727792559e-02
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+	0.000000000000000e+00
+

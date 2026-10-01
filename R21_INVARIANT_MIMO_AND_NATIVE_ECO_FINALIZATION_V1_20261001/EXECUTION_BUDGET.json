@@ -1,0 +1,945 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_INVARIANT_MIMO_AND_NATIVE_ECO_FINALIZATION_V1",
+  "ruling": "06",
+  "startedUTC": "2026-10-01T14:32:44.519000+00:00",
+  "totalMaxMinutes": 360,
+  "phase": "P4",
+  "phaseStartedUTC": "2026-10-01T15:16:41.945551+00:00",
+  "limits": {
+    "P0": {
+      "minutes": 90
+    },
+    "P1": {
+      "minutes": 110
+    },
+    "P2": {
+      "minutes": 50
+    },
+    "P3": {
+      "minutes": 80
+    },
+    "P4": {
+      "minutes": 30
+    }
+  },
+  "globalLimits": {
+    "DC_AC_PZ": 160,
+    "diagnostics": 24,
+    "transient": 48,
+    "full_long": 1,
+    "reset_corners": 96,
+    "protocol_tests": 48,
+    "sources": 8,
+    "reset_candidates": 2,
+    "library": 4,
+    "copy": 1,
+    "session": 2,
+    "save": 8,
+    "capture_audit": 4,
+    "ERC": 2,
+    "PDF": 2
+  },
+  "used": {
+    "diagnostics": 9,
+    "DC_AC_PZ": 104
+  },
+  "cases": [
+    {
+      "name": "open_blank_p0",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:47:07.916552+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p1",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:47:07.936359+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p2",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:02.586285+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p6",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:02.603126+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p10",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:06.646725+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p11",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:06.666532+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p12",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:10.209190+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p16",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:10.223746+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p0",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:14.269997+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p1",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:14.285770+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p2",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:15.823794+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p6",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:15.840853+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p10",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:17.396002+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p11",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:17.418305+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p12",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:18.967223+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p16",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:18.986509+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p3",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:20.539164+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p7",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:20.558456+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p13",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:22.109262+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p17",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:22.134740+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p0",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:23.681156+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p10",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:23.699009+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p1",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:25.249170+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p11",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:25.264477+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p2",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:29.327828+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p12",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:29.344895+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p6",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:33.407168+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_p16",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:48:33.422677+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_blank_warm_p6",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T14:50:26.836506+00:00",
+      "commands": [
+        "optran",
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "tian_blank_warm_p16",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T14:50:26.861141+00:00",
+      "commands": [
+        "optran",
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "open_blank_p3",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:02.073970+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p4",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:02.093523+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p5",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:06.160673+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p7",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:06.177343+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p8",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:10.242409+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p9",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:10.260760+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p13",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:13.820746+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p14",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:13.837589+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p15",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:17.917176+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p17",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:17.936986+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p18",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:22.008326+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "open_blank_p19",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:22.029200+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p4",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:26.097703+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p5",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:26.117886+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p8",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:27.673813+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p9",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:27.692358+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p14",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:29.247803+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p15",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:29.264223+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p18",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:30.825951+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "closed_blank_p19",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T14:55:30.845755+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "tian_TIA0_loaded_p0",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T14:57:11.237791+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "tian_TIA0_loaded_p1",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T14:57:11.260848+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    }
+  ],
+  "offlineDiagnostics": [
+    {
+      "name": "frozen_matrix_QZ_scale_replay",
+      "inputCommit": "d152e092101188e6dc57f620f81d52f2e243fb01",
+      "newSPICEAnalyses": 0,
+      "counterCategory": "diagnostics",
+      "detail": "one offline numerical diagnostic; actual new OP/AC/PZ remains0; no runner exemption for new solver"
+    },
+    {
+      "name": "frozen_matrix_QZ_scale_replay",
+      "inputCommit": "d152e092101188e6dc57f620f81d52f2e243fb01",
+      "newSPICEAnalyses": 0,
+      "counterCategory": "diagnostics",
+      "detail": "one offline numerical diagnostic; actual new OP/AC/PZ remains0; no runner exemption for new solver"
+    },
+    {
+      "name": "initial_frozen_Gc_precheck",
+      "evidence": "evidence/EXISTING_GC_PRECHECK.log",
+      "inputCommit": "d152e092101188e6dc57f620f81d52f2e243fb01",
+      "newSPICEAnalyses": 0,
+      "countReconciledBeforePublication": true
+    },
+    {
+      "name": "full_columns_determinant_proxy_initial_readonly_calculation",
+      "evidence": "Initial transient tool calculation now made auditable by explicit offline reexecution script",
+      "newSPICEAnalyses": 0,
+      "countReconciledBeforePublication": true
+    },
+    {
+      "name": "auditable_determinant_proxy_reexecution",
+      "newSPICEAnalyses": 0,
+      "afterScienceSTOP": "offline evidence packaging only; no new SPICE or design"
+    }
+  ],
+  "nativeGate": "NOT_ENTERED",
+  "scienceStopped": true,
+  "newSigmaRule": "ROBUSTNESS_DIAGNOSTIC_ONLY; no 0.20 threshold gate",
+  "phaseHistory": [
+    {
+      "phase": "P0",
+      "from": "2026-10-01T14:32:44.519000+00:00",
+      "to": "2026-10-01T15:16:41.945551+00:00"
+    }
+  ],
+  "scienceStoppedUTC": "2026-10-01T15:04:39.485779+00:00",
+  "scienceStopReason": "INVARIANT_MIMO_METHOD_QUALIFICATION_HOLD: low-frequency generalized eigen loci not fixed-scale invariant in double precision; G0 reference certificate and N=1 object contract unresolved. Determinant finite-axis proxy stays invariant0; no physical instability or changed stable/unstable conclusion asserted.",
+  "technicalReviewEvents": [
+    {
+      "UTC": "2026-10-01T15:04:39.485791+00:00",
+      "reason": "INVARIANT_MIMO_METHOD_QUALIFICATION_HOLD: low-frequency generalized eigen loci not fixed-scale invariant in double precision; G0 reference certificate and N=1 object contract unresolved. Determinant finite-axis proxy stays invariant0; no physical instability or changed stable/unstable conclusion asserted.",
+      "source": "LOW_FREQUENCY_QZ_AND_SCALING.json"
+    }
+  ],
+  "diagnosticAccountingCorrectionUTC": "2026-10-01T15:08:13.012716+00:00",
+  "originalDiagnosticUsedBeforeFullOfflineReconciliation": 6
+}

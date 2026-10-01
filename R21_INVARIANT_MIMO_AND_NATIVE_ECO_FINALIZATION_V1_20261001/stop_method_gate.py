@@ -1,0 +1,14 @@
+import json,datetime,numpy as np
+from pathlib import Path
+from science import ROOT,dump,require_technical_review
+states=[json.loads(p.read_text())for p in(ROOT/'results').glob('*/STATUS.json')];assert len(states)==52 and all(s['status']!='RUNNING'for s in states)
+require_technical_review('INVARIANT_MIMO_METHOD_QUALIFICATION_HOLD: low-frequency generalized eigen loci not fixed-scale invariant in double precision; G0 reference certificate and N=1 object contract unresolved. Determinant finite-axis proxy stays invariant0; no physical instability or changed stable/unstable conclusion asserted.','LOW_FREQUENCY_QZ_AND_SCALING.json')
+f=np.geomspace(.01,300e6,840);s=2j*np.pi*f
+proof=[]
+for name,L in [('knownStableLocal',100/(1+s)),('knownRHPClosedLocal',-2/(1+s))]:
+ g=2*(1+L);reference=g;ratio=g/reference
+ proof.append({'name':name,'couplingRatioEquals1MaxError':float(max(abs(ratio-1))),'TianRatioNotCouplingRminus1':True,'closedCharacteristicZero_rad_s':-101 if name=='knownStableLocal'else 1,'referenceQualificationRequired':True,'literalN1FcPMContractNotSatisfiedByCouplingR':True})
+dump(ROOT/'N1_OBJECT_CONTRACT_PROOF.json',{'proof':proof,'notFixtureMisclassification':'No stable/unstable verdict given without G0 qualification; coupling ratio alone cancels local characteristic zeros. Analytic3 multiloop fixture classification passed.','decision':'Physical scalar Tian reduction and coupling invariant are distinct objects; specification must accept this separation and require independent G0 reference certificate before native gate.'})
+dump(ROOT/'GATES.json',{'INVARIANT_MIMO_METHOD_QUALIFIED':'HOLD low-frequency generalized eigen trajectories numerically scale-sensitive; G0 not qualified','FULL_NETWORK_PORT_CUT_QUALIFIED':'PARTIAL: direct series/shunt crosscheck VCM/VEXC/ROW0 PASS; TIA series/shunt failed, independent loaded2port crosscheck PASS not mislabeled identical topology','MIMO_GENERALIZED_NYQUIST_PASS':'HOLD: finite imaginary-axis determinant proxy0 invariant, missing reference RHP pole/zero/internal certificate and full contour/low-gap qualification','PARTITIONED_COUPLED_DYNAMIC_PASS':'HOLD new transient0','RESET_DIRECT_PATH_25C_DESIGN_PASS':'accepted historical scoped PASS','FAULT_LATENCY_LOGIC_CONTRACT_PASS':'accepted historical offline PASS','native':'NOT_ENTERED','bench':'NOT_RELEASED','CURRENT_D_NORMALIZATION':'REVIEW_ONLY sigma.20 no longer hard gate','LOW_FREQUENCY_NUMERICAL_HOLD':True,'POST_STOP_DIAGNOSTIC_EVIDENCE_ONLY':'previous8 preserved at frozen d152e092 commit, no new solve after this stop'})
+b=json.loads((ROOT/'EXECUTION_BUDGET.json').read_text());assert b['used']['DC_AC_PZ']==104 and b['used']['diagnostics']>=6
+print(json.dumps({'actualProcesses':52,'analyses':104,'diagnostics':b['used']['diagnostics'],'normalTransient':0,'native':0,'scienceSTOP':b['scienceStopped']}))

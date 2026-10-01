@@ -1,0 +1,12 @@
+{
+  "case": "tian_TIA0_loaded_p0",
+  "startedUTC": "2026-10-01T14:57:11.312489+00:00",
+  "limitSeconds": 90.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 49380,
+  "lastProgressTime_s": 0.01,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 1.0257311998866498,
+  "endedUTC": "2026-10-01T14:57:12.338223+00:00"
+}
