@@ -1,0 +1,38 @@
+{
+  "pass_": true,
+  "changed_pins": [
+    {
+      "pin": "J3-1",
+      "before": "V3V3_EXT",
+      "after": "V3V3_EXT_SWD"
+    },
+    {
+      "pin": "J4-1",
+      "before": "V3V3_EXT",
+      "after": "V3V3_EXT_UART"
+    },
+    {
+      "pin": "R_J3_1-1",
+      "before": "V3V3_EXT",
+      "after": "V3V3_EXT_SWD"
+    },
+    {
+      "pin": "R_J4_1-1",
+      "before": "V3V3_EXT",
+      "after": "V3V3_EXT_UART"
+    }
+  ],
+  "remaining_510_pins_unchanged": true,
+  "unchanged_main_supply_members": true,
+  "SWD_members": [
+    "J3-1",
+    "R_J3_1-1"
+  ],
+  "UART_members": [
+    "J4-1",
+    "R_J4_1-1"
+  ],
+  "external_pins_not_directly_same_net": true,
+  "no_component_value_change": true,
+  "not_physical_fault_release": true
+}

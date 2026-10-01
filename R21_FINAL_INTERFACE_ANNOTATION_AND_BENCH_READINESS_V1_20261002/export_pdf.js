@@ -1,0 +1,3 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='02ea8fb2e66040299c1c16192899224e7332b1b47147f009f3b0e759a20328af')throw Error('Wrong09');
+const f=await eda.sch_ManufactureData.getExportDocumentFile('SCIENCE_ADK5556_4X4_R21_REVIEW','PDF',{theme:'Black on White',lineWidth:'Default',size:'Original Size'},'Current Schematic',{range:'All',outputMethod:'Merged sheet'});if(!f)throw Error('Missing PDF');
+const b=new Uint8Array(await f.arrayBuffer());let s='';for(let i=0;i<b.length;i+=16384)s+=String.fromCharCode(...b.subarray(i,i+16384));return {project:pr.uuid,pdf:{name:f.name,size:f.size,type:f.type,constructor:f.constructor.name,tag:Object.prototype.toString.call(f),base64:btoa(s)}};

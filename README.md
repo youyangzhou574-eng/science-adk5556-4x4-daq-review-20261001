@@ -1,3 +1,9 @@
+# Latest: 10 independent SWD/UART sense nets and cold-reopen PASS; review only
+
+[Complete receipt](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/COMPLETE_FINAL_INTERFACE_RECEIPT.md) · [Index](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/README.md) · [Required interface drawing companion](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/INTERFACE_TOPOLOGY_COMPANION.md) · [Annotation addendum](R21_FINAL_INTERFACE_ANNOTATION_AND_BENCH_READINESS_V1_20261002/DRAWING_ANNOTATION_ADDENDUM.md). Actual176parts/514of514/107nets/36NC PASS; exactly four external-side pins split, others unchanged. Final PDF page5 omits four new net labels and inherited R2 notes remain: read the companion and actual pin CSV. Core design reviewed by Pro; real dynamic/accuracy/WCET/fault not validated. BENCH_NOT_RELEASED; no manufacture/power authorization.
+
+---
+
 # Latest: 09 R2.1 native connection and cold-reopen PASS; review only
 
 [Complete receipt](R21_NATIVE_PIN_NET_CORRECTION_AND_FINAL_DRAWING_V1_20261002/COMPLETE_NATIVE_CORRECTION_RECEIPT.md) · [Readable index](R21_NATIVE_PIN_NET_CORRECTION_AND_FINAL_DRAWING_V1_20261002/README.md) · [Drawing annotation addendum](R21_NATIVE_PIN_NET_CORRECTION_AND_FINAL_DRAWING_V1_20261002/DRAWING_ANNOTATION_ADDENDUM.md). Actual 176parts /514of514 connected pins /106nets /36NC PASS before and after independent cold reopen. Six-page vector PDF is engineering readable. Legacy R2 titles/notes remain and must be read with addendum; ERC only count, no details. BENCH_NOT_RELEASED; no fabrication or power authorization. No new simulation or theoretical/tool research. The older08 failed native stays frozen as failed evidence.

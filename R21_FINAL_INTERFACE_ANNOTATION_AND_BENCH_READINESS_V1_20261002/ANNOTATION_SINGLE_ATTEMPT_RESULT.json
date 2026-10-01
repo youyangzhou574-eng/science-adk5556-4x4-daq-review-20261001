@@ -1,0 +1,25 @@
+{
+  "attempts": 1,
+  "API_saved_true": true,
+  "before": {
+    "b04619c3576013b6": "GPIO PB1 pin16 = MCU_ENABLE; PGOOD resets MCU; Schmitt reshapes hardware gate edge",
+    "444b5bc1f6cf9cad": "External SWD/UART/sense lines all4.99k current limited, clamps and rail sink",
+    "c36ec875a1b08785": "Offline SPI: 0-5.12V range0x06, tagged48clk frames, 40kSPS / hardware timing HOLD",
+    "ca31973d2fc998d0": "R2 REVIEW ONLY - MCU_Protected_Interfaces - 5/6"
+  },
+  "after": {
+    "b04619c3576013b6": "GPIO PB1 pin16 = MCU_ENABLE; PGOOD resets MCU; Schmitt reshapes hardware gate edge",
+    "444b5bc1f6cf9cad": "External SWD/UART/sense lines all4.99k current limited, clamps and rail sink",
+    "c36ec875a1b08785": "Offline SPI: 0-5.12V range0x06, tagged48clk frames, 40kSPS / hardware timing HOLD",
+    "ca31973d2fc998d0": "R2 REVIEW ONLY - MCU_Protected_Interfaces - 5/6"
+  },
+  "expected": [
+    "R2.1 REVIEW ONLY - MCU interfaces: independent SWD/UART 3V3 SENSE - 5/6",
+    "J3.1/J4.1 are sense only (NOT power inputs), each4.99k; NRST1k OD/OC VOL<=0.4V HiZ",
+    "8state/288transfers32dummy256valid; epoch/replay/progress/two good frames; 100fps BENCH_PENDING",
+    "SWD series4.99k retained: start about100kHz; normal1-7k/10%; 300us/calibration BENCH_PENDING"
+  ],
+  "actual_text_updated": false,
+  "legacy_other_pages_titles_retained": true,
+  "no_second_attempt": true
+}

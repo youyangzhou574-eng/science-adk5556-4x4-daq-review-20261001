@@ -1,0 +1,9 @@
+{
+  "warm_File_text_replacement": 2,
+  "warm_actual_bytes_utf8_replacement": 0,
+  "cold_File_text_replacement": 0,
+  "cold_actual_bytes_utf8_replacement": 0,
+  "actual_bytes_exact_warm_cold": true,
+  "raw_bytes_authoritative": true,
+  "not_reencoded": true
+}

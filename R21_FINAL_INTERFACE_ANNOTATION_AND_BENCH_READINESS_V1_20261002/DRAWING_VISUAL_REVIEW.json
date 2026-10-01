@@ -1,0 +1,20 @@
+{
+  "pagesRenderedAndActuallyViewed": 6,
+  "generalLayout": "default font, engineering content readable; inherited R2 annotations remain",
+  "page5NewInterfaceNetNamesPrinted": false,
+  "missingPrintedNames": [
+    "J3-1 V3V3_EXT_SWD",
+    "R_J3_1-1 V3V3_EXT_SWD",
+    "J4-1 V3V3_EXT_UART",
+    "R_J4_1-1 V3V3_EXT_UART"
+  ],
+  "standaloneDrawingRelease": false,
+  "companionRequired": [
+    "DRAWING_ANNOTATION_ADDENDUM.md",
+    "INTERFACE_TOPOLOGY_COMPANION.md",
+    "INTERFACE_TOPOLOGY_COMPANION.png",
+    "FINAL_514_PIN_NET_CHECKS.csv"
+  ],
+  "PDFExports": 1,
+  "noMoreNativeEdits": true
+}

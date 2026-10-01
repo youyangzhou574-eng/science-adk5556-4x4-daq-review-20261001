@@ -1,0 +1,130 @@
+{
+  "startedUTC": "2026-10-01T19:24:28.641928+00:00",
+  "totalMaxMinutes": 180,
+  "phase": "P3",
+  "phaseStartedUTC": "2026-10-01T19:38:05.300663+00:00",
+  "limits": {
+    "P0": {
+      "minutes": 45
+    },
+    "P1": {
+      "minutes": 30
+    },
+    "P2": {
+      "minutes": 45
+    },
+    "P3": {
+      "minutes": 60
+    }
+  },
+  "globalLimits": {
+    "workcopy": 1,
+    "session": 2,
+    "save": 2,
+    "captureAudit": 2,
+    "PDF": 1,
+    "ERC": 0,
+    "library": 0,
+    "sources": 0,
+    "candidate": 0,
+    "OP_AC": 0,
+    "transient": 0,
+    "PZ": 0,
+    "MIMO": 0,
+    "descriptor": 0,
+    "reset": 0,
+    "protocol": 0
+  },
+  "used": {
+    "workcopy": 1,
+    "session": 2,
+    "save": 2,
+    "captureAudit": 2,
+    "PDF": 1,
+    "ERC": 0,
+    "library": 0,
+    "sources": 0,
+    "candidate": 0,
+    "OP_AC": 0,
+    "transient": 0,
+    "PZ": 0,
+    "MIMO": 0,
+    "descriptor": 0,
+    "reset": 0,
+    "protocol": 0
+  },
+  "operations": [
+    {
+      "kind": "workcopy",
+      "label": "unique09 cold-PASS source byte copy",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:24:28.676827+00:00"
+    },
+    {
+      "kind": "session",
+      "label": "OPEN_A",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:24:30.330831+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "INTERFACE_SPLIT",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:26:18.078910+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "SPLIT_WARM_CAPTURE",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:26:36.360121+00:00"
+    },
+    {
+      "kind": "save",
+      "label": "ANNOTATION_ONCE",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:27:16.072654+00:00"
+    },
+    {
+      "kind": "session",
+      "label": "OPEN_COLD",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:28:07.277797+00:00"
+    },
+    {
+      "kind": "PDF",
+      "label": "one final merged six-page PDF in cold capture",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:28:10.372480+00:00"
+    },
+    {
+      "kind": "captureAudit",
+      "label": "FINAL_COLD_CAPTURE",
+      "count": 1,
+      "preDebitedUTC": "2026-10-01T19:28:21.385018+00:00"
+    }
+  ],
+  "phaseHistory": [
+    {
+      "phase": "P0",
+      "startedUTC": "2026-10-01T19:24:28.641928+00:00",
+      "endedUTC": "2026-10-01T19:27:14.914283+00:00"
+    },
+    {
+      "phase": "P1",
+      "startedUTC": "2026-10-01T19:27:14.914283+00:00",
+      "endedUTC": "2026-10-01T19:38:05.247143+00:00"
+    },
+    {
+      "phase": "P2",
+      "startedUTC": "2026-10-01T19:38:05.247143+00:00",
+      "endedUTC": "2026-10-01T19:38:05.300663+00:00"
+    }
+  ],
+  "scienceStopped": true,
+  "STOP": "NATIVE_EXECUTION_COMPLETE_HARD_QUOTAS_USED_NO_MORE_EDITS",
+  "technicalExecutionEndedUTC": "2026-10-01T19:30:46.574641+00:00",
+  "actualSaveCalls": 2,
+  "sourceReceiptFrozenUTC": "2026-10-01T19:45:43.639271+00:00",
+  "publicationLifecycleStoredSeparately": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\GITHUB_FINAL_INTERFACE_DELIVERY_20261002",
+  "newNativeOperationsAfterSTOP": 0
+}
