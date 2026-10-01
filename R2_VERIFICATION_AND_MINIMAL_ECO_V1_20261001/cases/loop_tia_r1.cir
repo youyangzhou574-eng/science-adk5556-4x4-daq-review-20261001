@@ -1,0 +1,30 @@
+Nominal tia loop revision 1
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VTEST minus fb DC 0 AC 1
+X1 vcm minus v5 0 drv OPA4388
+RISO drv tap 1k
+RSENSE col fb 10k
+RF tap col 4.99k
+CF tap col 2.2n
+RARRAY col row 200
+VROW row 0 2.4375
+CL col 0 1n
+RADC tap ain 100
+CADC ain 0 10n
+RIN ain 0 1meg
+CHF drv fb 100p
+.control
+set wr_singlescale
+set wr_vecnames
+op
+wrdata op.txt v(drv) v(minus) v(fb)
+ac dec 100 1 100meg
+let loop=-v(fb)/v(minus)
+let loop_real=real(loop)
+let loop_imag=imag(loop)
+wrdata loop.txt loop_real loop_imag
+quit
+.endc
+.end

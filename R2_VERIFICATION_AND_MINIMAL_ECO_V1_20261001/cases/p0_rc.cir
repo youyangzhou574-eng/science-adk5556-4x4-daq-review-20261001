@@ -1,0 +1,12 @@
+RC qualification tau 1 us
+Vin in 0 PULSE(0 1 1u 1n 1n 10u 20u)
+R1 in out 1k
+C1 out 0 1n
+.control
+set wr_singlescale
+set wr_vecnames
+tran 5n 8u
+wrdata trace.txt v(in) v(out)
+quit
+.endc
+.end

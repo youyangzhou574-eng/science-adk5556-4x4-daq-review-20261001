@@ -1,0 +1,9 @@
+term,value,unit,scope,status
+fixed_calibration_line_contact_G,0.108707,percent_G,"Frozen R2 finite six-pattern/selected vectors, two contacts +.1ohm",BOUNDED_ANALYTICAL_INPUT
+fixed_static_INL_G,0.20649351706073674,percent_G,Conservative conversion from0.206068% resistance bound; same-input blank correlation,BOUNDED_ANALYTICAL_INPUT
+two_state_residual_D,0.1282565130260521,percent_G,If both states<=100uV then differential<=200uV; coupled premise UNPROVEN,CONDITIONAL_BOUND
+calibration_standard,,percent_G,Exact standards uncertainty and temperature evidence required,HOLD
+offset_and_bias_drift,,percent_G,Need actual stable coupled operating points and guaranteed family limits,HOLD
+Rf_excitation_reference_drift,,percent_G,Need temp/aging/bias conditions and fixed calibration constants,HOLD
+ADC_quantization,,percent_G,78.125uV/LSB for5.12V span; signal/code dependence not folded into INL again,HOLD
+frame_noise_repeatability,,std_percent_G,Separate stochastic quantity; synthetic averaging is not measured<=.2%,HOLD

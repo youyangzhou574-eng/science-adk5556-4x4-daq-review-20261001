@@ -1,0 +1,121 @@
+Coupled 4x4 eight state actual amplifiers r2
+.options klu
+.include "../../models/OPA4388_ORIGINAL.LIB"
+.include "../../models/OPAx388.LIB"
+V5 v5 0 5.0
+VREF ref 0 2.5
+RCM_IN ref vcm_cmd 1k
+XCM vcm_cmd cmfb v5 0 cmdrv OPAx388
+RCMISO cmdrv vcm 1k
+RCMFB vcm cmfb 4.99k
+CCMHF cmdrv cmfb 100p
+CCML vcm 0 1n
+RUP vcm vexcmd 90k
+RDN vexcmd 0 10k
+XEX vexcmd exfb v5 0 exdrv OPAx388
+REXISO exdrv vexc 1k
+REXFB vexc exfb 4.99k
+CEXHF exdrv exfb 100p
+CEXL vexc 0 1n
+.model MUX SW(Ron=5 Roff=1e12 Vt=.5 Vh=.1)
+VSEL0 sel0 0 PULSE(0 1 0.0012 10n 10n 1.2m 10m)
+BNS0 ns0 0 V=1-V(sel0)
+SA0 vexc cmd0 sel0 0 MUX
+SB0 vcm cmd0 ns0 0 MUX
+XR0 cmd0 fb0 v5 0 drv0 OPA4388
+RISO0 drv0 row0 1k
+RFB0 row0 fb0 4.99k
+CHF0 drv0 fb0 100p
+CLROW0 row0 0 1n
+VSEL1 sel1 0 PULSE(0 1 0.0036 10n 10n 1.2m 10m)
+BNS1 ns1 0 V=1-V(sel1)
+SA1 vexc cmd1 sel1 0 MUX
+SB1 vcm cmd1 ns1 0 MUX
+XR1 cmd1 fb1 v5 0 drv1 OPA4388
+RISO1 drv1 row1 1k
+RFB1 row1 fb1 4.99k
+CHF1 drv1 fb1 100p
+CLROW1 row1 0 1n
+VSEL2 sel2 0 PULSE(0 1 0.005999999999999999 10n 10n 1.2m 10m)
+BNS2 ns2 0 V=1-V(sel2)
+SA2 vexc cmd2 sel2 0 MUX
+SB2 vcm cmd2 ns2 0 MUX
+XR2 cmd2 fb2 v5 0 drv2 OPA4388
+RISO2 drv2 row2 1k
+RFB2 row2 fb2 4.99k
+CHF2 drv2 fb2 100p
+CLROW2 row2 0 1n
+VSEL3 sel3 0 PULSE(0 1 0.0084 10n 10n 1.2m 10m)
+BNS3 ns3 0 V=1-V(sel3)
+SA3 vexc cmd3 sel3 0 MUX
+SB3 vcm cmd3 ns3 0 MUX
+XR3 cmd3 fb3 v5 0 drv3 OPA4388
+RISO3 drv3 row3 1k
+RFB3 row3 fb3 4.99k
+CHF3 drv3 fb3 100p
+CLROW3 row3 0 1n
+XT0 vcm minus0 v5 0 tdrv0 OPA4388
+RSENSE0 col0 minus0 10k
+RTISO0 tdrv0 tap0 1k
+RF0 tap0 col0 4.99k
+CF0 tap0 col0 2.2n
+CHFT0 tdrv0 minus0 22p
+RADC0 tap0 ain0 100
+CADC0 ain0 0 10n
+RIN0 ain0 0 1meg
+CLCOL0 col0 0 1n
+RA0_0 row0 col0 800
+RA1_0 row1 col0 800
+RA2_0 row2 col0 800
+RA3_0 row3 col0 800
+XT1 vcm minus1 v5 0 tdrv1 OPA4388
+RSENSE1 col1 minus1 10k
+RTISO1 tdrv1 tap1 1k
+RF1 tap1 col1 4.99k
+CF1 tap1 col1 2.2n
+CHFT1 tdrv1 minus1 22p
+RADC1 tap1 ain1 100
+CADC1 ain1 0 10n
+RIN1 ain1 0 1meg
+CLCOL1 col1 0 1n
+RA0_1 row0 col1 800
+RA1_1 row1 col1 800
+RA2_1 row2 col1 800
+RA3_1 row3 col1 800
+XT2 vcm minus2 v5 0 tdrv2 OPA4388
+RSENSE2 col2 minus2 10k
+RTISO2 tdrv2 tap2 1k
+RF2 tap2 col2 4.99k
+CF2 tap2 col2 2.2n
+CHFT2 tdrv2 minus2 22p
+RADC2 tap2 ain2 100
+CADC2 ain2 0 10n
+RIN2 ain2 0 1meg
+CLCOL2 col2 0 1n
+RA0_2 row0 col2 800
+RA1_2 row1 col2 800
+RA2_2 row2 col2 800
+RA3_2 row3 col2 800
+XT3 vcm minus3 v5 0 tdrv3 OPA4388
+RSENSE3 col3 minus3 10k
+RTISO3 tdrv3 tap3 1k
+RF3 tap3 col3 4.99k
+CF3 tap3 col3 2.2n
+CHFT3 tdrv3 minus3 22p
+RADC3 tap3 ain3 100
+CADC3 ain3 0 10n
+RIN3 ain3 0 1meg
+CLCOL3 col3 0 1n
+RA0_3 row0 col3 800
+RA1_3 row1 col3 800
+RA2_3 row2 col3 800
+RA3_3 row3 col3 800
+.save v(ain0) v(ain1) v(ain2) v(ain3) v(row0) v(row1) v(row2) v(row3) v(drv0) v(drv1) v(drv2) v(drv3) v(tdrv0) v(tdrv1) v(tdrv2) v(tdrv3) v(vcm) v(vexc) v(cmdrv) v(exdrv) i(V5)
+.control
+set wr_singlescale
+set wr_vecnames
+tran 500n 9.6m 0 500n
+wrdata trace.txt v(ain0) v(ain1) v(ain2) v(ain3) v(row0) v(row1) v(row2) v(row3) v(drv0) v(drv1) v(drv2) v(drv3) v(tdrv0) v(tdrv1) v(tdrv2) v(tdrv3) v(vcm) v(vexc) v(cmdrv) v(exdrv) i(V5)
+quit
+.endc
+.end

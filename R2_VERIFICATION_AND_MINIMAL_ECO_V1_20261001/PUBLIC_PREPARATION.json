@@ -1,0 +1,22 @@
+{
+  "scope": "only R21 circuit",
+  "credential_pattern_hits": 0,
+  "sanitized_files": [
+    {
+      "path": "sources/NGSPICE_DOWNLOAD_DIAGNOSIS.json",
+      "local_sha256": "D2658A55CF36CAC92B2467F0E0BCAD546B225C77E4F5BA52EFA4247A3D79DE3A",
+      "public_sha256": "65FD2C5CE78299564FA18DEE76BD929C878D3F13301C70B8F3AB45FDD73CE677",
+      "action": "SANITIZED_HTTP_EPHEMERAL_HEADERS_AND_QUERY"
+    },
+    {
+      "path": "sources/NGSPICE_MIRROR_DOWNLOAD.json",
+      "local_sha256": "ADF1B2B54680899CD39E8B1D581F5A9FAD7302B10F834B35E8D8AC1E2067DBC3",
+      "public_sha256": "D58B7296003EAAE294AD92ECBACA6AED758A21F50CD856667F188C63C68891E5",
+      "action": "SANITIZED_HTTP_EPHEMERAL_HEADERS_AND_QUERY"
+    }
+  ],
+  "source_mapping": "PUBLIC_SOURCE_MAPPING.csv",
+  "baseline_native_unchanged": true,
+  "csv_exports": 17,
+  "license_notes": "Original manufacturer and ngspice source/distribution notices retained inside supplied original packages; no modified manufacturer models."
+}

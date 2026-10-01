@@ -1,0 +1,28 @@
+{
+  "url": "https://www.ti.com/lit/zip/sbomab3",
+  "sha256": "14de8e547579764770304c6f973b9a698f84d723d042962ff4522e5290e2d116",
+  "members": [
+    "OPAx388.LIB",
+    "OPAx388.LIBsig",
+    "OPAx388.OLB",
+    "OPAx388_Test_Circuit-PSpiceFiles/",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.mrk",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain/Aol_Gain.prb",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/Aol_Gain.sim",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.mrk",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS/TRANS.prb",
+    "OPAx388_Test_Circuit-PSpiceFiles/SCHEMATIC/TRANS.sim",
+    "OPAx388_Test_Circuit.DSN",
+    "OPAx388_Test_Circuit.OPJ"
+  ],
+  "libraries": [
+    {
+      "name": "OPAx388.LIB",
+      "saved": "OPAx388.LIB",
+      "sha256": "bb9c6c7ac80dc7ff1ac5b698c05c53f0a8d55babb1ab210150d9bd910a6bf8e4"
+    }
+  ]
+}

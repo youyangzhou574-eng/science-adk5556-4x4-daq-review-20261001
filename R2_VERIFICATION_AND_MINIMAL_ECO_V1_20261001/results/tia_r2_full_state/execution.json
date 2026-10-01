@@ -1,0 +1,18 @@
+{
+  "command": [
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "-n",
+    "-D",
+    "ngbehavior=psa",
+    "-b",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\cases\\tia_r2_full_state.cir"
+  ],
+  "cwd": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\results\\tia_r2_full_state",
+  "category": "normal_transients",
+  "qualification": false,
+  "compatibility": true,
+  "started_utc": "2026-10-01T08:43:01.640550+00:00",
+  "input_sha256": "26898bf75fb4846401aba6e4be57c1be78c3380f1f2945ff027e739dee48a334",
+  "exit_code": 0,
+  "elapsed_seconds": 0.9526804001070559
+}

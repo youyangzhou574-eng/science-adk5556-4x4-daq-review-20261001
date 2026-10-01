@@ -1,0 +1,19 @@
+{
+  "url": "https://sourceforge.net/projects/ngspice/files/ng-spice-rework/47/ngspice-47_64.7z/download",
+  "error": "HTTP Error 403: Forbidden",
+  "headers": {
+    "Date": "Thu, 01 Oct 2026 08:13:03 GMT",
+    "Content-Type": "text/plain",
+    "Content-Length": "2",
+    "Connection": "close",
+    "Cache-Control": "private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "Expires": "Thu, 01 Jan 1970 00:00:01 GMT",
+    "Referrer-Policy": "same-origin",
+    "X-Frame-Options": "SAMEORIGIN",
+    "set-cookie": "[REDACTED_EPHEMERAL_HEADER]",
+    "Server": "cloudflare",
+    "CF-RAY": "a43a01830ef68be0-NRT",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "body_excerpt": "no"
+}

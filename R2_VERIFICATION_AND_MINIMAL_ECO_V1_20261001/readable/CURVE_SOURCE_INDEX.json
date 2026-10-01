@@ -1,0 +1,121 @@
+[
+  {
+    "csv": "readable/loop_common_opax388_r1_settled_loop.csv",
+    "source": "results/loop_common_opax388_r1_settled/loop.txt",
+    "source_sha256": "A4EAA598982F0E700DB7529F0003A753EF78DE7644B145A2E7FAAB539CF9DDA1",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_common_r0_loop.csv",
+    "source": "results/loop_common_r0/loop.txt",
+    "source_sha256": "0C8C415748D5F532D00CC7CA87F80132AE1A5617ADB1E61BC534ABF360CFCC9E",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_common_r1_loop.csv",
+    "source": "results/loop_common_r1/loop.txt",
+    "source_sha256": "8D6A4580FC5337F02AAFF40E7E4A40B9A97EFC4AE41C34B097CF06DFAFECC470",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_common_r1_settled_loop.csv",
+    "source": "results/loop_common_r1_settled/loop.txt",
+    "source_sha256": "B13FF7979855821C095F21A91BFD0080BFCEAFAA9EED71187BC85B80BD203ABB",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_row_r0_loop.csv",
+    "source": "results/loop_row_r0/loop.txt",
+    "source_sha256": "DE9CD89C5AA184E6ECCAA87E112C40AA2C8791C2BF21C46C8A61F197B61C6EDF",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_row_r1_loop.csv",
+    "source": "results/loop_row_r1/loop.txt",
+    "source_sha256": "E5BB5312BFFDC98AD3DC500F41E5F762478DA2CECF5AE53CC4EC85869C9740D9",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_row_r1_settled_loop.csv",
+    "source": "results/loop_row_r1_settled/loop.txt",
+    "source_sha256": "BD98491344806BA6C97C9998ACB81405FA7E32A7B273E3DE10D2C22C53D7CEB2",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_tia_r0_loop.csv",
+    "source": "results/loop_tia_r0/loop.txt",
+    "source_sha256": "B346D2C230A9C624AAF382954BE330EFF34DE0767A78CF5F8DB934872B82C880",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_tia_r1_loop.csv",
+    "source": "results/loop_tia_r1/loop.txt",
+    "source_sha256": "B78CABA9A6DC7EA26947CF294AF43C651009AB1B4D795DB83194C19DF0FA1F0B",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_tia_r1_settled_loop.csv",
+    "source": "results/loop_tia_r1_settled/loop.txt",
+    "source_sha256": "D31970C2716374054BDB778EA4C905E340B1D19AAC258B922701066A0382F759",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/loop_tia_r2_settled_loop.csv",
+    "source": "results/loop_tia_r2_settled/loop.txt",
+    "source_sha256": "A8C1BB03D053774585650EF22DEF4925AE00DE9DF512B14720D0204CE9976575",
+    "rows": 801,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/p0_opa_psa_trace.csv",
+    "source": "results/p0_opa_psa/trace.txt",
+    "source_sha256": "D9FFDE6D7170F7B285E5734F14F2E31E3EE25A3F1DBBFFFB355D4781248A18FA",
+    "rows": 2191,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/p0_opax388_psa_trace.csv",
+    "source": "results/p0_opax388_psa/trace.txt",
+    "source_sha256": "43CB07000B5EF41F86D8377D0CE6EE1AFD791B8A9CCC484F2A62E71F78DC64D9",
+    "rows": 2118,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/p0_rc_trace.csv",
+    "source": "results/p0_rc/trace.txt",
+    "source_sha256": "7F79124E379060C68D715BB3053BF62DD14DC2BEBD45A5AB400D428F01493D89",
+    "rows": 1619,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/tia_r1_tran_trace.csv",
+    "source": "results/tia_r1_tran/trace.txt",
+    "source_sha256": "AE769DDE4A560EF12E4DB8145F345DF842DCF9B9315A73C32B029F96765B848F",
+    "rows": 4152,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/tia_r2_full_state_trace.csv",
+    "source": "results/tia_r2_full_state/trace.txt",
+    "source_sha256": "092B744A5E0BEAD5DAAE820BE5F75D9A296A603EF368E783DCDA668FB36E5189",
+    "rows": 9602,
+    "scope": "exact text-column export, no new simulation"
+  },
+  {
+    "csv": "readable/tia_r2_tran_trace.csv",
+    "source": "results/tia_r2_tran/trace.txt",
+    "source_sha256": "4A2DE6C6E392C95FF998C5DDB611854928F1CB1122F80AE07CB7F8607D26EE22",
+    "rows": 5635,
+    "scope": "exact text-column export, no new simulation"
+  }
+]

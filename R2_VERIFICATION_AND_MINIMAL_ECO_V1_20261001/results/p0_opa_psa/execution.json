@@ -1,0 +1,18 @@
+{
+  "command": [
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "-n",
+    "-D",
+    "ngbehavior=psa",
+    "-b",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\cases\\p0_opa_psa.cir"
+  ],
+  "cwd": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\results\\p0_opa_psa",
+  "category": "normal_transients",
+  "qualification": true,
+  "compatibility": true,
+  "started_utc": "2026-10-01T08:16:23.086249+00:00",
+  "input_sha256": "969aa7ebb6b1491eb6d4043530bec992b79ff74430d378e59f45639271d2d3a6",
+  "exit_code": 0,
+  "elapsed_seconds": 0.25206559989601374
+}

@@ -1,0 +1,22 @@
+Nominal common loop revision 0
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VTEST minus fb DC 0 AC 1
+VREF cmd 0 2.5
+X1 cmd minus v5 0 drv OPA4388
+RISO drv tap 1k
+CL tap 0 1n
+RLOAD tap 0 1meg
+VFB tap fb 0
+.control
+set wr_singlescale
+set wr_vecnames
+ac dec 100 1 100meg
+let loop=-v(fb)/v(minus)
+let loop_real=real(loop)
+let loop_imag=imag(loop)
+wrdata loop.txt loop_real loop_imag
+quit
+.endc
+.end

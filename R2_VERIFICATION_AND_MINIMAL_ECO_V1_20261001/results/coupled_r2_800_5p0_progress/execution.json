@@ -1,0 +1,23 @@
+{
+  "pid": 54804,
+  "command": [
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "-n",
+    "-D",
+    "ngbehavior=psa",
+    "-b",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\cases\\coupled_r2_800_5p0_progress.cir"
+  ],
+  "started_utc": "2026-10-01T08:33:30.537617+00:00",
+  "category": "normal_transients",
+  "owner": "R2.1 only",
+  "status": "STOPPED_OWNED_PROCESS_AFTER_NUMERICAL_STAGNATION",
+  "initialization": "default DC source stepping, no fixed 2 ms optran; preserve and validate actual DC/transient data",
+  "limit_minutes": 10,
+  "exit_code": "FORCED_STOP_NOT_NORMAL_EXIT",
+  "finished_utc": "2026-10-01T08:45:27.456560+00:00",
+  "last_reference_time_seconds": 1.34981e-05,
+  "requested_stop_minutes": 10,
+  "actual_wall_minutes": 11.9486492,
+  "timing_limit_note": "manual observation passed the internal10min timer; record actual walltime, no strict internal10min PASS claim; official P2<=90min remains"
+}

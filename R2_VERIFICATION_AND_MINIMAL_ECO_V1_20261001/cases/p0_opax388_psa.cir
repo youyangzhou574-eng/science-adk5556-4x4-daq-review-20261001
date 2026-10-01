@@ -1,0 +1,15 @@
+OPAx388 original model unity follower 2.5 V plus 10 mV step
+.include "../../models/OPAx388.LIB"
+Vdd vdd 0 5
+Vin inp 0 PULSE(2.5 2.51 20u 10n 10n 40u 100u)
+X1 inp out vdd 0 out OPAx388
+Rload out 0 10k
+Cload out 0 10p
+.control
+set wr_singlescale
+set wr_vecnames
+tran 50n 80u
+wrdata trace.txt v(inp) v(out)
+quit
+.endc
+.end

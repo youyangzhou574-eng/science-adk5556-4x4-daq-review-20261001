@@ -1,0 +1,275 @@
+{
+  "corner_count": 32,
+  "input_low_max_V": 0.5550170299923016,
+  "disconnected_high_min_V": 2.8276499999999998,
+  "NRST_VIL_min_V": 0.9195,
+  "reset_sink_load_upper_A": 0.0005376363636363636,
+  "G07_VOL_reference_V": 0.4,
+  "off_external_positive_V3_upper_V": 0.013665094696345362,
+  "negative_fault_current_upper_A": 0.00111333778668448,
+  "old_divider_nominal_V": 1.0985323549032688,
+  "status": "DIVIDER_CONFLICT_REMOVED_IN_CANDIDATE; FULL_RESET_GATE_HOLD",
+  "holds": [
+    "Schmitt threshold guaranteed envelope for entire rail range not explicitly available in source table",
+    "normal open drain leakage/release allocation not independently guaranteed",
+    "negative fault comparison is absolute current limit, not continuous thermal proof"
+  ],
+  "corners": [
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.2718489421042508
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.3165084343142912
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.26653018721582294
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.3112747206168277
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.27680411955423606
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.32227765101347877
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.2713978361223312
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.3169595402962108
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.4526529428736295
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.4973124350836699
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.44767847733547544
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.4924230107364802
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.4572582216564313
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.502731753115674
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.45220183689170995
+    },
+    {
+      "vdd": 3.065,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.49776354106558957
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.3231982400461627
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.3678577322562031
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.31695851114575246
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.3617030445467572
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.3290893964308637
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.3745629278901064
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.3227471340642431
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.3683088382381227
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.5040022408155415
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.5486617330255819
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.49810680126540496
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 4940.1,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.5428513346664098
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.5095434985330589
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 46530.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.5550170299923016
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": -5e-06,
+      "input_low_V": 0.5035511348336219
+    },
+    {
+      "vdd": 3.6,
+      "external_low": 0.2,
+      "series_ohm": 5039.9,
+      "pullup_ohm": 47470.0,
+      "gate_input_leak_A": 5e-06,
+      "input_low_V": 0.5491128390075014
+    }
+  ]
+}

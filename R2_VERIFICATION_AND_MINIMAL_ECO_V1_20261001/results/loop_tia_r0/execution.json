@@ -1,0 +1,18 @@
+{
+  "command": [
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "-n",
+    "-D",
+    "ngbehavior=psa",
+    "-b",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\cases\\loop_tia_r0.cir"
+  ],
+  "cwd": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\results\\loop_tia_r0",
+  "category": "AC",
+  "qualification": false,
+  "compatibility": true,
+  "started_utc": "2026-10-01T08:18:58.687626+00:00",
+  "input_sha256": "e60a1889b6c7dd07fec8bdfa6f3ba55dc4a7573f3c97e5722662218c5390e627",
+  "exit_code": 0,
+  "elapsed_seconds": 0.06530859996564686
+}

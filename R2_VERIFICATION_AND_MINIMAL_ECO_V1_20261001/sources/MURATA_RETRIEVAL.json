@@ -1,0 +1,20 @@
+[
+  {
+    "part": "GRM32ER71E226KE15",
+    "url": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER71E226KE15%23",
+    "bytes": 5965,
+    "sha256": "22d75a9670fab189dea8cddc7672e91f58a9eed18d5476d4ce51728e80781c80",
+    "signature": "3c21444f43545950",
+    "status": "NOT_PDF",
+    "excerpt": "<!DOCTYPE html>\n    <html class=\"react-root\">    \n      <head>\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/static/src_styles_global-00f5cfaf.C8hbrKci.css\">\n        <link rel=\"styleshe"
+  },
+  {
+    "part": "GRM31CR71H225KA88",
+    "url": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H225KA88%23",
+    "bytes": 5965,
+    "sha256": "22d75a9670fab189dea8cddc7672e91f58a9eed18d5476d4ce51728e80781c80",
+    "signature": "3c21444f43545950",
+    "status": "NOT_PDF",
+    "excerpt": "<!DOCTYPE html>\n    <html class=\"react-root\">    \n      <head>\n        <link rel=\"stylesheet\" type=\"text/css\" href=\"/assets/static/src_styles_global-00f5cfaf.C8hbrKci.css\">\n        <link rel=\"styleshe"
+  }
+]

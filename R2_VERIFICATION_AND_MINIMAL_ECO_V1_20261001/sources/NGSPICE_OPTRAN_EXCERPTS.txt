@@ -1,0 +1,30 @@
+PAGE 332
+332 CHAPTER 11. ANAL YSES AND OUTPUT CONTROL (BA TCH MODE)
+DC analysis is complete as soon as one successful step is found, according to some convergence
+criteria..
+The default behaviour during gmin stepping is the following: Switch gmin to a start value (1e-
+3), followed by a first trial of gmin stepping, using the true device gmin, then try dynamic gmin
+stepping with diagonal parallel gmin elements. If variable dyngmin is set, only dynamic gmin
+stepping is used.
+Source stepping sets all supply voltages and currents to zero, then ramps them up dynamically
+to 100%.
+The transient op calculation uses a transient simulation, with default parameters set by ngspice
+(initial iteration, gmin and source stepping enabled, optran step size10n, total optran time 10u).
+The results of this transient simulation then are used as the operating point for starting any other
+simulation (tran, ac, noise, pz etc.). No other data of this transient op are stored anywhere.
+General form:
+optran !noopiter gminsteps srcsteps tstep tstop supramp
+Example 1:
+optran 0 0 0 100n 10u 0
+Example 1 changes the defaults to: no inital op iteration, no gmin stepping, no source stepping,
+i.e. directly move to transient op with transient step and stop times given. Flagsupramp ins cur-
+rently not used. The optran command may be put into one of the initialization files.spiceinit
+or spinit. or into the .control section.
+Example 2:
+optran 1 1 1 100n 10u 0
+Example 2 shows an optran command which restores the initial conditions.
+Note: an operating point analysis is automatically performed prior to a transient analysis (if the
+parameter uic is not selected) to determine the transient initial conditions, and prior to an AC
+small-signal, Noise, and Pole-Zero analysis to determine the linearized, small-signal models for
+nonlinear devices. These data are not stored, except for setting theKEEPOPINFO variable 11.1.2,
+that prompts creating an OP plot in addition to the TRAN, AC, Noise, or PZ plots.

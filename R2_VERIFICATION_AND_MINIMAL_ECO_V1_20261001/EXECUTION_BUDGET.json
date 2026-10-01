@@ -1,0 +1,77 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R2_VERIFICATION_AND_MINIMAL_ECO_V1",
+  "started_utc": "2026-10-01T08:08:29.866386+00:00",
+  "phase": "P4_PREPARE",
+  "limits": {
+    "qualification_runs": 6,
+    "compatibility_revisions": 1,
+    "design_revisions": 2,
+    "new_primary_sources": 8,
+    "new_model_packages": 3,
+    "new_library_identities": 4,
+    "library_reads_searches": 24,
+    "DC": 64,
+    "AC": 96,
+    "normal_transients": 48,
+    "fault_cases": 32,
+    "working_copy": 1,
+    "sessions": 2,
+    "saves": 5,
+    "actual_File_captures": 3,
+    "full_audits": 3,
+    "ERC": 2,
+    "PDF": 2
+  },
+  "counts": {
+    "normal_transients": 10,
+    "qualification_runs": 4,
+    "portable_packages": 1,
+    "compatibility_revisions": 1,
+    "AC": 11,
+    "design_revisions": 2,
+    "DC": 40,
+    "working_copy": 0,
+    "sessions": 0,
+    "saves": 0,
+    "actual_File_captures": 0,
+    "full_audits": 0,
+    "ERC": 0,
+    "PDF": 0,
+    "fault_cases": 2
+  },
+  "native_gate": "CLOSED: coupled nominal completion/settling unresolved; reset threshold and latency contract gaps",
+  "pro_ruling_chars": 8620,
+  "phase_started_utc": "2026-10-01T08:43:01.086146+00:00",
+  "P0_status": "PASS",
+  "analytical_counts": {
+    "reset_corners": 32,
+    "fault_boundary_cases": 2
+  },
+  "P3_status": "NOT_ENTERED",
+  "model_packages_new": 1,
+  "primary_sources_logical": 6,
+  "P2_status": "BLOCKED_STOP_GATE",
+  "DC_split": {
+    "explicit_macro_operating_points": 8,
+    "analytical_reset_corners": 32
+  },
+  "fault_split": {
+    "analytical_positive_negative_reset": 2,
+    "macro_fault": 0
+  },
+  "finished_scientific_work_utc": "2026-10-01T08:51:24.757464+00:00",
+  "scientific_elapsed_wall_minutes": 42.91485143333333,
+  "time_notes": "Scientific wall42.91485min: P0~8.4, P1~26.1 including preliminary model runs; P2 formal entry to forced stop~2.5min, to scientific close~8.39min including evidence analysis. Subsequent review/software regression/delivery preparation tracked separately; no additional model/design/native work.",
+  "stage_limits_minutes": {
+    "P0": 30,
+    "P1": 45,
+    "P2": 90,
+    "P3": 60,
+    "P4": 15
+  },
+  "total_active_limit_minutes": 240,
+  "review_and_preparation_checkpoint_utc": "2026-10-01T09:03:03.183697+00:00",
+  "elapsed_since_package_start_minutes_at_preparation": 54.555288516666664,
+  "P4_started_utc": "2026-10-01T09:03:37.019884+00:00",
+  "P4_budget_status": "publication started; outcome recorded in separate delivery ledger"
+}

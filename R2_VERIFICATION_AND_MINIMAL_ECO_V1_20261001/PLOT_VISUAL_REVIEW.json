@@ -1,0 +1,9 @@
+{
+  "files": [
+    "plots/P0_QUALIFICATION.png",
+    "plots/SINGLE_LOOP_SCREENS.png",
+    "plots/SINGLE_TIA_VALID_EDGES.png"
+  ],
+  "review": "all three actual PNGs viewed; labels/axes/legends readable, scope limits visible; residual plot only singleTIA; not new nativePDF export",
+  "status": "PASS_VISUAL_PRESENTATION_ONLY"
+}

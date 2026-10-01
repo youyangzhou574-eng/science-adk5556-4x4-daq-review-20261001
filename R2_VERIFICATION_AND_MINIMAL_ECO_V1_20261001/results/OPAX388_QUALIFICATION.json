@@ -1,0 +1,10 @@
+{
+  "status": "PASS_BASIC_FOLLOWER_ONLY",
+  "rows": 2118,
+  "all_finite": true,
+  "steady_step_error_V": 2.0000000011677344e-07,
+  "model_sha256": "BB9C6C7AC80DC7FF1AC5B698C05C53F0A8D55BABB1AB210150D9BD910A6BF8E4",
+  "model_edits": 0,
+  "raw_trace": "p0_opax388_psa/trace.txt",
+  "not_coupled_qualification": true
+}

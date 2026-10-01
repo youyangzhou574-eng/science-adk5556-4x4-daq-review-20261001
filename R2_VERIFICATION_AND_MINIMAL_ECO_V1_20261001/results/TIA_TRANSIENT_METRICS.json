@@ -1,0 +1,56 @@
+[
+  {
+    "case": "tia_r1_tran",
+    "reference_V": 4.058941024999999,
+    "reference_window_us": [
+      625.0,
+      647.9999999999999
+    ],
+    "active_edge_times_us": [
+      525.0,
+      550.0,
+      575.0,
+      600.0,
+      625.0
+    ],
+    "active_edge_residual_V": [
+      -0.0001033355661990143,
+      -4.58578416990818e-05,
+      -1.930958979912134e-05,
+      -7.058574198914869e-06,
+      -1.3949999990714446e-06
+    ],
+    "max_active_residual_V": 0.0001033355661990143,
+    "status": "FAIL_PARTIAL_EDGES",
+    "scope": "only active edges available before pulse falls; not full1200us state or coupled proof"
+  },
+  {
+    "case": "tia_r2_tran",
+    "reference_V": 4.05894451,
+    "reference_window_us": [
+      675.0,
+      698.0
+    ],
+    "active_edge_times_us": [
+      525.0,
+      550.0,
+      575.0,
+      600.0,
+      625.0,
+      650.0,
+      675.0
+    ],
+    "active_edge_residual_V": [
+      -1.999999987845058e-08,
+      -9.99999993922529e-09,
+      -9.99999993922529e-09,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "max_active_residual_V": 1.999999987845058e-08,
+    "status": "PASS_PARTIAL_EDGES",
+    "scope": "only active edges available before pulse falls; not full1200us state or coupled proof"
+  }
+]

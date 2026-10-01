@@ -1,0 +1,250 @@
+[
+  {
+    "case": "loop_common_opax388_r1_settled",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 139.2900686476774,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8561487.394280933,
+        "phase_deg": -74.91153445818075,
+        "PM_deg": 105.08846554181925,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_common_r0",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 139.29006864605745,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 1115140.2384026179,
+        "phase_deg": -168.9940553564832,
+        "PM_deg": 11.005944643516813,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "FAIL",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_common_r1",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 139.2900686423729,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8561487.394280933,
+        "phase_deg": -74.91153445818075,
+        "PM_deg": 105.08846554181925,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_common_r1_settled",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 139.2900686476774,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8561487.394280933,
+        "phase_deg": -74.91153445818075,
+        "PM_deg": 105.08846554181925,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_row_r0",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 123.73543225622484,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8563677.22750214,
+        "phase_deg": -74.91199173126599,
+        "PM_deg": 105.08800826873401,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_row_r1",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 123.73543225622484,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8563677.22750214,
+        "phase_deg": -74.91199173126599,
+        "PM_deg": 105.08800826873401,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_row_r1_settled",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 123.73543225622484,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8563677.22750214,
+        "phase_deg": -74.91199173126599,
+        "PM_deg": 105.08800826873401,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_tia_r0",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 49.44797685815587,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 319.10125906947695,
+        "phase_deg": -89.89219488195455,
+        "PM_deg": 90.10780511804545,
+        "direction": "down"
+      },
+      {
+        "frequency_Hz": 2442960.351875397,
+        "phase_deg": 89.79764768099007,
+        "PM_deg": 269.79764768099005,
+        "direction": "up"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "UNQUALIFIED_MULTICROSSING",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_tia_r1",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 109.47820164300148,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8666990.498807494,
+        "phase_deg": -75.82615512245303,
+        "PM_deg": 104.17384487754697,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_tia_r1_settled",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 109.47820164300148,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 8666990.498807494,
+        "phase_deg": -75.82615512245303,
+        "PM_deg": 104.17384487754697,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  },
+  {
+    "case": "loop_tia_r2_settled",
+    "frequency_span_Hz": [
+      1.0,
+      100000000.0
+    ],
+    "dc_gain_dB": 109.47820149302119,
+    "all_unity_crossings": [
+      {
+        "frequency_Hz": 9426807.613879316,
+        "phase_deg": -58.93019901851859,
+        "PM_deg": 121.06980098148141,
+        "direction": "down"
+      }
+    ],
+    "all_negative_real_crossings": [],
+    "PM_60_nominal_screen": "PASS",
+    "bias_status": "requires transient settled operating-point validation; AC exit0 alone does not qualify",
+    "GM_10_screen": "NO_CROSSOVER_WITHIN_BAND",
+    "GM_without_crossing": "no finite phase crossover within span; not a global infinite-GM claim",
+    "injection_scope": "series voltage at high impedance inverting input, L=-V(fb)/V(minus); other sources AC0; single loop, not full coupled proof"
+  }
+]

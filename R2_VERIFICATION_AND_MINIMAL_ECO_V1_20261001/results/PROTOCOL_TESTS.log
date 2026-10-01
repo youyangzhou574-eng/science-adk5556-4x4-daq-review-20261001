@@ -1,0 +1,26 @@
+test_adjacent_difference (test_protocol.Tests.test_adjacent_difference) ... ok
+test_bad_label (test_protocol.Tests.test_bad_label) ... ok
+test_data_expiry_despite_heartbeats (test_protocol.Tests.test_data_expiry_despite_heartbeats) ... ok
+test_duplicate (test_protocol.Tests.test_duplicate) ... ok
+test_duplicate_cannot_seed_recovery (test_protocol.Tests.test_duplicate_cannot_seed_recovery) ... ok
+test_event_counts_and_edges (test_protocol.Tests.test_event_counts_and_edges) ... ok
+test_expired_frames_cannot_replay (test_protocol.Tests.test_expired_frames_cannot_replay) ... ok
+test_gap_10_seconds (test_protocol.Tests.test_gap_10_seconds) ... ok
+test_independent_wire_vectors (test_protocol.Tests.test_independent_wire_vectors) ... ok
+test_jump (test_protocol.Tests.test_jump) ... ok
+test_late_receive (test_protocol.Tests.test_late_receive) ... ok
+test_missing_sample (test_protocol.Tests.test_missing_sample) ... ok
+test_new_epoch_keeps_receiver_clock (test_protocol.Tests.test_new_epoch_keeps_receiver_clock) ... ok
+test_no_new_data (test_protocol.Tests.test_no_new_data) ... ok
+test_nonfinite_time_rejected (test_protocol.Tests.test_nonfinite_time_rejected) ... ok
+test_old_capture (test_protocol.Tests.test_old_capture) ... ok
+test_old_epoch (test_protocol.Tests.test_old_epoch) ... ok
+test_receiver_clock_cannot_reverse (test_protocol.Tests.test_receiver_clock_cannot_reverse) ... ok
+test_recovery_requires_two (test_protocol.Tests.test_recovery_requires_two) ... ok
+test_two_consecutive (test_protocol.Tests.test_two_consecutive) ... ok
+test_wrap (test_protocol.Tests.test_wrap) ... ok
+
+----------------------------------------------------------------------
+Ran 21 tests in 0.015s
+
+OK

@@ -1,0 +1,39 @@
+[
+  {
+    "source": "ngspice47",
+    "urls": [
+      "https://ngspice.sourceforge.io/download.html",
+      "https://sourceforge.net/projects/ngspice/files/ng-spice-rework/47/ngspice-47_64.7z/download"
+    ],
+    "status": "official archive downloaded and SHA matches published; manual in archive"
+  },
+  {
+    "source": "STM32G031 DS12992 Rev4",
+    "url": "https://www.st.com/resource/en/datasheet/stm32g031k8.pdf",
+    "status": "web tool primary read pin56 confirmed; direct requests567 saved separately",
+    "facts": "NRST low<=0.3VDD, high>=0.7VDD, permanent pullup25/40/55kohm"
+  },
+  {
+    "source": "SN74LVC1G07 SCES296AG",
+    "url": "https://www.ti.com/lit/ds/symlink/sn74lvc1g07.pdf",
+    "status": "PDF downloaded and text extracted"
+  },
+  {
+    "source": "OPAx388 manufacturer family model",
+    "urls": [
+      "https://www.ti.com/product/OPA2388",
+      "https://www.ti.com/lit/zip/sbomab3"
+    ],
+    "status": "original archive and LIB saved, basic actual response executed"
+  },
+  {
+    "source": "Murata GRM32ER71E226KE15",
+    "url": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM32ER71E226KE15%23",
+    "status": "HTML shell, no curve"
+  },
+  {
+    "source": "Murata GRM31CR71H225KA88",
+    "url": "https://www.murata.com/en-global/api/pdfdownloadapi?cate=luCeramicCapacitorsSMD&partno=GRM31CR71H225KA88%23",
+    "status": "HTML shell, no curve"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "baseline_sha256": "12f75f92c717f49644a71557f4c5a09e9f3b0985fceb337cbfa69ced268829db",
+  "actual_legacy_results": [
+    {
+      "counterexample": "10s_gap_sequential",
+      "first_valid": false,
+      "second_valid": true,
+      "expected_for_new_contract": false
+    },
+    {
+      "counterexample": "10s_gap_jump",
+      "first_valid": false,
+      "second_valid": true,
+      "expected_for_new_contract": false
+    },
+    {
+      "counterexample": "10ms_jump",
+      "first_valid": false,
+      "second_valid": true,
+      "expected_for_new_contract": false
+    }
+  ],
+  "tick_entry_present": false
+}

@@ -1,0 +1,130 @@
+{
+  "ROW0_CH0": {
+    "active_mean_code": 32100.0,
+    "adjacent_blank_mean_code": 32000.0,
+    "D_code": 100.0,
+    "D_V": 0.0078125,
+    "G_ideal_S": 6.2625250501002e-06,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW0_CH1": {
+    "active_mean_code": 32101.0,
+    "adjacent_blank_mean_code": 32001.0,
+    "D_code": 100.0,
+    "D_V": 0.0078125,
+    "G_ideal_S": 6.2625250501002e-06,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW0_CH2": {
+    "active_mean_code": 32102.0,
+    "adjacent_blank_mean_code": 32002.0,
+    "D_code": 100.0,
+    "D_V": 0.0078125,
+    "G_ideal_S": 6.2625250501002e-06,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW0_CH3": {
+    "active_mean_code": 32103.0,
+    "adjacent_blank_mean_code": 32003.0,
+    "D_code": 100.0,
+    "D_V": 0.0078125,
+    "G_ideal_S": 6.2625250501002e-06,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW1_CH0": {
+    "active_mean_code": 32205.0,
+    "adjacent_blank_mean_code": 32005.0,
+    "D_code": 200.0,
+    "D_V": 0.015625,
+    "G_ideal_S": 1.25250501002004e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW1_CH1": {
+    "active_mean_code": 32206.0,
+    "adjacent_blank_mean_code": 32006.0,
+    "D_code": 200.0,
+    "D_V": 0.015625,
+    "G_ideal_S": 1.25250501002004e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW1_CH2": {
+    "active_mean_code": 32207.0,
+    "adjacent_blank_mean_code": 32007.0,
+    "D_code": 200.0,
+    "D_V": 0.015625,
+    "G_ideal_S": 1.25250501002004e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW1_CH3": {
+    "active_mean_code": 32208.0,
+    "adjacent_blank_mean_code": 32008.0,
+    "D_code": 200.0,
+    "D_V": 0.015625,
+    "G_ideal_S": 1.25250501002004e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW2_CH0": {
+    "active_mean_code": 32310.0,
+    "adjacent_blank_mean_code": 32010.0,
+    "D_code": 300.0,
+    "D_V": 0.0234375,
+    "G_ideal_S": 1.87875751503006e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW2_CH1": {
+    "active_mean_code": 32311.0,
+    "adjacent_blank_mean_code": 32011.0,
+    "D_code": 300.0,
+    "D_V": 0.0234375,
+    "G_ideal_S": 1.87875751503006e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW2_CH2": {
+    "active_mean_code": 32312.0,
+    "adjacent_blank_mean_code": 32012.0,
+    "D_code": 300.0,
+    "D_V": 0.0234375,
+    "G_ideal_S": 1.87875751503006e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW2_CH3": {
+    "active_mean_code": 32313.0,
+    "adjacent_blank_mean_code": 32013.0,
+    "D_code": 300.0,
+    "D_V": 0.0234375,
+    "G_ideal_S": 1.87875751503006e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW3_CH0": {
+    "active_mean_code": 32415.0,
+    "adjacent_blank_mean_code": 32015.0,
+    "D_code": 400.0,
+    "D_V": 0.03125,
+    "G_ideal_S": 2.50501002004008e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW3_CH1": {
+    "active_mean_code": 32416.0,
+    "adjacent_blank_mean_code": 32016.0,
+    "D_code": 400.0,
+    "D_V": 0.03125,
+    "G_ideal_S": 2.50501002004008e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW3_CH2": {
+    "active_mean_code": 32417.0,
+    "adjacent_blank_mean_code": 32017.0,
+    "D_code": 400.0,
+    "D_V": 0.03125,
+    "G_ideal_S": 2.50501002004008e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  },
+  "ROW3_CH3": {
+    "active_mean_code": 32418.0,
+    "adjacent_blank_mean_code": 32018.0,
+    "D_code": 400.0,
+    "D_V": 0.03125,
+    "G_ideal_S": 2.50501002004008e-05,
+    "scope": "synthetic arithmetic fixture; fixed calibration supplied separately, no hardware measurement"
+  }
+}

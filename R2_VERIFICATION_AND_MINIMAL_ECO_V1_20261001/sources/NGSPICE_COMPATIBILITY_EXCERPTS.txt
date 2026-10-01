@@ -1,0 +1,219 @@
+PAGE 369
+12.7. ENVIRONMENTAL V ARIABLES 369
+simulation speed up by a factor of 2 or more. optran ... will skip usual operating point iter-
+ations, which for very large circuits consume much time, and replace them by a time integrated
+operating point estimation.
+.spiceinit for simulating circuits containing PSPICE-compatible behavioural models may con-
+tain:
+* User defined ngspice init file
+set filetype=ascii
+*set ngdebug
+*set outputpath=C:\Spice64\out
+set ngbehavior = ltpsa
+option sparse
+set ngbehavior = ltpsa will provide PSPICE compatibility.option sparse (maybe omit-
+ted) selects the venerable Sparse 1.3 matrix solver, which sometimes is much faster than klu.
+Some editors on MS Windows refuse to save files with leading dot in their names. An alternative
+name to .spiceinit is therefore spice.rc.
+12.7 Environmental variables
+12.7.1 Ngspice specific variables
+SPICE_LIB_DIR default: /usr/local/share/ngspice (Linux, CYGWIN), C:\Spice\share\ngspice
+(Windows)
+SPICE_EXEC_DIR default: /usr/local/bin (Linux, CYGWIN), C:\Spice\bin (Windows)
+SPICE_BUGADDR default: https://ngspice.sourceforge.io/bugrep.html
+Where to send bug reports on ngspice.
+SPICE_EDITOR default: vi (Linux, CYGWIN), notepad.exe (MINGW, Visual Studio)
+Set the editor called in the edit command. Always overrides the EDITOR env. variable.
+SPICE_ASCIIRAWFILE default: 0
+Format of the rawfile. 0 for binary, and 1 for ascii.
+SPICE_NEWS default: $SPICE_LIB_DIR/news
+A file that is copied verbatim to stdout when ngspice starts in interactive mode.
+SPICE_HELP_DIR default: $SPICE_LIB_DIR/helpdir
+Help directory, not used in Windows mode
+SPICE_HOST default: empty string
+Used in the rspice command (probably obsolete, to be documented)
+SPICE_SCRIPTS default: $SPICE_LIB_DIR/scripts
+In this directory the spinit file will be searched.
+
+PAGE 374
+374 CHAPTER 12. STARTING NGSPICE
+Using Multithreaded Techniques", IEEE International Conference on Computational Science
+and Engineering, 2009, pp. 158-165
+12.11 Compatibility
+ngspice is a direct derivative of spice3f5 from UC Berkeley and thus inherits all of the com-
+mands available in its predecessor. Thanks to the open source policy of UCB (original spice3
+from 1994 is still available here), several commercial variants have sprung off, either being more
+dedicated to IC design or more concentrating on simulating discrete and board level electronics.
+None of the commercial and almost none of the freely downloadable SPICE providers publishes
+the source code. All of them have proceeded with the development, by adding functionality, or
+by adding a more dedicated user interface. Some have kept the original SPICE syntax for their
+netlist description, others have quickly changed some if not many of the commands, functions
+and procedures. Thus it is difficult, if not impossible, to offer a simulator that acknowledges
+all of these netlist dialects. ngspice includes some features that enhance compatibility that are
+included automatically. This selection may be controlled to some extend by setting the com-
+patibility mode. Others may be invoked by the user by small additions to the netlist input file.
+Some of them are listed in this chapter, some will be integrated into ngspice at a later stage,
+others will be added if they are reported by users.
+12.11.1 Compatibility mode
+The variable (13.7) ngbehavior sets the compatibility mode. Per default no compatibility mode
+is selected. The compatibility status will be displayed in the output window.
+set ngbehavior=ltpsa
+in spinit or .spiceinit is a typical command, setting PSPICE and LTSPICE compatibility for the
+whole netlist. Flag ’a’ may be combined with any of the flags listed below. By contrast
+set ngbehavior=ps
+(without ’ a’) will set PSPICE compatibility only for libraries which are added by a .include
+command. So you may keep your Spice3 compatible netlist, but including PSPICE device
+models. The available compatibility flags are:
+
+PAGE 377
+12.11. COMPA TIBILITY 377
+Input file with parameter sweep
+parameter sweep
+* resistive divider, R1 swept from start _r to stop _r
+* replaces .STEP R1 1k 10k 1k
+R1 1 2 1k
+R2 2 0 1k
+VDD 1 0 DC 1
+.dc VDD 0 1 .1
+.control
+let start _r = 1k
+let stop _r = 10k
+let delta _r = 1k
+let r _act = start _r
+* loop
+while r _act le stop _r
+alter r1 r _act
+run
+write dc-sweep.out v(2)
+set appendwrite
+let r _act = r _act + delta _r
+end
+plot dc1.v(2) dc2.v(2) dc3.v(2) dc4.v(2) dc5.v(2)
++ dc6.v(2) dc7.v(2) dc8.v(2) dc9.v(2) dc10.v(2)
+.endc
+.end
+12.11.5 PSPICE Compatibility mode
+If the variable (13.7) ngbehavior is set to ’ps’ or ’psa’ with the commands
+set ngbehavior=ps
+or
+set ngbehavior=psa
+in spinit or .spiceinit, ngspice will translate all files that have been read into ngspice netlist
+by the .include command ( ps) or the complete netlist ( psa) from PSPICE syntax to ngspice.
+This feature allows reading of PSPICE (or TINA) compatible device libraries ( ps) that are
+often supplied by the semiconductor device manufacturers. Or you may choose to use complete
+PSPICE simulation decks ( psa). Some ngspice input files may fail, however. For example
+
+PAGE 378
+378 CHAPTER 12. STARTING NGSPICE
+ngspice\examples\memristor\memristor.sp will not do, because it uses the parameter vt,
+and vt is a reserved word in PSPICE.
+PSPICE to ngspice translation details:
+• .model replacement in ako (a kind of) model descriptions
+• replace the E source TABLE function by a B source pwl
+• add predefined params TEMP, VT, GMIN to beginning of deck
+• add predefined params TEMP, VT to beginning of each .subckt call
+• add .functions limit, pwr, pwrs, stp, if, int
+• replace
+S1 D S DG GND SWN
+.MODEL SWN VSWITCH(VON=0.55 VOFF=0.49
++ RON={1/(2 *M*(W/LE)*(KPN/2)*10)} ROFF=1G)
+by
+as1 %vd(DG GND) % gd(D S) aswn
+.model aswn aswitch(cntl _off=0.49 cntl _on=0.55
++ r _off=1G r _on={1/(2*M*(W/LE)*(KPN/2)*10)} log=TRUE)
+• replace & by &&
+• replace | by ||
+• replace T_ABS by temp and T_REL_GLOBAL by dtemp
+• get the area factor for diodes and bipolar devices
+d1 n1 n2 dmod 7 –> d1 n1 n2 dmod area=7
+q2 n1 n2 n3 [n4] bjtmod 1.35 –> q2 n1 n2 n3 n4 bjtmod area=1.35
+q3 1 2 3 4 bjtmod 1.45 –> q2 1 2 3 4 bjtmod area=1.45
+• Check for double ’{{ }}’, replace the inner ’{’, ’}’ by ’(’, ’)’
+• Limit for exp function (linear growth when exponent is larger than 14).
+In ps or psa mode, ngspice will treat all .lib entries like .include. There is no hierarchically
+library handling. So for reading HSPICE compatible libraries, you definitely have to unset the
+ps mode, e.g. by not adding set ngbehavior=ps or disabling it by
+unset ngbehavior=ps
+New analogue and digital device models from some semiconductor vendors contain the token
+GND inside of their subcircuits. In the past ngspice has declared GND as global and replaced
+it by 0. Now, if PS is selected, GND is not declared as global, and is not replaced inside of a
+subcircuit.
+
+PAGE 380
+380 CHAPTER 12. STARTING NGSPICE
+RKM code for capacitors
+C1 1 0 4p7 ; 4.7p
+C2 1 0 4n7 ; 4.7n
+C3 1 0 4u7 ; 4.7u
+C4 1 0 4m7 ; 4.7m
+C5 1 0 4F7 ; 4.7f <-- This deviates fom the RKM notation
+C6 1 0 47p3 ; 4.73p
+C7 1 0 470p ; 470p
+C8 1 0 4u76 tc1=1e-6 tc2=1e-9 dtemp=6
+* ; 4.76u
+C9 1 0 4m7 ; 4.7m
+C10 1 0 470nF ; 470n
+C11 1 0 47fF ; 47f <-- This deviates fom the RKM notation
+There are some exceptions to the RKM code notation:
+• all letters may be entered upper or lower case, and will internally be transformed to lower
+case.
+• m, M always denote milli (1e-3).
+• f, F denote femto (1e-15), fF will be again femto
+• meg, Meg denotes mega (1e6)
+12.11.7 LTSPICE/PSPICE Compatibility mode
+If the variable (13.7) ngbehavior is set to ’ltps’ or ’ltpsa’ with the commands
+set ngbehavior=ltps
+or
+set ngbehavior=ltpsa
+in spinit or .spiceinit, ngspice will translate all files that have been read into ngspice netlist by
+the .include command (ltps) or the complete netlist (ltpsa) 12.11.6, 12.11.5 from LTSPICE and
+PSPICE syntax to ngspice. This feature allows reading of LTSPICE and PSPICE compatible
+device libraries or complete netlists.
+12.11.8 KiCad Compatibility mode
+KiCad will generate vector names containing ’/’. If the variable (13.7)ngbehavior is set to ki
+with the command
+set ngbehavior=ki
+is set in .spiceinit (or plot line flag kicad is given 13.5.55), ngspice will place " around this
+vector name. The mathematical operation ’division’ in the plot command will then work only
+if spaces are placed around the division operator /.
+
+PAGE 460
+460 CHAPTER 13. INTERACTIVE INTERPRETER
+keep#branch If keep#branch is set, the rawfile output for branch currents is 1 v1#branch
+current for example, not 1 i(v1) current . This retains compatibility with software
+like ICCAP.
+lprplot5 This is a printf(3s) style format string used to specify the command to use for
+sending plot(5)-style plots to a printer or plotter. The first parameter supplied is the
+printer name, the second parameter is a file name containing the plot. Both parameters
+are strings.
+lprps This is a printf(3s) style format string used to specify the command to use for sending
+Postscript plots to a printer or plotter. The first parameter supplied is the printer name,
+the second parameter is the file name containing the plot. Both parameters are strings.
+measoutfile Add command set measoutfile=<path/filename> to .spiceinit or to a .con-
+trol section in the netlist to save .measure results from batch mode in a file.
+measureprec set the number of digits when printing the measure outputs. Default is 6 digits.
+modelcard The name of the model card (normally .MODEL)
+moremode If moremode is set, whenever a large amount of data is being printed to the screen
+(e.g, the print or asciiplot commands), the output is stopped every screenful and
+continues when a carriage return is typed. If moremode is unset, then data scrolls off the
+screen without pausing.
+mtimeavgwindow Set a time window for averaging a transient sim output signal between +/-
+mtimeavgwindow/2 using function mtimeavg (13.2).
+nfreqs The number of frequencies to compute in the Fourier command. (Defaults to 10.)
+ngbehavior Sets the compatibility mode of ngspice. Default value is’all’. To be set inspinit
+(12.5) or .spiceinit (12.6). A value of ’all’ improves compatibility with commercial
+simulators. Full compatibility is however not the intention of ngspice! The values ’ps’,
+’psa’, ’lt’, ’lta’, ’hs’ and ’spice3’ are available. See Chapt. 12.11.
+ngdebug enables several debugging printouts (see 12.17).
+nginfo Enables a status report during simulation (currently available only with MS Windows
+GUI version).
+ng_nomodcheck Suppresses any model parameter check, if set.
+no_auto_braces in spinit or .spiceinit will speed up the loading of large PDKs by avoiding to
+check for unquoted parameters, so assumes that all parameters are quoted correctly by {
+} or ’ ’.
+no_auto_gnd Setting this boolean variable byset no _auto_gnd in spinit or .spiceinit, ngspice
+will refrain from replacing all nodes named gnd by node 0. In using this setting, you will
+have to take care of proper zeroing appropriate ground nodes. If you fail to do so, ngspice
+may crash, or deliver wrong results.
+nobreak Don’t haveasciiplot and print col break between pages.
+noasciiplotvalue Don’t print the first vector plotted to the left when doing anasciiplot.

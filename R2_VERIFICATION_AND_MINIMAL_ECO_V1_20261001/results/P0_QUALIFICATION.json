@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "RC_rows": 1619,
+  "RC_tau_1us_error_V": 0.0001842012030723872,
+  "OPA_rows": 2191,
+  "OPA_steady_10mV_step_error_V": 1.6200000003685489e-06,
+  "OPA_input_output_pin_order": "IN+ IN- VCC VEE OUT",
+  "supply_V": 5,
+  "model_sha256": "958ff133418bd47522015057497858263e73b9e6d75860ef9c0b6fdabed5cd0d",
+  "model_edits": 0,
+  "compatibility": "-n -D ngbehavior=psa; documented parser compatibility, no model removal",
+  "tar_extract_exit": 1,
+  "tar_limitation": "tar reader reports unreadable Unicode example filenames even when extracting selected runtime folders; selected executable and basic RC/OPA execution verified",
+  "qualified_utc": "2026-10-01T08:16:53.544969+00:00",
+  "executor_sha256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab"
+}
