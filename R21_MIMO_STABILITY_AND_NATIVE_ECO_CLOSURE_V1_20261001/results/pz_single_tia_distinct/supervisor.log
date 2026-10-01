@@ -1,0 +1,1 @@
+{"case": "pz_single_tia_distinct", "startedUTC": "2026-10-01T13:03:29.289870+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 65164, "exitCode": 0, "analysisStatus": "ANALYSIS_ERROR", "wallSeconds": 0.5105377999134362, "endedUTC": "2026-10-01T13:03:29.800409+00:00"}

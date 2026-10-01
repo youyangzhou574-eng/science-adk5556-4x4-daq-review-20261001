@@ -1,0 +1,76 @@
+[
+  {
+    "direction": "down",
+    "attempts": [
+      {
+        "vdd": 4.95,
+        "validActualOP": false,
+        "status": "ANALYSIS_ERROR",
+        "step": 0.05,
+        "case": "cont800_4p95"
+      },
+      {
+        "vdd": 4.975,
+        "validActualOP": true,
+        "status": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+        "step": 0.025,
+        "case": "cont800_4p975"
+      },
+      {
+        "vdd": 4.95,
+        "validActualOP": false,
+        "status": "ANALYSIS_ERROR",
+        "step": 0.025,
+        "case": "cont800_4p95_25"
+      }
+    ],
+    "pending": false,
+    "numericHOLD": true,
+    "lastValidVdd": 4.975,
+    "reachedEndpoint": false
+  },
+  {
+    "direction": "up",
+    "attempts": [
+      {
+        "vdd": 5.05,
+        "validActualOP": true,
+        "status": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+        "step": 0.05,
+        "case": "cont800_5p05"
+      },
+      {
+        "vdd": 5.1,
+        "validActualOP": false,
+        "status": "ANALYSIS_ERROR",
+        "step": 0.05,
+        "case": "cont800_5p1"
+      },
+      {
+        "vdd": 5.075,
+        "validActualOP": true,
+        "status": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+        "step": 0.025,
+        "case": "cont800_5p075"
+      },
+      {
+        "vdd": 5.1,
+        "validActualOP": true,
+        "status": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+        "step": 0.025,
+        "case": "cont800_5p1_25"
+      },
+      {
+        "vdd": 5.125,
+        "validActualOP": false,
+        "status": "ANALYSIS_ERROR",
+        "step": 0.025,
+        "case": "cont800_5p125_25"
+      }
+    ],
+    "pending": false,
+    "numericHOLD": true,
+    "lastValidVdd": 5.1,
+    "reachedEndpoint": false
+  }
+]

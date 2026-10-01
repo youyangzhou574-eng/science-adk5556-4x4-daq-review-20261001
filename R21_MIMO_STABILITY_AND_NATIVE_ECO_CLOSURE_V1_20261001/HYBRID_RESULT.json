@@ -1,0 +1,16 @@
+{
+  "status": "CLOSED_DOUBLE_INJECTION_MIMO_NUMERICAL_REVIEW",
+  "biasDifferenceMaxV": 7.215454012055034e-09,
+  "voltageReconstructionConditionMax": 2.296619471790764e+17,
+  "sigmaMin": 0.009935512475817351,
+  "sigmaMinFrequencyHz": 1.0,
+  "upperEigenGainMax": 0.02513089763203461,
+  "relativeClosureResidual": 1.0608217452623927e-15,
+  "openClosedLRelativeDifferenceMax": 0.006691856456489879,
+  "methodTrustedBandHz": [
+    66.90472490984055,
+    300000000.0000052
+  ],
+  "notAnInstabilityClaim": true,
+  "PASS": false
+}

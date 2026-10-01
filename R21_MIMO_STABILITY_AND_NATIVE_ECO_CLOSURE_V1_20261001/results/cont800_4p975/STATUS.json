@@ -1,0 +1,12 @@
+{
+  "case": "cont800_4p975",
+  "startedUTC": "2026-10-01T13:12:43.546240+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 21308,
+  "lastProgressTime_s": 0.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 1.512772000161931,
+  "endedUTC": "2026-10-01T13:12:45.059016+00:00"
+}

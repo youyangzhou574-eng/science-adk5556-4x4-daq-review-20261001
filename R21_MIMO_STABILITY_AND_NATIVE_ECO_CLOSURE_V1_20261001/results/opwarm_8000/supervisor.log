@@ -1,0 +1,1 @@
+{"case": "opwarm_8000", "startedUTC": "2026-10-01T13:05:30.280681+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 58592, "lastProgressTime_s": 0.0, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 1.5166895999573171, "endedUTC": "2026-10-01T13:05:31.797370+00:00"}

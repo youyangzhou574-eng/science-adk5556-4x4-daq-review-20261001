@@ -1,0 +1,1 @@
+{"case": "pre_r4t1_800", "startedUTC": "2026-10-01T13:21:01.134157+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 74176, "exitCode": 0, "analysisStatus": "ANALYSIS_ERROR", "wallSeconds": 3.522489900002256, "endedUTC": "2026-10-01T13:21:04.656646+00:00"}

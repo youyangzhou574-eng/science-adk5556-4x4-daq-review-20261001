@@ -1,0 +1,1 @@
+{"case": "opwarm_high_target", "startedUTC": "2026-10-01T13:05:30.298270+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 81084, "exitCode": 0, "analysisStatus": "ANALYSIS_ERROR", "wallSeconds": 9.535464100074023, "endedUTC": "2026-10-01T13:05:39.833735+00:00"}

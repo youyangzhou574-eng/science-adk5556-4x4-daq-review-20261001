@@ -1,0 +1,11 @@
+{
+  "case": "pre_r4t1_8000",
+  "startedUTC": "2026-10-01T13:21:01.165513+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 9188,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 0.5147153998259455,
+  "endedUTC": "2026-10-01T13:21:01.680228+00:00"
+}

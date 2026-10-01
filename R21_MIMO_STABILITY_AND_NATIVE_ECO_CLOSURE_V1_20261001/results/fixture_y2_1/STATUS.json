@@ -1,0 +1,11 @@
+{
+  "case": "fixture_y2_1",
+  "startedUTC": "2026-10-01T13:00:55.992529+00:00",
+  "limitSeconds": 45.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 77080,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 0.5062010001856834,
+  "endedUTC": "2026-10-01T13:00:56.498730+00:00"
+}

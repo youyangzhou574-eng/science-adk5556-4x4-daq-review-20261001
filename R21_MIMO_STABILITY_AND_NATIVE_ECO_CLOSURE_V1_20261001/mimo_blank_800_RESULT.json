@@ -1,0 +1,29 @@
+{
+  "case": "mimo_blank_800",
+  "status": "MIMO_ENGINEERING_SCREEN_ONLY",
+  "range_Hz": [
+    1.0,
+    300000000.0000052
+  ],
+  "points": 679,
+  "sigmaMin": 0.00993430063105689,
+  "sigmaMinFrequencyHz": 1.0,
+  "minEigenDistanceToMinusOne": 0.9797607187936352,
+  "upperEigenGainMax": 0.02513089763231731,
+  "upperLoopSpectralNorm": 0.02513089763231729,
+  "portVoltageMatrixConditionMax": 8.97972284017155e+29,
+  "baselineConditionMax": 5.852081660996472e+18,
+  "actualColumnBiasMaxV": 1.0125067895216944e-08,
+  "closureIdentityResidual": 0.007873298582322802,
+  "allFinite": true,
+  "symmetryGraphPASS": true,
+  "dangerReviewRequired": true,
+  "provisionalPASS": false,
+  "notProved": "open-reference/internal RHP pole count and infinite-frequency absolute stability; scalar extraction/independent duplicate not yet checked",
+  "missingQualifications": [
+    "full-network scalar crosscheck",
+    "independent repeated column",
+    "reference D qualification",
+    "general noncommuting fixture"
+  ]
+}

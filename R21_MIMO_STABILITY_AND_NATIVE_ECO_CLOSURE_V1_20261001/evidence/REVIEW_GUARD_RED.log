@@ -1,0 +1,32 @@
+EFE
+======================================================================
+ERROR: test_exact_command_accounting (test_review_guard.ReviewGuards.test_exact_command_accounting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_MIMO_STABILITY_AND_NATIVE_ECO_CLOSURE_V1\test_review_guard.py", line 7, in test_exact_command_accounting
+    commands=science.analysis_commands('PZ title is not analysis\n.control\noptran 0 0 0 1n 100u\nop\nac dec 80 1 300Meg\npz a 0 b 0 cur pz\n.endc\n.end\n')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'science' has no attribute 'analysis_commands'
+
+======================================================================
+ERROR: test_review_is_sticky_and_prevents_register_without_mutation (test_review_guard.ReviewGuards.test_review_is_sticky_and_prevents_register_without_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_MIMO_STABILITY_AND_NATIVE_ECO_CLOSURE_V1\test_review_guard.py", line 18, in test_review_is_sticky_and_prevents_register_without_mutation
+    science.require_technical_review('first','fixture')
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'science' has no attribute 'require_technical_review'
+
+======================================================================
+FAIL: test_legacy_initializer_cannot_reset_budget (test_review_guard.ReviewGuards.test_legacy_initializer_cannot_reset_budget)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_MIMO_STABILITY_AND_NATIVE_ECO_CLOSURE_V1\test_review_guard.py", line 31, in test_legacy_initializer_cannot_reset_budget
+    with self.assertRaises(RuntimeError):science.init()
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.025s
+
+FAILED (failures=1, errors=2)

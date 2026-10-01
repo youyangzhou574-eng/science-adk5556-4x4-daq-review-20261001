@@ -1,0 +1,20 @@
+{
+  "UTC": "2026-10-01T14:06:03.725475+00:00",
+  "plots": [
+    {
+      "file": "plots/MIMO_CONDITION.png",
+      "SHA256": "86AEF8E6717BBCA15EA9CF3A971A75D392D6EB2E0B10CFA0292230C0F18205F8",
+      "viewed": "legible axes/legend; eigenloci zoom explicitly labeled; no stability PASS shown"
+    },
+    {
+      "file": "plots/MIMO_EIGENLOCUS_ZOOM.png",
+      "SHA256": "1FD0E8B368056EA977F8448091D8F0CC8B857594605CD2E78158B6D6A7067869",
+      "viewed": "legible axes/legend; eigenloci zoom explicitly labeled; no stability PASS shown"
+    },
+    {
+      "file": "plots/MIMO_SIGMA_REVIEW.png",
+      "SHA256": "0E249964198E1A72A449B36974D0AE9E3424E553F283A4CA27994A4E862DCC06",
+      "viewed": "legible axes/legend; eigenloci zoom explicitly labeled; no stability PASS shown"
+    }
+  ]
+}

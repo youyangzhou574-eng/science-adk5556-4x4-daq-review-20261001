@@ -23,3 +23,7 @@ R2包含可读MD/TXT/CSV/PNG、六页PDF、原生工程、实际File审计、原
 ## R2.1 coupled root-cause and conditional native ECO — blocked
 
 [Complete index](R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1_20261001/README.md) · [Complete receipt](R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1_20261001/COMPLETE_COUPLED_RECEIPT.md). Corrected bias and return-ratio methods; 87 real solver processes with errors/stops retained, 120 readable CSV exports, 3 PNGs, 60 reset analytic cases and 32 protocol regressions. Key coupled/PZ/reset guarantees remain HOLD, native ECO0. P0 analysis accounting deviation39/32 (+7) disclosed; all new science stopped. User-requested360min bounded next-package budget pending review.
+
+## R2.1 MIMO stability and conditional native ECO — technical review
+
+[Complete index](R21_MIMO_STABILITY_AND_NATIVE_ECO_CLOSURE_V1_20261001/README.md) · [Complete receipt](R21_MIMO_STABILITY_AND_NATIVE_ECO_CLOSURE_V1_20261001/COMPLETE_MIMO_RECEIPT.md). User-requested360min budget approved. 49 real solver processes contain76 OP/AC/PZ analyses; diagnostic15/16, transient0, native0. Open and closed MIMO probe evidence has sigma_min≈0.00994<0.20 and unresolved low-frequency conditioning/reference qualification; no physical instability claim. Eight crosscheck processes launched after first threshold flag are explicitly disclosed; sticky STOP/qualification/actual-command accounting repaired, seven isolated infrastructure/math tests pass. Full raw cases/models/logs, 54 per-case readable CSVs, matrix/eigen CSVs, three PNGs and retained failed evidence. Bench remains HOLD.

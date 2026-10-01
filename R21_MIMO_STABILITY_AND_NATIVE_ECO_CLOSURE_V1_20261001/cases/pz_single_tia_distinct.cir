@@ -1,0 +1,29 @@
+PZ distinct-port single OPA closed TIA qualifier at ADC current port
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+X1 vcm minus v5 0 drv OPA4388
+RISO drv tap 1k
+RSENSE col fb 10k
+RF tap col 4.99k
+CF tap col 2.2n
+RARRAY col row 200
+VROW row 0 2.4375
+CL col 0 1n
+RADC tap ain 100
+CADC ain 0 10n
+RIN ain 0 1meg
+CHF drv fb 22p
+VJOIN minus fb 0
+.control
+set numdgt=15
+set filetype=ascii
+optran 0 0 0 200n 2m 0
+op
+wrdata op.txt v(minus) v(fb) v(drv) v(ain)
+pz ain 0 tap 0 cur pol
+print all > pz.txt
+write pz.raw all
+quit
+.endc
+.end

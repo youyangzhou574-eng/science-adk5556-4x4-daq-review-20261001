@@ -1,0 +1,37 @@
+{
+  "fixtureRelativeYMax": 2.546141998040886e-11,
+  "loopRelativeMax": 2.546227834087009e-11,
+  "closureResidual": 1.5515838457795457e-17,
+  "voltageMatrixConditionMax": 1027765.1070222082,
+  "frequencyHz": [
+    1.0,
+    300000000.0000052
+  ],
+  "fixturePASS": true,
+  "closedKnownPoles_rad_s": [
+    -682255.9691140956,
+    -574505.511832855
+  ],
+  "scalarIdentityFrozen": [
+    {
+      "class": "row",
+      "TianYRelativeMax": 4.1115976685977694e-05,
+      "sameN1AdmittanceFormula": true
+    },
+    {
+      "class": "tia",
+      "TianYRelativeMax": 3.704730074019515e-05,
+      "sameN1AdmittanceFormula": true
+    },
+    {
+      "class": "vcm",
+      "TianYRelativeMax": 0.00010923618316386218,
+      "sameN1AdmittanceFormula": true
+    },
+    {
+      "class": "vexc",
+      "TianYRelativeMax": 0.00010923618316386378,
+      "sameN1AdmittanceFormula": true
+    }
+  ]
+}

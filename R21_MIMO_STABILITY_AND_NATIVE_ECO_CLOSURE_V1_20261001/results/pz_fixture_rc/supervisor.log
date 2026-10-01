@@ -1,0 +1,1 @@
+{"case": "pz_fixture_rc", "startedUTC": "2026-10-01T12:58:35.416699+00:00", "limitSeconds": 30.0, "status": "NORMAL_EXIT", "ownedPID": 62988, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 0.5150379000697285, "endedUTC": "2026-10-01T12:58:35.931738+00:00"}

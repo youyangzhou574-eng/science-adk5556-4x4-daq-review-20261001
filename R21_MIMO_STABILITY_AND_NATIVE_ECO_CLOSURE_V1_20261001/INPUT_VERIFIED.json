@@ -1,0 +1,14 @@
+{
+  "UTC": "2026-10-01T12:56:22.374177+00:00",
+  "models": {
+    "OPA4388_ORIGINAL.LIB": "958ff133418bd47522015057497858263e73b9e6d75860ef9c0b6fdabed5cd0d",
+    "OPAx388.LIB": "bb9c6c7ac80dc7ff1ac5b698c05c53f0a8d55babb1ab210150d9bd910a6bf8e4"
+  },
+  "executor": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+  "executorSHA256": "22d5cae2bd32b2e39157a8d27bf457122f68285b72a9ebefdf41551b628233ab",
+  "frozenCommits": [
+    "da6ca87b9f49c5af03a16c24af6186d7c5c2e0d3",
+    "c13555a330f8ad676750b8fec5d5d42bfc0b5edb",
+    "a3e22772f368322dd9de671ab816c09e3b7f1b72"
+  ]
+}

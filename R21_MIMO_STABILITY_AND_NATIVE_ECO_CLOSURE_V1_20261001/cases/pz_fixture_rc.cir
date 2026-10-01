@@ -1,0 +1,13 @@
+Known passive transimpedance RC pole=-500 rad/s
+RIN in 0 1k
+R in out 1k
+C out 0 1u
+.control
+set filetype=ascii
+op
+pz in 0 out 0 cur pz
+print all > pz.txt
+write pz.raw all
+quit
+.endc
+.end

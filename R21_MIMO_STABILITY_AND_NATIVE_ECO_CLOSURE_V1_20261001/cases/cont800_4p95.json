@@ -1,0 +1,8 @@
+{
+  "analysis": "DC",
+  "load": "800",
+  "state": 0,
+  "vdd": 4.95,
+  "nodesetSource": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_MIMO_STABILITY_AND_NATIVE_ECO_CLOSURE_V1\\results\\opwarm_800\\op.raw",
+  "noForcedIC": true
+}

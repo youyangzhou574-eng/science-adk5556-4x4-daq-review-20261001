@@ -1,0 +1,38 @@
+Warning : Nodeset on non-existent node - xcm.sw_ol_opa4388, ignored
+   Please check line .nodeset v(xcm.sw_ol_opa4388)=0.00499499833416125
+
+Warning : Nodeset on non-existent node - xex.sw_ol_opa4388, ignored
+   Please check line .nodeset v(xex.sw_ol_opa4388)=0.00499499833416125
+
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Warning: singular matrix:  check nodes xr0.n3294626 and xcm.cl_clamp
+
+Warning: singular matrix:  check nodes xr0.n3294626 and xcm.cl_clamp
+
+Warning: singular matrix:  check nodes xr0.n3294626 and xcm.cl_clamp
+
+Warning: singular matrix:  check nodes xr0.n3294626 and xcm.cl_clamp
+
+Warning: singular matrix:  check nodes xr0.n3294626 and xcm.cl_clamp
+
+Warning: singular matrix:  check node xcm.n2991579
+
+Error: Transient op failed, timestep too small
+
+
+Error: The operating point could not be simulated successfully.
+    Any of the following steps may fail.!
+
+doAnalyses: OP:  Timestep too small; trouble with node "v.xt1.v_v_orp#branch"
+
+
+op simulation(s) aborted
+Warning from checkvalid: vector a.xcm.x_u18.ag1#branch_1_0 is not available or has zero length.
+Error during 'write': no writable vector found.
+Error: no such vector v(vcm)

@@ -1,0 +1,12 @@
+{
+  "case": "op5_800_blank",
+  "startedUTC": "2026-10-01T13:03:29.071038+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 43404,
+  "lastProgressTime_s": 0.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 0.5106136999092996,
+  "endedUTC": "2026-10-01T13:03:29.581653+00:00"
+}

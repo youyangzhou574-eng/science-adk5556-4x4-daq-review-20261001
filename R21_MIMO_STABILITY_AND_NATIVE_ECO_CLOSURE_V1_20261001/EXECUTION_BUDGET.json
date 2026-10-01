@@ -1,0 +1,1225 @@
+{
+  "startedUTC": "2026-10-01T12:50:12.878000+00:00",
+  "totalMaxMinutes": 360,
+  "phase": "P4",
+  "phaseStartedUTC": "2026-10-01T14:06:03.798092+00:00",
+  "limits": {
+    "P0": {
+      "minutes": 60
+    },
+    "P1": {
+      "minutes": 120
+    },
+    "P2": {
+      "minutes": 60
+    },
+    "P3": {
+      "minutes": 90
+    },
+    "P4": {
+      "minutes": 30
+    }
+  },
+  "globalLimits": {
+    "DC_AC_PZ": 128,
+    "transient": 64,
+    "diagnostics": 16,
+    "full_long": 1,
+    "reset_corners": 96,
+    "protocol_tests": 48,
+    "sources": 8,
+    "reset_candidates": 2,
+    "library": 4,
+    "copy": 1,
+    "session": 2,
+    "save": 8,
+    "capture_audit": 4,
+    "ERC": 2,
+    "PDF": 2
+  },
+  "used": {
+    "diagnostics": 15,
+    "DC_AC_PZ": 76
+  },
+  "cases": [
+    {
+      "name": "pz_fixture_rc",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T12:58:35.340761+00:00",
+      "commands": [
+        "op",
+        "pz"
+      ],
+      "originalCommands": [
+        "op",
+        "pz"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "fixture_y_0",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T12:59:06.425920+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "fixture_y_1",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T12:59:06.444557+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "fixture_y_2",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T12:59:06.458107+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "fixture_y_3",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T12:59:06.476880+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "fixture_y2_0",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:00:55.900595+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "fixture_y2_1",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:00:55.917457+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "fixture_y2_2",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:00:55.938803+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "fixture_y2_3",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:00:55.960957+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "pz_single_tia",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:00:57.141180+00:00",
+      "commands": [
+        "optran",
+        "op",
+        "pz"
+      ],
+      "originalCommands": [
+        "PZ",
+        "optran",
+        "op",
+        "pz"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "op5_800_blank",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:03:28.993992+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "op5_800",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:03:29.014949+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "op5_8000",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:03:29.032304+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "op5_high_target",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:03:29.053906+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "pz_single_tia_distinct",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:03:29.216063+00:00",
+      "commands": [
+        "optran",
+        "op",
+        "pz"
+      ],
+      "originalCommands": [
+        "PZ",
+        "optran",
+        "op",
+        "pz"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "opwarm_800_blank",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:05:30.166652+00:00",
+      "commands": [
+        "optran",
+        "op"
+      ],
+      "originalCommands": [
+        "optran",
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "opwarm_800",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:05:30.186948+00:00",
+      "commands": [
+        "optran",
+        "op"
+      ],
+      "originalCommands": [
+        "optran",
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "opwarm_8000",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:05:30.204561+00:00",
+      "commands": [
+        "optran",
+        "op"
+      ],
+      "originalCommands": [
+        "optran",
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "opwarm_high_target",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:05:30.220679+00:00",
+      "commands": [
+        "optran",
+        "op"
+      ],
+      "originalCommands": [
+        "optran",
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "cont800_4p95",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:10:25.252878+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "cont800_5p05",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:10:25.275849+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "cont800_4p975",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:12:43.470241+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "cont800_5p1",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:12:43.491197+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "cont800_4p95_25",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:15:05.402573+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "cont800_5p075",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:15:05.424664+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "cont800_5p1_25",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:16:26.817225+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "cont800_5p125_25",
+      "phase": "P0",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:17:33.360227+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "mimo_blank_800_p0",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.727301+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "mimo_blank_800_p1",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.747276+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "mimo_blank_800_p2",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.769660+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "mimo_blank_800_p6",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.789380+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "mimo_blank_800_p10",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.808887+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "mimo_blank_800_p11",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.840828+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "mimo_blank_800_p12",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.862595+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "mimo_blank_800_p16",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:00.886975+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2
+      }
+    },
+    {
+      "name": "pre_r4t1_800",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:01.019269+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "pre_r4t1_8000",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:01.052365+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "pre_r4t1_high_target",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:01.084170+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "pre_r1t4_800",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:01.119642+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "pre_r1t4_8000",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:01.152573+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "pre_r1t4_high_target",
+      "phase": "P1",
+      "kind": "DC_AC_PZ",
+      "charges": [
+        "DC_AC_PZ"
+      ],
+      "startedUTC": "2026-10-01T13:21:01.184315+00:00",
+      "commands": [
+        "op"
+      ],
+      "originalCommands": [
+        "op"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p0",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.795713+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p1",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.816633+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p2",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.835526+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p6",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.857115+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p10",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.879827+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p11",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.903412+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p12",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.924455+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "hybrid_blank_800_p16",
+      "phase": "P1",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T13:41:58.945369+00:00",
+      "commands": [
+        "op",
+        "ac"
+      ],
+      "originalCommands": [
+        "op",
+        "ac"
+      ],
+      "originalCharges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 2,
+        "diagnostics": 1
+      }
+    }
+  ],
+  "nativeGate": "NOT_ENTERED",
+  "countConvention": "49 actual process cases; 76 OP/AC/PZ analysis invocations conservatively charged. Diagnostic15 additionally charged; OPTRAN6 initialization commands separately disclosed.",
+  "phaseHistory": [
+    {
+      "phase": "P0",
+      "from": "2026-10-01T12:50:12.878000+00:00",
+      "to": "2026-10-01T13:21:00.631070+00:00"
+    },
+    {
+      "phase": "P1",
+      "from": "2026-10-01T13:21:00.631070+00:00",
+      "to": "2026-10-01T14:06:03.798092+00:00"
+    }
+  ],
+  "scienceStopped": true,
+  "stopUTC": "2026-10-01T13:47:42.501930+00:00",
+  "stopReason": "Binding MIMO sigma_min<0.20 technical review; low-frequency matrix reconstruction/reference normalization not qualified; not a physical instability finding",
+  "originalUsed": {
+    "diagnostics": 15,
+    "DC_AC_PZ": 49
+  },
+  "actualAnalysisInvocations": {
+    "op": 49,
+    "pz": 3,
+    "ac": 24,
+    "optran": 6
+  },
+  "solverProcessCases": 49,
+  "accountingCorrection": "Conservative directive count: 49 OP + 24 AC + 3 PZ = 76; 6 optran DC initializations separately disclosed. Original 49 combined-case classification retained.",
+  "reviewControlDeviation": {
+    "firstThresholdResultUTC": "2026-10-01T13:23:41+00:00",
+    "subsequentHybridDispatchUTC": "2026-10-01T13:41:58+00:00",
+    "postThresholdSolverCases": 8,
+    "actualStopUTC": "2026-10-01T13:47:42.501930+00:00",
+    "explanation": "Technical review flag did not lock runner; 8 crosscheck cases launched. Conservatively recorded execution-control deviation; no retrospective exception or backdated STOP. Sticky linkage now repaired."
+  },
+  "originalCountConvention": "one actually dispatched combined OP+AC or OP+PZ netlist is one DC_AC_PZ case, consistent with accepted previous39/32 case accounting; every command also retained; transient cases containing OP charge BOTH; diagnostic attribute always additionally charged; no new stage resets global counts"
+}

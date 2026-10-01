@@ -1,0 +1,12 @@
+{
+  "case": "hybrid_blank_800_p1",
+  "startedUTC": "2026-10-01T13:41:58.890694+00:00",
+  "limitSeconds": 90.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 38372,
+  "lastProgressTime_s": 1.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 1.0149053998757154,
+  "endedUTC": "2026-10-01T13:41:59.905601+00:00"
+}

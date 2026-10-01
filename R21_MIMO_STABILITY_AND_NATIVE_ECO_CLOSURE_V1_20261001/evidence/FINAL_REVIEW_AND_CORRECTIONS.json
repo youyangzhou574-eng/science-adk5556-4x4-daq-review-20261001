@@ -1,0 +1,19 @@
+{
+  "reviewer": "mimo_final_review",
+  "critical": 0,
+  "important": 3,
+  "findings": [
+    "8 post-threshold diagnostics before manual STOP",
+    "49 process cases actually contain 76 OP/AC/PZ analyses",
+    "provisional PASS omitted qualification prerequisites"
+  ],
+  "corrections": [
+    "sticky threshold STOP linked",
+    "conservative command recount 76 with original preserved",
+    "PASS false pending explicit qualifications",
+    "legacy 240min initializer disabled",
+    "raw OP readable voltage exports"
+  ],
+  "noNewSPICE": true,
+  "UTC": "2026-10-01T14:04:37.697409+00:00"
+}

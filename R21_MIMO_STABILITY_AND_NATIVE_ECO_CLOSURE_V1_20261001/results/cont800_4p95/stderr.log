@@ -1,0 +1,32 @@
+Note: Starting dynamic gmin stepping
+Warning: Dynamic gmin stepping failed
+Note: Starting true gmin stepping
+Warning: True gmin stepping failed
+Note: Starting source stepping
+Warning: source stepping failed
+Note: Transient op started
+Warning: singular matrix:  check nodes xr3.n3294626 and xr1.cl_clamp
+
+Warning: singular matrix:  check nodes xr3.n3294626 and xr1.cl_clamp
+
+Warning: singular matrix:  check nodes xr3.n3294626 and xr1.cl_clamp
+
+Warning: singular matrix:  check nodes xr3.n3294626 and xr1.cl_clamp
+
+Warning: singular matrix:  check nodes xr3.n3294626 and xr1.cl_clamp
+
+Warning: singular matrix:  check nodes xr3.n3294626 and xr1.cl_clamp
+
+Error: Transient op failed, timestep too small
+
+
+Error: The operating point could not be simulated successfully.
+    Any of the following steps may fail.!
+
+doAnalyses: OP:  Timestep too small; trouble with node "e.xr3.x_u40.e3#branch"
+
+
+op simulation(s) aborted
+Warning from checkvalid: vector a.xcm.x_u18.ag1#branch_1_0 is not available or has zero length.
+Error during 'write': no writable vector found.
+Error: no such vector v(vcm)

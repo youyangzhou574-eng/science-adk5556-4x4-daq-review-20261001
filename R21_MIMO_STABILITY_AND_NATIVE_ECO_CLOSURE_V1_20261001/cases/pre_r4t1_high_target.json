@@ -1,0 +1,61 @@
+{
+  "rowsMacro": 4,
+  "colsMacro": 1,
+  "actualMacroCount": 7,
+  "state": -1,
+  "load": "high_target",
+  "vdd": 5,
+  "analysis": "static",
+  "method": "trap",
+  "solver": "default",
+  "boundary": "unmodeled row command and column VCM are ideal controlled voltage sources; no full-board claim",
+  "correctedBias": true,
+  "saved": [
+    "v(vcm)",
+    "v(vexc)",
+    "v(vexcmd)",
+    "v(cmdrv)",
+    "v(exdrv)",
+    "v(row0)",
+    "v(row1)",
+    "v(row2)",
+    "v(row3)",
+    "v(col0)",
+    "v(col1)",
+    "v(col2)",
+    "v(col3)",
+    "v(drv0)",
+    "v(drv1)",
+    "v(drv2)",
+    "v(drv3)",
+    "v(tdrv0)",
+    "v(tap0)",
+    "v(ain0)"
+  ],
+  "arrayOhms": [
+    [
+      8000.0,
+      800.0,
+      800.0,
+      800.0
+    ],
+    [
+      800.0,
+      800.0,
+      800.0,
+      800.0
+    ],
+    [
+      800.0,
+      800.0,
+      800.0,
+      800.0
+    ],
+    [
+      800.0,
+      800.0,
+      800.0,
+      800.0
+    ]
+  ]
+}

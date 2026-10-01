@@ -1,0 +1,1 @@
+{"case": "cont800_5p075", "startedUTC": "2026-10-01T13:15:05.498716+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 66044, "lastProgressTime_s": 0.0, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 1.5080235998611897, "endedUTC": "2026-10-01T13:15:07.006740+00:00"}

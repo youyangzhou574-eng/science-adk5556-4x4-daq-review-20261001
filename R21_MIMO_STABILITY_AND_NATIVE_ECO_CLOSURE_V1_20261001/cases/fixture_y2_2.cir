@@ -1,0 +1,39 @@
+Coupled analytic two-loop multiport fixture
+RIN0 e0 0 100k
+ROUT0 f0 0 1k
+EG0 z0 0 e0 0 100
+RP0 z0 pole0 1k
+CP0 pole0 0 159.1549431n
+GO0 f0 0 pole0 0 1m
+RIN1 e1 0 100k
+ROUT1 f1 0 1k
+EG1 z1 0 e1 0 100
+RP1 z1 pole1 1k
+CP1 pole1 0 159.1549431n
+GO1 f1 0 pole1 0 1m
+GX01 f0 0 pole1 0 .15m
+GX10 f1 0 pole0 0 .05m
+L0 e0 f0 1e9
+L1 e1 f1 1e9
+VP0 src0 0 DC 0 AC 0
+CPORT0 src0 e0 1u
+VP1 src1 0 DC 0 AC 0
+CPORT1 src1 e1 1u
+VP2 src2 0 DC 0 AC 1
+CPORT2 src2 f0 1u
+VP3 src3 0 DC 0 AC 0
+CPORT3 src3 f1 1u
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+op
+ac dec 80 1 300meg
+let ip0=-i(VP0)
+let ip1=-i(VP1)
+let ip2=-i(VP2)
+let ip3=-i(VP3)
+wrdata ac.txt ip0 ip1 ip2 ip3 v(e0) v(e1) v(f0) v(f1)
+quit
+.endc
+.end

@@ -1,0 +1,12 @@
+{
+  "case": "pre_r1t4_high_target",
+  "startedUTC": "2026-10-01T13:21:01.305294+00:00",
+  "limitSeconds": 60.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 35848,
+  "lastProgressTime_s": 0.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 1.0157534999307245,
+  "endedUTC": "2026-10-01T13:21:02.321050+00:00"
+}

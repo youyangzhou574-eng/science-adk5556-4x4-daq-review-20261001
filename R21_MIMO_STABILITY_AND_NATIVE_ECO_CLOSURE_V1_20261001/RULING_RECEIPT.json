@@ -1,0 +1,10 @@
+{
+  "UTC": "2026-10-01T12:51:12.369Z",
+  "ruling": "CIRCUIT-PRO-R21-COUPLED-BLOCKED-ACCEPT-MIMO-CLOSURE-20261001-05",
+  "assistantId": "f7f4fbc1-104f-4d96-b3b5-89755a453d5c",
+  "parentUserId": "ab023e7d-f3c7-45ac-b4b2-9bcf020c4a56",
+  "fullTextRead": true,
+  "frozenCommit": "a3e22772f368322dd9de671ab816c09e3b7f1b72",
+  "userBudgetRequestApproved": true,
+  "maxMinutes": 360
+}

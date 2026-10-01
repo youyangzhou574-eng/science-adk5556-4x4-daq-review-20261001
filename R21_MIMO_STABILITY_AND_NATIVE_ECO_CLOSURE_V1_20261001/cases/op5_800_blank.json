@@ -1,0 +1,8 @@
+{
+  "analysis": "DC",
+  "load": "800",
+  "state": -1,
+  "vdd": 5,
+  "nodesetSource": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\results\\full_static_800_s0_permuted\\op.raw",
+  "noForcedIC": true
+}

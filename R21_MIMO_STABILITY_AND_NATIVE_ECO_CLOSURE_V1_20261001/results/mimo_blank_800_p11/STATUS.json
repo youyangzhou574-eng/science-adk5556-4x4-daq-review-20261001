@@ -1,0 +1,12 @@
+{
+  "case": "mimo_blank_800_p11",
+  "startedUTC": "2026-10-01T13:21:00.930120+00:00",
+  "limitSeconds": 90.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 7308,
+  "lastProgressTime_s": 1.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 3.5232182999607176,
+  "endedUTC": "2026-10-01T13:21:04.453340+00:00"
+}

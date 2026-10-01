@@ -1,0 +1,1 @@
+{"case": "cont800_4p95_25", "startedUTC": "2026-10-01T13:15:05.478267+00:00", "limitSeconds": 60.0, "status": "NORMAL_EXIT", "ownedPID": 26404, "exitCode": 0, "analysisStatus": "ANALYSIS_ERROR", "wallSeconds": 12.532391599845141, "endedUTC": "2026-10-01T13:15:18.010662+00:00"}
