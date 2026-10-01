@@ -1,0 +1,952 @@
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps a
+
+
+Circuit: 07 descriptor local follower qualification
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+ASCII raw file "op.raw"
+ ASRC: Arbitrary Source 
+     device         b.x1.x_u6.bg1         b.x1.x_u4.be1        b.x1.x_u35.bg1
+      dtemp                     0                     0                     0
+          i                     0                     0                     0
+          v           2.87512e-06             -4.67e-06                     0
+   pos_node                   126                   124                   119
+   neg_node                     0                     0                     0
+
+ ASRC: Arbitrary Source 
+     device        b.x1.x_u32.bg1        b.x1.x_u31.bg1        b.x1.x_u30.bg1
+      dtemp                     0                     0                     0
+          i                     0                     0                     0
+          v               4.37528           2.13256e-11          -2.90956e-15
+   pos_node                   118                   117                   116
+   neg_node                     0                     0                     0
+
+ ASRC: Arbitrary Source 
+     device        b.x1.x_u27.bg1        b.x1.x_u26.bg1        b.x1.x_u23.bg1
+      dtemp                     0                     0                     0
+          i                     0                     0                     0
+          v                     0               0.00025                     0
+   pos_node                   115                   114                   113
+   neg_node                     0                     0                     0
+
+ ASRC: Arbitrary Source 
+     device        b.x1.x_u22.bg1        b.x1.x_u19.bg1        b.x1.x_u18.bg1
+      dtemp                     0                     0                     0
+          i                     0                     0                     0
+          v                     0                 -0.25                  0.25
+   pos_node                   112                   111                   109
+   neg_node                     0                     0                     0
+
+ ASRC: Arbitrary Source 
+     device      b.x1.x_u16.bgsw+      b.x1.x_u12.bgvo-      b.x1.x_u12.bgvo+
+      dtemp                     0                     0                     0
+          i                     0                     0                     0
+          v                     0                     0                     0
+   pos_node                   107                   106                   105
+   neg_node                     0                     0                     0
+
+ ASRC: Arbitrary Source 
+     device      b.x1.x_u11.bgvo-      b.x1.x_u11.bgvo+      b.x1.x_u10.bgvo-
+      dtemp                     0                     0                     0
+          i                     0                     0                     0
+          v                     0                     0                     0
+   pos_node                   104                   103                   102
+   neg_node                     0                     0                     0
+
+ ASRC: Arbitrary Source 
+     device      b.x1.x_u10.bgvo+
+      dtemp                     0
+          i                     0
+          v                     0
+   pos_node                   101
+   neg_node                     0
+
+ Capacitor: Fixed capacitor
+     device                 cload         c.x1.c_c_diff         c.x1.c_c_com1
+      model                     C                     C                     C
+capacitance                 1e-11                 2e-12               4.5e-12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                    -0
+
+ Capacitor: Fixed capacitor
+     device         c.x1.c_c_com0            c.x1.c_c93            c.x1.c_c77
+      model                     C                     C                     C
+capacitance               4.5e-12             1.188e-10             3.183e-13
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                    -0                     0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c74            c.x1.c_c72            c.x1.c_c70
+      model                     C                     C                     C
+capacitance                 2e-13               3.9e-16                 1e-10
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device             c.x1.c_c5             c.x1.c_c4            c.x1.c_c30
+      model                     C                     C                     C
+capacitance              4.03e-07                 1e-15                 1e-09
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c29            c.x1.c_c27            c.x1.c_c26
+      model                     C                     C                     C
+capacitance                 1e-09                 1e-10                 1e-12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                    -0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c25            c.x1.c_c24            c.x1.c_c23
+      model                     C                     C                     C
+capacitance                 1e-12                 1e-15                 1e-15
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                    -0                    -0                     0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c22            c.x1.c_c21            c.x1.c_c20
+      model                     C                     C                     C
+capacitance                 1e-15                 1e-15                 1e-15
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                    -0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c19            c.x1.c_c18            c.x1.c_c17
+      model                     C                     C                     C
+capacitance                 1e-15                 1e-15                 1e-15
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c16            c.x1.c_c15            c.x1.c_c14
+      model                     C                     C                     C
+capacitance                 1e-15                 1e-15                 2e-06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                    -0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c13           c.x1.c_c127           c.x1.c_c126
+      model                     C                     C                     C
+capacitance                 1e-15             3.183e-13               1.4e-09
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Capacitor: Fixed capacitor
+     device           c.x1.c_c125           c.x1.c_c124           c.x1.c_c123
+      model                     C                     C                     C
+capacitance               5.3e-13              4.08e-11                 4e-11
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                    -0                     0                    -0
+
+ Capacitor: Fixed capacitor
+     device           c.x1.c_c122           c.x1.c_c121            c.x1.c_c11
+      model                     C                     C                     C
+capacitance              7.96e-10             8.842e-13              7.96e-09
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+          i                     0                     0                     0
+          p                    -0                     0                    -0
+
+ Capacitor: Fixed capacitor
+     device            c.x1.c_c10             c.x1.c_c1
+      model                     C                     C
+capacitance              3.98e-05               1.4e-13
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+          i                     0                     0
+          p                     0                     0
+
+ CCVS: Linear current controlled current source
+     device        h.x1.x_h3.h_h3        h.x1.x_h2.h_h2        h.x1.x_h1.h_h1
+          i                     0                     0          -1.16738e-13
+          v            -5.511e-08            -5.511e-08                  0.25
+          p                    -0                    -0          -2.91845e-14
+
+ Isource: Independent current source
+     device            i.x1.i_i_q           i.x1.i_i_os            i.x1.i_i_b
+         dc                0.0019            -3.002e-11             3.002e-11
+          m                     1                     1                     1
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+          v                    -5          -2.87515e-06             -1.25e-06
+          p                0.0095          -8.63119e-17            3.7525e-17
+    current                0.0019            -3.002e-11             3.002e-11
+
+ Resistor: Simple linear resistor
+     device                 rload         r.x1.x_u40.r5         r.x1.x_u40.r4
+      model                     R                     R                     R
+ resistance                 10000               59.1821               59.1821
+         ac                 10000               59.1821               59.1821
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i               0.00025                     0                     0
+          p           0.000625001                     0                     0
+
+ Resistor: Simple linear resistor
+     device         r.x1.x_u39.r2         r.x1.x_u39.r1         r.x1.x_u38.r2
+      model                     R                     R                     R
+ resistance                 12066                 12066                 12066
+         ac                 12066                 12066                 12066
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device         r.x1.x_u38.r1       r.x1.x_s2.rs_s2       r.x1.x_s1.rs_s1
+      model                     R                     R                     R
+ resistance                 12066                 1e+09                 1e+09
+         ac                 12066                 1e+09                 1e+09
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0              -5.5e-08              -5.5e-08
+          p                     0             3.025e-06             3.025e-06
+
+ Resistor: Simple linear resistor
+     device         r.x1.r_r_diff          r.x1.r_r_cm2          r.x1.r_r_cm1
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 1e+08                 1e+12                 1e+12
+         ac                 1e+08                 1e+12                 1e+12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.62515e-14          -2.87515e-18              1.25e-18
+          p            2.6411e-20           8.26647e-24            1.5625e-24
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_rx4            r.x1.r_rx3            r.x1.r_rx2
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                   100                 1e+12                   100
+         ac                   100                 1e+12                   100
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0          -2.87515e-18           1.33262e-13
+          p                     0           8.26647e-24           1.77588e-24
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_rx1             r.x1.r_rx         r.x1.r_rs_inp
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 1e+12                 17500                  0.01
+         ac                 1e+12                 17500                  0.01
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i              -2.5e-13          -0.000250002           2.98428e-11
+          p           6.25001e-14            0.00109377           8.90592e-24
+
+ Resistor: Simple linear resistor
+     device         r.x1.r_rs_inn         r.x1.r_rdummy            r.x1.r_r83
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                  0.01                  1750                   100
+         ac                  0.01                  1750                   100
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -3.08198e-11          -1.64294e-09                     0
+          p            9.4986e-24            4.7237e-15                     0
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r82            r.x1.r_r81            r.x1.r_r80
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                   100                   100
+         ac                     1                   100                   100
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0                     0                     0
+          p                     0                     0                     0
+
+ Resistor: Simple linear resistor
+     device             r.x1.r_r8            r.x1.r_r79            r.x1.r_r78
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                  1000                     1                     1
+         ac                  1000                     1                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.27536e-13                   -55                    55
+          p           1.62654e-23                  3025                  3025
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r77            r.x1.r_r76            r.x1.r_r75
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                  1000                  1000                 0.001
+         ac                  1000                  1000                 0.001
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           -0.00247978           -0.00248312                     0
+          p            0.00614929            0.00616587                     0
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r74            r.x1.r_r73            r.x1.r_r72
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                  1000                 0.001                  1000
+         ac                  1000                 0.001                  1000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           2.02201e-05                     0           1.68813e-05
+          p           4.08854e-07                     0           2.84979e-07
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r71            r.x1.r_r70             r.x1.r_r7
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 0.001                     1                285000
+         ac                 0.001                     1                285000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0           1.43885e-13          -4.39415e-19
+          p                     0           2.07029e-26           5.50293e-32
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r69            r.x1.r_r68            r.x1.r_r67
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 1e+12                 0.001                 0.001
+         ac                 1e+12                 0.001                 0.001
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i              -1.5e-10           4.44089e-13           4.44089e-13
+          p              2.25e-08           1.97215e-28           1.97215e-28
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r66            r.x1.r_r65            r.x1.r_r64
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 1e+12                     1
+         ac                     1                 1e+12                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.43885e-13               1.5e-10           1.43885e-13
+          p           2.07029e-26              2.25e-08           2.07029e-26
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r63            r.x1.r_r62            r.x1.r_r61
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 1e+12                 0.001                 0.001
+         ac                 1e+12                 0.001                 0.001
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                -6e-11           4.44089e-13           4.44089e-13
+          p               3.6e-09           1.97215e-28           1.97215e-28
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r60             r.x1.r_r6            r.x1.r_r59
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 1e+08                 1e+12
+         ac                     1                 1e+08                 1e+12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.43885e-13          -4.38627e-19                 6e-11
+          p           2.07029e-26           1.92394e-29               3.6e-09
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r58            r.x1.r_r57            r.x1.r_r56
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 0.001                     1                 1e+12
+         ac                 0.001                     1                 1e+12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           4.44089e-13           1.43885e-13          -2.47978e-12
+          p           1.97215e-28           2.07029e-26           6.14929e-12
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r55            r.x1.r_r54            r.x1.r_r53
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 0.001                     1                 1e+12
+         ac                 0.001                     1                 1e+12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           4.44089e-13           1.43885e-13           2.48312e-12
+          p           1.97215e-28           2.07029e-26           6.16587e-12
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r52            r.x1.r_r51            r.x1.r_r50
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 0.001                 1e+06
+         ac                     1                 0.001                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i               2.5e-06               2.5e-06               2.5e-06
+          p           6.24999e-12           6.24998e-15           6.24998e-06
+
+ Resistor: Simple linear resistor
+     device             r.x1.r_r5            r.x1.r_r49            r.x1.r_r48
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 1e+12                 1e+06
+         ac                     1                 1e+12                 1e+06
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -4.39879e-11               2.5e-12               2.5e-06
+          p           1.93494e-21           6.24999e-12           6.24999e-06
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r47            r.x1.r_r46            r.x1.r_r43
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 0.001                     1                     1
+         ac                 0.001                     1                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i               2.5e-06                     5              -4.37503
+          p              6.25e-15                    25               19.1409
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r39            r.x1.r_r38            r.x1.r_r37
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 10000                 62730                     1
+         ac                 10000                 62730                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0           1.41588e-20              -4.37964
+          p                     0           1.25755e-35               19.1812
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r36            r.x1.r_r35            r.x1.r_r34
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance               9090.91                     1                 10000
+         ac               9090.91                     1                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           -0.00022941              -4.37964           -0.00022941
+          p           0.000478444               19.1812           0.000526288
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r33           r.x1.r_r321           r.x1.r_r320
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                  1000                     1                304000
+         ac                  1000                     1                304000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -2.13206e-08           -0.00103867          -1.03552e-11
+          p           4.54567e-13           1.07883e-06           3.25978e-17
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r32           r.x1.r_r319           r.x1.r_r318
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                  1000                 1e+08                  28.5
+         ac                  1000                 1e+08                  28.5
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -2.13206e-08          -1.03552e-11          -4.39415e-15
+          p           4.54567e-13            1.0723e-14           5.50293e-28
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r317           r.x1.r_r316           r.x1.r_r315
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 10000                 10000
+         ac                     1                 10000                 10000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -4.41354e-11          -4.40101e-15                     0
+          p           1.94793e-21           1.93689e-25                     0
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r314           r.x1.r_r313           r.x1.r_r312
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 10000                     1                  3610
+         ac                 10000                     1                  3610
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           1.77636e-19              -4.37922          -0.000321772
+          p           3.15544e-34               19.1776            0.00037377
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r311           r.x1.r_r310           r.x1.r_r309
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 10000                     1
+         ac                     1                 10000                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i              -4.37932          -0.000321772              -4.37964
+          p               19.1784            0.00103537               19.1812
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r308           r.x1.r_r307           r.x1.r_r306
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 10000                770000                     1
+         ac                 10000                770000                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0           3.57578e-20              -4.37964
+          p                     0           9.84539e-34               19.1812
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r305           r.x1.r_r304           r.x1.r_r303
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 10000                190000                 11610
+         ac                 10000                190000                 11610
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                     0           3.27224e-20           -1.8364e-09
+          p                     0           2.03443e-34            3.9153e-14
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r302           r.x1.r_r301            r.x1.r_r24
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 10000                  1000
+         ac                     1                 10000                  1000
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -3.96845e-05           -1.8364e-09          -2.13253e-08
+          p           1.57486e-09           3.37236e-14           4.54768e-13
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r234           r.x1.r_r233           r.x1.r_r230
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 239.5                 1e+08
+         ac                     1                 239.5                 1e+08
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i                 1.314           1.31399e-08           1.31399e-08
+          p               1.72659           4.13517e-14           1.72658e-08
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r23            r.x1.r_r22            r.x1.r_r21
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 1e+06                 1e+06                 0.001
+         ac                 1e+06                 1e+06                 0.001
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -2.13252e-11          -8.48988e-17                     0
+          p           4.54766e-16            7.2078e-27                     0
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r20           r.x1.r_r190            r.x1.r_r19
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                304000                 1e+12
+         ac                     1                304000                 1e+12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i           2.87512e-06          -1.03535e-11               2.6e-12
+          p            8.2663e-12           3.25874e-17           6.75998e-12
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r189           r.x1.r_r187            r.x1.r_r18
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     1                 1e+08                 1e+12
+         ac                     1                 1e+08                 1e+12
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i            -0.0010385          -1.03535e-11              -2.6e-12
+          p           1.07848e-06           1.07195e-14           6.75999e-12
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r179           r.x1.r_r178           r.x1.r_r176
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                     8                 10000                     1
+         ac                     8                 10000                     1
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -0.000437528          -0.000437528              -4.37878
+          p           1.53145e-06            0.00191431               19.1738
+
+ Resistor: Simple linear resistor
+     device           r.x1.r_r171            r.x1.r_r17           r.x1.r_r167
+      model        x1:r_noiseless        x1:r_noiseless        x1:r_noiseless
+ resistance                 1e+06                 0.001                   100
+         ac                 1e+06                 0.001                   100
+      dtemp                     0                     0                     0
+     bv_max                 1e+99                 1e+99                 1e+99
+      noisy                     1                     1                     1
+          i          -2.13253e-11                     0                     0
+          p           4.54768e-16                     0                     0
+
+ Resistor: Simple linear resistor
+     device            r.x1.r_r16            r.x1.r_r15
+      model        x1:r_noiseless        x1:r_noiseless
+ resistance                  1000                 0.001
+         ac                  1000                 0.001
+      dtemp                     0                     0
+     bv_max                 1e+99                 1e+99
+      noisy                     1                     1
+          i           6.29499e-09          -4.44089e-13
+          p           3.96269e-14           1.97215e-28
+
+ VCCS: Voltage controlled current source
+     device          g.x1.x_u6.g1         g.x1.x_u39.g1         g.x1.x_u38.g1
+          m                     0                     0                     0
+          i           2.87512e-06                     0                     0
+          v          -2.87512e-06           2.87515e-06             -1.25e-06
+          p           -8.2663e-12                     0                    -0
+
+ VCCS: Voltage controlled current source
+     device         g.x1.x_u35.g1         g.x1.x_u32.g1         g.x1.x_u31.g1
+          m                     0                     0                     0
+          i                     0               4.37528           2.13256e-11
+          v           2.13206e-05              -4.37503          -2.13252e-05
+          p                     0               -19.142          -4.54774e-16
+
+ VCCS: Voltage controlled current source
+     device         g.x1.x_u30.g1         g.x1.x_u27.g1         g.x1.x_u26.g1
+          m                     0                     0                     0
+          i          -2.90956e-15                     0               0.00025
+          v          -8.48988e-11                   2.5                   2.5
+          p           2.47018e-25                     0           0.000625001
+
+ VCCS: Voltage controlled current source
+     device         g.x1.x_u23.g1         g.x1.x_u22.g1         g.x1.x_u19.g1
+          m                     0                     0                     0
+          i                     0                     0           2.02201e-05
+          v           2.13252e-05           2.13206e-05            -0.0202201
+          p                     0                     0          -4.08854e-07
+
+ VCCS: Voltage controlled current source
+     device         g.x1.x_u18.g1       g.x1.x_u16.gsw+       g.x1.x_u12.gvo-
+          m                     0                     0                     0
+          i           1.68813e-05                     0                     0
+          v            -0.0168813                     0          -1.43885e-13
+          p          -2.84979e-07                     0                    -0
+
+ VCCS: Voltage controlled current source
+     device       g.x1.x_u12.gvo+       g.x1.x_u11.gvo-       g.x1.x_u11.gvo+
+          m                     0                     0                     0
+          i                     0                     0                     0
+          v          -1.43885e-13          -1.43885e-13          -1.43885e-13
+          p                    -0                    -0                    -0
+
+ VCCS: Voltage controlled current source
+     device       g.x1.x_u10.gvo-       g.x1.x_u10.gvo+            g.x1.g_g99
+          m                     0                     0                     0
+          i                     0                     0          -4.40695e-11
+          v          -1.43885e-13          -1.43885e-13           4.41354e-11
+          p                    -0                    -0          -1.94503e-21
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g98            g.x1.g_g97            g.x1.g_g96
+          m                     0                     0                     0
+          i              -4.37922              -4.37922              -4.37964
+          v               4.37878               4.37922               4.37932
+          p              -19.1757              -19.1776              -19.1798
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g95            g.x1.g_g93            g.x1.g_g92
+          m                     0                     0                     0
+          i              -4.37964              -4.37964          -3.96864e-05
+          v               4.37964               4.37964           3.96845e-05
+          p              -19.1812              -19.1812          -1.57494e-09
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g63             g.x1.g_g6             g.x1.g_g5
+          m                     0                     0                     0
+          i                 1.314          -2.13252e-08          -6.29499e-09
+          v                -1.314           2.13253e-05           6.29499e-06
+          p              -1.72659          -4.54767e-13          -3.96269e-14
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g41             g.x1.g_g4            g.x1.g_g39
+          m                     0                     0                     0
+          i          -2.13253e-11            -0.0010385              -4.37987
+          v           2.13253e-05             0.0010385               4.37964
+          p          -4.54768e-16          -1.07848e-06              -19.1822
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g23            g.x1.g_g22            g.x1.g_g21
+          m                     0                     0                     0
+          i                   -55                    55            0.00247978
+          v                    55                   -55              -2.47978
+          p                 -3025                 -3025           -0.00614929
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g20             g.x1.g_g2            g.x1.g_g19
+          m                     0                     0                     0
+          i           -0.00248312          -1.25233e-16                    -0
+          v               2.48312           1.27536e-10               2.5e-06
+          p           -0.00616587          -1.59717e-26                    -0
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g18            g.x1.g_g16            g.x1.g_g13
+          m                     0                     0                     0
+          i                    -5              -4.37964          -2.13206e-08
+          v                     5               4.37964           2.13206e-05
+          p                   -25              -19.1812          -4.54567e-13
+
+ VCCS: Voltage controlled current source
+     device            g.x1.g_g12           g.x1.g_g100             g.x1.g_g1
+          m                     0                     0                     0
+          i          -2.13206e-08           -0.00103867          -4.39875e-11
+          v           2.13206e-05            0.00103867           4.39879e-11
+          p          -4.54567e-13          -1.07883e-06          -1.93492e-21
+
+ VCVS: Voltage controlled voltage source
+     device         e.x1.x_u40.e3          e.x1.x_u4.e1         e.x1.x_u39.e1
+          i           2.98926e-11            1.2741e-13                     0
+          v                     0             -4.67e-06                     0
+          p                     0          -5.95006e-19                     0
+
+ VCVS: Voltage controlled voltage source
+     device         e.x1.x_u38.e1             e.x1.e_e4             e.x1.e_e3
+          i                     0                     0          -1.45685e-18
+          v                     0           2.13206e-05           2.87515e-06
+          p                     0                     0          -4.18866e-24
+
+ VCVS: Voltage controlled voltage source
+     device             e.x1.e_e1
+          i           9.61292e-11
+          v                   2.5
+          p           2.40323e-10
+
+ Vsource: Independent voltage source
+     device       v.x1.x_h3.vh_h3       v.x1.x_h2.vh_h2       v.x1.x_h1.vh_h1
+         dc                     0                     0                     0
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i             5.511e-08            -5.511e-08               0.00025
+          p                     0                    -0                     0
+
+ Vsource: Independent voltage source
+     device          v.x1.v_v_orp          v.x1.v_v_orn         v.x1.v_v_iscp
+         dc                    55                   -55                    60
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i                     0                     0                -6e-11
+          p                     0                    -0              -3.6e-09
+
+ Vsource: Independent voltage source
+     device         v.x1.v_v_iscn          v.x1.v_v_grp          v.x1.v_v_grn
+         dc                   -60                   150                  -150
+      acmag                     0                     0                     0
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i                 6e-11              -1.5e-10               1.5e-10
+          p              -3.6e-09             -2.25e-08             -2.25e-08
+
+ Vsource: Independent voltage source
+     device        v.x1.v_vcm_min        v.x1.v_vcm_max                   vin
+         dc                  -0.1                   0.1                   2.5
+      acmag                     0                     0                     1
+      pulse                     -                     -                     -
+        sin                     -                     -                     -
+        exp                     -                     -                     -
+        pwl                     -                     -                     -
+       sffm                     -                     -                     -
+         am                     -                     -                     -
+    trnoise                     -                     -                     -
+   trrandom                     -                     -                     -
+    portnum                     0                     0                     0
+         z0                     0                     0                     0
+        pwr                     0                     0                     0
+       freq                     0                     0                     0
+      phase                     0                     0                     0
+          i               2.6e-12              -2.6e-12          -2.98428e-11
+          p              -2.6e-13              -2.6e-13           -7.4607e-11
+
+ Vsource: Independent voltage source
+     device                   vdd
+         dc                     5
+      acmag                     0
+      pulse                     -
+        sin                     -
+        exp                     -
+        pwl                     -
+       sffm                     -
+         am                     -
+    trnoise                     -
+   trrandom                     -
+    portnum                     0
+         z0                     0
+        pwr                     0
+       freq                     0
+      phase                     0
+          i              -0.00215
+          p              -0.01075
+
+ pwl: piecwise linear controlled source
+     device        a.x1.x_u19.ag1        a.x1.x_u18.ag1
+      model      x1.x_u19:xfer_g1      x1.x_u18:xfer_g1
+last_x_valu                  À‰]                  À‰]
+          x                                            
+          y ÉßbêS3ð>ÉßbêS3ð>ÜN^ áÛËèè>áÛËèè>b2U0*
+
+ pswitch: analog PSPICE compatible switch
+     device         a.x1.x_u5.as4         a.x1.x_u5.as3         a.x1.x_u5.as2
+      model       x1.x_u5:aesd_sw       x1.x_u5:aesd_sw       x1.x_u5:aesd_sw
+    locdata      ƒ…ð‹/@*|šB¸7À      ƒ…ð‹/@*|šB¸7À      ƒ…ð‹/@*|šB¸7À
+
+ pswitch: analog PSPICE compatible switch
+     device         a.x1.x_u5.as1        a.x1.x_u25.as1        a.x1.x_u21.as2
+      model       x1.x_u5:aesd_sw       x1.x_u25:aol_sw      x1.x_u21:aesd_sw
+    locdata      ƒ…ð‹/@*|šB¸7À      ¸ÿ+ó'¹$@ÄÿùŸöDAÀ      ƒ…ð‹/@*|šB¸7À
+
+ pswitch: analog PSPICE compatible switch
+     device        a.x1.x_u21.as1       a.x1.x_s2.as_s2       a.x1.x_s1.as_s1
+      model      x1.x_u21:aesd_sw          x1.x_s2:a_s2          x1.x_s1:a_s1
+    locdata      ƒ…ð‹/@*|šB¸7À      [ª¢*ž'@sª>„;@À      [ª¢*ž'@sª>„;@À
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  3.00000e+08
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 548
+ngspice-47 done

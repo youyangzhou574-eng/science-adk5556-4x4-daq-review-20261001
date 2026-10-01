@@ -1,0 +1,3895 @@
+{
+  "counts": {
+    "v": 13,
+    "c": 38,
+    "e": 7,
+    "g": 45,
+    "i": 3,
+    "r": 113,
+    "h": 3,
+    "s": 9
+  },
+  "total": 231,
+  "allActualMapped": true,
+  "modelsSHA256": {
+    "OPA4388_ORIGINAL.LIB": "958FF133418BD47522015057497858263E73B9E6D75860EF9C0B6FDABED5CD0D",
+    "OPAx388.LIB": "BB9C6C7AC80DC7FF1AC5B698C05C53F0A8D55BABB1AB210150D9BD910A6BF8E4"
+  },
+  "elements": [
+    {
+      "name": "vdd",
+      "kind": "v",
+      "nodes": [
+        "vdd",
+        "0"
+      ],
+      "args": "DC 5",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 3,
+      "scope": ""
+    },
+    {
+      "name": "vin",
+      "kind": "v",
+      "nodes": [
+        "inp",
+        "0"
+      ],
+      "args": "DC 2.5 AC 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 4,
+      "scope": ""
+    },
+    {
+      "name": "c.x1.c_c1",
+      "kind": "c",
+      "nodes": [
+        "x1.n3294772",
+        "x1.n3294776"
+      ],
+      "args": "140F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 80,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c10",
+      "kind": "c",
+      "nodes": [
+        "x1.n3294626",
+        "x1.n3294630"
+      ],
+      "args": "39.8U",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 81,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c11",
+      "kind": "c",
+      "nodes": [
+        "x1.mid",
+        "x1.n47456861"
+      ],
+      "args": "7.96N",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 82,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c121",
+      "kind": "c",
+      "nodes": [
+        "x1.n4736080",
+        "x1.n3294524"
+      ],
+      "args": "884.2F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 83,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c122",
+      "kind": "c",
+      "nodes": [
+        "x1.mid",
+        "x1.n47492651"
+      ],
+      "args": "796P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 84,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c123",
+      "kind": "c",
+      "nodes": [
+        "x1.mid",
+        "x1.n47965841"
+      ],
+      "args": "40P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 85,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c124",
+      "kind": "c",
+      "nodes": [
+        "x1.n4797748",
+        "x1.n4797760"
+      ],
+      "args": "40.8P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 86,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c125",
+      "kind": "c",
+      "nodes": [
+        "x1.mid",
+        "x1.n48001371"
+      ],
+      "args": "530F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 87,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c126",
+      "kind": "c",
+      "nodes": [
+        "x1.n4809008",
+        "x1.n2991553"
+      ],
+      "args": "1.4N",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 88,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c127",
+      "kind": "c",
+      "nodes": [
+        "x1.n4817896",
+        "x1.n2991581"
+      ],
+      "args": "318.3F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 89,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c13",
+      "kind": "c",
+      "nodes": [
+        "x1.n2992397",
+        "0"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 90,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c14",
+      "kind": "c",
+      "nodes": [
+        "0",
+        "x1.n2992375"
+      ],
+      "args": "2U",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 91,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c15",
+      "kind": "c",
+      "nodes": [
+        "x1.n2992413",
+        "0"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 92,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c16",
+      "kind": "c",
+      "nodes": [
+        "x1.n2991741",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 93,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c17",
+      "kind": "c",
+      "nodes": [
+        "x1.n2991765",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 94,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c18",
+      "kind": "c",
+      "nodes": [
+        "x1.n2991811",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 95,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c19",
+      "kind": "c",
+      "nodes": [
+        "x1.n2991831",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 96,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c20",
+      "kind": "c",
+      "nodes": [
+        "x1.n2991907",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 97,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c21",
+      "kind": "c",
+      "nodes": [
+        "x1.n2991925",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 98,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c22",
+      "kind": "c",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991969"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 99,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c23",
+      "kind": "c",
+      "nodes": [
+        "x1.n2992033",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 100,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c24",
+      "kind": "c",
+      "nodes": [
+        "x1.n2992029",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 101,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c25",
+      "kind": "c",
+      "nodes": [
+        "x1.n2992093",
+        "x1.mid"
+      ],
+      "args": "1P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 102,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c26",
+      "kind": "c",
+      "nodes": [
+        "x1.n2992099",
+        "x1.mid"
+      ],
+      "args": "1P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 103,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c27",
+      "kind": "c",
+      "nodes": [
+        "x1.sw_ol_opa4388",
+        "x1.mid"
+      ],
+      "args": "100P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 104,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c29",
+      "kind": "c",
+      "nodes": [
+        "x1.vimon",
+        "x1.mid"
+      ],
+      "args": "1N",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 105,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c30",
+      "kind": "c",
+      "nodes": [
+        "x1.vout_s",
+        "x1.mid"
+      ],
+      "args": "1N",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 106,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c4",
+      "kind": "c",
+      "nodes": [
+        "x1.n2991657",
+        "x1.mid"
+      ],
+      "args": "1F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 107,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c5",
+      "kind": "c",
+      "nodes": [
+        "x1.clamp",
+        "x1.mid"
+      ],
+      "args": "403N",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 108,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c70",
+      "kind": "c",
+      "nodes": [
+        "x1.vclp",
+        "x1.mid"
+      ],
+      "args": "100P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 109,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c72",
+      "kind": "c",
+      "nodes": [
+        "x1.n4031911",
+        "x1.mid"
+      ],
+      "args": "3.9E-16",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 110,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c74",
+      "kind": "c",
+      "nodes": [
+        "x1.n3827259",
+        "x1.n3828449"
+      ],
+      "args": "200F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 111,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c77",
+      "kind": "c",
+      "nodes": [
+        "x1.n3850714",
+        "x1.n3850724"
+      ],
+      "args": "318.3F",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 112,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c93",
+      "kind": "c",
+      "nodes": [
+        "x1.n4243633",
+        "x1.n2991579"
+      ],
+      "args": "118.8P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 113,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c_com0",
+      "kind": "c",
+      "nodes": [
+        "x1.esdp",
+        "x1.mid"
+      ],
+      "args": "4.5P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 114,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c_com1",
+      "kind": "c",
+      "nodes": [
+        "x1.mid",
+        "x1.esdn"
+      ],
+      "args": "4.5P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 115,
+      "scope": "x1"
+    },
+    {
+      "name": "c.x1.c_c_diff",
+      "kind": "c",
+      "nodes": [
+        "x1.esdn",
+        "x1.esdp"
+      ],
+      "args": "2P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 116,
+      "scope": "x1"
+    },
+    {
+      "name": "e.x1.e_e1",
+      "kind": "e",
+      "nodes": [
+        "x1.mid",
+        "0",
+        "x1.n2992375",
+        "0"
+      ],
+      "args": "1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 117,
+      "scope": "x1"
+    },
+    {
+      "name": "e.x1.e_e3",
+      "kind": "e",
+      "nodes": [
+        "x1.n2992163",
+        "x1.mid",
+        "out",
+        "x1.mid"
+      ],
+      "args": "1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 118,
+      "scope": "x1"
+    },
+    {
+      "name": "e.x1.e_e4",
+      "kind": "e",
+      "nodes": [
+        "x1.n3294618",
+        "x1.mid",
+        "x1.cl_clamp",
+        "x1.mid"
+      ],
+      "args": "1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 119,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g1",
+      "kind": "g",
+      "nodes": [
+        "x1.n3294772",
+        "x1.mid",
+        "x1.esdp",
+        "x1.mid"
+      ],
+      "args": "-35.19U",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 120,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g100",
+      "kind": "g",
+      "nodes": [
+        "x1.n4817896",
+        "x1.mid",
+        "x1.n3850724",
+        "x1.mid"
+      ],
+      "args": "-330",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 121,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g12",
+      "kind": "g",
+      "nodes": [
+        "x1.claw_clamp",
+        "x1.mid",
+        "x1.n3294524",
+        "x1.mid"
+      ],
+      "args": "-1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 122,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g13",
+      "kind": "g",
+      "nodes": [
+        "x1.cl_clamp",
+        "x1.mid",
+        "x1.claw_clamp",
+        "x1.mid"
+      ],
+      "args": "-1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 123,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g16",
+      "kind": "g",
+      "nodes": [
+        "x1.n3201092",
+        "x1.mid",
+        "x1.n3294630",
+        "x1.mid"
+      ],
+      "args": "-2.1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 124,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g18",
+      "kind": "g",
+      "nodes": [
+        "x1.vcc_b",
+        "0",
+        "vdd",
+        "0"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 125,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g19",
+      "kind": "g",
+      "nodes": [
+        "x1.vee_b",
+        "0",
+        "0",
+        "0"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 126,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g2",
+      "kind": "g",
+      "nodes": [
+        "x1.n2991563",
+        "x1.n2991555",
+        "x1.n2991553",
+        "x1.mid"
+      ],
+      "args": "-1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 127,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g20",
+      "kind": "g",
+      "nodes": [
+        "x1.vcc_clp",
+        "x1.mid",
+        "x1.n2992033",
+        "x1.mid"
+      ],
+      "args": "-1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 128,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g21",
+      "kind": "g",
+      "nodes": [
+        "x1.vee_clp",
+        "x1.mid",
+        "x1.n2992029",
+        "x1.mid"
+      ],
+      "args": "-1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 129,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g22",
+      "kind": "g",
+      "nodes": [
+        "x1.n2992299",
+        "x1.mid",
+        "x1.n2992295",
+        "x1.mid"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 130,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g23",
+      "kind": "g",
+      "nodes": [
+        "x1.n2992323",
+        "x1.mid",
+        "x1.n2992331",
+        "x1.mid"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 131,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g39",
+      "kind": "g",
+      "nodes": [
+        "x1.n3294626",
+        "x1.mid",
+        "x1.cl_clamp",
+        "x1.n2992235"
+      ],
+      "args": "-237.45K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 132,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g4",
+      "kind": "g",
+      "nodes": [
+        "x1.n3850714",
+        "x1.mid",
+        "x1.vcc_b",
+        "x1.mid"
+      ],
+      "args": "-415.4U",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 133,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g41",
+      "kind": "g",
+      "nodes": [
+        "x1.n4031911",
+        "x1.mid",
+        "x1.vsense",
+        "x1.mid"
+      ],
+      "args": "-1U",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 134,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g5",
+      "kind": "g",
+      "nodes": [
+        "x1.n2991587",
+        "x1.n2991583",
+        "x1.n2991581",
+        "x1.n2991579"
+      ],
+      "args": "-1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 135,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g6",
+      "kind": "g",
+      "nodes": [
+        "x1.vsense",
+        "x1.mid",
+        "x1.clamp",
+        "x1.mid"
+      ],
+      "args": "-1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 136,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g63",
+      "kind": "g",
+      "nodes": [
+        "x1.n4243633",
+        "x1.mid",
+        "x1.vee_b",
+        "x1.mid"
+      ],
+      "args": "-525.6M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 137,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g92",
+      "kind": "g",
+      "nodes": [
+        "x1.n4736080",
+        "x1.mid",
+        "x1.n4031911",
+        "x1.mid"
+      ],
+      "args": "-1.861",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 138,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g93",
+      "kind": "g",
+      "nodes": [
+        "x1.n4747399",
+        "x1.mid",
+        "x1.n4745674",
+        "x1.mid"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 139,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g95",
+      "kind": "g",
+      "nodes": [
+        "x1.n4796554",
+        "x1.mid",
+        "x1.n4749239",
+        "x1.mid"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 140,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g96",
+      "kind": "g",
+      "nodes": [
+        "x1.n4797748",
+        "x1.mid",
+        "x1.n4796572",
+        "x1.mid"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 141,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g97",
+      "kind": "g",
+      "nodes": [
+        "x1.n4798545",
+        "x1.mid",
+        "x1.n4797760",
+        "x1.mid"
+      ],
+      "args": "-3.77",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 142,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g98",
+      "kind": "g",
+      "nodes": [
+        "x1.n3827259",
+        "x1.mid",
+        "x1.n4800105",
+        "x1.mid"
+      ],
+      "args": "-1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 143,
+      "scope": "x1"
+    },
+    {
+      "name": "g.x1.g_g99",
+      "kind": "g",
+      "nodes": [
+        "x1.n4809008",
+        "x1.mid",
+        "x1.n3294776",
+        "x1.mid"
+      ],
+      "args": "-351.9",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 144,
+      "scope": "x1"
+    },
+    {
+      "name": "i.x1.i_i_b",
+      "kind": "i",
+      "nodes": [
+        "x1.n2991573",
+        "x1.mid"
+      ],
+      "args": "DC 30.02P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 145,
+      "scope": "x1"
+    },
+    {
+      "name": "i.x1.i_i_os",
+      "kind": "i",
+      "nodes": [
+        "x1.esdn",
+        "x1.mid"
+      ],
+      "args": "DC -30.02P",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 146,
+      "scope": "x1"
+    },
+    {
+      "name": "i.x1.i_i_q",
+      "kind": "i",
+      "nodes": [
+        "vdd",
+        "0"
+      ],
+      "args": "DC 1.9M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 147,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r15",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991583",
+        "x1.n2991563"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 148,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r16",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991587",
+        "x1.n2991583"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 149,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r167",
+      "kind": "r",
+      "nodes": [
+        "x1.n3294618",
+        "x1.vclp"
+      ],
+      "args": "R_NOISELESS 100",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 150,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r17",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991619",
+        "x1.esdn"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 151,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r171",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4031911"
+      ],
+      "args": "R_NOISELESS 1MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 152,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r176",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3827259"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 153,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r178",
+      "kind": "r",
+      "nodes": [
+        "x1.n3828449",
+        "x1.n3827259"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 154,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r179",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3828449"
+      ],
+      "args": "R_NOISELESS 8",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 155,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r18",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991623"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 156,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r187",
+      "kind": "r",
+      "nodes": [
+        "x1.n3850724",
+        "x1.n3850714"
+      ],
+      "args": "R_NOISELESS 100MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 157,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r189",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3850714"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 158,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r19",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991635"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 159,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r190",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3850724"
+      ],
+      "args": "R_NOISELESS 304K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 160,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r20",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991643",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 161,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r21",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991657",
+        "x1.n2991643"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 162,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r22",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991667"
+      ],
+      "args": "R_NOISELESS 1MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 163,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r23",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.clamp"
+      ],
+      "args": "R_NOISELESS 1MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 164,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r230",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991579",
+        "x1.n4243633"
+      ],
+      "args": "R_NOISELESS 100MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 165,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r233",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991579"
+      ],
+      "args": "R_NOISELESS 239.5",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 166,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r234",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4243633"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 167,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r24",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.vsense"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 168,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r301",
+      "kind": "r",
+      "nodes": [
+        "x1.n3294524",
+        "x1.n4736080"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 169,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r302",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4736080"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 170,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r303",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3294524"
+      ],
+      "args": "R_NOISELESS 11.61K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 171,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r304",
+      "kind": "r",
+      "nodes": [
+        "x1.n4749239",
+        "x1.n4747399"
+      ],
+      "args": "R_NOISELESS 190K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 172,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r305",
+      "kind": "r",
+      "nodes": [
+        "x1.n47492651",
+        "x1.n4749239"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 173,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r306",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4747399"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 174,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r307",
+      "kind": "r",
+      "nodes": [
+        "x1.n4796572",
+        "x1.n4796554"
+      ],
+      "args": "R_NOISELESS 770K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 175,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r308",
+      "kind": "r",
+      "nodes": [
+        "x1.n47965841",
+        "x1.n4796572"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 176,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r309",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4796554"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 177,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r310",
+      "kind": "r",
+      "nodes": [
+        "x1.n4797760",
+        "x1.n4797748"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 178,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r311",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4797748"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 179,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r312",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4797760"
+      ],
+      "args": "R_NOISELESS 3.61K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 180,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r313",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4798545"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 181,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r314",
+      "kind": "r",
+      "nodes": [
+        "x1.n4800105",
+        "x1.n4798545"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 182,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r315",
+      "kind": "r",
+      "nodes": [
+        "x1.n48001371",
+        "x1.n4800105"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 183,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r316",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991553",
+        "x1.n4809008"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 184,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r317",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4809008"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 185,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r318",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991553"
+      ],
+      "args": "R_NOISELESS 28.5",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 186,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r319",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991581",
+        "x1.n4817896"
+      ],
+      "args": "R_NOISELESS 100MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 187,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r32",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.claw_clamp"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 188,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r320",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991581"
+      ],
+      "args": "R_NOISELESS 304K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 189,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r321",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n4817896"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 190,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r33",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.cl_clamp"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 191,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r34",
+      "kind": "r",
+      "nodes": [
+        "x1.n3294630",
+        "x1.n3294626"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 192,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r35",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3294626"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 193,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r36",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3294630"
+      ],
+      "args": "R_NOISELESS 9.09091K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 194,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r37",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3201092"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 195,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r38",
+      "kind": "r",
+      "nodes": [
+        "x1.n4745674",
+        "x1.n3201092"
+      ],
+      "args": "R_NOISELESS 62.73K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 196,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r39",
+      "kind": "r",
+      "nodes": [
+        "x1.n47456861",
+        "x1.n4745674"
+      ],
+      "args": "R_NOISELESS 10K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 197,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r43",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3294682"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 198,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r46",
+      "kind": "r",
+      "nodes": [
+        "x1.vcc_b",
+        "0"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 199,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r47",
+      "kind": "r",
+      "nodes": [
+        "x1.vcc_b",
+        "x1.n2992397"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 200,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r48",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992397",
+        "x1.n2992375"
+      ],
+      "args": "R_NOISELESS 1MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 201,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r49",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992375",
+        "0"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 202,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r5",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3294772"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 203,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r50",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992375",
+        "x1.n2992413"
+      ],
+      "args": "R_NOISELESS 1MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 204,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r51",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992413",
+        "x1.vee_b"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 205,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r52",
+      "kind": "r",
+      "nodes": [
+        "x1.vee_b",
+        "0"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 206,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r53",
+      "kind": "r",
+      "nodes": [
+        "x1.vcc_clp",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 207,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r54",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991729",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 208,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r55",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991741",
+        "x1.n2991729"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 209,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r56",
+      "kind": "r",
+      "nodes": [
+        "x1.vee_clp",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 210,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r57",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991763",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 211,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r58",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991765",
+        "x1.n2991763"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 212,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r59",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991807",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 213,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r6",
+      "kind": "r",
+      "nodes": [
+        "x1.n3294776",
+        "x1.n3294772"
+      ],
+      "args": "R_NOISELESS 100MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 214,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r60",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991809",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 215,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r61",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991811",
+        "x1.n2991809"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 216,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r62",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991831",
+        "x1.n2991837"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 217,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r63",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991849",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 218,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r64",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991837",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 219,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r65",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991901",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 220,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r66",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991905",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 221,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r67",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991907",
+        "x1.n2991905"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 222,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r68",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991925",
+        "x1.n2991931"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 223,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r69",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991943",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 224,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r7",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n3294776"
+      ],
+      "args": "R_NOISELESS 285K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 225,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r70",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991931",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 226,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r71",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991969",
+        "x1.vsense"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 227,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r72",
+      "kind": "r",
+      "nodes": [
+        "x1.vcc_b",
+        "x1.n2991997"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 228,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r73",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991997",
+        "x1.n2992033"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 229,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r74",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992001",
+        "x1.vee_b"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 230,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r75",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992001",
+        "x1.n2992029"
+      ],
+      "args": "R_NOISELESS 1M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 231,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r76",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.vcc_clp"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 232,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r77",
+      "kind": "r",
+      "nodes": [
+        "x1.vee_clp",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 233,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r78",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992323",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 234,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r79",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992299",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 235,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r8",
+      "kind": "r",
+      "nodes": [
+        "x1.n2991563",
+        "x1.n2991555"
+      ],
+      "args": "R_NOISELESS 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 236,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r80",
+      "kind": "r",
+      "nodes": [
+        "x1.v11",
+        "x1.n2992093"
+      ],
+      "args": "R_NOISELESS 100",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 237,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r81",
+      "kind": "r",
+      "nodes": [
+        "x1.v12",
+        "x1.n2992099"
+      ],
+      "args": "R_NOISELESS 100",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 238,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r82",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992105",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 239,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r83",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992105",
+        "x1.sw_ol_opa4388"
+      ],
+      "args": "R_NOISELESS 100",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 240,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rdummy",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2992235"
+      ],
+      "args": "R_NOISELESS 1.75K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 241,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rs_inn",
+      "kind": "r",
+      "nodes": [
+        "out",
+        "x1.esdn"
+      ],
+      "args": "R_NOISELESS 10M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 242,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rs_inp",
+      "kind": "r",
+      "nodes": [
+        "inp",
+        "x1.esdp"
+      ],
+      "args": "R_NOISELESS 10M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 243,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rx",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992235",
+        "x1.n3294682"
+      ],
+      "args": "R_NOISELESS 17.5K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 244,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rx1",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2992151"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 245,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rx2",
+      "kind": "r",
+      "nodes": [
+        "x1.vimon",
+        "x1.n2992151"
+      ],
+      "args": "R_NOISELESS 100",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 246,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rx3",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.n2992163"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 247,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_rx4",
+      "kind": "r",
+      "nodes": [
+        "x1.vout_s",
+        "x1.n2992163"
+      ],
+      "args": "R_NOISELESS 100",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 248,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r_cm1",
+      "kind": "r",
+      "nodes": [
+        "x1.esdp",
+        "x1.mid"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 249,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r_cm2",
+      "kind": "r",
+      "nodes": [
+        "x1.mid",
+        "x1.esdn"
+      ],
+      "args": "R_NOISELESS 1T",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 250,
+      "scope": "x1"
+    },
+    {
+      "name": "r.x1.r_r_diff",
+      "kind": "r",
+      "nodes": [
+        "x1.esdn",
+        "x1.esdp"
+      ],
+      "args": "R_NOISELESS 100MEG",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 251,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_vcm_max",
+      "kind": "v",
+      "nodes": [
+        "x1.n2991623",
+        "x1.vcc_b"
+      ],
+      "args": "100M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 252,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_vcm_min",
+      "kind": "v",
+      "nodes": [
+        "x1.n2991635",
+        "x1.vee_b"
+      ],
+      "args": "-100M",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 253,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_v_grn",
+      "kind": "v",
+      "nodes": [
+        "x1.n2991943",
+        "x1.mid"
+      ],
+      "args": "-150",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 254,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_v_grp",
+      "kind": "v",
+      "nodes": [
+        "x1.n2991901",
+        "x1.mid"
+      ],
+      "args": "150",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 255,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_v_iscn",
+      "kind": "v",
+      "nodes": [
+        "x1.n2991849",
+        "x1.mid"
+      ],
+      "args": "-60",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 256,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_v_iscp",
+      "kind": "v",
+      "nodes": [
+        "x1.n2991807",
+        "x1.mid"
+      ],
+      "args": "60",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 257,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_v_orn",
+      "kind": "v",
+      "nodes": [
+        "x1.n2992295",
+        "x1.vclp"
+      ],
+      "args": "-55",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 258,
+      "scope": "x1"
+    },
+    {
+      "name": "v.x1.v_v_orp",
+      "kind": "v",
+      "nodes": [
+        "x1.n2992331",
+        "x1.vclp"
+      ],
+      "args": "55",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 259,
+      "scope": "x1"
+    },
+    {
+      "name": "h.x1.x_h1.h_h1",
+      "kind": "h",
+      "nodes": [
+        "x1.n2992151",
+        "x1.mid"
+      ],
+      "args": "VH_H1 1K",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 302,
+      "scope": "x1.x_h1"
+    },
+    {
+      "name": "v.x1.x_h1.vh_h1",
+      "kind": "v",
+      "nodes": [
+        "x1.n2992235",
+        "out"
+      ],
+      "args": "0V",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 303,
+      "scope": "x1.x_h1"
+    },
+    {
+      "name": "h.x1.x_h2.h_h2",
+      "kind": "h",
+      "nodes": [
+        "x1.v12",
+        "x1.mid"
+      ],
+      "args": "VH_H2 1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 307,
+      "scope": "x1.x_h2"
+    },
+    {
+      "name": "v.x1.x_h2.vh_h2",
+      "kind": "v",
+      "nodes": [
+        "x1.n2992287",
+        "x1.n2992323"
+      ],
+      "args": "0V",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 308,
+      "scope": "x1.x_h2"
+    },
+    {
+      "name": "h.x1.x_h3.h_h3",
+      "kind": "h",
+      "nodes": [
+        "x1.v11",
+        "x1.mid"
+      ],
+      "args": "VH_H3 -1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 312,
+      "scope": "x1.x_h3"
+    },
+    {
+      "name": "v.x1.x_h3.vh_h3",
+      "kind": "v",
+      "nodes": [
+        "x1.n2992267",
+        "x1.n2992299"
+      ],
+      "args": "0V",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 313,
+      "scope": "x1.x_h3"
+    },
+    {
+      "name": "s.x1.x_s1.s_s1",
+      "kind": "s",
+      "nodes": [
+        "x1.n2992267",
+        "x1.clamp",
+        "x1.n2992267",
+        "x1.clamp"
+      ],
+      "args": "_S1",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "roff": 1000000000000.0,
+        "ron": 0.01,
+        "voff": 0.0,
+        "von": 0.01,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 317,
+      "scope": "x1.x_s1"
+    },
+    {
+      "name": "r.x1.x_s1.rs_s1",
+      "kind": "r",
+      "nodes": [
+        "x1.n2992267",
+        "x1.clamp"
+      ],
+      "args": "1G",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 318,
+      "scope": "x1.x_s1"
+    },
+    {
+      "name": "s.x1.x_s2.s_s2",
+      "kind": "s",
+      "nodes": [
+        "x1.clamp",
+        "x1.n2992287",
+        "x1.clamp",
+        "x1.n2992287"
+      ],
+      "args": "_S2",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "roff": 1000000000000.0,
+        "ron": 0.01,
+        "voff": 0.0,
+        "von": 0.01,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 323,
+      "scope": "x1.x_s2"
+    },
+    {
+      "name": "r.x1.x_s2.rs_s2",
+      "kind": "r",
+      "nodes": [
+        "x1.clamp",
+        "x1.n2992287"
+      ],
+      "args": "1G",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 324,
+      "scope": "x1.x_s2"
+    },
+    {
+      "name": "g.x1.x_u10.gvo+",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991729"
+      ],
+      "args": "VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}",
+      "params": {
+        "temp": 27.0,
+        "g": 1.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 342,
+      "scope": "x1.x_u10"
+    },
+    {
+      "name": "g.x1.x_u10.gvo-",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991763"
+      ],
+      "args": "VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}",
+      "params": {
+        "temp": 27.0,
+        "g": 1.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 343,
+      "scope": "x1.x_u10"
+    },
+    {
+      "name": "g.x1.x_u11.gvo+",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991809"
+      ],
+      "args": "VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}",
+      "params": {
+        "temp": 27.0,
+        "g": 1.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 342,
+      "scope": "x1.x_u11"
+    },
+    {
+      "name": "g.x1.x_u11.gvo-",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991837"
+      ],
+      "args": "VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}",
+      "params": {
+        "temp": 27.0,
+        "g": 1.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 343,
+      "scope": "x1.x_u11"
+    },
+    {
+      "name": "g.x1.x_u12.gvo+",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991905"
+      ],
+      "args": "VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}",
+      "params": {
+        "temp": 27.0,
+        "g": 10.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 337,
+      "scope": "x1.x_u12"
+    },
+    {
+      "name": "g.x1.x_u12.gvo-",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991931"
+      ],
+      "args": "VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}",
+      "params": {
+        "temp": 27.0,
+        "g": 10.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 338,
+      "scope": "x1.x_u12"
+    },
+    {
+      "name": "g.x1.x_u16.gsw+",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2992105"
+      ],
+      "args": "VALUE = {IF((V(OLN,COM)>10E-3 | V(OLP,COM)>10E-3),1,0)}",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 401,
+      "scope": "x1.x_u16"
+    },
+    {
+      "name": "g.x1.x_u18.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.n2991997",
+        "x1.vcc_b"
+      ],
+      "args": "TABLE {(V(VC+,VC-))} = (0, 11.47E-6) (10, 1.5E-4) (22, 3.0E-4) (45, 6.9E-4) (53, 9.0E-4) (60, 1.24E-3)",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 354,
+      "scope": "x1.x_u18"
+    },
+    {
+      "name": "g.x1.x_u19.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.vee_b",
+        "x1.n2992001"
+      ],
+      "args": "TABLE {(V(VC+,VC-))} = (0, 15.45E-6) (11, 3.35E-4) (60, 1.90E-3)",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 347,
+      "scope": "x1.x_u19"
+    },
+    {
+      "name": "s.x1.x_u21.s1",
+      "kind": "s",
+      "nodes": [
+        "out",
+        "vdd",
+        "out",
+        "vdd"
+      ],
+      "args": "ESD_SW",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "ron": 50.0,
+        "roff": 1000000000000.0,
+        "von": 0.5,
+        "voff": 0.45,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 381,
+      "scope": "x1.x_u21"
+    },
+    {
+      "name": "s.x1.x_u21.s2",
+      "kind": "s",
+      "nodes": [
+        "0",
+        "out",
+        "0",
+        "out"
+      ],
+      "args": "ESD_SW",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "ron": 50.0,
+        "roff": 1000000000000.0,
+        "von": 0.5,
+        "voff": 0.45,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 382,
+      "scope": "x1.x_u21"
+    },
+    {
+      "name": "g.x1.x_u22.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.cl_clamp",
+        "x1.mid"
+      ],
+      "args": "VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "params": {
+        "temp": 27.0,
+        "gain": 1.0,
+        "ipos": 6.0,
+        "ineg": -6.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 368,
+      "scope": "x1.x_u22"
+    },
+    {
+      "name": "g.x1.x_u23.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.clamp",
+        "x1.mid"
+      ],
+      "args": "VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "params": {
+        "temp": 27.0,
+        "gain": 1.0,
+        "ipos": 50.0,
+        "ineg": -50.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 393,
+      "scope": "x1.x_u23"
+    },
+    {
+      "name": "s.x1.x_u25.s1",
+      "kind": "s",
+      "nodes": [
+        "x1.n3294626",
+        "x1.n3294630",
+        "x1.sw_ol_opa4388",
+        "x1.mid"
+      ],
+      "args": "OL_SW",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "ron": 0.001,
+        "roff": 1000000000000.0,
+        "von": 0.9,
+        "voff": 0.8,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 406,
+      "scope": "x1.x_u25"
+    },
+    {
+      "name": "g.x1.x_u26.g1",
+      "kind": "g",
+      "nodes": [
+        "vdd",
+        "x1.mid"
+      ],
+      "args": "VALUE={IF( (V(VC+,VC-)<=0),0,GAIN*V(VC+,VC-) )}",
+      "params": {
+        "temp": 27.0,
+        "gain": 0.001
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 397,
+      "scope": "x1.x_u26"
+    },
+    {
+      "name": "g.x1.x_u27.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "0"
+      ],
+      "args": "VALUE={IF( (V(VC+,VC-)<=0),0,GAIN*V(VC+,VC-) )}",
+      "params": {
+        "temp": 27.0,
+        "gain": 0.001
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 397,
+      "scope": "x1.x_u27"
+    },
+    {
+      "name": "g.x1.x_u30.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991667"
+      ],
+      "args": "VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "params": {
+        "temp": 27.0,
+        "gain": 0.0001,
+        "ipos": 0.5,
+        "ineg": -0.5
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 329,
+      "scope": "x1.x_u30"
+    },
+    {
+      "name": "g.x1.x_u31.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.clamp"
+      ],
+      "args": "VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "params": {
+        "temp": 27.0,
+        "gain": 0.25119,
+        "ipos": 2.21,
+        "ineg": -2.21
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 333,
+      "scope": "x1.x_u31"
+    },
+    {
+      "name": "g.x1.x_u32.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n3294682"
+      ],
+      "args": "VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "params": {
+        "temp": 27.0,
+        "gain": 1250.0,
+        "ipos": 250000.0,
+        "ineg": -250000.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 424,
+      "scope": "x1.x_u32"
+    },
+    {
+      "name": "g.x1.x_u35.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.claw_clamp",
+        "x1.mid"
+      ],
+      "args": "VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "params": {
+        "temp": 27.0,
+        "gain": 1.0,
+        "ipos": 3.0,
+        "ineg": -3.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 364,
+      "scope": "x1.x_u35"
+    },
+    {
+      "name": "e.x1.x_u38.e1",
+      "kind": "e",
+      "nodes": [
+        "x1.x_u38.3",
+        "0",
+        "x1.x_u38.5",
+        "0"
+      ],
+      "args": "10",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 386,
+      "scope": "x1.x_u38"
+    },
+    {
+      "name": "r.x1.x_u38.r1",
+      "kind": "r",
+      "nodes": [
+        "x1.x_u38.5",
+        "0"
+      ],
+      "args": "{1.184*PWR(NVRF,2)}",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 387,
+      "scope": "x1.x_u38"
+    },
+    {
+      "name": "r.x1.x_u38.r2",
+      "kind": "r",
+      "nodes": [
+        "x1.x_u38.5",
+        "0"
+      ],
+      "args": "{1.184*PWR(NVRF,2)}",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 388,
+      "scope": "x1.x_u38"
+    },
+    {
+      "name": "g.x1.x_u38.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991573",
+        "x1.x_u38.3",
+        "0"
+      ],
+      "args": "1E-6",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 389,
+      "scope": "x1.x_u38"
+    },
+    {
+      "name": "e.x1.x_u39.e1",
+      "kind": "e",
+      "nodes": [
+        "x1.x_u39.3",
+        "0",
+        "x1.x_u39.5",
+        "0"
+      ],
+      "args": "10",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 386,
+      "scope": "x1.x_u39"
+    },
+    {
+      "name": "r.x1.x_u39.r1",
+      "kind": "r",
+      "nodes": [
+        "x1.x_u39.5",
+        "0"
+      ],
+      "args": "{1.184*PWR(NVRF,2)}",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 387,
+      "scope": "x1.x_u39"
+    },
+    {
+      "name": "r.x1.x_u39.r2",
+      "kind": "r",
+      "nodes": [
+        "x1.x_u39.5",
+        "0"
+      ],
+      "args": "{1.184*PWR(NVRF,2)}",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 388,
+      "scope": "x1.x_u39"
+    },
+    {
+      "name": "g.x1.x_u39.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.esdn",
+        "x1.mid",
+        "x1.x_u39.3",
+        "0"
+      ],
+      "args": "1E-6",
+      "params": {
+        "temp": 27.0,
+        "nvrf": 100.95
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 389,
+      "scope": "x1.x_u39"
+    },
+    {
+      "name": "e.x1.x_u4.e1",
+      "kind": "e",
+      "nodes": [
+        "x1.n2991555",
+        "x1.n2991573"
+      ],
+      "args": "VALUE={DC+POL*DRIFT*(TEMP-27)}",
+      "params": {
+        "temp": 27.0,
+        "dc": -4.67e-06,
+        "pol": 1.0,
+        "drift": 5e-09
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 420,
+      "scope": "x1.x_u4"
+    },
+    {
+      "name": "r.x1.x_u40.r4",
+      "kind": "r",
+      "nodes": [
+        "x1.x_u40.5",
+        "0"
+      ],
+      "args": "{1.184*PWR(NVR,2)}",
+      "params": {
+        "temp": 27.0,
+        "nvr": 7.07
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 414,
+      "scope": "x1.x_u40"
+    },
+    {
+      "name": "r.x1.x_u40.r5",
+      "kind": "r",
+      "nodes": [
+        "x1.x_u40.5",
+        "0"
+      ],
+      "args": "{1.184*PWR(NVR,2)}",
+      "params": {
+        "temp": 27.0,
+        "nvr": 7.07
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 415,
+      "scope": "x1.x_u40"
+    },
+    {
+      "name": "e.x1.x_u40.e3",
+      "kind": "e",
+      "nodes": [
+        "x1.esdp",
+        "x1.n2991573",
+        "x1.x_u40.5",
+        "0"
+      ],
+      "args": "10",
+      "params": {
+        "temp": 27.0,
+        "nvr": 7.07
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 416,
+      "scope": "x1.x_u40"
+    },
+    {
+      "name": "s.x1.x_u5.s1",
+      "kind": "s",
+      "nodes": [
+        "x1.esdn",
+        "vdd",
+        "x1.esdn",
+        "vdd"
+      ],
+      "args": "ESD_SW",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "ron": 50.0,
+        "roff": 1000000000000.0,
+        "von": 0.5,
+        "voff": 0.45,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 373,
+      "scope": "x1.x_u5"
+    },
+    {
+      "name": "s.x1.x_u5.s2",
+      "kind": "s",
+      "nodes": [
+        "x1.esdp",
+        "vdd",
+        "x1.esdp",
+        "vdd"
+      ],
+      "args": "ESD_SW",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "ron": 50.0,
+        "roff": 1000000000000.0,
+        "von": 0.5,
+        "voff": 0.45,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 374,
+      "scope": "x1.x_u5"
+    },
+    {
+      "name": "s.x1.x_u5.s3",
+      "kind": "s",
+      "nodes": [
+        "0",
+        "x1.esdn",
+        "0",
+        "x1.esdn"
+      ],
+      "args": "ESD_SW",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "ron": 50.0,
+        "roff": 1000000000000.0,
+        "von": 0.5,
+        "voff": 0.45,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 375,
+      "scope": "x1.x_u5"
+    },
+    {
+      "name": "s.x1.x_u5.s4",
+      "kind": "s",
+      "nodes": [
+        "0",
+        "x1.esdp",
+        "0",
+        "x1.esdp"
+      ],
+      "args": "ESD_SW",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {
+        "ron": 50.0,
+        "roff": 1000000000000.0,
+        "von": 0.5,
+        "voff": 0.45,
+        "type": "vswitch"
+      },
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 376,
+      "scope": "x1.x_u5"
+    },
+    {
+      "name": "g.x1.x_u6.g1",
+      "kind": "g",
+      "nodes": [
+        "x1.mid",
+        "x1.n2991643"
+      ],
+      "args": "VALUE={LIMIT(GAIN*V(VIN+,VIN-),V(VP-,VIN-), V(VP+,VIN-))}",
+      "params": {
+        "temp": 27.0,
+        "gain": 1.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 410,
+      "scope": "x1.x_u6"
+    },
+    {
+      "name": "rload",
+      "kind": "r",
+      "nodes": [
+        "out",
+        "0"
+      ],
+      "args": "10k",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 6,
+      "scope": ""
+    },
+    {
+      "name": "cload",
+      "kind": "c",
+      "nodes": [
+        "out",
+        "0"
+      ],
+      "args": "10p",
+      "params": {
+        "temp": 27.0
+      },
+      "model": {},
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 7,
+      "scope": ""
+    }
+  ]
+}

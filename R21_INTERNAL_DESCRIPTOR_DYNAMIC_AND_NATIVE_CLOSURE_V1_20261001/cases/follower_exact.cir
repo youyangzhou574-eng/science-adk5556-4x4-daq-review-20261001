@@ -1,0 +1,45 @@
+07 descriptor local follower qualification
+.include "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\models\OPA4388_ORIGINAL.LIB"
+Vdd vdd 0 DC 5
+Vin inp 0 DC 2.5 AC 1
+X1 inp out vdd 0 out OPA4388
+Rload out 0 10k
+Cload out 0 10p
+.save all
+.control
+set filetype=ascii
+set numdgt=15
+set wr_singlescale
+set wr_vecnames
+op
+write op.raw all
+show all
+ac lin 1 0.01 0.01
+wrdata ac_00.txt v(out) v(inp)
+ac lin 1 0.1 0.1
+wrdata ac_01.txt v(out) v(inp)
+ac lin 1 1 1
+wrdata ac_02.txt v(out) v(inp)
+ac lin 1 10 10
+wrdata ac_03.txt v(out) v(inp)
+ac lin 1 100 100
+wrdata ac_04.txt v(out) v(inp)
+ac lin 1 1000.0 1000.0
+wrdata ac_05.txt v(out) v(inp)
+ac lin 1 10000.0 10000.0
+wrdata ac_06.txt v(out) v(inp)
+ac lin 1 100000.0 100000.0
+wrdata ac_07.txt v(out) v(inp)
+ac lin 1 1000000.0 1000000.0
+wrdata ac_08.txt v(out) v(inp)
+ac lin 1 10000000.0 10000000.0
+wrdata ac_09.txt v(out) v(inp)
+ac lin 1 100000000.0 100000000.0
+wrdata ac_10.txt v(out) v(inp)
+ac lin 1 300000000.0 300000000.0
+wrdata ac_11.txt v(out) v(inp)
+ac dec 100 1k 300meg
+wrdata crossover.txt v(out) v(inp)
+quit
+.endc
+.end

@@ -1,0 +1,21 @@
+actual PSA PWL at frozen follower OP
+Vin in 0 DC 0.2500001316567726 AC 1
+a1 %v in %v out probe
+Rload out 0 1meg
+.model probe pwl(x_array=[0 10 22 45 53 60 ] y_array=[11.47e-6 1.5e-4 3.0e-4 6.9e-4 9.0e-4 1.24e-3 ] input_domain=0.1 fraction=true limit=true)
+.control
+set filetype=ascii
+set numdgt=15
+set wr_vecnames
+set wr_singlescale
+op
+write op.raw all
+ac lin 1 1 1
+wrdata ac_0.txt v(out) i(Vin)
+ac lin 1 100000000 100000000
+wrdata ac_1.txt v(out) i(Vin)
+ac lin 1 300000000 300000000
+wrdata ac_2.txt v(out) i(Vin)
+quit
+.endc
+.end

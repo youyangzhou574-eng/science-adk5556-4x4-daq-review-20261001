@@ -1,0 +1,7069 @@
+{
+  "variables": [
+    "inp",
+    "out",
+    "vdd",
+    "x1.cl_clamp",
+    "x1.clamp",
+    "x1.claw_clamp",
+    "x1.esdn",
+    "x1.esdp",
+    "x1.mid",
+    "x1.n2991553",
+    "x1.n2991555",
+    "x1.n2991563",
+    "x1.n2991573",
+    "x1.n2991579",
+    "x1.n2991581",
+    "x1.n2991583",
+    "x1.n2991587",
+    "x1.n2991619",
+    "x1.n2991623",
+    "x1.n2991635",
+    "x1.n2991643",
+    "x1.n2991657",
+    "x1.n2991667",
+    "x1.n2991729",
+    "x1.n2991741",
+    "x1.n2991763",
+    "x1.n2991765",
+    "x1.n2991807",
+    "x1.n2991809",
+    "x1.n2991811",
+    "x1.n2991831",
+    "x1.n2991837",
+    "x1.n2991849",
+    "x1.n2991901",
+    "x1.n2991905",
+    "x1.n2991907",
+    "x1.n2991925",
+    "x1.n2991931",
+    "x1.n2991943",
+    "x1.n2991969",
+    "x1.n2991997",
+    "x1.n2992001",
+    "x1.n2992029",
+    "x1.n2992033",
+    "x1.n2992093",
+    "x1.n2992099",
+    "x1.n2992105",
+    "x1.n2992151",
+    "x1.n2992163",
+    "x1.n2992235",
+    "x1.n2992267",
+    "x1.n2992287",
+    "x1.n2992295",
+    "x1.n2992299",
+    "x1.n2992323",
+    "x1.n2992331",
+    "x1.n2992375",
+    "x1.n2992397",
+    "x1.n2992413",
+    "x1.n3201092",
+    "x1.n3294524",
+    "x1.n3294618",
+    "x1.n3294626",
+    "x1.n3294630",
+    "x1.n3294682",
+    "x1.n3294772",
+    "x1.n3294776",
+    "x1.n3827259",
+    "x1.n3828449",
+    "x1.n3850714",
+    "x1.n3850724",
+    "x1.n4031911",
+    "x1.n4243633",
+    "x1.n4736080",
+    "x1.n4745674",
+    "x1.n47456861",
+    "x1.n4747399",
+    "x1.n4749239",
+    "x1.n47492651",
+    "x1.n4796554",
+    "x1.n4796572",
+    "x1.n47965841",
+    "x1.n4797748",
+    "x1.n4797760",
+    "x1.n4798545",
+    "x1.n4800105",
+    "x1.n48001371",
+    "x1.n4809008",
+    "x1.n4817896",
+    "x1.sw_ol_opa4388",
+    "x1.v11",
+    "x1.v12",
+    "x1.vcc_b",
+    "x1.vcc_clp",
+    "x1.vclp",
+    "x1.vee_b",
+    "x1.vee_clp",
+    "x1.vimon",
+    "x1.vout_s",
+    "x1.vsense",
+    "x1.x_u38.3",
+    "x1.x_u38.5",
+    "x1.x_u39.3",
+    "x1.x_u39.5",
+    "x1.x_u40.5",
+    "branch:vdd",
+    "branch:vin",
+    "branch:e.x1.e_e1",
+    "branch:e.x1.e_e3",
+    "branch:e.x1.e_e4",
+    "branch:v.x1.v_vcm_max",
+    "branch:v.x1.v_vcm_min",
+    "branch:v.x1.v_v_grn",
+    "branch:v.x1.v_v_grp",
+    "branch:v.x1.v_v_iscn",
+    "branch:v.x1.v_v_iscp",
+    "branch:v.x1.v_v_orn",
+    "branch:v.x1.v_v_orp",
+    "branch:h.x1.x_h1.h_h1",
+    "branch:v.x1.x_h1.vh_h1",
+    "branch:h.x1.x_h2.h_h2",
+    "branch:v.x1.x_h2.vh_h2",
+    "branch:h.x1.x_h3.h_h3",
+    "branch:v.x1.x_h3.vh_h3",
+    "branch:e.x1.x_u38.e1",
+    "branch:e.x1.x_u39.e1",
+    "branch:e.x1.x_u4.e1",
+    "branch:e.x1.x_u40.e3"
+  ],
+  "primitiveStamps": [
+    {
+      "element": "vdd",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 3,
+      "original": "Vdd vdd 0 DC 5",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 105,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 105,
+          "column": 2,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "vin",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 4,
+      "original": "Vin inp 0 DC 2.5 AC 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 0,
+          "column": 106,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 106,
+          "column": 0,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c1",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 80,
+      "original": "C_C1          N3294772 N3294776  140F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 65,
+          "column": 65,
+          "value": 1.4e-13
+        },
+        {
+          "matrix": "E",
+          "row": 65,
+          "column": 66,
+          "value": -1.4e-13
+        },
+        {
+          "matrix": "E",
+          "row": 66,
+          "column": 65,
+          "value": -1.4e-13
+        },
+        {
+          "matrix": "E",
+          "row": 66,
+          "column": 66,
+          "value": 1.4e-13
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c10",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 81,
+      "original": "C_C10         N3294626 N3294630  39.8U",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 62,
+          "column": 62,
+          "value": 3.98e-05
+        },
+        {
+          "matrix": "E",
+          "row": 62,
+          "column": 63,
+          "value": -3.98e-05
+        },
+        {
+          "matrix": "E",
+          "row": 63,
+          "column": 62,
+          "value": -3.98e-05
+        },
+        {
+          "matrix": "E",
+          "row": 63,
+          "column": 63,
+          "value": 3.98e-05
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c11",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 82,
+      "original": "C_C11         MID N47456861  7.96N",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 7.96e-09
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 75,
+          "value": -7.96e-09
+        },
+        {
+          "matrix": "E",
+          "row": 75,
+          "column": 8,
+          "value": -7.96e-09
+        },
+        {
+          "matrix": "E",
+          "row": 75,
+          "column": 75,
+          "value": 7.96e-09
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c121",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 83,
+      "original": "C_C121        N4736080 N3294524  884.2F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 60,
+          "column": 60,
+          "value": 8.842000000000001e-13
+        },
+        {
+          "matrix": "E",
+          "row": 60,
+          "column": 73,
+          "value": -8.842000000000001e-13
+        },
+        {
+          "matrix": "E",
+          "row": 73,
+          "column": 60,
+          "value": -8.842000000000001e-13
+        },
+        {
+          "matrix": "E",
+          "row": 73,
+          "column": 73,
+          "value": 8.842000000000001e-13
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c122",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 84,
+      "original": "C_C122        MID N47492651  796P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 7.959999999999993e-10
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 78,
+          "value": -7.959999999999999e-10
+        },
+        {
+          "matrix": "E",
+          "row": 78,
+          "column": 8,
+          "value": -7.959999999999999e-10
+        },
+        {
+          "matrix": "E",
+          "row": 78,
+          "column": 78,
+          "value": 7.959999999999999e-10
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c123",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 85,
+      "original": "C_C123        MID N47965841  40P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 4.000000000000069e-11
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 81,
+          "value": -4e-11
+        },
+        {
+          "matrix": "E",
+          "row": 81,
+          "column": 8,
+          "value": -4e-11
+        },
+        {
+          "matrix": "E",
+          "row": 81,
+          "column": 81,
+          "value": 4e-11
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c124",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 86,
+      "original": "C_C124        N4797748 N4797760  40.8P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 82,
+          "column": 82,
+          "value": 4.08e-11
+        },
+        {
+          "matrix": "E",
+          "row": 82,
+          "column": 83,
+          "value": -4.08e-11
+        },
+        {
+          "matrix": "E",
+          "row": 83,
+          "column": 82,
+          "value": -4.08e-11
+        },
+        {
+          "matrix": "E",
+          "row": 83,
+          "column": 83,
+          "value": 4.08e-11
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c125",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 87,
+      "original": "C_C125        MID N48001371  530F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 5.300000000002039e-13
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 86,
+          "value": -5.300000000000001e-13
+        },
+        {
+          "matrix": "E",
+          "row": 86,
+          "column": 8,
+          "value": -5.300000000000001e-13
+        },
+        {
+          "matrix": "E",
+          "row": 86,
+          "column": 86,
+          "value": 5.300000000000001e-13
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c126",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 88,
+      "original": "C_C126        N4809008 N2991553  1.4N",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 9,
+          "column": 9,
+          "value": 1.4e-09
+        },
+        {
+          "matrix": "E",
+          "row": 9,
+          "column": 87,
+          "value": -1.4e-09
+        },
+        {
+          "matrix": "E",
+          "row": 87,
+          "column": 9,
+          "value": -1.4e-09
+        },
+        {
+          "matrix": "E",
+          "row": 87,
+          "column": 87,
+          "value": 1.4e-09
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c127",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 89,
+      "original": "C_C127        N4817896 N2991581  318.3F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 14,
+          "column": 14,
+          "value": 3.183e-13
+        },
+        {
+          "matrix": "E",
+          "row": 14,
+          "column": 88,
+          "value": -3.183e-13
+        },
+        {
+          "matrix": "E",
+          "row": 88,
+          "column": 14,
+          "value": -3.183e-13
+        },
+        {
+          "matrix": "E",
+          "row": 88,
+          "column": 88,
+          "value": 3.183e-13
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c13",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 90,
+      "original": "C_C13         N2992397 0  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 57,
+          "column": 57,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c14",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 91,
+      "original": "C_C14         0 N2992375  2U",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 56,
+          "column": 56,
+          "value": 2e-06
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c15",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 92,
+      "original": "C_C15         N2992413 0  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 58,
+          "column": 58,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c16",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 93,
+      "original": "C_C16         N2991741 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 24,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 24,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 24,
+          "column": 24,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c17",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 94,
+      "original": "C_C17         N2991765 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 26,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 26,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 26,
+          "column": 26,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c18",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 95,
+      "original": "C_C18         N2991811 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 29,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 29,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 29,
+          "column": 29,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c19",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 96,
+      "original": "C_C19         N2991831 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 30,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 30,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 30,
+          "column": 30,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c20",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 97,
+      "original": "C_C20         N2991907 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 35,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 35,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 35,
+          "column": 35,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c21",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 98,
+      "original": "C_C21         N2991925 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 36,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 36,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 36,
+          "column": 36,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c22",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 99,
+      "original": "C_C22         MID N2991969  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 39,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 39,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 39,
+          "column": 39,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c23",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 100,
+      "original": "C_C23         N2992033 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 43,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 43,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 43,
+          "column": 43,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c24",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 101,
+      "original": "C_C24         N2992029 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 42,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 42,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 42,
+          "column": 42,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c25",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 102,
+      "original": "C_C25         N2992093 MID  1P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 9.999999999994796e-13
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 44,
+          "value": -1e-12
+        },
+        {
+          "matrix": "E",
+          "row": 44,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "E",
+          "row": 44,
+          "column": 44,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c26",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 103,
+      "original": "C_C26         N2992099 MID  1P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 9.999999999994796e-13
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 45,
+          "value": -1e-12
+        },
+        {
+          "matrix": "E",
+          "row": 45,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "E",
+          "row": 45,
+          "column": 45,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c27",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 104,
+      "original": "C_C27         SW_OL_OPA4388 MID  100P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 9.999999999999924e-11
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 89,
+          "value": -1e-10
+        },
+        {
+          "matrix": "E",
+          "row": 89,
+          "column": 8,
+          "value": -1e-10
+        },
+        {
+          "matrix": "E",
+          "row": 89,
+          "column": 89,
+          "value": 1e-10
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c29",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 105,
+      "original": "C_C29         VIMON MID  1N",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000000000007e-09
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 97,
+          "value": -1e-09
+        },
+        {
+          "matrix": "E",
+          "row": 97,
+          "column": 8,
+          "value": -1e-09
+        },
+        {
+          "matrix": "E",
+          "row": 97,
+          "column": 97,
+          "value": 1e-09
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c30",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 106,
+      "original": "C_C30         VOUT_S MID  1N",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000000000007e-09
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 98,
+          "value": -1e-09
+        },
+        {
+          "matrix": "E",
+          "row": 98,
+          "column": 8,
+          "value": -1e-09
+        },
+        {
+          "matrix": "E",
+          "row": 98,
+          "column": 98,
+          "value": 1e-09
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c4",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 107,
+      "original": "C_C4          N2991657 MID  1F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000003187713e-15
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 21,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 21,
+          "column": 8,
+          "value": -1e-15
+        },
+        {
+          "matrix": "E",
+          "row": 21,
+          "column": 21,
+          "value": 1e-15
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c5",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 108,
+      "original": "C_C5          CLAMP MID  403N",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 4,
+          "column": 4,
+          "value": 4.0300000000000005e-07
+        },
+        {
+          "matrix": "E",
+          "row": 4,
+          "column": 8,
+          "value": -4.0300000000000005e-07
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 4,
+          "value": -4.0300000000000005e-07
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 4.0300000000000005e-07
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c70",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 109,
+      "original": "C_C70         VCLP MID  100P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 1.0000000000000751e-10
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 94,
+          "value": -1e-10
+        },
+        {
+          "matrix": "E",
+          "row": 94,
+          "column": 8,
+          "value": -1e-10
+        },
+        {
+          "matrix": "E",
+          "row": 94,
+          "column": 94,
+          "value": 1e-10
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c72",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 110,
+      "original": "C_C72         N4031911 MID  3.9E-16",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 3.9000001517900795e-16
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 71,
+          "value": -3.9e-16
+        },
+        {
+          "matrix": "E",
+          "row": 71,
+          "column": 8,
+          "value": -3.9e-16
+        },
+        {
+          "matrix": "E",
+          "row": 71,
+          "column": 71,
+          "value": 3.9e-16
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c74",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 111,
+      "original": "C_C74         N3827259 N3828449  200F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 67,
+          "column": 67,
+          "value": 2e-13
+        },
+        {
+          "matrix": "E",
+          "row": 67,
+          "column": 68,
+          "value": -2e-13
+        },
+        {
+          "matrix": "E",
+          "row": 68,
+          "column": 67,
+          "value": -2e-13
+        },
+        {
+          "matrix": "E",
+          "row": 68,
+          "column": 68,
+          "value": 2e-13
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c77",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 112,
+      "original": "C_C77         N3850714 N3850724  318.3F",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 69,
+          "column": 69,
+          "value": 3.183e-13
+        },
+        {
+          "matrix": "E",
+          "row": 69,
+          "column": 70,
+          "value": -3.183e-13
+        },
+        {
+          "matrix": "E",
+          "row": 70,
+          "column": 69,
+          "value": -3.183e-13
+        },
+        {
+          "matrix": "E",
+          "row": 70,
+          "column": 70,
+          "value": 3.183e-13
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c93",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 113,
+      "original": "C_C93         N4243633 N2991579  118.8P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 13,
+          "column": 13,
+          "value": 1.188e-10
+        },
+        {
+          "matrix": "E",
+          "row": 13,
+          "column": 72,
+          "value": -1.188e-10
+        },
+        {
+          "matrix": "E",
+          "row": 72,
+          "column": 13,
+          "value": -1.188e-10
+        },
+        {
+          "matrix": "E",
+          "row": 72,
+          "column": 72,
+          "value": 1.188e-10
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c_com0",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 114,
+      "original": "C_C_COM0      ESDP MID  4.5P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 7,
+          "column": 7,
+          "value": 4.5e-12
+        },
+        {
+          "matrix": "E",
+          "row": 7,
+          "column": 8,
+          "value": -4.5e-12
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 7,
+          "value": -4.5e-12
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 4.5000000000183375e-12
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c_com1",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 115,
+      "original": "C_C_COM1      MID ESDN  4.5P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 6,
+          "column": 6,
+          "value": 4.5e-12
+        },
+        {
+          "matrix": "E",
+          "row": 6,
+          "column": 8,
+          "value": -4.5e-12
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 6,
+          "value": -4.5e-12
+        },
+        {
+          "matrix": "E",
+          "row": 8,
+          "column": 8,
+          "value": 4.5000000000183375e-12
+        }
+      ]
+    },
+    {
+      "element": "c.x1.c_c_diff",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 116,
+      "original": "C_C_DIFF      ESDN ESDP  2P",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 6,
+          "column": 6,
+          "value": 2.0000000000000004e-12
+        },
+        {
+          "matrix": "E",
+          "row": 6,
+          "column": 7,
+          "value": -2e-12
+        },
+        {
+          "matrix": "E",
+          "row": 7,
+          "column": 6,
+          "value": -2e-12
+        },
+        {
+          "matrix": "E",
+          "row": 7,
+          "column": 7,
+          "value": 2.0000000000000004e-12
+        }
+      ]
+    },
+    {
+      "element": "e.x1.e_e1",
+      "primitive": "e",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 117,
+      "original": "E_E1          MID 0 N2992375 0 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 107,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 107,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 107,
+          "column": 56,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "e.x1.e_e3",
+      "primitive": "e",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 118,
+      "original": "E_E3          N2992163 MID OUT MID 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 108,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 48,
+          "column": 108,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 108,
+          "column": 1,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 108,
+          "column": 48,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "e.x1.e_e4",
+      "primitive": "e",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 119,
+      "original": "E_E4          N3294618 MID CL_CLAMP MID 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 109,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 61,
+          "column": 109,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 109,
+          "column": 3,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 109,
+          "column": 61,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 120,
+      "original": "G_G1          N3294772 MID ESDP MID -35.19U",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 7,
+          "value": 3.5189999999999993e-05
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -3.5189999999999993e-05
+        },
+        {
+          "matrix": "K",
+          "row": 65,
+          "column": 7,
+          "value": -3.5189999999999993e-05
+        },
+        {
+          "matrix": "K",
+          "row": 65,
+          "column": 8,
+          "value": 3.5189999999999993e-05
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g100",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 121,
+      "original": "G_G100        N4817896 MID N3850724 MID -330",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -330.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 70,
+          "value": 330.0
+        },
+        {
+          "matrix": "K",
+          "row": 88,
+          "column": 8,
+          "value": 330.0
+        },
+        {
+          "matrix": "K",
+          "row": 88,
+          "column": 70,
+          "value": -330.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g12",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 122,
+      "original": "G_G12         CLAW_CLAMP MID N3294524 MID -1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 5,
+          "column": 8,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 5,
+          "column": 60,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 60,
+          "value": 0.001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g13",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 123,
+      "original": "G_G13         CL_CLAMP MID CLAW_CLAMP MID -1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 3,
+          "column": 5,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 3,
+          "column": 8,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 5,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.0009999999999763531
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g16",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 124,
+      "original": "G_G16         N3201092 MID N3294630 MID -2.1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -2.1000000000000227
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 63,
+          "value": 2.1
+        },
+        {
+          "matrix": "K",
+          "row": 59,
+          "column": 8,
+          "value": 2.1
+        },
+        {
+          "matrix": "K",
+          "row": 59,
+          "column": 63,
+          "value": -2.1
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g18",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 125,
+      "original": "G_G18         VCC_B 0 VCC 0 -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 2,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g19",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 126,
+      "original": "G_G19         VEE_B 0 VEE 0 -1",
+      "entries": []
+    },
+    {
+      "element": "g.x1.g_g2",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 127,
+      "original": "G_G2          N2991563 N2991555 N2991553 MID -1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 10,
+          "column": 8,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 10,
+          "column": 9,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 11,
+          "column": 8,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 11,
+          "column": 9,
+          "value": -0.001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g20",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 128,
+      "original": "G_G20         VCC_CLP MID N2992033 MID -1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 43,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 93,
+          "column": 8,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 93,
+          "column": 43,
+          "value": -0.001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g21",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 129,
+      "original": "G_G21         VEE_CLP MID N2992029 MID -1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 42,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 96,
+          "column": 8,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 96,
+          "column": 42,
+          "value": -0.001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g22",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 130,
+      "original": "G_G22         N2992299 MID N2992295 MID -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 52,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 53,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 53,
+          "column": 52,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g23",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 131,
+      "original": "G_G23         N2992323 MID N2992331 MID -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 55,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 54,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 54,
+          "column": 55,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g39",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 132,
+      "original": "G_G39         N3294626 MID CL_CLAMP N2992235 -237.45K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 3,
+          "value": 237450.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 49,
+          "value": -237450.0
+        },
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 3,
+          "value": -237450.0
+        },
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 49,
+          "value": 237450.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g4",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 133,
+      "original": "G_G4          N3850714 MID VCC_B MID -415.4U",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.0004154000000085034
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 92,
+          "value": 0.00041539999999999996
+        },
+        {
+          "matrix": "K",
+          "row": 69,
+          "column": 8,
+          "value": 0.00041539999999999996
+        },
+        {
+          "matrix": "K",
+          "row": 69,
+          "column": 92,
+          "value": -0.00041539999999999996
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g41",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 134,
+      "original": "G_G41         N4031911 MID VSENSE MID -1U",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -9.999999974752427e-07
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 99,
+          "value": 1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 71,
+          "column": 8,
+          "value": 1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 71,
+          "column": 99,
+          "value": -1e-06
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g5",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 135,
+      "original": "G_G5          N2991587 N2991583 N2991581 N2991579 -1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 15,
+          "column": 13,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 15,
+          "column": 14,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 16,
+          "column": 13,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 16,
+          "column": 14,
+          "value": -0.001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g6",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 136,
+      "original": "G_G6          VSENSE MID CLAMP MID -1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 4,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 99,
+          "column": 4,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 99,
+          "column": 8,
+          "value": 0.001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g63",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 137,
+      "original": "G_G63         N4243633 MID VEE_B MID -525.6M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.5255999999999972
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 95,
+          "value": 0.5256000000000001
+        },
+        {
+          "matrix": "K",
+          "row": 72,
+          "column": 8,
+          "value": 0.5256000000000001
+        },
+        {
+          "matrix": "K",
+          "row": 72,
+          "column": 95,
+          "value": -0.5256000000000001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g92",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 138,
+      "original": "G_G92         N4736080 MID N4031911 MID -1.861",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.86099999999999
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 71,
+          "value": 1.861
+        },
+        {
+          "matrix": "K",
+          "row": 73,
+          "column": 8,
+          "value": 1.861
+        },
+        {
+          "matrix": "K",
+          "row": 73,
+          "column": 71,
+          "value": -1.861
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g93",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 139,
+      "original": "G_G93         N4747399 MID N4745674 MID -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 74,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 76,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 76,
+          "column": 74,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g95",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 140,
+      "original": "G_G95         N4796554 MID N4749239 MID -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 77,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 79,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 79,
+          "column": 77,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g96",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 141,
+      "original": "G_G96         N4797748 MID N4796572 MID -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 80,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 82,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 82,
+          "column": 80,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g97",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 142,
+      "original": "G_G97         N4798545 MID N4797760 MID -3.77",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -3.769999999999982
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 83,
+          "value": 3.77
+        },
+        {
+          "matrix": "K",
+          "row": 84,
+          "column": 8,
+          "value": 3.77
+        },
+        {
+          "matrix": "K",
+          "row": 84,
+          "column": 83,
+          "value": -3.77
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g98",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 143,
+      "original": "G_G98         N3827259 MID N4800105 MID -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 85,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 67,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 67,
+          "column": 85,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.g_g99",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 144,
+      "original": "G_G99         N4809008 MID N3294776 MID -351.9",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -351.90000000000003
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 66,
+          "value": 351.9
+        },
+        {
+          "matrix": "K",
+          "row": 87,
+          "column": 8,
+          "value": 351.9
+        },
+        {
+          "matrix": "K",
+          "row": 87,
+          "column": 66,
+          "value": -351.9
+        }
+      ]
+    },
+    {
+      "element": "i.x1.i_i_b",
+      "primitive": "i",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 145,
+      "original": "I_I_B         N2991573 MID DC 30.02P",
+      "entries": []
+    },
+    {
+      "element": "i.x1.i_i_os",
+      "primitive": "i",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 146,
+      "original": "I_I_OS        ESDN MID DC -30.02P",
+      "entries": []
+    },
+    {
+      "element": "i.x1.i_i_q",
+      "primitive": "i",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 147,
+      "original": "I_I_Q         VCC VEE DC 1.9M",
+      "entries": []
+    },
+    {
+      "element": "r.x1.r_r15",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 148,
+      "original": "R_R15         N2991583 N2991563 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 11,
+          "column": 11,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 11,
+          "column": 15,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 15,
+          "column": 11,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 15,
+          "column": 15,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r16",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 149,
+      "original": "R_R16         N2991587 N2991583 R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 15,
+          "column": 15,
+          "value": 0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 15,
+          "column": 16,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 16,
+          "column": 15,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 16,
+          "column": 16,
+          "value": 0.001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r167",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 150,
+      "original": "R_R167        N3294618 VCLP R_NOISELESS 100",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 61,
+          "column": 61,
+          "value": 0.01
+        },
+        {
+          "matrix": "K",
+          "row": 61,
+          "column": 94,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 94,
+          "column": 61,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 94,
+          "column": 94,
+          "value": 0.01
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r17",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 151,
+      "original": "R_R17         N2991619 ESDN R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 6,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 17,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 17,
+          "column": 6,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 17,
+          "column": 17,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r171",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 152,
+      "original": "R_R171        MID N4031911 R_NOISELESS 1MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 9.999999974752427e-07
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 71,
+          "value": -9.999999999177334e-07
+        },
+        {
+          "matrix": "K",
+          "row": 71,
+          "column": 8,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 71,
+          "column": 71,
+          "value": 1e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r176",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 153,
+      "original": "R_R176        MID N3827259 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 67,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 67,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 67,
+          "column": 67,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r178",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 154,
+      "original": "R_R178        N3828449 N3827259 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 67,
+          "column": 67,
+          "value": 9.999999999998899e-05
+        },
+        {
+          "matrix": "K",
+          "row": 67,
+          "column": 68,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 68,
+          "column": 67,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 68,
+          "column": 68,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r179",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 155,
+      "original": "R_R179        MID N3828449 R_NOISELESS 8",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.125
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 68,
+          "value": -0.125
+        },
+        {
+          "matrix": "K",
+          "row": 68,
+          "column": 8,
+          "value": -0.125
+        },
+        {
+          "matrix": "K",
+          "row": 68,
+          "column": 68,
+          "value": 0.12499999999999999
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r18",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 156,
+      "original": "R_R18         MID N2991623 R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 18,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 18,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 18,
+          "column": 18,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r187",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 157,
+      "original": "R_R187        N3850724 N3850714 R_NOISELESS 100MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 69,
+          "column": 69,
+          "value": 1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 69,
+          "column": 70,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 70,
+          "column": 69,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 70,
+          "column": 70,
+          "value": 1e-08
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r189",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 158,
+      "original": "R_R189        MID N3850714 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 69,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 69,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 69,
+          "column": 69,
+          "value": 0.9999999999999999
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r19",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 159,
+      "original": "R_R19         MID N2991635 R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 19,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 19,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 19,
+          "column": 19,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r190",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 160,
+      "original": "R_R190        MID N3850724 R_NOISELESS 304K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 3.2894737387323403e-06
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 70,
+          "value": -3.2894736818889214e-06
+        },
+        {
+          "matrix": "K",
+          "row": 70,
+          "column": 8,
+          "value": -3.2894736842105265e-06
+        },
+        {
+          "matrix": "K",
+          "row": 70,
+          "column": 70,
+          "value": 3.2894736842105265e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r20",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 161,
+      "original": "R_R20         N2991643 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 20,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 20,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 20,
+          "column": 20,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r21",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 162,
+      "original": "R_R21         N2991657 N2991643 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 20,
+          "column": 20,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 20,
+          "column": 21,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 21,
+          "column": 20,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 21,
+          "column": 21,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r22",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 163,
+      "original": "R_R22         MID N2991667 R_NOISELESS 1MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 9.999999974752427e-07
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 22,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 22,
+          "column": 8,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 22,
+          "column": 22,
+          "value": 1e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r23",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 164,
+      "original": "R_R23         MID CLAMP R_NOISELESS 1MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 4,
+          "value": 1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 8,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 4,
+          "value": -9.999999999999159e-07
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 9.999999974752427e-07
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r230",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 165,
+      "original": "R_R230        N2991579 N4243633 R_NOISELESS 100MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 13,
+          "column": 13,
+          "value": 1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 13,
+          "column": 72,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 72,
+          "column": 13,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 72,
+          "column": 72,
+          "value": 1e-08
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r233",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 166,
+      "original": "R_R233        MID N2991579 R_NOISELESS 239.5",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.004175365344508464
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 13,
+          "value": -0.0041753653444676405
+        },
+        {
+          "matrix": "K",
+          "row": 13,
+          "column": 8,
+          "value": -0.0041753653444676405
+        },
+        {
+          "matrix": "K",
+          "row": 13,
+          "column": 13,
+          "value": 0.0041753653444676405
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r234",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 167,
+      "original": "R_R234        MID N4243633 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 72,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 72,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 72,
+          "column": 72,
+          "value": 0.9999999999999999
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r24",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 168,
+      "original": "R_R24         MID VSENSE R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 99,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 99,
+          "column": 8,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 99,
+          "column": 99,
+          "value": 0.001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r301",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 169,
+      "original": "R_R301        N3294524 N4736080 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 60,
+          "column": 60,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 60,
+          "column": 73,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 73,
+          "column": 60,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 73,
+          "column": 73,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r302",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 170,
+      "original": "R_R302        MID N4736080 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 73,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 73,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 73,
+          "column": 73,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r303",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 171,
+      "original": "R_R303        MID N3294524 R_NOISELESS 11.61K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 8.613264424184308e-05
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 60,
+          "value": -8.613264427217917e-05
+        },
+        {
+          "matrix": "K",
+          "row": 60,
+          "column": 8,
+          "value": -8.613264427217915e-05
+        },
+        {
+          "matrix": "K",
+          "row": 60,
+          "column": 60,
+          "value": 8.613264427217915e-05
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r304",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 172,
+      "original": "R_R304        N4749239 N4747399 R_NOISELESS 190K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 76,
+          "column": 76,
+          "value": 5.263157894736842e-06
+        },
+        {
+          "matrix": "K",
+          "row": 76,
+          "column": 77,
+          "value": -5.263157894736842e-06
+        },
+        {
+          "matrix": "K",
+          "row": 77,
+          "column": 76,
+          "value": -5.263157894736842e-06
+        },
+        {
+          "matrix": "K",
+          "row": 77,
+          "column": 77,
+          "value": 5.263157894736842e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r305",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 173,
+      "original": "R_R305        N47492651 N4749239 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 77,
+          "column": 77,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 77,
+          "column": 78,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 78,
+          "column": 77,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 78,
+          "column": 78,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r306",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 174,
+      "original": "R_R306        MID N4747399 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 76,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 76,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 76,
+          "column": 76,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r307",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 175,
+      "original": "R_R307        N4796572 N4796554 R_NOISELESS 770K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 79,
+          "column": 79,
+          "value": 1.2987012987012986e-06
+        },
+        {
+          "matrix": "K",
+          "row": 79,
+          "column": 80,
+          "value": -1.2987012987012986e-06
+        },
+        {
+          "matrix": "K",
+          "row": 80,
+          "column": 79,
+          "value": -1.2987012987012986e-06
+        },
+        {
+          "matrix": "K",
+          "row": 80,
+          "column": 80,
+          "value": 1.2987012987012986e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r308",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 176,
+      "original": "R_R308        N47965841 N4796572 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 80,
+          "column": 80,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 80,
+          "column": 81,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 81,
+          "column": 80,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 81,
+          "column": 81,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r309",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 177,
+      "original": "R_R309        MID N4796554 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 79,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 79,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 79,
+          "column": 79,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r310",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 178,
+      "original": "R_R310        N4797760 N4797748 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 82,
+          "column": 82,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 82,
+          "column": 83,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 83,
+          "column": 82,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 83,
+          "column": 83,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r311",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 179,
+      "original": "R_R311        MID N4797748 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 82,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 82,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 82,
+          "column": 82,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r312",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 180,
+      "original": "R_R312        MID N4797760 R_NOISELESS 3.61K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.00027700831026322703
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 83,
+          "value": -0.00027700831024946027
+        },
+        {
+          "matrix": "K",
+          "row": 83,
+          "column": 8,
+          "value": -0.0002770083102493075
+        },
+        {
+          "matrix": "K",
+          "row": 83,
+          "column": 83,
+          "value": 0.0002770083102493075
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r313",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 181,
+      "original": "R_R313        MID N4798545 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 84,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 84,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 84,
+          "column": 84,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r314",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 182,
+      "original": "R_R314        N4800105 N4798545 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 84,
+          "column": 84,
+          "value": 9.999999999998899e-05
+        },
+        {
+          "matrix": "K",
+          "row": 84,
+          "column": 85,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 85,
+          "column": 84,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 85,
+          "column": 85,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r315",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 183,
+      "original": "R_R315        N48001371 N4800105 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 85,
+          "column": 85,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 85,
+          "column": 86,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 86,
+          "column": 85,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 86,
+          "column": 86,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r316",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 184,
+      "original": "R_R316        N2991553 N4809008 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 9,
+          "column": 9,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 9,
+          "column": 87,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 87,
+          "column": 9,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 87,
+          "column": 87,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r317",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 185,
+      "original": "R_R317        MID N4809008 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 87,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 87,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 87,
+          "column": 87,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r318",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 186,
+      "original": "R_R318        MID N2991553 R_NOISELESS 28.5",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.03508771929818977
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 9,
+          "value": -0.03508771929824561
+        },
+        {
+          "matrix": "K",
+          "row": 9,
+          "column": 8,
+          "value": -0.03508771929824561
+        },
+        {
+          "matrix": "K",
+          "row": 9,
+          "column": 9,
+          "value": 0.03508771929824561
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r319",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 187,
+      "original": "R_R319        N2991581 N4817896 R_NOISELESS 100MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 14,
+          "column": 14,
+          "value": 1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 14,
+          "column": 88,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 88,
+          "column": 14,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 88,
+          "column": 88,
+          "value": 1e-08
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r32",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 188,
+      "original": "R_R32         MID CLAW_CLAMP R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 5,
+          "column": 5,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 5,
+          "column": 8,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 5,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.0009999999999763531
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r320",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 189,
+      "original": "R_R320        MID N2991581 R_NOISELESS 304K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 3.2894737387323403e-06
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 14,
+          "value": -3.2894736842105265e-06
+        },
+        {
+          "matrix": "K",
+          "row": 14,
+          "column": 8,
+          "value": -3.2894736842105265e-06
+        },
+        {
+          "matrix": "K",
+          "row": 14,
+          "column": 14,
+          "value": 3.2894736842105265e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r321",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 190,
+      "original": "R_R321        MID N4817896 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 88,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 88,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 88,
+          "column": 88,
+          "value": 0.9999999999999999
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r33",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 191,
+      "original": "R_R33         MID CL_CLAMP R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 3,
+          "column": 3,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 3,
+          "column": 8,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 3,
+          "value": -0.0009999999892897904
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.0009999999999763531
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r34",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 192,
+      "original": "R_R34         N3294630 N3294626 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 62,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 63,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 63,
+          "column": 62,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 63,
+          "column": 63,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r35",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 193,
+      "original": "R_R35         MID N3294626 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 62,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 62,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r36",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 194,
+      "original": "R_R36         MID N3294630 R_NOISELESS 9.09091K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.00010999998903571395
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 63,
+          "value": -0.00010999998900018682
+        },
+        {
+          "matrix": "K",
+          "row": 63,
+          "column": 8,
+          "value": -0.0001099999890000011
+        },
+        {
+          "matrix": "K",
+          "row": 63,
+          "column": 63,
+          "value": 0.0001099999890000011
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r37",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 195,
+      "original": "R_R37         MID N3201092 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 59,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 59,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 59,
+          "column": 59,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r38",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 196,
+      "original": "R_R38         N4745674 N3201092 R_NOISELESS 62.73K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 59,
+          "column": 59,
+          "value": 1.594133588400659e-05
+        },
+        {
+          "matrix": "K",
+          "row": 59,
+          "column": 74,
+          "value": -1.5941335883947075e-05
+        },
+        {
+          "matrix": "K",
+          "row": 74,
+          "column": 59,
+          "value": -1.5941335883947075e-05
+        },
+        {
+          "matrix": "K",
+          "row": 74,
+          "column": 74,
+          "value": 1.5941335883947075e-05
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r39",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 197,
+      "original": "R_R39         N47456861 N4745674 R_NOISELESS 10K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 74,
+          "column": 74,
+          "value": 0.00010000000000000002
+        },
+        {
+          "matrix": "K",
+          "row": 74,
+          "column": 75,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 75,
+          "column": 74,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 75,
+          "column": 75,
+          "value": 0.0001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r43",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 198,
+      "original": "R_R43         MID N3294682 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 64,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 64,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 64,
+          "column": 64,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r46",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 199,
+      "original": "R_R46         VCC_B 0 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 92,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r47",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 200,
+      "original": "R_R47         VCC_B N2992397 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 57,
+          "column": 57,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 57,
+          "column": 92,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 57,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 92,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r48",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 201,
+      "original": "R_R48         N2992397 N2992375 R_NOISELESS 1MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 56,
+          "column": 56,
+          "value": 1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 56,
+          "column": 57,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 57,
+          "column": 56,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 57,
+          "column": 57,
+          "value": 9.999999974752427e-07
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r49",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 202,
+      "original": "R_R49         N2992375 0 R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 56,
+          "column": 56,
+          "value": 1.0000000000276037e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r5",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 203,
+      "original": "R_R5          MID N3294772 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 65,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 65,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 65,
+          "column": 65,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r50",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 204,
+      "original": "R_R50         N2992375 N2992413 R_NOISELESS 1MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 56,
+          "column": 56,
+          "value": 9.999999999999997e-07
+        },
+        {
+          "matrix": "K",
+          "row": 56,
+          "column": 58,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 58,
+          "column": 56,
+          "value": -1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 58,
+          "column": 58,
+          "value": 1e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r51",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 205,
+      "original": "R_R51         N2992413 VEE_B R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 58,
+          "column": 58,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 58,
+          "column": 95,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 95,
+          "column": 58,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 95,
+          "column": 95,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r52",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 206,
+      "original": "R_R52         VEE_B 0 R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 95,
+          "column": 95,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r53",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 207,
+      "original": "R_R53         VCC_CLP MID R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 93,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 93,
+          "column": 8,
+          "value": -9.999999960041972e-13
+        },
+        {
+          "matrix": "K",
+          "row": 93,
+          "column": 93,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r54",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 208,
+      "original": "R_R54         N2991729 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 23,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 23,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 23,
+          "column": 23,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r55",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 209,
+      "original": "R_R55         N2991741 N2991729 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 23,
+          "column": 23,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 23,
+          "column": 24,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 24,
+          "column": 23,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 24,
+          "column": 24,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r56",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 210,
+      "original": "R_R56         VEE_CLP MID R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 96,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 96,
+          "column": 8,
+          "value": -9.999999960041972e-13
+        },
+        {
+          "matrix": "K",
+          "row": 96,
+          "column": 96,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r57",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 211,
+      "original": "R_R57         N2991763 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 25,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 25,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 25,
+          "column": 25,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r58",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 212,
+      "original": "R_R58         N2991765 N2991763 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 25,
+          "column": 25,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 25,
+          "column": 26,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 26,
+          "column": 25,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 26,
+          "column": 26,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r59",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 213,
+      "original": "R_R59         N2991807 MID R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 27,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 27,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 27,
+          "column": 27,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r6",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 214,
+      "original": "R_R6          N3294776 N3294772 R_NOISELESS 100MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 65,
+          "column": 65,
+          "value": 9.99999993922529e-09
+        },
+        {
+          "matrix": "K",
+          "row": 65,
+          "column": 66,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 66,
+          "column": 65,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 66,
+          "column": 66,
+          "value": 1e-08
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r60",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 215,
+      "original": "R_R60         N2991809 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 28,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 28,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 28,
+          "column": 28,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r61",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 216,
+      "original": "R_R61         N2991811 N2991809 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 28,
+          "column": 28,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 28,
+          "column": 29,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 29,
+          "column": 28,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 29,
+          "column": 29,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r62",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 217,
+      "original": "R_R62         N2991831 N2991837 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 30,
+          "column": 30,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 30,
+          "column": 31,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 31,
+          "column": 30,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 31,
+          "column": 31,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r63",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 218,
+      "original": "R_R63         N2991849 MID R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 32,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 32,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 32,
+          "column": 32,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r64",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 219,
+      "original": "R_R64         N2991837 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 31,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 31,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 31,
+          "column": 31,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r65",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 220,
+      "original": "R_R65         N2991901 MID R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 33,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 33,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 33,
+          "column": 33,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r66",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 221,
+      "original": "R_R66         N2991905 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 34,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 34,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 34,
+          "column": 34,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r67",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 222,
+      "original": "R_R67         N2991907 N2991905 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 34,
+          "column": 34,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 34,
+          "column": 35,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 35,
+          "column": 34,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 35,
+          "column": 35,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r68",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 223,
+      "original": "R_R68         N2991925 N2991931 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 36,
+          "column": 36,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 36,
+          "column": 37,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 37,
+          "column": 36,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 37,
+          "column": 37,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r69",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 224,
+      "original": "R_R69         N2991943 MID R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 38,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 38,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 38,
+          "column": 38,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r7",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 225,
+      "original": "R_R7          MID N3294776 R_NOISELESS 285K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 3.5087718970316928e-06
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 66,
+          "value": -3.5087719538751116e-06
+        },
+        {
+          "matrix": "K",
+          "row": 66,
+          "column": 8,
+          "value": -3.5087719298245615e-06
+        },
+        {
+          "matrix": "K",
+          "row": 66,
+          "column": 66,
+          "value": 3.5087719298245615e-06
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r70",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 226,
+      "original": "R_R70         N2991931 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 37,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 37,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 37,
+          "column": 37,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r71",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 227,
+      "original": "R_R71         N2991969 VSENSE R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 39,
+          "column": 39,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 39,
+          "column": 99,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 99,
+          "column": 39,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 99,
+          "column": 99,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r72",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 228,
+      "original": "R_R72         VCC_B N2991997 R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 40,
+          "column": 40,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 40,
+          "column": 92,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 40,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 92,
+          "value": 0.0009999999999763531
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r73",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 229,
+      "original": "R_R73         N2991997 N2992033 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 40,
+          "column": 40,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 40,
+          "column": 43,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 43,
+          "column": 40,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 43,
+          "column": 43,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r74",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 230,
+      "original": "R_R74         N2992001 VEE_B R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 41,
+          "column": 41,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 41,
+          "column": 95,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 95,
+          "column": 41,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 95,
+          "column": 95,
+          "value": 0.0009999999999763531
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r75",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 231,
+      "original": "R_R75         N2992001 N2992029 R_NOISELESS 1M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 41,
+          "column": 41,
+          "value": 1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 41,
+          "column": 42,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 42,
+          "column": 41,
+          "value": -1000.0
+        },
+        {
+          "matrix": "K",
+          "row": 42,
+          "column": 42,
+          "value": 1000.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r76",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 232,
+      "original": "R_R76         MID VCC_CLP R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 93,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 93,
+          "column": 8,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 93,
+          "column": 93,
+          "value": 0.001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r77",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 233,
+      "original": "R_R77         VEE_CLP MID R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 96,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 96,
+          "column": 8,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 96,
+          "column": 96,
+          "value": 0.001
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r78",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 234,
+      "original": "R_R78         N2992323 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 54,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 54,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 54,
+          "column": 54,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r79",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 235,
+      "original": "R_R79         N2992299 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 53,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 53,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 53,
+          "column": 53,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r8",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 236,
+      "original": "R_R8          N2991563 N2991555 R_NOISELESS 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 10,
+          "column": 10,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 10,
+          "column": 11,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 11,
+          "column": 10,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 11,
+          "column": 11,
+          "value": 0.0009999999999763531
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r80",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 237,
+      "original": "R_R80         V11 N2992093 R_NOISELESS 100",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 44,
+          "column": 44,
+          "value": 0.01
+        },
+        {
+          "matrix": "K",
+          "row": 44,
+          "column": 90,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 90,
+          "column": 44,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 90,
+          "column": 90,
+          "value": 0.01
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r81",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 238,
+      "original": "R_R81         V12 N2992099 R_NOISELESS 100",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 45,
+          "column": 45,
+          "value": 0.01
+        },
+        {
+          "matrix": "K",
+          "row": 45,
+          "column": 91,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 91,
+          "column": 45,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 91,
+          "column": 91,
+          "value": 0.01
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r82",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 239,
+      "original": "R_R82         N2992105 MID R_NOISELESS 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 46,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 46,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 46,
+          "column": 46,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r83",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 240,
+      "original": "R_R83         N2992105 SW_OL_OPA4388 R_NOISELESS 100",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 46,
+          "column": 46,
+          "value": 0.010000000000000009
+        },
+        {
+          "matrix": "K",
+          "row": 46,
+          "column": 89,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 89,
+          "column": 46,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 89,
+          "column": 89,
+          "value": 0.01
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rdummy",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 241,
+      "original": "R_RDUMMY      MID N2992235 R_NOISELESS 1.75K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.0005714285714475409
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 49,
+          "value": -0.0005714285653084517
+        },
+        {
+          "matrix": "K",
+          "row": 49,
+          "column": 8,
+          "value": -0.0005714285714285715
+        },
+        {
+          "matrix": "K",
+          "row": 49,
+          "column": 49,
+          "value": 0.0005714285714285715
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rs_inn",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 242,
+      "original": "R_RS_INN      IN- ESDN R_NOISELESS 10M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 1,
+          "column": 1,
+          "value": 100.0
+        },
+        {
+          "matrix": "K",
+          "row": 1,
+          "column": 6,
+          "value": -100.0
+        },
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 1,
+          "value": -100.0
+        },
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 6,
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rs_inp",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 243,
+      "original": "R_RS_INP      IN+ ESDP R_NOISELESS 10M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 0,
+          "column": 0,
+          "value": 100.0
+        },
+        {
+          "matrix": "K",
+          "row": 0,
+          "column": 7,
+          "value": -100.0
+        },
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 0,
+          "value": -100.0
+        },
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 7,
+          "value": 100.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rx",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 244,
+      "original": "R_RX          N2992235 N3294682 R_NOISELESS 17.5K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 49,
+          "column": 49,
+          "value": 5.714285714285717e-05
+        },
+        {
+          "matrix": "K",
+          "row": 49,
+          "column": 64,
+          "value": -5.714285714285714e-05
+        },
+        {
+          "matrix": "K",
+          "row": 64,
+          "column": 49,
+          "value": -5.714285714285714e-05
+        },
+        {
+          "matrix": "K",
+          "row": 64,
+          "column": 64,
+          "value": 5.714285714275569e-05
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rx1",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 245,
+      "original": "R_RX1         MID N2992151 R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 47,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 47,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 47,
+          "column": 47,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rx2",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 246,
+      "original": "R_RX2         VIMON N2992151 R_NOISELESS 100",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 47,
+          "column": 47,
+          "value": 0.01
+        },
+        {
+          "matrix": "K",
+          "row": 47,
+          "column": 97,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 97,
+          "column": 47,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 97,
+          "column": 97,
+          "value": 0.01
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rx3",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 247,
+      "original": "R_RX3         MID N2992163 R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 48,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 48,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 48,
+          "column": 48,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_rx4",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 248,
+      "original": "R_RX4         VOUT_S N2992163 R_NOISELESS 100",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 48,
+          "column": 48,
+          "value": 0.01
+        },
+        {
+          "matrix": "K",
+          "row": 48,
+          "column": 98,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 98,
+          "column": 48,
+          "value": -0.01
+        },
+        {
+          "matrix": "K",
+          "row": 98,
+          "column": 98,
+          "value": 0.01
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r_cm1",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 249,
+      "original": "R_R_CM1       ESDP MID R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 7,
+          "value": 9.947598300641403e-13
+        },
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 7,
+          "value": -1.0000000027804608e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r_cm2",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 250,
+      "original": "R_R_CM2       MID ESDN R_NOISELESS 1T",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 6,
+          "value": 9.094947017729282e-13
+        },
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 8,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 6,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 1.0231815394945443e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.r_r_diff",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 251,
+      "original": "R_R_DIFF      ESDN ESDP R_NOISELESS 100MEG",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 6,
+          "value": 9.999894245993346e-09
+        },
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 7,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 6,
+          "value": -1e-08
+        },
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 7,
+          "value": 9.999993721976352e-09
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_vcm_max",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 252,
+      "original": "V_VCM_MAX     N2991623 VCC_B 100M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 18,
+          "column": 110,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 110,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 110,
+          "column": 18,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 110,
+          "column": 92,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_vcm_min",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 253,
+      "original": "V_VCM_MIN     N2991635 VEE_B -100M",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 19,
+          "column": 111,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 95,
+          "column": 111,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 111,
+          "column": 19,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 111,
+          "column": 95,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_v_grn",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 254,
+      "original": "V_V_GRN       N2991943 MID -150",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 112,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 38,
+          "column": 112,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 112,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 112,
+          "column": 38,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_v_grp",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 255,
+      "original": "V_V_GRP       N2991901 MID 150",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 113,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 33,
+          "column": 113,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 113,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 113,
+          "column": 33,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_v_iscn",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 256,
+      "original": "V_V_ISCN      N2991849 MID -60",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 114,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 32,
+          "column": 114,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 114,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 114,
+          "column": 32,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_v_iscp",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 257,
+      "original": "V_V_ISCP      N2991807 MID 60",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 115,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 27,
+          "column": 115,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 115,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 115,
+          "column": 27,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_v_orn",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 258,
+      "original": "V_V_ORN       N2992295 VCLP -55",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 52,
+          "column": 116,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 94,
+          "column": 116,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 116,
+          "column": 52,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 116,
+          "column": 94,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.v_v_orp",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 259,
+      "original": "V_V_ORP       N2992331 VCLP 55",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 55,
+          "column": 117,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 94,
+          "column": 117,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 117,
+          "column": 55,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 117,
+          "column": 94,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "h.x1.x_h1.h_h1",
+      "primitive": "h",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 302,
+      "original": "H_H1         3 4 VH_H1 1K",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 118,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 47,
+          "column": 118,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 118,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 118,
+          "column": 47,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 118,
+          "column": 119,
+          "value": -1000.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.x_h1.vh_h1",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 303,
+      "original": "VH_H1         1 2 0V",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 1,
+          "column": 119,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 49,
+          "column": 119,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 119,
+          "column": 1,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 119,
+          "column": 49,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "h.x1.x_h2.h_h2",
+      "primitive": "h",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 307,
+      "original": "H_H2         3 4 VH_H2 1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 120,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 91,
+          "column": 120,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 120,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 120,
+          "column": 91,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 120,
+          "column": 121,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.x_h2.vh_h2",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 308,
+      "original": "VH_H2         1 2 0V",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 51,
+          "column": 121,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 54,
+          "column": 121,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 121,
+          "column": 51,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 121,
+          "column": 54,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "h.x1.x_h3.h_h3",
+      "primitive": "h",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 312,
+      "original": "H_H3         3 4 VH_H3 -1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 122,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 90,
+          "column": 122,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 122,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 122,
+          "column": 90,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 122,
+          "column": 123,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "v.x1.x_h3.vh_h3",
+      "primitive": "v",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 313,
+      "original": "VH_H3         1 2 0V",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 50,
+          "column": 123,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 53,
+          "column": 123,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 123,
+          "column": 50,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 123,
+          "column": 53,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_s1.s_s1",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 317,
+      "original": "S_S1         3 4 1 2 _S1",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 4,
+          "value": 1.0000000000276037e-12
+        },
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 50,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 50,
+          "column": 4,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 50,
+          "column": 50,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_s1.rs_s1",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 318,
+      "original": "RS_S1         1 2 1G",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 4,
+          "value": 1.0000000000000751e-09
+        },
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 50,
+          "value": -1e-09
+        },
+        {
+          "matrix": "K",
+          "row": 50,
+          "column": 4,
+          "value": -1e-09
+        },
+        {
+          "matrix": "K",
+          "row": 50,
+          "column": 50,
+          "value": 1e-09
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_s2.s_s2",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 323,
+      "original": "S_S2         3 4 1 2 _S2",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 4,
+          "value": 1.0000000000276037e-12
+        },
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 51,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 51,
+          "column": 4,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 51,
+          "column": 51,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_s2.rs_s2",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 324,
+      "original": "RS_S2         1 2 1G",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 4,
+          "value": 1.0000000000000751e-09
+        },
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 51,
+          "value": -1e-09
+        },
+        {
+          "matrix": "K",
+          "row": 51,
+          "column": 4,
+          "value": -1e-09
+        },
+        {
+          "matrix": "K",
+          "row": 51,
+          "column": 51,
+          "value": 1e-09
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u10.gvo+",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 342,
+      "original": "GVO+ COM VO+ VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u10.gvo-",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 343,
+      "original": "GVO- COM VO- VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u11.gvo+",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 342,
+      "original": "GVO+ COM VO+ VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u11.gvo-",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 343,
+      "original": "GVO- COM VO- VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u12.gvo+",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 337,
+      "original": "GVO+ COM VO+ VALUE = {IF(V(VIN,COM)>V(VC+,COM),((V(VIN,COM)-V(VC+,COM))*G),0)}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u12.gvo-",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 338,
+      "original": "GVO- COM VO- VALUE = {IF(V(VIN,COM)<V(VC-,COM),((V(VC-,COM)-V(VIN,COM))*G),0)}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u16.gsw+",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 401,
+      "original": "GSW+ COM SW+ VALUE = {IF((V(OLN,COM)>10E-3 | V(OLP,COM)>10E-3),1,0)}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u18.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 354,
+      "original": "G1 IOUT+ IOUT- TABLE {(V(VC+,VC-))} = (0, 11.47E-6) (10,  1.5E-4) (22,  3.0E-4) (45,  6.9E-4) (53,  9.0E-4) (60, 1.24E-3)",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 40,
+          "column": 8,
+          "value": -1.3853e-05
+        },
+        {
+          "matrix": "K",
+          "row": 40,
+          "column": 97,
+          "value": 1.3853e-05
+        },
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 8,
+          "value": 1.3853e-05
+        },
+        {
+          "matrix": "K",
+          "row": 92,
+          "column": 97,
+          "value": -1.3853e-05
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u19.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 347,
+      "original": "G1 IOUT+ IOUT- TABLE {(V(VC+,VC-))} = (0,  15.45E-6) (11,  3.35E-4) (60,  1.90E-3)",
+      "entries": []
+    },
+    {
+      "element": "s.x1.x_u21.s1",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 381,
+      "original": "S1 OUT VCC OUT VCC ESD_SW",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 1,
+          "column": 1,
+          "value": 9.947598300641403e-13
+        },
+        {
+          "matrix": "K",
+          "row": 1,
+          "column": 2,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 1,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 2,
+          "value": 1e-12
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_u21.s2",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 382,
+      "original": "S2 VEE OUT VEE OUT ESD_SW",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 1,
+          "column": 1,
+          "value": 9.947598300641403e-13
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u22.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 368,
+      "original": "G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 3,
+          "column": 29,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 3,
+          "column": 30,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 29,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 30,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u23.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 393,
+      "original": "G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 35,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 36,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 35,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 36,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_u25.s1",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 406,
+      "original": "S1 CAP_L CAP_R SW_OL_OPA4388 MID OL_SW",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 62,
+          "value": 1.000088900582341e-12
+        },
+        {
+          "matrix": "K",
+          "row": 62,
+          "column": 63,
+          "value": -9.999999960041972e-13
+        },
+        {
+          "matrix": "K",
+          "row": 63,
+          "column": 62,
+          "value": -9.999999960041972e-13
+        },
+        {
+          "matrix": "K",
+          "row": 63,
+          "column": 63,
+          "value": 9.999999960041972e-13
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u26.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 397,
+      "original": "G1 IOUT+ IOUT- VALUE={IF( (V(VC+,VC-)<=0),0,GAIN*V(VC+,VC-) )}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 8,
+          "value": -0.001
+        },
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 97,
+          "value": 0.001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": 0.0009999999999763531
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 97,
+          "value": -0.001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u27.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 397,
+      "original": "G1 IOUT+ IOUT- VALUE={IF( (V(VC+,VC-)<=0),0,GAIN*V(VC+,VC-) )}",
+      "entries": []
+    },
+    {
+      "element": "g.x1.x_u30.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 329,
+      "original": "G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 17,
+          "value": -0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 21,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 22,
+          "column": 17,
+          "value": 0.0001
+        },
+        {
+          "matrix": "K",
+          "row": 22,
+          "column": 21,
+          "value": -0.0001
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u31.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 333,
+      "original": "G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 8,
+          "value": 0.25119
+        },
+        {
+          "matrix": "K",
+          "row": 4,
+          "column": 22,
+          "value": -0.25119
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -0.2511899999999514
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 22,
+          "value": 0.25119
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u32.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 424,
+      "original": "G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1250.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 68,
+          "value": 1250.0
+        },
+        {
+          "matrix": "K",
+          "row": 64,
+          "column": 8,
+          "value": 1250.0
+        },
+        {
+          "matrix": "K",
+          "row": 64,
+          "column": 68,
+          "value": -1250.0
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u35.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 364,
+      "original": "G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VC+,VC-),INEG,IPOS)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 5,
+          "column": 24,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 5,
+          "column": 26,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 24,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 26,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "element": "e.x1.x_u38.e1",
+      "primitive": "e",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 386,
+      "original": "E1 3 0 5 0 10",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 100,
+          "column": 124,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 124,
+          "column": 100,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 124,
+          "column": 101,
+          "value": -10.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_u38.r1",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 387,
+      "original": "R1 5 0 {1.184*PWR(NVRF,2)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 101,
+          "column": 101,
+          "value": 8.28773108755181e-05
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_u38.r2",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 388,
+      "original": "R2 5 0 {1.184*PWR(NVRF,2)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 101,
+          "column": 101,
+          "value": 8.28773108755181e-05
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u38.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 389,
+      "original": "G1 1 2 3 0 1E-6",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 100,
+          "value": 1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 12,
+          "column": 100,
+          "value": -1e-06
+        }
+      ]
+    },
+    {
+      "element": "e.x1.x_u39.e1",
+      "primitive": "e",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 386,
+      "original": "E1 3 0 5 0 10",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 102,
+          "column": 125,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 125,
+          "column": 102,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 125,
+          "column": 103,
+          "value": -10.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_u39.r1",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 387,
+      "original": "R1 5 0 {1.184*PWR(NVRF,2)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 103,
+          "column": 103,
+          "value": 8.28773108755181e-05
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_u39.r2",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 388,
+      "original": "R2 5 0 {1.184*PWR(NVRF,2)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 103,
+          "column": 103,
+          "value": 8.28773108755181e-05
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u39.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 389,
+      "original": "G1 1 2 3 0 1E-6",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 102,
+          "value": 1e-06
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 102,
+          "value": -1e-06
+        }
+      ]
+    },
+    {
+      "element": "e.x1.x_u4.e1",
+      "primitive": "e",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 420,
+      "original": "E1 VOS+ VOS- VALUE={DC+POL*DRIFT*(TEMP-27)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 10,
+          "column": 126,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 12,
+          "column": 126,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 126,
+          "column": 10,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 126,
+          "column": 12,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_u40.r4",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 414,
+      "original": "R4 5 0 {1.184*PWR(NVR,2)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 104,
+          "column": 104,
+          "value": 0.016896994784316756
+        }
+      ]
+    },
+    {
+      "element": "r.x1.x_u40.r5",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 415,
+      "original": "R5 5 0 {1.184*PWR(NVR,2)}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 104,
+          "column": 104,
+          "value": 0.016896994784316756
+        }
+      ]
+    },
+    {
+      "element": "e.x1.x_u40.e3",
+      "primitive": "e",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 416,
+      "original": "E3 1 2 5 0 10",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 127,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 12,
+          "column": 127,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 127,
+          "column": 7,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 127,
+          "column": 12,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 127,
+          "column": 104,
+          "value": -10.0
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_u5.s1",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 373,
+      "original": "S1 ESDN VCC ESDN VCC ESD_SW",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 2,
+          "value": 1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 6,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 2,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 6,
+          "value": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_u5.s2",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 374,
+      "original": "S2 ESDP VCC ESDP VCC ESD_SW",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 2,
+          "value": 1.0000000000000002e-12
+        },
+        {
+          "matrix": "K",
+          "row": 2,
+          "column": 7,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 2,
+          "value": -1e-12
+        },
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 7,
+          "value": 9.947598300641403e-13
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_u5.s3",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 375,
+      "original": "S3 VEE ESDN VEE ESDN ESD_SW",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 6,
+          "column": 6,
+          "value": 9.094947017729282e-13
+        }
+      ]
+    },
+    {
+      "element": "s.x1.x_u5.s4",
+      "primitive": "s",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 376,
+      "original": "S4 VEE ESDP VEE ESDP ESD_SW",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 7,
+          "column": 7,
+          "value": 9.947598300641403e-13
+        }
+      ]
+    },
+    {
+      "element": "g.x1.x_u6.g1",
+      "primitive": "g",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\models\\OPA4388_ORIGINAL.LIB",
+      "line": 410,
+      "original": "G1 IOUT+ IOUT- VALUE={LIMIT(GAIN*V(VIN+,VIN-),V(VP-,VIN-), V(VP+,VIN-))}",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 8,
+          "value": -1.0
+        },
+        {
+          "matrix": "K",
+          "row": 8,
+          "column": 16,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 20,
+          "column": 8,
+          "value": 1.0
+        },
+        {
+          "matrix": "K",
+          "row": 20,
+          "column": 16,
+          "value": -1.0
+        }
+      ]
+    },
+    {
+      "element": "rload",
+      "primitive": "r",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 6,
+      "original": "Rload out 0 10k",
+      "entries": [
+        {
+          "matrix": "K",
+          "row": 1,
+          "column": 1,
+          "value": 0.00010000000000331966
+        }
+      ]
+    },
+    {
+      "element": "cload",
+      "primitive": "c",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\\cases\\follower_exact.cir",
+      "line": 7,
+      "original": "Cload out 0 10p",
+      "entries": [
+        {
+          "matrix": "E",
+          "row": 1,
+          "column": 1,
+          "value": 1e-11
+        }
+      ]
+    }
+  ],
+  "originalPrimitiveCount": 231,
+  "actualOPVariables": 170,
+  "compatibilityGeneratedAlgebraicVariablesNotYetReconciled": true
+}

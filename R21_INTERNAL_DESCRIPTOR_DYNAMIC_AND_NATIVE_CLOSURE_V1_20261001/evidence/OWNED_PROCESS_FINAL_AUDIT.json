@@ -1,0 +1,58 @@
+[
+  {
+    "case": "follower_exact",
+    "ownedPID": 71732,
+    "recordedStatus": "NORMAL_EXIT",
+    "livePIDExists": false,
+    "liveExecutablePath": null,
+    "liveCreationDate": null
+  },
+  {
+    "case": "follower_listing",
+    "ownedPID": 75780,
+    "recordedStatus": "NORMAL_EXIT",
+    "livePIDExists": false,
+    "liveExecutablePath": null,
+    "liveCreationDate": null
+  },
+  {
+    "case": "pwl_actual_op_0",
+    "ownedPID": 64136,
+    "recordedStatus": "NORMAL_EXIT",
+    "livePIDExists": false,
+    "liveExecutablePath": null,
+    "liveCreationDate": null
+  },
+  {
+    "case": "pwl_actual_op_1",
+    "ownedPID": 47216,
+    "recordedStatus": "NORMAL_EXIT",
+    "livePIDExists": false,
+    "liveExecutablePath": null,
+    "liveCreationDate": null
+  },
+  {
+    "case": "qual_ref2",
+    "ownedPID": 85868,
+    "recordedStatus": "NORMAL_EXIT",
+    "livePIDExists": false,
+    "liveExecutablePath": null,
+    "liveCreationDate": null
+  },
+  {
+    "case": "qual_row",
+    "ownedPID": 55328,
+    "recordedStatus": "NORMAL_EXIT",
+    "livePIDExists": false,
+    "liveExecutablePath": null,
+    "liveCreationDate": null
+  },
+  {
+    "case": "qual_tia",
+    "ownedPID": 72040,
+    "recordedStatus": "NORMAL_EXIT",
+    "livePIDExists": false,
+    "liveExecutablePath": null,
+    "liveCreationDate": null
+  }
+]

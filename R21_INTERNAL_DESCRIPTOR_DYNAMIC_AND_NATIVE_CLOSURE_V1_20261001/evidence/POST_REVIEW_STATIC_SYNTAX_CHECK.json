@@ -1,0 +1,31 @@
+{
+  "UTC": "2026-10-01T17:08:46.262220+00:00",
+  "files": [
+    "apply_review_metadata.py",
+    "assemble_receipt.py",
+    "compare_follower.py",
+    "expression.py",
+    "make_follower.py",
+    "make_local_qualifications.py",
+    "make_pwl_probe.py",
+    "mna.py",
+    "offline_budget.py",
+    "processed.py",
+    "pwl.py",
+    "qualify_local.py",
+    "qualify_processed_follower.py",
+    "rawio.py",
+    "science.py",
+    "spice_flatten.py",
+    "test_expression.py",
+    "test_flatten.py",
+    "test_mna.py",
+    "test_processed.py",
+    "test_pwl.py",
+    "test_rawio.py"
+  ],
+  "PASS": true,
+  "scientificReruns": 0,
+  "regressionsRerun": 0,
+  "runtimeControlQualification": false
+}

@@ -1,0 +1,903 @@
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps a
+
+
+Circuit: 07 descriptor local follower qualification
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+	07 descriptor local follower qualification
+
+     1 : 07 descriptor local follower qualification
+   609 : vdd vdd 0 dc 5
+   610 : vin inp 0 dc 2.5 ac 1
+    98 : c.x1.c_c1 x1.n3294772 x1.n3294776 140f 
+    99 : c.x1.c_c10 x1.n3294626 x1.n3294630 39.8u 
+   100 : c.x1.c_c11 x1.mid x1.n47456861 7.96n 
+   101 : c.x1.c_c121 x1.n4736080 x1.n3294524 884.2f 
+   102 : c.x1.c_c122 x1.mid x1.n47492651 796p 
+   103 : c.x1.c_c123 x1.mid x1.n47965841 40p 
+   104 : c.x1.c_c124 x1.n4797748 x1.n4797760 40.8p 
+   105 : c.x1.c_c125 x1.mid x1.n48001371 530f 
+   106 : c.x1.c_c126 x1.n4809008 x1.n2991553 1.4n 
+   107 : c.x1.c_c127 x1.n4817896 x1.n2991581 318.3f 
+   108 : c.x1.c_c13 x1.n2992397 0 1f 
+   109 : c.x1.c_c14 0 x1.n2992375 2u 
+   110 : c.x1.c_c15 x1.n2992413 0 1f 
+   111 : c.x1.c_c16 x1.n2991741 x1.mid 1f 
+   112 : c.x1.c_c17 x1.n2991765 x1.mid 1f 
+   113 : c.x1.c_c18 x1.n2991811 x1.mid 1f 
+   114 : c.x1.c_c19 x1.n2991831 x1.mid 1f 
+   115 : c.x1.c_c20 x1.n2991907 x1.mid 1f 
+   116 : c.x1.c_c21 x1.n2991925 x1.mid 1f 
+   117 : c.x1.c_c22 x1.mid x1.n2991969 1f 
+   118 : c.x1.c_c23 x1.n2992033 x1.mid 1f 
+   119 : c.x1.c_c24 x1.n2992029 x1.mid 1f 
+   120 : c.x1.c_c25 x1.n2992093 x1.mid 1p 
+   121 : c.x1.c_c26 x1.n2992099 x1.mid 1p 
+   122 : c.x1.c_c27 x1.sw_ol_opa4388 x1.mid 100p 
+   123 : c.x1.c_c29 x1.vimon x1.mid 1n 
+   124 : c.x1.c_c30 x1.vout_s x1.mid 1n 
+   125 : c.x1.c_c4 x1.n2991657 x1.mid 1f 
+   126 : c.x1.c_c5 x1.clamp x1.mid 403n 
+   127 : c.x1.c_c70 x1.vclp x1.mid 100p 
+   128 : c.x1.c_c72 x1.n4031911 x1.mid 3.9e-16 
+   129 : c.x1.c_c74 x1.n3827259 x1.n3828449 200f 
+   130 : c.x1.c_c77 x1.n3850714 x1.n3850724 318.3f 
+   131 : c.x1.c_c93 x1.n4243633 x1.n2991579 118.8p 
+   132 : c.x1.c_c_com0 x1.esdp x1.mid 4.5p 
+   133 : c.x1.c_c_com1 x1.mid x1.esdn 4.5p 
+   134 : c.x1.c_c_diff x1.esdn x1.esdp 2p 
+   135 : e.x1.e_e1 x1.mid 0 x1.n2992375 0 1
+   136 : e.x1.e_e3 x1.n2992163 x1.mid out x1.mid 1
+   137 : e.x1.e_e4 x1.n3294618 x1.mid x1.cl_clamp x1.mid 1
+   138 : g.x1.g_g1 x1.n3294772 x1.mid x1.esdp x1.mid -35.19u
+   139 : g.x1.g_g100 x1.n4817896 x1.mid x1.n3850724 x1.mid -330
+   140 : g.x1.g_g12 x1.claw_clamp x1.mid x1.n3294524 x1.mid -1m
+   141 : g.x1.g_g13 x1.cl_clamp x1.mid x1.claw_clamp x1.mid -1m
+   142 : g.x1.g_g16 x1.n3201092 x1.mid x1.n3294630 x1.mid -2.1
+   143 : g.x1.g_g18 x1.vcc_b 0 vdd 0 -1
+   144 : g.x1.g_g19 x1.vee_b 0 0 0 -1
+   145 : g.x1.g_g2 x1.n2991563 x1.n2991555 x1.n2991553 x1.mid -1m
+   146 : g.x1.g_g20 x1.vcc_clp x1.mid x1.n2992033 x1.mid -1m
+   147 : g.x1.g_g21 x1.vee_clp x1.mid x1.n2992029 x1.mid -1m
+   148 : g.x1.g_g22 x1.n2992299 x1.mid x1.n2992295 x1.mid -1
+   149 : g.x1.g_g23 x1.n2992323 x1.mid x1.n2992331 x1.mid -1
+   150 : g.x1.g_g39 x1.n3294626 x1.mid x1.cl_clamp x1.n2992235 -237.45k
+   151 : g.x1.g_g4 x1.n3850714 x1.mid x1.vcc_b x1.mid -415.4u
+   152 : g.x1.g_g41 x1.n4031911 x1.mid x1.vsense x1.mid -1u
+   153 : g.x1.g_g5 x1.n2991587 x1.n2991583 x1.n2991581 x1.n2991579 -1m
+   154 : g.x1.g_g6 x1.vsense x1.mid x1.clamp x1.mid -1m
+   155 : g.x1.g_g63 x1.n4243633 x1.mid x1.vee_b x1.mid -525.6m
+   156 : g.x1.g_g92 x1.n4736080 x1.mid x1.n4031911 x1.mid -1.861
+   157 : g.x1.g_g93 x1.n4747399 x1.mid x1.n4745674 x1.mid -1
+   158 : g.x1.g_g95 x1.n4796554 x1.mid x1.n4749239 x1.mid -1
+   159 : g.x1.g_g96 x1.n4797748 x1.mid x1.n4796572 x1.mid -1
+   160 : g.x1.g_g97 x1.n4798545 x1.mid x1.n4797760 x1.mid -3.77
+   161 : g.x1.g_g98 x1.n3827259 x1.mid x1.n4800105 x1.mid -1
+   162 : g.x1.g_g99 x1.n4809008 x1.mid x1.n3294776 x1.mid -351.9
+   163 : i.x1.i_i_b x1.n2991573 x1.mid dc 30.02p
+   164 : i.x1.i_i_os x1.esdn x1.mid dc -30.02p
+   165 : i.x1.i_i_q vdd 0 dc 1.9m
+   166 : r.x1.r_r15 x1.n2991583 x1.n2991563 x1:r_noiseless 1m 
+   167 : r.x1.r_r16 x1.n2991587 x1.n2991583 x1:r_noiseless 1k 
+   168 : r.x1.r_r167 x1.n3294618 x1.vclp x1:r_noiseless 100 
+   169 : r.x1.r_r17 x1.n2991619 x1.esdn x1:r_noiseless 1m 
+   170 : r.x1.r_r171 x1.mid x1.n4031911 x1:r_noiseless 1meg 
+   171 : r.x1.r_r176 x1.mid x1.n3827259 x1:r_noiseless 1 
+   172 : r.x1.r_r178 x1.n3828449 x1.n3827259 x1:r_noiseless 10k 
+   173 : r.x1.r_r179 x1.mid x1.n3828449 x1:r_noiseless 8 
+   174 : r.x1.r_r18 x1.mid x1.n2991623 x1:r_noiseless 1t 
+   175 : r.x1.r_r187 x1.n3850724 x1.n3850714 x1:r_noiseless 100meg 
+   176 : r.x1.r_r189 x1.mid x1.n3850714 x1:r_noiseless 1 
+   177 : r.x1.r_r19 x1.mid x1.n2991635 x1:r_noiseless 1t 
+   178 : r.x1.r_r190 x1.mid x1.n3850724 x1:r_noiseless 304k 
+   179 : r.x1.r_r20 x1.n2991643 x1.mid x1:r_noiseless 1 
+   180 : r.x1.r_r21 x1.n2991657 x1.n2991643 x1:r_noiseless 1m 
+   181 : r.x1.r_r22 x1.mid x1.n2991667 x1:r_noiseless 1meg 
+   182 : r.x1.r_r23 x1.mid x1.clamp x1:r_noiseless 1meg 
+   183 : r.x1.r_r230 x1.n2991579 x1.n4243633 x1:r_noiseless 100meg 
+   184 : r.x1.r_r233 x1.mid x1.n2991579 x1:r_noiseless 239.5 
+   185 : r.x1.r_r234 x1.mid x1.n4243633 x1:r_noiseless 1 
+   186 : r.x1.r_r24 x1.mid x1.vsense x1:r_noiseless 1k 
+   187 : r.x1.r_r301 x1.n3294524 x1.n4736080 x1:r_noiseless 10k 
+   188 : r.x1.r_r302 x1.mid x1.n4736080 x1:r_noiseless 1 
+   189 : r.x1.r_r303 x1.mid x1.n3294524 x1:r_noiseless 11.61k 
+   190 : r.x1.r_r304 x1.n4749239 x1.n4747399 x1:r_noiseless 190k 
+   191 : r.x1.r_r305 x1.n47492651 x1.n4749239 x1:r_noiseless 10k 
+   192 : r.x1.r_r306 x1.mid x1.n4747399 x1:r_noiseless 1 
+   193 : r.x1.r_r307 x1.n4796572 x1.n4796554 x1:r_noiseless 770k 
+   194 : r.x1.r_r308 x1.n47965841 x1.n4796572 x1:r_noiseless 10k 
+   195 : r.x1.r_r309 x1.mid x1.n4796554 x1:r_noiseless 1 
+   196 : r.x1.r_r310 x1.n4797760 x1.n4797748 x1:r_noiseless 10k 
+   197 : r.x1.r_r311 x1.mid x1.n4797748 x1:r_noiseless 1 
+   198 : r.x1.r_r312 x1.mid x1.n4797760 x1:r_noiseless 3.61k 
+   199 : r.x1.r_r313 x1.mid x1.n4798545 x1:r_noiseless 1 
+   200 : r.x1.r_r314 x1.n4800105 x1.n4798545 x1:r_noiseless 10k 
+   201 : r.x1.r_r315 x1.n48001371 x1.n4800105 x1:r_noiseless 10k 
+   202 : r.x1.r_r316 x1.n2991553 x1.n4809008 x1:r_noiseless 10k 
+   203 : r.x1.r_r317 x1.mid x1.n4809008 x1:r_noiseless 1 
+   204 : r.x1.r_r318 x1.mid x1.n2991553 x1:r_noiseless 28.5 
+   205 : r.x1.r_r319 x1.n2991581 x1.n4817896 x1:r_noiseless 100meg 
+   206 : r.x1.r_r32 x1.mid x1.claw_clamp x1:r_noiseless 1k 
+   207 : r.x1.r_r320 x1.mid x1.n2991581 x1:r_noiseless 304k 
+   208 : r.x1.r_r321 x1.mid x1.n4817896 x1:r_noiseless 1 
+   209 : r.x1.r_r33 x1.mid x1.cl_clamp x1:r_noiseless 1k 
+   210 : r.x1.r_r34 x1.n3294630 x1.n3294626 x1:r_noiseless 10k 
+   211 : r.x1.r_r35 x1.mid x1.n3294626 x1:r_noiseless 1 
+   212 : r.x1.r_r36 x1.mid x1.n3294630 x1:r_noiseless 9.09091k 
+   213 : r.x1.r_r37 x1.mid x1.n3201092 x1:r_noiseless 1 
+   214 : r.x1.r_r38 x1.n4745674 x1.n3201092 x1:r_noiseless 62.73k 
+   215 : r.x1.r_r39 x1.n47456861 x1.n4745674 x1:r_noiseless 10k 
+   216 : r.x1.r_r43 x1.mid x1.n3294682 x1:r_noiseless 1 
+   217 : r.x1.r_r46 x1.vcc_b 0 x1:r_noiseless 1 
+   218 : r.x1.r_r47 x1.vcc_b x1.n2992397 x1:r_noiseless 1m 
+   219 : r.x1.r_r48 x1.n2992397 x1.n2992375 x1:r_noiseless 1meg 
+   220 : r.x1.r_r49 x1.n2992375 0 x1:r_noiseless 1t 
+   221 : r.x1.r_r5 x1.mid x1.n3294772 x1:r_noiseless 1 
+   222 : r.x1.r_r50 x1.n2992375 x1.n2992413 x1:r_noiseless 1meg 
+   223 : r.x1.r_r51 x1.n2992413 x1.vee_b x1:r_noiseless 1m 
+   224 : r.x1.r_r52 x1.vee_b 0 x1:r_noiseless 1 
+   225 : r.x1.r_r53 x1.vcc_clp x1.mid x1:r_noiseless 1t 
+   226 : r.x1.r_r54 x1.n2991729 x1.mid x1:r_noiseless 1 
+   227 : r.x1.r_r55 x1.n2991741 x1.n2991729 x1:r_noiseless 1m 
+   228 : r.x1.r_r56 x1.vee_clp x1.mid x1:r_noiseless 1t 
+   229 : r.x1.r_r57 x1.n2991763 x1.mid x1:r_noiseless 1 
+   230 : r.x1.r_r58 x1.n2991765 x1.n2991763 x1:r_noiseless 1m 
+   231 : r.x1.r_r59 x1.n2991807 x1.mid x1:r_noiseless 1t 
+   232 : r.x1.r_r6 x1.n3294776 x1.n3294772 x1:r_noiseless 100meg 
+   233 : r.x1.r_r60 x1.n2991809 x1.mid x1:r_noiseless 1 
+   234 : r.x1.r_r61 x1.n2991811 x1.n2991809 x1:r_noiseless 1m 
+   235 : r.x1.r_r62 x1.n2991831 x1.n2991837 x1:r_noiseless 1m 
+   236 : r.x1.r_r63 x1.n2991849 x1.mid x1:r_noiseless 1t 
+   237 : r.x1.r_r64 x1.n2991837 x1.mid x1:r_noiseless 1 
+   238 : r.x1.r_r65 x1.n2991901 x1.mid x1:r_noiseless 1t 
+   239 : r.x1.r_r66 x1.n2991905 x1.mid x1:r_noiseless 1 
+   240 : r.x1.r_r67 x1.n2991907 x1.n2991905 x1:r_noiseless 1m 
+   241 : r.x1.r_r68 x1.n2991925 x1.n2991931 x1:r_noiseless 1m 
+   242 : r.x1.r_r69 x1.n2991943 x1.mid x1:r_noiseless 1t 
+   243 : r.x1.r_r7 x1.mid x1.n3294776 x1:r_noiseless 285k 
+   244 : r.x1.r_r70 x1.n2991931 x1.mid x1:r_noiseless 1 
+   245 : r.x1.r_r71 x1.n2991969 x1.vsense x1:r_noiseless 1m 
+   246 : r.x1.r_r72 x1.vcc_b x1.n2991997 x1:r_noiseless 1k 
+   247 : r.x1.r_r73 x1.n2991997 x1.n2992033 x1:r_noiseless 1m 
+   248 : r.x1.r_r74 x1.n2992001 x1.vee_b x1:r_noiseless 1k 
+   249 : r.x1.r_r75 x1.n2992001 x1.n2992029 x1:r_noiseless 1m 
+   250 : r.x1.r_r76 x1.mid x1.vcc_clp x1:r_noiseless 1k 
+   251 : r.x1.r_r77 x1.vee_clp x1.mid x1:r_noiseless 1k 
+   252 : r.x1.r_r78 x1.n2992323 x1.mid x1:r_noiseless 1 
+   253 : r.x1.r_r79 x1.n2992299 x1.mid x1:r_noiseless 1 
+   254 : r.x1.r_r8 x1.n2991563 x1.n2991555 x1:r_noiseless 1k 
+   255 : r.x1.r_r80 x1.v11 x1.n2992093 x1:r_noiseless 100 
+   256 : r.x1.r_r81 x1.v12 x1.n2992099 x1:r_noiseless 100 
+   257 : r.x1.r_r82 x1.n2992105 x1.mid x1:r_noiseless 1 
+   258 : r.x1.r_r83 x1.n2992105 x1.sw_ol_opa4388 x1:r_noiseless 100 
+   259 : r.x1.r_rdummy x1.mid x1.n2992235 x1:r_noiseless 1.75k 
+   260 : r.x1.r_rs_inn out x1.esdn x1:r_noiseless 10m 
+   261 : r.x1.r_rs_inp inp x1.esdp x1:r_noiseless 10m 
+   262 : r.x1.r_rx x1.n2992235 x1.n3294682 x1:r_noiseless 17.5k 
+   263 : r.x1.r_rx1 x1.mid x1.n2992151 x1:r_noiseless 1t 
+   264 : r.x1.r_rx2 x1.vimon x1.n2992151 x1:r_noiseless 100 
+   265 : r.x1.r_rx3 x1.mid x1.n2992163 x1:r_noiseless 1t 
+   266 : r.x1.r_rx4 x1.vout_s x1.n2992163 x1:r_noiseless 100 
+   267 : r.x1.r_r_cm1 x1.esdp x1.mid x1:r_noiseless 1t 
+   268 : r.x1.r_r_cm2 x1.mid x1.esdn x1:r_noiseless 1t 
+   269 : r.x1.r_r_diff x1.esdn x1.esdp x1:r_noiseless 100meg 
+   270 : v.x1.v_vcm_max x1.n2991623 x1.vcc_b 100m
+   271 : v.x1.v_vcm_min x1.n2991635 x1.vee_b -100m
+   272 : v.x1.v_v_grn x1.n2991943 x1.mid -150
+   273 : v.x1.v_v_grp x1.n2991901 x1.mid 150
+   274 : v.x1.v_v_iscn x1.n2991849 x1.mid -60
+   275 : v.x1.v_v_iscp x1.n2991807 x1.mid 60
+   276 : v.x1.v_v_orn x1.n2992295 x1.vclp -55
+   277 : v.x1.v_v_orp x1.n2992331 x1.vclp 55
+   313 : h.x1.x_h1.h_h1 x1.n2992151 x1.mid v.x1.x_h1.vh_h1 1k
+   314 : v.x1.x_h1.vh_h1 x1.n2992235 out 0v
+   322 : h.x1.x_h2.h_h2 x1.v12 x1.mid v.x1.x_h2.vh_h2 1
+   323 : v.x1.x_h2.vh_h2 x1.n2992287 x1.n2992323 0v
+   331 : h.x1.x_h3.h_h3 x1.v11 x1.mid v.x1.x_h3.vh_h3 -1
+   332 : v.x1.x_h3.vh_h3 x1.n2992267 x1.n2992299 0v
+   340 : a.x1.x_s1.as_s1 %gd x1.n2992267 x1.clamp %gd x1.n2992267 x1.clamp x1.x_s1:a_s1
+   341 : r.x1.x_s1.rs_s1 x1.n2992267 x1.clamp 1g 
+   342 : .model x1.x_s1:a_s1 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   350 : a.x1.x_s2.as_s2 %gd x1.clamp x1.n2992287 %gd x1.clamp x1.n2992287 x1.x_s2:a_s2
+   351 : r.x1.x_s2.rs_s2 x1.clamp x1.n2992287 1g 
+   352 : .model x1.x_s2:a_s2 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   408 : g.x1.x_u10.gvo+ x1.mid x1.n2991729 x1.x_u10.gvo+_int1 0 1
+   410 : b.x1.x_u10.bgvo+ x1.x_u10.gvo+_int1 0 v= ( ternary_fcn ( ( v(x1.vout_s,x1.mid) > v(x1.vcc_clp,x1.mid) ) , ( ( ( v(x1.vout_s,x1.mid) - v(x1.vcc_clp,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   412 : g.x1.x_u10.gvo- x1.mid x1.n2991763 x1.x_u10.gvo-_int1 0 1
+   414 : b.x1.x_u10.bgvo- x1.x_u10.gvo-_int1 0 v= ( ternary_fcn ( ( v(x1.vout_s,x1.mid) < v(x1.vee_clp,x1.mid) ) , ( ( ( v(x1.vee_clp,x1.mid) - v(x1.vout_s,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   408 : g.x1.x_u11.gvo+ x1.mid x1.n2991809 x1.x_u11.gvo+_int1 0 1
+   410 : b.x1.x_u11.bgvo+ x1.x_u11.gvo+_int1 0 v= ( ternary_fcn ( ( v(x1.vimon,x1.mid) > v(x1.n2991807,x1.mid) ) , ( ( ( v(x1.vimon,x1.mid) - v(x1.n2991807,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   412 : g.x1.x_u11.gvo- x1.mid x1.n2991837 x1.x_u11.gvo-_int1 0 1
+   414 : b.x1.x_u11.bgvo- x1.x_u11.gvo-_int1 0 v= ( ternary_fcn ( ( v(x1.vimon,x1.mid) < v(x1.n2991849,x1.mid) ) , ( ( ( v(x1.n2991849,x1.mid) - v(x1.vimon,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   392 : g.x1.x_u12.gvo+ x1.mid x1.n2991905 x1.x_u12.gvo+_int1 0 1
+   394 : b.x1.x_u12.bgvo+ x1.x_u12.gvo+_int1 0 v= ( ternary_fcn ( ( v(x1.n2991969,x1.mid) > v(x1.n2991901,x1.mid) ) , ( ( ( v(x1.n2991969,x1.mid) - v(x1.n2991901,x1.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   396 : g.x1.x_u12.gvo- x1.mid x1.n2991931 x1.x_u12.gvo-_int1 0 1
+   398 : b.x1.x_u12.bgvo- x1.x_u12.gvo-_int1 0 v= ( ternary_fcn ( ( v(x1.n2991969,x1.mid) < v(x1.n2991943,x1.mid) ) , ( ( ( v(x1.n2991943,x1.mid) - v(x1.n2991969,x1.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   540 : g.x1.x_u16.gsw+ x1.mid x1.n2992105 x1.x_u16.gsw+_int1 0 1
+   542 : b.x1.x_u16.bgsw+ x1.x_u16.gsw+_int1 0 v= ( ternary_fcn ( ( ( v(x1.n2992093,x1.mid) >   1.0000000000e-02 || v(x1.n2992099,x1.mid) >   1.0000000000e-02 ) ) ,   1.0000000000e+00 ,   0.0000000000e+00 ) )
+   436 : g.x1.x_u18.g1 x1.n2991997 x1.vcc_b x1.x_u18.g1_int1 0 1
+   438 : b.x1.x_u18.bg1 x1.x_u18.g1_int2 0 v= ( v(x1.vimon,x1.mid) )
+   439 : a.x1.x_u18.ag1 %v x1.x_u18.g1_int2 %v x1.x_u18.g1_int1 x1.x_u18:xfer_g1
+   440 : .model x1.x_u18:xfer_g1 pwl(x_array=[0 10 22 45 53 60 ] y_array=[11.47e-6 1.5e-4 3.0e-4 6.9e-4 9.0e-4 1.24e-3 ] input_domain=0.1 fraction=true limit=true)
+   423 : g.x1.x_u19.g1 x1.vee_b x1.n2992001 x1.x_u19.g1_int1 0 1
+   425 : b.x1.x_u19.bg1 x1.x_u19.g1_int2 0 v= ( v(x1.mid,x1.vimon) )
+   426 : a.x1.x_u19.ag1 %v x1.x_u19.g1_int2 %v x1.x_u19.g1_int1 x1.x_u19:xfer_g1
+   427 : .model x1.x_u19:xfer_g1 pwl(x_array=[0 11 60 ] y_array=[15.45e-6 3.35e-4 1.90e-3 ] input_domain=0.1 fraction=true limit=true)
+   490 : .model x1.x_u21:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   491 : a.x1.x_u21.as1 %gd out vdd %gd out vdd x1.x_u21:aesd_sw
+   492 : a.x1.x_u21.as2 %gd 0 out %gd 0 out x1.x_u21:aesd_sw
+   468 : g.x1.x_u22.g1 x1.cl_clamp x1.mid x1.x_u22.g1_int1 0 1
+   470 : b.x1.x_u22.bg1 x1.x_u22.g1_int1 0 v= ( ternary_fcn ( (   -6.000000000000000e+00    ) > (    6.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991811,x1.n2991831) ) , (   -6.000000000000000e+00    ) ) , (    6.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991811,x1.n2991831) ) , (    6.000000000000000e+00    ) ) , (   -6.000000000000000e+00    ) ) ) )
+   517 : g.x1.x_u23.g1 x1.clamp x1.mid x1.x_u23.g1_int1 0 1
+   519 : b.x1.x_u23.bg1 x1.x_u23.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e+01    ) > (    5.000000000000000e+01    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991907,x1.n2991925) ) , (   -5.000000000000000e+01    ) ) , (    5.000000000000000e+01    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991907,x1.n2991925) ) , (    5.000000000000000e+01    ) ) , (   -5.000000000000000e+01    ) ) ) )
+   550 : .model x1.x_u25:aol_sw pswitch( log=true r_on=1e-3 r_off=1e12 cntl_on=900e-3 cntl_off=800e-3)
+   551 : a.x1.x_u25.as1 %gd x1.sw_ol_opa4388 x1.mid %gd x1.n3294626 x1.n3294630 x1.x_u25:aol_sw
+   529 : g.x1.x_u26.g1 vdd x1.mid x1.x_u26.g1_int1 0 1
+   531 : b.x1.x_u26.bg1 x1.x_u26.g1_int1 0 v= ( ternary_fcn ( ( ( v(x1.vimon,x1.mid) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(x1.vimon,x1.mid) ) ) )
+   529 : g.x1.x_u27.g1 x1.mid 0 x1.x_u27.g1_int1 0 1
+   531 : b.x1.x_u27.bg1 x1.x_u27.g1_int1 0 v= ( ternary_fcn ( ( ( v(x1.mid,x1.vimon) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(x1.mid,x1.vimon) ) ) )
+   365 : g.x1.x_u30.g1 x1.mid x1.n2991667 x1.x_u30.g1_int1 0 1
+   367 : b.x1.x_u30.bg1 x1.x_u30.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e-01    ) > (    5.000000000000000e-01    ) , max ( min ( ( (    1.000000000000000e-04    ) * v(x1.n2991657,x1.n2991619) ) , (   -5.000000000000000e-01    ) ) , (    5.000000000000000e-01    ) ) , max ( min ( ( (    1.000000000000000e-04    ) * v(x1.n2991657,x1.n2991619) ) , (    5.000000000000000e-01    ) ) , (   -5.000000000000000e-01    ) ) ) )
+   380 : g.x1.x_u31.g1 x1.mid x1.clamp x1.x_u31.g1_int1 0 1
+   382 : b.x1.x_u31.bg1 x1.x_u31.g1_int1 0 v= ( ternary_fcn ( (   -2.210000000000000e+00    ) > (    2.210000000000000e+00    ) , max ( min ( ( (    2.511900000000000e-01    ) * v(x1.n2991667,x1.mid) ) , (   -2.210000000000000e+00    ) ) , (    2.210000000000000e+00    ) ) , max ( min ( ( (    2.511900000000000e-01    ) * v(x1.n2991667,x1.mid) ) , (    2.210000000000000e+00    ) ) , (   -2.210000000000000e+00    ) ) ) )
+   603 : g.x1.x_u32.g1 x1.mid x1.n3294682 x1.x_u32.g1_int1 0 1
+   605 : b.x1.x_u32.bg1 x1.x_u32.g1_int1 0 v= ( ternary_fcn ( (   -2.500000000000000e+05    ) > (    2.500000000000000e+05    ) , max ( min ( ( (    1.250000000000000e+03    ) * v(x1.n3828449,x1.mid) ) , (   -2.500000000000000e+05    ) ) , (    2.500000000000000e+05    ) ) , max ( min ( ( (    1.250000000000000e+03    ) * v(x1.n3828449,x1.mid) ) , (    2.500000000000000e+05    ) ) , (   -2.500000000000000e+05    ) ) ) )
+   453 : g.x1.x_u35.g1 x1.claw_clamp x1.mid x1.x_u35.g1_int1 0 1
+   455 : b.x1.x_u35.bg1 x1.x_u35.g1_int1 0 v= ( ternary_fcn ( (   -3.000000000000000e+00    ) > (    3.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991741,x1.n2991765) ) , (   -3.000000000000000e+00    ) ) , (    3.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991741,x1.n2991765) ) , (    3.000000000000000e+00    ) ) , (   -3.000000000000000e+00    ) ) ) )
+   501 : e.x1.x_u38.e1 x1.x_u38.3 0 x1.x_u38.5 0 10
+   502 : r.x1.x_u38.r1 x1.x_u38.5 0   1.206602856000000e+04   
+   503 : r.x1.x_u38.r2 x1.x_u38.5 0   1.206602856000000e+04   
+   504 : g.x1.x_u38.g1 x1.mid x1.n2991573 x1.x_u38.3 0 1e-6
+   501 : e.x1.x_u39.e1 x1.x_u39.3 0 x1.x_u39.5 0 10
+   502 : r.x1.x_u39.r1 x1.x_u39.5 0   1.206602856000000e+04   
+   503 : r.x1.x_u39.r2 x1.x_u39.5 0   1.206602856000000e+04   
+   504 : g.x1.x_u39.g1 x1.esdn x1.mid x1.x_u39.3 0 1e-6
+   588 : e.x1.x_u4.e1 x1.n2991555 x1.n2991573 x1.x_u4.e1_int1 0 1
+   590 : b.x1.x_u4.be1 x1.x_u4.e1_int1 0 v= (   -4.670000000000000e-06    ) + (    1.000000000000000e+00    ) * (    5.000000000000000e-09    ) * ( ( temper )  -2.7000000000e+01 )
+   572 : r.x1.x_u40.r4 x1.x_u40.5 0   5.918212160000000e+01   
+   573 : r.x1.x_u40.r5 x1.x_u40.5 0   5.918212160000000e+01   
+   574 : e.x1.x_u40.e3 x1.esdp x1.n2991573 x1.x_u40.5 0 10
+   478 : .model x1.x_u5:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   479 : a.x1.x_u5.as1 %gd x1.esdn vdd %gd x1.esdn vdd x1.x_u5:aesd_sw
+   480 : a.x1.x_u5.as2 %gd x1.esdp vdd %gd x1.esdp vdd x1.x_u5:aesd_sw
+   481 : a.x1.x_u5.as3 %gd 0 x1.esdn %gd 0 x1.esdn x1.x_u5:aesd_sw
+   482 : a.x1.x_u5.as4 %gd 0 x1.esdp %gd 0 x1.esdp x1.x_u5:aesd_sw
+   561 : g.x1.x_u6.g1 x1.mid x1.n2991643 x1.x_u6.g1_int1 0 1
+   563 : b.x1.x_u6.bg1 x1.x_u6.g1_int1 0 v= ( ternary_fcn ( ( v(x1.n2991635,x1.mid) ) > ( v(x1.n2991623,x1.mid) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991587,x1.mid) ) , ( v(x1.n2991635,x1.mid) ) ) , ( v(x1.n2991623,x1.mid) ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991587,x1.mid) ) , ( v(x1.n2991623,x1.mid) ) ) , ( v(x1.n2991635,x1.mid) ) ) ) )
+   305 : .model x1:r_noiseless res ( temp=-273.15)
+   612 : rload out 0 10k
+   613 : cload out 0 10p
+   624 : .end
+	07 descriptor local follower qualification
+
+     1 : 07 descriptor local follower qualification
+     2 : .param gmin=1e-12
+     3 : * gnd is not set to 0 automatically 
+     4 : *param temp={temper}
+     5 : *func temp() {temper}
+     6 : *param vt={(temper+273.15)*8.6173303e-5}
+     7 : *func vt() {(temper+273.15)*8.6173303e-5}
+     8 : *func limit(x, a, b) { ternary_fcn(a>b,max(min(x,a),b),max(min(x,b),a))}
+     9 : *func pwr(x, a) { pow(x,a)}
+    10 : *func pwrs(x, a) { sgn(x)*pow(x,a)}
+    11 : *func stp(x) { u(x)}
+    12 : *func if(a, b, c) {ternary_fcn(a,b,c)}
+    13 : *func int(x) { sgn(x)*floor(abs(x))}
+    14 : *include  E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\models\OPA4388_ORIGINAL.LIB
+    15 : *$
+    16 : * opa4388
+    17 : *****************************************************************************
+    18 : * (c) copyright 2022 texas instruments incorporated. all rights reserved.                                            
+    19 : *****************************************************************************
+    20 : ** this model is designed as an aid for customers of texas instruments.
+    21 : ** ti and its licensors and suppliers make no warranties, either expressed
+    22 : ** or implied, with respect to this model, including the warranties of 
+    23 : ** merchantability or fitness for a particular purpose.  the model is
+    24 : ** provided solely on an  as is  basis.  the entire risk as to its quality
+    25 : ** and performance is with the customer
+    26 : *****************************************************************************
+    27 : *
+    28 : * this model is subject to change without notice. texas instruments
+    29 : * incorporated is not responsible for updating this model.
+    30 : *
+    31 : *****************************************************************************
+    32 : *
+    33 : ** released by: online design tools, texas instruments inc.
+    34 : * part: opa4388
+    35 : * date: 07jun2022
+    36 : * model type: generic (suitable for all analysis types)
+    37 : * evm order number: n/a 
+    38 : * evm users guide:  n/a 
+    39 : * datasheet: sbos777d - december 2016 - revised july 2020
+    40 : * created with green-williams-lis op amp macro-model architecture
+    41 : *
+    42 : * model version: final 1.2
+    43 : *
+    44 : *****************************************************************************
+    45 : *
+    46 : * updates:
+    47 : *
+    48 : * final 1.2
+    49 : * 1. moved r_noiseless .model inside opa4388 subckt.
+    50 : * 2. updated pspice symbol.
+    51 : *
+    52 : * final 1.1
+    53 : * 1. modified the capacitor(c14) value from 1f to 2uf in gnd float-iq block  
+    54 : *    to resolve the convergence issue in single and asymmetric supply test.
+    55 : * 2. updated the model as per the datasheet.
+    56 : * 3. added r_diff in the model.
+    57 : *
+    58 : * final 1.0
+    59 : * release to web.
+    60 : *
+    61 : *****************************************************************************
+    62 : * model usage notes:
+    63 : * 1. the following parameters are modeled: 
+    64 : *    a. open-loop gain and phase vs. frequency  with rl, cl effects (aol)
+    65 : *    b. unity gain bandwidth (gbw)
+    66 : *    c. input common-mode rejection ratio vs. frequency (cmrr)
+    67 : *    d. power supply rejection ratio vs. frequency (psrr)
+    68 : *    e. differential input impedance (zid)
+    69 : *    f. common-mode input impedance (zic)
+    70 : *    g. open-loop output impedance vs. frequency (zo)
+    71 : *    h. output current through the supply (iout)
+    72 : *    i. input voltage noise density vs. frequency (en)
+    73 : *    j. input current noise density vs. frequency (in)
+    74 : *    k. output voltage swing vs. output current (vo)
+    75 : *    l. short-circuit output current (isc)
+    76 : *    m. quiescent current (iq)
+    77 : *    n. settling time vs. capacitive load (ts)
+    78 : *    o. slew rate (sr)
+    79 : *    p. small signal overshoot vs. capacitive load
+    80 : *    q. large signal response
+    81 : *    r. overload recovery time (tor)
+    82 : *    s. input bias current (ib)
+    83 : *    t. input offset current (ios)
+    84 : *    u. input offset voltage (vos)
+    85 : *    v. input offset voltage vs. temperature (vos drift)
+    86 : *    w. input common-mode voltage range (vcm)
+    87 : *    x. input offset voltage vs. input common-mode voltage (vos vs. vcm)
+    88 : *    y. input/output esd cells (esdin, esdout) 
+    89 : * 2. there should be four separate instances of opa4388 to accurately
+    90 : *    match the product of opa4388.
+    91 : *****************************************************************************
+    92 : .subckt opa4388 in+ in- vcc vee out
+    93 : *param temp={temper}
+    94 : *func temp() {temper}
+    95 : *param vt={(temper+273.15)*8.6173303e-5}
+    96 : *func vt() {(temper+273.15)*8.6173303e-5}
+    97 : *****************************************************************************
+    98 : c_c1 n3294772 n3294776 140f
+    99 : c_c10 n3294626 n3294630 39.8u
+   100 : c_c11 mid n47456861 7.96n
+   101 : c_c121 n4736080 n3294524 884.2f
+   102 : c_c122 mid n47492651 796p
+   103 : c_c123 mid n47965841 40p
+   104 : c_c124 n4797748 n4797760 40.8p
+   105 : c_c125 mid n48001371 530f
+   106 : c_c126 n4809008 n2991553 1.4n
+   107 : c_c127 n4817896 n2991581 318.3f
+   108 : c_c13 n2992397 0 1f
+   109 : c_c14 0 n2992375 2u
+   110 : c_c15 n2992413 0 1f
+   111 : c_c16 n2991741 mid 1f
+   112 : c_c17 n2991765 mid 1f
+   113 : c_c18 n2991811 mid 1f
+   114 : c_c19 n2991831 mid 1f
+   115 : c_c20 n2991907 mid 1f
+   116 : c_c21 n2991925 mid 1f
+   117 : c_c22 mid n2991969 1f
+   118 : c_c23 n2992033 mid 1f
+   119 : c_c24 n2992029 mid 1f
+   120 : c_c25 n2992093 mid 1p
+   121 : c_c26 n2992099 mid 1p
+   122 : c_c27 sw_ol_opa4388 mid 100p
+   123 : c_c29 vimon mid 1n
+   124 : c_c30 vout_s mid 1n
+   125 : c_c4 n2991657 mid 1f
+   126 : c_c5 clamp mid 403n
+   127 : c_c70 vclp mid 100p
+   128 : c_c72 n4031911 mid 3.9e-16
+   129 : c_c74 n3827259 n3828449 200f
+   130 : c_c77 n3850714 n3850724 318.3f
+   131 : c_c93 n4243633 n2991579 118.8p
+   132 : c_c_com0 esdp mid 4.5p
+   133 : c_c_com1 mid esdn 4.5p
+   134 : c_c_diff esdn esdp 2p
+   135 : e_e1 mid 0 n2992375 0 1
+   136 : e_e3 n2992163 mid out mid 1
+   137 : e_e4 n3294618 mid cl_clamp mid 1
+   138 : g_g1 n3294772 mid esdp mid -35.19u
+   139 : g_g100 n4817896 mid n3850724 mid -330
+   140 : g_g12 claw_clamp mid n3294524 mid -1m
+   141 : g_g13 cl_clamp mid claw_clamp mid -1m
+   142 : g_g16 n3201092 mid n3294630 mid -2.1
+   143 : g_g18 vcc_b 0 vcc 0 -1
+   144 : g_g19 vee_b 0 vee 0 -1
+   145 : g_g2 n2991563 n2991555 n2991553 mid -1m
+   146 : g_g20 vcc_clp mid n2992033 mid -1m
+   147 : g_g21 vee_clp mid n2992029 mid -1m
+   148 : g_g22 n2992299 mid n2992295 mid -1
+   149 : g_g23 n2992323 mid n2992331 mid -1
+   150 : g_g39 n3294626 mid cl_clamp n2992235 -237.45k
+   151 : g_g4 n3850714 mid vcc_b mid -415.4u
+   152 : g_g41 n4031911 mid vsense mid -1u
+   153 : g_g5 n2991587 n2991583 n2991581 n2991579 -1m
+   154 : g_g6 vsense mid clamp mid -1m
+   155 : g_g63 n4243633 mid vee_b mid -525.6m
+   156 : g_g92 n4736080 mid n4031911 mid -1.861
+   157 : g_g93 n4747399 mid n4745674 mid -1
+   158 : g_g95 n4796554 mid n4749239 mid -1
+   159 : g_g96 n4797748 mid n4796572 mid -1
+   160 : g_g97 n4798545 mid n4797760 mid -3.77
+   161 : g_g98 n3827259 mid n4800105 mid -1
+   162 : g_g99 n4809008 mid n3294776 mid -351.9
+   163 : i_i_b n2991573 mid dc 30.02p
+   164 : i_i_os esdn mid dc -30.02p
+   165 : i_i_q vcc vee dc 1.9m
+   166 : r_r15 n2991583 n2991563 r_noiseless 1m
+   167 : r_r16 n2991587 n2991583 r_noiseless 1k
+   168 : r_r167 n3294618 vclp r_noiseless 100
+   169 : r_r17 n2991619 esdn r_noiseless 1m
+   170 : r_r171 mid n4031911 r_noiseless 1meg
+   171 : r_r176 mid n3827259 r_noiseless 1
+   172 : r_r178 n3828449 n3827259 r_noiseless 10k
+   173 : r_r179 mid n3828449 r_noiseless 8
+   174 : r_r18 mid n2991623 r_noiseless 1t
+   175 : r_r187 n3850724 n3850714 r_noiseless 100meg
+   176 : r_r189 mid n3850714 r_noiseless 1
+   177 : r_r19 mid n2991635 r_noiseless 1t
+   178 : r_r190 mid n3850724 r_noiseless 304k
+   179 : r_r20 n2991643 mid r_noiseless 1
+   180 : r_r21 n2991657 n2991643 r_noiseless 1m
+   181 : r_r22 mid n2991667 r_noiseless 1meg
+   182 : r_r23 mid clamp r_noiseless 1meg
+   183 : r_r230 n2991579 n4243633 r_noiseless 100meg
+   184 : r_r233 mid n2991579 r_noiseless 239.5
+   185 : r_r234 mid n4243633 r_noiseless 1
+   186 : r_r24 mid vsense r_noiseless 1k
+   187 : r_r301 n3294524 n4736080 r_noiseless 10k
+   188 : r_r302 mid n4736080 r_noiseless 1
+   189 : r_r303 mid n3294524 r_noiseless 11.61k
+   190 : r_r304 n4749239 n4747399 r_noiseless 190k
+   191 : r_r305 n47492651 n4749239 r_noiseless 10k
+   192 : r_r306 mid n4747399 r_noiseless 1
+   193 : r_r307 n4796572 n4796554 r_noiseless 770k
+   194 : r_r308 n47965841 n4796572 r_noiseless 10k
+   195 : r_r309 mid n4796554 r_noiseless 1
+   196 : r_r310 n4797760 n4797748 r_noiseless 10k
+   197 : r_r311 mid n4797748 r_noiseless 1
+   198 : r_r312 mid n4797760 r_noiseless 3.61k
+   199 : r_r313 mid n4798545 r_noiseless 1
+   200 : r_r314 n4800105 n4798545 r_noiseless 10k
+   201 : r_r315 n48001371 n4800105 r_noiseless 10k
+   202 : r_r316 n2991553 n4809008 r_noiseless 10k
+   203 : r_r317 mid n4809008 r_noiseless 1
+   204 : r_r318 mid n2991553 r_noiseless 28.5
+   205 : r_r319 n2991581 n4817896 r_noiseless 100meg
+   206 : r_r32 mid claw_clamp r_noiseless 1k
+   207 : r_r320 mid n2991581 r_noiseless 304k
+   208 : r_r321 mid n4817896 r_noiseless 1
+   209 : r_r33 mid cl_clamp r_noiseless 1k
+   210 : r_r34 n3294630 n3294626 r_noiseless 10k
+   211 : r_r35 mid n3294626 r_noiseless 1
+   212 : r_r36 mid n3294630 r_noiseless 9.09091k
+   213 : r_r37 mid n3201092 r_noiseless 1
+   214 : r_r38 n4745674 n3201092 r_noiseless 62.73k
+   215 : r_r39 n47456861 n4745674 r_noiseless 10k
+   216 : r_r43 mid n3294682 r_noiseless 1
+   217 : r_r46 vcc_b 0 r_noiseless 1
+   218 : r_r47 vcc_b n2992397 r_noiseless 1m
+   219 : r_r48 n2992397 n2992375 r_noiseless 1meg
+   220 : r_r49 n2992375 0 r_noiseless 1t
+   221 : r_r5 mid n3294772 r_noiseless 1
+   222 : r_r50 n2992375 n2992413 r_noiseless 1meg
+   223 : r_r51 n2992413 vee_b r_noiseless 1m
+   224 : r_r52 vee_b 0 r_noiseless 1
+   225 : r_r53 vcc_clp mid r_noiseless 1t
+   226 : r_r54 n2991729 mid r_noiseless 1
+   227 : r_r55 n2991741 n2991729 r_noiseless 1m
+   228 : r_r56 vee_clp mid r_noiseless 1t
+   229 : r_r57 n2991763 mid r_noiseless 1
+   230 : r_r58 n2991765 n2991763 r_noiseless 1m
+   231 : r_r59 n2991807 mid r_noiseless 1t
+   232 : r_r6 n3294776 n3294772 r_noiseless 100meg
+   233 : r_r60 n2991809 mid r_noiseless 1
+   234 : r_r61 n2991811 n2991809 r_noiseless 1m
+   235 : r_r62 n2991831 n2991837 r_noiseless 1m
+   236 : r_r63 n2991849 mid r_noiseless 1t
+   237 : r_r64 n2991837 mid r_noiseless 1
+   238 : r_r65 n2991901 mid r_noiseless 1t
+   239 : r_r66 n2991905 mid r_noiseless 1
+   240 : r_r67 n2991907 n2991905 r_noiseless 1m
+   241 : r_r68 n2991925 n2991931 r_noiseless 1m
+   242 : r_r69 n2991943 mid r_noiseless 1t
+   243 : r_r7 mid n3294776 r_noiseless 285k
+   244 : r_r70 n2991931 mid r_noiseless 1
+   245 : r_r71 n2991969 vsense r_noiseless 1m
+   246 : r_r72 vcc_b n2991997 r_noiseless 1k
+   247 : r_r73 n2991997 n2992033 r_noiseless 1m
+   248 : r_r74 n2992001 vee_b r_noiseless 1k
+   249 : r_r75 n2992001 n2992029 r_noiseless 1m
+   250 : r_r76 mid vcc_clp r_noiseless 1k
+   251 : r_r77 vee_clp mid r_noiseless 1k
+   252 : r_r78 n2992323 mid r_noiseless 1
+   253 : r_r79 n2992299 mid r_noiseless 1
+   254 : r_r8 n2991563 n2991555 r_noiseless 1k
+   255 : r_r80 v11 n2992093 r_noiseless 100
+   256 : r_r81 v12 n2992099 r_noiseless 100
+   257 : r_r82 n2992105 mid r_noiseless 1
+   258 : r_r83 n2992105 sw_ol_opa4388 r_noiseless 100
+   259 : r_rdummy mid n2992235 r_noiseless 1.75k
+   260 : r_rs_inn in- esdn r_noiseless 10m
+   261 : r_rs_inp in+ esdp r_noiseless 10m
+   262 : r_rx n2992235 n3294682 r_noiseless 17.5k
+   263 : r_rx1 mid n2992151 r_noiseless 1t
+   264 : r_rx2 vimon n2992151 r_noiseless 100
+   265 : r_rx3 mid n2992163 r_noiseless 1t
+   266 : r_rx4 vout_s n2992163 r_noiseless 100
+   267 : r_r_cm1 esdp mid r_noiseless 1t
+   268 : r_r_cm2 mid esdn r_noiseless 1t
+   269 : r_r_diff esdn esdp r_noiseless 100meg
+   270 : v_vcm_max n2991623 vcc_b 100m
+   271 : v_vcm_min n2991635 vee_b -100m
+   272 : v_v_grn n2991943 mid -150
+   273 : v_v_grp n2991901 mid 150
+   274 : v_v_iscn n2991849 mid -60
+   275 : v_v_iscp n2991807 mid 60
+   276 : v_v_orn n2992295 vclp -55
+   277 : v_v_orp n2992331 vclp 55
+   278 : x_h1 n2992235 out n2992151 mid block_dc_h1_opa4388
+   279 : x_h2 n2992287 n2992323 v12 mid block_dc_h2_opa4388
+   280 : x_h3 n2992267 n2992299 v11 mid block_dc_h3_opa4388
+   281 : x_s1 n2992267 clamp n2992267 clamp block_dc_s1_opa4388
+   282 : x_s2 clamp n2992287 clamp n2992287 block_dc_s2_opa4388
+   283 : x_u10 vcc_clp vee_clp vout_s mid n2991729 n2991763 clamp_amp_lo_opa4388 1
+   284 : x_u11 n2991807 n2991849 vimon mid n2991809 n2991837 clamp_amp_lo_opa4388 1
+   285 : x_u12 n2991901 n2991943 n2991969 mid n2991905 n2991931 clamp_amp_hi_opa4388 10
+   286 : x_u16 mid n2992105 n2992093 n2992099 ol_sense_opa4388
+   287 : x_u18 vimon mid n2991997 vcc_b clawp_opa4388
+   288 : x_u19 mid vimon vee_b n2992001 clawn_opa4388
+   289 : x_u21 out vcc vee esd_out_opa4388
+   290 : x_u22 n2991811 n2991831 cl_clamp mid cl_src_opa4388 1 0.6e1 {-0.6e1}
+   291 : x_u23 n2991907 n2991925 clamp mid gr_src_opa4388 1 5e1 {-5e1}
+   292 : x_u25 sw_ol_opa4388 mid n3294626 n3294630 sw_ol_opa4388
+   293 : x_u26 vimon mid vcc mid iq_src_opa4388 1e-3
+   294 : x_u27 mid vimon mid vee iq_src_opa4388 1e-3
+   295 : x_u30 n2991657 n2991619 mid n2991667 aol_1_opa4388 1e-4 .5 {-.5}
+   296 : x_u31 n2991667 mid mid clamp aol_2_opa4388 251.19e-3 2.21 {-2.21}
+   297 : x_u32 n3828449 mid mid n3294682 zo_src_opa4388 1250 2.5e5 {-2.5e5}
+   298 : x_u35 n2991741 n2991765 claw_clamp mid claw_src_opa4388 1 0.3e1 {-0.3e1}
+   299 : x_u38 mid n2991573 femt_opa4388 100.95
+   300 : x_u39 esdn mid femt_opa4388 100.95
+   301 : x_u4 n2991555 n2991573 vos_drift_opa4388 {-4.67e-6} 1 0.005e-06
+   302 : x_u40 esdp n2991573 vnse_opa4388 7.07
+   303 : x_u5 esdn esdp vcc vee esd_in_opa4388
+   304 : x_u6 n2991587 mid n2991643 mid n2991623 n2991635 vcm_clamp_opa4388 1
+   305 : .model r_noiseless res ( temp=-273.15)
+   306 : .ends opa4388
+   307 : *
+   308 : .subckt block_dc_h1_opa4388 1 2 3 4
+   309 : *param temp={temper}
+   310 : *func temp() {temper}
+   311 : *param vt={(temper+273.15)*8.6173303e-5}
+   312 : *func vt() {(temper+273.15)*8.6173303e-5}
+   313 : h_h1 3 4 vh_h1 1k
+   314 : vh_h1 1 2 0v
+   315 : .ends block_dc_h1_opa4388
+   316 : *
+   317 : .subckt block_dc_h2_opa4388 1 2 3 4
+   318 : *param temp={temper}
+   319 : *func temp() {temper}
+   320 : *param vt={(temper+273.15)*8.6173303e-5}
+   321 : *func vt() {(temper+273.15)*8.6173303e-5}
+   322 : h_h2 3 4 vh_h2 1
+   323 : vh_h2 1 2 0v
+   324 : .ends block_dc_h2_opa4388
+   325 : *
+   326 : .subckt block_dc_h3_opa4388 1 2 3 4
+   327 : *param temp={temper}
+   328 : *func temp() {temper}
+   329 : *param vt={(temper+273.15)*8.6173303e-5}
+   330 : *func vt() {(temper+273.15)*8.6173303e-5}
+   331 : h_h3 3 4 vh_h3 -1
+   332 : vh_h3 1 2 0v
+   333 : .ends block_dc_h3_opa4388
+   334 : *
+   335 : .subckt block_dc_s1_opa4388 1 2 3 4
+   336 : *param temp={temper}
+   337 : *func temp() {temper}
+   338 : *param vt={(temper+273.15)*8.6173303e-5}
+   339 : *func vt() {(temper+273.15)*8.6173303e-5}
+   340 : as_s1 %gd(1 2) %gd(3 4) a_s1
+   341 : rs_s1 1 2 1g
+   342 : .model a_s1 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   343 : .ends block_dc_s1_opa4388
+   344 : *
+   345 : .subckt block_dc_s2_opa4388 1 2 3 4
+   346 : *param temp={temper}
+   347 : *func temp() {temper}
+   348 : *param vt={(temper+273.15)*8.6173303e-5}
+   349 : *func vt() {(temper+273.15)*8.6173303e-5}
+   350 : as_s2 %gd(1 2) %gd(3 4) a_s2
+   351 : rs_s2 1 2 1g
+   352 : .model a_s2 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   353 : .ends block_dc_s2_opa4388
+   354 : *
+   355 : .subckt aol_1_opa4388 vc+ vc- iout+ iout- params: gain=1e-4 ipos=.5 ineg=-.5
+   356 : *param gain=1e-4
+   357 : *param ipos=.5
+   358 : *param ineg=-.5
+   359 : *param  gain=1e-4 ipos=.5 ineg=-.5
+   360 : *param temp={temper}
+   361 : *func temp() {temper}
+   362 : *param vt={(temper+273.15)*8.6173303e-5}
+   363 : *func vt() {(temper+273.15)*8.6173303e-5}
+   364 : *1 iout+ iout-   cur={(ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg)))}
+   365 : g1 iout+ iout- g1_int1 0 1
+   366 : *g1 g1_int1 0 v= (ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg))) 
+   367 : bg1 g1_int1 0 v= ( ternary_fcn ( ({ineg}) > ({ipos}) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ineg}) ) , ({ipos}) ) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ipos}) ) , ({ineg}) ) ) )
+   368 : .ends aol_1_opa4388
+   369 : *
+   370 : .subckt aol_2_opa4388 vc+ vc- iout+ iout- params: gain=251.19e-3 ipos=2.21 ineg=-2.21
+   371 : *param gain=251.19e-3
+   372 : *param ipos=2.21
+   373 : *param ineg=-2.21
+   374 : *param  gain=251.19e-3 ipos=2.21 ineg=-2.21
+   375 : *param temp={temper}
+   376 : *func temp() {temper}
+   377 : *param vt={(temper+273.15)*8.6173303e-5}
+   378 : *func vt() {(temper+273.15)*8.6173303e-5}
+   379 : *1 iout+ iout-   cur={(ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg)))}
+   380 : g1 iout+ iout- g1_int1 0 1
+   381 : *g1 g1_int1 0 v= (ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg))) 
+   382 : bg1 g1_int1 0 v= ( ternary_fcn ( ({ineg}) > ({ipos}) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ineg}) ) , ({ipos}) ) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ipos}) ) , ({ineg}) ) ) )
+   383 : .ends aol_2_opa4388
+   384 : *
+   385 : .subckt clamp_amp_hi_opa4388 vc+ vc- vin com vo+ vo- params: g=10
+   386 : *param  g=10
+   387 : *param temp={temper}
+   388 : *func temp() {temper}
+   389 : *param vt={(temper+273.15)*8.6173303e-5}
+   390 : *func vt() {(temper+273.15)*8.6173303e-5}
+   391 : *vo+ com vo+   cur={(ternary_fcn((v(vin,com)>v(vc+,com)),(((v(vin,com)-v(vc+,com))*g)),0))}
+   392 : gvo+ com vo+ gvo+_int1 0 1
+   393 : *gvo+ gvo+_int1 0 v= (ternary_fcn((v(vin,com)>v(vc+,com)),(((v(vin,com)-v(vc+,com))*g)),0)) 
+   394 : bgvo+ gvo+_int1 0 v= ( ternary_fcn ( ( v(vin,com) > v(vc+,com) ) , ( ( ( v(vin,com) - v(vc+,com) ) * ({g}) ) ) ,   0.0000000000e+00 ) )
+   395 : *vo- com vo-   cur={(ternary_fcn((v(vin,com)<v(vc-,com)),(((v(vc-,com)-v(vin,com))*g)),0))}
+   396 : gvo- com vo- gvo-_int1 0 1
+   397 : *gvo- gvo-_int1 0 v= (ternary_fcn((v(vin,com)<v(vc-,com)),(((v(vc-,com)-v(vin,com))*g)),0)) 
+   398 : bgvo- gvo-_int1 0 v= ( ternary_fcn ( ( v(vin,com) < v(vc-,com) ) , ( ( ( v(vc-,com) - v(vin,com) ) * ({g}) ) ) ,   0.0000000000e+00 ) )
+   399 : .ends clamp_amp_hi_opa4388
+   400 : *
+   401 : .subckt clamp_amp_lo_opa4388 vc+ vc- vin com vo+ vo- params: g=1
+   402 : *param  g=1
+   403 : *param temp={temper}
+   404 : *func temp() {temper}
+   405 : *param vt={(temper+273.15)*8.6173303e-5}
+   406 : *func vt() {(temper+273.15)*8.6173303e-5}
+   407 : *vo+ com vo+   cur={(ternary_fcn((v(vin,com)>v(vc+,com)),(((v(vin,com)-v(vc+,com))*g)),0))}
+   408 : gvo+ com vo+ gvo+_int1 0 1
+   409 : *gvo+ gvo+_int1 0 v= (ternary_fcn((v(vin,com)>v(vc+,com)),(((v(vin,com)-v(vc+,com))*g)),0)) 
+   410 : bgvo+ gvo+_int1 0 v= ( ternary_fcn ( ( v(vin,com) > v(vc+,com) ) , ( ( ( v(vin,com) - v(vc+,com) ) * ({g}) ) ) ,   0.0000000000e+00 ) )
+   411 : *vo- com vo-   cur={(ternary_fcn((v(vin,com)<v(vc-,com)),(((v(vc-,com)-v(vin,com))*g)),0))}
+   412 : gvo- com vo- gvo-_int1 0 1
+   413 : *gvo- gvo-_int1 0 v= (ternary_fcn((v(vin,com)<v(vc-,com)),(((v(vc-,com)-v(vin,com))*g)),0)) 
+   414 : bgvo- gvo-_int1 0 v= ( ternary_fcn ( ( v(vin,com) < v(vc-,com) ) , ( ( ( v(vc-,com) - v(vin,com) ) * ({g}) ) ) ,   0.0000000000e+00 ) )
+   415 : .ends clamp_amp_lo_opa4388
+   416 : *
+   417 : .subckt clawn_opa4388 vc+ vc- iout+ iout-
+   418 : *param temp={temper}
+   419 : *func temp() {temper}
+   420 : *param vt={(temper+273.15)*8.6173303e-5}
+   421 : *func vt() {(temper+273.15)*8.6173303e-5}
+   422 : *1 iout+ iout- table {(v(vc+,vc-))}  (0, 15.45e-6)  (11, 3.35e-4) (60, 1.90e-3)
+   423 : g1 iout+ iout- g1_int1 0 1
+   424 : *g1 g1_int2 0 v=(v(vc+,vc-))
+   425 : bg1 g1_int2 0 v= ( v(vc+,vc-) )
+   426 : ag1 %v(g1_int2) %v(g1_int1) xfer_g1
+   427 : .model xfer_g1 pwl(x_array=[0 11 60 ] y_array=[15.45e-6 3.35e-4 1.90e-3 ] input_domain=0.1 fraction=true limit=true)
+   428 : .ends clawn_opa4388
+   429 : *
+   430 : .subckt clawp_opa4388 vc+ vc- iout+ iout-
+   431 : *param temp={temper}
+   432 : *func temp() {temper}
+   433 : *param vt={(temper+273.15)*8.6173303e-5}
+   434 : *func vt() {(temper+273.15)*8.6173303e-5}
+   435 : *1 iout+ iout- table {(v(vc+,vc-))}  (0, 11.47e-6)  (10, 1.5e-4) (22, 3.0e-4) (45, 6.9e-4) (53, 9.0e-4) (60, 1.24e-3)
+   436 : g1 iout+ iout- g1_int1 0 1
+   437 : *g1 g1_int2 0 v=(v(vc+,vc-))
+   438 : bg1 g1_int2 0 v= ( v(vc+,vc-) )
+   439 : ag1 %v(g1_int2) %v(g1_int1) xfer_g1
+   440 : .model xfer_g1 pwl(x_array=[0 10 22 45 53 60 ] y_array=[11.47e-6 1.5e-4 3.0e-4 6.9e-4 9.0e-4 1.24e-3 ] input_domain=0.1 fraction=true limit=true)
+   441 : .ends clawp_opa4388
+   442 : *
+   443 : .subckt claw_src_opa4388 vc+ vc- iout+ iout- params: gain=1 ipos=0.3e1 ineg=-0.3e1
+   444 : *param gain=1
+   445 : *param ipos=0.3e1
+   446 : *param ineg=-0.3e1
+   447 : *param  gain=1 ipos=0.3e1 ineg=-0.3e1
+   448 : *param temp={temper}
+   449 : *func temp() {temper}
+   450 : *param vt={(temper+273.15)*8.6173303e-5}
+   451 : *func vt() {(temper+273.15)*8.6173303e-5}
+   452 : *1 iout+ iout-   cur={(ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg)))}
+   453 : g1 iout+ iout- g1_int1 0 1
+   454 : *g1 g1_int1 0 v= (ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg))) 
+   455 : bg1 g1_int1 0 v= ( ternary_fcn ( ({ineg}) > ({ipos}) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ineg}) ) , ({ipos}) ) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ipos}) ) , ({ineg}) ) ) )
+   456 : .ends claw_src_opa4388
+   457 : *
+   458 : .subckt cl_src_opa4388 vc+ vc- iout+ iout- params: gain=1 ipos=0.6e1 ineg=-0.6e1
+   459 : *param gain=1
+   460 : *param ipos=0.6e1
+   461 : *param ineg=-0.6e1
+   462 : *param  gain=1 ipos=0.6e1 ineg=-0.6e1
+   463 : *param temp={temper}
+   464 : *func temp() {temper}
+   465 : *param vt={(temper+273.15)*8.6173303e-5}
+   466 : *func vt() {(temper+273.15)*8.6173303e-5}
+   467 : *1 iout+ iout-   cur={(ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg)))}
+   468 : g1 iout+ iout- g1_int1 0 1
+   469 : *g1 g1_int1 0 v= (ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg))) 
+   470 : bg1 g1_int1 0 v= ( ternary_fcn ( ({ineg}) > ({ipos}) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ineg}) ) , ({ipos}) ) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ipos}) ) , ({ineg}) ) ) )
+   471 : .ends cl_src_opa4388
+   472 : *
+   473 : .subckt esd_in_opa4388 esdn esdp vcc vee
+   474 : *param temp={temper}
+   475 : *func temp() {temper}
+   476 : *param vt={(temper+273.15)*8.6173303e-5}
+   477 : *func vt() {(temper+273.15)*8.6173303e-5}
+   478 : .model aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   479 : as1 %gd(esdn vcc) %gd(esdn vcc) aesd_sw
+   480 : as2 %gd(esdp vcc) %gd(esdp vcc) aesd_sw
+   481 : as3 %gd(vee esdn) %gd(vee esdn) aesd_sw
+   482 : as4 %gd(vee esdp) %gd(vee esdp) aesd_sw
+   483 : .ends esd_in_opa4388
+   484 : *
+   485 : .subckt esd_out_opa4388 out vcc vee
+   486 : *param temp={temper}
+   487 : *func temp() {temper}
+   488 : *param vt={(temper+273.15)*8.6173303e-5}
+   489 : *func vt() {(temper+273.15)*8.6173303e-5}
+   490 : .model aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   491 : as1 %gd(out vcc) %gd(out vcc) aesd_sw
+   492 : as2 %gd(vee out) %gd(vee out) aesd_sw
+   493 : .ends esd_out_opa4388
+   494 : *
+   495 : .subckt femt_opa4388 1 2 params: nvrf=100.95
+   496 : *param  nvrf=100.95
+   497 : *param temp={temper}
+   498 : *func temp() {temper}
+   499 : *param vt={(temper+273.15)*8.6173303e-5}
+   500 : *func vt() {(temper+273.15)*8.6173303e-5}
+   501 : e1 3 0 5 0 10
+   502 : r1 5 0 {1.184*(pow(nvrf,2))}
+   503 : r2 5 0 {1.184*(pow(nvrf,2))}
+   504 : g1 1 2 3 0 1e-6
+   505 : .ends femt_opa4388
+   506 : *
+   507 : .subckt gr_src_opa4388 vc+ vc- iout+ iout- params: gain=1 ipos=5e1 ineg=-5e1
+   508 : *param gain=1
+   509 : *param ipos=5e1
+   510 : *param ineg=-5e1
+   511 : *param  gain=1 ipos=5e1 ineg=-5e1
+   512 : *param temp={temper}
+   513 : *func temp() {temper}
+   514 : *param vt={(temper+273.15)*8.6173303e-5}
+   515 : *func vt() {(temper+273.15)*8.6173303e-5}
+   516 : *1 iout+ iout-   cur={(ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg)))}
+   517 : g1 iout+ iout- g1_int1 0 1
+   518 : *g1 g1_int1 0 v= (ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg))) 
+   519 : bg1 g1_int1 0 v= ( ternary_fcn ( ({ineg}) > ({ipos}) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ineg}) ) , ({ipos}) ) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ipos}) ) , ({ineg}) ) ) )
+   520 : .ends gr_src_opa4388
+   521 : *
+   522 : .subckt iq_src_opa4388 vc+ vc- iout+ iout- params: gain=1e-3
+   523 : *param  gain=1e-3
+   524 : *param temp={temper}
+   525 : *func temp() {temper}
+   526 : *param vt={(temper+273.15)*8.6173303e-5}
+   527 : *func vt() {(temper+273.15)*8.6173303e-5}
+   528 : *1 iout+ iout-   cur={(ternary_fcn(((v(vc+,vc-)<=0)),0,(gain*v(vc+,vc-))))}
+   529 : g1 iout+ iout- g1_int1 0 1
+   530 : *g1 g1_int1 0 v= (ternary_fcn(((v(vc+,vc-)<=0)),0,(gain*v(vc+,vc-)))) 
+   531 : bg1 g1_int1 0 v= ( ternary_fcn ( ( ( v(vc+,vc-) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( ({gain}) * v(vc+,vc-) ) ) )
+   532 : .ends iq_src_opa4388
+   533 : *
+   534 : .subckt ol_sense_opa4388 com sw+ oln olp
+   535 : *param temp={temper}
+   536 : *func temp() {temper}
+   537 : *param vt={(temper+273.15)*8.6173303e-5}
+   538 : *func vt() {(temper+273.15)*8.6173303e-5}
+   539 : *sw+ com sw+   cur={(ternary_fcn(((v(oln,com)>10e-3||v(olp,com)>10e-3)),1,0))}
+   540 : gsw+ com sw+ gsw+_int1 0 1
+   541 : *gsw+ gsw+_int1 0 v= (ternary_fcn(((v(oln,com)>10e-3||v(olp,com)>10e-3)),1,0)) 
+   542 : bgsw+ gsw+_int1 0 v= ( ternary_fcn ( ( ( v(oln,com) >   1.0000000000e-02 || v(olp,com) >   1.0000000000e-02 ) ) ,   1.0000000000e+00 ,   0.0000000000e+00 ) )
+   543 : .ends ol_sense_opa4388
+   544 : *
+   545 : .subckt sw_ol_opa4388 sw_ol_opa4388 mid cap_l cap_r
+   546 : *param temp={temper}
+   547 : *func temp() {temper}
+   548 : *param vt={(temper+273.15)*8.6173303e-5}
+   549 : *func vt() {(temper+273.15)*8.6173303e-5}
+   550 : .model aol_sw pswitch( log=true r_on=1e-3 r_off=1e12 cntl_on=900e-3 cntl_off=800e-3)
+   551 : as1 %gd(sw_ol_opa4388 mid) %gd(cap_l cap_r) aol_sw
+   552 : .ends sw_ol_opa4388
+   553 : *
+   554 : .subckt vcm_clamp_opa4388 vin+ vin- iout- iout+ vp+ vp- params: gain=1
+   555 : *param  gain=1
+   556 : *param temp={temper}
+   557 : *func temp() {temper}
+   558 : *param vt={(temper+273.15)*8.6173303e-5}
+   559 : *func vt() {(temper+273.15)*8.6173303e-5}
+   560 : *1 iout+ iout-   cur={(ternary_fcn((v(vp-,vin-))>(v(vp+,vin-)),max(min((gain*v(vin+,vin-)),(v(vp-,vin-))),(v(vp+,vin-))),max(min((gain*v(vin+,vin-)),(v(vp+,vin-))),(v(vp-,vin-)))))}
+   561 : g1 iout+ iout- g1_int1 0 1
+   562 : *g1 g1_int1 0 v= (ternary_fcn((v(vp-,vin-))>(v(vp+,vin-)),max(min((gain*v(vin+,vin-)),(v(vp-,vin-))),(v(vp+,vin-))),max(min((gain*v(vin+,vin-)),(v(vp+,vin-))),(v(vp-,vin-))))) 
+   563 : bg1 g1_int1 0 v= ( ternary_fcn ( ( v(vp-,vin-) ) > ( v(vp+,vin-) ) , max ( min ( ( ({gain}) * v(vin+,vin-) ) , ( v(vp-,vin-) ) ) , ( v(vp+,vin-) ) ) , max ( min ( ( ({gain}) * v(vin+,vin-) ) , ( v(vp+,vin-) ) ) , ( v(vp-,vin-) ) ) ) )
+   564 : .ends vcm_clamp_opa4388
+   565 : *
+   566 : .subckt vnse_opa4388 1 2 params: nvr=7.07
+   567 : *param  nvr=7.07
+   568 : *param temp={temper}
+   569 : *func temp() {temper}
+   570 : *param vt={(temper+273.15)*8.6173303e-5}
+   571 : *func vt() {(temper+273.15)*8.6173303e-5}
+   572 : r4 5 0 {1.184*(pow(nvr,2))}
+   573 : r5 5 0 {1.184*(pow(nvr,2))}
+   574 : e3 1 2 5 0 10
+   575 : .ends vnse_opa4388
+   576 : *
+   577 : .subckt vos_drift_opa4388 vos+ vos- params: dc=-4.67e-6 pol=1 drift=0.005e-06
+   578 : *param dc=-4.67e-6
+   579 : *param pol=1
+   580 : *param drift=0.005e-06
+   581 : *param  dc=-4.67e-6 pol=1 drift=0.005e-06
+   582 : *param temp={temper}
+   583 : *func temp() {temper}
+   584 : *param vt={(temper+273.15)*8.6173303e-5}
+   585 : *func vt() {(temper+273.15)*8.6173303e-5}
+   586 : *1 vos+ vos- value={dc+pol*drift*(temp-27)}
+   587 : *1 vos+ vos-   vol={dc+pol*drift*((temper)-27)}
+   588 : e1 vos+ vos- e1_int1 0 1
+   589 : *e1 e1_int1 0 v= dc+pol*drift*((temper)-27) 
+   590 : be1 e1_int1 0 v= ({dc}) + ({pol}) * ({drift}) * ( ( temper )  -2.7000000000e+01 )
+   591 : .ends vos_drift_opa4388
+   592 : *
+   593 : .subckt zo_src_opa4388 vc+ vc- iout+ iout- params: gain=1250 ipos=2.5e5 ineg=-2.5e5
+   594 : *param gain=1250
+   595 : *param ipos=2.5e5
+   596 : *param ineg=-2.5e5
+   597 : *param  gain=1250 ipos=2.5e5 ineg=-2.5e5
+   598 : *param temp={temper}
+   599 : *func temp() {temper}
+   600 : *param vt={(temper+273.15)*8.6173303e-5}
+   601 : *func vt() {(temper+273.15)*8.6173303e-5}
+   602 : *1 iout+ iout-   cur={(ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg)))}
+   603 : g1 iout+ iout- g1_int1 0 1
+   604 : *g1 g1_int1 0 v= (ternary_fcn(ineg>ipos,max(min((gain*v(vc+,vc-)),ineg),ipos),max(min((gain*v(vc+,vc-)),ipos),ineg))) 
+   605 : bg1 g1_int1 0 v= ( ternary_fcn ( ({ineg}) > ({ipos}) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ineg}) ) , ({ipos}) ) , max ( min ( ( ({gain}) * v(vc+,vc-) ) , ({ipos}) ) , ({ineg}) ) ) )
+   606 : .ends zo_src_opa4388
+   607 : *
+   608 : *end of:  e:\open\science_adk5556_4x4_daq_replica\r21_internal_descriptor_dynamic_and_native_closure_v1\models\opa4388_original.lib
+   609 : vdd vdd 0 dc 5
+   610 : vin inp 0 dc 2.5 ac 1
+   611 : x1 inp out vdd 0 out opa4388
+   612 : rload out 0 10k
+   613 : cload out 0 10p
+   614 : .save all
+   615 : .control
+   616 : set filetype=ascii
+   617 : op
+   618 : listing e
+   619 : listing p
+   620 : quit
+   621 : .endc
+   622 : *end
+   623 : .end
+ngspice-47 done

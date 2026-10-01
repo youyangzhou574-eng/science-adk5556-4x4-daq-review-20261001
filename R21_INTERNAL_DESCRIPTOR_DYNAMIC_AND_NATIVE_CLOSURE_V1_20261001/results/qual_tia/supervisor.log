@@ -1,0 +1,1 @@
+{"case": "qual_tia", "startedUTC": "2026-10-01T16:50:43.356034+00:00", "limitSeconds": 48.0, "status": "NORMAL_EXIT", "ownedPID": 72040, "lastProgressTime_s": 100000000.0, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 1.0446538999676704, "endedUTC": "2026-10-01T16:50:44.400689+00:00"}

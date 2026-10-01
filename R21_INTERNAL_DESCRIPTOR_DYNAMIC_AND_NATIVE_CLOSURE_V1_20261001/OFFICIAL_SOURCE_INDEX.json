@@ -1,0 +1,11 @@
+{
+  "source": "Existing official ngspice47 bundled manual",
+  "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\docs\\ngspice-47-manual.pdf",
+  "SHA256": "6be9ad36be99dc3234dc44464cce6a38ba2e98266539dda5bae3212752e036ca",
+  "URL": "https://ngspice.sourceforge.io/docs/ngspice-manual.pdf",
+  "usedSections": [
+    "8.2.7 PWL Controlled Source",
+    "8.2.12 Alternative Analog Switch"
+  ],
+  "summary": "PWL controlled source has smoothing input_domain; pswitch has default control input resistance 1e12 and rounded log/linear transition. The static iteration pointer is not itself proof of a dynamic realization. Quadratic corner derivative is an inferred implementation candidate corroborated by two actual follower OP primitive probes and local AC, not a global code-model proof."
+}

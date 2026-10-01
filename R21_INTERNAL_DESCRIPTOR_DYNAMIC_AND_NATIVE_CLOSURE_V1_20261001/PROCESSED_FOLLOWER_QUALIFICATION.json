@@ -1,0 +1,10 @@
+{
+  "maxRelativeComplexError": 9.68245188639181e-08,
+  "dimension": 170,
+  "expandedElements": 252,
+  "nativeOPKeys": 170,
+  "status": "LOCAL_12_POINT_ONLY_PASS",
+  "LINEARIZED_MNA_DESCRIPTOR_QUALIFIED": false,
+  "internalSpectrumAvailable": false,
+  "PWLFormula": "inferred quadratic corner candidate, two actual OP tangents match native primitive probes"
+}

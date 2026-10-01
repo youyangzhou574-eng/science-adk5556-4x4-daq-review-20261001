@@ -1,0 +1,312 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1",
+  "rulingAssistantId": "104a4b67-268e-428d-b069-1490441ec58a",
+  "startedUTC": "2026-10-01T16:09:29+00:00",
+  "totalMaxMinutes": 480,
+  "phase": "P0",
+  "phaseStartedUTC": "2026-10-01T16:09:29+00:00",
+  "limits": {
+    "P0": {
+      "minutes": 150
+    },
+    "P1": {
+      "minutes": 120
+    },
+    "P2": {
+      "minutes": 100
+    },
+    "P3": {
+      "minutes": 80
+    },
+    "P4": {
+      "minutes": 30
+    }
+  },
+  "globalLimits": {
+    "DC_AC_PZ": 192,
+    "diagnostics": 48,
+    "transient": 64,
+    "full_long": 1,
+    "reset": 96,
+    "protocol": 48,
+    "sources": 8,
+    "candidate": 2
+  },
+  "used": {
+    "DC_AC_PZ": 65,
+    "diagnostics": 13,
+    "sources": 1
+  },
+  "cases": [
+    {
+      "name": "follower_exact",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T16:21:56.482483+00:00",
+      "commands": [
+        "op",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 14,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "follower_listing",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T16:30:19.473542+00:00",
+      "commands": [
+        "op"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 1,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "pwl_actual_op_0",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T16:44:00.607386+00:00",
+      "commands": [
+        "op",
+        "ac",
+        "ac",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 4,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "pwl_actual_op_1",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T16:44:02.063169+00:00",
+      "commands": [
+        "op",
+        "ac",
+        "ac",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 4,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "qual_row",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T16:49:43.603876+00:00",
+      "commands": [
+        "op",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 14,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "qual_tia",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T16:50:43.217659+00:00",
+      "commands": [
+        "op",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 14,
+        "diagnostics": 1
+      }
+    },
+    {
+      "name": "qual_ref2",
+      "phase": "P0",
+      "kind": "diagnostics",
+      "charges": [
+        "DC_AC_PZ",
+        "diagnostics"
+      ],
+      "startedUTC": "2026-10-01T16:51:28.716940+00:00",
+      "commands": [
+        "op",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac",
+        "ac"
+      ],
+      "chargeCounts": {
+        "DC_AC_PZ": 14,
+        "diagnostics": 1
+      }
+    }
+  ],
+  "scienceStopped": true,
+  "nativeUsed": {
+    "copy": 0,
+    "session": 0,
+    "save": 0,
+    "captureAudit": 0,
+    "ERC": 0,
+    "PDF": 0
+  },
+  "phaseHistory": [],
+  "executionControlDeviations": [
+    {
+      "UTC": "2026-10-01T16:28:43.746797+00:00",
+      "detail": "First ad-hoc follower 128-variable MNA + one .01Hz transfer probe executed before offline predebit; record exact1 after fact, no excess and no actualSPICE beyond follower14; futureoffline uses atomic debit",
+      "charge": 1
+    }
+  ],
+  "offlineDiagnostics": [
+    {
+      "name": "follower_exact_12point_descriptor_AC",
+      "preDebitedUTC": "2026-10-01T16:28:45.706652+00:00",
+      "count": 1,
+      "phase": "P0",
+      "note": "12 exact AC comparisons and primitive Jacobian/128-variable source mapping; no modelpole conclusion",
+      "actualSPICE": 0
+    },
+    {
+      "name": "processed_follower_all_variables_12point_AC",
+      "preDebitedUTC": "2026-10-01T16:47:07.362268+00:00",
+      "count": 1,
+      "phase": "P0",
+      "note": "Actual expanded PSA deck including all generated algebraic variables; native exact AC qualification, preserve all failures",
+      "actualSPICE": 0
+    },
+    {
+      "name": "qual_row_processed_exact_AC",
+      "preDebitedUTC": "2026-10-01T16:50:24.610301+00:00",
+      "count": 1,
+      "phase": "P0",
+      "note": "12 exact actual primitive transfer qualifications, complete processed variable map",
+      "actualSPICE": 0
+    },
+    {
+      "name": "qual_tia_processed_exact_AC",
+      "preDebitedUTC": "2026-10-01T16:51:03.741999+00:00",
+      "count": 1,
+      "phase": "P0",
+      "note": "12 exact actual primitive transfer qualifications, complete processed variable map",
+      "actualSPICE": 0
+    },
+    {
+      "name": "qual_ref2_processed_exact_AC",
+      "preDebitedUTC": "2026-10-01T16:53:21.894185+00:00",
+      "count": 1,
+      "phase": "P0",
+      "note": "12 exact actual primitive transfer qualifications, complete processed variable map",
+      "actualSPICE": 0
+    }
+  ],
+  "officialSources": [
+    {
+      "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\docs\\ngspice-47-manual.pdf",
+      "sha256": "6be9ad36be99dc3234dc44464cce6a38ba2e98266539dda5bae3212752e036ca",
+      "pageIndices": [
+        190,
+        191,
+        192,
+        197,
+        198,
+        199,
+        211,
+        212,
+        642,
+        645
+      ],
+      "readUTC": "2026-10-01T16:31:46.623364+00:00",
+      "existingBundledOfficialManual": true
+    }
+  ],
+  "stopReason": "DESCRIPTOR_EXTRACTION_NOT_QUALIFIED",
+  "stopCase": "qual_ref2",
+  "stopObservedAtUTC": "2026-10-01T16:58:36.297089+00:00",
+  "stopBudgetFileMtimeUTC": "2026-10-01T16:53:25.314382+00:00",
+  "rejectedDispatches": [
+    {
+      "case": "qual_4macro",
+      "reason": "SCIENCE_STOP_PENDING_NEW_RULING",
+      "actualExecutorStarted": false,
+      "predebitSucceeded": false,
+      "resultsDirectoryExists": false,
+      "detail": "Dependent start command was queued in same tool orchestration after local reference comparison, before root inspected returned failure. Sticky register rejected before folder or executor creation. No exception authorized."
+    }
+  ]
+}

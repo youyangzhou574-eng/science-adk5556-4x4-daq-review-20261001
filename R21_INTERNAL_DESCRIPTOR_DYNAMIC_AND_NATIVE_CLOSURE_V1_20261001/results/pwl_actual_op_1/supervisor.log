@@ -1,0 +1,1 @@
+{"case": "pwl_actual_op_1", "startedUTC": "2026-10-01T16:44:02.198952+00:00", "limitSeconds": 48.0, "status": "NORMAL_EXIT", "ownedPID": 47216, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 0.5130518998485059, "endedUTC": "2026-10-01T16:44:02.712012+00:00"}

@@ -1,0 +1,10 @@
+{
+  "status": "EXACT_POINT_PASS",
+  "dimension": 178,
+  "elements": 263,
+  "maxRelativeComplexError": 0.0011349698886659347,
+  "samples": 72,
+  "LINEARIZED_MNA_DESCRIPTOR_QUALIFIED": false,
+  "internalSpectrumAvailable": false,
+  "majorOutputFloor": 1e-09
+}

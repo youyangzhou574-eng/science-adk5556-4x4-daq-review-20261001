@@ -1,0 +1,16 @@
+07 descriptor local follower qualification
+.include "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\models\OPA4388_ORIGINAL.LIB"
+Vdd vdd 0 DC 5
+Vin inp 0 DC 2.5 AC 1
+X1 inp out vdd 0 out OPA4388
+Rload out 0 10k
+Cload out 0 10p
+.save all
+.control
+set filetype=ascii
+op
+listing e
+listing p
+quit
+.endc
+.end

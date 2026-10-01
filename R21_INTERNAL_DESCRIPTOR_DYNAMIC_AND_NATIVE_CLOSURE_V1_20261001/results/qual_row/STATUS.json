@@ -1,0 +1,12 @@
+{
+  "case": "qual_row",
+  "startedUTC": "2026-10-01T16:49:43.742755+00:00",
+  "limitSeconds": 48.0,
+  "status": "NORMAL_EXIT",
+  "ownedPID": 55328,
+  "lastProgressTime_s": 100000000.0,
+  "exitCode": 0,
+  "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION",
+  "wallSeconds": 1.0439768000505865,
+  "endedUTC": "2026-10-01T16:49:44.786732+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "EXACT_POINT_FAIL",
+  "dimension": 344,
+  "elements": 512,
+  "maxRelativeComplexError": 0.2172645969728587,
+  "samples": 72,
+  "LINEARIZED_MNA_DESCRIPTOR_QUALIFIED": false,
+  "internalSpectrumAvailable": false,
+  "majorOutputFloor": 1e-09
+}

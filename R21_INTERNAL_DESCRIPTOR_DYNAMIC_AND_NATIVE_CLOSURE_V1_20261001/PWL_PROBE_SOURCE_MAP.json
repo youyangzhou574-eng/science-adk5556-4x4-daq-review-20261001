@@ -1,0 +1,52 @@
+[
+  {
+    "name": "pwl_actual_op_0",
+    "sourceElement": "a.x1.x_u18.ag1",
+    "sourceLine": 439,
+    "actualControlOP": 0.2500001316567726,
+    "model": {
+      "type": "pwl",
+      "x_array": [
+        0.0,
+        10.0,
+        22.0,
+        45.0,
+        53.0,
+        60.0
+      ],
+      "y_array": [
+        1.147e-05,
+        0.00015,
+        0.0003,
+        0.00069,
+        0.0009,
+        0.00124
+      ],
+      "input_domain": 0.1,
+      "fraction": true,
+      "limit": true
+    }
+  },
+  {
+    "name": "pwl_actual_op_1",
+    "sourceElement": "a.x1.x_u19.ag1",
+    "sourceLine": 426,
+    "actualControlOP": -0.2500001316567726,
+    "model": {
+      "type": "pwl",
+      "x_array": [
+        0.0,
+        11.0,
+        60.0
+      ],
+      "y_array": [
+        1.545e-05,
+        0.000335,
+        0.0019
+      ],
+      "input_domain": 0.1,
+      "fraction": true,
+      "limit": true
+    }
+  }
+]

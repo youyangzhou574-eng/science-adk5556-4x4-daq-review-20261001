@@ -1,0 +1,89 @@
+[
+  {
+    "name": "qual_row",
+    "source": "vtest",
+    "outputs": [
+      "minus",
+      "fb",
+      "drv",
+      "row"
+    ],
+    "loopReturnNodes": [
+      "minus",
+      "fb"
+    ],
+    "temperatureC": 27,
+    "fullNetworkPortAC": false,
+    "purpose": "P0 local five-family actual primitive/AC qualification, no native or internal certificate claim",
+    "origin": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\cases\\loop_row_v.cir",
+    "netlistSHA256": "8807bb2893deef82b3ca672a96576a6a0ae18bb0a7d12ff48b7ffe0113c87981",
+    "originalInMemoryLFSHA256": "82c09bc31cf16c67a8cd47bacb013ebc595db36958e1de96be2f46047dcd0186",
+    "shaMeaning": "actual on-disk bytes"
+  },
+  {
+    "name": "qual_tia",
+    "source": "vtest",
+    "outputs": [
+      "minus",
+      "fb",
+      "drv",
+      "tap",
+      "col",
+      "ain"
+    ],
+    "loopReturnNodes": [
+      "minus",
+      "fb"
+    ],
+    "temperatureC": 27,
+    "fullNetworkPortAC": false,
+    "purpose": "P0 local five-family actual primitive/AC qualification, no native or internal certificate claim",
+    "origin": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\cases\\loop_tia_v.cir",
+    "netlistSHA256": "009851db15f13d8dedfeba7f9977a0d4488a1f66620cc5399b25991af4dc5d61",
+    "originalInMemoryLFSHA256": "9a2d609290bbfc5f4714fcf33eb6cfc7272f9883206a414c5896c918ad8d377b",
+    "shaMeaning": "actual on-disk bytes"
+  },
+  {
+    "name": "qual_4macro",
+    "source": "vref",
+    "outputs": [
+      "vcm",
+      "vexc",
+      "row0",
+      "col0",
+      "tap0",
+      "ain0"
+    ],
+    "loopReturnNodes": null,
+    "temperatureC": 27,
+    "fullNetworkPortAC": false,
+    "purpose": "P0 local five-family actual primitive/AC qualification, no native or internal certificate claim",
+    "origin": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\cases\\part_1row_1tia_800_gear.cir",
+    "netlistSHA256": "04e76a992e43765c78c6e4ff7547eed85baba348c0ae2a90f065eda413ee6ec5",
+    "originalInMemoryLFSHA256": "97e1b4438e104808e43747b42c97b837ec144cf1deb5a64134de4468019c118a",
+    "shaMeaning": "actual on-disk bytes"
+  },
+  {
+    "name": "qual_ref2",
+    "source": "vtest",
+    "outputs": [
+      "cmminus",
+      "cmfb",
+      "cmdrv",
+      "vcm",
+      "exdrv",
+      "vexc"
+    ],
+    "loopReturnNodes": [
+      "cmminus",
+      "cmfb"
+    ],
+    "temperatureC": 27,
+    "fullNetworkPortAC": false,
+    "purpose": "P0 local five-family actual primitive/AC qualification, no native or internal certificate claim",
+    "origin": "constructed reference2 local fixture from frozen reference values",
+    "netlistSHA256": "f6665ee603ce3a3fdbbd94baa3c360c11ccb2de1f77459e6cdba788a226a50b5",
+    "originalInMemoryLFSHA256": "bc834c7156cd2ca4ef9a61eb3e2b891da6253d475d7b23520c2652dbb257c15a",
+    "shaMeaning": "actual on-disk bytes"
+  }
+]

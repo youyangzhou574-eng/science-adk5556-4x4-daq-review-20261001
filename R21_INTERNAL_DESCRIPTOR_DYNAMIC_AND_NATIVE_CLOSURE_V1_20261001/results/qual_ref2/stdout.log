@@ -1,0 +1,625 @@
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps a
+
+
+Circuit: vcm vexc local descriptor qualification
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  0.00000e+00
+No. of Data Rows : 1
+ASCII raw file "op.raw"
+	vcm vexc local descriptor qualification
+
+     1 : vcm vexc local descriptor qualification
+   614 : v5 v5 0 5
+   615 : vref ref 0 2.5
+   616 : vtest cmminus cmfb dc 0 ac 1
+   617 : rcm_in ref vcm_cmd 1k
+   103 : c.xcm.c_c1 xcm.n3294772 xcm.n3294776 140f 
+   104 : c.xcm.c_c10 xcm.n3294626 xcm.n3294630 39.8u 
+   105 : c.xcm.c_c11 xcm.mid xcm.n47456861 7.96n 
+   106 : c.xcm.c_c121 xcm.n4736080 xcm.n3294524 884.2f 
+   107 : c.xcm.c_c122 xcm.mid xcm.n47492651 796p 
+   108 : c.xcm.c_c123 xcm.mid xcm.n47965841 40p 
+   109 : c.xcm.c_c124 xcm.n4797748 xcm.n4797760 40.8p 
+   110 : c.xcm.c_c125 xcm.mid xcm.n48001371 530f 
+   111 : c.xcm.c_c126 xcm.n4809008 xcm.n2991553 1.4n 
+   112 : c.xcm.c_c127 xcm.n4817896 xcm.n2991581 1.105p 
+   113 : c.xcm.c_c13 xcm.n2992397 0 1f 
+   114 : c.xcm.c_c14 0 xcm.n2992375 2u 
+   115 : c.xcm.c_c15 xcm.n2992413 0 1f 
+   116 : c.xcm.c_c16 xcm.n2991741 xcm.mid 1f 
+   117 : c.xcm.c_c17 xcm.n2991765 xcm.mid 1f 
+   118 : c.xcm.c_c18 xcm.n2991811 xcm.mid 1f 
+   119 : c.xcm.c_c19 xcm.n2991831 xcm.mid 1f 
+   120 : c.xcm.c_c20 xcm.n2991907 xcm.mid 1f 
+   121 : c.xcm.c_c21 xcm.n2991925 xcm.mid 1f 
+   122 : c.xcm.c_c22 xcm.mid xcm.n2991969 1f 
+   123 : c.xcm.c_c23 xcm.n2992033 xcm.mid 1f 
+   124 : c.xcm.c_c24 xcm.n2992029 xcm.mid 1f 
+   125 : c.xcm.c_c25 xcm.n2992093 xcm.mid 1p 
+   126 : c.xcm.c_c26 xcm.n2992099 xcm.mid 1p 
+   127 : c.xcm.c_c27 xcm.sw_ol_opax388 xcm.mid 100p 
+   128 : c.xcm.c_c29 xcm.vimon xcm.mid 1n 
+   129 : c.xcm.c_c30 xcm.vout_s xcm.mid 1n 
+   130 : c.xcm.c_c4 xcm.n2991657 xcm.mid 1f 
+   131 : c.xcm.c_c5 xcm.clamp xcm.mid 403n 
+   132 : c.xcm.c_c70 xcm.vclp xcm.mid 100p 
+   133 : c.xcm.c_c72 xcm.n4031911 xcm.mid 3.9e-16 
+   134 : c.xcm.c_c74 xcm.n3827259 xcm.n3828449 200f 
+   135 : c.xcm.c_c77 xcm.n3850714 xcm.n3850724 1.105p 
+   136 : c.xcm.c_c93 xcm.n4243633 xcm.n2991579 1.516n 
+   137 : c.xcm.c_c_com0 xcm.esdp xcm.mid 4.5p 
+   138 : c.xcm.c_c_com1 xcm.mid xcm.esdn 4.5p 
+   139 : c.xcm.c_c_diff xcm.esdn xcm.esdp 2p 
+   140 : e.xcm.e_e1 xcm.mid 0 xcm.n2992375 0 1
+   141 : e.xcm.e_e3 xcm.n2992163 xcm.mid cmdrv xcm.mid 1
+   142 : e.xcm.e_e4 xcm.n3294618 xcm.mid xcm.cl_clamp xcm.mid 1
+   143 : g.xcm.g_g1 xcm.n3294772 xcm.mid xcm.esdp xcm.mid -35.19u
+   144 : g.xcm.g_g100 xcm.n4817896 xcm.mid xcm.n3850724 xcm.mid -1.014k
+   145 : g.xcm.g_g12 xcm.claw_clamp xcm.mid xcm.n3294524 xcm.mid -1m
+   146 : g.xcm.g_g13 xcm.cl_clamp xcm.mid xcm.claw_clamp xcm.mid -1m
+   147 : g.xcm.g_g16 xcm.n3201092 xcm.mid xcm.n3294630 xcm.mid -2.1
+   148 : g.xcm.g_g18 xcm.vcc_b 0 v5 0 -1
+   149 : g.xcm.g_g19 xcm.vee_b 0 0 0 -1
+   150 : g.xcm.g_g2 xcm.n2991563 xcm.n2991555 xcm.n2991553 xcm.mid -1m
+   151 : g.xcm.g_g20 xcm.vcc_clp xcm.mid xcm.n2992033 xcm.mid -1m
+   152 : g.xcm.g_g21 xcm.vee_clp xcm.mid xcm.n2992029 xcm.mid -1m
+   153 : g.xcm.g_g22 xcm.n2992299 xcm.mid xcm.n2992295 xcm.mid -1
+   154 : g.xcm.g_g23 xcm.n2992323 xcm.mid xcm.n2992331 xcm.mid -1
+   155 : g.xcm.g_g39 xcm.n3294626 xcm.mid xcm.cl_clamp xcm.n2992235 -237.45k
+   156 : g.xcm.g_g4 xcm.n3850714 xcm.mid xcm.vcc_b xcm.mid -101.4u
+   157 : g.xcm.g_g41 xcm.n4031911 xcm.mid xcm.vsense xcm.mid -1u
+   158 : g.xcm.g_g5 xcm.n2991587 xcm.n2991583 xcm.n2991581 xcm.n2991579 -1m
+   159 : g.xcm.g_g6 xcm.vsense xcm.mid xcm.clamp xcm.mid -1m
+   160 : g.xcm.g_g63 xcm.n4243633 xcm.mid xcm.vee_b xcm.mid -162m
+   161 : g.xcm.g_g92 xcm.n4736080 xcm.mid xcm.n4031911 xcm.mid -1.861
+   162 : g.xcm.g_g93 xcm.n4747399 xcm.mid xcm.n4745674 xcm.mid -1
+   163 : g.xcm.g_g95 xcm.n4796554 xcm.mid xcm.n4749239 xcm.mid -1
+   164 : g.xcm.g_g96 xcm.n4797748 xcm.mid xcm.n4796572 xcm.mid -1
+   165 : g.xcm.g_g97 xcm.n4798545 xcm.mid xcm.n4797760 xcm.mid -3.77
+   166 : g.xcm.g_g98 xcm.n3827259 xcm.mid xcm.n4800105 xcm.mid -1
+   167 : g.xcm.g_g99 xcm.n4809008 xcm.mid xcm.n3294776 xcm.mid -351.9
+   168 : i.xcm.i_i_b xcm.n2991573 xcm.mid dc 30p
+   169 : i.xcm.i_i_os xcm.esdn xcm.mid dc -30p
+   170 : i.xcm.i_i_q v5 0 dc 1.9m
+   171 : r.xcm.r_r15 xcm.n2991583 xcm.n2991563 xcm:r_noiseless 1m 
+   172 : r.xcm.r_r16 xcm.n2991587 xcm.n2991583 xcm:r_noiseless 1k 
+   173 : r.xcm.r_r167 xcm.n3294618 xcm.vclp xcm:r_noiseless 100 
+   174 : r.xcm.r_r17 xcm.n2991619 xcm.esdn xcm:r_noiseless 1m 
+   175 : r.xcm.r_r171 xcm.mid xcm.n4031911 xcm:r_noiseless 1meg 
+   176 : r.xcm.r_r176 xcm.mid xcm.n3827259 xcm:r_noiseless 1 
+   177 : r.xcm.r_r178 xcm.n3828449 xcm.n3827259 xcm:r_noiseless 10k 
+   178 : r.xcm.r_r179 xcm.mid xcm.n3828449 xcm:r_noiseless 8 
+   179 : r.xcm.r_r18 xcm.mid xcm.n2991623 xcm:r_noiseless 1t 
+   180 : r.xcm.r_r187 xcm.n3850724 xcm.n3850714 xcm:r_noiseless 100meg 
+   181 : r.xcm.r_r189 xcm.mid xcm.n3850714 xcm:r_noiseless 1 
+   182 : r.xcm.r_r19 xcm.mid xcm.n2991635 xcm:r_noiseless 1t 
+   183 : r.xcm.r_r190 xcm.mid xcm.n3850724 xcm:r_noiseless 98.728k 
+   184 : r.xcm.r_r20 xcm.n2991643 xcm.mid xcm:r_noiseless 1 
+   185 : r.xcm.r_r21 xcm.n2991657 xcm.n2991643 xcm:r_noiseless 1m 
+   186 : r.xcm.r_r22 xcm.mid xcm.n2991667 xcm:r_noiseless 1meg 
+   187 : r.xcm.r_r23 xcm.mid xcm.clamp xcm:r_noiseless 1meg 
+   188 : r.xcm.r_r230 xcm.n2991579 xcm.n4243633 xcm:r_noiseless 100meg 
+   189 : r.xcm.r_r233 xcm.mid xcm.n2991579 xcm:r_noiseless 61.76 
+   190 : r.xcm.r_r234 xcm.mid xcm.n4243633 xcm:r_noiseless 1 
+   191 : r.xcm.r_r24 xcm.mid xcm.vsense xcm:r_noiseless 1k 
+   192 : r.xcm.r_r301 xcm.n3294524 xcm.n4736080 xcm:r_noiseless 10k 
+   193 : r.xcm.r_r302 xcm.mid xcm.n4736080 xcm:r_noiseless 1 
+   194 : r.xcm.r_r303 xcm.mid xcm.n3294524 xcm:r_noiseless 11.61k 
+   195 : r.xcm.r_r304 xcm.n4749239 xcm.n4747399 xcm:r_noiseless 190k 
+   196 : r.xcm.r_r305 xcm.n47492651 xcm.n4749239 xcm:r_noiseless 10k 
+   197 : r.xcm.r_r306 xcm.mid xcm.n4747399 xcm:r_noiseless 1 
+   198 : r.xcm.r_r307 xcm.n4796572 xcm.n4796554 xcm:r_noiseless 770k 
+   199 : r.xcm.r_r308 xcm.n47965841 xcm.n4796572 xcm:r_noiseless 10k 
+   200 : r.xcm.r_r309 xcm.mid xcm.n4796554 xcm:r_noiseless 1 
+   201 : r.xcm.r_r310 xcm.n4797760 xcm.n4797748 xcm:r_noiseless 10k 
+   202 : r.xcm.r_r311 xcm.mid xcm.n4797748 xcm:r_noiseless 1 
+   203 : r.xcm.r_r312 xcm.mid xcm.n4797760 xcm:r_noiseless 3.61k 
+   204 : r.xcm.r_r313 xcm.mid xcm.n4798545 xcm:r_noiseless 1 
+   205 : r.xcm.r_r314 xcm.n4800105 xcm.n4798545 xcm:r_noiseless 10k 
+   206 : r.xcm.r_r315 xcm.n48001371 xcm.n4800105 xcm:r_noiseless 10k 
+   207 : r.xcm.r_r316 xcm.n2991553 xcm.n4809008 xcm:r_noiseless 10k 
+   208 : r.xcm.r_r317 xcm.mid xcm.n4809008 xcm:r_noiseless 1 
+   209 : r.xcm.r_r318 xcm.mid xcm.n2991553 xcm:r_noiseless 28.5 
+   210 : r.xcm.r_r319 xcm.n2991581 xcm.n4817896 xcm:r_noiseless 100meg 
+   211 : r.xcm.r_r32 xcm.mid xcm.claw_clamp xcm:r_noiseless 1k 
+   212 : r.xcm.r_r320 xcm.mid xcm.n2991581 xcm:r_noiseless 98.728k 
+   213 : r.xcm.r_r321 xcm.mid xcm.n4817896 xcm:r_noiseless 1 
+   214 : r.xcm.r_r33 xcm.mid xcm.cl_clamp xcm:r_noiseless 1k 
+   215 : r.xcm.r_r34 xcm.n3294630 xcm.n3294626 xcm:r_noiseless 10k 
+   216 : r.xcm.r_r35 xcm.mid xcm.n3294626 xcm:r_noiseless 1 
+   217 : r.xcm.r_r36 xcm.mid xcm.n3294630 xcm:r_noiseless 9.09091k 
+   218 : r.xcm.r_r37 xcm.mid xcm.n3201092 xcm:r_noiseless 1 
+   219 : r.xcm.r_r38 xcm.n4745674 xcm.n3201092 xcm:r_noiseless 62.73k 
+   220 : r.xcm.r_r39 xcm.n47456861 xcm.n4745674 xcm:r_noiseless 10k 
+   221 : r.xcm.r_r43 xcm.mid xcm.n3294682 xcm:r_noiseless 1 
+   222 : r.xcm.r_r46 xcm.vcc_b 0 xcm:r_noiseless 1 
+   223 : r.xcm.r_r47 xcm.vcc_b xcm.n2992397 xcm:r_noiseless 1m 
+   224 : r.xcm.r_r48 xcm.n2992397 xcm.n2992375 xcm:r_noiseless 1meg 
+   225 : r.xcm.r_r49 xcm.n2992375 0 xcm:r_noiseless 1t 
+   226 : r.xcm.r_r5 xcm.mid xcm.n3294772 xcm:r_noiseless 1 
+   227 : r.xcm.r_r50 xcm.n2992375 xcm.n2992413 xcm:r_noiseless 1meg 
+   228 : r.xcm.r_r51 xcm.n2992413 xcm.vee_b xcm:r_noiseless 1m 
+   229 : r.xcm.r_r52 xcm.vee_b 0 xcm:r_noiseless 1 
+   230 : r.xcm.r_r53 xcm.vcc_clp xcm.mid xcm:r_noiseless 1t 
+   231 : r.xcm.r_r54 xcm.n2991729 xcm.mid xcm:r_noiseless 1 
+   232 : r.xcm.r_r55 xcm.n2991741 xcm.n2991729 xcm:r_noiseless 1m 
+   233 : r.xcm.r_r56 xcm.vee_clp xcm.mid xcm:r_noiseless 1t 
+   234 : r.xcm.r_r57 xcm.n2991763 xcm.mid xcm:r_noiseless 1 
+   235 : r.xcm.r_r58 xcm.n2991765 xcm.n2991763 xcm:r_noiseless 1m 
+   236 : r.xcm.r_r59 xcm.n2991807 xcm.mid xcm:r_noiseless 1t 
+   237 : r.xcm.r_r6 xcm.n3294776 xcm.n3294772 xcm:r_noiseless 100meg 
+   238 : r.xcm.r_r60 xcm.n2991809 xcm.mid xcm:r_noiseless 1 
+   239 : r.xcm.r_r61 xcm.n2991811 xcm.n2991809 xcm:r_noiseless 1m 
+   240 : r.xcm.r_r62 xcm.n2991831 xcm.n2991837 xcm:r_noiseless 1m 
+   241 : r.xcm.r_r63 xcm.n2991849 xcm.mid xcm:r_noiseless 1t 
+   242 : r.xcm.r_r64 xcm.n2991837 xcm.mid xcm:r_noiseless 1 
+   243 : r.xcm.r_r65 xcm.n2991901 xcm.mid xcm:r_noiseless 1t 
+   244 : r.xcm.r_r66 xcm.n2991905 xcm.mid xcm:r_noiseless 1 
+   245 : r.xcm.r_r67 xcm.n2991907 xcm.n2991905 xcm:r_noiseless 1m 
+   246 : r.xcm.r_r68 xcm.n2991925 xcm.n2991931 xcm:r_noiseless 1m 
+   247 : r.xcm.r_r69 xcm.n2991943 xcm.mid xcm:r_noiseless 1t 
+   248 : r.xcm.r_r7 xcm.mid xcm.n3294776 xcm:r_noiseless 285k 
+   249 : r.xcm.r_r70 xcm.n2991931 xcm.mid xcm:r_noiseless 1 
+   250 : r.xcm.r_r71 xcm.n2991969 xcm.vsense xcm:r_noiseless 1m 
+   251 : r.xcm.r_r72 xcm.vcc_b xcm.n2991997 xcm:r_noiseless 1k 
+   252 : r.xcm.r_r73 xcm.n2991997 xcm.n2992033 xcm:r_noiseless 1m 
+   253 : r.xcm.r_r74 xcm.n2992001 xcm.vee_b xcm:r_noiseless 1k 
+   254 : r.xcm.r_r75 xcm.n2992001 xcm.n2992029 xcm:r_noiseless 1m 
+   255 : r.xcm.r_r76 xcm.mid xcm.vcc_clp xcm:r_noiseless 1k 
+   256 : r.xcm.r_r77 xcm.vee_clp xcm.mid xcm:r_noiseless 1k 
+   257 : r.xcm.r_r78 xcm.n2992323 xcm.mid xcm:r_noiseless 1 
+   258 : r.xcm.r_r79 xcm.n2992299 xcm.mid xcm:r_noiseless 1 
+   259 : r.xcm.r_r8 xcm.n2991563 xcm.n2991555 xcm:r_noiseless 1k 
+   260 : r.xcm.r_r80 xcm.v11 xcm.n2992093 xcm:r_noiseless 100 
+   261 : r.xcm.r_r81 xcm.v12 xcm.n2992099 xcm:r_noiseless 100 
+   262 : r.xcm.r_r82 xcm.n2992105 xcm.mid xcm:r_noiseless 1 
+   263 : r.xcm.r_r83 xcm.n2992105 xcm.sw_ol_opax388 xcm:r_noiseless 100 
+   264 : r.xcm.r_rdummy xcm.mid xcm.n2992235 xcm:r_noiseless 1.75k 
+   265 : r.xcm.r_rs_inn cmminus xcm.esdn xcm:r_noiseless 10m 
+   266 : r.xcm.r_rs_inp vcm_cmd xcm.esdp xcm:r_noiseless 10m 
+   267 : r.xcm.r_rx xcm.n2992235 xcm.n3294682 xcm:r_noiseless 17.5k 
+   268 : r.xcm.r_rx1 xcm.mid xcm.n2992151 xcm:r_noiseless 1t 
+   269 : r.xcm.r_rx2 xcm.vimon xcm.n2992151 xcm:r_noiseless 100 
+   270 : r.xcm.r_rx3 xcm.mid xcm.n2992163 xcm:r_noiseless 1t 
+   271 : r.xcm.r_rx4 xcm.vout_s xcm.n2992163 xcm:r_noiseless 100 
+   272 : r.xcm.r_r_cm1 xcm.esdp xcm.mid xcm:r_noiseless 1t 
+   273 : r.xcm.r_r_cm2 xcm.mid xcm.esdn xcm:r_noiseless 1t 
+   274 : r.xcm.r_r_diff xcm.esdn xcm.esdp xcm:r_noiseless 100meg 
+   275 : v.xcm.v_vcm_max xcm.n2991623 xcm.vcc_b 100m
+   276 : v.xcm.v_vcm_min xcm.n2991635 xcm.vee_b -100m
+   277 : v.xcm.v_v_grn xcm.n2991943 xcm.mid -150
+   278 : v.xcm.v_v_grp xcm.n2991901 xcm.mid 150
+   279 : v.xcm.v_v_iscn xcm.n2991849 xcm.mid -60
+   280 : v.xcm.v_v_iscp xcm.n2991807 xcm.mid 60
+   281 : v.xcm.v_v_orn xcm.n2992295 xcm.vclp -55
+   282 : v.xcm.v_v_orp xcm.n2992331 xcm.vclp 55
+   318 : h.xcm.x_h1.h_h1 xcm.n2992151 xcm.mid v.xcm.x_h1.vh_h1 1k
+   319 : v.xcm.x_h1.vh_h1 xcm.n2992235 cmdrv 0v
+   327 : h.xcm.x_h2.h_h2 xcm.v12 xcm.mid v.xcm.x_h2.vh_h2 1
+   328 : v.xcm.x_h2.vh_h2 xcm.n2992287 xcm.n2992323 0v
+   336 : h.xcm.x_h3.h_h3 xcm.v11 xcm.mid v.xcm.x_h3.vh_h3 -1
+   337 : v.xcm.x_h3.vh_h3 xcm.n2992267 xcm.n2992299 0v
+   345 : a.xcm.x_s1.as_s1 %gd xcm.n2992267 xcm.clamp %gd xcm.n2992267 xcm.clamp xcm.x_s1:a_s1
+   346 : r.xcm.x_s1.rs_s1 xcm.n2992267 xcm.clamp 1g 
+   347 : .model xcm.x_s1:a_s1 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   355 : a.xcm.x_s2.as_s2 %gd xcm.clamp xcm.n2992287 %gd xcm.clamp xcm.n2992287 xcm.x_s2:a_s2
+   356 : r.xcm.x_s2.rs_s2 xcm.clamp xcm.n2992287 1g 
+   357 : .model xcm.x_s2:a_s2 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   413 : g.xcm.x_u10.gvo+ xcm.mid xcm.n2991729 xcm.x_u10.gvo+_int1 0 1
+   415 : b.xcm.x_u10.bgvo+ xcm.x_u10.gvo+_int1 0 v= ( ternary_fcn ( ( v(xcm.vout_s,xcm.mid) > v(xcm.vcc_clp,xcm.mid) ) , ( ( ( v(xcm.vout_s,xcm.mid) - v(xcm.vcc_clp,xcm.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   417 : g.xcm.x_u10.gvo- xcm.mid xcm.n2991763 xcm.x_u10.gvo-_int1 0 1
+   419 : b.xcm.x_u10.bgvo- xcm.x_u10.gvo-_int1 0 v= ( ternary_fcn ( ( v(xcm.vout_s,xcm.mid) < v(xcm.vee_clp,xcm.mid) ) , ( ( ( v(xcm.vee_clp,xcm.mid) - v(xcm.vout_s,xcm.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   413 : g.xcm.x_u11.gvo+ xcm.mid xcm.n2991809 xcm.x_u11.gvo+_int1 0 1
+   415 : b.xcm.x_u11.bgvo+ xcm.x_u11.gvo+_int1 0 v= ( ternary_fcn ( ( v(xcm.vimon,xcm.mid) > v(xcm.n2991807,xcm.mid) ) , ( ( ( v(xcm.vimon,xcm.mid) - v(xcm.n2991807,xcm.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   417 : g.xcm.x_u11.gvo- xcm.mid xcm.n2991837 xcm.x_u11.gvo-_int1 0 1
+   419 : b.xcm.x_u11.bgvo- xcm.x_u11.gvo-_int1 0 v= ( ternary_fcn ( ( v(xcm.vimon,xcm.mid) < v(xcm.n2991849,xcm.mid) ) , ( ( ( v(xcm.n2991849,xcm.mid) - v(xcm.vimon,xcm.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   397 : g.xcm.x_u12.gvo+ xcm.mid xcm.n2991905 xcm.x_u12.gvo+_int1 0 1
+   399 : b.xcm.x_u12.bgvo+ xcm.x_u12.gvo+_int1 0 v= ( ternary_fcn ( ( v(xcm.n2991969,xcm.mid) > v(xcm.n2991901,xcm.mid) ) , ( ( ( v(xcm.n2991969,xcm.mid) - v(xcm.n2991901,xcm.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   401 : g.xcm.x_u12.gvo- xcm.mid xcm.n2991931 xcm.x_u12.gvo-_int1 0 1
+   403 : b.xcm.x_u12.bgvo- xcm.x_u12.gvo-_int1 0 v= ( ternary_fcn ( ( v(xcm.n2991969,xcm.mid) < v(xcm.n2991943,xcm.mid) ) , ( ( ( v(xcm.n2991943,xcm.mid) - v(xcm.n2991969,xcm.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   545 : g.xcm.x_u16.gsw+ xcm.mid xcm.n2992105 xcm.x_u16.gsw+_int1 0 1
+   547 : b.xcm.x_u16.bgsw+ xcm.x_u16.gsw+_int1 0 v= ( ternary_fcn ( ( ( v(xcm.n2992093,xcm.mid) >   1.0000000000e-02 || v(xcm.n2992099,xcm.mid) >   1.0000000000e-02 ) ) ,   1.0000000000e+00 ,   0.0000000000e+00 ) )
+   441 : g.xcm.x_u18.g1 xcm.n2991997 xcm.vcc_b xcm.x_u18.g1_int1 0 1
+   443 : b.xcm.x_u18.bg1 xcm.x_u18.g1_int2 0 v= ( v(xcm.vimon,xcm.mid) )
+   444 : a.xcm.x_u18.ag1 %v xcm.x_u18.g1_int2 %v xcm.x_u18.g1_int1 xcm.x_u18:xfer_g1
+   445 : .model xcm.x_u18:xfer_g1 pwl(x_array=[0 10 22 45 53 60 ] y_array=[11.47e-6 1.5e-4 3.0e-4 6.9e-4 9.0e-4 1.24e-3 ] input_domain=0.1 fraction=true limit=true)
+   428 : g.xcm.x_u19.g1 xcm.vee_b xcm.n2992001 xcm.x_u19.g1_int1 0 1
+   430 : b.xcm.x_u19.bg1 xcm.x_u19.g1_int2 0 v= ( v(xcm.mid,xcm.vimon) )
+   431 : a.xcm.x_u19.ag1 %v xcm.x_u19.g1_int2 %v xcm.x_u19.g1_int1 xcm.x_u19:xfer_g1
+   432 : .model xcm.x_u19:xfer_g1 pwl(x_array=[0 11 60 ] y_array=[15.45e-6 3.35e-4 1.90e-3 ] input_domain=0.1 fraction=true limit=true)
+   495 : .model xcm.x_u21:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   496 : a.xcm.x_u21.as1 %gd cmdrv v5 %gd cmdrv v5 xcm.x_u21:aesd_sw
+   497 : a.xcm.x_u21.as2 %gd 0 cmdrv %gd 0 cmdrv xcm.x_u21:aesd_sw
+   473 : g.xcm.x_u22.g1 xcm.cl_clamp xcm.mid xcm.x_u22.g1_int1 0 1
+   475 : b.xcm.x_u22.bg1 xcm.x_u22.g1_int1 0 v= ( ternary_fcn ( (   -6.000000000000000e+00    ) > (    6.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991811,xcm.n2991831) ) , (   -6.000000000000000e+00    ) ) , (    6.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991811,xcm.n2991831) ) , (    6.000000000000000e+00    ) ) , (   -6.000000000000000e+00    ) ) ) )
+   522 : g.xcm.x_u23.g1 xcm.clamp xcm.mid xcm.x_u23.g1_int1 0 1
+   524 : b.xcm.x_u23.bg1 xcm.x_u23.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e+01    ) > (    5.000000000000000e+01    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991907,xcm.n2991925) ) , (   -5.000000000000000e+01    ) ) , (    5.000000000000000e+01    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991907,xcm.n2991925) ) , (    5.000000000000000e+01    ) ) , (   -5.000000000000000e+01    ) ) ) )
+   555 : .model xcm.x_u25:aol_sw pswitch( log=true r_on=1e-3 r_off=1e12 cntl_on=900e-3 cntl_off=800e-3)
+   556 : a.xcm.x_u25.as1 %gd xcm.sw_ol_opax388 xcm.mid %gd xcm.n3294626 xcm.n3294630 xcm.x_u25:aol_sw
+   534 : g.xcm.x_u26.g1 v5 xcm.mid xcm.x_u26.g1_int1 0 1
+   536 : b.xcm.x_u26.bg1 xcm.x_u26.g1_int1 0 v= ( ternary_fcn ( ( ( v(xcm.vimon,xcm.mid) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(xcm.vimon,xcm.mid) ) ) )
+   534 : g.xcm.x_u27.g1 xcm.mid 0 xcm.x_u27.g1_int1 0 1
+   536 : b.xcm.x_u27.bg1 xcm.x_u27.g1_int1 0 v= ( ternary_fcn ( ( ( v(xcm.mid,xcm.vimon) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(xcm.mid,xcm.vimon) ) ) )
+   370 : g.xcm.x_u30.g1 xcm.mid xcm.n2991667 xcm.x_u30.g1_int1 0 1
+   372 : b.xcm.x_u30.bg1 xcm.x_u30.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e-01    ) > (    5.000000000000000e-01    ) , max ( min ( ( (    1.000000000000000e-04    ) * v(xcm.n2991657,xcm.n2991619) ) , (   -5.000000000000000e-01    ) ) , (    5.000000000000000e-01    ) ) , max ( min ( ( (    1.000000000000000e-04    ) * v(xcm.n2991657,xcm.n2991619) ) , (    5.000000000000000e-01    ) ) , (   -5.000000000000000e-01    ) ) ) )
+   385 : g.xcm.x_u31.g1 xcm.mid xcm.clamp xcm.x_u31.g1_int1 0 1
+   387 : b.xcm.x_u31.bg1 xcm.x_u31.g1_int1 0 v= ( ternary_fcn ( (   -2.210000000000000e+00    ) > (    2.210000000000000e+00    ) , max ( min ( ( (    2.511900000000000e-01    ) * v(xcm.n2991667,xcm.mid) ) , (   -2.210000000000000e+00    ) ) , (    2.210000000000000e+00    ) ) , max ( min ( ( (    2.511900000000000e-01    ) * v(xcm.n2991667,xcm.mid) ) , (    2.210000000000000e+00    ) ) , (   -2.210000000000000e+00    ) ) ) )
+   608 : g.xcm.x_u32.g1 xcm.mid xcm.n3294682 xcm.x_u32.g1_int1 0 1
+   610 : b.xcm.x_u32.bg1 xcm.x_u32.g1_int1 0 v= ( ternary_fcn ( (   -2.500000000000000e+05    ) > (    2.500000000000000e+05    ) , max ( min ( ( (    1.250000000000000e+03    ) * v(xcm.n3828449,xcm.mid) ) , (   -2.500000000000000e+05    ) ) , (    2.500000000000000e+05    ) ) , max ( min ( ( (    1.250000000000000e+03    ) * v(xcm.n3828449,xcm.mid) ) , (    2.500000000000000e+05    ) ) , (   -2.500000000000000e+05    ) ) ) )
+   458 : g.xcm.x_u35.g1 xcm.claw_clamp xcm.mid xcm.x_u35.g1_int1 0 1
+   460 : b.xcm.x_u35.bg1 xcm.x_u35.g1_int1 0 v= ( ternary_fcn ( (   -3.000000000000000e+00    ) > (    3.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991741,xcm.n2991765) ) , (   -3.000000000000000e+00    ) ) , (    3.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991741,xcm.n2991765) ) , (    3.000000000000000e+00    ) ) , (   -3.000000000000000e+00    ) ) ) )
+   506 : e.xcm.x_u38.e1 xcm.x_u38.3 0 xcm.x_u38.5 0 10
+   507 : r.xcm.x_u38.r1 xcm.x_u38.5 0   1.206602856000000e+04   
+   508 : r.xcm.x_u38.r2 xcm.x_u38.5 0   1.206602856000000e+04   
+   509 : g.xcm.x_u38.g1 xcm.mid xcm.n2991573 xcm.x_u38.3 0 1e-6
+   506 : e.xcm.x_u39.e1 xcm.x_u39.3 0 xcm.x_u39.5 0 10
+   507 : r.xcm.x_u39.r1 xcm.x_u39.5 0   1.206602856000000e+04   
+   508 : r.xcm.x_u39.r2 xcm.x_u39.5 0   1.206602856000000e+04   
+   509 : g.xcm.x_u39.g1 xcm.esdn xcm.mid xcm.x_u39.3 0 1e-6
+   593 : e.xcm.x_u4.e1 xcm.n2991555 xcm.n2991573 xcm.x_u4.e1_int1 0 1
+   595 : b.xcm.x_u4.be1 xcm.x_u4.e1_int1 0 v= (   -3.002020000000000e-07    ) + (    1.000000000000000e+00    ) * (    5.000000000000000e-09    ) * ( ( temper )  -2.7000000000e+01 )
+   577 : r.xcm.x_u40.r4 xcm.x_u40.5 0   5.918212160000000e+01   
+   578 : r.xcm.x_u40.r5 xcm.x_u40.5 0   5.918212160000000e+01   
+   579 : e.xcm.x_u40.e3 xcm.esdp xcm.n2991573 xcm.x_u40.5 0 10
+   483 : .model xcm.x_u5:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   484 : a.xcm.x_u5.as1 %gd xcm.esdn v5 %gd xcm.esdn v5 xcm.x_u5:aesd_sw
+   485 : a.xcm.x_u5.as2 %gd xcm.esdp v5 %gd xcm.esdp v5 xcm.x_u5:aesd_sw
+   486 : a.xcm.x_u5.as3 %gd 0 xcm.esdn %gd 0 xcm.esdn xcm.x_u5:aesd_sw
+   487 : a.xcm.x_u5.as4 %gd 0 xcm.esdp %gd 0 xcm.esdp xcm.x_u5:aesd_sw
+   566 : g.xcm.x_u6.g1 xcm.mid xcm.n2991643 xcm.x_u6.g1_int1 0 1
+   568 : b.xcm.x_u6.bg1 xcm.x_u6.g1_int1 0 v= ( ternary_fcn ( ( v(xcm.n2991635,xcm.mid) ) > ( v(xcm.n2991623,xcm.mid) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991587,xcm.mid) ) , ( v(xcm.n2991635,xcm.mid) ) ) , ( v(xcm.n2991623,xcm.mid) ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xcm.n2991587,xcm.mid) ) , ( v(xcm.n2991623,xcm.mid) ) ) , ( v(xcm.n2991635,xcm.mid) ) ) ) )
+   310 : .model xcm:r_noiseless res ( temp=-273.15)
+   619 : rcmiso cmdrv vcm 1k
+   620 : rcmfb vcm cmfb 4.99k
+   621 : ccmhf cmdrv cmfb 100p
+   622 : ccml vcm 0 1n
+   623 : rup vcm vexcmd 10k
+   624 : rdn vexcmd 0 90k
+   103 : c.xex.c_c1 xex.n3294772 xex.n3294776 140f 
+   104 : c.xex.c_c10 xex.n3294626 xex.n3294630 39.8u 
+   105 : c.xex.c_c11 xex.mid xex.n47456861 7.96n 
+   106 : c.xex.c_c121 xex.n4736080 xex.n3294524 884.2f 
+   107 : c.xex.c_c122 xex.mid xex.n47492651 796p 
+   108 : c.xex.c_c123 xex.mid xex.n47965841 40p 
+   109 : c.xex.c_c124 xex.n4797748 xex.n4797760 40.8p 
+   110 : c.xex.c_c125 xex.mid xex.n48001371 530f 
+   111 : c.xex.c_c126 xex.n4809008 xex.n2991553 1.4n 
+   112 : c.xex.c_c127 xex.n4817896 xex.n2991581 1.105p 
+   113 : c.xex.c_c13 xex.n2992397 0 1f 
+   114 : c.xex.c_c14 0 xex.n2992375 2u 
+   115 : c.xex.c_c15 xex.n2992413 0 1f 
+   116 : c.xex.c_c16 xex.n2991741 xex.mid 1f 
+   117 : c.xex.c_c17 xex.n2991765 xex.mid 1f 
+   118 : c.xex.c_c18 xex.n2991811 xex.mid 1f 
+   119 : c.xex.c_c19 xex.n2991831 xex.mid 1f 
+   120 : c.xex.c_c20 xex.n2991907 xex.mid 1f 
+   121 : c.xex.c_c21 xex.n2991925 xex.mid 1f 
+   122 : c.xex.c_c22 xex.mid xex.n2991969 1f 
+   123 : c.xex.c_c23 xex.n2992033 xex.mid 1f 
+   124 : c.xex.c_c24 xex.n2992029 xex.mid 1f 
+   125 : c.xex.c_c25 xex.n2992093 xex.mid 1p 
+   126 : c.xex.c_c26 xex.n2992099 xex.mid 1p 
+   127 : c.xex.c_c27 xex.sw_ol_opax388 xex.mid 100p 
+   128 : c.xex.c_c29 xex.vimon xex.mid 1n 
+   129 : c.xex.c_c30 xex.vout_s xex.mid 1n 
+   130 : c.xex.c_c4 xex.n2991657 xex.mid 1f 
+   131 : c.xex.c_c5 xex.clamp xex.mid 403n 
+   132 : c.xex.c_c70 xex.vclp xex.mid 100p 
+   133 : c.xex.c_c72 xex.n4031911 xex.mid 3.9e-16 
+   134 : c.xex.c_c74 xex.n3827259 xex.n3828449 200f 
+   135 : c.xex.c_c77 xex.n3850714 xex.n3850724 1.105p 
+   136 : c.xex.c_c93 xex.n4243633 xex.n2991579 1.516n 
+   137 : c.xex.c_c_com0 xex.esdp xex.mid 4.5p 
+   138 : c.xex.c_c_com1 xex.mid xex.esdn 4.5p 
+   139 : c.xex.c_c_diff xex.esdn xex.esdp 2p 
+   140 : e.xex.e_e1 xex.mid 0 xex.n2992375 0 1
+   141 : e.xex.e_e3 xex.n2992163 xex.mid exdrv xex.mid 1
+   142 : e.xex.e_e4 xex.n3294618 xex.mid xex.cl_clamp xex.mid 1
+   143 : g.xex.g_g1 xex.n3294772 xex.mid xex.esdp xex.mid -35.19u
+   144 : g.xex.g_g100 xex.n4817896 xex.mid xex.n3850724 xex.mid -1.014k
+   145 : g.xex.g_g12 xex.claw_clamp xex.mid xex.n3294524 xex.mid -1m
+   146 : g.xex.g_g13 xex.cl_clamp xex.mid xex.claw_clamp xex.mid -1m
+   147 : g.xex.g_g16 xex.n3201092 xex.mid xex.n3294630 xex.mid -2.1
+   148 : g.xex.g_g18 xex.vcc_b 0 v5 0 -1
+   149 : g.xex.g_g19 xex.vee_b 0 0 0 -1
+   150 : g.xex.g_g2 xex.n2991563 xex.n2991555 xex.n2991553 xex.mid -1m
+   151 : g.xex.g_g20 xex.vcc_clp xex.mid xex.n2992033 xex.mid -1m
+   152 : g.xex.g_g21 xex.vee_clp xex.mid xex.n2992029 xex.mid -1m
+   153 : g.xex.g_g22 xex.n2992299 xex.mid xex.n2992295 xex.mid -1
+   154 : g.xex.g_g23 xex.n2992323 xex.mid xex.n2992331 xex.mid -1
+   155 : g.xex.g_g39 xex.n3294626 xex.mid xex.cl_clamp xex.n2992235 -237.45k
+   156 : g.xex.g_g4 xex.n3850714 xex.mid xex.vcc_b xex.mid -101.4u
+   157 : g.xex.g_g41 xex.n4031911 xex.mid xex.vsense xex.mid -1u
+   158 : g.xex.g_g5 xex.n2991587 xex.n2991583 xex.n2991581 xex.n2991579 -1m
+   159 : g.xex.g_g6 xex.vsense xex.mid xex.clamp xex.mid -1m
+   160 : g.xex.g_g63 xex.n4243633 xex.mid xex.vee_b xex.mid -162m
+   161 : g.xex.g_g92 xex.n4736080 xex.mid xex.n4031911 xex.mid -1.861
+   162 : g.xex.g_g93 xex.n4747399 xex.mid xex.n4745674 xex.mid -1
+   163 : g.xex.g_g95 xex.n4796554 xex.mid xex.n4749239 xex.mid -1
+   164 : g.xex.g_g96 xex.n4797748 xex.mid xex.n4796572 xex.mid -1
+   165 : g.xex.g_g97 xex.n4798545 xex.mid xex.n4797760 xex.mid -3.77
+   166 : g.xex.g_g98 xex.n3827259 xex.mid xex.n4800105 xex.mid -1
+   167 : g.xex.g_g99 xex.n4809008 xex.mid xex.n3294776 xex.mid -351.9
+   168 : i.xex.i_i_b xex.n2991573 xex.mid dc 30p
+   169 : i.xex.i_i_os xex.esdn xex.mid dc -30p
+   170 : i.xex.i_i_q v5 0 dc 1.9m
+   171 : r.xex.r_r15 xex.n2991583 xex.n2991563 xex:r_noiseless 1m 
+   172 : r.xex.r_r16 xex.n2991587 xex.n2991583 xex:r_noiseless 1k 
+   173 : r.xex.r_r167 xex.n3294618 xex.vclp xex:r_noiseless 100 
+   174 : r.xex.r_r17 xex.n2991619 xex.esdn xex:r_noiseless 1m 
+   175 : r.xex.r_r171 xex.mid xex.n4031911 xex:r_noiseless 1meg 
+   176 : r.xex.r_r176 xex.mid xex.n3827259 xex:r_noiseless 1 
+   177 : r.xex.r_r178 xex.n3828449 xex.n3827259 xex:r_noiseless 10k 
+   178 : r.xex.r_r179 xex.mid xex.n3828449 xex:r_noiseless 8 
+   179 : r.xex.r_r18 xex.mid xex.n2991623 xex:r_noiseless 1t 
+   180 : r.xex.r_r187 xex.n3850724 xex.n3850714 xex:r_noiseless 100meg 
+   181 : r.xex.r_r189 xex.mid xex.n3850714 xex:r_noiseless 1 
+   182 : r.xex.r_r19 xex.mid xex.n2991635 xex:r_noiseless 1t 
+   183 : r.xex.r_r190 xex.mid xex.n3850724 xex:r_noiseless 98.728k 
+   184 : r.xex.r_r20 xex.n2991643 xex.mid xex:r_noiseless 1 
+   185 : r.xex.r_r21 xex.n2991657 xex.n2991643 xex:r_noiseless 1m 
+   186 : r.xex.r_r22 xex.mid xex.n2991667 xex:r_noiseless 1meg 
+   187 : r.xex.r_r23 xex.mid xex.clamp xex:r_noiseless 1meg 
+   188 : r.xex.r_r230 xex.n2991579 xex.n4243633 xex:r_noiseless 100meg 
+   189 : r.xex.r_r233 xex.mid xex.n2991579 xex:r_noiseless 61.76 
+   190 : r.xex.r_r234 xex.mid xex.n4243633 xex:r_noiseless 1 
+   191 : r.xex.r_r24 xex.mid xex.vsense xex:r_noiseless 1k 
+   192 : r.xex.r_r301 xex.n3294524 xex.n4736080 xex:r_noiseless 10k 
+   193 : r.xex.r_r302 xex.mid xex.n4736080 xex:r_noiseless 1 
+   194 : r.xex.r_r303 xex.mid xex.n3294524 xex:r_noiseless 11.61k 
+   195 : r.xex.r_r304 xex.n4749239 xex.n4747399 xex:r_noiseless 190k 
+   196 : r.xex.r_r305 xex.n47492651 xex.n4749239 xex:r_noiseless 10k 
+   197 : r.xex.r_r306 xex.mid xex.n4747399 xex:r_noiseless 1 
+   198 : r.xex.r_r307 xex.n4796572 xex.n4796554 xex:r_noiseless 770k 
+   199 : r.xex.r_r308 xex.n47965841 xex.n4796572 xex:r_noiseless 10k 
+   200 : r.xex.r_r309 xex.mid xex.n4796554 xex:r_noiseless 1 
+   201 : r.xex.r_r310 xex.n4797760 xex.n4797748 xex:r_noiseless 10k 
+   202 : r.xex.r_r311 xex.mid xex.n4797748 xex:r_noiseless 1 
+   203 : r.xex.r_r312 xex.mid xex.n4797760 xex:r_noiseless 3.61k 
+   204 : r.xex.r_r313 xex.mid xex.n4798545 xex:r_noiseless 1 
+   205 : r.xex.r_r314 xex.n4800105 xex.n4798545 xex:r_noiseless 10k 
+   206 : r.xex.r_r315 xex.n48001371 xex.n4800105 xex:r_noiseless 10k 
+   207 : r.xex.r_r316 xex.n2991553 xex.n4809008 xex:r_noiseless 10k 
+   208 : r.xex.r_r317 xex.mid xex.n4809008 xex:r_noiseless 1 
+   209 : r.xex.r_r318 xex.mid xex.n2991553 xex:r_noiseless 28.5 
+   210 : r.xex.r_r319 xex.n2991581 xex.n4817896 xex:r_noiseless 100meg 
+   211 : r.xex.r_r32 xex.mid xex.claw_clamp xex:r_noiseless 1k 
+   212 : r.xex.r_r320 xex.mid xex.n2991581 xex:r_noiseless 98.728k 
+   213 : r.xex.r_r321 xex.mid xex.n4817896 xex:r_noiseless 1 
+   214 : r.xex.r_r33 xex.mid xex.cl_clamp xex:r_noiseless 1k 
+   215 : r.xex.r_r34 xex.n3294630 xex.n3294626 xex:r_noiseless 10k 
+   216 : r.xex.r_r35 xex.mid xex.n3294626 xex:r_noiseless 1 
+   217 : r.xex.r_r36 xex.mid xex.n3294630 xex:r_noiseless 9.09091k 
+   218 : r.xex.r_r37 xex.mid xex.n3201092 xex:r_noiseless 1 
+   219 : r.xex.r_r38 xex.n4745674 xex.n3201092 xex:r_noiseless 62.73k 
+   220 : r.xex.r_r39 xex.n47456861 xex.n4745674 xex:r_noiseless 10k 
+   221 : r.xex.r_r43 xex.mid xex.n3294682 xex:r_noiseless 1 
+   222 : r.xex.r_r46 xex.vcc_b 0 xex:r_noiseless 1 
+   223 : r.xex.r_r47 xex.vcc_b xex.n2992397 xex:r_noiseless 1m 
+   224 : r.xex.r_r48 xex.n2992397 xex.n2992375 xex:r_noiseless 1meg 
+   225 : r.xex.r_r49 xex.n2992375 0 xex:r_noiseless 1t 
+   226 : r.xex.r_r5 xex.mid xex.n3294772 xex:r_noiseless 1 
+   227 : r.xex.r_r50 xex.n2992375 xex.n2992413 xex:r_noiseless 1meg 
+   228 : r.xex.r_r51 xex.n2992413 xex.vee_b xex:r_noiseless 1m 
+   229 : r.xex.r_r52 xex.vee_b 0 xex:r_noiseless 1 
+   230 : r.xex.r_r53 xex.vcc_clp xex.mid xex:r_noiseless 1t 
+   231 : r.xex.r_r54 xex.n2991729 xex.mid xex:r_noiseless 1 
+   232 : r.xex.r_r55 xex.n2991741 xex.n2991729 xex:r_noiseless 1m 
+   233 : r.xex.r_r56 xex.vee_clp xex.mid xex:r_noiseless 1t 
+   234 : r.xex.r_r57 xex.n2991763 xex.mid xex:r_noiseless 1 
+   235 : r.xex.r_r58 xex.n2991765 xex.n2991763 xex:r_noiseless 1m 
+   236 : r.xex.r_r59 xex.n2991807 xex.mid xex:r_noiseless 1t 
+   237 : r.xex.r_r6 xex.n3294776 xex.n3294772 xex:r_noiseless 100meg 
+   238 : r.xex.r_r60 xex.n2991809 xex.mid xex:r_noiseless 1 
+   239 : r.xex.r_r61 xex.n2991811 xex.n2991809 xex:r_noiseless 1m 
+   240 : r.xex.r_r62 xex.n2991831 xex.n2991837 xex:r_noiseless 1m 
+   241 : r.xex.r_r63 xex.n2991849 xex.mid xex:r_noiseless 1t 
+   242 : r.xex.r_r64 xex.n2991837 xex.mid xex:r_noiseless 1 
+   243 : r.xex.r_r65 xex.n2991901 xex.mid xex:r_noiseless 1t 
+   244 : r.xex.r_r66 xex.n2991905 xex.mid xex:r_noiseless 1 
+   245 : r.xex.r_r67 xex.n2991907 xex.n2991905 xex:r_noiseless 1m 
+   246 : r.xex.r_r68 xex.n2991925 xex.n2991931 xex:r_noiseless 1m 
+   247 : r.xex.r_r69 xex.n2991943 xex.mid xex:r_noiseless 1t 
+   248 : r.xex.r_r7 xex.mid xex.n3294776 xex:r_noiseless 285k 
+   249 : r.xex.r_r70 xex.n2991931 xex.mid xex:r_noiseless 1 
+   250 : r.xex.r_r71 xex.n2991969 xex.vsense xex:r_noiseless 1m 
+   251 : r.xex.r_r72 xex.vcc_b xex.n2991997 xex:r_noiseless 1k 
+   252 : r.xex.r_r73 xex.n2991997 xex.n2992033 xex:r_noiseless 1m 
+   253 : r.xex.r_r74 xex.n2992001 xex.vee_b xex:r_noiseless 1k 
+   254 : r.xex.r_r75 xex.n2992001 xex.n2992029 xex:r_noiseless 1m 
+   255 : r.xex.r_r76 xex.mid xex.vcc_clp xex:r_noiseless 1k 
+   256 : r.xex.r_r77 xex.vee_clp xex.mid xex:r_noiseless 1k 
+   257 : r.xex.r_r78 xex.n2992323 xex.mid xex:r_noiseless 1 
+   258 : r.xex.r_r79 xex.n2992299 xex.mid xex:r_noiseless 1 
+   259 : r.xex.r_r8 xex.n2991563 xex.n2991555 xex:r_noiseless 1k 
+   260 : r.xex.r_r80 xex.v11 xex.n2992093 xex:r_noiseless 100 
+   261 : r.xex.r_r81 xex.v12 xex.n2992099 xex:r_noiseless 100 
+   262 : r.xex.r_r82 xex.n2992105 xex.mid xex:r_noiseless 1 
+   263 : r.xex.r_r83 xex.n2992105 xex.sw_ol_opax388 xex:r_noiseless 100 
+   264 : r.xex.r_rdummy xex.mid xex.n2992235 xex:r_noiseless 1.75k 
+   265 : r.xex.r_rs_inn exfb xex.esdn xex:r_noiseless 10m 
+   266 : r.xex.r_rs_inp vexcmd xex.esdp xex:r_noiseless 10m 
+   267 : r.xex.r_rx xex.n2992235 xex.n3294682 xex:r_noiseless 17.5k 
+   268 : r.xex.r_rx1 xex.mid xex.n2992151 xex:r_noiseless 1t 
+   269 : r.xex.r_rx2 xex.vimon xex.n2992151 xex:r_noiseless 100 
+   270 : r.xex.r_rx3 xex.mid xex.n2992163 xex:r_noiseless 1t 
+   271 : r.xex.r_rx4 xex.vout_s xex.n2992163 xex:r_noiseless 100 
+   272 : r.xex.r_r_cm1 xex.esdp xex.mid xex:r_noiseless 1t 
+   273 : r.xex.r_r_cm2 xex.mid xex.esdn xex:r_noiseless 1t 
+   274 : r.xex.r_r_diff xex.esdn xex.esdp xex:r_noiseless 100meg 
+   275 : v.xex.v_vcm_max xex.n2991623 xex.vcc_b 100m
+   276 : v.xex.v_vcm_min xex.n2991635 xex.vee_b -100m
+   277 : v.xex.v_v_grn xex.n2991943 xex.mid -150
+   278 : v.xex.v_v_grp xex.n2991901 xex.mid 150
+   279 : v.xex.v_v_iscn xex.n2991849 xex.mid -60
+   280 : v.xex.v_v_iscp xex.n2991807 xex.mid 60
+   281 : v.xex.v_v_orn xex.n2992295 xex.vclp -55
+   282 : v.xex.v_v_orp xex.n2992331 xex.vclp 55
+   318 : h.xex.x_h1.h_h1 xex.n2992151 xex.mid v.xex.x_h1.vh_h1 1k
+   319 : v.xex.x_h1.vh_h1 xex.n2992235 exdrv 0v
+   327 : h.xex.x_h2.h_h2 xex.v12 xex.mid v.xex.x_h2.vh_h2 1
+   328 : v.xex.x_h2.vh_h2 xex.n2992287 xex.n2992323 0v
+   336 : h.xex.x_h3.h_h3 xex.v11 xex.mid v.xex.x_h3.vh_h3 -1
+   337 : v.xex.x_h3.vh_h3 xex.n2992267 xex.n2992299 0v
+   345 : a.xex.x_s1.as_s1 %gd xex.n2992267 xex.clamp %gd xex.n2992267 xex.clamp xex.x_s1:a_s1
+   346 : r.xex.x_s1.rs_s1 xex.n2992267 xex.clamp 1g 
+   347 : .model xex.x_s1:a_s1 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   355 : a.xex.x_s2.as_s2 %gd xex.clamp xex.n2992287 %gd xex.clamp xex.n2992287 xex.x_s2:a_s2
+   356 : r.xex.x_s2.rs_s2 xex.clamp xex.n2992287 1g 
+   357 : .model xex.x_s2:a_s2 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   413 : g.xex.x_u10.gvo+ xex.mid xex.n2991729 xex.x_u10.gvo+_int1 0 1
+   415 : b.xex.x_u10.bgvo+ xex.x_u10.gvo+_int1 0 v= ( ternary_fcn ( ( v(xex.vout_s,xex.mid) > v(xex.vcc_clp,xex.mid) ) , ( ( ( v(xex.vout_s,xex.mid) - v(xex.vcc_clp,xex.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   417 : g.xex.x_u10.gvo- xex.mid xex.n2991763 xex.x_u10.gvo-_int1 0 1
+   419 : b.xex.x_u10.bgvo- xex.x_u10.gvo-_int1 0 v= ( ternary_fcn ( ( v(xex.vout_s,xex.mid) < v(xex.vee_clp,xex.mid) ) , ( ( ( v(xex.vee_clp,xex.mid) - v(xex.vout_s,xex.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   413 : g.xex.x_u11.gvo+ xex.mid xex.n2991809 xex.x_u11.gvo+_int1 0 1
+   415 : b.xex.x_u11.bgvo+ xex.x_u11.gvo+_int1 0 v= ( ternary_fcn ( ( v(xex.vimon,xex.mid) > v(xex.n2991807,xex.mid) ) , ( ( ( v(xex.vimon,xex.mid) - v(xex.n2991807,xex.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   417 : g.xex.x_u11.gvo- xex.mid xex.n2991837 xex.x_u11.gvo-_int1 0 1
+   419 : b.xex.x_u11.bgvo- xex.x_u11.gvo-_int1 0 v= ( ternary_fcn ( ( v(xex.vimon,xex.mid) < v(xex.n2991849,xex.mid) ) , ( ( ( v(xex.n2991849,xex.mid) - v(xex.vimon,xex.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   397 : g.xex.x_u12.gvo+ xex.mid xex.n2991905 xex.x_u12.gvo+_int1 0 1
+   399 : b.xex.x_u12.bgvo+ xex.x_u12.gvo+_int1 0 v= ( ternary_fcn ( ( v(xex.n2991969,xex.mid) > v(xex.n2991901,xex.mid) ) , ( ( ( v(xex.n2991969,xex.mid) - v(xex.n2991901,xex.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   401 : g.xex.x_u12.gvo- xex.mid xex.n2991931 xex.x_u12.gvo-_int1 0 1
+   403 : b.xex.x_u12.bgvo- xex.x_u12.gvo-_int1 0 v= ( ternary_fcn ( ( v(xex.n2991969,xex.mid) < v(xex.n2991943,xex.mid) ) , ( ( ( v(xex.n2991943,xex.mid) - v(xex.n2991969,xex.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   545 : g.xex.x_u16.gsw+ xex.mid xex.n2992105 xex.x_u16.gsw+_int1 0 1
+   547 : b.xex.x_u16.bgsw+ xex.x_u16.gsw+_int1 0 v= ( ternary_fcn ( ( ( v(xex.n2992093,xex.mid) >   1.0000000000e-02 || v(xex.n2992099,xex.mid) >   1.0000000000e-02 ) ) ,   1.0000000000e+00 ,   0.0000000000e+00 ) )
+   441 : g.xex.x_u18.g1 xex.n2991997 xex.vcc_b xex.x_u18.g1_int1 0 1
+   443 : b.xex.x_u18.bg1 xex.x_u18.g1_int2 0 v= ( v(xex.vimon,xex.mid) )
+   444 : a.xex.x_u18.ag1 %v xex.x_u18.g1_int2 %v xex.x_u18.g1_int1 xex.x_u18:xfer_g1
+   445 : .model xex.x_u18:xfer_g1 pwl(x_array=[0 10 22 45 53 60 ] y_array=[11.47e-6 1.5e-4 3.0e-4 6.9e-4 9.0e-4 1.24e-3 ] input_domain=0.1 fraction=true limit=true)
+   428 : g.xex.x_u19.g1 xex.vee_b xex.n2992001 xex.x_u19.g1_int1 0 1
+   430 : b.xex.x_u19.bg1 xex.x_u19.g1_int2 0 v= ( v(xex.mid,xex.vimon) )
+   431 : a.xex.x_u19.ag1 %v xex.x_u19.g1_int2 %v xex.x_u19.g1_int1 xex.x_u19:xfer_g1
+   432 : .model xex.x_u19:xfer_g1 pwl(x_array=[0 11 60 ] y_array=[15.45e-6 3.35e-4 1.90e-3 ] input_domain=0.1 fraction=true limit=true)
+   495 : .model xex.x_u21:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   496 : a.xex.x_u21.as1 %gd exdrv v5 %gd exdrv v5 xex.x_u21:aesd_sw
+   497 : a.xex.x_u21.as2 %gd 0 exdrv %gd 0 exdrv xex.x_u21:aesd_sw
+   473 : g.xex.x_u22.g1 xex.cl_clamp xex.mid xex.x_u22.g1_int1 0 1
+   475 : b.xex.x_u22.bg1 xex.x_u22.g1_int1 0 v= ( ternary_fcn ( (   -6.000000000000000e+00    ) > (    6.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991811,xex.n2991831) ) , (   -6.000000000000000e+00    ) ) , (    6.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991811,xex.n2991831) ) , (    6.000000000000000e+00    ) ) , (   -6.000000000000000e+00    ) ) ) )
+   522 : g.xex.x_u23.g1 xex.clamp xex.mid xex.x_u23.g1_int1 0 1
+   524 : b.xex.x_u23.bg1 xex.x_u23.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e+01    ) > (    5.000000000000000e+01    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991907,xex.n2991925) ) , (   -5.000000000000000e+01    ) ) , (    5.000000000000000e+01    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991907,xex.n2991925) ) , (    5.000000000000000e+01    ) ) , (   -5.000000000000000e+01    ) ) ) )
+   555 : .model xex.x_u25:aol_sw pswitch( log=true r_on=1e-3 r_off=1e12 cntl_on=900e-3 cntl_off=800e-3)
+   556 : a.xex.x_u25.as1 %gd xex.sw_ol_opax388 xex.mid %gd xex.n3294626 xex.n3294630 xex.x_u25:aol_sw
+   534 : g.xex.x_u26.g1 v5 xex.mid xex.x_u26.g1_int1 0 1
+   536 : b.xex.x_u26.bg1 xex.x_u26.g1_int1 0 v= ( ternary_fcn ( ( ( v(xex.vimon,xex.mid) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(xex.vimon,xex.mid) ) ) )
+   534 : g.xex.x_u27.g1 xex.mid 0 xex.x_u27.g1_int1 0 1
+   536 : b.xex.x_u27.bg1 xex.x_u27.g1_int1 0 v= ( ternary_fcn ( ( ( v(xex.mid,xex.vimon) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(xex.mid,xex.vimon) ) ) )
+   370 : g.xex.x_u30.g1 xex.mid xex.n2991667 xex.x_u30.g1_int1 0 1
+   372 : b.xex.x_u30.bg1 xex.x_u30.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e-01    ) > (    5.000000000000000e-01    ) , max ( min ( ( (    1.000000000000000e-04    ) * v(xex.n2991657,xex.n2991619) ) , (   -5.000000000000000e-01    ) ) , (    5.000000000000000e-01    ) ) , max ( min ( ( (    1.000000000000000e-04    ) * v(xex.n2991657,xex.n2991619) ) , (    5.000000000000000e-01    ) ) , (   -5.000000000000000e-01    ) ) ) )
+   385 : g.xex.x_u31.g1 xex.mid xex.clamp xex.x_u31.g1_int1 0 1
+   387 : b.xex.x_u31.bg1 xex.x_u31.g1_int1 0 v= ( ternary_fcn ( (   -2.210000000000000e+00    ) > (    2.210000000000000e+00    ) , max ( min ( ( (    2.511900000000000e-01    ) * v(xex.n2991667,xex.mid) ) , (   -2.210000000000000e+00    ) ) , (    2.210000000000000e+00    ) ) , max ( min ( ( (    2.511900000000000e-01    ) * v(xex.n2991667,xex.mid) ) , (    2.210000000000000e+00    ) ) , (   -2.210000000000000e+00    ) ) ) )
+   608 : g.xex.x_u32.g1 xex.mid xex.n3294682 xex.x_u32.g1_int1 0 1
+   610 : b.xex.x_u32.bg1 xex.x_u32.g1_int1 0 v= ( ternary_fcn ( (   -2.500000000000000e+05    ) > (    2.500000000000000e+05    ) , max ( min ( ( (    1.250000000000000e+03    ) * v(xex.n3828449,xex.mid) ) , (   -2.500000000000000e+05    ) ) , (    2.500000000000000e+05    ) ) , max ( min ( ( (    1.250000000000000e+03    ) * v(xex.n3828449,xex.mid) ) , (    2.500000000000000e+05    ) ) , (   -2.500000000000000e+05    ) ) ) )
+   458 : g.xex.x_u35.g1 xex.claw_clamp xex.mid xex.x_u35.g1_int1 0 1
+   460 : b.xex.x_u35.bg1 xex.x_u35.g1_int1 0 v= ( ternary_fcn ( (   -3.000000000000000e+00    ) > (    3.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991741,xex.n2991765) ) , (   -3.000000000000000e+00    ) ) , (    3.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991741,xex.n2991765) ) , (    3.000000000000000e+00    ) ) , (   -3.000000000000000e+00    ) ) ) )
+   506 : e.xex.x_u38.e1 xex.x_u38.3 0 xex.x_u38.5 0 10
+   507 : r.xex.x_u38.r1 xex.x_u38.5 0   1.206602856000000e+04   
+   508 : r.xex.x_u38.r2 xex.x_u38.5 0   1.206602856000000e+04   
+   509 : g.xex.x_u38.g1 xex.mid xex.n2991573 xex.x_u38.3 0 1e-6
+   506 : e.xex.x_u39.e1 xex.x_u39.3 0 xex.x_u39.5 0 10
+   507 : r.xex.x_u39.r1 xex.x_u39.5 0   1.206602856000000e+04   
+   508 : r.xex.x_u39.r2 xex.x_u39.5 0   1.206602856000000e+04   
+   509 : g.xex.x_u39.g1 xex.esdn xex.mid xex.x_u39.3 0 1e-6
+   593 : e.xex.x_u4.e1 xex.n2991555 xex.n2991573 xex.x_u4.e1_int1 0 1
+   595 : b.xex.x_u4.be1 xex.x_u4.e1_int1 0 v= (   -3.002020000000000e-07    ) + (    1.000000000000000e+00    ) * (    5.000000000000000e-09    ) * ( ( temper )  -2.7000000000e+01 )
+   577 : r.xex.x_u40.r4 xex.x_u40.5 0   5.918212160000000e+01   
+   578 : r.xex.x_u40.r5 xex.x_u40.5 0   5.918212160000000e+01   
+   579 : e.xex.x_u40.e3 xex.esdp xex.n2991573 xex.x_u40.5 0 10
+   483 : .model xex.x_u5:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   484 : a.xex.x_u5.as1 %gd xex.esdn v5 %gd xex.esdn v5 xex.x_u5:aesd_sw
+   485 : a.xex.x_u5.as2 %gd xex.esdp v5 %gd xex.esdp v5 xex.x_u5:aesd_sw
+   486 : a.xex.x_u5.as3 %gd 0 xex.esdn %gd 0 xex.esdn xex.x_u5:aesd_sw
+   487 : a.xex.x_u5.as4 %gd 0 xex.esdp %gd 0 xex.esdp xex.x_u5:aesd_sw
+   566 : g.xex.x_u6.g1 xex.mid xex.n2991643 xex.x_u6.g1_int1 0 1
+   568 : b.xex.x_u6.bg1 xex.x_u6.g1_int1 0 v= ( ternary_fcn ( ( v(xex.n2991635,xex.mid) ) > ( v(xex.n2991623,xex.mid) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991587,xex.mid) ) , ( v(xex.n2991635,xex.mid) ) ) , ( v(xex.n2991623,xex.mid) ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(xex.n2991587,xex.mid) ) , ( v(xex.n2991623,xex.mid) ) ) , ( v(xex.n2991635,xex.mid) ) ) ) )
+   310 : .model xex:r_noiseless res ( temp=-273.15)
+   626 : rexiso exdrv vexc 1k
+   627 : rexfb vexc exfb 4.99k
+   628 : cexhf exdrv exfb 100p
+   629 : cexl vexc 0 1n
+   630 : rcml vcm 0 1meg
+   631 : rexl vexc 0 1meg
+  1142 : .end
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e-02
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e-01
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+01
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+02
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+04
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+05
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+06
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+07
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+08
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  3.00000e+08
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+00
+No. of Data Rows : 424
+ngspice-47 done

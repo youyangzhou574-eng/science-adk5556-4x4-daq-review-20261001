@@ -1,0 +1,1 @@
+{"case": "follower_exact", "startedUTC": "2026-10-01T16:21:56.620550+00:00", "limitSeconds": 48.0, "status": "NORMAL_EXIT", "ownedPID": 71732, "lastProgressTime_s": 300000000.0, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 0.5335446000099182, "endedUTC": "2026-10-01T16:21:57.154095+00:00"}

@@ -1,0 +1,18 @@
+Title: actual psa pwl at frozen follower op
+Date: Fri Oct  2 00:44:02  2026
+Command: ngspice-47, Build Aug 11 2026   13:55:25
+Plotname: Operating Point
+Flags: real
+No. Variables: 4
+No. Points: 1
+Variables:
+	0	v(in)	voltage
+	1	i(a1)	current
+	2	v(out)	voltage
+	3	i(vin)	current
+Values:
+ 0	-2.500001316567726e-01
+	-2.022014056775699e-11
+	2.022014056775700e-05
+	0.000000000000000e+00
+

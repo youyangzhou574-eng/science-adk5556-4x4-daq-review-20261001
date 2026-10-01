@@ -1,0 +1,9 @@
+{
+  "status": "PASS_12_EXACT_TRANSFER_POINTS_ONLY",
+  "maxRelativeComplexError": 0.0009964463969898566,
+  "pointCount": 12,
+  "dimension": 128,
+  "internalPoleCertificate": false,
+  "compatibilityVariableMappingComplete": false,
+  "LINEARIZED_MNA_DESCRIPTOR_QUALIFIED": false
+}

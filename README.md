@@ -35,3 +35,9 @@ R2包含可读MD/TXT/CSV/PNG、六页PDF、原生工程、实际File审计、原
 ## R21 MIMO certification reference HOLD
 
 [Complete receipt](R21_MIMO_CERTIFICATION_AND_DYNAMIC_GATE_V1_20261001/COMPLETE_CERTIFICATION_RECEIPT.md) · [Readable evidence index](R21_MIMO_CERTIFICATION_AND_DYNAMIC_GATE_V1_20261001/README.md). New480min ruling consumed; offline only, no new SPICE/dynamic/native. Principal ROW4/TIA4/REF2 blocks remain algebraic candidates; internal physical reference certificate and true RHP contour HOLD. Known block state fixtures pass only analytic realization domain. Infinite QZ values retained; .1/1/10Hz are nearest frozen samples rather than exact points. Ten full readable CSVs, all failures/17 conservative diagnostics and proof sources retained. Bench not released.
+
+## 07 Internal descriptor P0 qualification HOLD
+
+[Complete receipt](R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1_20261001/COMPLETE_DESCRIPTOR_RECEIPT.md) · [Readable evidence](R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1_20261001/README.md). Full PSA generated internal variables retained; follower/ROW/TIA exact local responses pass only the point comparison. VCM/VEXC reference2 fails at a very small feedback response (absolute difference9.023e-9, relative21.726%), triggering scientific STOP. Seven native processes,65 explicit analyses,13 diagnostics; fourmacro start refused by sticky guard. No staircase/internal-pole/fullnetwork/transient/native certificate; bench not released. All raw failures, sources and readable CSV are direct files.
+
+User/web steering received: stop new descriptor/MIMO research as a native gate; next route is R2.1 schematic finalization plus bounded engineering validation. Current07 descriptor package is closed as historical blocked evidence.

@@ -1,0 +1,57 @@
+loop_tia_v
+.include "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_INTERNAL_DESCRIPTOR_DYNAMIC_AND_NATIVE_CLOSURE_V1\models\OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VTEST minus fb DC 0 AC 1
+ITEST 0 minus DC 0 AC 0
+X1 vcm minus v5 0 drv OPA4388
+RISO drv tap 1k
+RSENSE col fb 10k
+RF tap col 4.99k
+CF tap col 2.2n
+RARRAY col row 200
+VROW row 0 2.4375
+CL col 0 1n
+RADC tap ain 100
+CADC ain 0 10n
+RIN ain 0 1meg
+CHF drv fb 22p
+
+.save all
+.control
+set filetype=ascii
+set numdgt=15
+set wr_singlescale
+set wr_vecnames
+op
+write op.raw all
+listing e
+ac lin 1 0.01 0.01
+wrdata ac_00.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 0.1 0.1
+wrdata ac_01.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 1 1
+wrdata ac_02.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 10 10
+wrdata ac_03.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 100 100
+wrdata ac_04.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 1000 1000
+wrdata ac_05.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 10000 10000
+wrdata ac_06.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 100000 100000
+wrdata ac_07.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 1e+06 1e+06
+wrdata ac_08.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 1e+07 1e+07
+wrdata ac_09.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 1e+08 1e+08
+wrdata ac_10.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac lin 1 3e+08 3e+08
+wrdata ac_11.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+ac dec 50 1 300meg
+wrdata dense.txt v(minus) v(fb) v(drv) v(tap) v(col) v(ain)
+quit
+.endc
+.end

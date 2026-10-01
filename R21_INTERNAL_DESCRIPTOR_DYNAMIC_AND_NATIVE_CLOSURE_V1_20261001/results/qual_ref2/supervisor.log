@@ -1,0 +1,1 @@
+{"case": "qual_ref2", "startedUTC": "2026-10-01T16:51:28.860078+00:00", "limitSeconds": 48.0, "status": "NORMAL_EXIT", "ownedPID": 85868, "lastProgressTime_s": 1.0, "exitCode": 0, "analysisStatus": "PROCESS_EXIT_ONLY_REQUIRES_DATA_VALIDATION", "wallSeconds": 4.100217400118709, "endedUTC": "2026-10-01T16:51:32.960294+00:00"}

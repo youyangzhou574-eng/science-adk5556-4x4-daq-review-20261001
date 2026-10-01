@@ -1,0 +1,363 @@
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps a
+
+
+Circuit: loop_row_v
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+ASCII raw file "op.raw"
+	loop_row_v
+
+     1 : loop_row_v
+   609 : v5 v5 0 5
+   610 : vcm vcm 0 2.5
+   611 : vtest minus fb dc 0 ac 1
+   612 : itest 0 minus dc 0 ac 0
+   613 : vcmd cmd 0 2.25
+    98 : c.x1.c_c1 x1.n3294772 x1.n3294776 140f 
+    99 : c.x1.c_c10 x1.n3294626 x1.n3294630 39.8u 
+   100 : c.x1.c_c11 x1.mid x1.n47456861 7.96n 
+   101 : c.x1.c_c121 x1.n4736080 x1.n3294524 884.2f 
+   102 : c.x1.c_c122 x1.mid x1.n47492651 796p 
+   103 : c.x1.c_c123 x1.mid x1.n47965841 40p 
+   104 : c.x1.c_c124 x1.n4797748 x1.n4797760 40.8p 
+   105 : c.x1.c_c125 x1.mid x1.n48001371 530f 
+   106 : c.x1.c_c126 x1.n4809008 x1.n2991553 1.4n 
+   107 : c.x1.c_c127 x1.n4817896 x1.n2991581 318.3f 
+   108 : c.x1.c_c13 x1.n2992397 0 1f 
+   109 : c.x1.c_c14 0 x1.n2992375 2u 
+   110 : c.x1.c_c15 x1.n2992413 0 1f 
+   111 : c.x1.c_c16 x1.n2991741 x1.mid 1f 
+   112 : c.x1.c_c17 x1.n2991765 x1.mid 1f 
+   113 : c.x1.c_c18 x1.n2991811 x1.mid 1f 
+   114 : c.x1.c_c19 x1.n2991831 x1.mid 1f 
+   115 : c.x1.c_c20 x1.n2991907 x1.mid 1f 
+   116 : c.x1.c_c21 x1.n2991925 x1.mid 1f 
+   117 : c.x1.c_c22 x1.mid x1.n2991969 1f 
+   118 : c.x1.c_c23 x1.n2992033 x1.mid 1f 
+   119 : c.x1.c_c24 x1.n2992029 x1.mid 1f 
+   120 : c.x1.c_c25 x1.n2992093 x1.mid 1p 
+   121 : c.x1.c_c26 x1.n2992099 x1.mid 1p 
+   122 : c.x1.c_c27 x1.sw_ol_opa4388 x1.mid 100p 
+   123 : c.x1.c_c29 x1.vimon x1.mid 1n 
+   124 : c.x1.c_c30 x1.vout_s x1.mid 1n 
+   125 : c.x1.c_c4 x1.n2991657 x1.mid 1f 
+   126 : c.x1.c_c5 x1.clamp x1.mid 403n 
+   127 : c.x1.c_c70 x1.vclp x1.mid 100p 
+   128 : c.x1.c_c72 x1.n4031911 x1.mid 3.9e-16 
+   129 : c.x1.c_c74 x1.n3827259 x1.n3828449 200f 
+   130 : c.x1.c_c77 x1.n3850714 x1.n3850724 318.3f 
+   131 : c.x1.c_c93 x1.n4243633 x1.n2991579 118.8p 
+   132 : c.x1.c_c_com0 x1.esdp x1.mid 4.5p 
+   133 : c.x1.c_c_com1 x1.mid x1.esdn 4.5p 
+   134 : c.x1.c_c_diff x1.esdn x1.esdp 2p 
+   135 : e.x1.e_e1 x1.mid 0 x1.n2992375 0 1
+   136 : e.x1.e_e3 x1.n2992163 x1.mid drv x1.mid 1
+   137 : e.x1.e_e4 x1.n3294618 x1.mid x1.cl_clamp x1.mid 1
+   138 : g.x1.g_g1 x1.n3294772 x1.mid x1.esdp x1.mid -35.19u
+   139 : g.x1.g_g100 x1.n4817896 x1.mid x1.n3850724 x1.mid -330
+   140 : g.x1.g_g12 x1.claw_clamp x1.mid x1.n3294524 x1.mid -1m
+   141 : g.x1.g_g13 x1.cl_clamp x1.mid x1.claw_clamp x1.mid -1m
+   142 : g.x1.g_g16 x1.n3201092 x1.mid x1.n3294630 x1.mid -2.1
+   143 : g.x1.g_g18 x1.vcc_b 0 v5 0 -1
+   144 : g.x1.g_g19 x1.vee_b 0 0 0 -1
+   145 : g.x1.g_g2 x1.n2991563 x1.n2991555 x1.n2991553 x1.mid -1m
+   146 : g.x1.g_g20 x1.vcc_clp x1.mid x1.n2992033 x1.mid -1m
+   147 : g.x1.g_g21 x1.vee_clp x1.mid x1.n2992029 x1.mid -1m
+   148 : g.x1.g_g22 x1.n2992299 x1.mid x1.n2992295 x1.mid -1
+   149 : g.x1.g_g23 x1.n2992323 x1.mid x1.n2992331 x1.mid -1
+   150 : g.x1.g_g39 x1.n3294626 x1.mid x1.cl_clamp x1.n2992235 -237.45k
+   151 : g.x1.g_g4 x1.n3850714 x1.mid x1.vcc_b x1.mid -415.4u
+   152 : g.x1.g_g41 x1.n4031911 x1.mid x1.vsense x1.mid -1u
+   153 : g.x1.g_g5 x1.n2991587 x1.n2991583 x1.n2991581 x1.n2991579 -1m
+   154 : g.x1.g_g6 x1.vsense x1.mid x1.clamp x1.mid -1m
+   155 : g.x1.g_g63 x1.n4243633 x1.mid x1.vee_b x1.mid -525.6m
+   156 : g.x1.g_g92 x1.n4736080 x1.mid x1.n4031911 x1.mid -1.861
+   157 : g.x1.g_g93 x1.n4747399 x1.mid x1.n4745674 x1.mid -1
+   158 : g.x1.g_g95 x1.n4796554 x1.mid x1.n4749239 x1.mid -1
+   159 : g.x1.g_g96 x1.n4797748 x1.mid x1.n4796572 x1.mid -1
+   160 : g.x1.g_g97 x1.n4798545 x1.mid x1.n4797760 x1.mid -3.77
+   161 : g.x1.g_g98 x1.n3827259 x1.mid x1.n4800105 x1.mid -1
+   162 : g.x1.g_g99 x1.n4809008 x1.mid x1.n3294776 x1.mid -351.9
+   163 : i.x1.i_i_b x1.n2991573 x1.mid dc 30.02p
+   164 : i.x1.i_i_os x1.esdn x1.mid dc -30.02p
+   165 : i.x1.i_i_q v5 0 dc 1.9m
+   166 : r.x1.r_r15 x1.n2991583 x1.n2991563 x1:r_noiseless 1m 
+   167 : r.x1.r_r16 x1.n2991587 x1.n2991583 x1:r_noiseless 1k 
+   168 : r.x1.r_r167 x1.n3294618 x1.vclp x1:r_noiseless 100 
+   169 : r.x1.r_r17 x1.n2991619 x1.esdn x1:r_noiseless 1m 
+   170 : r.x1.r_r171 x1.mid x1.n4031911 x1:r_noiseless 1meg 
+   171 : r.x1.r_r176 x1.mid x1.n3827259 x1:r_noiseless 1 
+   172 : r.x1.r_r178 x1.n3828449 x1.n3827259 x1:r_noiseless 10k 
+   173 : r.x1.r_r179 x1.mid x1.n3828449 x1:r_noiseless 8 
+   174 : r.x1.r_r18 x1.mid x1.n2991623 x1:r_noiseless 1t 
+   175 : r.x1.r_r187 x1.n3850724 x1.n3850714 x1:r_noiseless 100meg 
+   176 : r.x1.r_r189 x1.mid x1.n3850714 x1:r_noiseless 1 
+   177 : r.x1.r_r19 x1.mid x1.n2991635 x1:r_noiseless 1t 
+   178 : r.x1.r_r190 x1.mid x1.n3850724 x1:r_noiseless 304k 
+   179 : r.x1.r_r20 x1.n2991643 x1.mid x1:r_noiseless 1 
+   180 : r.x1.r_r21 x1.n2991657 x1.n2991643 x1:r_noiseless 1m 
+   181 : r.x1.r_r22 x1.mid x1.n2991667 x1:r_noiseless 1meg 
+   182 : r.x1.r_r23 x1.mid x1.clamp x1:r_noiseless 1meg 
+   183 : r.x1.r_r230 x1.n2991579 x1.n4243633 x1:r_noiseless 100meg 
+   184 : r.x1.r_r233 x1.mid x1.n2991579 x1:r_noiseless 239.5 
+   185 : r.x1.r_r234 x1.mid x1.n4243633 x1:r_noiseless 1 
+   186 : r.x1.r_r24 x1.mid x1.vsense x1:r_noiseless 1k 
+   187 : r.x1.r_r301 x1.n3294524 x1.n4736080 x1:r_noiseless 10k 
+   188 : r.x1.r_r302 x1.mid x1.n4736080 x1:r_noiseless 1 
+   189 : r.x1.r_r303 x1.mid x1.n3294524 x1:r_noiseless 11.61k 
+   190 : r.x1.r_r304 x1.n4749239 x1.n4747399 x1:r_noiseless 190k 
+   191 : r.x1.r_r305 x1.n47492651 x1.n4749239 x1:r_noiseless 10k 
+   192 : r.x1.r_r306 x1.mid x1.n4747399 x1:r_noiseless 1 
+   193 : r.x1.r_r307 x1.n4796572 x1.n4796554 x1:r_noiseless 770k 
+   194 : r.x1.r_r308 x1.n47965841 x1.n4796572 x1:r_noiseless 10k 
+   195 : r.x1.r_r309 x1.mid x1.n4796554 x1:r_noiseless 1 
+   196 : r.x1.r_r310 x1.n4797760 x1.n4797748 x1:r_noiseless 10k 
+   197 : r.x1.r_r311 x1.mid x1.n4797748 x1:r_noiseless 1 
+   198 : r.x1.r_r312 x1.mid x1.n4797760 x1:r_noiseless 3.61k 
+   199 : r.x1.r_r313 x1.mid x1.n4798545 x1:r_noiseless 1 
+   200 : r.x1.r_r314 x1.n4800105 x1.n4798545 x1:r_noiseless 10k 
+   201 : r.x1.r_r315 x1.n48001371 x1.n4800105 x1:r_noiseless 10k 
+   202 : r.x1.r_r316 x1.n2991553 x1.n4809008 x1:r_noiseless 10k 
+   203 : r.x1.r_r317 x1.mid x1.n4809008 x1:r_noiseless 1 
+   204 : r.x1.r_r318 x1.mid x1.n2991553 x1:r_noiseless 28.5 
+   205 : r.x1.r_r319 x1.n2991581 x1.n4817896 x1:r_noiseless 100meg 
+   206 : r.x1.r_r32 x1.mid x1.claw_clamp x1:r_noiseless 1k 
+   207 : r.x1.r_r320 x1.mid x1.n2991581 x1:r_noiseless 304k 
+   208 : r.x1.r_r321 x1.mid x1.n4817896 x1:r_noiseless 1 
+   209 : r.x1.r_r33 x1.mid x1.cl_clamp x1:r_noiseless 1k 
+   210 : r.x1.r_r34 x1.n3294630 x1.n3294626 x1:r_noiseless 10k 
+   211 : r.x1.r_r35 x1.mid x1.n3294626 x1:r_noiseless 1 
+   212 : r.x1.r_r36 x1.mid x1.n3294630 x1:r_noiseless 9.09091k 
+   213 : r.x1.r_r37 x1.mid x1.n3201092 x1:r_noiseless 1 
+   214 : r.x1.r_r38 x1.n4745674 x1.n3201092 x1:r_noiseless 62.73k 
+   215 : r.x1.r_r39 x1.n47456861 x1.n4745674 x1:r_noiseless 10k 
+   216 : r.x1.r_r43 x1.mid x1.n3294682 x1:r_noiseless 1 
+   217 : r.x1.r_r46 x1.vcc_b 0 x1:r_noiseless 1 
+   218 : r.x1.r_r47 x1.vcc_b x1.n2992397 x1:r_noiseless 1m 
+   219 : r.x1.r_r48 x1.n2992397 x1.n2992375 x1:r_noiseless 1meg 
+   220 : r.x1.r_r49 x1.n2992375 0 x1:r_noiseless 1t 
+   221 : r.x1.r_r5 x1.mid x1.n3294772 x1:r_noiseless 1 
+   222 : r.x1.r_r50 x1.n2992375 x1.n2992413 x1:r_noiseless 1meg 
+   223 : r.x1.r_r51 x1.n2992413 x1.vee_b x1:r_noiseless 1m 
+   224 : r.x1.r_r52 x1.vee_b 0 x1:r_noiseless 1 
+   225 : r.x1.r_r53 x1.vcc_clp x1.mid x1:r_noiseless 1t 
+   226 : r.x1.r_r54 x1.n2991729 x1.mid x1:r_noiseless 1 
+   227 : r.x1.r_r55 x1.n2991741 x1.n2991729 x1:r_noiseless 1m 
+   228 : r.x1.r_r56 x1.vee_clp x1.mid x1:r_noiseless 1t 
+   229 : r.x1.r_r57 x1.n2991763 x1.mid x1:r_noiseless 1 
+   230 : r.x1.r_r58 x1.n2991765 x1.n2991763 x1:r_noiseless 1m 
+   231 : r.x1.r_r59 x1.n2991807 x1.mid x1:r_noiseless 1t 
+   232 : r.x1.r_r6 x1.n3294776 x1.n3294772 x1:r_noiseless 100meg 
+   233 : r.x1.r_r60 x1.n2991809 x1.mid x1:r_noiseless 1 
+   234 : r.x1.r_r61 x1.n2991811 x1.n2991809 x1:r_noiseless 1m 
+   235 : r.x1.r_r62 x1.n2991831 x1.n2991837 x1:r_noiseless 1m 
+   236 : r.x1.r_r63 x1.n2991849 x1.mid x1:r_noiseless 1t 
+   237 : r.x1.r_r64 x1.n2991837 x1.mid x1:r_noiseless 1 
+   238 : r.x1.r_r65 x1.n2991901 x1.mid x1:r_noiseless 1t 
+   239 : r.x1.r_r66 x1.n2991905 x1.mid x1:r_noiseless 1 
+   240 : r.x1.r_r67 x1.n2991907 x1.n2991905 x1:r_noiseless 1m 
+   241 : r.x1.r_r68 x1.n2991925 x1.n2991931 x1:r_noiseless 1m 
+   242 : r.x1.r_r69 x1.n2991943 x1.mid x1:r_noiseless 1t 
+   243 : r.x1.r_r7 x1.mid x1.n3294776 x1:r_noiseless 285k 
+   244 : r.x1.r_r70 x1.n2991931 x1.mid x1:r_noiseless 1 
+   245 : r.x1.r_r71 x1.n2991969 x1.vsense x1:r_noiseless 1m 
+   246 : r.x1.r_r72 x1.vcc_b x1.n2991997 x1:r_noiseless 1k 
+   247 : r.x1.r_r73 x1.n2991997 x1.n2992033 x1:r_noiseless 1m 
+   248 : r.x1.r_r74 x1.n2992001 x1.vee_b x1:r_noiseless 1k 
+   249 : r.x1.r_r75 x1.n2992001 x1.n2992029 x1:r_noiseless 1m 
+   250 : r.x1.r_r76 x1.mid x1.vcc_clp x1:r_noiseless 1k 
+   251 : r.x1.r_r77 x1.vee_clp x1.mid x1:r_noiseless 1k 
+   252 : r.x1.r_r78 x1.n2992323 x1.mid x1:r_noiseless 1 
+   253 : r.x1.r_r79 x1.n2992299 x1.mid x1:r_noiseless 1 
+   254 : r.x1.r_r8 x1.n2991563 x1.n2991555 x1:r_noiseless 1k 
+   255 : r.x1.r_r80 x1.v11 x1.n2992093 x1:r_noiseless 100 
+   256 : r.x1.r_r81 x1.v12 x1.n2992099 x1:r_noiseless 100 
+   257 : r.x1.r_r82 x1.n2992105 x1.mid x1:r_noiseless 1 
+   258 : r.x1.r_r83 x1.n2992105 x1.sw_ol_opa4388 x1:r_noiseless 100 
+   259 : r.x1.r_rdummy x1.mid x1.n2992235 x1:r_noiseless 1.75k 
+   260 : r.x1.r_rs_inn minus x1.esdn x1:r_noiseless 10m 
+   261 : r.x1.r_rs_inp cmd x1.esdp x1:r_noiseless 10m 
+   262 : r.x1.r_rx x1.n2992235 x1.n3294682 x1:r_noiseless 17.5k 
+   263 : r.x1.r_rx1 x1.mid x1.n2992151 x1:r_noiseless 1t 
+   264 : r.x1.r_rx2 x1.vimon x1.n2992151 x1:r_noiseless 100 
+   265 : r.x1.r_rx3 x1.mid x1.n2992163 x1:r_noiseless 1t 
+   266 : r.x1.r_rx4 x1.vout_s x1.n2992163 x1:r_noiseless 100 
+   267 : r.x1.r_r_cm1 x1.esdp x1.mid x1:r_noiseless 1t 
+   268 : r.x1.r_r_cm2 x1.mid x1.esdn x1:r_noiseless 1t 
+   269 : r.x1.r_r_diff x1.esdn x1.esdp x1:r_noiseless 100meg 
+   270 : v.x1.v_vcm_max x1.n2991623 x1.vcc_b 100m
+   271 : v.x1.v_vcm_min x1.n2991635 x1.vee_b -100m
+   272 : v.x1.v_v_grn x1.n2991943 x1.mid -150
+   273 : v.x1.v_v_grp x1.n2991901 x1.mid 150
+   274 : v.x1.v_v_iscn x1.n2991849 x1.mid -60
+   275 : v.x1.v_v_iscp x1.n2991807 x1.mid 60
+   276 : v.x1.v_v_orn x1.n2992295 x1.vclp -55
+   277 : v.x1.v_v_orp x1.n2992331 x1.vclp 55
+   313 : h.x1.x_h1.h_h1 x1.n2992151 x1.mid v.x1.x_h1.vh_h1 1k
+   314 : v.x1.x_h1.vh_h1 x1.n2992235 drv 0v
+   322 : h.x1.x_h2.h_h2 x1.v12 x1.mid v.x1.x_h2.vh_h2 1
+   323 : v.x1.x_h2.vh_h2 x1.n2992287 x1.n2992323 0v
+   331 : h.x1.x_h3.h_h3 x1.v11 x1.mid v.x1.x_h3.vh_h3 -1
+   332 : v.x1.x_h3.vh_h3 x1.n2992267 x1.n2992299 0v
+   340 : a.x1.x_s1.as_s1 %gd x1.n2992267 x1.clamp %gd x1.n2992267 x1.clamp x1.x_s1:a_s1
+   341 : r.x1.x_s1.rs_s1 x1.n2992267 x1.clamp 1g 
+   342 : .model x1.x_s1:a_s1 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   350 : a.x1.x_s2.as_s2 %gd x1.clamp x1.n2992287 %gd x1.clamp x1.n2992287 x1.x_s2:a_s2
+   351 : r.x1.x_s2.rs_s2 x1.clamp x1.n2992287 1g 
+   352 : .model x1.x_s2:a_s2 pswitch( r_off=1e12 r_on=10m cntl_off=0.0v cntl_on=10mv log=true)
+   408 : g.x1.x_u10.gvo+ x1.mid x1.n2991729 x1.x_u10.gvo+_int1 0 1
+   410 : b.x1.x_u10.bgvo+ x1.x_u10.gvo+_int1 0 v= ( ternary_fcn ( ( v(x1.vout_s,x1.mid) > v(x1.vcc_clp,x1.mid) ) , ( ( ( v(x1.vout_s,x1.mid) - v(x1.vcc_clp,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   412 : g.x1.x_u10.gvo- x1.mid x1.n2991763 x1.x_u10.gvo-_int1 0 1
+   414 : b.x1.x_u10.bgvo- x1.x_u10.gvo-_int1 0 v= ( ternary_fcn ( ( v(x1.vout_s,x1.mid) < v(x1.vee_clp,x1.mid) ) , ( ( ( v(x1.vee_clp,x1.mid) - v(x1.vout_s,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   408 : g.x1.x_u11.gvo+ x1.mid x1.n2991809 x1.x_u11.gvo+_int1 0 1
+   410 : b.x1.x_u11.bgvo+ x1.x_u11.gvo+_int1 0 v= ( ternary_fcn ( ( v(x1.vimon,x1.mid) > v(x1.n2991807,x1.mid) ) , ( ( ( v(x1.vimon,x1.mid) - v(x1.n2991807,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   412 : g.x1.x_u11.gvo- x1.mid x1.n2991837 x1.x_u11.gvo-_int1 0 1
+   414 : b.x1.x_u11.bgvo- x1.x_u11.gvo-_int1 0 v= ( ternary_fcn ( ( v(x1.vimon,x1.mid) < v(x1.n2991849,x1.mid) ) , ( ( ( v(x1.n2991849,x1.mid) - v(x1.vimon,x1.mid) ) * (    1.000000000000000e+00    ) ) ) ,   0.0000000000e+00 ) )
+   392 : g.x1.x_u12.gvo+ x1.mid x1.n2991905 x1.x_u12.gvo+_int1 0 1
+   394 : b.x1.x_u12.bgvo+ x1.x_u12.gvo+_int1 0 v= ( ternary_fcn ( ( v(x1.n2991969,x1.mid) > v(x1.n2991901,x1.mid) ) , ( ( ( v(x1.n2991969,x1.mid) - v(x1.n2991901,x1.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   396 : g.x1.x_u12.gvo- x1.mid x1.n2991931 x1.x_u12.gvo-_int1 0 1
+   398 : b.x1.x_u12.bgvo- x1.x_u12.gvo-_int1 0 v= ( ternary_fcn ( ( v(x1.n2991969,x1.mid) < v(x1.n2991943,x1.mid) ) , ( ( ( v(x1.n2991943,x1.mid) - v(x1.n2991969,x1.mid) ) * (    1.000000000000000e+01    ) ) ) ,   0.0000000000e+00 ) )
+   540 : g.x1.x_u16.gsw+ x1.mid x1.n2992105 x1.x_u16.gsw+_int1 0 1
+   542 : b.x1.x_u16.bgsw+ x1.x_u16.gsw+_int1 0 v= ( ternary_fcn ( ( ( v(x1.n2992093,x1.mid) >   1.0000000000e-02 || v(x1.n2992099,x1.mid) >   1.0000000000e-02 ) ) ,   1.0000000000e+00 ,   0.0000000000e+00 ) )
+   436 : g.x1.x_u18.g1 x1.n2991997 x1.vcc_b x1.x_u18.g1_int1 0 1
+   438 : b.x1.x_u18.bg1 x1.x_u18.g1_int2 0 v= ( v(x1.vimon,x1.mid) )
+   439 : a.x1.x_u18.ag1 %v x1.x_u18.g1_int2 %v x1.x_u18.g1_int1 x1.x_u18:xfer_g1
+   440 : .model x1.x_u18:xfer_g1 pwl(x_array=[0 10 22 45 53 60 ] y_array=[11.47e-6 1.5e-4 3.0e-4 6.9e-4 9.0e-4 1.24e-3 ] input_domain=0.1 fraction=true limit=true)
+   423 : g.x1.x_u19.g1 x1.vee_b x1.n2992001 x1.x_u19.g1_int1 0 1
+   425 : b.x1.x_u19.bg1 x1.x_u19.g1_int2 0 v= ( v(x1.mid,x1.vimon) )
+   426 : a.x1.x_u19.ag1 %v x1.x_u19.g1_int2 %v x1.x_u19.g1_int1 x1.x_u19:xfer_g1
+   427 : .model x1.x_u19:xfer_g1 pwl(x_array=[0 11 60 ] y_array=[15.45e-6 3.35e-4 1.90e-3 ] input_domain=0.1 fraction=true limit=true)
+   490 : .model x1.x_u21:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   491 : a.x1.x_u21.as1 %gd drv v5 %gd drv v5 x1.x_u21:aesd_sw
+   492 : a.x1.x_u21.as2 %gd 0 drv %gd 0 drv x1.x_u21:aesd_sw
+   468 : g.x1.x_u22.g1 x1.cl_clamp x1.mid x1.x_u22.g1_int1 0 1
+   470 : b.x1.x_u22.bg1 x1.x_u22.g1_int1 0 v= ( ternary_fcn ( (   -6.000000000000000e+00    ) > (    6.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991811,x1.n2991831) ) , (   -6.000000000000000e+00    ) ) , (    6.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991811,x1.n2991831) ) , (    6.000000000000000e+00    ) ) , (   -6.000000000000000e+00    ) ) ) )
+   517 : g.x1.x_u23.g1 x1.clamp x1.mid x1.x_u23.g1_int1 0 1
+   519 : b.x1.x_u23.bg1 x1.x_u23.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e+01    ) > (    5.000000000000000e+01    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991907,x1.n2991925) ) , (   -5.000000000000000e+01    ) ) , (    5.000000000000000e+01    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991907,x1.n2991925) ) , (    5.000000000000000e+01    ) ) , (   -5.000000000000000e+01    ) ) ) )
+   550 : .model x1.x_u25:aol_sw pswitch( log=true r_on=1e-3 r_off=1e12 cntl_on=900e-3 cntl_off=800e-3)
+   551 : a.x1.x_u25.as1 %gd x1.sw_ol_opa4388 x1.mid %gd x1.n3294626 x1.n3294630 x1.x_u25:aol_sw
+   529 : g.x1.x_u26.g1 v5 x1.mid x1.x_u26.g1_int1 0 1
+   531 : b.x1.x_u26.bg1 x1.x_u26.g1_int1 0 v= ( ternary_fcn ( ( ( v(x1.vimon,x1.mid) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(x1.vimon,x1.mid) ) ) )
+   529 : g.x1.x_u27.g1 x1.mid 0 x1.x_u27.g1_int1 0 1
+   531 : b.x1.x_u27.bg1 x1.x_u27.g1_int1 0 v= ( ternary_fcn ( ( ( v(x1.mid,x1.vimon) <=   0.0000000000e+00 ) ) ,   0.0000000000e+00 , ( (    1.000000000000000e-03    ) * v(x1.mid,x1.vimon) ) ) )
+   365 : g.x1.x_u30.g1 x1.mid x1.n2991667 x1.x_u30.g1_int1 0 1
+   367 : b.x1.x_u30.bg1 x1.x_u30.g1_int1 0 v= ( ternary_fcn ( (   -5.000000000000000e-01    ) > (    5.000000000000000e-01    ) , max ( min ( ( (    1.000000000000000e-04    ) * v(x1.n2991657,x1.n2991619) ) , (   -5.000000000000000e-01    ) ) , (    5.000000000000000e-01    ) ) , max ( min ( ( (    1.000000000000000e-04    ) * v(x1.n2991657,x1.n2991619) ) , (    5.000000000000000e-01    ) ) , (   -5.000000000000000e-01    ) ) ) )
+   380 : g.x1.x_u31.g1 x1.mid x1.clamp x1.x_u31.g1_int1 0 1
+   382 : b.x1.x_u31.bg1 x1.x_u31.g1_int1 0 v= ( ternary_fcn ( (   -2.210000000000000e+00    ) > (    2.210000000000000e+00    ) , max ( min ( ( (    2.511900000000000e-01    ) * v(x1.n2991667,x1.mid) ) , (   -2.210000000000000e+00    ) ) , (    2.210000000000000e+00    ) ) , max ( min ( ( (    2.511900000000000e-01    ) * v(x1.n2991667,x1.mid) ) , (    2.210000000000000e+00    ) ) , (   -2.210000000000000e+00    ) ) ) )
+   603 : g.x1.x_u32.g1 x1.mid x1.n3294682 x1.x_u32.g1_int1 0 1
+   605 : b.x1.x_u32.bg1 x1.x_u32.g1_int1 0 v= ( ternary_fcn ( (   -2.500000000000000e+05    ) > (    2.500000000000000e+05    ) , max ( min ( ( (    1.250000000000000e+03    ) * v(x1.n3828449,x1.mid) ) , (   -2.500000000000000e+05    ) ) , (    2.500000000000000e+05    ) ) , max ( min ( ( (    1.250000000000000e+03    ) * v(x1.n3828449,x1.mid) ) , (    2.500000000000000e+05    ) ) , (   -2.500000000000000e+05    ) ) ) )
+   453 : g.x1.x_u35.g1 x1.claw_clamp x1.mid x1.x_u35.g1_int1 0 1
+   455 : b.x1.x_u35.bg1 x1.x_u35.g1_int1 0 v= ( ternary_fcn ( (   -3.000000000000000e+00    ) > (    3.000000000000000e+00    ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991741,x1.n2991765) ) , (   -3.000000000000000e+00    ) ) , (    3.000000000000000e+00    ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991741,x1.n2991765) ) , (    3.000000000000000e+00    ) ) , (   -3.000000000000000e+00    ) ) ) )
+   501 : e.x1.x_u38.e1 x1.x_u38.3 0 x1.x_u38.5 0 10
+   502 : r.x1.x_u38.r1 x1.x_u38.5 0   1.206602856000000e+04   
+   503 : r.x1.x_u38.r2 x1.x_u38.5 0   1.206602856000000e+04   
+   504 : g.x1.x_u38.g1 x1.mid x1.n2991573 x1.x_u38.3 0 1e-6
+   501 : e.x1.x_u39.e1 x1.x_u39.3 0 x1.x_u39.5 0 10
+   502 : r.x1.x_u39.r1 x1.x_u39.5 0   1.206602856000000e+04   
+   503 : r.x1.x_u39.r2 x1.x_u39.5 0   1.206602856000000e+04   
+   504 : g.x1.x_u39.g1 x1.esdn x1.mid x1.x_u39.3 0 1e-6
+   588 : e.x1.x_u4.e1 x1.n2991555 x1.n2991573 x1.x_u4.e1_int1 0 1
+   590 : b.x1.x_u4.be1 x1.x_u4.e1_int1 0 v= (   -4.670000000000000e-06    ) + (    1.000000000000000e+00    ) * (    5.000000000000000e-09    ) * ( ( temper )  -2.7000000000e+01 )
+   572 : r.x1.x_u40.r4 x1.x_u40.5 0   5.918212160000000e+01   
+   573 : r.x1.x_u40.r5 x1.x_u40.5 0   5.918212160000000e+01   
+   574 : e.x1.x_u40.e3 x1.esdp x1.n2991573 x1.x_u40.5 0 10
+   478 : .model x1.x_u5:aesd_sw pswitch( log=true r_on=50 r_off=1e12 cntl_on=500e-3 cntl_off=450e-3)
+   479 : a.x1.x_u5.as1 %gd x1.esdn v5 %gd x1.esdn v5 x1.x_u5:aesd_sw
+   480 : a.x1.x_u5.as2 %gd x1.esdp v5 %gd x1.esdp v5 x1.x_u5:aesd_sw
+   481 : a.x1.x_u5.as3 %gd 0 x1.esdn %gd 0 x1.esdn x1.x_u5:aesd_sw
+   482 : a.x1.x_u5.as4 %gd 0 x1.esdp %gd 0 x1.esdp x1.x_u5:aesd_sw
+   561 : g.x1.x_u6.g1 x1.mid x1.n2991643 x1.x_u6.g1_int1 0 1
+   563 : b.x1.x_u6.bg1 x1.x_u6.g1_int1 0 v= ( ternary_fcn ( ( v(x1.n2991635,x1.mid) ) > ( v(x1.n2991623,x1.mid) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991587,x1.mid) ) , ( v(x1.n2991635,x1.mid) ) ) , ( v(x1.n2991623,x1.mid) ) ) , max ( min ( ( (    1.000000000000000e+00    ) * v(x1.n2991587,x1.mid) ) , ( v(x1.n2991623,x1.mid) ) ) , ( v(x1.n2991635,x1.mid) ) ) ) )
+   305 : .model x1:r_noiseless res ( temp=-273.15)
+   615 : riso drv row 1k
+   616 : rfb row fb 4.99k
+   617 : chf drv fb 100p
+   618 : rload row vcm 200
+   619 : cl row 0 1n
+   630 : .end
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+02
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+ Reference value :  1.00000e+08
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 424
+ngspice-47 done

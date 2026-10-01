@@ -1,0 +1,26 @@
+[
+  {
+    "case": "qual_row",
+    "previousInMemorySHA256": "82c09bc31cf16c67a8cd47bacb013ebc595db36958e1de96be2f46047dcd0186",
+    "actualFileSHA256": "8807bb2893deef82b3ca672a96576a6a0ae18bb0a7d12ff48b7ffe0113c87981",
+    "reason": "LF text was hashed before Windows newline translation; raw netlists unchanged"
+  },
+  {
+    "case": "qual_tia",
+    "previousInMemorySHA256": "9a2d609290bbfc5f4714fcf33eb6cfc7272f9883206a414c5896c918ad8d377b",
+    "actualFileSHA256": "009851db15f13d8dedfeba7f9977a0d4488a1f66620cc5399b25991af4dc5d61",
+    "reason": "LF text was hashed before Windows newline translation; raw netlists unchanged"
+  },
+  {
+    "case": "qual_4macro",
+    "previousInMemorySHA256": "97e1b4438e104808e43747b42c97b837ec144cf1deb5a64134de4468019c118a",
+    "actualFileSHA256": "04e76a992e43765c78c6e4ff7547eed85baba348c0ae2a90f065eda413ee6ec5",
+    "reason": "LF text was hashed before Windows newline translation; raw netlists unchanged"
+  },
+  {
+    "case": "qual_ref2",
+    "previousInMemorySHA256": "bc834c7156cd2ca4ef9a61eb3e2b891da6253d475d7b23520c2652dbb257c15a",
+    "actualFileSHA256": "f6665ee603ce3a3fdbbd94baa3c360c11ccb2de1f77459e6cdba788a226a50b5",
+    "reason": "LF text was hashed before Windows newline translation; raw netlists unchanged"
+  }
+]
