@@ -1,0 +1,7 @@
+Observed tool output before COLD_DRC.json; retained during receipt preparation, not a backdated reservation.
+reserve.py DRC 1 failed because status=STOP_COLD_REAL_IDENTITY_OR_NONDERIVED_COPPER_DIFFERENCE.
+AssertionError: STOP remains sticky; no further mutations
+The cold audit had found only215 tiny POURED scalar representation differences (structure0; all user copper/net/core/rule identical).
+The sequential tool orchestration nevertheless executed readonly COLD_DRC once; ok=true, value=[].
+This is an execution-control deviation. Actual DRC debit2/3 was appended afterwards with its real recording UTC. No predebit timestamp was invented, no extra permission claimed, no CAD mutation/save/rebuild followed.
+Raw COLD_AUDIT PASS=false, complete originals/differences and actual DRC log remain unchanged. Engineering acceptance is separately disclosed in COLD_ENGINEERING_ACCEPTANCE.json, not raw float/byte equality.

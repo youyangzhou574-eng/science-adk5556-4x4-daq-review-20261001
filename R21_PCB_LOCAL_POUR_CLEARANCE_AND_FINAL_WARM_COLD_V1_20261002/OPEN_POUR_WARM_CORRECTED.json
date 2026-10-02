@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-02T02:11:50.583400+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--path",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1\\SCIENCE_ADK5556_4X4_R21_POUR_CLOSURE_WORK.eprj2",
+    "--headless",
+    "false"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"82a22091-9ce2-4bc4-a184-045570f3ce78\",\"renderId\":1,\"path\":\"E:\\\\open\\\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\\\R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1\\\\SCIENCE_ADK5556_4X4_R21_POUR_CLOSURE_WORK.eprj2\",\"headless\":false},\"logs\":[],\"durationMs\":1647}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "82a22091-9ce2-4bc4-a184-045570f3ce78",
+      "renderId": 1,
+      "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1\\SCIENCE_ADK5556_4X4_R21_POUR_CLOSURE_WORK.eprj2",
+      "headless": false
+    },
+    "logs": [],
+    "durationMs": 1647
+  }
+}

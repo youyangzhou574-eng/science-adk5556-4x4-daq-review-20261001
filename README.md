@@ -1,3 +1,9 @@
+# Latest: PCB normal pour update and final warm/cold — engineering review ready
+
+[Complete receipt](R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1_20261002/COMPLETE_POUR_CLOSURE_RECEIPT.md) · [Index](R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1_20261002/README.md) · [Local antipad review](R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1_20261002/FINAL_LOCAL_VIA_AND_ANTIPADS.png). Native warm/cold DRC fourcategories allzero;176/550/514/107/36 and all userLINE/VIA/rules/pour boundaries unchanged. Only normalderived filled geometry changed;215 tinyrawfloat representation differences disclosed, not strict byte equality. Initialparser/audit andlate coldDRC debit deviations retained. PCB_REVIEW_READY engineering gate; manufacturing/bench NOT released.
+
+---
+
 # Latest: minimal V3V3 correction — four native Clearance Errors, BLOCKED
 
 [Complete receipt](R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1_20261002/COMPLETE_V3V3_CORRECTION_RECEIPT.md) · [Index](R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1_20261002/README.md) · [Actual4 errors](R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1_20261002/ACTUAL_FOUR_CLEARANCE_ERRORS.csv). Two V3V3 connections eliminated; one new via needs required GND fill clearance. Immediate STOP, no save/cold/pour update. All550 pin nets and176 core identities unchanged. Failure nativeFile BLOCKED_NOT_FOR_USE; manufacturing/bench not released.

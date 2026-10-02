@@ -1,0 +1,15 @@
+{
+  "name": "SCIENCE_ADK5556_4X4_R21_PCB_CLOSED_REVIEW.epro2",
+  "bytes": 722159,
+  "SHA256": "C2D53B0B6BB438D7C916BE24CB0B0D6AE5C7D884E7784EEFFED90E61505BEE6C",
+  "actualNativeFile": true,
+  "constructor": "File",
+  "tag": "[object File]",
+  "actualLINE": 909,
+  "nativeFileLINE": 911,
+  "all14SubstantiveCopperPresent": true,
+  "coreViaPourBoundaryRuleExact": true,
+  "savedBeforeCold": true,
+  "representationDifferenceRetained": true,
+  "manufactureBenchReleased": false
+}

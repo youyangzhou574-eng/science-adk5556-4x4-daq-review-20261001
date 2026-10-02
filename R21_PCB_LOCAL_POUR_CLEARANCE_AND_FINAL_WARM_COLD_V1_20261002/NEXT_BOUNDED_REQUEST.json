@@ -1,0 +1,30 @@
+{
+  "requestedByUser": "More bounded time/counts/autonomy requested explicitly by human user, included only in normal report.",
+  "proposedPackage": "R21_PCB_MANUFACTURING_PREFLIGHT_READONLY_V1",
+  "minutes": 180,
+  "timeAllocation": {
+    "manufacturingInputsAndStackupContract": 45,
+    "existingNativeEvidenceAndRuleReview": 45,
+    "assemblyTestAccessChecklist": 30,
+    "delivery": 45,
+    "reserve": 15
+  },
+  "limits": {
+    "newCAD": 0,
+    "session": 0,
+    "save": 0,
+    "captureaudit": 0,
+    "DRC": 0,
+    "nativeExport": 0,
+    "simulation": 0,
+    "Gerber": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "actualBench": 0,
+    "existingEvidenceReview": 1,
+    "checklistContractBatch": 1,
+    "officialSources": 6
+  },
+  "scope": "Read-only manufacturing preflight of existing savedPCB/schematic/rules/BOM/evidence; explicit missing stackup/fab capabilities/assembly inputs. No ordering or fabrication, no newCAD/theory/API. NativeDRC zero is not fabrication or bench release. If harddesign issue found report one consolidated proposal.",
+  "approved": false
+}

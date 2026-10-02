@@ -1,0 +1,33 @@
+{
+  "entryPASS": true,
+  "warmDRC": {
+    "Connection": 0,
+    "Short": 0,
+    "Clearance": 0,
+    "NetlistError": 0
+  },
+  "coldDRC": {
+    "Connection": 0,
+    "Short": 0,
+    "Clearance": 0,
+    "NetlistError": 0
+  },
+  "parts": 176,
+  "pads": 550,
+  "assigned": 514,
+  "nets": 107,
+  "NC": 36,
+  "rawPOUREDWarmColdStrictEqual": false,
+  "numericDifferences": 215,
+  "maxAbsoluteNumericDifference": 2.1032064978498966e-12,
+  "structuralOrObjectChanges": 0,
+  "allUserLineViaCoreNetRuleBoundaryLayerWarmColdStrictEqual": true,
+  "warmColdEngineeringConsistency": true,
+  "interpretation": "Same previously disclosed215 tiny scalar representation differences, no structural/object differences; no rounding/filtering of evidence. Under15 engineering gate accept stable serialized representation, not strict byte/numeric equality. Initial overly strict offline COLD_AUDIT false retained; no actualCAD rerun.",
+  "PCB_ROUTING_COMPLETE": "PASS",
+  "PCB_ELECTRICAL_CLOSURE": "PASS",
+  "COLD_REOPEN": "PASS",
+  "PCB_REVIEW_READY": true,
+  "MANUFACTURING_NOT_RELEASED": true,
+  "BENCH_NOT_RELEASED": true
+}

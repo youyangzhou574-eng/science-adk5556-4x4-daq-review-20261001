@@ -1,0 +1,23 @@
+{
+  "started_utc": "2026-10-02T02:18:26.145666+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "session",
+    "close",
+    "--session",
+    "82a22091-9ce2-4bc4-a184-045570f3ce78"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"82a22091-9ce2-4bc4-a184-045570f3ce78\",\"status\":\"closed\",\"headless\":false},\"logs\":[],\"durationMs\":1}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "82a22091-9ce2-4bc4-a184-045570f3ce78",
+      "status": "closed",
+      "headless": false
+    },
+    "logs": [],
+    "durationMs": 1
+  }
+}

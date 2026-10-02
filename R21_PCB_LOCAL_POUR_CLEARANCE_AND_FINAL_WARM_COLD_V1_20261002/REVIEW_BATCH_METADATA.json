@@ -1,0 +1,12 @@
+{
+  "scope": "One offline review batch from existing actualcold capture; no CAD mutation/export/save or scientificsolve",
+  "PNGfiles": [
+    "FINAL_FOUR_COPPER_LAYERS.png",
+    "FINAL_LOCAL_VIA_AND_ANTIPADS.png"
+  ],
+  "LINE": 909,
+  "VIA": 297,
+  "arcMaxStepDegrees": 2,
+  "rendersApproximateNativeArcs": true,
+  "manufactureBenchReleased": false
+}

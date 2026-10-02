@@ -1,0 +1,24 @@
+{
+  "started_utc": "2026-10-02T02:16:41.299401+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "82a22091-9ce2-4bc4-a184-045570f3ce78",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='7efd53fbc610430d096d3e416ed545dafaea621ce2f02ed4c02d0ed9d65ed701')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');return await eda.pcb_Drc.check(true,false,true);\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":[],\"logs\":[],\"durationMs\":4388}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": [],
+    "logs": [],
+    "durationMs": 4388
+  }
+}

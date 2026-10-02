@@ -1,0 +1,32 @@
+{
+  "parts": 176,
+  "pads": 550,
+  "assigned": 514,
+  "nets": 107,
+  "NC": 36,
+  "LINE": 909,
+  "VIA": 297,
+  "core176": true,
+  "padNet550": true,
+  "rules": true,
+  "strictIDbodyEqual": {
+    "COMPONENT": true,
+    "PAD_NET": true,
+    "ATTR": true,
+    "LINE": true,
+    "VIA": true,
+    "POUR": true,
+    "POURED": true,
+    "POLY": true,
+    "RULE": true
+  },
+  "required14CopperPresent": {
+    "a9e5041778cdb40e": true,
+    "9a5309ba44b7aefd": true,
+    "4e5c023ee9440731": true,
+    "5c0162206220ea3b": true,
+    "d9d6381bb71f0d80": true
+  },
+  "causeUnknownHistoricalShortSegmentsNotEdited": true,
+  "entryPASS": true
+}

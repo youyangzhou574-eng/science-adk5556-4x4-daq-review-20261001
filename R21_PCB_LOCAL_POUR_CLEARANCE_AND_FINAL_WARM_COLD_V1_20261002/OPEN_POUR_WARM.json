@@ -1,0 +1,22 @@
+{
+  "started_utc": "2026-10-02T02:11:08.907834+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "session",
+    "open",
+    "--project",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1\\SCIENCE_ADK5556_4X4_R21_POUR_CLOSURE_WORK.eprj2",
+    "--render",
+    "1"
+  ],
+  "returncode": 2,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"MISSING_SUBCOMMAND\",\"message\":\"Command 'session' requires a subcommand\"}}\n",
+  "stderr": "MISSING_SUBCOMMAND: Command 'session' requires a subcommand\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "MISSING_SUBCOMMAND",
+      "message": "Command 'session' requires a subcommand"
+    }
+  }
+}

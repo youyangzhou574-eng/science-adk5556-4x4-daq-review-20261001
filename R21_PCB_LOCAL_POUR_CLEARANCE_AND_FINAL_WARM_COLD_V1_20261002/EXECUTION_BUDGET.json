@@ -1,0 +1,125 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1",
+  "rulingAssistant": "dd5c432a-162f-4a19-9719-a8575b3ee300",
+  "parentUser": "52b37bbe-46e5-4a7f-8af9-89ec3d99e284",
+  "startUTC": "2026-10-02T02:11:07.848080+00:00",
+  "approvedMinutes": 120,
+  "status": "NATIVE_EXECUTION_COMPLETE_NO_MORE_EDITS",
+  "limits": {
+    "copy": 1,
+    "session": 2,
+    "save": 1,
+    "captureaudit": 3,
+    "DRC": 3,
+    "reviewExport": 1,
+    "normalPourUpdate": 1
+  },
+  "actual": {
+    "copy": 1,
+    "session": 2,
+    "save": 1,
+    "captureaudit": 3,
+    "DRC": 2,
+    "reviewExport": 1,
+    "normalPourUpdate": 1
+  },
+  "reservations": [
+    {
+      "utc": "2026-10-02T02:11:07.848080+00:00",
+      "kind": "copy",
+      "count": 1,
+      "reason": "One isolated copy of actual14 work; entry gate must verify all14 V3V3 IDs before any pour update."
+    },
+    {
+      "utc": "2026-10-02T02:11:08.560572+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Warm actual14 isolated copy entry gate"
+    },
+    {
+      "utc": "2026-10-02T02:13:24.420780+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Entry real550 identity and14 approved copper before any rebuild"
+    },
+    {
+      "utc": "2026-10-02T02:15:59.765213+00:00",
+      "kind": "normalPourUpdate",
+      "count": 1,
+      "reason": "One GUI Rebuild All, frozen4 POUR/rules; onlyderived filled geometry allowed"
+    },
+    {
+      "utc": "2026-10-02T02:16:40.874691+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Immediate real native DRC after the onlyGUI Rebuild All"
+    },
+    {
+      "utc": "2026-10-02T02:17:21.565965+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Only save permitted after nativeDRC four categories allzero"
+    },
+    {
+      "utc": "2026-10-02T02:17:23.009929+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Saved warm fullidentity andderived copper audit"
+    },
+    {
+      "utc": "2026-10-02T02:18:56.202448+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Independent cold session2 of saved same isolated project after officialclose andGUIexit"
+    },
+    {
+      "utc": "2026-10-02T02:20:50.366271+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Single final cold fullidentity/copper andactualnativeFile batch"
+    },
+    {
+      "utc": "2026-10-02T02:21:49.636491+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Late debit actual COLD_DRC after reservation failed on overly strict POURED comparison; not backdated",
+      "executionDeviation": true
+    },
+    {
+      "utc": "2026-10-02T02:23:06.389102+00:00",
+      "kind": "reviewExport",
+      "count": 1,
+      "reason": "One read-only review output batch from existingcold actualsource; noCAD export/save"
+    }
+  ],
+  "newLINE": 0,
+  "newVIA": 0,
+  "deleteLINEVIA": 0,
+  "componentMove": 0,
+  "netValueFootprintRule": 0,
+  "schematic": 0,
+  "ImportChanges": 0,
+  "autorouter": 0,
+  "simulation": 0,
+  "Gerber": 0,
+  "procurement": 0,
+  "manufacture": 0,
+  "actualBench": 0,
+  "localGit": 0,
+  "system": 0,
+  "sessionCommandAttempts": 3,
+  "preSessionParserFailures": 1,
+  "sessionAccountingNote": "Warm session reserved1 before invocation. Initial incorrect session open command rejected MISSING_SUBCOMMAND, no sessionId/GUI created. Correct known open command completed the same reserved warm session. No debit was removed/backdated; only one actual session exists. Cold may create the second actual session; both command logs retained.",
+  "offlineInitialFalseStop": {
+    "utcCorrected": "2026-10-02T02:15:15.947071+00:00",
+    "originalEvidence": "ENTRY_GATE_INITIAL_WRAPPER_OWNER_FALSE.json",
+    "reason": "API footprint/device owner libraryUuid follows the new isolated copy project UUID. Raw native COMPONENT/PAD_NET/ATTR/LINE/VIA/POUR/POURED/RULE identical; only352 specific wrapper owner fields mapped against both observed project UUIDs; actual footprint/device UUID/name and all other fields identical. No design error or CAD rerun; no quota removed."
+  },
+  "coldDRCPredebitGuardFailure": {
+    "actualOperation": "COLD_DRC.json",
+    "reason": "Sequential tool orchestration did not abort on failed reserve.py and executed read-only COLD_DRC anyway. No additional CAD mutation/save/rebuild. Report deviation; no retrospective exception claim."
+  },
+  "evidenceOnlyAfterStop": true,
+  "actualCreatedSessions": 2,
+  "completeUTC": "2026-10-02T02:27:48.082458+00:00"
+}
