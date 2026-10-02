@@ -1,0 +1,162 @@
+[
+  {
+    "passiveRef": "RF0",
+    "seriesRef": "R_TIA_ISO0",
+    "icNet": "TIA_DRV0",
+    "passiveNet": "TIA0",
+    "actualSeriesPadNets": [
+      "TIA0",
+      "TIA_DRV0"
+    ]
+  },
+  {
+    "passiveRef": "RF0",
+    "seriesRef": "R_COL_SENSE0",
+    "icNet": "COL_SENSE0",
+    "passiveNet": "COL0",
+    "actualSeriesPadNets": [
+      "COL0",
+      "COL_SENSE0"
+    ]
+  },
+  {
+    "passiveRef": "CF0",
+    "seriesRef": "R_TIA_ISO0",
+    "icNet": "TIA_DRV0",
+    "passiveNet": "TIA0",
+    "actualSeriesPadNets": [
+      "TIA0",
+      "TIA_DRV0"
+    ]
+  },
+  {
+    "passiveRef": "CF0",
+    "seriesRef": "R_COL_SENSE0",
+    "icNet": "COL_SENSE0",
+    "passiveNet": "COL0",
+    "actualSeriesPadNets": [
+      "COL0",
+      "COL_SENSE0"
+    ]
+  },
+  {
+    "passiveRef": "RF1",
+    "seriesRef": "R_TIA_ISO1",
+    "icNet": "TIA_DRV1",
+    "passiveNet": "TIA1",
+    "actualSeriesPadNets": [
+      "TIA1",
+      "TIA_DRV1"
+    ]
+  },
+  {
+    "passiveRef": "RF1",
+    "seriesRef": "R_COL_SENSE1",
+    "icNet": "COL_SENSE1",
+    "passiveNet": "COL1",
+    "actualSeriesPadNets": [
+      "COL1",
+      "COL_SENSE1"
+    ]
+  },
+  {
+    "passiveRef": "CF1",
+    "seriesRef": "R_TIA_ISO1",
+    "icNet": "TIA_DRV1",
+    "passiveNet": "TIA1",
+    "actualSeriesPadNets": [
+      "TIA1",
+      "TIA_DRV1"
+    ]
+  },
+  {
+    "passiveRef": "CF1",
+    "seriesRef": "R_COL_SENSE1",
+    "icNet": "COL_SENSE1",
+    "passiveNet": "COL1",
+    "actualSeriesPadNets": [
+      "COL1",
+      "COL_SENSE1"
+    ]
+  },
+  {
+    "passiveRef": "RF2",
+    "seriesRef": "R_TIA_ISO2",
+    "icNet": "TIA_DRV2",
+    "passiveNet": "TIA2",
+    "actualSeriesPadNets": [
+      "TIA2",
+      "TIA_DRV2"
+    ]
+  },
+  {
+    "passiveRef": "RF2",
+    "seriesRef": "R_COL_SENSE2",
+    "icNet": "COL_SENSE2",
+    "passiveNet": "COL2",
+    "actualSeriesPadNets": [
+      "COL2",
+      "COL_SENSE2"
+    ]
+  },
+  {
+    "passiveRef": "CF2",
+    "seriesRef": "R_TIA_ISO2",
+    "icNet": "TIA_DRV2",
+    "passiveNet": "TIA2",
+    "actualSeriesPadNets": [
+      "TIA2",
+      "TIA_DRV2"
+    ]
+  },
+  {
+    "passiveRef": "CF2",
+    "seriesRef": "R_COL_SENSE2",
+    "icNet": "COL_SENSE2",
+    "passiveNet": "COL2",
+    "actualSeriesPadNets": [
+      "COL2",
+      "COL_SENSE2"
+    ]
+  },
+  {
+    "passiveRef": "RF3",
+    "seriesRef": "R_TIA_ISO3",
+    "icNet": "TIA_DRV3",
+    "passiveNet": "TIA3",
+    "actualSeriesPadNets": [
+      "TIA3",
+      "TIA_DRV3"
+    ]
+  },
+  {
+    "passiveRef": "RF3",
+    "seriesRef": "R_COL_SENSE3",
+    "icNet": "COL_SENSE3",
+    "passiveNet": "COL3",
+    "actualSeriesPadNets": [
+      "COL3",
+      "COL_SENSE3"
+    ]
+  },
+  {
+    "passiveRef": "CF3",
+    "seriesRef": "R_TIA_ISO3",
+    "icNet": "TIA_DRV3",
+    "passiveNet": "TIA3",
+    "actualSeriesPadNets": [
+      "TIA3",
+      "TIA_DRV3"
+    ]
+  },
+  {
+    "passiveRef": "CF3",
+    "seriesRef": "R_COL_SENSE3",
+    "icNet": "COL_SENSE3",
+    "passiveNet": "COL3",
+    "actualSeriesPadNets": [
+      "COL3",
+      "COL_SENSE3"
+    ]
+  }
+]

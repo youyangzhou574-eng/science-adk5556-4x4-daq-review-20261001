@@ -1,0 +1,55 @@
+{
+  "UTC": "2026-10-02T11:54:25.470603+00:00",
+  "componentIds176Match": true,
+  "padSourceCount": 552,
+  "criticalPairs94": true,
+  "functionalSeriesLinks16ActualNets": true,
+  "completePairEnumeration15400Recorded": true,
+  "bodyAndPadProxyNoIntersectionRecorded": true,
+  "inputs": [
+    {
+      "path": "ACTUAL_GEOMETRY.json",
+      "shaUnchanged": true
+    },
+    {
+      "path": "CONSTRAINT_BLOCKS.json",
+      "shaUnchanged": true
+    },
+    {
+      "path": "BODY_SOURCE_REGISTER.csv",
+      "shaUnchanged": true
+    },
+    {
+      "path": "PLACEMENT_B.json",
+      "shaUnchanged": true
+    },
+    {
+      "path": "PLACEMENT_B.csv",
+      "shaUnchanged": true
+    },
+    {
+      "path": "KEY_PIN_DISTANCES_B.csv",
+      "shaUnchanged": true
+    },
+    {
+      "path": "OFFICIAL_SOURCE_LINKS.md",
+      "shaUnchanged": true
+    }
+  ],
+  "images": [
+    {
+      "path": "PLACEMENT_B2_NO_COPPER.png",
+      "width": 2880,
+      "height": 1800,
+      "sha256": "31f9862f7b1f33b4c5c5163fe89b71c3009a3eaaa7d298e0d6b2d11dfb1c53f5"
+    },
+    {
+      "path": "PLACEMENT_OLD_B_VS_B2.png",
+      "width": 3600,
+      "height": 1800,
+      "sha256": "1898fedda6d9983ee69970569cf20b142d8f7437439ded5c6d92adc2550e5a44"
+    }
+  ],
+  "nativeCAD": 0,
+  "note": "Structural frozen delivery checks, no extra placement refinement; not native DRC or mechanical/signal integrity qualification."
+}

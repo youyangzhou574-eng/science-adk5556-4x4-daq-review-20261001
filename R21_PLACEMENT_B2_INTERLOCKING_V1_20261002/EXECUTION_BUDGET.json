@@ -1,0 +1,51 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PLACEMENT_B2_INTERLOCKING_V1",
+  "rulingAssistantId": "636d471a-c983-4b4c-a177-8cd22b5aad0c",
+  "parentUserId": "8d72fefb-b873-4999-8fad-5682acc74577",
+  "startUTC": "2026-10-02T11:44:05Z",
+  "deadlineUTC": "2026-10-02T14:44:05Z",
+  "approvedMinutes": 180,
+  "status": "OFFLINE_COMPLETE_WAIT_USER_SELECTION_NO_CAD",
+  "limits": {
+    "placementRefinement": 3,
+    "finalImages": 2,
+    "CAD": 0,
+    "API": 0,
+    "GUI": 0,
+    "native": 0,
+    "simulation": 0,
+    "manufacture": 0,
+    "bench": 0
+  },
+  "actual": {
+    "placementRefinement": 2,
+    "finalImages": 2
+  },
+  "reservations": [
+    {
+      "UTC": "2026-10-02T11:49:31.289063+00:00",
+      "kind": "placementRefinement",
+      "count": 1,
+      "reason": "Bounded skeleton + finite greedy placement + complete pair audits"
+    },
+    {
+      "UTC": "2026-10-02T11:50:16.835821+00:00",
+      "kind": "placementRefinement",
+      "count": 1,
+      "reason": "Bounded skeleton + finite greedy placement + complete pair audits"
+    },
+    {
+      "UTC": "2026-10-02T11:52:23.097233+00:00",
+      "kind": "finalImages",
+      "count": 1,
+      "reason": "Final B2 no-copper placement with conservative occupancy map"
+    },
+    {
+      "UTC": "2026-10-02T11:52:23.491316+00:00",
+      "kind": "finalImages",
+      "count": 1,
+      "reason": "Final old B vs same B2 comparison"
+    }
+  ],
+  "completedAtUTC": "2026-10-02T12:00:09.274654+00:00"
+}

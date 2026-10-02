@@ -1,3 +1,11 @@
+# Latest: B2 interlocking placement; user selection before native CAD
+
+[B2 no-copper + occupancy map](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/PLACEMENT_B2_NO_COPPER.png) · [Old B / B2 comparison](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/PLACEMENT_OLD_B_VS_B2.png) · [Complete receipt](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/COMPLETE_B2_RECEIPT.md) · [176 coordinates](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/PLACEMENT_B2.csv) · [94 actual pin distances](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/KEY_PIN_DISTANCE_B2.csv) · [Gates](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/GATES.json) · [Final review](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/FINAL_REVIEW.md).
+
+176 parts / 552 pads; natural body envelope71.0x63.5mm. Offline body + conservative pad-proxy complete pair checks, not native DRC. Exact FFC actuator sweep HOLD but current ruling explicitly permits offline layout. No native PCB or board-outline changes, no manufacture/bench release. Full own readable evidence direct; ZIP supplementary. User visual selection and new bounded native scope required.
+
+---
+
 # Latest: Pro23 A/B visual drafts; placement acceptance BLOCKED
 
 [A/B comparison](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/PLACEMENT_AB_COMPARISON.png) · [Full receipt](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/COMPLETE_PLACEMENT_RECEIPT.md) · [A coordinates](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/PLACEMENT_A.csv) · [B coordinates](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/PLACEMENT_B.csv) · [Body sources](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/BODY_SOURCE_REGISTER.csv) · [74 actual pin-distance comparisons](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/KEY_PIN_DISTANCE_COMPARISON.csv) · [Gates](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/GATES.json).

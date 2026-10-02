@@ -1,0 +1,2268 @@
+{
+  "positions": {
+    "CF0": [
+      14.618580139999995,
+      33.599648820000006,
+      0
+    ],
+    "CF1": [
+      17.41857962,
+      33.09964982,
+      90
+    ],
+    "CF2": [
+      17.41857962,
+      54.599650000000004,
+      0
+    ],
+    "CF3": [
+      14.618580139999995,
+      55.099649,
+      90
+    ],
+    "C_TIA_HF0": [
+      12.84357988,
+      39.099650520000004,
+      0
+    ],
+    "C_TIA_HF1": [
+      19.193579879999998,
+      39.099650520000004,
+      180
+    ],
+    "C_TIA_HF2": [
+      19.193579879999998,
+      49.099650839999995,
+      180
+    ],
+    "C_TIA_HF3": [
+      12.84357988,
+      49.099650839999995,
+      0
+    ],
+    "C_TIA_OP": [
+      16.01857988,
+      38.79965112,
+      0
+    ],
+    "D_TIA0": [
+      8.618579439999998,
+      39.099650520000004,
+      0
+    ],
+    "D_TIA1": [
+      23.418580320000004,
+      39.099650520000004,
+      0
+    ],
+    "D_TIA2": [
+      23.418580320000004,
+      49.099650839999995,
+      0
+    ],
+    "D_TIA3": [
+      8.618579439999998,
+      49.099650839999995,
+      0
+    ],
+    "RF0": [
+      11.21857932,
+      33.599648820000006,
+      0
+    ],
+    "RF1": [
+      20.818580439999998,
+      33.599648820000006,
+      0
+    ],
+    "RF2": [
+      20.818580439999998,
+      54.599650000000004,
+      0
+    ],
+    "RF3": [
+      11.21857932,
+      54.599650000000004,
+      0
+    ],
+    "R_COL_SENSE0": [
+      14.618580139999995,
+      36.29965104,
+      0
+    ],
+    "R_COL_SENSE1": [
+      17.41857962,
+      36.29965104,
+      90
+    ],
+    "R_COL_SENSE2": [
+      17.41857962,
+      51.899650320000006,
+      0
+    ],
+    "R_COL_SENSE3": [
+      14.618580139999995,
+      51.899650320000006,
+      90
+    ],
+    "R_TIA_ISO0": [
+      11.21857932,
+      36.29965104,
+      0
+    ],
+    "R_TIA_ISO1": [
+      20.818580439999998,
+      36.29965104,
+      0
+    ],
+    "R_TIA_ISO2": [
+      20.818580439999998,
+      51.899650320000006,
+      0
+    ],
+    "R_TIA_ISO3": [
+      11.21857932,
+      51.899650320000006,
+      0
+    ],
+    "U2": [
+      16.01857988,
+      44.09965068,
+      0
+    ],
+    "C_ROW_HF0": [
+      12.844339340000001,
+      13.95786102,
+      0
+    ],
+    "C_ROW_HF1": [
+      19.194339339999996,
+      13.95786102,
+      180
+    ],
+    "C_ROW_HF2": [
+      19.194339339999996,
+      23.9578588,
+      180
+    ],
+    "C_ROW_HF3": [
+      12.844339340000001,
+      23.9578588,
+      0
+    ],
+    "C_ROW_OP": [
+      16.01933934,
+      13.657859079999998,
+      0
+    ],
+    "D_ROW0": [
+      8.619338899999999,
+      13.95786102,
+      0
+    ],
+    "D_ROW1": [
+      23.419339779999994,
+      13.95786102,
+      0
+    ],
+    "D_ROW2": [
+      23.419339779999994,
+      23.9578588,
+      0
+    ],
+    "D_ROW3": [
+      8.619338899999999,
+      23.9578588,
+      0
+    ],
+    "R_ISO0": [
+      11.219338780000001,
+      11.157858999999998,
+      0
+    ],
+    "R_ISO1": [
+      20.819339899999996,
+      11.157858999999998,
+      0
+    ],
+    "R_ISO2": [
+      20.819339899999996,
+      26.75786082,
+      0
+    ],
+    "R_ISO3": [
+      11.219338780000001,
+      26.75786082,
+      0
+    ],
+    "R_ROW_FB0": [
+      14.6193396,
+      11.157858999999998,
+      0
+    ],
+    "R_ROW_FB1": [
+      17.41933908,
+      11.157858999999998,
+      90
+    ],
+    "R_ROW_FB2": [
+      17.41933908,
+      26.75786082,
+      0
+    ],
+    "R_ROW_FB3": [
+      14.6193396,
+      26.75786082,
+      90
+    ],
+    "U1": [
+      16.01933934,
+      18.95786118,
+      0
+    ],
+    "C_BUF": [
+      32.119339520000004,
+      50.93105926,
+      90
+    ],
+    "C_DIV": [
+      39.61933976000001,
+      55.431060419999994,
+      0
+    ],
+    "C_REF": [
+      42.61933884000001,
+      42.43106102,
+      0
+    ],
+    "C_VCM_HF": [
+      34.34934014,
+      41.43106048,
+      0
+    ],
+    "C_VEX_HF": [
+      35.619340140000006,
+      51.4310608,
+      0
+    ],
+    "D_VCM": [
+      28.619338900000002,
+      41.93105948,
+      0
+    ],
+    "D_VEX": [
+      29.619339440000005,
+      51.4310608,
+      90
+    ],
+    "RD_B1": [
+      41.61934084,
+      49.43105971999999,
+      0
+    ],
+    "RD_B2": [
+      41.61934084,
+      47.43106118,
+      0
+    ],
+    "RD_B3": [
+      41.61934084,
+      51.4310608,
+      0
+    ],
+    "RD_B4": [
+      39.11934076000001,
+      49.43105971999999,
+      90
+    ],
+    "RD_B5": [
+      44.119340920000006,
+      49.43105971999999,
+      90
+    ],
+    "RD_B6": [
+      41.61934084,
+      45.431060099999996,
+      0
+    ],
+    "RD_B7": [
+      41.61934084,
+      53.43105934,
+      0
+    ],
+    "RD_B8": [
+      39.11934076000001,
+      45.9310591,
+      90
+    ],
+    "RD_B9": [
+      39.11934076000001,
+      52.93106034,
+      90
+    ],
+    "RD_TOP": [
+      44.119340920000006,
+      45.9310591,
+      90
+    ],
+    "R_VCM_FB": [
+      34.11934060000001,
+      37.43106086,
+      0
+    ],
+    "R_VCM_ISO": [
+      31.11933898000001,
+      39.431059399999995,
+      0
+    ],
+    "R_VEX_FB": [
+      35.619340140000006,
+      55.431060419999994,
+      0
+    ],
+    "R_VEX_ISO": [
+      31.61934052000001,
+      54.43105988,
+      0
+    ],
+    "U3": [
+      35.619340140000006,
+      46.43106064,
+      0
+    ],
+    "U6": [
+      42.61933884000001,
+      39.431059399999995,
+      0
+    ],
+    "C_ADC0": [
+      36.34911008,
+      19.156801060000006,
+      90
+    ],
+    "C_ADC1": [
+      36.34911008,
+      15.656800440000012,
+      90
+    ],
+    "C_ADC2": [
+      52.3491111,
+      15.656800440000005,
+      90
+    ],
+    "C_ADC3": [
+      52.3491111,
+      19.15680106,
+      90
+    ],
+    "C_ADCA1": [
+      55.349110180000004,
+      31.156799919999997,
+      90
+    ],
+    "C_ADCA2": [
+      28.349110839999994,
+      31.156799920000005,
+      180
+    ],
+    "C_ADCD": [
+      46.8491094,
+      31.156799919999997,
+      90
+    ],
+    "C_ADC_REFCAP": [
+      36.34911008,
+      23.656799680000006,
+      180
+    ],
+    "C_ADC_REFIO": [
+      38.34911115999999,
+      27.65679930000001,
+      90
+    ],
+    "C_AVDD30A": [
+      55.34911018,
+      24.156801220000006,
+      90
+    ],
+    "C_AVDD30B": [
+      58.8491108,
+      25.656800760000003,
+      90
+    ],
+    "C_AVDD30_HF": [
+      49.849111019999995,
+      22.656799139999997,
+      270
+    ],
+    "C_AVDD9A": [
+      30.84911092,
+      23.15680068000001,
+      180
+    ],
+    "C_AVDD9B": [
+      28.349110839999994,
+      27.65679930000001,
+      90
+    ],
+    "C_AVDD9_HF": [
+      38.849110159999995,
+      19.65680006000001,
+      270
+    ],
+    "C_DVDD34A": [
+      50.34911002,
+      28.156800839999995,
+      90
+    ],
+    "C_DVDD34B": [
+      50.349110020000005,
+      32.65679946,
+      180
+    ],
+    "C_REFCAP_BULKA": [
+      33.349111,
+      27.65679930000001,
+      90
+    ],
+    "C_REFCAP_BULKB": [
+      33.34911100000001,
+      32.15680046000001,
+      180
+    ],
+    "C_REFIO_B": [
+      39.34910916000001,
+      32.15680046,
+      180
+    ],
+    "R_ADC0": [
+      33.349111,
+      15.656800440000012,
+      90
+    ],
+    "R_ADC1": [
+      36.34911008,
+      12.15679982000001,
+      90
+    ],
+    "R_ADC2": [
+      52.3491111,
+      12.156799820000003,
+      90
+    ],
+    "R_ADC3": [
+      55.34911018,
+      15.656800440000005,
+      90
+    ],
+    "U5": [
+      44.34910932,
+      22.15680014,
+      270
+    ],
+    "U7": [
+      56.08499110000001,
+      50.15046068,
+      0
+    ],
+    "C_MCU1": [
+      56.08499110000001,
+      43.450458839999996,
+      0
+    ],
+    "U9": [
+      13.335311179999998,
+      1.1999976000000032,
+      0
+    ],
+    "U9_IN_CAP": [
+      9.335309019999997,
+      4.199996679999998,
+      0
+    ],
+    "U9_OUT_CAP": [
+      17.3353108,
+      4.199996679999998,
+      0
+    ],
+    "U8": [
+      30.36253889999999,
+      2.3349305599999894,
+      0
+    ],
+    "C_LDO_IN": [
+      26.862540819999992,
+      2.3349305599999894,
+      90
+    ],
+    "C_LDO_OUT": [
+      33.86253951999999,
+      2.3349305599999894,
+      90
+    ],
+    "U10": [
+      48.33437084,
+      1.1999976000000032,
+      0
+    ],
+    "U10_IN_CAP": [
+      45.334369220000006,
+      4.199996679999998,
+      0
+    ],
+    "U10_OUT_CAP": [
+      52.33437046,
+      4.199996679999998,
+      0
+    ],
+    "U4": [
+      48.74261888,
+      60.2500062,
+      90
+    ],
+    "C_MUX": [
+      53.74261904000001,
+      60.2500062,
+      90
+    ],
+    "U13": [
+      58.100210239999996,
+      35.64928912,
+      0
+    ],
+    "C_U13": [
+      55.10021116,
+      40.14929028,
+      0
+    ],
+    "U14": [
+      63.499995,
+      37.64928912,
+      0
+    ],
+    "C_U14": [
+      67.49999462000001,
+      42.14929028,
+      0
+    ],
+    "U15": [
+      63.85078877999999,
+      29.450086,
+      0
+    ],
+    "C_U15": [
+      63.85078877999999,
+      32.450085079999994,
+      0
+    ],
+    "U11": [
+      47.94857932000001,
+      47.59958893999999,
+      0
+    ],
+    "U11_VDD_C": [
+      47.94857932000001,
+      54.59959017999998,
+      0
+    ],
+    "U11_SENSE_C": [
+      45.44857924,
+      50.599590559999996,
+      90
+    ],
+    "U11_CT_C": [
+      48.94857986000001,
+      45.09958886,
+      90
+    ],
+    "U12": [
+      64.94859964,
+      11.09970894,
+      0
+    ],
+    "U12_VDD_C": [
+      64.94859964,
+      18.099710179999988,
+      0
+    ],
+    "U12_SENSE_C": [
+      62.44859955999999,
+      14.099710560000005,
+      90
+    ],
+    "U12_CT_C": [
+      62.948601100000005,
+      5.099710779999995,
+      90
+    ],
+    "J2": [
+      6.0,
+      30.299529999999997,
+      90
+    ],
+    "J1": [
+      2.2699999999999996,
+      2.5400000000000063,
+      90
+    ],
+    "J3": [
+      70.2500102,
+      17.62,
+      90
+    ],
+    "J4": [
+      70.2500102,
+      50.0799492,
+      90
+    ],
+    "U9_BLEED": [
+      13.5,
+      7.0,
+      180
+    ],
+    "C_PWR": [
+      5.5,
+      3.0,
+      90
+    ],
+    "U10_BLEED": [
+      43.5,
+      1.0,
+      0
+    ],
+    "D_J3_3": [
+      66.5,
+      15.0,
+      90
+    ],
+    "D_J3_1": [
+      65.5,
+      22.0,
+      180
+    ],
+    "D_J3_4": [
+      62.5,
+      17.0,
+      180
+    ],
+    "D_J4_1": [
+      65.5,
+      50.0,
+      90
+    ],
+    "D_J4_3": [
+      66.5,
+      47.0,
+      270
+    ],
+    "D_J3_5": [
+      62.5,
+      21.0,
+      0
+    ],
+    "D_J4_4": [
+      66.5,
+      53.0,
+      270
+    ],
+    "R_J3_3": [
+      67.5,
+      19.0,
+      90
+    ],
+    "R_ADC_RESET_PD": [
+      44.5,
+      14.0,
+      0
+    ],
+    "R_J3_4": [
+      67.5,
+      11.0,
+      90
+    ],
+    "R_J3_5": [
+      67.5,
+      24.0,
+      90
+    ],
+    "U12_TOP3": [
+      64.5,
+      9.0,
+      0
+    ],
+    "U11_TOP4": [
+      48.5,
+      50.0,
+      180
+    ],
+    "U11_TOP3": [
+      46.5,
+      46.0,
+      180
+    ],
+    "R_SEL_PD0": [
+      39.5,
+      62.0,
+      270
+    ],
+    "R_SEL_PD3": [
+      42.5,
+      61.0,
+      90
+    ],
+    "R_SEL_PD1": [
+      48.5,
+      56.0,
+      0
+    ],
+    "R_SEL_PD2": [
+      51.5,
+      56.0,
+      0
+    ],
+    "R_CS_PU": [
+      56.5,
+      57.0,
+      0
+    ],
+    "R_ENABLE_PD": [
+      62.5,
+      50.0,
+      90
+    ],
+    "R_HW_PD": [
+      54.5,
+      36.0,
+      90
+    ],
+    "U10_OV_B1": [
+      52.5,
+      1.0,
+      0
+    ],
+    "U10_OV_B2": [
+      48.5,
+      4.0,
+      90
+    ],
+    "U9_OV_T": [
+      17.5,
+      1.0,
+      0
+    ],
+    "U9_PG_B": [
+      9.5,
+      1.0,
+      180
+    ],
+    "U9_PG_T": [
+      13.5,
+      4.0,
+      90
+    ],
+    "U9_OV_B1": [
+      15.5,
+      1.0,
+      270
+    ],
+    "R_J3_1": [
+      64.5,
+      13.0,
+      180
+    ],
+    "U10_PG_B": [
+      50.5,
+      1.0,
+      270
+    ],
+    "U10_PG_T": [
+      47.5,
+      9.0,
+      0
+    ],
+    "U9_EN_G": [
+      7.5,
+      1.0,
+      270
+    ],
+    "U9_EN_R": [
+      20.5,
+      1.0,
+      270
+    ],
+    "U9_OV_B2": [
+      8.5,
+      6.0,
+      180
+    ],
+    "R_RST": [
+      61.5,
+      55.0,
+      0
+    ],
+    "U11_BOT": [
+      45.5,
+      48.0,
+      90
+    ],
+    "U10_EN_G": [
+      48.5,
+      6.0,
+      0
+    ],
+    "U10_EN_R": [
+      45.5,
+      6.0,
+      0
+    ],
+    "U10_OV_T": [
+      52.5,
+      7.0,
+      180
+    ],
+    "R_J4_1": [
+      68.5,
+      60.0,
+      180
+    ],
+    "R_J4_3": [
+      69.5,
+      57.0,
+      0
+    ],
+    "R_J4_4": [
+      69.5,
+      44.0,
+      0
+    ],
+    "U11_TOP1": [
+      50.5,
+      45.0,
+      270
+    ],
+    "U11_TOP2": [
+      46.5,
+      44.0,
+      0
+    ],
+    "U12_BOT": [
+      58.5,
+      9.0,
+      90
+    ],
+    "U11_TOP0": [
+      48.5,
+      52.0,
+      0
+    ],
+    "U12_TOP0": [
+      62.5,
+      11.0,
+      270
+    ],
+    "U12_TOP1": [
+      68.5,
+      5.0,
+      180
+    ],
+    "U12_TOP2": [
+      67.5,
+      9.0,
+      0
+    ],
+    "C_MCU_BULK": [
+      61.5,
+      45.0,
+      0
+    ],
+    "C_RST": [
+      53.5,
+      44.0,
+      180
+    ]
+  },
+  "metrics": {
+    "pass": 2,
+    "components": 176,
+    "pads": 552,
+    "naturalBBoxMm": [
+      0.5,
+      6.217248937900877e-15,
+      71.50002040000001,
+      63.5000124
+    ],
+    "naturalWidthMm": 71.00002040000001,
+    "naturalHeightMm": 63.500012399999996,
+    "bodyUnionMm2": 818.6465468542654,
+    "bodyFraction": 0.18157838566617895,
+    "aspectRatio": 1.1181103391406584,
+    "bodyOverlapPairs": [],
+    "physicalProxyOverlapPairs": [],
+    "allDistinctPairsExamined": 15400,
+    "criticalPairs": 94,
+    "maxCriticalDeltaMm": 6.217248937900877e-15,
+    "FFCPlanningKeepoutCollisions": [],
+    "FFCExactActuatorSweepHOLD": true,
+    "largestEmptyFullCellRectangleAreaMm2": 266,
+    "largestEmptyRectMm": [
+      0.5,
+      56.00000000000001,
+      38.5,
+      63.00000000000001
+    ],
+    "gridStepMm": 1,
+    "gridMethod": "body-intersection of clipped cells; largest full-cell empty rectangle, not native clearance",
+    "grid4x4Fractions": [
+      0.22289139594085913,
+      0.09193041039877672,
+      0.11754972133830223,
+      0.12529080242925755,
+      0.2947674247284072,
+      0.16461006866150532,
+      0.28507678998285807,
+      0.227605594643296,
+      0.2533895266253303,
+      0.14404917335844353,
+      0.13655463299317228,
+      0.2492681083287349,
+      0.049743820710710436,
+      0.0737021385508183,
+      0.2136664024461245,
+      0.2551581595222695
+    ],
+    "gridCV": 0.4166481634281361,
+    "CAD": 0,
+    "status": "OFFLINE_PLACEMENT_COMPLETE"
+  },
+  "regions": {
+    "J1": "POWER",
+    "CF0": "AFE",
+    "CF1": "AFE",
+    "CF2": "AFE",
+    "CF3": "AFE",
+    "C_ADC0": "ADC",
+    "C_ADC1": "ADC",
+    "C_ADC2": "ADC",
+    "C_ADC3": "ADC",
+    "C_ADCA1": "ADC",
+    "C_ADCA2": "ADC",
+    "C_ADCD": "ADC",
+    "C_ADC_REFCAP": "ADC",
+    "C_ADC_REFIO": "ADC",
+    "C_AVDD30A": "ADC",
+    "C_AVDD30B": "ADC",
+    "C_AVDD30_HF": "ADC",
+    "C_AVDD9A": "ADC",
+    "C_AVDD9B": "ADC",
+    "C_AVDD9_HF": "ADC",
+    "C_BUF": "BIAS",
+    "C_DIV": "BIAS",
+    "C_DVDD34A": "ADC",
+    "C_DVDD34B": "ADC",
+    "C_LDO_IN": "POWER",
+    "C_LDO_OUT": "POWER",
+    "C_MCU1": "DIGITAL",
+    "C_MCU_BULK": "DIGITAL",
+    "C_MUX": "BIAS",
+    "C_PWR": "POWER",
+    "C_REF": "BIAS",
+    "C_REFCAP_BULKA": "ADC",
+    "C_REFCAP_BULKB": "ADC",
+    "C_REFIO_B": "ADC",
+    "C_ROW_HF0": "AFE",
+    "C_ROW_HF1": "AFE",
+    "C_ROW_HF2": "AFE",
+    "C_ROW_HF3": "AFE",
+    "C_ROW_OP": "AFE",
+    "C_RST": "DIGITAL",
+    "C_TIA_HF0": "AFE",
+    "C_TIA_HF1": "AFE",
+    "C_TIA_HF2": "AFE",
+    "C_TIA_HF3": "AFE",
+    "C_TIA_OP": "AFE",
+    "C_U13": "DIGITAL",
+    "C_U14": "DIGITAL",
+    "C_U15": "DIGITAL",
+    "C_VCM_HF": "BIAS",
+    "C_VEX_HF": "BIAS",
+    "D_J3_1": "EXTERNAL",
+    "D_J3_3": "EXTERNAL",
+    "D_J3_4": "EXTERNAL",
+    "D_J3_5": "EXTERNAL",
+    "D_J4_1": "EXTERNAL",
+    "D_J4_3": "EXTERNAL",
+    "D_J4_4": "EXTERNAL",
+    "D_ROW0": "AFE",
+    "D_ROW1": "AFE",
+    "D_ROW2": "AFE",
+    "D_ROW3": "AFE",
+    "D_TIA0": "AFE",
+    "D_TIA1": "AFE",
+    "D_TIA2": "AFE",
+    "D_TIA3": "AFE",
+    "D_VCM": "BIAS",
+    "D_VEX": "BIAS",
+    "J2": "AFE",
+    "J3": "EXTERNAL",
+    "J4": "EXTERNAL",
+    "RD_B1": "BIAS",
+    "RD_B2": "BIAS",
+    "RD_B3": "BIAS",
+    "RD_B4": "BIAS",
+    "RD_B5": "BIAS",
+    "RD_B6": "BIAS",
+    "RD_B7": "BIAS",
+    "RD_B8": "BIAS",
+    "RD_B9": "BIAS",
+    "RD_TOP": "BIAS",
+    "RF0": "AFE",
+    "RF1": "AFE",
+    "RF2": "AFE",
+    "RF3": "AFE",
+    "R_ADC0": "ADC",
+    "R_ADC1": "ADC",
+    "R_ADC2": "ADC",
+    "R_ADC3": "ADC",
+    "R_ADC_RESET_PD": "ADC",
+    "R_COL_SENSE0": "AFE",
+    "R_COL_SENSE1": "AFE",
+    "R_COL_SENSE2": "AFE",
+    "R_COL_SENSE3": "AFE",
+    "R_CS_PU": "DIGITAL",
+    "R_ENABLE_PD": "DIGITAL",
+    "R_HW_PD": "DIGITAL",
+    "R_ISO0": "AFE",
+    "R_ISO1": "AFE",
+    "R_ISO2": "AFE",
+    "R_ISO3": "AFE",
+    "R_J3_1": "EXTERNAL",
+    "R_J3_3": "EXTERNAL",
+    "R_J3_4": "EXTERNAL",
+    "R_J3_5": "EXTERNAL",
+    "R_J4_1": "EXTERNAL",
+    "R_J4_3": "EXTERNAL",
+    "R_J4_4": "EXTERNAL",
+    "R_ROW_FB0": "AFE",
+    "R_ROW_FB1": "AFE",
+    "R_ROW_FB2": "AFE",
+    "R_ROW_FB3": "AFE",
+    "R_RST": "DIGITAL",
+    "R_SEL_PD0": "BIAS",
+    "R_SEL_PD1": "BIAS",
+    "R_SEL_PD2": "BIAS",
+    "R_SEL_PD3": "BIAS",
+    "R_TIA_ISO0": "AFE",
+    "R_TIA_ISO1": "AFE",
+    "R_TIA_ISO2": "AFE",
+    "R_TIA_ISO3": "AFE",
+    "R_VCM_FB": "BIAS",
+    "R_VCM_ISO": "BIAS",
+    "R_VEX_FB": "BIAS",
+    "R_VEX_ISO": "BIAS",
+    "U1": "AFE",
+    "U10": "POWER",
+    "U10_BLEED": "POWER",
+    "U10_EN_G": "POWER",
+    "U10_EN_R": "POWER",
+    "U10_IN_CAP": "POWER",
+    "U10_OUT_CAP": "POWER",
+    "U10_OV_B1": "POWER",
+    "U10_OV_B2": "POWER",
+    "U10_OV_T": "POWER",
+    "U10_PG_B": "POWER",
+    "U10_PG_T": "POWER",
+    "U11": "EXTERNAL",
+    "U11_BOT": "EXTERNAL",
+    "U11_CT_C": "EXTERNAL",
+    "U11_SENSE_C": "EXTERNAL",
+    "U11_TOP0": "EXTERNAL",
+    "U11_TOP1": "EXTERNAL",
+    "U11_TOP2": "EXTERNAL",
+    "U11_TOP3": "EXTERNAL",
+    "U11_TOP4": "EXTERNAL",
+    "U11_VDD_C": "EXTERNAL",
+    "U12": "EXTERNAL",
+    "U12_BOT": "EXTERNAL",
+    "U12_CT_C": "EXTERNAL",
+    "U12_SENSE_C": "EXTERNAL",
+    "U12_TOP0": "EXTERNAL",
+    "U12_TOP1": "EXTERNAL",
+    "U12_TOP2": "EXTERNAL",
+    "U12_TOP3": "EXTERNAL",
+    "U12_VDD_C": "EXTERNAL",
+    "U13": "DIGITAL",
+    "U14": "DIGITAL",
+    "U15": "DIGITAL",
+    "U2": "AFE",
+    "U3": "BIAS",
+    "U4": "BIAS",
+    "U5": "ADC",
+    "U6": "BIAS",
+    "U7": "DIGITAL",
+    "U8": "POWER",
+    "U9": "POWER",
+    "U9_BLEED": "POWER",
+    "U9_EN_G": "POWER",
+    "U9_EN_R": "POWER",
+    "U9_IN_CAP": "POWER",
+    "U9_OUT_CAP": "POWER",
+    "U9_OV_B1": "POWER",
+    "U9_OV_B2": "POWER",
+    "U9_OV_T": "POWER",
+    "U9_PG_B": "POWER",
+    "U9_PG_T": "POWER"
+  },
+  "classes": {
+    "CF0": "A",
+    "CF1": "A",
+    "CF2": "A",
+    "CF3": "A",
+    "C_TIA_HF0": "A",
+    "C_TIA_HF1": "A",
+    "C_TIA_HF2": "A",
+    "C_TIA_HF3": "A",
+    "C_TIA_OP": "A",
+    "D_TIA0": "A",
+    "D_TIA1": "A",
+    "D_TIA2": "A",
+    "D_TIA3": "A",
+    "RF0": "A",
+    "RF1": "A",
+    "RF2": "A",
+    "RF3": "A",
+    "R_COL_SENSE0": "A",
+    "R_COL_SENSE1": "A",
+    "R_COL_SENSE2": "A",
+    "R_COL_SENSE3": "A",
+    "R_TIA_ISO0": "A",
+    "R_TIA_ISO1": "A",
+    "R_TIA_ISO2": "A",
+    "R_TIA_ISO3": "A",
+    "U2": "A",
+    "C_ROW_HF0": "A",
+    "C_ROW_HF1": "A",
+    "C_ROW_HF2": "A",
+    "C_ROW_HF3": "A",
+    "C_ROW_OP": "A",
+    "D_ROW0": "A",
+    "D_ROW1": "A",
+    "D_ROW2": "A",
+    "D_ROW3": "A",
+    "R_ISO0": "A",
+    "R_ISO1": "A",
+    "R_ISO2": "A",
+    "R_ISO3": "A",
+    "R_ROW_FB0": "A",
+    "R_ROW_FB1": "A",
+    "R_ROW_FB2": "A",
+    "R_ROW_FB3": "A",
+    "U1": "A",
+    "C_BUF": "A",
+    "C_DIV": "A",
+    "C_REF": "A",
+    "C_VCM_HF": "A",
+    "C_VEX_HF": "A",
+    "D_VCM": "A",
+    "D_VEX": "A",
+    "RD_B1": "A",
+    "RD_B2": "A",
+    "RD_B3": "A",
+    "RD_B4": "A",
+    "RD_B5": "A",
+    "RD_B6": "A",
+    "RD_B7": "A",
+    "RD_B8": "A",
+    "RD_B9": "A",
+    "RD_TOP": "A",
+    "R_VCM_FB": "A",
+    "R_VCM_ISO": "A",
+    "R_VEX_FB": "A",
+    "R_VEX_ISO": "A",
+    "U3": "A",
+    "U6": "A",
+    "C_ADC0": "A",
+    "C_ADC1": "A",
+    "C_ADC2": "A",
+    "C_ADC3": "A",
+    "C_ADCA1": "A",
+    "C_ADCA2": "A",
+    "C_ADCD": "A",
+    "C_ADC_REFCAP": "A",
+    "C_ADC_REFIO": "A",
+    "C_AVDD30A": "A",
+    "C_AVDD30B": "A",
+    "C_AVDD30_HF": "A",
+    "C_AVDD9A": "A",
+    "C_AVDD9B": "A",
+    "C_AVDD9_HF": "A",
+    "C_DVDD34A": "A",
+    "C_DVDD34B": "A",
+    "C_REFCAP_BULKA": "A",
+    "C_REFCAP_BULKB": "A",
+    "C_REFIO_B": "A",
+    "R_ADC0": "A",
+    "R_ADC1": "A",
+    "R_ADC2": "A",
+    "R_ADC3": "A",
+    "U5": "A",
+    "U7": "A",
+    "C_MCU1": "A",
+    "U9": "A",
+    "U9_IN_CAP": "A",
+    "U9_OUT_CAP": "A",
+    "U10": "A",
+    "U10_IN_CAP": "A",
+    "U10_OUT_CAP": "A",
+    "U8": "A",
+    "C_LDO_IN": "A",
+    "C_LDO_OUT": "A",
+    "U4": "B",
+    "C_MUX": "B",
+    "U13": "B",
+    "C_U13": "B",
+    "U14": "B",
+    "C_U14": "B",
+    "U15": "B",
+    "C_U15": "B",
+    "U11": "B",
+    "U11_VDD_C": "B",
+    "U11_SENSE_C": "B",
+    "U11_CT_C": "B",
+    "U12": "B",
+    "U12_VDD_C": "B",
+    "U12_SENSE_C": "B",
+    "U12_CT_C": "B",
+    "J1": "C",
+    "J2": "A",
+    "J3": "C",
+    "J4": "C",
+    "C_MCU_BULK": "C",
+    "C_PWR": "C",
+    "C_RST": "C",
+    "D_J3_1": "C",
+    "D_J3_3": "C",
+    "D_J3_4": "C",
+    "D_J3_5": "C",
+    "D_J4_1": "C",
+    "D_J4_3": "C",
+    "D_J4_4": "C",
+    "R_ADC_RESET_PD": "C",
+    "R_CS_PU": "C",
+    "R_ENABLE_PD": "C",
+    "R_HW_PD": "C",
+    "R_J3_1": "C",
+    "R_J3_3": "C",
+    "R_J3_4": "C",
+    "R_J3_5": "C",
+    "R_J4_1": "C",
+    "R_J4_3": "C",
+    "R_J4_4": "C",
+    "R_RST": "C",
+    "R_SEL_PD0": "C",
+    "R_SEL_PD1": "C",
+    "R_SEL_PD2": "C",
+    "R_SEL_PD3": "C",
+    "U10_BLEED": "C",
+    "U10_EN_G": "C",
+    "U10_EN_R": "C",
+    "U10_OV_B1": "C",
+    "U10_OV_B2": "C",
+    "U10_OV_T": "C",
+    "U10_PG_B": "C",
+    "U10_PG_T": "C",
+    "U11_BOT": "C",
+    "U11_TOP0": "C",
+    "U11_TOP1": "C",
+    "U11_TOP2": "C",
+    "U11_TOP3": "C",
+    "U11_TOP4": "C",
+    "U12_BOT": "C",
+    "U12_TOP0": "C",
+    "U12_TOP1": "C",
+    "U12_TOP2": "C",
+    "U12_TOP3": "C",
+    "U9_BLEED": "C",
+    "U9_EN_G": "C",
+    "U9_EN_R": "C",
+    "U9_OV_B1": "C",
+    "U9_OV_B2": "C",
+    "U9_OV_T": "C",
+    "U9_PG_B": "C",
+    "U9_PG_T": "C"
+  },
+  "skeleton": {
+    "TIA": [
+      7,
+      32,
+      0
+    ],
+    "ROW": [
+      7,
+      10,
+      0
+    ],
+    "REFERENCE": [
+      27,
+      37,
+      0
+    ],
+    "ADC": [
+      27,
+      11,
+      90
+    ],
+    "MCU": [
+      51,
+      43,
+      0
+    ],
+    "POWER5": [
+      7,
+      0,
+      0
+    ],
+    "LDO": [
+      26,
+      0,
+      0
+    ],
+    "POWER3": [
+      43,
+      0,
+      0
+    ],
+    "MUX": [
+      45,
+      57,
+      90
+    ],
+    "U13": [
+      54,
+      32,
+      0
+    ],
+    "U14": [
+      61,
+      34,
+      0
+    ],
+    "U15": [
+      62,
+      28,
+      0
+    ],
+    "U11": [
+      45,
+      44,
+      0
+    ],
+    "U12": [
+      62,
+      4,
+      0
+    ],
+    "J2": [
+      0.5,
+      23,
+      0
+    ],
+    "J1": [
+      1,
+      0,
+      0
+    ],
+    "J3": [
+      69,
+      10,
+      0
+    ],
+    "J4": [
+      69,
+      45,
+      0
+    ]
+  },
+  "greedyTrace": [
+    {
+      "ref": "U9_BLEED",
+      "host": "U9",
+      "candidateCenters": 128,
+      "rotationTrials": 512,
+      "score": 3.480691324657936,
+      "position": [
+        13.5,
+        7.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 5.802340066510986,
+      "localGapMm": 0.5867133600000186
+    },
+    {
+      "ref": "C_PWR",
+      "host": "J1",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 2.1686368172328376,
+      "position": [
+        5.5,
+        3.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 3.2625909948996052,
+      "localGapMm": 0.6369994399999824
+    },
+    {
+      "ref": "U10_BLEED",
+      "host": "U10",
+      "candidateCenters": 129,
+      "rotationTrials": 516,
+      "score": 2.4062868303457465,
+      "position": [
+        43.5,
+        1.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.83850601515055,
+      "localGapMm": 1.4864974400000077
+    },
+    {
+      "ref": "D_J3_3",
+      "host": "J3",
+      "candidateCenters": 101,
+      "rotationTrials": 404,
+      "score": 2.580739235686728,
+      "position": [
+        66.5,
+        15.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.5746012394638385,
+      "localGapMm": 1.000028400000005
+    },
+    {
+      "ref": "D_J3_1",
+      "host": "J3",
+      "candidateCenters": 103,
+      "rotationTrials": 412,
+      "score": 2.846044955613316,
+      "position": [
+        65.5,
+        22.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.461191600634057,
+      "localGapMm": 1.8795587400000215
+    },
+    {
+      "ref": "D_J3_4",
+      "host": "J3",
+      "candidateCenters": 109,
+      "rotationTrials": 436,
+      "score": 4.373142234621813,
+      "position": [
+        62.5,
+        17.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.77477061398625,
+      "localGapMm": 0.3011176000000049
+    },
+    {
+      "ref": "D_J4_1",
+      "host": "J4",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 2.0207069504438424,
+      "position": [
+        65.5,
+        50.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.7506829798129795,
+      "localGapMm": 2.0000284000000046
+    },
+    {
+      "ref": "D_J4_3",
+      "host": "J4",
+      "candidateCenters": 90,
+      "rotationTrials": 360,
+      "score": 3.012490604285138,
+      "position": [
+        66.5,
+        47.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.852696526126967,
+      "localGapMm": 0.4682205200000027
+    },
+    {
+      "ref": "D_J3_5",
+      "host": "J3",
+      "candidateCenters": 113,
+      "rotationTrials": 452,
+      "score": 4.696707814370411,
+      "position": [
+        62.5,
+        21.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 8.455001957427575,
+      "localGapMm": 0.37102088000000316
+    },
+    {
+      "ref": "D_J4_4",
+      "host": "J4",
+      "candidateCenters": 93,
+      "rotationTrials": 372,
+      "score": 3.031558515542806,
+      "position": [
+        66.5,
+        53.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.752817393366246,
+      "localGapMm": 0.36973818000001296
+    },
+    {
+      "ref": "R_J3_3",
+      "host": "J3",
+      "candidateCenters": 116,
+      "rotationTrials": 464,
+      "score": 1.9672728419466412,
+      "position": [
+        67.5,
+        19.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 3.076841903657721,
+      "localGapMm": 0.7961968169651361
+    },
+    {
+      "ref": "R_ADC_RESET_PD",
+      "host": "U5",
+      "candidateCenters": 135,
+      "rotationTrials": 540,
+      "score": 3.1939574743307495,
+      "position": [
+        44.5,
+        14.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 8.15819566578388,
+      "localGapMm": 2.8750962000000015
+    },
+    {
+      "ref": "R_J3_4",
+      "host": "J3",
+      "candidateCenters": 117,
+      "rotationTrials": 468,
+      "score": 3.583447139922814,
+      "position": [
+        67.5,
+        11.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.168469578655132,
+      "localGapMm": 1.06854036
+    },
+    {
+      "ref": "R_J3_5",
+      "host": "J3",
+      "candidateCenters": 117,
+      "rotationTrials": 468,
+      "score": 3.8840873769658995,
+      "position": [
+        67.5,
+        24.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.947442414306437,
+      "localGapMm": 0.5775111000000024
+    },
+    {
+      "ref": "U12_TOP3",
+      "host": "U12",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 1.41555206756835,
+      "position": [
+        64.5,
+        9.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 2.147095542756318,
+      "localGapMm": 0.9179383799999955
+    },
+    {
+      "ref": "U11_TOP4",
+      "host": "U11",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 1.3864173391290464,
+      "position": [
+        48.5,
+        50.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 2.462932809335656,
+      "localGapMm": 1.2186659000000049
+    },
+    {
+      "ref": "U11_TOP3",
+      "host": "U11",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 1.7747601027560194,
+      "position": [
+        46.5,
+        46.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 2.1580238236177967,
+      "localGapMm": 0.41901725999998973
+    },
+    {
+      "ref": "R_SEL_PD0",
+      "host": "U4",
+      "candidateCenters": 117,
+      "rotationTrials": 468,
+      "score": 2.3008519322666956,
+      "position": [
+        39.5,
+        62.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 9.406831669641534,
+      "localGapMm": 4.9640609
+    },
+    {
+      "ref": "R_SEL_PD3",
+      "host": "U4",
+      "candidateCenters": 112,
+      "rotationTrials": 448,
+      "score": 2.6178711452152843,
+      "position": [
+        42.5,
+        61.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.287509934860614,
+      "localGapMm": 2.0686597399999935
+    },
+    {
+      "ref": "R_SEL_PD1",
+      "host": "U4",
+      "candidateCenters": 115,
+      "rotationTrials": 460,
+      "score": 2.7413280471976567,
+      "position": [
+        48.5,
+        56.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.256925724154804,
+      "localGapMm": 0.518410060000015
+    },
+    {
+      "ref": "R_SEL_PD2",
+      "host": "U4",
+      "candidateCenters": 116,
+      "rotationTrials": 464,
+      "score": 3.0115857512513964,
+      "position": [
+        51.5,
+        56.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 5.0661329770319785,
+      "localGapMm": 0.5250686060630749
+    },
+    {
+      "ref": "R_CS_PU",
+      "host": "U7",
+      "candidateCenters": 124,
+      "rotationTrials": 496,
+      "score": 3.5492207985178097,
+      "position": [
+        56.5,
+        57.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.862100355088465,
+      "localGapMm": 1.334950400000004
+    },
+    {
+      "ref": "R_ENABLE_PD",
+      "host": "U7",
+      "candidateCenters": 124,
+      "rotationTrials": 496,
+      "score": 3.5904941678905056,
+      "position": [
+        62.5,
+        50.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.4167731456944255,
+      "localGapMm": 0.8986191199999851
+    },
+    {
+      "ref": "R_HW_PD",
+      "host": "U13",
+      "candidateCenters": 100,
+      "rotationTrials": 400,
+      "score": 2.32318363514708,
+      "position": [
+        54.5,
+        36.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 3.6172519809312704,
+      "localGapMm": 0.6688546599999938
+    },
+    {
+      "ref": "U10_OV_B1",
+      "host": "U10",
+      "candidateCenters": 134,
+      "rotationTrials": 536,
+      "score": 1.8054650892556197,
+      "position": [
+        52.5,
+        1.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.170427476728025,
+      "localGapMm": 1.7942851599999938
+    },
+    {
+      "ref": "U10_OV_B2",
+      "host": "U10",
+      "candidateCenters": 133,
+      "rotationTrials": 532,
+      "score": 2.074457289214569,
+      "position": [
+        48.5,
+        4.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 2.8048968713034794,
+      "localGapMm": 0.3981610800000013
+    },
+    {
+      "ref": "U9_OV_T",
+      "host": "U9",
+      "candidateCenters": 119,
+      "rotationTrials": 476,
+      "score": 1.805674820827221,
+      "position": [
+        17.5,
+        1.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.169488218887154,
+      "localGapMm": 1.7932254400000038
+    },
+    {
+      "ref": "U9_PG_B",
+      "host": "U9",
+      "candidateCenters": 124,
+      "rotationTrials": 496,
+      "score": 1.8655989250848237,
+      "position": [
+        9.5,
+        1.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 3.840522215459603,
+      "localGapMm": 1.473288980000003
+    },
+    {
+      "ref": "U9_PG_T",
+      "host": "U9",
+      "candidateCenters": 119,
+      "rotationTrials": 476,
+      "score": 2.0453004903149097,
+      "position": [
+        13.5,
+        4.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 2.80484150130426,
+      "localGapMm": 0.4428925600000184
+    },
+    {
+      "ref": "U9_OV_B1",
+      "host": "U9",
+      "candidateCenters": 120,
+      "rotationTrials": 480,
+      "score": 3.368670275112384,
+      "position": [
+        15.5,
+        1.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 11.097263428508086,
+      "hostCenterDistanceMm": 2.173908169044581,
+      "localGapMm": 0.4117405400000251
+    },
+    {
+      "ref": "R_J3_1",
+      "host": "J3",
+      "candidateCenters": 118,
+      "rotationTrials": 472,
+      "score": 4.04493323016231,
+      "position": [
+        64.5,
+        13.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.376111258658191,
+      "localGapMm": 0.4441595600000028
+    },
+    {
+      "ref": "U10_PG_B",
+      "host": "U10",
+      "candidateCenters": 133,
+      "rotationTrials": 532,
+      "score": 1.7063224804309076,
+      "position": [
+        50.5,
+        1.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.012804143679204572,
+      "hostCenterDistanceMm": 2.1748445228678013,
+      "localGapMm": 0.41185992000002614
+    },
+    {
+      "ref": "U10_PG_T",
+      "host": "U10",
+      "candidateCenters": 134,
+      "rotationTrials": 536,
+      "score": 2.545747738235077,
+      "position": [
+        47.5,
+        9.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.844502032547892,
+      "localGapMm": 3.411859920000012
+    },
+    {
+      "ref": "U9_EN_G",
+      "host": "U9",
+      "candidateCenters": 120,
+      "rotationTrials": 480,
+      "score": 3.3540237761099974,
+      "position": [
+        7.5,
+        1.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 5.838737501158853,
+      "localGapMm": 0.4105213400000309
+    },
+    {
+      "ref": "U9_EN_R",
+      "host": "U9",
+      "candidateCenters": 119,
+      "rotationTrials": 476,
+      "score": 3.469955126032539,
+      "position": [
+        20.5,
+        1.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.1674796775044145,
+      "localGapMm": 1.2443715391276624
+    },
+    {
+      "ref": "U9_OV_B2",
+      "host": "U9",
+      "candidateCenters": 121,
+      "rotationTrials": 484,
+      "score": 3.769048713762784,
+      "position": [
+        8.5,
+        6.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.813241317276139,
+      "localGapMm": 0.5053221400000183
+    },
+    {
+      "ref": "R_RST",
+      "host": "U7",
+      "candidateCenters": 124,
+      "rotationTrials": 496,
+      "score": 3.730751066888634,
+      "position": [
+        61.5,
+        55.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.269137019158817,
+      "localGapMm": 1.190448251263642
+    },
+    {
+      "ref": "U11_BOT",
+      "host": "U11",
+      "candidateCenters": 89,
+      "rotationTrials": 356,
+      "score": 1.9260120257503353,
+      "position": [
+        45.5,
+        48.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 2.481102517692897,
+      "localGapMm": 0.3430393200000026
+    },
+    {
+      "ref": "U10_EN_G",
+      "host": "U10",
+      "candidateCenters": 133,
+      "rotationTrials": 532,
+      "score": 2.8875796891455483,
+      "position": [
+        48.5,
+        6.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.802859154571164,
+      "localGapMm": 0.41098108000001327
+    },
+    {
+      "ref": "U10_EN_R",
+      "host": "U10",
+      "candidateCenters": 131,
+      "rotationTrials": 524,
+      "score": 3.1715079417941054,
+      "position": [
+        45.5,
+        6.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 5.574377193790175,
+      "localGapMm": 0.5051240200000109
+    },
+    {
+      "ref": "U10_OV_T",
+      "host": "U10",
+      "candidateCenters": 133,
+      "rotationTrials": 532,
+      "score": 3.28624961439749,
+      "position": [
+        52.5,
+        7.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.140902893797677,
+      "localGapMm": 1.5054237399999975
+    },
+    {
+      "ref": "R_J4_1",
+      "host": "J4",
+      "candidateCenters": 98,
+      "rotationTrials": 392,
+      "score": 3.0808326118960134,
+      "position": [
+        68.5,
+        60.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 10.073229054016625,
+      "localGapMm": 4.408540360000003
+    },
+    {
+      "ref": "R_J4_3",
+      "host": "J4",
+      "candidateCenters": 99,
+      "rotationTrials": 396,
+      "score": 3.3302427545615396,
+      "position": [
+        69.5,
+        57.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.960576008828915,
+      "localGapMm": 1.408380340000008
+    },
+    {
+      "ref": "R_J4_4",
+      "host": "J4",
+      "candidateCenters": 103,
+      "rotationTrials": 412,
+      "score": 3.6201409964340474,
+      "position": [
+        69.5,
+        44.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.126034408545605,
+      "localGapMm": 0.5692388600000129
+    },
+    {
+      "ref": "U11_TOP1",
+      "host": "U11",
+      "candidateCenters": 89,
+      "rotationTrials": 356,
+      "score": 2.1760005098836275,
+      "position": [
+        50.5,
+        45.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 3.642473080655764,
+      "localGapMm": 0.6701595199999986
+    },
+    {
+      "ref": "U11_TOP2",
+      "host": "U11",
+      "candidateCenters": 90,
+      "rotationTrials": 360,
+      "score": 2.1910199138709903,
+      "position": [
+        46.5,
+        44.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 3.8801317739610255,
+      "localGapMm": 0.8438002400000073
+    },
+    {
+      "ref": "U12_BOT",
+      "host": "U12",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 1.7329306137504314,
+      "position": [
+        58.5,
+        9.0,
+        90
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.781829764136226,
+      "localGapMm": 3.9266516179990827
+    },
+    {
+      "ref": "U11_TOP0",
+      "host": "U11",
+      "candidateCenters": 91,
+      "rotationTrials": 364,
+      "score": 2.2502873086902704,
+      "position": [
+        48.5,
+        52.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 4.434826069115007,
+      "localGapMm": 1.1366387600000252
+    },
+    {
+      "ref": "U12_TOP0",
+      "host": "U12",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 1.7514892813440168,
+      "position": [
+        62.5,
+        11.0,
+        270
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 2.45062891310048,
+      "localGapMm": 0.5809584860611269
+    },
+    {
+      "ref": "U12_TOP1",
+      "host": "U12",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 2.073665852048933,
+      "position": [
+        68.5,
+        5.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.0582500430151995,
+      "localGapMm": 3.5616061841483693
+    },
+    {
+      "ref": "U12_TOP2",
+      "host": "U12",
+      "candidateCenters": 88,
+      "rotationTrials": 352,
+      "score": 2.213893333624428,
+      "position": [
+        67.5,
+        9.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 3.3043034711908743,
+      "localGapMm": 0.4099599999999981
+    },
+    {
+      "ref": "C_MCU_BULK",
+      "host": "U7",
+      "candidateCenters": 122,
+      "rotationTrials": 488,
+      "score": 3.75671378166136,
+      "position": [
+        61.5,
+        45.0,
+        0
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 7.473256760161876,
+      "localGapMm": 1.291819280000027
+    },
+    {
+      "ref": "C_RST",
+      "host": "U7",
+      "candidateCenters": 121,
+      "rotationTrials": 484,
+      "score": 3.8131322610774467,
+      "position": [
+        53.5,
+        44.0,
+        180
+      ],
+      "bboxAreaAddedMm2": 0.0,
+      "hostCenterDistanceMm": 6.671607419753155,
+      "localGapMm": 0.3855289000000113
+    }
+  ],
+  "rigidAudit": [
+    {
+      "block": "TIA",
+      "parts": 26,
+      "allComponentCenterPairs": 325,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "ROW",
+      "parts": 18,
+      "allComponentCenterPairs": 153,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "REFERENCE",
+      "parts": 23,
+      "allComponentCenterPairs": 253,
+      "maxRigidDistanceErrorMm": 7.105427357601002e-15
+    },
+    {
+      "block": "ADC",
+      "parts": 25,
+      "allComponentCenterPairs": 300,
+      "maxRigidDistanceErrorMm": 7.105427357601002e-15
+    },
+    {
+      "block": "MCU",
+      "parts": 2,
+      "allComponentCenterPairs": 1,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "POWER5",
+      "parts": 3,
+      "allComponentCenterPairs": 3,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "POWER3",
+      "parts": 3,
+      "allComponentCenterPairs": 3,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "LDO",
+      "parts": 3,
+      "allComponentCenterPairs": 3,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "MUX",
+      "parts": 2,
+      "allComponentCenterPairs": 1,
+      "maxRigidDistanceErrorMm": 3.552713678800501e-15
+    },
+    {
+      "block": "U13",
+      "parts": 2,
+      "allComponentCenterPairs": 1,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "U14",
+      "parts": 2,
+      "allComponentCenterPairs": 1,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "U15",
+      "parts": 2,
+      "allComponentCenterPairs": 1,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "U11",
+      "parts": 4,
+      "allComponentCenterPairs": 6,
+      "maxRigidDistanceErrorMm": 0
+    },
+    {
+      "block": "U12",
+      "parts": 4,
+      "allComponentCenterPairs": 6,
+      "maxRigidDistanceErrorMm": 0
+    }
+  ]
+}

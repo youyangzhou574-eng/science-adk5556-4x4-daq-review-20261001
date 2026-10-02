@@ -1,0 +1,229 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PLACEMENT_B2_INTERLOCKING_V1",
+  "UTC": "2026-10-02T12:00:09.741595+00:00",
+  "files": [
+    {
+      "path": "ACTUAL_GEOMETRY.json",
+      "bytes": 318346,
+      "sha256": "1B49463129E6B39E441C51AA74DD781FDF1CEFBF53D19D273F9A7C2BA2503C18"
+    },
+    {
+      "path": "BODY_SOURCE_REGISTER.csv",
+      "bytes": 35653,
+      "sha256": "1866B403BD1B246151EC31ACDA4C5C80D55953FD338398EF765BB961C480FBCA"
+    },
+    {
+      "path": "build_b2.py",
+      "bytes": 10194,
+      "sha256": "50BF3E9224A01F3B716CDFDD49713F1602E74D8AC7D4D0B7D29AC12D496970D4"
+    },
+    {
+      "path": "COMPLETE_B2_RECEIPT.md",
+      "bytes": 5732,
+      "sha256": "3C2604759AC080738115D8F29E1BBD9A9137F6E5B06512ACC9C8E6E3FDF14DCE"
+    },
+    {
+      "path": "CONSTRAINT_BLOCKS.json",
+      "bytes": 18383,
+      "sha256": "03574553512AFD2011C1B8406BC32E586503D936C3575B3EB5158D91683ECA2D"
+    },
+    {
+      "path": "EXECUTION_BUDGET.json",
+      "bytes": 1495,
+      "sha256": "77633F3751FEB7D1A4005EA6289F80F115F29DECE17F9C6F201EBFF740D065CA"
+    },
+    {
+      "path": "FINAL_ARTIFACT_VERIFICATION.json",
+      "bytes": 1436,
+      "sha256": "9683B2F845A56FC88C1527BAB79FED4465A3FC83D59EF71D0DF57F60CBF0BDE8"
+    },
+    {
+      "path": "FINAL_REVIEW.md",
+      "bytes": 7499,
+      "sha256": "EA4CCEDE22A9F8817F06544E8AAA91D5E84D897A03C07D2FFAEF8EDF99EC023B"
+    },
+    {
+      "path": "finalize_receipt.py",
+      "bytes": 9412,
+      "sha256": "59B340D5829B50E9FE7CE5E379C4D65C99ADC50F3D74596F008CE5881E2CAAE7"
+    },
+    {
+      "path": "FUNCTIONAL_SERIES_PAIR_NET_AUDIT.json",
+      "bytes": 3123,
+      "sha256": "DF62355046FD1C4C2243BA2A19A3A52672AB1AF93ECCFEF74B1981AC04615432"
+    },
+    {
+      "path": "GATES.json",
+      "bytes": 860,
+      "sha256": "D8C0080732BA4BE8B8A0422E5617CB30CAAA26D08FF08D2118C168F7E8DBD04E"
+    },
+    {
+      "path": "GREEDY_CANDIDATE_TRACE.csv",
+      "bytes": 5354,
+      "sha256": "6474690A85ECAD8842937713C32CB96CE858D5D537F725C740CAE068E2F1F33D"
+    },
+    {
+      "path": "initialize_stage.py",
+      "bytes": 29846,
+      "sha256": "2669BC13A9E92EC6105CEC5A0E1B26C3309D70412AB2E097EBD9FF0498BAD310"
+    },
+    {
+      "path": "INPUT_SHA_MANIFEST.json",
+      "bytes": 1062,
+      "sha256": "920D4B00EE9DAF7DE8CC71EBFE82D07A575832F938731998EFD2CEB9BB7FE5B6"
+    },
+    {
+      "path": "KEY_PIN_DISTANCE_B2.csv",
+      "bytes": 9179,
+      "sha256": "64768816DDB451B99295B2FCEE666DE501B8110B8CE0149E080FCF0E787EAE2A"
+    },
+    {
+      "path": "KEY_PIN_DISTANCES_B.csv",
+      "bytes": 6339,
+      "sha256": "C2FDB79F2B9CDAC5ED6938276265D53B9CF29AB4BFD201871EF3C4B4DB536E6F"
+    },
+    {
+      "path": "OCCUPANCY_B2.csv",
+      "bytes": 254855,
+      "sha256": "A7A39134B4932EAC3F9F3F86B43FEE5789A080FF7B2F9AB43F305A302976DA85"
+    },
+    {
+      "path": "OCCUPANCY_B2_PASS_2.npy",
+      "bytes": 4736,
+      "sha256": "3C837E734525343AC0D16D11E3328E8D2C4243291EA70A11BBBDC2F59E18F058"
+    },
+    {
+      "path": "OFFICIAL_SOURCE_LINKS.md",
+      "bytes": 430,
+      "sha256": "231E6CC587F13DD1A7BD06DE154B3CAF80C000DC61988BE2FA84E5D8D81A5229"
+    },
+    {
+      "path": "PASS_1_SKELETON_FAILURE.json",
+      "bytes": 91,
+      "sha256": "61AC8964937620BE4424C5AAEB50C8F3B4F9E109CAD2BBCBEE5F70DA134C79DF"
+    },
+    {
+      "path": "PLACEMENT_B.csv",
+      "bytes": 41961,
+      "sha256": "7DD066AC9801E4BD9DA4ED70573B013DDFA607EAD6FCCF401412DA69DC9FD106"
+    },
+    {
+      "path": "PLACEMENT_B.json",
+      "bytes": 27103,
+      "sha256": "C353F2B23149C61539051A603FE37410FAE0DDA7F72649E17FDA52AD4EE8B8B4"
+    },
+    {
+      "path": "PLACEMENT_B2.csv",
+      "bytes": 35140,
+      "sha256": "9043E53A33E5DFF3FED87DE7420F0E315708E009CBEA540F2DCED0A77826528E"
+    },
+    {
+      "path": "PLACEMENT_B2.json",
+      "bytes": 44758,
+      "sha256": "93D577D2BA95C6EAEBA4B869E154732BFF76A26206025A1D5E9A6A6D603AA20E"
+    },
+    {
+      "path": "PLACEMENT_B2_NO_COPPER.png",
+      "bytes": 263913,
+      "sha256": "31F9862F7B1F33B4C5C5163FE89B71C3009A3EAAA7D298E0D6B2D11DFB1C53F5"
+    },
+    {
+      "path": "PLACEMENT_B2_PASS_2.json",
+      "bytes": 44758,
+      "sha256": "93D577D2BA95C6EAEBA4B869E154732BFF76A26206025A1D5E9A6A6D603AA20E"
+    },
+    {
+      "path": "placement_geometry.py",
+      "bytes": 2045,
+      "sha256": "8FB7DF056F5F9F3DBA947246A42440CC0430D9D5459DBD58ACECB6E4F49BAFD8"
+    },
+    {
+      "path": "PLACEMENT_OLD_B_VS_B2.png",
+      "bytes": 292870,
+      "sha256": "1898FEDDA6D9983EE69970569CF20B142D8F7437439DED5C6D92ADC2550E5A44"
+    },
+    {
+      "path": "PLAN_AND_LEDGER.md",
+      "bytes": 1383,
+      "sha256": "2473469587E992C1896A8CA2AF8205E23B8F3AA9655A6D71FEE3084C6A0860D0"
+    },
+    {
+      "path": "prepare_github_delivery.py",
+      "bytes": 4033,
+      "sha256": "1CE3C9EEFAD62A5E400BBFA40AEECEBBD2C1CA1DEE7B94AA8E323E07FA2F71BF"
+    },
+    {
+      "path": "PRO_B2_REPLY_FULL.json",
+      "bytes": 20516,
+      "sha256": "9228E72DFB697597FEAAEF10330AB19559ED34F90FB238F8A7FC0C22204B0A9A"
+    },
+    {
+      "path": "PRO_B2_RULING_FULL.md",
+      "bytes": 7067,
+      "sha256": "A1A807022606CF0FD7951FD5DF2F80139489900FBA2F540E3EC74858FE4FD0E9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 384,
+      "sha256": "E8E73CF45DAE5C8D0DBA9E951C12F209D2EC8538049DE10CA5ED5CB8E999E71D"
+    },
+    {
+      "path": "render_b2.py",
+      "bytes": 5756,
+      "sha256": "C529DBB00A8DC11307498E6779FCE4674B8C533C88F94CED3D24D9D1DAD3FA5C"
+    },
+    {
+      "path": "REVIEW_DISPOSITION.md",
+      "bytes": 329,
+      "sha256": "80A77E5058DAC8D9E22D8647DFBF26870398AAFECA76D32DC038EB9F2DDECEA2"
+    },
+    {
+      "path": "RIGID_BLOCK_AUDIT.csv",
+      "bytes": 302,
+      "sha256": "DC1D5DEBC974B4AAC11652ABE956811CA62BA51AF427A0C18C10E51B90990AE7"
+    },
+    {
+      "path": "SKELETON_CORRECTIONS.json",
+      "bytes": 20,
+      "sha256": "C2E48BB952F575EA998EC4312B4A41B1A8BB451043B5069A9966F565DE727D97"
+    }
+  ],
+  "inputProvenance": [
+    {
+      "path": "ACTUAL_GEOMETRY.json",
+      "bytes": 318346,
+      "sha256": "1b49463129e6b39e441c51aa74dd781fdf1cefbf53d19d273f9a7c2ba2503c18"
+    },
+    {
+      "path": "CONSTRAINT_BLOCKS.json",
+      "bytes": 18383,
+      "sha256": "03574553512afd2011c1b8406bc32e586503d936c3575b3eb5158d91683eca2d"
+    },
+    {
+      "path": "BODY_SOURCE_REGISTER.csv",
+      "bytes": 35653,
+      "sha256": "1866b403bd1b246151ec31acda4c5c80d55953fd338398ef765bb961c480fbca"
+    },
+    {
+      "path": "PLACEMENT_B.json",
+      "bytes": 27103,
+      "sha256": "c353f2b23149c61539051a603fe37410fae0dda7f72649e17fda52ad4ee8b8b4"
+    },
+    {
+      "path": "PLACEMENT_B.csv",
+      "bytes": 41961,
+      "sha256": "7dd066ac9801e4bd9da4ed70573b013ddfa607ead6fccf401412da69dc9fd106"
+    },
+    {
+      "path": "KEY_PIN_DISTANCES_B.csv",
+      "bytes": 6339,
+      "sha256": "c2fdb79f2b9cdac5ed6938276265d53b9cf29ab4bfd201871ef3c4b4db536e6f"
+    },
+    {
+      "path": "OFFICIAL_SOURCE_LINKS.md",
+      "bytes": 430,
+      "sha256": "231e6cc587f13dd1a7bd06de154b3caf80c000dc61988be2fa84e5d8d81a5229"
+    }
+  ],
+  "scope": "All own report/coordinates/readable PNG/geometry/CSV/code/failed first pass/review; no raw SQLite or third-party full PDF/HTML. Official links in OFFICIAL_SOURCE_LINKS."
+}
