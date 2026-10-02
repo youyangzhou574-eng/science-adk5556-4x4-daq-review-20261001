@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE_BLOCKED",
+  "startUTC": "2026-10-02T14:56:40.041944+00:00",
+  "deadlineUTC": "2026-10-02T19:56:40.041944+00:00",
+  "minutes": 300,
+  "limits": {
+    "macroCandidates": 2,
+    "placementRefinements": 3,
+    "finalImages": 2
+  },
+  "actual": {
+    "macroCandidates": 2,
+    "placementRefinements": 3,
+    "finalImages": 2
+  },
+  "reservations": [
+    {
+      "UTC": "2026-10-02T14:59:29.118122+00:00",
+      "kind": "macroCandidates",
+      "reason": "B1 actual19 anchors finite candidate"
+    },
+    {
+      "UTC": "2026-10-02T14:59:29.291465+00:00",
+      "kind": "macroCandidates",
+      "reason": "B2 actual19 anchors finite candidate"
+    },
+    {
+      "UTC": "2026-10-02T15:01:41.167675+00:00",
+      "kind": "placementRefinements",
+      "reason": "complete176 MacroB pin construction pass"
+    },
+    {
+      "UTC": "2026-10-02T15:05:16.930028+00:00",
+      "kind": "placementRefinements",
+      "reason": "complete176 MacroB pin construction pass"
+    },
+    {
+      "UTC": "2026-10-02T15:06:45.776641+00:00",
+      "kind": "placementRefinements",
+      "reason": "complete176 MacroB pin construction pass"
+    },
+    {
+      "UTC": "2026-10-02T15:08:16.954328+00:00",
+      "kind": "finalImages",
+      "reason": "actual failedB3A versus available B31 completepass1 same mm scale"
+    },
+    {
+      "UTC": "2026-10-02T15:08:17.710954+00:00",
+      "kind": "finalImages",
+      "reason": "actual176 and552 proxies with complete8cell outlines, direction and powerstrip"
+    }
+  ],
+  "CAD": 0,
+  "native": 0,
+  "routing": 0,
+  "boardOutline": 0,
+  "newSourceResearch": 0,
+  "toolAPIResearch": 0,
+  "simulation": 0,
+  "coordinateStatus": "STOP_PLACEMENT_QUOTA_USED_PASS2_PASS3_FAILED",
+  "coordinateSTOPUTC": "2026-10-02T15:08:16.325188+00:00",
+  "remainingPermitted": "two final images/read-only audit/report/delivery only, no new coordinates",
+  "scienceSTOP": "B31_PLACEMENT_HARD_QUOTA_USED_REPRESENTATIVE_CHAINS_HOLD"
+}

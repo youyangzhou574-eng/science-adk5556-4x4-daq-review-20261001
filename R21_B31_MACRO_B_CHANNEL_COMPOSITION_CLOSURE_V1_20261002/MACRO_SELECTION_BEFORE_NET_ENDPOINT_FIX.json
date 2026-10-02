@@ -1,0 +1,162 @@
+{
+  "selected": "B2",
+  "positions": {
+    "J2": [
+      2,
+      36,
+      90
+    ],
+    "U1": [
+      17,
+      28,
+      90
+    ],
+    "U2": [
+      17,
+      49,
+      90
+    ],
+    "U4": [
+      31,
+      28,
+      90
+    ],
+    "U3": [
+      44,
+      26,
+      0
+    ],
+    "U6": [
+      43,
+      14,
+      180
+    ],
+    "U5": [
+      38,
+      49,
+      180
+    ],
+    "U7": [
+      57,
+      49,
+      180
+    ],
+    "U13": [
+      54,
+      37,
+      90
+    ],
+    "U14": [
+      55,
+      22,
+      90
+    ],
+    "U15": [
+      60,
+      36,
+      180
+    ],
+    "J3": [
+      68,
+      55,
+      90
+    ],
+    "J4": [
+      68,
+      35,
+      90
+    ],
+    "J1": [
+      4,
+      4,
+      0
+    ],
+    "U9": [
+      16,
+      7,
+      0
+    ],
+    "U8": [
+      32,
+      7,
+      180
+    ],
+    "U10": [
+      48,
+      7,
+      0
+    ],
+    "U11": [
+      20,
+      17,
+      0
+    ],
+    "U12": [
+      53,
+      16,
+      0
+    ]
+  },
+  "selectedOnce": true,
+  "hardMacroProxyCollisionGate": true,
+  "allCandidateScores": [
+    {
+      "label": "B1",
+      "score": 713.0604720455094,
+      "physicalCollisions": [],
+      "bbox": {
+        "bounds": [
+          -3.5,
+          2.7300000000000004,
+          78.2500102,
+          61.620000000000005
+        ],
+        "widthMm": 81.7500102,
+        "heightMm": 58.89,
+        "aspectRatio": 1.3881815282730516,
+        "longShortDifferenceMm": 22.860010200000005
+      },
+      "largestSampledEmptyRectangle": {
+        "areaMm2": 790,
+        "boundsMm": [
+          -4,
+          52,
+          75,
+          62
+        ],
+        "gridMm": 1,
+        "domain": "floor/ceil physical bbox, full-cell intersection occupancy; not exact continuous void"
+      },
+      "signalLengthSumMm": 647.5904516455095
+    },
+    {
+      "label": "B2",
+      "score": 668.7964947063479,
+      "physicalCollisions": [],
+      "bbox": {
+        "bounds": [
+          -3.5,
+          2.7300000000000004,
+          69.2500102,
+          62.620000000000005
+        ],
+        "widthMm": 72.7500102,
+        "heightMm": 59.89,
+        "aspectRatio": 1.214727169811321,
+        "longShortDifferenceMm": 12.860010200000005
+      },
+      "largestSampledEmptyRectangle": {
+        "areaMm2": 570,
+        "boundsMm": [
+          3,
+          6,
+          13,
+          63
+        ],
+        "gridMm": 1,
+        "domain": "floor/ceil physical bbox, full-cell intersection occupancy; not exact continuous void"
+      },
+      "signalLengthSumMm": 628.8264743063479
+    }
+  ]
+}

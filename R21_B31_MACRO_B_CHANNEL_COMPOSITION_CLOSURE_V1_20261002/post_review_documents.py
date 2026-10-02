@@ -1,0 +1,8 @@
+from pathlib import Path
+P=Path(__file__).parent
+for n,append in [
+ ('README.md','\nMandatory score limitation: U7-to-J3/J4 functional paths across series resistors/net renaming omitted. B2 lower score only covers listed edges; complete macro score coverage HOLD. See FINAL_REVIEW.md/REVIEW_DISPOSITION.md.\n'),
+ ('PLAN_AND_LEDGER.md','\nFinal: one fresh-context review Critical0/Important2/Minor3. I01 direct-net macro scoring omitted U7-to-J3/J4 series interface branches; one receipt/gate/README disclosure correction, no unbudgeted code repair/rescore. Existing chainHOLD retained, no secondreview/no newcoordinates/images. Deferred minors in REVIEW_DISPOSITION: smalllabels; missingexactpass1scriptarchive; historical remainingPermitted phrase notunusedimagebudget. unittestdiscover7GREEN before review; macro score omission NOT repaired.\nPost-review inline document patch wroteGATES then failed defaultGBK readingUTF8README; subsequentpayloadpreparation beforeanyupload. apply_patch expected-line mismatch made no partialchanges. This standaloneUTF8 documentupdate succeeds; refreshpayload beforepublication, no CAD/coordinates/images/scientificoperation.\n')]:
+  f=P/n;f.write_text(f.read_text(encoding='utf8')+append,encoding='utf8')
+(P/'DOCUMENT_PATCH_ENCODING_FAILURE.txt').write_text("Inline post-review document patch: UnicodeDecodeError GBK byte0x94 atposition44 readingUTF8README after ASCII GATES write. No coordinate/image/science or networksubmission. Subsequentapply_patch expected-line mismatch abortedwithoutfileschanged. UTF8 standalone documentpatch used; payload refreshed beforeanyupload. Failure evidence kept; no installation or toolresearch.\n",encoding='utf8')
+print('Post-review document disclosure only, no geometry/ranking rerun')

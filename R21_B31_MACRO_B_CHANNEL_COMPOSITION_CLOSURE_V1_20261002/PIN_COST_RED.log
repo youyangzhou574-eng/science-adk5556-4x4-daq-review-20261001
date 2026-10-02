@@ -1,0 +1,14 @@
+.F.
+======================================================================
+FAIL: test_first_pad_matters (test_pin_cost.PadCost.test_first_pad_matters)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B31_MACRO_B_CHANNEL_COMPOSITION_CLOSURE_V1\test_pin_cost.py", line 5, in test_first_pad_matters
+    self.assertEqual(matching_cost([('EN',(3,4)),('V5_IN',(0,0))],{'EN':[(0,0)],'V5_IN':[(0,0)]}),5)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 0.0 != 5
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)

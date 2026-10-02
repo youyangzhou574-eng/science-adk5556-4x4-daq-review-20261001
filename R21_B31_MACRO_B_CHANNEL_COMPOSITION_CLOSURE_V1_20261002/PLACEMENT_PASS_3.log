@@ -1,0 +1,8 @@
+RESERVED 3
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B31_MACRO_B_CHANNEL_COMPOSITION_CLOSURE_V1\construct_b31.py", line 89, in <module>
+    out=construct(n);print('COMPLETE',n,len(out),flush=True)
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B31_MACRO_B_CHANNEL_COMPOSITION_CLOSURE_V1\construct_b31.py", line 47, in construct
+    partial('NO_COMPLETE_'+f+'_CELL_TEMPLATE');save('CELL_FAILED_'+str(passid)+'_'+f+'.json',{'rejections':rejected});raise RuntimeError('NO_COMPLETE_'+f+'_CELL_TEMPLATE')
+                                                                                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NO_COMPLETE_ROW_CELL_TEMPLATE

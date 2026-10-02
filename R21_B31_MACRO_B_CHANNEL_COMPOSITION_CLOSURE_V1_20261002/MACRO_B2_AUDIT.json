@@ -1,0 +1,409 @@
+{
+  "positions": {
+    "J2": [
+      2,
+      36,
+      90
+    ],
+    "U1": [
+      17,
+      28,
+      90
+    ],
+    "U2": [
+      17,
+      49,
+      90
+    ],
+    "U4": [
+      31,
+      28,
+      90
+    ],
+    "U3": [
+      44,
+      26,
+      0
+    ],
+    "U6": [
+      43,
+      14,
+      180
+    ],
+    "U5": [
+      38,
+      49,
+      180
+    ],
+    "U7": [
+      57,
+      49,
+      180
+    ],
+    "U13": [
+      54,
+      37,
+      90
+    ],
+    "U14": [
+      55,
+      22,
+      90
+    ],
+    "U15": [
+      60,
+      36,
+      180
+    ],
+    "J3": [
+      68,
+      55,
+      90
+    ],
+    "J4": [
+      68,
+      35,
+      90
+    ],
+    "J1": [
+      4,
+      4,
+      0
+    ],
+    "U9": [
+      16,
+      7,
+      0
+    ],
+    "U8": [
+      32,
+      7,
+      180
+    ],
+    "U10": [
+      48,
+      7,
+      0
+    ],
+    "U11": [
+      20,
+      17,
+      0
+    ],
+    "U12": [
+      53,
+      16,
+      0
+    ]
+  },
+  "physicalCollisions": [],
+  "edges": [
+    {
+      "lane": "COL0",
+      "from": "J2.5",
+      "to": "U2.2",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 20.240245377635812
+    },
+    {
+      "lane": "TIA0",
+      "from": "U2.1",
+      "to": "U5.16",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 16.779782658096607
+    },
+    {
+      "lane": "ROW0",
+      "from": "U1.1",
+      "to": "J2.1",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 19.47912766379415
+    },
+    {
+      "lane": "COL1",
+      "from": "J2.6",
+      "to": "U2.6",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 22.529486872654815
+    },
+    {
+      "lane": "TIA1",
+      "from": "U2.7",
+      "to": "U5.18",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 14.408085799404654
+    },
+    {
+      "lane": "ROW1",
+      "from": "U1.7",
+      "to": "J2.2",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 17.69899288926315
+    },
+    {
+      "lane": "COL2",
+      "from": "J2.7",
+      "to": "U2.9",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 17.981851758825346
+    },
+    {
+      "lane": "TIA2",
+      "from": "U2.8",
+      "to": "U5.21",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 20.733263020212586
+    },
+    {
+      "lane": "ROW2",
+      "from": "U1.8",
+      "to": "J2.3",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 12.669621141104866
+    },
+    {
+      "lane": "COL3",
+      "from": "J2.8",
+      "to": "U2.13",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 14.204681891193387
+    },
+    {
+      "lane": "TIA3",
+      "from": "U2.14",
+      "to": "U5.23",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 20.635078100811008
+    },
+    {
+      "lane": "ROW3",
+      "from": "U1.14",
+      "to": "J2.4",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 16.767982382203318
+    },
+    {
+      "lane": "VCM",
+      "from": "U3.1",
+      "to": "U4.4",
+      "association": "FUNCTIONAL_VIA_ISO",
+      "lengthMm": 9.028911587539275
+    },
+    {
+      "lane": "VEXC",
+      "from": "U3.7",
+      "to": "U4.2",
+      "association": "FUNCTIONAL_VIA_ISO",
+      "lengthMm": 9.949259134988626
+    },
+    {
+      "lane": "CMD0",
+      "from": "U4.3",
+      "to": "U1.3",
+      "association": "SAME_NET",
+      "lengthMm": 14.257949597791596
+    },
+    {
+      "lane": "CMD1",
+      "from": "U4.8",
+      "to": "U1.5",
+      "association": "SAME_NET",
+      "lengthMm": 14.257960493781063
+    },
+    {
+      "lane": "CMD2",
+      "from": "U4.13",
+      "to": "U1.10",
+      "association": "SAME_NET",
+      "lengthMm": 13.752663701119026
+    },
+    {
+      "lane": "CMD3",
+      "from": "U4.18",
+      "to": "U1.12",
+      "association": "SAME_NET",
+      "lengthMm": 13.752652404791625
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.1",
+      "to": "U7.14",
+      "association": "SAME_NET",
+      "lengthMm": 11.043373317950351
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.36",
+      "to": "U7.13",
+      "association": "SAME_NET",
+      "lengthMm": 11.532102852110897
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.37",
+      "to": "U7.12",
+      "association": "SAME_NET",
+      "lengthMm": 11.252296180735465
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.38",
+      "to": "U7.11",
+      "association": "SAME_NET",
+      "lengthMm": 11.046267369348046
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.15",
+      "to": "U13.5",
+      "association": "SAME_NET",
+      "lengthMm": 10.184749620070232
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.16",
+      "to": "U13.2",
+      "association": "SAME_NET",
+      "lengthMm": 11.250111058130118
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.7",
+      "to": "U14.2",
+      "association": "SAME_NET",
+      "lengthMm": 32.66223801215104
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.8",
+      "to": "U14.5",
+      "association": "SAME_NET",
+      "lengthMm": 30.802388779144135
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.9",
+      "to": "U14.10",
+      "association": "SAME_NET",
+      "lengthMm": 29.15389883627027
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.10",
+      "to": "U14.13",
+      "association": "SAME_NET",
+      "lengthMm": 30.304316150261908
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.6",
+      "to": "U15.2",
+      "association": "SAME_NET",
+      "lengthMm": 17.48523166724264
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.1",
+      "association": "SAME_NET",
+      "lengthMm": 16.33110485482551
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.4",
+      "association": "SAME_NET",
+      "lengthMm": 14.384541316419035
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.9",
+      "association": "SAME_NET",
+      "lengthMm": 13.836532032488245
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.12",
+      "association": "SAME_NET",
+      "lengthMm": 15.68967274644097
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.1",
+      "to": "U15.4",
+      "association": "SAME_NET",
+      "lengthMm": 4.501219720598005
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.4",
+      "to": "U15.4",
+      "association": "SAME_NET",
+      "lengthMm": 4.906033947608233
+    },
+    {
+      "lane": "V5_IN",
+      "from": "J1.1",
+      "to": "U9.5",
+      "association": "SAME_NET",
+      "lengthMm": 13.374885530371607
+    },
+    {
+      "lane": "V5",
+      "from": "U9.6",
+      "to": "U8.1",
+      "association": "SAME_NET",
+      "lengthMm": 14.664842930583424
+    },
+    {
+      "lane": "V3_LDO",
+      "from": "U8.5",
+      "to": "U10.5",
+      "association": "SAME_NET",
+      "lengthMm": 14.694161682036976
+    },
+    {
+      "lane": "MON5",
+      "from": "U11.1",
+      "to": "U9.6",
+      "association": "FUNCTIONAL_VIA_DIVIDER",
+      "lengthMm": 10.964035149354926
+    },
+    {
+      "lane": "MON3",
+      "from": "U12.4",
+      "to": "U10.6",
+      "association": "SAME_NET",
+      "lengthMm": 10.054248242463848
+    }
+  ],
+  "bbox": {
+    "bounds": [
+      -3.5,
+      2.7300000000000004,
+      69.2500102,
+      62.620000000000005
+    ],
+    "widthMm": 72.7500102,
+    "heightMm": 59.89,
+    "aspectRatio": 1.214727169811321,
+    "longShortDifferenceMm": 12.860010200000005
+  },
+  "largestSampledEmptyRectangle": {
+    "areaMm2": 560,
+    "boundsMm": [
+      3,
+      6,
+      13,
+      62
+    ],
+    "gridMm": 1,
+    "domain": "floor/ceil physical bbox, full-cell intersection occupancy; not exact continuous void"
+  },
+  "signalLengthSumMm": 629.2458484718168,
+  "score": 668.9658688718168,
+  "scoreMeaning": "sum explicit actual inter-pad functional/same-net macro edges + 2*long-short mm + .025*1mm empty rectangle area; proxy, no routing/physical claim",
+  "label": "B2"
+}

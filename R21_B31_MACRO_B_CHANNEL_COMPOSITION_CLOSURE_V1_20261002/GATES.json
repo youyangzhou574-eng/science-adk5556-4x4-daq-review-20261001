@@ -1,0 +1,24 @@
+{
+  "scienceSTOP": "B31_PLACEMENT_HARD_QUOTA_USED_REPRESENTATIVE_CHAINS_HOLD",
+  "identity": "PASS_FROZEN_176_552_514_107_36_PLUS2MP",
+  "bodyProxyGeometry": "PASS_SELECTED_COMPLETE_PASS1_ONLY",
+  "key106NoIncrease": "PASS",
+  "channelCellRepeatability": "PASS_FUNCTIONAL_ROLE_CENTRES_AND_ORIENTATIONS_NOT_ROUTING",
+  "rowRepresentativeChain": "HOLD_GROWTH7.31_7.39MM_NOT16MM_BUT_LOCAL_TARGET5MM_FAILED",
+  "powerInputChain": "HOLD_PLUS2.545MM_VS_B22_MINUS3.921MM_VS_B3A_REQUIRE_ENGINEERING_ACCEPT",
+  "candidateFinalHardGate": false,
+  "CAD_RELEASED": false,
+  "USER_VISUAL_ACCEPTANCE": false,
+  "manufacture": false,
+  "bench": false,
+  "routing": false,
+  "exactFFCActuator": "HOLD",
+  "availableVisual": "only complete pass1, not failed pass3 or received candidate final",
+  "MACRO_DIGITAL_INTERFACE_CHAIN_SCORE_HOLD": true,
+  "macroScoreCoverageComplete": false,
+  "finalReview": {
+    "Critical": 0,
+    "Important": 2,
+    "Minor": 3
+  }
+}

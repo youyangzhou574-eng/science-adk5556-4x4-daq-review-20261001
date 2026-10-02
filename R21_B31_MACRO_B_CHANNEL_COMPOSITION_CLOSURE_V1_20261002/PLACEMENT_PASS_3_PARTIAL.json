@@ -1,0 +1,723 @@
+{
+  "positions": {
+    "J2": [
+      2,
+      36,
+      90
+    ],
+    "U1": [
+      17,
+      28,
+      90
+    ],
+    "U2": [
+      17,
+      49,
+      90
+    ],
+    "U4": [
+      31,
+      28,
+      90
+    ],
+    "U3": [
+      44,
+      26,
+      0
+    ],
+    "U6": [
+      43,
+      14,
+      180
+    ],
+    "U5": [
+      38,
+      49,
+      180
+    ],
+    "U7": [
+      57,
+      49,
+      180
+    ],
+    "U13": [
+      54,
+      37,
+      90
+    ],
+    "U14": [
+      55,
+      22,
+      90
+    ],
+    "U15": [
+      60,
+      36,
+      180
+    ],
+    "J3": [
+      68,
+      55,
+      90
+    ],
+    "J4": [
+      68,
+      35,
+      90
+    ],
+    "J1": [
+      4,
+      4,
+      0
+    ],
+    "U9": [
+      16,
+      7,
+      0
+    ],
+    "U8": [
+      32,
+      7,
+      180
+    ],
+    "U10": [
+      48,
+      7,
+      0
+    ],
+    "U11": [
+      20,
+      17,
+      0
+    ],
+    "U12": [
+      53,
+      16,
+      0
+    ],
+    "C_ROW_OP": [
+      21.34568,
+      28.22786,
+      90
+    ],
+    "C_TIA_OP": [
+      21.34922,
+      49.23108,
+      90
+    ],
+    "C_TIA_HF0": [
+      21.51910068,
+      45.82596012,
+      90
+    ],
+    "R_COL_SENSE0": [
+      23.319100680000002,
+      47.07596012,
+      180
+    ],
+    "R_TIA_ISO0": [
+      23.319100680000002,
+      44.57596012,
+      0
+    ],
+    "D_TIA0": [
+      23.919100680000003,
+      42.32596012,
+      0
+    ],
+    "RF0": [
+      25.219100680000004,
+      45.82596012,
+      90
+    ],
+    "CF0": [
+      26.619100680000003,
+      45.82596012,
+      90
+    ],
+    "C_TIA_HF1": [
+      21.51910068,
+      52.17596012,
+      270
+    ],
+    "R_COL_SENSE1": [
+      23.319100680000002,
+      50.92596012,
+      180
+    ],
+    "R_TIA_ISO1": [
+      23.319100680000002,
+      53.42596012,
+      0
+    ],
+    "D_TIA1": [
+      23.919100680000003,
+      55.67596012,
+      0
+    ],
+    "RF1": [
+      25.219100680000004,
+      52.17596012,
+      270
+    ],
+    "CF1": [
+      26.619100680000003,
+      52.17596012,
+      270
+    ],
+    "C_TIA_HF2": [
+      12.481620680000004,
+      52.17596012,
+      270
+    ],
+    "R_COL_SENSE2": [
+      10.681620680000005,
+      50.92596012,
+      0
+    ],
+    "R_TIA_ISO2": [
+      10.681620680000005,
+      53.42596012,
+      180
+    ],
+    "D_TIA2": [
+      10.081620680000004,
+      55.67596012,
+      180
+    ],
+    "RF2": [
+      8.781620680000005,
+      52.17596012,
+      270
+    ],
+    "CF2": [
+      7.381620680000005,
+      52.17596012,
+      270
+    ],
+    "C_TIA_HF3": [
+      12.481620680000004,
+      45.82596012,
+      90
+    ],
+    "R_COL_SENSE3": [
+      10.681620680000005,
+      47.07596012,
+      0
+    ],
+    "R_TIA_ISO3": [
+      10.681620680000005,
+      44.57596012,
+      180
+    ],
+    "D_TIA3": [
+      10.081620680000004,
+      42.32596012,
+      180
+    ],
+    "RF3": [
+      8.781620680000005,
+      45.82596012,
+      90
+    ],
+    "CF3": [
+      7.381620680000005,
+      45.82596012,
+      90
+    ]
+  },
+  "failed": "NO_COMPLETE_ROW_CELL_TEMPLATE",
+  "trace": [
+    {
+      "ref": "C_ROW_OP",
+      "reservedBeforeCells": true,
+      "source": "own B31 pass1 valid actual-pin cap position",
+      "chosen": [
+        21.34568,
+        28.22786,
+        90
+      ]
+    },
+    {
+      "ref": "C_TIA_OP",
+      "reservedBeforeCells": true,
+      "source": "own B31 pass1 valid actual-pin cap position",
+      "chosen": [
+        21.34922,
+        49.23108,
+        90
+      ]
+    },
+    {
+      "completeFamily": "TIA",
+      "params": {
+        "hf": 1.9,
+        "iso": 3.7,
+        "rf": 5.6,
+        "cf": 7.0,
+        "clampX": 4.3,
+        "clampY": 3.5
+      },
+      "feasibleTemplates": 8,
+      "score": 104.97393192487633
+    }
+  ],
+  "cells": [
+    {
+      "family": "TIA",
+      "channel": 0,
+      "role": "HF",
+      "ref": "C_TIA_HF0",
+      "origin": [
+        19.619100680000003,
+        45.82596012
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        1.9,
+        0
+      ],
+      "rotation": 90
+    },
+    {
+      "family": "TIA",
+      "channel": 0,
+      "role": "SENSE",
+      "ref": "R_COL_SENSE0",
+      "origin": [
+        19.619100680000003,
+        45.82596012
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        -1.25
+      ],
+      "rotation": 180
+    },
+    {
+      "family": "TIA",
+      "channel": 0,
+      "role": "ISO",
+      "ref": "R_TIA_ISO0",
+      "origin": [
+        19.619100680000003,
+        45.82596012
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        1.25
+      ],
+      "rotation": 0
+    },
+    {
+      "family": "TIA",
+      "channel": 0,
+      "role": "CLAMP",
+      "ref": "D_TIA0",
+      "origin": [
+        19.619100680000003,
+        45.82596012
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        4.3,
+        3.5
+      ],
+      "rotation": 0
+    },
+    {
+      "family": "TIA",
+      "channel": 0,
+      "role": "RF",
+      "ref": "RF0",
+      "origin": [
+        19.619100680000003,
+        45.82596012
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        5.6,
+        0
+      ],
+      "rotation": 90
+    },
+    {
+      "family": "TIA",
+      "channel": 0,
+      "role": "CF",
+      "ref": "CF0",
+      "origin": [
+        19.619100680000003,
+        45.82596012
+      ],
+      "signs": [
+        1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        7.0,
+        0
+      ],
+      "rotation": 90
+    },
+    {
+      "family": "TIA",
+      "channel": 1,
+      "role": "HF",
+      "ref": "C_TIA_HF1",
+      "origin": [
+        19.619100680000003,
+        52.17596012
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "canonicalCentreMm": [
+        1.9,
+        0
+      ],
+      "rotation": 270
+    },
+    {
+      "family": "TIA",
+      "channel": 1,
+      "role": "SENSE",
+      "ref": "R_COL_SENSE1",
+      "origin": [
+        19.619100680000003,
+        52.17596012
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        -1.25
+      ],
+      "rotation": 180
+    },
+    {
+      "family": "TIA",
+      "channel": 1,
+      "role": "ISO",
+      "ref": "R_TIA_ISO1",
+      "origin": [
+        19.619100680000003,
+        52.17596012
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        1.25
+      ],
+      "rotation": 0
+    },
+    {
+      "family": "TIA",
+      "channel": 1,
+      "role": "CLAMP",
+      "ref": "D_TIA1",
+      "origin": [
+        19.619100680000003,
+        52.17596012
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "canonicalCentreMm": [
+        4.3,
+        3.5
+      ],
+      "rotation": 0
+    },
+    {
+      "family": "TIA",
+      "channel": 1,
+      "role": "RF",
+      "ref": "RF1",
+      "origin": [
+        19.619100680000003,
+        52.17596012
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "canonicalCentreMm": [
+        5.6,
+        0
+      ],
+      "rotation": 270
+    },
+    {
+      "family": "TIA",
+      "channel": 1,
+      "role": "CF",
+      "ref": "CF1",
+      "origin": [
+        19.619100680000003,
+        52.17596012
+      ],
+      "signs": [
+        1,
+        1
+      ],
+      "canonicalCentreMm": [
+        7.0,
+        0
+      ],
+      "rotation": 270
+    },
+    {
+      "family": "TIA",
+      "channel": 2,
+      "role": "HF",
+      "ref": "C_TIA_HF2",
+      "origin": [
+        14.381620680000005,
+        52.17596012
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "canonicalCentreMm": [
+        1.9,
+        0
+      ],
+      "rotation": 270
+    },
+    {
+      "family": "TIA",
+      "channel": 2,
+      "role": "SENSE",
+      "ref": "R_COL_SENSE2",
+      "origin": [
+        14.381620680000005,
+        52.17596012
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        -1.25
+      ],
+      "rotation": 0
+    },
+    {
+      "family": "TIA",
+      "channel": 2,
+      "role": "ISO",
+      "ref": "R_TIA_ISO2",
+      "origin": [
+        14.381620680000005,
+        52.17596012
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        1.25
+      ],
+      "rotation": 180
+    },
+    {
+      "family": "TIA",
+      "channel": 2,
+      "role": "CLAMP",
+      "ref": "D_TIA2",
+      "origin": [
+        14.381620680000005,
+        52.17596012
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "canonicalCentreMm": [
+        4.3,
+        3.5
+      ],
+      "rotation": 180
+    },
+    {
+      "family": "TIA",
+      "channel": 2,
+      "role": "RF",
+      "ref": "RF2",
+      "origin": [
+        14.381620680000005,
+        52.17596012
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "canonicalCentreMm": [
+        5.6,
+        0
+      ],
+      "rotation": 270
+    },
+    {
+      "family": "TIA",
+      "channel": 2,
+      "role": "CF",
+      "ref": "CF2",
+      "origin": [
+        14.381620680000005,
+        52.17596012
+      ],
+      "signs": [
+        -1,
+        1
+      ],
+      "canonicalCentreMm": [
+        7.0,
+        0
+      ],
+      "rotation": 270
+    },
+    {
+      "family": "TIA",
+      "channel": 3,
+      "role": "HF",
+      "ref": "C_TIA_HF3",
+      "origin": [
+        14.381620680000005,
+        45.82596012
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        1.9,
+        0
+      ],
+      "rotation": 90
+    },
+    {
+      "family": "TIA",
+      "channel": 3,
+      "role": "SENSE",
+      "ref": "R_COL_SENSE3",
+      "origin": [
+        14.381620680000005,
+        45.82596012
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        -1.25
+      ],
+      "rotation": 0
+    },
+    {
+      "family": "TIA",
+      "channel": 3,
+      "role": "ISO",
+      "ref": "R_TIA_ISO3",
+      "origin": [
+        14.381620680000005,
+        45.82596012
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        3.7,
+        1.25
+      ],
+      "rotation": 180
+    },
+    {
+      "family": "TIA",
+      "channel": 3,
+      "role": "CLAMP",
+      "ref": "D_TIA3",
+      "origin": [
+        14.381620680000005,
+        45.82596012
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        4.3,
+        3.5
+      ],
+      "rotation": 180
+    },
+    {
+      "family": "TIA",
+      "channel": 3,
+      "role": "RF",
+      "ref": "RF3",
+      "origin": [
+        14.381620680000005,
+        45.82596012
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        5.6,
+        0
+      ],
+      "rotation": 90
+    },
+    {
+      "family": "TIA",
+      "channel": 3,
+      "role": "CF",
+      "ref": "CF3",
+      "origin": [
+        14.381620680000005,
+        45.82596012
+      ],
+      "signs": [
+        -1,
+        -1
+      ],
+      "canonicalCentreMm": [
+        7.0,
+        0
+      ],
+      "rotation": 90
+    }
+  ]
+}

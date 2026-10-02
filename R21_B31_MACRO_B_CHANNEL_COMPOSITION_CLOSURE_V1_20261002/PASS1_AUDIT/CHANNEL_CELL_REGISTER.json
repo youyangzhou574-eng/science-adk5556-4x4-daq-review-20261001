@@ -1,0 +1,762 @@
+[
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "HF",
+    "ref": "C_TIA_HF0",
+    "origin": [
+      19.619100680000003,
+      45.82596012
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE0",
+    "origin": [
+      19.619100680000003,
+      45.82596012
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "ISO",
+    "ref": "R_TIA_ISO0",
+    "origin": [
+      19.619100680000003,
+      45.82596012
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "CLAMP",
+    "ref": "D_TIA0",
+    "origin": [
+      19.619100680000003,
+      45.82596012
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "RF",
+    "ref": "RF0",
+    "origin": [
+      19.619100680000003,
+      45.82596012
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "CF",
+    "ref": "CF0",
+    "origin": [
+      19.619100680000003,
+      45.82596012
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "HF",
+    "ref": "C_TIA_HF1",
+    "origin": [
+      19.619100680000003,
+      52.17596012
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE1",
+    "origin": [
+      19.619100680000003,
+      52.17596012
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "ISO",
+    "ref": "R_TIA_ISO1",
+    "origin": [
+      19.619100680000003,
+      52.17596012
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "CLAMP",
+    "ref": "D_TIA1",
+    "origin": [
+      19.619100680000003,
+      52.17596012
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "RF",
+    "ref": "RF1",
+    "origin": [
+      19.619100680000003,
+      52.17596012
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "CF",
+    "ref": "CF1",
+    "origin": [
+      19.619100680000003,
+      52.17596012
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "HF",
+    "ref": "C_TIA_HF2",
+    "origin": [
+      14.381620680000005,
+      52.17596012
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE2",
+    "origin": [
+      14.381620680000005,
+      52.17596012
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "ISO",
+    "ref": "R_TIA_ISO2",
+    "origin": [
+      14.381620680000005,
+      52.17596012
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "CLAMP",
+    "ref": "D_TIA2",
+    "origin": [
+      14.381620680000005,
+      52.17596012
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "RF",
+    "ref": "RF2",
+    "origin": [
+      14.381620680000005,
+      52.17596012
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "CF",
+    "ref": "CF2",
+    "origin": [
+      14.381620680000005,
+      52.17596012
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "HF",
+    "ref": "C_TIA_HF3",
+    "origin": [
+      14.381620680000005,
+      45.82596012
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE3",
+    "origin": [
+      14.381620680000005,
+      45.82596012
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "ISO",
+    "ref": "R_TIA_ISO3",
+    "origin": [
+      14.381620680000005,
+      45.82596012
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "CLAMP",
+    "ref": "D_TIA3",
+    "origin": [
+      14.381620680000005,
+      45.82596012
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "RF",
+    "ref": "RF3",
+    "origin": [
+      14.381620680000005,
+      45.82596012
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "CF",
+    "ref": "CF3",
+    "origin": [
+      14.381620680000005,
+      45.82596012
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "HF",
+    "ref": "C_ROW_HF0",
+    "origin": [
+      19.61802118,
+      24.82520066
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "SENSE",
+    "ref": "R_ROW_FB0",
+    "origin": [
+      19.61802118,
+      24.82520066
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "ISO",
+    "ref": "R_ISO0",
+    "origin": [
+      19.61802118,
+      24.82520066
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "CLAMP",
+    "ref": "D_ROW0",
+    "origin": [
+      19.61802118,
+      24.82520066
+    ],
+    "signs": [
+      1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "HF",
+    "ref": "C_ROW_HF1",
+    "origin": [
+      19.61802118,
+      31.17520066
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "SENSE",
+    "ref": "R_ROW_FB1",
+    "origin": [
+      19.61802118,
+      31.17520066
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "ISO",
+    "ref": "R_ISO1",
+    "origin": [
+      19.61802118,
+      31.17520066
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "CLAMP",
+    "ref": "D_ROW1",
+    "origin": [
+      19.61802118,
+      31.17520066
+    ],
+    "signs": [
+      1,
+      1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "HF",
+    "ref": "C_ROW_HF2",
+    "origin": [
+      14.380541179999998,
+      31.17520066
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 270
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "SENSE",
+    "ref": "R_ROW_FB2",
+    "origin": [
+      14.380541179999998,
+      31.17520066
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "ISO",
+    "ref": "R_ISO2",
+    "origin": [
+      14.380541179999998,
+      31.17520066
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "CLAMP",
+    "ref": "D_ROW2",
+    "origin": [
+      14.380541179999998,
+      31.17520066
+    ],
+    "signs": [
+      -1,
+      1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "HF",
+    "ref": "C_ROW_HF3",
+    "origin": [
+      14.380541179999998,
+      24.82520066
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "rotation": 90
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "SENSE",
+    "ref": "R_ROW_FB3",
+    "origin": [
+      14.380541179999998,
+      24.82520066
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "rotation": 0
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "ISO",
+    "ref": "R_ISO3",
+    "origin": [
+      14.380541179999998,
+      24.82520066
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "rotation": 180
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "CLAMP",
+    "ref": "D_ROW3",
+    "origin": [
+      14.380541179999998,
+      24.82520066
+    ],
+    "signs": [
+      -1,
+      -1
+    ],
+    "canonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "rotation": 180
+  }
+]

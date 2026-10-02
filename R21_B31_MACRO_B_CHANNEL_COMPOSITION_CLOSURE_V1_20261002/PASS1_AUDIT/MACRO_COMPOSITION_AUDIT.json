@@ -1,0 +1,374 @@
+{
+  "bodyBBoxMm": [
+    -3.5,
+    0.6989008000000001,
+    70.4003192,
+    62.62
+  ],
+  "bodyWidthHeightMm": [
+    73.9003192,
+    61.9210992
+  ],
+  "physicalBBox": {
+    "bounds": [
+      -3.5,
+      0.6671787400000038,
+      70.43193966,
+      62.620000000000005
+    ],
+    "widthMm": 73.93193966,
+    "heightMm": 61.95282126,
+    "aspectRatio": 1.1933587229179883,
+    "longShortDifferenceMm": 11.979118399999997
+  },
+  "largestSampledInternalEmptyRectangle": {
+    "areaMm2": 297,
+    "boundsMm": [
+      59,
+      1,
+      70,
+      28
+    ],
+    "gridMm": 1,
+    "domain": "floor/ceil physical bbox, full-cell intersection occupancy; not exact continuous void"
+  },
+  "macroEdges": [
+    {
+      "lane": "COL0",
+      "from": "J2.5",
+      "to": "U2.2",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 20.240245377635812
+    },
+    {
+      "lane": "TIA0",
+      "from": "U2.1",
+      "to": "U5.16",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 16.779782658096607
+    },
+    {
+      "lane": "ROW0",
+      "from": "U1.1",
+      "to": "J2.1",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 19.47912766379415
+    },
+    {
+      "lane": "COL1",
+      "from": "J2.6",
+      "to": "U2.6",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 22.529486872654815
+    },
+    {
+      "lane": "TIA1",
+      "from": "U2.7",
+      "to": "U5.18",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 14.408085799404654
+    },
+    {
+      "lane": "ROW1",
+      "from": "U1.7",
+      "to": "J2.2",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 17.69899288926315
+    },
+    {
+      "lane": "COL2",
+      "from": "J2.7",
+      "to": "U2.9",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 17.981851758825346
+    },
+    {
+      "lane": "TIA2",
+      "from": "U2.8",
+      "to": "U5.21",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 20.733263020212586
+    },
+    {
+      "lane": "ROW2",
+      "from": "U1.8",
+      "to": "J2.3",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 12.669621141104866
+    },
+    {
+      "lane": "COL3",
+      "from": "J2.8",
+      "to": "U2.13",
+      "association": "FUNCTIONAL_VIA_SENSE",
+      "lengthMm": 14.204681891193387
+    },
+    {
+      "lane": "TIA3",
+      "from": "U2.14",
+      "to": "U5.23",
+      "association": "FUNCTIONAL_VIA_ISO_ADC_RC",
+      "lengthMm": 20.635078100811008
+    },
+    {
+      "lane": "ROW3",
+      "from": "U1.14",
+      "to": "J2.4",
+      "association": "FUNCTIONAL_VIA_R_ISO",
+      "lengthMm": 16.767982382203318
+    },
+    {
+      "lane": "VCM",
+      "from": "U3.1",
+      "to": "U4.4",
+      "association": "FUNCTIONAL_VIA_ISO",
+      "lengthMm": 9.028911587539275
+    },
+    {
+      "lane": "VEXC",
+      "from": "U3.7",
+      "to": "U4.2",
+      "association": "FUNCTIONAL_VIA_ISO",
+      "lengthMm": 9.949259134988626
+    },
+    {
+      "lane": "CMD0",
+      "from": "U4.3",
+      "to": "U1.3",
+      "association": "SAME_NET",
+      "lengthMm": 14.257949597791596
+    },
+    {
+      "lane": "CMD1",
+      "from": "U4.8",
+      "to": "U1.5",
+      "association": "SAME_NET",
+      "lengthMm": 14.257960493781063
+    },
+    {
+      "lane": "CMD2",
+      "from": "U4.13",
+      "to": "U1.10",
+      "association": "SAME_NET",
+      "lengthMm": 13.752663701119026
+    },
+    {
+      "lane": "CMD3",
+      "from": "U4.18",
+      "to": "U1.12",
+      "association": "SAME_NET",
+      "lengthMm": 13.752652404791625
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.1",
+      "to": "U7.14",
+      "association": "SAME_NET",
+      "lengthMm": 11.043373317950351
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.36",
+      "to": "U7.13",
+      "association": "SAME_NET",
+      "lengthMm": 11.532102852110897
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.37",
+      "to": "U7.12",
+      "association": "SAME_NET",
+      "lengthMm": 11.252296180735465
+    },
+    {
+      "lane": "SPI",
+      "from": "U5.38",
+      "to": "U7.11",
+      "association": "SAME_NET",
+      "lengthMm": 11.046267369348046
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.15",
+      "to": "U13.5",
+      "association": "SAME_NET",
+      "lengthMm": 10.184749620070232
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.16",
+      "to": "U13.2",
+      "association": "SAME_NET",
+      "lengthMm": 11.250111058130118
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.7",
+      "to": "U14.2",
+      "association": "SAME_NET",
+      "lengthMm": 32.66223801215104
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.8",
+      "to": "U14.5",
+      "association": "SAME_NET",
+      "lengthMm": 30.802388779144135
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.9",
+      "to": "U14.10",
+      "association": "SAME_NET",
+      "lengthMm": 29.15389883627027
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.10",
+      "to": "U14.13",
+      "association": "SAME_NET",
+      "lengthMm": 30.304316150261908
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U7.6",
+      "to": "U15.2",
+      "association": "SAME_NET",
+      "lengthMm": 17.48523166724264
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.1",
+      "association": "SAME_NET",
+      "lengthMm": 16.33110485482551
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.4",
+      "association": "SAME_NET",
+      "lengthMm": 14.384541316419035
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.9",
+      "association": "SAME_NET",
+      "lengthMm": 13.836532032488245
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.3",
+      "to": "U14.12",
+      "association": "SAME_NET",
+      "lengthMm": 15.68967274644097
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.1",
+      "to": "U15.4",
+      "association": "SAME_NET",
+      "lengthMm": 4.501219720598005
+    },
+    {
+      "lane": "DIGITAL",
+      "from": "U13.4",
+      "to": "U15.4",
+      "association": "SAME_NET",
+      "lengthMm": 4.906033947608233
+    },
+    {
+      "lane": "V5_IN",
+      "from": "J1.1",
+      "to": "U9.5",
+      "association": "SAME_NET",
+      "lengthMm": 13.374885530371607
+    },
+    {
+      "lane": "V5",
+      "from": "U9.6",
+      "to": "U8.1",
+      "association": "SAME_NET",
+      "lengthMm": 14.664842930583424
+    },
+    {
+      "lane": "V3_LDO",
+      "from": "U8.5",
+      "to": "U10.5",
+      "association": "SAME_NET",
+      "lengthMm": 14.694161682036976
+    },
+    {
+      "lane": "MON5",
+      "from": "U11.1",
+      "to": "U9.6",
+      "association": "FUNCTIONAL_VIA_DIVIDER",
+      "lengthMm": 10.964035149354926
+    },
+    {
+      "lane": "MON3",
+      "from": "U12.4",
+      "to": "U10.6",
+      "association": "SAME_NET",
+      "lengthMm": 10.054248242463848
+    }
+  ],
+  "selectedRepresentative31EdgeSumMm": 252.47353461868076,
+  "B3A31EdgeSumMm": 295.8315798409529,
+  "B2231EdgeSumMm": 463.17628098424944,
+  "increasedVsB22": [
+    {
+      "lane": "ROW_CH0",
+      "fromRef": "R_ISO0",
+      "fromPad": 2,
+      "toRef": "J2",
+      "toPad": 1,
+      "net": "ROW0",
+      "B22Mm": 16.498866045851187,
+      "B3AMm": 25.94776755136596,
+      "B31Mm": 23.807720992812246,
+      "deltaVsB22Mm": 7.308854946961059,
+      "deltaVsB3AMm": -2.1400465585537134
+    },
+    {
+      "lane": "TIA_CH2",
+      "fromRef": "R_ADC2",
+      "fromPad": 2,
+      "toRef": "C_ADC2",
+      "toPad": 1,
+      "net": "ADC_IN2",
+      "B22Mm": 2.805443533386973,
+      "B3AMm": 1.230059181043954,
+      "B31Mm": 2.9562752749618775,
+      "deltaVsB22Mm": 0.1508317415749043,
+      "deltaVsB3AMm": 1.7262160939179234
+    },
+    {
+      "lane": "ROW_CH3",
+      "fromRef": "R_ISO3",
+      "fromPad": 2,
+      "toRef": "J2",
+      "toPad": 4,
+      "net": "ROW3",
+      "B22Mm": 6.930977300613154,
+      "B3AMm": 23.398990970757957,
+      "B31Mm": 14.318853867839131,
+      "deltaVsB22Mm": 7.387876567225977,
+      "deltaVsB3AMm": -9.080137102918826
+    },
+    {
+      "lane": "POWER",
+      "fromRef": "J1",
+      "fromPad": 1,
+      "toRef": "U9",
+      "toPad": 5,
+      "net": "V5_IN",
+      "B22Mm": 10.82979748555996,
+      "B3AMm": 17.29620646241666,
+      "B31Mm": 13.374885530371607,
+      "deltaVsB22Mm": 2.5450880448116475,
+      "deltaVsB3AMm": -3.9213209320450524
+    }
+  ]
+}

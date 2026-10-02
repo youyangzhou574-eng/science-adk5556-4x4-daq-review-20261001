@@ -1,0 +1,11 @@
+RESERVED 2
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B31_MACRO_B_CHANNEL_COMPOSITION_CLOSURE_V1\construct_b31.py", line 83, in <module>
+    out=construct(n);print('COMPLETE',n,len(out),flush=True)
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B31_MACRO_B_CHANNEL_COMPOSITION_CLOSURE_V1\construct_b31.py", line 77, in construct
+    for r in sorted(set(G)-set(pos),key=order):place(r)
+                                               ~~~~~^^^
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B31_MACRO_B_CHANNEL_COMPOSITION_CLOSURE_V1\construct_b31.py", line 72, in place
+    if chosen is None:partial('NO_LOCAL_POSITION '+r);raise RuntimeError('NO_LOCAL_POSITION '+r)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NO_LOCAL_POSITION C_ROW_OP
