@@ -1,0 +1,1 @@
+return {project:await eda.dmt_Project.getCurrentProjectInfo(),schematics:await eda.dmt_Schematic.getAllSchematicsInfo(),pcbs:await eda.dmt_Pcb.getAllPcbsInfo(),boards:await eda.dmt_Board.getAllBoardsInfo()};

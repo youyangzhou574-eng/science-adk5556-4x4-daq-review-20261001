@@ -1,0 +1,766 @@
+{
+  "count": 83,
+  "categories": {
+    "Clearance Error": 11,
+    "Connection Error": 72
+  },
+  "unconnectedNetCounts": {
+    "GND": 14,
+    "V5": 4,
+    "V3V3": 46,
+    "ROW_SEL3": 2,
+    "V5_IN": 2,
+    "U12_CT": 2,
+    "MCU_ROW0": 2
+  },
+  "otherViolations": [
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(COL1): e1"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(COL1): e47"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err0",
+          "position": {
+            "x": 112.07999999999998,
+            "y": 168.10999999999999
+          },
+          "name": "otherClearance",
+          "obj1": "b1c7c5e166e1f0b3",
+          "obj1Type": "Hole",
+          "obj2": "4876b48b6ee10b05",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 112.07999999999998,
+              "y": 168.10999999999999
+            },
+            "_end": {
+              "x": 112.07999999999998,
+              "y": 168.10999999999999
+            }
+          },
+          "obj1Suffix": "(COL1): e1",
+          "obj2Suffix": "(COL1): e47"
+        }
+      },
+      "objs": [
+        "b1c7c5e166e1f0b3",
+        "4876b48b6ee10b05"
+      ],
+      "globalIndex": "err0",
+      "pos": {
+        "x": 112.07999999999998,
+        "y": 168.10999999999999
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(ROW3): e44"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(ROW3): e45"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err1",
+          "position": {
+            "x": 95.06,
+            "y": 113.39000000000001
+          },
+          "name": "otherClearance",
+          "obj1": "38f98657d8ba88f1",
+          "obj1Type": "Hole",
+          "obj2": "36812a8ad27243a0",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 95.06,
+              "y": 113.39000000000001
+            },
+            "_end": {
+              "x": 95.06,
+              "y": 113.39000000000001
+            }
+          },
+          "obj1Suffix": "(ROW3): e44",
+          "obj2Suffix": "(ROW3): e45"
+        }
+      },
+      "objs": [
+        "38f98657d8ba88f1",
+        "36812a8ad27243a0"
+      ],
+      "globalIndex": "err1",
+      "pos": {
+        "x": 95.06,
+        "y": 113.39000000000001
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(ADC_CS_N): e55"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(ADC_CS_N): e53"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err2",
+          "position": {
+            "x": 298.99,
+            "y": 200.79000000000002
+          },
+          "name": "otherClearance",
+          "obj1": "e3808d2b0e8083c8",
+          "obj1Type": "Hole",
+          "obj2": "23c7ba45952ea6ac",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 298.99,
+              "y": 200.79000000000002
+            },
+            "_end": {
+              "x": 298.99,
+              "y": 200.79000000000002
+            }
+          },
+          "obj1Suffix": "(ADC_CS_N): e55",
+          "obj2Suffix": "(ADC_CS_N): e53"
+        }
+      },
+      "objs": [
+        "e3808d2b0e8083c8",
+        "23c7ba45952ea6ac"
+      ],
+      "globalIndex": "err2",
+      "pos": {
+        "x": 298.99,
+        "y": 200.79000000000002
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(HW_ENABLE): e61"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(HW_ENABLE): e58"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err3",
+          "position": {
+            "x": 277.57,
+            "y": 136.555
+          },
+          "name": "otherClearance",
+          "obj1": "a54b5e923ce9bfb7",
+          "obj1Type": "Hole",
+          "obj2": "64abffecf4a58920",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 277.57,
+              "y": 136.555
+            },
+            "_end": {
+              "x": 277.57,
+              "y": 136.555
+            }
+          },
+          "obj1Suffix": "(HW_ENABLE): e61",
+          "obj2Suffix": "(HW_ENABLE): e58"
+        }
+      },
+      "objs": [
+        "a54b5e923ce9bfb7",
+        "64abffecf4a58920"
+      ],
+      "globalIndex": "err3",
+      "pos": {
+        "x": 277.57,
+        "y": 136.555
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(PGOOD): e65"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(PGOOD): e67"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err4",
+          "position": {
+            "x": 314.59000000000003,
+            "y": 279.79
+          },
+          "name": "otherClearance",
+          "obj1": "e73d092bd53be009",
+          "obj1Type": "Hole",
+          "obj2": "cd457bb2ec30cc92",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 314.59000000000003,
+              "y": 279.79
+            },
+            "_end": {
+              "x": 314.59000000000003,
+              "y": 279.79
+            }
+          },
+          "obj1Suffix": "(PGOOD): e65",
+          "obj2Suffix": "(PGOOD): e67"
+        }
+      },
+      "objs": [
+        "e73d092bd53be009",
+        "cd457bb2ec30cc92"
+      ],
+      "globalIndex": "err4",
+      "pos": {
+        "x": 314.59000000000003,
+        "y": 279.79
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(PGOOD): e68"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(PGOOD): e70"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err5",
+          "position": {
+            "x": 328.16,
+            "y": 197.775
+          },
+          "name": "otherClearance",
+          "obj1": "f3cb40a21dbc94a3",
+          "obj1Type": "Hole",
+          "obj2": "9ffe33ed169dc942",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 328.16,
+              "y": 197.775
+            },
+            "_end": {
+              "x": 328.16,
+              "y": 197.775
+            }
+          },
+          "obj1Suffix": "(PGOOD): e68",
+          "obj2Suffix": "(PGOOD): e70"
+        }
+      },
+      "objs": [
+        "f3cb40a21dbc94a3",
+        "9ffe33ed169dc942"
+      ],
+      "globalIndex": "err5",
+      "pos": {
+        "x": 328.16,
+        "y": 197.775
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(U10_EN): e97"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(U10_EN): e100"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err6",
+          "position": {
+            "x": 236,
+            "y": 307.09000000000003
+          },
+          "name": "otherClearance",
+          "obj1": "4e8609f4123b1d76",
+          "obj1Type": "Hole",
+          "obj2": "471f6252a58fbd93",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 236,
+              "y": 307.09000000000003
+            },
+            "_end": {
+              "x": 236,
+              "y": 307.09000000000003
+            }
+          },
+          "obj1Suffix": "(U10_EN): e97",
+          "obj2Suffix": "(U10_EN): e100"
+        }
+      },
+      "objs": [
+        "4e8609f4123b1d76",
+        "471f6252a58fbd93"
+      ],
+      "globalIndex": "err6",
+      "pos": {
+        "x": 236,
+        "y": 307.09000000000003
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(ROW_SEL0): e134"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(ROW_SEL0): e132"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err7",
+          "position": {
+            "x": 164.85999999999999,
+            "y": 169.48
+          },
+          "name": "otherClearance",
+          "obj1": "44473df03664431c",
+          "obj1Type": "Hole",
+          "obj2": "0943b83391613201",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 164.85999999999999,
+              "y": 169.48
+            },
+            "_end": {
+              "x": 164.85999999999999,
+              "y": 169.48
+            }
+          },
+          "obj1Suffix": "(ROW_SEL0): e134",
+          "obj2Suffix": "(ROW_SEL0): e132"
+        }
+      },
+      "objs": [
+        "44473df03664431c",
+        "0943b83391613201"
+      ],
+      "globalIndex": "err7",
+      "pos": {
+        "x": 164.85999999999999,
+        "y": 169.48
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(V5_IN): e280"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(V5_IN): e278"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err8",
+          "position": {
+            "x": 76.22,
+            "y": 309.06
+          },
+          "name": "otherClearance",
+          "obj1": "f686021c27b4bee3",
+          "obj1Type": "Hole",
+          "obj2": "725ada1f1d2e20a6",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 76.22,
+              "y": 309.06
+            },
+            "_end": {
+              "x": 76.22,
+              "y": 309.06
+            }
+          },
+          "obj1Suffix": "(V5_IN): e280",
+          "obj2Suffix": "(V5_IN): e278"
+        }
+      },
+      "objs": [
+        "f686021c27b4bee3",
+        "725ada1f1d2e20a6"
+      ],
+      "globalIndex": "err8",
+      "pos": {
+        "x": 76.22,
+        "y": 309.06
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(V3_LDO): e284"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(V3_LDO): e282"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err9",
+          "position": {
+            "x": 228.01999999999998,
+            "y": 311.675
+          },
+          "name": "otherClearance",
+          "obj1": "dabf3755c92df221",
+          "obj1Type": "Hole",
+          "obj2": "1ebe1ccfd02c4800",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 228.01999999999998,
+              "y": 311.675
+            },
+            "_end": {
+              "x": 228.01999999999998,
+              "y": 311.675
+            }
+          },
+          "obj1Suffix": "(V3_LDO): e284",
+          "obj2Suffix": "(V3_LDO): e282"
+        }
+      },
+      "objs": [
+        "dabf3755c92df221",
+        "1ebe1ccfd02c4800"
+      ],
+      "globalIndex": "err9",
+      "pos": {
+        "x": 228.01999999999998,
+        "y": 311.675
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    },
+    {
+      "visible": true,
+      "errorType": "Clearance Error",
+      "errorObjType": "Hole to Hole",
+      "ruleName": "otherClearance",
+      "ruleTypeName": "Other Spacing",
+      "obj1": {
+        "typeName": "Hole",
+        "suffix": "(V3_LDO): e286"
+      },
+      "obj2": {
+        "typeName": "Hole",
+        "suffix": "(V3_LDO): e281"
+      },
+      "layer": "Multi-Layer",
+      "explanation": {
+        "str": "{obj1} to {obj2} distance is {minDistance}, should be {shouldBe}",
+        "param": {
+          "minDistance": "0mil",
+          "shouldBe": ">= 11.8mil",
+          "obj1": "Object 1",
+          "obj2": "object 2",
+          "type": "ClearanceError"
+        },
+        "errData": {
+          "globalIndex": "err10",
+          "position": {
+            "x": 221.89000000000001,
+            "y": 307.09000000000003
+          },
+          "name": "otherClearance",
+          "obj1": "583c8178b54183a8",
+          "obj1Type": "Hole",
+          "obj2": "4a26f4a6d542ab89",
+          "obj2Type": "Hole",
+          "minDistance": 0,
+          "clearance": 1.1811,
+          "errorType": "Other Spacing",
+          "isInSameComponent": false,
+          "layerIds": [
+            12
+          ],
+          "line": {
+            "type": "Line",
+            "_start": {
+              "x": 221.89000000000001,
+              "y": 307.09000000000003
+            },
+            "_end": {
+              "x": 221.89000000000001,
+              "y": 307.09000000000003
+            }
+          },
+          "obj1Suffix": "(V3_LDO): e286",
+          "obj2Suffix": "(V3_LDO): e281"
+        }
+      },
+      "objs": [
+        "583c8178b54183a8",
+        "4a26f4a6d542ab89"
+      ],
+      "globalIndex": "err10",
+      "pos": {
+        "x": 221.89000000000001,
+        "y": 307.09000000000003
+      },
+      "parentId": "DRCTab|_|Errors|_|Clearance Error|_|Hole to Hole"
+    }
+  ]
+}

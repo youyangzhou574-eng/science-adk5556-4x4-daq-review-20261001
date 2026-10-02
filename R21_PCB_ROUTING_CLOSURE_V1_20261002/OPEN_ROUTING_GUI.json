@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-02T00:04:12.132606+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--path",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_PCB_ROUTING_CLOSURE_V1\\SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK.eprj2",
+    "--headless",
+    "false"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"4e9a871d-ccc1-4774-814a-07a35f9f3f19\",\"renderId\":3,\"path\":\"E:\\\\open\\\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\\\R21_PCB_ROUTING_CLOSURE_V1\\\\SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK.eprj2\",\"headless\":false},\"logs\":[],\"durationMs\":781}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "4e9a871d-ccc1-4774-814a-07a35f9f3f19",
+      "renderId": 3,
+      "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_PCB_ROUTING_CLOSURE_V1\\SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK.eprj2",
+      "headless": false
+    },
+    "logs": [],
+    "durationMs": 781
+  }
+}

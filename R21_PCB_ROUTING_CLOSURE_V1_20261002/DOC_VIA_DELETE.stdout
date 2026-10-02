@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"删除过孔","params":[{"name":"primitiveIds","type":"string | IPCB_PrimitiveVia | Array<string> | Array<IPCB_PrimitiveVia>","description":"过孔的图元 ID 或过孔图元对象","required":true}],"returns":{"type":"boolean"}},"logs":[],"durationMs":98}

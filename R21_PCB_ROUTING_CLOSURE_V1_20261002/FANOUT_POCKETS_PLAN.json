@@ -1,0 +1,153 @@
+{
+  "lineChanges": [
+    {
+      "id": "291d32f22690511d",
+      "net": "HW_ENABLE",
+      "points": [
+        [
+          2376,
+          1527.6
+        ],
+        [
+          2376,
+          1420
+        ]
+      ]
+    },
+    {
+      "id": "4f1c4460fb01d2bc",
+      "net": "HW_ENABLE",
+      "points": [
+        [
+          2376,
+          1420
+        ],
+        [
+          2401.6,
+          1420
+        ]
+      ]
+    },
+    {
+      "id": "ca9e93b668d2977e",
+      "net": "HW_ENABLE",
+      "points": [
+        [
+          2401.6,
+          1420
+        ],
+        [
+          2401.6,
+          1372.1
+        ]
+      ]
+    }
+  ],
+  "deleteLines": [
+    "463292e559fb2d7d",
+    "d1a0ab977d0e5681"
+  ],
+  "newSegments": [
+    {
+      "net": "ROW_SEL0",
+      "layer": 1,
+      "width": 6,
+      "x1": 2376,
+      "y1": 1307.1,
+      "x2": 2376,
+      "y2": 1190
+    },
+    {
+      "net": "ROW_SEL0",
+      "layer": 2,
+      "width": 6,
+      "x1": 2376,
+      "y1": 1190,
+      "x2": 2316,
+      "y2": 1217.1
+    },
+    {
+      "net": "ROW_SEL3",
+      "layer": 1,
+      "width": 6,
+      "x1": 2401.6,
+      "y1": 1527.6,
+      "x2": 2400,
+      "y2": 1453
+    },
+    {
+      "net": "U12_CT",
+      "layer": 1,
+      "width": 6,
+      "x1": 3332.1,
+      "y1": 3070.9,
+      "x2": 3353,
+      "y2": 3070.9
+    },
+    {
+      "net": "U12_CT",
+      "layer": 1,
+      "width": 6,
+      "x1": 3353,
+      "y1": 3070.9,
+      "x2": 3370,
+      "y2": 3055
+    },
+    {
+      "net": "V5_IN",
+      "layer": 1,
+      "width": 6,
+      "x1": 817.5,
+      "y1": 3189,
+      "x2": 815,
+      "y2": 3280
+    }
+  ],
+  "newVias": [
+    {
+      "net": "ROW_SEL0",
+      "x": 2376,
+      "y": 1190,
+      "hole": 12,
+      "diameter": 24
+    },
+    {
+      "net": "ROW_SEL3",
+      "x": 2400,
+      "y": 1453,
+      "hole": 12,
+      "diameter": 24
+    },
+    {
+      "net": "U12_CT",
+      "x": 3370,
+      "y": 3055,
+      "hole": 12,
+      "diameter": 24
+    },
+    {
+      "net": "V5_IN",
+      "x": 815,
+      "y": 3280,
+      "hole": 12,
+      "diameter": 24
+    }
+  ],
+  "screen": [
+    {
+      "id": "291d32f22690511d",
+      "net": "HW_ENABLE",
+      "clear": true
+    },
+    {
+      "id": "4f1c4460fb01d2bc",
+      "net": "HW_ENABLE",
+      "clear": true
+    },
+    {
+      "id": "ca9e93b668d2977e",
+      "net": "HW_ENABLE",
+      "clear": true
+    }
+  ]
+}

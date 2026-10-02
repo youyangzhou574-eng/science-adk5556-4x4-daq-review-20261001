@@ -1,0 +1,190 @@
+{
+  "lineChanges": [
+    {
+      "id": "d1a0ab977d0e5681",
+      "net": "ROW_SEL0",
+      "points": [
+        [
+          2376,
+          1277.1
+        ],
+        [
+          2376,
+          1190
+        ]
+      ]
+    },
+    {
+      "id": "a494e021eb0d7d2b",
+      "net": "ROW_SEL0",
+      "points": [
+        [
+          2376,
+          1190
+        ],
+        [
+          1838.3,
+          1694.8
+        ]
+      ]
+    },
+    {
+      "id": "4486d20a494639ec",
+      "net": "HW_ENABLE",
+      "points": [
+        [
+          2376,
+          1527.6
+        ],
+        [
+          2376,
+          1645
+        ]
+      ]
+    },
+    {
+      "id": "6fe5f1528d40c139",
+      "net": "HW_ENABLE",
+      "points": [
+        [
+          2376,
+          1645
+        ],
+        [
+          2452.8,
+          1645
+        ]
+      ]
+    },
+    {
+      "id": "31958de6a9a71fcc",
+      "net": "HW_ENABLE",
+      "points": [
+        [
+          2452.8,
+          1645
+        ],
+        [
+          2452.8,
+          1527.6
+        ]
+      ]
+    },
+    {
+      "id": "131eeb9f071a0133",
+      "net": "PGOOD",
+      "points": [
+        [
+          3332.1,
+          3090.6
+        ],
+        [
+          3471.85,
+          3090.6
+        ]
+      ]
+    },
+    {
+      "id": "96ab436753a4171e",
+      "net": "PGOOD",
+      "points": [
+        [
+          3471.85,
+          3090.6
+        ],
+        [
+          3139.9,
+          2858.65
+        ]
+      ]
+    }
+  ],
+  "viaChanges": [
+    {
+      "id": "5cff7c99c84e005e",
+      "net": "ROW_SEL0",
+      "old": [
+        2316,
+        1217.1
+      ],
+      "new": [
+        2376,
+        1190
+      ]
+    },
+    {
+      "id": "6d5deb67a5fe1906",
+      "net": "PGOOD",
+      "old": [
+        3371.85,
+        3090.6
+      ],
+      "new": [
+        3471.85,
+        3090.6
+      ]
+    }
+  ],
+  "deleteLines": [
+    "463292e559fb2d7d",
+    "d1a0ab977d0e5681"
+  ],
+  "newSegments": [
+    {
+      "net": "ROW_SEL0",
+      "layer": 1,
+      "width": 6,
+      "x1": 2376,
+      "y1": 1307.1,
+      "x2": 2376,
+      "y2": 1190
+    }
+  ],
+  "screen": [
+    {
+      "line": "d1a0ab977d0e5681",
+      "net": "ROW_SEL0",
+      "clear": true
+    },
+    {
+      "line": "a494e021eb0d7d2b",
+      "net": "ROW_SEL0",
+      "clear": false
+    },
+    {
+      "line": "4486d20a494639ec",
+      "net": "HW_ENABLE",
+      "clear": false
+    },
+    {
+      "line": "6fe5f1528d40c139",
+      "net": "HW_ENABLE",
+      "clear": false
+    },
+    {
+      "line": "31958de6a9a71fcc",
+      "net": "HW_ENABLE",
+      "clear": false
+    },
+    {
+      "line": "131eeb9f071a0133",
+      "net": "PGOOD",
+      "clear": false
+    },
+    {
+      "line": "96ab436753a4171e",
+      "net": "PGOOD",
+      "clear": false
+    },
+    {
+      "via": "5cff7c99c84e005e",
+      "net": "ROW_SEL0",
+      "clear": true
+    },
+    {
+      "via": "6d5deb67a5fe1906",
+      "net": "PGOOD",
+      "clear": false
+    }
+  ]
+}

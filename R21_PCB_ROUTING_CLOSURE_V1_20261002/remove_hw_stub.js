@@ -1,0 +1,1 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');return {removed:await eda.pcb_PrimitiveLine.delete('7e0eb92ba118c2e5')};

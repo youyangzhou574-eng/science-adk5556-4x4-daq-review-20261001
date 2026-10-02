@@ -1,0 +1,185 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PCB_ROUTING_CLOSURE_V1",
+  "ruling": "14bc7e77-00c2-40ce-b159-48872af1092b",
+  "parentUser": "3b633f5f-2ff7-45f2-ac2b-11531cb68fed",
+  "startUTC": "2026-10-01T23:21:51.2266848Z",
+  "approvedMinutes": 360,
+  "limits": {
+    "session": 3,
+    "save": 12,
+    "DRC": 4,
+    "captureaudit": 4,
+    "reviewExport": 2
+  },
+  "actual": {
+    "copy": 1,
+    "reviewExport": 2,
+    "session": 3,
+    "captureaudit": 4,
+    "DRC": 4,
+    "save": 12
+  },
+  "status": "BLOCKED_REVIEW_DELIVERY_ONLY",
+  "simulation": 0,
+  "importChanges": 0,
+  "schematicEdit": 0,
+  "fullBoardAutoroute": 0,
+  "manufacture": 0,
+  "procurement": 0,
+  "actualBench": 0,
+  "localGit": 0,
+  "reservations": [
+    {
+      "utc": "2026-10-01T23:27:41.758276+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Initial routing work session"
+    },
+    {
+      "utc": "2026-10-01T23:29:03.259940+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Start pad identity geometry and copper baseline"
+    },
+    {
+      "utc": "2026-10-01T23:32:15.911407+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "P0 selected 32 local analog paths"
+    },
+    {
+      "utc": "2026-10-01T23:35:53.999473+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Four local 180-degree HF cap orientation changes and feedback reroutes"
+    },
+    {
+      "utc": "2026-10-01T23:36:43.773852+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Twelve explicit analog/divider layer transition connections"
+    },
+    {
+      "utc": "2026-10-01T23:36:46.462888+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "P0 analog routing native electrical clearance check"
+    },
+    {
+      "utc": "2026-10-01T23:40:02.306253+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "P1 selected 63 signal nets, 312 segments and 93 transitions"
+    },
+    {
+      "utc": "2026-10-01T23:41:15.613045+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Final bounded P1 batch save; original prelaunch failure debit retained"
+    },
+    {
+      "utc": "2026-10-01T23:43:29.492545+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Four explicitly selected residual multi-layer signal connections"
+    },
+    {
+      "utc": "2026-10-01T23:46:30.494988+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Short selected dogleg escapes close divider and ROW_SEL0"
+    },
+    {
+      "utc": "2026-10-02T00:03:51.137898+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Combined moved discrete parts, signal finish, local ground and wider power copper boundaries"
+    },
+    {
+      "utc": "2026-10-02T00:04:11.753578+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Visible native editor for copper fill and final electrical closure"
+    },
+    {
+      "utc": "2026-10-02T00:07:25.662158+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "GUI copper fill save after manager completion"
+    },
+    {
+      "utc": "2026-10-02T00:08:15.482097+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Native electrical check after actual GUI ground/power fill"
+    },
+    {
+      "utc": "2026-10-02T00:08:21.728013+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Filled native source/pad identities for targeted final electrical closure"
+    },
+    {
+      "utc": "2026-10-02T00:33:49.555292+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Save10 charged after successful native save: predebit argument error preserved as execution-control deviation"
+    },
+    {
+      "utc": "2026-10-02T00:34:18.523127+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "GUI copper rebuild save11"
+    },
+    {
+      "utc": "2026-10-02T00:34:37.727815+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Native DRC3 after targeted fanout closure and four actual copper fills"
+    },
+    {
+      "utc": "2026-10-02T00:35:32.236796+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Warm actual pad/source/rule capture for eight final power island corrections"
+    },
+    {
+      "utc": "2026-10-02T00:38:15.250065+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Final GUI fill save12; no additional edits after hard save quota"
+    },
+    {
+      "utc": "2026-10-02T00:38:54.396053+00:00",
+      "kind": "reviewExport",
+      "count": 1,
+      "reason": "Final warm native review-only epro2 File export"
+    },
+    {
+      "utc": "2026-10-02T00:40:11.795013+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Independent cold reopen final routed workfile for DRC and identity"
+    },
+    {
+      "utc": "2026-10-02T00:40:36.283764+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Final cold actual source/pads/netlist/rules full audit4"
+    },
+    {
+      "utc": "2026-10-02T00:40:49.223010+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Final cold native detailed DRC4 after final power bridge and GUI fill"
+    },
+    {
+      "utc": "2026-10-02T00:45:32.606274+00:00",
+      "kind": "reviewExport",
+      "count": 1,
+      "reason": "One delivery-only offline review render batch from actual exported native copper, no additional EDA operation"
+    }
+  ],
+  "stop": "NATIVE_HARD_QUOTAS_USED_FINAL_COLD_AUDIT_AND_DRC_NOT_COMPLETED",
+  "stopUTC": "2026-10-02T00:41:38.254623+00:00"
+}

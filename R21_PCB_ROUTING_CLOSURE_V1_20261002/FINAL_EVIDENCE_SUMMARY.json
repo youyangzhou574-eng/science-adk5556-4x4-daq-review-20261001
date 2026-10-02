@@ -1,0 +1,60 @@
+{
+  "parts": 176,
+  "pads": 550,
+  "assigned": 514,
+  "nets": 107,
+  "NC": 36,
+  "padNetIdentity": "PASS warm actual550 vs start",
+  "componentCoreIdentity": "PASS176",
+  "lines": 909,
+  "vias": 296,
+  "pourBoundaries": 4,
+  "actualFilledPours": 4,
+  "layerLineCounts": {
+    "1": 689,
+    "2": 135,
+    "16": 85
+  },
+  "fillGeometry": [
+    {
+      "net": "GND",
+      "layer": 15,
+      "filledCopperComponents": 1,
+      "areaMM2": 8386.254587702906,
+      "arcApproximationMaxDegrees": 8.841776108401476,
+      "scope": "offline native filled geometry, not final electrical DRC or manufacturing certificate"
+    },
+    {
+      "net": "V5",
+      "layer": 16,
+      "filledCopperComponents": 1,
+      "areaMM2": 5016.685694657251,
+      "arcApproximationMaxDegrees": 9.853870029360515,
+      "scope": "offline native filled geometry, not final electrical DRC or manufacturing certificate"
+    },
+    {
+      "net": "V3V3",
+      "layer": 16,
+      "filledCopperComponents": 3,
+      "areaMM2": 2769.9584023604575,
+      "arcApproximationMaxDegrees": 9.578210196189616,
+      "scope": "offline native filled geometry, not final electrical DRC or manufacturing certificate"
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "filledCopperComponents": 15,
+      "areaMM2": 6809.6919436534245,
+      "arcApproximationMaxDegrees": 9.997384218864937,
+      "scope": "offline native filled geometry, not final electrical DRC or manufacturing certificate"
+    }
+  ],
+  "nativeSHA256": "5603E205FCB5170DE00A125DCD7A6271665D78BED153E4B6B489ABEAF8F8FB6E",
+  "finalElectricalDRC": "NOT_COMPLETED",
+  "lastSuccessfulDRC": "TARGETED_DRC:8 ConnectionError before final15 bridges",
+  "coldActualPadAudit": "FAILED_NULL_PINS",
+  "coldNativeDRC": "FAILED_NO_CANVAS_SUBSCRIPTION",
+  "PCB_REVIEW_READY": false,
+  "MANUFACTURING_NOT_RELEASED": true,
+  "noFurtherNativeMutation": true
+}

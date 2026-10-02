@@ -1,0 +1,40 @@
+{
+  "started_utc": "2026-10-02T00:09:07.649791+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "doc",
+    "api",
+    "--class-name",
+    "PCB_PrimitivePour",
+    "--method-name",
+    "modify"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"title\":\"修改覆铜边框\",\"params\":[{\"name\":\"primitiveId\",\"type\":\"string | IPCB_PrimitivePour\",\"description\":\"图元 ID\",\"required\":true},{\"name\":\"property\",\"type\":\"{ net?: string; layer?: TPCB_LayersOfCopper; complexPolygon?: IPCB_Polygon; pourFillMethod?: EPCB_PrimitivePourFillMethod; preserveSilos?: boolean; pourName?: string; pourPriority?: number; lineWidth?: number; primitiveLock?: boolean }\",\"description\":\"修改参数\",\"required\":true}],\"returns\":{\"type\":\"IPCB_PrimitivePour | null\"}},\"logs\":[],\"durationMs\":98}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "title": "修改覆铜边框",
+      "params": [
+        {
+          "name": "primitiveId",
+          "type": "string | IPCB_PrimitivePour",
+          "description": "图元 ID",
+          "required": true
+        },
+        {
+          "name": "property",
+          "type": "{ net?: string; layer?: TPCB_LayersOfCopper; complexPolygon?: IPCB_Polygon; pourFillMethod?: EPCB_PrimitivePourFillMethod; preserveSilos?: boolean; pourName?: string; pourPriority?: number; lineWidth?: number; primitiveLock?: boolean }",
+          "description": "修改参数",
+          "required": true
+        }
+      ],
+      "returns": {
+        "type": "IPCB_PrimitivePour | null"
+      }
+    },
+    "logs": [],
+    "durationMs": 98
+  }
+}

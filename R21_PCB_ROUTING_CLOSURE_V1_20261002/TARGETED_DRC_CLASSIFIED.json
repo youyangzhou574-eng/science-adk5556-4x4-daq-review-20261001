@@ -1,0 +1,11 @@
+{
+  "count": 8,
+  "categories": {
+    "Connection Error": 8
+  },
+  "unconnectedNetCounts": {
+    "V5": 2,
+    "V3V3": 6
+  },
+  "otherViolations": []
+}

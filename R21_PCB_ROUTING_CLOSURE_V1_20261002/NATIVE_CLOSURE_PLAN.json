@@ -1,0 +1,89 @@
+{
+  "deleteExactDuplicateVias": [
+    "36812a8ad27243a0",
+    "4876b48b6ee10b05",
+    "e3808d2b0e8083c8",
+    "a54b5e923ce9bfb7",
+    "cd457bb2ec30cc92",
+    "9ffe33ed169dc942",
+    "471f6252a58fbd93",
+    "44473df03664431c",
+    "f686021c27b4bee3",
+    "dabf3755c92df221",
+    "583c8178b54183a8"
+  ],
+  "swapPowerPourPriorities": true,
+  "results": [
+    {
+      "net": "MCU_ROW0",
+      "groups": [
+        [
+          "U14-2"
+        ],
+        [
+          "U7-7"
+        ]
+      ],
+      "escapeCounts": {
+        "U14-2": 0,
+        "U7-7": 5
+      }
+    },
+    {
+      "net": "ROW_SEL3",
+      "groups": [
+        [
+          "R_SEL_PD3-1",
+          "U4-20"
+        ],
+        [
+          "U14-11"
+        ]
+      ],
+      "escapeCounts": {
+        "R_SEL_PD3-1": 18,
+        "U4-20": 18,
+        "U14-11": 0
+      }
+    },
+    {
+      "net": "U12_CT",
+      "groups": [
+        [
+          "U12-5"
+        ],
+        [
+          "U12_CT_C-1"
+        ]
+      ],
+      "escapeCounts": {
+        "U12-5": 0,
+        "U12_CT_C-1": 13
+      }
+    },
+    {
+      "net": "V5_IN",
+      "groups": [
+        [
+          "J1-1",
+          "U9_EN_R-1",
+          "U9_IN_CAP-1",
+          "U9_OV_T-1"
+        ],
+        [
+          "U9-5"
+        ]
+      ],
+      "escapeCounts": {
+        "J1-1": 1,
+        "U9_EN_R-1": 11,
+        "U9_IN_CAP-1": 18,
+        "U9_OV_T-1": 18,
+        "U9-5": 0
+      }
+    }
+  ],
+  "paths": [],
+  "vias": [],
+  "segments": []
+}

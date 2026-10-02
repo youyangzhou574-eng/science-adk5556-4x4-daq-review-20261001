@@ -1,0 +1,1223 @@
+{
+  "started_utc": "2026-10-01T23:28:01.318249+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "6c6e00a6-3a34-4a21-8dd6-1a6779f72e4a",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "return {project:await eda.dmt_Project.getCurrentProjectInfo(),schematics:await eda.dmt_Schematic.getAllSchematicsInfo(),pcbs:await eda.dmt_Pcb.getAllPcbsInfo(),boards:await eda.dmt_Board.getAllBoardsInfo()};\n",
+    "--timeout",
+    "10000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"project\":{\"itemType\":\"Project\",\"uuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\",\"friendlyName\":\"SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\",\"name\":\"/SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\",\"teamUuid\":\"9f10cb2dacf74bd9bc0f771796227705\",\"description\":\"Independent R2 review; dynamic/fault/effective-capacity/bench holds retained\",\"data\":[{\"itemType\":\"Board\",\"name\":\"Board1\",\"schematic\":{\"itemType\":\"Schematic\",\"uuid\":\"32047f874e6d71ce\",\"name\":\"Schematic1\",\"page\":[{\"itemType\":\"Schematic Page\",\"uuid\":\"595d5f2f11dee03d\",\"name\":\"Power_Reference\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-02\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Power_Reference\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:48:39\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":1},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"02:52:00\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}},{\"itemType\":\"Schematic Page\",\"uuid\":\"802bf258e0d38cab\",\"name\":\"Rows_8lead_Interface\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Rows_8lead_Interface\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:50:56\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":2},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"14:18:59\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}},{\"itemType\":\"Schematic Page\",\"uuid\":\"49bb518d907ff185\",\"name\":\"Continuous_Column_TIAs\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-02\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Continuous_Column_TIAs\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:50:57\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":3},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"02:52:58\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}},{\"itemType\":\"Schematic Page\",\"uuid\":\"5f9caa2aebdf4356\",\"name\":\"ADS8684_Decoupling\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"ADS8684_Decoupling\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:50:58\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"14:19:00\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}},{\"itemType\":\"Schematic Page\",\"uuid\":\"52a8a60e5711e55b\",\"name\":\"MCU_Protected_Interfaces\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-02\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"MCU_Protected_Interfaces\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:50:58\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":5},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"03:26:21\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}},{\"itemType\":\"Schematic Page\",\"uuid\":\"cae95ff24beaad15\",\"name\":\"Power_Qualification\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":false,\"titleBlockData\":{\"Symbol\":{\"showTitle\":false,\"showValue\":false,\"value\":\"Drawing-Symbol_A4\"},\"Company\":{\"showTitle\":false,\"showValue\":false,\"value\":\"嘉立创EDA\"},\"Drawed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Reviewed\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Part Number\":{\"showTitle\":false,\"showValue\":true,\"value\":\"\"},\"Version\":{\"showTitle\":false,\"showValue\":false,\"value\":\"V1.0\"},\"Page Size\":{\"showTitle\":false,\"showValue\":false,\"value\":\"A4\"},\"@Project Name\":{\"showTitle\":false,\"showValue\":false,\"value\":\"SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK\"},\"@Update Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"@Create Date\":{\"showTitle\":false,\"showValue\":false,\"value\":\"2026-10-01\"},\"Device\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Drawing-Symbol_A4\"},\"@Board Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Board1\"},\"@Page Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Power_Qualification\"},\"@Create Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"13:50:59\"},\"@Page Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Page No\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"@Schematic Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Schematic1\"},\"@Update Time\":{\"showTitle\":null,\"showValue\":null,\"value\":\"14:19:00\"},\"@Assembly Variant\":{\"showTitle\":null,\"showValue\":null,\"value\":\"Basic\"},\"Border\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Title Block Position\":{\"showTitle\":null,\"showValue\":null,\"value\":\"3\"},\"Size\":{\"showTitle\":null,\"showValue\":null,\"value\":\"A4\"},\"Width\":{\"showTitle\":null,\"showValue\":null,\"value\":1170},\"Height\":{\"showTitle\":null,\"showValue\":null,\"value\":825},\"Region Start\":{\"showTitle\":null,\"showValue\":null,\"value\":\"1\"},\"X Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":6},\"Y Region Count\":{\"showTitle\":null,\"showValue\":null,\"value\":4},\"Blade Width\":{\"showTitle\":null,\"showValue\":null,\"value\":10},\"Color\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Title Block\":{\"showTitle\":null,\"showValue\":null,\"value\":\"0\"},\"Name\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"Description\":{\"showTitle\":null,\"showValue\":null,\"value\":\"\"},\"ID\":{}}}],\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\",\"parentBoardName\":\"Board1\"},\"pcb\":{\"itemType\":\"PCB\",\"name\":\"PCB1\",\"uuid\":\"268e6597399ebcce\",\"parentBoardName\":\"Board1\",\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\"},\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\"},{\"itemType\":\"Panel\",\"uuid\":\"b62d4211cd5cae87\",\"name\":\"Panel1\",\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\"}]},\"schematics\":[{\"itemType\":\"Schematic\",\"uuid\":\"32047f874e6d71ce\",\"page\":[{\"itemType\":\"Schematic Page\",\"uuid\":\"595d5f2f11dee03d\",\"name\":\"Power_Reference\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"802bf258e0d38cab\",\"name\":\"Rows_8lead_Interface\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"49bb518d907ff185\",\"name\":\"Continuous_Column_TIAs\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"5f9caa2aebdf4356\",\"name\":\"ADS8684_Decoupling\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"52a8a60e5711e55b\",\"name\":\"MCU_Protected_Interfaces\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"cae95ff24beaad15\",\"name\":\"Power_Qualification\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}}],\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\",\"parentBoardName\":\"Board1\",\"name\":\"Schematic1\"}],\"pcbs\":[{\"itemType\":\"PCB\",\"uuid\":\"268e6597399ebcce\",\"name\":\"PCB1\",\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\",\"parentBoardName\":\"Board1\"}],\"boards\":[{\"pcb\":{\"itemType\":\"PCB\",\"uuid\":\"268e6597399ebcce\",\"name\":\"PCB1\",\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\",\"parentBoardName\":\"Board1\"},\"uuid\":\"bbb69e712ca8f83c\",\"name\":\"Board1\",\"zIndex\":1,\"schematic\":{\"itemType\":\"Schematic\",\"uuid\":\"32047f874e6d71ce\",\"page\":[{\"itemType\":\"Schematic Page\",\"uuid\":\"595d5f2f11dee03d\",\"name\":\"Power_Reference\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"802bf258e0d38cab\",\"name\":\"Rows_8lead_Interface\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"49bb518d907ff185\",\"name\":\"Continuous_Column_TIAs\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"5f9caa2aebdf4356\",\"name\":\"ADS8684_Decoupling\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"52a8a60e5711e55b\",\"name\":\"MCU_Protected_Interfaces\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}},{\"itemType\":\"Schematic Page\",\"uuid\":\"cae95ff24beaad15\",\"name\":\"Power_Qualification\",\"parentSchematicUuid\":\"32047f874e6d71ce\",\"showTitleBlock\":true,\"titleBlockData\":{}}],\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\",\"parentBoardName\":\"Board1\",\"name\":\"Schematic1\"},\"parentProjectUuid\":\"315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a\",\"itemType\":\"Board\"}]},\"logs\":[],\"durationMs\":45}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "project": {
+        "itemType": "Project",
+        "uuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a",
+        "friendlyName": "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK",
+        "name": "/SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK",
+        "teamUuid": "9f10cb2dacf74bd9bc0f771796227705",
+        "description": "Independent R2 review; dynamic/fault/effective-capacity/bench holds retained",
+        "data": [
+          {
+            "itemType": "Board",
+            "name": "Board1",
+            "schematic": {
+              "itemType": "Schematic",
+              "uuid": "32047f874e6d71ce",
+              "name": "Schematic1",
+              "page": [
+                {
+                  "itemType": "Schematic Page",
+                  "uuid": "595d5f2f11dee03d",
+                  "name": "Power_Reference",
+                  "parentSchematicUuid": "32047f874e6d71ce",
+                  "showTitleBlock": false,
+                  "titleBlockData": {
+                    "Symbol": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "Company": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "嘉立创EDA"
+                    },
+                    "Drawed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Reviewed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Part Number": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Version": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "V1.0"
+                    },
+                    "Page Size": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "A4"
+                    },
+                    "@Project Name": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK"
+                    },
+                    "@Update Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-02"
+                    },
+                    "@Create Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "Device": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "@Board Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Board1"
+                    },
+                    "@Page Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Power_Reference"
+                    },
+                    "@Create Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "13:48:39"
+                    },
+                    "@Page Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "@Page No": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1
+                    },
+                    "@Schematic Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Schematic1"
+                    },
+                    "@Update Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "02:52:00"
+                    },
+                    "@Assembly Variant": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Basic"
+                    },
+                    "Border": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Title Block Position": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "3"
+                    },
+                    "Size": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "A4"
+                    },
+                    "Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1170
+                    },
+                    "Height": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 825
+                    },
+                    "Region Start": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "X Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "Y Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "Blade Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 10
+                    },
+                    "Color": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Title Block": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Description": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "ID": {}
+                  }
+                },
+                {
+                  "itemType": "Schematic Page",
+                  "uuid": "802bf258e0d38cab",
+                  "name": "Rows_8lead_Interface",
+                  "parentSchematicUuid": "32047f874e6d71ce",
+                  "showTitleBlock": false,
+                  "titleBlockData": {
+                    "Symbol": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "Company": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "嘉立创EDA"
+                    },
+                    "Drawed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Reviewed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Part Number": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Version": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "V1.0"
+                    },
+                    "Page Size": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "A4"
+                    },
+                    "@Project Name": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK"
+                    },
+                    "@Update Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "@Create Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "Device": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "@Board Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Board1"
+                    },
+                    "@Page Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Rows_8lead_Interface"
+                    },
+                    "@Create Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "13:50:56"
+                    },
+                    "@Page Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "@Page No": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 2
+                    },
+                    "@Schematic Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Schematic1"
+                    },
+                    "@Update Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "14:18:59"
+                    },
+                    "@Assembly Variant": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Basic"
+                    },
+                    "Border": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Title Block Position": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "3"
+                    },
+                    "Size": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "A4"
+                    },
+                    "Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1170
+                    },
+                    "Height": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 825
+                    },
+                    "Region Start": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "X Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "Y Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "Blade Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 10
+                    },
+                    "Color": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Title Block": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Description": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "ID": {}
+                  }
+                },
+                {
+                  "itemType": "Schematic Page",
+                  "uuid": "49bb518d907ff185",
+                  "name": "Continuous_Column_TIAs",
+                  "parentSchematicUuid": "32047f874e6d71ce",
+                  "showTitleBlock": false,
+                  "titleBlockData": {
+                    "Symbol": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "Company": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "嘉立创EDA"
+                    },
+                    "Drawed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Reviewed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Part Number": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Version": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "V1.0"
+                    },
+                    "Page Size": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "A4"
+                    },
+                    "@Project Name": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK"
+                    },
+                    "@Update Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-02"
+                    },
+                    "@Create Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "Device": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "@Board Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Board1"
+                    },
+                    "@Page Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Continuous_Column_TIAs"
+                    },
+                    "@Create Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "13:50:57"
+                    },
+                    "@Page Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "@Page No": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 3
+                    },
+                    "@Schematic Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Schematic1"
+                    },
+                    "@Update Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "02:52:58"
+                    },
+                    "@Assembly Variant": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Basic"
+                    },
+                    "Border": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Title Block Position": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "3"
+                    },
+                    "Size": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "A4"
+                    },
+                    "Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1170
+                    },
+                    "Height": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 825
+                    },
+                    "Region Start": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "X Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "Y Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "Blade Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 10
+                    },
+                    "Color": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Title Block": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Description": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "ID": {}
+                  }
+                },
+                {
+                  "itemType": "Schematic Page",
+                  "uuid": "5f9caa2aebdf4356",
+                  "name": "ADS8684_Decoupling",
+                  "parentSchematicUuid": "32047f874e6d71ce",
+                  "showTitleBlock": false,
+                  "titleBlockData": {
+                    "Symbol": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "Company": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "嘉立创EDA"
+                    },
+                    "Drawed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Reviewed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Part Number": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Version": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "V1.0"
+                    },
+                    "Page Size": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "A4"
+                    },
+                    "@Project Name": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK"
+                    },
+                    "@Update Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "@Create Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "Device": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "@Board Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Board1"
+                    },
+                    "@Page Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "ADS8684_Decoupling"
+                    },
+                    "@Create Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "13:50:58"
+                    },
+                    "@Page Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "@Page No": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "@Schematic Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Schematic1"
+                    },
+                    "@Update Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "14:19:00"
+                    },
+                    "@Assembly Variant": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Basic"
+                    },
+                    "Border": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Title Block Position": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "3"
+                    },
+                    "Size": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "A4"
+                    },
+                    "Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1170
+                    },
+                    "Height": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 825
+                    },
+                    "Region Start": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "X Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "Y Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "Blade Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 10
+                    },
+                    "Color": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Title Block": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Description": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "ID": {}
+                  }
+                },
+                {
+                  "itemType": "Schematic Page",
+                  "uuid": "52a8a60e5711e55b",
+                  "name": "MCU_Protected_Interfaces",
+                  "parentSchematicUuid": "32047f874e6d71ce",
+                  "showTitleBlock": false,
+                  "titleBlockData": {
+                    "Symbol": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "Company": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "嘉立创EDA"
+                    },
+                    "Drawed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Reviewed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Part Number": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Version": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "V1.0"
+                    },
+                    "Page Size": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "A4"
+                    },
+                    "@Project Name": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK"
+                    },
+                    "@Update Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-02"
+                    },
+                    "@Create Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "Device": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "@Board Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Board1"
+                    },
+                    "@Page Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "MCU_Protected_Interfaces"
+                    },
+                    "@Create Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "13:50:58"
+                    },
+                    "@Page Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "@Page No": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 5
+                    },
+                    "@Schematic Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Schematic1"
+                    },
+                    "@Update Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "03:26:21"
+                    },
+                    "@Assembly Variant": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Basic"
+                    },
+                    "Border": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Title Block Position": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "3"
+                    },
+                    "Size": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "A4"
+                    },
+                    "Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1170
+                    },
+                    "Height": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 825
+                    },
+                    "Region Start": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "X Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "Y Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "Blade Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 10
+                    },
+                    "Color": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Title Block": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Description": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "ID": {}
+                  }
+                },
+                {
+                  "itemType": "Schematic Page",
+                  "uuid": "cae95ff24beaad15",
+                  "name": "Power_Qualification",
+                  "parentSchematicUuid": "32047f874e6d71ce",
+                  "showTitleBlock": false,
+                  "titleBlockData": {
+                    "Symbol": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "Company": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "嘉立创EDA"
+                    },
+                    "Drawed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Reviewed": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Part Number": {
+                      "showTitle": false,
+                      "showValue": true,
+                      "value": ""
+                    },
+                    "Version": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "V1.0"
+                    },
+                    "Page Size": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "A4"
+                    },
+                    "@Project Name": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK"
+                    },
+                    "@Update Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "@Create Date": {
+                      "showTitle": false,
+                      "showValue": false,
+                      "value": "2026-10-01"
+                    },
+                    "Device": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Drawing-Symbol_A4"
+                    },
+                    "@Board Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Board1"
+                    },
+                    "@Page Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Power_Qualification"
+                    },
+                    "@Create Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "13:50:59"
+                    },
+                    "@Page Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "@Page No": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "@Schematic Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Schematic1"
+                    },
+                    "@Update Time": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "14:19:00"
+                    },
+                    "@Assembly Variant": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "Basic"
+                    },
+                    "Border": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Title Block Position": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "3"
+                    },
+                    "Size": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "A4"
+                    },
+                    "Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 1170
+                    },
+                    "Height": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 825
+                    },
+                    "Region Start": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "1"
+                    },
+                    "X Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 6
+                    },
+                    "Y Region Count": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 4
+                    },
+                    "Blade Width": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": 10
+                    },
+                    "Color": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Title Block": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": "0"
+                    },
+                    "Name": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "Description": {
+                      "showTitle": null,
+                      "showValue": null,
+                      "value": ""
+                    },
+                    "ID": {}
+                  }
+                }
+              ],
+              "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a",
+              "parentBoardName": "Board1"
+            },
+            "pcb": {
+              "itemType": "PCB",
+              "name": "PCB1",
+              "uuid": "268e6597399ebcce",
+              "parentBoardName": "Board1",
+              "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a"
+            },
+            "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a"
+          },
+          {
+            "itemType": "Panel",
+            "uuid": "b62d4211cd5cae87",
+            "name": "Panel1",
+            "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a"
+          }
+        ]
+      },
+      "schematics": [
+        {
+          "itemType": "Schematic",
+          "uuid": "32047f874e6d71ce",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "595d5f2f11dee03d",
+              "name": "Power_Reference",
+              "parentSchematicUuid": "32047f874e6d71ce",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "802bf258e0d38cab",
+              "name": "Rows_8lead_Interface",
+              "parentSchematicUuid": "32047f874e6d71ce",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "49bb518d907ff185",
+              "name": "Continuous_Column_TIAs",
+              "parentSchematicUuid": "32047f874e6d71ce",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "5f9caa2aebdf4356",
+              "name": "ADS8684_Decoupling",
+              "parentSchematicUuid": "32047f874e6d71ce",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "52a8a60e5711e55b",
+              "name": "MCU_Protected_Interfaces",
+              "parentSchematicUuid": "32047f874e6d71ce",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            },
+            {
+              "itemType": "Schematic Page",
+              "uuid": "cae95ff24beaad15",
+              "name": "Power_Qualification",
+              "parentSchematicUuid": "32047f874e6d71ce",
+              "showTitleBlock": true,
+              "titleBlockData": {}
+            }
+          ],
+          "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a",
+          "parentBoardName": "Board1",
+          "name": "Schematic1"
+        }
+      ],
+      "pcbs": [
+        {
+          "itemType": "PCB",
+          "uuid": "268e6597399ebcce",
+          "name": "PCB1",
+          "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a",
+          "parentBoardName": "Board1"
+        }
+      ],
+      "boards": [
+        {
+          "pcb": {
+            "itemType": "PCB",
+            "uuid": "268e6597399ebcce",
+            "name": "PCB1",
+            "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a",
+            "parentBoardName": "Board1"
+          },
+          "uuid": "bbb69e712ca8f83c",
+          "name": "Board1",
+          "zIndex": 1,
+          "schematic": {
+            "itemType": "Schematic",
+            "uuid": "32047f874e6d71ce",
+            "page": [
+              {
+                "itemType": "Schematic Page",
+                "uuid": "595d5f2f11dee03d",
+                "name": "Power_Reference",
+                "parentSchematicUuid": "32047f874e6d71ce",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "802bf258e0d38cab",
+                "name": "Rows_8lead_Interface",
+                "parentSchematicUuid": "32047f874e6d71ce",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "49bb518d907ff185",
+                "name": "Continuous_Column_TIAs",
+                "parentSchematicUuid": "32047f874e6d71ce",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "5f9caa2aebdf4356",
+                "name": "ADS8684_Decoupling",
+                "parentSchematicUuid": "32047f874e6d71ce",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "52a8a60e5711e55b",
+                "name": "MCU_Protected_Interfaces",
+                "parentSchematicUuid": "32047f874e6d71ce",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              },
+              {
+                "itemType": "Schematic Page",
+                "uuid": "cae95ff24beaad15",
+                "name": "Power_Qualification",
+                "parentSchematicUuid": "32047f874e6d71ce",
+                "showTitleBlock": true,
+                "titleBlockData": {}
+              }
+            ],
+            "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a",
+            "parentBoardName": "Board1",
+            "name": "Schematic1"
+          },
+          "parentProjectUuid": "315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a",
+          "itemType": "Board"
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 45
+  }
+}

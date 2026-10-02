@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-02T00:40:47.690955+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "c518edbc-da24-4915-893e-7fe906f76af0",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a')throw Error('Wrong routing copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');\nconst parts=[];for(const c of await eda.pcb_PrimitiveComponent.getAll()){parts.push({id:c.getState_PrimitiveId(),ref:c.getState_Designator(),name:c.getState_Name(),footprint:c.getState_Footprint(),device:c.getState_Component(),uniqueId:c.getState_UniqueId(),manufacturerId:c.getState_ManufacturerId(),props:c.getState_OtherProperty(),x:c.getState_X(),y:c.getState_Y(),rotation:c.getState_Rotation(),layer:c.getState_Layer(),pads:(await eda.pcb_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId())).map(p=>({id:p.getState_PrimitiveId(),number:String(p.getState_PadNumber()),net:p.getState_Net(),x:p.getState_X(),y:p.getState_Y(),rotation:p.getState_Rotation(),layer:p.getState_Layer(),pad:p.getState_Pad(),hole:p.getState_Hole()}))});}\nreturn {parts,netlist:await eda.pcb_Net.getNetlist('JLCEDA'),layerInfo:await eda.pcb_Layer.getAllLayers(),source:await eda.sys_FileManager.getDocumentSource(),rules:await eda.pcb_Drc.getCurrentRuleConfiguration()};\n",
+    "--timeout",
+    "15000"
+  ],
+  "returncode": 1,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"EXECUTION_ERROR\",\"message\":\"Cannot read properties of null (reading 'map')\"}}\n",
+  "stderr": "EXECUTION_ERROR: Cannot read properties of null (reading 'map')\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "EXECUTION_ERROR",
+      "message": "Cannot read properties of null (reading 'map')"
+    }
+  }
+}

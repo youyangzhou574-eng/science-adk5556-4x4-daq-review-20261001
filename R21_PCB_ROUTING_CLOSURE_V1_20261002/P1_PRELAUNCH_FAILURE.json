@@ -1,0 +1,7 @@
+{
+  "failedBeforeNativeLaunch": true,
+  "error": "Windows CreateProcess WinError 206: inline command too long",
+  "nativeMutations": 0,
+  "savePredebitRetained": true,
+  "resolution": "Same approved geometry split into small native calls; no API changes/research."
+}

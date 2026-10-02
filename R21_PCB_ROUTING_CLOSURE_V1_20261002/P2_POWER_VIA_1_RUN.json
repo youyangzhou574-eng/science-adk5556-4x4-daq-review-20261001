@@ -1,0 +1,47 @@
+{
+  "started_utc": "2026-10-02T00:03:45.958045+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "6c6e00a6-3a34-4a21-8dd6-1a6779f72e4a",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');const ids=[];const vs=[{\"net\":\"V3V3\",\"x\":2293.9,\"y\":3249,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":2378.2,\"y\":3248.1,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":2888.3,\"y\":3020.7,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":2978.15,\"y\":3051.2,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":2885.8,\"y\":3303.8,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":3332.1,\"y\":3020.7,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":3447.5,\"y\":3159.3,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":3238.75,\"y\":3346.5,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":2324.8,\"y\":1469.1499999999999,\"hole\":12,\"diameter\":24},{\"net\":\"V3V3\",\"x\":2822.8,\"y\":2603.0,\"hole\":12,\"diameter\":24},{\"net\":\"V5_IN\",\"x\":660.85,\"y\":3307.1,\"hole\":12,\"diameter\":24},{\"net\":\"V5_IN\",\"x\":756.2,\"y\":3090.6,\"hole\":12,\"diameter\":24},{\"net\":\"V5_IN\",\"x\":967.2,\"y\":2824.7,\"hole\":12,\"diameter\":24},{\"net\":\"V5_IN\",\"x\":756.2,\"y\":3090.6,\"hole\":12,\"diameter\":24},{\"net\":\"V3_LDO\",\"x\":2212.9,\"y\":3070.9,\"hole\":12,\"diameter\":24},{\"net\":\"V3_LDO\",\"x\":2274.2,\"y\":3116.75,\"hole\":12,\"diameter\":24},{\"net\":\"V3_LDO\",\"x\":2048.45,\"y\":3307.1,\"hole\":12,\"diameter\":24},{\"net\":\"V3_LDO\",\"x\":2274.2,\"y\":3116.75,\"hole\":12,\"diameter\":24},{\"net\":\"V3_LDO\",\"x\":2253.8,\"y\":2876.6,\"hole\":12,\"diameter\":24},{\"net\":\"V3_LDO\",\"x\":2212.9,\"y\":3070.9,\"hole\":12,\"diameter\":24}];for(const q of vs){const x=await eda.pcb_PrimitiveVia.create(q.net,q.x,q.y,q.hole,q.diameter);if(!x)throw Error(\"via\");ids.push(x.getState_PrimitiveId());}const ss=[];for(const s of ss){const t=await eda.pcb_PrimitiveLine.create(s.net,s.layer,s.x1,s.y1,s.x2,s.y2,s.width,true);if(!t)throw Error(\"route\");ids.push(t.getState_PrimitiveId());}return {created:ids};",
+    "--timeout",
+    "15000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"created\":[\"f3e17d08b8494578\",\"d9e2f306123ba103\",\"7f7f68557d1c104b\",\"8f1eafdd1977d905\",\"ef7524cf31cf3c7d\",\"527d282d76f95633\",\"2a11df32e494bf3c\",\"cbde844199ba3d8c\",\"48e796b1a5e4f311\",\"f9038527c9d51a9c\",\"2f25d162bad8a807\",\"725ada1f1d2e20a6\",\"3f3bf2a859ab443c\",\"f686021c27b4bee3\",\"4a26f4a6d542ab89\",\"1ebe1ccfd02c4800\",\"745e78855f7a6082\",\"dabf3755c92df221\",\"1cfaec0f4ec80e7d\",\"583c8178b54183a8\"]},\"logs\":[],\"durationMs\":369}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "created": [
+        "f3e17d08b8494578",
+        "d9e2f306123ba103",
+        "7f7f68557d1c104b",
+        "8f1eafdd1977d905",
+        "ef7524cf31cf3c7d",
+        "527d282d76f95633",
+        "2a11df32e494bf3c",
+        "cbde844199ba3d8c",
+        "48e796b1a5e4f311",
+        "f9038527c9d51a9c",
+        "2f25d162bad8a807",
+        "725ada1f1d2e20a6",
+        "3f3bf2a859ab443c",
+        "f686021c27b4bee3",
+        "4a26f4a6d542ab89",
+        "1ebe1ccfd02c4800",
+        "745e78855f7a6082",
+        "dabf3755c92df221",
+        "1cfaec0f4ec80e7d",
+        "583c8178b54183a8"
+      ]
+    },
+    "logs": [],
+    "durationMs": 369
+  }
+}

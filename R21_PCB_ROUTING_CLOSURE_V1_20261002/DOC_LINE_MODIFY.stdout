@@ -1,0 +1,2 @@
+
+{"ok":true,"value":{"title":"修改直线","params":[{"name":"primitiveId","type":"string | IPCB_PrimitiveLine","description":"图元 ID","required":true},{"name":"property","type":"{ net?: string; layer?: TPCB_LayersOfLine; startX?: number; startY?: number; endX?: number; endY?: number; lineWidth?: number; primitiveLock?: boolean }","description":"修改参数","required":true}],"returns":{"type":"IPCB_PrimitiveLine | null"}},"logs":[],"durationMs":111}

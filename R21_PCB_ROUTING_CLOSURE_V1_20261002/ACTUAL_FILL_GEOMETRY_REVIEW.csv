@@ -1,0 +1,5 @@
+net,layer,filledCopperComponents,areaMM2,arcApproximationMaxDegrees,scope
+GND,15,1,8386.254587702906,8.841776108401476,"offline native filled geometry, not final electrical DRC or manufacturing certificate"
+V5,16,1,5016.685694657251,9.853870029360515,"offline native filled geometry, not final electrical DRC or manufacturing certificate"
+V3V3,16,3,2769.9584023604575,9.578210196189616,"offline native filled geometry, not final electrical DRC or manufacturing certificate"
+GND,1,15,6809.6919436534245,9.997384218864937,"offline native filled geometry, not final electrical DRC or manufacturing certificate"
