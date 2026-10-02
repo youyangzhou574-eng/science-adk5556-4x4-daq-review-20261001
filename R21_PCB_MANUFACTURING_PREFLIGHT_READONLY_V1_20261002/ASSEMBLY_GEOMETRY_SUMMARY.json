@@ -1,0 +1,597 @@
+{
+  "nativeBodyOutlines": 175,
+  "nominalBodyOverlapPairs": [],
+  "minimumNominalBodyPair": {
+    "refA": "U9_IN_CAP",
+    "refB": "U9_OV_B2",
+    "nominalBodyGap_mm": 0.30000194000000135,
+    "overlapArea_mm2": 0.0,
+    "scope": "native component-body outline layer48; not courtyard/full3D/assembly tool keepout"
+  },
+  "maskUnder0p1": [
+    {
+      "ref": "U10",
+      "padA": "6",
+      "padB": "9",
+      "nativeCopperGap_mm": 0.19008089999999808,
+      "nativeMaskBridgeEstimate_mm": 0.09008109999999811,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U10",
+      "padA": "6",
+      "padB": "8",
+      "nativeCopperGap_mm": 0.19008089999999808,
+      "nativeMaskBridgeEstimate_mm": 0.09008109999999811,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U9",
+      "padA": "6",
+      "padB": "9",
+      "nativeCopperGap_mm": 0.19008089999999808,
+      "nativeMaskBridgeEstimate_mm": 0.09008109999999811,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U9",
+      "padA": "6",
+      "padB": "8",
+      "nativeCopperGap_mm": 0.19008089999999808,
+      "nativeMaskBridgeEstimate_mm": 0.09008109999999811,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "22",
+      "padB": "23",
+      "nativeCopperGap_mm": 0.19837399999999406,
+      "nativeMaskBridgeEstimate_mm": 0.09677399999999405,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "24",
+      "padB": "25",
+      "nativeCopperGap_mm": 0.19888200000000467,
+      "nativeMaskBridgeEstimate_mm": 0.09728200000000466,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "20",
+      "padB": "21",
+      "nativeCopperGap_mm": 0.1991360000000029,
+      "nativeMaskBridgeEstimate_mm": 0.09753600000000291,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "3",
+      "padB": "4",
+      "nativeCopperGap_mm": 0.19939000000000104,
+      "nativeMaskBridgeEstimate_mm": 0.09779000000000106,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "5",
+      "padB": "6",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "7",
+      "padB": "8",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "13",
+      "padB": "14",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "15",
+      "padB": "16",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "25",
+      "padB": "26",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "31",
+      "padB": "32",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "33",
+      "padB": "34",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "37",
+      "padB": "38",
+      "nativeCopperGap_mm": 0.19989799999999747,
+      "nativeMaskBridgeEstimate_mm": 0.09829799999999746,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "9",
+      "padB": "10",
+      "nativeCopperGap_mm": 0.19989800000000457,
+      "nativeMaskBridgeEstimate_mm": 0.09829800000000456,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "11",
+      "padB": "12",
+      "nativeCopperGap_mm": 0.19989800000000457,
+      "nativeMaskBridgeEstimate_mm": 0.09829800000000456,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "17",
+      "padB": "18",
+      "nativeCopperGap_mm": 0.19989800000000457,
+      "nativeMaskBridgeEstimate_mm": 0.09829800000000456,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "27",
+      "padB": "28",
+      "nativeCopperGap_mm": 0.19989800000000457,
+      "nativeMaskBridgeEstimate_mm": 0.09829800000000456,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "29",
+      "padB": "30",
+      "nativeCopperGap_mm": 0.19989800000000457,
+      "nativeMaskBridgeEstimate_mm": 0.09829800000000456,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "35",
+      "padB": "36",
+      "nativeCopperGap_mm": 0.19989800000000457,
+      "nativeMaskBridgeEstimate_mm": 0.09829800000000456,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "4",
+      "padB": "5",
+      "nativeCopperGap_mm": 0.20015199999999564,
+      "nativeMaskBridgeEstimate_mm": 0.09855199999999566,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "10",
+      "padB": "11",
+      "nativeCopperGap_mm": 0.20015199999999567,
+      "nativeMaskBridgeEstimate_mm": 0.09855199999999566,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "16",
+      "padB": "17",
+      "nativeCopperGap_mm": 0.20015199999999567,
+      "nativeMaskBridgeEstimate_mm": 0.09855199999999566,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "18",
+      "padB": "19",
+      "nativeCopperGap_mm": 0.20015199999999567,
+      "nativeMaskBridgeEstimate_mm": 0.09855199999999566,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "28",
+      "padB": "29",
+      "nativeCopperGap_mm": 0.20015199999999567,
+      "nativeMaskBridgeEstimate_mm": 0.09855199999999566,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "34",
+      "padB": "35",
+      "nativeCopperGap_mm": 0.20015199999999567,
+      "nativeMaskBridgeEstimate_mm": 0.09855199999999566,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "36",
+      "padB": "37",
+      "nativeCopperGap_mm": 0.20015199999999567,
+      "nativeMaskBridgeEstimate_mm": 0.09855199999999566,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "6",
+      "padB": "7",
+      "nativeCopperGap_mm": 0.20015200000000277,
+      "nativeMaskBridgeEstimate_mm": 0.09855200000000276,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "8",
+      "padB": "9",
+      "nativeCopperGap_mm": 0.20015200000000277,
+      "nativeMaskBridgeEstimate_mm": 0.09855200000000276,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "12",
+      "padB": "13",
+      "nativeCopperGap_mm": 0.20015200000000277,
+      "nativeMaskBridgeEstimate_mm": 0.09855200000000276,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "14",
+      "padB": "15",
+      "nativeCopperGap_mm": 0.20015200000000277,
+      "nativeMaskBridgeEstimate_mm": 0.09855200000000276,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "26",
+      "padB": "27",
+      "nativeCopperGap_mm": 0.20015200000000277,
+      "nativeMaskBridgeEstimate_mm": 0.09855200000000276,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "30",
+      "padB": "31",
+      "nativeCopperGap_mm": 0.20015200000000277,
+      "nativeMaskBridgeEstimate_mm": 0.09855200000000276,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "32",
+      "padB": "33",
+      "nativeCopperGap_mm": 0.20015200000000277,
+      "nativeMaskBridgeEstimate_mm": 0.09855200000000276,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "2",
+      "padB": "3",
+      "nativeCopperGap_mm": 0.20065999999999917,
+      "nativeMaskBridgeEstimate_mm": 0.09905999999999916,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U5",
+      "padA": "21",
+      "padB": "22",
+      "nativeCopperGap_mm": 0.20091399999999743,
+      "nativeMaskBridgeEstimate_mm": 0.09931399999999742,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U9",
+      "padA": "5",
+      "padB": "6",
+      "nativeCopperGap_mm": 0.19987259999999907,
+      "nativeMaskBridgeEstimate_mm": 0.0998727999999991,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    },
+    {
+      "ref": "U10",
+      "padA": "5",
+      "padB": "6",
+      "nativeCopperGap_mm": 0.19987260000000617,
+      "nativeMaskBridgeEstimate_mm": 0.0998728000000062,
+      "method": "existing native pad polygon/rect with padAngle and component rotation; ellipse24seg; no Gerber"
+    }
+  ],
+  "maskMinByRef": {
+    "U5": 0.09677399999999405,
+    "U9": 0.09008109999999811,
+    "U10": 0.09008109999999811,
+    "U11": 0.11826239999999667,
+    "U12": 0.11826239999999667
+  },
+  "testAccessCandidates": 13,
+  "nativeDrill20PTH": [
+    {
+      "ref": "J1",
+      "pad": "2",
+      "net": "GND",
+      "x_mm": 7.000001240000004,
+      "y_mm": 82.27000056000003,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1000231999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J1",
+      "pad": "1",
+      "net": "V5_IN",
+      "x_mm": 7.00000124,
+      "y_mm": 79.73000056000001,
+      "nativeCopperShape": "RECT",
+      "nativeDrill_mm": 1.1000231999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "1",
+      "net": "ROW0",
+      "x_mm": 5.00000016,
+      "y_mm": 30.110000740000004,
+      "nativeCopperShape": "RECT",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "2",
+      "net": "ROW1",
+      "x_mm": 5.000000160000001,
+      "y_mm": 32.65000073999999,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "3",
+      "net": "ROW2",
+      "x_mm": 5.00000016,
+      "y_mm": 35.19000074000001,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "4",
+      "net": "ROW3",
+      "x_mm": 5.000000160000002,
+      "y_mm": 37.730000740000015,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "5",
+      "net": "COL0",
+      "x_mm": 5.000000160000003,
+      "y_mm": 40.27000073999999,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "6",
+      "net": "COL1",
+      "x_mm": 5.000000160000003,
+      "y_mm": 42.81000074,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "7",
+      "net": "COL2",
+      "x_mm": 5.0000001600000035,
+      "y_mm": 45.35000074000002,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J2",
+      "pad": "8",
+      "net": "COL3",
+      "x_mm": 5.000000160000003,
+      "y_mm": 47.89000074000002,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 0.9999979999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J3",
+      "pad": "6",
+      "net": "",
+      "x_mm": 93.99999996000005,
+      "y_mm": 24.349999559999986,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1999975999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J3",
+      "pad": "5",
+      "net": "MCU_NRST_EXT",
+      "x_mm": 93.99999995999998,
+      "y_mm": 21.809999559999984,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1999975999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J3",
+      "pad": "4",
+      "net": "SWCLK_EXT",
+      "x_mm": 93.99999996,
+      "y_mm": 19.269999559999984,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1999975999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J3",
+      "pad": "3",
+      "net": "SWDIO_EXT",
+      "x_mm": 93.99999996000001,
+      "y_mm": 16.729999560000003,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1999975999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J3",
+      "pad": "2",
+      "net": "GND",
+      "x_mm": 93.99999996000001,
+      "y_mm": 14.189999559999995,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1999975999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J3",
+      "pad": "1",
+      "net": "V3V3_EXT_SWD",
+      "x_mm": 93.99999996,
+      "y_mm": 11.649999559999998,
+      "nativeCopperShape": "RECT",
+      "nativeDrill_mm": 1.1999975999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J4",
+      "pad": "1",
+      "net": "V3V3_EXT_UART",
+      "x_mm": 93.99999996,
+      "y_mm": 69.18999878000001,
+      "nativeCopperShape": "RECT",
+      "nativeDrill_mm": 1.1000231999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J4",
+      "pad": "2",
+      "net": "GND",
+      "x_mm": 93.99999996000003,
+      "y_mm": 71.72999878000002,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1000231999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J4",
+      "pad": "3",
+      "net": "UART_TX_EXT",
+      "x_mm": 93.99999995999997,
+      "y_mm": 74.26999878,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1000231999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "J4",
+      "pad": "4",
+      "net": "UART_RX_EXT",
+      "x_mm": 93.99999996000004,
+      "y_mm": 76.80999878000004,
+      "nativeCopperShape": "ELLIPSE",
+      "nativeDrill_mm": 1.1000231999999999,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 12
+    },
+    {
+      "ref": "U6",
+      "pad": "1",
+      "net": "V5",
+      "x_mm": 60.23507384000001,
+      "y_mm": 12.050039399999998,
+      "nativeCopperShape": "RECT",
+      "nativeDrill_mm": 0.0,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 1
+    },
+    {
+      "ref": "U6",
+      "pad": "2",
+      "net": "REF_2V5",
+      "x_mm": 60.23507384000001,
+      "y_mm": 13.949959400000001,
+      "nativeCopperShape": "RECT",
+      "nativeDrill_mm": 0.0,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 1
+    },
+    {
+      "ref": "U6",
+      "pad": "3",
+      "net": "GND",
+      "x_mm": 57.76492384,
+      "y_mm": 12.9999994,
+      "nativeCopperShape": "RECT",
+      "nativeDrill_mm": 0.0,
+      "nativeMaskExpansion_mm": 0.0508,
+      "nativeLayer": 1
+    }
+  ],
+  "sourcesReviewed": "6 sources capped; ST direct download567, official web PDF package text accessible. Existing other4 PDFs reuse; no tool install."
+}

@@ -1,0 +1,3 @@
+# Public delivery policy
+Only this circuit project. Complete report, analysis scripts/records, CSV, JSON, PNG and audit files directly uploaded with source SHA manifest and ZIP. Frozen native PCB remains at the accepted fixedcommit URL, not recopied or CAD-exported in this read-only package.
+Full third-party website HTML, manufacturer PDF bytes and bulk PDF text-extraction JSON stay local for evidence and are omitted from publicpayload; source URLs, local hash/byte provenance, attributed short notes and selected package-page PNGs remain. No credentials, unrelated private data, installation or permission expansion. The payload manifest separately lists excluded source files and reasons, not falsely all files delivered.

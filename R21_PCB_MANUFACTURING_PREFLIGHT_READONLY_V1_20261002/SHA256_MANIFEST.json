@@ -1,0 +1,358 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PCB_MANUFACTURING_PREFLIGHT_READONLY_V1",
+  "UTC": "2026-10-02T03:10:13.989836+00:00",
+  "scope": "Only this circuit; frozen PCB read-only manufacturing preflight and external J2 wiring; no CAD/manufacture/purchase/bench release",
+  "files": [
+    {
+      "path": "analyze_frozen.py",
+      "bytes": 7414,
+      "sha256": "C2FC06F96F91617A9167B915E415A79AFE2F5CF1105B77ED392F5751F6AD6776"
+    },
+    {
+      "path": "assembly_and_access.py",
+      "bytes": 6559,
+      "sha256": "9A2B8480830DD06F3DBB76E1E7D45ADA97918A5E2EFC59D6BA97694369D60569"
+    },
+    {
+      "path": "ASSEMBLY_AND_PROBE_REVIEW.png",
+      "bytes": 112707,
+      "sha256": "62DD308A32805EFDAD5F7D63B5F94707F8E08A56A67D2FACDEBE24831C6E83CE"
+    },
+    {
+      "path": "ASSEMBLY_AND_TEST_ACCESS_CHECKLIST.md",
+      "bytes": 3901,
+      "sha256": "F1A4065169B40201C7BDF7231792D74D52F1D4F29E2CD2E2508DFE6DD68698D2"
+    },
+    {
+      "path": "ASSEMBLY_GEOMETRY_SUMMARY.json",
+      "bytes": 19414,
+      "sha256": "072E3C7BC21636911C035930DB9A02CD3907606C53672AA36EA3FBA094E577F0"
+    },
+    {
+      "path": "check_pgood_document_contract.py",
+      "bytes": 719,
+      "sha256": "84ABBD9BFE95C37F973135B206404AEA4DEC13212C41CB5D3FCCB8B4CBB99CF0"
+    },
+    {
+      "path": "COMPLETE_MANUFACTURING_PREFLIGHT_RECEIPT.md",
+      "bytes": 5833,
+      "sha256": "D30A93DF4D3417E0B783837460E5EF5BD33CEDF5254A7DD20A666AE4359A12FB"
+    },
+    {
+      "path": "CORE_PACKAGE_GEOMETRY.json",
+      "bytes": 5262,
+      "sha256": "E7F97E0EBA33B78DE2EA2068C6A1CD65EB12E8A20BB7EE34E7DE9FC79A4A24BF"
+    },
+    {
+      "path": "DEFERRED_MINOR_LEDGER.md",
+      "bytes": 1121,
+      "sha256": "0C8F103F36C579C813840CB29A5E5283DE0132FF1F314B07F7AE7A5D792F7977"
+    },
+    {
+      "path": "DOCUMENT_CONTRACT_RED.json",
+      "bytes": 217,
+      "sha256": "F35F19C01F3FF79F8506EA770BC14FC0BFCCC4CFF020BB50EF94EFC2E5C1F98B"
+    },
+    {
+      "path": "EXECUTION_BUDGET.json",
+      "bytes": 2301,
+      "sha256": "B302DF846AE57BA846761D3B0457AA41D6CA8DCBD108D5109DFE08D7E14837C0"
+    },
+    {
+      "path": "EXISTING_TEST_ACCESS_CANDIDATES.csv",
+      "bytes": 2786,
+      "sha256": "98EA82644028B7B068340C5B33FA9870A4BC07FE40DB5090423D819CA4288AB9"
+    },
+    {
+      "path": "EXTERNAL_ARRAY_J2_WIRING.md",
+      "bytes": 1752,
+      "sha256": "262675E83A97E73BD990516029927905FC361F696C4FD91CBB6459CA1F215B6A"
+    },
+    {
+      "path": "extract_package_pages.py",
+      "bytes": 602,
+      "sha256": "AD408C784D66F0D9D083C18208E78D78AB532FFC0D47602C77D6C49D1F8992B9"
+    },
+    {
+      "path": "FABRICATION_INPUT_CONTRACT.md",
+      "bytes": 3368,
+      "sha256": "5251B1CAE9D7F6F56EEAEAFBB722851D306A691EBC93F2C1F8140D381F395FB6"
+    },
+    {
+      "path": "FINAL_DELIVERY_CHECKS.json",
+      "bytes": 905,
+      "sha256": "00C7A488850CD7723699091E8E1E08284D693AB1712E384C1444F73310134702"
+    },
+    {
+      "path": "FINAL_REVIEW.md",
+      "bytes": 6185,
+      "sha256": "C1CDCCE0555AE1C2E8AE22DFA0FB638A1D712D19175D77D6E9B3A54A83B13B39"
+    },
+    {
+      "path": "finish_preflight.py",
+      "bytes": 12593,
+      "sha256": "347F5B8C4F237CA70004081B7CEFFB873EDB7509E51F3245833A5DC888F21DFB"
+    },
+    {
+      "path": "FROZEN_176_MANUFACTURING_BOM.csv",
+      "bytes": 17722,
+      "sha256": "BE4D6699F536958DDE72740FB8BD67D6F2C581D057B17D2B4CAD8B33B7AC7231"
+    },
+    {
+      "path": "FROZEN_550_PAD_GEOMETRY.csv",
+      "bytes": 71240,
+      "sha256": "284474C0D01E1F38E2A25EF786D0FB7AEC66092442EC5C1766C837BD46D60BF7"
+    },
+    {
+      "path": "FROZEN_94_SOURCE_HASHES_AFTER.json",
+      "bytes": 13978,
+      "sha256": "1C9097DAB3F5ECB826CD0DE37B8B983C38E366801E2EBFCD4B4EFA3A75551BED"
+    },
+    {
+      "path": "FROZEN_94_SOURCE_HASHES_BEFORE.json",
+      "bytes": 13180,
+      "sha256": "ADADCAB3A24CD2722A2E55DE1369A98C1B2F43030D4352E0D74324B506962E5D"
+    },
+    {
+      "path": "FROZEN_FOOTPRINT_RECORDS.json",
+      "bytes": 849895,
+      "sha256": "3E83F90B38441A2C4590576F3759AE78F8BA78681AB1638BA27BFBF4F6134CCA"
+    },
+    {
+      "path": "FROZEN_RULES.json",
+      "bytes": 15804,
+      "sha256": "DAE3FB567D8CC021D9AF2F6D61E3688CB922C6784FA83005CDA022BB2B17A732"
+    },
+    {
+      "path": "GATES.json",
+      "bytes": 559,
+      "sha256": "2941229BCAE4D2E3F176F95E1B68A36D36EB7DEE2B77411FD89F02FBD58D6CEB"
+    },
+    {
+      "path": "GEOMETRY_SUMMARY.json",
+      "bytes": 3877,
+      "sha256": "7C48F427F9DDA24F68EF97B629340234674EB60A7E23F6FCE2A2313FA16CD7AF"
+    },
+    {
+      "path": "IMPLEMENTATION_PLAN.md",
+      "bytes": 2054,
+      "sha256": "88528B376B79CA566B66B5E31AAB2548ABDEB0EBE4FD7524498EFDC22EA936D6"
+    },
+    {
+      "path": "inspect_access_marking.py",
+      "bytes": 799,
+      "sha256": "B8EE81EFE253CCD8FE2A42AF507783AC881E038DDD821C680AB385FAE25FCB35"
+    },
+    {
+      "path": "inspect_body.py",
+      "bytes": 362,
+      "sha256": "33257A415292315F5FBE57C24D46357049673C9724EB3366DF250E7EA0CB9CEC"
+    },
+    {
+      "path": "inspect_existing.py",
+      "bytes": 895,
+      "sha256": "263049A4B335FA9D78D3138C7589ECD6C99618397AE98F098594DDFC83C05927"
+    },
+    {
+      "path": "inspect_native_footprints.py",
+      "bytes": 766,
+      "sha256": "5DBADA0C9548884FEE163DF9740E6BAF69AB5B943F937034CEBDFE3B7105765A"
+    },
+    {
+      "path": "inspect_orientation.py",
+      "bytes": 710,
+      "sha256": "2913B3CCAA3C7DE9DC51BBD89FF1C164EFA49D96DD2E66C1908C4ED8FB97D3DF"
+    },
+    {
+      "path": "inspect_outline.py",
+      "bytes": 322,
+      "sha256": "9F88DFA192BB9FA2963E6438390748170B7D3D4322CBA775E6CE02C38AAD8D95"
+    },
+    {
+      "path": "inspect_pads.py",
+      "bytes": 748,
+      "sha256": "89F6E6F69F7EEB580F56AF7DBEB725C937C145A502DF55287419495079B8E35B"
+    },
+    {
+      "path": "inspect_rules.py",
+      "bytes": 1136,
+      "sha256": "93D71D402012AEB9DE5BDC882193B517F46A67C90520B0D2DDCDEC4BA83667ED"
+    },
+    {
+      "path": "MANUFACTURING_OPEN_ITEMS.md",
+      "bytes": 2604,
+      "sha256": "9AD7358C9713C49B65C3ECDF5E289AE10383DBECDAEA84076F5B46C1B10267CB"
+    },
+    {
+      "path": "MANUFACTURING_PREFLIGHT_MATRIX.csv",
+      "bytes": 5022,
+      "sha256": "087267B6C8DC7AF3186CEFE532565A3D0FE55B634D01ED2B7E09FEF6341091B6"
+    },
+    {
+      "path": "NATIVE_550_PAD_GEOMETRY.csv",
+      "bytes": 34842,
+      "sha256": "A46B121634BEE4B01473EDF3F261D49F900A3B9B5547FF8CE63787B2B2C031B5"
+    },
+    {
+      "path": "NATIVE_SAME_PACKAGE_MASK_GAPS.csv",
+      "bytes": 305638,
+      "sha256": "FFA6A11AF04A9FD0E846CEA0F2C311CA38DED489CBC28E474545D209DC5F3FD7"
+    },
+    {
+      "path": "NOMINAL_BODY_NEAR_PAIRS.csv",
+      "bytes": 1244,
+      "sha256": "5E2ECE070190AF53401FF2E107D2A91379846E532577A3DC9CC55D5726E40D8C"
+    },
+    {
+      "path": "OFFICIAL_CAPABILITY_REFERENCE.md",
+      "bytes": 1264,
+      "sha256": "C81780ABB72A524C440E9AAA04A55F5F8CAD9AD615AA6B7857C2CA6DCBD40778"
+    },
+    {
+      "path": "PAD_NUMBER_COVERAGE.json",
+      "bytes": 56132,
+      "sha256": "C2FECF01B8AF4D030F01B91CB33FAC5BBFC70701E7839EC5DBAB677FFF1D9D9B"
+    },
+    {
+      "path": "PRO_MANUFACTURING_PREFLIGHT_RULING_FULL.md",
+      "bytes": 7621,
+      "sha256": "E0E9F29CD68A0C4E13A49794CE488A5916F38B15FDB28B8B3C11A21A65A419AF"
+    },
+    {
+      "path": "PUBLISH_POLICY.md",
+      "bytes": 728,
+      "sha256": "49E4AFD817565019E4F60085898F34BDAF2AA0095EE38843BCBFC7AA1075F204"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1800,
+      "sha256": "FBA03C64E13CBA4850C1A353739402F0F5084F37ADE3BCFD612738C631F70968"
+    },
+    {
+      "path": "READONLY_EXECUTION_NOTES.md",
+      "bytes": 1595,
+      "sha256": "4837C2AEE3B58FE4E756DB4F756700F66397E2C6CC6AC416C9B4D17E1242666E"
+    },
+    {
+      "path": "record_source_notes.py",
+      "bytes": 2523,
+      "sha256": "119148082383A3E8F82DAFBAAEEB1219E85058019630208C4D78EE850DCD763D"
+    },
+    {
+      "path": "render_source_pages.py",
+      "bytes": 322,
+      "sha256": "0D2F49847DE1BB2F7DDCEF2D763F5E0E45B2F657D9CDCE0ADF0A321531656A13"
+    },
+    {
+      "path": "SAME_PACKAGE_MASK_GAPS.csv",
+      "bytes": 360538,
+      "sha256": "01270BC69544AAEC724F943FE2B2CDC430FEFDF411B24A71760428F0A9062E4A"
+    },
+    {
+      "path": "setup_preflight.py",
+      "bytes": 1716,
+      "sha256": "A3E2A629C3BCA2B90BC0087A9863A3297FA94E6ED4DBC674EAEA6A583BC14726"
+    },
+    {
+      "path": "source_batch.py",
+      "bytes": 2188,
+      "sha256": "665A37C5A488EFF363897EF01FD01FC04CBE2AB6DAB1274829C4226948312F3A"
+    },
+    {
+      "path": "sources/ADS8684_PACKAGE_PAGE66.png",
+      "bytes": 104538,
+      "sha256": "F7AB6A9B4EDA3C5CF42987632E5A8953F7CA5B1F1C4013A205E77B7AD7BB1965"
+    },
+    {
+      "path": "sources/BAT54S_PACKAGE_PAGE5.png",
+      "bytes": 88272,
+      "sha256": "C908DBD14A14BECD2BD5774E804DADC5B47DBCCC625FFBDF895671804863006F"
+    },
+    {
+      "path": "sources/LM73100_PACKAGE_PAGE50.png",
+      "bytes": 124712,
+      "sha256": "DEDA74732AB463845AC932DCAEECE18CFB1B7DE0D1693A74FDC35293869C2FBA"
+    },
+    {
+      "path": "sources/STM32G031K8_WEB_PACKAGE_NOTE.json",
+      "bytes": 792,
+      "sha256": "0ADFF188CDF848724368720B94A96DD1021BB4233EB4566878FE4513F13CAB36"
+    },
+    {
+      "path": "sources/TPS3890_PACKAGE_PAGE25.png",
+      "bytes": 93611,
+      "sha256": "F1D8B638F1B6373CA59048FED85FE6624AF29C5959A6B0BDAD42952229582561"
+    },
+    {
+      "path": "SOURCES.json",
+      "bytes": 2363,
+      "sha256": "E2C5E05B2F53D2ABFF3F04D79A80DAFA527E078D8D52CFFF1F9C1D75C969E436"
+    },
+    {
+      "path": "USER_EXTERNAL_ARRAY_INTERFACE_REQUIREMENT.md",
+      "bytes": 1204,
+      "sha256": "2627CCA11B2D120415F80464995E6F0EB729FAEEFAED34895559D2FEC0EDDC40"
+    }
+  ],
+  "excludedThirdPartyBulk": [
+    {
+      "path": "sources/ADS8684.pdf",
+      "bytes": 2506949,
+      "sha256": "C776E2307A48D547C394E1B778DCEC2433B8C485A88CD6796DA963BD2514EB6A",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/ADS8684_PACKAGE_EXTRACT.json",
+      "bytes": 15548,
+      "sha256": "790CF3E982EEC901CFF2BC08E66A28AE2D0A22B96A7166D682820C5E807E3CD0",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/BAT54S.pdf",
+      "bytes": 212253,
+      "sha256": "0BAAAC4F52B05B5D41932C445EB8DDDC636E464B1F717D11EE41B27BA1202FE7",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/BAT54S_PACKAGE_EXTRACT.json",
+      "bytes": 2479,
+      "sha256": "270A3654EB33E6DF6BE457EC1EE72FE42DD5B701318A378EF67F3B098D882A7B",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/JLC_CAPABILITIES.html",
+      "bytes": 137368,
+      "sha256": "EFDBF6376F2561699A0CD0D4C67D21615FCCCCF97E35E9434A0CAB830DBABA67",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/LM73100.pdf",
+      "bytes": 4653268,
+      "sha256": "EBB2F673F8CF94C426618D00222B697FB7D2B1C1F2F1449AD4CA11388F10333D",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/LM73100_PACKAGE_EXTRACT.json",
+      "bytes": 7324,
+      "sha256": "B5DC770C5BC216459CF4FDD0E9F7AB8882CAB8811E1478C5FF3822BDFC05BBE0",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/TPS3890.pdf",
+      "bytes": 1203677,
+      "sha256": "EE79599730E7606BA9718D9820B411020E3DCD9FF7D44572F8EE63FEAD15B9D0",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    },
+    {
+      "path": "sources/TPS3890_PACKAGE_EXTRACT.json",
+      "bytes": 6152,
+      "sha256": "04F036D1BE07D5C467308D1418928775BF96C27A1F4B98F071082892A2FCFA42",
+      "reason": "Third-party full document/HTML/extract retained locally; official links, short attributed notes and selected package page PNGs provided"
+    }
+  ],
+  "excludedCaches": [
+    "__pycache__"
+  ],
+  "selfAndArchiveExcluded": true,
+  "postReviewUserInput": "Single-row eight-position pluggable interface confirmed; no CAD, no additional review"
+}

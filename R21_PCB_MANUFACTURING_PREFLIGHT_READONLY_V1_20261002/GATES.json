@@ -1,0 +1,13 @@
+{
+  "PCB_MANUFACTURING_PREFLIGHT_COMPLETE": true,
+  "PCB_REVIEW_READY": true,
+  "PCBGeometryScope": "existingnumericalgeometryandacceptednativeelectricalclosure;processpending",
+  "FootprintScope": "number/pitch/orientation no unconditional pad error found;factoryland/mask/stencil pending",
+  "ECO_REQUIRED": [],
+  "MANUFACTURING_RELEASE": false,
+  "BENCH_RELEASE": false,
+  "PROCUREMENT_RELEASE": false,
+  "GerberGenerated": false,
+  "all94BaselineSourcesUnchanged": true,
+  "status": "READONLY_PREFLIGHT_COMPLETE_PENDING_MANUFACTURING_INPUTS"
+}

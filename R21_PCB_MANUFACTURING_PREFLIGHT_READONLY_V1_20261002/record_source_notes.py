@@ -1,0 +1,12 @@
+import pathlib,json,datetime
+p=pathlib.Path(__file__).parent
+source={"name":"STM32G031K8 official web PDF","url":"https://www.st.com/resource/en/datasheet/stm32g031k8.pdf","document":"DS12992 Rev4 June2025","evidence":"web open+find+screenshots attempted; direct anonymous local HTTP567 retained in SOURCES.json. No local PDF bytes obtained, do not invent SHA.","facts":{"LQFP32_body_mm":[7,7],"pitch_mm":0.8,"noExposedCenterPad":True,"footprintExamplePage":109,"outlinePage":106},"webReadVerified":True,"fullLocalPDFDownloaded":False,"footprintAlternativeToManufacturerExample":"Actual pads approx0.447x1.684mm vs ST example0.45x1.2mm; actual pitch0.8001mm. Example is guidance, no proven wrong pin identity. Full assembler land/stencil approval PENDING."}
+(p/"sources"/"STM32G031K8_WEB_PACKAGE_NOTE.json").write_text(json.dumps(source,indent=2),encoding="utf8")
+(p/"READONLY_EXECUTION_NOTES.md").write_text("""# Read-only execution notes
+Native and all prior sources were not edited. Existing evidence/document batches each1; official sources6 including JLC/ST and4 frozen manufacturer PDFs. OPA4388/OPA2388/TMUX1134 rely on prior accepted pin-map authority plus current native number/pitch/orientation read; no additional datasheet access.
+Initial helper read defaultGBK failed onUTF8; later helper treated netlist JSON string asdict and failed. Ordinary report parsers corrected encoding/json-loading, not EDA/API/SDK repair; no CAD or scientific rerun. Output was truncated in tool display; final scripts write full files. These transient parsing failures did not change engineering evidence or increase CAD/analysis budgets.
+API header hole fields are one-tenth native widths; polygon-pad API hole values also not native drilled holes. Exact native FOOTPRINT/PAD.hole is used: J1/J4 1.1000232mm, J2 .999998mm, J3 1.1999976mm. No connector-ECO inferred from API summary. Raw field comparison retained. No internal explanation pursued.
+pypdf extraction and pypdfium2 rendering used bundled existing runtime. System Python lackedfitz, bundled lackedpymupdf; no install/repair attempted. ST direct fetchHTTP567; officialweb page/text supports package facts, downloadedPDF stillabsent. Other four official package pages rendered and actually viewed.
+Body outlines175/176 support only nominal 2D overlap check; U6 has no supported POLY48 body outline, not an all176 courtyard/3D certificate. Native marking red dots are component markings, not proven final silkscreen. Final Gerber/DFM not generated.
+""",encoding="utf8")
+

@@ -1,0 +1,31 @@
+{
+  "UTC": "2026-10-02T03:10:13.989836+00:00",
+  "requiredFiles": [
+    "COMPLETE_MANUFACTURING_PREFLIGHT_RECEIPT.md",
+    "FABRICATION_INPUT_CONTRACT.md",
+    "ASSEMBLY_AND_TEST_ACCESS_CHECKLIST.md",
+    "MANUFACTURING_PREFLIGHT_MATRIX.csv",
+    "MANUFACTURING_OPEN_ITEMS.md",
+    "EXTERNAL_ARRAY_J2_WIRING.md",
+    "FINAL_REVIEW.md",
+    "DEFERRED_MINOR_LEDGER.md",
+    "GATES.json"
+  ],
+  "matrixCount": 37,
+  "matrixStatusCounts": {
+    "PASS": 18,
+    "PENDING_INPUT": 16,
+    "ECO_REQUIRED": 0,
+    "NOT_APPLICABLE": 3
+  },
+  "forbiddenActualAllZero": true,
+  "prior94BeforeAfterExactlyEqual": true,
+  "review": {
+    "Critical": 0,
+    "Important": 0,
+    "Minor": 3,
+    "minorDisposition": "preserved and deferred, see ledger; no second review or scientific/CAD rerun"
+  },
+  "knownMinorContractRedPreserved": true,
+  "finalAssemblyPlotNotManufacturingCAM": true
+}

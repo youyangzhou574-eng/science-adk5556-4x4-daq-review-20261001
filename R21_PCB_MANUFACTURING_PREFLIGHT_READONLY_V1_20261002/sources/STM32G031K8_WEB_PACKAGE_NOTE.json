@@ -1,0 +1,19 @@
+{
+  "name": "STM32G031K8 official web PDF",
+  "url": "https://www.st.com/resource/en/datasheet/stm32g031k8.pdf",
+  "document": "DS12992 Rev4 June2025",
+  "evidence": "web open+find+screenshots attempted; direct anonymous local HTTP567 retained in SOURCES.json. No local PDF bytes obtained, do not invent SHA.",
+  "facts": {
+    "LQFP32_body_mm": [
+      7,
+      7
+    ],
+    "pitch_mm": 0.8,
+    "noExposedCenterPad": true,
+    "footprintExamplePage": 109,
+    "outlinePage": 106
+  },
+  "webReadVerified": true,
+  "fullLocalPDFDownloaded": false,
+  "footprintAlternativeToManufacturerExample": "Actual pads approx0.447x1.684mm vs ST example0.45x1.2mm; actual pitch0.8001mm. Example is guidance, no proven wrong pin identity. Full assembler land/stencil approval PENDING."
+}

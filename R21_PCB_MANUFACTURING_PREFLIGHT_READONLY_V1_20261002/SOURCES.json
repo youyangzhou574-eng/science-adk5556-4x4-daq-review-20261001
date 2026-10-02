@@ -1,0 +1,58 @@
+[
+  {
+    "name": "JLC_CAPABILITIES.html",
+    "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "method": "official anonymous download",
+    "bytes": 137368,
+    "SHA256": "EFDBF6376F2561699A0CD0D4C67D21615FCCCCF97E35E9434A0CAB830DBABA67",
+    "UTC": "2026-10-02T02:43:46.907054+00:00",
+    "sourceLocal": null,
+    "ok": true
+  },
+  {
+    "name": "STM32G031K8.pdf",
+    "url": "https://www.st.com/resource/en/datasheet/stm32g031k8.pdf",
+    "ok": false,
+    "error": "HTTP Error 567: Unknown Status"
+  },
+  {
+    "name": "ADS8684.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/ads8684.pdf",
+    "method": "reuse frozen manufacturer PDF",
+    "bytes": 2506949,
+    "SHA256": "C776E2307A48D547C394E1B778DCEC2433B8C485A88CD6796DA963BD2514EB6A",
+    "UTC": "2026-10-02T02:43:47.085835+00:00",
+    "sourceLocal": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_DETAILED_DESIGN_AND_NATIVE_SCHEMATIC_V1\\sources\\ADS8684.pdf",
+    "ok": true
+  },
+  {
+    "name": "LM73100.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/lm73100.pdf",
+    "method": "reuse frozen manufacturer PDF",
+    "bytes": 4653268,
+    "SHA256": "EBB2F673F8CF94C426618D00222B697FB7D2B1C1F2F1449AD4CA11388F10333D",
+    "UTC": "2026-10-02T02:43:47.104335+00:00",
+    "sourceLocal": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\FIRST_BUILD_ELECTRICAL_CLOSURE_AND_SCHEMATIC_R2_V1\\sources\\LM73100.pdf",
+    "ok": true
+  },
+  {
+    "name": "TPS3890.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps3890.pdf",
+    "method": "reuse frozen manufacturer PDF",
+    "bytes": 1203677,
+    "SHA256": "EE79599730E7606BA9718D9820B411020E3DCD9FF7D44572F8EE63FEAD15B9D0",
+    "UTC": "2026-10-02T02:43:47.118335+00:00",
+    "sourceLocal": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\sources\\TPS3890.pdf",
+    "ok": true
+  },
+  {
+    "name": "BAT54S.pdf",
+    "url": "https://assets.nexperia.com/documents/data-sheet/BAT54S.pdf",
+    "method": "reuse frozen manufacturer PDF",
+    "bytes": 212253,
+    "SHA256": "0BAAAC4F52B05B5D41932C445EB8DDDC636E464B1F717D11EE41B27BA1202FE7",
+    "UTC": "2026-10-02T02:43:47.131087+00:00",
+    "sourceLocal": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_COUPLED_ROOTCAUSE_AND_R21_NATIVE_ECO_V1\\sources\\BAT54S.pdf",
+    "ok": true
+  }
+]

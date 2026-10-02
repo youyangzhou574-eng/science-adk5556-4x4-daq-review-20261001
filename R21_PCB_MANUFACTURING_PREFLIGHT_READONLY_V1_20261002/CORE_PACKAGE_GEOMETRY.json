@@ -1,0 +1,190 @@
+[
+  {
+    "ref": "U1",
+    "MPN": "OPA4388IDR",
+    "footprint": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+    "padCount": 14,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 1.27,
+    "pin1_x_mm": 23.1902,
+    "pin1_y_mm": 18.38198,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.5943600000000031
+  },
+  {
+    "ref": "U2",
+    "MPN": "OPA4388IDR",
+    "footprint": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+    "padCount": 14,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 1.27,
+    "pin1_x_mm": 24.190959999999997,
+    "pin1_y_mm": 50.3809,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.5943600000000031
+  },
+  {
+    "ref": "U3",
+    "MPN": "OPA2388IDR",
+    "footprint": "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+    "padCount": 8,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 1.27,
+    "pin1_x_mm": 50.09388,
+    "pin1_y_mm": 17.29486,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.5994399999999849
+  },
+  {
+    "ref": "U4",
+    "MPN": "TMUX1134PWR",
+    "footprint": "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+    "padCount": 20,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 0.6477,
+    "pin1_x_mm": 41.07434,
+    "pin1_y_mm": 32.128460000000004,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.18288000000000204
+  },
+  {
+    "ref": "U5",
+    "MPN": "ADS8684IDBTR",
+    "footprint": "TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL",
+    "padCount": 38,
+    "rotation_deg": 180,
+    "minimumCenterDistance_mm": 0.49784,
+    "pin1_x_mm": 56.5023,
+    "pin1_y_mm": 55.89777999999999,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.09652000000000295
+  },
+  {
+    "ref": "U7",
+    "MPN": "STM32G031K8T6",
+    "footprint": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+    "padCount": 32,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 0.8001,
+    "pin1_x_mm": 79.19973999999999,
+    "pin1_y_mm": 48.757839999999995,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.25145999999999213
+  },
+  {
+    "ref": "U9",
+    "MPN": "LM73100RPWR",
+    "footprint": "VQFN-10_L2.0-W2.0-P0.45-TL",
+    "padCount": 10,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 0.44958,
+    "pin1_x_mm": 20.086319999999997,
+    "pin1_y_mm": 81.89976,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.09050019999999656
+  },
+  {
+    "ref": "U10",
+    "MPN": "LM73100RPWR",
+    "footprint": "VQFN-10_L2.0-W2.0-P0.45-TL",
+    "padCount": 10,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 0.44958,
+    "pin1_x_mm": 57.08396,
+    "pin1_y_mm": 81.89976,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.09050020000000014
+  },
+  {
+    "ref": "U11",
+    "MPN": "TPS389001DSET",
+    "footprint": "WSON-6_L1.5-W1.5-P0.50-TL",
+    "padCount": 6,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 0.50038,
+    "pin1_x_mm": 73.4187,
+    "pin1_y_mm": 78.50124,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.11937999999998307
+  },
+  {
+    "ref": "U12",
+    "MPN": "TPS389001DSET",
+    "footprint": "WSON-6_L1.5-W1.5-P0.50-TL",
+    "padCount": 6,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 0.50038,
+    "pin1_x_mm": 83.41868,
+    "pin1_y_mm": 78.50124,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 0.11937999999998307
+  },
+  {
+    "ref": "D_TIA0",
+    "MPN": "BAT54S,215",
+    "footprint": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+    "padCount": 3,
+    "rotation_deg": 0,
+    "minimumCenterDistance_mm": 1.89992,
+    "pin1_x_mm": 21.70176,
+    "pin1_y_mm": 47.05096,
+    "nativeHoleWidths_mm": [],
+    "smallestSamePackageMaskBridge_mm": 1.1373004599240315
+  },
+  {
+    "ref": "J1",
+    "MPN": "",
+    "footprint": "HDR-TH_2P-P2.54-V-M-1",
+    "padCount": 2,
+    "rotation_deg": 90,
+    "minimumCenterDistance_mm": 2.54,
+    "pin1_x_mm": 7.000240000000001,
+    "pin1_y_mm": 79.7306,
+    "nativeHoleWidths_mm": [
+      1.1000231999999999
+    ],
+    "smallestSamePackageMaskBridge_mm": 0.6375400000000062
+  },
+  {
+    "ref": "J2",
+    "MPN": "",
+    "footprint": "HDR-TH_8P-P2.54-V-M",
+    "padCount": 8,
+    "rotation_deg": 90,
+    "minimumCenterDistance_mm": 2.54,
+    "pin1_x_mm": 5.00126,
+    "pin1_y_mm": 30.109160000000003,
+    "nativeHoleWidths_mm": [
+      0.9999979999999999
+    ],
+    "smallestSamePackageMaskBridge_mm": 0.9372599999999927
+  },
+  {
+    "ref": "J3",
+    "MPN": "",
+    "footprint": "HDR-TH_6P-P2.54-V-M-1",
+    "padCount": 6,
+    "rotation_deg": 90,
+    "minimumCenterDistance_mm": 2.54,
+    "pin1_x_mm": 94.00032,
+    "pin1_y_mm": 11.650979999999999,
+    "nativeHoleWidths_mm": [
+      1.1999975999999999
+    ],
+    "smallestSamePackageMaskBridge_mm": 0.6375399999999991
+  },
+  {
+    "ref": "J4",
+    "MPN": "",
+    "footprint": "HDR-TH_4P-P2.54-V-M",
+    "padCount": 4,
+    "rotation_deg": 90,
+    "minimumCenterDistance_mm": 2.54,
+    "pin1_x_mm": 94.00032,
+    "pin1_y_mm": 69.1896,
+    "nativeHoleWidths_mm": [
+      1.1000231999999999
+    ],
+    "smallestSamePackageMaskBridge_mm": 0.7391399999999826
+  }
+]

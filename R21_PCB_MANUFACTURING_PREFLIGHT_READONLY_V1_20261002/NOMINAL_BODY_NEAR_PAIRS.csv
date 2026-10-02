@@ -1,0 +1,11 @@
+refA,refB,nominalBodyGap_mm,overlapArea_mm2,scope
+U9_IN_CAP,U9_OV_B2,0.30000194000000135,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+D_J4_1,D_J4_3,0.5000040799999965,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+D_J3_1,D_J3_4,0.5000066200000006,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+D_J3_1,D_J3_3,0.5000066200000042,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+D_J4_1,D_J4_4,0.5000066200000077,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+D_J3_5,R_J3_4,0.5999784800000009,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+RD_B8,U3,0.6000064199999997,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+C_BUF,D_VEX,0.600029279999994,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+D_J3_5,R_J3_3,0.6000292799999993,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout
+RD_B4,U3,0.6324631025309841,0.0,native component-body outline layer48; not courtyard/full3D/assembly tool keepout

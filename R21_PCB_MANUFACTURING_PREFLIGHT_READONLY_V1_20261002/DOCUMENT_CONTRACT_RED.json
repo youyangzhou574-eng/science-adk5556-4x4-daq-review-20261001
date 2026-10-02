@@ -1,0 +1,7 @@
+{
+  "PGOODActual": "R_J3_5.2",
+  "documentationExpected": "R_RST.2",
+  "consistent": false,
+  "phase": "before final-review documentation fix",
+  "scope": "read-only document contract; no CAD/scientific rerun"
+}

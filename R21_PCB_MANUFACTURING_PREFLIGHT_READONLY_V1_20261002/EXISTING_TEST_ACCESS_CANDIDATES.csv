@@ -1,0 +1,14 @@
+target,ref,pad,net,x_mm,y_mm,padWidthX_mm,padWidthY_mm,nativeDrill_mm,assessment
+V5_IN,J1,1,V5_IN,7.00000124,79.73000056000001,1.7999963999999995,1.7999963999999977,1.1000231999999999,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+V5,C_ADCA1,1,V5,60.29997591999999,41.99999982,0.7999983999999998,0.8999981999999989,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+V3V3,U10_OUT_CAP,1,V3V3,60.407420460000004,83.99999964,1.485011,1.7279873999999893,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+REF_2V5,U6,2,REF_2V5,60.23507384000001,13.949959400000001,1.0700003999999979,0.5999987999999998,0.0,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+VCM,R_VCM_ISO,2,VCM,48.25336298000001,12.9999994,0.8064754000000036,0.864006400000001,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+VEXC,R_VEX_FB,1,VEXC,51.24663613999999,29.000000419999996,0.8064754000000036,0.864006400000001,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+PGOOD,R_J3_5,2,PGOOD,91.25336333999998,15.499999480000001,0.8064753999999965,0.864006400000001,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+ROW0,J2,1,ROW0,5.00000016,30.110000740000004,1.4999970000000005,1.4999970000000005,0.9999979999999999,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+TIA_DRV0,R_TIA_ISO0,1,TIA_DRV0,22.446635320000002,45.20000104,0.8064754000000001,0.8640063999999938,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+TIA0,R_ADC0,1,TIA0,44.74663644,63.999998999999995,0.8064754000000036,0.864006400000001,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+ADC_IN0,R_ADC0,2,ADC_IN0,46.253364440000006,63.999998999999995,0.8064754000000036,0.864006400000001,,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+MCU_NRST_EXT,J3,5,MCU_NRST_EXT,93.99999995999998,21.809999559999984,1.7999963999999977,1.7999964000000013,1.1999975999999999,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT
+GND,J1,2,GND,7.000001240000004,82.27000056000003,1.7999963999999995,1.7999963999999977,1.1000231999999999,PASS existing accessible surface pad candidate; actual probe/clips/operator and powered safety PENDING_INPUT

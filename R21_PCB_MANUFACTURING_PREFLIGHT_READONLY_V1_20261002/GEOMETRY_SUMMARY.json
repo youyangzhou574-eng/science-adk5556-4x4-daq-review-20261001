@@ -1,0 +1,183 @@
+{
+  "parts": 176,
+  "pads": 550,
+  "padNumberCoveragePASS": true,
+  "allTop": true,
+  "board_mm": [
+    100.00000066,
+    90.00000034
+  ],
+  "lineWidthsMil": {
+    "6": 756,
+    "12": 100,
+    "20": 46,
+    "16": 7
+  },
+  "viaDimensionsMil": {
+    "[12, 24]": 297
+  },
+  "viaRing_mm": 0.15239999999999998,
+  "minViaCopperToBoard_mm": 2.394130340000004,
+  "minTrackCopperToBoard_mm": 2.444930339999995,
+  "minPadCopperToBoard_mm": 4.069260340000014,
+  "minimumHolePair": {
+    "a": "4af6ca3138ae87d1",
+    "b": "5318b50a2f723d6b",
+    "clearance_mm": 0.31114999999999804
+  },
+  "POUR": [
+    {
+      "id": "e31a6f9d3301cbfc",
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND",
+      "layerId": 15,
+      "width": 0.2,
+      "name": "L2_CONTINUOUS_GND_REVIEW",
+      "order": 0,
+      "path": [
+        [
+          20,
+          20,
+          "L",
+          20,
+          3523.3071,
+          3917.0079,
+          3523.3071,
+          3917.0079,
+          20,
+          20,
+          20
+        ]
+      ],
+      "pourType": {
+        "pourType": "SOLID",
+        "fineness": 8
+      },
+      "keepIsland": false,
+      "locked": true,
+      "zIndex": -1
+    },
+    {
+      "id": "1cb5c888d82604f0",
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "GND",
+      "layerId": 1,
+      "width": 0.2,
+      "name": "L1_GND_GUARD_RETURN_REVIEW",
+      "order": 0,
+      "path": [
+        [
+          20,
+          20,
+          "L",
+          20,
+          3523.3071,
+          3917.0079,
+          3523.3071,
+          3917.0079,
+          20,
+          20,
+          20
+        ]
+      ],
+      "pourType": {
+        "pourType": "SOLID",
+        "fineness": 8
+      },
+      "keepIsland": false,
+      "locked": true,
+      "zIndex": -1
+    },
+    {
+      "id": "5ec0f147a74d7106",
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "V3V3",
+      "layerId": 16,
+      "width": 0.2,
+      "name": "L3_V3V3_SUPPLY_REVIEW",
+      "order": 0,
+      "path": [
+        [
+          2637.7953,
+          39.3701,
+          "L",
+          2637.7953,
+          1181.1024,
+          2283.4646,
+          1181.1024,
+          2283.4646,
+          1692.9134,
+          2125.9843,
+          1692.9134,
+          2125.9843,
+          2125.9843,
+          2637.7953,
+          2125.9843,
+          2637.7953,
+          2913.3858,
+          2204.7244,
+          2913.3858,
+          2204.7244,
+          3503.937,
+          3897.6378,
+          3503.937,
+          3897.6378,
+          39.3701,
+          2637.7953,
+          39.3701
+        ]
+      ],
+      "pourType": {
+        "pourType": "SOLID",
+        "fineness": 8
+      },
+      "keepIsland": false,
+      "locked": true,
+      "zIndex": -1
+    },
+    {
+      "id": "63f24421d5efdd71",
+      "partitionId": "",
+      "groupId": 0,
+      "netName": "V5",
+      "layerId": 16,
+      "width": 0.2,
+      "name": "L3_V5_SUPPLY_REVIEW",
+      "order": 1,
+      "path": [
+        [
+          20,
+          20,
+          "L",
+          20,
+          3523.3071,
+          3917.0079,
+          3523.3071,
+          3917.0079,
+          20,
+          20,
+          20
+        ]
+      ],
+      "pourType": {
+        "pourType": "SOLID",
+        "fineness": 8
+      },
+      "keepIsland": false,
+      "locked": true,
+      "zIndex": -1
+    }
+  ],
+  "globalMaskExpansion_mm": 0.0508,
+  "API_hole_discrepancy": "Header native hole widths43.308/39.37/47.244 mil vs API4.3308/3.937/4.7244; LM polygon nativeholeNone vs APIderivedhole nonzero. Native hole object is authority; no manufacturing defect concluded from API hole field.",
+  "missingMPNRefs": [
+    "J1",
+    "J2",
+    "J3",
+    "J4"
+  ],
+  "manufacturingRelease": false
+}
