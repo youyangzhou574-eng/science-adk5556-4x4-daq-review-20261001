@@ -1,0 +1,62 @@
+[
+  {
+    "id": "S1",
+    "name": "ADS8684",
+    "URL": "https://www.ti.com/lit/ds/symlink/ads8684.pdf",
+    "bytes": 2506949,
+    "SHA256": "c776e2307a48d547c394e1b778dcec2433b8c485a88cd6796da963bd2514eb6a",
+    "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\\sources_local_only\\S1_ADS8684.pdf",
+    "publicBulk": false,
+    "status": "DOWNLOADED"
+  },
+  {
+    "id": "S2",
+    "name": "TIPD167",
+    "URL": "https://www.ti.com/lit/pdf/tidu427",
+    "bytes": 2431227,
+    "SHA256": "ebec7f789f1a8f9b20694c3d6d2bcbf92c2f7598e4a4eb84e83443e61d354a50",
+    "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\\sources_local_only\\S2_TIPD167.pdf",
+    "publicBulk": false,
+    "status": "DOWNLOADED"
+  },
+  {
+    "id": "S3",
+    "name": "TIDA-01214",
+    "URL": "https://www.ti.com/lit/pdf/tidud64",
+    "bytes": 951355,
+    "SHA256": "798df174c53cb0892de8ce7c0cd3de5282c8401a91b5b36588b3e78865f5ab3d",
+    "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\\sources_local_only\\S3_TIDA-01214.pdf",
+    "publicBulk": false,
+    "status": "DOWNLOADED"
+  },
+  {
+    "id": "S4",
+    "name": "OPAx388",
+    "URL": "https://www.ti.com/lit/ds/symlink/opa4388.pdf",
+    "bytes": 3340219,
+    "SHA256": "bfaa584834295abba9cab4c66cda702ada12def5d50e49b1beb0d7444f0775e7",
+    "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\\sources_local_only\\S4_OPAx388.pdf",
+    "publicBulk": false,
+    "status": "DOWNLOADED"
+  },
+  {
+    "id": "S5",
+    "name": "TMUX1134",
+    "URL": "https://www.ti.com/lit/ds/symlink/tmux1134.pdf",
+    "bytes": 1496626,
+    "SHA256": "08082d5484460c9279b3778018f981c369cecf14031adb5fc2649b77e221a966",
+    "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\\sources_local_only\\S5_TMUX1134.pdf",
+    "publicBulk": false,
+    "status": "DOWNLOADED"
+  },
+  {
+    "id": "S6",
+    "name": "ADI_CN0175",
+    "URL": "https://www.analog.com/en/resources/reference-designs/circuits-from-the-lab/cn0175.html",
+    "bytes": 107479,
+    "SHA256": "44b14c0edd61a0868b8d3fde68d3e6129dc7e2ade99739500776bb4de70c789d",
+    "file": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\\sources_local_only\\S6_ADI_CN0175.html",
+    "publicBulk": false,
+    "status": "DOWNLOADED"
+  }
+]

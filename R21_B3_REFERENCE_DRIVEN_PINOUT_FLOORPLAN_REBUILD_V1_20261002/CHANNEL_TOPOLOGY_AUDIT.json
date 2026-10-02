@@ -1,0 +1,82 @@
+[
+  {
+    "channel": 0,
+    "ref": "RF0",
+    "padNets": [
+      "COL0",
+      "TIA0"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  },
+  {
+    "channel": 0,
+    "ref": "CF0",
+    "padNets": [
+      "COL0",
+      "TIA0"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  },
+  {
+    "channel": 1,
+    "ref": "RF1",
+    "padNets": [
+      "COL1",
+      "TIA1"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  },
+  {
+    "channel": 1,
+    "ref": "CF1",
+    "padNets": [
+      "COL1",
+      "TIA1"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  },
+  {
+    "channel": 2,
+    "ref": "RF2",
+    "padNets": [
+      "COL2",
+      "TIA2"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  },
+  {
+    "channel": 2,
+    "ref": "CF2",
+    "padNets": [
+      "COL2",
+      "TIA2"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  },
+  {
+    "channel": 3,
+    "ref": "RF3",
+    "padNets": [
+      "COL3",
+      "TIA3"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  },
+  {
+    "channel": 3,
+    "ref": "CF3",
+    "padNets": [
+      "COL3",
+      "TIA3"
+    ],
+    "passActualParallelTapCOL": true,
+    "note": "functional loop via ISO/SENSE, not direct opamp pin same-net"
+  }
+]

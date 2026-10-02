@@ -1,0 +1,370 @@
+{
+  "package": "R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1",
+  "publicOwnFiles": [
+    {
+      "name": "acquire_references.py",
+      "bytes": 1187,
+      "SHA256": "C4062D0E84B3BEB32ED3AE076DF0768FB656D48F392740888D7DC5BDF56D1FE1"
+    },
+    {
+      "name": "ACTUAL_GEOMETRY.json",
+      "bytes": 318346,
+      "SHA256": "1B49463129E6B39E441C51AA74DD781FDF1CEFBF53D19D273F9A7C2BA2503C18"
+    },
+    {
+      "name": "ALL_552_PIN_MAP_B3.csv",
+      "bytes": 26841,
+      "SHA256": "9B08DB84F20790184E013DA8CA751EDFBB2D66A482611A78F6987832D047D65A"
+    },
+    {
+      "name": "ANCHOR_19_BEFORE_AFTER.csv",
+      "bytes": 902,
+      "SHA256": "99EF5F22F64DC270FEF4E1CBAB2EBC982B57F9A7EB50DA70ED78AAE05D2E81F4"
+    },
+    {
+      "name": "audit_b3.py",
+      "bytes": 6125,
+      "SHA256": "0D034B4A9FB64313AB0450CDF77CA0906DE47E0AA0657AFE7ED7D882DC1D493F"
+    },
+    {
+      "name": "audit_core.py",
+      "bytes": 1340,
+      "SHA256": "63640BD421506CCE38138861CEB30AEEB55A138AA1419B6273DE256828363DE0"
+    },
+    {
+      "name": "AUDIT_CORE_GREEN.log",
+      "bytes": 106,
+      "SHA256": "45F9EFF500276D5F54B97829BDFC267CE1D5C61DDC5C3C8B1B3B7817BE27C615"
+    },
+    {
+      "name": "AUDIT_CORE_RED.log",
+      "bytes": 286,
+      "SHA256": "4A57D7C44D5E244471F05D4A3BAE8D2141C856A45DECA431668F4D9550064DC8"
+    },
+    {
+      "name": "B22_vs_B3.png",
+      "bytes": 410478,
+      "SHA256": "EEBA69D0A8F5F73F8BE27947D2A60FC0904DF7D10893322BAEB6588693363EB9"
+    },
+    {
+      "name": "B3_NO_COPPER.png",
+      "bytes": 299644,
+      "SHA256": "7EE6AA6C59DCD1A02659E4504C8EC2DAF02165A4AF62A3BC5109C7B043AED079"
+    },
+    {
+      "name": "B3_PINOUT_AND_SIGNAL_FLOW.png",
+      "bytes": 366965,
+      "SHA256": "AC7B2AA20AFC6BCDB27E57A780C8507B91D4C017B6A2155ADB643587AB4D37E5"
+    },
+    {
+      "name": "BODY_SOURCE_REGISTER.csv",
+      "bytes": 35653,
+      "SHA256": "1866B403BD1B246151EC31ACDA4C5C80D55953FD338398EF765BB961C480FBCA"
+    },
+    {
+      "name": "build_b3.py",
+      "bytes": 9146,
+      "SHA256": "3A8F333FC00CBBC1B12E44F4D27B5D55D6C42CB4719067AC14FF04C65FAE9286"
+    },
+    {
+      "name": "build_b3_PASS1_FAILED.py",
+      "bytes": 8679,
+      "SHA256": "6405204F5A4100B442B0A2C47D45B0B4A5427848A64449777EAF4410B360B185"
+    },
+    {
+      "name": "build_b3_PASS2_FAILED.py",
+      "bytes": 8698,
+      "SHA256": "A844E6631A032F96F4E4640AB5FFEA3788D5F1A1EB66B6FFE414BE47463A720A"
+    },
+    {
+      "name": "CHANNEL_TOPOLOGY_AUDIT.json",
+      "bytes": 1755,
+      "SHA256": "8A8A615953F0F90F0FD66AF114F882497240C8940F8046BC1512A961C071AE4C"
+    },
+    {
+      "name": "COMPLETE_B3_RECEIPT.md",
+      "bytes": 11396,
+      "SHA256": "3A84EAAD24316CD404AFA228F04024412C6FE958B8CA32D4702ED7D3ECC9CD21"
+    },
+    {
+      "name": "COMPLETE_B3_RECEIPT_BEFORE_REVIEW.md",
+      "bytes": 10519,
+      "SHA256": "E4A468BB28385CC171994CD906F0C2FC63E112F3978188B16A26BFC5C6B39922"
+    },
+    {
+      "name": "CONSTRAINT_BLOCKS.json",
+      "bytes": 18383,
+      "SHA256": "03574553512AFD2011C1B8406BC32E586503D936C3575B3EB5158D91683ECA2D"
+    },
+    {
+      "name": "EXECUTION_BUDGET.json",
+      "bytes": 1863,
+      "SHA256": "752FA639BFF6817D966F7F88AC5F400099A888747949253AD38DB2511ED3DC2D"
+    },
+    {
+      "name": "EXTRA_LOCAL_PIN_DISTANCES.csv",
+      "bytes": 1009,
+      "SHA256": "3D185674E5CC79D1A1FED092D5AC189D7492E053EDC4C828BD4D79E1C3EF75E5"
+    },
+    {
+      "name": "FINAL_ARTIFACT_VERIFICATION.json",
+      "bytes": 1831,
+      "SHA256": "D0E6DEC8F9844A5C1316073C98130DFF7F72F1FBE07244F97B6EA35E3A6F8256"
+    },
+    {
+      "name": "FINAL_CHECK.log",
+      "bytes": 1346,
+      "SHA256": "DDBDDA1F53B1886ED982785CA1611B27DE96F9F248C3736E48EECD243D3834AD"
+    },
+    {
+      "name": "final_checks.py",
+      "bytes": 1837,
+      "SHA256": "1E7B8C6D8AF63B87CFE1AE95BF927F3819BB9836BB93FA36953C2BC0FA3E18CB"
+    },
+    {
+      "name": "FINAL_REVIEW.md",
+      "bytes": 12484,
+      "SHA256": "5ABF4D29070D36A19FC0AECEBB673657862AC91A8DB89C0DA3C233F4DD45DE19"
+    },
+    {
+      "name": "FULL_AUDIT.log",
+      "bytes": 915,
+      "SHA256": "9412F44E6621F6568F4683A84348AF1F56278ECE0559BB1C3DC8C85B151C5805"
+    },
+    {
+      "name": "FULL_GEOMETRY_AND_IDENTITY_AUDIT.json",
+      "bytes": 1093,
+      "SHA256": "F2D8DD557003C3691F2AB1C5F3941D6C9410DBD0F0BFDAFE5E1BC88B1A0D11AC"
+    },
+    {
+      "name": "GATES.json",
+      "bytes": 537,
+      "SHA256": "89EE40CE67D598A2FE1928070151699FF4C8FB072826EB25C18574A0F066781D"
+    },
+    {
+      "name": "INPUT_MANIFEST.json",
+      "bytes": 2105,
+      "SHA256": "16EBD6A54D6A4663201E819D88FBC0FAABCD5AFA6EA0A7BBF48943713ABDB288"
+    },
+    {
+      "name": "inspect_inputs.py",
+      "bytes": 580,
+      "SHA256": "056CAFF2965ABDE59CAC31FDA2EFD2195AB43BD135E2C70CCC1AFA67E53461C2"
+    },
+    {
+      "name": "KEY_PIN_DISTANCE_B21.csv",
+      "bytes": 11276,
+      "SHA256": "9F47DCAF378886974525C50A2D6C4EBA668787A154A6A13E8330922856221631"
+    },
+    {
+      "name": "KEY_PIN_DISTANCE_B3.csv",
+      "bytes": 12121,
+      "SHA256": "AA6FF41B5FA97FF53EF7DD8AF8949B07E5873BF5457185904F11D7ED924708F9"
+    },
+    {
+      "name": "MACRO_A.json",
+      "bytes": 2421,
+      "SHA256": "FE10C47B6983C8C4AD9243ED6AFB7F7711B1C8188CB5251BD1C68F294672A32E"
+    },
+    {
+      "name": "MACRO_B.json",
+      "bytes": 2375,
+      "SHA256": "4D113D88004634F6C1949900BE043111DFA1267DDC7BFBB15A11EC387AF7FEBC"
+    },
+    {
+      "name": "MACRO_SELECTION.json",
+      "bytes": 274,
+      "SHA256": "211727E38820FE48426B7421655BE5ECD0B13213BFA551A89CA5EEB98881E448"
+    },
+    {
+      "name": "OFFICIAL_SOURCE_REGISTER.json",
+      "bytes": 2557,
+      "SHA256": "5147A0D2ED049C33C9D8FE6534BD7ACFD1C3EC79EDA48D6A78953D2B234A399C"
+    },
+    {
+      "name": "OLD_BLOCK_RIGID_REUSE_AUDIT.json",
+      "bytes": 6830,
+      "SHA256": "2BDF10789E47B9EBDF8F85493366CABFF1230E5F30965B6B905DEB6BD4842C22"
+    },
+    {
+      "name": "PIN_FUNCTION_GRAPH.csv",
+      "bytes": 34256,
+      "SHA256": "13CF707D8FE8FA9BD5788325352FFB6B49B5E0ECEDB26DAF2449E5F9BCF9134E"
+    },
+    {
+      "name": "PLACEMENT_B22.csv",
+      "bytes": 9163,
+      "SHA256": "3898BC3A042F645670300F5D702C660BE825E36230C3C5968A6FDF223AED4B50"
+    },
+    {
+      "name": "PLACEMENT_B22.json",
+      "bytes": 31573,
+      "SHA256": "E134BE7FF43492021E3BBB94BB66062B35E49D4776CBF89A0F383BCBDEC12193"
+    },
+    {
+      "name": "PLACEMENT_B3.csv",
+      "bytes": 7175,
+      "SHA256": "70C2E208997C3C2616D3E23F8A55973A9369B2B7846ECEFA47963BA845050279"
+    },
+    {
+      "name": "PLACEMENT_B3.json",
+      "bytes": 11888,
+      "SHA256": "7769AE493FBE02C28843BA2AB5B15878FCDBB6517735B10FC7626F087DD945E4"
+    },
+    {
+      "name": "placement_geometry.py",
+      "bytes": 2045,
+      "SHA256": "8FB7DF056F5F9F3DBA947246A42440CC0430D9D5459DBD58ACECB6E4F49BAFD8"
+    },
+    {
+      "name": "PLACEMENT_PASS_1.log",
+      "bytes": 1397,
+      "SHA256": "D712AA81D17CCD12617B0F70BA7241A5A4FC84E759A8C6EEA17FCE5E8BD53A9A"
+    },
+    {
+      "name": "PLACEMENT_PASS_2.log",
+      "bytes": 1261,
+      "SHA256": "2ED674A5C0968EC6E67AB7051A7451A8C30E3301C8DEFE48C29E4D3F2C19ACEB"
+    },
+    {
+      "name": "PLACEMENT_PASS_2_PARTIAL.json",
+      "bytes": 12233,
+      "SHA256": "A9EEC085B92F0725AB90A1CB771F0271C7CEEE80B36CA4D0C311F499CEBAF509"
+    },
+    {
+      "name": "PLACEMENT_PASS_3.json",
+      "bytes": 78910,
+      "SHA256": "6EB463BD0DF160D57251587F023588DC4C081B3766D3D6DAB091B556A4F659E9"
+    },
+    {
+      "name": "PLACEMENT_PASS_3.log",
+      "bytes": 16,
+      "SHA256": "D45891DAE2A5DFDC34AFE605D426425A756E32C87C160E88E744954143E1BC38"
+    },
+    {
+      "name": "PLAN_AND_LEDGER.md",
+      "bytes": 4301,
+      "SHA256": "A480FF32CBC408A7D2C1100959B95893BB9A1CBA02B34B3932EF76E3BD40308E"
+    },
+    {
+      "name": "prepare_github_payload.py",
+      "bytes": 4147,
+      "SHA256": "667FC5E06A910887847BBA0F9D801CA37E48077459AE9DB55823C6F794752785"
+    },
+    {
+      "name": "PRO_B3_RULING_FULL.md",
+      "bytes": 12260,
+      "SHA256": "B301D3FBA5CAC7D5D6DB76BE34065E8C4B92D8FFDD5CD1B5151C0D0171AABD15"
+    },
+    {
+      "name": "README.md",
+      "bytes": 1272,
+      "SHA256": "5D541FBF8DBB263ADDAFF1DDE34070FD7076665314DF47686CB6C4B0F3EB80B7"
+    },
+    {
+      "name": "REFERENCE_CASE_RULES.md",
+      "bytes": 3084,
+      "SHA256": "AF26BAF9B725F16A895D81798C8566EE348C5E935B2A3CBBF8458EC16640FC3A"
+    },
+    {
+      "name": "REFERENCE_CASE_RULES_BEFORE_REVIEW.md",
+      "bytes": 2948,
+      "SHA256": "0A63C3BB77072207F450C4F03A976F2C53BF2051637EEBB2E26BE994E42F90C7"
+    },
+    {
+      "name": "RENDER.log",
+      "bytes": 970,
+      "SHA256": "C79C389DFFF75A900AA6DF68DB53B769448D4F9973CCF0C4BBCDB33012B2D5F8"
+    },
+    {
+      "name": "render_b3.py",
+      "bytes": 6462,
+      "SHA256": "FCE5C0AA1667593E77C170E9032B4C9C6A881B369288C24EB714D7C6F5EF1838"
+    },
+    {
+      "name": "REPRESENTATIVE_SIGNAL_EDGE_COMPARISON.csv",
+      "bytes": 2796,
+      "SHA256": "AA0A38643E89EABAAA21D6350044BC9834C174684411AE2264240FB5CEE460AF"
+    },
+    {
+      "name": "REPRESENTATIVE_SIGNAL_METRICS.json",
+      "bytes": 1190,
+      "SHA256": "1CCA034A56127477534C79BB2E7178CF00EEAB5090C1DEF13CD3D10451B7A7BB"
+    },
+    {
+      "name": "REVIEW_DISPOSITION.md",
+      "bytes": 1815,
+      "SHA256": "0E9BDC272657F85483FCE0343259A152AC9F77C1793EB97AA0EF4491A56FEB51"
+    },
+    {
+      "name": "SIGNAL_METRICS.log",
+      "bytes": 944,
+      "SHA256": "C6FDD6360E43FBE77B03CB28C5A8C1CD9E0C33D1F3394B5E3ABDC451C9BEF8E7"
+    },
+    {
+      "name": "signal_metrics.py",
+      "bytes": 2019,
+      "SHA256": "B425A952F0985A94F2FA664762E0F6F02FCA49F35D1AB07D98CFAA26A2B17232"
+    },
+    {
+      "name": "test_reuse_audit.py",
+      "bytes": 896,
+      "SHA256": "EED1B4AA9A50688121DD28F7621FB8DEEFF9B9A1F0BA853147961CEFED0BFEFF"
+    }
+  ],
+  "privateExcluded": [
+    {
+      "name": "ADS8684_PAGE58.png",
+      "bytes": 83516,
+      "SHA256": "ded5f8eab8775f599afd811db86fef040f3bc41a98bb1e34f7fff8fe8cbb2b6f",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    },
+    {
+      "name": "S1_ADS8684.pdf",
+      "bytes": 2506949,
+      "SHA256": "c776e2307a48d547c394e1b778dcec2433b8c485a88cd6796da963bd2514eb6a",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    },
+    {
+      "name": "S2_TIPD167.pdf",
+      "bytes": 2431227,
+      "SHA256": "ebec7f789f1a8f9b20694c3d6d2bcbf92c2f7598e4a4eb84e83443e61d354a50",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    },
+    {
+      "name": "S3_TIDA-01214.pdf",
+      "bytes": 951355,
+      "SHA256": "798df174c53cb0892de8ce7c0cd3de5282c8401a91b5b36588b3e78865f5ab3d",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    },
+    {
+      "name": "S4_OPAx388.pdf",
+      "bytes": 3340219,
+      "SHA256": "bfaa584834295abba9cab4c66cda702ada12def5d50e49b1beb0d7444f0775e7",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    },
+    {
+      "name": "S5_TMUX1134.pdf",
+      "bytes": 1496626,
+      "SHA256": "08082d5484460c9279b3778018f981c369cecf14031adb5fc2649b77e221a966",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    },
+    {
+      "name": "S6_ADI_CN0175.html",
+      "bytes": 107479,
+      "SHA256": "44b14c0edd61a0868b8d3fde68d3e6129dc7e2ade99739500776bb4de70c789d",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    },
+    {
+      "name": "TIPD167_PAGE32.png",
+      "bytes": 190075,
+      "SHA256": "88305860acce7c6d5a08d938f1fcd413705c20f87a2ee62f1281daae51d6751f",
+      "reason": "third-party bulk PDF/HTML or selected source page; local-only, original URL and own short note public"
+    }
+  ],
+  "notOnlyZIP": true,
+  "noLFS": true,
+  "referenceBulkPublished": false,
+  "zeroCredentialsPublished": true,
+  "reportSHA256": "3A84EAAD24316CD404AFA228F04024412C6FE958B8CA32D4702ED7D3ECC9CD21"
+}

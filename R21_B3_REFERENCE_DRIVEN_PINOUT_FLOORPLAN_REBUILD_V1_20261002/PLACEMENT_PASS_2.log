@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\build_b3.py", line 123, in <module>
+    n=reserve('placementRefinements','finite pin-side176 construction '+sys.argv[1]);pos=construct(n);write('PLACEMENT_B3.json',{'positions':pos,'pass':n});print('COMPLETE',n,len(pos))
+                                                                                         ~~~~~~~~~^^^
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\build_b3.py", line 117, in construct
+    for r in sorted(remaining,key=order):place(r)
+                                         ~~~~~^^^
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B3_REFERENCE_DRIVEN_PINOUT_FLOORPLAN_REBUILD_V1\build_b3.py", line 110, in place
+    write('PLACEMENT_PASS_'+str(passid)+'_PARTIAL.json',{'positions':pos,'failedRef':r,'candidates':len(candidates),'trace':trace});raise RuntimeError('NO_PIN_SIDE_LEGAL_POSITION '+r)
+                                                                                                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: NO_PIN_SIDE_LEGAL_POSITION C_ADC_REFCAP

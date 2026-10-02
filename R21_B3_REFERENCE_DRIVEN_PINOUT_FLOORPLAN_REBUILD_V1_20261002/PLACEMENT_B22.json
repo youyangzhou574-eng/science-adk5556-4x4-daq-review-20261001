@@ -1,0 +1,1725 @@
+{
+  "positions": {
+    "U4": [
+      20.742618880000002,
+      60.2500062,
+      90
+    ],
+    "U15": [
+      63.85078877999999,
+      29.450086,
+      0
+    ],
+    "U5": [
+      44.34910932,
+      22.15680014,
+      270
+    ],
+    "U10": [
+      48.33437084,
+      1.1999976000000032,
+      0
+    ],
+    "U7": [
+      56.08499110000001,
+      50.15046068,
+      0
+    ],
+    "C_BUF": [
+      32.119339520000004,
+      50.93105926,
+      90
+    ],
+    "U13": [
+      58.100210239999996,
+      35.64928912,
+      0
+    ],
+    "U2": [
+      16.01857988,
+      44.09965068,
+      0
+    ],
+    "U11": [
+      47.94857932000001,
+      47.59958893999999,
+      0
+    ],
+    "J4": [
+      70.2500102,
+      50.0799492,
+      90
+    ],
+    "J1": [
+      2.2699999999999996,
+      2.5400000000000063,
+      90
+    ],
+    "U1": [
+      16.01933934,
+      18.95786118,
+      0
+    ],
+    "U8": [
+      30.36253889999999,
+      2.3349305599999894,
+      0
+    ],
+    "U9": [
+      13.335311179999998,
+      1.1999976000000032,
+      0
+    ],
+    "C_ROW_OP": [
+      16.01933934,
+      13.657859079999998,
+      0
+    ],
+    "C_MUX": [
+      25.742619040000008,
+      60.2500062,
+      90
+    ],
+    "C_REF": [
+      42.61933884000001,
+      42.43106102,
+      0
+    ],
+    "U14": [
+      63.499995,
+      37.64928912,
+      0
+    ],
+    "J3": [
+      70.2500102,
+      17.62,
+      90
+    ],
+    "J2": [
+      6.0,
+      30.299529999999997,
+      90
+    ],
+    "U6": [
+      42.61933884000001,
+      39.431059399999995,
+      0
+    ],
+    "U3": [
+      35.619340140000006,
+      46.43106064,
+      0
+    ],
+    "U12": [
+      64.94859964,
+      11.09970894,
+      0
+    ],
+    "C_TIA_OP": [
+      16.01857988,
+      38.79965112,
+      0
+    ],
+    "C_MCU1": [
+      56.08499110000001,
+      43.450458839999996,
+      0
+    ],
+    "C_TIA_HF0": [
+      12.818579880000001,
+      39.59965068,
+      0
+    ],
+    "C_TIA_HF1": [
+      19.21857988,
+      39.59965068,
+      0
+    ],
+    "C_TIA_HF2": [
+      19.21857988,
+      48.59965068,
+      0
+    ],
+    "C_TIA_HF3": [
+      12.818579880000001,
+      48.59965068,
+      0
+    ],
+    "C_ROW_HF0": [
+      12.819339339999999,
+      14.457861179999998,
+      0
+    ],
+    "C_ROW_HF1": [
+      19.219339339999998,
+      14.457861179999998,
+      0
+    ],
+    "C_ROW_HF2": [
+      19.219339339999998,
+      23.45786118,
+      0
+    ],
+    "C_ROW_HF3": [
+      12.819339339999999,
+      23.45786118,
+      0
+    ],
+    "R_TIA_ISO0": [
+      11.318579880000001,
+      36.59965068,
+      0
+    ],
+    "R_TIA_ISO1": [
+      20.71857988,
+      36.59965068,
+      0
+    ],
+    "R_TIA_ISO2": [
+      20.71857988,
+      51.59965068,
+      0
+    ],
+    "R_TIA_ISO3": [
+      11.318579880000001,
+      51.59965068,
+      0
+    ],
+    "R_COL_SENSE0": [
+      14.818579880000001,
+      37.09965068,
+      0
+    ],
+    "R_COL_SENSE1": [
+      17.21857988,
+      37.09965068,
+      0
+    ],
+    "R_COL_SENSE2": [
+      17.21857988,
+      51.09965068,
+      0
+    ],
+    "R_COL_SENSE3": [
+      14.818579880000001,
+      51.09965068,
+      0
+    ],
+    "R_ISO0": [
+      11.319339339999999,
+      11.457861179999998,
+      0
+    ],
+    "R_ISO1": [
+      20.719339339999998,
+      11.457861179999998,
+      0
+    ],
+    "R_ISO2": [
+      20.719339339999998,
+      26.45786118,
+      0
+    ],
+    "R_ISO3": [
+      11.319339339999999,
+      26.45786118,
+      0
+    ],
+    "R_ROW_FB0": [
+      14.819339339999999,
+      11.957861179999998,
+      0
+    ],
+    "R_ROW_FB1": [
+      17.219339339999998,
+      11.957861179999998,
+      0
+    ],
+    "R_ROW_FB2": [
+      17.219339339999998,
+      25.95786118,
+      0
+    ],
+    "R_ROW_FB3": [
+      14.819339339999999,
+      25.95786118,
+      0
+    ],
+    "RF0": [
+      11.318579880000001,
+      33.59965068,
+      0
+    ],
+    "RF1": [
+      20.71857988,
+      33.59965068,
+      0
+    ],
+    "RF2": [
+      20.71857988,
+      54.59965068,
+      0
+    ],
+    "RF3": [
+      11.318579880000001,
+      54.59965068,
+      0
+    ],
+    "CF0": [
+      14.818579880000001,
+      34.09965068,
+      0
+    ],
+    "CF1": [
+      17.21857988,
+      34.09965068,
+      0
+    ],
+    "CF2": [
+      17.21857988,
+      54.09965068,
+      0
+    ],
+    "CF3": [
+      14.818579880000001,
+      54.09965068,
+      0
+    ],
+    "C_ADC0": [
+      40.4,
+      14.2,
+      180
+    ],
+    "C_ADC1": [
+      42.8,
+      14.2,
+      180
+    ],
+    "C_ADC2": [
+      45.2,
+      14.2,
+      180
+    ],
+    "C_ADC3": [
+      47.6,
+      14.2,
+      180
+    ],
+    "R_ADC0": [
+      40.4,
+      11.799999999999999,
+      180
+    ],
+    "R_ADC1": [
+      42.8,
+      11.799999999999999,
+      180
+    ],
+    "R_ADC2": [
+      45.2,
+      11.799999999999999,
+      180
+    ],
+    "R_ADC3": [
+      47.6,
+      11.799999999999999,
+      180
+    ],
+    "C_VCM_HF": [
+      34.71934014000001,
+      41.93106064,
+      0
+    ],
+    "C_VEX_HF": [
+      36.519340140000004,
+      50.93106064,
+      0
+    ],
+    "R_VCM_FB": [
+      32.619340140000006,
+      42.43106064,
+      90
+    ],
+    "R_VEX_FB": [
+      38.619340140000006,
+      50.43106064,
+      90
+    ],
+    "R_VCM_ISO": [
+      32.619340140000006,
+      40.43106064,
+      0
+    ],
+    "R_VEX_ISO": [
+      38.619340140000006,
+      52.43106064,
+      0
+    ],
+    "C_AVDD9_HF": [
+      38.849110159999995,
+      19.65680006000001,
+      270
+    ],
+    "C_AVDD9A": [
+      30.84911092,
+      23.15680068000001,
+      180
+    ],
+    "C_AVDD9B": [
+      28.349110839999994,
+      27.65679930000001,
+      90
+    ],
+    "C_ADCA2": [
+      28.349110839999994,
+      31.156799920000005,
+      180
+    ],
+    "C_AVDD30_HF": [
+      49.849111019999995,
+      22.656799139999997,
+      270
+    ],
+    "C_AVDD30A": [
+      55.34911018,
+      24.156801220000006,
+      90
+    ],
+    "C_AVDD30B": [
+      58.8491108,
+      25.656800760000003,
+      90
+    ],
+    "C_ADCA1": [
+      55.349110180000004,
+      31.156799919999997,
+      90
+    ],
+    "C_ADC_REFCAP": [
+      36.34911008,
+      23.656799680000006,
+      180
+    ],
+    "C_REFCAP_BULKA": [
+      33.349111,
+      27.65679930000001,
+      90
+    ],
+    "C_REFCAP_BULKB": [
+      33.34911100000001,
+      32.15680046000001,
+      180
+    ],
+    "C_ADC_REFIO": [
+      38.34911016,
+      27.256802380000003,
+      180
+    ],
+    "C_REFIO_B": [
+      38.34911016,
+      30.556797380000006,
+      180
+    ],
+    "C_ADCD": [
+      44.88244814666666,
+      29.65680007333333,
+      90
+    ],
+    "C_DVDD34A": [
+      48.182443146666664,
+      29.65680007333333,
+      90
+    ],
+    "C_DVDD34B": [
+      51.48243814666667,
+      29.65680007333333,
+      90
+    ],
+    "C_LDO_IN": [
+      29.162541769999994,
+      6.334930559999989,
+      90
+    ],
+    "C_LDO_OUT": [
+      31.56253856999999,
+      6.334930559999989,
+      90
+    ],
+    "U9_IN_CAP": [
+      9.335309909999998,
+      4.199996679999998,
+      0
+    ],
+    "U9_OUT_CAP": [
+      17.33530991,
+      4.199996679999998,
+      0
+    ],
+    "U10_IN_CAP": [
+      44.83436984000001,
+      3.199996679999998,
+      0
+    ],
+    "U10_OUT_CAP": [
+      52.83436984000001,
+      3.199996679999998,
+      0
+    ],
+    "RD_B1": [
+      39.91934404,
+      49.43106022799999,
+      90
+    ],
+    "RD_B2": [
+      41.51934244,
+      49.43106022799999,
+      90
+    ],
+    "RD_B3": [
+      43.11934084,
+      49.43106022799999,
+      90
+    ],
+    "RD_B4": [
+      44.71933924,
+      49.43106022799999,
+      90
+    ],
+    "RD_B5": [
+      46.31933764,
+      49.43106022799999,
+      90
+    ],
+    "RD_B6": [
+      40.119340824000005,
+      41.031062796,
+      0
+    ],
+    "RD_B7": [
+      40.119340824000005,
+      42.631061196000005,
+      0
+    ],
+    "RD_B8": [
+      40.119340824000005,
+      44.231059596,
+      0
+    ],
+    "RD_B9": [
+      40.119340824000005,
+      45.831057996,
+      0
+    ],
+    "RD_TOP": [
+      40.119340824000005,
+      47.431056396,
+      0
+    ],
+    "R_SEL_PD0": [
+      13.900004800000001,
+      56.25,
+      0
+    ],
+    "R_SEL_PD1": [
+      16.3000016,
+      56.25,
+      0
+    ],
+    "R_SEL_PD2": [
+      18.6999984,
+      56.25,
+      0
+    ],
+    "R_SEL_PD3": [
+      21.0999952,
+      56.25,
+      0
+    ],
+    "U9_OV_T": [
+      1.6999285999999998,
+      6.25,
+      90
+    ],
+    "U9_OV_B1": [
+      4.999948999999999,
+      6.25,
+      90
+    ],
+    "U9_OV_B2": [
+      8.2999694,
+      6.25,
+      90
+    ],
+    "U9_PG_T": [
+      11.5999898,
+      6.25,
+      90
+    ],
+    "U9_PG_B": [
+      14.9000102,
+      6.25,
+      90
+    ],
+    "U9_EN_R": [
+      18.200030599999998,
+      6.25,
+      90
+    ],
+    "U9_EN_G": [
+      21.500051,
+      6.25,
+      90
+    ],
+    "U9_BLEED": [
+      24.8000714,
+      6.25,
+      90
+    ],
+    "U10_OV_T": [
+      40.3124888,
+      5.375,
+      90
+    ],
+    "U10_OV_B1": [
+      42.687492,
+      5.375,
+      90
+    ],
+    "U10_OV_B2": [
+      45.0624952,
+      5.375,
+      90
+    ],
+    "U10_PG_T": [
+      47.4374984,
+      5.375,
+      90
+    ],
+    "U10_PG_B": [
+      49.8125016,
+      5.375,
+      90
+    ],
+    "U10_EN_R": [
+      52.1875048,
+      5.375,
+      90
+    ],
+    "U10_EN_G": [
+      54.562508,
+      5.375,
+      90
+    ],
+    "U10_BLEED": [
+      56.9375112,
+      5.375,
+      90
+    ],
+    "U11_TOP0": [
+      43.66667066666666,
+      45.5,
+      90
+    ],
+    "U11_TOP1": [
+      45.266669066666665,
+      45.5,
+      90
+    ],
+    "U11_TOP2": [
+      46.86666746666666,
+      45.5,
+      90
+    ],
+    "U11_TOP3": [
+      48.466665866666666,
+      45.5,
+      90
+    ],
+    "U11_TOP4": [
+      50.06666426666666,
+      45.5,
+      90
+    ],
+    "U11_BOT": [
+      51.66666266666667,
+      45.5,
+      90
+    ],
+    "U12_TOP0": [
+      64.3,
+      3.4000031999999996,
+      0
+    ],
+    "U12_TOP1": [
+      64.3,
+      5.000001599999999,
+      0
+    ],
+    "U12_TOP2": [
+      64.3,
+      6.6,
+      0
+    ],
+    "U12_TOP3": [
+      64.3,
+      8.1999984,
+      0
+    ],
+    "U12_BOT": [
+      64.3,
+      9.799996799999999,
+      0
+    ],
+    "R_J3_1": [
+      66.75,
+      13.150004800000001,
+      90
+    ],
+    "R_J3_3": [
+      66.75,
+      15.5500016,
+      90
+    ],
+    "R_J3_4": [
+      66.75,
+      17.9499984,
+      90
+    ],
+    "R_J3_5": [
+      66.75,
+      20.3499952,
+      90
+    ],
+    "D_J3_1": [
+      64.25,
+      15.0000051,
+      90
+    ],
+    "D_J3_3": [
+      64.25,
+      17.5000017,
+      90
+    ],
+    "D_J3_4": [
+      64.25,
+      19.9999983,
+      90
+    ],
+    "D_J3_5": [
+      64.25,
+      22.4999949,
+      90
+    ],
+    "R_J4_1": [
+      65.06666826666667,
+      53.666666666666664,
+      90
+    ],
+    "R_J4_3": [
+      66.66666666666667,
+      53.666666666666664,
+      90
+    ],
+    "R_J4_4": [
+      68.26666506666668,
+      53.666666666666664,
+      90
+    ],
+    "D_J4_1": [
+      66.16666666666667,
+      45.5000034,
+      90
+    ],
+    "D_J4_3": [
+      66.16666666666667,
+      48.0,
+      90
+    ],
+    "D_J4_4": [
+      66.16666666666667,
+      50.4999966,
+      90
+    ],
+    "R_CS_PU": [
+      62.75,
+      47.1000024,
+      0
+    ],
+    "R_ENABLE_PD": [
+      62.75,
+      48.7000008,
+      0
+    ],
+    "R_HW_PD": [
+      62.75,
+      50.2999992,
+      0
+    ],
+    "R_RST": [
+      62.75,
+      51.8999976,
+      0
+    ],
+    "C_DIV": [
+      39.61933976000001,
+      55.431060419999994,
+      0
+    ],
+    "C_MCU_BULK": [
+      61.5,
+      45.0,
+      0
+    ],
+    "C_PWR": [
+      5.5,
+      2.5,
+      90
+    ],
+    "C_RST": [
+      53.5,
+      44.0,
+      0
+    ],
+    "C_U13": [
+      55.10021116,
+      40.14929028,
+      0
+    ],
+    "C_U14": [
+      67.49999462000001,
+      42.14929028,
+      0
+    ],
+    "C_U15": [
+      63.85078877999999,
+      32.450085079999994,
+      0
+    ],
+    "D_ROW0": [
+      8.619338899999999,
+      13.95786102,
+      0
+    ],
+    "D_ROW1": [
+      23.419339779999994,
+      13.95786102,
+      0
+    ],
+    "D_ROW2": [
+      23.419339779999994,
+      23.9578588,
+      0
+    ],
+    "D_ROW3": [
+      8.619338899999999,
+      23.9578588,
+      0
+    ],
+    "D_TIA0": [
+      8.618579439999998,
+      39.099650520000004,
+      0
+    ],
+    "D_TIA1": [
+      23.418580320000004,
+      39.099650520000004,
+      0
+    ],
+    "D_TIA2": [
+      23.418580320000004,
+      49.099650839999995,
+      0
+    ],
+    "D_TIA3": [
+      8.618579439999998,
+      49.099650839999995,
+      0
+    ],
+    "D_VCM": [
+      28.619338900000002,
+      41.93105948,
+      0
+    ],
+    "D_VEX": [
+      29.619339440000005,
+      51.4310608,
+      0
+    ],
+    "R_ADC_RESET_PD": [
+      44.5,
+      13.0,
+      0
+    ],
+    "U11_CT_C": [
+      48.94857986000001,
+      43.59958886,
+      0
+    ],
+    "U11_SENSE_C": [
+      45.44857924,
+      51.099590559999996,
+      0
+    ],
+    "U11_VDD_C": [
+      47.94857932000001,
+      54.59959017999998,
+      0
+    ],
+    "U12_CT_C": [
+      62.448601100000005,
+      5.099710779999995,
+      90
+    ],
+    "U12_SENSE_C": [
+      62.44859955999999,
+      13.599710560000005,
+      0
+    ],
+    "U12_VDD_C": [
+      61.94859964,
+      18.099710179999988,
+      90
+    ]
+  },
+  "metrics": {
+    "components": 176,
+    "pads": 552,
+    "naturalBBoxMm": [
+      0.5,
+      6.217248937900877e-15,
+      71.50002040000001,
+      63.5000124
+    ],
+    "naturalWidthMm": 71.00002040000001,
+    "naturalHeightMm": 63.500012399999996,
+    "macroAnchorsFixed": [
+      "C_BUF",
+      "C_MCU1",
+      "C_MUX",
+      "C_REF",
+      "C_ROW_OP",
+      "C_TIA_OP",
+      "J1",
+      "J2",
+      "J3",
+      "J4",
+      "U1",
+      "U10",
+      "U11",
+      "U12",
+      "U13",
+      "U14",
+      "U15",
+      "U2",
+      "U3",
+      "U4",
+      "U5",
+      "U6",
+      "U7",
+      "U8",
+      "U9"
+    ],
+    "movedCount": 125,
+    "bodyOverlapPairs": [],
+    "physicalProxyOverlapPairs": [],
+    "pairsExaminedEach": 15400,
+    "criticalPairs": 94,
+    "maxCriticalIncreaseMm": 0.0,
+    "minCriticalDeltaMm": -3.869006274037489,
+    "FFCPlanningKeepoutCollisions": [],
+    "FFCExactSweepHOLD": true,
+    "CAD": 0
+  },
+  "templates": [
+    {
+      "name": "TIA_HF",
+      "refs": [
+        "C_TIA_HF0",
+        "C_TIA_HF1",
+        "C_TIA_HF2",
+        "C_TIA_HF3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 6.4,
+      "pitchYmm": 9,
+      "rotation": 0,
+      "candidateCount": 1260
+    },
+    {
+      "name": "ROW_HF",
+      "refs": [
+        "C_ROW_HF0",
+        "C_ROW_HF1",
+        "C_ROW_HF2",
+        "C_ROW_HF3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 6.4,
+      "pitchYmm": 9,
+      "rotation": 0,
+      "candidateCount": 1260
+    },
+    {
+      "name": "TIA_ISO",
+      "refs": [
+        "R_TIA_ISO0",
+        "R_TIA_ISO1",
+        "R_TIA_ISO2",
+        "R_TIA_ISO3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 9.4,
+      "pitchYmm": 15,
+      "rotation": 0,
+      "candidateCount": 4608
+    },
+    {
+      "name": "TIA_SENSE",
+      "refs": [
+        "R_COL_SENSE0",
+        "R_COL_SENSE1",
+        "R_COL_SENSE2",
+        "R_COL_SENSE3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 2.4,
+      "pitchYmm": 14,
+      "rotation": 0,
+      "candidateCount": 4608
+    },
+    {
+      "name": "ROW_ISO",
+      "refs": [
+        "R_ISO0",
+        "R_ISO1",
+        "R_ISO2",
+        "R_ISO3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 9.4,
+      "pitchYmm": 15,
+      "rotation": 0,
+      "candidateCount": 4608
+    },
+    {
+      "name": "ROW_FB",
+      "refs": [
+        "R_ROW_FB0",
+        "R_ROW_FB1",
+        "R_ROW_FB2",
+        "R_ROW_FB3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 2.4,
+      "pitchYmm": 14,
+      "rotation": 0,
+      "candidateCount": 4608
+    },
+    {
+      "name": "TIA_RF",
+      "refs": [
+        "RF0",
+        "RF1",
+        "RF2",
+        "RF3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 9.4,
+      "pitchYmm": 21,
+      "rotation": 0,
+      "candidateCount": 4608
+    },
+    {
+      "name": "TIA_CF",
+      "refs": [
+        "CF0",
+        "CF1",
+        "CF2",
+        "CF3"
+      ],
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "pitchXmm": 2.4,
+      "pitchYmm": 20,
+      "rotation": 0,
+      "candidateCount": 4608
+    },
+    {
+      "name": "ADC_INPUT_4X2",
+      "refs": [
+        "C_ADC0",
+        "C_ADC1",
+        "C_ADC2",
+        "C_ADC3",
+        "R_ADC0",
+        "R_ADC1",
+        "R_ADC2",
+        "R_ADC3"
+      ],
+      "kind": "FOUR_CHANNEL_TWO_ROW",
+      "pitchXmm": 2.4,
+      "pitchYmm": 2.4,
+      "rotation": 180
+    },
+    {
+      "name": "BIAS_HF_MIRROR",
+      "refs": [
+        "C_VCM_HF",
+        "C_VEX_HF"
+      ],
+      "kind": "CENTRAL_POSITIONAL_MIRROR",
+      "axisCenter": [
+        35.619340140000006,
+        46.43106064
+      ],
+      "rotation": 0
+    },
+    {
+      "name": "BIAS_FB_MIRROR",
+      "refs": [
+        "R_VCM_FB",
+        "R_VEX_FB"
+      ],
+      "kind": "CENTRAL_POSITIONAL_MIRROR",
+      "axisCenter": [
+        35.619340140000006,
+        46.43106064
+      ],
+      "rotation": 90
+    },
+    {
+      "name": "BIAS_ISO_MIRROR",
+      "refs": [
+        "R_VCM_ISO",
+        "R_VEX_ISO"
+      ],
+      "kind": "CENTRAL_POSITIONAL_MIRROR",
+      "axisCenter": [
+        35.619340140000006,
+        46.43106064
+      ],
+      "rotation": 0
+    },
+    {
+      "name": "ADC_AVDD9",
+      "refs": [
+        "C_AVDD9_HF",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_ADCA2"
+      ],
+      "kind": "PIN_FORCED_BASELINE",
+      "reason": "Exact closest cap pin limits prevent full bank at finite templates"
+    },
+    {
+      "name": "ADC_AVDD30",
+      "refs": [
+        "C_AVDD30_HF",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_ADCA1"
+      ],
+      "kind": "PIN_FORCED_BASELINE",
+      "reason": "Exact closest cap pin limits prevent full bank at finite templates"
+    },
+    {
+      "name": "ADC_REFCAP",
+      "refs": [
+        "C_ADC_REFCAP",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB"
+      ],
+      "kind": "PIN_FORCED_BASELINE",
+      "reason": "Exact closest cap pin limits prevent full bank at finite templates"
+    },
+    {
+      "name": "ADC_REFIO",
+      "refs": [
+        "C_ADC_REFIO",
+        "C_REFIO_B"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "y",
+      "pitchMm": 3.299995,
+      "rotation": 180,
+      "candidateCount": 3528
+    },
+    {
+      "name": "ADC_DVDD",
+      "refs": [
+        "C_ADCD",
+        "C_DVDD34A",
+        "C_DVDD34B"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 3.299995,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "LDO_CAPS",
+      "refs": [
+        "C_LDO_IN",
+        "C_LDO_OUT"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 2.3999968,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "U9_CAPS",
+      "refs": [
+        "U9_IN_CAP",
+        "U9_OUT_CAP"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 8,
+      "rotation": 0,
+      "candidateCount": 81
+    },
+    {
+      "name": "U10_CAPS",
+      "refs": [
+        "U10_IN_CAP",
+        "U10_OUT_CAP"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 8,
+      "rotation": 0,
+      "candidateCount": 81
+    },
+    {
+      "name": "DIVIDER_BANK_0",
+      "refs": [
+        "RD_B1",
+        "RD_B2",
+        "RD_B3",
+        "RD_B4",
+        "RD_B5"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 1.5999984,
+      "rotation": 90,
+      "candidateCount": 5000
+    },
+    {
+      "name": "DIVIDER_BANK_1",
+      "refs": [
+        "RD_B6",
+        "RD_B7",
+        "RD_B8",
+        "RD_B9",
+        "RD_TOP"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "y",
+      "pitchMm": 1.5999984,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "MUX_PULLS",
+      "refs": [
+        "R_SEL_PD0",
+        "R_SEL_PD1",
+        "R_SEL_PD2",
+        "R_SEL_PD3"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 2.3999968,
+      "rotation": 0,
+      "candidateCount": 3528
+    },
+    {
+      "name": "POWER5_CONTROL",
+      "refs": [
+        "U9_OV_T",
+        "U9_OV_B1",
+        "U9_OV_B2",
+        "U9_PG_T",
+        "U9_PG_B",
+        "U9_EN_R",
+        "U9_EN_G",
+        "U9_BLEED"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 3.3000204,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "POWER3_CONTROL",
+      "refs": [
+        "U10_OV_T",
+        "U10_OV_B1",
+        "U10_OV_B2",
+        "U10_PG_T",
+        "U10_PG_B",
+        "U10_EN_R",
+        "U10_EN_G",
+        "U10_BLEED"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 2.3750032,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "SUPERVISOR5_DIVIDER",
+      "refs": [
+        "U11_TOP0",
+        "U11_TOP1",
+        "U11_TOP2",
+        "U11_TOP3",
+        "U11_TOP4",
+        "U11_BOT"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 1.5999984,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "SUPERVISOR3_DIVIDER",
+      "refs": [
+        "U12_TOP0",
+        "U12_TOP1",
+        "U12_TOP2",
+        "U12_TOP3",
+        "U12_BOT"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "y",
+      "pitchMm": 1.5999984,
+      "rotation": 0,
+      "candidateCount": 3528
+    },
+    {
+      "name": "J3_RESISTORS",
+      "refs": [
+        "R_J3_1",
+        "R_J3_3",
+        "R_J3_4",
+        "R_J3_5"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "y",
+      "pitchMm": 2.3999968,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "J3_DIODES",
+      "refs": [
+        "D_J3_1",
+        "D_J3_3",
+        "D_J3_4",
+        "D_J3_5"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "y",
+      "pitchMm": 2.4999966000000002,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "J4_RESISTORS",
+      "refs": [
+        "R_J4_1",
+        "R_J4_3",
+        "R_J4_4"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 1.5999984,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "J4_DIODES",
+      "refs": [
+        "D_J4_1",
+        "D_J4_3",
+        "D_J4_4"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "y",
+      "pitchMm": 2.4999966000000002,
+      "rotation": 90,
+      "candidateCount": 3528
+    },
+    {
+      "name": "DIGITAL_PULLS",
+      "refs": [
+        "R_CS_PU",
+        "R_ENABLE_PD",
+        "R_HW_PD",
+        "R_RST"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "y",
+      "pitchMm": 1.5999984,
+      "rotation": 0,
+      "candidateCount": 3528
+    },
+    {
+      "name": "LOCAL_C_DIV",
+      "refs": [
+        "C_DIV"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_C_MCU_BULK",
+      "refs": [
+        "C_MCU_BULK"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_C_PWR",
+      "refs": [
+        "C_PWR"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 90,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_C_RST",
+      "refs": [
+        "C_RST"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_C_U13",
+      "refs": [
+        "C_U13"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_C_U14",
+      "refs": [
+        "C_U14"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_C_U15",
+      "refs": [
+        "C_U15"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_ROW0",
+      "refs": [
+        "D_ROW0"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_ROW1",
+      "refs": [
+        "D_ROW1"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_ROW2",
+      "refs": [
+        "D_ROW2"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_ROW3",
+      "refs": [
+        "D_ROW3"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_TIA0",
+      "refs": [
+        "D_TIA0"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_TIA1",
+      "refs": [
+        "D_TIA1"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_TIA2",
+      "refs": [
+        "D_TIA2"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_TIA3",
+      "refs": [
+        "D_TIA3"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_VCM",
+      "refs": [
+        "D_VCM"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_D_VEX",
+      "refs": [
+        "D_VEX"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_R_ADC_RESET_PD",
+      "refs": [
+        "R_ADC_RESET_PD"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_U11_CT_C",
+      "refs": [
+        "U11_CT_C"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_U11_SENSE_C",
+      "refs": [
+        "U11_SENSE_C"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_U11_VDD_C",
+      "refs": [
+        "U11_VDD_C"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_U12_CT_C",
+      "refs": [
+        "U12_CT_C"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 90,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_U12_SENSE_C",
+      "refs": [
+        "U12_SENSE_C"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 0,
+      "candidateCount": 5000
+    },
+    {
+      "name": "LOCAL_U12_VDD_C",
+      "refs": [
+        "U12_VDD_C"
+      ],
+      "kind": "EQUAL_PITCH_ROW",
+      "axis": "x",
+      "pitchMm": 0,
+      "rotation": 90,
+      "candidateCount": 5000
+    }
+  ],
+  "exceptions": [
+    {
+      "name": "ADC_AVDD9",
+      "refs": [
+        "C_AVDD9_HF",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_ADCA2"
+      ],
+      "reason": "Exact closest cap pin limits prevent full bank at finite templates"
+    },
+    {
+      "name": "ADC_AVDD30",
+      "refs": [
+        "C_AVDD30_HF",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_ADCA1"
+      ],
+      "reason": "Exact closest cap pin limits prevent full bank at finite templates"
+    },
+    {
+      "name": "ADC_REFCAP",
+      "refs": [
+        "C_ADC_REFCAP",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB"
+      ],
+      "reason": "Exact closest cap pin limits prevent full bank at finite templates"
+    }
+  ],
+  "finiteCandidateCounts": {
+    "TIA_HF": 1260,
+    "ROW_HF": 1260,
+    "TIA_ISO": 4608,
+    "TIA_SENSE": 4608,
+    "ROW_ISO": 4608,
+    "ROW_FB": 4608,
+    "TIA_RF": 4608,
+    "TIA_CF": 4608,
+    "ADC_AVDD9": 3528,
+    "ADC_AVDD30": 3528,
+    "ADC_REFCAP": 3528,
+    "ADC_REFIO": 3528,
+    "ADC_DVDD": 3528,
+    "LDO_CAPS": 3528,
+    "U9_CAPS": 81,
+    "U10_CAPS": 81,
+    "DIVIDER_BANK": 3528,
+    "DIVIDER_BANK_0": 5000,
+    "DIVIDER_BANK_1": 5000,
+    "MUX_PULLS": 3528,
+    "POWER5_CONTROL": 3528,
+    "POWER3_CONTROL": 3528,
+    "SUPERVISOR5_DIVIDER": 3528,
+    "SUPERVISOR3_DIVIDER": 3528,
+    "J3_RESISTORS": 3528,
+    "J3_DIODES": 3528,
+    "J4_RESISTORS": 3528,
+    "J4_DIODES": 3528,
+    "DIGITAL_PULLS": 3528,
+    "LOCAL_C_DIV": 5000,
+    "LOCAL_C_MCU_BULK": 5000,
+    "LOCAL_C_PWR": 5000,
+    "LOCAL_C_RST": 5000,
+    "LOCAL_C_U13": 5000,
+    "LOCAL_C_U14": 5000,
+    "LOCAL_C_U15": 5000,
+    "LOCAL_D_ROW0": 5000,
+    "LOCAL_D_ROW1": 5000,
+    "LOCAL_D_ROW2": 5000,
+    "LOCAL_D_ROW3": 5000,
+    "LOCAL_D_TIA0": 5000,
+    "LOCAL_D_TIA1": 5000,
+    "LOCAL_D_TIA2": 5000,
+    "LOCAL_D_TIA3": 5000,
+    "LOCAL_D_VCM": 5000,
+    "LOCAL_D_VEX": 5000,
+    "LOCAL_R_ADC_RESET_PD": 5000,
+    "LOCAL_U11_CT_C": 5000,
+    "LOCAL_U11_SENSE_C": 5000,
+    "LOCAL_U11_VDD_C": 5000,
+    "LOCAL_U12_CT_C": 5000,
+    "LOCAL_U12_SENSE_C": 5000,
+    "LOCAL_U12_VDD_C": 5000
+  }
+}

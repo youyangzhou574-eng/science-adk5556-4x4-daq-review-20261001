@@ -1,0 +1,78 @@
+{
+  "oldInputs": [
+    {
+      "name": "ACTUAL_GEOMETRY.json",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    },
+    {
+      "name": "CONSTRAINT_BLOCKS.json",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    },
+    {
+      "name": "BODY_SOURCE_REGISTER.csv",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    },
+    {
+      "name": "PLACEMENT_B22.json",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    },
+    {
+      "name": "PLACEMENT_B22.csv",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    },
+    {
+      "name": "KEY_PIN_DISTANCE_B21.csv",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    },
+    {
+      "name": "EXTRA_LOCAL_PIN_DISTANCES.csv",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    },
+    {
+      "name": "placement_geometry.py",
+      "sourceUnchanged": true,
+      "copyMatches": true
+    }
+  ],
+  "inputsAllPASS": true,
+  "positionsComplete176": true,
+  "key106NoIncrease": true,
+  "identityImmutableInputOnly": true,
+  "images": [
+    {
+      "file": "B22_vs_B3.png",
+      "dimensions": [
+        3400,
+        1700
+      ],
+      "SHA256": "eeba69d0a8f5f73f8be27947d2a60fc0904df7d10893322baeb6588693363eb9"
+    },
+    {
+      "file": "B3_NO_COPPER.png",
+      "dimensions": [
+        2850,
+        2090
+      ],
+      "SHA256": "7ee6aa6c59dcd1a02659e4504c8ec2daf02165a4af62a3bc5109c7b043aed079"
+    },
+    {
+      "file": "B3_PINOUT_AND_SIGNAL_FLOW.png",
+      "dimensions": [
+        2419,
+        2422
+      ],
+      "SHA256": "ac7b2aa20afc6bcdb27e57a780c8507b91d4c017b6a2155adb643587ab4d37e5"
+    }
+  ],
+  "criticalCollisionVisible": true,
+  "hardBudgetClosed": true,
+  "nativeOrCADorSimulationOperations": 0,
+  "reviewArtifactsOnly": true
+}

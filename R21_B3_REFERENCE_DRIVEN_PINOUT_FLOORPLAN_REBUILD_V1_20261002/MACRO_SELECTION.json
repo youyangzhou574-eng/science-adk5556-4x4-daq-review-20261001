@@ -1,0 +1,5 @@
+{
+  "selected": "A",
+  "reason": "A gives more ROW/MUX and ADC/Bias separation than B. Equal analog/digital direction, interface orientation fixed by actual pins. Extra area accepted for pin-neighborhood; area not minimization goal.",
+  "selectedBeforePlacement": true
+}

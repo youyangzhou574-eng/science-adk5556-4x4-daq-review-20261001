@@ -1,0 +1,631 @@
+{
+  "positions": {
+    "J2": [
+      2,
+      38,
+      90
+    ],
+    "U1": [
+      20,
+      26,
+      90
+    ],
+    "U2": [
+      20,
+      49,
+      90
+    ],
+    "U4": [
+      35,
+      26,
+      90
+    ],
+    "U3": [
+      49,
+      24,
+      0
+    ],
+    "U6": [
+      49,
+      13,
+      180
+    ],
+    "U5": [
+      41,
+      49,
+      180
+    ],
+    "U7": [
+      65,
+      49,
+      180
+    ],
+    "U13": [
+      55,
+      35,
+      90
+    ],
+    "U14": [
+      55,
+      26,
+      90
+    ],
+    "U15": [
+      63,
+      35,
+      180
+    ],
+    "J3": [
+      78,
+      53,
+      90
+    ],
+    "J4": [
+      78,
+      35,
+      90
+    ],
+    "J1": [
+      4,
+      4,
+      0
+    ],
+    "U9": [
+      20,
+      7,
+      0
+    ],
+    "U8": [
+      39,
+      7,
+      180
+    ],
+    "U10": [
+      58,
+      7,
+      0
+    ],
+    "U11": [
+      24,
+      16,
+      0
+    ],
+    "U12": [
+      62,
+      17,
+      0
+    ],
+    "C_VCM_HF": [
+      46.93431,
+      19.50029,
+      0
+    ],
+    "C_VEX_HF": [
+      49.20177,
+      28.40795,
+      0
+    ],
+    "C_TIA_HF0": [
+      24.7382,
+      44.94506,
+      90
+    ],
+    "C_TIA_HF1": [
+      23.2382,
+      53.79506,
+      180
+    ],
+    "C_ROW_HF2": [
+      16.49965,
+      30.7943,
+      0
+    ],
+    "C_ROW_HF3": [
+      15.49965,
+      21.9443,
+      90
+    ],
+    "C_TIA_HF2": [
+      16.49819,
+      53.79253,
+      0
+    ],
+    "C_TIA_HF3": [
+      15.49819,
+      44.94253,
+      90
+    ],
+    "C_ROW_HF0": [
+      24.73459,
+      21.94177,
+      90
+    ],
+    "C_ROW_HF1": [
+      23.23459,
+      30.79177,
+      180
+    ],
+    "C_BUF": [
+      46.15923,
+      28.27041,
+      90
+    ],
+    "C_U13": [
+      50.75966,
+      32.1106,
+      180
+    ],
+    "C_MCU1": [
+      65.42304,
+      55.76524,
+      90
+    ],
+    "U12_SENSE_C": [
+      59.7897,
+      18.37226,
+      180
+    ],
+    "U11_SENSE_C": [
+      21.78972,
+      17.37226,
+      180
+    ],
+    "C_TIA_OP": [
+      24.34922,
+      49.23108,
+      90
+    ],
+    "C_ROW_OP": [
+      24.34568,
+      26.22786,
+      90
+    ],
+    "C_AVDD9_HF": [
+      42.04428,
+      53.94534,
+      0
+    ],
+    "C_AVDD30_HF": [
+      41.95162,
+      44.05132,
+      0
+    ],
+    "U11_CT_C": [
+      26.41413,
+      15.77963,
+      0
+    ],
+    "RD_B1": [
+      52.54828,
+      29.84946,
+      90
+    ],
+    "C_ADC_REFIO": [
+      46.0627,
+      55.46478,
+      90
+    ]
+  },
+  "failedRef": "C_ADC_REFCAP",
+  "candidates": 604,
+  "trace": [
+    {
+      "ref": "C_VCM_HF",
+      "ic": "U3",
+      "anchor": [
+        47.728879860000006,
+        21.29485936
+      ],
+      "preferred": [
+        46.79326378503836,
+        19.303723362567034
+      ],
+      "chosen": [
+        46.93431,
+        19.50029,
+        0
+      ],
+      "finiteCandidates": 144,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_VEX_HF",
+      "ic": "U3",
+      "anchor": [
+        48.99887986,
+        26.70505936
+      ],
+      "preferred": [
+        48.997968860476234,
+        28.90505917138178
+      ],
+      "chosen": [
+        49.20177,
+        28.40795,
+        0
+      ],
+      "finiteCandidates": 145,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_TIA_HF0",
+      "ic": "U2",
+      "anchor": [
+        22.619100680000003,
+        45.82596012
+      ],
+      "preferred": [
+        24.0193078815892,
+        44.12907479900221
+      ],
+      "chosen": [
+        24.7382,
+        44.94506,
+        90
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_TIA_HF1",
+      "ic": "U2",
+      "anchor": [
+        22.619100680000003,
+        52.17596012
+      ],
+      "preferred": [
+        24.018804042386854,
+        53.87326106483063
+      ],
+      "chosen": [
+        23.2382,
+        53.79506,
+        180
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_ROW_HF2",
+      "ic": "U1",
+      "anchor": [
+        17.380541179999998,
+        29.17520066
+      ],
+      "preferred": [
+        15.980524669419761,
+        30.872243314178952
+      ],
+      "chosen": [
+        16.49965,
+        30.7943,
+        0
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_ROW_HF3",
+      "ic": "U1",
+      "anchor": [
+        17.380541179999998,
+        22.82520066
+      ],
+      "preferred": [
+        15.980419372786235,
+        21.128244878323745
+      ],
+      "chosen": [
+        15.49965,
+        21.9443,
+        90
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_TIA_HF2",
+      "ic": "U2",
+      "anchor": [
+        17.381620680000005,
+        52.17596012
+      ],
+      "preferred": [
+        15.982146816636636,
+        53.87345029839951
+      ],
+      "chosen": [
+        16.49819,
+        53.79253,
+        0
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_TIA_HF3",
+      "ic": "U2",
+      "anchor": [
+        17.381620680000005,
+        45.82596012
+      ],
+      "preferred": [
+        15.981642947649618,
+        44.12888547552408
+      ],
+      "chosen": [
+        15.49819,
+        44.94253,
+        90
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_ROW_HF0",
+      "ic": "U1",
+      "anchor": [
+        22.61802118,
+        22.82520066
+      ],
+      "preferred": [
+        24.017685641202192,
+        21.127867635503165
+      ],
+      "chosen": [
+        24.73459,
+        21.94177,
+        90
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_ROW_HF1",
+      "ic": "U1",
+      "anchor": [
+        22.61802118,
+        29.17520066
+      ],
+      "preferred": [
+        24.01758033216283,
+        30.872620519550743
+      ],
+      "chosen": [
+        23.23459,
+        30.79177,
+        180
+      ],
+      "finiteCandidates": 166,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_BUF",
+      "ic": "U3",
+      "anchor": [
+        47.09387986,
+        26.70505936
+      ],
+      "preferred": [
+        45.826656420209694,
+        28.503432167191555
+      ],
+      "chosen": [
+        46.15923,
+        28.27041,
+        90
+      ],
+      "finiteCandidates": 184,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_U13",
+      "ic": "U13",
+      "anchor": [
+        52.198959120000005,
+        33.04989976
+      ],
+      "preferred": [
+        50.39343619519617,
+        31.792884657462317
+      ],
+      "chosen": [
+        50.75966,
+        32.1106,
+        180
+      ],
+      "finiteCandidates": 300,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_MCU1",
+      "ic": "U7",
+      "anchor": [
+        65.39996110000001,
+        53.242160680000005
+      ],
+      "preferred": [
+        65.60646658448842,
+        55.432447301626546
+      ],
+      "chosen": [
+        65.42304,
+        55.76524,
+        90
+      ],
+      "finiteCandidates": 304,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "U12_SENSE_C",
+      "ic": "U12",
+      "anchor": [
+        61.418680359999996,
+        17.501241059999998
+      ],
+      "preferred": [
+        59.75252507211784,
+        18.937878299062916
+      ],
+      "chosen": [
+        59.7897,
+        18.37226,
+        180
+      ],
+      "finiteCandidates": 343,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "U11_SENSE_C",
+      "ic": "U11",
+      "anchor": [
+        23.41870068,
+        16.501241059999998
+      ],
+      "preferred": [
+        21.752570228373514,
+        17.937907102670643
+      ],
+      "chosen": [
+        21.78972,
+        17.37226,
+        180
+      ],
+      "finiteCandidates": 343,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_TIA_OP",
+      "ic": "U2",
+      "anchor": [
+        22.619100680000003,
+        49.00096012
+      ],
+      "preferred": [
+        24.81910053217793,
+        49.00176660440673
+      ],
+      "chosen": [
+        24.34922,
+        49.23108,
+        90
+      ],
+      "finiteCandidates": 391,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_ROW_OP",
+      "ic": "U1",
+      "anchor": [
+        22.61802118,
+        26.00020066
+      ],
+      "preferred": [
+        24.818021173537986,
+        26.000369280484083
+      ],
+      "chosen": [
+        24.34568,
+        26.22786,
+        90
+      ],
+      "finiteCandidates": 391,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_AVDD9_HF",
+      "ic": "U5",
+      "anchor": [
+        41.49925986,
+        51.90031932
+      ],
+      "preferred": [
+        41.87247778151521,
+        54.068431029082326
+      ],
+      "chosen": [
+        42.04428,
+        53.94534,
+        0
+      ],
+      "finiteCandidates": 433,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_AVDD30_HF",
+      "ic": "U5",
+      "anchor": [
+        41.49925986,
+        46.09895932
+      ],
+      "preferred": [
+        41.8723876486167,
+        43.93083209740396
+      ],
+      "chosen": [
+        41.95162,
+        44.05132,
+        0
+      ],
+      "finiteCandidates": 465,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "U11_CT_C",
+      "ic": "U11",
+      "anchor": [
+        24.635360680000005,
+        16.000861060000005
+      ],
+      "preferred": [
+        26.835358659688918,
+        16.003842563766344
+      ],
+      "chosen": [
+        26.41413,
+        15.77963,
+        0
+      ],
+      "finiteCandidates": 520,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "RD_B1",
+      "ic": "U3",
+      "anchor": [
+        50.903879859999996,
+        26.70505936
+      ],
+      "preferred": [
+        53.49389093565335,
+        30.384983629328513
+      ],
+      "chosen": [
+        52.54828,
+        29.84946,
+        90
+      ],
+      "finiteCandidates": 556,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    },
+    {
+      "ref": "C_ADC_REFIO",
+      "ic": "U5",
+      "anchor": [
+        43.49823986,
+        51.90031932
+      ],
+      "preferred": [
+        44.93403583285886,
+        53.567199616938645
+      ],
+      "chosen": [
+        46.0627,
+        55.46478,
+        90
+      ],
+      "finiteCandidates": 581,
+      "method": "actual-pin mesh with all-key bound, local cell score and global collision test"
+    }
+  ]
+}

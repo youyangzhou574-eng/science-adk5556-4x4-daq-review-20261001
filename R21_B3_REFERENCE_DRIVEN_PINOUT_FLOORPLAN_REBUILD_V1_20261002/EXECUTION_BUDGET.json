@@ -1,0 +1,70 @@
+{
+  "status": "COMPLETE_BLOCKED_NO_MORE_PLACEMENT_OR_IMAGES",
+  "startedUTC": "2026-10-02T22:16:40.591544+08:00",
+  "deadlineUTC": "2026-10-03T04:16:40.591544+08:00",
+  "limits": {
+    "macroCandidates": 2,
+    "placementRefinements": 3,
+    "images": 3,
+    "CAD": 0,
+    "GUI": 0,
+    "native": 0,
+    "routing": 0,
+    "boardOutline": 0,
+    "simulation": 0
+  },
+  "actual": {
+    "macroCandidates": 2,
+    "placementRefinements": 3,
+    "images": 3,
+    "CAD": 0,
+    "GUI": 0,
+    "native": 0,
+    "routing": 0,
+    "boardOutline": 0,
+    "simulation": 0
+  },
+  "reservations": [
+    {
+      "UTC": "2026-10-02T22:22:11.037303+08:00",
+      "kind": "macroCandidates",
+      "reason": "A"
+    },
+    {
+      "UTC": "2026-10-02T22:22:11.064775+08:00",
+      "kind": "macroCandidates",
+      "reason": "B"
+    },
+    {
+      "UTC": "2026-10-02T22:22:11.716949+08:00",
+      "kind": "placementRefinements",
+      "reason": "finite pin-side176 construction pass1"
+    },
+    {
+      "UTC": "2026-10-02T22:22:37.444433+08:00",
+      "kind": "placementRefinements",
+      "reason": "finite pin-side176 construction pass2"
+    },
+    {
+      "UTC": "2026-10-02T22:23:53.872428+08:00",
+      "kind": "placementRefinements",
+      "reason": "finite pin-side176 construction pass3"
+    },
+    {
+      "UTC": "2026-10-02T22:29:23.349859+08:00",
+      "kind": "images",
+      "reason": "B22 vs B3 same-scale geometry comparison"
+    },
+    {
+      "UTC": "2026-10-02T22:29:24.199838+08:00",
+      "kind": "images",
+      "reason": "B3 pure176-part visual draft"
+    },
+    {
+      "UTC": "2026-10-02T22:29:24.67103+08:00",
+      "kind": "images",
+      "reason": "B3 actual pin group and signal-flow review"
+    }
+  ],
+  "scienceSTOP": "B3_MACRO_PAD_PROXY_COLLISION_AND_PLACEMENT_IMAGE_QUOTAS_USED"
+}
