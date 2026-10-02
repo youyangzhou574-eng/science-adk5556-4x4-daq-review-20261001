@@ -1,3 +1,9 @@
+# Latest: final PCB readonly verification — two V3V3 connections remain
+
+[Complete receipt](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/COMPLETE_FINAL_READONLY_RECEIPT.md) · [Index](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/README.md) · [Actual2 errors](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/ACTUAL_REMAINING_CONNECTIONS.csv) · [All550 pins](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/WARM_ALL_550_PAD_NET_COMPARE.csv). Actual warmDRC2Connection/0Short/0Clearance/0NetlistError. Native identity176/550/514/107/36; warm907 versus frozen909 LINE (two0.1mil segments absent), full difference retained. Cold not started on real-error STOP; no board edits. PCB_REVIEW_READY=false, manufacturing/bench not released.
+
+---
+
 # Latest: native PCB routing saved; final verification HOLD
 
 [Complete receipt](R21_PCB_ROUTING_CLOSURE_V1_20261002/COMPLETE_ROUTING_RECEIPT.md) · [Index](R21_PCB_ROUTING_CLOSURE_V1_20261002/README.md) · [Actual layer2 GND](R21_PCB_ROUTING_CLOSURE_V1_20261002/FINAL_LAYER_15.png) · [All550 pin identities](R21_PCB_ROUTING_CLOSURE_V1_20261002/ALL_550_PAD_NET_IDENTITY.csv). Final saved copper909lines/296vias/4 actual fills. Last valid nativeDRC8 Connection before final power bridges; cold final audit andDRC failed, hard quotas exhausted. PCB_REVIEW_READY=false, manufacturing/powerup not released.

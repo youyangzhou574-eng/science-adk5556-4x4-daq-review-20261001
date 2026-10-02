@@ -1,0 +1,7 @@
+Recorded after the actual failures; not a backdated scientific test record.
+The first offline comparison script asserted every selected object body identical.
+It failed with COMPONENT=True,PAD_NET=True,ATTR=True,LINE=False,VIA=True,POUR=True,POURED=False,POLY=True,RULE=True.
+The next offline pass wrote the full object diff and found 909->907 LINE, exactly the two historic 0.1mil segments absent, and 4 POURED body numeric changes.
+It then encountered StopIteration while looking up absent short IDs.
+The reporting script was corrected to record absent objects as ABSENT_ON_REOPEN_CAUSE_UNCONFIRMED and preserve all before/after bodies. Final successful offline run did not alter any CAD file or run new CAD operations.
+No strict copper identity PASS is asserted. Original WARM_CAPTURE, final frozen PCB source and complete differences remain available.

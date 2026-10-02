@@ -1,0 +1,13 @@
+{
+  "scienceSTOP":"C_MCU1_1_AND_V3V3_VIA_E255_UNCONNECTED",
+  "warmParts":176,"warmPads":550,"assigned":514,"padNets":107,"NC":36,
+  "warmPadCoreIdentity":"PASS",
+  "warmConnectionError":2,"warmShort":0,"warmClearance":0,"warmNetlistError":0,
+  "actualWarmLINE":907,"frozenFileLINE":909,"VIA":296,"POUR":4,"POURED":4,
+  "shortSegmentReopenDifference":"HOLD_CAUSE_UNCONFIRMED_ABSENT_IN_ACTUAL_WARM",
+  "copperStrictIdentity":"HOLD",
+  "cold":"NOT_STARTED_REAL_ERROR_STOP",
+  "PCB_REVIEW_READY":false,"MANUFACTURING_NOT_RELEASED":true,"BENCH_NOT_RELEASED":true,
+  "remainingBudgetDoesNotReleaseSTOP":true,
+  "nextPackageRequestOnly":"R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1"
+}

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "137f992f55430857",
+    "frozenNet": "VCM",
+    "presentInActualWarm": false,
+    "status": "ABSENT_ON_REOPEN_CAUSE_UNCONFIRMED",
+    "attachment": "NOT_TESTABLE_ABSENT",
+    "editedThisPackage": false
+  },
+  {
+    "id": "21f945bfa3a6372f",
+    "frozenNet": "TIA1",
+    "presentInActualWarm": false,
+    "status": "ABSENT_ON_REOPEN_CAUSE_UNCONFIRMED",
+    "attachment": "NOT_TESTABLE_ABSENT",
+    "editedThisPackage": false
+  }
+]

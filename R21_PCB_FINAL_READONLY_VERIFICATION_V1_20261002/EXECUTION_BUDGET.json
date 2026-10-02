@@ -1,0 +1,56 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PCB_FINAL_READONLY_VERIFICATION_V1",
+  "ruling": "283ebe11-1efa-4017-8cf6-39a0833cef01",
+  "parentUser": "6a6edc1e-752e-43ac-93b1-99e17437fa35",
+  "startUTC": "2026-10-02T01:00:49.000Z",
+  "approvedMinutes": 120,
+  "limits": {
+    "session": 2,
+    "save": 0,
+    "captureaudit": 4,
+    "DRC": 4,
+    "reviewExport": 1
+  },
+  "actual": {
+    "session": 1,
+    "save": 0,
+    "captureaudit": 1,
+    "DRC": 1,
+    "reviewExport": 0
+  },
+  "status": "STOP_REAL_V3V3_CONNECTION_ERROR",
+  "copy": 0,
+  "routingEdit": 0,
+  "componentMove": 0,
+  "viaEdit": 0,
+  "pourRebuild": 0,
+  "importChanges": 0,
+  "schematicEdit": 0,
+  "simulation": 0,
+  "manufacture": 0,
+  "procurement": 0,
+  "actualBench": 0,
+  "localGit": 0,
+  "reservations": [
+    {
+      "utc": "2026-10-02T01:01:17.526986+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Warm readonly open final saved eprj2"
+    },
+    {
+      "utc": "2026-10-02T01:06:14.122974+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Warm full pad/core/net/source capture after actual GUI canvas readiness"
+    },
+    {
+      "utc": "2026-10-02T01:06:26.118588+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Warm detailed DRC after real PCB1 ready"
+    }
+  ],
+  "stop": "C_MCU1_1_AND_V3V3_VIA_E255_UNCONNECTED",
+  "stopUTC": "2026-10-02T01:07:46.302478+00:00"
+}

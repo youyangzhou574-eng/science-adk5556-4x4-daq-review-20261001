@@ -1,0 +1,135 @@
+{
+  "started_utc": "2026-10-02T01:06:35.970033+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "0f4f5001-b4ba-4456-9735-fe059ed1997a",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');return await eda.pcb_Drc.check(true,false,true);\n",
+    "--timeout",
+    "25000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":[{\"name\":\"Connection Error\",\"list\":[{\"name\":\"V3V3\",\"list\":[{\"visible\":true,\"errorType\":\"Connection Error\",\"errorObjType\":\"SMD Pad\",\"ruleName\":\"Common\",\"obj1\":{\"typeName\":\"SMD Pad\",\"suffix\":\"(V3V3): C_MCU1_1\"},\"isFree\":false,\"net\":\"V3V3\",\"explanation\":{\"str\":\"{obj1} is disconnected from other objects of the same network\",\"param\":{\"obj1\":\"Object 1\",\"type\":\"ConnectError\"},\"errData\":{\"globalIndex\":\"err0\",\"position\":{\"x\":320.07865000000004,\"y\":182.28346},\"name\":\"Common\",\"obj1\":\"f92440ed9f542d81e15\",\"obj1Type\":\"SMD Pad\",\"net\":\"V3V3\",\"isFree\":false,\"layerIds\":[1],\"errorType\":\"No Connection\",\"obj1Suffix\":\"(V3V3): C_MCU1_1\"}},\"objs\":[\"f92440ed9f542d81e15\"],\"globalIndex\":\"err0\",\"pos\":{\"x\":320.07865000000004,\"y\":182.28346},\"parentId\":\"DRCTab|_|Errors|_|Connection Error|_|V3V3\"},{\"visible\":true,\"errorType\":\"Connection Error\",\"errorObjType\":\"Via\",\"ruleName\":\"Common\",\"obj1\":{\"typeName\":\"Via\",\"suffix\":\"(V3V3): e255\"},\"isFree\":false,\"net\":\"V3V3\",\"explanation\":{\"str\":\"{obj1} is disconnected from other objects of the same network\",\"param\":{\"obj1\":\"Object 1\",\"type\":\"ConnectError\"},\"errData\":{\"globalIndex\":\"err1\",\"position\":{\"x\":331.755,\"y\":183.07},\"name\":\"Common\",\"obj1\":\"d9d6381bb71f0d80\",\"obj1Type\":\"Via\",\"net\":\"V3V3\",\"isFree\":false,\"layerIds\":[12],\"errorType\":\"No Connection\",\"obj1Suffix\":\"(V3V3): e255\"}},\"objs\":[\"d9d6381bb71f0d80\"],\"globalIndex\":\"err1\",\"pos\":{\"x\":331.755,\"y\":183.07},\"parentId\":\"DRCTab|_|Errors|_|Connection Error|_|V3V3\"}],\"doNotTranslate\":true,\"count\":2,\"title\":\"V3V3 (2)\",\"visible\":true}],\"visible\":true,\"count\":2,\"title\":[\"Connection Error\",\"(2)\"]}],\"logs\":[],\"durationMs\":5019}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": [
+      {
+        "name": "Connection Error",
+        "list": [
+          {
+            "name": "V3V3",
+            "list": [
+              {
+                "visible": true,
+                "errorType": "Connection Error",
+                "errorObjType": "SMD Pad",
+                "ruleName": "Common",
+                "obj1": {
+                  "typeName": "SMD Pad",
+                  "suffix": "(V3V3): C_MCU1_1"
+                },
+                "isFree": false,
+                "net": "V3V3",
+                "explanation": {
+                  "str": "{obj1} is disconnected from other objects of the same network",
+                  "param": {
+                    "obj1": "Object 1",
+                    "type": "ConnectError"
+                  },
+                  "errData": {
+                    "globalIndex": "err0",
+                    "position": {
+                      "x": 320.07865000000004,
+                      "y": 182.28346
+                    },
+                    "name": "Common",
+                    "obj1": "f92440ed9f542d81e15",
+                    "obj1Type": "SMD Pad",
+                    "net": "V3V3",
+                    "isFree": false,
+                    "layerIds": [
+                      1
+                    ],
+                    "errorType": "No Connection",
+                    "obj1Suffix": "(V3V3): C_MCU1_1"
+                  }
+                },
+                "objs": [
+                  "f92440ed9f542d81e15"
+                ],
+                "globalIndex": "err0",
+                "pos": {
+                  "x": 320.07865000000004,
+                  "y": 182.28346
+                },
+                "parentId": "DRCTab|_|Errors|_|Connection Error|_|V3V3"
+              },
+              {
+                "visible": true,
+                "errorType": "Connection Error",
+                "errorObjType": "Via",
+                "ruleName": "Common",
+                "obj1": {
+                  "typeName": "Via",
+                  "suffix": "(V3V3): e255"
+                },
+                "isFree": false,
+                "net": "V3V3",
+                "explanation": {
+                  "str": "{obj1} is disconnected from other objects of the same network",
+                  "param": {
+                    "obj1": "Object 1",
+                    "type": "ConnectError"
+                  },
+                  "errData": {
+                    "globalIndex": "err1",
+                    "position": {
+                      "x": 331.755,
+                      "y": 183.07
+                    },
+                    "name": "Common",
+                    "obj1": "d9d6381bb71f0d80",
+                    "obj1Type": "Via",
+                    "net": "V3V3",
+                    "isFree": false,
+                    "layerIds": [
+                      12
+                    ],
+                    "errorType": "No Connection",
+                    "obj1Suffix": "(V3V3): e255"
+                  }
+                },
+                "objs": [
+                  "d9d6381bb71f0d80"
+                ],
+                "globalIndex": "err1",
+                "pos": {
+                  "x": 331.755,
+                  "y": 183.07
+                },
+                "parentId": "DRCTab|_|Errors|_|Connection Error|_|V3V3"
+              }
+            ],
+            "doNotTranslate": true,
+            "count": 2,
+            "title": "V3V3 (2)",
+            "visible": true
+          }
+        ],
+        "visible": true,
+        "count": 2,
+        "title": [
+          "Connection Error",
+          "(2)"
+        ]
+      }
+    ],
+    "logs": [],
+    "durationMs": 5019
+  }
+}

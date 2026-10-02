@@ -1,0 +1,523 @@
+Window: "SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK | 嘉立创EDA(专业版) - V4.1.60", App: lceda-pro.exe.
+	0 窗口 SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK | 嘉立创EDA(专业版) - V4.1.60 Secondary Actions: Raise
+		1 窗格 (disabled)
+		2 区域 SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK | 嘉立创EDA(专业版) - V4.1.60
+			3 区域
+				4 区域
+					5 区域
+						6 区域
+							7 区域
+								8 区域
+									10 文档 SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK | 嘉立创EDA(专业版) - V4.1.60 Value: https://client/editor?cll=warn#id=315433ef1f45b1184319722b4f2939c77ef021639b42a2c9559dabe747dba45a,prjPath=E%3A%5Copen%5CSCIENCE_ADK5556_4X4_DAQ_REPLICA%5CR21_PCB_ROUTING_CLOSURE_V1%5CSCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK.eprj2 ID: RootWebArea
+										12 图形 ID: svg-work-space
+										13 图像 ID: canvas-work-space
+										14 组 ID: top-wrap
+											35 链接 Value: https://client/editor?cll=warn# ID: modelogo
+												36 图形 ID: logo-svg
+											37 组 Description: 文件
+												38 文本 文件
+												380 文本 (F)
+											40 组 Description: 视图
+												41 文本 视图
+												381 文本 (V)
+											43 组 Description: 工具
+												44 文本 工具
+												382 文本 (T)
+											46 组 Description: 高级
+												47 文本 高级
+												383 文本 (A)
+											49 组 Description: 设置
+												50 文本 设置
+												384 文本 (I)
+											52 组 Description: 帮助
+												53 文本 帮助
+												385 文本 (H)
+											56 组
+											57 文本 V4.1.60 | 半离线
+											58 按钮  Description: 设置
+											59 按钮  Description: 最小化
+											60 按钮  Description: 最大化/还原
+											61 按钮  Description: 关闭
+										15 组 ID: toolbar-bottom
+											506 组 Description: 板
+											507 组
+											508 组 Description: 打开工程(Ctrl+O)
+											509 组 Description: 保存全部(Ctrl+S)
+											510 组 Description: 备份
+											511 组 Description: 查找(Ctrl+F)
+											512 组 Description: 物料清单(BOM)...
+											513 组 Description: 网表...
+											514 组 Description: PCB下单
+												515 文本 PCB/FPC下单
+											516 组 Description: 设置
+										16 组 ID: tab-container-leftPanelTab
+											70 组
+												71 组 Description: 自动收起：关闭
+												72 组 ID: leftPanelTab
+													73 组 所有工程 Description: 所有工程
+														74 文本 所
+														75 文本 有
+														76 文本 工
+														77 文本 程
+													517 组 工程设计 Description: 工程设计
+														518 文本 工
+														519 文本 程
+														520 文本 设
+														521 文本 计
+													78 组 常用库 Description: 常用库
+														79 文本 常
+														80 文本 用
+														81 文本 库
+										522 组 ID: projectDesign
+											523 组 ID: tab-container-leftProjectDesignTab
+												524 组 Description: 图页
+													525 文本 图页
+											553 组 Description: 搜索
+											554 组 Description: 过滤
+											555 编辑 (settable, string)
+											556 列表 ID: treeMyProject
+												557 列表项目 mainSCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK
+													558 组 Description: SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK
+														559 组
+														560 文本 main
+														561 文本 SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK
+												562 列表项目 Board1
+													563 组 Description: 板: Board1
+														564 组
+														565 文本 Board1
+												566 列表项目 Schematic1
+													567 组 Description: 原理图: Schematic1
+														568 组
+														569 文本 Schematic1
+												570 列表项目 PCB1
+													571 组 Description: PCB: PCB1
+														572 文本 PCB1
+												573 列表项目 Panel1
+													574 组 Description: 面板: Panel1
+														575 文本 Panel1
+												576 列表项目
+										18 组 ID: tab-container-editor-window-main
+											86 组 Description: 开始页
+												87 文本 开始页
+										526 组 ID: top_tab_tips_blank
+										32 组 ID: tab-container-right-panel-tab-container
+											148 组
+												149 组 Description: 自动收起：关闭
+												150 组 ID: right-panel-tab-container
+													527 组 属性 Description: 属性
+														528 文本 属
+														529 文本 性
+										530 组 ID: multi-attr
+											531 文本 工程
+											532 标题
+												533 文本 基础属性
+											534 组
+											535 文本 名称
+											536 组
+											537 编辑 (disabled) Value: SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK
+											538 文本 工程归属
+											539 编辑 (disabled) Value: yangyz
+											540 文本 创建时间
+											541 编辑 (disabled) Value: 2026-10-01 05:47:57
+											542 文本 更新时间
+											543 编辑 (disabled) Value: 2026-10-02 08:38:54
+											544 文本 工程属性
+											545 编辑 (disabled) Value: 私有工程
+										33 组 ID: tab-container-bottom-bar-container
+											152 组
+												153 组 Description: 自动收起：关闭
+												154 组 ID: bottom-bar-container
+													155 组 Description: 库
+														156 文本 库
+													157 组 Description: 日志
+														158 文本 日志
+													546 组 Description: DRC
+														547 文本 DRC
+													548 组 Description: 属性清单
+														549 文本 属性清单
+										34 组 ID: gerberExportGuideDialog
+										159 组 ID: sch-place-float-toolbar
+											160 文本 浮动工具
+											161 组 Description: 收起
+											162 组 Description: 关闭
+											163 组 Description: VCC
+											164 组 Description: +5V
+											165 组 Description: 地
+											166 组 Description: 保护地
+											167 组 Description: 模拟地
+											168 组 Description: 输入
+											169 组 Description: 输出
+											170 组 Description: 双向
+											171 组 Description: 输入
+											172 组 Description: 输出
+											173 组 Description: 双向
+											174 组 Description: 网络标签
+											175 组 Description: 短接标识
+											176 组 Description: 非连接标识
+											177 组 Description: 差分对标识
+											178 组 Description: 测试点
+										179 组 ID: view-float-toolbar-3d
+											243 文本 浮动工具
+											244 组 Description: 收起
+											245 组 Description: 关闭
+											246 组 Description: 正常视图
+											247 组 Description: 轮廓视图
+											248 组 Description: Gerber视图
+											249 组 Description: 顶面
+											250 组 Description: 底面
+											251 组 Description: 左面
+											252 组 Description: 右面
+											253 组 Description: 前面
+											254 组 Description: 后面
+											255 组 Description: 爆炸
+											256 组 Description: 适应全部
+											257 组 Description: 导入更新
+											258 组 Description: 刷新
+										180 组 ID: table-setting-float-toolbar
+											181 文本 表格设置
+											182 组 Description: 关闭
+											259 组
+												260 组 Description: 上方添加行
+											261 组
+												262 组 Description: 下方添加行
+											263 组
+												264 组 Description: 左侧添加列
+											265 组
+												266 组 Description: 右侧添加列
+											267 组
+												268 组 Description: 删除行
+											269 组
+												270 组 Description: 删除列
+											271 组
+												272 组 Description: 合并单元格
+											273 组
+												274 组 Description: 拆分单元格
+											275 组
+												276 组 Description: 边框
+												277 组 Description: 全边框
+												278 组 Description: 外边框
+												279 组 Description: 内边框
+												280 组 Description: 无边框
+												281 组 Description: 左边框
+												282 组 Description: 右边框
+												283 组 Description: 上边框
+												284 组 Description: 下边框
+												285 文本 边框颜色
+												286 编辑
+												287 文本 #A00000
+												288 组 Description: 恢复默认
+												289 组
+											290 组
+												291 组 Description: 顶部对齐
+												292 组 Description: 顶部对齐
+												293 组 Description: 上下居中
+												294 组 Description: 底部对齐
+												295 组
+											296 组
+												297 组 Description: 左对齐
+												298 组 Description: 左对齐
+												299 组 Description: 左右居中
+												300 组 Description: 右对齐
+												301 组
+										183 组 ID: edit-sch-symbol-float-toolbar
+											184 文本 符号编辑
+											185 组 Description: 关闭
+											302 组
+												303 组 Description: 单引脚
+												304 组
+													305 组 Description: 单引脚
+													306 文本 单引脚
+												307 组
+													308 组 Description: 条形多引脚
+													309 文本 条形多引脚
+												310 组
+													311 组 Description: 矩形多引脚
+													312 文本 矩形多引脚
+												313 组
+											314 组
+												315 组 Description: 折线
+											316 组
+												317 组 Description: 圆弧
+											318 组
+												319 组 Description: 贝塞尔曲线
+											320 组
+												321 组 Description: 圆形
+											322 组
+												323 组 Description: 椭圆
+											324 组
+												325 组 Description: 矩形
+											326 组
+												327 组 Description: 文本
+											328 组
+												329 组 Description: 图片...
+											330 组
+												331 组 Description: 左对齐
+												332 组
+													333 组 Description: 左对齐
+													334 文本 左对齐
+												335 组
+													336 组 Description: 右对齐
+													337 文本 右对齐
+												338 组
+													339 组 Description: 顶部对齐
+													340 文本 顶部对齐
+												341 组
+													342 组 Description: 底部对齐
+													343 文本 底部对齐
+												344 组
+													345 组 Description: 左右居中
+													346 文本 左右居中
+												347 组
+													348 组 Description: 上下居中
+													349 文本 上下居中
+												350 组
+											351 组
+												352 组 Description: 对齐网格
+											353 组
+												354 组 Description: 水平等距分布
+												355 组
+													356 组 Description: 水平等距分布
+													357 文本 水平等距分布
+												358 组
+													359 组 Description: 垂直等距分布
+													360 文本 垂直等距分布
+												361 组
+											362 组
+												363 组 Description: 左向旋转
+												364 组
+													365 组 Description: 左向旋转
+													366 文本 左向旋转
+												367 组
+													368 组 Description: 右向旋转
+													369 文本 右向旋转
+												370 组
+											371 组
+												372 组 Description: 移到顶层
+												373 组
+													374 组 Description: 移到顶层
+													375 文本 移到顶层
+												376 组
+													377 组 Description: 移到底层
+													378 文本 移到底层
+												379 组
+								9 区域
+
+Document text: ```
+￼
+￼
+￼
+文件(F)
+视图(V)
+工具(T)
+高级(A)
+设置(I)
+帮助(H)
+￼
+￼
+V4.1.60 | 半离线
+
+
+
+
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+PCB/FPC下单
+￼
+￼
+所
+有
+工
+程
+工
+程
+设
+计
+常
+用
+库
+图页
+￼
+￼
+￼
+￼
+• 
+￼
+main
+SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK
+• 
+￼
+Board1
+• 
+￼
+Schematic1
+• 
+PCB1
+• 
+Panel1
+￼
+开始页
+￼
+￼
+属
+性
+工程
+基础属性
+￼
+名称
+￼
+SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK
+工程归属
+yangyz
+创建时间
+2026-10-01 05:47:57
+更新时间
+2026-10-02 08:38:54
+工程属性
+私有工程
+￼
+库
+日志
+DRC
+属性清单
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+浮动工具
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+浮动工具
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+表格设置
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+边框颜色
+￼
+#A00000
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+符号编辑
+￼
+￼
+￼
+单引脚
+￼
+条形多引脚
+￼
+矩形多引脚
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+￼
+左对齐
+￼
+右对齐
+￼
+顶部对齐
+￼
+底部对齐
+￼
+左右居中
+￼
+上下居中
+￼
+￼
+￼
+￼
+水平等距分布
+￼
+垂直等距分布
+￼
+￼
+￼
+左向旋转
+￼
+右向旋转
+￼
+￼
+￼
+移到顶层
+￼
+移到底层
+￼
+```

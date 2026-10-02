@@ -1,0 +1,71 @@
+{
+  "parts": 176,
+  "pads": 550,
+  "assigned": 514,
+  "nets": 107,
+  "NC": 36,
+  "nativeTypes": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 11,
+    "ACTIVE_LAYER": 1,
+    "NET": 108,
+    "RULE_TEMPLATE": 1,
+    "RULE": 16,
+    "RULE_SELECTOR": 108,
+    "PRIMITIVE": 50,
+    "SILK_OPTS": 2,
+    "D3_ATTRIBUTE": 1,
+    "PREFERENCE": 1,
+    "PANELIZE": 1,
+    "VIA": 296,
+    "LINE": 907,
+    "POLY": 1,
+    "POUR": 4,
+    "COMPONENT": 176,
+    "ATTR": 529,
+    "PAD_NET": 550,
+    "POURED": 4
+  },
+  "frozenFinalObjectsIdentical": {
+    "COMPONENT": true,
+    "PAD_NET": true,
+    "ATTR": true,
+    "LINE": false,
+    "VIA": true,
+    "POUR": true,
+    "POURED": false,
+    "POLY": true,
+    "RULE": true
+  },
+  "rulesEqual": true,
+  "warmActualIdentity": "PASS",
+  "warmDRC": {
+    "Connection Error": 2
+  },
+  "warmShort": 0,
+  "warmClearance": 0,
+  "warmNetlistError": 0,
+  "twoShortSegments": [
+    {
+      "id": "137f992f55430857",
+      "frozenNet": "VCM",
+      "presentInActualWarm": false,
+      "status": "ABSENT_ON_REOPEN_CAUSE_UNCONFIRMED",
+      "attachment": "NOT_TESTABLE_ABSENT",
+      "editedThisPackage": false
+    },
+    {
+      "id": "21f945bfa3a6372f",
+      "frozenNet": "TIA1",
+      "presentInActualWarm": false,
+      "status": "ABSENT_ON_REOPEN_CAUSE_UNCONFIRMED",
+      "attachment": "NOT_TESTABLE_ABSENT",
+      "editedThisPackage": false
+    }
+  ],
+  "cold": "NOT_STARTED_STOP_ON_TRUE_CONNECTION_ERROR",
+  "PCB_REVIEW_READY": false,
+  "MANUFACTURING_NOT_RELEASED": true
+}
