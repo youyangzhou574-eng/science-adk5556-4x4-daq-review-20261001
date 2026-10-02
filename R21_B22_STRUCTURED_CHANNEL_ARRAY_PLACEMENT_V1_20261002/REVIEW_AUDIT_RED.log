@@ -1,0 +1,6 @@
+{"wrongCentralRejected": false, "wrongPitchRejected": false}
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B22_STRUCTURED_CHANNEL_ARRAY_PLACEMENT_V1\test_review_audit_red.py", line 16, in <module>
+    print(json.dumps(out));assert all(out.values()),'Declared template audit defaults accepted incorrect geometry'
+                                  ~~~^^^^^^^^^^^^^^
+AssertionError: Declared template audit defaults accepted incorrect geometry

@@ -1,0 +1,819 @@
+{
+  "identity": {
+    "components": 176,
+    "pads": 552,
+    "assigned": 514,
+    "nets": 107,
+    "ordinaryNC": 36,
+    "mechanicalEmpty": [
+      [
+        "J2",
+        "MP1",
+        ""
+      ],
+      [
+        "J2",
+        "MP2",
+        ""
+      ]
+    ]
+  },
+  "inputSHA": [
+    {
+      "name": "ACTUAL_GEOMETRY.json",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B21_TOP_BAND_FILL_REFINEMENT_V1\\ACTUAL_GEOMETRY.json",
+      "SHA256": "1b49463129e6b39e441c51aa74dd781fdf1cefbf53d19d273f9a7c2ba2503c18",
+      "sourceAndCopyUnchanged": true
+    },
+    {
+      "name": "CONSTRAINT_BLOCKS.json",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B21_TOP_BAND_FILL_REFINEMENT_V1\\CONSTRAINT_BLOCKS.json",
+      "SHA256": "03574553512afd2011c1b8406bc32e586503d936c3575b3eb5158d91683eca2d",
+      "sourceAndCopyUnchanged": true
+    },
+    {
+      "name": "BODY_SOURCE_REGISTER.csv",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B21_TOP_BAND_FILL_REFINEMENT_V1\\BODY_SOURCE_REGISTER.csv",
+      "SHA256": "1866b403bd1b246151ec31acda4c5c80d55953fd338398ef765bb961c480fbca",
+      "sourceAndCopyUnchanged": true
+    },
+    {
+      "name": "PLACEMENT_B21.json",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B21_TOP_BAND_FILL_REFINEMENT_V1\\PLACEMENT_B21.json",
+      "SHA256": "224cf422995b767f5a009540aaee91f5b27c7a37349f5f6b4b3d5cd6e47e1804",
+      "sourceAndCopyUnchanged": true
+    },
+    {
+      "name": "PLACEMENT_B21.csv",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B21_TOP_BAND_FILL_REFINEMENT_V1\\PLACEMENT_B21.csv",
+      "SHA256": "4df08afbed5df118d13950aaa89e1097ea19b351e4c911141484096829567640",
+      "sourceAndCopyUnchanged": true
+    },
+    {
+      "name": "KEY_PIN_DISTANCE_B21.csv",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B21_TOP_BAND_FILL_REFINEMENT_V1\\KEY_PIN_DISTANCE_B21.csv",
+      "SHA256": "9f47dcaf378886974525c50a2d6c4eba668787a154a6a13e8330922856221631",
+      "sourceAndCopyUnchanged": true
+    },
+    {
+      "name": "placement_geometry.py",
+      "source": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_B21_TOP_BAND_FILL_REFINEMENT_V1\\placement_geometry.py",
+      "SHA256": "8fb7df056f5f9f3dba947246a42440cc0430d9d5459dbd58acecb6e4f49bafd8",
+      "sourceAndCopyUnchanged": true
+    }
+  ],
+  "macroICandInterfaceFrozen": true,
+  "overlap": {
+    "body": [],
+    "physicalProxy": []
+  },
+  "allPairsEach": 15400,
+  "94ActualPinDistances": {
+    "count": 94,
+    "maximumIncreaseMm": 0.0,
+    "minimumDeltaMm": -3.869006274037489
+  },
+  "extraDecapPinLocalChecks": [
+    {
+      "ic": "U4",
+      "icPad": "16",
+      "passive": "C_MUX",
+      "passivePad": "1",
+      "net": "V5",
+      "beforeMm": 7.880431357356027,
+      "afterMm": 7.880431357356027,
+      "deltaMm": 0.0,
+      "passNoIncrease": true
+    },
+    {
+      "ic": "U13",
+      "icPad": "14",
+      "passive": "C_U13",
+      "passivePad": "1",
+      "net": "V3V3",
+      "beforeMm": 2.439302062312092,
+      "afterMm": 2.439302062312092,
+      "deltaMm": 0.0,
+      "passNoIncrease": true
+    },
+    {
+      "ic": "U14",
+      "icPad": "14",
+      "passive": "C_U14",
+      "passivePad": "1",
+      "net": "V3V3",
+      "beforeMm": 5.518321717696424,
+      "afterMm": 5.518321717696424,
+      "deltaMm": 0.0,
+      "passNoIncrease": true
+    },
+    {
+      "ic": "U15",
+      "icPad": "5",
+      "passive": "C_U15",
+      "passivePad": "1",
+      "net": "V3V3",
+      "beforeMm": 3.9953110029633394,
+      "afterMm": 3.9953110029633394,
+      "deltaMm": 0.0,
+      "passNoIncrease": true
+    },
+    {
+      "ic": "U11",
+      "icPad": "3",
+      "passive": "U11_VDD_C",
+      "passivePad": "1",
+      "net": "V3V3",
+      "beforeMm": 7.5008887896301975,
+      "afterMm": 7.5008887896301975,
+      "deltaMm": 0.0,
+      "passNoIncrease": true
+    },
+    {
+      "ic": "U11",
+      "icPad": "4",
+      "passive": "U11_VDD_C",
+      "passivePad": "1",
+      "net": "V3V3",
+      "beforeMm": 7.618681202544175,
+      "afterMm": 7.618681202544175,
+      "deltaMm": 0.0,
+      "passNoIncrease": true
+    },
+    {
+      "ic": "U11",
+      "icPad": "1",
+      "passive": "U11_SENSE_C",
+      "passivePad": "1",
+      "net": "U11_SENSE",
+      "beforeMm": 2.628978530228053,
+      "afterMm": 3.9807618708769192,
+      "deltaMm": 1.3517833406488662,
+      "passNoIncrease": false
+    },
+    {
+      "ic": "U11",
+      "icPad": "5",
+      "passive": "U11_CT_C",
+      "passivePad": "1",
+      "net": "U11_CT",
+      "beforeMm": 3.2212327667525065,
+      "afterMm": 4.015969559853686,
+      "deltaMm": 0.7947367931011797,
+      "passNoIncrease": false
+    },
+    {
+      "ic": "U12",
+      "icPad": "3",
+      "passive": "U12_VDD_C",
+      "passivePad": "1",
+      "net": "V3V3",
+      "beforeMm": 7.5008887896301975,
+      "afterMm": 7.198054236814964,
+      "deltaMm": -0.3028345528152334,
+      "passNoIncrease": true
+    },
+    {
+      "ic": "U12",
+      "icPad": "4",
+      "passive": "U12_VDD_C",
+      "passivePad": "1",
+      "net": "V3V3",
+      "beforeMm": 7.618681202544175,
+      "afterMm": 7.710230730519308,
+      "deltaMm": 0.0915495279751335,
+      "passNoIncrease": false
+    },
+    {
+      "ic": "U12",
+      "icPad": "1",
+      "passive": "U12_SENSE_C",
+      "passivePad": "1",
+      "net": "U12_SENSE",
+      "beforeMm": 2.628978530228043,
+      "afterMm": 3.2940734995607275,
+      "deltaMm": 0.6650949693326846,
+      "passNoIncrease": false
+    },
+    {
+      "ic": "U12",
+      "icPad": "5",
+      "passive": "U12_CT_C",
+      "passivePad": "1",
+      "net": "U12_CT",
+      "beforeMm": 7.200569837228175,
+      "afterMm": 7.398292098910409,
+      "deltaMm": 0.19772226168223472,
+      "passNoIncrease": false
+    }
+  ],
+  "extraDecapAllNoIncrease": false,
+  "arrayChecks": [
+    {
+      "name": "TIA_HF",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "C_TIA_HF0",
+        "C_TIA_HF1",
+        "C_TIA_HF2",
+        "C_TIA_HF3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "ROW_HF",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "C_ROW_HF0",
+        "C_ROW_HF1",
+        "C_ROW_HF2",
+        "C_ROW_HF3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "TIA_ISO",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "R_TIA_ISO0",
+        "R_TIA_ISO1",
+        "R_TIA_ISO2",
+        "R_TIA_ISO3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "TIA_SENSE",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "R_COL_SENSE0",
+        "R_COL_SENSE1",
+        "R_COL_SENSE2",
+        "R_COL_SENSE3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "ROW_ISO",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "R_ISO0",
+        "R_ISO1",
+        "R_ISO2",
+        "R_ISO3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "ROW_FB",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "R_ROW_FB0",
+        "R_ROW_FB1",
+        "R_ROW_FB2",
+        "R_ROW_FB3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "TIA_RF",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "RF0",
+        "RF1",
+        "RF2",
+        "RF3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "TIA_CF",
+      "kind": "PIN_FACING_MIRROR_2_PLUS_2",
+      "refs": [
+        "CF0",
+        "CF1",
+        "CF2",
+        "CF3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "ADC_INPUT_4X2",
+      "kind": "FOUR_CHANNEL_TWO_ROW",
+      "refs": [
+        "C_ADC0",
+        "C_ADC1",
+        "C_ADC2",
+        "C_ADC3",
+        "R_ADC0",
+        "R_ADC1",
+        "R_ADC2",
+        "R_ADC3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "BIAS_HF_MIRROR",
+      "kind": "CENTRAL_POSITIONAL_MIRROR",
+      "refs": [
+        "C_VCM_HF",
+        "C_VEX_HF"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "BIAS_FB_MIRROR",
+      "kind": "CENTRAL_POSITIONAL_MIRROR",
+      "refs": [
+        "R_VCM_FB",
+        "R_VEX_FB"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "BIAS_ISO_MIRROR",
+      "kind": "CENTRAL_POSITIONAL_MIRROR",
+      "refs": [
+        "R_VCM_ISO",
+        "R_VEX_ISO"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "ADC_AVDD9",
+      "kind": "PIN_FORCED_BASELINE",
+      "refs": [
+        "C_AVDD9_HF",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_ADCA2"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Exact baseline retention, not an array"
+    },
+    {
+      "name": "ADC_AVDD30",
+      "kind": "PIN_FORCED_BASELINE",
+      "refs": [
+        "C_AVDD30_HF",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_ADCA1"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Exact baseline retention, not an array"
+    },
+    {
+      "name": "ADC_REFCAP",
+      "kind": "PIN_FORCED_BASELINE",
+      "refs": [
+        "C_ADC_REFCAP",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Exact baseline retention, not an array"
+    },
+    {
+      "name": "ADC_REFIO",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_ADC_REFIO",
+        "C_REFIO_B"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "ADC_DVDD",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_ADCD",
+        "C_DVDD34A",
+        "C_DVDD34B"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LDO_CAPS",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_LDO_IN",
+        "C_LDO_OUT"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "U9_CAPS",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U9_IN_CAP",
+        "U9_OUT_CAP"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "U10_CAPS",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U10_IN_CAP",
+        "U10_OUT_CAP"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "DIVIDER_BANK_0",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "RD_B1",
+        "RD_B2",
+        "RD_B3",
+        "RD_B4",
+        "RD_B5"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "DIVIDER_BANK_1",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "RD_B6",
+        "RD_B7",
+        "RD_B8",
+        "RD_B9",
+        "RD_TOP"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "MUX_PULLS",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "R_SEL_PD0",
+        "R_SEL_PD1",
+        "R_SEL_PD2",
+        "R_SEL_PD3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "POWER5_CONTROL",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U9_OV_T",
+        "U9_OV_B1",
+        "U9_OV_B2",
+        "U9_PG_T",
+        "U9_PG_B",
+        "U9_EN_R",
+        "U9_EN_G",
+        "U9_BLEED"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "POWER3_CONTROL",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U10_OV_T",
+        "U10_OV_B1",
+        "U10_OV_B2",
+        "U10_PG_T",
+        "U10_PG_B",
+        "U10_EN_R",
+        "U10_EN_G",
+        "U10_BLEED"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "SUPERVISOR5_DIVIDER",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U11_TOP0",
+        "U11_TOP1",
+        "U11_TOP2",
+        "U11_TOP3",
+        "U11_TOP4",
+        "U11_BOT"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "SUPERVISOR3_DIVIDER",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U12_TOP0",
+        "U12_TOP1",
+        "U12_TOP2",
+        "U12_TOP3",
+        "U12_BOT"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "J3_RESISTORS",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "R_J3_1",
+        "R_J3_3",
+        "R_J3_4",
+        "R_J3_5"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "J3_DIODES",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_J3_1",
+        "D_J3_3",
+        "D_J3_4",
+        "D_J3_5"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "J4_RESISTORS",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "R_J4_1",
+        "R_J4_3",
+        "R_J4_4"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "J4_DIODES",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_J4_1",
+        "D_J4_3",
+        "D_J4_4"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "DIGITAL_PULLS",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "R_CS_PU",
+        "R_ENABLE_PD",
+        "R_HW_PD",
+        "R_RST"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_C_DIV",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_DIV"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_C_MCU_BULK",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_MCU_BULK"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_C_PWR",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_PWR"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_C_RST",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_RST"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_C_U13",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_U13"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_C_U14",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_U14"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_C_U15",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "C_U15"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_ROW0",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_ROW0"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_ROW1",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_ROW1"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_ROW2",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_ROW2"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_ROW3",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_ROW3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_TIA0",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_TIA0"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_TIA1",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_TIA1"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_TIA2",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_TIA2"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_TIA3",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_TIA3"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_VCM",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_VCM"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_D_VEX",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "D_VEX"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_R_ADC_RESET_PD",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "R_ADC_RESET_PD"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_U11_CT_C",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U11_CT_C"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_U11_SENSE_C",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U11_SENSE_C"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_U11_VDD_C",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U11_VDD_C"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_U12_CT_C",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U12_CT_C"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_U12_SENSE_C",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U12_SENSE_C"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    },
+    {
+      "name": "LOCAL_U12_VDD_C",
+      "kind": "EQUAL_PITCH_ROW",
+      "refs": [
+        "U12_VDD_C"
+      ],
+      "actualCoordinatePatternPASS": true,
+      "meaning": "Actual coordinate constraints checked"
+    }
+  ],
+  "scope": {
+    "CAD": 0,
+    "nativeDRC": 0,
+    "routing": 0,
+    "FFCExactActuator": "HOLD",
+    "userVisualAcceptance": "PENDING"
+  }
+}

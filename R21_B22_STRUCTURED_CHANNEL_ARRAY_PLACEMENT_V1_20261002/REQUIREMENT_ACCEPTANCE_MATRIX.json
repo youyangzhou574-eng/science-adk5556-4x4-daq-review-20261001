@@ -1,0 +1,52 @@
+[
+  {
+    "requirement": "TIA/ROW four-channel roles",
+    "result": "PASS_PIN_FACING_2PLUS2_EXCEPTION",
+    "evidence": "8 groups same rotation and symmetric two pairs; U1/U2 opposite-side pins prevent a selected feasible single4line under strict baseline distances"
+  },
+  {
+    "requirement": "ADC R/C4x2 inputs",
+    "result": "PASS",
+    "evidence": "one common four-column2row pitch2.4mm; real94checks no increase"
+  },
+  {
+    "requirement": "ADC AVDD9/30 and REFCAP cap banks",
+    "result": "HOLD_LOCAL_FEASIBILITY",
+    "evidence": "three banks retain B2.1 baseline after finite equal-pitch templates fail strict distances/collision"
+  },
+  {
+    "requirement": "ADC REFIO/DVDD cap banks",
+    "result": "PASS_OFFLINE_ROW",
+    "evidence": "REFIO y-row3.299995; DVDD x-row3.299995mm"
+  },
+  {
+    "requirement": "BIAS VCM/VEX paired placement",
+    "result": "PARTIAL_CENTRAL_PAIRING_AXIS_MIRROR_HOLD",
+    "evidence": "HF/FB/ISO centers centrally paired about U3; requested common-axis reflection is not implemented (HOLD); not a footprint/net reflection"
+  },
+  {
+    "requirement": "reference divider banks",
+    "result": "PASS_ROW_AND_COLUMN",
+    "evidence": "two five-member banks, not one entire divider row"
+  },
+  {
+    "requirement": "POWER common mirrored U9/U10 templates",
+    "result": "PARTIAL_ROLE_ROWS_MIRROR_HOLD",
+    "evidence": "both8member control banks rows, but pitch3.3000204 and2.3750032 differ; not exact paired mirror"
+  },
+  {
+    "requirement": "DIGITAL U13/14/15 IC and cap rows",
+    "result": "PARTIAL_LOCAL_ANCHORS_RETAINED",
+    "evidence": "IC macro anchors retained; no new common IC row/2x2 template is implemented"
+  },
+  {
+    "requirement": "J3/J4 identical local template",
+    "result": "PARTIAL_PROTECTOR_ROWS_TEMPLATE_HOLD",
+    "evidence": "individual resistor/diode rows passed; J3 resistor vertical versus J4 horizontal, not same complete template"
+  },
+  {
+    "requirement": "all critical local pin distances",
+    "result": "HOLD_EXTRA_FIVE",
+    "evidence": "94 inherited pass;5 of12 added real-net pin-pair checks across10 IC/passive combinations increase by.09155 to1.35178mm"
+  }
+]

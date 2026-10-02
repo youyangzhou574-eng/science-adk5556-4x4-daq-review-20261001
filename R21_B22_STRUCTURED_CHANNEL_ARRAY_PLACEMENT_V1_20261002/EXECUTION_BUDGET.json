@@ -1,0 +1,46 @@
+{
+  "status": "COMPLETE_BLOCKED_NO_THIRD_ADJUSTMENT",
+  "startUTC": "2026-10-02T13:10:01.228300+00:00",
+  "deadlineUTC": "2026-10-02T15:10:01.228300+00:00",
+  "rulingAssistantId": "3d968530-1342-4bbd-9af0-dae4f321ab20",
+  "parentUserId": "a9ed76f1-da40-41ef-822c-7751b8071c0c",
+  "limits": {
+    "placementAdjustment": 2,
+    "finalImages": 1,
+    "CAD": 0,
+    "GUI": 0,
+    "native": 0,
+    "simulation": 0,
+    "sources": 0
+  },
+  "actual": {
+    "placementAdjustment": 2,
+    "finalImages": 1,
+    "CAD": 0,
+    "GUI": 0,
+    "native": 0,
+    "simulation": 0,
+    "sources": 0
+  },
+  "reservations": [
+    {
+      "UTC": "2026-10-02T13:13:20.228143+00:00",
+      "kind": "placementAdjustment",
+      "count": 1,
+      "reason": "B2.2 one complete finite structured-channel adjustment; IC/interface macro anchors fixed"
+    },
+    {
+      "UTC": "2026-10-02T13:15:43.860878+00:00",
+      "kind": "placementAdjustment",
+      "count": 1,
+      "reason": "B2.2 one complete finite structured-channel adjustment; IC/interface macro anchors fixed"
+    },
+    {
+      "UTC": "2026-10-02T13:22:16.767585+00:00",
+      "kind": "finalImages",
+      "count": 1,
+      "reason": "Single final B2.1 to B2.2 structured-channel comparison"
+    }
+  ],
+  "finishedUTC": "2026-10-02T13:24:23.620684+00:00"
+}

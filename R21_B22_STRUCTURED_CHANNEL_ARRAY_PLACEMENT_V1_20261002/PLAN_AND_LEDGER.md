@@ -1,0 +1,14 @@
+# B2.2 execution ledger
+Binding spec: PRO_B22_RULING_FULL.md (completed assistant 3d968530-1342-4bbd-9af0-dae4f321ab20).
+User intent: regular Science-like passive arrays within existing functional topology, not area minimization.
+Scope: offline only; 120min, at most two complete placement adjustments and one final comparison image.
+Task1 input/role/pad inspection; Task2 local role arrays/cap banks/mirrored templates; Task3 full geometry and actual-pad distance check; Task4 one final image/readable report/fresh review; Task5 existing project GitHub publish and one handoff+successor monitor.
+Preflight shared interfaces: geometry/pads retain real identities; row templates must be checked against those actual pin coordinates, not schematic ASCII. Shape rendering uses final same data as audit.
+Ruling: user has authorized continuous technical execution and this completed Pro instruction supplies the design. Do not ask the same approval again.
+Ruling: use isolated package directory and SHA input ledger, no local Git/worktree/commit/deletion due explicit E:\open instructions.
+Ruling: strict critical distance ceiling is B2.1 + 1e-6mm (numerical tolerance); no new relaxed electrical limit invented. Pin-forced exceptions to ideal rows must be listed.
+Ruling: no numerical bbox enlargement threshold invented; hold IC/interface macro anchors and keep original body bbox where possible. Record actual size.
+Task2 first adjustment FAILED at ADC_DVDD: previously placed cap bank consumed an unprocessed critical site. First code and traceback preserved; not physical instability. Added original-site reservation for future critical passives, releasing a reservation only after adoption. Real-geometry regression RESERVATION_RED failed then RESERVATION_GREEN passed; no layout stage started by regression. Adjustment01 partial coordinates were not emitted before exception; this evidence gap is stated. Only one remaining full adjustment, no third.
+Task2: completed second and final adjustment;125changed,94noincrease,15400pairs each0. Task3: independent real-pad audit found5extra local increases, preserveHOLD, no thirdadjustment. Task4: exactlyoneimage exported/viewed. Further coordinates/figures STOP. Pending onefresh finalreview and GitHubhandoff.
+Ruling: additional pin-local failure and unmatchedtemplate requirements remain visible; overallPARTIALHOLD, no numerical relaxation or permission to correct outside2passes.
+Task4 final fresh review complete Critical0/Important2/Minor1; one doc/audit correction pass with7GREEN. Ruling: regrade wrong12-versus10 audit denominator Important for exact coverage, same correctionpass no geometry cost. Ruling: BIAS central pair is PARTIAL/HOLD against common-axis requirement. No deferred polish fixed, no native/candidate rerun, no secondreview. All5extra distance failures remain scientific/engineering-limit evidence.

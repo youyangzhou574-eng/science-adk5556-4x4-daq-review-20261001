@@ -1,0 +1,37 @@
+{
+  "utc": "2026-10-02T13:25:47.376983+00:00",
+  "identity": {
+    "components": 176,
+    "pads": 552,
+    "assigned": 514,
+    "nets": 107,
+    "ordinaryNC": 36,
+    "mechanicalEmpty": [
+      [
+        "J2",
+        "MP1",
+        ""
+      ],
+      [
+        "J2",
+        "MP2",
+        ""
+      ]
+    ]
+  },
+  "criticalInherited94": "PASS_NO_INCREASE",
+  "extraDecap": "HOLD_FIVE",
+  "overlapCompletePairsEach": 15400,
+  "image": {
+    "path": "PLACEMENT_B21_VS_B22.png",
+    "pixels": [
+      3600,
+      1800
+    ],
+    "sha256": "c7ebbfd934aeaf0723c78944ae11f84092014fedfcc3813c99c8be104a444441",
+    "actualViewed": true
+  },
+  "noThirdAdjustmentOrSecondImage": true,
+  "frozenInputSourceAndCopies7PASS": true,
+  "nativeUnmodified": true
+}

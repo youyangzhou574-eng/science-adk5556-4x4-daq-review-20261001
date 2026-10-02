@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B22_STRUCTURED_CHANNEL_ARRAY_PLACEMENT_V1\structured_placement.py", line 176, in <module>
+    if __name__=='__main__':stage()
+                            ~~~~~^^
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B22_STRUCTURED_CHANNEL_ARRAY_PLACEMENT_V1\structured_placement.py", line 137, in stage
+    if not rowfit(name,refs,span=10):retain(name,refs,'Exact closest cap pin limits prevent full bank at finite templates')
+                                     ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B22_STRUCTURED_CHANNEL_ARRAY_PLACEMENT_V1\structured_placement.py", line 78, in retain
+    if not adopt(name,ps,{'kind':'PIN_FORCED_BASELINE','reason':reason}):raise RuntimeError('Cannot retain '+name+' without collision')
+                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Cannot retain ADC_DVDD without collision
