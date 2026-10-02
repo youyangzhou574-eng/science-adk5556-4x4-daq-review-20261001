@@ -1,0 +1,14 @@
+{
+  "parts": 101,
+  "actualSCHPins": 363,
+  "physicalSignalPads": 363,
+  "missingOrExtraPadNumbers": [],
+  "all101IdentityNetSources": "coldactual",
+  "usedOldB311WorldPositions": false,
+  "J2OldKKExcluded": true,
+  "J2ExactNativeFootprintReplaced": false,
+  "J2MechanicalPlaceholderCount": 2,
+  "sourceAcquisitions": 0,
+  "unit": "native mil * .0254 mm",
+  "allOtherGeometryFromCurrentExportFootprintDocuments": true
+}

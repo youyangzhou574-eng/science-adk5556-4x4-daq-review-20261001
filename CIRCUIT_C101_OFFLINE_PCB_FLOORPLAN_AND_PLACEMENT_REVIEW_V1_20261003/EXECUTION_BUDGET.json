@@ -1,0 +1,94 @@
+{
+  "scope": "CIRCUIT-C101-OFFLINE-PCB-FLOORPLAN-AND-PLACEMENT-REVIEW-V1",
+  "rulingAssistant": "2a9ac0f3-75b9-4f8c-9ab3-316418e46572",
+  "parentUser": "b77ea843-d432-48f0-a33c-e005ff54f11a",
+  "startUTC": "2026-10-02T21:29:31.943110+00:00",
+  "deadlineUTC": "2026-10-03T01:29:31.943110+00:00",
+  "limits": {
+    "candidate": 2,
+    "placement": 3,
+    "image": 2,
+    "source": 0,
+    "CAD": 0,
+    "session": 0,
+    "save": 0,
+    "export": 0,
+    "SPICE": 0,
+    "PCB": 0,
+    "routing": 0,
+    "via": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "spent": {
+    "candidate": 2,
+    "placement": 3,
+    "image": 2,
+    "source": 0,
+    "CAD": 0,
+    "session": 0,
+    "save": 0,
+    "export": 0,
+    "SPICE": 0,
+    "PCB": 0,
+    "routing": 0,
+    "via": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "events": [
+    {
+      "utc": "2026-10-02T21:39:16.957481+00:00",
+      "kind": "candidate",
+      "count": 2,
+      "why": "P1 horizontal / P2 L, sole two macro candidates, blank101 inputs"
+    },
+    {
+      "utc": "2026-10-02T21:39:16.962757+00:00",
+      "kind": "placement",
+      "count": 1,
+      "why": "First complete attempt to place all101 in both candidates; all failure counts retained"
+    },
+    {
+      "utc": "2026-10-02T21:40:07.369369+00:00",
+      "kind": "placement",
+      "count": 1,
+      "why": "Complete attempt2 to place all101 in both same macro candidates; failures charged"
+    },
+    {
+      "utc": "2026-10-02T21:41:47.506203+00:00",
+      "kind": "placement",
+      "count": 1,
+      "why": "Complete attempt3 to place all101 in both same macro candidates; failures charged"
+    },
+    {
+      "utc": "2026-10-02T21:43:39.490159+00:00",
+      "kind": "continuation",
+      "count": 0,
+      "why": "P2 never attempted before P1 thirdpass exception; exact same P2/targets/template/lattice. Continue unused P2 half of precharged thirdpass. No P1 replay or fourthpass."
+    },
+    {
+      "utc": "2026-10-02T21:47:29.805685+00:00",
+      "kind": "image",
+      "count": 2,
+      "why": "Exactlyone P1 andone P2 partial-review drawing; missing actualparts visible, no extra render"
+    }
+  ],
+  "STOP": true,
+  "coordinateSTOP": true,
+  "phase": "COORDINATES_AND_IMAGES_COMPLETE_BLOCKED_DELIVERY_ONLY",
+  "coordinateSTOPUTC": "2026-10-02T21:46:08.796472+00:00",
+  "coordinateSTOPReason": "THREE_PLACEMENT_ATTEMPTS_USED_BOTH_CANDIDATES_ADC_CAP_LOCAL_NEIGHBORHOOD_INCOMPLETE",
+  "STOPUTC": "2026-10-02T21:47:46.655613+00:00",
+  "STOPReason": "BOTH_PARTIAL_ADC_CAP_LOCAL_SPACE_FAILURE_THREE_PLACEMENT_TWO_IMAGE_QUOTAS_USED"
+}

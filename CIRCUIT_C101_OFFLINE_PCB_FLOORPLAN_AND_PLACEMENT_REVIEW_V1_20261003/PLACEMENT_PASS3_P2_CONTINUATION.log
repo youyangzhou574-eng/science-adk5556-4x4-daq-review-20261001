@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_C101_OFFLINE_PCB_FLOORPLAN_AND_PLACEMENT_REVIEW_V1\create_two_floorplans.py", line 97, in <module>
+    if best is None:raise ValueError('No bounded legal location '+r+' '+name)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: No bounded legal location C_AVDD9B P2

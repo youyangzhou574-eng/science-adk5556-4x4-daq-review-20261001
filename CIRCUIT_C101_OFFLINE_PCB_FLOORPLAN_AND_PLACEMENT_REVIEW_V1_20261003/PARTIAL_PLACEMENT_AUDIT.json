@@ -1,0 +1,239 @@
+{
+  "P1": {
+    "status": "PARTIAL_NOT_VALID_FULL_PLACEMENT",
+    "plannedBoardMm": [
+      50,
+      50
+    ],
+    "aspectRatio": 1.0,
+    "actualPlacedCount": 89,
+    "actualAllIdentities": 101,
+    "unplaced": [
+      "C_AVDD9_HF",
+      "C_DIV",
+      "C_DVDD34A",
+      "C_DVDD34B",
+      "C_LDO_FF",
+      "C_LDO_IN",
+      "C_LDO_OUT",
+      "C_MCU_BULK",
+      "C_PWR",
+      "C_REFCAP_BULKA",
+      "C_REFCAP_BULKB",
+      "C_REFIO_B"
+    ],
+    "placedPhysicalPads": 339,
+    "all363PinMapFrozen": true,
+    "actualPartialPairs": {
+      "pairs": 3916,
+      "physicalProxyCollisions": [],
+      "bodyCollisions": [],
+      "minimumProxyGapMm": 0.20000360000000225,
+      "minimumPair": [
+        "C_ADCD",
+        "C_AVDD30A"
+      ]
+    },
+    "all5050PairQualification": false,
+    "FFCReserveViolation": [],
+    "outsidePlanningBoard": [],
+    "feedbackStubMetrics": [
+      {
+        "channel": 0,
+        "feedback": [
+          {
+            "ref": "RF0",
+            "twoLeadStubSumMm": 6.1763053457602695
+          },
+          {
+            "ref": "CF0",
+            "twoLeadStubSumMm": 5.841437569207661
+          }
+        ]
+      },
+      {
+        "channel": 1,
+        "feedback": [
+          {
+            "ref": "RF1",
+            "twoLeadStubSumMm": 5.837712060523961
+          },
+          {
+            "ref": "CF1",
+            "twoLeadStubSumMm": 6.164779191773524
+          }
+        ]
+      },
+      {
+        "channel": 2,
+        "feedback": [
+          {
+            "ref": "RF2",
+            "twoLeadStubSumMm": 6.006844516954448
+          },
+          {
+            "ref": "CF2",
+            "twoLeadStubSumMm": 5.973786752956173
+          }
+        ]
+      },
+      {
+        "channel": 3,
+        "feedback": [
+          {
+            "ref": "RF3",
+            "twoLeadStubSumMm": 5.969596253303968
+          },
+          {
+            "ref": "CF3",
+            "twoLeadStubSumMm": 5.997523910747954
+          }
+        ]
+      }
+    ],
+    "filterSignalMetrics": [
+      {
+        "channel": 0,
+        "RIAtoADCPinStubSumMm": 15.267660634605203,
+        "filterCapSignalPadToAINmm": 1.611543258383716
+      },
+      {
+        "channel": 1,
+        "RIAtoADCPinStubSumMm": 8.3318505570344,
+        "filterCapSignalPadToAINmm": 1.502269771196241
+      },
+      {
+        "channel": 2,
+        "RIAtoADCPinStubSumMm": 7.351639327445508,
+        "filterCapSignalPadToAINmm": 1.5019483127198487
+      },
+      {
+        "channel": 3,
+        "RIAtoADCPinStubSumMm": 14.669729854366288,
+        "filterCapSignalPadToAINmm": 1.6134343660087316
+      }
+    ],
+    "J2Geometry": "conservative FFC14x7 placeholder; signaltaildatum/range not manufacturer qualified",
+    "nativeCADDRCPerformed": false,
+    "globallyShortestRoutingProven": false
+  },
+  "P2": {
+    "status": "PARTIAL_NOT_VALID_FULL_PLACEMENT",
+    "plannedBoardMm": [
+      50,
+      50
+    ],
+    "aspectRatio": 1.0,
+    "actualPlacedCount": 88,
+    "actualAllIdentities": 101,
+    "unplaced": [
+      "C_AVDD9B",
+      "C_AVDD9_HF",
+      "C_DIV",
+      "C_DVDD34A",
+      "C_DVDD34B",
+      "C_LDO_FF",
+      "C_LDO_IN",
+      "C_LDO_OUT",
+      "C_MCU_BULK",
+      "C_PWR",
+      "C_REFCAP_BULKA",
+      "C_REFCAP_BULKB",
+      "C_REFIO_B"
+    ],
+    "placedPhysicalPads": 337,
+    "all363PinMapFrozen": true,
+    "actualPartialPairs": {
+      "pairs": 3828,
+      "physicalProxyCollisions": [],
+      "bodyCollisions": [],
+      "minimumProxyGapMm": 0.20000360000000048,
+      "minimumPair": [
+        "C_ADCA1",
+        "C_ADC_REFIO"
+      ]
+    },
+    "all5050PairQualification": false,
+    "FFCReserveViolation": [],
+    "outsidePlanningBoard": [],
+    "feedbackStubMetrics": [
+      {
+        "channel": 0,
+        "feedback": [
+          {
+            "ref": "RF0",
+            "twoLeadStubSumMm": 6.1763053457602695
+          },
+          {
+            "ref": "CF0",
+            "twoLeadStubSumMm": 5.84143756920766
+          }
+        ]
+      },
+      {
+        "channel": 1,
+        "feedback": [
+          {
+            "ref": "RF1",
+            "twoLeadStubSumMm": 5.837712060523961
+          },
+          {
+            "ref": "CF1",
+            "twoLeadStubSumMm": 6.164779191773524
+          }
+        ]
+      },
+      {
+        "channel": 2,
+        "feedback": [
+          {
+            "ref": "RF2",
+            "twoLeadStubSumMm": 6.006844516954448
+          },
+          {
+            "ref": "CF2",
+            "twoLeadStubSumMm": 5.973786752956173
+          }
+        ]
+      },
+      {
+        "channel": 3,
+        "feedback": [
+          {
+            "ref": "RF3",
+            "twoLeadStubSumMm": 5.969596253303969
+          },
+          {
+            "ref": "CF3",
+            "twoLeadStubSumMm": 5.997523910747952
+          }
+        ]
+      }
+    ],
+    "filterSignalMetrics": [
+      {
+        "channel": 0,
+        "RIAtoADCPinStubSumMm": 12.552346652309833,
+        "filterCapSignalPadToAINmm": 1.611543258383716
+      },
+      {
+        "channel": 1,
+        "RIAtoADCPinStubSumMm": 14.715384757066692,
+        "filterCapSignalPadToAINmm": 1.5022697711962392
+      },
+      {
+        "channel": 2,
+        "RIAtoADCPinStubSumMm": 17.91840185411155,
+        "filterCapSignalPadToAINmm": 1.5019483127198487
+      },
+      {
+        "channel": 3,
+        "RIAtoADCPinStubSumMm": 19.44763606081114,
+        "filterCapSignalPadToAINmm": 1.6134343660087316
+      }
+    ],
+    "J2Geometry": "conservative FFC14x7 placeholder; signaltaildatum/range not manufacturer qualified",
+    "nativeCADDRCPerformed": false,
+    "globallyShortestRoutingProven": false
+  }
+}

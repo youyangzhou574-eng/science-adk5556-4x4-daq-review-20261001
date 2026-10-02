@@ -1,0 +1,2 @@
+{"image": "P1_PARTIAL_REVIEW.png", "placed": 89, "missing": ["C_AVDD9_HF", "C_DIV", "C_DVDD34A", "C_DVDD34B", "C_LDO_FF", "C_LDO_IN", "C_LDO_OUT", "C_MCU_BULK", "C_PWR", "C_REFCAP_BULKA", "C_REFCAP_BULKB", "C_REFIO_B"]}
+{"image": "P2_PARTIAL_REVIEW.png", "placed": 88, "missing": ["C_AVDD9B", "C_AVDD9_HF", "C_DIV", "C_DVDD34A", "C_DVDD34B", "C_LDO_FF", "C_LDO_IN", "C_LDO_OUT", "C_MCU_BULK", "C_PWR", "C_REFCAP_BULKA", "C_REFCAP_BULKB", "C_REFIO_B"]}

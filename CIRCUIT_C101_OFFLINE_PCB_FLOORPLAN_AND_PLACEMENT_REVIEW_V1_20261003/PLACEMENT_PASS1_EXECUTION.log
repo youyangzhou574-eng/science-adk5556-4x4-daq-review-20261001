@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_C101_OFFLINE_PCB_FLOORPLAN_AND_PLACEMENT_REVIEW_V1\create_two_floorplans.py", line 48, in <module>
+    for r,ic,pin in [('D_DBG0','J3',3),('D_DBG1','J3',4),('D_DBG2','J4',3),('D_DBG3','J4',4)]:add(r,ic,pin)
+                                                                                              ~~~^^^^^^^^^^
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_C101_OFFLINE_PCB_FLOORPLAN_AND_PLACEMENT_REVIEW_V1\create_two_floorplans.py", line 19, in add
+    assert any(z[3]=='primary'for z in pairs),ref+' wrongICpinnet'
+           ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: D_DBG0 wrongICpinnet

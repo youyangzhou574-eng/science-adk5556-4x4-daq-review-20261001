@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_C101_OFFLINE_PCB_FLOORPLAN_AND_PLACEMENT_REVIEW_V1\create_two_floorplans.py", line 1, in <module>
+    from floorplan_core import *
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_C101_OFFLINE_PCB_FLOORPLAN_AND_PLACEMENT_REVIEW_V1\floorplan_core.py", line 3, in <module>
+    from shapely.geometry import Polygon,box
+ModuleNotFoundError: No module named 'shapely'
