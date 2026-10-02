@@ -1,0 +1,522 @@
+[
+  {
+    "type": "FOOTPRINT",
+    "uuid": "87b2e6ab0bf2243f",
+    "lines": 57
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "268e6597399ebcce_1cca92df09a37573",
+    "lines": 63
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "fcf73cc6c69536a8",
+    "lines": 46
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "6e95b9266e8dd13f",
+    "lines": 48
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "18b8d917d8ac632d",
+    "lines": 61
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "8f6590523b82983d",
+    "lines": 46
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "9c03f5c4cb2f3661",
+    "lines": 63
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "8a281445258384ed",
+    "lines": 156
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "79b7f68a57a08713",
+    "lines": 49
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "e13794d22038af93",
+    "lines": 145
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "54b100f56e34bff6",
+    "lines": 48
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "805f84989d4eb67b",
+    "lines": 45
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "8d653659d6851f0a",
+    "lines": 84
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "e1806bcee69fe169",
+    "lines": 46
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "b5b342032f55f019",
+    "lines": 49
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "8ef6c020c23f0901",
+    "lines": 47
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "d995893935488a99",
+    "lines": 101
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "b6beb3a5f30c65ef",
+    "lines": 96
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "389528125cb39182",
+    "lines": 37
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "86c2210f191537f2",
+    "lines": 127
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "2578b68e24d8fda8",
+    "lines": 54
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "30a78edf30be82ba",
+    "lines": 66
+  },
+  {
+    "type": "FOOTPRINT",
+    "uuid": "3e3bff9cd60aaa06",
+    "lines": 45
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "c9d0e41bc1789a6b",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "008e06ac62a44ca2",
+    "lines": 18
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "6794753136195d32",
+    "lines": 40
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "2ea9251e81d71f13",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "a97a6121739de151",
+    "lines": 35
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "6fa415b63dcae87a",
+    "lines": 18
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "36fb1c3fbcc9e76b",
+    "lines": 60
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "7458b8d74db94c3f",
+    "lines": 200
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "c0ae673bc52f8833",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "0eb6383879fe44de",
+    "lines": 170
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "fb7b9320b3283bd4",
+    "lines": 38
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "6352a84b8306480b",
+    "lines": 30
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "f465ea434779ef28",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "c82cd5b15c2a7fa5",
+    "lines": 50
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "093c64318fa35e97",
+    "lines": 80
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "a4437ebcb3539518",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "12f5ef329d4fc881",
+    "lines": 18
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "3252edd3f1bcab11",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "93c978478f17e324",
+    "lines": 22
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "97745400aa205dfa",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "b3c04c865912a833",
+    "lines": 18
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "cfa87d883626a410",
+    "lines": 27
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "4046d0f7715102d1",
+    "lines": 110
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "35f3f4a038a12c9a",
+    "lines": 80
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "8e7a8771cc10f83e",
+    "lines": 18
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "8377db38348052ef",
+    "lines": 22
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "00ff3d39f63d9216",
+    "lines": 20
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "ad62b8f1e3eed187",
+    "lines": 15
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "dd5564d1a929f5c9",
+    "lines": 18
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "48017378bac6481c",
+    "lines": 23
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "15aa2bc0f92a7177",
+    "lines": 35
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "27920fc2a51f779c",
+    "lines": 50
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "d43bda570f1fba99",
+    "lines": 18
+  },
+  {
+    "type": "SYMBOL",
+    "uuid": "b066fd5c5450919f",
+    "lines": 23
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "825eaa64337437e7",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "4226d164d9f5aae4",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "32e1c920d4a87846",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "605cf0bfe3c44cec",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "1ac1234f8aeb37f0",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "8aec5cd33659fe46",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "5d47f8850284aa6a",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "c9f6d1092d887b6f",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "e09e4226f0657990",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "a06b7f35b358beed",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "46f4ed815ecd8548",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "c41725a70d53db08",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "69b7c04d3f0fa077",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "23632a4cfdbe4fec",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "7666615a7e9661d1",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "68c3a374b471fad6",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "682b58fccdafcded",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "18c7f02058864e20",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "e5f95925fa9c28bf",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "71e7e9d09ea8680f",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "3987d5dbad251af4",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "3c64e07783d6269c",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "6b7f8a0cf29ef171",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "8bdee69daa59420a",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "b41fae98d0119ec7",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "12d32d2a0b765184",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "092708fde04aeb8a",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "bac146b35b35db45",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "4af96e4885b44a55",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "335f968d512ae127",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "b81b87f521739a9f",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "937cf8b7919a47e5",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "5c642ef4bc3b802c",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "6646748c476cee98",
+    "lines": 2
+  },
+  {
+    "type": "DEVICE",
+    "uuid": "2a04943b39492029",
+    "lines": 2
+  },
+  {
+    "type": "BOARD",
+    "uuid": "bbb69e712ca8f83c",
+    "lines": 2
+  },
+  {
+    "type": "SCH",
+    "uuid": "32047f874e6d71ce",
+    "lines": 4
+  },
+  {
+    "type": "SCH_PAGE",
+    "uuid": "802bf258e0d38cab",
+    "lines": 1765
+  },
+  {
+    "type": "SCH_PAGE",
+    "uuid": "52a8a60e5711e55b",
+    "lines": 1280
+  },
+  {
+    "type": "SCH_PAGE",
+    "uuid": "49bb518d907ff185",
+    "lines": 1796
+  },
+  {
+    "type": "SCH_PAGE",
+    "uuid": "595d5f2f11dee03d",
+    "lines": 1503
+  },
+  {
+    "type": "SCH_PAGE",
+    "uuid": "5f9caa2aebdf4356",
+    "lines": 1160
+  },
+  {
+    "type": "SCH_PAGE",
+    "uuid": "cae95ff24beaad15",
+    "lines": 2530
+  },
+  {
+    "type": "PCB",
+    "uuid": "268e6597399ebcce",
+    "lines": 2815
+  },
+  {
+    "type": "CONFIG",
+    "uuid": "CONFIG",
+    "lines": 3
+  },
+  {
+    "type": "PANEL",
+    "uuid": "b62d4211cd5cae87",
+    "lines": 2
+  },
+  {
+    "type": "BLOB",
+    "uuid": "BLOB",
+    "lines": 2
+  }
+]

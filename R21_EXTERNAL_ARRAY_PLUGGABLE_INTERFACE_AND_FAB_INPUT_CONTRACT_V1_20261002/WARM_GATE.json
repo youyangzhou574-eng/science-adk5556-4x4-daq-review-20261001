@@ -1,0 +1,41 @@
+{
+  "stage": "WARM",
+  "parts": 176,
+  "pads": 550,
+  "assigned": 514,
+  "nets": 107,
+  "NC": 36,
+  "other175Core": true,
+  "other175Differences": [],
+  "all550PadNetSame": true,
+  "rulesSame": true,
+  "primaryCopperSame": {
+    "LINE": true,
+    "VIA": true,
+    "POUR": true,
+    "PAD_NET": true
+  },
+  "otherSchematicSourceSameExcluding3TransportHeaderFields": {
+    "Power_Reference": true,
+    "Rows_8lead_Interface": true,
+    "Continuous_Column_TIAs": true,
+    "ADS8684_Decoupling": true,
+    "MCU_Protected_Interfaces": true,
+    "Power_Qualification": true
+  },
+  "headerExclusions": [
+    "DOCHEAD.client",
+    "DOCHEAD.updateTime",
+    "DOCHEAD.version"
+  ],
+  "J2positionSame": true,
+  "J2padCoordinatesSame": true,
+  "J2name": "1718560008",
+  "J2footprint": {
+    "libraryUuid": "ee4f96f0b67e0b9c85e719fedce50790f5a49c47e4db3392e90aea8fef4c93c9",
+    "uuid": "87b2e6ab0bf2243f",
+    "name": "MOLEX_1718560008_MFR_SD171856_R17"
+  },
+  "DRCempty": true,
+  "PASS": true
+}

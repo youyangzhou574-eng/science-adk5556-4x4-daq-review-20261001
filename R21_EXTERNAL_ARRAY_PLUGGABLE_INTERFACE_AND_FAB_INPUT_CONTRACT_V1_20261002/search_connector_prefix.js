@@ -1,0 +1,1 @@
+const libraryUuid=await eda.lib_LibrariesList.getSystemLibraryUuid(); return {libraryUuid,items:await eda.lib_Device.search('171856',libraryUuid,undefined,undefined,40,1)};

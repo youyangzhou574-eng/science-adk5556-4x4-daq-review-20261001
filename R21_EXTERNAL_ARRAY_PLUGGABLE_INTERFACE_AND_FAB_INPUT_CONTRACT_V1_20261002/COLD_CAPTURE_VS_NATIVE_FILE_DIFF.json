@@ -1,0 +1,45 @@
+{
+  "COMPONENT": {
+    "added": [],
+    "missing": [],
+    "changed": []
+  },
+  "PAD_NET": {
+    "added": [],
+    "missing": [],
+    "changed": []
+  },
+  "ATTR": {
+    "added": [],
+    "missing": [],
+    "changed": []
+  },
+  "LINE": {
+    "added": [
+      "137f992f55430857",
+      "21f945bfa3a6372f"
+    ],
+    "missing": [],
+    "changed": []
+  },
+  "VIA": {
+    "added": [],
+    "missing": [],
+    "changed": []
+  },
+  "POUR": {
+    "added": [],
+    "missing": [],
+    "changed": []
+  },
+  "POLY": {
+    "added": [],
+    "missing": [],
+    "changed": []
+  },
+  "RULE": {
+    "added": [],
+    "missing": [],
+    "changed": []
+  }
+}

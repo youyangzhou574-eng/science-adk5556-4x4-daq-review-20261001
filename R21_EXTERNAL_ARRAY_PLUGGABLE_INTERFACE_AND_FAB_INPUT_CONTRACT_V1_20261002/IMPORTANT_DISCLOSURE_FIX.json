@@ -1,0 +1,8 @@
+{
+  "nativeBeforeAndAfterIdentical": true,
+  "noNativeFixWithinExhaustedQuota": true,
+  "originalReportClaimIncomplete": true,
+  "newGateFalseAndMandatoryCompanion": true,
+  "requiresNewUnifiedDecision": true,
+  "oneDocumentationFixPass": true
+}

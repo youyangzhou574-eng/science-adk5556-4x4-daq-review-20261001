@@ -1,0 +1,42 @@
+id,item,status,evidence,requiredInputOrAction,scope
+G01,Accepted electrical PCB baseline,PASS,Pro16; e9c1b72; warm/coldnativeDRCall0 inherited,no new DRC,electrical review only; not manufacture
+G02,Board100x90mm/fourlayer order,PASS,native POLY11 bounds100.00000066x90.00000034; layers1/15/16/2,,read-only preflight
+G03,6/12/16/20mil existing traces,PASS,actual909 widths counts756/100/7/46; no edits,,existing width geometry only
+G04,Selected copper thickness/trace-spacing capability,PENDING_INPUT,"min6mil; frozen rule TrackTrack~.102mm, pad~.152mm, zone.254mm",fabricator+outside/inside copper weight; current10mil not universal,read-only preflight
+G05,297throughvias12/24mil,PASS,native drills.3048 pads.6096 ring.1524mm,,"geometry dimensions, not finishedhole guarantee"
+G06,Hole-hole and user copper-to-edge screen,PASS,min holepair.31115mm; via2.39413 trace2.44493 pad4.06926mm,,"existing CAD geometry; ellipse approximation/rounded API centers, not CAM"
+G07,4POUR and e307 region,PASS,"inherited warm/cold0; keepIslandfalse; accepted fifteenfill update, existing fourlayerPNG inspected",,no obvious island in evidence; not full fabricated copper continuity
+G08,Selected boardedge/routing/panel process,PENDING_INPUT,currentnominalrectangular100x90; no factory data,fabroute/vcut/panel/tooling contract,read-only preflight
+G09,Partpad-number coverage,PASS,176/550 actual-number sets match frozen22 nativeFP docs,,numbers only; prior electricalmapping accepted
+G10,OPA4388/OPA2388 package pitch,PASS,U1/U2 14pad1.27mm;U3 8pad1.27mm; prioracceptedpinmap,,currentgeometry/identity
+G11,TMUX1134 package pitch,PASS,U4 20pad;native TSSOP.65mm; prioracceptedpinmap,,currentgeometry/identity
+G12,ADS8684 package number/pitch/orientation,PASS,U5 38pads .5mm nominal rotation180 pin1rightbottom; DBT0038A,,not blanketland/stencilqualification
+G13,STM32G031K8T6 number/pitch/orientation,PASS,U7 32pad.8mm LQFP32 body7x7 rotation0; ST DS12992rev4,,not blanketland/stencilqualification
+G14,LM73100RPWR 10-electrode pattern,PASS,U9/U10 10pad;RPW0010A corners and5/6longlands; no additionalEP,,package hasmixed.45/.475 geometry
+G15,TPS389001DSET 6-electrode pattern,PASS,U11/U12 6pad .5mm DSE; no7thEP,,onlypin/patterncoverage
+G16,BAT54S215 pinpattern/polarity netmap,PASS,1GND/2V5/3output forD_TIA0;SOT23 split2+1;Nexperiap5,,assembly polarity must stillcheck
+G17,J1-J4 pinpitch/drill geometry,PASS,2/8/6/4nativePTHpads2.54mm;1.1/1.0/1.2/1.1mmholes,,"nativeholeauthority, API summarynot drillunits"
+G18,J1-J4 exactMPN/mechanicalmating,PENDING_INPUT,Manufacturer/MPN fourheadersblank,exactmaker/MPN/pinsection/height/matingorientation,read-only preflight
+G19,ExistingstructuredBOM,PASS,176rows Manufacturer/MPN/Value/Footprint/Qty; Descriptionexcluded,,extractioncoverage;4genericheadersstillpending
+G20,Finepitchmask/stencil/land acceptance,PENDING_INPUT,U9/U10 maskbridge~.090081mm;U5~.096774mm; currentlandsexamplesnotstrictsame,factorymaskcapabilities+land/stencilapproval; ifrejectconcentratedminimalECO,read-only preflight
+G21,Nominal2Dbodyoverlap screen,PASS,"175supportedbodyoutlines,0overlappairs;min.300002mm",,notall176/fullcourtyard/3D
+G22,Courtyard/3D/toolspace/pin1silkscreen,PENDING_INPUT,U6supportedbodymissing; redplotcomponentmarkingnotfinalsilkcertificate,assembler+selectedparttolerance/mechanicalapproval,read-only preflight
+G23,Existingprobe access,PASS,13nets candidates CSV; PGOOD R_RST.2;TIA0distinctTIA_DRV0,,"padpresenceonly, no benchrelease"
+G24,Instruments/operator/assembledsample,PENDING_INPUT,no userconcreteinputs,physicalboard/probes/operators/powerrelease,read-only preflight
+C01,Fabricator/service/stackup,PENDING_INPUT,notselected,user/fabchoice,read-only preflight
+C02,Boardthickness/tolerance,PENDING_INPUT,unknown,user/fab,read-only preflight
+C03,Copperweights,PENDING_INPUT,unknown,user/fab,read-only preflight
+C04,Laminate/core/prepreg/Tg/flame/UL,PENDING_INPUT,unknown,user/fab,read-only preflight
+C05,Finish,PENDING_INPUT,unknown,user/fab,read-only preflight
+C06,Maskcolor/expansion/tolerance/via treatment,PENDING_INPUT,existingrulesnotfabcontract,user/fabCAM,read-only preflight
+C07,Drillplating/tolerance/finishedholedefinition,PENDING_INPUT,CADdimensionsknownnotproductionguarantee,fabricator,read-only preflight
+C08,Panel/fiducials/tooling,PENDING_INPUT,no packageadded,assembler/fab,read-only preflight
+C09,Stencil/reflow/inspection,PENDING_INPUT,QFN-HR/WSONbottomcontacts,assemblerprocess,read-only preflight
+C10,Manufacturingdata generation/approval,PENDING_INPUT,Gerber/drill/CPL/order0,separateuserauthorizationandfabDFM,read-only preflight
+N01,Controlledimpedance,NOT_APPLICABLE,none requested/nativecontract,do notintroduceSI/PI,read-only preflight
+N02,Castellations/HDI/blindburied/newslots,NOT_APPLICABLE,notrequested/no suchobject,no specialprocessadded,read-only preflight
+N03,Descriptionencoding/legacyPDFannotationasfabblock,NOT_APPLICABLE,excludedBOMauthority; historicdocumentsremain,no tools/libraryrepair,read-only preflight
+J2-01,Molex 1718560008/22012087 compatible mating series,PASS,Manufacturer-authored exacthousing product sheet names171856/171857; 8position drawing table,No availability or currentActive claim,default new matched connector standard
+J2-02,Actual project-local8pad footprint and warm/cold fourclassDRC,PASS,Actual File footprint8holes1.14mm;1.70mm copper;2.54mm pitch;actual8pin ROW/COL;warm/coldDRCempty,Generic device association retained; use assembly MPN override and qualified project footprint,J2-only ECO
+J2-03,Exact crimp terminal and supplied cable,PENDING_INPUT,Housing2695-8R series22-30AWG/max insulation1.57mm; exact terminal not selected,Actual conductorAWG and insulation diameter; terminalplating/crimp tooling; continuity pin1 mapping,No purchase or physical matching claim
+J2-04,Full mated3D/enclosure envelope,PENDING_INPUT,2D bodyinside100x90board; verticalaccess expected with no enclosure model,Enclosure height and strainrelief/cable bend; old generic3D association is NOT qualified,No full3D mechanical release

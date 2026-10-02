@@ -1,0 +1,149 @@
+{
+  "started_utc": "2026-10-02T04:23:52.061707+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "91b63e42-6f8c-4581-b775-1bc0e7f07d3e",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='ee4f96f0b67e0b9c85e719fedce50790f5a49c47e4db3392e90aea8fef4c93c9')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');const c=(await eda.pcb_PrimitiveComponent.getAll()).find(c=>c.getState_Designator()==='J2');return {ref:c.getState_Designator(),footprint:c.getState_Footprint(),name:c.getState_Name(),pads:(await eda.pcb_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId())).map(p=>({number:String(p.getState_PadNumber()),net:p.getState_Net(),pad:p.getState_Pad(),hole:p.getState_Hole()})),scope:'Partial J2 ECO working observation only; no whole-board/source/file audit',explicitSaveCalled:false};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"ref\":\"J2\",\"footprint\":{\"libraryUuid\":\"ee4f96f0b67e0b9c85e719fedce50790f5a49c47e4db3392e90aea8fef4c93c9\",\"uuid\":\"87b2e6ab0bf2243f\",\"name\":\"MOLEX_1718560008_MFR_SD171856_R17\"},\"name\":\"1718560008\",\"pads\":[{\"number\":\"1\",\"net\":\"ROW0\",\"pad\":[\"RECT\",66.9,66.9,0],\"hole\":[\"ROUND\",4.48819,4.48819]},{\"number\":\"2\",\"net\":\"ROW1\",\"pad\":[\"ELLIPSE\",66.9,66.9],\"hole\":[\"ROUND\",4.48819,4.48819]},{\"number\":\"3\",\"net\":\"ROW2\",\"pad\":[\"ELLIPSE\",66.9,66.9],\"hole\":[\"ROUND\",4.48819,4.48819]},{\"number\":\"4\",\"net\":\"ROW3\",\"pad\":[\"ELLIPSE\",66.9,66.9],\"hole\":[\"ROUND\",4.48819,4.48819]},{\"number\":\"5\",\"net\":\"COL0\",\"pad\":[\"ELLIPSE\",66.9,66.9],\"hole\":[\"ROUND\",4.48819,4.48819]},{\"number\":\"6\",\"net\":\"COL1\",\"pad\":[\"ELLIPSE\",66.9,66.9],\"hole\":[\"ROUND\",4.48819,4.48819]},{\"number\":\"7\",\"net\":\"COL2\",\"pad\":[\"ELLIPSE\",66.9,66.9],\"hole\":[\"ROUND\",4.48819,4.48819]},{\"number\":\"8\",\"net\":\"COL3\",\"pad\":[\"ELLIPSE\",66.9,66.9],\"hole\":[\"ROUND\",4.48819,4.48819]}],\"scope\":\"Partial J2 ECO working observation only; no whole-board/source/file audit\",\"explicitSaveCalled\":false},\"logs\":[],\"durationMs\":98}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "ref": "J2",
+      "footprint": {
+        "libraryUuid": "ee4f96f0b67e0b9c85e719fedce50790f5a49c47e4db3392e90aea8fef4c93c9",
+        "uuid": "87b2e6ab0bf2243f",
+        "name": "MOLEX_1718560008_MFR_SD171856_R17"
+      },
+      "name": "1718560008",
+      "pads": [
+        {
+          "number": "1",
+          "net": "ROW0",
+          "pad": [
+            "RECT",
+            66.9,
+            66.9,
+            0
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        },
+        {
+          "number": "2",
+          "net": "ROW1",
+          "pad": [
+            "ELLIPSE",
+            66.9,
+            66.9
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        },
+        {
+          "number": "3",
+          "net": "ROW2",
+          "pad": [
+            "ELLIPSE",
+            66.9,
+            66.9
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        },
+        {
+          "number": "4",
+          "net": "ROW3",
+          "pad": [
+            "ELLIPSE",
+            66.9,
+            66.9
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        },
+        {
+          "number": "5",
+          "net": "COL0",
+          "pad": [
+            "ELLIPSE",
+            66.9,
+            66.9
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        },
+        {
+          "number": "6",
+          "net": "COL1",
+          "pad": [
+            "ELLIPSE",
+            66.9,
+            66.9
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        },
+        {
+          "number": "7",
+          "net": "COL2",
+          "pad": [
+            "ELLIPSE",
+            66.9,
+            66.9
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        },
+        {
+          "number": "8",
+          "net": "COL3",
+          "pad": [
+            "ELLIPSE",
+            66.9,
+            66.9
+          ],
+          "hole": [
+            "ROUND",
+            4.48819,
+            4.48819
+          ]
+        }
+      ],
+      "scope": "Partial J2 ECO working observation only; no whole-board/source/file audit",
+      "explicitSaveCalled": false
+    },
+    "logs": [],
+    "durationMs": 98
+  }
+}

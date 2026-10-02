@@ -1,0 +1,18 @@
+{
+  "UTC": "2026-10-02T03:29:56.957440+00:00",
+  "scope": "Same two already-accounted drawings; per-request no proxy only, no environment/profile/network/system settings changed, no security barrier bypass",
+  "results": [
+    {
+      "name": "171856_CUSTOMER_DRAWING.pdf",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/171/171856/1718560002_sd.pdf",
+      "downloaded": false,
+      "error": "TimeoutError:The read operation timed out"
+    },
+    {
+      "name": "22012087_CUSTOMER_DRAWING.pdf",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/269/2695/022012087_sd.pdf",
+      "downloaded": false,
+      "error": "TimeoutError:The read operation timed out"
+    }
+  ]
+}

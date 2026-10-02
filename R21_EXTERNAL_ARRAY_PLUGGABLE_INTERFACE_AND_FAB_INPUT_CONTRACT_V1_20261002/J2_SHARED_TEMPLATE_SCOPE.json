@@ -1,0 +1,8 @@
+{
+  "footprintUuid": "87b2e6ab0bf2243f",
+  "baselineRefs": [
+    "J2"
+  ],
+  "other175UseThisFootprint": false,
+  "purpose": "Original project-local8pin footprint definition applies exclusivelyJ2; no account/library-wide update"
+}

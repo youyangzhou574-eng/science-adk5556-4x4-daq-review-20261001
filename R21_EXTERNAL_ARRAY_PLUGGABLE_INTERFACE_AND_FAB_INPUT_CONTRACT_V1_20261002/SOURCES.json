@@ -1,0 +1,23 @@
+{
+  "officialSourcesCount": 4,
+  "scope": "two exact product pages plus two customer drawings; no backup-source accessed",
+  "productPages": [
+    "https://www.molex.com/en-us/products/part-detail/1718560008",
+    "https://www.molex.com/en-us/products/part-detail/22012087"
+  ],
+  "downloads": [
+    {
+      "name": "171856_CUSTOMER_DRAWING.pdf",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/171/171856/1718560002_sd.pdf",
+      "downloaded": false,
+      "error": "TimeoutError:The read operation timed out"
+    },
+    {
+      "name": "22012087_CUSTOMER_DRAWING.pdf",
+      "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/269/2695/022012087_sd.pdf",
+      "downloaded": false,
+      "error": "TimeoutError:The read operation timed out"
+    }
+  ],
+  "UTC": "2026-10-02T03:25:11.866784+00:00"
+}

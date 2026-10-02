@@ -1,0 +1,1 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='ee4f96f0b67e0b9c85e719fedce50790f5a49c47e4db3392e90aea8fef4c93c9')throw Error('Wrong J2 copy');return {source:await eda.sys_FileManager.getDocumentSource(),note:'Only active J2 footprint input/edit source; not additional whole-board audit'};

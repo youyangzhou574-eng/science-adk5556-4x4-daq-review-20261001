@@ -1,0 +1,153 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1",
+  "rulingAssistant": "9aa9447b-4ee7-435f-827a-c2c24055dff5",
+  "parentUser": "320de471-6b63-4a0f-ba41-1681d6d74928",
+  "startUTC": "2026-10-02T03:23:28.606658+00:00",
+  "approvedMinutes": 180,
+  "status": "J2_ENGINEERING_REVIEW_COMPLETE_NO_MORE_NATIVE",
+  "limits": {
+    "copy": 1,
+    "session": 2,
+    "save": 2,
+    "captureaudit": 3,
+    "DRC": 3,
+    "export": 1,
+    "officialSources": 4,
+    "candidate": 2
+  },
+  "actual": {
+    "copy": 1,
+    "session": 2,
+    "save": 2,
+    "captureaudit": 3,
+    "DRC": 2,
+    "export": 1,
+    "officialSources": 4,
+    "candidate": 1
+  },
+  "reservations": [
+    {
+      "utc": "2026-10-02T03:23:28.606658+00:00",
+      "kind": "officialSources",
+      "count": 1,
+      "reason": "Molex 1718560008 product source from official web search; no unrelated search results used"
+    },
+    {
+      "utc": "2026-10-02T03:23:28.606658+00:00",
+      "kind": "candidate",
+      "count": 1,
+      "reason": "17 default vertical KK254 1718560008; right-angle is conditional fallback only"
+    },
+    {
+      "utc": "2026-10-02T03:24:46.994652+00:00",
+      "kind": "officialSources",
+      "count": 3,
+      "reason": "Housing product page already read (late read-only accounting, no backdated reservation); header family customer drawing and exacthousing drawing reserved before direct fetch; 4 independent documents total. Search discovery excerpts not separate engineering authority."
+    },
+    {
+      "utc": "2026-10-02T03:32:17.145355+00:00",
+      "kind": "copy",
+      "count": 1,
+      "reason": "Only isolated actual accepted15 project copy; no old native opens/writes"
+    },
+    {
+      "utc": "2026-10-02T03:32:17.498310+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "New isolated J2 workcopy warm session only"
+    },
+    {
+      "utc": "2026-10-02T03:39:05.865501+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Complete baseline schematic+PCB/rules/source/pins before J2 mutation"
+    },
+    {
+      "utc": "2026-10-02T03:55:08.898606+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Conservative J2 instance-footprint apply/save operation; final combined schematic+PCB save remains1"
+    },
+    {
+      "utc": "2026-10-02T04:27:16.370305+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "First warm full real DRC after qualified J2 geometry and normal pour"
+    },
+    {
+      "utc": "2026-10-02T04:27:41.192662+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Complete warm schematic six pages and PCB source topology core placement copper rules audit"
+    },
+    {
+      "utc": "2026-10-02T04:29:24.491280+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Final combined SaveAll for project-local J2 footprint + J2 schematic identity + PCB/pour, one UI operation; no remaining saves"
+    },
+    {
+      "utc": "2026-10-02T04:30:48.318516+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Independent cold reopen after official warm session closed and GUI exited"
+    },
+    {
+      "utc": "2026-10-02T04:31:31.899149+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Independent cold DRC after actual saved project reopened"
+    },
+    {
+      "utc": "2026-10-02T04:31:57.922409+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Final independent cold six-page schematic+PCB full actual capture"
+    },
+    {
+      "utc": "2026-10-02T04:31:57.989572+00:00",
+      "kind": "export",
+      "count": 1,
+      "reason": "Single final actual native File batch from cold session; no Gerber"
+    }
+  ],
+  "scope": "Only J2 identity/footprint/body/marking/local fanout; other175 and main analog copper frozen",
+  "forbiddenActual": {
+    "simulation": 0,
+    "MIMO": 0,
+    "descriptor": 0,
+    "wholeBoardReroute": 0,
+    "Gerber": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "bench": 0,
+    "powerup": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "nativeFinishedUTC": "2026-10-02T04:38:51.434942+00:00",
+  "usedNativeSummary": {
+    "copy": 1,
+    "session": 2,
+    "save": 2,
+    "captureaudit": 3,
+    "DRC": 2,
+    "export": 1,
+    "officialSources": 4,
+    "candidate": 1,
+    "normalPourRebuild": 1,
+    "J2OnlyImportChanges": 1,
+    "solver": 0
+  },
+  "partialWorkingObservationsSeparate": true,
+  "phaseAllocationNote": "45/30/45/60 are planning allocations; elapsed total remains180min hard cap. Actual implementation included finite failed setter/instance-overlay attempts retained, not a new tool research package.",
+  "finalReview": {
+    "Critical": 0,
+    "Important": 1,
+    "ImportantDisposition": "One documentation disclosure fix; physical silk text still missing, new unified decision required",
+    "Minor": 2,
+    "minorDisposition": "deferred ledger, no native rework or second review"
+  },
+  "finishedUTC": "2026-10-02T04:48:24.763885+00:00",
+  "elapsedMinutes": 84.936
+}

@@ -1,0 +1,32 @@
+{
+  "coordinateSource": "actual cold native component and8pad coordinates",
+  "boardEdgeXmm": 0,
+  "headerBodyXrangeMm": [
+    1.9000001599999998,
+    8.250000159999999
+  ],
+  "headerBodyYrangeMm": [
+    28.915000739999996,
+    49.08500074
+  ],
+  "headerMinBoardEdgeMm": 1.9000001599999998,
+  "courtyardXrangeMm": [
+    1.4000001599999998,
+    8.77000016
+  ],
+  "courtyardYrangeMm": [
+    28.06000074,
+    49.940000739999995
+  ],
+  "courtyardMinEdgeMm": 1.4000001599999998,
+  "boardNominalBoundsMm": [
+    0,
+    100,
+    0,
+    90
+  ],
+  "bodyAndCourtyardInside": true,
+  "noJ2Movement": true,
+  "enclosureNotProvided": true,
+  "fullMated3DNotQualified": true
+}

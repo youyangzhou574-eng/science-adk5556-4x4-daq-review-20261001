@@ -1,0 +1,25 @@
+{
+  "UTC": "2026-10-02T03:44:38.013766+00:00",
+  "items": [
+    {
+      "filename": "171856_DRAWING_B2_MIRROR.pdf",
+      "url": "https://www.farnell.com/cad/2790017.pdf",
+      "documentIdentity": "SD-171856-0001",
+      "sameReservedDrawing": true,
+      "sourceCountIncrement": 0,
+      "downloaded": true,
+      "bytes": 154380,
+      "sha256": "134202F9425A2E1617E303052B4FCAAC697C526CF51FB54B6F3C5F2F16E1F048"
+    },
+    {
+      "filename": "2695_DRAWING_A3_BUNDLE_MIRROR.pdf",
+      "url": "https://www.100y.com.tw/pdf_file/10-molex-2201-2057.pdf",
+      "documentIdentity": "26950000-SD",
+      "sameReservedDrawing": true,
+      "sourceCountIncrement": 0,
+      "downloaded": true,
+      "bytes": 373397,
+      "sha256": "79B00AD4CE684EA09261FBC48F9B66E90A0842EC5C0D24825122670587555243"
+    }
+  ]
+}

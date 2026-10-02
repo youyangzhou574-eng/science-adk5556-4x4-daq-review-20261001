@@ -1,0 +1,101 @@
+{
+  "stage": "INDEPENDENT_COLD",
+  "PASS": true,
+  "actual176CoreSame": true,
+  "full514Connected107Nets36NC": true,
+  "all550NetAndNCMembersExact": true,
+  "normalPrimarySourceExact": {
+    "COMPONENT": true,
+    "PAD_NET": true,
+    "ATTR": true,
+    "LINE": true,
+    "VIA": true,
+    "POUR": true,
+    "POLY": true,
+    "RULE": true
+  },
+  "rawSourceByteEqual": false,
+  "derivedPOURED4StructureSame": true,
+  "derivedNumericChanges": 209,
+  "derivedMaxAbsDelta": 2.1032064978498966e-12,
+  "tinyFloatAcceptance": "16/17 accepted prior representation arithmetic noise; no copper editing",
+  "hiddenJ2AttributeOrderChanges": [
+    {
+      "id": "6881707a834e9df8",
+      "key": "Harness Order",
+      "oldZ": 36,
+      "newZ": 33,
+      "hiddenOnly": true
+    },
+    {
+      "id": "6177f19bb855fe10",
+      "key": "3D Model Transform",
+      "oldZ": 32,
+      "newZ": 36,
+      "hiddenOnly": true
+    },
+    {
+      "id": "63ea9c1e473c677e",
+      "key": "Mating Housing",
+      "oldZ": 34,
+      "newZ": 31,
+      "hiddenOnly": true
+    },
+    {
+      "id": "a038f8913080c9a8",
+      "key": "Crimp Terminal",
+      "oldZ": 35,
+      "newZ": 32,
+      "hiddenOnly": true
+    },
+    {
+      "id": "cb5f3ba180a85590",
+      "key": "3D Model",
+      "oldZ": 30,
+      "newZ": 34,
+      "hiddenOnly": true
+    },
+    {
+      "id": "3fc0edfd85274fc7",
+      "key": "Footprint Provenance",
+      "oldZ": 33,
+      "newZ": 30,
+      "hiddenOnly": true
+    },
+    {
+      "id": "1013fee1cf5c9722",
+      "key": "3D Model Title",
+      "oldZ": 31,
+      "newZ": 35,
+      "hiddenOnly": true
+    }
+  ],
+  "warmNetlistSingleUTF8ReplacementText": [
+    {
+      "component": "gge72",
+      "field": "Manufacturer",
+      "warm": "muRata(\u6751\ufffd\ufffd\ufffd)",
+      "cold": "muRata(\u6751\u7530)"
+    }
+  ],
+  "nativeATTRAndCoreMetadataExact": true,
+  "actualNativeFileFootprint8padsPASS": true,
+  "holeMm": 1.14,
+  "copperMm": 1.7,
+  "pitchMm": 2.54,
+  "pin1Square": {
+    "padType": "RECT",
+    "width": 66.9291,
+    "height": 66.9291,
+    "radius": 0
+  },
+  "nativeFileHistorical2TinyLinesRetained": [
+    "137f992f55430857",
+    "21f945bfa3a6372f"
+  ],
+  "nativeFileCoreSourceStrictSame": true,
+  "coldDRCAll4Zero": true,
+  "manufacturingReleased": false,
+  "benchReleased": false,
+  "threeDModelNotQualified": true
+}

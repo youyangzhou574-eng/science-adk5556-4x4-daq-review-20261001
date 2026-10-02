@@ -1,0 +1,1 @@
+return {generic8:await eda.lib_Footprint.get('87b2e6ab0bf2243f','0819f05c4eef4c71ace90d822a990e87'),family2:await eda.lib_Footprint.get('2c267d6fc26a4489ab0df77187019455','0819f05c4eef4c71ace90d822a990e87')};

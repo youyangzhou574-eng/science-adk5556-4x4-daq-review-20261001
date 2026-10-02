@@ -1,0 +1,12 @@
+{
+  "eightPads": true,
+  "holeMm": 1.14,
+  "copperMm": 1.7,
+  "pitchMm": 2.54,
+  "pinCoordinatesUnchanged": true,
+  "annulusNominalMm": 0.28,
+  "annulusAtMaxHole1_19Mm": 0.255,
+  "sourceDimensionsPASS": true,
+  "nativeAssociationAndWarmColdPending": true,
+  "threeDNotQualified": true
+}

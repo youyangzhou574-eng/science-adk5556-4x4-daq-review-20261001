@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-02T04:30:48.395481+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "open",
+    "--path",
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1\\SCIENCE_ADK5556_4X4_R21_J2_PLUGGABLE_WORK.eprj2",
+    "--headless",
+    "false"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"2f2b9d5b-7cd7-4547-8db5-1c64541a0e07\",\"renderId\":1,\"path\":\"E:\\\\open\\\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\\\R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1\\\\SCIENCE_ADK5556_4X4_R21_J2_PLUGGABLE_WORK.eprj2\",\"headless\":false},\"logs\":[],\"durationMs\":966}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "2f2b9d5b-7cd7-4547-8db5-1c64541a0e07",
+      "renderId": 1,
+      "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1\\SCIENCE_ADK5556_4X4_R21_J2_PLUGGABLE_WORK.eprj2",
+      "headless": false
+    },
+    "logs": [],
+    "durationMs": 966
+  }
+}

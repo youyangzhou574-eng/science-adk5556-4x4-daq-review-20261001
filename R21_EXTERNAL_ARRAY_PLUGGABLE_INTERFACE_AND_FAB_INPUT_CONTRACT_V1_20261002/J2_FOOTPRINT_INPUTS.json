@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-02T03:40:24.220820+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "91b63e42-6f8c-4581-b775-1bc0e7f07d3e",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "return {generic8:await eda.lib_Footprint.get('87b2e6ab0bf2243f','0819f05c4eef4c71ace90d822a990e87'),family2:await eda.lib_Footprint.get('2c267d6fc26a4489ab0df77187019455','0819f05c4eef4c71ace90d822a990e87')};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 1,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"EXECUTION_ERROR\",\"message\":\"[object Object]\"}}\n",
+  "stderr": "EXECUTION_ERROR: [object Object]\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "EXECUTION_ERROR",
+      "message": "[object Object]"
+    }
+  }
+}

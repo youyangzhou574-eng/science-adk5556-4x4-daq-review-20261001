@@ -1,0 +1,22 @@
+{
+  "warmColdCoreExact": true,
+  "differences": {},
+  "warmColdRulesExact": true,
+  "warmColdNetlistExact": false,
+  "warmColdPcbSourceKVMultiset": false,
+  "warmColdSchematicSourceKVMultiset": {
+    "Power_Reference": true,
+    "Rows_8lead_Interface": false,
+    "Continuous_Column_TIAs": true,
+    "ADS8684_Decoupling": true,
+    "MCU_Protected_Interfaces": true,
+    "Power_Qualification": true
+  },
+  "headerExcludedOnly": [
+    "client",
+    "updateTime",
+    "version"
+  ],
+  "coldDRCempty": true,
+  "PASS": false
+}

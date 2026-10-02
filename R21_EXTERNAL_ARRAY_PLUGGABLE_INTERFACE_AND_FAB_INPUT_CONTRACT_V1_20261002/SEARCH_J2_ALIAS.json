@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-02T03:37:39.465940+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "91b63e42-6f8c-4581-b775-1bc0e7f07d3e",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const libraryUuid=await eda.lib_LibrariesList.getSystemLibraryUuid(); return {libraryUuid,items:await eda.lib_Device.search('171856-0008',libraryUuid,undefined,undefined,12,1)};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"items\":[]},\"logs\":[],\"durationMs\":275}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "items": []
+    },
+    "logs": [],
+    "durationMs": 275
+  }
+}
