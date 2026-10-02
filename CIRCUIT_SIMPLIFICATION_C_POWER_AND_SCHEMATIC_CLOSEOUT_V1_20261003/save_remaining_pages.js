@@ -1,0 +1,2 @@
+const expected='8da2f1e3f2c9045bf431c2cbe7ea31503e15ca88fefd5a6569f5a51a3d3c9788';if((await eda.dmt_Project.getCurrentProjectInfo()).uuid!==expected)throw Error('Wrong C project');
+const result=[];for(const uuid of ['595d5f2f11dee03d','802bf258e0d38cab','5f9caa2aebdf4356','52a8a60e5711e55b']){await eda.dmt_EditorControl.openDocument(uuid);const saved=await eda.sch_Document.save();result.push({uuid,saved});if(saved!==true)throw Error('Save failed');}return{savedPages:result};

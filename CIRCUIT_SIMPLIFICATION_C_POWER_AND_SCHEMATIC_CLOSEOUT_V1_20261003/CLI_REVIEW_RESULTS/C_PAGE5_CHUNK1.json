@@ -1,0 +1,349 @@
+{
+  "operation": {
+    "label": "C_PAGE5_CHUNK1",
+    "startedUTC": "2026-10-02T20:05:52.653363+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 9760,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "cae95ff24beaad15",
+        "index": 5,
+        "name": "Power_Qualification"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "U12",
+          "id": "b96494e404780a64",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "SENSE",
+              "x": 295,
+              "y": 1070,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "GND",
+              "x": 295,
+              "y": 1060,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "MR#",
+              "x": 295,
+              "y": 1050,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "VDD",
+              "x": 405,
+              "y": 1050,
+              "rotation": 0
+            },
+            {
+              "number": "5",
+              "name": "CT",
+              "x": 405,
+              "y": 1060,
+              "rotation": 0
+            },
+            {
+              "number": "6",
+              "name": "RESET#",
+              "x": 405,
+              "y": 1070,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "U12_SENSE",
+            "2": "GND",
+            "3": "V3V3",
+            "4": "V3V3",
+            "5": "U12_CT",
+            "6": "PGOOD"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "32e1c920d4a87846",
+            "name": "TPS389001DSET"
+          },
+          "footprint": {
+            "uuid": "6e95b9266e8dd13f",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "WSON-6_L1.5-W1.5-P0.50-TL"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U11_CT_C",
+          "id": "4fdc4a1b6e2f8d50",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 895,
+              "y": 1060,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 925,
+              "y": 1060,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "U11_CT",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U12_CT_C",
+          "id": "1f98da1e72af6818",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1455,
+              "y": 1060,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1485,
+              "y": 1060,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "U12_CT",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U11_SENSE_C",
+          "id": "dd1192fb1213eb2e",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 1060,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 1060,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "U11_SENSE",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "605cf0bfe3c44cec",
+            "name": "GRM1885C1H102JA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U12_SENSE_C",
+          "id": "fac139cb38a7166c",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 1480,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 1480,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "U12_SENSE",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "605cf0bfe3c44cec",
+            "name": "GRM1885C1H102JA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U11_VDD_C",
+          "id": "071dc8f7ce25990a",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 895,
+              "y": 1480,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 925,
+              "y": 1480,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V5",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U12_VDD_C",
+          "id": "2529ddc7435cbff3",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1455,
+              "y": 1480,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1485,
+              "y": 1480,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V3V3",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U9_OV_T",
+          "id": "4a00f6ec1e1e4727",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 1480,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 1480,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "V5_IN",
+            "2": "U9_OV"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "238ef0568927fbb3",
+            "name": "RT0603BRD0734K8L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {},
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 9760
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"cae95ff24beaad15\",\"index\":5,\"name\":\"Power_Qualification\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"U12\",\"id\":\"b96494e404780a64\",\"actualPins\":[{\"number\":\"1\",\"name\":\"SENSE\",\"x\":295,\"y\":1070,\"rotation\":180},{\"number\":\"2\",\"name\":\"GND\",\"x\":295,\"y\":1060,\"rotation\":180},{\"number\":\"3\",\"name\":\"MR#\",\"x\":295,\"y\":1050,\"rotation\":180},{\"number\":\"4\",\"name\":\"VDD\",\"x\":405,\"y\":1050,\"rotation\":0},{\"number\":\"5\",\"name\":\"CT\",\"x\":405,\"y\":1060,\"rotation\":0},{\"number\":\"6\",\"name\":\"RESET#\",\"x\":405,\"y\":1070,\"rotation\":0}],\"planned\":{\"1\":\"U12_SENSE\",\"2\":\"GND\",\"3\":\"V3V3\",\"4\":\"V3V3\",\"5\":\"U12_CT\",\"6\":\"PGOOD\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"32e1c920d4a87846\",\"name\":\"TPS389001DSET\"},\"footprint\":{\"uuid\":\"6e95b9266e8dd13f\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"WSON-6_L1.5-W1.5-P0.50-TL\"},\"dnp\":false},{\"ref\":\"U11_CT_C\",\"id\":\"4fdc4a1b6e2f8d50\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":895,\"y\":1060,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":925,\"y\":1060,\"rotation\":0}],\"planned\":{\"1\":\"U11_CT\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"U12_CT_C\",\"id\":\"1f98da1e72af6818\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1455,\"y\":1060,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1485,\"y\":1060,\"rotation\":0}],\"planned\":{\"1\":\"U12_CT\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"U11_SENSE_C\",\"id\":\"dd1192fb1213eb2e\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":1060,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":1060,\"rotation\":0}],\"planned\":{\"1\":\"U11_SENSE\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"605cf0bfe3c44cec\",\"name\":\"GRM1885C1H102JA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"U12_SENSE_C\",\"id\":\"fac139cb38a7166c\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":1480,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":1480,\"rotation\":0}],\"planned\":{\"1\":\"U12_SENSE\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"605cf0bfe3c44cec\",\"name\":\"GRM1885C1H102JA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"U11_VDD_C\",\"id\":\"071dc8f7ce25990a\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":895,\"y\":1480,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":925,\"y\":1480,\"rotation\":0}],\"planned\":{\"1\":\"V5\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"U12_VDD_C\",\"id\":\"2529ddc7435cbff3\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1455,\"y\":1480,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1485,\"y\":1480,\"rotation\":0}],\"planned\":{\"1\":\"V3V3\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"U9_OV_T\",\"id\":\"4a00f6ec1e1e4727\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":1480,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":1480,\"rotation\":180}],\"planned\":{\"1\":\"V5_IN\",\"2\":\"U9_OV\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"238ef0568927fbb3\",\"name\":\"RT0603BRD0734K8L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false}],\"deleted\":{},\"saved\":false},\"logs\":[],\"durationMs\":9760}\n",
+  "stderr": ""
+}

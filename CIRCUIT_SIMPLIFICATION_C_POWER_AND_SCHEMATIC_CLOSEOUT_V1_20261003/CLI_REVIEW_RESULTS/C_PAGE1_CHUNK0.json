@@ -1,0 +1,505 @@
+{
+  "operation": {
+    "label": "C_PAGE1_CHUNK0",
+    "startedUTC": "2026-10-02T19:59:04.345253+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 20572,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "802bf258e0d38cab",
+        "index": 1,
+        "name": "Rows_8lead_Interface"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "U1",
+          "id": "6ce07e72bf5b4571",
+          "actualPins": [
+            {
+              "number": "5",
+              "name": "V+",
+              "x": 360,
+              "y": 260,
+              "rotation": 90
+            },
+            {
+              "number": "2",
+              "name": "V-",
+              "x": 360,
+              "y": 180,
+              "rotation": 270
+            },
+            {
+              "number": "1",
+              "name": "OUTA",
+              "x": 400,
+              "y": 220,
+              "rotation": 0
+            },
+            {
+              "number": "3",
+              "name": "+INA",
+              "x": 320,
+              "y": 210,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "-INA",
+              "x": 320,
+              "y": 230,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "ROW_DRV",
+            "2": "GND",
+            "3": "VEXC",
+            "4": "ROW_FB",
+            "5": "V5"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "044eec22d7daf826",
+            "name": "OPA388IDBVR"
+          },
+          "footprint": {
+            "uuid": "18b8d917d8ac632d",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "U4",
+          "id": "1a2bcf2d8e07cefd",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "A0",
+              "x": 875,
+              "y": 255,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "EN",
+              "x": 875,
+              "y": 245,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "VSS",
+              "x": 875,
+              "y": 235,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "S1A",
+              "x": 875,
+              "y": 225,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "S2A",
+              "x": 875,
+              "y": 215,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "S3A",
+              "x": 875,
+              "y": 205,
+              "rotation": 180
+            },
+            {
+              "number": "7",
+              "name": "S4A",
+              "x": 875,
+              "y": 195,
+              "rotation": 180
+            },
+            {
+              "number": "8",
+              "name": "DA",
+              "x": 875,
+              "y": 185,
+              "rotation": 180
+            },
+            {
+              "number": "9",
+              "name": "DB",
+              "x": 945,
+              "y": 185,
+              "rotation": 0
+            },
+            {
+              "number": "10",
+              "name": "S4B",
+              "x": 945,
+              "y": 195,
+              "rotation": 0
+            },
+            {
+              "number": "11",
+              "name": "S3B",
+              "x": 945,
+              "y": 205,
+              "rotation": 0
+            },
+            {
+              "number": "12",
+              "name": "S2B",
+              "x": 945,
+              "y": 215,
+              "rotation": 0
+            },
+            {
+              "number": "13",
+              "name": "S1B",
+              "x": 945,
+              "y": 225,
+              "rotation": 0
+            },
+            {
+              "number": "14",
+              "name": "VDD",
+              "x": 945,
+              "y": 235,
+              "rotation": 0
+            },
+            {
+              "number": "15",
+              "name": "GND",
+              "x": 945,
+              "y": 245,
+              "rotation": 0
+            },
+            {
+              "number": "16",
+              "name": "A1",
+              "x": 945,
+              "y": 255,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "ROW_A0",
+            "2": "ROW_MUX_EN",
+            "3": "GND",
+            "4": "ROW0",
+            "5": "ROW1",
+            "6": "ROW2",
+            "7": "ROW3",
+            "8": "ROW_DRV",
+            "9": "ROW_FB",
+            "10": "ROW3",
+            "11": "ROW2",
+            "12": "ROW1",
+            "13": "ROW0",
+            "14": "V5",
+            "15": "GND",
+            "16": "ROW_A1"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "63f358e6c73ac1ad",
+            "name": "TMUX1109PWR"
+          },
+          "footprint": {
+            "uuid": "a5c5c464969039a6",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "TSSOP-16_L5.0-W4.4-P0.64-LS6.4-BL"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_ROW_OP",
+          "id": "ff230ae812454a49",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1455,
+              "y": 220,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1485,
+              "y": 220,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V5",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_MUX",
+          "id": "d5aacbda3339bb22",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2015,
+              "y": 220,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2045,
+              "y": 220,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V5",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "J2",
+          "id": "2b2898b81539260f",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1160,
+              "y": 1215,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1160,
+              "y": 1205,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 1160,
+              "y": 1195,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 1160,
+              "y": 1185,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "5",
+              "x": 1160,
+              "y": 1175,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "6",
+              "x": 1160,
+              "y": 1165,
+              "rotation": 180
+            },
+            {
+              "number": "7",
+              "name": "7",
+              "x": 1160,
+              "y": 1155,
+              "rotation": 180
+            },
+            {
+              "number": "8",
+              "name": "8",
+              "x": 1160,
+              "y": 1145,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "ROW0",
+            "2": "ROW1",
+            "3": "ROW2",
+            "4": "ROW3",
+            "5": "COL0",
+            "6": "COL1",
+            "7": "COL2",
+            "8": "COL3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "7666615a7e9661d1",
+            "name": "HDR-M_2.54_1x8P"
+          },
+          "footprint": {
+            "uuid": "87b2e6ab0bf2243f",
+            "libraryUuid": "33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6",
+            "name": "MOLEX_1718560008_MFR_SD171856_R17"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_SEL_PD0",
+          "id": "2d2c9c01241a6345",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 930,
+              "y": 640,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 640,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "ROW_A0",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "4af96e4885b44a55",
+            "name": "0603WAF1003T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_SEL_PD1",
+          "id": "042aaf3e847ac961",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1490,
+              "y": 640,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1450,
+              "y": 640,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "ROW_A1",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "4af96e4885b44a55",
+            "name": "0603WAF1003T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_ENABLE_PD",
+          "id": "e02798fc6fd8e643",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 640,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 640,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "ROW_MUX_EN",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "4af96e4885b44a55",
+            "name": "0603WAF1003T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {
+        "component": 131,
+        "wire": 105,
+        "text": 4
+      },
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 20572
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"802bf258e0d38cab\",\"index\":1,\"name\":\"Rows_8lead_Interface\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"U1\",\"id\":\"6ce07e72bf5b4571\",\"actualPins\":[{\"number\":\"5\",\"name\":\"V+\",\"x\":360,\"y\":260,\"rotation\":90},{\"number\":\"2\",\"name\":\"V-\",\"x\":360,\"y\":180,\"rotation\":270},{\"number\":\"1\",\"name\":\"OUTA\",\"x\":400,\"y\":220,\"rotation\":0},{\"number\":\"3\",\"name\":\"+INA\",\"x\":320,\"y\":210,\"rotation\":180},{\"number\":\"4\",\"name\":\"-INA\",\"x\":320,\"y\":230,\"rotation\":180}],\"planned\":{\"1\":\"ROW_DRV\",\"2\":\"GND\",\"3\":\"VEXC\",\"4\":\"ROW_FB\",\"5\":\"V5\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"044eec22d7daf826\",\"name\":\"OPA388IDBVR\"},\"footprint\":{\"uuid\":\"18b8d917d8ac632d\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR\"},\"dnp\":false},{\"ref\":\"U4\",\"id\":\"1a2bcf2d8e07cefd\",\"actualPins\":[{\"number\":\"1\",\"name\":\"A0\",\"x\":875,\"y\":255,\"rotation\":180},{\"number\":\"2\",\"name\":\"EN\",\"x\":875,\"y\":245,\"rotation\":180},{\"number\":\"3\",\"name\":\"VSS\",\"x\":875,\"y\":235,\"rotation\":180},{\"number\":\"4\",\"name\":\"S1A\",\"x\":875,\"y\":225,\"rotation\":180},{\"number\":\"5\",\"name\":\"S2A\",\"x\":875,\"y\":215,\"rotation\":180},{\"number\":\"6\",\"name\":\"S3A\",\"x\":875,\"y\":205,\"rotation\":180},{\"number\":\"7\",\"name\":\"S4A\",\"x\":875,\"y\":195,\"rotation\":180},{\"number\":\"8\",\"name\":\"DA\",\"x\":875,\"y\":185,\"rotation\":180},{\"number\":\"9\",\"name\":\"DB\",\"x\":945,\"y\":185,\"rotation\":0},{\"number\":\"10\",\"name\":\"S4B\",\"x\":945,\"y\":195,\"rotation\":0},{\"number\":\"11\",\"name\":\"S3B\",\"x\":945,\"y\":205,\"rotation\":0},{\"number\":\"12\",\"name\":\"S2B\",\"x\":945,\"y\":215,\"rotation\":0},{\"number\":\"13\",\"name\":\"S1B\",\"x\":945,\"y\":225,\"rotation\":0},{\"number\":\"14\",\"name\":\"VDD\",\"x\":945,\"y\":235,\"rotation\":0},{\"number\":\"15\",\"name\":\"GND\",\"x\":945,\"y\":245,\"rotation\":0},{\"number\":\"16\",\"name\":\"A1\",\"x\":945,\"y\":255,\"rotation\":0}],\"planned\":{\"1\":\"ROW_A0\",\"2\":\"ROW_MUX_EN\",\"3\":\"GND\",\"4\":\"ROW0\",\"5\":\"ROW1\",\"6\":\"ROW2\",\"7\":\"ROW3\",\"8\":\"ROW_DRV\",\"9\":\"ROW_FB\",\"10\":\"ROW3\",\"11\":\"ROW2\",\"12\":\"ROW1\",\"13\":\"ROW0\",\"14\":\"V5\",\"15\":\"GND\",\"16\":\"ROW_A1\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"63f358e6c73ac1ad\",\"name\":\"TMUX1109PWR\"},\"footprint\":{\"uuid\":\"a5c5c464969039a6\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"TSSOP-16_L5.0-W4.4-P0.64-LS6.4-BL\"},\"dnp\":false},{\"ref\":\"C_ROW_OP\",\"id\":\"ff230ae812454a49\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1455,\"y\":220,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1485,\"y\":220,\"rotation\":0}],\"planned\":{\"1\":\"V5\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"C_MUX\",\"id\":\"d5aacbda3339bb22\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":2015,\"y\":220,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":2045,\"y\":220,\"rotation\":0}],\"planned\":{\"1\":\"V5\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"J2\",\"id\":\"2b2898b81539260f\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1160,\"y\":1215,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1160,\"y\":1205,\"rotation\":180},{\"number\":\"3\",\"name\":\"3\",\"x\":1160,\"y\":1195,\"rotation\":180},{\"number\":\"4\",\"name\":\"4\",\"x\":1160,\"y\":1185,\"rotation\":180},{\"number\":\"5\",\"name\":\"5\",\"x\":1160,\"y\":1175,\"rotation\":180},{\"number\":\"6\",\"name\":\"6\",\"x\":1160,\"y\":1165,\"rotation\":180},{\"number\":\"7\",\"name\":\"7\",\"x\":1160,\"y\":1155,\"rotation\":180},{\"number\":\"8\",\"name\":\"8\",\"x\":1160,\"y\":1145,\"rotation\":180}],\"planned\":{\"1\":\"ROW0\",\"2\":\"ROW1\",\"3\":\"ROW2\",\"4\":\"ROW3\",\"5\":\"COL0\",\"6\":\"COL1\",\"7\":\"COL2\",\"8\":\"COL3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"7666615a7e9661d1\",\"name\":\"HDR-M_2.54_1x8P\"},\"footprint\":{\"uuid\":\"87b2e6ab0bf2243f\",\"libraryUuid\":\"33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6\",\"name\":\"MOLEX_1718560008_MFR_SD171856_R17\"},\"dnp\":false},{\"ref\":\"R_SEL_PD0\",\"id\":\"2d2c9c01241a6345\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":930,\"y\":640,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":640,\"rotation\":180}],\"planned\":{\"1\":\"ROW_A0\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"4af96e4885b44a55\",\"name\":\"0603WAF1003T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"R_SEL_PD1\",\"id\":\"042aaf3e847ac961\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1490,\"y\":640,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1450,\"y\":640,\"rotation\":180}],\"planned\":{\"1\":\"ROW_A1\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"4af96e4885b44a55\",\"name\":\"0603WAF1003T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"R_ENABLE_PD\",\"id\":\"e02798fc6fd8e643\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":640,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":640,\"rotation\":180}],\"planned\":{\"1\":\"ROW_MUX_EN\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"4af96e4885b44a55\",\"name\":\"0603WAF1003T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false}],\"deleted\":{\"component\":131,\"wire\":105,\"text\":4},\"saved\":false},\"logs\":[],\"durationMs\":20572}\n",
+  "stderr": ""
+}

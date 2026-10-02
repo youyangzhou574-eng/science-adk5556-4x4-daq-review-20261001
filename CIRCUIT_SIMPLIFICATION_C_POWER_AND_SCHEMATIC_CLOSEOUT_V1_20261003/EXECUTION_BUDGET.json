@@ -1,0 +1,269 @@
+{
+  "scope": "CIRCUIT-SIMPLIFICATION-C-POWER-AND-SCHEMATIC-CLOSEOUT-V1",
+  "startUTC": "2026-10-02T19:36:43.412643+00:00",
+  "deadlineUTC": "2026-10-03T00:36:43.412643+00:00",
+  "limits": {
+    "sources": 4,
+    "LDOcandidate": 2,
+    "copy": 1,
+    "session": 2,
+    "save": 6,
+    "capture": 6,
+    "audit": 4,
+    "ERC": 2,
+    "PDF": 1,
+    "OP_AC_PZ": 16,
+    "TRAN": 4,
+    "placement": 0,
+    "PCB": 0,
+    "routing": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "spent": {
+    "sources": 2,
+    "LDOcandidate": 1,
+    "copy": 1,
+    "session": 2,
+    "save": 6,
+    "capture": 2,
+    "audit": 1,
+    "ERC": 1,
+    "PDF": 1,
+    "OP_AC_PZ": 10,
+    "TRAN": 0,
+    "placement": 0,
+    "PCB": 0,
+    "routing": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "events": [
+    {
+      "utc": "2026-10-02T19:36:43.412643+00:00",
+      "cost": {
+        "copy": 1
+      },
+      "purpose": "Atomic precharge one private native container copy"
+    },
+    {
+      "utc": "2026-10-02T19:37:10.841877+00:00",
+      "label": "POWER_OPEN",
+      "cost": {
+        "session": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:37:37.196518+00:00",
+      "label": "POWER_CONTEXT",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:37:55.868458+00:00",
+      "label": "POWER_CONTEXT_INVOKE",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:40:34.536276+00:00",
+      "label": "EXACT_MATERIALS",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:50:25.515967+00:00",
+      "label": "BUILD_C_PAGE0",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:52:16.203400+00:00",
+      "label": "TIMEOUT_READONLY_SNAPSHOT",
+      "cost": {
+        "capture": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:55:27.837727+00:00",
+      "label": "SECOND_POWER_OPEN",
+      "cost": {
+        "session": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:57:04.117236+00:00",
+      "label": "CORRECTED_BUILD_C_PAGE0",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T19:57:50.669277+00:00",
+      "cost": {
+        "sources": 2,
+        "LDOcandidate": 1
+      },
+      "purpose": "Reception accounting TPS7A37 and STM32G031 datasheets; TPS3890 and TMUX reused; sources were read before this entry, not falsely precharged"
+    },
+    {
+      "utc": "2026-10-02T19:59:04.253638+00:00",
+      "label": "C_PAGE1_CHUNK0",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:00:29.099936+00:00",
+      "label": "C_PAGE1_CHUNK1",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:00:36.420309+00:00",
+      "label": "C_PAGE2_CHUNK0",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:00:51.851423+00:00",
+      "label": "C_PAGE2_CHUNK1",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:01:42.070487+00:00",
+      "label": "C_PAGE2_CHUNK2",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:01:52.012820+00:00",
+      "label": "C_PAGE2_CHUNK3",
+      "cost": {
+        "save": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:01:58.876348+00:00",
+      "label": "C_PAGE3_CHUNK0",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:02:17.244254+00:00",
+      "label": "C_PAGE3_CHUNK1",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:04:10.677954+00:00",
+      "label": "C_PAGE3_CHUNK2",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:04:16.509922+00:00",
+      "label": "C_PAGE4_CHUNK0",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:04:35.171495+00:00",
+      "label": "C_PAGE4_CHUNK1",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:04:49.207126+00:00",
+      "label": "C_PAGE4_CHUNK2",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:05:32.377305+00:00",
+      "label": "C_PAGE5_CHUNK0",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:05:52.532039+00:00",
+      "label": "C_PAGE5_CHUNK1",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:06:03.844806+00:00",
+      "label": "C_PAGE5_CHUNK2",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:06:15.133154+00:00",
+      "label": "C_PAGE5_CHUNK3",
+      "cost": {
+        "save": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:07:42.896237+00:00",
+      "label": "SAVE_REMAINING_PAGES",
+      "cost": {
+        "save": 4
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:08:20.612844+00:00",
+      "label": "C_FINAL_WARM_CAPTURE",
+      "cost": {
+        "capture": 1,
+        "audit": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:11:18.686452+00:00",
+      "label": "C_ERC",
+      "cost": {
+        "ERC": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:12:31.639171+00:00",
+      "label": "C_NATIVE_AND_PDF_EXPORT",
+      "cost": {
+        "PDF": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:21:46.747813+00:00",
+      "cost": {
+        "OP_AC_PZ": 10
+      },
+      "purpose": "Conservative precharge ten scalar analytic DC endpoints; not ngspice OP/AC/PZ launches",
+      "prechargedBeforeCalculation": true
+    }
+  ],
+  "STOP": true,
+  "STOPUTC": "2026-10-02T20:21:46.783293+00:00",
+  "STOPReason": "C_POWER_DNP_MATERIAL_AND_DRAWING_REVIEW_HOLD_NATIVE_SAVE_SESSION_QUOTAS_SPENT",
+  "actualNewSPICEProcesses": 0,
+  "analyticDCScalarEndpoints": 10,
+  "nativeIndependentCold": 0
+}

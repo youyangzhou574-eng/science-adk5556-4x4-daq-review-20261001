@@ -1,0 +1,219 @@
+[
+  {
+    "label": "C_PAGE1_CHUNK0",
+    "codeFile": "C_PAGE1_CHUNK0.js",
+    "cost": {},
+    "expectedRefs": [
+      "U1",
+      "U4",
+      "C_ROW_OP",
+      "C_MUX",
+      "J2",
+      "R_SEL_PD0",
+      "R_SEL_PD1",
+      "R_ENABLE_PD"
+    ]
+  },
+  {
+    "label": "C_PAGE1_CHUNK1",
+    "codeFile": "C_PAGE1_CHUNK1.js",
+    "cost": {},
+    "expectedRefs": [
+      "D_FFC_ROW",
+      "D_FFC_COL"
+    ]
+  },
+  {
+    "label": "C_PAGE2_CHUNK0",
+    "codeFile": "C_PAGE2_CHUNK0.js",
+    "cost": {},
+    "expectedRefs": [
+      "U2",
+      "RF0",
+      "CF0",
+      "R_ADC0",
+      "C_ADC0",
+      "R_COL_SENSE0",
+      "R_TIA_ISO0",
+      "C_TIA_HF0"
+    ]
+  },
+  {
+    "label": "C_PAGE2_CHUNK1",
+    "codeFile": "C_PAGE2_CHUNK1.js",
+    "cost": {},
+    "expectedRefs": [
+      "RF1",
+      "CF1",
+      "R_ADC1",
+      "C_ADC1",
+      "R_COL_SENSE1",
+      "R_TIA_ISO1",
+      "C_TIA_HF1",
+      "RF2"
+    ]
+  },
+  {
+    "label": "C_PAGE2_CHUNK2",
+    "codeFile": "C_PAGE2_CHUNK2.js",
+    "cost": {},
+    "expectedRefs": [
+      "CF2",
+      "R_ADC2",
+      "C_ADC2",
+      "R_COL_SENSE2",
+      "R_TIA_ISO2",
+      "C_TIA_HF2",
+      "RF3",
+      "CF3"
+    ]
+  },
+  {
+    "label": "C_PAGE2_CHUNK3",
+    "codeFile": "C_PAGE2_CHUNK3.js",
+    "cost": {
+      "save": 1
+    },
+    "expectedRefs": [
+      "R_ADC3",
+      "C_ADC3",
+      "R_COL_SENSE3",
+      "R_TIA_ISO3",
+      "C_TIA_HF3",
+      "C_TIA_OP"
+    ]
+  },
+  {
+    "label": "C_PAGE3_CHUNK0",
+    "codeFile": "C_PAGE3_CHUNK0.js",
+    "cost": {},
+    "expectedRefs": [
+      "U5",
+      "R_CS_PU",
+      "R_ADC_RESET_PD",
+      "C_ADC_REFIO",
+      "C_REFIO_B",
+      "C_REFCAP_BULKA",
+      "C_REFCAP_BULKB",
+      "C_AVDD9A"
+    ]
+  },
+  {
+    "label": "C_PAGE3_CHUNK1",
+    "codeFile": "C_PAGE3_CHUNK1.js",
+    "cost": {},
+    "expectedRefs": [
+      "C_AVDD9B",
+      "C_AVDD30A",
+      "C_AVDD30B",
+      "C_DVDD34A",
+      "C_DVDD34B",
+      "C_ADC_REFCAP",
+      "C_AVDD9_HF",
+      "C_AVDD30_HF"
+    ]
+  },
+  {
+    "label": "C_PAGE3_CHUNK2",
+    "codeFile": "C_PAGE3_CHUNK2.js",
+    "cost": {},
+    "expectedRefs": [
+      "C_ADCA1",
+      "C_ADCA2",
+      "C_ADCD"
+    ]
+  },
+  {
+    "label": "C_PAGE4_CHUNK0",
+    "codeFile": "C_PAGE4_CHUNK0.js",
+    "cost": {},
+    "expectedRefs": [
+      "U7",
+      "J3",
+      "J4",
+      "R_RST",
+      "C_MCU1",
+      "C_MCU_BULK",
+      "R_J3_1",
+      "R_J3_3"
+    ]
+  },
+  {
+    "label": "C_PAGE4_CHUNK1",
+    "codeFile": "C_PAGE4_CHUNK1.js",
+    "cost": {},
+    "expectedRefs": [
+      "R_J3_4",
+      "R_J4_1",
+      "R_J4_3",
+      "R_J4_4",
+      "R_J3_5",
+      "D_DBG0",
+      "D_DBG1",
+      "D_DBG2"
+    ]
+  },
+  {
+    "label": "C_PAGE4_CHUNK2",
+    "codeFile": "C_PAGE4_CHUNK2.js",
+    "cost": {},
+    "expectedRefs": [
+      "D_DBG3"
+    ]
+  },
+  {
+    "label": "C_PAGE5_CHUNK0",
+    "codeFile": "C_PAGE5_CHUNK0.js",
+    "cost": {},
+    "expectedRefs": [
+      "U9",
+      "U9_EN_R",
+      "U9_EN_G",
+      "U9_IN_CAP",
+      "U9_OUT_CAP",
+      "U9_BLEED",
+      "U10_BLEED",
+      "U11"
+    ]
+  },
+  {
+    "label": "C_PAGE5_CHUNK1",
+    "codeFile": "C_PAGE5_CHUNK1.js",
+    "cost": {},
+    "expectedRefs": [
+      "U12",
+      "U11_CT_C",
+      "U12_CT_C",
+      "U11_SENSE_C",
+      "U12_SENSE_C",
+      "U11_VDD_C",
+      "U12_VDD_C",
+      "U9_OV_T"
+    ]
+  },
+  {
+    "label": "C_PAGE5_CHUNK2",
+    "codeFile": "C_PAGE5_CHUNK2.js",
+    "cost": {},
+    "expectedRefs": [
+      "U9_OV_B1",
+      "U11_TOP0",
+      "U11_BOT",
+      "U12_TOP0",
+      "U12_TOP1",
+      "U12_TOP2",
+      "U12_TOP3",
+      "U12_BOT"
+    ]
+  },
+  {
+    "label": "C_PAGE5_CHUNK3",
+    "codeFile": "C_PAGE5_CHUNK3.js",
+    "cost": {
+      "save": 1
+    },
+    "expectedRefs": [
+      "R_LDO_EN_PU"
+    ]
+  }
+]

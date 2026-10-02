@@ -1,0 +1,1262 @@
+{
+  "scope": "C power schematic candidate103+12 DNP; reviewHOLD, not C PCB/performance/manufacture release",
+  "generatedUTC": "2026-10-02T20:29:25.925544+00:00",
+  "includedSourceFileCount": 136,
+  "files": [
+    {
+      "path": "ACTUAL_SCH_SOURCE/32047f874e6d71ce.esch",
+      "bytes": 737,
+      "SHA256": "DEF2C557378C670ADBD7712FD2E78760DE3208E20E53417016B87619D8E87F3E"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/49bb518d907ff185.esch",
+      "bytes": 514767,
+      "SHA256": "A38EB34FC91DC8B21FA1AD0AF84DCD93B5C227758C7CE53767C681123AD3FC2A"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/52a8a60e5711e55b.esch",
+      "bytes": 407900,
+      "SHA256": "8BD042268687810B1EF6E7065DA23D8DE07B0C3BE4CA277ACF53125FEE6CB3CF"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/595d5f2f11dee03d.esch",
+      "bytes": 272988,
+      "SHA256": "2A496E9A7C03622D3B67F211DAA9A8111ABEA0458D013AEF763C24DF3E2E18F4"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/5f9caa2aebdf4356.esch",
+      "bytes": 421230,
+      "SHA256": "35AD9B6B04AC99271F026E453B7A0BFAD70EFAE4D3691D66CD77632A74FCD21E"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/802bf258e0d38cab.esch",
+      "bytes": 289933,
+      "SHA256": "CA90E4AF247E4697322261BE9244B4649CBC3402C5366766A0B5C44EC9785462"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/cae95ff24beaad15.esch",
+      "bytes": 487580,
+      "SHA256": "9ABC6BE606BC544408815D149D00378C354B8FFF7DB960005CAB3A40104A0F61"
+    },
+    {
+      "path": "ANALYTIC_POWER_BOUND_ASSUMPTIONS.md",
+      "bytes": 1607,
+      "SHA256": "D858FA37663189CAC82AC7E3F0D2EB25066070EC61FC689B5BD0F128020908F3"
+    },
+    {
+      "path": "ANALYTIC_POWER_BOUND_ENDPOINTS.csv",
+      "bytes": 1276,
+      "SHA256": "67535B5CFF569EE2F5462AC5E083980AF59DAF7B12696E9C78E2933C46024847"
+    },
+    {
+      "path": "association_guard.py",
+      "bytes": 324,
+      "SHA256": "BEDD32DE029CFAC78C681444FF85A6F1CA3AB5A635935B2447A9F309E5DBF57A"
+    },
+    {
+      "path": "ASSOCIATION_GUARD_GREEN.log",
+      "bytes": 567,
+      "SHA256": "122E4444AB43438438CA212B7DBAA007FC957C933D4A10E35BC472BA6EAFBD8E"
+    },
+    {
+      "path": "ASSOCIATION_GUARD_RED.log",
+      "bytes": 1928,
+      "SHA256": "4A3B67D67618C1B1DEA1898FEC7420449F26AA5727DB17E559C77905D3C28FF8"
+    },
+    {
+      "path": "audit_actual_c.py",
+      "bytes": 3653,
+      "SHA256": "63E12C2F5F22EBBD3F4BF12423948AA2B1A967F255D97C4B4BF30BBC0016A14F"
+    },
+    {
+      "path": "BASELINE_ACTUAL_RAW.net",
+      "bytes": 217726,
+      "SHA256": "509303E1E3097F0718C8F6171B0B33DAE028417BED299E2ABCBFEABBE5E46D14"
+    },
+    {
+      "path": "BASELINE_ALL_SCHEMATIC_PINS.csv",
+      "bytes": 13544,
+      "SHA256": "E994B5AB10D0A8ABD2219F4437589799B20C3BC2076A8FF2A9F16CA30247BF2A"
+    },
+    {
+      "path": "BASELINE_PARTS_AND_NETS.json",
+      "bytes": 360925,
+      "SHA256": "0AAEB147751D17BF0BF8653D34161C2614E11E15E30EE878C32796E1C302D628"
+    },
+    {
+      "path": "build_c_page0.js",
+      "bytes": 15847,
+      "SHA256": "D1CEE3FB84F2F0693565DD9678815618C76ACA399EAAB30357FC3759850F7FFA"
+    },
+    {
+      "path": "build_c_page1.js",
+      "bytes": 13418,
+      "SHA256": "3E2460A3775E0D3B9845D1FE9330CAFD45B9AC5E9EA223865FB21EAA90F10BA0"
+    },
+    {
+      "path": "build_c_page2.js",
+      "bytes": 42207,
+      "SHA256": "507AD9B40F289A786148F3A53E452917F4C2D05BE750B5C1334E9A3C72577028"
+    },
+    {
+      "path": "build_c_page3.js",
+      "bytes": 29791,
+      "SHA256": "92FCBFBA4B18959ABE6711E0CD8AE65FE98A0A5442324EA18B09A16F129F15BE"
+    },
+    {
+      "path": "build_c_page4.js",
+      "bytes": 24379,
+      "SHA256": "BB928C757D2232C8B17AC6820ED9FACD75E1DFE68EC5F605D5EE6AB9F6FF75A2"
+    },
+    {
+      "path": "build_c_page5.js",
+      "bytes": 31960,
+      "SHA256": "71DF97BE2D7F2ECE24A650BDE71F6A5D1A50C9AED104116852A605A758326C07"
+    },
+    {
+      "path": "build_c_pages.py",
+      "bytes": 6939,
+      "SHA256": "F1A55F5DC3477D730CFDCA2E2738AC576D70B861064FB814861391604C6EE248"
+    },
+    {
+      "path": "C_ACTUAL_ALL_PINS.csv",
+      "bytes": 13167,
+      "SHA256": "72291F19ED2996B31AE41D5671C75D751B3C7E3C49C30B32199DF9EBB06939B9"
+    },
+    {
+      "path": "C_ACTUAL_BOM.csv",
+      "bytes": 6584,
+      "SHA256": "CF068EA65EF22C71E2D5371BE761602DE2BFDA2AA4E12EB23C1ADFE025D709FF"
+    },
+    {
+      "path": "C_ACTUAL_PARTS_AND_NETS.json",
+      "bytes": 243365,
+      "SHA256": "7ABEA468D78DE3ABB52B76C7992A72AE97700137B7C49521E8B62F125AFE58B7"
+    },
+    {
+      "path": "C_ACTUAL_WARM_AUDIT.json",
+      "bytes": 991,
+      "SHA256": "DCAD43B6AD56B99847152C0ADF564A5D244B8A4053F9D0F79FDB0A5FE6E5A762"
+    },
+    {
+      "path": "C_ACTUAL_WARM_RAW.net",
+      "bytes": 142451,
+      "SHA256": "74181BC22522FD324A8207B7BBAB297BEA67B1D6C84F2E0619002BC20481A4F0"
+    },
+    {
+      "path": "C_ALL_PIN_NET_DIFF.csv",
+      "bytes": 17901,
+      "SHA256": "810C4153949D8F8BDE0F7CF3E71EC4FBE30DBE9C648EEEB8F10CCAA37F5646BF"
+    },
+    {
+      "path": "C_CANDIDATE_BOM.csv",
+      "bytes": 27682,
+      "SHA256": "19C438701960E2F69998BBC015C8CC15C1EEC1B354635AE7F4D219F6E2FA7E1B"
+    },
+    {
+      "path": "C_DESIGNATOR_DIFF.csv",
+      "bytes": 11108,
+      "SHA256": "8062D31CFE267722A661039B1B0D3237128B6DA60D08923D82A70672E9F3D70C"
+    },
+    {
+      "path": "C_LIBRARY_CANDIDATES.json",
+      "bytes": 24805,
+      "SHA256": "3BBEFF46B072F9FC8806058F57D8AE8341DD94EAB74DE522A5596B8785BF1921"
+    },
+    {
+      "path": "C_NATIVE_BUILD_PLAN.json",
+      "bytes": 190798,
+      "SHA256": "9990735774135253F7844BA432AF67ABBF542A324C1B18603B1127768A9AC4C6"
+    },
+    {
+      "path": "C_PAGE1_CHUNK0.js",
+      "bytes": 12620,
+      "SHA256": "A69F328C6311F5F4A181162C0548D0D4E0FDF16D99816D9119D78036C966069B"
+    },
+    {
+      "path": "C_PAGE1_CHUNK1.js",
+      "bytes": 5642,
+      "SHA256": "048A19096D598AFD4E36E144CBBF2F3BA07BB779CC1B3F049BA37E7C1AA98D6A"
+    },
+    {
+      "path": "C_PAGE2_CHUNK0.js",
+      "bytes": 15953,
+      "SHA256": "7AFB89E31DAD4831365DD7448E53D6E108BA0881E3EB2C47BA50564D50C701FE"
+    },
+    {
+      "path": "C_PAGE2_CHUNK1.js",
+      "bytes": 14395,
+      "SHA256": "F0C147AEF0FDACA6C7CA1A5E41454EA601E5D72E19055B5301C34E250FE4A371"
+    },
+    {
+      "path": "C_PAGE2_CHUNK2.js",
+      "bytes": 14321,
+      "SHA256": "DAD6B1180777213FB1D4D791486409ADED31FD99C33A1746D04F5A32FBEA7EEC"
+    },
+    {
+      "path": "C_PAGE2_CHUNK3.js",
+      "bytes": 11972,
+      "SHA256": "F65751EB6BC1A859779DA590599A93D6E28D9C5C82AF2541A72D16C336ECCE3B"
+    },
+    {
+      "path": "C_PAGE3_CHUNK0.js",
+      "bytes": 17447,
+      "SHA256": "3AC6DDD168E8002CC16A0CC8BB87D99D8AB7763847C09EAE44A0C0CC1B67A343"
+    },
+    {
+      "path": "C_PAGE3_CHUNK1.js",
+      "bytes": 14111,
+      "SHA256": "C78C7679F966A3F5D9288C45B9FDDAC52B3126F7962385D28E8AA8C54867AF1D"
+    },
+    {
+      "path": "C_PAGE3_CHUNK2.js",
+      "bytes": 7846,
+      "SHA256": "F9F133351287B15A6A5F7FEC367C65E56EF285B0CE6D688B2B98120731E5F665"
+    },
+    {
+      "path": "C_PAGE4_CHUNK0.js",
+      "bytes": 16614,
+      "SHA256": "068D7F8F9FC175BAB7DD2553F465499DE1EE75CB8706EE59F9B1D95C456B1782"
+    },
+    {
+      "path": "C_PAGE4_CHUNK1.js",
+      "bytes": 12308,
+      "SHA256": "6DD454BD25AA8C4F2A0FA4A47685B5D618E9CBCC8B3E366E53C73A799CEEC7CF"
+    },
+    {
+      "path": "C_PAGE4_CHUNK2.js",
+      "bytes": 5044,
+      "SHA256": "E5946D8D824A68D617A13A7EAFDE660EC886FF47666570E9B7A0119A6ED0A8E8"
+    },
+    {
+      "path": "C_PAGE5_CHUNK0.js",
+      "bytes": 16035,
+      "SHA256": "0C6EACE4631E9573A2686FA00465D4381545049360A947DF6ABC6CDE8DB921C4"
+    },
+    {
+      "path": "C_PAGE5_CHUNK1.js",
+      "bytes": 13001,
+      "SHA256": "E0BA0D74299D91D0EF49D6A1EA29FBF9CF8B1EA6992179419B5116AAAB62DADA"
+    },
+    {
+      "path": "C_PAGE5_CHUNK2.js",
+      "bytes": 12346,
+      "SHA256": "EEACABE11B7EB6ED51AB9B4743287C32640DDB0CBE40B546D72998388D9EB9D8"
+    },
+    {
+      "path": "C_PAGE5_CHUNK3.js",
+      "bytes": 4908,
+      "SHA256": "D42AA76809F3F9A4D4762F364697A872894346BA17BDE433999FD9A3C6B73D4E"
+    },
+    {
+      "path": "C_PAGE_READONLY-1.png",
+      "bytes": 48687,
+      "SHA256": "20E2E28B2EF24F30D3BA9EBCC9BC77AC7B8676621A8C18D63B0AF82ADF83A968"
+    },
+    {
+      "path": "C_PAGE_READONLY-2.png",
+      "bytes": 55844,
+      "SHA256": "18FF86C43E2BF1FF464173F2D2AF3EBED68B501742D61B788DF7A297A61F90DE"
+    },
+    {
+      "path": "C_PAGE_READONLY-3.png",
+      "bytes": 45331,
+      "SHA256": "882A250D79AB03F040FF09807ED2540B204FB4E073D781C1CA54D8CDDCA7A456"
+    },
+    {
+      "path": "C_PAGE_READONLY-4.png",
+      "bytes": 80038,
+      "SHA256": "95C15AE1C609AF3D7829EFCBEE8B63F1AD8DE3EED6A015E542D45293AA71C0B1"
+    },
+    {
+      "path": "C_PAGE_READONLY-5.png",
+      "bytes": 88252,
+      "SHA256": "998CF77AA7EE98B210F29DE483D68D638671D12FA4ADA111B329C630122F6FAE"
+    },
+    {
+      "path": "C_PAGE_READONLY-6.png",
+      "bytes": 58020,
+      "SHA256": "F145A4E0EA0710C98ACC6D1D30ACBD961B7037349CB8D743027E6797FDC1C344"
+    },
+    {
+      "path": "C_SCHEMATIC_CANDIDATE_NOT_FOR_USE.pdf",
+      "bytes": 405178,
+      "SHA256": "CCDFF28E9235D8372A86A5B9945F5E1A7D406553CE09062FDFCD20A363FE73C7"
+    },
+    {
+      "path": "C_SCHEMATIC_PUBLIC_METADATA_STRIPPED_LEGACY_PCB_NOT_FOR_USE.epro2",
+      "bytes": 665554,
+      "SHA256": "CAE0807E867FFDBAB5677F1B5F79DC452794F904D57481A85C942F67B907EAEC"
+    },
+    {
+      "path": "capture_final_c.js",
+      "bytes": 1849,
+      "SHA256": "CF5925FBEB2A1EC464406C02DCA9353DD9EE0C8EFF1E29F7FAEB406FC4EE3BA3"
+    },
+    {
+      "path": "cli_call.py",
+      "bytes": 2109,
+      "SHA256": "E5928B3CA49C9DEC77BC0991E2C02CC8AABA6D02E665B5A78A3E92A5DC969600"
+    },
+    {
+      "path": "CLI_OPERATION_INDEX.json",
+      "bytes": 9249,
+      "SHA256": "FEECDFB45CC413809B3A86FB9D056C39FB0BB4D3DA983EF6159033F05DC297FC"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/BUILD_C_PAGE0.json",
+      "bytes": 304,
+      "SHA256": "84AC40C479A8F2E2425CE24C408153B3D90B86993AB2C4565F2E5BEEE8DE6132"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/BUILD_C_PAGE0_ACTUALLY_EXECUTED.js",
+      "bytes": 15965,
+      "SHA256": "0E44E64C016AF87682D8C8F0853FFB2DA186C60D0186F124269F259A02FD0F93"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_ERC.json",
+      "bytes": 796,
+      "SHA256": "53562881B47F2739E024BAC90DB3B41EA679BDB94297B4175955379D89320844"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE1_CHUNK0.json",
+      "bytes": 19531,
+      "SHA256": "D16785465439AD083B9A28B578681DD518B9E9E9ED0564F2ECFEB180341FDCA8"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE1_CHUNK0_ACTUALLY_EXECUTED.js",
+      "bytes": 12620,
+      "SHA256": "A69F328C6311F5F4A181162C0548D0D4E0FDF16D99816D9119D78036C966069B"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE1_CHUNK1.json",
+      "bytes": 8503,
+      "SHA256": "03E0109CC97CA06F8FB0B30209EFA43BAEB824B65A0770D21E0DFD8C8A4A087C"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE1_CHUNK1_ACTUALLY_EXECUTED.js",
+      "bytes": 5642,
+      "SHA256": "048A19096D598AFD4E36E144CBBF2F3BA07BB779CC1B3F049BA37E7C1AA98D6A"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK0.json",
+      "bytes": 16165,
+      "SHA256": "FC92F1901931B4946F467E67C9BE3106EE50B1D7705CE26D8403E1B340C31D67"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK0_ACTUALLY_EXECUTED.js",
+      "bytes": 15953,
+      "SHA256": "7AFB89E31DAD4831365DD7448E53D6E108BA0881E3EB2C47BA50564D50C701FE"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK1.json",
+      "bytes": 12597,
+      "SHA256": "37AB36F9A98E8D932C8011E98ECEE585FCFE6BF93E1A2D8A4B8013F9F78DEB6C"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK1_ACTUALLY_EXECUTED.js",
+      "bytes": 14395,
+      "SHA256": "F0C147AEF0FDACA6C7CA1A5E41454EA601E5D72E19055B5301C34E250FE4A371"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK2.json",
+      "bytes": 12601,
+      "SHA256": "D756C6C7497B3E403D2FD2E5C70E5E651D952924F2F5FAC6876EC5E0F11D00BE"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK2_ACTUALLY_EXECUTED.js",
+      "bytes": 14321,
+      "SHA256": "DAD6B1180777213FB1D4D791486409ADED31FD99C33A1746D04F5A32FBEA7EEC"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK3.json",
+      "bytes": 9689,
+      "SHA256": "0896432C68968A34C45C865F3FCA4E5990A64581A48EF0181CE636021DA6221D"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE2_CHUNK3_ACTUALLY_EXECUTED.js",
+      "bytes": 11972,
+      "SHA256": "F65751EB6BC1A859779DA590599A93D6E28D9C5C82AF2541A72D16C336ECCE3B"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE3_CHUNK0.json",
+      "bytes": 23335,
+      "SHA256": "D0608EC6064406D500F3E8019829D86AB3AF0152D101F82C6367794F1132D3EB"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE3_CHUNK0_ACTUALLY_EXECUTED.js",
+      "bytes": 17447,
+      "SHA256": "3AC6DDD168E8002CC16A0CC8BB87D99D8AB7763847C09EAE44A0C0CC1B67A343"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE3_CHUNK1.json",
+      "bytes": 12675,
+      "SHA256": "13475FB77EF746F6752671CD58E334AD420A9DB25867FF38BB804740B4D5F1C6"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE3_CHUNK1_ACTUALLY_EXECUTED.js",
+      "bytes": 14111,
+      "SHA256": "C78C7679F966A3F5D9288C45B9FDDAC52B3126F7962385D28E8AA8C54867AF1D"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE3_CHUNK2.json",
+      "bytes": 5314,
+      "SHA256": "5E89709B98A0A725A0C1D76F3F1F39E5F87B5C45D46424699B0FABCDB72EB560"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE3_CHUNK2_ACTUALLY_EXECUTED.js",
+      "bytes": 7846,
+      "SHA256": "F9F133351287B15A6A5F7FEC367C65E56EF285B0CE6D688B2B98120731E5F665"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE4_CHUNK0.json",
+      "bytes": 23329,
+      "SHA256": "DB1FCC00A00582CE773DB468F0210DBBAF28023C0DFAF5FC621A73CCF9538F30"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE4_CHUNK0_ACTUALLY_EXECUTED.js",
+      "bytes": 16614,
+      "SHA256": "068D7F8F9FC175BAB7DD2553F465499DE1EE75CB8706EE59F9B1D95C456B1782"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE4_CHUNK1.json",
+      "bytes": 16258,
+      "SHA256": "477BAD051017A2C6525AE6F0EAB8AEBF103FADFA248D5A6D13ADE1C943C41909"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE4_CHUNK1_ACTUALLY_EXECUTED.js",
+      "bytes": 12308,
+      "SHA256": "6DD454BD25AA8C4F2A0FA4A47685B5D618E9CBCC8B3E366E53C73A799CEEC7CF"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE4_CHUNK2.json",
+      "bytes": 3594,
+      "SHA256": "6699BF9A9C0648CF8E710D3DE8BBA402381DA72578DB92ED4028EB7D7A464F57"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE4_CHUNK2_ACTUALLY_EXECUTED.js",
+      "bytes": 5044,
+      "SHA256": "E5946D8D824A68D617A13A7EAFDE660EC886FF47666570E9B7A0119A6ED0A8E8"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK0.json",
+      "bytes": 16213,
+      "SHA256": "6076D5CEF266AF4081A7091C1852EE34D9979AE50319290FE74491D36D87FC70"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK0_ACTUALLY_EXECUTED.js",
+      "bytes": 16035,
+      "SHA256": "0C6EACE4631E9573A2686FA00465D4381545049360A947DF6ABC6CDE8DB921C4"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK1.json",
+      "bytes": 13895,
+      "SHA256": "F8D687245F82C1244C5B4AC53AE200E644219BF74430B1EB20248453C91D6E9B"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK1_ACTUALLY_EXECUTED.js",
+      "bytes": 13001,
+      "SHA256": "E0BA0D74299D91D0EF49D6A1EA29FBF9CF8B1EA6992179419B5116AAAB62DADA"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK2.json",
+      "bytes": 12701,
+      "SHA256": "78F595440EDB4C5F29ADFA3ED893F276B02B980D4094533C44A31EC8AC1F7FC6"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK2_ACTUALLY_EXECUTED.js",
+      "bytes": 12346,
+      "SHA256": "EEACABE11B7EB6ED51AB9B4743287C32640DDB0CBE40B546D72998388D9EB9D8"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK3.json",
+      "bytes": 2406,
+      "SHA256": "8AAD3E26F12AE77E55F9AB0CC1EE10722B6068BC76FD6287524EA99ED731F878"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/C_PAGE5_CHUNK3_ACTUALLY_EXECUTED.js",
+      "bytes": 4908,
+      "SHA256": "D42AA76809F3F9A4D4762F364697A872894346BA17BDE433999FD9A3C6B73D4E"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/CORRECTED_BUILD_C_PAGE0.json",
+      "bytes": 23288,
+      "SHA256": "871070EF94A41CC44F51D7353EF06197FB871270DF8EEC2DA5678EC309E42C5F"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/CORRECTED_BUILD_C_PAGE0_ACTUALLY_EXECUTED.js",
+      "bytes": 15847,
+      "SHA256": "D1CEE3FB84F2F0693565DD9678815618C76ACA399EAAB30357FC3759850F7FFA"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_SESSION_CLOSE.json",
+      "bytes": 710,
+      "SHA256": "B5D232C0E309E932EB6A5142EA70BA10C12E4F2F5E34A1307170375C8AE49AEA"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FIRST_SESSION_CLOSE.json",
+      "bytes": 710,
+      "SHA256": "E8F39A11A98C7067ED6E4DD553452871EA34592290B2BA90C07042D5B2013A37"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/SAVE_REMAINING_PAGES.json",
+      "bytes": 1063,
+      "SHA256": "83B52081DB09246DADC512591BD6F62CDCBCA195799844555CDDB5AE496F48F7"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/TIMEOUT_READONLY_SNAPSHOT.json",
+      "bytes": 95146,
+      "SHA256": "072E4284518AD658156A5ADB42AE9B73862B4E08116949BDE4530DC53E04669D"
+    },
+    {
+      "path": "COMPLETE_C_POWER_RECEIPT.md",
+      "bytes": 7085,
+      "SHA256": "0052E228FEDDDA25D02AAFD37AB0EEC193F4620BB94BA59D589B47ADFF1034C1"
+    },
+    {
+      "path": "CREATION_ID_CORRECTION.json",
+      "bytes": 17204,
+      "SHA256": "006BDD7BE059B1C0D88710D33429ACEE4BAF245A25ED22B957D5CB1109DB1B9A"
+    },
+    {
+      "path": "erc_c.js",
+      "bytes": 233,
+      "SHA256": "8A199788C4E7EA69681A05EB00BF77E2DC2A094B9B41B526D6375E45EACB3432"
+    },
+    {
+      "path": "exact_materials.js",
+      "bytes": 345,
+      "SHA256": "C6C4BA2C89B96F702D323A06E78F671C00219857F7A4021171264BABBEA32167"
+    },
+    {
+      "path": "EXECUTION_BUDGET.json",
+      "bytes": 6711,
+      "SHA256": "4E84ABDE0E9404DB18DC531B9B2EFCCC66470CDB1EA3067D3EA9A6C6F36EF4B6"
+    },
+    {
+      "path": "export_c.js",
+      "bytes": 848,
+      "SHA256": "6C12FB857B450B79566AD0838B174E3AC2D0EAF89353B7373E20A74B3190136C"
+    },
+    {
+      "path": "EXPORT_DECODE_AUDIT.json",
+      "bytes": 882,
+      "SHA256": "5F760EB9DB029A139BE0154F63CE2BA09685B62AAA2AD270693FA5F9FFDFFCB8"
+    },
+    {
+      "path": "FINAL_REVIEW.md",
+      "bytes": 8694,
+      "SHA256": "0CCDBDCA5FB9976CC1DCA0F506EFEC6D48F758E1FCF3393AD182A66240CB5228"
+    },
+    {
+      "path": "finish_candidate_receipt.py",
+      "bytes": 14282,
+      "SHA256": "54229AD45A58807A94E83D057DA0F6F2B2B6824F58C5AEC9CC3B92BA3B167CE5"
+    },
+    {
+      "path": "GATES.json",
+      "bytes": 992,
+      "SHA256": "C4ACA658922441FBC2A7369D979FB7A476CA949446EE788AEADC9351F2EC424C"
+    },
+    {
+      "path": "initialize_closeout.py",
+      "bytes": 3093,
+      "SHA256": "152E536A8935ED74F0E2E5C62A4B6618EF5139965E919BB9B6838E805FEC974C"
+    },
+    {
+      "path": "material_context.js",
+      "bytes": 437,
+      "SHA256": "3A6DDE2C64132A155A46636EC93A4EA61737FD7C792BB32A4E5D59EB27D308B6"
+    },
+    {
+      "path": "MODEL_SOURCE_SHA.json",
+      "bytes": 577,
+      "SHA256": "FD57503F5BF05967FD06426FAC18AFDBF851CFDF30B2895E88C8263309447EFA"
+    },
+    {
+      "path": "NATIVE_PUBLIC_PRIVACY_DERIVATIVE.json",
+      "bytes": 547,
+      "SHA256": "8C5A6B8AFFA12A8F777DCCAF83A26A5E48F0745472AAD6398DE99532DB10CDFE"
+    },
+    {
+      "path": "NATIVE_PUBLIC_PRIVACY_VERIFICATION.json",
+      "bytes": 216,
+      "SHA256": "E691C849257C4D855F7C2580AE68DDEADD934092290B4AFFAC52E7B51C797EA7"
+    },
+    {
+      "path": "native_step.py",
+      "bytes": 777,
+      "SHA256": "10C3DF52A544E4A4920ACD3A3345391DB6B9D6B390DA2F0CBAF395FE4B404914"
+    },
+    {
+      "path": "OLD_SOURCE_FREEZE_AND_SESSION_CLOSE.json",
+      "bytes": 288,
+      "SHA256": "CC35B9F4C5B664D0F5D0C5A03E19B97EA836BDC68B87E41EF7CD606AA122BEDF"
+    },
+    {
+      "path": "PDF_VISUAL_INSPECTION.md",
+      "bytes": 883,
+      "SHA256": "16123EC23873AE5C9B4946DE0FA0B1EBF6CFC5345735E05DF10A457E8A5BABD8"
+    },
+    {
+      "path": "PLAN_AND_LEDGER.md",
+      "bytes": 5468,
+      "SHA256": "9807FC70F1DDE18C40DCF625202884B7F7A71B8436840BE0100496EEDC8B8407"
+    },
+    {
+      "path": "prepare_native_c_plan.py",
+      "bytes": 7131,
+      "SHA256": "90B60C91356ACA5384A009A3F2D42866889957D8E3D57AFDBF334162A1E85CA8"
+    },
+    {
+      "path": "PRIMARY_SOURCE_NOTES.md",
+      "bytes": 1504,
+      "SHA256": "D4959DEE023B22BE6F0113765A96FC94D636275658BAA54C31204B68B6C67EC8"
+    },
+    {
+      "path": "PRIVACY_GUARD_GREEN.log",
+      "bytes": 137,
+      "SHA256": "F68434E8943236E42E4F4C834F00F4D91FDFDE782D360129E5881AE467940B4D"
+    },
+    {
+      "path": "PRIVACY_GUARD_RED.log",
+      "bytes": 71,
+      "SHA256": "2890887D29C9EDDACED6053B7523F2079A90076492791B59B288F73F2F10991B"
+    },
+    {
+      "path": "PRIVATE_COPY_SOURCE_SHA.json",
+      "bytes": 456,
+      "SHA256": "E4CBF675E004AEF95905253755DBA4C5E7F7615FECC8BC3E24C779B8C6FDFCD5"
+    },
+    {
+      "path": "PRO_C_POWER_RULING_FULL.md",
+      "bytes": 12767,
+      "SHA256": "02AC9DCD5732D2367ACFE44C9A1C845A005D5CB0C4C39C5C9D765BF8DB97C242"
+    },
+    {
+      "path": "RAW_NATIVE_BOM_FLAGS.json",
+      "bytes": 2420,
+      "SHA256": "DFAF2C3E4866389B3B96B687BFCA5CD497573CE7BA1E2E12E73D8B1B633C86B9"
+    },
+    {
+      "path": "read_after_timeout.js",
+      "bytes": 676,
+      "SHA256": "363D4215E0253EE65A3726635ECCC3203D39A53693C9E0D26E5C79190BB76E54"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7085,
+      "SHA256": "0052E228FEDDDA25D02AAFD37AB0EEC193F4620BB94BA59D589B47ADFF1034C1"
+    },
+    {
+      "path": "REMAINING_NATIVE_CHUNKS.json",
+      "bytes": 3927,
+      "SHA256": "9C499DB66F1078C3F1D099EB0060B91387A6C435D2D62713C7DAD4C838D874A9"
+    },
+    {
+      "path": "resolve_creation_ids.py",
+      "bytes": 1445,
+      "SHA256": "50928E835F0A4B4C868FC7779E6D6DECE679FA768DCDF84A434E3E8C07596A83"
+    },
+    {
+      "path": "REVIEW_DISPOSITION.md",
+      "bytes": 917,
+      "SHA256": "D1722BE0D6F7D86B6AF8F18705A625682F9CE4371293340D3A7F71801D75355E"
+    },
+    {
+      "path": "run_native_chunk.py",
+      "bytes": 1119,
+      "SHA256": "5FF5C16059D17C5972568F11A4D33E2721BDBC3241308C13C52821156A855B4B"
+    },
+    {
+      "path": "save_remaining_pages.js",
+      "bytes": 480,
+      "SHA256": "AB822600A697D4316F7B06489BD08C5F7E0649A6A0B6E45B5EC2D755C5C9C24B"
+    },
+    {
+      "path": "split_remaining_pages.py",
+      "bytes": 1341,
+      "SHA256": "B30484819B3A9E3D6636D2943E143EA6887E9A3B9E839415A9D8989DC74707C1"
+    },
+    {
+      "path": "test_association_guard.py",
+      "bytes": 754,
+      "SHA256": "B1E978C955F12FF29518D1917F0ED84035671C6E13ADB810F829DAF105434416"
+    }
+  ],
+  "excludedLocalFiles": [
+    {
+      "path": "__pycache__/association_guard.cpython-313.pyc",
+      "bytes": 931,
+      "SHA256": "E36B634FDA15C246B11700738428FD3D3243BB3888784B2C13FBEC8D6EC48502",
+      "reason": "Generated Python bytecode"
+    },
+    {
+      "path": "__pycache__/test_association_guard.cpython-313.pyc",
+      "bytes": 2113,
+      "SHA256": "F9E54DBAF3378C24B9144EB601147EFCD112D64F5A1D694D6959ADC85B0F2921",
+      "reason": "Generated Python bytecode"
+    },
+    {
+      "path": "BUILD_C_PAGE0.json",
+      "bytes": 18010,
+      "SHA256": "CC63136A99C41E528C32575A5DBC8650B5EEF49E6B26B192E2E491D2ED07E24F",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "BUILD_C_PAGE0.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "BUILD_C_PAGE0.stdout",
+      "bytes": 2,
+      "SHA256": "7EB70257593DA06F682A3DDDA54A9D260D4FC514F645237F5CA74B08F8DA61A6",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_ERC.json",
+      "bytes": 1036,
+      "SHA256": "501DDE09A19671332F2FC264421E44AA7BA3DB7C21005B6C0A5DF8A44A418495",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_ERC.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_ERC.stdout",
+      "bytes": 169,
+      "SHA256": "60B1E85613EF28F91DF0F29E72775EA6684F97194CCADAF9EE6BCF7A3B3FEE09",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_FINAL_WARM_CAPTURE.json",
+      "bytes": 9416586,
+      "SHA256": "3CFC180A96B55290E207C1B794EB8AC579DC1241D5F7A11D92296AB498D55B80",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_FINAL_WARM_CAPTURE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_FINAL_WARM_CAPTURE.stdout",
+      "bytes": 3415132,
+      "SHA256": "1EDDBD46A26EF79F08684B94F1866CC9296855827C16D9848705A2AA9AFB9BF4",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_NATIVE_AND_PDF_EXPORT.json",
+      "bytes": 2917362,
+      "SHA256": "AEA35A30EA80BCF3C96A1F07E4381B0A26E4C6DDDD75C692709EE31295872983",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_NATIVE_AND_PDF_EXPORT.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_NATIVE_AND_PDF_EXPORT.stdout",
+      "bytes": 1457976,
+      "SHA256": "B15B5469C958A159F625B860DE8EA522A6C500149AE8432EEEA0746963E27349",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_NATIVE_EXPORTED_PROJECT_SOURCE.epru",
+      "bytes": 4674653,
+      "SHA256": "823BB51D23BDA51E203A822A5811C41F48EEBD28A59780441783FAA88B850EE7",
+      "reason": "Raw native author metadata retained locally; separately named header-stripped public derivative supplied"
+    },
+    {
+      "path": "C_PAGE1_CHUNK0.json",
+      "bytes": 33288,
+      "SHA256": "881254EE0C7AAF89A782A9559F2B903B38D47BDA41A97CBE2EFF67572BA4ED61",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE1_CHUNK0.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE1_CHUNK0.stdout",
+      "bytes": 5458,
+      "SHA256": "6AD0E691F9C48096F534DF0CB159F65B2F12F9174515A7FF98992B65CBC023B6",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE1_CHUNK1.json",
+      "bytes": 14259,
+      "SHA256": "9BDB38DA97456046B46E1155AE4524BC10F04F1CB5E29908FDBE484D520BB441",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE1_CHUNK1.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE1_CHUNK1.stdout",
+      "bytes": 2236,
+      "SHA256": "2F05ECC7D4E08D0CFE74D73D1D35045C892DBD574F3287F377E4D8C0D63A2E5C",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK0.json",
+      "bytes": 33551,
+      "SHA256": "4493CFC3981DD16AF603027FBB2EF28570641C16BD98AC89414065AB858ED46B",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK0.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK0.stdout",
+      "bytes": 4584,
+      "SHA256": "4D680B8DAFAA8191A034FFF4263DF7846747AE38492B692B4082A058BE3B8593",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK1.json",
+      "bytes": 28170,
+      "SHA256": "38CE17695D8F7A14CAB0A8B5C51DAF4A0B38910171A06874AD705BF147995101",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK1.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK1.stdout",
+      "bytes": 3700,
+      "SHA256": "EA2E24F7B87C19E7017862F4DD584E54A06DCE4497FF9020875C53699A1A2B15",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK2.json",
+      "bytes": 28092,
+      "SHA256": "9E040FB0AACE215F646F6502BF7C0A12F0812089876FD1EA7A70CEA576D48A36",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK2.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK2.stdout",
+      "bytes": 3702,
+      "SHA256": "9854857E3D18BA72C97EC7DA65379DA6C945C4BD868F6395F7ADB91EDEE0402A",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK3.json",
+      "bytes": 22535,
+      "SHA256": "631990FE5B48FF233108D6460EC9B747B1A6315CF279799D1D9AC3E84070ED87",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK3.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE2_CHUNK3.stdout",
+      "bytes": 2829,
+      "SHA256": "7E2D64C8AC1181F508E2D0D9241CEED2843037A907B1BA3E1FD1C04EA948489A",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK0.json",
+      "bytes": 42609,
+      "SHA256": "3B0966D6C32B48C003C2150840A07A3207BF7A6AC5F3220F410FEAACAEA2C52F",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK0.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK0.stdout",
+      "bytes": 6420,
+      "SHA256": "9A9FEE618444423DC80D2C669FEEF7AA9571182F291B75D6E7323D1B3DE988BC",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK1.json",
+      "bytes": 27912,
+      "SHA256": "67D446E756C4840C7D9491619C84654FC8CEDA3BD9BECFBC2C2AD12BAEE1CB66",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK1.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK1.stdout",
+      "bytes": 3733,
+      "SHA256": "B39078627A2D2E849BA993BA13195C79CE5B50DF4E5B50CCB5543B47607F172E",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK2.json",
+      "bytes": 13566,
+      "SHA256": "06121544430D75C88AA9788FA7938EEA96AB73E3EAA44B89E57E1058379C3F26",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK2.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE3_CHUNK2.stdout",
+      "bytes": 1510,
+      "SHA256": "4ADFE2081A3E75F463184DCF4518A41F65AB82D57987283C74D13EA8959C4059",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK0.json",
+      "bytes": 41684,
+      "SHA256": "977614BE99768A855C25ECC576E126D19488EE6F2A9985855CC657FE6D8C410F",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK0.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK0.stdout",
+      "bytes": 6426,
+      "SHA256": "F8701D5246C820FAA47F927319C1E692184179E05A8A06826B6B8A6196B30DB7",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK1.json",
+      "bytes": 29485,
+      "SHA256": "D6BD4B804FEB23C6EC9B4D4E12A522D3D16CA3AB5B3D6B27C9C5C8490EAF8441",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK1.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK1.stdout",
+      "bytes": 4648,
+      "SHA256": "FD7E25BC8C0A47ABBF127166F42357ABF2E887B682DDB74FEE85BE621AE2A8FE",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK2.json",
+      "bytes": 8674,
+      "SHA256": "194B0100A64FB70609CAAC0F9C0437405D34DA19BB83ECF8FA560A2D0EDC34D2",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK2.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE4_CHUNK2.stdout",
+      "bytes": 941,
+      "SHA256": "89919FF53FA2A26F978E2EB5FD360C12B6A32B62D6C58BE1127FEF6A5BD9F147",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK0.json",
+      "bytes": 33677,
+      "SHA256": "2E7FD086556BAB8D2BBD6CB42634AF6DB1402E853D4343991855A49DAF525E84",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK0.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK0.stdout",
+      "bytes": 4606,
+      "SHA256": "06E3BCD36F99E69ECFE88002834A80173A7B73FA49F322AB5123DE7E8460C611",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK1.json",
+      "bytes": 28024,
+      "SHA256": "39F5D914B3CEDE9D800C50D50AA073A54BBE7BB4E36C04FDD55D8F856AE21CEA",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK1.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK1.stdout",
+      "bytes": 4051,
+      "SHA256": "39E7B0D146C620D79D71BAF02C4DC77362BC93BDC449E7ABF81EC7E368616228",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK2.json",
+      "bytes": 26045,
+      "SHA256": "A787019B66826FF7FBBEA0C58A77258FDCCA337FE9FD14235652D4F4D8815C16",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK2.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK2.stdout",
+      "bytes": 3746,
+      "SHA256": "BA3068BD70690261BE5B7564161565E298A129664B1BE28E984C57E4982BCED7",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK3.json",
+      "bytes": 7334,
+      "SHA256": "E0DFCE1F21A2812346BF81C27FF54AD6AE02FE1AD3EBAD5FF050161B516E6C2E",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK3.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_PAGE5_CHUNK3.stdout",
+      "bytes": 639,
+      "SHA256": "5B7B19FC05456F5CF523F17EEF2902079FC39BD455A9CD880D3F6C1BA49A8458",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "C_POWER_WORK_PRIVATE_NOT_FOR_PUBLIC.eprj2",
+      "bytes": 3870720,
+      "SHA256": "6D68615A1BD545EFB674718A61BA5CE5ACF432E326E22C80F93A5A5A3E2E217D",
+      "reason": "Private account SQLite container: never public"
+    },
+    {
+      "path": "C_SCHEMATIC_CANDIDATE_LEGACY_PCB_NOT_FOR_USE.epro2",
+      "bytes": 688033,
+      "SHA256": "6E2C201D02D19263A52E67A8F2E3B09F008362C30DF1D996B91F1F7E254D13A3",
+      "reason": "Raw native author metadata retained locally; separately named header-stripped public derivative supplied"
+    },
+    {
+      "path": "CORRECTED_BUILD_C_PAGE0.json",
+      "bytes": 40639,
+      "SHA256": "B6782E2E8E9A372B663EF47B42A0852827F01C338A396B66681DECAABC570148",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "CORRECTED_BUILD_C_PAGE0.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "CORRECTED_BUILD_C_PAGE0.stdout",
+      "bytes": 6825,
+      "SHA256": "3A09C41CAEB6BCF3E1DADCBC989D2578C9F8253CA3C1BECD3800958833696A38",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "EXACT_MATERIALS.json",
+      "bytes": 101141,
+      "SHA256": "D268624C686C9B2EA3CFF0092A224DF7BA87ED1848E50571F84FB5DB0BD2B190",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "EXACT_MATERIALS.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "EXACT_MATERIALS.stdout",
+      "bytes": 39008,
+      "SHA256": "93F0832199C7F696AA2EABDD4DE4A3823F57AF6A371F2F1C5F7258AAD5DAE173",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_SESSION_CLOSE.json",
+      "bytes": 676,
+      "SHA256": "B2B85F03B83E24924645DCEEDA48AFC48812CD30FD0C36E1374C6C2CA3C61539",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_SESSION_CLOSE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_SESSION_CLOSE.stdout",
+      "bytes": 134,
+      "SHA256": "9D12FCE4A158A50EA02892F532C4AFA0180F4888A77512A0148BF4C7493E64B4",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FIRST_SESSION_CLOSE.json",
+      "bytes": 676,
+      "SHA256": "C8FB66445FD1FB144F1431B2D8FA5558C97B0D8289DB500DCB51B6C4A0EE1B9B",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FIRST_SESSION_CLOSE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FIRST_SESSION_CLOSE.stdout",
+      "bytes": 134,
+      "SHA256": "BA82BBC4680E2FA324A855A60FC736DD44808E3BB6B9E74640B9789EC285AE9A",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_CONTEXT.json",
+      "bytes": 1015,
+      "SHA256": "2EC95745D3A9060A1BFA3A41BEB6D0952749B42A254BFB2EB722F824D3625C47",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_CONTEXT.stderr",
+      "bytes": 42,
+      "SHA256": "A65432DB740AA2C5A035DAA00CFC2FF5ADA3772B8F970E699265B40D0FD4E4E9",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_CONTEXT.stdout",
+      "bytes": 87,
+      "SHA256": "D8EA4209E4B1A29A68F6F396723B725B10154C29C79149CB5F1D04605432823F",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_CONTEXT_INVOKE.json",
+      "bytes": 79244,
+      "SHA256": "876108682CBEEF10805F99668A733DA39FE613115B927E40E987BED7E31B97E7",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_CONTEXT_INVOKE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_CONTEXT_INVOKE.stdout",
+      "bytes": 23232,
+      "SHA256": "76BBBADC7EE47811D6369700EFCB1B0157D05AACDDF6FE71740C167BFD33CE34",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_OPEN.json",
+      "bytes": 1080,
+      "SHA256": "A5A011B2EDC91379782E6950FA6970C85817282532C5CA9FAEAA3C8B4505AA36",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_OPEN.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "POWER_OPEN.stdout",
+      "bytes": 283,
+      "SHA256": "EA605D84816B063D8E7B4924F34844D8BD424BBC623E8F4BD8D12BF8DC0D9A46",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "SAVE_REMAINING_PAGES.json",
+      "bytes": 1551,
+      "SHA256": "E89A7B413FA16E0FD93FAF436D28D17F37D17E9E373DCE3BA5F4EE2632BC8748",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "SAVE_REMAINING_PAGES.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "SAVE_REMAINING_PAGES.stdout",
+      "bytes": 231,
+      "SHA256": "161E9A98D8B15CDCF1E99B4F2CEE27C87471F71C80036CC97EC4D56B08E35802",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "SECOND_POWER_OPEN.json",
+      "bytes": 1084,
+      "SHA256": "90FB44E3FAA6C867DDB013528F86B6A67A45FD968C83B509C136718084FBE07C",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "SECOND_POWER_OPEN.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "SECOND_POWER_OPEN.stdout",
+      "bytes": 285,
+      "SHA256": "80844C5D9ABF056F7DBEC5ABFDF78BBB0F143EF682E71871625F2825508510E8",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "TIMEOUT_READONLY_SNAPSHOT.json",
+      "bytes": 95768,
+      "SHA256": "7817362B2D996FE238084026F72789E6E20478D4C54791E78031963E02D51957",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "TIMEOUT_READONLY_SNAPSHOT.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "TIMEOUT_READONLY_SNAPSHOT.stdout",
+      "bytes": 30743,
+      "SHA256": "B8DD678C935F2248751DAB02223B875C764AB9E50CED6C869A1B8F09FA30C318",
+      "reason": "Raw context/CLI metadata or duplicate raw export: local full evidence retained; public indexed/sanitized equivalents"
+    }
+  ],
+  "thirdPartyBulkUploaded": false,
+  "rawPrivateNativeUploaded": false,
+  "publicNativePrivacyDerivativeNotColdReopened": true
+}

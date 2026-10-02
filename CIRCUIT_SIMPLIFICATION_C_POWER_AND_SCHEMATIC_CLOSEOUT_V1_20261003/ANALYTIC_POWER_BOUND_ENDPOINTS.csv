@@ -1,0 +1,11 @@
+analysis,endpoint,value_V,method,qualification
+U9_OVLO_V,low_or_nominal,5.288131065454547,scalar analytic; no device transient model,HOLD / conditional assumptions
+U9_OVLO_V,high,5.4910440806006005,scalar analytic; no device transient model,HOLD / conditional assumptions
+U8_FB_RESISTOR_CONDITIONAL_V,low_or_nominal,3.258901978021978,scalar analytic; no device transient model,HOLD / conditional assumptions
+U8_FB_RESISTOR_CONDITIONAL_V,high,3.3331900700700703,scalar analytic; no device transient model,HOLD / conditional assumptions
+U11_FALLING_V,low_or_nominal,4.772018479120879,scalar analytic; no device transient model,HOLD / conditional assumptions
+U11_FALLING_V,high,4.8881434410410405,scalar analytic; no device transient model,HOLD / conditional assumptions
+U12_ACTUAL_16K99_FALLING_V,low_or_nominal,3.0651969900109894,scalar analytic; no device transient model,HOLD / conditional assumptions
+U12_ACTUAL_16K99_FALLING_V,high,3.1426345195205205,scalar analytic; no device transient model,HOLD / conditional assumptions
+OFF_SIX_PATH_V,low_or_nominal,0.35420393559928437,scalar analytic; no device transient model,HOLD / conditional assumptions
+OFF_SIX_PATH_V,high,0.3901978354537016,scalar analytic; no device transient model,HOLD / conditional assumptions

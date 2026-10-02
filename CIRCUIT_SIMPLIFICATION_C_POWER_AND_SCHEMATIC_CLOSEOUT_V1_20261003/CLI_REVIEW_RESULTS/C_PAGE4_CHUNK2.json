@@ -1,0 +1,104 @@
+{
+  "operation": {
+    "label": "C_PAGE4_CHUNK2",
+    "startedUTC": "2026-10-02T20:04:49.318250+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 2237,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "52a8a60e5711e55b",
+        "index": 4,
+        "name": "MCU_Protected_Interfaces"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "D_DBG3",
+          "id": "f8258905bbba5870",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 320,
+              "y": 1870,
+              "rotation": 270
+            },
+            {
+              "number": "5",
+              "name": "5",
+              "x": 360,
+              "y": 1930,
+              "rotation": 90
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 340,
+              "y": 1870,
+              "rotation": 270
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 380,
+              "y": 1930,
+              "rotation": 90
+            },
+            {
+              "number": "6",
+              "name": "6",
+              "x": 330,
+              "y": 1930,
+              "rotation": 90
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 370,
+              "y": 1870,
+              "rotation": 270
+            }
+          ],
+          "planned": {
+            "1": "GND",
+            "2": "V3V3",
+            "3": "PGOOD",
+            "4": "GND",
+            "5": "PWR5_OK",
+            "6": "UART_RX"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "f259458468de91cf",
+            "name": "BAT54XY,115"
+          },
+          "footprint": {
+            "uuid": "6c378040a31f4684",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {},
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 2237
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"52a8a60e5711e55b\",\"index\":4,\"name\":\"MCU_Protected_Interfaces\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"D_DBG3\",\"id\":\"f8258905bbba5870\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":320,\"y\":1870,\"rotation\":270},{\"number\":\"5\",\"name\":\"5\",\"x\":360,\"y\":1930,\"rotation\":90},{\"number\":\"2\",\"name\":\"2\",\"x\":340,\"y\":1870,\"rotation\":270},{\"number\":\"4\",\"name\":\"4\",\"x\":380,\"y\":1930,\"rotation\":90},{\"number\":\"6\",\"name\":\"6\",\"x\":330,\"y\":1930,\"rotation\":90},{\"number\":\"3\",\"name\":\"3\",\"x\":370,\"y\":1870,\"rotation\":270}],\"planned\":{\"1\":\"GND\",\"2\":\"V3V3\",\"3\":\"PGOOD\",\"4\":\"GND\",\"5\":\"PWR5_OK\",\"6\":\"UART_RX\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"f259458468de91cf\",\"name\":\"BAT54XY,115\"},\"footprint\":{\"uuid\":\"6c378040a31f4684\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-363_L2.0-W1.3-P0.65-LS2.1-BR\"},\"dnp\":false}],\"deleted\":{},\"saved\":false},\"logs\":[],\"durationMs\":2237}\n",
+  "stderr": ""
+}

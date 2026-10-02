@@ -1,0 +1,27 @@
+test_catalog_id_is_allowed (test_association_guard.AssociationTests.test_catalog_id_is_allowed) ... ok
+test_imported_id_must_not_be_created (test_association_guard.AssociationTests.test_imported_id_must_not_be_created) ... FAIL
+test_inherited_j2_does_not_recreate (test_association_guard.AssociationTests.test_inherited_j2_does_not_recreate) ... ok
+test_nonhex_catalog_id_rejected (test_association_guard.AssociationTests.test_nonhex_catalog_id_rejected) ... FAIL
+
+======================================================================
+FAIL: test_imported_id_must_not_be_created (test_association_guard.AssociationTests.test_imported_id_must_not_be_created)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_SIMPLIFICATION_C_POWER_AND_SCHEMATIC_CLOSEOUT_V1\test_association_guard.py", line 5, in test_imported_id_must_not_be_created
+    with self.assertRaises(ValueError):validate_creation_id({'ref':'J1','association':{'uuid':'bac146b35b35db45'}})
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_nonhex_catalog_id_rejected (test_association_guard.AssociationTests.test_nonhex_catalog_id_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_SIMPLIFICATION_C_POWER_AND_SCHEMATIC_CLOSEOUT_V1\test_association_guard.py", line 11, in test_nonhex_catalog_id_rejected
+    with self.assertRaises(ValueError):validate_creation_id({'ref':'U8','association':{'uuid':'g'*32}})
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=2)

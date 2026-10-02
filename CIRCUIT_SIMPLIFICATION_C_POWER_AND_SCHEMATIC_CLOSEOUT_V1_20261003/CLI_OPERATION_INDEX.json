@@ -1,0 +1,453 @@
+[
+  {
+    "label": "POWER_OPEN",
+    "startedUTC": "2026-10-02T19:37:10.935882+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 782,
+    "valueKeys": [
+      "sessionId",
+      "renderId",
+      "path",
+      "headless"
+    ],
+    "error": null
+  },
+  {
+    "label": "POWER_CONTEXT",
+    "startedUTC": "2026-10-02T19:37:37.304854+00:00",
+    "returncode": 2,
+    "outerTimeout": false,
+    "ok": false,
+    "durationMs": null,
+    "valueKeys": null,
+    "error": {
+      "code": "UNKNOWN_COMMAND",
+      "message": "Unknown command: execute"
+    }
+  },
+  {
+    "label": "POWER_CONTEXT_INVOKE",
+    "startedUTC": "2026-10-02T19:37:55.957981+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 1883,
+    "valueKeys": [
+      "project",
+      "schematics",
+      "libraryUuid",
+      "searches"
+    ],
+    "error": null
+  },
+  {
+    "label": "EXACT_MATERIALS",
+    "startedUTC": "2026-10-02T19:40:34.643168+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 3222,
+    "valueKeys": [
+      "libraryUuid",
+      "searches"
+    ],
+    "error": null
+  },
+  {
+    "label": "BUILD_C_PAGE0",
+    "startedUTC": "2026-10-02T19:50:25.634096+00:00",
+    "returncode": 1,
+    "outerTimeout": true,
+    "ok": null,
+    "durationMs": null,
+    "valueKeys": null,
+    "error": null
+  },
+  {
+    "label": "TIMEOUT_READONLY_SNAPSHOT",
+    "startedUTC": "2026-10-02T19:52:16.298592+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 29,
+    "valueKeys": [
+      "project",
+      "page",
+      "parts",
+      "nets",
+      "source"
+    ],
+    "error": null
+  },
+  {
+    "label": "FIRST_SESSION_CLOSE",
+    "startedUTC": "2026-10-02T19:54:09.977739+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 5,
+    "valueKeys": [
+      "sessionId",
+      "status",
+      "headless"
+    ],
+    "error": null
+  },
+  {
+    "label": "SECOND_POWER_OPEN",
+    "startedUTC": "2026-10-02T19:55:27.936588+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 11661,
+    "valueKeys": [
+      "sessionId",
+      "renderId",
+      "path",
+      "headless"
+    ],
+    "error": null
+  },
+  {
+    "label": "CORRECTED_BUILD_C_PAGE0",
+    "startedUTC": "2026-10-02T19:57:04.201438+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 19406,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE1_CHUNK0",
+    "startedUTC": "2026-10-02T19:59:04.345253+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 20572,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE1_CHUNK1",
+    "startedUTC": "2026-10-02T20:00:29.236039+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 5731,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE2_CHUNK0",
+    "startedUTC": "2026-10-02T20:00:36.533200+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 13901,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE2_CHUNK1",
+    "startedUTC": "2026-10-02T20:00:51.965976+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 6988,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE2_CHUNK2",
+    "startedUTC": "2026-10-02T20:01:42.225475+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 8202,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE2_CHUNK3",
+    "startedUTC": "2026-10-02T20:01:52.118820+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 5200,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE3_CHUNK0",
+    "startedUTC": "2026-10-02T20:01:59.014487+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 16767,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE3_CHUNK1",
+    "startedUTC": "2026-10-02T20:02:17.385733+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 7135,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE3_CHUNK2",
+    "startedUTC": "2026-10-02T20:04:10.803922+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 4172,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE4_CHUNK0",
+    "startedUTC": "2026-10-02T20:04:16.645193+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 17059,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE4_CHUNK1",
+    "startedUTC": "2026-10-02T20:04:35.284152+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 12441,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE4_CHUNK2",
+    "startedUTC": "2026-10-02T20:04:49.318250+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 2237,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE5_CHUNK0",
+    "startedUTC": "2026-10-02T20:05:32.479183+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 18669,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE5_CHUNK1",
+    "startedUTC": "2026-10-02T20:05:52.653363+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 9760,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE5_CHUNK2",
+    "startedUTC": "2026-10-02T20:06:03.970042+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 9778,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_PAGE5_CHUNK3",
+    "startedUTC": "2026-10-02T20:06:15.241985+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 1350,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  {
+    "label": "SAVE_REMAINING_PAGES",
+    "startedUTC": "2026-10-02T20:07:43.007414+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 1024,
+    "valueKeys": [
+      "savedPages"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_FINAL_WARM_CAPTURE",
+    "startedUTC": "2026-10-02T20:08:20.712832+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 9533,
+    "valueKeys": [
+      "project",
+      "pages",
+      "actualFile"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_ERC",
+    "startedUTC": "2026-10-02T20:11:18.790926+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 158,
+    "valueKeys": [
+      "project",
+      "warnings"
+    ],
+    "error": null
+  },
+  {
+    "label": "C_NATIVE_AND_PDF_EXPORT",
+    "startedUTC": "2026-10-02T20:12:31.732186+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 4803,
+    "valueKeys": [
+      "project",
+      "native",
+      "pdf",
+      "legacyPCBIsNotCPCB"
+    ],
+    "error": null
+  },
+  {
+    "label": "FINAL_SESSION_CLOSE",
+    "startedUTC": "2026-10-02T20:18:01.490841+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 5,
+    "valueKeys": [
+      "sessionId",
+      "status",
+      "headless"
+    ],
+    "error": null
+  }
+]

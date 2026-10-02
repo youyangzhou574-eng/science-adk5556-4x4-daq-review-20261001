@@ -1,0 +1,15 @@
+{
+  "operation": {
+    "label": "BUILD_C_PAGE0",
+    "startedUTC": "2026-10-02T19:50:25.634096+00:00",
+    "returncode": 1,
+    "outerTimeout": true,
+    "ok": null,
+    "durationMs": null,
+    "valueKeys": null,
+    "error": null
+  },
+  "parsed": null,
+  "stdout": "\r\n",
+  "stderr": ""
+}

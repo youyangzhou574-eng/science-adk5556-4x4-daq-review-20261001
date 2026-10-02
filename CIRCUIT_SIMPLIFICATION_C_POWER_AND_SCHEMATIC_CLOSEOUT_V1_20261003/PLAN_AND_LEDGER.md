@@ -1,0 +1,27 @@
+# C power and native schematic closeout
+Spec: PRO_C_POWER_RULING_FULL.md; assistant7492ccc0-973b-4538-95f2-4ba4f190d8e3 parent2d7fdffa-4627-4fb6-ac73-6b26d297417a.
+300min total; source/material60, schematic120, finite electrical60, delivery60. All counts atomic before actions, no reuse of old budget. C only, no LP/A/full-matrix/PZ rerun, no PCB/placement/manufacturing/bench/Git/system.
+S0 verify TPS7A3701 real pin/capacitance/reverse/EN conditions and bounded BOM changes. Whole-rail Ceff/EN removal sequence remains explicit until evidence.
+S1 isolated working copy; source pages rebuilt only with actual library/pin mapping and complete designator diff; all core unchanged functions audited from actual File.
+S2 bounded power/reset/off analysis or limited models; no macro repair. Keep numerical unresolved history, not global performance PASS.
+S3 save/cold actual audit/ERC/PDF, complete receipt and single fresh-context review; normal fixed-commit GitHub delivery and reply successor monitor.
+Ruling: same established isolation workflow, no Git/write cleanup; user continuous authorization overrides redundant plan approval. Do not overwrite old source/data. Do not use target90 as mandatory deletion count.
+
+Ruling: Independent V5-supervisor output PWR5_OK controls LDO EN, pulled up100k toV5; U11 VDD/MR moved toV5. Reuse the unused isolated upper Schottky branch in the fourth BAT54XY to propagate power-bad into3.3V NRST without a5V MCU pullup. This is a concrete engineering amendment to the literal common wired-AND suggestion; intended logical power qualification, not demonstrated equivalent, no added IC. Not yet approved/qualified; fast input-loss sequence and diode/reset limits remain HOLD. Cost if wrong: revise only power/control page; do not energize.
+Ruling: Qualified18k/162k devices preserveVEX ratio while raising dividerThevenin9k→16.2k; no performance claim. Cost if wrong: restore10k/90k when sourced, recheckstartup.
+Ruling: Single17k0.1% exactdevice not found; preserve old16.99k chain and disclose until actualmatchingMPN. Cost if wrong: extra3 R and0.037%threshold difference, no silent5%replacement.
+Ruling: Retain all double ADC/referencebulkcapacitors untilCeffclosed; projected103populated/115structural is honestcount, notforced90. DNP12isolatedreferenceparts are NOT aqualifiedswitchablecompensationnetwork; future routing restoration needs explicitECO. Cost if wrong: further design review, noPCBrelease.
+Ruling: C125795 TPD template has missingmanufacturerfield; useonlyelectricalcandidatepinplan with materialconformanceHOLD, never verifiedTIstock. Cost ifwrong: replace/supplyqualifiedtemplate before release.
+
+Ruling: Independent V5-supervisor output PWR5_OK controls LDO EN, pulled up100k toV5; U11 VDD/MR moved toV5. Reuse the unused isolated upper Schottky branch in the fourth BAT54XY to propagate power-bad into3.3V NRST without a5V MCU pullup. This is a concrete engineering amendment to the literal common wired-AND suggestion; intended logical power qualification, not demonstrated equivalent, no added IC. Not yet approved/qualified; fast input-loss sequence and diode/reset limits remain HOLD. Cost if wrong: revise only power/control page; do not energize.
+Ruling: Qualified18k/162k devices preserveVEX ratio while raising dividerThevenin9k→16.2k; no performance claim. Cost if wrong: restore10k/90k when sourced, recheckstartup.
+Ruling: Single17k0.1% exactdevice not found; preserve old16.99k chain and disclose until actualmatchingMPN. Cost if wrong: extra3 R and0.037%threshold difference, no silent5%replacement.
+Ruling: Retain all double ADC/referencebulkcapacitors untilCeffclosed; projected103populated/115structural is honestcount, notforced90. DNP12isolatedreferenceparts are NOT aqualifiedswitchablecompensationnetwork; future routing restoration needs explicitECO. Cost if wrong: further design review, noPCBrelease.
+Ruling: C125795 TPD template has missingmanufacturerfield; useonlyelectricalcandidatepinplan with materialconformanceHOLD, never verifiedTIstock. Cost ifwrong: replace/supplyqualifiedtemplate before release.
+
+Final: Ruling: Public native author metadata is unnecessary private context. Keep raw native/epru local; distribute explicitly separate offline header-stripped derivative, never pretend rawSHA or cold reopening. Cost if wrong: public native import compatibility remainsHOLD; full electrical sources/CSV and raw private original retained.
+Task S0/S1: candidate material/pin implementation completed with disclosed exceptions; actual391pin audit and103yes/12noflags. Task S2: 10conditional analytic scalar endpoints, solver0; transient/reverse/faultqualificationHOLD. Task S3: warm saved/export/PDF viewed; cold0/ERCdetailHOLD; whole-package STOP before review/report only.
+
+Final: fixed newly found Important public-author metadata — raw original guard RED, separately named privacy derivative guard GREEN;15131 nonheader lines and other ZIP members byte-identical. No CAD re-open/save/science or second review.
+Final: Ruling: Existing power/DNP/material/cold/ERC/drawing findings remain true and block circuit release; deliver only completed blocked candidate receipt. Cannot repair under spent native quotas. Cost if wrong: new explicit minimal engineering scope required, no manufacture/bench.
+Final: minor (deferred): Sparse port-based diagram and tight top margin/small labels; require CSV/net companions, not standalone drawing release.

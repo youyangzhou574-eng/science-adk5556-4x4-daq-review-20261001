@@ -1,0 +1,10 @@
+{
+  "originalNativeSHA256": "6E2C201D02D19263A52E67A8F2E3B09F008362C30DF1D996B91F1F7E254D13A3",
+  "publicDerivativeSHA256": "CAE0807E867FFDBAB5677F1B5F79DC452794F904D57481A85C942F67B907EAEC",
+  "publicDerivativeBytes": 665554,
+  "removedDOCHEADMetadataFields": 270,
+  "method": "Only DOCHEAD user/client metadata stripped offline for public privacy; original native preserved locally; all non-header lines and other archive members unchanged",
+  "nativeReopenValidation": false,
+  "legacyPCBNotForUse": true,
+  "sourceSCHorPageCount": 7
+}

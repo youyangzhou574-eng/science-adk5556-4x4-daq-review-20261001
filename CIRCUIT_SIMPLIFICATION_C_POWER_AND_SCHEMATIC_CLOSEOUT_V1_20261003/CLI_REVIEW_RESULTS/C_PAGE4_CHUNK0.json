@@ -1,0 +1,609 @@
+{
+  "operation": {
+    "label": "C_PAGE4_CHUNK0",
+    "startedUTC": "2026-10-02T20:04:16.645193+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 17059,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "52a8a60e5711e55b",
+        "index": 4,
+        "name": "MCU_Protected_Interfaces"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "U7",
+          "id": "8fdb5cb07d3cb0da",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "PB9",
+              "x": 255,
+              "y": 295,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "PC14-OSC32IN",
+              "x": 255,
+              "y": 285,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "PC15-OSC32OUT",
+              "x": 255,
+              "y": 275,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "VDD/VDDA",
+              "x": 255,
+              "y": 265,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "VSS/VSSA",
+              "x": 255,
+              "y": 255,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "PF2-NRST",
+              "x": 255,
+              "y": 245,
+              "rotation": 180
+            },
+            {
+              "number": "7",
+              "name": "PA0",
+              "x": 255,
+              "y": 235,
+              "rotation": 180
+            },
+            {
+              "number": "8",
+              "name": "PA1",
+              "x": 255,
+              "y": 225,
+              "rotation": 180
+            },
+            {
+              "number": "9",
+              "name": "PA2",
+              "x": 255,
+              "y": 215,
+              "rotation": 180
+            },
+            {
+              "number": "10",
+              "name": "PA3",
+              "x": 255,
+              "y": 205,
+              "rotation": 180
+            },
+            {
+              "number": "11",
+              "name": "PA4",
+              "x": 255,
+              "y": 195,
+              "rotation": 180
+            },
+            {
+              "number": "12",
+              "name": "PA5",
+              "x": 255,
+              "y": 185,
+              "rotation": 180
+            },
+            {
+              "number": "13",
+              "name": "PA6",
+              "x": 255,
+              "y": 175,
+              "rotation": 180
+            },
+            {
+              "number": "14",
+              "name": "PA7",
+              "x": 255,
+              "y": 165,
+              "rotation": 180
+            },
+            {
+              "number": "15",
+              "name": "PB0",
+              "x": 255,
+              "y": 155,
+              "rotation": 180
+            },
+            {
+              "number": "16",
+              "name": "PB1",
+              "x": 255,
+              "y": 145,
+              "rotation": 180
+            },
+            {
+              "number": "17",
+              "name": "PB2",
+              "x": 445,
+              "y": 145,
+              "rotation": 0
+            },
+            {
+              "number": "18",
+              "name": "PA8",
+              "x": 445,
+              "y": 155,
+              "rotation": 0
+            },
+            {
+              "number": "19",
+              "name": "PA9",
+              "x": 445,
+              "y": 165,
+              "rotation": 0
+            },
+            {
+              "number": "20",
+              "name": "PC6",
+              "x": 445,
+              "y": 175,
+              "rotation": 0
+            },
+            {
+              "number": "21",
+              "name": "PA10",
+              "x": 445,
+              "y": 185,
+              "rotation": 0
+            },
+            {
+              "number": "22",
+              "name": "PA11[PA9]",
+              "x": 445,
+              "y": 195,
+              "rotation": 0
+            },
+            {
+              "number": "23",
+              "name": "PA12[PA10]",
+              "x": 445,
+              "y": 205,
+              "rotation": 0
+            },
+            {
+              "number": "24",
+              "name": "PA13",
+              "x": 445,
+              "y": 215,
+              "rotation": 0
+            },
+            {
+              "number": "25",
+              "name": "PA14-BOOT0",
+              "x": 445,
+              "y": 225,
+              "rotation": 0
+            },
+            {
+              "number": "26",
+              "name": "PA15",
+              "x": 445,
+              "y": 235,
+              "rotation": 0
+            },
+            {
+              "number": "27",
+              "name": "PB3",
+              "x": 445,
+              "y": 245,
+              "rotation": 0
+            },
+            {
+              "number": "28",
+              "name": "PB4",
+              "x": 445,
+              "y": 255,
+              "rotation": 0
+            },
+            {
+              "number": "29",
+              "name": "PB5",
+              "x": 445,
+              "y": 265,
+              "rotation": 0
+            },
+            {
+              "number": "30",
+              "name": "PB6",
+              "x": 445,
+              "y": 275,
+              "rotation": 0
+            },
+            {
+              "number": "31",
+              "name": "PB7",
+              "x": 445,
+              "y": 285,
+              "rotation": 0
+            },
+            {
+              "number": "32",
+              "name": "PB8",
+              "x": 445,
+              "y": 295,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": null,
+            "2": null,
+            "3": null,
+            "4": "V3V3",
+            "5": "GND",
+            "6": "PGOOD",
+            "7": "ROW_A0",
+            "8": "ROW_A1",
+            "9": null,
+            "10": null,
+            "11": "ADC_CS_N",
+            "12": "SPI_SCLK",
+            "13": "SPI_MISO",
+            "14": "SPI_MOSI",
+            "15": "ADC_RESET_N",
+            "16": "ROW_MUX_EN",
+            "17": null,
+            "18": null,
+            "19": "UART_TX",
+            "20": null,
+            "21": "UART_RX",
+            "22": null,
+            "23": null,
+            "24": "SWDIO",
+            "25": "SWCLK",
+            "26": null,
+            "27": null,
+            "28": null,
+            "29": null,
+            "30": null,
+            "31": null,
+            "32": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "46f4ed815ecd8548",
+            "name": "STM32G031K8T6"
+          },
+          "footprint": {
+            "uuid": "e13794d22038af93",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "J3",
+          "id": "ec271835bd0079ef",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 245,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 890,
+              "y": 235,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 890,
+              "y": 225,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 890,
+              "y": 215,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "5",
+              "x": 890,
+              "y": 205,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "6",
+              "x": 890,
+              "y": 195,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "V3V3_EXT_SWD",
+            "2": "GND",
+            "3": "SWDIO_EXT",
+            "4": "SWCLK_EXT",
+            "5": "MCU_NRST_EXT",
+            "6": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "c41725a70d53db08",
+            "name": "HDR-M_2.54_1x6P"
+          },
+          "footprint": {
+            "uuid": "54b100f56e34bff6",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "HDR-TH_6P-P2.54-V-M-1"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "J4",
+          "id": "e5c2ff59ba0f3550",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1450,
+              "y": 235,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1450,
+              "y": 225,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 1450,
+              "y": 215,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 1450,
+              "y": 205,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "V3V3_EXT_UART",
+            "2": "GND",
+            "3": "UART_TX_EXT",
+            "4": "UART_RX_EXT"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "69b7c04d3f0fa077",
+            "name": "HDR-M_2.54_1x4P"
+          },
+          "footprint": {
+            "uuid": "805f84989d4eb67b",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "HDR-TH_4P-P2.54-V-M"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_RST",
+          "id": "ffff461bc40f943c",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 220,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 220,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "V3V3",
+            "2": "PGOOD"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_MCU1",
+          "id": "450110d59de5e11b",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 335,
+              "y": 640,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 365,
+              "y": 640,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V3V3",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_MCU_BULK",
+          "id": "a7f03fbc5b082d8a",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 640,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 930,
+              "y": 640,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V3V3",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "23632a4cfdbe4fec",
+            "name": "GRM188R61C105KA93D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_J3_1",
+          "id": "5927a585492952b8",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1490,
+              "y": 640,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1450,
+              "y": 640,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "V3V3_EXT_SWD",
+            "2": "V3V3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_J3_3",
+          "id": "442a4102a60f280e",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 640,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 640,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "SWDIO_EXT",
+            "2": "SWDIO"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {
+        "component": 90,
+        "wire": 69,
+        "text": 4
+      },
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 17059
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"52a8a60e5711e55b\",\"index\":4,\"name\":\"MCU_Protected_Interfaces\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"U7\",\"id\":\"8fdb5cb07d3cb0da\",\"actualPins\":[{\"number\":\"1\",\"name\":\"PB9\",\"x\":255,\"y\":295,\"rotation\":180},{\"number\":\"2\",\"name\":\"PC14-OSC32IN\",\"x\":255,\"y\":285,\"rotation\":180},{\"number\":\"3\",\"name\":\"PC15-OSC32OUT\",\"x\":255,\"y\":275,\"rotation\":180},{\"number\":\"4\",\"name\":\"VDD/VDDA\",\"x\":255,\"y\":265,\"rotation\":180},{\"number\":\"5\",\"name\":\"VSS/VSSA\",\"x\":255,\"y\":255,\"rotation\":180},{\"number\":\"6\",\"name\":\"PF2-NRST\",\"x\":255,\"y\":245,\"rotation\":180},{\"number\":\"7\",\"name\":\"PA0\",\"x\":255,\"y\":235,\"rotation\":180},{\"number\":\"8\",\"name\":\"PA1\",\"x\":255,\"y\":225,\"rotation\":180},{\"number\":\"9\",\"name\":\"PA2\",\"x\":255,\"y\":215,\"rotation\":180},{\"number\":\"10\",\"name\":\"PA3\",\"x\":255,\"y\":205,\"rotation\":180},{\"number\":\"11\",\"name\":\"PA4\",\"x\":255,\"y\":195,\"rotation\":180},{\"number\":\"12\",\"name\":\"PA5\",\"x\":255,\"y\":185,\"rotation\":180},{\"number\":\"13\",\"name\":\"PA6\",\"x\":255,\"y\":175,\"rotation\":180},{\"number\":\"14\",\"name\":\"PA7\",\"x\":255,\"y\":165,\"rotation\":180},{\"number\":\"15\",\"name\":\"PB0\",\"x\":255,\"y\":155,\"rotation\":180},{\"number\":\"16\",\"name\":\"PB1\",\"x\":255,\"y\":145,\"rotation\":180},{\"number\":\"17\",\"name\":\"PB2\",\"x\":445,\"y\":145,\"rotation\":0},{\"number\":\"18\",\"name\":\"PA8\",\"x\":445,\"y\":155,\"rotation\":0},{\"number\":\"19\",\"name\":\"PA9\",\"x\":445,\"y\":165,\"rotation\":0},{\"number\":\"20\",\"name\":\"PC6\",\"x\":445,\"y\":175,\"rotation\":0},{\"number\":\"21\",\"name\":\"PA10\",\"x\":445,\"y\":185,\"rotation\":0},{\"number\":\"22\",\"name\":\"PA11[PA9]\",\"x\":445,\"y\":195,\"rotation\":0},{\"number\":\"23\",\"name\":\"PA12[PA10]\",\"x\":445,\"y\":205,\"rotation\":0},{\"number\":\"24\",\"name\":\"PA13\",\"x\":445,\"y\":215,\"rotation\":0},{\"number\":\"25\",\"name\":\"PA14-BOOT0\",\"x\":445,\"y\":225,\"rotation\":0},{\"number\":\"26\",\"name\":\"PA15\",\"x\":445,\"y\":235,\"rotation\":0},{\"number\":\"27\",\"name\":\"PB3\",\"x\":445,\"y\":245,\"rotation\":0},{\"number\":\"28\",\"name\":\"PB4\",\"x\":445,\"y\":255,\"rotation\":0},{\"number\":\"29\",\"name\":\"PB5\",\"x\":445,\"y\":265,\"rotation\":0},{\"number\":\"30\",\"name\":\"PB6\",\"x\":445,\"y\":275,\"rotation\":0},{\"number\":\"31\",\"name\":\"PB7\",\"x\":445,\"y\":285,\"rotation\":0},{\"number\":\"32\",\"name\":\"PB8\",\"x\":445,\"y\":295,\"rotation\":0}],\"planned\":{\"1\":null,\"2\":null,\"3\":null,\"4\":\"V3V3\",\"5\":\"GND\",\"6\":\"PGOOD\",\"7\":\"ROW_A0\",\"8\":\"ROW_A1\",\"9\":null,\"10\":null,\"11\":\"ADC_CS_N\",\"12\":\"SPI_SCLK\",\"13\":\"SPI_MISO\",\"14\":\"SPI_MOSI\",\"15\":\"ADC_RESET_N\",\"16\":\"ROW_MUX_EN\",\"17\":null,\"18\":null,\"19\":\"UART_TX\",\"20\":null,\"21\":\"UART_RX\",\"22\":null,\"23\":null,\"24\":\"SWDIO\",\"25\":\"SWCLK\",\"26\":null,\"27\":null,\"28\":null,\"29\":null,\"30\":null,\"31\":null,\"32\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"46f4ed815ecd8548\",\"name\":\"STM32G031K8T6\"},\"footprint\":{\"uuid\":\"e13794d22038af93\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL\"},\"dnp\":false},{\"ref\":\"J3\",\"id\":\"ec271835bd0079ef\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":245,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":890,\"y\":235,\"rotation\":180},{\"number\":\"3\",\"name\":\"3\",\"x\":890,\"y\":225,\"rotation\":180},{\"number\":\"4\",\"name\":\"4\",\"x\":890,\"y\":215,\"rotation\":180},{\"number\":\"5\",\"name\":\"5\",\"x\":890,\"y\":205,\"rotation\":180},{\"number\":\"6\",\"name\":\"6\",\"x\":890,\"y\":195,\"rotation\":180}],\"planned\":{\"1\":\"V3V3_EXT_SWD\",\"2\":\"GND\",\"3\":\"SWDIO_EXT\",\"4\":\"SWCLK_EXT\",\"5\":\"MCU_NRST_EXT\",\"6\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"c41725a70d53db08\",\"name\":\"HDR-M_2.54_1x6P\"},\"footprint\":{\"uuid\":\"54b100f56e34bff6\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"HDR-TH_6P-P2.54-V-M-1\"},\"dnp\":false},{\"ref\":\"J4\",\"id\":\"e5c2ff59ba0f3550\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1450,\"y\":235,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1450,\"y\":225,\"rotation\":180},{\"number\":\"3\",\"name\":\"3\",\"x\":1450,\"y\":215,\"rotation\":180},{\"number\":\"4\",\"name\":\"4\",\"x\":1450,\"y\":205,\"rotation\":180}],\"planned\":{\"1\":\"V3V3_EXT_UART\",\"2\":\"GND\",\"3\":\"UART_TX_EXT\",\"4\":\"UART_RX_EXT\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"69b7c04d3f0fa077\",\"name\":\"HDR-M_2.54_1x4P\"},\"footprint\":{\"uuid\":\"805f84989d4eb67b\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"HDR-TH_4P-P2.54-V-M\"},\"dnp\":false},{\"ref\":\"R_RST\",\"id\":\"ffff461bc40f943c\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":220,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":220,\"rotation\":180}],\"planned\":{\"1\":\"V3V3\",\"2\":\"PGOOD\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"C_MCU1\",\"id\":\"450110d59de5e11b\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":335,\"y\":640,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":365,\"y\":640,\"rotation\":0}],\"planned\":{\"1\":\"V3V3\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"C_MCU_BULK\",\"id\":\"a7f03fbc5b082d8a\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":640,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":930,\"y\":640,\"rotation\":0}],\"planned\":{\"1\":\"V3V3\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"23632a4cfdbe4fec\",\"name\":\"GRM188R61C105KA93D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"R_J3_1\",\"id\":\"5927a585492952b8\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1490,\"y\":640,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1450,\"y\":640,\"rotation\":180}],\"planned\":{\"1\":\"V3V3_EXT_SWD\",\"2\":\"V3V3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"R_J3_3\",\"id\":\"442a4102a60f280e\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":640,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":640,\"rotation\":180}],\"planned\":{\"1\":\"SWDIO_EXT\",\"2\":\"SWDIO\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false}],\"deleted\":{\"component\":90,\"wire\":69,\"text\":4},\"saved\":false},\"logs\":[],\"durationMs\":17059}\n",
+  "stderr": ""
+}

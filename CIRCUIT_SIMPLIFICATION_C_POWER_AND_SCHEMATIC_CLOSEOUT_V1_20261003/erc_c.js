@@ -1,0 +1,1 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='8da2f1e3f2c9045bf431c2cbe7ea31503e15ca88fefd5a6569f5a51a3d3c9788')throw Error('Wrong C');return{project:pr.uuid,warnings:await eda.sch_Drc.check(true,false,true)};

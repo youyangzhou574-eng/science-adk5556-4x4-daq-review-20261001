@@ -1,0 +1,317 @@
+{
+  "operation": {
+    "label": "C_PAGE2_CHUNK2",
+    "startedUTC": "2026-10-02T20:01:42.225475+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 8202,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "49bb518d907ff185",
+        "index": 2,
+        "name": "Continuous_Column_TIAs"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "CF2",
+          "id": "9e53d31b3bec9d90",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 1900,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 1900,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "TIA2",
+            "2": "COL2"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "682b58fccdafcded",
+            "name": "GRM1885C1H222JA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_ADC2",
+          "id": "51467ab1a3ecab51",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 930,
+              "y": 1900,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 1900,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "TIA2",
+            "2": "ADC_IN2"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "18c7f02058864e20",
+            "name": "0603WAF1000T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_ADC2",
+          "id": "5053659973b54393",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1470,
+              "y": 1880,
+              "rotation": 270
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1470,
+              "y": 1920,
+              "rotation": 90
+            }
+          ],
+          "planned": {
+            "1": "ADC_IN2",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "e5f95925fa9c28bf",
+            "name": "GRM188R71C103KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_COL_SENSE2",
+          "id": "99b576572db62da9",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 1900,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 1900,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": null,
+            "2": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": true
+        },
+        {
+          "ref": "R_TIA_ISO2",
+          "id": "7224f6f4d7e5904b",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 2320,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 2320,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": null,
+            "2": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": true
+        },
+        {
+          "ref": "C_TIA_HF2",
+          "id": "21eb80d7b33a9e2a",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 2320,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 930,
+              "y": 2320,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": null,
+            "2": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "825eaa64337437e7",
+            "name": "GRM1885C1H220JA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": true
+        },
+        {
+          "ref": "RF3",
+          "id": "11bcd9436cdeb215",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1490,
+              "y": 2320,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1450,
+              "y": 2320,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "TIA3",
+            "2": "COL3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "CF3",
+          "id": "605b19c7d64f049d",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 2320,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 2320,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "TIA3",
+            "2": "COL3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "682b58fccdafcded",
+            "name": "GRM1885C1H222JA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {},
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 8202
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"49bb518d907ff185\",\"index\":2,\"name\":\"Continuous_Column_TIAs\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"CF2\",\"id\":\"9e53d31b3bec9d90\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":1900,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":1900,\"rotation\":0}],\"planned\":{\"1\":\"TIA2\",\"2\":\"COL2\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"682b58fccdafcded\",\"name\":\"GRM1885C1H222JA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"R_ADC2\",\"id\":\"51467ab1a3ecab51\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":930,\"y\":1900,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":1900,\"rotation\":180}],\"planned\":{\"1\":\"TIA2\",\"2\":\"ADC_IN2\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"18c7f02058864e20\",\"name\":\"0603WAF1000T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"C_ADC2\",\"id\":\"5053659973b54393\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1470,\"y\":1880,\"rotation\":270},{\"number\":\"2\",\"name\":\"2\",\"x\":1470,\"y\":1920,\"rotation\":90}],\"planned\":{\"1\":\"ADC_IN2\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e5f95925fa9c28bf\",\"name\":\"GRM188R71C103KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"R_COL_SENSE2\",\"id\":\"99b576572db62da9\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":1900,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":1900,\"rotation\":180}],\"planned\":{\"1\":null,\"2\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":true},{\"ref\":\"R_TIA_ISO2\",\"id\":\"7224f6f4d7e5904b\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":2320,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":2320,\"rotation\":180}],\"planned\":{\"1\":null,\"2\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":true},{\"ref\":\"C_TIA_HF2\",\"id\":\"21eb80d7b33a9e2a\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":2320,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":930,\"y\":2320,\"rotation\":0}],\"planned\":{\"1\":null,\"2\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"825eaa64337437e7\",\"name\":\"GRM1885C1H220JA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":true},{\"ref\":\"RF3\",\"id\":\"11bcd9436cdeb215\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1490,\"y\":2320,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1450,\"y\":2320,\"rotation\":180}],\"planned\":{\"1\":\"TIA3\",\"2\":\"COL3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"CF3\",\"id\":\"605b19c7d64f049d\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":2320,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":2320,\"rotation\":0}],\"planned\":{\"1\":\"TIA3\",\"2\":\"COL3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"682b58fccdafcded\",\"name\":\"GRM1885C1H222JA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false}],\"deleted\":{},\"saved\":false},\"logs\":[],\"durationMs\":8202}\n",
+  "stderr": ""
+}

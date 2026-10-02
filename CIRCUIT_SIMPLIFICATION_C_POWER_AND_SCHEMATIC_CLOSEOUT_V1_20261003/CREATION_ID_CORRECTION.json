@@ -1,0 +1,590 @@
+{
+  "hypothesis": "Imported16char device association differs from recorded32char catalog creation UUID; first pending create wasJ1",
+  "changes": [
+    {
+      "ref": "J1",
+      "imported": "bac146b35b35db45",
+      "catalog": "eab4a8150b6d4918927e38d645cd50f2",
+      "creationMPN": "HDR-M_2.54_1x2P"
+    },
+    {
+      "ref": "U6",
+      "imported": "b81b87f521739a9f",
+      "catalog": "c1515ed107424767bc02b28b8d8d0af3",
+      "creationMPN": "REF3025AIDBZR"
+    },
+    {
+      "ref": "C_REF",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "C_PWR",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "C_LDO_IN",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "C_LDO_OUT",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "C_VCM_OUT",
+      "imported": "23632a4cfdbe4fec",
+      "catalog": "1db1d485da63414a91f474e833691800",
+      "creationMPN": "GRM188R61C105KA93D"
+    },
+    {
+      "ref": "C_DIV",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "C_LDO_FF",
+      "imported": "e5f95925fa9c28bf",
+      "catalog": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "creationMPN": "GRM188R71C103KA01D"
+    },
+    {
+      "ref": "C_ROW_OP",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "C_MUX",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "R_SEL_PD0",
+      "imported": "4af96e4885b44a55",
+      "catalog": "40ff282b3d594c33b798d1707d8406cb",
+      "creationMPN": "0603WAF1003T5E"
+    },
+    {
+      "ref": "R_SEL_PD1",
+      "imported": "4af96e4885b44a55",
+      "catalog": "40ff282b3d594c33b798d1707d8406cb",
+      "creationMPN": "0603WAF1003T5E"
+    },
+    {
+      "ref": "R_ENABLE_PD",
+      "imported": "4af96e4885b44a55",
+      "catalog": "40ff282b3d594c33b798d1707d8406cb",
+      "creationMPN": "0603WAF1003T5E"
+    },
+    {
+      "ref": "U2",
+      "imported": "b41fae98d0119ec7",
+      "catalog": "a3e0a2b8649b466582333f85c29b1950",
+      "creationMPN": "OPA4388IDR"
+    },
+    {
+      "ref": "RF0",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "CF0",
+      "imported": "682b58fccdafcded",
+      "catalog": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "creationMPN": "GRM1885C1H222JA01D"
+    },
+    {
+      "ref": "R_ADC0",
+      "imported": "18c7f02058864e20",
+      "catalog": "5303080f43d74b41ae76fc5142aa97e5",
+      "creationMPN": "0603WAF1000T5E"
+    },
+    {
+      "ref": "C_ADC0",
+      "imported": "e5f95925fa9c28bf",
+      "catalog": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "creationMPN": "GRM188R71C103KA01D"
+    },
+    {
+      "ref": "R_COL_SENSE0",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "R_TIA_ISO0",
+      "imported": "3c64e07783d6269c",
+      "catalog": "18db11499a04403ba8c98e2f7a687fbc",
+      "creationMPN": "0603WAF1001T5E"
+    },
+    {
+      "ref": "C_TIA_HF0",
+      "imported": "825eaa64337437e7",
+      "catalog": "3d240fa64e4f48b1bdeb9f0c19efceb7",
+      "creationMPN": "GRM1885C1H220JA01D"
+    },
+    {
+      "ref": "RF1",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "CF1",
+      "imported": "682b58fccdafcded",
+      "catalog": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "creationMPN": "GRM1885C1H222JA01D"
+    },
+    {
+      "ref": "R_ADC1",
+      "imported": "18c7f02058864e20",
+      "catalog": "5303080f43d74b41ae76fc5142aa97e5",
+      "creationMPN": "0603WAF1000T5E"
+    },
+    {
+      "ref": "C_ADC1",
+      "imported": "e5f95925fa9c28bf",
+      "catalog": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "creationMPN": "GRM188R71C103KA01D"
+    },
+    {
+      "ref": "R_COL_SENSE1",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "R_TIA_ISO1",
+      "imported": "3c64e07783d6269c",
+      "catalog": "18db11499a04403ba8c98e2f7a687fbc",
+      "creationMPN": "0603WAF1001T5E"
+    },
+    {
+      "ref": "C_TIA_HF1",
+      "imported": "825eaa64337437e7",
+      "catalog": "3d240fa64e4f48b1bdeb9f0c19efceb7",
+      "creationMPN": "GRM1885C1H220JA01D"
+    },
+    {
+      "ref": "RF2",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "CF2",
+      "imported": "682b58fccdafcded",
+      "catalog": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "creationMPN": "GRM1885C1H222JA01D"
+    },
+    {
+      "ref": "R_ADC2",
+      "imported": "18c7f02058864e20",
+      "catalog": "5303080f43d74b41ae76fc5142aa97e5",
+      "creationMPN": "0603WAF1000T5E"
+    },
+    {
+      "ref": "C_ADC2",
+      "imported": "e5f95925fa9c28bf",
+      "catalog": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "creationMPN": "GRM188R71C103KA01D"
+    },
+    {
+      "ref": "R_COL_SENSE2",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "R_TIA_ISO2",
+      "imported": "3c64e07783d6269c",
+      "catalog": "18db11499a04403ba8c98e2f7a687fbc",
+      "creationMPN": "0603WAF1001T5E"
+    },
+    {
+      "ref": "C_TIA_HF2",
+      "imported": "825eaa64337437e7",
+      "catalog": "3d240fa64e4f48b1bdeb9f0c19efceb7",
+      "creationMPN": "GRM1885C1H220JA01D"
+    },
+    {
+      "ref": "RF3",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "CF3",
+      "imported": "682b58fccdafcded",
+      "catalog": "2475d4da5c31428dbc2c37c2c01dd31e",
+      "creationMPN": "GRM1885C1H222JA01D"
+    },
+    {
+      "ref": "R_ADC3",
+      "imported": "18c7f02058864e20",
+      "catalog": "5303080f43d74b41ae76fc5142aa97e5",
+      "creationMPN": "0603WAF1000T5E"
+    },
+    {
+      "ref": "C_ADC3",
+      "imported": "e5f95925fa9c28bf",
+      "catalog": "c56f334b54c04ce4bdf72e5b3aff82d2",
+      "creationMPN": "GRM188R71C103KA01D"
+    },
+    {
+      "ref": "R_COL_SENSE3",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "R_TIA_ISO3",
+      "imported": "3c64e07783d6269c",
+      "catalog": "18db11499a04403ba8c98e2f7a687fbc",
+      "creationMPN": "0603WAF1001T5E"
+    },
+    {
+      "ref": "C_TIA_HF3",
+      "imported": "825eaa64337437e7",
+      "catalog": "3d240fa64e4f48b1bdeb9f0c19efceb7",
+      "creationMPN": "GRM1885C1H220JA01D"
+    },
+    {
+      "ref": "C_TIA_OP",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "U5",
+      "imported": "e09e4226f0657990",
+      "catalog": "c0f1d9ea14164280b284a2633ca616ba",
+      "creationMPN": "ADS8684IDBTR"
+    },
+    {
+      "ref": "R_CS_PU",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "R_ADC_RESET_PD",
+      "imported": "4af96e4885b44a55",
+      "catalog": "40ff282b3d594c33b798d1707d8406cb",
+      "creationMPN": "0603WAF1003T5E"
+    },
+    {
+      "ref": "C_ADC_REFIO",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_REFIO_B",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_REFCAP_BULKA",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_REFCAP_BULKB",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_AVDD9A",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_AVDD9B",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_AVDD30A",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_AVDD30B",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_DVDD34A",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_DVDD34B",
+      "imported": "a06b7f35b358beed",
+      "catalog": "c469f6d370424dcc93e93079d1eecf2f",
+      "creationMPN": "GRM32ER71E226KE15L"
+    },
+    {
+      "ref": "C_ADC_REFCAP",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "C_AVDD9_HF",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "C_AVDD30_HF",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "C_ADCA1",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "C_ADCA2",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "C_ADCD",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "U7",
+      "imported": "46f4ed815ecd8548",
+      "catalog": "d6b55ece5afe47718d825be9cafc6dc2",
+      "creationMPN": "STM32G031K8T6"
+    },
+    {
+      "ref": "J3",
+      "imported": "c41725a70d53db08",
+      "catalog": "8713123b624d4455bcbe38688209bdf0",
+      "creationMPN": "HDR-M_2.54_1x6P"
+    },
+    {
+      "ref": "J4",
+      "imported": "69b7c04d3f0fa077",
+      "catalog": "d5e86a4f70d24c6c950b9ff10d30894b",
+      "creationMPN": "HDR-M_2.54_1x4P"
+    },
+    {
+      "ref": "R_RST",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "C_MCU1",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "C_MCU_BULK",
+      "imported": "23632a4cfdbe4fec",
+      "catalog": "1db1d485da63414a91f474e833691800",
+      "creationMPN": "GRM188R61C105KA93D"
+    },
+    {
+      "ref": "R_J3_1",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "R_J3_3",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "R_J3_4",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "R_J4_1",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "R_J4_3",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "R_J4_4",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "R_J3_5",
+      "imported": "3c64e07783d6269c",
+      "catalog": "18db11499a04403ba8c98e2f7a687fbc",
+      "creationMPN": "0603WAF1001T5E"
+    },
+    {
+      "ref": "U9",
+      "imported": "c9f6d1092d887b6f",
+      "catalog": "6b7ed979fbc74dc885f181285ff45636",
+      "creationMPN": "LM73100RPWR"
+    },
+    {
+      "ref": "U9_EN_R",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "U9_EN_G",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "U9_IN_CAP",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "U9_OUT_CAP",
+      "imported": "3987d5dbad251af4",
+      "catalog": "3033986627424e38b63bde10777dccea",
+      "creationMPN": "GRM31CR71H225KA88L"
+    },
+    {
+      "ref": "U9_BLEED",
+      "imported": "5d47f8850284aa6a",
+      "catalog": "6d54eed5f5674b12ac607351711a3499",
+      "creationMPN": "RC2010FK-07100RL"
+    },
+    {
+      "ref": "U10_BLEED",
+      "imported": "4226d164d9f5aae4",
+      "catalog": "28bad4c696a54658a17701231d164fb7",
+      "creationMPN": "RC1206FR-07100RL"
+    },
+    {
+      "ref": "U11",
+      "imported": "32e1c920d4a87846",
+      "catalog": "81ede6aea65d44a79879432f5806365e",
+      "creationMPN": "TPS389001DSET"
+    },
+    {
+      "ref": "U12",
+      "imported": "32e1c920d4a87846",
+      "catalog": "81ede6aea65d44a79879432f5806365e",
+      "creationMPN": "TPS389001DSET"
+    },
+    {
+      "ref": "U11_CT_C",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "U12_CT_C",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "U11_SENSE_C",
+      "imported": "605cf0bfe3c44cec",
+      "catalog": "230833b8d5c34ef6ad479034195157e9",
+      "creationMPN": "GRM1885C1H102JA01D"
+    },
+    {
+      "ref": "U12_SENSE_C",
+      "imported": "605cf0bfe3c44cec",
+      "catalog": "230833b8d5c34ef6ad479034195157e9",
+      "creationMPN": "GRM1885C1H102JA01D"
+    },
+    {
+      "ref": "U11_VDD_C",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "U12_VDD_C",
+      "imported": "71e7e9d09ea8680f",
+      "catalog": "582e6743b52f4d549473833313fcf026",
+      "creationMPN": "GRM188R71C104KA01D"
+    },
+    {
+      "ref": "U9_OV_B1",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "U12_TOP0",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    },
+    {
+      "ref": "U12_TOP1",
+      "imported": "12d32d2a0b765184",
+      "catalog": "e3fb4324469a40728b83810eaa907b40",
+      "creationMPN": "RT0603BRD074K99L"
+    },
+    {
+      "ref": "U12_TOP2",
+      "imported": "3c64e07783d6269c",
+      "catalog": "18db11499a04403ba8c98e2f7a687fbc",
+      "creationMPN": "0603WAF1001T5E"
+    },
+    {
+      "ref": "U12_TOP3",
+      "imported": "3c64e07783d6269c",
+      "catalog": "18db11499a04403ba8c98e2f7a687fbc",
+      "creationMPN": "0603WAF1001T5E"
+    },
+    {
+      "ref": "U12_BOT",
+      "imported": "6646748c476cee98",
+      "catalog": "3840b7e554aa441f90223c083eebd79a",
+      "creationMPN": "RT0603BRD0710KL"
+    }
+  ],
+  "nativeSuccessStillUnverified": true,
+  "firstSessionClosed": true,
+  "sourceAndCopyUnchangedAfterClose": true
+}

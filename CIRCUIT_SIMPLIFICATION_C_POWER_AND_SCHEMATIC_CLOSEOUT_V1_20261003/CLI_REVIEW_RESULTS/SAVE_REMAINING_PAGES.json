@@ -1,0 +1,41 @@
+{
+  "operation": {
+    "label": "SAVE_REMAINING_PAGES",
+    "startedUTC": "2026-10-02T20:07:43.007414+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 1024,
+    "valueKeys": [
+      "savedPages"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "savedPages": [
+        {
+          "uuid": "595d5f2f11dee03d",
+          "saved": true
+        },
+        {
+          "uuid": "802bf258e0d38cab",
+          "saved": true
+        },
+        {
+          "uuid": "5f9caa2aebdf4356",
+          "saved": true
+        },
+        {
+          "uuid": "52a8a60e5711e55b",
+          "saved": true
+        }
+      ]
+    },
+    "logs": [],
+    "durationMs": 1024
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"savedPages\":[{\"uuid\":\"595d5f2f11dee03d\",\"saved\":true},{\"uuid\":\"802bf258e0d38cab\",\"saved\":true},{\"uuid\":\"5f9caa2aebdf4356\",\"saved\":true},{\"uuid\":\"52a8a60e5711e55b\",\"saved\":true}]},\"logs\":[],\"durationMs\":1024}\n",
+  "stderr": ""
+}

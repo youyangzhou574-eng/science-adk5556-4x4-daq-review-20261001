@@ -1,0 +1,3 @@
+const project=await eda.dmt_Project.getCurrentProjectInfo();const page=await eda.dmt_Schematic.getCurrentSchematicPageInfo();const parts=[];
+for(const c of await eda.sch_PrimitiveComponent.getAll())if(c.getState_ComponentType()==='part')parts.push({id:c.getState_PrimitiveId(),ref:c.getState_Designator(),name:c.getState_Name(),pins:(await eda.sch_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId())).map(v=>({number:String(v.getState_PinNumber()),name:v.getState_PinName(),nc:v.getState_NoConnected(),x:v.getState_X(),y:v.getState_Y()}))});
+return{project,page,parts,nets:await eda.sch_Net.getAllNets(),source:await eda.sys_FileManager.getDocumentSource()};

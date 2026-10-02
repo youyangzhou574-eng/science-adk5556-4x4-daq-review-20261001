@@ -1,0 +1,142 @@
+{
+  "operation": {
+    "label": "C_PAGE3_CHUNK2",
+    "startedUTC": "2026-10-02T20:04:10.803922+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 4172,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "5f9caa2aebdf4356",
+        "index": 3,
+        "name": "ADS8684_Decoupling"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "C_ADCA1",
+          "id": "135e0ca832673580",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 335,
+              "y": 1900,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 365,
+              "y": 1900,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V5",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_ADCA2",
+          "id": "f7e25517d3d3ab92",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 895,
+              "y": 1900,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 925,
+              "y": 1900,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V5",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_ADCD",
+          "id": "983d7857418bd4b2",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1455,
+              "y": 1900,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1485,
+              "y": 1900,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "V3V3",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "71e7e9d09ea8680f",
+            "name": "GRM188R71C104KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {},
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 4172
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"5f9caa2aebdf4356\",\"index\":3,\"name\":\"ADS8684_Decoupling\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"C_ADCA1\",\"id\":\"135e0ca832673580\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":335,\"y\":1900,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":365,\"y\":1900,\"rotation\":0}],\"planned\":{\"1\":\"V5\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"C_ADCA2\",\"id\":\"f7e25517d3d3ab92\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":895,\"y\":1900,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":925,\"y\":1900,\"rotation\":0}],\"planned\":{\"1\":\"V5\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"C_ADCD\",\"id\":\"983d7857418bd4b2\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1455,\"y\":1900,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1485,\"y\":1900,\"rotation\":0}],\"planned\":{\"1\":\"V3V3\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"71e7e9d09ea8680f\",\"name\":\"GRM188R71C104KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false}],\"deleted\":{},\"saved\":false},\"logs\":[],\"durationMs\":4172}\n",
+  "stderr": ""
+}

@@ -1,0 +1,413 @@
+{
+  "operation": {
+    "label": "C_PAGE4_CHUNK1",
+    "startedUTC": "2026-10-02T20:04:35.284152+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 12441,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "52a8a60e5711e55b",
+        "index": 4,
+        "name": "MCU_Protected_Interfaces"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "R_J3_4",
+          "id": "5a3b2959725bdd1f",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 1060,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 1060,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "SWCLK_EXT",
+            "2": "SWCLK"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_J4_1",
+          "id": "6d92ee1920d971c5",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 930,
+              "y": 1060,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 1060,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "V3V3_EXT_UART",
+            "2": "V3V3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_J4_3",
+          "id": "8d207c66a7129403",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1490,
+              "y": 1060,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1450,
+              "y": 1060,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "UART_TX_EXT",
+            "2": "UART_TX"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_J4_4",
+          "id": "583401443b500fb3",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 1060,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 1060,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "UART_RX_EXT",
+            "2": "UART_RX"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_J3_5",
+          "id": "214716372dfb91e1",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 1480,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 1480,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "MCU_NRST_EXT",
+            "2": "PGOOD"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "D_DBG0",
+          "id": "1550ff74fcefe01b",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 880,
+              "y": 1450,
+              "rotation": 270
+            },
+            {
+              "number": "5",
+              "name": "5",
+              "x": 920,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 900,
+              "y": 1450,
+              "rotation": 270
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 940,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "6",
+              "name": "6",
+              "x": 890,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 930,
+              "y": 1450,
+              "rotation": 270
+            }
+          ],
+          "planned": {
+            "1": "GND",
+            "2": "V3V3",
+            "3": "SWDIO",
+            "4": "GND",
+            "5": "V3V3",
+            "6": "V3V3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "f259458468de91cf",
+            "name": "BAT54XY,115"
+          },
+          "footprint": {
+            "uuid": "6c378040a31f4684",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "D_DBG1",
+          "id": "ed07bb911bb476fa",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1440,
+              "y": 1450,
+              "rotation": 270
+            },
+            {
+              "number": "5",
+              "name": "5",
+              "x": 1480,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1460,
+              "y": 1450,
+              "rotation": 270
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 1500,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "6",
+              "name": "6",
+              "x": 1450,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 1490,
+              "y": 1450,
+              "rotation": 270
+            }
+          ],
+          "planned": {
+            "1": "GND",
+            "2": "V3V3",
+            "3": "PGOOD",
+            "4": "GND",
+            "5": "V3V3",
+            "6": "SWCLK"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "f259458468de91cf",
+            "name": "BAT54XY,115"
+          },
+          "footprint": {
+            "uuid": "6c378040a31f4684",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "D_DBG2",
+          "id": "f97b387f205c6330",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2000,
+              "y": 1450,
+              "rotation": 270
+            },
+            {
+              "number": "5",
+              "name": "5",
+              "x": 2040,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2020,
+              "y": 1450,
+              "rotation": 270
+            },
+            {
+              "number": "4",
+              "name": "4",
+              "x": 2060,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "6",
+              "name": "6",
+              "x": 2010,
+              "y": 1510,
+              "rotation": 90
+            },
+            {
+              "number": "3",
+              "name": "3",
+              "x": 2050,
+              "y": 1450,
+              "rotation": 270
+            }
+          ],
+          "planned": {
+            "1": "GND",
+            "2": "V3V3",
+            "3": "UART_TX",
+            "4": "GND",
+            "5": "V3V3",
+            "6": "V3V3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "f259458468de91cf",
+            "name": "BAT54XY,115"
+          },
+          "footprint": {
+            "uuid": "6c378040a31f4684",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {},
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 12441
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"52a8a60e5711e55b\",\"index\":4,\"name\":\"MCU_Protected_Interfaces\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"R_J3_4\",\"id\":\"5a3b2959725bdd1f\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":1060,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":1060,\"rotation\":180}],\"planned\":{\"1\":\"SWCLK_EXT\",\"2\":\"SWCLK\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"R_J4_1\",\"id\":\"6d92ee1920d971c5\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":930,\"y\":1060,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":1060,\"rotation\":180}],\"planned\":{\"1\":\"V3V3_EXT_UART\",\"2\":\"V3V3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"R_J4_3\",\"id\":\"8d207c66a7129403\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1490,\"y\":1060,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1450,\"y\":1060,\"rotation\":180}],\"planned\":{\"1\":\"UART_TX_EXT\",\"2\":\"UART_TX\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"R_J4_4\",\"id\":\"583401443b500fb3\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":1060,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":1060,\"rotation\":180}],\"planned\":{\"1\":\"UART_RX_EXT\",\"2\":\"UART_RX\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"R_J3_5\",\"id\":\"214716372dfb91e1\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":1480,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":1480,\"rotation\":180}],\"planned\":{\"1\":\"MCU_NRST_EXT\",\"2\":\"PGOOD\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"D_DBG0\",\"id\":\"1550ff74fcefe01b\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":880,\"y\":1450,\"rotation\":270},{\"number\":\"5\",\"name\":\"5\",\"x\":920,\"y\":1510,\"rotation\":90},{\"number\":\"2\",\"name\":\"2\",\"x\":900,\"y\":1450,\"rotation\":270},{\"number\":\"4\",\"name\":\"4\",\"x\":940,\"y\":1510,\"rotation\":90},{\"number\":\"6\",\"name\":\"6\",\"x\":890,\"y\":1510,\"rotation\":90},{\"number\":\"3\",\"name\":\"3\",\"x\":930,\"y\":1450,\"rotation\":270}],\"planned\":{\"1\":\"GND\",\"2\":\"V3V3\",\"3\":\"SWDIO\",\"4\":\"GND\",\"5\":\"V3V3\",\"6\":\"V3V3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"f259458468de91cf\",\"name\":\"BAT54XY,115\"},\"footprint\":{\"uuid\":\"6c378040a31f4684\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-363_L2.0-W1.3-P0.65-LS2.1-BR\"},\"dnp\":false},{\"ref\":\"D_DBG1\",\"id\":\"ed07bb911bb476fa\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1440,\"y\":1450,\"rotation\":270},{\"number\":\"5\",\"name\":\"5\",\"x\":1480,\"y\":1510,\"rotation\":90},{\"number\":\"2\",\"name\":\"2\",\"x\":1460,\"y\":1450,\"rotation\":270},{\"number\":\"4\",\"name\":\"4\",\"x\":1500,\"y\":1510,\"rotation\":90},{\"number\":\"6\",\"name\":\"6\",\"x\":1450,\"y\":1510,\"rotation\":90},{\"number\":\"3\",\"name\":\"3\",\"x\":1490,\"y\":1450,\"rotation\":270}],\"planned\":{\"1\":\"GND\",\"2\":\"V3V3\",\"3\":\"PGOOD\",\"4\":\"GND\",\"5\":\"V3V3\",\"6\":\"SWCLK\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"f259458468de91cf\",\"name\":\"BAT54XY,115\"},\"footprint\":{\"uuid\":\"6c378040a31f4684\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-363_L2.0-W1.3-P0.65-LS2.1-BR\"},\"dnp\":false},{\"ref\":\"D_DBG2\",\"id\":\"f97b387f205c6330\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":2000,\"y\":1450,\"rotation\":270},{\"number\":\"5\",\"name\":\"5\",\"x\":2040,\"y\":1510,\"rotation\":90},{\"number\":\"2\",\"name\":\"2\",\"x\":2020,\"y\":1450,\"rotation\":270},{\"number\":\"4\",\"name\":\"4\",\"x\":2060,\"y\":1510,\"rotation\":90},{\"number\":\"6\",\"name\":\"6\",\"x\":2010,\"y\":1510,\"rotation\":90},{\"number\":\"3\",\"name\":\"3\",\"x\":2050,\"y\":1450,\"rotation\":270}],\"planned\":{\"1\":\"GND\",\"2\":\"V3V3\",\"3\":\"UART_TX\",\"4\":\"GND\",\"5\":\"V3V3\",\"6\":\"V3V3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"f259458468de91cf\",\"name\":\"BAT54XY,115\"},\"footprint\":{\"uuid\":\"6c378040a31f4684\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOT-363_L2.0-W1.3-P0.65-LS2.1-BR\"},\"dnp\":false}],\"deleted\":{},\"saved\":false},\"logs\":[],\"durationMs\":12441}\n",
+  "stderr": ""
+}

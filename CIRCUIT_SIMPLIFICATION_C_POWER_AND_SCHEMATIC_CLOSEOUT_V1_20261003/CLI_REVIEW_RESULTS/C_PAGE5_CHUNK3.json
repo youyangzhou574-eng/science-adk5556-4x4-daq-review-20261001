@@ -1,0 +1,72 @@
+{
+  "operation": {
+    "label": "C_PAGE5_CHUNK3",
+    "startedUTC": "2026-10-02T20:06:15.241985+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 1350,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "cae95ff24beaad15",
+        "index": 5,
+        "name": "Power_Qualification"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "R_LDO_EN_PU",
+          "id": "6fbf6cde9a4e87ef",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 370,
+              "y": 2740,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 330,
+              "y": 2740,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "V5",
+            "2": "PWR5_OK"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "434ff56f500baf55",
+            "name": "RT0603BRD07100KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        }
+      ],
+      "deleted": {},
+      "saved": true
+    },
+    "logs": [],
+    "durationMs": 1350
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"cae95ff24beaad15\",\"index\":5,\"name\":\"Power_Qualification\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"R_LDO_EN_PU\",\"id\":\"6fbf6cde9a4e87ef\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":370,\"y\":2740,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":330,\"y\":2740,\"rotation\":180}],\"planned\":{\"1\":\"V5\",\"2\":\"PWR5_OK\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"434ff56f500baf55\",\"name\":\"RT0603BRD07100KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false}],\"deleted\":{},\"saved\":true},\"logs\":[],\"durationMs\":1350}\n",
+  "stderr": ""
+}

@@ -1,0 +1,28 @@
+{
+  "operation": {
+    "label": "FIRST_SESSION_CLOSE",
+    "startedUTC": "2026-10-02T19:54:09.977739+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 5,
+    "valueKeys": [
+      "sessionId",
+      "status",
+      "headless"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "sessionId": "7936379d-8b76-48cd-a34c-51f10ec28df7",
+      "status": "closed",
+      "headless": true
+    },
+    "logs": [],
+    "durationMs": 5
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"sessionId\":\"7936379d-8b76-48cd-a34c-51f10ec28df7\",\"status\":\"closed\",\"headless\":true},\"logs\":[],\"durationMs\":5}\n",
+  "stderr": ""
+}

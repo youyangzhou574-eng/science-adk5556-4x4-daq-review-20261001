@@ -1,0 +1,417 @@
+{
+  "operation": {
+    "label": "C_PAGE2_CHUNK0",
+    "startedUTC": "2026-10-02T20:00:36.533200+00:00",
+    "returncode": 0,
+    "outerTimeout": false,
+    "ok": true,
+    "durationMs": 13901,
+    "valueKeys": [
+      "page",
+      "status",
+      "parts",
+      "deleted",
+      "saved"
+    ],
+    "error": null
+  },
+  "parsed": {
+    "ok": true,
+    "value": {
+      "page": {
+        "uuid": "49bb518d907ff185",
+        "index": 2,
+        "name": "Continuous_Column_TIAs"
+      },
+      "status": "PAGE_CANDIDATE_CREATED",
+      "parts": [
+        {
+          "ref": "U2",
+          "id": "51318c215492e123",
+          "actualPins": [
+            {
+              "number": "14",
+              "name": "OUTD",
+              "x": 395,
+              "y": 250,
+              "rotation": 0
+            },
+            {
+              "number": "13",
+              "name": "IND-",
+              "x": 395,
+              "y": 240,
+              "rotation": 0
+            },
+            {
+              "number": "12",
+              "name": "IND+",
+              "x": 395,
+              "y": 230,
+              "rotation": 0
+            },
+            {
+              "number": "11",
+              "name": "V-",
+              "x": 395,
+              "y": 220,
+              "rotation": 0
+            },
+            {
+              "number": "10",
+              "name": "INC+",
+              "x": 395,
+              "y": 210,
+              "rotation": 0
+            },
+            {
+              "number": "9",
+              "name": "INC-",
+              "x": 395,
+              "y": 200,
+              "rotation": 0
+            },
+            {
+              "number": "8",
+              "name": "OUTC",
+              "x": 395,
+              "y": 190,
+              "rotation": 0
+            },
+            {
+              "number": "7",
+              "name": "OUTB",
+              "x": 305,
+              "y": 190,
+              "rotation": 180
+            },
+            {
+              "number": "6",
+              "name": "INB-",
+              "x": 305,
+              "y": 200,
+              "rotation": 180
+            },
+            {
+              "number": "5",
+              "name": "INB+",
+              "x": 305,
+              "y": 210,
+              "rotation": 180
+            },
+            {
+              "number": "4",
+              "name": "V+",
+              "x": 305,
+              "y": 220,
+              "rotation": 180
+            },
+            {
+              "number": "3",
+              "name": "INA+",
+              "x": 305,
+              "y": 230,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "INA-",
+              "x": 305,
+              "y": 240,
+              "rotation": 180
+            },
+            {
+              "number": "1",
+              "name": "OUTA",
+              "x": 305,
+              "y": 250,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "TIA0",
+            "2": "COL0",
+            "3": "VCM",
+            "4": "V5",
+            "5": "VCM",
+            "6": "COL1",
+            "7": "TIA1",
+            "8": "TIA2",
+            "9": "COL2",
+            "10": "VCM",
+            "11": "GND",
+            "12": "VCM",
+            "13": "COL3",
+            "14": "TIA3"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "b41fae98d0119ec7",
+            "name": "OPA4388IDR"
+          },
+          "footprint": {
+            "uuid": "b6beb3a5f30c65ef",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "RF0",
+          "id": "cf7292c85b4f8cd5",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 930,
+              "y": 220,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 220,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "TIA0",
+            "2": "COL0"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "12d32d2a0b765184",
+            "name": "RT0603BRD074K99L"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "CF0",
+          "id": "a40c86a400f01b5a",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1450,
+              "y": 220,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1490,
+              "y": 220,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": "TIA0",
+            "2": "COL0"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "682b58fccdafcded",
+            "name": "GRM1885C1H222JA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_ADC0",
+          "id": "e28d180dc58e187f",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 220,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 220,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": "TIA0",
+            "2": "ADC_IN0"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "18c7f02058864e20",
+            "name": "0603WAF1000T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "C_ADC0",
+          "id": "2d6716f1eaa3601e",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 350,
+              "y": 620,
+              "rotation": 270
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 350,
+              "y": 660,
+              "rotation": 90
+            }
+          ],
+          "planned": {
+            "1": "ADC_IN0",
+            "2": "GND"
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "e5f95925fa9c28bf",
+            "name": "GRM188R71C103KA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": false
+        },
+        {
+          "ref": "R_COL_SENSE0",
+          "id": "f4b8024c1860b12d",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 930,
+              "y": 640,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 890,
+              "y": 640,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": null,
+            "2": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "6646748c476cee98",
+            "name": "RT0603BRD0710KL"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": true
+        },
+        {
+          "ref": "R_TIA_ISO0",
+          "id": "8bf0847e1140c2e0",
+          "actualPins": [
+            {
+              "number": "2",
+              "name": "2",
+              "x": 1490,
+              "y": 640,
+              "rotation": 0
+            },
+            {
+              "number": "1",
+              "name": "1",
+              "x": 1450,
+              "y": 640,
+              "rotation": 180
+            }
+          ],
+          "planned": {
+            "1": null,
+            "2": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "3c64e07783d6269c",
+            "name": "0603WAF1001T5E"
+          },
+          "footprint": {
+            "uuid": "3e3bff9cd60aaa06",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "R0603"
+          },
+          "dnp": true
+        },
+        {
+          "ref": "C_TIA_HF0",
+          "id": "7a3e032211fdf405",
+          "actualPins": [
+            {
+              "number": "1",
+              "name": "1",
+              "x": 2010,
+              "y": 640,
+              "rotation": 180
+            },
+            {
+              "number": "2",
+              "name": "2",
+              "x": 2050,
+              "y": 640,
+              "rotation": 0
+            }
+          ],
+          "planned": {
+            "1": null,
+            "2": null
+          },
+          "association": {
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "uuid": "825eaa64337437e7",
+            "name": "GRM1885C1H220JA01D"
+          },
+          "footprint": {
+            "uuid": "e1806bcee69fe169",
+            "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+            "name": "C0603"
+          },
+          "dnp": true
+        }
+      ],
+      "deleted": {
+        "component": 118,
+        "wire": 84,
+        "text": 4
+      },
+      "saved": false
+    },
+    "logs": [],
+    "durationMs": 13901
+  },
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"page\":{\"uuid\":\"49bb518d907ff185\",\"index\":2,\"name\":\"Continuous_Column_TIAs\"},\"status\":\"PAGE_CANDIDATE_CREATED\",\"parts\":[{\"ref\":\"U2\",\"id\":\"51318c215492e123\",\"actualPins\":[{\"number\":\"14\",\"name\":\"OUTD\",\"x\":395,\"y\":250,\"rotation\":0},{\"number\":\"13\",\"name\":\"IND-\",\"x\":395,\"y\":240,\"rotation\":0},{\"number\":\"12\",\"name\":\"IND+\",\"x\":395,\"y\":230,\"rotation\":0},{\"number\":\"11\",\"name\":\"V-\",\"x\":395,\"y\":220,\"rotation\":0},{\"number\":\"10\",\"name\":\"INC+\",\"x\":395,\"y\":210,\"rotation\":0},{\"number\":\"9\",\"name\":\"INC-\",\"x\":395,\"y\":200,\"rotation\":0},{\"number\":\"8\",\"name\":\"OUTC\",\"x\":395,\"y\":190,\"rotation\":0},{\"number\":\"7\",\"name\":\"OUTB\",\"x\":305,\"y\":190,\"rotation\":180},{\"number\":\"6\",\"name\":\"INB-\",\"x\":305,\"y\":200,\"rotation\":180},{\"number\":\"5\",\"name\":\"INB+\",\"x\":305,\"y\":210,\"rotation\":180},{\"number\":\"4\",\"name\":\"V+\",\"x\":305,\"y\":220,\"rotation\":180},{\"number\":\"3\",\"name\":\"INA+\",\"x\":305,\"y\":230,\"rotation\":180},{\"number\":\"2\",\"name\":\"INA-\",\"x\":305,\"y\":240,\"rotation\":180},{\"number\":\"1\",\"name\":\"OUTA\",\"x\":305,\"y\":250,\"rotation\":180}],\"planned\":{\"1\":\"TIA0\",\"2\":\"COL0\",\"3\":\"VCM\",\"4\":\"V5\",\"5\":\"VCM\",\"6\":\"COL1\",\"7\":\"TIA1\",\"8\":\"TIA2\",\"9\":\"COL2\",\"10\":\"VCM\",\"11\":\"GND\",\"12\":\"VCM\",\"13\":\"COL3\",\"14\":\"TIA3\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"b41fae98d0119ec7\",\"name\":\"OPA4388IDR\"},\"footprint\":{\"uuid\":\"b6beb3a5f30c65ef\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL\"},\"dnp\":false},{\"ref\":\"RF0\",\"id\":\"cf7292c85b4f8cd5\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":930,\"y\":220,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":220,\"rotation\":180}],\"planned\":{\"1\":\"TIA0\",\"2\":\"COL0\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"12d32d2a0b765184\",\"name\":\"RT0603BRD074K99L\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"CF0\",\"id\":\"a40c86a400f01b5a\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":1450,\"y\":220,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":1490,\"y\":220,\"rotation\":0}],\"planned\":{\"1\":\"TIA0\",\"2\":\"COL0\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"682b58fccdafcded\",\"name\":\"GRM1885C1H222JA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"R_ADC0\",\"id\":\"e28d180dc58e187f\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":220,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":220,\"rotation\":180}],\"planned\":{\"1\":\"TIA0\",\"2\":\"ADC_IN0\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"18c7f02058864e20\",\"name\":\"0603WAF1000T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":false},{\"ref\":\"C_ADC0\",\"id\":\"2d6716f1eaa3601e\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":350,\"y\":620,\"rotation\":270},{\"number\":\"2\",\"name\":\"2\",\"x\":350,\"y\":660,\"rotation\":90}],\"planned\":{\"1\":\"ADC_IN0\",\"2\":\"GND\"},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"e5f95925fa9c28bf\",\"name\":\"GRM188R71C103KA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":false},{\"ref\":\"R_COL_SENSE0\",\"id\":\"f4b8024c1860b12d\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":930,\"y\":640,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":890,\"y\":640,\"rotation\":180}],\"planned\":{\"1\":null,\"2\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"6646748c476cee98\",\"name\":\"RT0603BRD0710KL\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":true},{\"ref\":\"R_TIA_ISO0\",\"id\":\"8bf0847e1140c2e0\",\"actualPins\":[{\"number\":\"2\",\"name\":\"2\",\"x\":1490,\"y\":640,\"rotation\":0},{\"number\":\"1\",\"name\":\"1\",\"x\":1450,\"y\":640,\"rotation\":180}],\"planned\":{\"1\":null,\"2\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"3c64e07783d6269c\",\"name\":\"0603WAF1001T5E\"},\"footprint\":{\"uuid\":\"3e3bff9cd60aaa06\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"R0603\"},\"dnp\":true},{\"ref\":\"C_TIA_HF0\",\"id\":\"7a3e032211fdf405\",\"actualPins\":[{\"number\":\"1\",\"name\":\"1\",\"x\":2010,\"y\":640,\"rotation\":180},{\"number\":\"2\",\"name\":\"2\",\"x\":2050,\"y\":640,\"rotation\":0}],\"planned\":{\"1\":null,\"2\":null},\"association\":{\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"uuid\":\"825eaa64337437e7\",\"name\":\"GRM1885C1H220JA01D\"},\"footprint\":{\"uuid\":\"e1806bcee69fe169\",\"libraryUuid\":\"0819f05c4eef4c71ace90d822a990e87\",\"name\":\"C0603\"},\"dnp\":true}],\"deleted\":{\"component\":118,\"wire\":84,\"text\":4},\"saved\":false},\"logs\":[],\"durationMs\":13901}\n",
+  "stderr": ""
+}

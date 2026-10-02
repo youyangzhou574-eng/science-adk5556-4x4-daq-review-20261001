@@ -1,0 +1,1 @@
+const lib=await eda.lib_LibrariesList.getSystemLibraryUuid();const s={};for(const q of ['RN73 17K','17K 0.1% 0603','TPD4E05U06 TI','TPD4E05U06 C125795','RT0603BRD0724KL','RT0603BRD077K5L','RT0603BRD0734K8L','RT0603BRD0718KL','RT0603BRD07162KL'])s[q]=await eda.lib_Device.search(q,lib,undefined,undefined,5,1);return{libraryUuid:lib,searches:s};

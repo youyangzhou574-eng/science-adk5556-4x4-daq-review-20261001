@@ -1,0 +1,9 @@
+test_catalog_id_is_allowed (test_association_guard.AssociationTests.test_catalog_id_is_allowed) ... ok
+test_imported_id_must_not_be_created (test_association_guard.AssociationTests.test_imported_id_must_not_be_created) ... ok
+test_inherited_j2_does_not_recreate (test_association_guard.AssociationTests.test_inherited_j2_does_not_recreate) ... ok
+test_nonhex_catalog_id_rejected (test_association_guard.AssociationTests.test_nonhex_catalog_id_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

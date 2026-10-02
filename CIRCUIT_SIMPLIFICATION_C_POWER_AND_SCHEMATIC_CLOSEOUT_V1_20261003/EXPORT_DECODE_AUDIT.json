@@ -1,0 +1,30 @@
+{
+  "native": {
+    "name": "C_SCHEMATIC_CANDIDATE_LEGACY_PCB_NOT_FOR_USE.epro2",
+    "bytes": 688033,
+    "SHA256": "6e2c201d02d19263a52e67a8f2e3b09f008362c30df1d996b91f1f7e254d13a3"
+  },
+  "pdf": {
+    "name": "C_SCHEMATIC_CANDIDATE_NOT_FOR_USE.pdf",
+    "bytes": 405178,
+    "SHA256": "ccdff28e9235d8372a86a5b9945f5e1a7d406553ce09062fdfcd20a363fe73c7"
+  },
+  "nativeMembers": [
+    "IMAGE/",
+    "IMAGE/595d5f2f11dee03d.webp",
+    "IMAGE/52a8a60e5711e55b.webp",
+    "IMAGE/49bb518d907ff185.webp",
+    "IMAGE/268e6597399ebcce.webp",
+    "IMAGE/802bf258e0d38cab.webp",
+    "IMAGE/5f9caa2aebdf4356.webp",
+    "IMAGE/cae95ff24beaad15.webp",
+    "project2.json",
+    "C_POWER_WORK_PRIVATE_NOT_FOR_PUBLIC.epru"
+  ],
+  "privateAccountDatabaseIncluded": false,
+  "credentialKeyCounts": {
+    "password": 0,
+    "access_token": 0,
+    "refresh_token": 0
+  }
+}
