@@ -1,0 +1,46 @@
+{
+  "started_utc": "2026-10-02T01:46:45.656269+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "1c4328a9-c1fb-4e47-bb24-0b973e25517a",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='6c25a449ce9ab470f4c1db4bd85120e6cad325b0f291f573b07c6aaa4d353ee1')throw Error('Wrong isolated copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');const src=await eda.sys_FileManager.getDocumentSource();const rs=src.split('\\n').filter(x=>x.includes('||')).map(x=>{const z=x.split('||');return [JSON.parse(z[0]),JSON.parse(z[1].replace(/\\|+$/,''))];});const old=rs.find(([h,b])=>h.type==='LINE'&&h.id==='c131c12ef419b393');if(!old||old[1].netName!=='V3V3'||old[1].layerId!==1||old[1].startX!==3200.8||old[1].endX!==3160.05)throw Error('Local replacement guard');const removed=await eda.pcb_PrimitiveLine.delete('c131c12ef419b393');if(!removed)throw Error('Local line delete failed');const created=[];const nv={\"net\": \"V3V3\", \"x\": 3380, \"y\": 1790.7, \"hole\": 12, \"diameter\": 24, \"geometricOtherNetClearanceBelow6Mil\": []};const via=await eda.pcb_PrimitiveVia.create(nv.net,nv.x,nv.y,nv.hole,nv.diameter);if(!via)throw Error('One local via failed');created.push({type:'VIA',id:via.getState_PrimitiveId()});const ss=[{\"net\": \"V3V3\", \"layer\": 1, \"width\": 12, \"x1\": 3200.7865, \"y1\": 1822.8346, \"x2\": 3160.05, \"y2\": 1822.8}, {\"net\": \"V3V3\", \"layer\": 2, \"width\": 12, \"x1\": 3317.55, \"y1\": 1830.7, \"x2\": 3340, \"y2\": 1830.7}, {\"net\": \"V3V3\", \"layer\": 2, \"width\": 12, \"x1\": 3340, \"y1\": 1830.7, \"x2\": 3380, \"y2\": 1790.7}];for(const s of ss){const t=await eda.pcb_PrimitiveLine.create(s.net,s.layer,s.x1,s.y1,s.x2,s.y2,s.width,true);if(!t)throw Error('Local bridge line failed');created.push({type:'LINE',id:t.getState_PrimitiveId()});}return {removed:'c131c12ef419b393',created,saveCalled:false,pourRebuildCalled:false};",
+    "--timeout",
+    "15000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"removed\":\"c131c12ef419b393\",\"created\":[{\"type\":\"VIA\",\"id\":\"5c0162206220ea3b\"},{\"type\":\"LINE\",\"id\":\"a9e5041778cdb40e\"},{\"type\":\"LINE\",\"id\":\"9a5309ba44b7aefd\"},{\"type\":\"LINE\",\"id\":\"4e5c023ee9440731\"}],\"saveCalled\":false,\"pourRebuildCalled\":false},\"logs\":[],\"durationMs\":322}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "removed": "c131c12ef419b393",
+      "created": [
+        {
+          "type": "VIA",
+          "id": "5c0162206220ea3b"
+        },
+        {
+          "type": "LINE",
+          "id": "a9e5041778cdb40e"
+        },
+        {
+          "type": "LINE",
+          "id": "9a5309ba44b7aefd"
+        },
+        {
+          "type": "LINE",
+          "id": "4e5c023ee9440731"
+        }
+      ],
+      "saveCalled": false,
+      "pourRebuildCalled": false
+    },
+    "logs": [],
+    "durationMs": 322
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "protected": [
+    {
+      "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_PCB_ROUTING_CLOSURE_V1\\SCIENCE_ADK5556_4X4_R21_ROUTING_CLOSURE_WORK.eprj2",
+      "bytes": 2949120,
+      "expected": "FCD73BF2620447E7906D4014628F58F2C497410366B985E6FB0932D6322772BE",
+      "actual": "FCD73BF2620447E7906D4014628F58F2C497410366B985E6FB0932D6322772BE",
+      "PASS": true
+    },
+    {
+      "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R21_PCB_ROUTING_CLOSURE_V1\\SCIENCE_ADK5556_4X4_R21_PCB_ROUTED_REVIEW.epro2",
+      "bytes": 810028,
+      "expected": "5603E205FCB5170DE00A125DCD7A6271665D78BED153E4B6B489ABEAF8F8FB6E",
+      "actual": "5603E205FCB5170DE00A125DCD7A6271665D78BED153E4B6B489ABEAF8F8FB6E",
+      "PASS": true
+    }
+  ],
+  "workCopyAfterClose": {
+    "bytes": 2949120,
+    "SHA256": "E97353063AF91D2F9A95C030989E592DAA6B388D9C4DE2961FB5E58620EBA5BC",
+    "explicitSave": false,
+    "qualifiedCold": false,
+    "note": "Do not infer persistence from a file hash; failure native export is the preserved actual state."
+  }
+}

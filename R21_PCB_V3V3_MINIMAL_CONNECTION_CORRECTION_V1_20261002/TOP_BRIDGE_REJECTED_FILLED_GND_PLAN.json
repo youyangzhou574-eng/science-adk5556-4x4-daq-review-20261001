@@ -1,0 +1,56 @@
+{
+  "scope": "two GUI-observed native DRC objects only; static screen not nativeDRC PASS",
+  "bridges": [
+    {
+      "label": "C_MCU1 exact native DRC pad landing to existing main-plane via26",
+      "layer": 1,
+      "width": 12,
+      "points": [
+        [
+          3200.7865,
+          1822.8346
+        ],
+        [
+          3160.05,
+          1822.8
+        ]
+      ],
+      "replaceLocalLine": "c131c12ef419b393",
+      "geometricScreenOtherNetClearanceBelow6Mil": []
+    },
+    {
+      "label": "e255 same MCU region top bridge around GND pad to main via26 via existing local V3V3 landing",
+      "layer": 1,
+      "width": 12,
+      "points": [
+        [
+          3317.55,
+          1830.7
+        ],
+        [
+          3317.55,
+          1785
+        ],
+        [
+          3212.6,
+          1785
+        ],
+        [
+          3212.6,
+          1834.6
+        ]
+      ],
+      "replaceLocalLine": null,
+      "geometricScreenOtherNetClearanceBelow6Mil": [
+        {
+          "object": "1cb5c888d82604f0#fill",
+          "net": "GND",
+          "gapMil": 0.0
+        }
+      ]
+    }
+  ],
+  "newVia": 0,
+  "componentMoves": 0,
+  "unchangedRule": true
+}

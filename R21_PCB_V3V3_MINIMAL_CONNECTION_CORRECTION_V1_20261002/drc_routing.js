@@ -1,0 +1,1 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='6c25a449ce9ab470f4c1db4bd85120e6cad325b0f291f573b07c6aaa4d353ee1')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');return await eda.pcb_Drc.check(true,false,true);

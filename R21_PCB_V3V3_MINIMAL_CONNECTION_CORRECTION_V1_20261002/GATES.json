@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED",
+  "stickySTOP": "STOP_NEW_V3V3_VIA_TO_GND_FILLED_CLEARANCE",
+  "ConnectionError": 0,
+  "Short": 0,
+  "ClearanceError": 4,
+  "NetlistError": 0,
+  "warmElectricalClosure": false,
+  "cold": "NOT_STARTED",
+  "PCB_REVIEW_READY": false,
+  "MANUFACTURING_NOT_RELEASED": true,
+  "BENCH_NOT_RELEASED": true,
+  "componentAndPadIdentity": true,
+  "nonV3V3CopperUnchangedPrePost": true,
+  "nativeFailureCaptureQualifiedForUse": false,
+  "savedProjectPersistenceVerified": false
+}

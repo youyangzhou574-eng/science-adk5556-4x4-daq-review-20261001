@@ -1,0 +1,33 @@
+{
+  "requestedByUser": "User explicitly requested more bounded execution time/counts/autonomy in the next normal report; this request does not grant budget.",
+  "proposedPackage": "R21_PCB_LOCAL_POUR_CLEARANCE_AND_FINAL_WARM_COLD_V1",
+  "minutes": 120,
+  "timeAllocation": {
+    "localDerivedPourUpdate": 20,
+    "warmColdVerification": 40,
+    "delivery": 45,
+    "reserve": 15
+  },
+  "limits": {
+    "copy": 1,
+    "session": 2,
+    "save": 1,
+    "captureaudit": 3,
+    "DRC": 3,
+    "reviewExport": 1,
+    "normalPourUpdate": 1
+  },
+  "scope": "Keep the current two V3V3 bridges and one via. One known normal derived pour update to create required antipads; GND filled polygons may change only as required by the new V3V3 via. No parameter/net/rule or new line/via edits. If ordinary native pour update still fails, STOP and report. Pro must explicitly approve derived non-V3V3 copper update before execution.",
+  "componentMove": 0,
+  "newLine": 0,
+  "newVia": 0,
+  "schematic": 0,
+  "ImportChanges": 0,
+  "library": 0,
+  "simulation": 0,
+  "Gerber": 0,
+  "procurement": 0,
+  "manufacture": 0,
+  "actualBench": 0,
+  "approved": false
+}

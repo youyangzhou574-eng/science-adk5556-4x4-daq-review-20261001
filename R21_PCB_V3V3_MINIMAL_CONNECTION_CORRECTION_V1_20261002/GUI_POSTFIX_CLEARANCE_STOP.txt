@@ -1,0 +1,596 @@
+Window: "SCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK | 嘉立创EDA(专业版) - V4.1.60", App: lceda-pro.exe.
+	0 窗口 SCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK | 嘉立创EDA(专业版) - V4.1.60 Secondary Actions: Raise
+		1 窗格 (disabled)
+		2 区域 SCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK | 嘉立创EDA(专业版) - V4.1.60
+			3 区域
+				4 区域
+					5 区域
+						6 区域
+							7 区域
+								8 区域
+									10 文档 SCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK | 嘉立创EDA(专业版) - V4.1.60 Value: https://client/editor?cll=warn#id=6c25a449ce9ab470f4c1db4bd85120e6cad325b0f291f573b07c6aaa4d353ee1,prjPath=E%3A%5Copen%5CSCIENCE_ADK5556_4X4_DAQ_REPLICA%5CR21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1%5CSCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK.eprj2,tab=*268e6597399ebcce@6c25a449ce9ab470f4c1db4bd85120e6cad325b0f291f573b07c6aaa4d353ee1 ID: RootWebArea
+										11 图形 ID: svg-work-space
+										12 图像 ID: canvas-work-space
+										13 组 ID: top-wrap
+											14 链接 Value: https://client/editor?cll=warn# ID: modelogo
+												15 图形 ID: logo-svg
+											851 组 Description: 文件
+												852 文本 文件
+												2116 文本 (F)
+											1029 组 Description: 编辑
+												1030 文本 编辑
+												2117 文本 (E)
+											854 组 Description: 视图
+												855 文本 视图
+												2118 文本 (V)
+											1033 组 Description: 放置
+												1034 文本 放置
+												2119 文本 (P)
+											1036 组 Description: 设计
+												1037 文本 设计
+												2120 文本 (D)
+											1039 组 Description: 布线
+												1040 文本 布线
+												2121 文本 (U)
+											1042 组 Description: 布局
+												1043 文本 布局
+												2122 文本 (O)
+											857 组 Description: 工具
+												858 文本 工具
+												2123 文本 (T)
+											1046 组 Description: 导出
+												1047 文本 导出
+												2124 文本 (R)
+											860 组 Description: 高级
+												861 文本 高级
+												2125 文本 (A)
+											2126 组
+												2127 组 Description: 更多
+											18 组
+											19 文本 V4.1.60 | 半离线
+											20 按钮  Description: 设置
+											21 按钮  Description: 最小化
+											22 按钮  Description: 最大化/还原
+											23 按钮  Description: 关闭
+										24 组 ID: toolbar-bottom
+											1052 组 Description: 板
+											1053 组
+											1054 组 Description: 打开工程(Ctrl+O)
+											1055 组 Description: 保存(Ctrl+Shift+S)
+											1056 组 Description: 保存全部(Ctrl+S)
+											1057 组 Description: 备份
+											1058 组 Description: 撤销(Ctrl+Z)
+											1059 组 Description: 重做(Ctrl+Y)
+											1060 组
+												1131 文本 常用
+											1061 组 Description: 阵列对象
+											1062 组 Description: 查找(Ctrl+F)
+											1063 组 Description: 2D预览
+											1064 组 Description: 3D预览
+											1065 组 Description: 适应框选
+											1066 组 Description: 翻转板子
+											1067 组 切换亮度 Description: 切换亮度
+												1068 文本 正常亮度
+											1069 组 单位 Description: 单位
+												1070 文本 mil
+											1071 组 Description: 网格类型
+											1072 组 Description: 焊盘(Alt+P)
+											1073 组 Description: 过孔
+											1074 组 Description: 板框
+											1075 组
+											1076 组 Description: 铺铜
+											1077 组
+											1078 组 Description: 填充区域
+											1079 组
+											1080 组 Description: 挖槽区域
+											1081 组
+											1082 组 Description: 禁止区域
+											1083 组
+											1084 组 Description: 折线(Alt+L)
+											1085 组
+											1086 组 Description: 文本
+											1087 组 Description: 长度(Alt+N)
+											1088 组
+											1089 组 Description: 从原理图导入变更(Alt+I)
+											1090 组 Description: 检查DRC
+											1091 组 Description: 单路布线
+											1092 组 Description: 拉伸导线(Shift+W)
+											2128 组
+												2129 组 Description: 更多
+										36 组 ID: tab-container-leftPanelTab
+											37 组
+												38 组 Description: 自动收起：关闭
+												39 组 ID: leftPanelTab
+													40 组 所有工程 Description: 所有工程
+														41 文本 所
+														42 文本 有
+														43 文本 工
+														44 文本 程
+													45 组 工程设计 Description: 工程设计
+														46 文本 工
+														47 文本 程
+														48 文本 设
+														49 文本 计
+													50 组 常用库 Description: 常用库
+														51 文本 常
+														52 文本 用
+														53 文本 库
+										54 组 ID: projectDesign
+											55 组 ID: tab-container-leftProjectDesignTab
+												56 组 Description: 图页
+													57 文本 图页
+												1097 组 Description: 网络
+													1098 文本 网络
+												1099 组 Description: 元件
+													1100 文本 元件
+												1101 组 Description: 对象
+													1102 文本 对象
+											869 组 Description: 搜索
+											870 组 Description: 过滤
+											871 编辑 (settable, string)
+											872 列表 ID: treeMyProject
+												873 列表项目 mainSCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK
+													874 组 Description: SCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK
+														875 组
+														876 文本 main
+														877 文本 SCIENCE_ADK5556_4X4_R21_V3V3_MINIMAL_WORK
+												878 列表项目 Board1
+													879 组 Description: 板: Board1
+														880 组
+														881 文本 Board1
+												882 列表项目 Schematic1
+													883 组 Description: 原理图: Schematic1
+														884 组
+														885 文本 Schematic1
+												886 列表项目 PCB1
+													887 组 Description: PCB: PCB1
+														888 文本 PCB1
+												889 列表项目 Panel1
+													890 组 Description: 面板: Panel1
+														891 文本 Panel1
+												892 列表项目
+										58 组 ID: tab-container-editor-window-main
+											59 组 Description: 开始页
+												60 文本 开始页
+											1023 组 Description: PCB1
+												1024 文本 PCB1
+										1103 组 ID: top_tab_tips_268e6597399ebcce@6c25a449ce9ab470f4c1db4bd85120e6cad325b0f291f573b07c6aaa4d353ee1
+										1008 图像 ID: rulerh_268e6597399ebcce@6c25a449ce9ab470f4c1db4bd85120e6cad325b0f291f573b07c6aaa4d353ee1
+										1009 图像 ID: rulerv_268e6597399ebcce@6c25a449ce9ab470f4c1db4bd85120e6cad325b0f291f573b07c6aaa4d353ee1
+										1026 文档 EasyEDA PCB Value: https://client/editor?entry=pcb ID: RootWebArea
+											1027 图像 ID: canvas
+										1104 组 ID: pcbLayersBarfedadbd04cfad83b
+											1134 组
+											1135 组
+											1136 文本 顶层
+											1137 文本 内层1
+											1138 文本 内层2
+											1139 文本 底层
+											1140 文本 顶层丝印层
+											1141 文本 底层丝印层
+											1142 文本 顶层阻焊层
+											1143 文本 底层阻焊层
+											1144 文本 顶层锡膏层
+											1145 文本 底层锡膏层
+											1146 文本 顶层装配层
+											1147 文本 底层装配层
+											1148 文本 板框层
+											1149 文本 多层
+											1150 文本 文档层
+											1151 文本 机械层
+											1152 文本 元件外形层
+											1153 文本 元件标识层
+											1154 文本 引脚焊接层
+											1155 文本 引脚悬空层
+											1156 文本 3D外壳边框层
+											1157 文本 3D顶层
+											1158 文本 3D底层
+											1159 文本 钻孔图层
+											1160 文本 飞线层
+										1010 组
+											1011 文本 X:
+											2190 文本 3320
+											1012 文本 
+											1013 文本 Y:
+											2191 文本 1830
+											1014 文本 
+											1015 文本 dX:
+											2192 文本 3320
+											1016 文本 
+											1017 文本 dY:
+											2193 文本 1830
+											1018 文本 
+											1019 组 Description: 缩放比例: 341%
+												1165 组
+													1166 编辑 (settable, string) Value: 341%
+													1167 组
+											1020 组 Description: 网格尺寸: 5.0mil
+												1168 组
+													1169 编辑 (settable, string) Value: 5.0
+													1170 组
+											1171 组
+												1172 文本 mil
+											1021 组 Description: 网格类型
+										62 组 ID: tab-container-right-panel-tab-container
+											63 组
+												64 组 Description: 自动收起：关闭
+												65 组 ID: right-panel-tab-container
+													1105 组 图层 Description: 图层
+														1106 文本 图
+														1107 文本 层
+													1108 组 过滤 Description: 过滤
+														1109 文本 过
+														1110 文本 滤
+													1111 组 显示 Description: 显示
+														1112 文本 显
+														1113 文本 示
+													66 组 属性 Description: 属性
+														67 文本 属
+														68 文本 性
+										1539 组 ID: multi-attr
+											1540 文本 过孔
+											1541 文本 选中数量
+											1542 文本 1
+											1543 组 Description: 属性 ID: Property
+												1544 组
+												1545 文本 属性
+											2130 组
+											2131 单选按钮 (selectable, settable, string) 通孔
+											2132 文本 通孔
+											2133 单选按钮 (selectable, settable, string) 盲埋孔
+											2134 文本 盲埋孔
+											2135 组
+												2136 文本 起始层
+											2137 组
+												2138 文本 顶层
+											2139 组
+												2140 文本 结束层
+											2141 组
+												2142 文本 底层
+											2143 组
+												2144 文本 网络
+											2145 组
+												2146 编辑 (settable, string) V3V3 Description: V3V3 Value: V3V3
+												2147 组
+											2148 组 Description: 单击选择网络(N)
+											2149 组
+												2150 文本 网络长度
+											2151 编辑 (disabled) 3758.3mil Description: 3758.3mil Value: 3758.3mil
+											2152 组
+												2153 文本 ID
+											2154 编辑 (disabled) e255 Description: e255 Value: e255
+											2155 组
+												2156 文本 传播延迟
+											2157 编辑 (settable, string) 0ps Description: 0ps Value: 0ps
+											1708 组 Description: 过孔尺寸 ID: Via_Diameter
+												1709 组
+												1710 文本 过孔尺寸
+											2158 组
+												2159 文本 外直径
+											2160 编辑 (settable, string) 24mil Description: 24mil Value: 24mil
+											2161 组
+												2162 文本 内直径
+											2163 编辑 (settable, string) 12mil Description: 12mil Value: 12mil
+											1586 组 Description: 所在位置 ID: Location
+												1587 组
+												1588 文本 所在位置
+											2164 组
+												2165 文本 中心 X
+											2166 编辑 (settable, string) 3317.6mil Description: 3317.6mil Value: 3317.6mil
+											2167 组
+												2168 文本 中心 Y
+											2169 编辑 (settable, string) 1830.7mil Description: 1830.7mil Value: 1830.7mil
+											2170 组
+												2171 文本 锁定
+											2172 组
+												2173 文本 否
+											1602 组 Description: 阻焊/助焊扩展 ID: Solder/Paste_Mask Expansion
+												1603 组
+												1604 文本 阻焊/助焊扩展
+											2174 单选按钮 (selectable, settable, string) 通用
+											2175 文本 通用
+											2176 单选按钮 (selectable, settable, string) 自定义
+											2177 文本 自定义
+											2178 组
+												2179 文本 顶层阻焊扩展
+											2180 编辑 (disabled) 跟随规则 Description: 跟随规则 Value: 跟随规则
+											2181 组
+												2182 文本 底层阻焊扩展
+											2183 编辑 (disabled) 跟随规则 Description: 跟随规则 Value: 跟随规则
+											1737 组 Description: 组合 ID: Combination
+												1738 组
+												1739 文本 组合
+											2184 组
+												2185 文本 组合
+											2186 组
+												2187 编辑 (settable, string)
+												2188 组
+										85 组 ID: tab-container-bottom-bar-container
+											86 组
+												87 组 Description: 自动收起：关闭
+												88 组 ID: bottom-bar-container
+													89 组 Description: 库
+														90 文本 库
+													91 组 Description: 日志
+														92 文本 日志
+													1115 组 Description: 器件标准化
+														1116 文本 器件标准化
+													93 组 Description: DRC
+														94 文本 DRC
+													1117 组 Description: 查找结果
+														1118 文本 查找结果
+													95 组 Description: 属性清单
+														96 文本 属性清单
+										1450 组 ID: drcPrimaryLog
+											1451 按钮 检查DRC ID: checkDRC
+											1452 按钮 清除错误 ID: clearErrors
+											1453 组 ID: treeMyDesignDRC-content
+												1454 列表
+													2075 组
+														2076 组
+														2077 组
+														2078 文本 全部 (4)
+													2079 组
+														2080 组
+														2081 组
+														2082 文本 间距错误 (4)
+													2083 组
+														2084 组
+														2085 文本 铺铜区域(填充) 到 过孔 (2)
+													2086 组
+														2087 组
+														2088 文本 铺铜区域(填充) 到 钻孔 (2)
+											1466 组 ID: drcTable
+												1467 表格
+													1468 行
+														1469 列标题 序号 Description: 序号
+														1470 列标题 显示 Description: 显示
+														1471 列标题 错误类型 Description: 错误类型
+															1472 组 Description: 升序
+															1473 组 Description: 降序
+														1474 列标题 错误对象 Description: 错误对象
+															1475 组 Description: 升序
+															1476 组 Description: 降序
+														1477 列标题 规则名称 Description: 规则名称
+															1478 组 Description: 升序
+															1479 组 Description: 降序
+														1480 列标题 对象 1 Description: 对象 1
+															1481 组 Description: 升序
+															1482 组 Description: 降序
+														1483 列标题 对象 2 Description: 对象 2
+															1484 组 Description: 升序
+															1485 组 Description: 降序
+														1486 列标题 图层 Description: 图层
+															1487 组 Description: 升序
+															1488 组 Description: 降序
+														1489 列标题 解释 Description: 解释
+															1490 组 Description: 升序
+															1491 组 Description: 降序
+												1492 表格
+													1493 行
+														1494 项 1
+														1495 项
+														1496 项 间距错误
+														1497 项 铺铜区域(填充) 到 钻孔
+														1498 项 copperThickness1oz
+															1499 组 Description: copperThickness1oz
+														1500 项 铺铜区域(填充) (GND): e0e0
+														1501 项 钻孔 (V3V3): e307
+														1502 项 内层1
+														1503 项 对象 1到对象 2距离为0mil，应该>= 10mil
+													1504 行
+														1505 项 2
+														1506 项
+														1507 项 间距错误
+														1508 项 铺铜区域(填充) 到 钻孔
+														1509 项 copperThickness1oz
+															1510 组 Description: copperThickness1oz
+														1511 项 铺铜区域(填充) (GND): e3e3
+														1512 项 钻孔 (V3V3): e307
+														1513 项 顶层
+														1514 项 对象 1到对象 2距离为0mil，应该>= 10mil
+													2089 行
+														2090 项 3
+														2091 项
+														2092 项 间距错误
+														2093 项 铺铜区域(填充) 到 过孔
+														2094 项 copperThickness1oz
+															2095 组 Description: copperThickness1oz
+														2096 项 铺铜区域(填充) (GND): e0e0
+														2097 项 过孔 (V3V3): e307
+														2098 项 内层1
+														2099 项 对象 1到对象 2距离为0mil，应该>= 10mil
+													2100 行
+														2101 项 4
+														2102 项
+														2103 项 间距错误
+														2104 项 铺铜区域(填充) 到 过孔
+														2105 项 copperThickness1oz
+															2106 组 Description: copperThickness1oz
+														2107 项 铺铜区域(填充) (GND): e3e3
+														2108 项 过孔 (V3V3): e307
+														2109 项 顶层
+														2110 项 对象 1到对象 2距离为0mil，应该>= 10mil
+												1515 列表
+													1516 列表项目
+														1517 图形
+													1518 列表项目 1
+													1519 列表项目
+														1520 图形
+													1521 列表项目 总计 4 条 | 1 页
+													1522 列表项目 50 条/页
+														1523 组
+															1524 文本 50 条/页
+										686 组 ID: gerberExportGuideDialog
+										687 组 ID: sch-place-float-toolbar
+											688 文本 浮动工具
+											689 组 Description: 收起
+											690 组 Description: 关闭
+											691 组 Description: VCC
+											692 组 Description: +5V
+											693 组 Description: 地
+											694 组 Description: 保护地
+											695 组 Description: 模拟地
+											696 组 Description: 输入
+											697 组 Description: 输出
+											698 组 Description: 双向
+											699 组 Description: 输入
+											700 组 Description: 输出
+											701 组 Description: 双向
+											702 组 Description: 网络标签
+											703 组 Description: 短接标识
+											704 组 Description: 非连接标识
+											705 组 Description: 差分对标识
+											706 组 Description: 测试点
+										707 组 ID: view-float-toolbar-3d
+											708 文本 浮动工具
+											709 组 Description: 收起
+											710 组 Description: 关闭
+											711 组 Description: 正常视图
+											712 组 Description: 轮廓视图
+											713 组 Description: Gerber视图
+											714 组 Description: 顶面
+											715 组 Description: 底面
+											716 组 Description: 左面
+											717 组 Description: 右面
+											718 组 Description: 前面
+											719 组 Description: 后面
+											720 组 Description: 爆炸
+											721 组 Description: 适应全部
+											722 组 Description: 导入更新
+											723 组 Description: 刷新
+										724 组 ID: table-setting-float-toolbar
+											725 文本 表格设置
+											726 组 Description: 关闭
+											727 组
+												728 组 Description: 上方添加行
+											729 组
+												730 组 Description: 下方添加行
+											731 组
+												732 组 Description: 左侧添加列
+											733 组
+												734 组 Description: 右侧添加列
+											735 组
+												736 组 Description: 删除行
+											737 组
+												738 组 Description: 删除列
+											739 组
+												740 组 Description: 合并单元格
+											741 组
+												742 组 Description: 拆分单元格
+											743 组
+												744 组 Description: 边框
+												745 组 Description: 全边框
+												746 组 Description: 外边框
+												747 组 Description: 内边框
+												748 组 Description: 无边框
+												749 组 Description: 左边框
+												750 组 Description: 右边框
+												751 组 Description: 上边框
+												752 组 Description: 下边框
+												753 文本 边框颜色
+												754 编辑
+												755 文本 #A00000
+												756 组 Description: 恢复默认
+												757 组
+											758 组
+												759 组 Description: 顶部对齐
+												760 组 Description: 顶部对齐
+												761 组 Description: 上下居中
+												762 组 Description: 底部对齐
+												763 组
+											764 组
+												765 组 Description: 左对齐
+												766 组 Description: 左对齐
+												767 组 Description: 左右居中
+												768 组 Description: 右对齐
+												769 组
+										770 组 ID: edit-sch-symbol-float-toolbar
+											771 文本 符号编辑
+											772 组 Description: 关闭
+											773 组
+												774 组 Description: 单引脚
+												775 组
+													776 组 Description: 单引脚
+													777 文本 单引脚
+												778 组
+													779 组 Description: 条形多引脚
+													780 文本 条形多引脚
+												781 组
+													782 组 Description: 矩形多引脚
+													783 文本 矩形多引脚
+												784 组
+											785 组
+												786 组 Description: 折线
+											787 组
+												788 组 Description: 圆弧
+											789 组
+												790 组 Description: 贝塞尔曲线
+											791 组
+												792 组 Description: 圆形
+											793 组
+												794 组 Description: 椭圆
+											795 组
+												796 组 Description: 矩形
+											797 组
+												798 组 Description: 文本
+											799 组
+												800 组 Description: 图片...
+											801 组
+												802 组 Description: 左对齐
+												803 组
+													804 组 Description: 左对齐
+													805 文本 左对齐
+												806 组
+													807 组 Description: 右对齐
+													808 文本 右对齐
+												809 组
+													810 组 Description: 顶部对齐
+													811 文本 顶部对齐
+												812 组
+													813 组 Description: 底部对齐
+													814 文本 底部对齐
+												815 组
+													816 组 Description: 左右居中
+													817 文本 左右居中
+												818 组
+													819 组 Description: 上下居中
+													820 文本 上下居中
+												821 组
+											822 组
+												823 组 Description: 对齐网格
+											824 组
+												825 组 Description: 水平等距分布
+												826 组
+													827 组 Description: 水平等距分布
+													828 文本 水平等距分布
+												829 组
+													830 组 Description: 垂直等距分布
+													831 文本 垂直等距分布
+												832 组
+											833 组
+												834 组 Description: 左向旋转
+												835 组
+													836 组 Description: 左向旋转
+													837 文本 左向旋转
+												838 组
+													839 组 Description: 右向旋转
+													840 文本 右向旋转
+												841 组
+											842 组
+												843 组 Description: 移到顶层
+												844 组
+													845 组 Description: 移到顶层
+													846 文本 移到顶层
+												847 组
+													848 组 Description: 移到底层
+													849 文本 移到底层
+												850 组
+										1395 组
+										1396 组
+										2189 组
+								9 区域
+
+Document text: ```
+￼
+```

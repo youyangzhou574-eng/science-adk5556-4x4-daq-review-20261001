@@ -1,0 +1,2 @@
+exec((__import__('pathlib').Path(__file__).parent/'local_plane_geometry.py').read_text('utf8').split('items=[]',1)[0])
+print('local internal/bottom traces',json.dumps([{'id':h['id'],**b}for h,b in rs if h['type']=='LINE'and b['netName']!='V3V3'and b['layerId']in(2,16)and max(b['startX'],b['endX'])>3000 and min(b['startX'],b['endX'])<3450 and max(b['startY'],b['endY'])>1650 and min(b['startY'],b['endY'])<1975]))

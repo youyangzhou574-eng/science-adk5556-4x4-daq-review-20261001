@@ -1,0 +1,41 @@
+{
+  "parts": 176,
+  "pads": 550,
+  "assigned": 514,
+  "nets": 107,
+  "NC": 36,
+  "preLINE": 907,
+  "postLINE": 909,
+  "postVIA": 297,
+  "identity550and176": "PASS",
+  "rulesEqual": true,
+  "nativeFileMatchesActualFailedCapture": {
+    "COMPONENT": true,
+    "PAD_NET": true,
+    "ATTR": true,
+    "LINE": false,
+    "VIA": true,
+    "POUR": true,
+    "POURED": false,
+    "POLY": true,
+    "RULE": true
+  },
+  "nativeFileName": "SCIENCE_ADK5556_4X4_R21_V3V3_BLOCKED_NOT_FOR_USE.epro2",
+  "nativeFileBytes": 722470,
+  "nativeFileSHA256": "BB467B165EC7FE7547F8F352D3A1F298B5A6ABB4D7410ADDC33C378C752E5CE7",
+  "explicitDocumentSave": false,
+  "cold": "NOT_STARTED_ON_NEW_CLEARANCE_STOP",
+  "DRC": {
+    "Clearance Error": 4
+  },
+  "ConnectionError": 0,
+  "Short": 0,
+  "NetlistError": 0,
+  "ClearanceError": 4,
+  "PCB_REVIEW_READY": false,
+  "MANUFACTURING_NOT_RELEASED": true,
+  "BENCH_NOT_RELEASED": true,
+  "nativeLabel": "BLOCKED_NOT_FOR_USE_UNSAVED_FAILURE_STATE_ACTUAL_FILE",
+  "nativeFileLINE": 911,
+  "allThisPackageCreatedIdsPresentInNativeFile": true
+}

@@ -1,0 +1,12 @@
+{
+  "sessionId": "1c4328a9-c1fb-4e47-bb24-0b973e25517a",
+  "officialStatus": "closed",
+  "source": "CLOSE_V3V3_WARM.json",
+  "GUIwindowId": 333494,
+  "normalCloseClickedOnce": true,
+  "freshOwnAppWindowInventory": [],
+  "confirmedUTC": "2026-10-02T01:57:34.624386+00:00",
+  "explicitSave": false,
+  "coldOpened": false,
+  "solverStarted": false
+}

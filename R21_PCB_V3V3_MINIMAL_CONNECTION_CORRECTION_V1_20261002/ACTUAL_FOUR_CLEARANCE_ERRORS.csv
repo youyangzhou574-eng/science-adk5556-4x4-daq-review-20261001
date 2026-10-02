@@ -1,0 +1,5 @@
+category,layer,obj1,obj2,obj2PrimitiveId,minDistance,required,xMil,yMil
+Clearance Error,Inner1,(GND): e0e0,(V3V3): e307,5c0162206220ea3b,0mil,>= 10mil,3392.0,1790.6999999999998
+Clearance Error,Top Layer,(GND): e3e3,(V3V3): e307,5c0162206220ea3b,0mil,>= 10mil,3392.0,1790.6999999999998
+Clearance Error,Inner1,(GND): e0e0,(V3V3): e307,5c0162206220ea3b,0mil,>= 10mil,3386.0,1790.6999999999998
+Clearance Error,Top Layer,(GND): e3e3,(V3V3): e307,5c0162206220ea3b,0mil,>= 10mil,3386.0,1790.6999999999998

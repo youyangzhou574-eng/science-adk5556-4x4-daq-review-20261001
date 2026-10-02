@@ -1,0 +1,650 @@
+{
+  "scope": "offline geometry screen only; nativeDRC authoritative",
+  "fillArcMaxStepDegrees": 2,
+  "groups": [
+    [
+      {
+        "id": "5575461113428373",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "4b0b4bc44aac5d83",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "1cb0239349614962",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "26e184ac7e183158",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "0d20cfe765abaa17",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "91d19ac3f25daf5b",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "f8b389c7f0a5682c",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "11f39b26971dab4e",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "a718705e43d4ecf6",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "42a3fda69a64fbc9",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "6b3ec6cc041dbae8",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "52860031567fb356",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "87d02727de4db6ac",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "1a6870975dafcaa4",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "f6c2f7d985996ca8",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "f3e17d08b8494578",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "d9e2f306123ba103",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "7f7f68557d1c104b",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "8f1eafdd1977d905",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "ef7524cf31cf3c7d",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "527d282d76f95633",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "2a11df32e494bf3c",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "cbde844199ba3d8c",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "48e796b1a5e4f311",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "f9038527c9d51a9c",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "db17edd7c9cb2e8f",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "0fb40a40b904181f",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "065b8c15ead3408e",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "a7d701dfc891e48c",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "3a40c5f2be154ddd",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "e6902789c0361816",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "fa5f2fbdb19d4b70",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "2204bd14771a6c62",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "5f9d30814f941c84",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "0df0f6c1865c6d3b",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "64d9193edcd5bdf9",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "aadd20d51ac244b1",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "0906408585602172",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "415eaf4aa1046599",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "114a510015da2058",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "0a5d939753d32672",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "9851a4d2258e17b8",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "9f97ba46207bdabf",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "4a3de0e6d19300c5",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "c1b0d8b6c96de5de",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "6fac7948484770cd",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "beffd6b65e8ca52c",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "c131c12ef419b393",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "dc557b982b1649ef",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "b4487b16b8cbf550",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "c7142ac6f699366a",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "7c5422329d9808c1",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "7b40861f9896e166",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "115a92728300f552",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "90215b5d66f6e86c",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "4dc4a0df7a1b16b1",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "5c5376190796d61f",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "8ca60ab6c303b0ef",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "ab8011781b98f37b",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "8daeaf59f928d2ad",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "1a7044452f220f7d",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "b0586ada71d7f67f",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "41ef9bd89f01518e",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "e9585d8d7b758c49",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "999755d70378480d",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "688190e777c6576e",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "1184f17cf1bd80a2",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "05a82302ab492bd3",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "959388e252b1b15a",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "48f5d0a1539b3eae",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "51ec4b329c940d83",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "4d83217ed375ef85",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "20e9dabba33f2b87",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "05559ab95f82628e",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "749d6393b2590571",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "abbb2f2769954038",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "a9ed937e6456ab4b",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "395d058a63690688",
+        "kind": "LINE",
+        "layer": 2
+      },
+      {
+        "id": "69fff1a5935cb7d6",
+        "kind": "LINE",
+        "layer": 2
+      },
+      {
+        "id": "f5177ce8ae73fe55",
+        "kind": "LINE",
+        "layer": 2
+      },
+      {
+        "id": "185c4032f7a0918f",
+        "kind": "LINE",
+        "layer": 2
+      },
+      {
+        "id": "a0ad8cd872a8178b",
+        "kind": "LINE",
+        "layer": 2
+      },
+      {
+        "id": "c91bed02611d7ea3",
+        "kind": "LINE",
+        "layer": 16
+      },
+      {
+        "id": "ececff1f48d73cd0",
+        "kind": "LINE",
+        "layer": 16
+      },
+      {
+        "id": "0b7643320a254f73",
+        "kind": "LINE",
+        "layer": 16
+      },
+      {
+        "id": "5ec0f147a74d7106#0",
+        "kind": "FILL",
+        "layer": 16
+      },
+      {
+        "id": "5ec0f147a74d7106#2",
+        "kind": "FILL",
+        "layer": 16
+      },
+      {
+        "id": "C_ADCD-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "C_DVDD34A-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "C_DVDD34B-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "C_MCU1-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "C_RST-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "C_U13-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "C_U14-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "C_U15-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J3_1-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J3_1-3",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J3_3-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J3_4-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J3_5-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J4_1-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J4_1-3",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J4_3-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "D_J4_4-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "R_CS_PU-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "R_J3_1-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "R_J4_1-2",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "R_RST-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U10-6",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U10_BLEED-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U10_OUT_CAP-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U10_PG_T-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U11-3",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U11-4",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U11_VDD_C-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U12-3",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U12-4",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U12_TOP0-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U12_VDD_C-1",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U13-14",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U14-14",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U15-5",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U5-34",
+        "kind": "PAD",
+        "layer": 1
+      },
+      {
+        "id": "U7-4",
+        "kind": "PAD",
+        "layer": 1
+      }
+    ],
+    [
+      {
+        "id": "d9d6381bb71f0d80",
+        "kind": "VIA",
+        "layer": 12
+      },
+      {
+        "id": "898956042208f5b6",
+        "kind": "LINE",
+        "layer": 1
+      },
+      {
+        "id": "5ec0f147a74d7106#1",
+        "kind": "FILL",
+        "layer": 16
+      },
+      {
+        "id": "C_MCU_BULK-1",
+        "kind": "PAD",
+        "layer": 1
+      }
+    ]
+  ]
+}

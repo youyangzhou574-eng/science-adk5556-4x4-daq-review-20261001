@@ -1,0 +1,101 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1",
+  "ruling": "f80cab79-8653-407b-9416-a808f358290c",
+  "parentUser": "504704c5-3b28-483b-a977-6d9a0a433581",
+  "startUTC": "2026-10-02T01:31:16.014584+00:00",
+  "approvedMinutes": 180,
+  "limits": {
+    "copy": 1,
+    "session": 2,
+    "save": 2,
+    "captureaudit": 4,
+    "DRC": 4,
+    "reviewExport": 1,
+    "localBridge": 2,
+    "newVia": 1,
+    "sameAreaSecondPass": 1
+  },
+  "actual": {
+    "copy": 1,
+    "session": 1,
+    "save": 0,
+    "captureaudit": 3,
+    "DRC": 2,
+    "reviewExport": 0,
+    "localBridge": 2,
+    "newVia": 1,
+    "sameAreaSecondPass": 0
+  },
+  "status": "STOP_NEW_V3V3_VIA_TO_GND_FILLED_CLEARANCE",
+  "componentMove": 0,
+  "deviceValueFootprintEdit": 0,
+  "schematic": 0,
+  "ImportChanges": 0,
+  "autorouter": 0,
+  "largeReroute": 0,
+  "simulation": 0,
+  "Gerber": 0,
+  "procurement": 0,
+  "manufacture": 0,
+  "actualBench": 0,
+  "localGit": 0,
+  "reservations": [
+    {
+      "utc": "2026-10-02T01:31:16.340087+00:00",
+      "kind": "copy",
+      "count": 1,
+      "reason": "One isolated final routing work copy"
+    },
+    {
+      "utc": "2026-10-02T01:31:32.069849+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Warm isolated V3V3 correction session"
+    },
+    {
+      "utc": "2026-10-02T01:33:49.396330+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Pre-fix actual full identity and copper capture after PCB1 GUI ready"
+    },
+    {
+      "utc": "2026-10-02T01:33:51.625989+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Pre-fix detailed native DRC for GUI object targeting"
+    },
+    {
+      "utc": "2026-10-02T01:46:44.859377+00:00",
+      "kind": "localBridge",
+      "count": 2,
+      "reason": "Two permitted V3V3 local closures, exact C_MCU1 landing and e255 short bottom bridge"
+    },
+    {
+      "utc": "2026-10-02T01:46:45.268800+00:00",
+      "kind": "newVia",
+      "count": 1,
+      "reason": "One necessary same-area V3V3 main-plane landing at 3380 1790.7"
+    },
+    {
+      "utc": "2026-10-02T01:46:46.947284+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "Immediate detailed DRC after first authorized local correction"
+    },
+    {
+      "utc": "2026-10-02T01:48:20.137324+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Read-only failure state capture after immediate real clearance STOP; no edits or save"
+    },
+    {
+      "utc": "2026-10-02T01:49:06.598458+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Actual native File capture solely preserving blocked unsaved state; no document save or mutation"
+    }
+  ],
+  "stopUTC": "2026-10-02T01:48:19.783767+00:00",
+  "evidenceOnlyAfterStop": true,
+  "stopEvidence": "FIRST_POSTFIX_DRC.json"
+}

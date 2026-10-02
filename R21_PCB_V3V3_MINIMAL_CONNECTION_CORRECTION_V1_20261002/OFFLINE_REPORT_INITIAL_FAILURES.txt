@@ -1,0 +1,4 @@
+Offline report preparation failures retained. No CAD or scientific rerun followed these failures.
+1. Initial strict capture-vs-native assertion failed: LINE=false and POURED=false; other captured object classes true. Fixed report to retain full difference and assert only the equal classes.
+2. Created-ID evidence comprehension used h["id"] on DOCHEAD with no id: KeyError: id. Changed to h.get("id") and reran the same offline report script. All new LINE/VIA IDs were then confirmed in actual native File.
+Neither failure is a board electrical result; both are evidence-report script corrections.

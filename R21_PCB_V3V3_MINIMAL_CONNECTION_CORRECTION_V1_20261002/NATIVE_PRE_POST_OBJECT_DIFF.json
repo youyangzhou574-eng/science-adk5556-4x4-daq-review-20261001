@@ -1,0 +1,151 @@
+{
+  "COMPONENT": {
+    "beforeCount": 176,
+    "afterCount": 176,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "PAD_NET": {
+    "beforeCount": 550,
+    "afterCount": 550,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "ATTR": {
+    "beforeCount": 529,
+    "afterCount": 529,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "LINE": {
+    "beforeCount": 907,
+    "afterCount": 909,
+    "added": [
+      {
+        "id": "a9e5041778cdb40e",
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "V3V3",
+          "layerId": 1,
+          "startX": 3200.7865,
+          "startY": 1822.8346,
+          "endX": 3160.05,
+          "endY": 1822.8,
+          "width": 12,
+          "locked": true,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "4e5c023ee9440731",
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "V3V3",
+          "layerId": 2,
+          "startX": 3340,
+          "startY": 1830.7,
+          "endX": 3380,
+          "endY": 1790.7,
+          "width": 12,
+          "locked": true,
+          "zIndex": -1
+        }
+      },
+      {
+        "id": "9a5309ba44b7aefd",
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "V3V3",
+          "layerId": 2,
+          "startX": 3317.55,
+          "startY": 1830.7,
+          "endX": 3340,
+          "endY": 1830.7,
+          "width": 12,
+          "locked": true,
+          "zIndex": -1
+        }
+      }
+    ],
+    "removed": [
+      {
+        "id": "c131c12ef419b393",
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "V3V3",
+          "layerId": 1,
+          "startX": 3200.8,
+          "startY": 1822.8,
+          "endX": 3160.05,
+          "endY": 1822.8,
+          "width": 12,
+          "locked": true,
+          "zIndex": -1
+        }
+      }
+    ],
+    "changed": []
+  },
+  "VIA": {
+    "beforeCount": 296,
+    "afterCount": 297,
+    "added": [
+      {
+        "id": "5c0162206220ea3b",
+        "body": {
+          "partitionId": "",
+          "groupId": 0,
+          "netName": "V3V3",
+          "ruleName": "",
+          "centerX": 3380,
+          "centerY": 1790.7,
+          "holeDiameter": 12,
+          "viaDiameter": 24,
+          "viaType": "NORMAL",
+          "topSolderExpansion": null,
+          "bottomSolderExpansion": null,
+          "locked": false,
+          "unusedInnerLayers": [],
+          "propagationDelay": 0
+        }
+      }
+    ],
+    "removed": [],
+    "changed": []
+  },
+  "POUR": {
+    "beforeCount": 4,
+    "afterCount": 4,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "POURED": {
+    "beforeCount": 4,
+    "afterCount": 4,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "POLY": {
+    "beforeCount": 1,
+    "afterCount": 1,
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "RULE": {
+    "beforeCount": 16,
+    "afterCount": 16,
+    "added": [],
+    "removed": [],
+    "changed": []
+  }
+}

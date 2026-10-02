@@ -1,3 +1,9 @@
+# Latest: minimal V3V3 correction — four native Clearance Errors, BLOCKED
+
+[Complete receipt](R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1_20261002/COMPLETE_V3V3_CORRECTION_RECEIPT.md) · [Index](R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1_20261002/README.md) · [Actual4 errors](R21_PCB_V3V3_MINIMAL_CONNECTION_CORRECTION_V1_20261002/ACTUAL_FOUR_CLEARANCE_ERRORS.csv). Two V3V3 connections eliminated; one new via needs required GND fill clearance. Immediate STOP, no save/cold/pour update. All550 pin nets and176 core identities unchanged. Failure nativeFile BLOCKED_NOT_FOR_USE; manufacturing/bench not released.
+
+---
+
 # Latest: final PCB readonly verification — two V3V3 connections remain
 
 [Complete receipt](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/COMPLETE_FINAL_READONLY_RECEIPT.md) · [Index](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/README.md) · [Actual2 errors](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/ACTUAL_REMAINING_CONNECTIONS.csv) · [All550 pins](R21_PCB_FINAL_READONLY_VERIFICATION_V1_20261002/WARM_ALL_550_PAD_NET_COMPARE.csv). Actual warmDRC2Connection/0Short/0Clearance/0NetlistError. Native identity176/550/514/107/36; warm907 versus frozen909 LINE (two0.1mil segments absent), full difference retained. Cold not started on real-error STOP; no board edits. PCB_REVIEW_READY=false, manufacturing/bench not released.
