@@ -1,0 +1,720 @@
+{
+  "components": 176,
+  "pads": 552,
+  "assigned": 514,
+  "actualFootprintLocalPadMappings": 552,
+  "maxMappingResidualMm": 0.0017655192669558872,
+  "bodyStatuses": {
+    "NATIVE_COMPONENT_SHAPE_NOT_INDEPENDENT_MANUFACTURER_MAX_COURTYARD": 175,
+    "OFFICIAL_DIMENSION_CONSERVATIVE_2D_ENVELOPE_NOT_EXACT_BODY_TRACE": 1
+  },
+  "FFCConservativeOutline": true,
+  "FFCExactBodyRegistrationManufacturerVerified": false,
+  "CADOperations": 0,
+  "padResiduals": [
+    {
+      "ref": "J1",
+      "maxLocalPadToActualCenterResidualMm": 0.000645239995029844
+    },
+    {
+      "ref": "CF0",
+      "maxLocalPadToActualCenterResidualMm": 0.0008245029363248902
+    },
+    {
+      "ref": "CF1",
+      "maxLocalPadToActualCenterResidualMm": 0.0006559792807698363
+    },
+    {
+      "ref": "CF2",
+      "maxLocalPadToActualCenterResidualMm": 0.0010236199999971631
+    },
+    {
+      "ref": "CF3",
+      "maxLocalPadToActualCenterResidualMm": 0.0016003632773827772
+    },
+    {
+      "ref": "C_ADC0",
+      "maxLocalPadToActualCenterResidualMm": 0.0009215160606320142
+    },
+    {
+      "ref": "C_ADC1",
+      "maxLocalPadToActualCenterResidualMm": 0.0008397379829431302
+    },
+    {
+      "ref": "C_ADC2",
+      "maxLocalPadToActualCenterResidualMm": 0.0013001748665487773
+    },
+    {
+      "ref": "C_ADC3",
+      "maxLocalPadToActualCenterResidualMm": 0.0013544322255507949
+    },
+    {
+      "ref": "C_ADCA1",
+      "maxLocalPadToActualCenterResidualMm": 0.0014109991491132162
+    },
+    {
+      "ref": "C_ADCA2",
+      "maxLocalPadToActualCenterResidualMm": 0.0008944984248130146
+    },
+    {
+      "ref": "C_ADCD",
+      "maxLocalPadToActualCenterResidualMm": 0.0009270269286246517
+    },
+    {
+      "ref": "C_ADC_REFCAP",
+      "maxLocalPadToActualCenterResidualMm": 0.0006404024584715252
+    },
+    {
+      "ref": "C_ADC_REFIO",
+      "maxLocalPadToActualCenterResidualMm": 0.0013337805800108641
+    },
+    {
+      "ref": "C_AVDD30A",
+      "maxLocalPadToActualCenterResidualMm": 0.001573443383420484
+    },
+    {
+      "ref": "C_AVDD30B",
+      "maxLocalPadToActualCenterResidualMm": 0.0013267361220708936
+    },
+    {
+      "ref": "C_AVDD30_HF",
+      "maxLocalPadToActualCenterResidualMm": 0.0009159861243420468
+    },
+    {
+      "ref": "C_AVDD9A",
+      "maxLocalPadToActualCenterResidualMm": 0.0013153374733566518
+    },
+    {
+      "ref": "C_AVDD9B",
+      "maxLocalPadToActualCenterResidualMm": 0.0013472563214272442
+    },
+    {
+      "ref": "C_AVDD9_HF",
+      "maxLocalPadToActualCenterResidualMm": 0.001348204149681647
+    },
+    {
+      "ref": "C_BUF",
+      "maxLocalPadToActualCenterResidualMm": 0.0014153635780201179
+    },
+    {
+      "ref": "C_DIV",
+      "maxLocalPadToActualCenterResidualMm": 0.0012209582113979782
+    },
+    {
+      "ref": "C_DVDD34A",
+      "maxLocalPadToActualCenterResidualMm": 0.0006450049813808858
+    },
+    {
+      "ref": "C_DVDD34B",
+      "maxLocalPadToActualCenterResidualMm": 0.0013999294739372949
+    },
+    {
+      "ref": "C_LDO_IN",
+      "maxLocalPadToActualCenterResidualMm": 0.0012170417355200104
+    },
+    {
+      "ref": "C_LDO_OUT",
+      "maxLocalPadToActualCenterResidualMm": 0.001376858069654692
+    },
+    {
+      "ref": "C_MCU1",
+      "maxLocalPadToActualCenterResidualMm": 0.0009433663952030336
+    },
+    {
+      "ref": "C_MCU_BULK",
+      "maxLocalPadToActualCenterResidualMm": 0.0008717530147992483
+    },
+    {
+      "ref": "C_MUX",
+      "maxLocalPadToActualCenterResidualMm": 0.00110658037737886
+    },
+    {
+      "ref": "C_PWR",
+      "maxLocalPadToActualCenterResidualMm": 0.0006613566916474985
+    },
+    {
+      "ref": "C_REF",
+      "maxLocalPadToActualCenterResidualMm": 0.0008419822242776832
+    },
+    {
+      "ref": "C_REFCAP_BULKA",
+      "maxLocalPadToActualCenterResidualMm": 0.0010732063594731756
+    },
+    {
+      "ref": "C_REFCAP_BULKB",
+      "maxLocalPadToActualCenterResidualMm": 0.001614651049483052
+    },
+    {
+      "ref": "C_REFIO_B",
+      "maxLocalPadToActualCenterResidualMm": 0.0013004130256186188
+    },
+    {
+      "ref": "C_ROW_HF0",
+      "maxLocalPadToActualCenterResidualMm": 0.0013315270166247355
+    },
+    {
+      "ref": "C_ROW_HF1",
+      "maxLocalPadToActualCenterResidualMm": 0.0013315270166247355
+    },
+    {
+      "ref": "C_ROW_HF2",
+      "maxLocalPadToActualCenterResidualMm": 0.0013388498779187427
+    },
+    {
+      "ref": "C_ROW_HF3",
+      "maxLocalPadToActualCenterResidualMm": 0.0013388498779187427
+    },
+    {
+      "ref": "C_ROW_OP",
+      "maxLocalPadToActualCenterResidualMm": 0.0012439389060564362
+    },
+    {
+      "ref": "C_RST",
+      "maxLocalPadToActualCenterResidualMm": 0.00037026544532085413
+    },
+    {
+      "ref": "C_TIA_HF0",
+      "maxLocalPadToActualCenterResidualMm": 0.0010786121289832115
+    },
+    {
+      "ref": "C_TIA_HF1",
+      "maxLocalPadToActualCenterResidualMm": 0.0010786121289817017
+    },
+    {
+      "ref": "C_TIA_HF2",
+      "maxLocalPadToActualCenterResidualMm": 0.001061343186724362
+    },
+    {
+      "ref": "C_TIA_HF3",
+      "maxLocalPadToActualCenterResidualMm": 0.0010613431867258964
+    },
+    {
+      "ref": "C_TIA_OP",
+      "maxLocalPadToActualCenterResidualMm": 0.0013248675061285106
+    },
+    {
+      "ref": "C_U13",
+      "maxLocalPadToActualCenterResidualMm": 0.0007113814054332133
+    },
+    {
+      "ref": "C_U14",
+      "maxLocalPadToActualCenterResidualMm": 0.00048675970457496176
+    },
+    {
+      "ref": "C_U15",
+      "maxLocalPadToActualCenterResidualMm": 0.001284609865293277
+    },
+    {
+      "ref": "C_VCM_HF",
+      "maxLocalPadToActualCenterResidualMm": 0.0013036536081351782
+    },
+    {
+      "ref": "C_VEX_HF",
+      "maxLocalPadToActualCenterResidualMm": 0.001284348683030506
+    },
+    {
+      "ref": "D_J3_1",
+      "maxLocalPadToActualCenterResidualMm": 0.0014695979930569455
+    },
+    {
+      "ref": "D_J3_3",
+      "maxLocalPadToActualCenterResidualMm": 0.0013927957464012358
+    },
+    {
+      "ref": "D_J3_4",
+      "maxLocalPadToActualCenterResidualMm": 0.0015517924152395949
+    },
+    {
+      "ref": "D_J3_5",
+      "maxLocalPadToActualCenterResidualMm": 0.001477181980526197
+    },
+    {
+      "ref": "D_J4_1",
+      "maxLocalPadToActualCenterResidualMm": 0.0011651099330067967
+    },
+    {
+      "ref": "D_J4_3",
+      "maxLocalPadToActualCenterResidualMm": 0.0012122640626508932
+    },
+    {
+      "ref": "D_J4_4",
+      "maxLocalPadToActualCenterResidualMm": 0.001100324364728472
+    },
+    {
+      "ref": "D_ROW0",
+      "maxLocalPadToActualCenterResidualMm": 0.0006405334108384083
+    },
+    {
+      "ref": "D_ROW1",
+      "maxLocalPadToActualCenterResidualMm": 0.0009200902394857367
+    },
+    {
+      "ref": "D_ROW2",
+      "maxLocalPadToActualCenterResidualMm": 0.0009306561386454096
+    },
+    {
+      "ref": "D_ROW3",
+      "maxLocalPadToActualCenterResidualMm": 0.0006556202025601223
+    },
+    {
+      "ref": "D_TIA0",
+      "maxLocalPadToActualCenterResidualMm": 0.001303938136566728
+    },
+    {
+      "ref": "D_TIA1",
+      "maxLocalPadToActualCenterResidualMm": 0.0013854250657474067
+    },
+    {
+      "ref": "D_TIA2",
+      "maxLocalPadToActualCenterResidualMm": 0.0013720232680319204
+    },
+    {
+      "ref": "D_TIA3",
+      "maxLocalPadToActualCenterResidualMm": 0.0012896898461308036
+    },
+    {
+      "ref": "D_VCM",
+      "maxLocalPadToActualCenterResidualMm": 0.0009813378013722408
+    },
+    {
+      "ref": "D_VEX",
+      "maxLocalPadToActualCenterResidualMm": 0.000672481489409746
+    },
+    {
+      "ref": "J2",
+      "maxLocalPadToActualCenterResidualMm": 0.001229000000003528
+    },
+    {
+      "ref": "J3",
+      "maxLocalPadToActualCenterResidualMm": 0.0010313526046918668
+    },
+    {
+      "ref": "J4",
+      "maxLocalPadToActualCenterResidualMm": 0.0005113228823344387
+    },
+    {
+      "ref": "RD_B1",
+      "maxLocalPadToActualCenterResidualMm": 0.0006930058470110806
+    },
+    {
+      "ref": "RD_B2",
+      "maxLocalPadToActualCenterResidualMm": 0.0009524322642527499
+    },
+    {
+      "ref": "RD_B3",
+      "maxLocalPadToActualCenterResidualMm": 0.0013699903888683862
+    },
+    {
+      "ref": "RD_B4",
+      "maxLocalPadToActualCenterResidualMm": 0.0015812596548330695
+    },
+    {
+      "ref": "RD_B5",
+      "maxLocalPadToActualCenterResidualMm": 0.0012513928099518563
+    },
+    {
+      "ref": "RD_B6",
+      "maxLocalPadToActualCenterResidualMm": 0.001015177341942633
+    },
+    {
+      "ref": "RD_B7",
+      "maxLocalPadToActualCenterResidualMm": 0.0006562693510992911
+    },
+    {
+      "ref": "RD_B8",
+      "maxLocalPadToActualCenterResidualMm": 0.0014907463189978035
+    },
+    {
+      "ref": "RD_B9",
+      "maxLocalPadToActualCenterResidualMm": 0.0015597275317201494
+    },
+    {
+      "ref": "RD_TOP",
+      "maxLocalPadToActualCenterResidualMm": 0.0011348684753758498
+    },
+    {
+      "ref": "RF0",
+      "maxLocalPadToActualCenterResidualMm": 0.001367485142444127
+    },
+    {
+      "ref": "RF1",
+      "maxLocalPadToActualCenterResidualMm": 0.0009011990157610216
+    },
+    {
+      "ref": "RF2",
+      "maxLocalPadToActualCenterResidualMm": 0.0005435600000021622
+    },
+    {
+      "ref": "RF3",
+      "maxLocalPadToActualCenterResidualMm": 0.0011633199999996349
+    },
+    {
+      "ref": "R_ADC0",
+      "maxLocalPadToActualCenterResidualMm": 0.0006637909863804165
+    },
+    {
+      "ref": "R_ADC1",
+      "maxLocalPadToActualCenterResidualMm": 0.000767874389991022
+    },
+    {
+      "ref": "R_ADC2",
+      "maxLocalPadToActualCenterResidualMm": 0.0012549605102997535
+    },
+    {
+      "ref": "R_ADC3",
+      "maxLocalPadToActualCenterResidualMm": 0.0012268094823585489
+    },
+    {
+      "ref": "R_ADC_RESET_PD",
+      "maxLocalPadToActualCenterResidualMm": 0.0011396932166141116
+    },
+    {
+      "ref": "R_COL_SENSE0",
+      "maxLocalPadToActualCenterResidualMm": 0.0008090488126178008
+    },
+    {
+      "ref": "R_COL_SENSE1",
+      "maxLocalPadToActualCenterResidualMm": 0.0009631424121141938
+    },
+    {
+      "ref": "R_COL_SENSE2",
+      "maxLocalPadToActualCenterResidualMm": 0.0010238216674823197
+    },
+    {
+      "ref": "R_COL_SENSE3",
+      "maxLocalPadToActualCenterResidualMm": 0.0015259989390568303
+    },
+    {
+      "ref": "R_CS_PU",
+      "maxLocalPadToActualCenterResidualMm": 0.0013377001092929304
+    },
+    {
+      "ref": "R_ENABLE_PD",
+      "maxLocalPadToActualCenterResidualMm": 0.001039800430074701
+    },
+    {
+      "ref": "R_HW_PD",
+      "maxLocalPadToActualCenterResidualMm": 0.0009689658902067578
+    },
+    {
+      "ref": "R_ISO0",
+      "maxLocalPadToActualCenterResidualMm": 0.0011879735049219926
+    },
+    {
+      "ref": "R_ISO1",
+      "maxLocalPadToActualCenterResidualMm": 0.000818041692095469
+    },
+    {
+      "ref": "R_ISO2",
+      "maxLocalPadToActualCenterResidualMm": 0.0012829238022595228
+    },
+    {
+      "ref": "R_ISO3",
+      "maxLocalPadToActualCenterResidualMm": 0.0015453097814982786
+    },
+    {
+      "ref": "R_J3_1",
+      "maxLocalPadToActualCenterResidualMm": 0.0005726953720761719
+    },
+    {
+      "ref": "R_J3_3",
+      "maxLocalPadToActualCenterResidualMm": 0.0014006896729917308
+    },
+    {
+      "ref": "R_J3_4",
+      "maxLocalPadToActualCenterResidualMm": 0.0011101049586530632
+    },
+    {
+      "ref": "R_J3_5",
+      "maxLocalPadToActualCenterResidualMm": 0.0015250262377985275
+    },
+    {
+      "ref": "R_J4_1",
+      "maxLocalPadToActualCenterResidualMm": 0.0011755700651165317
+    },
+    {
+      "ref": "R_J4_3",
+      "maxLocalPadToActualCenterResidualMm": 0.001139579994559162
+    },
+    {
+      "ref": "R_J4_4",
+      "maxLocalPadToActualCenterResidualMm": 0.0015748757885083269
+    },
+    {
+      "ref": "R_ROW_FB0",
+      "maxLocalPadToActualCenterResidualMm": 0.0009439099321474294
+    },
+    {
+      "ref": "R_ROW_FB1",
+      "maxLocalPadToActualCenterResidualMm": 0.0011719946443562938
+    },
+    {
+      "ref": "R_ROW_FB2",
+      "maxLocalPadToActualCenterResidualMm": 0.0016498135891063128
+    },
+    {
+      "ref": "R_ROW_FB3",
+      "maxLocalPadToActualCenterResidualMm": 0.0008075802080305843
+    },
+    {
+      "ref": "R_RST",
+      "maxLocalPadToActualCenterResidualMm": 0.000620451867912692
+    },
+    {
+      "ref": "R_SEL_PD0",
+      "maxLocalPadToActualCenterResidualMm": 0.0011077021249416375
+    },
+    {
+      "ref": "R_SEL_PD1",
+      "maxLocalPadToActualCenterResidualMm": 0.0005797935994852029
+    },
+    {
+      "ref": "R_SEL_PD2",
+      "maxLocalPadToActualCenterResidualMm": 0.0009861286265004428
+    },
+    {
+      "ref": "R_SEL_PD3",
+      "maxLocalPadToActualCenterResidualMm": 0.0007434046728425885
+    },
+    {
+      "ref": "R_TIA_ISO0",
+      "maxLocalPadToActualCenterResidualMm": 0.0013582232894466734
+    },
+    {
+      "ref": "R_TIA_ISO1",
+      "maxLocalPadToActualCenterResidualMm": 0.0008870820453591323
+    },
+    {
+      "ref": "R_TIA_ISO2",
+      "maxLocalPadToActualCenterResidualMm": 0.0005439396804817725
+    },
+    {
+      "ref": "R_TIA_ISO3",
+      "maxLocalPadToActualCenterResidualMm": 0.001163497453714194
+    },
+    {
+      "ref": "R_VCM_FB",
+      "maxLocalPadToActualCenterResidualMm": 0.0014475348353707818
+    },
+    {
+      "ref": "R_VCM_ISO",
+      "maxLocalPadToActualCenterResidualMm": 0.001021916846129599
+    },
+    {
+      "ref": "R_VEX_FB",
+      "maxLocalPadToActualCenterResidualMm": 0.0009144352770950144
+    },
+    {
+      "ref": "R_VEX_ISO",
+      "maxLocalPadToActualCenterResidualMm": 0.0011345813522211801
+    },
+    {
+      "ref": "U1",
+      "maxLocalPadToActualCenterResidualMm": 0.0009932991432610224
+    },
+    {
+      "ref": "U10",
+      "maxLocalPadToActualCenterResidualMm": 0.0013339522852146577
+    },
+    {
+      "ref": "U10_BLEED",
+      "maxLocalPadToActualCenterResidualMm": 0.0013112797663427326
+    },
+    {
+      "ref": "U10_EN_G",
+      "maxLocalPadToActualCenterResidualMm": 0.0007214673159561603
+    },
+    {
+      "ref": "U10_EN_R",
+      "maxLocalPadToActualCenterResidualMm": 0.001063884086349357
+    },
+    {
+      "ref": "U10_IN_CAP",
+      "maxLocalPadToActualCenterResidualMm": 0.0012096508330936729
+    },
+    {
+      "ref": "U10_OUT_CAP",
+      "maxLocalPadToActualCenterResidualMm": 0.0011901655100093106
+    },
+    {
+      "ref": "U10_OV_B1",
+      "maxLocalPadToActualCenterResidualMm": 0.001163555674807457
+    },
+    {
+      "ref": "U10_OV_B2",
+      "maxLocalPadToActualCenterResidualMm": 0.0013373142212673038
+    },
+    {
+      "ref": "U10_OV_T",
+      "maxLocalPadToActualCenterResidualMm": 0.001318269788017224
+    },
+    {
+      "ref": "U10_PG_B",
+      "maxLocalPadToActualCenterResidualMm": 0.0007444973544540979
+    },
+    {
+      "ref": "U10_PG_T",
+      "maxLocalPadToActualCenterResidualMm": 0.0014457777280032383
+    },
+    {
+      "ref": "U11",
+      "maxLocalPadToActualCenterResidualMm": 0.0014679024579262177
+    },
+    {
+      "ref": "U11_BOT",
+      "maxLocalPadToActualCenterResidualMm": 0.0013086793862433256
+    },
+    {
+      "ref": "U11_CT_C",
+      "maxLocalPadToActualCenterResidualMm": 0.0012206860526738092
+    },
+    {
+      "ref": "U11_SENSE_C",
+      "maxLocalPadToActualCenterResidualMm": 0.0013624726680653758
+    },
+    {
+      "ref": "U11_TOP0",
+      "maxLocalPadToActualCenterResidualMm": 0.0009658548305096949
+    },
+    {
+      "ref": "U11_TOP1",
+      "maxLocalPadToActualCenterResidualMm": 0.001534294563631177
+    },
+    {
+      "ref": "U11_TOP2",
+      "maxLocalPadToActualCenterResidualMm": 0.000905152797701309
+    },
+    {
+      "ref": "U11_TOP3",
+      "maxLocalPadToActualCenterResidualMm": 0.0016672638165595357
+    },
+    {
+      "ref": "U11_TOP4",
+      "maxLocalPadToActualCenterResidualMm": 0.001115800346480943
+    },
+    {
+      "ref": "U11_VDD_C",
+      "maxLocalPadToActualCenterResidualMm": 0.0016009114450236262
+    },
+    {
+      "ref": "U12",
+      "maxLocalPadToActualCenterResidualMm": 0.001478831975985164
+    },
+    {
+      "ref": "U12_BOT",
+      "maxLocalPadToActualCenterResidualMm": 0.0013267750235791086
+    },
+    {
+      "ref": "U12_CT_C",
+      "maxLocalPadToActualCenterResidualMm": 0.0012356884633240345
+    },
+    {
+      "ref": "U12_SENSE_C",
+      "maxLocalPadToActualCenterResidualMm": 0.0013476178194178118
+    },
+    {
+      "ref": "U12_TOP0",
+      "maxLocalPadToActualCenterResidualMm": 0.0009719276063692934
+    },
+    {
+      "ref": "U12_TOP1",
+      "maxLocalPadToActualCenterResidualMm": 0.001546357340339277
+    },
+    {
+      "ref": "U12_TOP2",
+      "maxLocalPadToActualCenterResidualMm": 0.0009254527558009031
+    },
+    {
+      "ref": "U12_TOP3",
+      "maxLocalPadToActualCenterResidualMm": 0.0010954940790428923
+    },
+    {
+      "ref": "U12_VDD_C",
+      "maxLocalPadToActualCenterResidualMm": 0.0016157375040589893
+    },
+    {
+      "ref": "U13",
+      "maxLocalPadToActualCenterResidualMm": 0.0014947635639105832
+    },
+    {
+      "ref": "U14",
+      "maxLocalPadToActualCenterResidualMm": 0.0014869048055699756
+    },
+    {
+      "ref": "U15",
+      "maxLocalPadToActualCenterResidualMm": 0.0011749113132531522
+    },
+    {
+      "ref": "U2",
+      "maxLocalPadToActualCenterResidualMm": 0.001140027156173085
+    },
+    {
+      "ref": "U3",
+      "maxLocalPadToActualCenterResidualMm": 0.001120876991111945
+    },
+    {
+      "ref": "U4",
+      "maxLocalPadToActualCenterResidualMm": 0.001315438019979624
+    },
+    {
+      "ref": "U5",
+      "maxLocalPadToActualCenterResidualMm": 0.0017655192669558872
+    },
+    {
+      "ref": "U6",
+      "maxLocalPadToActualCenterResidualMm": 0.0010635171393043076
+    },
+    {
+      "ref": "U7",
+      "maxLocalPadToActualCenterResidualMm": 0.0016044056321366372
+    },
+    {
+      "ref": "U8",
+      "maxLocalPadToActualCenterResidualMm": 0.0012593406066582344
+    },
+    {
+      "ref": "U9",
+      "maxLocalPadToActualCenterResidualMm": 0.001427346666384098
+    },
+    {
+      "ref": "U9_BLEED",
+      "maxLocalPadToActualCenterResidualMm": 0.0010413659262765973
+    },
+    {
+      "ref": "U9_EN_G",
+      "maxLocalPadToActualCenterResidualMm": 0.0008054363629739853
+    },
+    {
+      "ref": "U9_EN_R",
+      "maxLocalPadToActualCenterResidualMm": 0.0014780814127786793
+    },
+    {
+      "ref": "U9_IN_CAP",
+      "maxLocalPadToActualCenterResidualMm": 0.0004058042508376283
+    },
+    {
+      "ref": "U9_OUT_CAP",
+      "maxLocalPadToActualCenterResidualMm": 0.0012658173523869998
+    },
+    {
+      "ref": "U9_OV_B1",
+      "maxLocalPadToActualCenterResidualMm": 0.0009247832697441867
+    },
+    {
+      "ref": "U9_OV_B2",
+      "maxLocalPadToActualCenterResidualMm": 0.0011905123880124034
+    },
+    {
+      "ref": "U9_OV_T",
+      "maxLocalPadToActualCenterResidualMm": 0.0007483738343828868
+    },
+    {
+      "ref": "U9_PG_B",
+      "maxLocalPadToActualCenterResidualMm": 0.0009861286265004428
+    },
+    {
+      "ref": "U9_PG_T",
+      "maxLocalPadToActualCenterResidualMm": 0.000878300267781859
+    }
+  ]
+}

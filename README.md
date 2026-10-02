@@ -1,3 +1,11 @@
+# Latest: Pro23 A/B visual drafts; placement acceptance BLOCKED
+
+[A/B comparison](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/PLACEMENT_AB_COMPARISON.png) · [Full receipt](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/COMPLETE_PLACEMENT_RECEIPT.md) · [A coordinates](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/PLACEMENT_A.csv) · [B coordinates](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/PLACEMENT_B.csv) · [Body sources](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/BODY_SOURCE_REGISTER.csv) · [74 actual pin-distance comparisons](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/KEY_PIN_DISTANCE_COMPARISON.csv) · [Gates](R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1_20261002/GATES.json).
+
+Both176 real-scale components/552pads; no trace/via/pour, CAD0. Nativebody graphics for175 components, conservative official-dimension FFC outline with exact datum mechanical HOLD. FFC body/actuator datum STOP, key-distance full coverage and pad-proxy full coverage HOLD; drawings are unaccepted visual drafts. Choosing A/B does not release these gates. New unified bounded ruling required before further geometry or board changes. No manufacture/bench release. Complete own CSV/PNG/source/failed attempts/review direct; ZIP supplemental.
+
+---
+
 # Latest: Pro20 actual FFC/FPC J2 warm ECO; independent cold closure blocked
 
 [Full receipt](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/COMPLETE_FFC_CORRECTION_RECEIPT.md) · [Index](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/README.md) · [Actual local picture](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/J2_FFC_ACTUAL_WARM_DETAIL.png) · [Whole PCB picture](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/PCB_FINAL_WARM_REVIEW.png) · [8 signal +2 mechanical pads](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/J2_ACTUAL_SIGNAL_AND_MECHANICAL_PADS.csv) · [Gates](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/GATES.json).

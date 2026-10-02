@@ -1,0 +1,196 @@
+{
+  "candidate": "A",
+  "status": "OFFLINE_PLACEMENT_NOT_NATIVE_NOT_ROUTED",
+  "components": 176,
+  "naturalBodyBoundingBoxMm": [
+    0.5,
+    -4.3999992,
+    87.50002040000001,
+    75.3999992
+  ],
+  "physicalPadAndBodyBoundingBoxMm": [
+    0.5,
+    -4.432960779999988,
+    87.50002040000001,
+    75.43303952
+  ],
+  "naturalWidthMm": 87.00002040000001,
+  "naturalHeightMm": 79.79999839999999,
+  "bodyProjectedUnionAreaMm2": 818.4065526142551,
+  "bodyAreaOverNaturalBBox": 0.11788182771889846,
+  "regionBodyAreaMm2": {
+    "ADC": 153.39949816039015,
+    "AFE": 229.51012944106958,
+    "BIAS": 94.19171873618586,
+    "DIGITAL": 110.43959888036048,
+    "EXTERNAL": 134.41997641628402,
+    "POWER": 96.68562521997569
+  },
+  "regionBodyAreaShare": {
+    "ADC": 0.18738184232235952,
+    "AFE": 0.28035313936519496,
+    "BIAS": 0.11505785872807661,
+    "DIGITAL": 0.13490510563409336,
+    "EXTERNAL": 0.16419781764524227,
+    "POWER": 0.11810423630503326
+  },
+  "regionAreaDefinition": "Body projected area by electrical functional membership / sum of all body areas. Not drawn rectangle area; no assertion that bounding-box regions are disjoint.",
+  "bodyOverlapPairs": [
+    {
+      "a": "U9_BLEED",
+      "b": "U9_EN_G",
+      "areaMm2": 0.2399942400105599
+    }
+  ],
+  "conservativePadEnvelopeOverlapPairs": [
+    {
+      "a": "C_LDO_OUT",
+      "b": "C_PWR"
+    },
+    {
+      "a": "U10_BLEED",
+      "b": "U10_EN_G"
+    },
+    {
+      "a": "U9_BLEED",
+      "b": "U9_EN_G"
+    }
+  ],
+  "criticalPairs": 74,
+  "maxCriticalDistanceDeltaMm": 7.105427357601002e-15,
+  "FFC2DKeepoutBodyCollisions": [],
+  "FFCBody": "Official-dimension conservative planning envelope; nominal exact body/actuator registration not manufacturer-certified.",
+  "FFCOpeningHeightReferenceMm": 3.95,
+  "verticalChassisClearance": "NOT_APPLICABLE_TO_BARE_PLACEMENT; exact enclosing chassis not specified",
+  "mechanicalEnvelopeMm": [
+    -9.5,
+    -4.3999992,
+    87.50002040000001,
+    75.3999992
+  ],
+  "recommendedBoardEnvelopeMm": [
+    -2.5,
+    -7.432960779999988,
+    90.50002040000001,
+    78.43303952
+  ],
+  "boardEnvelopeStatus": "PROPOSAL_ONLY; 3mm policy margin. Cable access area outside proposed board, not board material; connector side access/chassis/fab remain pending.",
+  "grid4x4": [
+    {
+      "ix": 0,
+      "iy": 0,
+      "cellAreaMm2": 433.91259304499795,
+      "bodyUnionAreaMm2": 48.363189959878234,
+      "bodyAreaFraction": 0.11145836911643363
+    },
+    {
+      "ix": 1,
+      "iy": 0,
+      "cellAreaMm2": 433.91259304499795,
+      "bodyUnionAreaMm2": 37.842481980045946,
+      "bodyAreaFraction": 0.08721222335236897
+    },
+    {
+      "ix": 2,
+      "iy": 0,
+      "cellAreaMm2": 433.91259304499783,
+      "bodyUnionAreaMm2": 60.51975792024203,
+      "bodyAreaFraction": 0.13947453678525984
+    },
+    {
+      "ix": 3,
+      "iy": 0,
+      "cellAreaMm2": 433.9125930449981,
+      "bodyUnionAreaMm2": 46.55981376018623,
+      "bodyAreaFraction": 0.10730228738799896
+    },
+    {
+      "ix": 0,
+      "iy": 1,
+      "cellAreaMm2": 433.91259304499806,
+      "bodyUnionAreaMm2": 53.01790312042233,
+      "bodyAreaFraction": 0.12218567511112592
+    },
+    {
+      "ix": 1,
+      "iy": 1,
+      "cellAreaMm2": 433.91259304499806,
+      "bodyUnionAreaMm2": 46.78383076215127,
+      "bodyAreaFraction": 0.10781855957174223
+    },
+    {
+      "ix": 2,
+      "iy": 1,
+      "cellAreaMm2": 433.9125930449979,
+      "bodyUnionAreaMm2": 77.6178009040878,
+      "bodyAreaFraction": 0.17887888516763703
+    },
+    {
+      "ix": 3,
+      "iy": 1,
+      "cellAreaMm2": 433.9125930449982,
+      "bodyUnionAreaMm2": 62.43766920099628,
+      "bodyAreaFraction": 0.1438945773913533
+    },
+    {
+      "ix": 0,
+      "iy": 2,
+      "cellAreaMm2": 433.91259304499795,
+      "bodyUnionAreaMm2": 104.45714616012803,
+      "bodyAreaFraction": 0.24073315187073988
+    },
+    {
+      "ix": 1,
+      "iy": 2,
+      "cellAreaMm2": 433.91259304499795,
+      "bodyUnionAreaMm2": 68.82612060148364,
+      "bodyAreaFraction": 0.15861747666389156
+    },
+    {
+      "ix": 2,
+      "iy": 2,
+      "cellAreaMm2": 433.91259304499783,
+      "bodyUnionAreaMm2": 15.902265927404555,
+      "bodyAreaFraction": 0.03664854669418514
+    },
+    {
+      "ix": 3,
+      "iy": 2,
+      "cellAreaMm2": 433.9125930449981,
+      "bodyUnionAreaMm2": 12.222536095068953,
+      "bodyAreaFraction": 0.028168198598009894
+    },
+    {
+      "ix": 0,
+      "iy": 3,
+      "cellAreaMm2": 433.91259304499795,
+      "bodyUnionAreaMm2": 51.635161760437654,
+      "bodyAreaFraction": 0.11899899331818412
+    },
+    {
+      "ix": 1,
+      "iy": 3,
+      "cellAreaMm2": 433.91259304499795,
+      "bodyUnionAreaMm2": 48.374041419723675,
+      "bodyAreaFraction": 0.11148337751678747
+    },
+    {
+      "ix": 2,
+      "iy": 3,
+      "cellAreaMm2": 433.91259304499783,
+      "bodyUnionAreaMm2": 35.466975761906575,
+      "bodyAreaFraction": 0.08173760414053842
+    },
+    {
+      "ix": 3,
+      "iy": 3,
+      "cellAreaMm2": 433.9125930449981,
+      "bodyUnionAreaMm2": 48.37985728009205,
+      "bodyAreaFraction": 0.11149678081611912
+    }
+  ],
+  "gridCoefficientOfVariation": 0.4180965720199624,
+  "peripheryBlankDefinition": "Largest empty raster rectangle inside natural bbox, 1mm geometric sample; not copper/keepout or fabrication clearance.",
+  "CADOperations": 0,
+  "largestEmptyRasterRectangleAreaMm2": 636
+}

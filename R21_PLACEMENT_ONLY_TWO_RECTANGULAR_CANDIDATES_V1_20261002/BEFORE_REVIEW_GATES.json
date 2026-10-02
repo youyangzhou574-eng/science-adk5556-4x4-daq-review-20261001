@@ -1,0 +1,30 @@
+{
+  "stage": "PLACEMENT_ONLY_READY_FOR_HUMAN_REVIEW_WITH_MECHANICAL_LIMITATIONS",
+  "formalCandidates": 2,
+  "componentsEach": 176,
+  "geometryOverlapAudit": {
+    "A_body": 0,
+    "B_body": 0,
+    "A_padProxy": 0,
+    "B_padProxy": 0
+  },
+  "criticalPairsEach": 74,
+  "keyDistancesMaintained": true,
+  "FFC2DConservativeKeepoutBodyCollisions": {
+    "A": [],
+    "B": []
+  },
+  "FFC_EXACT_MANUFACTURER_DATUM_HOLD": true,
+  "CONNECTOR_MATING_HOUSING_AND_CHASSIS_HOLD": true,
+  "userSelectionRequired": true,
+  "CAD_RELEASED": false,
+  "PCB_REVIEW_READY_AFTER_THIS_STAGE": false,
+  "NATIVE_DRC_DONE": false,
+  "BOARD_OUTLINE_FINAL": false,
+  "GERBER_RELEASE": false,
+  "MANUFACTURING_RELEASE": false,
+  "BENCH_RELEASE": false,
+  "imageExports": 3,
+  "refinementA": 2,
+  "refinementB": 3
+}

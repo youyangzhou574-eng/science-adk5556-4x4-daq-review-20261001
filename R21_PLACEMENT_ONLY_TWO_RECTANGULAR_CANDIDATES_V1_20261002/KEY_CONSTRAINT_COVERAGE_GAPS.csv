@@ -1,0 +1,3 @@
+required_parts,function,evidence_in_current_package,missing_evidence,status
+U9_IN_CAP;U9_OUT_CAP;U10_IN_CAP;U10_OUT_CAP,power input/output capacitors,rigid block coordinate construction,actual IC-pad to cap-pad before A B distance rows,HOLD
+RF0;RF1;RF2;RF3;CF0;CF1;CF2;CF3,TIA feedback network,rigid block coordinate construction,functionally associated pad pairs through series elements,HOLD

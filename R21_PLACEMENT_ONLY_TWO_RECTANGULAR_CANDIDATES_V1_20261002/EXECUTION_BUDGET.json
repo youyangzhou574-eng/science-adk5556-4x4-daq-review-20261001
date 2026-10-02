@@ -1,0 +1,101 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_PLACEMENT_ONLY_TWO_RECTANGULAR_CANDIDATES_V1",
+  "rulingAssistantId": "bd3ea9a9-25a3-4c1f-a4bf-5b8c882aaf15",
+  "parentUserId": "c9f5fd57-2a0e-4d75-a45a-a083fad55360",
+  "startUTC": "2026-10-02T10:49:46Z",
+  "approvedMinutes": 240,
+  "deadlineUTC": "2026-10-02T14:49:46.000Z",
+  "status": "BLOCKED_RECEIPT_COMPLETE_NO_MORE_GEOMETRY_OR_IMAGES",
+  "limits": {
+    "formalCandidates": 2,
+    "sources": 4,
+    "refinementA": 3,
+    "refinementB": 3,
+    "finalImageExports": 3,
+    "CAD": 0,
+    "copy": 0,
+    "session": 0,
+    "save": 0,
+    "coordinateImport": 0,
+    "DRC": 0,
+    "pour": 0,
+    "nativeExport": 0,
+    "routing": 0,
+    "boardOutlineEdit": 0,
+    "simulation": 0,
+    "Gerber": 0,
+    "procurementManufacturing": 0,
+    "benchPowerup": 0
+  },
+  "actual": {
+    "formalCandidates": 2,
+    "sources": 0,
+    "refinementA": 2,
+    "refinementB": 3,
+    "finalImageExports": 3
+  },
+  "reservations": [
+    {
+      "utc": "2026-10-02T11:04:15.939699+00:00",
+      "kind": "refinementA",
+      "count": 1,
+      "reason": "Explicit coordinate table + geometry and pin-adjacency check"
+    },
+    {
+      "utc": "2026-10-02T11:04:15.946816+00:00",
+      "kind": "formalCandidates",
+      "count": 1,
+      "reason": "Formal pure-placement A"
+    },
+    {
+      "utc": "2026-10-02T11:04:16.711219+00:00",
+      "kind": "refinementB",
+      "count": 1,
+      "reason": "Explicit coordinate table + geometry and pin-adjacency check"
+    },
+    {
+      "utc": "2026-10-02T11:04:16.719323+00:00",
+      "kind": "formalCandidates",
+      "count": 1,
+      "reason": "Formal pure-placement B"
+    },
+    {
+      "utc": "2026-10-02T11:07:02.874970+00:00",
+      "kind": "refinementA",
+      "count": 1,
+      "reason": "Explicit coordinate table + geometry and pin-adjacency check"
+    },
+    {
+      "utc": "2026-10-02T11:07:03.662937+00:00",
+      "kind": "refinementB",
+      "count": 1,
+      "reason": "Explicit coordinate table + geometry and pin-adjacency check"
+    },
+    {
+      "utc": "2026-10-02T11:09:25.609180+00:00",
+      "kind": "refinementB",
+      "count": 1,
+      "reason": "Explicit coordinate table + geometry and pin-adjacency check"
+    },
+    {
+      "utc": "2026-10-02T11:11:35.366266+00:00",
+      "kind": "finalImageExports",
+      "count": 1,
+      "reason": "Final no-copper candidate A"
+    },
+    {
+      "utc": "2026-10-02T11:11:35.716182+00:00",
+      "kind": "finalImageExports",
+      "count": 1,
+      "reason": "Final no-copper candidate B"
+    },
+    {
+      "utc": "2026-10-02T11:11:36.035189+00:00",
+      "kind": "finalImageExports",
+      "count": 1,
+      "reason": "Final A/B comparison of the same two approved candidates"
+    }
+  ],
+  "stopUTC": "2026-10-02T11:24:18.188072+00:00",
+  "stopReason": "FFC_BODY_ACTUATOR_DATUM_UNCLOSED_PRO23_STOP"
+}

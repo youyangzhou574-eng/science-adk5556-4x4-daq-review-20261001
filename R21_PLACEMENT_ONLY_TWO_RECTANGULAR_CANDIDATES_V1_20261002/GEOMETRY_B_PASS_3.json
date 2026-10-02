@@ -1,0 +1,177 @@
+{
+  "candidate": "B",
+  "status": "OFFLINE_PLACEMENT_NOT_NATIVE_NOT_ROUTED",
+  "components": 176,
+  "naturalBodyBoundingBoxMm": [
+    0.5,
+    6.217248937900877e-15,
+    81.50002040000001,
+    77.8996474
+  ],
+  "physicalPadAndBodyBoundingBoxMm": [
+    0.5,
+    0.0,
+    81.50002040000001,
+    78.19857999999999
+  ],
+  "naturalWidthMm": 81.00002040000001,
+  "naturalHeightMm": 77.8996474,
+  "bodyProjectedUnionAreaMm2": 818.6465468542657,
+  "bodyAreaOverNaturalBBox": 0.12974057372467052,
+  "regionBodyAreaMm2": {
+    "ADC": 153.39949816039015,
+    "AFE": 229.5101294410695,
+    "BIAS": 94.19171873618582,
+    "DIGITAL": 110.43959888036046,
+    "EXTERNAL": 134.41997641628404,
+    "POWER": 96.68562521997568
+  },
+  "regionBodyAreaShare": {
+    "ADC": 0.18738184232235955,
+    "AFE": 0.2803531393651949,
+    "BIAS": 0.11505785872807657,
+    "DIGITAL": 0.13490510563409336,
+    "EXTERNAL": 0.16419781764524233,
+    "POWER": 0.11810423630503326
+  },
+  "regionAreaDefinition": "Body projected area by electrical functional membership / sum of all body areas. Not drawn rectangle area; no assertion that bounding-box regions are disjoint.",
+  "bodyOverlapPairs": [],
+  "conservativePadEnvelopeOverlapPairs": [],
+  "criticalPairs": 74,
+  "maxCriticalDistanceDeltaMm": 7.105427357601002e-15,
+  "FFC2DKeepoutBodyCollisions": [],
+  "FFCBody": "Official-dimension conservative planning envelope; nominal exact body/actuator registration not manufacturer-certified.",
+  "FFCOpeningHeightReferenceMm": 3.95,
+  "verticalChassisClearance": "NOT_APPLICABLE_TO_BARE_PLACEMENT; exact enclosing chassis not specified",
+  "mechanicalEnvelopeMm": [
+    -9.5,
+    6.217248937900877e-15,
+    81.50002040000001,
+    77.8996474
+  ],
+  "recommendedBoardEnvelopeMm": [
+    -2.5,
+    -3.0,
+    84.50002040000001,
+    81.19857999999999
+  ],
+  "boardEnvelopeStatus": "PROPOSAL_ONLY; 3mm policy margin. Cable access area outside proposed board, not board material; connector side access/chassis/fab remain pending.",
+  "grid4x4": [
+    {
+      "ix": 0,
+      "iy": 0,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 53.723163719909266,
+      "bodyAreaFraction": 0.13622629419465415
+    },
+    {
+      "ix": 1,
+      "iy": 0,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 33.202426880174706,
+      "bodyAreaFraction": 0.0841916830463761
+    },
+    {
+      "ix": 2,
+      "iy": 0,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 61.35983926007599,
+      "bodyAreaFraction": 0.15559067888033007
+    },
+    {
+      "ix": 3,
+      "iy": 0,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 56.16080051017436,
+      "bodyAreaFraction": 0.14240743103651338
+    },
+    {
+      "ix": 0,
+      "iy": 1,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 47.09971195135544,
+      "bodyAreaFraction": 0.11943114985223828
+    },
+    {
+      "ix": 1,
+      "iy": 1,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 49.16107413365516,
+      "bodyAreaFraction": 0.1246581638931785
+    },
+    {
+      "ix": 2,
+      "iy": 1,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 78.19693374981973,
+      "bodyAreaFraction": 0.1982846460357494
+    },
+    {
+      "ix": 3,
+      "iy": 1,
+      "cellAreaMm2": 394.3670642845505,
+      "bodyUnionAreaMm2": 69.57080228239883,
+      "bodyAreaFraction": 0.17641128933678119
+    },
+    {
+      "ix": 0,
+      "iy": 2,
+      "cellAreaMm2": 394.36706428455057,
+      "bodyUnionAreaMm2": 97.03399332197887,
+      "bodyAreaFraction": 0.24604994207113914
+    },
+    {
+      "ix": 1,
+      "iy": 2,
+      "cellAreaMm2": 394.36706428455057,
+      "bodyUnionAreaMm2": 52.42343648287486,
+      "bodyAreaFraction": 0.13293056451856586
+    },
+    {
+      "ix": 2,
+      "iy": 2,
+      "cellAreaMm2": 394.36706428455057,
+      "bodyUnionAreaMm2": 18.0927930463416,
+      "bodyAreaFraction": 0.04587805292301736
+    },
+    {
+      "ix": 3,
+      "iy": 2,
+      "cellAreaMm2": 394.36706428455057,
+      "bodyUnionAreaMm2": 19.447232780949506,
+      "bodyAreaFraction": 0.049312517555770326
+    },
+    {
+      "ix": 0,
+      "iy": 3,
+      "cellAreaMm2": 394.3670642845503,
+      "bodyUnionAreaMm2": 60.80614502039182,
+      "bodyAreaFraction": 0.15418667157386642
+    },
+    {
+      "ix": 1,
+      "iy": 3,
+      "cellAreaMm2": 394.3670642845503,
+      "bodyUnionAreaMm2": 49.881125675591555,
+      "bodyAreaFraction": 0.12648400486000144
+    },
+    {
+      "ix": 2,
+      "iy": 3,
+      "cellAreaMm2": 394.3670642845503,
+      "bodyUnionAreaMm2": 34.179031469800314,
+      "bodyAreaFraction": 0.08666806781090343
+    },
+    {
+      "ix": 3,
+      "iy": 3,
+      "cellAreaMm2": 394.3670642845503,
+      "bodyUnionAreaMm2": 38.3080365687737,
+      "bodyAreaFraction": 0.09713802200564357
+    }
+  ],
+  "gridCoefficientOfVariation": 0.387881495885076,
+  "peripheryBlankDefinition": "Largest empty raster rectangle inside natural bbox, 1mm geometric sample; not copper/keepout or fabrication clearance.",
+  "CADOperations": 0,
+  "largestEmptyRasterRectangleAreaMm2": 506
+}

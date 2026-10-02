@@ -1,0 +1,44 @@
+{
+  "checks": [
+    {
+      "candidate": "A",
+      "rows": 176,
+      "uniqueRefs": 176,
+      "sameNetActualPadPairs": 74,
+      "bodyOverlapClaimMatchesFrozenAudit": true
+    },
+    {
+      "candidate": "B",
+      "rows": 176,
+      "uniqueRefs": 176,
+      "sameNetActualPadPairs": 74,
+      "bodyOverlapClaimMatchesFrozenAudit": true
+    }
+  ],
+  "images": [
+    {
+      "file": "PLACEMENT_A_NO_COPPER.png",
+      "width": 1800,
+      "height": 1620,
+      "format": "PNG",
+      "sha256": "9249e7aae734745b0e0404efbc285bc99e468366c85c258cc95ccc794ee60ed5"
+    },
+    {
+      "file": "PLACEMENT_B_NO_COPPER.png",
+      "width": 1800,
+      "height": 1620,
+      "format": "PNG",
+      "sha256": "86458296d63b9a6a66ffcd1e7de57349a8357728617013ba0ec107ffc52a6c47"
+    },
+    {
+      "file": "PLACEMENT_AB_COMPARISON.png",
+      "width": 3400,
+      "height": 1700,
+      "format": "PNG",
+      "sha256": "8b1645d0cea7db7c3f2fd3f7147a1f4000ba331788b819ae48c0d470d9518c80"
+    }
+  ],
+  "inputHashesUnchanged": 4,
+  "nativeOperations": 0,
+  "classification": "STRUCTURAL_DELIVERY_CHECK_NOT_NEW_GEOMETRY_REFINEMENT_OR_SCIENTIFIC_VALIDATION"
+}
