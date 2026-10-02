@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-02T07:39:02.867489+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "092e9f5a-1bbb-487c-af46-1cf0675c22d9",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const s=await eda.sys_FileManager.getDocumentSource();return {head:s.slice(0,600),padCount:(await eda.pcb_PrimitivePad.getAll()).length,tabs:await eda.dmt_EditorControl.getCurrentDocumentInfo()};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 1,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"EXECUTION_ERROR\",\"message\":\"eda.dmt_EditorControl.getCurrentDocumentInfo is not a function\"}}\n",
+  "stderr": "EXECUTION_ERROR: eda.dmt_EditorControl.getCurrentDocumentInfo is not a function\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "EXECUTION_ERROR",
+      "message": "eda.dmt_EditorControl.getCurrentDocumentInfo is not a function"
+    }
+  }
+}

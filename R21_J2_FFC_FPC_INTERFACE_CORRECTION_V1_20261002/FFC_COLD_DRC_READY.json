@@ -1,0 +1,25 @@
+{
+  "started_utc": "2026-10-02T08:02:51.976128+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "6dd33def-779b-4dd7-a5a6-7c5a4419bda1",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6')throw Error('Wrong copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');return await eda.pcb_Drc.check(true,false,true);\n\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 1,
+  "stdout": "\r\n{\"ok\":false,\"error\":{\"code\":\"EXECUTION_ERROR\",\"message\":\"Error: 指定的主题消息在对应的画布内没有相关订阅\"}}\n",
+  "stderr": "EXECUTION_ERROR: Error: 指定的主题消息在对应的画布内没有相关订阅\n",
+  "parsed": {
+    "ok": false,
+    "error": {
+      "code": "EXECUTION_ERROR",
+      "message": "Error: 指定的主题消息在对应的画布内没有相关订阅"
+    }
+  }
+}

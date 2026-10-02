@@ -1,3 +1,11 @@
+# Latest: Pro20 actual FFC/FPC J2 warm ECO; independent cold closure blocked
+
+[Full receipt](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/COMPLETE_FFC_CORRECTION_RECEIPT.md) · [Index](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/README.md) · [Actual local picture](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/J2_FFC_ACTUAL_WARM_DETAIL.png) · [Whole PCB picture](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/PCB_FINAL_WARM_REVIEW.png) · [8 signal +2 mechanical pads](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/J2_ACTUAL_SIGNAL_AND_MECHANICAL_PADS.csv) · [Gates](R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1_20261002/GATES.json).
+
+User clarified thin FFC/FPC ribbon ZIF slot. Default2005290081+154670229 is Pro20 authorized1mm set, not userconfirmed existingcable spec. Warm176/552/514/107/36+2 andDRC0; other175 frozen. Cold calls failed, realFile export0; CONTACT-side native text/legacy3D/name pending. CurrentFFC PCB_REVIEW_READY=false. No purchase/manufacture/bench/powerup. HistoricalKK interface no longer fulfills user requirement. Own readable/raw evidence direct; local account .eprj2 and thirdpartybulk excluded withSHA.
+
+---
+
 # Latest: R18 PCB accepted, fabrication and assembly input contract
 
 [Full receipt](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/COMPLETE_FAB_INPUT_CLOSURE_RECEIPT.md) · [Index](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/README.md) · [Default fabrication contract](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/FABRICATION_INPUT_CONTRACT.md) · [176 BOM](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/BOM_STRUCTURAL_176.csv) · [8-wire harness](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/J2_HARNESS_BUILD_SPEC.md) · [Release checklist](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/MANUFACTURING_RELEASE_CHECKLIST.md).

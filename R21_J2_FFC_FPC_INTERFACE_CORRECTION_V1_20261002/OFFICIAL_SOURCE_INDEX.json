@@ -1,0 +1,38 @@
+[
+  {
+    "source": "S1",
+    "url": "https://www.molex.com/en-us/products/part-detail/2005290081",
+    "localFile": "S1_connector.html",
+    "bytes": 138883,
+    "sha256": "017D7517DCCA5D87CF6EE807A976A4447C6468150785CA167189D3E980260F17",
+    "publicBulk": false,
+    "publicOwnSummary": "P0_SOURCE_QUALIFICATION.md"
+  },
+  {
+    "source": "S2",
+    "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/200/200529/2005290061_sd.pdf",
+    "localFile": "S2_connector_drawing.pdf",
+    "bytes": 537894,
+    "sha256": "FBA0249D7268DA81D480FD2B7C4C37D5AA572ECD1D4757DEDCFD86342AAFCA39",
+    "publicBulk": false,
+    "publicOwnSummary": "P0_SOURCE_QUALIFICATION.md"
+  },
+  {
+    "source": "S3",
+    "url": "https://www.molex.com/en-us/products/part-detail/154670229",
+    "localFile": "S3_cable.html",
+    "bytes": 137395,
+    "sha256": "797C576F86BC4707804D3E4D5DDAD2EA62917156AE1EE4C30A10706FB2F4495C",
+    "publicBulk": false,
+    "publicOwnSummary": "P0_SOURCE_QUALIFICATION.md"
+  },
+  {
+    "source": "S4",
+    "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/154/15467/154670229_sd.pdf",
+    "localFile": "S4_cable_drawing.pdf",
+    "bytes": 379070,
+    "sha256": "DE0B3C47D9BD9E51CE8C672BA9D03384AD4CCBE59A71B0A466A2B77780C78E79",
+    "publicBulk": false,
+    "publicOwnSummary": "P0_SOURCE_QUALIFICATION.md"
+  }
+]

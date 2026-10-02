@@ -1,0 +1,26 @@
+[
+  {
+    "file": "S1_connector.html",
+    "url": "https://www.molex.com/en-us/products/part-detail/2005290081",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "S2_connector_drawing.pdf",
+    "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/200/200529/2005290061_sd.pdf?inline=",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "S3_cable.html",
+    "url": "https://www.molex.com/en-us/products/part-detail/154670229",
+    "ok": false,
+    "error": "The read operation timed out"
+  },
+  {
+    "file": "S4_cable_drawing.pdf",
+    "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/154/15467/154670229_sd.pdf",
+    "ok": false,
+    "error": "The read operation timed out"
+  }
+]

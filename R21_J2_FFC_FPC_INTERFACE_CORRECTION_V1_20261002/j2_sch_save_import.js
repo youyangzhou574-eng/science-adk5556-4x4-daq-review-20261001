@@ -1,0 +1,1 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6')throw Error('Wrong FFC project');const saved=await eda.sch_Document.save();await eda.dmt_EditorControl.openDocument('268e6597399ebcce');return{saved,importDialog:await eda.pcb_Document.importChanges('32047f874e6d71ce')};

@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-02T07:39:19.474146+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "092e9f5a-1bbb-487c-af46-1cf0675c22d9",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const s=await eda.sys_FileManager.getDocumentSource();return {head:s.slice(0,600),padCount:(await eda.pcb_PrimitivePad.getAll()).length};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"head\":\"{\\\"type\\\":\\\"DOCHEAD\\\"}||{\\\"docType\\\":\\\"PCB\\\",\\\"client\\\":\\\"de11658fb1ad0d54\\\",\\\"uuid\\\":\\\"87b2e6ab0bf2243f\\\",\\\"updateTime\\\":1790926759987,\\\"version\\\":\\\"1790926759987\\\"}|\\n{\\\"type\\\":\\\"CANVAS\\\",\\\"ticket\\\":1,\\\"id\\\":\\\"CANVAS\\\"}||{\\\"originX\\\":0,\\\"originY\\\":0,\\\"unit\\\":\\\"mm\\\",\\\"gridXSize\\\":10,\\\"gridYSize\\\":10,\\\"snapXSize\\\":0.03937,\\\"snapYSize\\\":0.03937,\\\"altSnapXSize\\\":1,\\\"altSnapYSize\\\":1,\\\"gridType\\\":\\\"NONE\\\",\\\"multiGridType\\\":\\\"NONE\\\",\\\"multiGridRatio\\\":5,\\\"highlightValue\\\":0.5,\\\"layerBrightness\\\":\\\"NORMAL\\\"}|\\n{\\\"type\\\":\\\"LAYER\\\",\\\"ticket\\\":2,\\\"id\\\":\\\"[\\\\\\\"LAYER\\\\\\\",1]\\\"}||{\\\"layerId\\\":1,\\\"layerType\\\":\\\"TOP\\\",\\\"layerName\\\":\\\"Top Layer\\\",\\\"use\\\":true,\\\"show\\\":true,\\\"locked\\\":false,\\\"activeColor\\\":\\\"#\",\"padCount\":8},\"logs\":[],\"durationMs\":4}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "head": "{\"type\":\"DOCHEAD\"}||{\"docType\":\"PCB\",\"client\":\"de11658fb1ad0d54\",\"uuid\":\"87b2e6ab0bf2243f\",\"updateTime\":1790926759987,\"version\":\"1790926759987\"}|\n{\"type\":\"CANVAS\",\"ticket\":1,\"id\":\"CANVAS\"}||{\"originX\":0,\"originY\":0,\"unit\":\"mm\",\"gridXSize\":10,\"gridYSize\":10,\"snapXSize\":0.03937,\"snapYSize\":0.03937,\"altSnapXSize\":1,\"altSnapYSize\":1,\"gridType\":\"NONE\",\"multiGridType\":\"NONE\",\"multiGridRatio\":5,\"highlightValue\":0.5,\"layerBrightness\":\"NORMAL\"}|\n{\"type\":\"LAYER\",\"ticket\":2,\"id\":\"[\\\"LAYER\\\",1]\"}||{\"layerId\":1,\"layerType\":\"TOP\",\"layerName\":\"Top Layer\",\"use\":true,\"show\":true,\"locked\":false,\"activeColor\":\"#",
+      "padCount": 8
+    },
+    "logs": [],
+    "durationMs": 4
+  }
+}

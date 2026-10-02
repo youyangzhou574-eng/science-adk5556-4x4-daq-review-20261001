@@ -1,0 +1,165 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_J2_FFC_FPC_INTERFACE_CORRECTION_V1",
+  "rulingAssistant": "e6a49512-c971-43fa-ba72-ce9cfaea120a",
+  "parentUser": "6f5fedf6-4c30-442b-b4c0-10bdb7a52b69",
+  "startUTC": "2026-10-02T07:17:50.919Z",
+  "approvedMinutes": 240,
+  "status": "STOP_COLD_CAPTURE_DRC_EXPORT_UNVERIFIED_HARD_QUOTAS_USED",
+  "limits": {
+    "officialSources": 4,
+    "candidate": 2,
+    "copy": 1,
+    "session": 2,
+    "save": 3,
+    "captureaudit": 4,
+    "DRC": 4,
+    "export": 1,
+    "normalPour": 1
+  },
+  "actual": {
+    "officialSources": 4,
+    "candidate": 1,
+    "copy": 1,
+    "session": 2,
+    "save": 3,
+    "captureaudit": 4,
+    "DRC": 4,
+    "export": 1,
+    "normalPour": 1
+  },
+  "forbiddenActual": {
+    "simulation": 0,
+    "MIMO": 0,
+    "descriptor": 0,
+    "boardoutlineEdit": 0,
+    "otherCoreValueEdit": 0,
+    "fullReroute": 0,
+    "Gerber": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "bench": 0,
+    "powerup": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "defaultStandard": "Pro20 authorized Molex2005290081+1546702298P1mmTypeA102mm; actual userexistingcable unknown",
+  "humanExistingCableConfirmed": false,
+  "priorR19ConditionalStarted": false,
+  "oldNativeSHA": "801149F292E86CF34AB2872F177125099D640421B48B62F3F9044EF2151DB241",
+  "noReuseOldBudget": true,
+  "reservations": [
+    {
+      "utc": "2026-10-02T07:24:49.249Z",
+      "kind": "officialSources",
+      "count": 4,
+      "reason": "P0 four logical sources: connector product page, manufacturer series sales drawing including exact0081 table, cable product page, exact229 sales drawing; failed fetches retained within same source"
+    },
+    {
+      "utc": "2026-10-02T07:24:49.249Z",
+      "kind": "candidate",
+      "count": 1,
+      "reason": "Pro20 Molexdefault only; no Hirose CAD or qualification"
+    },
+    {
+      "utc": "2026-10-02T07:32:03.035895+00:00",
+      "kind": "copy",
+      "count": 1,
+      "reason": "One isolated accepted17 native project copy for Pro20 J2-only ECO"
+    },
+    {
+      "utc": "2026-10-02T07:32:03.389939+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "Pro20 warm native session after official drawing qualification"
+    },
+    {
+      "utc": "2026-10-02T07:33:07.733467+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "Baseline full PCB/schematic read before J2-only ECO"
+    },
+    {
+      "utc": "2026-10-02T07:42:19.171448+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Save project-local qualified J2 FFC footprint before scoped import"
+    },
+    {
+      "utc": "2026-10-02T07:44:05.131485+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "Only J2 schematic identity persistence for PCB import"
+    },
+    {
+      "utc": "2026-10-02T07:56:06.692944+00:00",
+      "kind": "normalPour",
+      "count": 1,
+      "reason": "one official GUI Rebuild All after J2 FFC local fanout"
+    },
+    {
+      "utc": "2026-10-02T07:56:19.342742+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "first actual warm DRC after one pour rebuild"
+    },
+    {
+      "utc": "2026-10-02T07:57:42.466989+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "warm full schematic and PCB audit to locate sole netlist difference"
+    },
+    {
+      "utc": "2026-10-02T07:59:00.909818+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "after sole GUI confirmed J2 FFC Cable attribute import difference"
+    },
+    {
+      "utc": "2026-10-02T08:00:14.284983+00:00",
+      "kind": "save",
+      "count": 1,
+      "reason": "final GUI Save All batch PCB and schematic identity after warm DRC0"
+    },
+    {
+      "utc": "2026-10-02T08:00:31.777465+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "final saved warm full snapshot"
+    },
+    {
+      "utc": "2026-10-02T08:01:54.322014+00:00",
+      "kind": "session",
+      "count": 1,
+      "reason": "independent cold reopen after warm official session and GUI closed"
+    },
+    {
+      "utc": "2026-10-02T08:02:16.175150+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "cold native DRC"
+    },
+    {
+      "utc": "2026-10-02T08:02:51.901942+00:00",
+      "kind": "DRC",
+      "count": 1,
+      "reason": "cold retry only after canvas subscription ready; first cold predebit failed before DRC result"
+    },
+    {
+      "utc": "2026-10-02T08:03:48.601984+00:00",
+      "kind": "captureaudit",
+      "count": 1,
+      "reason": "final cold complete capture and actual native File evidence"
+    },
+    {
+      "utc": "2026-10-02T08:03:48.667571+00:00",
+      "kind": "export",
+      "count": 1,
+      "reason": "actual native review export only not Gerber"
+    }
+  ],
+  "stopUTC": "2026-10-02T08:06:46.474Z",
+  "stopReason": "Warm DRC0 and J2-only ECO completed; conservative DRC4/capture4/export1 exhausted including cold canvas subscription/getAll failures; no cold PASS or real File export. No API/tool research, no new CAD.",
+  "finishedUTC": "2026-10-02T08:24:15.380893+00:00",
+  "elapsedMinutes": 66.408,
+  "reservationReasonInterpretation": "Historical reasons describe intended predebit action, not verified result. ColdGUIclosed/subscriptionready intentions failed; two GUI overlap discovered, all failures retained."
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "name": "S1_connector.html",
+    "url": "https://www.molex.com/en-us/products/part-detail/2005290081",
+    "status": 200,
+    "bytes": 138883,
+    "SHA256": "017D7517DCCA5D87CF6EE807A976A4447C6468150785CA167189D3E980260F17"
+  },
+  {
+    "name": "S3_cable.html",
+    "url": "https://www.molex.com/en-us/products/part-detail/154670229",
+    "status": 200,
+    "bytes": 137395,
+    "SHA256": "797C576F86BC4707804D3E4D5DDAD2EA62917156AE1EE4C30A10706FB2F4495C"
+  },
+  {
+    "name": "S4_cable_drawing.pdf",
+    "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/154/15467/154670229_sd.pdf",
+    "status": 200,
+    "bytes": 379070,
+    "SHA256": "DE0B3C47D9BD9E51CE8C672BA9D03384AD4CCBE59A71B0A466A2B77780C78E79"
+  }
+]

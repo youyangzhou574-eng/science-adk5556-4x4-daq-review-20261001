@@ -1,0 +1,16 @@
+{
+  "UTC": "2026-10-02T08:25:03.415Z",
+  "Critical": 0,
+  "Important": 1,
+  "Minor": 2,
+  "oneDocumentFixPass": true,
+  "preFixBodyEnvelopeQualifiedClaim": true,
+  "postFixBodyEnvelopeQualified": false,
+  "originalImagesPreserved": "BEFORE_REVIEW_*.png historical erroneous frame, not current claim",
+  "historyReasonsPreservedAndQualified": true,
+  "cutpointFloatingResidualCorrected": true,
+  "newCADAfterStop": 0,
+  "newScience": 0,
+  "secondReview": 0,
+  "blockedReceiptDeliverable": true
+}

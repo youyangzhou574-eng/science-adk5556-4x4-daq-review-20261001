@@ -1,0 +1,29 @@
+{
+  "source": "warm actual pad coordinate + project native assembly artwork; manufacturer body datum relative to pad row NOT_QUALIFIED",
+  "signalRowXmm": 6.5,
+  "illustrativeNativeArtworkXrangeMm": [
+    1.7000000000000002,
+    7.0
+  ],
+  "illustrativeNativeArtworkYrangeMm": [
+    32.4,
+    45.6
+  ],
+  "oldIncorrectConservativeEnvelope": "original x1.2..6.5 frame omitted native artwork right0.5mm; original images retained BEFORE_REVIEW only",
+  "manufacturerBodyDatum": "HOLD",
+  "neighborMechanicalClearance": "HOLD",
+  "closedHeightMm": "1.9\u00b10.2 official nominal",
+  "openActuatorApproxHeightMm": 3.95,
+  "cableEntersFrom": "left PCB edge horizontally by project contract",
+  "boardBoundsMm": [
+    0,
+    100,
+    0,
+    90
+  ],
+  "bodyEnvelopeQualified": false,
+  "enclosureUnknown": true,
+  "actualMatedMechanicalValidation": false,
+  "CONTACTSideNativeText": "missing final source, contract only",
+  "flipSweepFull3D": "NOT_QUALIFIED"
+}

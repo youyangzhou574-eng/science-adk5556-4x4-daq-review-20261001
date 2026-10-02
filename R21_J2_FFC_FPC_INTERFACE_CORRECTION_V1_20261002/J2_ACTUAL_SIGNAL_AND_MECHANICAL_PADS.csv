@@ -1,0 +1,11 @@
+﻿number,role,net,x_mm,y_mm,layer,hole,nativePad,source
+1,signal,ROW0,6.49986,35.499039999999994,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+2,signal,ROW1,6.49986,36.4998,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+3,signal,ROW2,6.49986,37.50056,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+4,signal,ROW3,6.49986,38.49878,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+5,signal,COL0,6.49986,39.499539999999996,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+6,signal,COL1,6.49986,40.500299999999996,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+7,signal,COL2,6.49986,41.50106,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+8,signal,COL3,6.49986,42.49928,1,none,"[""RECT"", 15.7, 39.4, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+MP1,mechanical unassigned,,3.7998399999999997,32.699960000000004,1,none,"[""RECT"", 78.7, 51.2, 0]",final warm SDK; coordinates rounded by getter; cold unavailable
+MP2,mechanical unassigned,,3.7998399999999997,45.3009,1,none,"[""RECT"", 78.7, 51.2, 0]",final warm SDK; coordinates rounded by getter; cold unavailable

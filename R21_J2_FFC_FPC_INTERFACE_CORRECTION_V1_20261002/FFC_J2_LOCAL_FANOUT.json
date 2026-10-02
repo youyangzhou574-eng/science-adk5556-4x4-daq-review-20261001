@@ -1,0 +1,116 @@
+{
+  "started_utc": "2026-10-02T07:48:27.910517+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "092e9f5a-1bbb-487c-af46-1cf0675c22d9",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6')throw Error('Wrong isolatedFFC copy');await eda.dmt_EditorControl.openDocument('268e6597399ebcce');const plan={\"changed\": [{\"net\": \"ROW0\", \"layer\": 2, \"id\": \"d1c3a7d7e2116933\", \"end\": \"end\", \"x\": 450.0, \"y\": 1014.3000000000001, \"old\": {\"partitionId\": \"\", \"groupId\": 0, \"netName\": \"ROW0\", \"layerId\": 2, \"startX\": 944.6, \"startY\": 519.7, \"endX\": 278.9, \"endY\": 1185.4, \"width\": 6, \"locked\": true, \"zIndex\": -1}}, {\"net\": \"ROW1\", \"layer\": 2, \"id\": \"7726ab5223a23e6f\", \"end\": \"end\", \"x\": 450.0, \"y\": 1200.1000000000001, \"old\": {\"partitionId\": \"\", \"groupId\": 0, \"netName\": \"ROW1\", \"layerId\": 2, \"startX\": 1160.1, \"startY\": 490, \"endX\": 364.7, \"endY\": 1285.4, \"width\": 6, \"locked\": true, \"zIndex\": -1}}, {\"net\": \"ROW2\", \"layer\": 2, \"id\": \"ead83aba11bc71e5\", \"end\": \"end\", \"x\": 450.0, \"y\": 1385.4, \"old\": {\"partitionId\": \"\", \"groupId\": 0, \"netName\": \"ROW2\", \"layerId\": 2, \"startX\": 796.1, \"startY\": 1385.4, \"endX\": 196.9, \"endY\": 1385.4, \"width\": 6, \"locked\": true, \"zIndex\": -1}}, {\"net\": \"ROW3\", \"layer\": 16, \"id\": \"c17fbc7097dc3d91\", \"end\": \"end\", \"x\": 450.0, \"y\": 1485.4, \"old\": {\"partitionId\": \"\", \"groupId\": 0, \"netName\": \"ROW3\", \"layerId\": 16, \"startX\": 593.1, \"startY\": 1485.4, \"endX\": 196.9, \"endY\": 1485.4, \"width\": 6, \"locked\": true, \"zIndex\": -1}}, {\"net\": \"COL0\", \"layer\": 16, \"id\": \"dd68a6ffebd3428c\", \"end\": \"start\", \"x\": 450.0, \"y\": 1585.4, \"old\": {\"partitionId\": \"\", \"groupId\": 0, \"netName\": \"COL0\", \"layerId\": 16, \"startX\": 196.9, \"startY\": 1585.4, \"endX\": 896.1, \"endY\": 1585.4, \"width\": 6, \"locked\": true, \"zIndex\": -1}}, {\"net\": \"COL1\", \"layer\": 16, \"id\": \"4c8f2eaf08a2a5db\", \"end\": \"start\", \"x\": 450.0, \"y\": 1705.4, \"old\": {\"partitionId\": \"\", \"groupId\": 0, \"netName\": \"COL1\", \"layerId\": 16, \"startX\": 196.9, \"startY\": 1705.4, \"endX\": 1114.8, \"endY\": 1705.4, \"width\": 6, \"locked\": true, \"zIndex\": -1}}, {\"net\": \"COL2\", \"layer\": 16, \"id\": \"380176028e5c4e3a\", \"end\": \"start\", \"x\": 450.0, \"y\": 2038.5, \"old\": {\"partitionId\": \"\", \"groupId\": 0, \"netName\": \"COL2\", \"layerId\": 16, \"startX\": 196.9, \"startY\": 1785.4, \"endX\": 847.2, \"endY\": 2435.7, \"width\": 6, \"locked\": true, \"zIndex\": -1}}], \"deleted\": [\"25da72589bb6fbc5\", \"efa67fdd90fc547f\", \"0dc8623cd3c3fe37\"], \"component\": {\"xMm\": 6.5, \"yMm\": 39, \"angle\": 90}, \"newViaXMil\": 320, \"launchXMil\": 355, \"widthMil\": 6, \"viaHoleMil\": 12, \"viaDiameterMil\": 24, \"localBoundary\": {\"maxXMil\": 450, \"minYMil\": 1000, \"maxYMil\": 2100}, \"newVia\": 8, \"sameNets\": [\"ROW0\", \"ROW1\", \"ROW2\", \"ROW3\", \"COL0\", \"COL1\", \"COL2\", \"COL3\"]};\nconst c=(await eda.pcb_PrimitiveComponent.getAll()).find(c=>c.getState_Designator()==='J2');const pins=await eda.pcb_PrimitiveComponent.getAllPinsByPrimitiveId(c.getState_PrimitiveId());if(pins.length!==10||Math.abs(c.getState_X()-6.5/.0254)>.001)throw Error('Qualified new J2 placement expected');\nfor(const ch of plan.changed){const p=await eda.pcb_PrimitiveLine.get(ch.id);if(!p||p.getState_Net()!==ch.net)throw Error('Only declared existing J2 fanout');}\nconst modified=[];for(const ch of plan.changed){const p=await eda.pcb_PrimitiveLine.modify(ch.id,{[ch.end+'X']:ch.x,[ch.end+'Y']:ch.y});if(!p)throw Error('Scoped trace truncation');modified.push(ch.id);}\nif(!await eda.pcb_PrimitiveLine.delete(plan.deleted))throw Error('Only3 obsolete local J2 lead-ins');const vias=[],lines=[];\nasync function line(net,layer,x1,y1,x2,y2){const p=await eda.pcb_PrimitiveLine.create(net,layer,x1,y1,x2,y2,6,true);if(!p)throw Error('J2 local line');lines.push(p.getState_PrimitiveId());}\nfor(let i=0;i<8;i++){const n=String(i+1),p=pins.find(p=>String(p.getState_PadNumber())===n),net=plan.sameNets[i],y=39/.0254+(-3.5+i)/.0254,x=6.5/.0254;if(!p||p.getState_Net()!==net)throw Error('Never reorder J2 signals');const v=await eda.pcb_PrimitiveVia.create(net,320,y,12,24,undefined,undefined,null,true);if(!v)throw Error('J2 transitionvia');vias.push({id:v.getState_PrimitiveId(),net,x:320,y});await line(net,1,x,y,320,y);\n if(i<7){const ch=plan.changed[i];await line(net,ch.layer,320,y,355,y);await line(net,ch.layer,355,y,ch.x,ch.y);}else{await line(net,2,320,y,196.9,1885.4);}}\nreturn{modified,deleted:plan.deleted,newVias:vias,newLines:lines,scope:'J2 fanout only; preserved existing lead segment outsidex450mil and all other cores; no mainanalog reroute',explicitSaveCalled:false};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"modified\":[\"d1c3a7d7e2116933\",\"7726ab5223a23e6f\",\"ead83aba11bc71e5\",\"c17fbc7097dc3d91\",\"dd68a6ffebd3428c\",\"4c8f2eaf08a2a5db\",\"380176028e5c4e3a\"],\"deleted\":[\"25da72589bb6fbc5\",\"efa67fdd90fc547f\",\"0dc8623cd3c3fe37\"],\"newVias\":[{\"id\":\"bc9e6a9dfd058c1a\",\"net\":\"ROW0\",\"x\":320,\"y\":1397.6377952755906},{\"id\":\"557b7b95ab59f713\",\"net\":\"ROW1\",\"x\":320,\"y\":1437.0078740157483},{\"id\":\"6a589c55e44fb2a0\",\"net\":\"ROW2\",\"x\":320,\"y\":1476.3779527559057},{\"id\":\"cb41a9939080fdf2\",\"net\":\"ROW3\",\"x\":320,\"y\":1515.748031496063},{\"id\":\"cb06f6ea30cb847c\",\"net\":\"COL0\",\"x\":320,\"y\":1555.1181102362207},{\"id\":\"e0e4316412e95572\",\"net\":\"COL1\",\"x\":320,\"y\":1594.488188976378},{\"id\":\"f5b34d7e1aa4bacd\",\"net\":\"COL2\",\"x\":320,\"y\":1633.8582677165355},{\"id\":\"f1ed75f11df1c1a3\",\"net\":\"COL3\",\"x\":320,\"y\":1673.228346456693}],\"newLines\":[\"95f1b6ba48f00fd6\",\"9eb411ece0552b22\",\"3c4516c43f8c97ca\",\"866b0265f8def6aa\",\"3ff6be324883d8cb\",\"78686d09254a9f77\",\"2867fdf50829f1a3\",\"16106550f70b8da9\",\"c62f12c46df66256\",\"3ecc886b32e91464\",\"024a692e88608eec\",\"cbb0532b1fb85d30\",\"cf58035623037076\",\"f0ad34ef6903118b\",\"bd44ec15c4115d20\",\"124b5e69f224ebf8\",\"b07f8cdd289e00a4\",\"d29f596349ddf06a\",\"ae9576a63265e435\",\"71f76d9968f28826\",\"819676aaf2fec65c\",\"2b1ccbc7644fcdb3\",\"b2e787183a4c673b\"],\"scope\":\"J2 fanout only; preserved existing lead segment outsidex450mil and all other cores; no mainanalog reroute\",\"explicitSaveCalled\":false},\"logs\":[],\"durationMs\":972}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "modified": [
+        "d1c3a7d7e2116933",
+        "7726ab5223a23e6f",
+        "ead83aba11bc71e5",
+        "c17fbc7097dc3d91",
+        "dd68a6ffebd3428c",
+        "4c8f2eaf08a2a5db",
+        "380176028e5c4e3a"
+      ],
+      "deleted": [
+        "25da72589bb6fbc5",
+        "efa67fdd90fc547f",
+        "0dc8623cd3c3fe37"
+      ],
+      "newVias": [
+        {
+          "id": "bc9e6a9dfd058c1a",
+          "net": "ROW0",
+          "x": 320,
+          "y": 1397.6377952755906
+        },
+        {
+          "id": "557b7b95ab59f713",
+          "net": "ROW1",
+          "x": 320,
+          "y": 1437.0078740157483
+        },
+        {
+          "id": "6a589c55e44fb2a0",
+          "net": "ROW2",
+          "x": 320,
+          "y": 1476.3779527559057
+        },
+        {
+          "id": "cb41a9939080fdf2",
+          "net": "ROW3",
+          "x": 320,
+          "y": 1515.748031496063
+        },
+        {
+          "id": "cb06f6ea30cb847c",
+          "net": "COL0",
+          "x": 320,
+          "y": 1555.1181102362207
+        },
+        {
+          "id": "e0e4316412e95572",
+          "net": "COL1",
+          "x": 320,
+          "y": 1594.488188976378
+        },
+        {
+          "id": "f5b34d7e1aa4bacd",
+          "net": "COL2",
+          "x": 320,
+          "y": 1633.8582677165355
+        },
+        {
+          "id": "f1ed75f11df1c1a3",
+          "net": "COL3",
+          "x": 320,
+          "y": 1673.228346456693
+        }
+      ],
+      "newLines": [
+        "95f1b6ba48f00fd6",
+        "9eb411ece0552b22",
+        "3c4516c43f8c97ca",
+        "866b0265f8def6aa",
+        "3ff6be324883d8cb",
+        "78686d09254a9f77",
+        "2867fdf50829f1a3",
+        "16106550f70b8da9",
+        "c62f12c46df66256",
+        "3ecc886b32e91464",
+        "024a692e88608eec",
+        "cbb0532b1fb85d30",
+        "cf58035623037076",
+        "f0ad34ef6903118b",
+        "bd44ec15c4115d20",
+        "124b5e69f224ebf8",
+        "b07f8cdd289e00a4",
+        "d29f596349ddf06a",
+        "ae9576a63265e435",
+        "71f76d9968f28826",
+        "819676aaf2fec65c",
+        "2b1ccbc7644fcdb3",
+        "b2e787183a4c673b"
+      ],
+      "scope": "J2 fanout only; preserved existing lead segment outsidex450mil and all other cores; no mainanalog reroute",
+      "explicitSaveCalled": false
+    },
+    "logs": [],
+    "durationMs": 972
+  }
+}

@@ -1,0 +1,6 @@
+﻿text,local_x_mm,local_y_mm,font_mm,angle,source
+J2,0.0,1.5999993399999999,0.6500012399999999,0,actual final warm footprint source
+1,-4.45000126,-1.39999974,0.6500012399999999,0,actual final warm footprint source
+ROW,-3.50000062,-2.20000068,0.6500012399999999,0,actual final warm footprint source
+COL,0.49999899999999997,-2.20000068,0.6500012399999999,0,actual final warm footprint source
+FFC INSERT,-3.30000102,-3.20000122,0.6500012399999999,0,actual final warm footprint source

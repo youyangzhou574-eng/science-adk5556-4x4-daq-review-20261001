@@ -1,0 +1,20 @@
+{
+  "J2_USER_TYPE_MATCH_WARM": true,
+  "WARM_J2_8_SIGNAL_PLUS_2_MECH": true,
+  "WARM_NON_J2_FROZEN": true,
+  "WARM_DRC_FOUR_ZERO": true,
+  "COLD_REOPEN": false,
+  "COLD_DRC": false,
+  "ACTUAL_NATIVE_FILE_EXPORT": false,
+  "INDEPENDENT_NATIVE_PIN1_AND_SILK_RELEASE": false,
+  "CONTACT_SIDE_NATIVE_SILK": "HOLD final footprint source has only five strings; CONTACT PCB missing though initial working source had six",
+  "PCB_REVIEW_READY": false,
+  "MANUFACTURE_RELEASE": false,
+  "PROCUREMENT_RELEASE": false,
+  "BENCH_RELEASE": false,
+  "STOP": "STOP_COLD_CAPTURE_DRC_EXPORT_UNVERIFIED_HARD_QUOTAS_USED",
+  "historicalMIMOandDescriptorNotReopened": true,
+  "otherPerformanceAndFabricationHoldsRetained": true,
+  "MANUFACTURER_BODY_DATUM": "HOLD",
+  "NEIGHBOR_MECHANICAL_CLEARANCE": "HOLD"
+}

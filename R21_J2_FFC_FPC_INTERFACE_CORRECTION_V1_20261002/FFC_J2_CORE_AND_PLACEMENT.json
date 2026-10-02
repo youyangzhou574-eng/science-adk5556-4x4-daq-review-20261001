@@ -1,0 +1,104 @@
+{
+  "started_utc": "2026-10-02T07:46:28.174365+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "092e9f5a-1bbb-487c-af46-1cf0675c22d9",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6')throw Error('Wrong FFC copy');\nawait eda.dmt_EditorControl.openDocument('802bf258e0d38cab');const s=(await eda.sch_PrimitiveComponent.getAll()).find(c=>c.getState_Designator()==='J2');if(!s)throw Error('J2 only');const sr=await eda.sch_PrimitiveComponent.modify(s,{name:'2005290081',manufacturer:'MOLEX',manufacturerId:'2005290081',supplier:'',supplierId:''});\nawait eda.dmt_EditorControl.openDocument('268e6597399ebcce');const c=(await eda.pcb_PrimitiveComponent.getAll()).find(c=>c.getState_Designator()==='J2');if(!c||c.getState_PrimitiveId()!=='1cca92df09a37573')throw Error('J2 only actual PCB');const p=await eda.pcb_PrimitiveComponent.modify(c,{name:'2005290081',manufacturer:'MOLEX',manufacturerId:'2005290081',supplier:'',supplierId:'',x:6.5/.0254,y:39/.0254,rotation:90,otherProperty:{...c.getState_OtherProperty(),'3D Model':'','3D Model Title':'','3D Model Transform':''}});if(!p)throw Error('J2 core update');return{schematic:{name:sr.getState_Name(),manufacturerId:sr.getState_ManufacturerId()},pcb:{name:p.getState_Name(),manufacturerId:p.getState_ManufacturerId(),x:p.getState_X(),y:p.getState_Y(),rotation:p.getState_Rotation(),footprint:p.getState_Footprint()},pins:(await eda.pcb_PrimitiveComponent.getAllPinsByPrimitiveId(p.getState_PrimitiveId())).map(q=>({number:String(q.getState_PadNumber()),net:q.getState_Net(),x:q.getState_X(),y:q.getState_Y()})),explicitSaveCalled:false};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"schematic\":{\"name\":\"2005290081\",\"manufacturerId\":\"2005290081\"},\"pcb\":{\"name\":\"2005290081\",\"manufacturerId\":\"2005290081\",\"x\":255.90551181102364,\"y\":1535.4330708661419,\"rotation\":90,\"footprint\":{\"libraryUuid\":\"33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6\",\"uuid\":\"87b2e6ab0bf2243f\",\"name\":\"MOLEX_1718560008_MFR_SD171856_R17\"}},\"pins\":[{\"number\":\"1\",\"net\":\"ROW0\",\"x\":255.9,\"y\":1397.6},{\"number\":\"2\",\"net\":\"ROW1\",\"x\":255.9,\"y\":1437},{\"number\":\"3\",\"net\":\"ROW2\",\"x\":255.9,\"y\":1476.4},{\"number\":\"4\",\"net\":\"ROW3\",\"x\":255.9,\"y\":1515.7},{\"number\":\"5\",\"net\":\"COL0\",\"x\":255.9,\"y\":1555.1},{\"number\":\"6\",\"net\":\"COL1\",\"x\":255.9,\"y\":1594.5},{\"number\":\"7\",\"net\":\"COL2\",\"x\":255.9,\"y\":1633.9},{\"number\":\"8\",\"net\":\"COL3\",\"x\":255.9,\"y\":1673.2},{\"number\":\"MP1\",\"net\":\"\",\"x\":149.6,\"y\":1287.4},{\"number\":\"MP2\",\"net\":\"\",\"x\":149.6,\"y\":1783.5}],\"explicitSaveCalled\":false},\"logs\":[],\"durationMs\":1275}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "schematic": {
+        "name": "2005290081",
+        "manufacturerId": "2005290081"
+      },
+      "pcb": {
+        "name": "2005290081",
+        "manufacturerId": "2005290081",
+        "x": 255.90551181102364,
+        "y": 1535.4330708661419,
+        "rotation": 90,
+        "footprint": {
+          "libraryUuid": "33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6",
+          "uuid": "87b2e6ab0bf2243f",
+          "name": "MOLEX_1718560008_MFR_SD171856_R17"
+        }
+      },
+      "pins": [
+        {
+          "number": "1",
+          "net": "ROW0",
+          "x": 255.9,
+          "y": 1397.6
+        },
+        {
+          "number": "2",
+          "net": "ROW1",
+          "x": 255.9,
+          "y": 1437
+        },
+        {
+          "number": "3",
+          "net": "ROW2",
+          "x": 255.9,
+          "y": 1476.4
+        },
+        {
+          "number": "4",
+          "net": "ROW3",
+          "x": 255.9,
+          "y": 1515.7
+        },
+        {
+          "number": "5",
+          "net": "COL0",
+          "x": 255.9,
+          "y": 1555.1
+        },
+        {
+          "number": "6",
+          "net": "COL1",
+          "x": 255.9,
+          "y": 1594.5
+        },
+        {
+          "number": "7",
+          "net": "COL2",
+          "x": 255.9,
+          "y": 1633.9
+        },
+        {
+          "number": "8",
+          "net": "COL3",
+          "x": 255.9,
+          "y": 1673.2
+        },
+        {
+          "number": "MP1",
+          "net": "",
+          "x": 149.6,
+          "y": 1287.4
+        },
+        {
+          "number": "MP2",
+          "net": "",
+          "x": 149.6,
+          "y": 1783.5
+        }
+      ],
+      "explicitSaveCalled": false
+    },
+    "logs": [],
+    "durationMs": 1275
+  }
+}

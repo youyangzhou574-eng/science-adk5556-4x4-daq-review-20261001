@@ -1,0 +1,26 @@
+{
+  "started_utc": "2026-10-02T07:58:11.146180+00:00",
+  "command": [
+    "H:\\Program Files\\lceda-pro\\lceda-pro.exe",
+    "invoke",
+    "--session",
+    "092e9f5a-1bbb-487c-af46-1cf0675c22d9",
+    "--ext-uuid",
+    "eda",
+    "--code",
+    "const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6')throw Error('Wrong copy');return {opened:await eda.dmt_EditorControl.openDocument('268e6597399ebcce')};\n",
+    "--timeout",
+    "45000"
+  ],
+  "returncode": 0,
+  "stdout": "\r\n{\"ok\":true,\"value\":{\"opened\":\"268e6597399ebcce@33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6\"},\"logs\":[],\"durationMs\":8}\n",
+  "stderr": "",
+  "parsed": {
+    "ok": true,
+    "value": {
+      "opened": "268e6597399ebcce@33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6"
+    },
+    "logs": [],
+    "durationMs": 8
+  }
+}
