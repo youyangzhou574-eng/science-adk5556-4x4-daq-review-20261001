@@ -1,0 +1,29 @@
+[
+  {
+    "from": "U11.6",
+    "net": "PGOOD",
+    "toMCU": "U7.6",
+    "straightToMCUMm": 50.13928990503753,
+    "toInterfaceInside": "R_J3_5.2",
+    "straightToInterfaceRMm": 61.11151774602314,
+    "meaning": "same-net NRST/PGOOD monitor-Schmitt branch geometry; driver direction, timing/reset/fault qualification not inferred"
+  },
+  {
+    "from": "U12.6",
+    "net": "PGOOD",
+    "toMCU": "U7.6",
+    "straightToMCUMm": 36.80461780351813,
+    "toInterfaceInside": "R_J3_5.2",
+    "straightToInterfaceRMm": 45.07720441319207,
+    "meaning": "same-net NRST/PGOOD monitor-Schmitt branch geometry; driver direction, timing/reset/fault qualification not inferred"
+  },
+  {
+    "from": "U15.2",
+    "net": "PGOOD",
+    "toMCU": "U7.6",
+    "straightToMCUMm": 17.48523166724264,
+    "toInterfaceInside": "R_J3_5.2",
+    "straightToInterfaceRMm": 24.93726759934177,
+    "meaning": "same-net NRST/PGOOD monitor-Schmitt branch geometry; driver direction, timing/reset/fault qualification not inferred"
+  }
+]

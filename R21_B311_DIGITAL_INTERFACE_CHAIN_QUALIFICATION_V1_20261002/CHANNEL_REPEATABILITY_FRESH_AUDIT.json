@@ -1,0 +1,682 @@
+[
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "HF",
+    "ref": "C_TIA_HF0",
+    "actualCanonicalCentreMm": [
+      1.8999999999999986,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 1.3322676295501878e-15,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE0",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "ISO",
+    "ref": "R_TIA_ISO0",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "CLAMP",
+    "ref": "D_TIA0",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "RF",
+    "ref": "RF0",
+    "actualCanonicalCentreMm": [
+      5.600000000000001,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "centreDeviationMm": 1.7763568394002505e-15,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 0,
+    "role": "CF",
+    "ref": "CF0",
+    "actualCanonicalCentreMm": [
+      7.0,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "centreDeviationMm": 0.0,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "HF",
+    "ref": "C_TIA_HF1",
+    "actualCanonicalCentreMm": [
+      1.8999999999999986,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 1.3322676295501878e-15,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE1",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "ISO",
+    "ref": "R_TIA_ISO1",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "CLAMP",
+    "ref": "D_TIA1",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "RF",
+    "ref": "RF1",
+    "actualCanonicalCentreMm": [
+      5.600000000000001,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "centreDeviationMm": 1.7763568394002505e-15,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 1,
+    "role": "CF",
+    "ref": "CF1",
+    "actualCanonicalCentreMm": [
+      7.0,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "centreDeviationMm": 0.0,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "HF",
+    "ref": "C_TIA_HF2",
+    "actualCanonicalCentreMm": [
+      1.9000000000000004,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 4.440892098500626e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE2",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "ISO",
+    "ref": "R_TIA_ISO2",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "CLAMP",
+    "ref": "D_TIA2",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "RF",
+    "ref": "RF2",
+    "actualCanonicalCentreMm": [
+      5.6,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "centreDeviationMm": 0.0,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 2,
+    "role": "CF",
+    "ref": "CF2",
+    "actualCanonicalCentreMm": [
+      7.0,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "centreDeviationMm": 0.0,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "HF",
+    "ref": "C_TIA_HF3",
+    "actualCanonicalCentreMm": [
+      1.9000000000000004,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 4.440892098500626e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "SENSE",
+    "ref": "R_COL_SENSE3",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "ISO",
+    "ref": "R_TIA_ISO3",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "CLAMP",
+    "ref": "D_TIA3",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "RF",
+    "ref": "RF3",
+    "actualCanonicalCentreMm": [
+      5.6,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      5.6,
+      0
+    ],
+    "centreDeviationMm": 0.0,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "TIA",
+    "channel": 3,
+    "role": "CF",
+    "ref": "CF3",
+    "actualCanonicalCentreMm": [
+      7.0,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      7.0,
+      0
+    ],
+    "centreDeviationMm": 0.0,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "HF",
+    "ref": "C_ROW_HF0",
+    "actualCanonicalCentreMm": [
+      1.8999999999999986,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 1.3322676295501878e-15,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "SENSE",
+    "ref": "R_ROW_FB0",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "ISO",
+    "ref": "R_ISO0",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 0,
+    "role": "CLAMP",
+    "ref": "D_ROW0",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "HF",
+    "ref": "C_ROW_HF1",
+    "actualCanonicalCentreMm": [
+      1.8999999999999986,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 1.3322676295501878e-15,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "SENSE",
+    "ref": "R_ROW_FB1",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "ISO",
+    "ref": "R_ISO1",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 1,
+    "role": "CLAMP",
+    "ref": "D_ROW1",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "HF",
+    "ref": "C_ROW_HF2",
+    "actualCanonicalCentreMm": [
+      1.9000000000000004,
+      0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 4.440892098500626e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "SENSE",
+    "ref": "R_ROW_FB2",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "ISO",
+    "ref": "R_ISO2",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 2,
+    "role": "CLAMP",
+    "ref": "D_ROW2",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "HF",
+    "ref": "C_ROW_HF3",
+    "actualCanonicalCentreMm": [
+      1.9000000000000004,
+      -0.0
+    ],
+    "expectedCanonicalCentreMm": [
+      1.9,
+      0
+    ],
+    "centreDeviationMm": 4.440892098500626e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "SENSE",
+    "ref": "R_ROW_FB3",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      -1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      -1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "ISO",
+    "ref": "R_ISO3",
+    "actualCanonicalCentreMm": [
+      3.6999999999999993,
+      1.25
+    ],
+    "expectedCanonicalCentreMm": [
+      3.7,
+      1.25
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  },
+  {
+    "family": "ROW",
+    "channel": 3,
+    "role": "CLAMP",
+    "ref": "D_ROW3",
+    "actualCanonicalCentreMm": [
+      4.300000000000001,
+      3.5
+    ],
+    "expectedCanonicalCentreMm": [
+      4.3,
+      3.5
+    ],
+    "centreDeviationMm": 8.881784197001252e-16,
+    "angleUnchanged": true,
+    "pass": true
+  }
+]

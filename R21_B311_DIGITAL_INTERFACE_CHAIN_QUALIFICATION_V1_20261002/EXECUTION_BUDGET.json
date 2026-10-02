@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE_READONLY_WAIT_USER_VISUAL_SELECTION",
+  "startUTC": "2026-10-02T15:31:33.987631+00:00",
+  "deadlineUTC": "2026-10-02T18:01:33.987631+00:00",
+  "minutes": 150,
+  "limits": {
+    "coordinatePasses": 1,
+    "finalImages": 1,
+    "macroCandidates": 0
+  },
+  "actual": {
+    "coordinatePasses": 0,
+    "finalImages": 1,
+    "macroCandidates": 0
+  },
+  "reservations": [
+    {
+      "kind": "finalImages",
+      "UTC": "2026-10-02T15:36:31.191344+00:00",
+      "reason": "one final frozen176 image with 5 actualseries paths and8cells"
+    }
+  ],
+  "CAD": 0,
+  "native": 0,
+  "routing": 0,
+  "boardOutline": 0,
+  "newSourceResearch": 0,
+  "toolAPIResearch": 0,
+  "simulation": 0,
+  "completedUTC": "2026-10-02T15:36:55.378259+00:00",
+  "coordinateCorrectionTriggered": false
+}

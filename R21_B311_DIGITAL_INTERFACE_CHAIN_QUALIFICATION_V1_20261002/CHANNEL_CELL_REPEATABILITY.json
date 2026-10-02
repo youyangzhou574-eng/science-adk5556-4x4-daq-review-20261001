@@ -1,0 +1,530 @@
+[
+  {
+    "family": "TIA",
+    "expectedRoleRefs": 24,
+    "missingRefs": [],
+    "roles": [
+      {
+        "role": "HF",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "C_TIA_HF0",
+            "canonicalCentreMm": [
+              1.8999999999999986,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "C_TIA_HF1",
+            "canonicalCentreMm": [
+              1.8999999999999986,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "C_TIA_HF2",
+            "canonicalCentreMm": [
+              1.9000000000000004,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "C_TIA_HF3",
+            "canonicalCentreMm": [
+              1.9000000000000004,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 1.7763568394002505e-15,
+        "pass": true
+      },
+      {
+        "role": "SENSE",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "R_COL_SENSE0",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "R_COL_SENSE1",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "R_COL_SENSE2",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "R_COL_SENSE3",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 0.0,
+        "pass": true
+      },
+      {
+        "role": "ISO",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "R_TIA_ISO0",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "R_TIA_ISO1",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "R_TIA_ISO2",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "R_TIA_ISO3",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 0.0,
+        "pass": true
+      },
+      {
+        "role": "CLAMP",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "D_TIA0",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "D_TIA1",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "D_TIA2",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "D_TIA3",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 0.0,
+        "pass": true
+      },
+      {
+        "role": "RF",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "RF0",
+            "canonicalCentreMm": [
+              5.600000000000001,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "RF1",
+            "canonicalCentreMm": [
+              5.600000000000001,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "RF2",
+            "canonicalCentreMm": [
+              5.6,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "RF3",
+            "canonicalCentreMm": [
+              5.6,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 1.7763568394002505e-15,
+        "pass": true
+      },
+      {
+        "role": "CF",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "CF0",
+            "canonicalCentreMm": [
+              7.0,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "CF1",
+            "canonicalCentreMm": [
+              7.0,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "CF2",
+            "canonicalCentreMm": [
+              7.0,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "CF3",
+            "canonicalCentreMm": [
+              7.0,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 0.0,
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "meaning": "same complete functional-role centres in mirrored actual output/sense-pin midpoint frames, role-dependent inward orientation; rotations realizable; no claim every 3-pin clamp rail pad is exact mirror, no routing qualification"
+  },
+  {
+    "family": "ROW",
+    "expectedRoleRefs": 16,
+    "missingRefs": [],
+    "roles": [
+      {
+        "role": "HF",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "C_ROW_HF0",
+            "canonicalCentreMm": [
+              1.8999999999999986,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "C_ROW_HF1",
+            "canonicalCentreMm": [
+              1.8999999999999986,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "C_ROW_HF2",
+            "canonicalCentreMm": [
+              1.9000000000000004,
+              0.0
+            ],
+            "rotation": 270,
+            "expectedRotation": 270,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "C_ROW_HF3",
+            "canonicalCentreMm": [
+              1.9000000000000004,
+              -0.0
+            ],
+            "rotation": 90,
+            "expectedRotation": 90,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 1.7763568394002505e-15,
+        "pass": true
+      },
+      {
+        "role": "SENSE",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "R_ROW_FB0",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "R_ROW_FB1",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "R_ROW_FB2",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "R_ROW_FB3",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              -1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 0.0,
+        "pass": true
+      },
+      {
+        "role": "ISO",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "R_ISO0",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "R_ISO1",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "R_ISO2",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "R_ISO3",
+            "canonicalCentreMm": [
+              3.6999999999999993,
+              1.25
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 0.0,
+        "pass": true
+      },
+      {
+        "role": "CLAMP",
+        "channels": [
+          {
+            "channel": 0,
+            "ref": "D_ROW0",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 1,
+            "ref": "D_ROW1",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 0,
+            "expectedRotation": 0,
+            "anglePass": true
+          },
+          {
+            "channel": 2,
+            "ref": "D_ROW2",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          },
+          {
+            "channel": 3,
+            "ref": "D_ROW3",
+            "canonicalCentreMm": [
+              4.300000000000001,
+              3.5
+            ],
+            "rotation": 180,
+            "expectedRotation": 180,
+            "anglePass": true
+          }
+        ],
+        "maxCanonicalCentreDeltaMm": 0.0,
+        "pass": true
+      }
+    ],
+    "pass": true,
+    "meaning": "same complete functional-role centres in mirrored actual output/sense-pin midpoint frames, role-dependent inward orientation; rotations realizable; no claim every 3-pin clamp rail pad is exact mirror, no routing qualification"
+  }
+]

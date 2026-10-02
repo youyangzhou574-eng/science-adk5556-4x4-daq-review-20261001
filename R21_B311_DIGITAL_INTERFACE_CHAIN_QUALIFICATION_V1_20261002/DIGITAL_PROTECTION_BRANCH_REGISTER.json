@@ -1,0 +1,74 @@
+[
+  {
+    "ref": "D_J3_1",
+    "signalPad3Net": "V3V3",
+    "GNDpad1Net": "GND",
+    "railPad2Net": "V3V3",
+    "toSameNetInsideSeriesPins": [
+      "R_J3_1.2",
+      "R_J4_1.2"
+    ],
+    "note": "clamp not treated as series conductor toGND/V3V3; does not close protection fault qualification"
+  },
+  {
+    "ref": "D_J3_3",
+    "signalPad3Net": "SWDIO",
+    "GNDpad1Net": "GND",
+    "railPad2Net": "V3V3",
+    "toSameNetInsideSeriesPins": [
+      "R_J3_3.2"
+    ],
+    "note": "clamp not treated as series conductor toGND/V3V3; does not close protection fault qualification"
+  },
+  {
+    "ref": "D_J3_4",
+    "signalPad3Net": "SWCLK",
+    "GNDpad1Net": "GND",
+    "railPad2Net": "V3V3",
+    "toSameNetInsideSeriesPins": [
+      "R_J3_4.2"
+    ],
+    "note": "clamp not treated as series conductor toGND/V3V3; does not close protection fault qualification"
+  },
+  {
+    "ref": "D_J3_5",
+    "signalPad3Net": "PGOOD",
+    "GNDpad1Net": "GND",
+    "railPad2Net": "V3V3",
+    "toSameNetInsideSeriesPins": [
+      "R_J3_5.2"
+    ],
+    "note": "clamp not treated as series conductor toGND/V3V3; does not close protection fault qualification"
+  },
+  {
+    "ref": "D_J4_1",
+    "signalPad3Net": "V3V3",
+    "GNDpad1Net": "GND",
+    "railPad2Net": "V3V3",
+    "toSameNetInsideSeriesPins": [
+      "R_J3_1.2",
+      "R_J4_1.2"
+    ],
+    "note": "clamp not treated as series conductor toGND/V3V3; does not close protection fault qualification"
+  },
+  {
+    "ref": "D_J4_3",
+    "signalPad3Net": "UART_TX",
+    "GNDpad1Net": "GND",
+    "railPad2Net": "V3V3",
+    "toSameNetInsideSeriesPins": [
+      "R_J4_3.2"
+    ],
+    "note": "clamp not treated as series conductor toGND/V3V3; does not close protection fault qualification"
+  },
+  {
+    "ref": "D_J4_4",
+    "signalPad3Net": "UART_RX",
+    "GNDpad1Net": "GND",
+    "railPad2Net": "V3V3",
+    "toSameNetInsideSeriesPins": [
+      "R_J4_4.2"
+    ],
+    "note": "clamp not treated as series conductor toGND/V3V3; does not close protection fault qualification"
+  }
+]

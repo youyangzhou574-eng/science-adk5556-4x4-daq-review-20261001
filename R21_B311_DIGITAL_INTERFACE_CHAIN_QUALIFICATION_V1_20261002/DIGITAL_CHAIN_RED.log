@@ -1,0 +1,14 @@
+F..
+======================================================================
+FAIL: test_crosses_renamed_net_through_both_series_pads (test_series_paths.InterfacePaths.test_crosses_renamed_net_through_both_series_pads)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\R21_B311_DIGITAL_INTERFACE_CHAIN_QUALIFICATION_V1\test_series_paths.py", line 8, in test_crosses_renamed_net_through_both_series_pads
+    self.assertEqual(len(paths),1);self.assertEqual(paths[0]['orderedNodes'],['U7.24','R_J3_3.2','R_J3_3.1','J3.3'])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+FAILED (failures=1)

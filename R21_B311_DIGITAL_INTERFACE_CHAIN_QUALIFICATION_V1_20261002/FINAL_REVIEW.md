@@ -1,0 +1,10 @@
+# One fresh-context read-only final review
+Reviewer /root/b311_final_review; Critical0 Important0 Minor1. Readonly digital-interface geometry qualification COMPLETE; USER_VISUAL_ACCEPTANCE pending, CAD_RELEASED=false. No module import/execution, analysis/layout/render/simulation or file changes.
+Five exact actual paths U7.24-R_J3_3.2/.1-J3.3; U7.25-R_J3_4.2/.1-J3.4; U7.6-R_J3_5.2/.1-J3.5; U7.19-R_J4_3.2/.1-J4.3; U7.21-R_J4_4.2/.1-J4.4 verified against frozen552pinCSV and results. Two-pad specified R only bridges renamed nets; no clamp/GND/V3V3 conductive path fiction, no RX/SWD/NRST driver-direction assertion.
+Code/JSON/CSV lengths, Rspan/direct/stretch agree. Totals16.314243/17.841537/15.224301/19.459126/15.662763mm,stretch1.342178/1.470987/1.135177/1.309211/1.288526. Predelared desktopgeometryscreen limited explicitly; notProhard electricalstandard. J3/J4~1.18193/1.18195mm inset relativephysicalproxybbox, notfabricatedboardedge.
+NRST actualU7.6=PGOOD and EXT MCU_NRST_EXT; U11.6/U12.6/U15.2 branches separate, U15.4=PG_OK_FAST notmixed. Two4.99k V3V3_EXT ports sense-only; geometrynames supportvalue, U7.4 notpowersource.
+All18 copiedinput currentSHA matchmanifest, includingcoordinates/pinCSV/historygate. SavedoriginalsourceSHAevidence18/18 examined; reviewerlimitedtonewdirectorynotexternalsource reread. Currentcoordinatecopy originalbytefrozen; oldmacrorankingnotrewrittenorqualificationclaimed.
+Fullaudit/log/CSV consistent176/552/514/107/36+2,15400proxy0,106nonincrease,TIA24/ROW16completecentres/directions unchanged. No reopeningProacceptedROW/Power/ADCvariation. Budgetcoordinate0/image1/macro0.
+ActualonePNGviewed:8cells/mainICs/J3J4and5orangefunctionalchains recognizable; legend associations/notcopper/bboxnotboardoutline/visualpending clear.
+Minor1 deferred: no smallpassive R_J/D_J designators onPNG; must pairPLACEMENT_B31.csv/ALL_552_PIN_MAP_B31.csv/digitalchainCSV. Receiptalreadydiscloses, noextraimage/move requested.
+Doesnotrelease userchoice/nativePCB/dynamicperformance/faultprotection/exactFFCmechanics/manufacturing/bench.
