@@ -1,0 +1,19 @@
+{
+  "stage": "B21_FINAL_OFFLINE_VISUAL_REFINEMENT_READY_FOR_SELECTION",
+  "priorB2EngineeringAcceptedByPro": true,
+  "priorB2VisualDirectionAcceptedByPro": true,
+  "finalVisualSelection": "USER_PRO_PENDING",
+  "placementRefinementCumulative": 3,
+  "imageThisStage": 1,
+  "bodyAndPadProxyNoOverlap": true,
+  "keyPairs94Preserved": true,
+  "frozen170": true,
+  "moved6Only": true,
+  "FFC_EXACT_ACTUATOR_SWEEP_HOLD": true,
+  "CAD_RELEASED": false,
+  "NATIVE_PCB_UPDATED": false,
+  "BOARD_OUTLINE_DEFINED": false,
+  "GERBER_RELEASE": false,
+  "MANUFACTURE": false,
+  "BENCH": false
+}

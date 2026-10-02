@@ -1,0 +1,39 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_B21_TOP_BAND_FILL_REFINEMENT_V1",
+  "rulingAssistantId": "e94cff97-f143-40f6-a8f8-77b5eed95484",
+  "parentUserId": "99545896-9e48-4c47-8a92-1677fab2c02e",
+  "startUTC": "2026-10-02T12:08:36Z",
+  "deadlineUTC": "2026-10-02T13:08:36Z",
+  "approvedMinutes": 60,
+  "status": "FINAL_REFINEMENT_COMPLETE_HARD_QUOTAS_USED_WAIT_SELECTION",
+  "limits": {
+    "placementRefinement": 1,
+    "finalImages": 1,
+    "CAD": 0,
+    "API": 0,
+    "GUI": 0,
+    "native": 0,
+    "simulation": 0
+  },
+  "actual": {
+    "placementRefinement": 1,
+    "finalImages": 1
+  },
+  "priorB2ActualRefinements": 2,
+  "cumulativeRefinementCeiling": 3,
+  "reservations": [
+    {
+      "UTC": "2026-10-02T12:11:55.066714+00:00",
+      "kind": "placementRefinement",
+      "count": 1,
+      "reason": "Only remaining B2 third round: finite upper-MUX rigid translations and associated four pulls"
+    },
+    {
+      "UTC": "2026-10-02T12:13:11.634564+00:00",
+      "kind": "finalImages",
+      "count": 1,
+      "reason": "Single final B2 to B2.1 top-band-only comparison"
+    }
+  ],
+  "completedAtUTC": "2026-10-02T12:21:05.718232+00:00"
+}

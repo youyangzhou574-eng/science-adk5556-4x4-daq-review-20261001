@@ -1,0 +1,194 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_B21_TOP_BAND_FILL_REFINEMENT_V1",
+  "UTC": "2026-10-02T12:21:06.148608+00:00",
+  "files": [
+    {
+      "path": "ACTUAL_GEOMETRY.json",
+      "bytes": 318346,
+      "sha256": "1B49463129E6B39E441C51AA74DD781FDF1CEFBF53D19D273F9A7C2BA2503C18"
+    },
+    {
+      "path": "BODY_SOURCE_REGISTER.csv",
+      "bytes": 35653,
+      "sha256": "1866B403BD1B246151EC31ACDA4C5C80D55953FD338398EF765BB961C480FBCA"
+    },
+    {
+      "path": "COMPLETE_B21_RECEIPT.md",
+      "bytes": 4638,
+      "sha256": "32ABFDB60D14507A4A6D3846372ECD2996B1CA10D1347974965D6417CD9B50EE"
+    },
+    {
+      "path": "CONSTRAINT_BLOCKS.json",
+      "bytes": 18383,
+      "sha256": "03574553512AFD2011C1B8406BC32E586503D936C3575B3EB5158D91683ECA2D"
+    },
+    {
+      "path": "EXECUTION_BUDGET.json",
+      "bytes": 1183,
+      "sha256": "C4143F8519BD6B6EB8ADAECCC6152AEF5F07A01659290C4E41D051FE679938F1"
+    },
+    {
+      "path": "FINAL_ARTIFACT_VERIFICATION.json",
+      "bytes": 376,
+      "sha256": "1418A1AEC4BA6D862604732D1924BE01A737215151D2E9015768A287090A99C7"
+    },
+    {
+      "path": "FINAL_REVIEW.md",
+      "bytes": 6467,
+      "sha256": "63537E07E42FD948ED04785CF44FBE67A2F6F942D2014E740598EA7AABDE81D1"
+    },
+    {
+      "path": "FROZEN_AND_MOVED_REGISTER.json",
+      "bytes": 3016,
+      "sha256": "743038D4C53F1DD45F1F39D2F7BB8A0A9DAA7B2F0256F4812ABF7148C0C5CC5C"
+    },
+    {
+      "path": "GATES.json",
+      "bytes": 597,
+      "sha256": "B9FCF39E06906D4CC958D7E095621487F9EA1DA167D9613B1DAAF0E8CEA14DD2"
+    },
+    {
+      "path": "initialize_stage.py",
+      "bytes": 25467,
+      "sha256": "32B66FABDABF2501151B99B46AA7A5A50741FAFE04D53F33DF2E87C10BD26142"
+    },
+    {
+      "path": "INPUT_SHA_MANIFEST.json",
+      "bytes": 1068,
+      "sha256": "2716395A61713AC4795D24853DF09B9FC5F747E0A6F1B4B456A746E0EFA1C309"
+    },
+    {
+      "path": "KEY_PIN_DISTANCE_B2.csv",
+      "bytes": 9179,
+      "sha256": "64768816DDB451B99295B2FCEE666DE501B8110B8CE0149E080FCF0E787EAE2A"
+    },
+    {
+      "path": "KEY_PIN_DISTANCE_B21.csv",
+      "bytes": 11276,
+      "sha256": "9F47DCAF378886974525C50A2D6C4EBA668787A154A6A13E8330922856221631"
+    },
+    {
+      "path": "OFFICIAL_SOURCE_LINKS.md",
+      "bytes": 430,
+      "sha256": "231E6CC587F13DD1A7BD06DE154B3CAF80C000DC61988BE2FA84E5D8D81A5229"
+    },
+    {
+      "path": "PLACEMENT_B2.json",
+      "bytes": 44758,
+      "sha256": "93D577D2BA95C6EAEBA4B869E154732BFF76A26206025A1D5E9A6A6D603AA20E"
+    },
+    {
+      "path": "PLACEMENT_B21.csv",
+      "bytes": 9253,
+      "sha256": "4DF08AFBED5DF118D13950AAA89E1097EA19B351E4C911141484096829567640"
+    },
+    {
+      "path": "PLACEMENT_B21.json",
+      "bytes": 25830,
+      "sha256": "224CF422995B767F5A009540AAEE91F5B27C7A37349F5F6B4B3D5CD6E47E1804"
+    },
+    {
+      "path": "PLACEMENT_B2_VS_B21.png",
+      "bytes": 273075,
+      "sha256": "CB3F77B1B7D52CB327138C68434B22F08AD7E11FEF26AD79A346C348B8E952DA"
+    },
+    {
+      "path": "placement_geometry.py",
+      "bytes": 2045,
+      "sha256": "8FB7DF056F5F9F3DBA947246A42440CC0430D9D5459DBD58ACECB6E4F49BAFD8"
+    },
+    {
+      "path": "PLAN_AND_LEDGER.md",
+      "bytes": 730,
+      "sha256": "5BD6CF9DEB7C959DDB07E4E5E9FD1FEAE495F152E10A58A5264A13B8016785C8"
+    },
+    {
+      "path": "prepare_delivery_script.py",
+      "bytes": 1676,
+      "sha256": "286BEA8667D880E5258146AB90DB46DD351250EA84A4DAF18104A969B4B876E6"
+    },
+    {
+      "path": "prepare_github_delivery.py",
+      "bytes": 4107,
+      "sha256": "F95FBC3BAAB74EC9DA4A53DEE1FDC5857B4E0D0E986201B5CFF3522BF4D3A1F1"
+    },
+    {
+      "path": "prepare_renderer.py",
+      "bytes": 1468,
+      "sha256": "215673FA0E27C3E9890CEDF11AA9084C887F54930C7B293604A165DF75F055BD"
+    },
+    {
+      "path": "PRO_B21_REPLY_FULL.json",
+      "bytes": 19932,
+      "sha256": "D317DA1BFF7920E5518068F7EE2D0306F09F81D46DACF78571154D6CC9536626"
+    },
+    {
+      "path": "PRO_B21_RULING_FULL.md",
+      "bytes": 3138,
+      "sha256": "0DE103CA1C942965AA998B7C061335D8453343782CEAB5D1087282875DFB7CB2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 506,
+      "sha256": "6574462A74D7242CA119456D1CCA81D4F8E61C2EA3EC3D3581A0F6FDB80AE00A"
+    },
+    {
+      "path": "refine_top_band.py",
+      "bytes": 6271,
+      "sha256": "43BB17589F4881013E63617FAC3EB4A154C47B5E4BA554F6034C485F41B27F08"
+    },
+    {
+      "path": "render_b21.py",
+      "bytes": 4220,
+      "sha256": "B6E167725B87D5351035229BD9B563E884542064AAC65A1FFD4BF6D447129D82"
+    },
+    {
+      "path": "REVIEW_DISPOSITION.md",
+      "bytes": 504,
+      "sha256": "1D996028C8822F80EAA46945F09F7ED23A85B64CC08ACA4EC69B7B4847504A75"
+    },
+    {
+      "path": "write_receipt.py",
+      "bytes": 7482,
+      "sha256": "1698E174845661EC92029C0905E736F8FAE837623CAADE230A6179D8E85E88E5"
+    }
+  ],
+  "inputProvenance": [
+    {
+      "path": "ACTUAL_GEOMETRY.json",
+      "sha256": "1b49463129e6b39e441c51aa74dd781fdf1cefbf53d19d273f9a7c2ba2503c18",
+      "bytes": 318346
+    },
+    {
+      "path": "CONSTRAINT_BLOCKS.json",
+      "sha256": "03574553512afd2011c1b8406bc32e586503d936c3575b3eb5158d91683eca2d",
+      "bytes": 18383
+    },
+    {
+      "path": "BODY_SOURCE_REGISTER.csv",
+      "sha256": "1866b403bd1b246151ec31acda4c5c80d55953fd338398ef765bb961c480fbca",
+      "bytes": 35653
+    },
+    {
+      "path": "PLACEMENT_B2.json",
+      "sha256": "93d577d2ba95c6eaeba4b869e154732bff76a26206025a1d5e9a6a6d603aa20e",
+      "bytes": 44758
+    },
+    {
+      "path": "KEY_PIN_DISTANCE_B2.csv",
+      "sha256": "64768816ddb451b99295b2fcee666de501b8110b8ce0149e080fcf0e787eae2a",
+      "bytes": 9179
+    },
+    {
+      "path": "placement_geometry.py",
+      "sha256": "8fb7df056f5f9f3dba947246a42440cc0430d9d5459dbd58acecb6e4f49bafd8",
+      "bytes": 2045
+    },
+    {
+      "path": "OFFICIAL_SOURCE_LINKS.md",
+      "sha256": "231e6cc587f13dd1a7bd06de154b3caf80c000dc61988be2fa84e5d8d81a5229",
+      "bytes": 430
+    }
+  ],
+  "scope": "All own report/coordinates/readable PNG/geometry/CSV/code/failed first pass/review; no raw SQLite or third-party full PDF/HTML. Official links in OFFICIAL_SOURCE_LINKS."
+}

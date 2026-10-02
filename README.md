@@ -1,3 +1,11 @@
+# Latest: B2.1 final top-band refinement; user selection before native CAD
+
+[B2 / B2.1 comparison](R21_B21_TOP_BAND_FILL_REFINEMENT_V1_20261002/PLACEMENT_B2_VS_B21.png) · [6 moved / 170 frozen register](R21_B21_TOP_BAND_FILL_REFINEMENT_V1_20261002/FROZEN_AND_MOVED_REGISTER.json) · [Complete receipt](R21_B21_TOP_BAND_FILL_REFINEMENT_V1_20261002/COMPLETE_B21_RECEIPT.md) · [176 coordinates](R21_B21_TOP_BAND_FILL_REFINEMENT_V1_20261002/PLACEMENT_B21.csv) · [94 actual pin distances](R21_B21_TOP_BAND_FILL_REFINEMENT_V1_20261002/KEY_PIN_DISTANCE_B21.csv) · [Gates](R21_B21_TOP_BAND_FILL_REFINEMENT_V1_20261002/GATES.json) · [Final review](R21_B21_TOP_BAND_FILL_REFINEMENT_V1_20261002/FINAL_REVIEW.md).
+
+Only6 components translated X-28mm, 170 positions exactly frozen; 176 parts / 552 pads; natural body envelope71.0x63.5mm. Offline body + conservative pad-proxy complete pair checks, not native DRC. Exact FFC actuator sweep HOLD but current ruling explicitly permits offline layout. No native PCB or board-outline changes, no manufacture/bench release. Full own readable evidence direct; ZIP supplementary. User visual selection and new bounded native scope required.
+
+---
+
 # Latest: B2 interlocking placement; user selection before native CAD
 
 [B2 no-copper + occupancy map](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/PLACEMENT_B2_NO_COPPER.png) · [Old B / B2 comparison](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/PLACEMENT_OLD_B_VS_B2.png) · [Complete receipt](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/COMPLETE_B2_RECEIPT.md) · [176 coordinates](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/PLACEMENT_B2.csv) · [94 actual pin distances](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/KEY_PIN_DISTANCE_B2.csv) · [Gates](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/GATES.json) · [Final review](R21_PLACEMENT_B2_INTERLOCKING_V1_20261002/FINAL_REVIEW.md).

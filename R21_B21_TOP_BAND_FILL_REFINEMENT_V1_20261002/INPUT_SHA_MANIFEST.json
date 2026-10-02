@@ -1,0 +1,37 @@
+[
+  {
+    "path": "ACTUAL_GEOMETRY.json",
+    "sha256": "1b49463129e6b39e441c51aa74dd781fdf1cefbf53d19d273f9a7c2ba2503c18",
+    "bytes": 318346
+  },
+  {
+    "path": "CONSTRAINT_BLOCKS.json",
+    "sha256": "03574553512afd2011c1b8406bc32e586503d936c3575b3eb5158d91683eca2d",
+    "bytes": 18383
+  },
+  {
+    "path": "BODY_SOURCE_REGISTER.csv",
+    "sha256": "1866b403bd1b246151ec31acda4c5c80d55953fd338398ef765bb961c480fbca",
+    "bytes": 35653
+  },
+  {
+    "path": "PLACEMENT_B2.json",
+    "sha256": "93d577d2ba95c6eaeba4b869e154732bff76a26206025a1d5e9a6a6d603aa20e",
+    "bytes": 44758
+  },
+  {
+    "path": "KEY_PIN_DISTANCE_B2.csv",
+    "sha256": "64768816ddb451b99295b2fcee666de501b8110b8ce0149e080fcf0e787eae2a",
+    "bytes": 9179
+  },
+  {
+    "path": "placement_geometry.py",
+    "sha256": "8fb7df056f5f9f3dba947246a42440cc0430d9d5459dbd58acecb6e4f49bafd8",
+    "bytes": 2045
+  },
+  {
+    "path": "OFFICIAL_SOURCE_LINKS.md",
+    "sha256": "231e6cc587f13dd1a7bd06de154b3caf80c000dc61988be2fa84e5d8d81a5229",
+    "bytes": 430
+  }
+]
