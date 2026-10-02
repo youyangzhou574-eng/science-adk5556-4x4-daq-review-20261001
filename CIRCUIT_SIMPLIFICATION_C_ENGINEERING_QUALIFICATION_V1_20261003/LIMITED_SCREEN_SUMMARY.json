@@ -1,0 +1,72 @@
+{
+  "rowScreen": {
+    "static_ROW_V": 2.250000185683255,
+    "final_ROW_V": 2.250000185184969,
+    "last1percentExcursion_s": 2.5828708091813e-05,
+    "enabledAt_s": 2.501e-05,
+    "samples": 4139,
+    "load": "four800ohm to idealVCM, 1nF assumed cable, equivalent switches, 27C"
+  },
+  "tiaStepScreen": {
+    "samples": 17739,
+    "points": [
+      {
+        "Ohm": 800,
+        "window_s": [
+          0.0003,
+          0.00039
+        ],
+        "idealTIA_V": 4.059375,
+        "meanTIA_V": 4.059356772002323,
+        "meanADC_V": 4.058950876293794,
+        "absTIAOffset_V": 1.822799767747796e-05
+      },
+      {
+        "Ohm": 1000,
+        "window_s": [
+          0.0007,
+          0.00079
+        ],
+        "idealTIA_V": 3.7475,
+        "meanTIA_V": 3.7474829679513753,
+        "meanADC_V": 3.7471082567820093,
+        "absTIAOffset_V": 1.703204862479879e-05
+      },
+      {
+        "Ohm": 7000,
+        "window_s": [
+          0.0011,
+          0.00119
+        ],
+        "idealTIA_V": 2.6782142857142857,
+        "meanTIA_V": 2.678201058345388,
+        "meanADC_V": 2.677933264853375,
+        "absTIAOffset_V": 1.322736889752818e-05
+      },
+      {
+        "Ohm": 8000,
+        "window_s": [
+          0.0015,
+          0.0016
+        ],
+        "idealTIA_V": 2.6559375,
+        "meanTIA_V": 2.655924339936937,
+        "meanADC_V": 2.6556587737932786,
+        "absTIAOffset_V": 1.3160063062844785e-05
+      }
+    ],
+    "input": "three ideal unselected row sources, not full shared floating-row matrix",
+    "noiseQualification": false
+  },
+  "tiaACScreen": {
+    "method": "scalar series injection at input; T=-Vcol/Vminus; ideal row bounds",
+    "crossingLowerSampleApprox": [
+      {
+        "Hz": 2238721.138568296,
+        "phaseMargin_deg": 79.58081588497559
+      }
+    ],
+    "globalCertificate": false,
+    "interpolated": false
+  }
+}

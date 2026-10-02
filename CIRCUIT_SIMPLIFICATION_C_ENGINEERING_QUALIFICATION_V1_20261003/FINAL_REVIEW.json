@@ -1,0 +1,12 @@
+{
+  "singleFreshContextReview": true,
+  "critical": 0,
+  "important": "Step-case explicit OP has114.294mV DC branch residual; disclosed without rerun",
+  "minor": [
+    "Source locations added from already-read evidence; 403 retained",
+    "Phase dispositions appended; no fabricated timings"
+  ],
+  "verdict": "BLOCKED_RECEIPT_ACCEPTABLE_AFTER_ONE_DOCUMENTATION_PASS",
+  "noSecondReview": true,
+  "scientificQualification": false
+}

@@ -1,0 +1,9 @@
+test_compound_rejection_never_partially_charges (test_budget.BudgetGuardTests.test_compound_rejection_never_partially_charges) ... ok
+test_deadline_rejects_before_launch (test_budget.BudgetGuardTests.test_deadline_rejects_before_launch) ... ok
+test_sticky_stop_rejects_unused_capacity (test_budget.BudgetGuardTests.test_sticky_stop_rejects_unused_capacity) ... ok
+test_valid_compound_charge (test_budget.BudgetGuardTests.test_valid_compound_charge) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.000s
+
+OK

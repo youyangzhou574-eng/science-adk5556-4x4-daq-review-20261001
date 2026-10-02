@@ -1,0 +1,10 @@
+id,class,title,url,used_for,new_source
+S1,new_official,TMUX1109 SCDS406A,https://www.ti.com/lit/ds/symlink/tmux1109.pdf,pins EN and Ron,true
+S2,new_official,LP5912 SNVSA77D,https://www.ti.com/lit/ds/symlink/lp5912.pdf,whole rail capacitance PG VIN conditions,true
+S3,new_official,BAT54XY v5,https://assets.nexperia.com/documents/data-sheet/BAT54XY.pdf,two isolated series pairs pin map,true
+S4,new_official,TI expert LP5912 10uF startup answer,https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/1345093/lp5912-inrush-current-when-cout-is-10uf,conditional startup answer not 46uF qualification,true
+R1,reused_original,Kim2016 Sensors TypeIII,https://www.mdpi.com/1424-8220/16/2/155,Section3 indexed primary extract only no actual figure viewed,false
+R2,reused_official,ADS8684 SBAS582C,https://www.ti.com/lit/ds/symlink/ads8684.pdf,DVDD and reference capacitance minima,false
+R3,reused_official,TPD4E05U06 SLVSBO7O,https://www.ti.com/lit/ds/symlink/tpd4e05u06.pdf,pin map pure ESD not rail clamp,false
+R4,reused_official,LM73100,https://www.ti.com/lit/ds/symlink/lm73100.pdf,local prior source OVLO thresholds,false
+R5,reused_official,REF30 old local pdf,local_previous_input,reference path review no new reference model,false

@@ -1,0 +1,169 @@
+{
+  "package": "CIRCUIT-SIMPLIFICATION-C-ENGINEERING-QUALIFICATION-V1",
+  "startUTC": "2026-10-02T18:34:13Z",
+  "deadlineUTC": "2026-10-03T00:34:13Z",
+  "totalMinutes": 360,
+  "phaseMinutes": {
+    "C0": 60,
+    "C1": 120,
+    "C2": 110,
+    "C4": 30,
+    "C3": 40
+  },
+  "limits": {
+    "image": 2,
+    "netAudit": 4,
+    "placementAdjust": 2,
+    "PDF": 1,
+    "TRANSeconds": 180,
+    "newSources": 4,
+    "placementCandidate": 1,
+    "session": 2,
+    "ERC": 2,
+    "protectionCandidates": 2,
+    "capture": 6,
+    "copy": 1,
+    "TRAN": 8,
+    "OP_AC_PZ": 32,
+    "save": 6
+  },
+  "actual": {
+    "image": 0,
+    "netAudit": 1,
+    "placementAdjust": 0,
+    "PDF": 0,
+    "newSources": 4,
+    "placementCandidate": 0,
+    "session": 1,
+    "ERC": 0,
+    "protectionCandidates": 2,
+    "capture": 1,
+    "copy": 1,
+    "TRAN": 2,
+    "OP_AC_PZ": 10,
+    "save": 0
+  },
+  "stop": true,
+  "status": "C_QUALIFICATION_BLOCKED_NO_ECO_NO_PLACEMENT",
+  "forbidden": [
+    "PCB_NATIVE",
+    "ROUTING",
+    "POUR",
+    "GERBER",
+    "MANUFACTURE",
+    "PROCUREMENT",
+    "BENCH",
+    "FLASH",
+    "SYSTEM_INSTALL",
+    "LOCAL_GIT_WRITE"
+  ],
+  "phase": "C1_SCHEMATIC_WORKCOPY",
+  "phaseStartedUTC": "2026-10-02T18:43:51.305089+00:00",
+  "C0Reception": "3 new datasheets received; Ceff and low-VIN reset remain HOLD; no full C certificate",
+  "operations": [
+    {
+      "kind": "newSources",
+      "count": 3,
+      "label": "TMUX1109 / LP5912 / BAT54XY",
+      "accounting": "recorded at reception; no solver or CAD preceded its precharge"
+    },
+    {
+      "case": "row800_selected_op",
+      "costs": {
+        "OP_AC_PZ": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:39:40.394766+00:00"
+    },
+    {
+      "case": "row800_blank_to_enable",
+      "costs": {
+        "OP_AC_PZ": 1,
+        "TRAN": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:40:17.575324+00:00"
+    },
+    {
+      "case": "matrix800_selected_op",
+      "costs": {
+        "OP_AC_PZ": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:41:27.372358+00:00"
+    },
+    {
+      "case": "matrix800_selected_external_nodeset_op",
+      "costs": {
+        "OP_AC_PZ": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:42:00.188923+00:00"
+    },
+    {
+      "costs": {
+        "copy": 1,
+        "session": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:43:51.305089+00:00",
+      "purpose": "isolated native copy and headless normal open"
+    },
+    {
+      "costs": {
+        "capture": 1,
+        "netAudit": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:45:13.392123+00:00",
+      "label": "C untouched copy baseline"
+    },
+    {
+      "case": "matrix800_family_model_op",
+      "costs": {
+        "OP_AC_PZ": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:51:23.602292+00:00"
+    },
+    {
+      "costs": {
+        "OP_AC_PZ": 1
+      },
+      "case": "tia800_op_ac",
+      "analysis": "AC",
+      "preDebitedUTC": "2026-10-02T18:52:02.518473+00:00"
+    },
+    {
+      "case": "tia800_op_ac",
+      "costs": {
+        "OP_AC_PZ": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:52:02.630834+00:00"
+    },
+    {
+      "case": "tia800_current_pz",
+      "analysis": "PZ",
+      "preDebitedUTC": "2026-10-02T18:53:05.353476+00:00",
+      "costs": {
+        "OP_AC_PZ": 1
+      }
+    },
+    {
+      "case": "tia800_current_pz",
+      "costs": {
+        "OP_AC_PZ": 1
+      },
+      "preDebitedUTC": "2026-10-02T18:53:05.418243+00:00"
+    },
+    {
+      "case": "tia_step_800_1000_7000_8000",
+      "costs": {
+        "OP_AC_PZ": 1,
+        "TRAN": 1
+      },
+      "preDebitedUTC": "2026-10-02T19:03:50.711745+00:00"
+    },
+    {
+      "kind": "newSources",
+      "count": 1,
+      "label": "TI expert LP5912 10uF startup answer",
+      "accounting": "at source reception from search; no new science launch"
+    }
+  ],
+  "stopReason": "C_POWER_OUTPUT_CAPACITANCE_AND_LOW_VIN_PG_QUALIFICATION_HOLD",
+  "stopUTC": "2026-10-02T19:08:07.597704+00:00"
+}

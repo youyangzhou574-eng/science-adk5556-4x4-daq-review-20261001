@@ -1,0 +1,21 @@
+{
+  "physicalPartCount": 176,
+  "schematicPins": 550,
+  "connectedPins": 514,
+  "netCount": 107,
+  "NCCount": 36,
+  "pinsUnaccounted": [],
+  "NCInNet": [],
+  "originalFileRawSHA256": "509303e1e3097f0718c8f6171b0b33dae028417bed299e2abcbfeabbe5e46d14",
+  "originalFileBytes": 217726,
+  "parserEncoding": "UTF8",
+  "CChangesImplemented": 0,
+  "J2FootprintObject": {
+    "uuid": "87b2e6ab0bf2243f",
+    "libraryUuid": "33bea4d378d43e15e958ffe0eb3058ea5cedff592b3de7cb3eb882844cd142d6",
+    "name": "MOLEX_1718560008_MFR_SD171856_R17"
+  },
+  "J2FootprintNameMatchesFFC": false,
+  "PCBMechanicalPadsCaptured": false,
+  "FileTextReadbackNotRaw": true
+}

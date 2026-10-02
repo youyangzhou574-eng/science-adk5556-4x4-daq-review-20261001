@@ -1,0 +1,1 @@
+const lib=await eda.lib_LibrariesList.getSystemLibraryUuid();return {top:await eda.lib_Device.search('RT0603BRD0724KL',lib,undefined,undefined,3,1),bottom:await eda.lib_Device.search('RT0603BRD077K5L',lib,undefined,undefined,3,1)};

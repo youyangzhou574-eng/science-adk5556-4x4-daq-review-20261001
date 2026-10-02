@@ -1,0 +1,22 @@
+{
+  "case": "tia_step_800_1000_7000_8000",
+  "PID": 53192,
+  "startedUTC": "2026-10-02T19:03:50.711745+00:00",
+  "exe": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+  "command": [
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "-n",
+    "-D",
+    "ngbehavior=psa",
+    "-b",
+    "case.cir"
+  ],
+  "costs": {
+    "OP_AC_PZ": 1,
+    "TRAN": 1
+  },
+  "limitSeconds": 180,
+  "forcedStop": false,
+  "returncode": 0,
+  "wallSeconds": 1.3477396999951452
+}

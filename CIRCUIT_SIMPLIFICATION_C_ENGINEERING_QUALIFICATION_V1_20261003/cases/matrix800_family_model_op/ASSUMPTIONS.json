@@ -1,0 +1,13 @@
+{
+  "full16resistor": true,
+  "OPAmacros": 5,
+  "uneditedOfficialOPAmacros": true,
+  "reference": "ideal 2.5/2.25, no REF3025 impedance/noise/startup qualification",
+  "mux": "equivalent SW4.9ohm/Roff1e12, not full TMUX model",
+  "adc": "1meg input resistance with100ohm10nF RC, no ADS internal dynamic model",
+  "cable": "unmeasured1nF per row and col",
+  "sensorOhm": 800,
+  "selectedRow": 0,
+  "targetMeanErrorPercent": 1,
+  "stage": "OP screen, not hardware or AC/PZ pass"
+}

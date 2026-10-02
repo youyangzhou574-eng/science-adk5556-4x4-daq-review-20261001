@@ -1,0 +1,42 @@
+[
+  {
+    "id": "S1",
+    "url": "https://www.ti.com/lit/ds/symlink/tmux1109.pdf",
+    "privateArchive": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\NEW_PRO_CIRCUIT_SIMPLIFICATION_HANDOFF_20261003\\C_PRIVATE_OFFICIAL_SOURCES\\TMUX1109.pdf",
+    "publicBulkIncluded": false,
+    "sameLogicalSourcePreviouslyRead": true,
+    "HTTP": 200,
+    "bytes": 1985546,
+    "SHA256": "72faac830c3b5f8775ab4c1b3b3cee1d7f1feaa5ae5d9272c9274384dd245ee7",
+    "contentType": "application/pdf",
+    "isPDF": true
+  },
+  {
+    "id": "S2",
+    "url": "https://www.ti.com/lit/ds/symlink/lp5912.pdf",
+    "privateArchive": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\NEW_PRO_CIRCUIT_SIMPLIFICATION_HANDOFF_20261003\\C_PRIVATE_OFFICIAL_SOURCES\\LP5912.pdf",
+    "publicBulkIncluded": false,
+    "sameLogicalSourcePreviouslyRead": true,
+    "HTTP": 200,
+    "bytes": 2731822,
+    "SHA256": "de84246f830e2a081e8a83beb480003338f30e2aed518357cbf6757e0b858b13",
+    "contentType": "application/pdf",
+    "isPDF": true
+  },
+  {
+    "id": "S3",
+    "url": "https://assets.nexperia.com/documents/data-sheet/BAT54XY.pdf",
+    "privateArchive": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\NEW_PRO_CIRCUIT_SIMPLIFICATION_HANDOFF_20261003\\C_PRIVATE_OFFICIAL_SOURCES\\BAT54XY.pdf",
+    "publicBulkIncluded": false,
+    "sameLogicalSourcePreviouslyRead": true,
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "S4",
+    "url": "https://e2e.ti.com/support/power-management-group/power-management/f/power-management-forum/1345093/lp5912-inrush-current-when-cout-is-10uf",
+    "privateArchive": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\NEW_PRO_CIRCUIT_SIMPLIFICATION_HANDOFF_20261003\\C_PRIVATE_OFFICIAL_SOURCES\\TI_LP5912_10UF_QA.html",
+    "publicBulkIncluded": false,
+    "sameLogicalSourcePreviouslyRead": true,
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  }
+]

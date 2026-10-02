@@ -1,0 +1,31 @@
+C isolated standard TIA OP and scalar feedback AC screen, four ideal row bounds
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VEX vex 0 PWL(0 2.5 5u 2.5 5.01u 2.25)
+VRVAL rval 0 PWL(0 800 399.9u 800 400u 1000 799.9u 1000 800u 7000 1199.9u 7000 1200u 8000)
+VTEST minus col DC 0 AC 1
+XT vcm minus v5 0 out OPA4388
+RSEL col vex R={v(rval)}
+RUN1 col vcm 800
+RUN2 col vcm 800
+RUN3 col vcm 800
+RF out col 4.99k
+CF out col 2.2n
+CCOL col 0 1n
+RADC out ain 100
+CADC ain 0 10n
+RIN ain 0 1meg
+.options method=gear
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+op
+wrdata op.txt v(col) v(minus) v(out) v(ain)
+tran 100n 1600u 0 100n
+wrdata trace.txt v(col) v(out) v(ain) v(vex) v(rval)
+quit
+.endc
+.end
+

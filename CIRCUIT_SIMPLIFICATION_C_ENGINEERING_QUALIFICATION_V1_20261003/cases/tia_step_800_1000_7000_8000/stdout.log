@@ -1,0 +1,205 @@
+Note: gnd in a subcircuit is not set to 0 automatically
+
+Note: Compatibility modes selected: ps a
+
+
+Circuit: c isolated standard tia op and scalar feedback ac screen, four ideal row bounds
+
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+No. of Data Rows : 1
+Reducing trtol to 1 for xspice 'A' devices
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Using SPARSE 1.3 as Direct Linear Solver
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+v5                                           5
+vcm                                        2.5
+vex                                        2.5
+rval                                       800
+minus                                      2.5
+col                                        2.5
+xt.n3294772                                2.5
+xt.n3294776                                2.5
+xt.n3294626                            2.54441
+xt.n3294630                            2.52115
+xt.mid                                     2.5
+xt.n47456861                           2.54441
+xt.n4736080                            2.50008
+xt.n3294524                            2.50004
+xt.n47492651                           2.54441
+xt.n47965841                           2.54441
+xt.n4797748                            2.54441
+xt.n4797760                            2.51178
+xt.n48001371                           2.54441
+xt.n4809008                                2.5
+xt.n2991553                                2.5
+xt.n4817896                            2.50104
+xt.n2991581                                2.5
+xt.n2992397                                  5
+xt.n2992375                                2.5
+xt.n2992413                         2.5025e-06
+xt.n2991741                                2.5
+xt.n2991765                                2.5
+xt.n2991811                                2.5
+xt.n2991831                                2.5
+xt.n2991907                                2.5
+xt.n2991925                                2.5
+xt.n2991969                            2.50004
+xt.n2992033                            4.98505
+xt.n2992029                          0.0234049
+xt.n2992093                                2.5
+xt.n2992099                                2.5
+xt.sw_ol_opa4388                           2.5
+xt.vimon                               2.50251
+xt.vout_s                              2.50004
+xt.n2991657                                2.5
+xt.clamp                               2.50004
+xt.vclp                                2.50004
+xt.n4031911                            2.50004
+xt.n3827259                             2.5444
+xt.n3828449                            2.50003
+xt.n3850714                            2.50104
+xt.n3850724                                2.5
+xt.n4243633                              1.186
+xt.n2991579                                2.5
+xt.esdp                                    2.5
+xt.esdn                                    2.5
+xt.n2992163                            2.50004
+out                                    2.50004
+xt.n3294618                            2.50004
+xt.cl_clamp                            2.50004
+xt.claw_clamp                          2.50004
+xt.n3201092                            2.54441
+xt.vcc_b                                     5
+xt.vee_b                               2.5e-06
+xt.n2991563                                2.5
+xt.n2991555                                2.5
+xt.vcc_clp                             4.98505
+xt.vee_clp                           0.0234049
+xt.n2992299                              -52.5
+xt.n2992295                              -52.5
+xt.n2992323                               57.5
+xt.n2992331                               57.5
+xt.n2992235                            2.50004
+xt.vsense                              2.50004
+xt.n2991587                                2.5
+xt.n2991583                                2.5
+xt.n4747399                            2.54441
+xt.n4745674                            2.54441
+xt.n4796554                            2.54441
+xt.n4749239                            2.54441
+xt.n4796572                            2.54441
+xt.n4798545                            2.54441
+xt.n4800105                            2.54441
+xt.n2991573                                2.5
+xt.n2991619                                2.5
+xt.n2991623                                5.1
+xt.n2991635                         -0.0999975
+xt.n2991643                                2.5
+xt.n2991667                                2.5
+xt.n3294682                            2.54436
+xt.n2991729                                2.5
+xt.n2991763                                2.5
+xt.n2991807                               62.5
+xt.n2991809                                2.5
+xt.n2991837                                2.5
+xt.n2991849                              -57.5
+xt.n2991901                              152.5
+xt.n2991905                                2.5
+xt.n2991931                                2.5
+xt.n2991943                             -147.5
+xt.n2991997                            4.98505
+xt.n2992001                          0.0234049
+xt.v11                                     2.5
+xt.v12                                     2.5
+xt.n2992105                                2.5
+xt.n2992151                            2.50251
+xt.n2992287                               57.5
+xt.n2992267                              -52.5
+xt.x_u10.gvo+_int1                           0
+xt.x_u10.gvo-_int1                           0
+xt.x_u11.gvo+_int1                           0
+xt.x_u11.gvo-_int1                           0
+xt.x_u12.gvo+_int1                           0
+xt.x_u12.gvo-_int1                           0
+xt.x_u16.gsw+_int1                           0
+xt.x_u18.g1_int1                   1.49506e-05
+xt.x_u18.g1_int2                    0.00250789
+xt.x_u19.g1_int1                   2.34024e-05
+xt.x_u19.g1_int2                   -0.00250789
+xt.x_u22.g1_int1                             0
+xt.x_u23.g1_int1                             0
+xt.x_u26.g1_int1                   2.50789e-06
+xt.x_u27.g1_int1                             0
+xt.x_u30.g1_int1                  -1.40513e-16
+xt.x_u31.g1_int1                   4.34649e-11
+xt.x_u32.g1_int1                     0.0443665
+xt.x_u35.g1_int1                             0
+xt.x_u38.3                                   0
+xt.x_u38.5                                   0
+xt.x_u39.3                                   0
+xt.x_u39.5                                   0
+xt.x_u4.e1_int1                      -4.67e-06
+xt.x_u40.5                                   0
+xt.x_u6.g1_int1                    2.87512e-06
+ain                                    2.49979
+b.xt.x_u6.bg1#branch                         0
+b.xt.x_u4.be1#branch                         0
+b.xt.x_u35.bg1#branch                        0
+b.xt.x_u32.bg1#branch                        0
+b.xt.x_u31.bg1#branch                        0
+b.xt.x_u30.bg1#branch                        0
+b.xt.x_u27.bg1#branch                        0
+b.xt.x_u26.bg1#branch                        0
+b.xt.x_u23.bg1#branch                        0
+b.xt.x_u22.bg1#branch                        0
+b.xt.x_u19.bg1#branch                        0
+b.xt.x_u18.bg1#branch                        0
+b.xt.x_u16.bgsw+#branch                      0
+b.xt.x_u12.bgvo-#branch                      0
+b.xt.x_u12.bgvo+#branch                      0
+b.xt.x_u11.bgvo-#branch                      0
+b.xt.x_u11.bgvo+#branch                      0
+b.xt.x_u10.bgvo-#branch                      0
+b.xt.x_u10.bgvo+#branch                      0
+h.xt.x_h3.h_h3#branch                        0
+v.xt.x_h3.vh_h3#branch               5.511e-08
+h.xt.x_h2.h_h2#branch                        0
+v.xt.x_h2.vh_h2#branch              -5.511e-08
+h.xt.x_h1.h_h1#branch              -2.5064e-15
+v.xt.x_h1.vh_h1#branch             2.50789e-06
+e.xt.x_u40.e3#branch               2.98926e-11
+e.xt.x_u4.e1#branch                1.27411e-13
+e.xt.x_u39.e1#branch                         0
+e.xt.x_u38.e1#branch                         0
+e.xt.e_e4#branch                             0
+e.xt.e_e3#branch                  -4.30902e-17
+e.xt.e_e1#branch                   9.61293e-11
+v.xt.v_v_orp#branch                          0
+v.xt.v_v_orn#branch                          0
+v.xt.v_v_iscp#branch                    -6e-11
+v.xt.v_v_iscn#branch                     6e-11
+v.xt.v_v_grp#branch                   -1.5e-10
+v.xt.v_v_grn#branch                    1.5e-10
+v.xt.v_vcm_min#branch                  2.6e-12
+v.xt.v_vcm_max#branch                 -2.6e-12
+vtest#branch                       3.08384e-11
+vrval#branch                                 0
+vex#branch                          2.0314e-09
+vcm#branch                         6.06437e-09
+v5#branch                          -0.00190251
+a.xt.x_u19.ag1#branch_1_0                    0
+a.xt.x_u18.ag1#branch_1_0                    0
+
+ Reference value :  2.02296e-04 Reference value :  5.40887e-04 Reference value :  9.22259e-04 Reference value :  1.24704e-03 Reference value :  1.55598e-03
+No. of Data Rows : 17739
+ngspice-47 done

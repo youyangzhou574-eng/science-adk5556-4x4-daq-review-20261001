@@ -1,0 +1,51 @@
+test_compound_rejection_never_partially_charges (test_budget.BudgetGuardTests.test_compound_rejection_never_partially_charges) ... FAIL
+test_deadline_rejects_before_launch (test_budget.BudgetGuardTests.test_deadline_rejects_before_launch) ... FAIL
+test_sticky_stop_rejects_unused_capacity (test_budget.BudgetGuardTests.test_sticky_stop_rejects_unused_capacity) ... FAIL
+test_valid_compound_charge (test_budget.BudgetGuardTests.test_valid_compound_charge) ... FAIL
+
+======================================================================
+FAIL: test_compound_rejection_never_partially_charges (test_budget.BudgetGuardTests.test_compound_rejection_never_partially_charges)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_SIMPLIFICATION_C_ENGINEERING_QUALIFICATION_V1\test_budget.py", line 11, in test_compound_rejection_never_partially_charges
+    with self.assertRaises(RuntimeError):budget_guard.precharge(self.b,{'OP_AC_PZ':1,'TRAN':1},self.now)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_deadline_rejects_before_launch (test_budget.BudgetGuardTests.test_deadline_rejects_before_launch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_SIMPLIFICATION_C_ENGINEERING_QUALIFICATION_V1\test_budget.py", line 17, in test_deadline_rejects_before_launch
+    with self.assertRaises(RuntimeError):budget_guard.precharge(self.b,{'OP_AC_PZ':1},self.now+timedelta(hours=7))
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_sticky_stop_rejects_unused_capacity (test_budget.BudgetGuardTests.test_sticky_stop_rejects_unused_capacity)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_SIMPLIFICATION_C_ENGINEERING_QUALIFICATION_V1\test_budget.py", line 15, in test_sticky_stop_rejects_unused_capacity
+    with self.assertRaises(RuntimeError):budget_guard.precharge(self.b,{'OP_AC_PZ':1},self.now)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_valid_compound_charge (test_budget.BudgetGuardTests.test_valid_compound_charge)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_SIMPLIFICATION_C_ENGINEERING_QUALIFICATION_V1\test_budget.py", line 21, in test_valid_compound_charge
+    self.assertEqual(result['actual'],{'OP_AC_PZ':32,'TRAN':1})
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'OP_AC_PZ': 31, 'TRAN': 0} != {'OP_AC_PZ': 32, 'TRAN': 1}
+- {'OP_AC_PZ': 31, 'TRAN': 0}
+?               ^          ^
+
++ {'OP_AC_PZ': 32, 'TRAN': 1}
+?               ^          ^
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+FAILED (failures=4)

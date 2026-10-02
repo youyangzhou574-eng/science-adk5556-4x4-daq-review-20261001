@@ -1,0 +1,15 @@
+{
+  "screenOnly": true,
+  "fixedVCM": 2.5,
+  "fixedVEXC": 2.25,
+  "parallelElements": 4,
+  "sensorOhm": 800,
+  "switchModel": "ideal SW + max Ron4.9ohm and assumed Roff1e12, not a qualified TMUX model",
+  "rowCapacitance_F": 1e-09,
+  "rowCapacitanceMeasured": false,
+  "fullMatrix": false,
+  "TIAMacros": 0,
+  "REF3025Macro": 0,
+  "adcMacro": 0,
+  "blankIncluded": false
+}

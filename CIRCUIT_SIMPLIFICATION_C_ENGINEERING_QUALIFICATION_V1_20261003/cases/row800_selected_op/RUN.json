@@ -1,0 +1,21 @@
+{
+  "case": "row800_selected_op",
+  "PID": 68580,
+  "startedUTC": "2026-10-02T18:39:40.394766+00:00",
+  "exe": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+  "command": [
+    "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\R2_VERIFICATION_AND_MINIMAL_ECO_V1\\runtime\\Spice64\\bin\\ngspice_con.exe",
+    "-n",
+    "-D",
+    "ngbehavior=psa",
+    "-b",
+    "case.cir"
+  ],
+  "costs": {
+    "OP_AC_PZ": 1
+  },
+  "limitSeconds": 60,
+  "forcedStop": false,
+  "returncode": 0,
+  "wallSeconds": 0.41538710007444024
+}

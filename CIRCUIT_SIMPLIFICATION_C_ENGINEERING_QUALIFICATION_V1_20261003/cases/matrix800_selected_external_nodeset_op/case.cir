@@ -1,0 +1,80 @@
+C full16 resistor five-amplifier candidate OP, ideal reference and equivalent mux
+.include "../../models/OPAx388.LIB"
+.include "../../models/OPA4388_ORIGINAL.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VEX vex 0 2.25
+XROW vex fb v5 0 out OPAx388
+.model MUX SW(Ron=4.9 Roff=1e12 Vt=.5 Vh=.1)
+VSEL0 sel0 0 1
+SD0 out row0 sel0 0 MUX
+SS0 row0 fb sel0 0 MUX
+CLROW0 row0 0 1n
+VSEL1 sel1 0 0
+SD1 out row1 sel1 0 MUX
+SS1 row1 fb sel1 0 MUX
+CLROW1 row1 0 1n
+VSEL2 sel2 0 0
+SD2 out row2 sel2 0 MUX
+SS2 row2 fb sel2 0 MUX
+CLROW2 row2 0 1n
+VSEL3 sel3 0 0
+SD3 out row3 sel3 0 MUX
+SS3 row3 fb sel3 0 MUX
+CLROW3 row3 0 1n
+XT0 vcm col0 v5 0 tia0 OPA4388
+RF0 tia0 col0 4.99k
+CF0 tia0 col0 2.2n
+RADC0 tia0 ain0 100
+CADC0 ain0 0 10n
+RIN0 ain0 0 1meg
+CLCOL0 col0 0 1n
+RS00 row0 col0 800
+RS10 row1 col0 800
+RS20 row2 col0 800
+RS30 row3 col0 800
+XT1 vcm col1 v5 0 tia1 OPA4388
+RF1 tia1 col1 4.99k
+CF1 tia1 col1 2.2n
+RADC1 tia1 ain1 100
+CADC1 ain1 0 10n
+RIN1 ain1 0 1meg
+CLCOL1 col1 0 1n
+RS01 row0 col1 800
+RS11 row1 col1 800
+RS21 row2 col1 800
+RS31 row3 col1 800
+XT2 vcm col2 v5 0 tia2 OPA4388
+RF2 tia2 col2 4.99k
+CF2 tia2 col2 2.2n
+RADC2 tia2 ain2 100
+CADC2 ain2 0 10n
+RIN2 ain2 0 1meg
+CLCOL2 col2 0 1n
+RS02 row0 col2 800
+RS12 row1 col2 800
+RS22 row2 col2 800
+RS32 row3 col2 800
+XT3 vcm col3 v5 0 tia3 OPA4388
+RF3 tia3 col3 4.99k
+CF3 tia3 col3 2.2n
+RADC3 tia3 ain3 100
+CADC3 ain3 0 10n
+RIN3 ain3 0 1meg
+CLCOL3 col3 0 1n
+RS03 row0 col3 800
+RS13 row1 col3 800
+RS23 row2 col3 800
+RS33 row3 col3 800
+.options method=gear
+.nodeset v(row0)=2.25 v(row1)=2.5 v(row2)=2.5 v(row3)=2.5 v(col0)=2.5 v(col1)=2.5 v(col2)=2.5 v(col3)=2.5 v(fb)=2.25 v(out)=2.243875 v(tia0)=4.059375 v(tia1)=4.059375 v(tia2)=4.059375 v(tia3)=4.059375 v(ain0)=4.058969 v(ain1)=4.058969 v(ain2)=4.058969 v(ain3)=4.058969
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+op
+wrdata op.txt v(row0) v(row1) v(row2) v(row3) v(col0) v(col1) v(col2) v(col3) v(tia0) v(tia1) v(tia2) v(tia3) v(ain0) v(ain1) v(ain2) v(ain3)
+quit
+.endc
+.end
+

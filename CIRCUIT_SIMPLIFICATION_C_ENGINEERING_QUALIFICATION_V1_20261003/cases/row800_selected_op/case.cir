@@ -1,0 +1,25 @@
+C first Type III selected-row screening, not full matrix qualification
+.include "../../models/OPAx388.LIB"
+V5 v5 0 5
+VCM vcm 0 2.5
+VEX vex 0 2.25
+XROW vex fb v5 0 out OPAx388
+.model MUX SW(Ron=4.9 Roff=1e12 Vt=.5 Vh=.1)
+VSEL sel 0 1
+SD out row sel 0 MUX
+SS row fb sel 0 MUX
+R00 row vcm 800
+R01 row vcm 800
+R02 row vcm 800
+R03 row vcm 800
+CLROW row 0 1n
+.options method=gear
+.control
+set wr_singlescale
+set wr_vecnames
+set numdgt=15
+op
+wrdata op.txt v(row) v(fb) v(out) i(VCM)
+quit
+.endc
+.end

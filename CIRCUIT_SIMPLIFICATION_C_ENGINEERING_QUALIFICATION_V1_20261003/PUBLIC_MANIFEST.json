@@ -1,0 +1,587 @@
+{
+  "package": "CIRCUIT-SIMPLIFICATION-C-ENGINEERING-QUALIFICATION-V1",
+  "publicDirectory": "CIRCUIT_SIMPLIFICATION_C_ENGINEERING_QUALIFICATION_V1_20261003",
+  "reportType": "COMPLETE_BLOCKED_RECEIPT_NOT_IMPLEMENTED_C_ECO",
+  "included": [
+    {
+      "path": "archive_sources_private.py",
+      "bytes": 1285,
+      "sha256": "C69CBA3B91C5A5536BA8DBAA3EC4A719D82FAB9404BB4990BCAEBF1B65DF8A7C"
+    },
+    {
+      "path": "BASELINE_ACTUAL.net",
+      "bytes": 231286,
+      "sha256": "C6C8302D072EC6B4CF7BAFF5E7C22E9C2DD38997787BC1FA1779908F818FC7A1"
+    },
+    {
+      "path": "BASELINE_ACTUAL_RAW.net",
+      "bytes": 217726,
+      "sha256": "509303E1E3097F0718C8F6171B0B33DAE028417BED299E2ABCBFEABBE5E46D14"
+    },
+    {
+      "path": "BASELINE_ALL_SCHEMATIC_PINS.csv",
+      "bytes": 13544,
+      "sha256": "E994B5AB10D0A8ABD2219F4437589799B20C3BC2076A8FF2A9F16CA30247BF2A"
+    },
+    {
+      "path": "BASELINE_AUDIT.json",
+      "bytes": 665,
+      "sha256": "BB081B0400F4AD78504C294E30B946E2E6CDFD070817C7CE6B6BF0BBEFDC6E5A"
+    },
+    {
+      "path": "BASELINE_PARTS_AND_NETS.json",
+      "bytes": 360925,
+      "sha256": "0AAEB147751D17BF0BF8653D34161C2614E11E15E30EE878C32796E1C302D628"
+    },
+    {
+      "path": "budget_guard.py",
+      "bytes": 648,
+      "sha256": "FE3D556C7756197B747B976A542A8B7059FDDC2A30DE7F8824376194DFF88DBD"
+    },
+    {
+      "path": "C_LIBRARY_CANDIDATES.json",
+      "bytes": 24805,
+      "sha256": "3BBEFF46B072F9FC8806058F57D8AE8341DD94EAB74DE522A5596B8785BF1921"
+    },
+    {
+      "path": "C_SESSION_CLOSE.json",
+      "bytes": 676,
+      "sha256": "75F3A5163BDA4027022016AE7611CA3690A15F1176896A2300D08C0E9817A346"
+    },
+    {
+      "path": "capture_baseline.js",
+      "bytes": 1842,
+      "sha256": "D9CEB0D2576A945FFFD1AF62E4CF4130FB3091C86C53DCF285BC3ED2055C1004"
+    },
+    {
+      "path": "CASE_ASSUMPTION_OVERRIDES.md",
+      "bytes": 1848,
+      "sha256": "A4809A245849ACA62BAAB0D99FB545484830ED2FD9FE431257B8D6869A30F1DF"
+    },
+    {
+      "path": "CASE_EXECUTION_INDEX.csv",
+      "bytes": 4235,
+      "sha256": "54DFE96819E282CCC183F35532F0EA8FBF688367AC695EFCF8D0072EE9CFD010"
+    },
+    {
+      "path": "CASE_EXECUTION_INDEX.json",
+      "bytes": 7641,
+      "sha256": "C85FC302F1F67D80692551A3FC4916AE5730AEB24D08DA25E6492F9EF6E9BAC4"
+    },
+    {
+      "path": "cases/matrix800_family_model_op/ASSUMPTIONS.json",
+      "bytes": 490,
+      "sha256": "4A48D745EE80DC097994CC10F92E7F53D19AB45E22211D2CDD77E69D60E31A90"
+    },
+    {
+      "path": "cases/matrix800_family_model_op/case.cir",
+      "bytes": 1780,
+      "sha256": "5F8A43FD16C0DF1F8DEE616ACD7961C7015BB71C5B10AC6446AF2E2DEC9C9B80"
+    },
+    {
+      "path": "cases/matrix800_family_model_op/RUN.json",
+      "bytes": 608,
+      "sha256": "C4CD5DBAC57EC917E8D8862530CB2C33242D52C5FE4964D8CE8CFAFD9305C741"
+    },
+    {
+      "path": "cases/matrix800_family_model_op/stderr.log",
+      "bytes": 944,
+      "sha256": "2F87FFC6DC5CBDB74449D405186C637622EEBA2372CA999D1F7BD96AF50D2D19"
+    },
+    {
+      "path": "cases/matrix800_family_model_op/stdout.log",
+      "bytes": 63997,
+      "sha256": "AE098B433828129397383B33A6B7B78DBB14912D22E33DCF5CB868C5ADCE225A"
+    },
+    {
+      "path": "cases/matrix800_selected_external_nodeset_op/ASSUMPTIONS.json",
+      "bytes": 490,
+      "sha256": "4A48D745EE80DC097994CC10F92E7F53D19AB45E22211D2CDD77E69D60E31A90"
+    },
+    {
+      "path": "cases/matrix800_selected_external_nodeset_op/case.cir",
+      "bytes": 2050,
+      "sha256": "B53F60E61B93DFDA8A657F87B70018A1561067AD1B0242259A4FBDAEF1A8D5AB"
+    },
+    {
+      "path": "cases/matrix800_selected_external_nodeset_op/RUN.json",
+      "bytes": 621,
+      "sha256": "39B80E651BEDFACE73B1351E2F5E766252C105D7135D1A3D6DA126541824A7F8"
+    },
+    {
+      "path": "cases/matrix800_selected_external_nodeset_op/stderr.log",
+      "bytes": 945,
+      "sha256": "D1C8FB64711292651B0988C0C5492CE3D6007D46C32D8DEF72D6C12E42F1D8FF"
+    },
+    {
+      "path": "cases/matrix800_selected_external_nodeset_op/stdout.log",
+      "bytes": 63997,
+      "sha256": "EDD9DFC346CE684E61D996350A862B556E96A9849F700D9B11596686965B1086"
+    },
+    {
+      "path": "cases/matrix800_selected_op/ASSUMPTIONS.json",
+      "bytes": 490,
+      "sha256": "4A48D745EE80DC097994CC10F92E7F53D19AB45E22211D2CDD77E69D60E31A90"
+    },
+    {
+      "path": "cases/matrix800_selected_op/case.cir",
+      "bytes": 1778,
+      "sha256": "11D9C5457791DAFB8AED6BE396A60082F2AC78FC365246997B5A1C300352FCD9"
+    },
+    {
+      "path": "cases/matrix800_selected_op/RUN.json",
+      "bytes": 604,
+      "sha256": "4FD88F2328DBF298856478C4E545652E43B37E1E4A4208CA6B26C9BD5FFCB6B9"
+    },
+    {
+      "path": "cases/matrix800_selected_op/stderr.log",
+      "bytes": 945,
+      "sha256": "D1C8FB64711292651B0988C0C5492CE3D6007D46C32D8DEF72D6C12E42F1D8FF"
+    },
+    {
+      "path": "cases/matrix800_selected_op/stdout.log",
+      "bytes": 63997,
+      "sha256": "EDD9DFC346CE684E61D996350A862B556E96A9849F700D9B11596686965B1086"
+    },
+    {
+      "path": "cases/row800_blank_to_enable/ASSUMPTIONS.json",
+      "bytes": 386,
+      "sha256": "D81371C862C5C71337BEB156AAE2E4DC06F540402EC806FB4C102B301A29FD13"
+    },
+    {
+      "path": "cases/row800_blank_to_enable/case.cir",
+      "bytes": 622,
+      "sha256": "CAD77908DC7A1D4454CE0458D2070C8F8A0A4E43D0D29967455FA7B5FB178A82"
+    },
+    {
+      "path": "cases/row800_blank_to_enable/op.txt",
+      "bytes": 234,
+      "sha256": "BD16DA065BDC922FFC8A80D1D4CB0F288288D25A0E7A0FEF3A0DA0FD69A12E75"
+    },
+    {
+      "path": "cases/row800_blank_to_enable/RUN.json",
+      "bytes": 622,
+      "sha256": "1EAA95E2CF834466D2B9B7E0C47946F60AB25FF2B294F56989715692FE1FFD37"
+    },
+    {
+      "path": "cases/row800_blank_to_enable/stderr.log",
+      "bytes": 154,
+      "sha256": "6B9DD95F903B48DF2C207E39CCF043CB45F5D8ED6D68D5C1BD15422A988C2B8B"
+    },
+    {
+      "path": "cases/row800_blank_to_enable/stdout.log",
+      "bytes": 9184,
+      "sha256": "D1FCF4124A73594940A52103813DF30481AFC902FF004FA62D9683C0866B1923"
+    },
+    {
+      "path": "cases/row800_blank_to_enable/trace.txt",
+      "bytes": 484380,
+      "sha256": "BC2165A1F744433590812BB12BF113E24AF06AA382FDFA928C38B7EE5F80001E"
+    },
+    {
+      "path": "cases/row800_selected_op/ASSUMPTIONS.json",
+      "bytes": 386,
+      "sha256": "D81371C862C5C71337BEB156AAE2E4DC06F540402EC806FB4C102B301A29FD13"
+    },
+    {
+      "path": "cases/row800_selected_op/case.cir",
+      "bytes": 517,
+      "sha256": "173B4D61B1905B759078DE40A6F993F305F6FEE7588E66D932E3A2BA2901169D"
+    },
+    {
+      "path": "cases/row800_selected_op/op.txt",
+      "bytes": 234,
+      "sha256": "BD16DA065BDC922FFC8A80D1D4CB0F288288D25A0E7A0FEF3A0DA0FD69A12E75"
+    },
+    {
+      "path": "cases/row800_selected_op/RUN.json",
+      "bytes": 602,
+      "sha256": "BAEC6E8E971264CDAB2341B97D343E8239338B5F33FC52D9A52F9A2D7179EEED"
+    },
+    {
+      "path": "cases/row800_selected_op/stderr.log",
+      "bytes": 77,
+      "sha256": "C9B5045BE76237B7D31A304F5AC8750476BFB693152D3648CA6B9461105D1199"
+    },
+    {
+      "path": "cases/row800_selected_op/stdout.log",
+      "bytes": 406,
+      "sha256": "8D02377BAF23D46F9E8839B2CCA4394FE3669005D408B49016AF4D7C4113579F"
+    },
+    {
+      "path": "cases/tia800_current_pz/case.cir",
+      "bytes": 571,
+      "sha256": "BA6D819EAF9E064940DD9ED243B7902E9A0ECAC2E6C458CD7A9CBEAD85D2B447"
+    },
+    {
+      "path": "cases/tia800_current_pz/op.txt",
+      "bytes": 234,
+      "sha256": "92AF2ABCBB6BDABD26A224A4E6C2388868F11E059EF95168E88B88ADB99A160B"
+    },
+    {
+      "path": "cases/tia800_current_pz/poles.txt",
+      "bytes": 6945,
+      "sha256": "D968E4FEBAD648DB29174884ADB12D87A1DEA592AA90BBB46054BC944CDD1F22"
+    },
+    {
+      "path": "cases/tia800_current_pz/RUN.json",
+      "bytes": 601,
+      "sha256": "F8CC60037B4FE57E685CF92DDFEBFA68BE57CABE6F261F18C2D02B73DFC61B7B"
+    },
+    {
+      "path": "cases/tia800_current_pz/stderr.log",
+      "bytes": 248,
+      "sha256": "E12C8F4211B0C299B9B9CD44D3F1878DCDB824A710F98682599E307124FCBBB6"
+    },
+    {
+      "path": "cases/tia800_current_pz/stdout.log",
+      "bytes": 570,
+      "sha256": "0ACF91B162E4C0FF4A4625EE23D1248F98C7BD0F099A5646C5F92295ED10F5C1"
+    },
+    {
+      "path": "cases/tia800_op_ac/ac.txt",
+      "bytes": 130726,
+      "sha256": "BCBAFA62BE7ABC84ABF757C261FBA2CA0CC79DAFE4C4461D19EB113D81A3E279"
+    },
+    {
+      "path": "cases/tia800_op_ac/case.cir",
+      "bytes": 581,
+      "sha256": "898DFD95D0C9A6EE9C0B80F10259C04246BFD16FC2363AD72568F57199956DBB"
+    },
+    {
+      "path": "cases/tia800_op_ac/op.txt",
+      "bytes": 234,
+      "sha256": "92AF2ABCBB6BDABD26A224A4E6C2388868F11E059EF95168E88B88ADB99A160B"
+    },
+    {
+      "path": "cases/tia800_op_ac/RUN.json",
+      "bytes": 596,
+      "sha256": "FA4852032E193F0A5E9C41F5908D4C9D3A307C5F4B0887F3CB6D3F36DEB13793"
+    },
+    {
+      "path": "cases/tia800_op_ac/stderr.log",
+      "bytes": 154,
+      "sha256": "6B9DD95F903B48DF2C207E39CCF043CB45F5D8ED6D68D5C1BD15422A988C2B8B"
+    },
+    {
+      "path": "cases/tia800_op_ac/stdout.log",
+      "bytes": 554,
+      "sha256": "0EBE47AF001429720CE2004731AD0B3E9E14D0C50836BA3B6BCB4F29755C8B63"
+    },
+    {
+      "path": "cases/tia_step_800_1000_7000_8000/case.cir",
+      "bytes": 726,
+      "sha256": "21F7E126004350FE486B6D6D62BBF5E4053561BE86BD44ED9C2A3C4204B757FC"
+    },
+    {
+      "path": "cases/tia_step_800_1000_7000_8000/op.txt",
+      "bytes": 234,
+      "sha256": "5B26A6DF52AFE4C851854791CFE5A8D6CE5166D589D4C0B84930B1C28642A80B"
+    },
+    {
+      "path": "cases/tia_step_800_1000_7000_8000/RUN.json",
+      "bytes": 627,
+      "sha256": "A3A09F63D8FC77AB756AB0DE953BCDA089DEC548C0EBD182281035C3EA098D8B"
+    },
+    {
+      "path": "cases/tia_step_800_1000_7000_8000/stderr.log",
+      "bytes": 496,
+      "sha256": "9D870DD08AC7AC4ACE7330960F994A9C114E53CA6FF510590BC3062CD75A419B"
+    },
+    {
+      "path": "cases/tia_step_800_1000_7000_8000/stdout.log",
+      "bytes": 9418,
+      "sha256": "9AA82E9339DECE19CE35698ABBF0198881D9AD8A198E45F2E85516F5C097CF47"
+    },
+    {
+      "path": "cases/tia_step_800_1000_7000_8000/trace.txt",
+      "bytes": 2483600,
+      "sha256": "822812C89FEFBC731299E3DB4E7C8862438A054556DCC8F736355EAD17F70ABE"
+    },
+    {
+      "path": "cli_call.py",
+      "bytes": 2109,
+      "sha256": "E5928B3CA49C9DEC77BC0991E2C02CC8AABA6D02E665B5A78A3E92A5DC969600"
+    },
+    {
+      "path": "COMPLETE_C_QUALIFICATION_RECEIPT.md",
+      "bytes": 9388,
+      "sha256": "161D3AF21D546F45AECF62DA6E148D615CC4318E79FE485419C0FCEC08C0CB03"
+    },
+    {
+      "path": "context_and_candidates.js",
+      "bytes": 408,
+      "sha256": "5E038D556D15634C5E6795A0DA112B1F5DF230B93CA39E1AEC5FAC71E0033958"
+    },
+    {
+      "path": "EXECUTION_BUDGET.json",
+      "bytes": 4087,
+      "sha256": "3C2CA018DD72928F3A82EFF2D17F071289E1F03F1622E68BDCEFE7747AAC87BD"
+    },
+    {
+      "path": "FINAL_REVIEW.json",
+      "bytes": 443,
+      "sha256": "9C5EFCC890E6E08442CF1AA692700E539DE060E2071AE84C85D91502BCCF6259"
+    },
+    {
+      "path": "FROZEN_INPUT_CURRENT_SHA.json",
+      "bytes": 819,
+      "sha256": "B52DDA33B2BA93A3C216B32ADFD0E30AAF9DD55510654D30E6A1AC3D0E29EEF4"
+    },
+    {
+      "path": "GATES.json",
+      "bytes": 368,
+      "sha256": "2140B92132970E7ADB2FC85471ED400121F00EEAB79FD4BF49CE69D1E2CCF0A0"
+    },
+    {
+      "path": "LIMITED_SCREEN_SUMMARY.json",
+      "bytes": 1928,
+      "sha256": "60F4608065D9DF1CD073641E9EBB3C3C46A1AD46A0F9BC624D1EC028DE122BA7"
+    },
+    {
+      "path": "MODEL_SOURCE_SHA.json",
+      "bytes": 577,
+      "sha256": "FD57503F5BF05967FD06426FAC18AFDBF851CFDF30B2895E88C8263309447EFA"
+    },
+    {
+      "path": "models/OPA4388_ORIGINAL.LIB",
+      "bytes": 17385,
+      "sha256": "958FF133418BD47522015057497858263E73B9E6D75860EF9C0B6FDABED5CD0D"
+    },
+    {
+      "path": "models/OPAx388.LIB",
+      "bytes": 17624,
+      "sha256": "BB9C6C7AC80DC7FF1AC5B698C05C53F0A8D55BABB1AB210150D9BD910A6BF8E4"
+    },
+    {
+      "path": "OFFICIAL_SOURCE_ARCHIVE_IDENTITY.json",
+      "bytes": 1901,
+      "sha256": "BD078674267F76FB41BD3EBCFD4FCA1EECCE2428D358F8BEAD3A4A7A91D79E90"
+    },
+    {
+      "path": "PLAN_AND_LEDGER.md",
+      "bytes": 4627,
+      "sha256": "BF4EA2606E451FAC870DF85CB39C84B43A6F64558AF72B953A79F72A4F8ACE7F"
+    },
+    {
+      "path": "postprocess_receipt.py",
+      "bytes": 6078,
+      "sha256": "9B371D189C9C7B21C2408F7732F3268557A5147208228EA362A14468C5AB9331"
+    },
+    {
+      "path": "prepare_c_matrix_screen.py",
+      "bytes": 1789,
+      "sha256": "7152864B3CD78DC120CBAD98989AE095722C0A7949663931118FFFCF01482735"
+    },
+    {
+      "path": "prepare_row_screen.py",
+      "bytes": 2205,
+      "sha256": "64629C3B7B78FD2AB338F622C88AB8E7E46A720B5F4A58F4480B009272E2F373"
+    },
+    {
+      "path": "PRIVATE_COPY_SOURCE_COMPARE.json",
+      "bytes": 276,
+      "sha256": "EBC00A7F81506BDB4B6723FFD48418F0F622283E1B4A4C59F52F3CB8D2072CF7"
+    },
+    {
+      "path": "PRO_C_RULING_FULL.md",
+      "bytes": 25723,
+      "sha256": "5B94FBCAD546E5423B3B136374435226BFBF8C2F92517728C14185260AA0B8B2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 9388,
+      "sha256": "161D3AF21D546F45AECF62DA6E148D615CC4318E79FE485419C0FCEC08C0CB03"
+    },
+    {
+      "path": "REVIEW_DISPOSITION.json",
+      "bytes": 283,
+      "sha256": "007CD94AD51CF7FFB2AF19179A1B6CC4BAFEEDA24EC70FC34016FCA2B9DF76C5"
+    },
+    {
+      "path": "row800_blank_to_enable_TRACE.csv",
+      "bytes": 333988,
+      "sha256": "A8D9D5CE420DB1805A2E420954D2CE0351FF7D308805D2F498114775F09A964E"
+    },
+    {
+      "path": "run_one_screen.py",
+      "bytes": 1698,
+      "sha256": "4BEAEC7BBE5095CBE019D099D37BFD108F06B80977CDA10914F69874FF4341C6"
+    },
+    {
+      "path": "search_precision_parts.js",
+      "bytes": 301,
+      "sha256": "E1C0061107462AAA49660C700499430E6641229940F24A199EF636A6BD4A8A2D"
+    },
+    {
+      "path": "search_supervisor_r.js",
+      "bytes": 233,
+      "sha256": "AE64D37E5D7DD342F378B19E7C18A2642958243846F1FD9101DC1CDBF0ADEC03"
+    },
+    {
+      "path": "SOURCE_LOCATION_NOTES.md",
+      "bytes": 1451,
+      "sha256": "EB57B6CCDD6B51F4EE7B2BD00CBD74743CAF31BC29D848D6FA3A11F4442A32F4"
+    },
+    {
+      "path": "SOURCE_REGISTER.csv",
+      "bytes": 1267,
+      "sha256": "28422E430F3DDCC02AE8413FB5896AB6B5017B8EB5A7631378498D0BD27FA27F"
+    },
+    {
+      "path": "test_budget.py",
+      "bytes": 1283,
+      "sha256": "820CED21A0CB78285502281CB598B181658B4CED17D1DA86B74447F65F39F6B8"
+    },
+    {
+      "path": "TEST_BUDGET_FINAL.log",
+      "bytes": 563,
+      "sha256": "9815D4F49A2DA777432741D1330B6A69E718AF34310BE978A5710CA7A364AF6D"
+    },
+    {
+      "path": "TEST_BUDGET_GREEN.log",
+      "bytes": 563,
+      "sha256": "9815D4F49A2DA777432741D1330B6A69E718AF34310BE978A5710CA7A364AF6D"
+    },
+    {
+      "path": "TEST_BUDGET_RED.log",
+      "bytes": 3352,
+      "sha256": "64911296F01F967AF15BE0E148A3B7AEDEFBD59B404E827AA7992A1CC997F060"
+    },
+    {
+      "path": "TIA800_SCALAR_AC_SCREEN.csv",
+      "bytes": 141214,
+      "sha256": "7C16D718422841ABC0B84139D8C2F4959652A3B02B196825E22F37DBAAAA558D"
+    },
+    {
+      "path": "tia_step_800_1000_7000_8000_TRACE.csv",
+      "bytes": 1958449,
+      "sha256": "09D9FE37B001BD02227B31F0FEF16C440C676874984CBE39B9B0DF5D80EFE3F0"
+    }
+  ],
+  "excludedLocalOnly": [
+    {
+      "path": "__pycache__/budget_guard.cpython-313.pyc",
+      "reason": "Private account container or generated cache; not a public artifact",
+      "bytes": 1287
+    },
+    {
+      "path": "__pycache__/test_budget.cpython-313.pyc",
+      "reason": "Private account container or generated cache; not a public artifact",
+      "bytes": 3490
+    },
+    {
+      "path": "C_BASELINE_CAPTURE.json",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 13543147
+    },
+    {
+      "path": "C_BASELINE_CAPTURE.stderr",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 0
+    },
+    {
+      "path": "C_BASELINE_CAPTURE.stdout",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 4849747
+    },
+    {
+      "path": "C_CLOSE.json",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 543
+    },
+    {
+      "path": "C_CLOSE.stderr",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 40
+    },
+    {
+      "path": "C_CLOSE.stdout",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 85
+    },
+    {
+      "path": "C_CONTEXT_AND_CANDIDATES.json",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 110296
+    },
+    {
+      "path": "C_CONTEXT_AND_CANDIDATES.stderr",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 0
+    },
+    {
+      "path": "C_CONTEXT_AND_CANDIDATES.stdout",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 35735
+    },
+    {
+      "path": "C_ENGINEERING_WORK_PRIVATE_NOT_FOR_PUBLIC.eprj2",
+      "reason": "Private account container or generated cache; not a public artifact",
+      "bytes": 3244032
+    },
+    {
+      "path": "C_OPEN.json",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 1089
+    },
+    {
+      "path": "C_OPEN.stderr",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 0
+    },
+    {
+      "path": "C_OPEN.stdout",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 286
+    },
+    {
+      "path": "C_PRECISION_R_CANDIDATES.json",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 22320
+    },
+    {
+      "path": "C_PRECISION_R_CANDIDATES.stderr",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 0
+    },
+    {
+      "path": "C_PRECISION_R_CANDIDATES.stdout",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 8631
+    },
+    {
+      "path": "C_SESSION_CLOSE.stderr",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 0
+    },
+    {
+      "path": "C_SESSION_CLOSE.stdout",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 134
+    },
+    {
+      "path": "C_SUPERVISOR_R_CANDIDATES.json",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 9196
+    },
+    {
+      "path": "C_SUPERVISOR_R_CANDIDATES.stderr",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 0
+    },
+    {
+      "path": "C_SUPERVISOR_R_CANDIDATES.stdout",
+      "reason": "Raw CLI/context capture may include unnecessary private project metadata; sanitized baseline and local originals retained",
+      "bytes": 3415
+    },
+    {
+      "path": "finalize_blocked_delivery.py",
+      "reason": "Delivery preparation script retained locally; payload and manifest are exact public evidence",
+      "bytes": 10235
+    }
+  ],
+  "thirdPartyBulkArchives": "Outside this package; local only; public source links and archive identities retained",
+  "nativeCExportCount": 0,
+  "oldNativeNotRepublishedAsC": true
+}
