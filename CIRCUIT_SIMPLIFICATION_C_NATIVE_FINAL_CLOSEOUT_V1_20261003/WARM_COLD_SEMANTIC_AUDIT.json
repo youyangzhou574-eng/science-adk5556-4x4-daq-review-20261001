@@ -1,0 +1,9 @@
+{
+  "all101ComponentCoreCoordsPinSetsPropsManufacturerFootprintEqual": true,
+  "differentRefs": [],
+  "allPinNetMapExactlyEqual": true,
+  "warmRawSHA": "55ACE1CE4F0D8367D5CDFA0D59BCF49F1AACD32602F6A2C015EE19E08C938468",
+  "coldRawSHA": "AA3ED268E74A43DA1AB45546AB41B8D5372707908AC6589136B12CA209C25D2E",
+  "rawByteEqual": false,
+  "rawSHAInequalityNotElectricalInequality": true
+}

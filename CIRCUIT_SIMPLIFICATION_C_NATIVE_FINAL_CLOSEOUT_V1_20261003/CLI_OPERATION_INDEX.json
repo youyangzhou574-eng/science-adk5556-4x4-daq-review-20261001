@@ -1,0 +1,110 @@
+[
+  {
+    "receipt": "DIODE_READONLY_GUARD_RECEPTION.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_BEFORE_CAPTURE.json",
+    "returncode": 1,
+    "ok": false,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_COLD_CAPTURE.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_COLD_REOPEN.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_COLD_SESSION_CLOSE.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_COPY_IDENTITY.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_DIODE_CONTINUE_RESERVED_SAVE.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_EDIT_DIODE.json",
+    "returncode": 1,
+    "ok": false,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_EDIT_TPD.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_ERC.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_MATERIAL_IDENTITY_CONFIRMED.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_MATERIAL_SEARCH.json",
+    "returncode": 1,
+    "ok": false,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_NATIVE_PDF_EXPORT.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_REMOVE_DNP.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_U12_SINGLE_RESISTOR.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_WARM_CAPTURE.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_WARM_OPEN.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  },
+  {
+    "receipt": "FINAL_WARM_SESSION_CLOSE.json",
+    "returncode": 0,
+    "ok": true,
+    "rawPublic": false
+  }
+]

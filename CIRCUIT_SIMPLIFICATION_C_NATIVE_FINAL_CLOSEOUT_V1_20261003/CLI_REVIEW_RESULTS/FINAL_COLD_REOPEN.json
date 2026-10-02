@@ -1,0 +1,15 @@
+{
+  "startedUTC": "2026-10-02T20:58:07.469935+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 1811,
+  "error": null,
+  "value": {
+    "sessionId": "5e596685-af5f-4f7d-bbd6-7fcd50a2254f",
+    "renderId": 6,
+    "path": "E:\\open\\SCIENCE_ADK5556_4X4_DAQ_REPLICA\\CIRCUIT_SIMPLIFICATION_C_NATIVE_FINAL_CLOSEOUT_V1\\C_FINAL_WORK_PRIVATE_NOT_FOR_PUBLIC.eprj2",
+    "headless": true
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "7347DFC53E6CE1C604934CB92DCAF0A3F7353808B67D61E126E7946727287100"
+}

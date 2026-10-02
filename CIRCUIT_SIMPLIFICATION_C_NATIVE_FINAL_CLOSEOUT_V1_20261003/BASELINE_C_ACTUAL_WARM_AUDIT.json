@@ -1,0 +1,25 @@
+{
+  "structuralParts": 115,
+  "plannedPopulated": 103,
+  "DNPObserved": 12,
+  "pins": 391,
+  "connected": 327,
+  "nets": 57,
+  "NC": 64,
+  "matchingPins": 391,
+  "errors": [],
+  "duplicateMembership": [],
+  "allActualPinNetsMatchPlan": true,
+  "actualFileSHA256": "74181BC22522FD324A8207B7BBAB297BEA67B1D6C84F2E0619002BC20481A4F0",
+  "actualFileBytes": 142451,
+  "auditDomain": "Warm candidate only; no independent cold or performance certification",
+  "materialAndPowerHOLDs": [
+    "DNP placeholders NOT a qualified switchable compensation footprint arrangement",
+    "TPS7A37 EN falling sequencing / adjustable FB reverse condition still requires bounded qualification",
+    "TPD C125795 manufacturer field absent",
+    "U12 single17k MPN missing; old16.99k equivalent chain retained",
+    "All ADC double bulk caps kept until Ceff qualified",
+    "Exact J2 footprint metadata inherited, no PCB geometry inspected"
+  ],
+  "DNPPhysicalRestorationQualified": false
+}

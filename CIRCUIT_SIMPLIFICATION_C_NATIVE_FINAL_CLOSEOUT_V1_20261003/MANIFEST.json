@@ -1,0 +1,927 @@
+{
+  "scope": "Actual101 electrical edits and cold semantic evidence PASS; ERCdetail/legacydrawing HOLD; not C PCB/performance/manufacture release",
+  "generatedUTC": "2026-10-02T21:16:40.680236+00:00",
+  "includedSourceFileCount": 99,
+  "files": [
+    {
+      "path": "audit_final_candidate.py",
+      "bytes": 4465,
+      "SHA256": "4A930E25CAA800C3614174511F64021EABFEF77E1EFF083F9F613CDC3F114466"
+    },
+    {
+      "path": "BASELINE_C_ACTUAL_ALL_PINS.csv",
+      "bytes": 13167,
+      "SHA256": "72291F19ED2996B31AE41D5671C75D751B3C7E3C49C30B32199DF9EBB06939B9"
+    },
+    {
+      "path": "BASELINE_C_ACTUAL_PARTS_AND_NETS.json",
+      "bytes": 243365,
+      "SHA256": "7ABEA468D78DE3ABB52B76C7992A72AE97700137B7C49521E8B62F125AFE58B7"
+    },
+    {
+      "path": "BASELINE_C_ACTUAL_WARM_AUDIT.json",
+      "bytes": 991,
+      "SHA256": "DCAD43B6AD56B99847152C0ADF564A5D244B8A4053F9D0F79FDB0A5FE6E5A762"
+    },
+    {
+      "path": "BASELINE_C_NATIVE_BUILD_PLAN.json",
+      "bytes": 190798,
+      "SHA256": "9990735774135253F7844BA432AF67ABBF542A324C1B18603B1127768A9AC4C6"
+    },
+    {
+      "path": "C101_ANALYTIC_STATIC_ENDPOINTS.csv",
+      "bytes": 201,
+      "SHA256": "625B9ED8753364AFB0FDF4753EE3C80B3F0A0DD7EE41A76E2879B7C418721FC6"
+    },
+    {
+      "path": "C101_DESIGNATOR_DIFF.csv",
+      "bytes": 4494,
+      "SHA256": "D41F4FF448469567AA723C872E58714FA176BBF9A1449FC7049479C4BF406187"
+    },
+    {
+      "path": "C101_FINAL_SCHEMATIC_CANDIDATE_NOT_FOR_USE.pdf",
+      "bytes": 431798,
+      "SHA256": "A391C7812A9F1CC6E25F6AA386FA5DE5BBEFFF489BC65BD16E8F6DFB1C1ADEC2"
+    },
+    {
+      "path": "C101_PAGE_READONLY-1.png",
+      "bytes": 62864,
+      "SHA256": "567D40BC91CF9E515786FEF4466365DE0E6E0AFA0870D1EBE470F85295A0DB07"
+    },
+    {
+      "path": "C101_PAGE_READONLY-2.png",
+      "bytes": 73690,
+      "SHA256": "9FCD35247204BD5AD2219A464FD0A79B967FABADDB0F8C96B304E1D0735F7658"
+    },
+    {
+      "path": "C101_PAGE_READONLY-3.png",
+      "bytes": 47147,
+      "SHA256": "E4BE25E382103706750F0190122AD951E861406CC2A087CEA9849D3FBDD6C907"
+    },
+    {
+      "path": "C101_PAGE_READONLY-4.png",
+      "bytes": 98004,
+      "SHA256": "D14B41CFB93681730BF2747FFB0819ACAF7D1649AFAB94094891BD1E76DAD91C"
+    },
+    {
+      "path": "C101_PAGE_READONLY-5.png",
+      "bytes": 107843,
+      "SHA256": "A7581CFD83BBB4D23A746FF18F12EE8FBE2C6022427E922404E615FE5F99013B"
+    },
+    {
+      "path": "C101_PAGE_READONLY-6.png",
+      "bytes": 67765,
+      "SHA256": "9F108E804D01B801D72DC9FD8F1F58BCC7F5D4E4B2BA7ECCC977BF03B7295979"
+    },
+    {
+      "path": "C101_PUBLIC_METADATA_STRIPPED_LEGACY_PCB_NOT_FOR_USE.epro2",
+      "bytes": 663466,
+      "SHA256": "EC94F4D5F526D987B8C393CD387561751BD02DBCA200D07EB5C2B73264BB5B32"
+    },
+    {
+      "path": "C101_STATIC_ASSUMPTIONS.md",
+      "bytes": 1457,
+      "SHA256": "B5F8B2E0424D8362331EDB086C43C5F2029901A15FDEC551A3DF06152F60C43F"
+    },
+    {
+      "path": "capture_final_c.js",
+      "bytes": 2070,
+      "SHA256": "955033C74EF68C452F7E08EB954467806BDCE2F1357F4B007A1301E0CE3CE857"
+    },
+    {
+      "path": "cli_call.py",
+      "bytes": 2109,
+      "SHA256": "E5928B3CA49C9DEC77BC0991E2C02CC8AABA6D02E665B5A78A3E92A5DC969600"
+    },
+    {
+      "path": "CLI_OPERATION_INDEX.json",
+      "bytes": 2164,
+      "SHA256": "054A208B0D0037D54BDB4DCA6C6CAEE3DC31BF5C752DF3F54E022CD619E5415E"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/DIODE_READONLY_GUARD_RECEPTION.json",
+      "bytes": 1786,
+      "SHA256": "21C2C9D47F6E6C49FD00262C9D13CCD42F85663C05C6276DD87C3BEE06DAB55E"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_BEFORE_CAPTURE.json",
+      "bytes": 338,
+      "SHA256": "F868FE8E929F77D96CCD2DFB0A0F8E1428D3BE2B58D7A6EC0C288D046260EFE9"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_COLD_CAPTURE.json",
+      "bytes": 276,
+      "SHA256": "45AFEB8E4A456CC867C12F2EF6088EF551BB54C09947EE9E3A2D6618B17EE169"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_COLD_REOPEN.json",
+      "bytes": 531,
+      "SHA256": "4A4760A07E53945F8ADC6362BABD8F53CA80D8C776E4EE4B914877BD8746155E"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_COLD_SESSION_CLOSE.json",
+      "bytes": 381,
+      "SHA256": "F856E83F880D08649411798768ED23F4D740BA725CF797538A60468B7DD20DCD"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_COPY_IDENTITY.json",
+      "bytes": 274,
+      "SHA256": "252153214B04C9D0DC734CDF534329E59B49B3FAC663CA0B5BC43C783B8D3323"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_DIODE_CONTINUE_RESERVED_SAVE.json",
+      "bytes": 537,
+      "SHA256": "24318BC90C51ECCC943663F3447B4EED1043B8462650D2503CE032E8974FC0BF"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_EDIT_DIODE.json",
+      "bytes": 351,
+      "SHA256": "0C7B2E4174E0A4E060A1E468896752393BE14F2CE6F23E56A17E41842F9992BF"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_EDIT_TPD.json",
+      "bytes": 1419,
+      "SHA256": "33E496AA0CEC6F4C5A084F78FF2F9E831F4F111FC221A710927C94C309A95615"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_ERC.json",
+      "bytes": 453,
+      "SHA256": "BB39BD1A0A28E3A2195725CE9F6655EB878EBB1E92849515EFA356FF43EBCBBF"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_MATERIAL_IDENTITY_CONFIRMED.json",
+      "bytes": 275,
+      "SHA256": "AAC3846FF06E340486B6D30BF09A0072B65B3870D79FAFA5F0581ADA1F3111FF"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_MATERIAL_SEARCH.json",
+      "bytes": 353,
+      "SHA256": "5567404E17312EBE47D237BF0E6D705906DF741AD1602ABB175454DC1735913D"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_NATIVE_PDF_EXPORT.json",
+      "bytes": 276,
+      "SHA256": "03ABDC1BE0219E2E11ED7833873604805A73C18857576383F43157BBBCE59C9B"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_REMOVE_DNP.json",
+      "bytes": 579,
+      "SHA256": "F2A2047F19A1FD9C5ABA9468D9A177F72E10D17869AF6D2A60DB661CE049F29A"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_U12_SINGLE_RESISTOR.json",
+      "bytes": 1368,
+      "SHA256": "005547D144FD10542323CAE8B6422D279ADCB76FFCA3E5347FB9B886FFCF2982"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_WARM_CAPTURE.json",
+      "bytes": 276,
+      "SHA256": "1F06A936306213C90BC04A4890A62A6539EF35E79E466AB8BBEFB1BB08CB7A44"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_WARM_OPEN.json",
+      "bytes": 532,
+      "SHA256": "953163E88283E4991803A181A34C276A2BE72C4788A045E8F6615D0F8EC611FF"
+    },
+    {
+      "path": "CLI_REVIEW_RESULTS/FINAL_WARM_SESSION_CLOSE.json",
+      "bytes": 381,
+      "SHA256": "0B9DC9DFBE713F0438C82D1E704F12B45384CBCADEF180BE080D7FD849160F63"
+    },
+    {
+      "path": "COMPLETE_C101_FINAL_RECEIPT.md",
+      "bytes": 6473,
+      "SHA256": "C94F125131596B8BD2B1EC8DB845408B283BA06B05A0A314DFD7AEFC21C7053B"
+    },
+    {
+      "path": "DIODE_GUARD_GREEN.log",
+      "bytes": 106,
+      "SHA256": "8EE4669655AAED29BBC70E28A8EF25F73D1EBE2B002448E637699B5A2CBCAA41"
+    },
+    {
+      "path": "DIODE_GUARD_RED.log",
+      "bytes": 122,
+      "SHA256": "3DD254447BEB0157444CC5B6AD6C83A8056C590D7C9903DE16936B903FDC058D"
+    },
+    {
+      "path": "diode_polarity_guard.py",
+      "bytes": 123,
+      "SHA256": "B6FB1DC79C4392D31EA935F87C3E30900A32DAD2BDBD7D3E4CC5013CB1E5F38E"
+    },
+    {
+      "path": "DRAWING_ANNOTATION_ADDENDUM.md",
+      "bytes": 1965,
+      "SHA256": "01223CC3D2AF960A0F43F9D898F972EFA33E0412D821327344F259E6EBAB3D3B"
+    },
+    {
+      "path": "EXECUTION_BUDGET.json",
+      "bytes": 5220,
+      "SHA256": "3CDB1F65341F3AB0F07355372C2D1F60CBE0BF96650254D6C18D68E8CB26E0BD"
+    },
+    {
+      "path": "EXPORT_DECODE_AUDIT.json",
+      "bytes": 379,
+      "SHA256": "6F47FFE336B4F75C3A9C5FDAFAB6879D711B61ECC428FBB6BF7B4622F86072F6"
+    },
+    {
+      "path": "FINAL_BUILD_PLAN.json",
+      "bytes": 163973,
+      "SHA256": "F51949CCBB62BFB9F413CE9E8E6377354A0D58FE940FF033D282F31DF68330D6"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_ACTUAL_BOM.csv",
+      "bytes": 8473,
+      "SHA256": "9C5AC1F4C9897F0BA78661E5A87657D63038888ED861E3BD078239FB625AA8BC"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_ACTUAL_PARTS_AND_NETS.json",
+      "bytes": 244727,
+      "SHA256": "286374F252AE425663EBAB3509430724038A502A52285C60C0EA0116B1A6B519"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_ALL_PINS.csv",
+      "bytes": 12298,
+      "SHA256": "91251653B3F62E64CA3807E02CFACD60E8235A07A683C29299C3FC8ECF6F67F0"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_AUDIT.json",
+      "bytes": 494,
+      "SHA256": "13EB21670E80D8663D28EBEBA0037AE0239C1879F03BA86DEFF19F6BB7F56D6E"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_RAW.net",
+      "bytes": 125387,
+      "SHA256": "AA3ED268E74A43DA1AB45546AB41B8D5372707908AC6589136B12CA209C25D2E"
+    },
+    {
+      "path": "final_edit_dnp.js",
+      "bytes": 2589,
+      "SHA256": "8311610E9597FFBC65E535285689B8E0EB637DE4B5DD515B126616BD6CA66314"
+    },
+    {
+      "path": "final_edit_power.js",
+      "bytes": 2646,
+      "SHA256": "41F6A290032B2C672A2DA8B4BD6AEFB4D314AD3EB64CF4CF8D2B9198EF2A5A41"
+    },
+    {
+      "path": "final_edit_tpd.js",
+      "bytes": 2690,
+      "SHA256": "33C8C9FA785AA2D05C6CDF666D77D82CAA14E486F99B8F1AB5A34A7A89CBD830"
+    },
+    {
+      "path": "final_edit_u12.js",
+      "bytes": 5259,
+      "SHA256": "107DC29DA203A7BBB490712BAB1EF04C57A92DBE4DE6DEACF5910CD52C094347"
+    },
+    {
+      "path": "final_erc.js",
+      "bytes": 231,
+      "SHA256": "69C2212685B939F3ED7BC3C3CFF9822BC19C4595B7A7915F8EDA3BFB17D6D73A"
+    },
+    {
+      "path": "final_export.js",
+      "bytes": 860,
+      "SHA256": "AB494EE955E0C2D617EF0ACF120109CBA5F7D9195C62D04346C1A3BF2FCD55BB"
+    },
+    {
+      "path": "FINAL_REVIEW.md",
+      "bytes": 7569,
+      "SHA256": "8455BE95766B16FE04438A1863BF05D3AC504538BB43FBC3FF1CD27BE1B19EFE"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_ACTUAL_BOM.csv",
+      "bytes": 8473,
+      "SHA256": "9C5AC1F4C9897F0BA78661E5A87657D63038888ED861E3BD078239FB625AA8BC"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_ACTUAL_PARTS_AND_NETS.json",
+      "bytes": 244727,
+      "SHA256": "286374F252AE425663EBAB3509430724038A502A52285C60C0EA0116B1A6B519"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_ALL_PINS.csv",
+      "bytes": 12298,
+      "SHA256": "91251653B3F62E64CA3807E02CFACD60E8235A07A683C29299C3FC8ECF6F67F0"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_AUDIT.json",
+      "bytes": 494,
+      "SHA256": "8ED8EB9F40FA68A6196565E72420334D82BFD4126E2744C82385C7A183258E44"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_RAW.net",
+      "bytes": 125387,
+      "SHA256": "55ACE1CE4F0D8367D5CDFA0D59BCF49F1AACD32602F6A2C015EE19E08C938468"
+    },
+    {
+      "path": "finalize_static_and_receipt.py",
+      "bytes": 13708,
+      "SHA256": "73C721974B71118A6F853BAE648724BC7F1F74F8CA8BEDDE99EBF0EEEFDCA20C"
+    },
+    {
+      "path": "finish_existing_diode_reserved_save.js",
+      "bytes": 1477,
+      "SHA256": "03268DCCDA5420FB9F44F2AC220858FF8A4DBA1CD7E911C08B21BB135FC82781"
+    },
+    {
+      "path": "GATES.json",
+      "bytes": 735,
+      "SHA256": "399B56B15B5DF3C7EB4DC08B0C7A2948A109D30625CC025974493D2F688E4F33"
+    },
+    {
+      "path": "identify_final_copy.js",
+      "bytes": 120,
+      "SHA256": "59F2AAF904DA87B2EBFAF7556536BA6D7EA93B53328F8E485ACF395DE9C91A90"
+    },
+    {
+      "path": "NATIVE_PUBLIC_PRIVACY_DERIVATIVE.json",
+      "bytes": 8192,
+      "SHA256": "7A52EFFF34AE9305AB579EB599948186425A2C32016CE6BE4A3071FFBB673360"
+    },
+    {
+      "path": "NATIVE_PUBLIC_PRIVACY_VERIFICATION.json",
+      "bytes": 366,
+      "SHA256": "F5CB0BEAFB37BF41A12E225C876724B7B91854842DE10C550AB1EF023FD259CD"
+    },
+    {
+      "path": "native_step.py",
+      "bytes": 777,
+      "SHA256": "10C3DF52A544E4A4920ACD3A3345391DB6B9D6B390DA2F0CBAF395FE4B404914"
+    },
+    {
+      "path": "OLD_C103_SOURCE_FROZEN.json",
+      "bytes": 186,
+      "SHA256": "365F300E1061ACFC1D1D606E81E6A78C45FEB6676EDA453BB20634DC51FE32CD"
+    },
+    {
+      "path": "PERMITTED_DIFF_AND_97_UNCHANGED.json",
+      "bytes": 527,
+      "SHA256": "9DDA1397EC79EB5F82D4C11ABBD93CF3B24A2E96207EC1C0D7763E4A1C7B4F8D"
+    },
+    {
+      "path": "PLAN_AND_LEDGER.md",
+      "bytes": 1780,
+      "SHA256": "02AA424406626FF66AB2A634520FB81746D06E178FC1A240451B7C30A87C4BEE"
+    },
+    {
+      "path": "prepare_final_edits.py",
+      "bytes": 6687,
+      "SHA256": "D20473F5705DD5CF7801AE60ADFD4C737AF23781BE86C89F7EB795C1286B6FA0"
+    },
+    {
+      "path": "prepare_public_privacy_derivative.py",
+      "bytes": 4656,
+      "SHA256": "662575B6C75AE1D48D3C3C1A66F57F9E3EAA879E7BC8ECE549CD49F2DEC0DF71"
+    },
+    {
+      "path": "prepare_u12_owned_cleanup.py",
+      "bytes": 3450,
+      "SHA256": "829C1BF71364F0825E04650A543FDC5FECEB3F418D46259DF1397A3AA6FB2F71"
+    },
+    {
+      "path": "PRIMARY_SOURCE_NOTES.md",
+      "bytes": 1044,
+      "SHA256": "F3BF786C8A372962160EBF7F609FAA61EA1F6778FE4770F9D23293392EF3A9FF"
+    },
+    {
+      "path": "PRIVATE_COPY_SOURCE_SHA.json",
+      "bytes": 283,
+      "SHA256": "5E513B783714986F6A7E7C524A2B9C4454EAD1FB14218B444E18B381BB4179E7"
+    },
+    {
+      "path": "PRO_C_NATIVE_FINAL_RULING_FULL.md",
+      "bytes": 10046,
+      "SHA256": "3EA85726183F39081763062BF7EB821A0641AD833008FD29A1151198FB9A6FBE"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_49bb518d907ff185.esch",
+      "bytes": 363347,
+      "SHA256": "C79BEEB91584463732B4F4BCBCC860D83B998E8660A65D2F91AF03E1ED34352A"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_52a8a60e5711e55b.esch",
+      "bytes": 406371,
+      "SHA256": "6BBE491631E5A5A4A7AD625B245181F0D8AEF6B52AC8A6ED49C07523D6DA6C0A"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_595d5f2f11dee03d.esch",
+      "bytes": 286332,
+      "SHA256": "8BE982CDEB63B20C123E47A62AEDBD71B3C5757F1F79D2D57F21F271F6784E70"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_5f9caa2aebdf4356.esch",
+      "bytes": 419232,
+      "SHA256": "CB58637B0D16B8B62B25CCD42CCEA42813425921FFDF07A2731C7C72EF16FA49"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_802bf258e0d38cab.esch",
+      "bytes": 276897,
+      "SHA256": "AFDE6DC97261992D904F685E970409037BBACBFA6F7F0139E9B99B4D9EBC7B20"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_cae95ff24beaad15.esch",
+      "bytes": 431508,
+      "SHA256": "1CDEB68B30F5FFE02FA0920468256CC835815DCAA2EE97102C99FD31A8F5C891"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_49bb518d907ff185.esch",
+      "bytes": 363347,
+      "SHA256": "39F6AC655E7E645CED1847D5387D2AFFD089EC2A8266B4AEF2151E1A09A487DB"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_52a8a60e5711e55b.esch",
+      "bytes": 406371,
+      "SHA256": "021BFB5C7529ADB15948B97E90F340AA4361635F16DA05E7F8A5C7A92B7CE15D"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_595d5f2f11dee03d.esch",
+      "bytes": 285687,
+      "SHA256": "2744EA081E5F63DA89F850FD7388E649FA1FA31815BF409DB4363D3B63D0CFFC"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_5f9caa2aebdf4356.esch",
+      "bytes": 419232,
+      "SHA256": "C9C514AFDFA98670B641E38A896FDF16BA531892231CBF8B6851352D56FB413D"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_802bf258e0d38cab.esch",
+      "bytes": 276897,
+      "SHA256": "C54C0954A97C8A790FC61028AFDB76065B8105ADC3A41909024D93176CDDB14D"
+    },
+    {
+      "path": "PUBLIC_ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_cae95ff24beaad15.esch",
+      "bytes": 430983,
+      "SHA256": "B56E5298220D069B4946D741D5BBB7F3FC04D53EDDA8EDA30DDCC7EF4EB1B8DF"
+    },
+    {
+      "path": "RAW_WARM_COLD_ORDER_AUDIT.json",
+      "bytes": 91,
+      "SHA256": "0C201E5851A2D1965C0582FFCB32F53F8E59206E774E3A5B4DE17E23665882AF"
+    },
+    {
+      "path": "read_created_diode.js",
+      "bytes": 781,
+      "SHA256": "4767A8F3F1782B36F6A4F2655B841BED3380818932E1C95F13802A3298508ADD"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6473,
+      "SHA256": "C94F125131596B8BD2B1EC8DB845408B283BA06B05A0A314DFD7AEFC21C7053B"
+    },
+    {
+      "path": "REVIEW_DISPOSITION.md",
+      "bytes": 1096,
+      "SHA256": "2B1F3228A8D4F5DDB2ADF0545AB2FFFAF0CC902EF4CB076E8175C47DE7740E1C"
+    },
+    {
+      "path": "search_final_materials.js",
+      "bytes": 425,
+      "SHA256": "1FDE7684F7E460F5CCE4C29FD06448315196772A360B026E362386F65A3339BC"
+    },
+    {
+      "path": "test_diode_polarity_guard.py",
+      "bytes": 405,
+      "SHA256": "3BBA259E860E5B236D5BA780C03A9DAF5BB7D8E5AB3F3E8D2B090CDFF44A2015"
+    },
+    {
+      "path": "U12_CHAIN_BASELINE.json",
+      "bytes": 6617,
+      "SHA256": "537FC649C14BEF643FFE1EED4EA31FCAE2F47667D8A778EC5D60694E3A05D78E"
+    },
+    {
+      "path": "U12_OWNED_ENTITY_CLEANUP_PLAN.json",
+      "bytes": 670,
+      "SHA256": "0181F2620DAD36686F94831449B40D157858788299C6A60630CD9FB695C0BEF7"
+    },
+    {
+      "path": "WARM_COLD_SEMANTIC_AUDIT.json",
+      "bytes": 388,
+      "SHA256": "FDDDDA7D93C680032C5DFDA20390A3EA3EE649ED4EEFFBE47AC1BB110CB5C5E5"
+    }
+  ],
+  "excludedLocalFiles": [
+    {
+      "path": "__pycache__/diode_polarity_guard.cpython-313.pyc",
+      "bytes": 474,
+      "SHA256": "29E308B24A086AB3837C851EC39D1AC065B44A978A6DE6F8B39A029DA4816CD3",
+      "reason": "Generated Python bytecode"
+    },
+    {
+      "path": "__pycache__/test_diode_polarity_guard.cpython-313.pyc",
+      "bytes": 1508,
+      "SHA256": "9887B918662CCAE385AC53CE75CA2C6A2456ADD40FF166D00FAA656E31101C61",
+      "reason": "Generated Python bytecode"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_49bb518d907ff185.esch",
+      "bytes": 363375,
+      "SHA256": "EC7B7F48B3C946CEA034163DF18ED9F33F4A52CB2AD25F59C6E3066941F60F25",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_52a8a60e5711e55b.esch",
+      "bytes": 406399,
+      "SHA256": "CD3FB3AF31DCC2973A64E5E1C926FEDCE740E872101B52CB3442B9E928C25FDB",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_595d5f2f11dee03d.esch",
+      "bytes": 286360,
+      "SHA256": "DB2DB29E024F205E3AB11CFE69C7A5AAD535799E4F725CBFC28E0E179552EBE8",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_5f9caa2aebdf4356.esch",
+      "bytes": 419260,
+      "SHA256": "5E137174810E692CD9A3FB276D8974D063324D9EC6A921879FF2507E816DFAEA",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_802bf258e0d38cab.esch",
+      "bytes": 276925,
+      "SHA256": "24CFE80879CD38736F7B3AFCEFEA1FE952290F26A89FBFBD8601D81891021D11",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_COLD_CAPTURE_cae95ff24beaad15.esch",
+      "bytes": 431536,
+      "SHA256": "2084A53F3D23DFBB034E37C3BAC14D58404AF641415AF0FF5E3F1557A3786EF7",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_49bb518d907ff185.esch",
+      "bytes": 363375,
+      "SHA256": "A23A655F84527F4D76A27F6546343DA4BC84DD69EFB62B0A13B668B52B573002",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_52a8a60e5711e55b.esch",
+      "bytes": 406399,
+      "SHA256": "E4B3AF0B2D4070A126941DECA210B7E4B7B02217B3015E36BEF361BA4692AD28",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_595d5f2f11dee03d.esch",
+      "bytes": 285715,
+      "SHA256": "AC39B3CFE5AC1C6EAD7CA4C445DF7F9D3671401320B93EAE9045EDBAF03DA8D8",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_5f9caa2aebdf4356.esch",
+      "bytes": 419260,
+      "SHA256": "E4295709C9A28FFA77951D6D15B06E2A64851D215A2113A5B989F04E61F4509E",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_802bf258e0d38cab.esch",
+      "bytes": 276925,
+      "SHA256": "4BC29B657660214391E3EF6C07E42CDE31EC4308ED37BBC99D99C440783F48FC",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "ACTUAL_SCH_SOURCE/FINAL_WARM_CAPTURE_cae95ff24beaad15.esch",
+      "bytes": 431011,
+      "SHA256": "DB3231968945607421C9F1CEF9D61D0E5DF90EA2C4117FA6512C81209EF33942",
+      "reason": "Raw DOCHEAD author/client metadata; non-header-byte-identical public derivative provided"
+    },
+    {
+      "path": "C101_FINAL_CANDIDATE_LEGACY_PCB_NOT_FOR_USE.epro2",
+      "bytes": 686661,
+      "SHA256": "F1130A123729815AC890D7B90BBB16CED9475A0FE9F64BF4E38600160FF628BE",
+      "reason": "Raw native author metadata local; separately named header-stripped public derivative supplied"
+    },
+    {
+      "path": "C_FINAL_WORK_PRIVATE_NOT_FOR_PUBLIC.eprj2",
+      "bytes": 3870720,
+      "SHA256": "25F54D107CD521F0A4630334BBFB9A3BBC721534794600E94B636E955747A2E6",
+      "reason": "Private account SQLite container: never public"
+    },
+    {
+      "path": "DIODE_READONLY_GUARD_RECEPTION.json",
+      "bytes": 4099,
+      "SHA256": "EBB9B94522DDBF03B4A7FAF8303C0B4A278F44C944060014B2C04613A06F8B32",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "DIODE_READONLY_GUARD_RECEPTION.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "DIODE_READONLY_GUARD_RECEPTION.stdout",
+      "bytes": 1154,
+      "SHA256": "AB3345CA3E56D524B4653EFAF153308E948264B24255C660B5D807FA32A47E9E",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_BEFORE_CAPTURE.json",
+      "bytes": 2472,
+      "SHA256": "40EEF1119882099B29823C482C0F369F18DB191FD47D7DF1BB45AAA1D3A89FB6",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_BEFORE_CAPTURE.stderr",
+      "bytes": 26,
+      "SHA256": "B24AD6C7323CEB64CE9E0FA452AB0E1703999D311337B54E4D49B1E8F47E2256",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_BEFORE_CAPTURE.stdout",
+      "bytes": 71,
+      "SHA256": "529E88CFF6AE18677B77DB323DA559102B50C4F003045664D2306ADCB97394F2",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE.json",
+      "bytes": 8807606,
+      "SHA256": "11998212795F97DC46A2D2E031C6468B84E591ED99BDF70C513EF43A97F7C659",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE.stdout",
+      "bytes": 3220667,
+      "SHA256": "D116DEB4BB185A7191E2C14F1A04F0868E43E94E7C5F8489547AE0B189282DF8",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_REOPEN.json",
+      "bytes": 1061,
+      "SHA256": "7347DFC53E6CE1C604934CB92DCAF0A3F7353808B67D61E126E7946727287100",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_REOPEN.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_REOPEN.stdout",
+      "bytes": 277,
+      "SHA256": "503E71C94054936B4CE9F2D8DCBC9F1C59A5EAB2C7ED20919914303E4CE775A2",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_SESSION_CLOSE.json",
+      "bytes": 676,
+      "SHA256": "19E6492541379A00220509D85C10D3CC23A7808B8AEE29743FC6ED16417DD886",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_SESSION_CLOSE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COLD_SESSION_CLOSE.stdout",
+      "bytes": 134,
+      "SHA256": "52E70F2E8A11967A49C09324F946330AE292882722972047501665A418E84590",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COPY_IDENTITY.json",
+      "bytes": 60317,
+      "SHA256": "022ED48C80C39B3DC2B408D89D236130C1977C3FB4624A1E54F1A9E84CA1F176",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COPY_IDENTITY.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_COPY_IDENTITY.stdout",
+      "bytes": 15954,
+      "SHA256": "51350C62A623BE74CCD57969CA6CA9728548815645A0A56B11CBDEB7DA173F05",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_DIODE_CONTINUE_RESERVED_SAVE.json",
+      "bytes": 2414,
+      "SHA256": "186DFE0FB2422F11AD19E79B0247F305F36910519A070BCE10D4CB720C504AC9",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_DIODE_CONTINUE_RESERVED_SAVE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_DIODE_CONTINUE_RESERVED_SAVE.stdout",
+      "bytes": 186,
+      "SHA256": "21276CD223C297A899FBB40C4FC438238B6CCE2243712C56D67B69039079C745",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_EDIT_DIODE.json",
+      "bytes": 3293,
+      "SHA256": "03E5358A2AFDDD53802332545BD861E8C5220083E057A04F5D4D90EAF1346E0F",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_EDIT_DIODE.stderr",
+      "bytes": 38,
+      "SHA256": "172AC41510F655B725C0236569B159844854905AF2C6145225965F3C48013935",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_EDIT_DIODE.stdout",
+      "bytes": 83,
+      "SHA256": "BBF90F869A3E31C351024E2934FDCFE0F27353E4233A90749E71114ABD6A61D4",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_EDIT_TPD.json",
+      "bytes": 5230,
+      "SHA256": "65CDC7343F5857081EEDC39516524DAE99BB1A19A464112C086894C32712F9C4",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_EDIT_TPD.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_EDIT_TPD.stdout",
+      "bytes": 791,
+      "SHA256": "A02853C2800E47CEEC325BB4221BB24CEAAA6F7F33F14BCEF3906EC8FFE89ACF",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_ERC.json",
+      "bytes": 1035,
+      "SHA256": "723DE2B7B61BBA862D5DA9159AE7F2A17D578A200239F4F5E81BD63AE433432B",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_ERC.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_ERC.stdout",
+      "bytes": 169,
+      "SHA256": "11363EE528283C17898317D4C95021C63F9A7CC7E74CE4E46CA40567C96FDE4A",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_MATERIAL_IDENTITY_CONFIRMED.json",
+      "bytes": 70660,
+      "SHA256": "C815E5325BF89455FCA1A11724390D813E0F0CF604CA75C0E3902AAFD9620E83",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_MATERIAL_IDENTITY_CONFIRMED.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_MATERIAL_IDENTITY_CONFIRMED.stdout",
+      "bytes": 20057,
+      "SHA256": "27206E92572E7746B5AB432C3A2812B6737B3D8EDDC6948667ABB9A523242B3E",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_MATERIAL_SEARCH.json",
+      "bytes": 1027,
+      "SHA256": "4B30D7DB7A4DD1A7580739444F3B53972B8A423C7190171AF36398FB073D148F",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_MATERIAL_SEARCH.stderr",
+      "bytes": 41,
+      "SHA256": "34FE0C64F91EAAF4B42A6E91AD7C965F108764447C294838F9F1123246F37706",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_MATERIAL_SEARCH.stdout",
+      "bytes": 86,
+      "SHA256": "BA361F4D3F320FB30FF422FAFD55BB8D57809FC785B637483466B7B964EA1176",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_NATIVE_PDF_EXPORT.json",
+      "bytes": 2984706,
+      "SHA256": "C7AB7959933D28CC6B6FB9A7408511D2741CE621C8C2095A86E83577AD75B4B3",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_NATIVE_PDF_EXPORT.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_NATIVE_PDF_EXPORT.stdout",
+      "bytes": 1491644,
+      "SHA256": "45C8F362B2FC028C23209DE3025DC3232EEA833A4DEDC74858EEABFFBD468615",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_REMOVE_DNP.json",
+      "bytes": 3619,
+      "SHA256": "99AA2907E328B22FE455D18B21D869F621C72C307425ED630989CDF7F67624D8",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_REMOVE_DNP.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_REMOVE_DNP.stdout",
+      "bytes": 237,
+      "SHA256": "D77D7BD9E690B02EC1293F7B0D5A24314E14521EC7FB2A97979F2FC3D785E71E",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_U12_SINGLE_RESISTOR.json",
+      "bytes": 7880,
+      "SHA256": "2444230725C561FA70C6D9885E6C417DAC2B4AA80C0B6995A70640FA448AF491",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_U12_SINGLE_RESISTOR.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_U12_SINGLE_RESISTOR.stdout",
+      "bytes": 705,
+      "SHA256": "0D1867BF71E1A6A2451DFFFEB03A7D4C4A70DC41CD63D68DE4D52C945683B786",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE.json",
+      "bytes": 8804242,
+      "SHA256": "D0B8286EF57FC80309C70BA82FE140DE64FB1C81F813ABD8F39A62B46A415A7A",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE.stdout",
+      "bytes": 3219241,
+      "SHA256": "FC5B4A824B51281F21F506224513CFB132B870BDB1F542269ED6237D8EA57AB8",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_OPEN.json",
+      "bytes": 1063,
+      "SHA256": "DFB18E3CAD6ADB1E18FB867B073CBC075C69E919F7EB14EF6BB37FE6FAD3E1DC",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_OPEN.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_OPEN.stdout",
+      "bytes": 278,
+      "SHA256": "10710FF1491AEC5D4F3AFEAEAEA642A65E61F45631303E12A7765B2BE99E17BB",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_SESSION_CLOSE.json",
+      "bytes": 676,
+      "SHA256": "AF74BC36AC048EE429680FFF9DDC7CC8047B578F39B29DDB50FF9A13F8CB95D5",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_SESSION_CLOSE.stderr",
+      "bytes": 0,
+      "SHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    },
+    {
+      "path": "FINAL_WARM_SESSION_CLOSE.stdout",
+      "bytes": 134,
+      "SHA256": "E3AB3C67855E1671B2F31AB4F243148407A42E529501E53BAA55DAC2C7004B3B",
+      "reason": "Raw context/CLI metadata or duplicate raw export retained locally; public indexed/sanitized equivalents"
+    }
+  ],
+  "thirdPartyBulkUploaded": false,
+  "rawPrivateNativeUploaded": false,
+  "publicNativePrivacyDerivativeNotColdReopened": true
+}

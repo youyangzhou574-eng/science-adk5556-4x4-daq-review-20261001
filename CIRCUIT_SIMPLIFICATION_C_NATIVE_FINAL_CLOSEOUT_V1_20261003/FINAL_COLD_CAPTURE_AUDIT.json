@@ -1,0 +1,18 @@
+{
+  "parts": 101,
+  "pins": 363,
+  "connected": 323,
+  "nets": 54,
+  "NC": 40,
+  "matchingPins": 363,
+  "allPinNetsMatchPlan": true,
+  "errors": [],
+  "duplicateMembership": [],
+  "rawFileSHA256": "AA3ED268E74A43DA1AB45546AB41B8D5372707908AC6589136B12CA209C25D2E",
+  "rawFileBytes": 125387,
+  "actualNativeBOMYes": 101,
+  "actualNativeBOMNo": 0,
+  "DNPPartCount": 0,
+  "TPDManufacturerMPNConfirmed": true,
+  "domain": "actualcandidate, no systemperformance/PCB qualification"
+}

@@ -1,0 +1,181 @@
+{
+  "originalNativeBytes": 686661,
+  "originalNativeSHA256": "F1130A123729815AC890D7B90BBB16CED9475A0FE9F64BF4E38600160FF628BE",
+  "publicNativeFile": "C101_PUBLIC_METADATA_STRIPPED_LEGACY_PCB_NOT_FOR_USE.epro2",
+  "publicNativeBytes": 663466,
+  "publicNativeSHA256": "EC94F4D5F526D987B8C393CD387561751BD02DBCA200D07EB5C2B73264BB5B32",
+  "members": [
+    {
+      "member": "IMAGE/",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "publicSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "member": "IMAGE/595d5f2f11dee03d.webp",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "2D2FACD266ABE270A53526552C3420999218598DA4688CA6162ED52FB6620904",
+      "publicSHA256": "2D2FACD266ABE270A53526552C3420999218598DA4688CA6162ED52FB6620904"
+    },
+    {
+      "member": "IMAGE/52a8a60e5711e55b.webp",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "D744B687EBB92C3D42A91744A515EB4800F859CD85B96A57210CE4B59D0ED6B4",
+      "publicSHA256": "D744B687EBB92C3D42A91744A515EB4800F859CD85B96A57210CE4B59D0ED6B4"
+    },
+    {
+      "member": "IMAGE/49bb518d907ff185.webp",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "D1AF9688A4A31957701B86B232C387C4B2FDDDE1B216961BAD4450ED2D6EE7BE",
+      "publicSHA256": "D1AF9688A4A31957701B86B232C387C4B2FDDDE1B216961BAD4450ED2D6EE7BE"
+    },
+    {
+      "member": "IMAGE/268e6597399ebcce.webp",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "41A1F45222F9D9B337B148F2F5936ECAAEB2E0DA4F8358A679C09766F186C3D6",
+      "publicSHA256": "41A1F45222F9D9B337B148F2F5936ECAAEB2E0DA4F8358A679C09766F186C3D6"
+    },
+    {
+      "member": "IMAGE/802bf258e0d38cab.webp",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "E0D1FE9BC52B3A7D2511FD0CB08879FD58E30BFD60403B512C7F355664ED5883",
+      "publicSHA256": "E0D1FE9BC52B3A7D2511FD0CB08879FD58E30BFD60403B512C7F355664ED5883"
+    },
+    {
+      "member": "IMAGE/5f9caa2aebdf4356.webp",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "EE257DE645D94A61A6DE2785A4378770CED68DF760E042CAD04D8F293629CE65",
+      "publicSHA256": "EE257DE645D94A61A6DE2785A4378770CED68DF760E042CAD04D8F293629CE65"
+    },
+    {
+      "member": "IMAGE/cae95ff24beaad15.webp",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "5B24FE672D350AA075D2EA705E8A1CCB4471515C6587F3B3608C3757FFE424A0",
+      "publicSHA256": "5B24FE672D350AA075D2EA705E8A1CCB4471515C6587F3B3608C3757FFE424A0"
+    },
+    {
+      "member": "project2.json",
+      "changedDOCHEADCount": 0,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": true,
+      "originalSHA256": "D55F156A516BA48C7EF985DE84037A374C93D03388F99FCCAE75CDD2F3989D3D",
+      "publicSHA256": "D55F156A516BA48C7EF985DE84037A374C93D03388F99FCCAE75CDD2F3989D3D"
+    },
+    {
+      "member": "C_FINAL_WORK_PRIVATE_NOT_FOR_PUBLIC.epru",
+      "changedDOCHEADCount": 140,
+      "nonHeaderBytesIdentical": true,
+      "otherMemberBytesIdentical": false,
+      "originalSHA256": "EC9C10AE50CFCD6080E769DFFB6E4F618D228A4E9E7BD390A3E08231C6D99AF2",
+      "publicSHA256": "A3BD48DDB28D8840EE055BBF2B5E9744A69BF10A741B0FCF05F66AB7B7D8F510"
+    }
+  ],
+  "schSources": [
+    {
+      "path": "FINAL_COLD_CAPTURE_49bb518d907ff185.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "EC7B7F48B3C946CEA034163DF18ED9F33F4A52CB2AD25F59C6E3066941F60F25",
+      "publicSHA256": "C79BEEB91584463732B4F4BCBCC860D83B998E8660A65D2F91AF03E1ED34352A"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_52a8a60e5711e55b.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "CD3FB3AF31DCC2973A64E5E1C926FEDCE740E872101B52CB3442B9E928C25FDB",
+      "publicSHA256": "6BBE491631E5A5A4A7AD625B245181F0D8AEF6B52AC8A6ED49C07523D6DA6C0A"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_595d5f2f11dee03d.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "DB2DB29E024F205E3AB11CFE69C7A5AAD535799E4F725CBFC28E0E179552EBE8",
+      "publicSHA256": "8BE982CDEB63B20C123E47A62AEDBD71B3C5757F1F79D2D57F21F271F6784E70"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_5f9caa2aebdf4356.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "5E137174810E692CD9A3FB276D8974D063324D9EC6A921879FF2507E816DFAEA",
+      "publicSHA256": "CB58637B0D16B8B62B25CCD42CCEA42813425921FFDF07A2731C7C72EF16FA49"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_802bf258e0d38cab.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "24CFE80879CD38736F7B3AFCEFEA1FE952290F26A89FBFBD8601D81891021D11",
+      "publicSHA256": "AFDE6DC97261992D904F685E970409037BBACBFA6F7F0139E9B99B4D9EBC7B20"
+    },
+    {
+      "path": "FINAL_COLD_CAPTURE_cae95ff24beaad15.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "2084A53F3D23DFBB034E37C3BAC14D58404AF641415AF0FF5E3F1557A3786EF7",
+      "publicSHA256": "1CDEB68B30F5FFE02FA0920468256CC835815DCAA2EE97102C99FD31A8F5C891"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_49bb518d907ff185.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "A23A655F84527F4D76A27F6546343DA4BC84DD69EFB62B0A13B668B52B573002",
+      "publicSHA256": "39F6AC655E7E645CED1847D5387D2AFFD089EC2A8266B4AEF2151E1A09A487DB"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_52a8a60e5711e55b.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "E4B3AF0B2D4070A126941DECA210B7E4B7B02217B3015E36BEF361BA4692AD28",
+      "publicSHA256": "021BFB5C7529ADB15948B97E90F340AA4361635F16DA05E7F8A5C7A92B7CE15D"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_595d5f2f11dee03d.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "AC39B3CFE5AC1C6EAD7CA4C445DF7F9D3671401320B93EAE9045EDBAF03DA8D8",
+      "publicSHA256": "2744EA081E5F63DA89F850FD7388E649FA1FA31815BF409DB4363D3B63D0CFFC"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_5f9caa2aebdf4356.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "E4295709C9A28FFA77951D6D15B06E2A64851D215A2113A5B989F04E61F4509E",
+      "publicSHA256": "C9C514AFDFA98670B641E38A896FDF16BA531892231CBF8B6851352D56FB413D"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_802bf258e0d38cab.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "4BC29B657660214391E3EF6C07E42CDE31EC4308ED37BBC99D99C440783F48FC",
+      "publicSHA256": "C54C0954A97C8A790FC61028AFDB76065B8105ADC3A41909024D93176CDDB14D"
+    },
+    {
+      "path": "FINAL_WARM_CAPTURE_cae95ff24beaad15.esch",
+      "changedDOCHEADCount": 1,
+      "nonHeaderBytesIdentical": true,
+      "originalSHA256": "DB3231968945607421C9F1CEF9D61D0E5DF90EA2C4117FA6512C81209EF33942",
+      "publicSHA256": "B56E5298220D069B4946D741D5BBB7F3FC04D53EDDA8EDA30DDCC7EF4EB1B8DF"
+    }
+  ],
+  "nativeExportOperationsAdded": 0,
+  "CADOperationsAdded": 0,
+  "publicDerivativeColdReopened": false,
+  "legacyPCB": "Old176PCB remains NOT_FOR_USE; no C PCB created",
+  "privateAccountSQLitePublished": false,
+  "originalNativeUnmodified": true
+}

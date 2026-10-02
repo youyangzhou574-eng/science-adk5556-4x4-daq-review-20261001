@@ -1,0 +1,10 @@
+{
+  "startedUTC": "2026-10-02T20:58:17.600052+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 9665,
+  "error": null,
+  "value": null,
+  "omittedRawContext": true,
+  "originalReceiptSHA256": "11998212795F97DC46A2D2E031C6468B84E591ED99BDF70C513EF43A97F7C659"
+}

@@ -1,0 +1,26 @@
+{
+  "startedUTC": "2026-10-02T20:54:00.683393+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 3854,
+  "error": null,
+  "value": {
+    "removed": [
+      "R_COL_SENSE0",
+      "R_TIA_ISO0",
+      "C_TIA_HF0",
+      "R_COL_SENSE1",
+      "R_TIA_ISO1",
+      "C_TIA_HF1",
+      "R_COL_SENSE2",
+      "R_TIA_ISO2",
+      "C_TIA_HF2",
+      "R_COL_SENSE3",
+      "R_TIA_ISO3",
+      "C_TIA_HF3"
+    ],
+    "saved": true
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "99AA2907E328B22FE455D18B21D869F621C72C307425ED630989CDF7F67624D8"
+}

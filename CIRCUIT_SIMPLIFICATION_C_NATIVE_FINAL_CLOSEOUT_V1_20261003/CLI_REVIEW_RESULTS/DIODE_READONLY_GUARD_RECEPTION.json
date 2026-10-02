@@ -1,0 +1,57 @@
+{
+  "startedUTC": "2026-10-02T20:52:07.912937+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 220,
+  "error": null,
+  "value": {
+    "ref": "D_LDO_REV",
+    "id": "32a0eb60693c37ee",
+    "component": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "e62eba3725a8f2e0",
+      "name": "PMEG2010BER,115"
+    },
+    "footprint": {
+      "uuid": "8aa2de70cf3f012a",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "SOD-123_L2.8-W1.8-LS3.7-RD"
+    },
+    "props": {
+      "PCB Layer": "Default",
+      "LCSC Part Name": "电压:20V 电流:1A",
+      "Supplier Footprint": "SOD-123W",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/PMEG2010BER%252C115/573818.html",
+      "Voltage - Forward(Vf@If)": "450mV@1A",
+      "Voltage - DC Reverse(Vr)": "20V",
+      "Current - Rectified": "1A",
+      "Reverse Leakage Current (Ir)": "50uA@20V",
+      "Non-Repetitive Peak Forward Surge Current": "50A",
+      "Description": "正向压降(Vf):450mV@1A;直流反向耐压(Vr):20V;整流电流:1A;",
+      "Value": "PMEG2010BER",
+      "DNP": "no",
+      "MPN": "PMEG2010BER,115",
+      "Review Status": "C final candidate / noPCBbenchrelease",
+      "Circuit Role": "Anode2V3V3 to Cathode1V5;LDO reverse-current bypass, notreverse-blocking"
+    },
+    "pins": [
+      {
+        "number": "2",
+        "name": "A",
+        "x": 2090,
+        "y": 120,
+        "rotation": 0
+      },
+      {
+        "number": "1",
+        "name": "C",
+        "x": 2050,
+        "y": 120,
+        "rotation": 180
+      }
+    ]
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "EBB9B94522DDBF03B4A7FAF8303C0B4A278F44C944060014B2C04613A06F8B32"
+}

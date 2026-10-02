@@ -1,0 +1,13 @@
+{
+  "startedUTC": "2026-10-02T20:45:39.169224+00:00",
+  "returncode": 1,
+  "ok": false,
+  "durationMs": null,
+  "error": {
+    "code": "EXECUTION_ERROR",
+    "message": "Wrong R2"
+  },
+  "value": null,
+  "omittedRawContext": true,
+  "originalReceiptSHA256": "40EEF1119882099B29823C482C0F369F18DB191FD47D7DF1BB45AAA1D3A89FB6"
+}

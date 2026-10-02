@@ -1,0 +1,18 @@
+{
+  "startedUTC": "2026-10-02T20:59:13.899173+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 103,
+  "error": null,
+  "value": {
+    "project": "4ae4cc408054b9f3268fe06814bf647a4eb772b7b16c216936b4770d6712c201",
+    "warnings": [
+      {
+        "type": "warn",
+        "count": 752
+      }
+    ]
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "723DE2B7B61BBA862D5DA9159AE7F2A17D578A200239F4F5E81BD63AE433432B"
+}

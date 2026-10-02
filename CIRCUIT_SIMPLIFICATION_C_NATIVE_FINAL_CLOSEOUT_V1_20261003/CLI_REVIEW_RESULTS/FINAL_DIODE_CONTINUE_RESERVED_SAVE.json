@@ -1,0 +1,25 @@
+{
+  "startedUTC": "2026-10-02T20:53:17.995857+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 1046,
+  "error": null,
+  "value": {
+    "continuedExistingDiodeNoRecreate": true,
+    "actualPolarity": [
+      {
+        "n": "2",
+        "nm": "A",
+        "net": "V3V3"
+      },
+      {
+        "n": "1",
+        "nm": "C",
+        "net": "V5"
+      }
+    ],
+    "saved": true
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "186DFE0FB2422F11AD19E79B0247F305F36910519A070BCE10D4CB720C504AC9"
+}

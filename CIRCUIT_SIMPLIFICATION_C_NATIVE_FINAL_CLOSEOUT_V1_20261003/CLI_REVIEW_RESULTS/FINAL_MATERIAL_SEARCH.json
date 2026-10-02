@@ -1,0 +1,13 @@
+{
+  "startedUTC": "2026-10-02T20:45:38.194399+00:00",
+  "returncode": 1,
+  "ok": false,
+  "durationMs": null,
+  "error": {
+    "code": "EXECUTION_ERROR",
+    "message": "Wrong C isolated source"
+  },
+  "value": null,
+  "omittedRawContext": true,
+  "originalReceiptSHA256": "4B30D7DB7A4DD1A7580739444F3B53972B8A423C7190171AF36398FB073D148F"
+}

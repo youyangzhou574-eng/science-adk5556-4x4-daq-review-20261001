@@ -1,0 +1,13 @@
+{
+  "startedUTC": "2026-10-02T20:50:39.909416+00:00",
+  "returncode": 1,
+  "ok": false,
+  "durationMs": null,
+  "error": {
+    "code": "EXECUTION_ERROR",
+    "message": "Diode actualpolarity"
+  },
+  "value": null,
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "03E5358A2AFDDD53802332545BD861E8C5220083E057A04F5D4D90EAF1346E0F"
+}

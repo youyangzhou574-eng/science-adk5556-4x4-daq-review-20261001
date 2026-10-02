@@ -1,0 +1,56 @@
+{
+  "startedUTC": "2026-10-02T20:54:13.261267+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 4020,
+  "error": null,
+  "value": {
+    "removed": {
+      "chainPartIds": [
+        "440b9674221edcb1",
+        "b2826e846d356f5c",
+        "2bd707b6272f5664",
+        "305e958ef09c6460"
+      ],
+      "wireIds": [
+        "92ecf513ec2965a3",
+        "3d4d0dceaf1ce223",
+        "56d8ba2aa0f015a6",
+        "a09f973dbae1d585",
+        "68b3ba890f60409e",
+        "8f7e8f8e1c610088",
+        "b0e86ceb45ec8c31",
+        "6f1d75313071968b"
+      ],
+      "netPortIds": [
+        "c4aa69cd9e515d99",
+        "4c5c3f579ae1dce8",
+        "769868691646da75",
+        "ff14ca5964e3cacc",
+        "e84aa2d9010a5bb7",
+        "00b5429bf750cf33",
+        "c8e782f0b9e5123e",
+        "02cfeba1c8eee55c"
+      ],
+      "method": "exact two-pin endpoints from frozen previous ownSCH_PAGE; no broad net deletion"
+    },
+    "added": {
+      "ref": "U12_TOP0",
+      "pins": [
+        {
+          "num": "2",
+          "name": "2",
+          "net": "U12_SENSE"
+        },
+        {
+          "num": "1",
+          "name": "1",
+          "net": "V3V3"
+        }
+      ]
+    },
+    "saved": true
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "2444230725C561FA70C6D9885E6C417DAC2B4AA80C0B6995A70640FA448AF491"
+}

@@ -1,0 +1,205 @@
+[
+  {
+    "id": "440b9674221edcb1",
+    "ref": "U12_TOP0",
+    "type": "part",
+    "name": "10k 0.1%",
+    "sub": "RT0603BRD0710KL.1",
+    "association": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "6646748c476cee98",
+      "name": "RT0603BRD0710KL"
+    },
+    "footprint": {
+      "uuid": "3e3bff9cd60aaa06",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0603"
+    },
+    "props": {
+      "PCB Layer": "Default",
+      "LCSC Part Name": "\u8584\u819c\u7535\u963b 10k\u03a9 \u00b10.1% 100mW",
+      "Supplier Footprint": "0603",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RT0603BRD0710KL/96405.html",
+      "Type": "\u8584\u819c\u7535\u963b",
+      "Value": "10k 0.1%",
+      "Tolerance": "\u00b10.1%",
+      "Power(Watts)": "100mW",
+      "Voltage-Supply(Max)": "75V",
+      "Temperature Coefficient": "\u00b125ppm/\u2103",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Description": "\u7535\u963b\u7c7b\u578b:\u8584\u819c\u7535\u963b;\u963b\u503c:10k\u03a9;\u7cbe\u5ea6:\u00b10.1%;\u529f\u7387:100mW;\u5de5\u4f5c\u7535\u538b:75V;\u6e29\u5ea6\u7cfb\u6570:\u00b125ppm/\u2103;",
+      "Review Status": "C CANDIDATE / NOT FOR USE / POWER_AND_DYNAMIC_HOLD",
+      "DNP": "no",
+      "Circuit Role": "C candidate; no PCB/bench release"
+    },
+    "pins": [
+      {
+        "number": "2",
+        "name": "2",
+        "x": 2050,
+        "y": 1900,
+        "nc": false
+      },
+      {
+        "number": "1",
+        "name": "1",
+        "x": 2010,
+        "y": 1900,
+        "nc": false
+      }
+    ]
+  },
+  {
+    "id": "b2826e846d356f5c",
+    "ref": "U12_TOP1",
+    "type": "part",
+    "name": "4.99k 0.1%",
+    "sub": "RT0603BRD074K99L.1",
+    "association": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "12d32d2a0b765184",
+      "name": "RT0603BRD074K99L"
+    },
+    "footprint": {
+      "uuid": "3e3bff9cd60aaa06",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0603"
+    },
+    "props": {
+      "PCB Layer": "Default",
+      "LCSC Part Name": "\u8584\u819c\u7535\u963b 4.99k\u03a9 \u00b10.1% 100mW",
+      "Supplier Footprint": "0603",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/RT0603BRD074K99L/768223.html",
+      "Type": "\u8584\u819c\u7535\u963b",
+      "Value": "4.99k 0.1%",
+      "Tolerance": "\u00b10.1%",
+      "Power(Watts)": "100mW",
+      "Temperature Coefficient": "\u00b125ppm/\u2103",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Description": "\u7535\u963b\u7c7b\u578b:\u8584\u819c\u7535\u963b;\u963b\u503c:4.99k\u03a9;\u7cbe\u5ea6:\u00b10.1%;\u529f\u7387:100mW;\u6e29\u5ea6\u7cfb\u6570:\u00b125ppm/\u2103;",
+      "Review Status": "C CANDIDATE / NOT FOR USE / POWER_AND_DYNAMIC_HOLD",
+      "DNP": "no",
+      "Circuit Role": "C candidate; no PCB/bench release"
+    },
+    "pins": [
+      {
+        "number": "2",
+        "name": "2",
+        "x": 370,
+        "y": 2320,
+        "nc": false
+      },
+      {
+        "number": "1",
+        "name": "1",
+        "x": 330,
+        "y": 2320,
+        "nc": false
+      }
+    ]
+  },
+  {
+    "id": "2bd707b6272f5664",
+    "ref": "U12_TOP2",
+    "type": "part",
+    "name": "1k 1%",
+    "sub": "0603WAF1001T5E.1",
+    "association": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "3c64e07783d6269c",
+      "name": "0603WAF1001T5E"
+    },
+    "footprint": {
+      "uuid": "3e3bff9cd60aaa06",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0603"
+    },
+    "props": {
+      "PCB Layer": "Default",
+      "LCSC Part Name": "1k\u03a9 \u00b11% 100mW \u539a\u819c\u7535\u963b",
+      "Supplier Footprint": "0603",
+      "JLCPCB Part Class": "Basic Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/0603WAF1001T5E/21904.html",
+      "Type": "\u539a\u819c\u7535\u963b",
+      "Value": "1k 1%",
+      "Tolerance": "\u00b11%",
+      "Power(Watts)": "100mW",
+      "Voltage-Supply(Max)": "75V",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Description": "\u7535\u963b\u7c7b\u578b:\u539a\u819c\u7535\u963b;\u963b\u503c:1k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:100mW;\u5de5\u4f5c\u7535\u538b:75V;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;",
+      "Review Status": "C CANDIDATE / NOT FOR USE / POWER_AND_DYNAMIC_HOLD",
+      "DNP": "no",
+      "Circuit Role": "C candidate; no PCB/bench release"
+    },
+    "pins": [
+      {
+        "number": "2",
+        "name": "2",
+        "x": 930,
+        "y": 2320,
+        "nc": false
+      },
+      {
+        "number": "1",
+        "name": "1",
+        "x": 890,
+        "y": 2320,
+        "nc": false
+      }
+    ]
+  },
+  {
+    "id": "305e958ef09c6460",
+    "ref": "U12_TOP3",
+    "type": "part",
+    "name": "1k 1%",
+    "sub": "0603WAF1001T5E.1",
+    "association": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "3c64e07783d6269c",
+      "name": "0603WAF1001T5E"
+    },
+    "footprint": {
+      "uuid": "3e3bff9cd60aaa06",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "name": "R0603"
+    },
+    "props": {
+      "PCB Layer": "Default",
+      "LCSC Part Name": "1k\u03a9 \u00b11% 100mW \u539a\u819c\u7535\u963b",
+      "Supplier Footprint": "0603",
+      "JLCPCB Part Class": "Basic Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/0603WAF1001T5E/21904.html",
+      "Type": "\u539a\u819c\u7535\u963b",
+      "Value": "1k 1%",
+      "Tolerance": "\u00b11%",
+      "Power(Watts)": "100mW",
+      "Voltage-Supply(Max)": "75V",
+      "Temperature Coefficient": "\u00b1100ppm/\u2103",
+      "Operating Temperature": "-55\u2103~+155\u2103",
+      "Description": "\u7535\u963b\u7c7b\u578b:\u539a\u819c\u7535\u963b;\u963b\u503c:1k\u03a9;\u7cbe\u5ea6:\u00b11%;\u529f\u7387:100mW;\u5de5\u4f5c\u7535\u538b:75V;\u6e29\u5ea6\u7cfb\u6570:\u00b1100ppm/\u2103;",
+      "Review Status": "C CANDIDATE / NOT FOR USE / POWER_AND_DYNAMIC_HOLD",
+      "DNP": "no",
+      "Circuit Role": "C candidate; no PCB/bench release"
+    },
+    "pins": [
+      {
+        "number": "2",
+        "name": "2",
+        "x": 1490,
+        "y": 2320,
+        "nc": false
+      },
+      {
+        "number": "1",
+        "name": "1",
+        "x": 1450,
+        "y": 2320,
+        "nc": false
+      }
+    ]
+  }
+]

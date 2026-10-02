@@ -1,0 +1,5 @@
+# 唯一最终审查处置
+单次fresh审查 FINAL_REVIEW.md：新增未披露Critical0/Important0，Minor1。仅按既有CSV将zeroVF示例说明统一为0.206277976V，并纠正H0LD文字；未重算、未改CAD、未二审。
+已有ERC_DETAIL_HOLD/LEGACY_ANNOTATION_HOLD仍未关闭，C_SCHEMATIC_ACCEPTED和PCB_PLACEMENT_ELIGIBLE维持false。审查允许完整阻断回执交付，不是全电路/性能/制造放行。
+公开epro2为独立派生663466bytes SHA EC94F4D5F526D987B8C393CD387561751BD02DBCA200D07EB5C2B73264BB5B32，原native686661bytes SHA F1130A123729815AC890D7B90BBB16CED9475A0FE9F64BF4E38600160FF628BE。只去140DOCHEAD user/client，其余原字节保真；派生未cold，旧176PCB NOTFORUSE。12公开SCH同非头原字节验证。账户SQLite/raw原native/raw上下文全部只本地。
+公开打包脚本与准备中两个DOCHEAD解析只读尝试遇尾符JSON Extra data，随后raw_decode解析验证成功；无额外CAD/native/科学操作，不据失败宣称PASS。发布/远端SHA核验和唯一通信回执由独立交付账证明，不能提前预称。

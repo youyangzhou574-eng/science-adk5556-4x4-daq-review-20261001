@@ -1,0 +1,29 @@
+{
+  "removed": [
+    "C_TIA_HF0",
+    "C_TIA_HF1",
+    "C_TIA_HF2",
+    "C_TIA_HF3",
+    "R_COL_SENSE0",
+    "R_COL_SENSE1",
+    "R_COL_SENSE2",
+    "R_COL_SENSE3",
+    "R_TIA_ISO0",
+    "R_TIA_ISO1",
+    "R_TIA_ISO2",
+    "R_TIA_ISO3",
+    "U12_TOP1",
+    "U12_TOP2",
+    "U12_TOP3"
+  ],
+  "added": [
+    "D_LDO_REV"
+  ],
+  "3ExistingUpdated": [
+    "D_FFC_COL",
+    "D_FFC_ROW",
+    "U12_TOP0"
+  ],
+  "97OtherPartsCoreCoordsPinsPropsFootprintStrictlyUnchanged": 97,
+  "unexpectedDifferences": []
+}

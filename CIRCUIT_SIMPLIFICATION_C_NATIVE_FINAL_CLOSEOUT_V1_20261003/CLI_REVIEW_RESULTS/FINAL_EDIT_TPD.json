@@ -1,0 +1,46 @@
+{
+  "startedUTC": "2026-10-02T20:53:49.069274+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 1279,
+  "error": null,
+  "value": {
+    "out": [
+      {
+        "ref": "D_FFC_ROW",
+        "props": {
+          "PCB Layer": "Default",
+          "LCSC Part Name": "TPD4E05U06DQAR",
+          "Supplier Footprint": "USON-10",
+          "JLCPCB Part Class": "Extended Part",
+          "Datasheet": "",
+          "Description": "",
+          "Value": "TPD4E05U06DQAR",
+          "Review Status": "C final candidate / noPCBbenchrelease",
+          "DNP": "no",
+          "Circuit Role": "J2 passive-only ESD, notcontinuousDCfault",
+          "MPN": "TPD4E05U06DQAR"
+        }
+      },
+      {
+        "ref": "D_FFC_COL",
+        "props": {
+          "PCB Layer": "Default",
+          "LCSC Part Name": "TPD4E05U06DQAR",
+          "Supplier Footprint": "USON-10",
+          "JLCPCB Part Class": "Extended Part",
+          "Datasheet": "",
+          "Description": "",
+          "Value": "TPD4E05U06DQAR",
+          "Review Status": "C final candidate / noPCBbenchrelease",
+          "DNP": "no",
+          "Circuit Role": "J2 passive-only ESD, notcontinuousDCfault",
+          "MPN": "TPD4E05U06DQAR"
+        }
+      }
+    ],
+    "saved": true
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "65CDC7343F5857081EEDC39516524DAE99BB1A19A464112C086894C32712F9C4"
+}

@@ -1,0 +1,14 @@
+{
+  "startedUTC": "2026-10-02T20:57:44.228596+00:00",
+  "returncode": 0,
+  "ok": true,
+  "durationMs": 3,
+  "error": null,
+  "value": {
+    "sessionId": "c2cdca59-5e31-417d-b275-af2d552d3163",
+    "status": "closed",
+    "headless": true
+  },
+  "omittedRawContext": false,
+  "originalReceiptSHA256": "AF74BC36AC048EE429680FFF9DDC7CC8047B578F39B29DDB50FF9A13F8CB95D5"
+}

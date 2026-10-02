@@ -1,0 +1,4 @@
+const pr=await eda.dmt_Project.getCurrentProjectInfo();if(pr.uuid!=='4ae4cc408054b9f3268fe06814bf647a4eb772b7b16c216936b4770d6712c201')throw Error('Wrong C');
+async function capture(f){if(!f)throw Error('No File');const b=new Uint8Array(await f.arrayBuffer());let s='';for(let i=0;i<b.length;i+=16384)s+=String.fromCharCode(...b.subarray(i,i+16384));return{name:f.name,size:f.size,type:f.type,base64:btoa(s)};}
+const native=await capture(await eda.sys_FileManager.getProjectFile('C101_FINAL_CANDIDATE_LEGACY_PCB_NOT_FOR_USE','','epro2'));
+const pdf=await capture(await eda.sch_ManufactureData.getExportDocumentFile('C101_FINAL_SCHEMATIC_CANDIDATE_NOT_FOR_USE','PDF',{theme:'Black on White',lineWidth:'Default',size:'Original Size'},'Current Schematic',{range:'All',outputMethod:'Merged sheet'}));return{project:pr.uuid,native,pdf,legacyPCBIsNotCPCB:true};

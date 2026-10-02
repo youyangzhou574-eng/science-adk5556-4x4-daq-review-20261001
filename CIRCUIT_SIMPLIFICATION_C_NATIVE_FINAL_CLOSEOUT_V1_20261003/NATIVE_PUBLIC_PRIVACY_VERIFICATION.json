@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "originalSHA256": "F1130A123729815AC890D7B90BBB16CED9475A0FE9F64BF4E38600160FF628BE",
+  "publicSHA256": "EC94F4D5F526D987B8C393CD387561751BD02DBCA200D07EB5C2B73264BB5B32",
+  "changedHeaders": 140,
+  "allOtherMembersAndNonHeaderLinesIdentical": true,
+  "all12SourcesNonHeaderBytesIdentical": true,
+  "publicDerivativeColdReopened": false
+}

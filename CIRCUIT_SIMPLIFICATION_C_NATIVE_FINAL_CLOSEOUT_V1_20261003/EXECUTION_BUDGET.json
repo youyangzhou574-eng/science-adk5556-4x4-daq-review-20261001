@@ -1,0 +1,207 @@
+{
+  "scope": "CIRCUIT-SIMPLIFICATION-C-NATIVE-FINAL-CLOSEOUT-V1",
+  "rulingAssistant": "e296d002-ac83-4af0-8985-7dd3d1f3fdca",
+  "parentUser": "8d08e41a-3fa6-4b7a-bbda-270a33416456",
+  "startUTC": "2026-10-02T20:44:37.165256+00:00",
+  "deadlineUTC": "2026-10-03T00:44:37.165256+00:00",
+  "limits": {
+    "sources": 2,
+    "powerCandidate": 1,
+    "copy": 1,
+    "session": 2,
+    "save": 4,
+    "capture": 3,
+    "audit": 3,
+    "ERC": 1,
+    "PDF": 1,
+    "OP_AC_PZ": 8,
+    "TRAN": 2,
+    "placement": 0,
+    "PCB": 0,
+    "routing": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "STOP": true,
+  "spent": {
+    "sources": 2,
+    "powerCandidate": 1,
+    "copy": 1,
+    "session": 2,
+    "save": 4,
+    "capture": 3,
+    "audit": 3,
+    "ERC": 1,
+    "PDF": 1,
+    "OP_AC_PZ": 4,
+    "TRAN": 0,
+    "placement": 0,
+    "PCB": 0,
+    "routing": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "events": [
+    {
+      "utc": "2026-10-02T20:44:37.165256+00:00",
+      "cost": {
+        "copy": 1
+      },
+      "purpose": "Precharge sole private native working copy before copy"
+    },
+    {
+      "utc": "2026-10-02T20:44:37.165256+00:00",
+      "cost": {
+        "sources": 2,
+        "powerCandidate": 1
+      },
+      "purpose": "Reception accounting2 actualnew sources PMEG datasheet and accurateYageo16K9 specsheet, read before entry; no fictitious precharge"
+    },
+    {
+      "utc": "2026-10-02T20:44:48.625274+00:00",
+      "label": "FINAL_WARM_OPEN",
+      "cost": {
+        "session": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:45:38.125618+00:00",
+      "label": "FINAL_MATERIAL_SEARCH",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:45:39.106303+00:00",
+      "label": "FINAL_BEFORE_CAPTURE",
+      "cost": {
+        "capture": 1,
+        "audit": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:46:08.463124+00:00",
+      "label": "FINAL_COPY_IDENTITY",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:46:38.839148+00:00",
+      "label": "FINAL_MATERIAL_IDENTITY_CONFIRMED",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:50:39.843043+00:00",
+      "label": "FINAL_EDIT_DIODE",
+      "cost": {
+        "save": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:52:07.838854+00:00",
+      "label": "DIODE_READONLY_GUARD_RECEPTION",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:53:17.922800+00:00",
+      "label": "FINAL_DIODE_CONTINUE_RESERVED_SAVE",
+      "cost": {},
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:53:48.995001+00:00",
+      "label": "FINAL_EDIT_TPD",
+      "cost": {
+        "save": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:54:00.609899+00:00",
+      "label": "FINAL_REMOVE_DNP",
+      "cost": {
+        "save": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:54:13.175559+00:00",
+      "label": "FINAL_U12_SINGLE_RESISTOR",
+      "cost": {
+        "save": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:54:52.051188+00:00",
+      "label": "FINAL_WARM_CAPTURE",
+      "cost": {
+        "capture": 1,
+        "audit": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:58:07.407815+00:00",
+      "label": "FINAL_COLD_REOPEN",
+      "cost": {
+        "session": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:58:17.538491+00:00",
+      "label": "FINAL_COLD_CAPTURE",
+      "cost": {
+        "capture": 1,
+        "audit": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:59:13.829412+00:00",
+      "label": "FINAL_ERC",
+      "cost": {
+        "ERC": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T20:59:50.477691+00:00",
+      "label": "FINAL_NATIVE_PDF_EXPORT",
+      "cost": {
+        "PDF": 1
+      },
+      "prechargedBeforeLaunch": true
+    },
+    {
+      "utc": "2026-10-02T21:05:48.543132+00:00",
+      "cost": {
+        "OP_AC_PZ": 4
+      },
+      "purpose": "Conservative precharge4 scalar analytic DC endpoints; actualSPICE0, no transient models",
+      "prechargedBeforeCalculation": true
+    }
+  ],
+  "STOPUTC": "2026-10-02T21:05:48.548239+00:00",
+  "STOPReason": "C101_NATIVE_EDITS_AND_COLD_COMPLETE_ERC_DETAIL_AND_LEGACY_DRAWING_HOLD_HARD_QUOTAS_USED",
+  "actualSPICEProcesses": 0,
+  "actualSaveInterfaceAttempts": 4,
+  "saveReservationContinuedAfterPreSaveGuardFailure": true,
+  "nativeColdCompleted": true,
+  "analyticScalarEndpoints": 4
+}

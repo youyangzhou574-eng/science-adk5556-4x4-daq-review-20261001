@@ -1,0 +1,5 @@
+endpoint,V
+U12_falling_low,3.0570290242857143
+U12_falling_high,3.1300564897997996
+OFF_nonconducting_added_diode_upper,0.3901978354537016
+OFF_zeroVF_equal_rail_conditional_limit,0.2062779760250075
