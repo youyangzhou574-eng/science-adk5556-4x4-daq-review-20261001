@@ -1,0 +1,1 @@
+{"all101": true, "all363": true, "all5050": true, "bank16": true, "meanTIA_ADCstub": 8.775984591614172, "maxTIA_ADCstub": 10.863074774052244, "repeat": {"fourRFFeedbackStubSpreadMm": 0.0, "fourCFFeedbackStubSpreadMm": 0.0, "ADCcapsPairedTopBottom": true, "completeChannelExactMirrorClaimed": false, "R_ADCfanoutPositionsDifferent": true}, "P2NotExecuted": true}

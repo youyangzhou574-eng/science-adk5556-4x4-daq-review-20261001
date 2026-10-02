@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_C101_BANK_FIRST_FULL_PLACEMENT_CLOSEOUT_V1\verify_review_disposition.py", line 4, in <module>
+    assert g.get('J2_PIN_SIDE_ROW_ADJACENCY_HOLD')is True,'Missing actual J2/ROW side-conflict engineering HOLD'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Missing actual J2/ROW side-conflict engineering HOLD

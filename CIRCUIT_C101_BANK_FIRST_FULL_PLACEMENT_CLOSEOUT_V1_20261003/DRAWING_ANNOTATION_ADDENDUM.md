@@ -1,0 +1,9 @@
+# MandatoryC101drawing companion — nativePDFaloneNOTRELEASED
+SixactualcoldPDFpages viewed. Components/netlabels are zoom-readable, but sparsegrids/tightmargins and oldR2 notes/title persist aftercoldimport, contrary to previousC103warmPDFclearedview. ActualC101electricalsource/363pinCSV is authoritative; no additionalnative save/PDF or investigation.
+Page1: U8 is TPS7A3701, notoldTPS7A20; singleREF3025 drivesVCM/divider; newPMEG2010BER1C=V5,2A=V3V3. R2title/feedback/1ksense wording is historical.
+Page2: current singleOPA388+dual4:1TMUX1109, activehighROW_MUX_EN fromMCU with100k pulldown, notold MCU_ROW_AND_HW_ENABLE four-rowANDlogic. OldSchmitt/HW_ENABLE descriptions and ideal300usPASS are invalidcurrenthardwareclaims.
+Page3: currentdirectTIA: COLx→OPAminus, RF||CF betweenCOLx andTIAx, outputTIAx→100R→ADCinput with10nFGND. OldCOL10k/isolated1k wording is NOT current. All12NC DNP removed. Recovery ONLY byfutureexplicit boundedECO restoringfulloldremote-sensetopology; no solderablefakeDNP.
+Page4: ADCbulk retained, Ceffunverified; note count44u nominalnotactualeffectivecapacitance. ADCinternalreference onlyifenabled, dynamic/noise100fpsunverified.
+Page5: MCU pin16 nowROW_MUX_EN; noU13/U14/U15 orSchmittAND inC. Six4.99k paths/NRST1k remain, NRSTexternalODHiZonly. Old48kframe/MCU_ENABLE/Schmitttextnotcurrentfwproof.
+Page6: U11 separatePWR5_OK withdiodepropagation toPGOOD, U12single16.9k/10k nominal3.0935V; oldPGOODcommonbothwiredoutputs/3.1085V/twoLM73100 notesincorrect. Newpowersequenceacceptedcandidate, not benchfaultPASS. InitialMEASURE>=10msafterV5/VCMestablished pernewruling.
+Therefore standalonePDFfunctional-annotationgate NOTmet. PreserveoldtitleactualPDFevidence, doNOTrenameitaccepted final. Full97unchangedcomponentaudit andwarm/cold363pin/netactualmaps supplied. This documentationcompaniondoesnotpretendnativeTextupdated; Procanacceptpairedrevieworidentifyoneboundedactualremainingrequirement, noAPIresearchloop.

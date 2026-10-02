@@ -1,0 +1,82 @@
+{
+  "scope": "CIRCUIT-C101-BANK-FIRST-FULL-PLACEMENT-CLOSEOUT-V1",
+  "rulingAssistant": "0efc68cd-fbc6-47c7-89cb-8e2678c8d92f",
+  "parentUser": "188c6864-4406-40c2-8df8-15a723470c1f",
+  "startUTC": "2026-10-02T22:12:46.008327+00:00",
+  "deadlineUTC": "2026-10-03T03:12:46.008327+00:00",
+  "limits": {
+    "candidate": 2,
+    "placement": 4,
+    "image": 2,
+    "source": 0,
+    "CAD": 0,
+    "session": 0,
+    "save": 0,
+    "export": 0,
+    "SPICE": 0,
+    "PCB": 0,
+    "routing": 0,
+    "via": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "install": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "spent": {
+    "candidate": 1,
+    "placement": 2,
+    "image": 2,
+    "source": 0,
+    "CAD": 0,
+    "session": 0,
+    "save": 0,
+    "export": 0,
+    "SPICE": 0,
+    "PCB": 0,
+    "routing": 0,
+    "via": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "bench": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "install": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "events": [
+    {
+      "utc": "2026-10-02T22:15:44.003175+00:00",
+      "kind": "candidate",
+      "count": 1,
+      "why": "Blank horizontal P1, planning50x50; no old coordinates read"
+    },
+    {
+      "utc": "2026-10-02T22:15:44.011240+00:00",
+      "kind": "placement",
+      "count": 1,
+      "why": "Full bank-first placement attempt 1; every failure charged"
+    },
+    {
+      "utc": "2026-10-02T22:18:17.203803+00:00",
+      "kind": "placement",
+      "count": 1,
+      "why": "Full bank-first placement attempt 2; every failure charged"
+    },
+    {
+      "utc": "2026-10-02T22:22:32.168499+00:00",
+      "kind": "image",
+      "count": 2,
+      "why": "One full101 overview and one analogdetail from same complete P1; no partial candidates/P2"
+    }
+  ],
+  "STOP": true,
+  "coordinateSTOP": true,
+  "phase": "COMPLETE_OFFLINE_LAYOUT_READONLY_REVIEW_AND_DELIVERY_ONLY",
+  "STOPUTC": "2026-10-02T22:22:32.682968+00:00",
+  "STOPReason": "OFFLINE_COMPLETE_FULL101_TWO_IMAGES_CLOSED_PENDING_VISUAL_AND_NATIVE_SCOPE"
+}

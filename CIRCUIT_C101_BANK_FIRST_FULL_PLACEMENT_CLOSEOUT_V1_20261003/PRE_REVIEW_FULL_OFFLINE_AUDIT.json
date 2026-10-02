@@ -1,0 +1,178 @@
+{
+  "all101Placed": true,
+  "all101InsidePlanningOutline": true,
+  "all5050BodyAndPhysicalProxyNoOverlap": true,
+  "minimumPhysicalProxyGapMm": 0.2040030999999978,
+  "all363ActualPinNetIdentityUnchanged": true,
+  "connectedPins": 323,
+  "NCpins": 40,
+  "netCount": 54,
+  "edgeReserveIntrusions": [],
+  "allADC16BankCapsPresent": true,
+  "ADCbankBeforeTIAAndAllLowerPriority": true,
+  "bankTierProximityOrder": [
+    {
+      "bank": "REFIO",
+      "tier": 0,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "REFCAP",
+      "tier": 0,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "REFCAP",
+      "tier": 1,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "AVDD9",
+      "tier": 0,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "AVDD9",
+      "tier": 1,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "AVDD9",
+      "tier": 2,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "AVDD30",
+      "tier": 0,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "AVDD30",
+      "tier": 1,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "AVDD30",
+      "tier": 2,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "DVDD34",
+      "tier": 0,
+      "tierNotCloserThanPrevious": true
+    },
+    {
+      "bank": "DVDD34",
+      "tier": 1,
+      "tierNotCloserThanPrevious": true
+    }
+  ],
+  "fourChannelRepeat": {
+    "fourRFFeedbackStubSpreadMm": 0.0,
+    "fourCFFeedbackStubSpreadMm": 0.0,
+    "ADCcapsPairedTopBottom": true,
+    "completeChannelExactMirrorClaimed": false,
+    "R_ADCfanoutPositionsDifferent": true
+  },
+  "ROWDriveSenseConnectivity": {
+    "ROW0to3": {
+      "0": {
+        "J2pin": "1",
+        "net": "ROW0",
+        "MUXpins": [
+          "4",
+          "13"
+        ]
+      },
+      "1": {
+        "J2pin": "2",
+        "net": "ROW1",
+        "MUXpins": [
+          "5",
+          "12"
+        ]
+      },
+      "2": {
+        "J2pin": "3",
+        "net": "ROW2",
+        "MUXpins": [
+          "6",
+          "11"
+        ]
+      },
+      "3": {
+        "J2pin": "4",
+        "net": "ROW3",
+        "MUXpins": [
+          "7",
+          "10"
+        ]
+      }
+    },
+    "driveFeedbackNetPins": [
+      [
+        "4",
+        "ROW_FB"
+      ],
+      [
+        "3",
+        "VEXC"
+      ],
+      [
+        "1",
+        "ROW_DRV"
+      ],
+      [
+        "8",
+        "ROW_DRV"
+      ],
+      [
+        "9",
+        "ROW_FB"
+      ]
+    ],
+    "staticConnectivityOnly": true
+  },
+  "inputSHAIntegrity": [
+    {
+      "file": "C101_PHYSICAL_GEOMETRY.json",
+      "copySHAUnchanged": true,
+      "sourceSHAUnchanged": true
+    },
+    {
+      "file": "C101_IDENTITY_AND_NETS.json",
+      "copySHAUnchanged": true,
+      "sourceSHAUnchanged": true
+    },
+    {
+      "file": "FUNCTIONAL_TARGET_REGISTER.json",
+      "copySHAUnchanged": true,
+      "sourceSHAUnchanged": true
+    },
+    {
+      "file": "GEOMETRY_EXTRACTION_AUDIT.json",
+      "copySHAUnchanged": true,
+      "sourceSHAUnchanged": true
+    },
+    {
+      "file": "FINAL_COLD_CAPTURE_ALL_PINS.csv",
+      "copySHAUnchanged": true,
+      "sourceSHAUnchanged": true
+    },
+    {
+      "file": "FINAL_COLD_CAPTURE_ACTUAL_BOM.csv",
+      "copySHAUnchanged": true,
+      "sourceSHAUnchanged": true
+    },
+    {
+      "file": "DRAWING_ANNOTATION_ADDENDUM.md",
+      "copySHAUnchanged": true,
+      "sourceSHAUnchanged": true
+    }
+  ],
+  "nativeDRCClaimed": false,
+  "nativeCADReleased": false,
+  "P2ReasonNotExecuted": "P1 full101/5050/16caps and keyproxy improvement closes offline objective; no mandatory second candidate",
+  "J2ExactActuatorHOLD": true,
+  "J134FinalMechanicalHOLD": true
+}

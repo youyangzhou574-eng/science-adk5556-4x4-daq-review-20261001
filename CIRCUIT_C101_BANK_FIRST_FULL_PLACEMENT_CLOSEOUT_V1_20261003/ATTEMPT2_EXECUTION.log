@@ -1,0 +1,1 @@
+{"candidate": "P1", "attempt": 2, "placed": 101, "audit": {"pairs": 5050, "physicalProxyCollisions": [], "bodyCollisions": [], "minimumProxyGapMm": 0.2040030999999978, "minimumPair": ["C_AVDD9_HF", "R_ADC_RESET_PD"]}}
