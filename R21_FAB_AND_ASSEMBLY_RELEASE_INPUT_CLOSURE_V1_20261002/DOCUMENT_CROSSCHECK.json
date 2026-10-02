@@ -1,0 +1,39 @@
+{
+  "UTC": "2026-10-02T05:08:41.717812+00:00",
+  "PASS": true,
+  "frozenOldFiles": 196,
+  "allFrozenOldSHAUnchanged": true,
+  "BOMrows": 176,
+  "groups": 32,
+  "groupQty": 176,
+  "missingManufacturerMPN": [
+    "J1",
+    "J3",
+    "J4"
+  ],
+  "mandatoryCompanions": {
+    "J2_PINOUT_AND_BODY.png": {
+      "sha256": "D6BFFE4D5D0388F3330D0FE123DC272DA9E24D484FB03076569117EF1C3837EA",
+      "identicalToAccepted17": true
+    },
+    "J2_ACTUAL_8PIN_HARNESS.csv": {
+      "sha256": "373477CCF911B7254A6170E597CBC19874DB6E25D8BDC4F0F6375336F2293D72",
+      "identicalToAccepted17": true
+    },
+    "J2_CONNECTOR_AND_HARNESS_SPEC.md": {
+      "sha256": "DDF5B29333645868D88B9F0DB71278FDFB1FEA350C93D2901CD84896609B1878",
+      "identicalToAccepted17": true
+    }
+  },
+  "defaultParameters": 20,
+  "noNewCADorPhysicalExecution": true,
+  "engineeringAcceptedNotManufactureReleased": true,
+  "actualSourceCount": 1,
+  "terminalCandidates": 0,
+  "scope": "One document crosscheck and frozen SHA pass; no scientific or CAD rerun",
+  "oneReviewFix": {
+    "Important": "I-01 fixed28pair bareharness isolation",
+    "MinorDeferred": "M-01 historicalattachment clause",
+    "scope": "one static clause check; no repeatedfrozenSHA or science"
+  }
+}

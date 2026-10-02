@@ -1,0 +1,21 @@
+id,parameter,proposedValue,status,note
+F01,fabricator,FABRICATOR_PENDING,PREORDER_REQUIRED,尚未选厂；JLC仅能力参照，不代表订单
+F02,material,"FR-4, ordinary rigid four-layer",RECOMMENDED_INPUT,指定厂商标准FR4；实际牌号/Tg及认证由厂商确认，不凭空填UL号
+F03,layers,4: Top/L2 GND/L3 supply/Bottom,ACCEPTED_DESIGN,保持冻结铜层与网络；介质各厚度未定，需最终stackup
+F04,outline,100 x 90 mm nominal rectangle; routed,ACCEPTED_DESIGN_RECOMMENDED_PROCESS,不加孔/倒角/机箱约束；无新机械改板
+F05,finishedThickness,1.60 mm nominal; reference +/-10% (1.44-1.76),RECOMMENDED_INPUT,实际层叠由厂商确认；连接器尾长/装配过程同时确认
+F06,copper,outer1oz / inner1oz preferred,RECOMMENDED_INPUT,inner1oz非参照厂默认.5oz；必须明确选项，不悄然接受.5或2oz
+F07,finish,ENIG preferred; HASL only after assembler/CAM acceptance,RECOMMENDED_INPUT,细间距装配优先平整表面；不是已下单工艺
+F08,mask,green LPI; retain native openings,RECOMMENDED_INPUT_CAM_REQUIRED,不全局改开窗；U5/U9/U10桥.090-.097mm待CAM
+F09,legend,existing native silk + mandatory companion,ACCEPTED_VARIANCE,J2仅J2/方形1脚/三角，ROW/COL完整文字未印在板上
+F10,traceWidth,"minimum6mil (0.1524mm), existing6/12/16/20",ACCEPTED_GEOMETRY,不把所有间距也宣称6mil
+F11,spacingCapability,support frozen4mil track-track rule (.1016mm); pad-track6mil; pour10mil,FAB_CAM_CONFIRM_REQUIRED,6mil-only spacing服务不能默认适配；不改冻结规则
+F12,via,ordinary through-via drill0.3048 / copperdiam0.6096 mm,RECOMMENDED_INPUT_CAM_REQUIRED,nominal annular ring0.1524mm; needs drill registration/CAM acceptance
+F13,J2 finishedPTH,"1.14 +/-0.05 mm, eight round PTH; pad~1.70",FAB_CAM_CONFIRM_REQUIRED,manufacturer specified1.09..1.19; ordinary+0.13/-0.08 would1.06..1.27 and is not equivalent
+F14,other holes,native J1/J3/J4 and297 vias; no blind/buried/new slots,FAB_CAM_CONFIRM_REQUIRED,最终Excellon/CAM未生成，现值为冻结CAD名义值
+F15,hole spacing,"historical overall minimum0.31115mm, pair class not requalified here",FAB_CAM_CONFIRM_REQUIRED,via-via vs pad-hole要求不同；须板厂按实际钻孔分类核查，旧screen不是CAM PASS
+F16,via mask treatment,"ordinary mask-covered/tented preference, assembler/fab confirm",RECOMMENDED_INPUT_CAM_REQUIRED,不默认为树脂填孔或塞孔合格；不得更改已有mask记录
+F17,panel/tooling,single-board routed preferred; assembler-defined rails/fiducials if required,ASSEMBLER_INPUT_REQUIRED,不新加板内定位孔/mark；拼板资料未生成
+F18,stencil,assembler-approved finepitch stencil/apertures/reflow,ASSEMBLER_INPUT_REQUIRED,不凭空锁厚度/开口比；U9/U10/U11/U12底面焊接不可当普通手焊已可靠
+F19,impedance,no controlled-impedance requirement added,NOT_APPLICABLE,不引入新SI/PI或HDI课题
+F20,quantity/test,prototype quantity and factory e-test/inspection to be agreed,PREORDER_REQUIRED,板数/交期/预算未选择；无采购授权

@@ -1,0 +1,41 @@
+[
+  {
+    "id": "F18-S1",
+    "type": "fresh official capability reference",
+    "url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "retrievedDateUTC": "2026-10-02",
+    "recordedUTC": "2026-10-02T05:07:56.658607+00:00",
+    "uniqueSourceCount": 1,
+    "facts": "1oz multilayer spacing .09mm; inner .5oz default; standard PTH +.13/-.08mm vs conditional tight .05mm; green mask bridge .10mm; process reference not factory selection or CAM approval"
+  },
+  {
+    "id": "F18-S2",
+    "type": "frozen accepted native input",
+    "path": "../R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1/COLD_PCB.json",
+    "SHA256": "C0B87D5103A6109E03C9D7C9207E144271842D3B95BEE05949227F76485CC10C",
+    "publicFixedFolder": "https://github.com/youyangzhou574-eng/science-adk5556-4x4-daq-review-20261001/tree/bcafa5c6b834c20539774cd335d34586442453be/R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1_20261002",
+    "scope": "176 parts identity and existing pad/net authority"
+  },
+  {
+    "id": "F18-S3",
+    "type": "frozen engineering geometry/preflight",
+    "path": "../R21_PCB_MANUFACTURING_PREFLIGHT_READONLY_V1/GEOMETRY_SUMMARY.json",
+    "SHA256": "7C48F427F9DDA24F68EF97B629340234674EB60A7E23F6FCE2A2313FA16CD7AF",
+    "scope": "prior native dimensions/screen; not CAM or new exact fullgeometry run"
+  },
+  {
+    "id": "F18-S4",
+    "type": "current Pro18 ruling",
+    "path": "PRO_FAB_INPUT_CLOSURE_RULING_FULL.md",
+    "SHA256": "C8FF748B894E06AAF9BD9146D344E20A391CE274B7228033A53709E8A98FD5FD",
+    "scope": "accepted J2 variance and180min doc-only contract"
+  },
+  {
+    "id": "F18-S5",
+    "type": "manufacturer J2 drawings already qualified in17",
+    "publicFixedFolder": "https://github.com/youyangzhou574-eng/science-adk5556-4x4-daq-review-20261001/tree/bcafa5c6b834c20539774cd335d34586442453be/R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1_20261002",
+    "headerDrawingSHA": "134202F9425A2E1617E303052B4FCAAC697C526CF51FB54B6F3C5F2F16E1F048",
+    "housingDrawingSHA": "79B00AD4CE684EA09261FBC48F9B66E90A0842EC5C0D24825122670587555243",
+    "scope": "same vendor-authored drawings; old revision/provenance limitations unchanged, no new source/candidate"
+  }
+]

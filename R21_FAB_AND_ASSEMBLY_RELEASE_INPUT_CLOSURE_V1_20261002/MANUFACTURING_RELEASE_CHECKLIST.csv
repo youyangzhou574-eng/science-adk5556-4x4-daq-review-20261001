@@ -1,0 +1,22 @@
+id,item,category,evidence,action
+A01,Accepted schematic/PCB electrical and warm/cold,ACCEPTED_REVIEW_PASS,R18 acceptedR17;176/550/514/107/36,No new physicalperformance claim
+A02,J2actualfootprint/order/bodyedge,ACCEPTED_REVIEW_PASS,"1718560008/22012087, manufacturerderivedFP",Not fullmated3D
+A03,J2missingROWCOLsilk,ACCEPTED_NONBLOCKING_VARIANCE,R18 releaseconformancehold,Mandatorycompanion required; textnotprinted
+A04,J2genericDevice/old3D,NONBLOCKING_DOCUMENT_LIMIT,exactMPN+actualFPoverride,Do notprocure bygenericname orcertify3D
+P01,Selectedfabricator/quantity/price/turnaround,PREORDER_REQUIRED,FABRICATOR_PENDING,User/orderauthorization separate
+P02,Stackupmaterial/copper/thickness/finish,PREORDER_REQUIRED,defaultFR4/4L/1.6/1ozall/ENIG/green,Confirmrealstackup andinner1ozselection
+P03,Manufacturingfiles/exportpermission,PREORDER_REQUIRED,Gerber/drill/CPLnotgenerated,No autoexport/order
+C01,U5/U9/U10maskbridges,FAB_CAM_CONFIRM_REQUIRED,approximately.096774/.090081/.090081mm,Factorygreen.10reference notblanketPASS; keepnative
+C02,J2finishedhole tolerance,FAB_CAM_CONFIRM_REQUIRED,1.14+/-.05mm vsordinary+ .13/- .08,Writtenprocess acceptanceJ2eightPTH; solderheadernotpress-fit
+C03,Viaannularring/drillregistration,FAB_CAM_CONFIRM_REQUIRED,.3048/.6096/ring.1524,Near1ozreferenceabsmin.15;CAMcheck
+C04,Trackspace andother pad/innerclearances,FAB_CAM_CONFIRM_REQUIRED,6milwidthbut4milTrackTrackrule,Factorycoverfrozenrules;no4mil-to6milruleedit
+C05,Drillpair classification,FAB_CAM_CONFIRM_REQUIRED,historicaloverallmin.31115mm,Separatevia-via/pad-hole categoriesinCAM;noCADrecheck
+C06,Panel/tooling/mask/legendactualdata,FAB_CAM_CONFIRM_REQUIRED,No production CAM run,No automaticboardmodifications
+S01,J1/J3/J4manufacturer/MPN,ASSEMBLY_PREORDER_REQUIRED,3nativefieldsblank; footprints/netsfrozen,Selectmatchedactualpartbeforeorder
+S02,J2terminal/wire,ASSEMBLY_PREORDER_REQUIRED,EXACT_TERMINAL=PENDING_AWG,ActualAWG/OD/plating/crimpmethod needed
+S03,Pin1/polarity/CPL/inspection,ASSEMBLY_INPUT_REQUIRED,32criticalU/dualdiode rows,Actualmanufacturerorientationandassemblyprocedure
+S04,SMT/stencil/reflow/landacceptance,ASSEMBLY_INPUT_REQUIRED,smallQFN/WSON andTSSOPfinepitch,Noallhandsolder reliabilityassumption
+S05,Harnessmechanics/continuity,ASSEMBLY_INPUT_REQUIRED,8wiretrace plan,Noactualtest result
+B01,Firstpower andmetrology,BENCH_NOT_RELEASED,performance/MLCC/WCET/SWD/faultpending,Noactualpowerup
+N01,Metadata/UTF8/909911theory,NOT_REQUIRED_FOR_PCB_REWORK,historicalacceptedlimits,No newtoolresearch
+N02,MIMO/descriptorcertificate,NOT_REQUIRED_FOR_ENGINEERING_CLOSURE,engineeringgoalaccepted,Do notreopenendedscience

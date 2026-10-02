@@ -1,0 +1,7 @@
+{
+  "UTC": "2026-10-02T05:12:13.975Z",
+  "requirement": "Bare8wireharness all28distinctpair isolation, not adjacentonly",
+  "documentPass": false,
+  "observedAdjacentOnly": true,
+  "actualHardwareTest": false
+}

@@ -1,0 +1,9 @@
+PCB_pin,PCB_net,array_conductor,PCB_x_mm,PCB_y_mm,housing_contact
+1,ROW0,ROW0,5.00126,30.109160000000003,Trace actual mating contact; do not assume molded housing numbering
+2,ROW1,ROW1,5.00126,32.64916,Trace actual mating contact; do not assume molded housing numbering
+3,ROW2,ROW2,5.00126,35.18916,Trace actual mating contact; do not assume molded housing numbering
+4,ROW3,ROW3,5.00126,37.72916,Trace actual mating contact; do not assume molded housing numbering
+5,COL0,COL0,5.00126,40.26916,Trace actual mating contact; do not assume molded housing numbering
+6,COL1,COL1,5.00126,42.80916,Trace actual mating contact; do not assume molded housing numbering
+7,COL2,COL2,5.00126,45.34916,Trace actual mating contact; do not assume molded housing numbering
+8,COL3,COL3,5.00126,47.88916,Trace actual mating contact; do not assume molded housing numbering

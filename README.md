@@ -1,3 +1,11 @@
+# Latest: R18 PCB accepted, fabrication and assembly input contract
+
+[Full receipt](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/COMPLETE_FAB_INPUT_CLOSURE_RECEIPT.md) · [Index](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/README.md) · [Default fabrication contract](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/FABRICATION_INPUT_CONTRACT.md) · [176 BOM](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/BOM_STRUCTURAL_176.csv) · [8-wire harness](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/J2_HARNESS_BUILD_SPEC.md) · [Release checklist](R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1_20261002/MANUFACTURING_RELEASE_CHECKLIST.md).
+
+Pro18 accepts J2 silkvariance withmandatorycompanion; PCB_REVIEW_READY=true. This package creates no CAD/Gerber or physicaltests. Actualfactory/CAM, J1/J3/J4manufacturerMPN, wire/terminal and future manufacturing authorization pending. RecommendedFR4/4layer/1.6/1ozall/ENIG/green; J2hole tolerance and thinmaskbridge require realCAM acceptance. No purchase/manufacture/powerup.
+
+---
+
 # Latest: J2 single-row8 pluggable interface ECO
 
 [Full receipt](R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1_20261002/COMPLETE_J2_INTERFACE_RECEIPT.md) · [Index](R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1_20261002/README.md) · [Mandatory connector/harness assembly specification](R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1_20261002/J2_CONNECTOR_AND_HARNESS_SPEC.md) · [Actual pinout](R21_EXTERNAL_ARRAY_PLUGGABLE_INTERFACE_AND_FAB_INPUT_CONTRACT_V1_20261002/J2_ACTUAL_8PIN_HARNESS.csv). Molex1718560008 +22012087 housing, real8pad manufacturer-drawing-derived project footprint, warm/coldfourclassDRC0, other175/core copper unchanged. Genericdevice/old3D retained and not assembly-qualified; exact terminal/fab/enclosure inputs remain pending. Engineering review only, no manufacture/procurement/power-up.

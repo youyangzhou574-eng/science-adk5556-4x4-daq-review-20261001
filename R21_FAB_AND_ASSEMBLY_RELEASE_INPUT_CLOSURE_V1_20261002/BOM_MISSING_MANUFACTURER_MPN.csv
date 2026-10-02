@@ -1,0 +1,4 @@
+Designator,Manufacturer,MPN,Value,Name,Footprint,Quantity,missingManufacturer,missingMPN,DeviceName,supplierPart,pinCount,rotation
+J1,,,HDR-M_2.54_1x2P,HDR-M_2.54_1x2P,HDR-TH_2P-P2.54-V-M-1,1,True,True,HDR-M_2.54_1x2P,C124375,2,90
+J3,,,HDR-M_2.54_1x6P,HDR-M_2.54_1x6P,HDR-TH_6P-P2.54-V-M-1,1,True,True,HDR-M_2.54_1x6P,C37208,6,90
+J4,,,HDR-M_2.54_1x4P,HDR-M_2.54_1x4P,HDR-TH_4P-P2.54-V-M,1,True,True,HDR-M_2.54_1x4P,C492403,4,90

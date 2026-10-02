@@ -1,0 +1,15 @@
+{
+  "UTC": "2026-10-02T05:07:56.658607+00:00",
+  "rows": 176,
+  "uniqueDesignators": 176,
+  "groupRows": 32,
+  "groupQuantity": 176,
+  "populatedMPNRows": 173,
+  "missingRefs": [
+    "J1",
+    "J3",
+    "J4"
+  ],
+  "sameMPNValueFootprintConflicts": [],
+  "scope": "Native fields extracted from frozen cold17 evidence. Not new independent manufacturer qualification, availability, substitute, procurement or physical inventory."
+}

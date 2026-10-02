@@ -1,0 +1,33 @@
+Designator,MPN,Footprint,pinCount,nativeRotation,instruction,status
+U1,OPA4388IDR,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,14,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U2,OPA4388IDR,SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL,14,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U3,OPA2388IDR,SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL,8,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U4,TMUX1134PWR,TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL,20,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U5,ADS8684IDBTR,TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL,38,180,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U6,REF3025AIDBZR,SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR,3,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U7,STM32G031K8T6,LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL,32,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U8,TPS7A2033PDBVR,SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR,5,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U9,LM73100RPWR,VQFN-10_L2.0-W2.0-P0.45-TL,10,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U10,LM73100RPWR,VQFN-10_L2.0-W2.0-P0.45-TL,10,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U11,TPS389001DSET,WSON-6_L1.5-W1.5-P0.50-TL,6,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U12,TPS389001DSET,WSON-6_L1.5-W1.5-P0.50-TL,6,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U13,SN74LVC08APWR,TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL,14,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U14,SN74LVC08APWR,TSSOP-14_L5.0-W4.4-P0.65-LS6.4-BL,14,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+U15,SN74LVC1G17DBVR,SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR,5,0,Match manufacturer top-view pin1 to actual project pad1; do not use package-name suffix or rotation alone,ASSEMBLY_CHECK_REQUIRED
+D_J3_1,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_J3_3,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_J3_4,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_J3_5,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_J4_1,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_J4_3,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_J4_4,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_ROW0,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_ROW1,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_ROW2,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_ROW3,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_TIA0,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_TIA1,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_TIA2,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_TIA3,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_VCM,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,0,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED
+D_VEX,"BAT54S,215",SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR,3,90,"BAT54S is dual-series 3-pin; verify manufacturer1/2/3 and actual net, not a2-pin cathode-band shortcut",ASSEMBLY_CHECK_REQUIRED

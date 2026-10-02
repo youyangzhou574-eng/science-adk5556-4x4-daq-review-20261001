@@ -1,0 +1,51 @@
+{
+  "package": "SCIENCE_ADK5556_4X4_R21_FAB_AND_ASSEMBLY_RELEASE_INPUT_CLOSURE_V1",
+  "rulingAssistant": "2da86929-7e15-401f-b181-d047d6f23b4d",
+  "parentUser": "0427f964-91d8-4fb7-9979-d05cad568565",
+  "startedUTC": "2026-10-02T04:58:22.788581+00:00",
+  "approvedMinutes": 180,
+  "status": "READONLY_DOCUMENT_PACKAGE_COMPLETE_NO_CAD_NO_PHYSICAL_RELEASE",
+  "limits": {
+    "existingFrozenEvidencePass": 1,
+    "manufacturingContractBatch": 1,
+    "officialNewSources": 4,
+    "terminalCandidates": 2
+  },
+  "actual": {
+    "existingFrozenEvidencePass": 1,
+    "manufacturingContractBatch": 1,
+    "officialNewSources": 1,
+    "terminalCandidates": 0
+  },
+  "sourceLimitNote": "R18 only requested default contract, no broad research; conservative proposed4 sources/2terminalcaps retained as self-bounds, not claimed separately approved analyses",
+  "forbiddenActual": {
+    "CADedit": 0,
+    "session": 0,
+    "save": 0,
+    "capture": 0,
+    "DRC": 0,
+    "nativeExport": 0,
+    "routing": 0,
+    "pour": 0,
+    "schematic": 0,
+    "ImportChanges": 0,
+    "simulation": 0,
+    "Gerber": 0,
+    "procurement": 0,
+    "manufacturing": 0,
+    "bench": 0,
+    "powerup": 0,
+    "localGit": 0,
+    "system": 0
+  },
+  "nextScope": "Defaultfabsettings + structural176BOM +8wireharness + releasechecklist, no actualhardware orCAD",
+  "sourceAccounting": {
+    "URL": "https://jlcpcb.com/capabilities/pcb-capabilities",
+    "uniqueSourceCount": 1,
+    "recordedAtUTC": "2026-10-02T05:02:57.364Z",
+    "note": "Same official URL read before context compaction and again after; one unique source, no analysis exemptions."
+  },
+  "crosscheckUTC": "2026-10-02T05:08:41.717812+00:00",
+  "finishedUTC": "2026-10-02T05:12:52.363745+00:00",
+  "elapsedMinutes": 14.493
+}
