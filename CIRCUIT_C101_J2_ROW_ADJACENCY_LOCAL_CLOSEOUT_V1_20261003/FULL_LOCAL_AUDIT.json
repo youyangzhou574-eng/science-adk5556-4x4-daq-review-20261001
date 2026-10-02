@@ -1,0 +1,48 @@
+{
+  "all101Placed": true,
+  "actualSignalPins": 363,
+  "connected": 323,
+  "nets": 54,
+  "NC": 40,
+  "identityAndInputSHAUnchanged": true,
+  "boardPlanningMm": [
+    50,
+    50
+  ],
+  "all5050Geometry": {
+    "pairs": 5050,
+    "physicalProxyCollisions": [],
+    "bodyCollisions": [],
+    "minimumProxyGapMm": 0.20240409999999898,
+    "minimumPair": [
+      "D_FFC_ROW",
+      "U1"
+    ]
+  },
+  "outside": [],
+  "reserveIntrusions": [],
+  "changedParts": [
+    "C_DIV",
+    "C_MUX",
+    "C_ROW_OP",
+    "RD_B1",
+    "RD_TOP",
+    "R_ENABLE_PD",
+    "R_SEL_PD0",
+    "R_SEL_PD1",
+    "U1",
+    "U4"
+  ],
+  "frozenOther91": true,
+  "J2PinSideDefinitionUnchanged": true,
+  "U4OnROWSide": true,
+  "ROWCOLBoundaryYmm": 29.0,
+  "all8RowPathsNonIncreasing": true,
+  "all4ImbalanceReduced": true,
+  "rowAmpDriverFeedbackBothNonIncreasing": true,
+  "rowMacroPurposefulLiteralChangeNotGreedy": true,
+  "ADC_TIA_16Bank_RFCF_RADC_CADC_Frozen": true,
+  "J2ExactMechanicalQualified": false,
+  "nativeOperations": 0,
+  "minimumNonOwnerReserveGapMm": 0.007308699999999391
+}

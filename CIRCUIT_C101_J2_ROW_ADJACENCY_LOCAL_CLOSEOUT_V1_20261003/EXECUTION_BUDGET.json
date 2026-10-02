@@ -1,0 +1,82 @@
+{
+  "scope": "CIRCUIT-C101-J2-ROW-ADJACENCY-LOCAL-CLOSEOUT-V1",
+  "rulingAssistant": "77a4c655-5e03-4530-8ad4-3f503b76d18c",
+  "parentUser": "cca236e8-4ec5-4ff2-ba1d-9b24b20ab49c",
+  "startUTC": "2026-10-02T22:50:49.540623+00:00",
+  "deadlineUTC": "2026-10-03T00:50:49.540623+00:00",
+  "limits": {
+    "source": 0,
+    "candidate": 1,
+    "placement": 1,
+    "image": 1,
+    "CAD": 0,
+    "session": 0,
+    "save": 0,
+    "export": 0,
+    "schematic": 0,
+    "BOM": 0,
+    "SPICE": 0,
+    "PCB": 0,
+    "routing": 0,
+    "copper": 0,
+    "via": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "bench": 0,
+    "install": 0,
+    "system": 0,
+    "localGit": 0
+  },
+  "spent": {
+    "source": 0,
+    "candidate": 1,
+    "placement": 1,
+    "image": 1,
+    "CAD": 0,
+    "session": 0,
+    "save": 0,
+    "export": 0,
+    "schematic": 0,
+    "BOM": 0,
+    "SPICE": 0,
+    "PCB": 0,
+    "routing": 0,
+    "copper": 0,
+    "via": 0,
+    "pour": 0,
+    "Gerber": 0,
+    "procurement": 0,
+    "manufacture": 0,
+    "bench": 0,
+    "install": 0,
+    "system": 0,
+    "localGit": 0
+  },
+  "events": [
+    {
+      "utc": "2026-10-02T22:53:06.384947+00:00",
+      "kind": "candidate",
+      "count": 1,
+      "why": "One localROW correction of accepted completeP1; no new globalcandidate"
+    },
+    {
+      "utc": "2026-10-02T22:53:06.393323+00:00",
+      "kind": "placement",
+      "count": 1,
+      "why": "One purposeful literalROW macro change and three permitted VEXcompanions, no greedysearch/retry"
+    },
+    {
+      "utc": "2026-10-02T22:56:10.511598+00:00",
+      "kind": "image",
+      "count": 1,
+      "why": "Sole full101 image after one successful localROWmove/fullgeometry; no detail/partial redraw"
+    }
+  ],
+  "STOP": true,
+  "coordinateSTOP": true,
+  "phase": "READONLY_FINAL_REVIEW_AND_DELIVERY_ONLY",
+  "STOPUTC": "2026-10-02T22:56:10.819915+00:00",
+  "STOPReason": "ONE_LOCAL_PLACEMENT_AND_ONE_IMAGE_COMPLETE_PENDING_REVIEW_AND_UNIFIED_NATIVE_SCOPE"
+}

@@ -1,0 +1,7764 @@
+{
+  "J1": {
+    "ref": "J1",
+    "body": [
+      [
+        [
+          -2.54,
+          -1.27
+        ],
+        [
+          -2.54,
+          1.27
+        ],
+        [
+          2.54,
+          1.27
+        ],
+        [
+          2.54,
+          -1.27
+        ],
+        [
+          -2.54,
+          -1.27
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.27,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.27,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5_IN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "389528125cb39182",
+    "footprintName": "HDR-TH_2P-P2.54-V-M-1",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U6": {
+    "ref": "U6",
+    "body": [
+      [
+        [
+          -0.8001254,
+          -1.459992
+        ],
+        [
+          -0.8001254,
+          1.459992
+        ],
+        [
+          0.7998714,
+          1.459992
+        ],
+        [
+          0.7998714,
+          -1.459992
+        ],
+        [
+          -0.8001254,
+          -1.459992
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": 1.235075,
+        "y": -0.9499599999999999,
+        "w": 1.0700003999999999,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": 1.235075,
+        "y": 0.9499599999999999,
+        "w": 1.0700003999999999,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "VCM",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -1.235075,
+        "y": 0.0,
+        "w": 1.0700003999999999,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "86c2210f191537f2",
+    "footprintName": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U8": {
+    "ref": "U8",
+    "body": [
+      [
+        [
+          -0.9999979999999999,
+          0.9999979999999999
+        ],
+        [
+          0.9999979999999999,
+          0.9999979999999999
+        ],
+        [
+          0.9999979999999999,
+          -0.9999979999999999
+        ],
+        [
+          -0.9999979999999999,
+          -0.9999979999999999
+        ],
+        [
+          -0.9999979999999999,
+          0.9999979999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -1.028446,
+        "y": 0.649986,
+        "w": 0.3640074,
+        "h": 0.6070091999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "V3V3",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -1.028446,
+        "y": 0.0,
+        "w": 0.3640074,
+        "h": 0.6070091999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "LDO_FB",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -1.028446,
+        "y": -0.649986,
+        "w": 0.3640074,
+        "h": 0.6070091999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "GND",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 1.028446,
+        "y": -0.649986,
+        "w": 0.3640074,
+        "h": 0.6070091999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "PWR5_OK",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 1.028446,
+        "y": 0.0,
+        "w": 0.3640074,
+        "h": 0.6070091999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": 1.028446,
+        "y": 0.649986,
+        "w": 0.3640074,
+        "h": 0.6070091999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "V5",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": 0.0,
+        "y": 0.0,
+        "w": 0.9999979999999999,
+        "h": 1.5999967999999998,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "791bc16e5cacf21a",
+    "footprintName": "WSON-6_L2.0-W2.0-P0.65-TL-EP",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_REF": {
+    "ref": "C_REF",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_DIV": {
+    "ref": "C_DIV",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "VEXC",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_PWR": {
+    "ref": "C_PWR",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_LDO_IN": {
+    "ref": "C_LDO_IN",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_LDO_OUT": {
+    "ref": "C_LDO_OUT",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_VCM_OUT": {
+    "ref": "C_VCM_OUT",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "VCM",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "RD_TOP": {
+    "ref": "RD_TOP",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "VEXC",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "VCM",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "RD_B1": {
+    "ref": "RD_B1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "VEXC",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_LDO_TOP": {
+    "ref": "R_LDO_TOP",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "LDO_FB",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_LDO_BOT": {
+    "ref": "R_LDO_BOT",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "LDO_FB",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_LDO_FF": {
+    "ref": "C_LDO_FF",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "LDO_FB",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "D_LDO_REV": {
+    "ref": "D_LDO_REV",
+    "body": [
+      [
+        [
+          -1.3999972,
+          -0.8999982
+        ],
+        [
+          -1.3999972,
+          0.8999982
+        ],
+        [
+          1.3999972,
+          0.8999982
+        ],
+        [
+          1.3999972,
+          -0.8999982
+        ],
+        [
+          -1.3999972,
+          -0.8999982
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.6924019999999997,
+        "y": 0.0,
+        "w": 0.9500107999999999,
+        "h": 1.1500104,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.6924019999999997,
+        "y": 0.0,
+        "w": 0.9500107999999999,
+        "h": 1.1500104,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "8aa2de70cf3f012a",
+    "footprintName": "SOD-123_L2.8-W1.8-LS3.7-RD",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "J2": {
+    "ref": "J2",
+    "body": [
+      [
+        [
+          -3.5,
+          -7
+        ],
+        [
+          -3.5,
+          7
+        ],
+        [
+          3.5,
+          7
+        ],
+        [
+          3.5,
+          -7
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": 2.5,
+        "y": -3.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "ROW0",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      },
+      {
+        "number": "2",
+        "x": 2.5,
+        "y": -2.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "ROW1",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      },
+      {
+        "number": "3",
+        "x": 2.5,
+        "y": -1.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "ROW2",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      },
+      {
+        "number": "4",
+        "x": 2.5,
+        "y": -0.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "ROW3",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      },
+      {
+        "number": "5",
+        "x": 2.5,
+        "y": 0.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "COL0",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      },
+      {
+        "number": "6",
+        "x": 2.5,
+        "y": 1.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "COL1",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      },
+      {
+        "number": "7",
+        "x": 2.5,
+        "y": 2.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "COL2",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      },
+      {
+        "number": "8",
+        "x": 2.5,
+        "y": 3.5,
+        "w": 1.0,
+        "h": 0.4,
+        "angle": 0,
+        "net": "COL3",
+        "status": "planning tail center; not exact manufacturer pad datum"
+      }
+    ],
+    "footprintUuid": "87b2e6ab0bf2243f",
+    "footprintName": "MOLEX_1718560008_MFR_SD171856_R17",
+    "geometryStatus": "J2_2005290081_CONSERVATIVE_14x7_PLACEHOLDER_NOT_OLD_KK",
+    "mechanicalPadsPlannedNotNative": [
+      {
+        "number": "MP1",
+        "x": 0,
+        "y": -6.1,
+        "net": null
+      },
+      {
+        "number": "MP2",
+        "x": 0,
+        "y": 6.1,
+        "net": null
+      }
+    ]
+  },
+  "U1": {
+    "ref": "U1",
+    "body": [
+      [
+        [
+          -0.7999221999999999,
+          1.4499336
+        ],
+        [
+          0.8000746,
+          1.4499336
+        ],
+        [
+          0.8000746,
+          -1.450086
+        ],
+        [
+          -0.7999221999999999,
+          -1.450086
+        ],
+        [
+          -0.7999221999999999,
+          1.4499336
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "5",
+        "x": -1.3000990000000001,
+        "y": -0.9499599999999999,
+        "w": 1.0999978,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -1.3000990000000001,
+        "y": 0.9499599999999999,
+        "w": 1.0999978,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_FB",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 1.3000990000000001,
+        "y": 0.9499599999999999,
+        "w": 1.0999978,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "VEXC",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": 1.3000990000000001,
+        "y": 0.0,
+        "w": 1.0999978,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": 1.3000990000000001,
+        "y": -0.9499599999999999,
+        "w": 1.0999978,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_DRV",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "18b8d917d8ac632d",
+    "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U4": {
+    "ref": "U4",
+    "body": [
+      [
+        [
+          -2.4800052,
+          2.1999956
+        ],
+        [
+          2.4800052,
+          2.1999956
+        ],
+        [
+          2.4800052,
+          -2.1999956
+        ],
+        [
+          -2.4800052,
+          -2.1999956
+        ],
+        [
+          -2.4800052,
+          2.1999956
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -2.226056,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_A0",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -1.59004,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_MUX_EN",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -0.954024,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -0.31800799999999996,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW0",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 0.31800799999999996,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW1",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": 0.954024,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW2",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": 1.59004,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW3",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "8",
+        "x": 2.226056,
+        "y": -2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_DRV",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "16",
+        "x": -2.226056,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_A1",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "15",
+        "x": -1.59004,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "14",
+        "x": -0.954024,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "13",
+        "x": -0.31800799999999996,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW0",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "12",
+        "x": 0.31800799999999996,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW1",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "11",
+        "x": 0.954024,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW2",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "10",
+        "x": 1.59004,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW3",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "9",
+        "x": 2.226056,
+        "y": 2.861945,
+        "w": 0.34300159999999996,
+        "h": 1.7314926,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_FB",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "a5c5c464969039a6",
+    "footprintName": "TSSOP-16_L5.0-W4.4-P0.64-LS6.4-BL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ROW_OP": {
+    "ref": "C_ROW_OP",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_MUX": {
+    "ref": "C_MUX",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_SEL_PD0": {
+    "ref": "R_SEL_PD0",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_A0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_SEL_PD1": {
+    "ref": "R_SEL_PD1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_A1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_ENABLE_PD": {
+    "ref": "R_ENABLE_PD",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_MUX_EN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "D_FFC_ROW": {
+    "ref": "D_FFC_ROW",
+    "body": [
+      [
+        [
+          -1.2500102,
+          -0.49999899999999997
+        ],
+        [
+          -1.2500102,
+          0.49999899999999997
+        ],
+        [
+          1.2500102,
+          0.49999899999999997
+        ],
+        [
+          1.2500102,
+          -0.49999899999999997
+        ],
+        [
+          -1.2500102,
+          -0.49999899999999997
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "6",
+        "x": 0.9999979999999999,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": 0.500126,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "8",
+        "x": 0.0,
+        "y": 0.39999919999999994,
+        "w": 0.39999919999999994,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "9",
+        "x": -0.499872,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "10",
+        "x": -0.9999979999999999,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 0.9999979999999999,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 0.500126,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 0.0,
+        "y": -0.39999919999999994,
+        "w": 0.39999919999999994,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -0.499872,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.9999979999999999,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b2f0fc13562b3cb6",
+    "footprintName": "USON-10_L2.5-W1.0-P0.50-BL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "D_FFC_COL": {
+    "ref": "D_FFC_COL",
+    "body": [
+      [
+        [
+          -1.2500102,
+          -0.49999899999999997
+        ],
+        [
+          -1.2500102,
+          0.49999899999999997
+        ],
+        [
+          1.2500102,
+          0.49999899999999997
+        ],
+        [
+          1.2500102,
+          -0.49999899999999997
+        ],
+        [
+          -1.2500102,
+          -0.49999899999999997
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "6",
+        "x": 0.9999979999999999,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": 0.500126,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "8",
+        "x": 0.0,
+        "y": 0.39999919999999994,
+        "w": 0.39999919999999994,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "9",
+        "x": -0.499872,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "10",
+        "x": -0.9999979999999999,
+        "y": 0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 0.9999979999999999,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 0.500126,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 0.0,
+        "y": -0.39999919999999994,
+        "w": 0.39999919999999994,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -0.499872,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.9999979999999999,
+        "y": -0.39999919999999994,
+        "w": 0.19999959999999997,
+        "h": 0.5649976,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b2f0fc13562b3cb6",
+    "footprintName": "USON-10_L2.5-W1.0-P0.50-BL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U2": {
+    "ref": "U2",
+    "body": [
+      [
+        [
+          -4.3250104,
+          -1.9499834
+        ],
+        [
+          -4.3250104,
+          1.9500341999999997
+        ],
+        [
+          4.3250104,
+          1.9500341999999997
+        ],
+        [
+          4.3250104,
+          -1.9499834
+        ],
+        [
+          -4.3250104,
+          -1.9499834
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "8",
+        "x": 3.81,
+        "y": 2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA2",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "9",
+        "x": 2.54,
+        "y": 2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL2",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "10",
+        "x": 1.27,
+        "y": 2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "VCM",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "11",
+        "x": 0.0,
+        "y": 2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "12",
+        "x": -1.27,
+        "y": 2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "VCM",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "13",
+        "x": -2.54,
+        "y": 2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL3",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "14",
+        "x": -3.81,
+        "y": 2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA3",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": 3.81,
+        "y": -2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA1",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": 2.54,
+        "y": -2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL1",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 1.27,
+        "y": -2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "VCM",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 0.0,
+        "y": -2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -1.27,
+        "y": -2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "VCM",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -2.54,
+        "y": -2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL0",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -3.81,
+        "y": -2.618994,
+        "w": 0.5739892,
+        "h": 2.0379944,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA0",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b6beb3a5f30c65ef",
+    "footprintName": "SOIC-14_L8.7-W3.9-P1.27-LS6.0-BL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "RF0": {
+    "ref": "RF0",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "RF1": {
+    "ref": "RF1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "RF2": {
+    "ref": "RF2",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "RF3": {
+    "ref": "RF3",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "CF0": {
+    "ref": "CF0",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "CF1": {
+    "ref": "CF1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "CF2": {
+    "ref": "CF2",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "CF3": {
+    "ref": "CF3",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "COL3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_ADC0": {
+    "ref": "R_ADC0",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_ADC1": {
+    "ref": "R_ADC1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_ADC2": {
+    "ref": "R_ADC2",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_ADC3": {
+    "ref": "R_ADC3",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "TIA3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADC0": {
+    "ref": "C_ADC0",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADC1": {
+    "ref": "C_ADC1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADC2": {
+    "ref": "C_ADC2",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADC3": {
+    "ref": "C_ADC3",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_IN3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_TIA_OP": {
+    "ref": "C_TIA_OP",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U5": {
+    "ref": "U5",
+    "body": [
+      [
+        [
+          -4.850003,
+          -2.1999956
+        ],
+        [
+          -4.850003,
+          2.1999956
+        ],
+        [
+          4.850003,
+          2.1999956
+        ],
+        [
+          4.850003,
+          -2.1999956
+        ],
+        [
+          -4.850003,
+          -2.1999956
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -4.5012609999999995,
+        "y": -2.8985209999999997,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "SPI_MOSI",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -3.998849,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_RESET_N",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -3.4982149999999996,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -2.9988509999999997,
+        "y": -2.9005529999999995,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": -2.498725,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_REFIO",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": -1.9988529999999998,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": -1.498727,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_REFCAP",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "8",
+        "x": -0.998855,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "9",
+        "x": -0.49872900000000003,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "10",
+        "x": 0.001143,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "11",
+        "x": 0.501269,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "12",
+        "x": 1.0011409999999998,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "13",
+        "x": 1.501267,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "14",
+        "x": 2.001139,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "15",
+        "x": 2.5012649999999996,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "16",
+        "x": 3.001137,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_IN0",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "17",
+        "x": 3.501263,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "18",
+        "x": 4.001135,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_IN1",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "19",
+        "x": 4.5012609999999995,
+        "y": -2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "20",
+        "x": 4.500499,
+        "y": 2.8992829999999996,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "21",
+        "x": 4.001389,
+        "y": 2.900045,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_IN2",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "22",
+        "x": 3.500501,
+        "y": 2.8992829999999996,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "23",
+        "x": 3.002153,
+        "y": 2.8992829999999996,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_IN3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "24",
+        "x": 2.498979,
+        "y": 2.901061,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "25",
+        "x": 2.000123,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "26",
+        "x": 1.5002509999999998,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "27",
+        "x": 1.000125,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "28",
+        "x": 0.500253,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "29",
+        "x": 0.000127,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "30",
+        "x": -0.499745,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "31",
+        "x": -0.9998710000000001,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "32",
+        "x": -1.499743,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "33",
+        "x": -1.999869,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "34",
+        "x": -2.499741,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "35",
+        "x": -2.999867,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "36",
+        "x": -3.499739,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "SPI_MISO",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "37",
+        "x": -3.999865,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "SPI_SCLK",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "38",
+        "x": -4.499737,
+        "y": 2.899791,
+        "w": 1.2999973999999999,
+        "h": 0.299974,
+        "polygon": null,
+        "angle": 90,
+        "net": "ADC_CS_N",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "8a281445258384ed",
+    "footprintName": "TSSOP-38_L9.7-W4.4-P0.50-LS6.4-BL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_CS_PU": {
+    "ref": "R_CS_PU",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_CS_N",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_ADC_RESET_PD": {
+    "ref": "R_ADC_RESET_PD",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_RESET_N",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADC_REFIO": {
+    "ref": "C_ADC_REFIO",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_REFIO",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_REFIO_B": {
+    "ref": "C_REFIO_B",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_REFIO",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_REFCAP_BULKA": {
+    "ref": "C_REFCAP_BULKA",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_REFCAP",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_REFCAP_BULKB": {
+    "ref": "C_REFCAP_BULKB",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_REFCAP",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_AVDD9A": {
+    "ref": "C_AVDD9A",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_AVDD9B": {
+    "ref": "C_AVDD9B",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_AVDD30A": {
+    "ref": "C_AVDD30A",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_AVDD30B": {
+    "ref": "C_AVDD30B",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_DVDD34A": {
+    "ref": "C_DVDD34A",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_DVDD34B": {
+    "ref": "C_DVDD34B",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          1.2500102
+        ],
+        [
+          1.5999967999999998,
+          -1.2499848
+        ],
+        [
+          -1.5999967999999998,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.517396,
+        "y": 0.0,
+        "w": 1.634998,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "79b7f68a57a08713",
+    "footprintName": "C1210",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADC_REFCAP": {
+    "ref": "C_ADC_REFCAP",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_REFCAP",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_AVDD9_HF": {
+    "ref": "C_AVDD9_HF",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_AVDD30_HF": {
+    "ref": "C_AVDD30_HF",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADCA1": {
+    "ref": "C_ADCA1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADCA2": {
+    "ref": "C_ADCA2",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_ADCD": {
+    "ref": "C_ADCD",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U7": {
+    "ref": "U7",
+    "body": [
+      [
+        [
+          -3.4999929999999995,
+          -3.4999929999999995
+        ],
+        [
+          -3.4999929999999995,
+          3.4999929999999995
+        ],
+        [
+          3.4999929999999995,
+          3.4999929999999995
+        ],
+        [
+          3.4999929999999995,
+          -3.4999929999999995
+        ],
+        [
+          -3.4999929999999995,
+          -3.4999929999999995
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -2.800096,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -1.9999959999999999,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -1.199896,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -0.40004999999999996,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 0.40004999999999996,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": 1.199896,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "PGOOD",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": 1.9999959999999999,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_A0",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "8",
+        "x": 2.800096,
+        "y": -4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_A1",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "9",
+        "x": 4.2420539999999995,
+        "y": -2.800096,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "10",
+        "x": 4.2420539999999995,
+        "y": -1.9999959999999999,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "11",
+        "x": 4.2420539999999995,
+        "y": -1.199896,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_CS_N",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "12",
+        "x": 4.2420539999999995,
+        "y": -0.40004999999999996,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": "SPI_SCLK",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "13",
+        "x": 4.2420539999999995,
+        "y": 0.40004999999999996,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": "SPI_MISO",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "14",
+        "x": 4.2420539999999995,
+        "y": 1.199896,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": "SPI_MOSI",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "15",
+        "x": 4.2420539999999995,
+        "y": 1.9999959999999999,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": "ADC_RESET_N",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "16",
+        "x": 4.2420539999999995,
+        "y": 2.800096,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": "ROW_MUX_EN",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "17",
+        "x": 2.800096,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "18",
+        "x": 1.9999959999999999,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "19",
+        "x": 1.199896,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_TX",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "20",
+        "x": 0.40004999999999996,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "21",
+        "x": -0.40004999999999996,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_RX",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "22",
+        "x": -1.199896,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "23",
+        "x": -1.9999959999999999,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "24",
+        "x": -2.800096,
+        "y": 4.2420539999999995,
+        "w": 0.44800520000000005,
+        "h": 1.6839946000000001,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWDIO",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "25",
+        "x": -4.2420539999999995,
+        "y": 2.800096,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWCLK",
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "26",
+        "x": -4.2420539999999995,
+        "y": 1.9999959999999999,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "27",
+        "x": -4.2420539999999995,
+        "y": 1.199896,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "28",
+        "x": -4.2420539999999995,
+        "y": 0.40004999999999996,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "29",
+        "x": -4.2420539999999995,
+        "y": -0.40004999999999996,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "30",
+        "x": -4.2420539999999995,
+        "y": -1.199896,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "31",
+        "x": -4.2420539999999995,
+        "y": -1.9999959999999999,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "32",
+        "x": -4.2420539999999995,
+        "y": -2.800096,
+        "w": 1.6839946000000001,
+        "h": 0.44800520000000005,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "OVAL",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e13794d22038af93",
+    "footprintName": "LQFP-32_L7.0-W7.0-P0.80-LS9.0-BL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "J3": {
+    "ref": "J3",
+    "body": [
+      [
+        [
+          -7.62,
+          1.2500102
+        ],
+        [
+          7.62,
+          1.2500102
+        ],
+        [
+          7.62,
+          -1.2500102
+        ],
+        [
+          -7.62,
+          -1.2500102
+        ],
+        [
+          -7.62,
+          1.2500102
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "6",
+        "x": 6.35,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": null,
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 3.81,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": "MCU_NRST_EXT",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 1.27,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWCLK_EXT",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -1.27,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWDIO_EXT",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -3.81,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -6.35,
+        "y": 0.0,
+        "w": 1.7999964,
+        "h": 1.7999964,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3_EXT_SWD",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "54b100f56e34bff6",
+    "footprintName": "HDR-TH_6P-P2.54-V-M-1",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "J4": {
+    "ref": "J4",
+    "body": [
+      [
+        [
+          -5.0799492,
+          -1.2499848
+        ],
+        [
+          -5.0799492,
+          1.2500102
+        ],
+        [
+          5.0800508,
+          1.2500102
+        ],
+        [
+          5.0800508,
+          -1.2499848
+        ],
+        [
+          -5.0799492,
+          -1.2499848
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -3.81,
+        "y": 0.0,
+        "w": 1.6999966,
+        "h": 1.6999966,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3_EXT_UART",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -1.27,
+        "y": 0.0,
+        "w": 1.6999966,
+        "h": 1.6999966,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 1.27,
+        "y": 0.0,
+        "w": 1.6999966,
+        "h": 1.6999966,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_TX_EXT",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 3.81,
+        "y": 0.0,
+        "w": 1.6999966,
+        "h": 1.6999966,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_RX_EXT",
+        "nativePadType": "ELLIPSE",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "805f84989d4eb67b",
+    "footprintName": "HDR-TH_4P-P2.54-V-M",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_RST": {
+    "ref": "R_RST",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "PGOOD",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_MCU1": {
+    "ref": "C_MCU1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "C_MCU_BULK": {
+    "ref": "C_MCU_BULK",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_J3_1": {
+    "ref": "R_J3_1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3_EXT_SWD",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_J3_3": {
+    "ref": "R_J3_3",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWDIO",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWDIO_EXT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_J3_4": {
+    "ref": "R_J3_4",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWCLK",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "SWCLK_EXT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_J4_1": {
+    "ref": "R_J4_1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3_EXT_UART",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_J4_3": {
+    "ref": "R_J4_3",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_TX",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_TX_EXT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_J4_4": {
+    "ref": "R_J4_4",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_RX",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "UART_RX_EXT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_J3_5": {
+    "ref": "R_J3_5",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "PGOOD",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "MCU_NRST_EXT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "D_DBG0": {
+    "ref": "D_DBG0",
+    "body": [
+      [
+        [
+          -0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          -0.9997948
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.8998204,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 0.8998204,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "SWDIO",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -0.9000235999999999,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": -0.9000235999999999,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": -0.9000235999999999,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": 0.8998204,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "6c378040a31f4684",
+    "footprintName": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "D_DBG1": {
+    "ref": "D_DBG1",
+    "body": [
+      [
+        [
+          -0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          -0.9997948
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.8998204,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 0.8998204,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "PGOOD",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -0.9000235999999999,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": -0.9000235999999999,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": -0.9000235999999999,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "SWCLK",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": 0.8998204,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "6c378040a31f4684",
+    "footprintName": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "D_DBG2": {
+    "ref": "D_DBG2",
+    "body": [
+      [
+        [
+          -0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          -0.9997948
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.8998204,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 0.8998204,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "UART_TX",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -0.9000235999999999,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": -0.9000235999999999,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": -0.9000235999999999,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": 0.8998204,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "6c378040a31f4684",
+    "footprintName": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "D_DBG3": {
+    "ref": "D_DBG3",
+    "body": [
+      [
+        [
+          -0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          1.0002012
+        ],
+        [
+          0.6500114,
+          -0.9997948
+        ],
+        [
+          -0.6500114,
+          -0.9997948
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.8998204,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": 0.8998204,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "PGOOD",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -0.9000235999999999,
+        "y": 0.6500876,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": -0.9000235999999999,
+        "y": 0.0001016,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "PWR5_OK",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": -0.9000235999999999,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "UART_RX",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": 0.8998204,
+        "y": -0.6498843999999999,
+        "w": 0.39999919999999994,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 90,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "6c378040a31f4684",
+    "footprintName": "SOT-363_L2.0-W1.3-P0.65-LS2.1-BR",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9": {
+    "ref": "U9",
+    "body": [
+      [
+        [
+          -0.9999979999999999,
+          -0.9999979999999999
+        ],
+        [
+          -0.9999979999999999,
+          0.9999979999999999
+        ],
+        [
+          0.9999979999999999,
+          0.9999979999999999
+        ],
+        [
+          0.9999979999999999,
+          -0.9999979999999999
+        ],
+        [
+          -0.9999979999999999,
+          -0.9999979999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -0.914908,
+        "y": 0.899922,
+        "w": 0.5999988,
+        "h": 0.5999987999999999,
+        "polygon": [
+          [
+            -0.8650478,
+            1.1999975999999999
+          ],
+          [
+            -0.8650478,
+            0.8999982
+          ],
+          [
+            -1.215009,
+            0.8999982
+          ],
+          [
+            -1.215009,
+            0.5999987999999999
+          ],
+          [
+            -0.8650478,
+            0.5999987999999999
+          ],
+          [
+            -0.615061,
+            0.5999987999999999
+          ],
+          [
+            -0.6150102,
+            0.5999987999999999
+          ],
+          [
+            -0.6150102,
+            0.8999982
+          ],
+          [
+            -0.615061,
+            0.8999982
+          ],
+          [
+            -0.615061,
+            1.1999975999999999
+          ],
+          [
+            -0.8650478,
+            1.1999975999999999
+          ]
+        ],
+        "angle": 0,
+        "net": "U9_EN",
+        "nativePadType": "POLYGON",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": -0.905256,
+        "y": -0.899922,
+        "w": 0.5999988,
+        "h": 0.5999987999999999,
+        "polygon": [
+          [
+            -0.8553704,
+            -1.1999975999999999
+          ],
+          [
+            -0.8553704,
+            -0.8999728
+          ],
+          [
+            -1.2053316,
+            -0.8999728
+          ],
+          [
+            -1.2053316,
+            -0.5999987999999999
+          ],
+          [
+            -0.8553704,
+            -0.5999987999999999
+          ],
+          [
+            -0.6053835999999999,
+            -0.5999987999999999
+          ],
+          [
+            -0.6053328,
+            -0.5999987999999999
+          ],
+          [
+            -0.6053328,
+            -0.8999728
+          ],
+          [
+            -0.6053835999999999,
+            -0.8999728
+          ],
+          [
+            -0.6053835999999999,
+            -1.1999975999999999
+          ],
+          [
+            -0.8553704,
+            -1.1999975999999999
+          ]
+        ],
+        "angle": 0,
+        "net": null,
+        "nativePadType": "POLYGON",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "7",
+        "x": 0.914908,
+        "y": -0.899922,
+        "w": 0.5999988,
+        "h": 0.5999987999999999,
+        "polygon": [
+          [
+            0.8650223999999999,
+            -1.1999722
+          ],
+          [
+            0.8650223999999999,
+            -0.8999728
+          ],
+          [
+            1.2149836,
+            -0.8999728
+          ],
+          [
+            1.2149836,
+            -0.5999734
+          ],
+          [
+            0.8650223999999999,
+            -0.5999734
+          ],
+          [
+            0.6150355999999999,
+            -0.5999734
+          ],
+          [
+            0.6149848,
+            -0.5999734
+          ],
+          [
+            0.6149848,
+            -0.8999728
+          ],
+          [
+            0.6150355999999999,
+            -0.8999728
+          ],
+          [
+            0.6150355999999999,
+            -1.1999722
+          ],
+          [
+            0.8650223999999999,
+            -1.1999722
+          ]
+        ],
+        "angle": 0,
+        "net": null,
+        "nativePadType": "POLYGON",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "10",
+        "x": 0.914908,
+        "y": 0.899922,
+        "w": 0.5999988,
+        "h": 0.5999987999999999,
+        "polygon": [
+          [
+            0.8650223999999999,
+            1.1999975999999999
+          ],
+          [
+            0.8650223999999999,
+            0.8999982
+          ],
+          [
+            1.2149836,
+            0.8999982
+          ],
+          [
+            1.2149836,
+            0.5999987999999999
+          ],
+          [
+            0.8650223999999999,
+            0.5999987999999999
+          ],
+          [
+            0.6150355999999999,
+            0.5999987999999999
+          ],
+          [
+            0.6149848,
+            0.5999987999999999
+          ],
+          [
+            0.6149848,
+            0.8999982
+          ],
+          [
+            0.6150355999999999,
+            0.8999982
+          ],
+          [
+            0.6150355999999999,
+            1.1999975999999999
+          ],
+          [
+            0.8650223999999999,
+            1.1999975999999999
+          ]
+        ],
+        "angle": 0,
+        "net": null,
+        "nativePadType": "POLYGON",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": -0.23495,
+        "y": 0.0,
+        "w": 0.29999939999999997,
+        "h": 2.3999951999999998,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5_IN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": 0.264922,
+        "y": 0.0,
+        "w": 0.29999939999999997,
+        "h": 2.3999951999999998,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -0.905002,
+        "y": 0.22504399999999997,
+        "w": 0.25001219999999996,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "U9_OV",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -0.905256,
+        "y": -0.22504399999999997,
+        "w": 0.25001219999999996,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": null,
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "9",
+        "x": 0.905002,
+        "y": 0.22504399999999997,
+        "w": 0.25001219999999996,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "8",
+        "x": 0.905002,
+        "y": -0.22504399999999997,
+        "w": 0.25001219999999996,
+        "h": 0.5999987999999999,
+        "polygon": null,
+        "angle": 270,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "9c03f5c4cb2f3661",
+    "footprintName": "VQFN-10_L2.0-W2.0-P0.45-TL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9_EN_R": {
+    "ref": "U9_EN_R",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U9_EN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5_IN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9_EN_G": {
+    "ref": "U9_EN_G",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U9_EN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9_OV_B1": {
+    "ref": "U9_OV_B1",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U9_OV",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U12_BOT": {
+    "ref": "U12_BOT",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U12_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9_IN_CAP": {
+    "ref": "U9_IN_CAP",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5_IN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9_OUT_CAP": {
+    "ref": "U9_OUT_CAP",
+    "body": [
+      [
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          0.7999983999999999
+        ],
+        [
+          1.5999967999999998,
+          -0.7999983999999999
+        ],
+        [
+          -1.5999967999999998,
+          -0.7999983999999999
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.59258,
+        "y": 0.0,
+        "w": 1.485011,
+        "h": 1.7279874000000002,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "b5b342032f55f019",
+    "footprintName": "C1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9_BLEED": {
+    "ref": "U9_BLEED",
+    "body": [
+      [
+        [
+          -2.4999949999999997,
+          -1.2500102
+        ],
+        [
+          -2.4999949999999997,
+          1.2500102
+        ],
+        [
+          2.4999949999999997,
+          1.2500102
+        ],
+        [
+          2.4999949999999997,
+          -1.2500102
+        ],
+        [
+          -2.4999949999999997,
+          -1.2500102
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 2.391156,
+        "y": 0.0,
+        "w": 1.2825222,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -2.391156,
+        "y": 0.0,
+        "w": 1.2825222,
+        "h": 2.6999946,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "8f6590523b82983d",
+    "footprintName": "R2010",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U10_BLEED": {
+    "ref": "U10_BLEED",
+    "body": [
+      [
+        [
+          -1.5500095999999999,
+          -0.7875016
+        ],
+        [
+          -1.5500095999999999,
+          0.7875016
+        ],
+        [
+          1.5500095999999999,
+          0.7875016
+        ],
+        [
+          1.5500095999999999,
+          -0.7875016
+        ],
+        [
+          -1.5500095999999999,
+          -0.7875016
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 1.478788,
+        "y": 0.0,
+        "w": 1.207516,
+        "h": 1.7010125999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -1.478788,
+        "y": 0.0,
+        "w": 1.207516,
+        "h": 1.7010125999999999,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "fcf73cc6c69536a8",
+    "footprintName": "R1206",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U11": {
+    "ref": "U11",
+    "body": [
+      [
+        [
+          -0.7500112,
+          -0.7500112
+        ],
+        [
+          -0.7500112,
+          0.7499858
+        ],
+        [
+          0.7499858,
+          0.7499858
+        ],
+        [
+          0.7499858,
+          -0.7500112
+        ],
+        [
+          -0.7500112,
+          -0.7500112
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -0.581025,
+        "y": 0.49999899999999997,
+        "w": 0.8400034,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "U11_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -0.636143,
+        "y": 0.000127,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -0.636143,
+        "y": -0.49999899999999997,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 0.636143,
+        "y": -0.49999899999999997,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 0.636143,
+        "y": 0.000127,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "U11_CT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": 0.636143,
+        "y": 0.49999899999999997,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "PWR5_OK",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "6e95b9266e8dd13f",
+    "footprintName": "WSON-6_L1.5-W1.5-P0.50-TL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U12": {
+    "ref": "U12",
+    "body": [
+      [
+        [
+          -0.7500112,
+          -0.7500112
+        ],
+        [
+          -0.7500112,
+          0.7499858
+        ],
+        [
+          0.7499858,
+          0.7499858
+        ],
+        [
+          0.7499858,
+          -0.7500112
+        ],
+        [
+          -0.7500112,
+          -0.7500112
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "1",
+        "x": -0.581025,
+        "y": 0.49999899999999997,
+        "w": 0.8400034,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "U12_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "2",
+        "x": -0.636143,
+        "y": 0.000127,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "3",
+        "x": -0.636143,
+        "y": -0.49999899999999997,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "4",
+        "x": 0.636143,
+        "y": -0.49999899999999997,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "5",
+        "x": 0.636143,
+        "y": 0.000127,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "U12_CT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "6",
+        "x": 0.636143,
+        "y": 0.49999899999999997,
+        "w": 0.7500112,
+        "h": 0.28000959999999997,
+        "polygon": null,
+        "angle": 0,
+        "net": "PGOOD",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "6e95b9266e8dd13f",
+    "footprintName": "WSON-6_L1.5-W1.5-P0.50-TL",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U11_CT_C": {
+    "ref": "U11_CT_C",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "U11_CT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U12_CT_C": {
+    "ref": "U12_CT_C",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "U12_CT",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U11_VDD_C": {
+    "ref": "U11_VDD_C",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U12_VDD_C": {
+    "ref": "U12_VDD_C",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U11_SENSE_C": {
+    "ref": "U11_SENSE_C",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "U11_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U12_SENSE_C": {
+    "ref": "U12_SENSE_C",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.700024,
+        "y": 0.0,
+        "w": 0.7999983999999999,
+        "h": 0.8999982,
+        "polygon": null,
+        "angle": 0,
+        "net": "U12_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "e1806bcee69fe169",
+    "footprintName": "C0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U9_OV_T": {
+    "ref": "U9_OV_T",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U9_OV",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5_IN",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U11_TOP0": {
+    "ref": "U11_TOP0",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U11_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U11_BOT": {
+    "ref": "U11_BOT",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "GND",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U11_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "R_LDO_EN_PU": {
+    "ref": "R_LDO_EN_PU",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "PWR5_OK",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V5",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  },
+  "U12_TOP0": {
+    "ref": "U12_TOP0",
+    "body": [
+      [
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          0.39999919999999994
+        ],
+        [
+          0.7999983999999999,
+          -0.39999919999999994
+        ],
+        [
+          -0.7999983999999999,
+          -0.39999919999999994
+        ]
+      ]
+    ],
+    "pads": [
+      {
+        "number": "2",
+        "x": 0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "U12_SENSE",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      },
+      {
+        "number": "1",
+        "x": -0.7533639999999999,
+        "y": 0.0,
+        "w": 0.8064754,
+        "h": 0.8640064,
+        "polygon": null,
+        "angle": 0,
+        "net": "V3V3",
+        "nativePadType": "RECT",
+        "status": "native conservative rectangular pad proxy; native polygon retained"
+      }
+    ],
+    "footprintUuid": "3e3bff9cd60aaa06",
+    "footprintName": "R0603",
+    "geometryStatus": "ACTUAL_NATIVE_FOOTPRINT_COMPONENT_SHAPE_AND_PAD_PROXY_NOT_MANUFACTURER_COURTYARD"
+  }
+}

@@ -1,0 +1,4 @@
+  File "E:\open\SCIENCE_ADK5556_4X4_DAQ_REPLICA\CIRCUIT_C101_J2_ROW_ADJACENCY_LOCAL_CLOSEOUT_V1\render_one_final.py", line 28
+    ax.text(*v[:2],r,fontsize=9 if ic else4.8,ha='center',va='center',color='white'if ic else'#162d35',fontweight='bold'if ic else'normal',zorder=6,clip_on=True)
+                              ^^^^^^^
+SyntaxError: expected 'else' after 'if' expression

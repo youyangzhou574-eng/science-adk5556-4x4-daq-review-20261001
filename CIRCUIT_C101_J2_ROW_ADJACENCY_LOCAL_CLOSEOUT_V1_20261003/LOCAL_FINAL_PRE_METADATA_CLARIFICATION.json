@@ -1,0 +1,1171 @@
+{
+  "candidate": "P1_ROW_LOCAL",
+  "attempt": 2,
+  "boardPlanningMm": [
+    50,
+    50
+  ],
+  "positions": {
+    "J2": [
+      3.5,
+      29,
+      0
+    ],
+    "J1": [
+      8,
+      2.8,
+      0
+    ],
+    "J3": [
+      47.2,
+      40.5,
+      90
+    ],
+    "J4": [
+      47.2,
+      20.5,
+      90
+    ],
+    "U5": [
+      30,
+      25,
+      180
+    ],
+    "C_ADCA1": [
+      30.5,
+      29.5,
+      180
+    ],
+    "C_ADCA2": [
+      30.5,
+      20.5,
+      180
+    ],
+    "C_ADCD": [
+      32.5,
+      20.0,
+      270
+    ],
+    "C_ADC_REFCAP": [
+      34.5,
+      30.0,
+      0
+    ],
+    "C_AVDD9_HF": [
+      30.5,
+      32.5,
+      90
+    ],
+    "C_AVDD30_HF": [
+      30.5,
+      17.5,
+      270
+    ],
+    "C_ADC_REFIO": [
+      36.5,
+      26.5,
+      270
+    ],
+    "C_REFIO_B": [
+      34.0,
+      32.5,
+      0
+    ],
+    "C_REFCAP_BULKA": [
+      36.5,
+      21.5,
+      270
+    ],
+    "C_REFCAP_BULKB": [
+      38.5,
+      31.5,
+      90
+    ],
+    "C_AVDD9A": [
+      34.0,
+      35.5,
+      0
+    ],
+    "C_AVDD9B": [
+      39.5,
+      26.5,
+      270
+    ],
+    "C_AVDD30A": [
+      34.0,
+      17.0,
+      0
+    ],
+    "C_AVDD30B": [
+      34.0,
+      14.0,
+      0
+    ],
+    "C_DVDD34A": [
+      39.5,
+      21.5,
+      270
+    ],
+    "C_DVDD34B": [
+      38.0,
+      16.5,
+      270
+    ],
+    "U2": [
+      20.0,
+      25.5,
+      180
+    ],
+    "RF0": [
+      23.175,
+      29.85,
+      180
+    ],
+    "CF0": [
+      23.175,
+      30.95,
+      180
+    ],
+    "RF1": [
+      16.825,
+      29.85,
+      0
+    ],
+    "CF1": [
+      16.825,
+      30.95,
+      0
+    ],
+    "RF2": [
+      16.825,
+      21.15,
+      0
+    ],
+    "CF2": [
+      16.825,
+      20.05,
+      0
+    ],
+    "RF3": [
+      23.175,
+      21.15,
+      180
+    ],
+    "CF3": [
+      23.175,
+      20.05,
+      180
+    ],
+    "C_TIA_OP": [
+      19.5,
+      30.0,
+      180
+    ],
+    "C_ADC0": [
+      27,
+      30,
+      90
+    ],
+    "C_ADC1": [
+      25.5,
+      30,
+      90
+    ],
+    "C_ADC2": [
+      25.5,
+      20,
+      90
+    ],
+    "C_ADC3": [
+      27,
+      20,
+      270
+    ],
+    "R_ADC0": [
+      28.5,
+      30.0,
+      270
+    ],
+    "R_ADC1": [
+      20.5,
+      31.5,
+      0
+    ],
+    "R_ADC2": [
+      20.5,
+      21.0,
+      0
+    ],
+    "R_ADC3": [
+      28.5,
+      20.0,
+      90
+    ],
+    "U4": [
+      11.735,
+      20.5,
+      90
+    ],
+    "U1": [
+      11.735,
+      26.1,
+      0
+    ],
+    "C_MUX": [
+      6.5,
+      19.5,
+      180
+    ],
+    "C_ROW_OP": [
+      10.5,
+      23.8,
+      0
+    ],
+    "R_SEL_PD0": [
+      15,
+      17.25,
+      0
+    ],
+    "R_SEL_PD1": [
+      7.5,
+      16.9,
+      0
+    ],
+    "R_ENABLE_PD": [
+      17,
+      18,
+      90
+    ],
+    "D_FFC_ROW": [
+      9.0,
+      27.0,
+      270
+    ],
+    "D_FFC_COL": [
+      9.0,
+      31.0,
+      270
+    ],
+    "U6": [
+      23.5,
+      33.5,
+      0
+    ],
+    "C_REF": [
+      26.0,
+      33.0,
+      90
+    ],
+    "C_VCM_OUT": [
+      26.0,
+      35.5,
+      0
+    ],
+    "C_DIV": [
+      12.5,
+      29.5,
+      180
+    ],
+    "RD_TOP": [
+      14.3,
+      25.6,
+      90
+    ],
+    "RD_B1": [
+      14.1,
+      28.35,
+      0
+    ],
+    "U9": [
+      12.0,
+      8.0,
+      0
+    ],
+    "U8": [
+      26.0,
+      8.0,
+      180
+    ],
+    "U11": [
+      19.0,
+      9.0,
+      0
+    ],
+    "U12": [
+      33.0,
+      9.0,
+      0
+    ],
+    "U11_CT_C": [
+      19.0,
+      10.5,
+      180
+    ],
+    "U11_SENSE_C": [
+      17.0,
+      9.0,
+      270
+    ],
+    "U11_VDD_C": [
+      19.0,
+      7.5,
+      180
+    ],
+    "U12_CT_C": [
+      33.0,
+      10.5,
+      180
+    ],
+    "U12_SENSE_C": [
+      31.0,
+      9.0,
+      270
+    ],
+    "U12_VDD_C": [
+      33.0,
+      7.5,
+      180
+    ],
+    "C_LDO_FF": [
+      28.0,
+      7.5,
+      90
+    ],
+    "C_LDO_IN": [
+      23.5,
+      8.5,
+      90
+    ],
+    "C_LDO_OUT": [
+      26.0,
+      5.0,
+      180
+    ],
+    "C_PWR": [
+      14.5,
+      9.0,
+      90
+    ],
+    "U9_IN_CAP": [
+      9.5,
+      9.0,
+      90
+    ],
+    "U9_OUT_CAP": [
+      12.5,
+      12.0,
+      90
+    ],
+    "D_LDO_REV": [
+      27.0,
+      10.5,
+      0
+    ],
+    "R_LDO_BOT": [
+      29.5,
+      8.5,
+      90
+    ],
+    "R_LDO_EN_PU": [
+      22.0,
+      8.0,
+      90
+    ],
+    "R_LDO_TOP": [
+      30.0,
+      6.5,
+      0
+    ],
+    "U10_BLEED": [
+      29.5,
+      3.5,
+      270
+    ],
+    "U11_BOT": [
+      17.0,
+      11.5,
+      90
+    ],
+    "U11_TOP0": [
+      18.5,
+      12.5,
+      270
+    ],
+    "U12_BOT": [
+      31.0,
+      11.5,
+      90
+    ],
+    "U12_TOP0": [
+      35.5,
+      9.5,
+      180
+    ],
+    "U9_BLEED": [
+      16.5,
+      5.0,
+      0
+    ],
+    "U9_EN_G": [
+      11.0,
+      11.0,
+      90
+    ],
+    "U9_EN_R": [
+      10.5,
+      6.0,
+      0
+    ],
+    "U9_OV_B1": [
+      8.0,
+      8.5,
+      90
+    ],
+    "U9_OV_T": [
+      7.5,
+      6.0,
+      0
+    ],
+    "U7": [
+      37.5,
+      42.5,
+      270
+    ],
+    "C_MCU1": [
+      31.5,
+      42.5,
+      270
+    ],
+    "C_MCU_BULK": [
+      31.0,
+      44.5,
+      180
+    ],
+    "R_RST": [
+      31.0,
+      40.5,
+      0
+    ],
+    "R_CS_PU": [
+      34.5,
+      20.0,
+      90
+    ],
+    "R_ADC_RESET_PD": [
+      29.0,
+      33.0,
+      90
+    ],
+    "D_DBG0": [
+      42.5,
+      47.0,
+      180
+    ],
+    "D_DBG1": [
+      33.0,
+      47.5,
+      90
+    ],
+    "D_DBG2": [
+      42.0,
+      37.5,
+      90
+    ],
+    "D_DBG3": [
+      38.0,
+      36.0,
+      180
+    ],
+    "R_J3_1": [
+      46.5,
+      31.5,
+      180
+    ],
+    "R_J3_3": [
+      44.0,
+      42.5,
+      90
+    ],
+    "R_J3_4": [
+      40.5,
+      48.5,
+      180
+    ],
+    "R_J3_5": [
+      43.5,
+      39.5,
+      270
+    ],
+    "R_J4_1": [
+      46.5,
+      13.5,
+      180
+    ],
+    "R_J4_3": [
+      44.0,
+      32.0,
+      90
+    ],
+    "R_J4_4": [
+      44.0,
+      35.0,
+      90
+    ]
+  },
+  "placementOrder": [
+    "J2",
+    "J1",
+    "J3",
+    "J4",
+    "U5",
+    "C_ADCA1",
+    "C_ADCA2",
+    "C_ADCD",
+    "C_ADC_REFCAP",
+    "C_AVDD9_HF",
+    "C_AVDD30_HF",
+    "C_ADC_REFIO",
+    "C_REFIO_B",
+    "C_REFCAP_BULKA",
+    "C_REFCAP_BULKB",
+    "C_AVDD9A",
+    "C_AVDD9B",
+    "C_AVDD30A",
+    "C_AVDD30B",
+    "C_DVDD34A",
+    "C_DVDD34B",
+    "U2",
+    "RF0",
+    "CF0",
+    "RF1",
+    "CF1",
+    "RF2",
+    "CF2",
+    "RF3",
+    "CF3",
+    "C_TIA_OP",
+    "C_ADC0",
+    "C_ADC1",
+    "C_ADC2",
+    "C_ADC3",
+    "R_ADC0",
+    "R_ADC1",
+    "R_ADC2",
+    "R_ADC3",
+    "U4",
+    "U1",
+    "C_MUX",
+    "C_ROW_OP",
+    "R_SEL_PD0",
+    "R_SEL_PD1",
+    "R_ENABLE_PD",
+    "D_FFC_ROW",
+    "D_FFC_COL",
+    "U6",
+    "C_REF",
+    "C_VCM_OUT",
+    "C_DIV",
+    "RD_TOP",
+    "RD_B1",
+    "U9",
+    "U8",
+    "U11",
+    "U12",
+    "U11_CT_C",
+    "U11_SENSE_C",
+    "U11_VDD_C",
+    "U12_CT_C",
+    "U12_SENSE_C",
+    "U12_VDD_C",
+    "C_LDO_FF",
+    "C_LDO_IN",
+    "C_LDO_OUT",
+    "C_PWR",
+    "U9_IN_CAP",
+    "U9_OUT_CAP",
+    "D_LDO_REV",
+    "R_LDO_BOT",
+    "R_LDO_EN_PU",
+    "R_LDO_TOP",
+    "U10_BLEED",
+    "U11_BOT",
+    "U11_TOP0",
+    "U12_BOT",
+    "U12_TOP0",
+    "U9_BLEED",
+    "U9_EN_G",
+    "U9_EN_R",
+    "U9_OV_B1",
+    "U9_OV_T",
+    "U7",
+    "C_MCU1",
+    "C_MCU_BULK",
+    "R_RST",
+    "R_CS_PU",
+    "R_ADC_RESET_PD",
+    "D_DBG0",
+    "D_DBG1",
+    "D_DBG2",
+    "D_DBG3",
+    "R_J3_1",
+    "R_J3_3",
+    "R_J3_4",
+    "R_J3_5",
+    "R_J4_1",
+    "R_J4_3",
+    "R_J4_4"
+  ],
+  "stages": [
+    {
+      "stage": "INTERFACE_EDGE_REGIONS",
+      "placed": 4,
+      "refsInOrder": [
+        "J2",
+        "J1",
+        "J3",
+        "J4"
+      ]
+    },
+    {
+      "stage": "ADC_U5_AND_ALL16_BANK_CAPS_COMPLETE",
+      "placed": 21,
+      "refsInOrder": [
+        "J2",
+        "J1",
+        "J3",
+        "J4",
+        "U5",
+        "C_ADCA1",
+        "C_ADCA2",
+        "C_ADCD",
+        "C_ADC_REFCAP",
+        "C_AVDD9_HF",
+        "C_AVDD30_HF",
+        "C_ADC_REFIO",
+        "C_REFIO_B",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_DVDD34A",
+        "C_DVDD34B"
+      ]
+    },
+    {
+      "stage": "FOUR_TIA_FEEDBACK_AND_ADC_FILTERS",
+      "placed": 39,
+      "refsInOrder": [
+        "J2",
+        "J1",
+        "J3",
+        "J4",
+        "U5",
+        "C_ADCA1",
+        "C_ADCA2",
+        "C_ADCD",
+        "C_ADC_REFCAP",
+        "C_AVDD9_HF",
+        "C_AVDD30_HF",
+        "C_ADC_REFIO",
+        "C_REFIO_B",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_DVDD34A",
+        "C_DVDD34B",
+        "U2",
+        "RF0",
+        "CF0",
+        "RF1",
+        "CF1",
+        "RF2",
+        "CF2",
+        "RF3",
+        "CF3",
+        "C_TIA_OP",
+        "C_ADC0",
+        "C_ADC1",
+        "C_ADC2",
+        "C_ADC3",
+        "R_ADC0",
+        "R_ADC1",
+        "R_ADC2",
+        "R_ADC3"
+      ]
+    },
+    {
+      "stage": "ROW_DRIVE_SENSE_AND_FFC_ESD",
+      "placed": 48,
+      "refsInOrder": [
+        "J2",
+        "J1",
+        "J3",
+        "J4",
+        "U5",
+        "C_ADCA1",
+        "C_ADCA2",
+        "C_ADCD",
+        "C_ADC_REFCAP",
+        "C_AVDD9_HF",
+        "C_AVDD30_HF",
+        "C_ADC_REFIO",
+        "C_REFIO_B",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_DVDD34A",
+        "C_DVDD34B",
+        "U2",
+        "RF0",
+        "CF0",
+        "RF1",
+        "CF1",
+        "RF2",
+        "CF2",
+        "RF3",
+        "CF3",
+        "C_TIA_OP",
+        "C_ADC0",
+        "C_ADC1",
+        "C_ADC2",
+        "C_ADC3",
+        "R_ADC0",
+        "R_ADC1",
+        "R_ADC2",
+        "R_ADC3",
+        "U4",
+        "U1",
+        "C_MUX",
+        "C_ROW_OP",
+        "R_SEL_PD0",
+        "R_SEL_PD1",
+        "R_ENABLE_PD",
+        "D_FFC_ROW",
+        "D_FFC_COL"
+      ]
+    },
+    {
+      "stage": "REF_VCM_VEXC_COMPLETE",
+      "placed": 54,
+      "refsInOrder": [
+        "J2",
+        "J1",
+        "J3",
+        "J4",
+        "U5",
+        "C_ADCA1",
+        "C_ADCA2",
+        "C_ADCD",
+        "C_ADC_REFCAP",
+        "C_AVDD9_HF",
+        "C_AVDD30_HF",
+        "C_ADC_REFIO",
+        "C_REFIO_B",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_DVDD34A",
+        "C_DVDD34B",
+        "U2",
+        "RF0",
+        "CF0",
+        "RF1",
+        "CF1",
+        "RF2",
+        "CF2",
+        "RF3",
+        "CF3",
+        "C_TIA_OP",
+        "C_ADC0",
+        "C_ADC1",
+        "C_ADC2",
+        "C_ADC3",
+        "R_ADC0",
+        "R_ADC1",
+        "R_ADC2",
+        "R_ADC3",
+        "U4",
+        "U1",
+        "C_MUX",
+        "C_ROW_OP",
+        "R_SEL_PD0",
+        "R_SEL_PD1",
+        "R_ENABLE_PD",
+        "D_FFC_ROW",
+        "D_FFC_COL",
+        "U6",
+        "C_REF",
+        "C_VCM_OUT",
+        "C_DIV",
+        "RD_TOP",
+        "RD_B1"
+      ]
+    },
+    {
+      "stage": "POWER_ALL_CAPS_SUPERVISORS_AND_BLEEDS",
+      "placed": 84,
+      "refsInOrder": [
+        "J2",
+        "J1",
+        "J3",
+        "J4",
+        "U5",
+        "C_ADCA1",
+        "C_ADCA2",
+        "C_ADCD",
+        "C_ADC_REFCAP",
+        "C_AVDD9_HF",
+        "C_AVDD30_HF",
+        "C_ADC_REFIO",
+        "C_REFIO_B",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_DVDD34A",
+        "C_DVDD34B",
+        "U2",
+        "RF0",
+        "CF0",
+        "RF1",
+        "CF1",
+        "RF2",
+        "CF2",
+        "RF3",
+        "CF3",
+        "C_TIA_OP",
+        "C_ADC0",
+        "C_ADC1",
+        "C_ADC2",
+        "C_ADC3",
+        "R_ADC0",
+        "R_ADC1",
+        "R_ADC2",
+        "R_ADC3",
+        "U4",
+        "U1",
+        "C_MUX",
+        "C_ROW_OP",
+        "R_SEL_PD0",
+        "R_SEL_PD1",
+        "R_ENABLE_PD",
+        "D_FFC_ROW",
+        "D_FFC_COL",
+        "U6",
+        "C_REF",
+        "C_VCM_OUT",
+        "C_DIV",
+        "RD_TOP",
+        "RD_B1",
+        "U9",
+        "U8",
+        "U11",
+        "U12",
+        "U11_CT_C",
+        "U11_SENSE_C",
+        "U11_VDD_C",
+        "U12_CT_C",
+        "U12_SENSE_C",
+        "U12_VDD_C",
+        "C_LDO_FF",
+        "C_LDO_IN",
+        "C_LDO_OUT",
+        "C_PWR",
+        "U9_IN_CAP",
+        "U9_OUT_CAP",
+        "D_LDO_REV",
+        "R_LDO_BOT",
+        "R_LDO_EN_PU",
+        "R_LDO_TOP",
+        "U10_BLEED",
+        "U11_BOT",
+        "U11_TOP0",
+        "U12_BOT",
+        "U12_TOP0",
+        "U9_BLEED",
+        "U9_EN_G",
+        "U9_EN_R",
+        "U9_OV_B1",
+        "U9_OV_T"
+      ]
+    },
+    {
+      "stage": "ALL101_COMPLETE",
+      "placed": 101,
+      "refsInOrder": [
+        "J2",
+        "J1",
+        "J3",
+        "J4",
+        "U5",
+        "C_ADCA1",
+        "C_ADCA2",
+        "C_ADCD",
+        "C_ADC_REFCAP",
+        "C_AVDD9_HF",
+        "C_AVDD30_HF",
+        "C_ADC_REFIO",
+        "C_REFIO_B",
+        "C_REFCAP_BULKA",
+        "C_REFCAP_BULKB",
+        "C_AVDD9A",
+        "C_AVDD9B",
+        "C_AVDD30A",
+        "C_AVDD30B",
+        "C_DVDD34A",
+        "C_DVDD34B",
+        "U2",
+        "RF0",
+        "CF0",
+        "RF1",
+        "CF1",
+        "RF2",
+        "CF2",
+        "RF3",
+        "CF3",
+        "C_TIA_OP",
+        "C_ADC0",
+        "C_ADC1",
+        "C_ADC2",
+        "C_ADC3",
+        "R_ADC0",
+        "R_ADC1",
+        "R_ADC2",
+        "R_ADC3",
+        "U4",
+        "U1",
+        "C_MUX",
+        "C_ROW_OP",
+        "R_SEL_PD0",
+        "R_SEL_PD1",
+        "R_ENABLE_PD",
+        "D_FFC_ROW",
+        "D_FFC_COL",
+        "U6",
+        "C_REF",
+        "C_VCM_OUT",
+        "C_DIV",
+        "RD_TOP",
+        "RD_B1",
+        "U9",
+        "U8",
+        "U11",
+        "U12",
+        "U11_CT_C",
+        "U11_SENSE_C",
+        "U11_VDD_C",
+        "U12_CT_C",
+        "U12_SENSE_C",
+        "U12_VDD_C",
+        "C_LDO_FF",
+        "C_LDO_IN",
+        "C_LDO_OUT",
+        "C_PWR",
+        "U9_IN_CAP",
+        "U9_OUT_CAP",
+        "D_LDO_REV",
+        "R_LDO_BOT",
+        "R_LDO_EN_PU",
+        "R_LDO_TOP",
+        "U10_BLEED",
+        "U11_BOT",
+        "U11_TOP0",
+        "U12_BOT",
+        "U12_TOP0",
+        "U9_BLEED",
+        "U9_EN_G",
+        "U9_EN_R",
+        "U9_OV_B1",
+        "U9_OV_T",
+        "U7",
+        "C_MCU1",
+        "C_MCU_BULK",
+        "R_RST",
+        "R_CS_PU",
+        "R_ADC_RESET_PD",
+        "D_DBG0",
+        "D_DBG1",
+        "D_DBG2",
+        "D_DBG3",
+        "R_J3_1",
+        "R_J3_3",
+        "R_J3_4",
+        "R_J3_5",
+        "R_J4_1",
+        "R_J4_3",
+        "R_J4_4"
+      ]
+    }
+  ],
+  "edgeReserves": {
+    "J2": [
+      -10,
+      21,
+      8,
+      37
+    ],
+    "J1": [
+      3,
+      -10,
+      13,
+      5.5
+    ],
+    "J3": [
+      44.5,
+      32,
+      60,
+      49
+    ],
+    "J4": [
+      44.5,
+      14,
+      60,
+      27
+    ]
+  },
+  "banks": {
+    "REFIO": {
+      "pin": "5",
+      "tiers": [
+        [
+          "C_ADC_REFIO",
+          "C_REFIO_B"
+        ]
+      ]
+    },
+    "REFCAP": {
+      "pin": "7",
+      "tiers": [
+        [
+          "C_ADC_REFCAP"
+        ],
+        [
+          "C_REFCAP_BULKA",
+          "C_REFCAP_BULKB"
+        ]
+      ]
+    },
+    "AVDD9": {
+      "pin": "9",
+      "tiers": [
+        [
+          "C_ADCA1"
+        ],
+        [
+          "C_AVDD9_HF"
+        ],
+        [
+          "C_AVDD9A",
+          "C_AVDD9B"
+        ]
+      ]
+    },
+    "AVDD30": {
+      "pin": "30",
+      "tiers": [
+        [
+          "C_ADCA2"
+        ],
+        [
+          "C_AVDD30_HF"
+        ],
+        [
+          "C_AVDD30A",
+          "C_AVDD30B"
+        ]
+      ]
+    },
+    "DVDD34": {
+      "pin": "34",
+      "tiers": [
+        [
+          "C_ADCD"
+        ],
+        [
+          "C_DVDD34A",
+          "C_DVDD34B"
+        ]
+      ]
+    }
+  },
+  "geometryAudit": {
+    "pairs": 5050,
+    "physicalProxyCollisions": [],
+    "bodyCollisions": [],
+    "minimumProxyGapMm": 0.20240409999999898,
+    "minimumPair": [
+      "D_FFC_ROW",
+      "U1"
+    ]
+  },
+  "actualNativeOutlineChanged": false,
+  "J2ExactMechanicalHOLD": true,
+  "oldCoordinatesUsed": false,
+  "localChange": {
+    "U4": [
+      11.735,
+      20.5,
+      90
+    ],
+    "U1": [
+      11.735,
+      26.1,
+      0
+    ],
+    "C_MUX": [
+      6.5,
+      19.5,
+      180
+    ],
+    "C_ROW_OP": [
+      10.5,
+      23.8,
+      0
+    ],
+    "R_SEL_PD0": [
+      15,
+      17.25,
+      0
+    ],
+    "R_SEL_PD1": [
+      7.5,
+      16.9,
+      0
+    ],
+    "R_ENABLE_PD": [
+      17,
+      18,
+      90
+    ],
+    "RD_TOP": [
+      14.3,
+      25.6,
+      90
+    ],
+    "RD_B1": [
+      14.1,
+      28.35,
+      0
+    ],
+    "C_DIV": [
+      12.5,
+      29.5,
+      180
+    ]
+  },
+  "baselineCommit": "055c73356a4d124ccd58867c7206d6b0353daf5e",
+  "noGlobalPlacementOptimization": true
+}
